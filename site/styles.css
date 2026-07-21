@@ -244,9 +244,76 @@ a {
 }
 
 .fixtures-toolbar__dates {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  min-width: min(100%, 520px);
+}
+
+.date-selector {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr) 64px;
+  align-items: stretch;
+  border: 1px solid rgba(23, 32, 51, 0.12);
+  border-radius: 24px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 12px 28px rgba(23, 32, 51, 0.08);
+}
+
+.date-selector__step {
+  appearance: none;
+  border: 0;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--accent);
+  font: 700 2rem/1 var(--font-display);
+  cursor: pointer;
+  transition: background 160ms ease, color 160ms ease;
+}
+
+.date-selector__step:hover:not(:disabled) {
+  background: rgba(31, 94, 255, 0.08);
+}
+
+.date-selector__step:disabled {
+  color: rgba(83, 96, 122, 0.4);
+  cursor: not-allowed;
+}
+
+.date-selector__field {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  min-width: 0;
+  padding: 10px 18px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(244, 248, 255, 0.96));
+  border-inline: 1px solid rgba(23, 32, 51, 0.08);
+}
+
+.date-selector__label {
+  position: absolute;
+  top: 8px;
+  left: 14px;
+  color: var(--muted);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.date-selector__select {
+  width: 100%;
+  min-width: 0;
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font: 700 1.05rem/1 var(--font-display);
+  text-align: center;
+  text-align-last: center;
+  padding: 18px 28px 6px;
+  cursor: pointer;
+}
+
+.date-selector__select:focus {
+  outline: none;
 }
 
 .state-copy {
@@ -556,6 +623,10 @@ a {
   .fixture-card__meta {
     font-size: 0.92rem;
   }
+
+  .fixtures-toolbar__dates {
+    min-width: 100%;
+  }
 }
 
 @media (max-width: 640px) {
@@ -573,5 +644,13 @@ a {
   .topbar {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .date-selector {
+    grid-template-columns: 56px minmax(0, 1fr) 56px;
+  }
+
+  .date-selector__select {
+    font-size: 0.94rem;
   }
 }

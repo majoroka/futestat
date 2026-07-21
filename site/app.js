@@ -73,24 +73,75 @@ function renderDateFilters() {
     return;
   }
 
-  datesEl.innerHTML = "";
+  const dates = state.snapshot.datesIncluded;
+  const selectedIndex = Math.max(dates.indexOf(state.selectedDate), 0);
+  const previousDisabled = selectedIndex <= 0;
+  const nextDisabled = selectedIndex >= dates.length - 1;
 
-  for (const date of state.snapshot.datesIncluded) {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = date === state.selectedDate ? "chip chip--active" : "chip";
-    button.textContent = date === state.snapshot.referenceDate ? `${date} · Hoje` : date;
-    button.addEventListener("click", () => {
-      state.selectedDate = date;
-      state.selectedFixtureId =
-        state.snapshot.fixtures.find((fixture) => fixture.matchDate === date)?.sourceEventId ??
-        null;
-      renderDateFilters();
-      renderFixtures();
-      renderFixtureDetail();
-    });
-    datesEl.appendChild(button);
-  }
+  datesEl.innerHTML = `
+    <div class="date-selector" role="group" aria-label="Selecionar dia">
+      <button
+        class="date-selector__step"
+        type="button"
+        data-date-nav="prev"
+        aria-label="Dia anterior"
+        ${previousDisabled ? "disabled" : ""}
+      >
+        <span aria-hidden="true">‹</span>
+      </button>
+      <label class="date-selector__field">
+        <span class="date-selector__label">Dia</span>
+        <select class="date-selector__select" data-date-select>
+          ${dates
+            .map(
+              (date) => `
+                <option value="${escapeAttribute(date)}" ${date === state.selectedDate ? "selected" : ""}>
+                  ${escapeHtml(formatDateOptionLabel(date))}
+                </option>
+              `,
+            )
+            .join("")}
+        </select>
+      </label>
+      <button
+        class="date-selector__step"
+        type="button"
+        data-date-nav="next"
+        aria-label="Dia seguinte"
+        ${nextDisabled ? "disabled" : ""}
+      >
+        <span aria-hidden="true">›</span>
+      </button>
+    </div>
+  `;
+
+  const select = datesEl.querySelector("[data-date-select]");
+  select?.addEventListener("change", (event) => {
+    const target = event.currentTarget;
+    if (!(target instanceof HTMLSelectElement)) {
+      return;
+    }
+
+    selectDate(target.value);
+  });
+
+  const previousButton = datesEl.querySelector('[data-date-nav="prev"]');
+  previousButton?.addEventListener("click", () => {
+    if (previousDisabled) {
+      return;
+    }
+
+    selectDate(dates[selectedIndex - 1] ?? state.selectedDate);
+  });
+
+  const nextButton = datesEl.querySelector('[data-date-nav="next"]');
+  nextButton?.addEventListener("click", () => {
+    if (nextDisabled) {
+      return;
+    }
+
+    selectDate(dates[selectedIndex + 1] ?? state.selectedDate);
+  });
 }
 
 function renderFixtures() {
@@ -280,8 +331,25 @@ function metricCard(label, value) {
   `;
 }
 
+function selectDate(date) {
+  state.selectedDate = date;
+  state.selectedFixtureId =
+    state.snapshot.fixtures.find((fixture) => fixture.matchDate === date)?.sourceEventId ?? null;
+  renderDateFilters();
+  renderFixtures();
+  renderFixtureDetail();
+}
+
 function buildFixtureStateCopy(count, date) {
   return `${count} jogos visíveis para ${date} - Hora de Lisboa`;
+}
+
+function formatDateOptionLabel(date) {
+  if (date === state.snapshot?.referenceDate) {
+    return `${date} · Hoje`;
+  }
+
+  return date;
 }
 
 function renderTeamLine({ name, logoUrl, teamId, score, status }) {
