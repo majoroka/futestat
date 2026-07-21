@@ -305,7 +305,7 @@ a {
   border: 0;
   background: transparent;
   color: var(--ink);
-  font: 700 1.05rem/1 var(--font-display);
+  font: 400 1.05rem/1 var(--font-display);
   text-align: center;
   text-align-last: center;
   padding: 18px 28px 6px;
@@ -355,8 +355,11 @@ a {
 }
 
 .competition-group__summary-copy {
-  display: grid;
-  gap: 6px;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  min-width: 0;
+  flex: 1;
 }
 
 .competition-group__country {
@@ -364,12 +367,22 @@ a {
   font-size: 0.84rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.competition-group__separator {
+  opacity: 0.6;
+  font-size: 0.9rem;
 }
 
 .competition-group__title {
-  display: block;
-  font-size: 1.16rem;
-  font-family: var(--font-display);
+  min-width: 0;
+  font-size: 0.98rem;
+  font-family: var(--font-sans);
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .competition-group__arrow {

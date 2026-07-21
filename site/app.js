@@ -223,6 +223,7 @@ function renderCompetitionGroup(group) {
       <summary class="competition-group__summary">
         <span class="competition-group__summary-copy">
           <span class="competition-group__country">${escapeHtml(group.countryName)}</span>
+          <span class="competition-group__separator" aria-hidden="true">·</span>
           <span class="competition-group__title">${escapeHtml(group.competitionName)}</span>
         </span>
         <span class="competition-group__arrow" aria-hidden="true"></span>
