@@ -88,8 +88,6 @@ async function loadFixtureSnapshot() {
 }
 
 function renderHomePage({ projectName, snapshot }) {
-  const generatedAt = new Date().toISOString();
-
   return `<!doctype html>
 <html lang="en">
   <head>
@@ -106,77 +104,32 @@ function renderHomePage({ projectName, snapshot }) {
           <span class="brand__mark">F</span>
           <span class="brand__copy">
             <strong>${escapeHtml(projectName)}</strong>
-            <span>Upcoming fixtures and static project docs</span>
+            <span>Upcoming fixtures snapshot</span>
           </span>
         </a>
         <nav class="nav" aria-label="Primary">
-          <a href="./docs/index.html">Documentation</a>
-          <a href="./docs/architecture.html">Architecture</a>
-          <a href="./docs/roadmap.html">Roadmap</a>
           <a href="./fixtures/latest.json">Fixtures JSON</a>
         </nav>
       </header>
 
-      <section class="hero">
-        <p class="hero__eyebrow">GitHub Pages</p>
-        <h1>Futestat public snapshot.</h1>
-        <p class="hero__lede">
-          This static site publishes the latest committed snapshot of upcoming Sofascore football fixtures,
-          plus the current architecture and roadmap for the project. It is intentionally small, inspectable,
-          and easy to deploy from the default branch.
+      <main class="panel panel--full">
+        <h1>Upcoming fixtures</h1>
+        <p class="panel__intro">
+          The list below is rendered from the committed <code>data/fixtures/latest.json</code> snapshot.
         </p>
-        <div class="hero__meta">
-          <span class="hero__pill">Source: ${escapeHtml(snapshot.source ?? "unknown")}</span>
-          <span class="hero__pill">Status: ${escapeHtml(snapshot.status ?? "n/a")}</span>
-          <span class="hero__pill">Generated: ${escapeHtml(formatDateTime(generatedAt))}</span>
+        <section class="metric-grid" data-fixture-summary></section>
+        <div class="fixtures-toolbar">
+          <div class="fixtures-toolbar__dates" data-date-filters></div>
+          <p class="state-copy" data-fixture-state>
+            ${snapshot.fixtureCount > 0 ? "Loading fixtures..." : "No published snapshot yet."}
+          </p>
         </div>
-      </section>
-
-      <div class="content-grid">
-        <main class="panel">
-          <h2>Upcoming fixtures</h2>
-          <p class="panel__intro">
-            The cards below are rendered from the committed <code>data/fixtures/latest.json</code> snapshot.
-            To update them on Pages, regenerate the fixtures locally, commit the new snapshot, and push to <code>main</code>.
-          </p>
-          <section class="metric-grid" data-fixture-summary></section>
-          <div class="fixtures-toolbar">
-            <div class="fixtures-toolbar__dates" data-date-filters></div>
-            <p class="state-copy" data-fixture-state>
-              ${snapshot.fixtureCount > 0 ? "Loading fixtures..." : "No published snapshot yet."}
-            </p>
-          </div>
-          <div class="competition-stack" data-fixture-groups></div>
-        </main>
-
-        <aside class="panel">
-          <h2>Documentation</h2>
-          <p class="panel__intro">
-            The Pages build converts the repository docs into static HTML so the project can be reviewed without opening the codebase.
-          </p>
-          <div class="docs-stack">
-            <a class="docs-card" href="./docs/readme.html">
-              <p>Project</p>
-              <h3>Overview and setup</h3>
-              <span>Scope of the scraper, execution commands, local output, and Pages notes.</span>
-            </a>
-            <a class="docs-card" href="./docs/architecture.html">
-              <p>Design</p>
-              <h3>Architecture and safeguards</h3>
-              <span>Current structure, source choices, and operational risks already identified.</span>
-            </a>
-            <a class="docs-card" href="./docs/roadmap.html">
-              <p>Planning</p>
-              <h3>Roadmap by phase</h3>
-              <span>What comes after the fixtures MVP: hardening, finished matches, and team stats.</span>
-            </a>
-          </div>
-        </aside>
-      </div>
+        <div class="competition-stack" data-fixture-groups></div>
+      </main>
 
       <footer class="footer">
         <span>Committed snapshot: ${escapeHtml(formatDateTime(snapshot.scrapedAtUtc))}</span>
-        <span>Static docs build for GitHub Pages.</span>
+        <span>Source: ${escapeHtml(snapshot.source ?? "unknown")}</span>
       </footer>
     </div>
     <script type="module" src="./assets/app.js"></script>

@@ -117,76 +117,6 @@ a {
   border-color: var(--ink);
 }
 
-.hero {
-  position: relative;
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.55);
-  border-radius: calc(var(--radius) + 8px);
-  background: linear-gradient(145deg, rgba(255, 249, 241, 0.95), rgba(244, 239, 230, 0.9));
-  box-shadow: var(--shadow);
-  padding: 32px;
-  margin-bottom: 24px;
-}
-
-.hero::after {
-  content: "";
-  position: absolute;
-  inset: auto -90px -100px auto;
-  width: 240px;
-  height: 240px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(15, 123, 108, 0.18), transparent 70%);
-}
-
-.hero__eyebrow {
-  margin: 0 0 10px;
-  color: var(--accent);
-  font: 700 0.82rem/1 var(--font-display);
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
-.hero h1 {
-  margin: 0;
-  max-width: 12ch;
-  font: 700 clamp(2.8rem, 7vw, 5rem)/0.94 var(--font-display);
-  letter-spacing: -0.04em;
-}
-
-.hero__lede {
-  max-width: 62ch;
-  margin: 18px 0 0;
-  color: var(--muted);
-  font-size: 1.02rem;
-  line-height: 1.7;
-}
-
-.hero__meta {
-  margin-top: 24px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.hero__pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  border-radius: 999px;
-  padding: 10px 14px;
-  background: rgba(255, 255, 255, 0.66);
-  border: 1px solid rgba(23, 32, 51, 0.08);
-  color: var(--ink);
-  font-size: 0.92rem;
-}
-
-.content-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.8fr) minmax(280px, 0.95fr);
-  gap: 24px;
-  align-items: start;
-}
-
 .panel {
   border: 1px solid rgba(255, 255, 255, 0.62);
   border-radius: var(--radius);
@@ -194,6 +124,10 @@ a {
   box-shadow: var(--shadow);
   padding: 24px;
   backdrop-filter: blur(14px);
+}
+
+.panel--full {
+  width: 100%;
 }
 
 .panel h1,
@@ -473,10 +407,6 @@ a {
 }
 
 @media (max-width: 960px) {
-  .content-grid {
-    grid-template-columns: 1fr;
-  }
-
   .metric-grid {
     grid-template-columns: 1fr;
   }
@@ -497,14 +427,9 @@ a {
     padding-top: 16px;
   }
 
-  .hero,
   .panel,
   .doc-card {
     padding: 20px;
-  }
-
-  .hero h1 {
-    max-width: none;
   }
 
   .topbar {
