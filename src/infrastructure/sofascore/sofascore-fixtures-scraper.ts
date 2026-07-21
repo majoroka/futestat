@@ -3,7 +3,11 @@ import { chromium, type BrowserContext, type Page } from "playwright";
 import type { AppConfig } from "../../config/app-config.js";
 import type { FixtureSnapshot, UpcomingFixture } from "../../domain/fixture.js";
 import { kickoffUtcFromDateAndTime } from "../../lib/date.js";
-import { absoluteMatchUrl, buildSofascoreDateUrl } from "./sofascore-helpers.js";
+import {
+  absoluteMatchUrl,
+  buildSofascoreDateUrl,
+  buildTeamLogoUrl,
+} from "./sofascore-helpers.js";
 import type { RawSofascoreFixture } from "./sofascore-types.js";
 
 export class SofascoreFixturesScraper {
@@ -138,6 +142,13 @@ export class SofascoreFixturesScraper {
               .map((node) => node.textContent?.trim() ?? "")
               .filter(Boolean);
 
+            const teamImageUrls = Array.from(
+              child.querySelectorAll<HTMLImageElement>('img[src*="/api/v1/team/"]'),
+            )
+              .map((image) => image.src)
+              .filter(Boolean)
+              .slice(0, 2);
+
             const isUpcoming = /^\d{2}:\d{2}$/.test(kickoffTime) && scoreMarker === "-";
 
             if (!eventId || teams.length < 2 || !isUpcoming) {
@@ -149,7 +160,13 @@ export class SofascoreFixturesScraper {
               kickoffTime,
               competitionName: currentCompetition,
               countryName: currentCountry,
+              homeTeamId:
+                teamImageUrls[0]?.match(/\/api\/v1\/team\/(\d+)\/image(?:\/small)?$/)?.[1] ??
+                null,
               homeTeamName: teams[0] ?? null,
+              awayTeamId:
+                teamImageUrls[1]?.match(/\/api\/v1\/team\/(\d+)\/image(?:\/small)?$/)?.[1] ??
+                null,
               awayTeamName: teams[1] ?? null,
               href: new URL(href, baseUrl).toString(),
             });
@@ -168,8 +185,12 @@ export class SofascoreFixturesScraper {
       kickoffAtUtc: kickoffUtcFromDateAndTime(date, fixture.kickoffTime),
       competitionName: fixture.competitionName,
       countryName: fixture.countryName,
+      homeTeamId: fixture.homeTeamId,
       homeTeamName: fixture.homeTeamName,
+      homeTeamLogoUrl: fixture.homeTeamId ? buildTeamLogoUrl(fixture.homeTeamId) : null,
+      awayTeamId: fixture.awayTeamId,
       awayTeamName: fixture.awayTeamName,
+      awayTeamLogoUrl: fixture.awayTeamId ? buildTeamLogoUrl(fixture.awayTeamId) : null,
       matchUrl: absoluteMatchUrl(this.config.baseUrl, fixture.href),
       scrapedAtUtc,
     }));

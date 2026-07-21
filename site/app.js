@@ -142,11 +142,17 @@ function renderCompetitionGroup(group) {
             <span>${formatKickoffTime(fixture.kickoffAtUtc)}</span>
           </div>
           <div class="fixture-card__teams">
-            <strong>${escapeHtml(fixture.homeTeamName)}</strong>
-            <span class="fixture-card__vs">vs</span>
-            <strong>${escapeHtml(fixture.awayTeamName)}</strong>
+            ${renderTeamLine({
+              name: fixture.homeTeamName,
+              logoUrl: fixture.homeTeamLogoUrl,
+              teamId: fixture.homeTeamId,
+            })}
+            ${renderTeamLine({
+              name: fixture.awayTeamName,
+              logoUrl: fixture.awayTeamLogoUrl,
+              teamId: fixture.awayTeamId,
+            })}
           </div>
-          <button class="fixture-card__action" type="button">Ver</button>
         </article>
       `,
     )
@@ -266,6 +272,22 @@ function buildFixtureStateCopy(count, date) {
   return `${count} upcoming fixtures for ${date} - Hora de Lisboa`;
 }
 
+function renderTeamLine({ name, logoUrl, teamId }) {
+  const safeName = escapeHtml(name);
+  const crest = logoUrl
+    ? `<img class="team-line__crest" src="${escapeAttribute(logoUrl)}" alt="${safeName}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`
+    : `<span class="team-line__crest team-line__crest--fallback" aria-hidden="true">${escapeHtml(
+        buildTeamInitials(name, teamId),
+      )}</span>`;
+
+  return `
+    <span class="team-line">
+      ${crest}
+      <span class="team-line__name">${safeName}</span>
+    </span>
+  `;
+}
+
 function formatKickoff(value) {
   const date = new Date(value);
   return Number.isNaN(date.getTime())
@@ -284,6 +306,17 @@ function formatKickoffTime(value) {
   return Number.isNaN(date.getTime()) ? value : timeOnlyFormatter.format(date);
 }
 
+function buildTeamInitials(name, teamId) {
+  const initials = String(name)
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((part) => part[0]?.toUpperCase() ?? "")
+    .join("");
+
+  return initials || String(teamId ?? "?").slice(0, 2).toUpperCase();
+}
+
 function escapeHtml(value) {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -291,4 +324,8 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
+}
+
+function escapeAttribute(value) {
+  return escapeHtml(value);
 }

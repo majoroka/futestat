@@ -1,180 +1,12 @@
 {
   "source": "sofascore",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-21T11:11:13.675Z",
+  "scrapedAtUtc": "2026-07-21T19:16:21.288Z",
   "datesScraped": [
     "2026-07-21"
   ],
-  "fixtureCount": 20,
+  "fixtureCount": 6,
   "fixtures": [
-    {
-      "source": "sofascore",
-      "sourceEventId": "16350227",
-      "scrapeDate": "2026-07-21",
-      "kickoffAtUtc": "2026-07-21T16:00:00.000Z",
-      "competitionName": "UEFA Champions League, Qualification",
-      "countryName": "Europe",
-      "homeTeamName": "Ararat-Armenia",
-      "awayTeamName": "Shamrock Rovers",
-      "matchUrl": "https://www.sofascore.com/football/match/fc-ararat-armenia-shamrock-rovers/CnbsEUec#id:16350227",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
-    },
-    {
-      "source": "sofascore",
-      "sourceEventId": "16350221",
-      "scrapeDate": "2026-07-21",
-      "kickoffAtUtc": "2026-07-21T16:00:00.000Z",
-      "competitionName": "UEFA Champions League, Qualification",
-      "countryName": "Europe",
-      "homeTeamName": "Iberia",
-      "awayTeamName": "Slovan",
-      "matchUrl": "https://www.sofascore.com/football/match/fc-iberia-1999-sk-slovan-bratislava/eYsmBW#id:16350221",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
-    },
-    {
-      "source": "sofascore",
-      "sourceEventId": "16350228",
-      "scrapeDate": "2026-07-21",
-      "kickoffAtUtc": "2026-07-21T16:00:00.000Z",
-      "competitionName": "UEFA Champions League, Qualification",
-      "countryName": "Europe",
-      "homeTeamName": "Mjällby",
-      "awayTeamName": "Lincoln RI",
-      "matchUrl": "https://www.sofascore.com/football/match/lincoln-red-imps-mjallby-aif/IKseBab#id:16350228",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
-    },
-    {
-      "source": "sofascore",
-      "sourceEventId": "16526434",
-      "scrapeDate": "2026-07-21",
-      "kickoffAtUtc": "2026-07-21T16:00:00.000Z",
-      "competitionName": "UEFA Champions League, Qualification",
-      "countryName": "Europe",
-      "homeTeamName": "Sabah",
-      "awayTeamName": "KuPS",
-      "matchUrl": "https://www.sofascore.com/football/match/sabah-fk-kuopion-palloseura/UUsDghc#id:16526434",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
-    },
-    {
-      "source": "sofascore",
-      "sourceEventId": "16350225",
-      "scrapeDate": "2026-07-21",
-      "kickoffAtUtc": "2026-07-21T17:00:00.000Z",
-      "competitionName": "UEFA Champions League, Qualification",
-      "countryName": "Europe",
-      "homeTeamName": "AGF",
-      "awayTeamName": "Lech",
-      "matchUrl": "https://www.sofascore.com/football/match/lech-poznan-agf/QAswmb#id:16350225",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
-    },
-    {
-      "source": "sofascore",
-      "sourceEventId": "16351121",
-      "scrapeDate": "2026-07-21",
-      "kickoffAtUtc": "2026-07-21T17:00:00.000Z",
-      "competitionName": "UEFA Conference League, Qualification",
-      "countryName": "Europe",
-      "homeTeamName": "Göteborg",
-      "awayTeamName": "Levadia",
-      "matchUrl": "https://www.sofascore.com/football/match/fci-levadia-tallinn-ifk-goteborg/lKsRqb#id:16351121",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
-    },
-    {
-      "source": "sofascore",
-      "sourceEventId": "16357200",
-      "scrapeDate": "2026-07-21",
-      "kickoffAtUtc": "2026-07-21T17:30:00.000Z",
-      "competitionName": "UEFA Conference League, Qualification",
-      "countryName": "Europe",
-      "homeTeamName": "Floriana",
-      "awayTeamName": "Drita",
-      "matchUrl": "https://www.sofascore.com/football/match/fc-drita-floriana-fc/JwnsfVQb#id:16357200",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
-    },
-    {
-      "source": "sofascore",
-      "sourceEventId": "16350222",
-      "scrapeDate": "2026-07-21",
-      "kickoffAtUtc": "2026-07-21T18:00:00.000Z",
-      "competitionName": "UEFA Champions League, Qualification",
-      "countryName": "Europe",
-      "homeTeamName": "Fenerbahçe",
-      "awayTeamName": "Górnik",
-      "matchUrl": "https://www.sofascore.com/football/match/gornik-zabrze-fenerbahce/clbskmb#id:16350222",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
-    },
-    {
-      "source": "sofascore",
-      "sourceEventId": "16350223",
-      "scrapeDate": "2026-07-21",
-      "kickoffAtUtc": "2026-07-21T18:00:00.000Z",
-      "competitionName": "UEFA Champions League, Qualification",
-      "countryName": "Europe",
-      "homeTeamName": "Thun",
-      "awayTeamName": "Dinamo",
-      "matchUrl": "https://www.sofascore.com/football/match/fc-thun-gnk-dinamo-zagreb/HPseZ#id:16350223",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
-    },
-    {
-      "source": "sofascore",
-      "sourceEventId": "16357195",
-      "scrapeDate": "2026-07-21",
-      "kickoffAtUtc": "2026-07-21T18:15:00.000Z",
-      "competitionName": "UEFA Conference League, Qualification",
-      "countryName": "Europe",
-      "homeTeamName": "Bissen",
-      "awayTeamName": "Győr",
-      "matchUrl": "https://www.sofascore.com/football/match/atert-bissen-eto-fc-gyor/yNsOEp#id:16357195",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
-    },
-    {
-      "source": "sofascore",
-      "sourceEventId": "16350220",
-      "scrapeDate": "2026-07-21",
-      "kickoffAtUtc": "2026-07-21T18:30:00.000Z",
-      "competitionName": "UEFA Champions League, Qualification",
-      "countryName": "Europe",
-      "homeTeamName": "Sturm",
-      "awayTeamName": "Hearts",
-      "matchUrl": "https://www.sofascore.com/football/match/heart-of-midlothian-sk-sturm-graz/bQsdX#id:16350220",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
-    },
-    {
-      "source": "sofascore",
-      "sourceEventId": "16350226",
-      "scrapeDate": "2026-07-21",
-      "kickoffAtUtc": "2026-07-21T18:45:00.000Z",
-      "competitionName": "UEFA Champions League, Qualification",
-      "countryName": "Europe",
-      "homeTeamName": "Klaksvík",
-      "awayTeamName": "Kauno Žalgiris",
-      "matchUrl": "https://www.sofascore.com/football/match/fk-kauno-zalgiris-klaksvikar-itrottarfelag/UdcsQoH#id:16350226",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
-    },
-    {
-      "source": "sofascore",
-      "sourceEventId": "16350234",
-      "scrapeDate": "2026-07-21",
-      "kickoffAtUtc": "2026-07-21T19:00:00.000Z",
-      "competitionName": "UEFA Champions League, Qualification",
-      "countryName": "Europe",
-      "homeTeamName": "Larne FC",
-      "awayTeamName": "Crvena zvezda",
-      "matchUrl": "https://www.sofascore.com/football/match/larne-fc-fk-crvena-zvezda/ZccsJdc#id:16350234",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
-    },
-    {
-      "source": "sofascore",
-      "sourceEventId": "16350232",
-      "scrapeDate": "2026-07-21",
-      "kickoffAtUtc": "2026-07-21T19:00:00.000Z",
-      "competitionName": "UEFA Champions League, Qualification",
-      "countryName": "Europe",
-      "homeTeamName": "Víkingur",
-      "awayTeamName": "H. Be'er Sheva",
-      "matchUrl": "https://www.sofascore.com/football/match/hapoel-beer-sheva-vikingur-reykjavik/iNscec#id:16350232",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
-    },
     {
       "source": "sofascore",
       "sourceEventId": "15502618",
@@ -182,10 +14,14 @@
       "kickoffAtUtc": "2026-07-21T21:30:00.000Z",
       "competitionName": "LigaPro Serie A, Primera Etapa",
       "countryName": "Ecuador",
+      "homeTeamId": "394127",
       "homeTeamName": "Libertad",
+      "homeTeamLogoUrl": "https://img.sofascore.com/api/v1/team/394127/image/small",
+      "awayTeamId": "213638",
       "awayTeamName": "Delfín",
+      "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/213638/image/small",
       "matchUrl": "https://www.sofascore.com/football/match/libertad-delfin/NxKbsCHhd#id:15502618",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
+      "scrapedAtUtc": "2026-07-21T19:16:21.288Z"
     },
     {
       "source": "sofascore",
@@ -194,10 +30,14 @@
       "kickoffAtUtc": "2026-07-21T22:00:00.000Z",
       "competitionName": "CONMEBOL Sudamericana, Knockout stage",
       "countryName": "South America",
+      "homeTeamId": "3230",
       "homeTeamName": "Nacional",
+      "homeTeamLogoUrl": "https://img.sofascore.com/api/v1/team/3230/image/small",
+      "awayTeamId": "7628",
       "awayTeamName": "Tigre",
+      "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/7628/image/small",
       "matchUrl": "https://www.sofascore.com/football/match/tigre-nacional/FobsDcd#id:16251104",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
+      "scrapedAtUtc": "2026-07-21T19:16:21.288Z"
     },
     {
       "source": "sofascore",
@@ -206,10 +46,14 @@
       "kickoffAtUtc": "2026-07-21T22:30:00.000Z",
       "competitionName": "Brasileirão Betano",
       "countryName": "Brazil",
+      "homeTeamId": "1977",
       "homeTeamName": "Atlético-MG",
+      "homeTeamLogoUrl": "https://img.sofascore.com/api/v1/team/1977/image/small",
+      "awayTeamId": "1955",
       "awayTeamName": "Bahia",
+      "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/1955/image/small",
       "matchUrl": "https://www.sofascore.com/football/match/atletico-mineiro-bahia/fOsCO#id:15237980",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
+      "scrapedAtUtc": "2026-07-21T19:16:21.288Z"
     },
     {
       "source": "sofascore",
@@ -218,10 +62,14 @@
       "kickoffAtUtc": "2026-07-21T22:30:00.000Z",
       "competitionName": "Brasileirão Série B",
       "countryName": "Brazil",
+      "homeTeamId": "7315",
       "homeTeamName": "Avaí",
+      "homeTeamLogoUrl": "https://img.sofascore.com/api/v1/team/7315/image/small",
+      "awayTeamId": "1973",
       "awayTeamName": "América-MG",
+      "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/1973/image/small",
       "matchUrl": "https://www.sofascore.com/football/match/avai-america-mineiro/yOspWc#id:15526194",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
+      "scrapedAtUtc": "2026-07-21T19:16:21.288Z"
     },
     {
       "source": "sofascore",
@@ -230,10 +78,14 @@
       "kickoffAtUtc": "2026-07-21T22:30:00.000Z",
       "competitionName": "Brasileirão Série B",
       "countryName": "Brazil",
+      "homeTeamId": "135514",
       "homeTeamName": "Novorizontino",
+      "homeTeamLogoUrl": "https://img.sofascore.com/api/v1/team/135514/image/small",
+      "awayTeamId": "1984",
       "awayTeamName": "Criciúma",
+      "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/1984/image/small",
       "matchUrl": "https://www.sofascore.com/football/match/gremio-novorizontino-criciuma/JOsokeb#id:15526189",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
+      "scrapedAtUtc": "2026-07-21T19:16:21.288Z"
     },
     {
       "source": "sofascore",
@@ -242,10 +94,14 @@
       "kickoffAtUtc": "2026-07-21T23:00:00.000Z",
       "competitionName": "División Profesional",
       "countryName": "Bolivia",
+      "homeTeamId": "372975",
       "homeTeamName": "Independiente Petrolero",
+      "homeTeamLogoUrl": "https://img.sofascore.com/api/v1/team/372975/image/small",
+      "awayTeamId": "7060",
       "awayTeamName": "Real Potosí",
+      "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/7060/image/small",
       "matchUrl": "https://www.sofascore.com/football/match/club-independiente-petrolero-real-potosi/kQcsAjZc#id:16389605",
-      "scrapedAtUtc": "2026-07-21T11:11:13.675Z"
+      "scrapedAtUtc": "2026-07-21T19:16:21.288Z"
     }
   ],
   "metadata": {

@@ -89,8 +89,12 @@ Exemplo resumido:
       "kickoffAtUtc": "2026-07-21T17:00:00.000Z",
       "competitionName": "UEFA Champions League, Qualification",
       "countryName": "Europe",
+      "homeTeamId": "4884",
       "homeTeamName": "Ararat-Armenia",
+      "homeTeamLogoUrl": "https://img.sofascore.com/api/v1/team/4884/image/small",
+      "awayTeamId": "5226",
       "awayTeamName": "Shamrock Rovers",
+      "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/5226/image/small",
       "matchUrl": "https://www.sofascore.com/football/match/fc-ararat-armenia-shamrock-rovers/CnbsEUec#id:16350227"
     }
   ]
@@ -103,6 +107,7 @@ O draft já incorpora algumas decisões de robustez:
 - URL por data em vez de clicar no calendário
 - deduplicação por `sourceEventId`
 - normalização de kickoff para `UTC`
+- extração de `teamId` a partir dos `img` dos cartões para construir URLs estáveis de logótipo
 - filtragem de cartões reais de agenda (`event-hl-*`)
 - exclusão de jogos live/finished pelo estado visual do cartão
 

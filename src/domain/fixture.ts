@@ -5,8 +5,12 @@ export interface UpcomingFixture {
   kickoffAtUtc: string;
   competitionName: string | null;
   countryName: string | null;
+  homeTeamId: string | null;
   homeTeamName: string;
+  homeTeamLogoUrl: string | null;
+  awayTeamId: string | null;
   awayTeamName: string;
+  awayTeamLogoUrl: string | null;
   matchUrl: string;
   scrapedAtUtc: string;
 }

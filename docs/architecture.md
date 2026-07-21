@@ -29,6 +29,7 @@ Contém a integração específica com o Sofascore:
 - construção da URL por data
 - automação Playwright
 - extração dos cartões principais de fixtures
+- derivação de `teamId` e URL de logótipo a partir das imagens dos cartões
 
 ### `infrastructure/storage`
 
