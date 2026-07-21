@@ -2,6 +2,7 @@ const summaryEl = document.querySelector("[data-fixture-summary]");
 const datesEl = document.querySelector("[data-date-filters]");
 const groupsEl = document.querySelector("[data-fixture-groups]");
 const stateEl = document.querySelector("[data-fixture-state]");
+const detailEl = document.querySelector("[data-fixture-detail]");
 
 const formatter = new Intl.DateTimeFormat("en-GB", {
   day: "2-digit",
@@ -14,6 +15,7 @@ const formatter = new Intl.DateTimeFormat("en-GB", {
 const state = {
   snapshot: null,
   selectedDate: null,
+  selectedFixtureId: null,
 };
 
 bootstrap().catch((error) => {
@@ -29,10 +31,14 @@ async function bootstrap() {
 
   state.snapshot = await response.json();
   state.selectedDate = state.snapshot.datesScraped[0] ?? null;
+  state.selectedFixtureId =
+    state.snapshot.fixtures.find((fixture) => fixture.scrapeDate === state.selectedDate)
+      ?.sourceEventId ?? null;
 
   renderSummary();
   renderDateFilters();
   renderFixtures();
+  renderFixtureDetail();
 }
 
 function renderSummary() {
@@ -62,8 +68,12 @@ function renderDateFilters() {
     button.textContent = date;
     button.addEventListener("click", () => {
       state.selectedDate = date;
+      state.selectedFixtureId =
+        state.snapshot.fixtures.find((fixture) => fixture.scrapeDate === date)?.sourceEventId ??
+        null;
       renderDateFilters();
       renderFixtures();
+      renderFixtureDetail();
     });
     datesEl.appendChild(button);
   }
@@ -90,6 +100,10 @@ function renderFixtures() {
     return;
   }
 
+  if (!fixtures.some((fixture) => fixture.sourceEventId === state.selectedFixtureId)) {
+    state.selectedFixtureId = fixtures[0]?.sourceEventId ?? null;
+  }
+
   stateEl.textContent = `${fixtures.length} upcoming fixtures for ${state.selectedDate}.`;
 
   const byCompetition = new Map();
@@ -107,6 +121,8 @@ function renderFixtures() {
   groupsEl.innerHTML = Array.from(byCompetition.values())
     .map((group) => renderCompetitionGroup(group))
     .join("");
+
+  bindFixtureInteractions();
 }
 
 function renderCompetitionGroup(group) {
@@ -114,7 +130,7 @@ function renderCompetitionGroup(group) {
     .sort((left, right) => left.kickoffAtUtc.localeCompare(right.kickoffAtUtc))
     .map(
       (fixture) => `
-        <article class="fixture-card">
+        <article class="fixture-card ${fixture.sourceEventId === state.selectedFixtureId ? "fixture-card--selected" : ""}" data-fixture-id="${fixture.sourceEventId}">
           <div class="fixture-card__meta">
             <span>${formatKickoff(fixture.kickoffAtUtc)}</span>
             <span>UTC</span>
@@ -124,24 +140,91 @@ function renderCompetitionGroup(group) {
             <span class="fixture-card__vs">vs</span>
             <strong>${escapeHtml(fixture.awayTeamName)}</strong>
           </div>
-          <a class="fixture-card__link" href="${fixture.matchUrl}" target="_blank" rel="noreferrer">
-            Open match page
-          </a>
+          <button class="fixture-card__action" type="button">View</button>
         </article>
       `,
     )
     .join("");
 
   return `
-    <section class="competition-group">
-      <header class="competition-group__header">
-        <p>${escapeHtml(group.countryName)}</p>
-        <h3>${escapeHtml(group.competitionName)}</h3>
-      </header>
+    <details class="competition-group" open>
+      <summary class="competition-group__summary">
+        <span class="competition-group__summary-copy">
+          <span class="competition-group__country">${escapeHtml(group.countryName)}</span>
+          <span class="competition-group__title">${escapeHtml(group.competitionName)}</span>
+        </span>
+        <span class="competition-group__arrow" aria-hidden="true"></span>
+      </summary>
       <div class="competition-group__fixtures">
         ${fixtureCards}
       </div>
-    </section>
+    </details>
+  `;
+}
+
+function bindFixtureInteractions() {
+  for (const card of document.querySelectorAll("[data-fixture-id]")) {
+    card.addEventListener("click", () => {
+      const fixtureId = card.getAttribute("data-fixture-id");
+
+      if (!fixtureId || fixtureId === state.selectedFixtureId) {
+        return;
+      }
+
+      state.selectedFixtureId = fixtureId;
+      renderFixtures();
+      renderFixtureDetail();
+    });
+  }
+}
+
+function renderFixtureDetail() {
+  if (!detailEl) {
+    return;
+  }
+
+  const fixture = state.snapshot?.fixtures.find(
+    (candidate) => candidate.sourceEventId === state.selectedFixtureId,
+  );
+
+  if (!fixture) {
+    detailEl.innerHTML = `
+      <p class="fixture-detail__eyebrow">Match panel</p>
+      <h2>Fixture details</h2>
+      <p class="fixture-detail__empty">
+        Select a fixture from the left column. This area is reserved for match details in future iterations.
+      </p>
+    `;
+    return;
+  }
+
+  detailEl.innerHTML = `
+    <p class="fixture-detail__eyebrow">Match panel</p>
+    <h2>${escapeHtml(fixture.homeTeamName)} vs ${escapeHtml(fixture.awayTeamName)}</h2>
+    <div class="fixture-detail__stack">
+      <div class="fixture-detail__row">
+        <span>Kickoff</span>
+        <strong>${formatKickoff(fixture.kickoffAtUtc)} UTC</strong>
+      </div>
+      <div class="fixture-detail__row">
+        <span>Competition</span>
+        <strong>${escapeHtml(fixture.competitionName ?? "Unknown competition")}</strong>
+      </div>
+      <div class="fixture-detail__row">
+        <span>Country</span>
+        <strong>${escapeHtml(fixture.countryName ?? "Unknown")}</strong>
+      </div>
+      <div class="fixture-detail__row">
+        <span>Event ID</span>
+        <strong>${escapeHtml(fixture.sourceEventId)}</strong>
+      </div>
+    </div>
+    <p class="fixture-detail__note">
+      This right column is the reserved slot for richer match information in the next phase.
+    </p>
+    <a class="fixture-detail__link" href="${fixture.matchUrl}" target="_blank" rel="noreferrer">
+      Open match page
+    </a>
   `;
 }
 
@@ -152,6 +235,10 @@ function renderError(message) {
 
   if (groupsEl) {
     groupsEl.innerHTML = "";
+  }
+
+  if (detailEl) {
+    detailEl.innerHTML = "";
   }
 }
 

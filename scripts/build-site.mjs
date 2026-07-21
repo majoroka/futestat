@@ -113,18 +113,30 @@ function renderHomePage({ projectName, snapshot }) {
       </header>
 
       <main class="panel panel--full">
-        <h1>Upcoming fixtures</h1>
-        <p class="panel__intro">
-          The list below is rendered from the committed <code>data/fixtures/latest.json</code> snapshot.
-        </p>
-        <section class="metric-grid" data-fixture-summary></section>
-        <div class="fixtures-toolbar">
-          <div class="fixtures-toolbar__dates" data-date-filters></div>
-          <p class="state-copy" data-fixture-state>
-            ${snapshot.fixtureCount > 0 ? "Loading fixtures..." : "No published snapshot yet."}
-          </p>
+        <div class="workspace">
+          <section class="fixtures-pane">
+            <h1>Upcoming fixtures</h1>
+            <p class="panel__intro">
+              The list below is rendered from the committed <code>data/fixtures/latest.json</code> snapshot.
+            </p>
+            <section class="metric-grid" data-fixture-summary></section>
+            <div class="fixtures-toolbar">
+              <div class="fixtures-toolbar__dates" data-date-filters></div>
+              <p class="state-copy" data-fixture-state>
+                ${snapshot.fixtureCount > 0 ? "Loading fixtures..." : "No published snapshot yet."}
+              </p>
+            </div>
+            <div class="competition-stack" data-fixture-groups></div>
+          </section>
+
+          <aside class="fixture-detail" data-fixture-detail>
+            <p class="fixture-detail__eyebrow">Match panel</p>
+            <h2>Fixture details</h2>
+            <p class="fixture-detail__empty">
+              Select a fixture from the left column. This area is reserved for match details in future iterations.
+            </p>
+          </aside>
         </div>
-        <div class="competition-stack" data-fixture-groups></div>
       </main>
 
       <footer class="footer">
