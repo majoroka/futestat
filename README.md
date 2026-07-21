@@ -174,6 +174,34 @@ Este repositório inclui um site estático pequeno para publicar:
 - resumo do projeto
 - documentação HTML derivada dos ficheiros em `docs/`
 
+## Automatização
+
+Existe agora um workflow agendado em `.github/workflows/refresh-fixtures.yml` que:
+1. instala dependências
+2. instala o Chromium do Playwright
+3. corre `npm run scrape:fixtures`
+4. reconstrói o site com `npm run build:site`
+5. faz commit de `data/fixtures` apenas se houver alterações
+6. publica o Pages no mesmo workflow
+
+Cadência configurada:
+- `03:17`
+- `09:17`
+- `13:17`
+- `17:17`
+- `21:17`
+
+Todas as horas acima são em `Europe/Lisbon`.
+
+Motivo da cadência:
+- evita o topo da hora, onde o GitHub Actions pode sofrer mais atrasos
+- permite apanhar resultados finais ao longo do dia sem suportar `live`
+- mantém o dia atual e o dia anterior suficientemente frescos para esta fase
+
+Nota técnica:
+- o deploy do Pages é feito no mesmo workflow agendado
+- isto evita depender de um `push` feito pelo `GITHUB_TOKEN`, porque esse tipo de push não dispara workflows adicionais normais no GitHub Actions
+
 Build local do site:
 
 ```bash
