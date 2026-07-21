@@ -61,7 +61,7 @@ npm run scrape:fixtures -- --from=2026-07-21 --days-ahead=3 --include-today=true
 
 ## Variáveis de ambiente
 
-Ver [.env.example](/Users/mariocabano/Documents/Futestat/.env.example).
+Ver `/.env.example` no repositório.
 
 As mais importantes:
 - `FUTESTAT_FROM_DATE`
@@ -114,5 +114,29 @@ Limites atuais:
 
 ## Documentação adicional
 
-- [Arquitetura](/Users/mariocabano/Documents/Futestat/docs/architecture.md)
-- [Roadmap](/Users/mariocabano/Documents/Futestat/docs/roadmap.md)
+- [Arquitetura](./docs/architecture.md)
+- [Roadmap](./docs/roadmap.md)
+
+## Site estático e GitHub Pages
+
+Este repositório inclui um site estático pequeno para publicar:
+- snapshot atual de `upcoming fixtures`
+- resumo do projeto
+- documentação HTML derivada dos ficheiros em `docs/`
+
+Build local do site:
+
+```bash
+npm run build:site
+```
+
+O output é gerado em `dist/`.
+
+Para GitHub Pages, existe um workflow em `.github/workflows/deploy-pages.yml` que:
+1. instala dependências
+2. corre `npm run build:site`
+3. publica o artefacto estático em Pages
+
+Nota operacional:
+- o site publica o snapshot presente em `data/fixtures/latest.json`
+- para atualizar os fixtures visíveis no Pages, é preciso regenerar esse ficheiro e commitar a nova versão
