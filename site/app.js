@@ -3,13 +3,14 @@ const datesEl = document.querySelector("[data-date-filters]");
 const groupsEl = document.querySelector("[data-fixture-groups]");
 const stateEl = document.querySelector("[data-fixture-state]");
 const detailEl = document.querySelector("[data-fixture-detail]");
+const displayTimeZone = "Europe/Lisbon";
 
 const formatter = new Intl.DateTimeFormat("pt-PT", {
   day: "2-digit",
   month: "short",
   hour: "2-digit",
   minute: "2-digit",
-  timeZone: "UTC",
+  timeZone: displayTimeZone,
 });
 
 const state = {
@@ -95,7 +96,7 @@ function renderFixtures() {
   );
 
   if (fixtures.length === 0) {
-    stateEl.textContent = `Sem jogos agendados para ${state.selectedDate} (hora do meridiano de Greenwich).`;
+    stateEl.textContent = buildFixtureStateCopy(0, state.selectedDate);
     groupsEl.innerHTML = "";
     return;
   }
@@ -104,7 +105,7 @@ function renderFixtures() {
     state.selectedFixtureId = fixtures[0]?.sourceEventId ?? null;
   }
 
-  stateEl.textContent = `${fixtures.length} jogos agendados para ${state.selectedDate} (hora do meridiano de Greenwich).`;
+  stateEl.textContent = buildFixtureStateCopy(fixtures.length, state.selectedDate);
 
   const byCompetition = new Map();
   for (const fixture of fixtures) {
@@ -255,6 +256,10 @@ function formatTimestamp(value) {
   return Number.isNaN(date.getTime()) ? value : formatter.format(date);
 }
 
+function buildFixtureStateCopy(count, date) {
+  return `${count} upcoming fixtures for ${date} - Hora de Lisboa`;
+}
+
 function formatKickoff(value) {
   const date = new Date(value);
   return Number.isNaN(date.getTime())
@@ -264,7 +269,7 @@ function formatKickoff(value) {
         month: "short",
         hour: "2-digit",
         minute: "2-digit",
-        timeZone: "UTC",
+        timeZone: displayTimeZone,
       }).format(date);
 }
 

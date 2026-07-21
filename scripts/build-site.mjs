@@ -6,6 +6,7 @@ const distDir = path.join(repoRoot, "dist");
 const assetsDir = path.join(distDir, "assets");
 const docsDir = path.join(distDir, "docs");
 const fixturesDir = path.join(distDir, "fixtures");
+const displayTimeZone = "Europe/Lisbon";
 
 const markdownPages = [
   {
@@ -361,7 +362,7 @@ function formatDateTime(value) {
   return new Intl.DateTimeFormat("pt-PT", {
     dateStyle: "medium",
     timeStyle: "short",
-    timeZone: "UTC",
+    timeZone: displayTimeZone,
   }).format(date);
 }
 
