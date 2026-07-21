@@ -1,7 +1,7 @@
 export interface CliOptions {
-  fromDate?: string;
-  daysAhead?: number;
-  includeToday?: boolean;
+  referenceDate?: string;
+  pastDays?: number;
+  futureDays?: number;
   outputDir?: string;
   headless?: boolean;
   timeoutMs?: number;
@@ -14,14 +14,16 @@ export function parseCliOptions(argv: string[]): CliOptions {
     const [flag, rawValue] = arg.split("=", 2);
 
     switch (flag) {
+      case "--reference-date":
       case "--from":
-        options.fromDate = rawValue;
+        options.referenceDate = rawValue;
         break;
+      case "--past-days":
+        options.pastDays = parseOptionalInteger(rawValue, flag);
+        break;
+      case "--future-days":
       case "--days-ahead":
-        options.daysAhead = parseOptionalInteger(rawValue, flag);
-        break;
-      case "--include-today":
-        options.includeToday = parseBoolean(rawValue, flag);
+        options.futureDays = parseOptionalInteger(rawValue, flag);
         break;
       case "--output-dir":
         options.outputDir = rawValue;
@@ -78,9 +80,9 @@ Usage:
   npm run scrape:fixtures -- [options]
 
 Options:
-  --from=YYYY-MM-DD
-  --days-ahead=3
-  --include-today=true
+  --reference-date=YYYY-MM-DD
+  --past-days=7
+  --future-days=7
   --output-dir=data/fixtures
   --headless=true
   --timeout-ms=60000

@@ -1,19 +1,15 @@
-import { chromium, type BrowserContext, type Page } from "playwright";
+import { chromium, type Page } from "playwright";
 
 import type { AppConfig } from "../../config/app-config.js";
-import type { FixtureSnapshot, UpcomingFixture } from "../../domain/fixture.js";
+import type { ScrapedFixture, ScrapedFixtureDay } from "../../domain/fixture.js";
 import { kickoffUtcFromDateAndTime } from "../../lib/date.js";
-import {
-  absoluteMatchUrl,
-  buildSofascoreDateUrl,
-  buildTeamLogoUrl,
-} from "./sofascore-helpers.js";
+import { absoluteMatchUrl, buildSofascoreDateUrl } from "./sofascore-helpers.js";
 import type { RawSofascoreFixture } from "./sofascore-types.js";
 
 export class SofascoreFixturesScraper {
   constructor(private readonly config: AppConfig) {}
 
-  async scrapeUpcomingFixtures(dates: string[]): Promise<FixtureSnapshot> {
+  async scrapeFixtureDays(dates: string[]): Promise<ScrapedFixtureDay[]> {
     const browser = await chromium.launch({ headless: this.config.headless });
     const context = await browser.newContext({
       timezoneId: this.config.browserTimezone,
@@ -24,56 +20,36 @@ export class SofascoreFixturesScraper {
       const page = await context.newPage();
       page.setDefaultTimeout(this.config.timeoutMs);
 
-      const fixturesByEventId = new Map<string, UpcomingFixture>();
-      const scrapedAtUtc = new Date().toISOString();
+      const days: ScrapedFixtureDay[] = [];
 
       for (const date of dates) {
-        const fixturesForDate = await this.scrapeUpcomingFixturesForDate(page, date, scrapedAtUtc);
-
-        for (const fixture of fixturesForDate) {
-          fixturesByEventId.set(fixture.sourceEventId, fixture);
-        }
+        days.push(await this.scrapeFixtureDay(page, date));
       }
 
-      const fixtures = Array.from(fixturesByEventId.values()).sort(compareFixtures);
-
-      return {
-        source: "sofascore",
-        status: "upcoming",
-        scrapedAtUtc,
-        datesScraped: dates,
-        fixtureCount: fixtures.length,
-        fixtures,
-        metadata: {
-          browserTimezone: "UTC",
-          scraperVersion: 1,
-        },
-      };
+      return days;
     } finally {
       await context.close();
       await browser.close();
     }
   }
 
-  private async scrapeUpcomingFixturesForDate(
-    page: Page,
-    date: string,
-    scrapedAtUtc: string,
-  ): Promise<UpcomingFixture[]> {
+  private async scrapeFixtureDay(page: Page, date: string): Promise<ScrapedFixtureDay> {
+    const scrapedAtUtc = new Date().toISOString();
+
     await page.goto(buildSofascoreDateUrl(this.config.baseUrl, date), {
       waitUntil: "domcontentloaded",
       timeout: this.config.timeoutMs,
     });
 
     await page.waitForLoadState("networkidle", { timeout: this.config.timeoutMs }).catch(() => {
-      // Sofascore can keep background activity alive; DOM content is enough for this draft.
+      // Sofascore can keep background activity alive; DOM content is enough for this phase.
     });
 
     await this.acceptConsentIfPresent(page);
-    await this.applyUpcomingFilterIfPresent(page);
+    await page.waitForTimeout(800);
 
-    const rawFixtures = await page.evaluate<RawSofascoreFixture[], { baseUrl: string }>(
-      ({ baseUrl }) => {
+    const rawFixtures = await page.evaluate<RawSofascoreFixture[], { baseUrl: string; date: string }>(
+      ({ baseUrl, date: matchDate }) => {
         const scheduleCards = Array.from(
           document.querySelectorAll<HTMLAnchorElement>('a[class*="event-hl-"]'),
         );
@@ -128,13 +104,17 @@ export class SofascoreFixturesScraper {
             const eventId =
               className.match(/event-hl-(\d+)/)?.[1] ?? href.match(/#id:(\d+)/)?.[1] ?? null;
 
-            const kickoffTime =
-              child
-                .querySelector('div[title] bdi[class*="textStyle_body.small"]')
-                ?.textContent?.trim() ?? "";
+            const smallTexts = Array.from(
+              child.querySelectorAll<HTMLElement>('bdi[class*="textStyle_body.small"]'),
+            )
+              .map((node) => node.textContent?.trim() ?? "")
+              .filter(Boolean);
 
-            const scoreMarker =
-              child.querySelector('span.score bdi[class*="textStyle_body.small"]')?.textContent?.trim() ?? "";
+            const scoreTexts = Array.from(
+              child.querySelectorAll<HTMLElement>("span.score"),
+            )
+              .map((node) => node.textContent?.trim() ?? "")
+              .filter(Boolean);
 
             const teams = Array.from(
               child.querySelectorAll<HTMLElement>('bdi[class*="textStyle_body.medium"]'),
@@ -142,32 +122,60 @@ export class SofascoreFixturesScraper {
               .map((node) => node.textContent?.trim() ?? "")
               .filter(Boolean);
 
-            const teamImageUrls = Array.from(
+            const teamImages = Array.from(
               child.querySelectorAll<HTMLImageElement>('img[src*="/api/v1/team/"]'),
-            )
-              .map((image) => image.src)
-              .filter(Boolean)
-              .slice(0, 2);
+            ).slice(0, 2);
 
-            const isUpcoming = /^\d{2}:\d{2}$/.test(kickoffTime) && scoreMarker === "-";
-
-            if (!eventId || teams.length < 2 || !isUpcoming) {
+            if (!eventId || teams.length < 2) {
               continue;
             }
 
+            const marker = scoreTexts[0] ?? smallTexts.find((text) => text !== matchDate) ?? "";
+            const kickoffTime = smallTexts.find((text) => /^\d{2}:\d{2}$/.test(text)) ?? null;
+            const numericScores = scoreTexts
+              .filter((text) => /^\d+$/.test(text))
+              .map((text) => Number.parseInt(text, 10));
+            const scorePair =
+              numericScores.length >= 4
+                ? [numericScores[0] ?? null, numericScores[2] ?? null]
+                : numericScores.length >= 2
+                  ? [numericScores[0] ?? null, numericScores[1] ?? null]
+                  : null;
+            const status =
+              (marker === "-" && Boolean(kickoffTime)) || /^\d{2}:\d{2}$/.test(marker)
+                ? "upcoming"
+                : /^(FT|AET|PEN|AWD|WO|AP|Ended)$/i.test(marker) ||
+                    /^(Full Time|After Extra Time|Penalties)$/i.test(marker)
+                  ? "finished"
+                  : /^(Postponed|PPD)$/i.test(marker)
+                    ? "postponed"
+                    : /^(Cancelled|Canceled|CANC|Abandoned|ABD)$/i.test(marker)
+                      ? "cancelled"
+                      : marker.includes("'") || /^(HT|1ST|2ND|ET|BT)$/i.test(marker)
+                        ? "live"
+                        : "unknown";
+
             fixtures.push({
               eventId,
+              matchDate,
               kickoffTime,
               competitionName: currentCompetition,
               countryName: currentCountry,
               homeTeamId:
-                teamImageUrls[0]?.match(/\/api\/v1\/team\/(\d+)\/image(?:\/small)?$/)?.[1] ??
+                teamImages[0]?.src.match(/\/api\/v1\/team\/(\d+)\/image(?:\/small)?$/)?.[1] ??
                 null,
               homeTeamName: teams[0] ?? null,
+              homeTeamLogoUrl: teamImages[0]?.src ?? null,
               awayTeamId:
-                teamImageUrls[1]?.match(/\/api\/v1\/team\/(\d+)\/image(?:\/small)?$/)?.[1] ??
+                teamImages[1]?.src.match(/\/api\/v1\/team\/(\d+)\/image(?:\/small)?$/)?.[1] ??
                 null,
               awayTeamName: teams[1] ?? null,
+              awayTeamLogoUrl: teamImages[1]?.src ?? null,
+              status,
+              resultLabel:
+                marker === "-" || /^\d{2}:\d{2}$/.test(marker) ? null : marker || null,
+              homeScore: scorePair?.[0] ?? null,
+              awayScore: scorePair?.[1] ?? null,
               href: new URL(href, baseUrl).toString(),
             });
           }
@@ -175,25 +183,39 @@ export class SofascoreFixturesScraper {
 
         return fixtures;
       },
-      { baseUrl: this.config.baseUrl },
+      { baseUrl: this.config.baseUrl, date },
     );
 
-    return rawFixtures.map((fixture) => ({
+    const fixtures: ScrapedFixture[] = rawFixtures
+      .map((fixture) => ({
+        source: "sofascore" as const,
+        sourceEventId: fixture.eventId,
+        matchDate: fixture.matchDate,
+        kickoffAtUtc:
+          fixture.kickoffTime ? kickoffUtcFromDateAndTime(fixture.matchDate, fixture.kickoffTime) : null,
+        competitionName: fixture.competitionName,
+        countryName: fixture.countryName,
+        homeTeamId: fixture.homeTeamId,
+        homeTeamName: fixture.homeTeamName,
+        homeTeamLogoUrl: fixture.homeTeamLogoUrl,
+        awayTeamId: fixture.awayTeamId,
+        awayTeamName: fixture.awayTeamName,
+        awayTeamLogoUrl: fixture.awayTeamLogoUrl,
+        status: fixture.status,
+        resultLabel: fixture.resultLabel,
+        homeScore: fixture.homeScore,
+        awayScore: fixture.awayScore,
+        matchUrl: absoluteMatchUrl(this.config.baseUrl, fixture.href),
+        scrapedAtUtc,
+      }))
+      .sort(compareFixtures);
+
+    return {
       source: "sofascore",
-      sourceEventId: fixture.eventId,
-      scrapeDate: date,
-      kickoffAtUtc: kickoffUtcFromDateAndTime(date, fixture.kickoffTime),
-      competitionName: fixture.competitionName,
-      countryName: fixture.countryName,
-      homeTeamId: fixture.homeTeamId,
-      homeTeamName: fixture.homeTeamName,
-      homeTeamLogoUrl: fixture.homeTeamId ? buildTeamLogoUrl(fixture.homeTeamId) : null,
-      awayTeamId: fixture.awayTeamId,
-      awayTeamName: fixture.awayTeamName,
-      awayTeamLogoUrl: fixture.awayTeamId ? buildTeamLogoUrl(fixture.awayTeamId) : null,
-      matchUrl: absoluteMatchUrl(this.config.baseUrl, fixture.href),
+      date,
       scrapedAtUtc,
-    }));
+      fixtures,
+    };
   }
 
   private async acceptConsentIfPresent(page: Page): Promise<void> {
@@ -211,27 +233,32 @@ export class SofascoreFixturesScraper {
       return;
     }
   }
-
-  private async applyUpcomingFilterIfPresent(page: Page): Promise<void> {
-    const button = page.getByRole("button", { name: "Upcoming" });
-
-    if ((await button.count()) === 0) {
-      return;
-    }
-
-    await button.first().click({ timeout: 5_000 }).catch(() => undefined);
-    await page.waitForTimeout(800);
-  }
 }
 
-function compareFixtures(left: UpcomingFixture, right: UpcomingFixture): number {
+function compareFixtures(left: ScrapedFixture, right: ScrapedFixture): number {
   return (
-    left.kickoffAtUtc.localeCompare(right.kickoffAtUtc) ||
+    compareKickoff(left.kickoffAtUtc, right.kickoffAtUtc) ||
     compareNullable(left.countryName, right.countryName) ||
     compareNullable(left.competitionName, right.competitionName) ||
     left.homeTeamName.localeCompare(right.homeTeamName) ||
     left.awayTeamName.localeCompare(right.awayTeamName)
   );
+}
+
+function compareKickoff(left: string | null, right: string | null): number {
+  if (left === right) {
+    return 0;
+  }
+
+  if (left === null) {
+    return 1;
+  }
+
+  if (right === null) {
+    return -1;
+  }
+
+  return left.localeCompare(right);
 }
 
 function compareNullable(left: string | null, right: string | null): number {

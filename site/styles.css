@@ -364,7 +364,7 @@ a {
 
 .team-line {
   display: grid;
-  grid-template-columns: 28px minmax(0, 1fr);
+  grid-template-columns: 28px minmax(0, 1fr) auto;
   gap: 12px;
   align-items: center;
 }
@@ -391,6 +391,14 @@ a {
   font-weight: 400;
   line-height: 1.18;
   color: #10273a;
+}
+
+.team-line__score {
+  min-width: 18px;
+  text-align: right;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #172033;
 }
 
 .docs-stack {

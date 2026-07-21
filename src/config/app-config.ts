@@ -1,39 +1,44 @@
 import path from "node:path";
 
 import { parseCliOptions } from "../lib/cli.js";
-import { assertIsoDate, todayUtcIsoDate } from "../lib/date.js";
+import { assertIsoDate, todayIsoDateInTimeZone } from "../lib/date.js";
 
 export interface AppConfig {
   baseUrl: string;
-  fromDate: string;
-  daysAhead: number;
-  includeToday: boolean;
+  referenceDate: string;
+  pastDays: number;
+  futureDays: number;
   outputDir: string;
   headless: boolean;
   timeoutMs: number;
   browserTimezone: "UTC";
   browserLocale: "en-US";
+  referenceTimeZone: "Europe/Lisbon";
 }
 
 export function loadAppConfig(argv = process.argv.slice(2)): AppConfig {
   const cli = parseCliOptions(argv);
 
-  const fromDate = assertIsoDate(
-    cli.fromDate ?? process.env.FUTESTAT_FROM_DATE ?? todayUtcIsoDate(),
-    "fromDate",
+  const referenceDate = assertIsoDate(
+    cli.referenceDate ??
+      process.env.FUTESTAT_REFERENCE_DATE ??
+      process.env.FUTESTAT_FROM_DATE ??
+      todayIsoDateInTimeZone("Europe/Lisbon"),
+    "referenceDate",
   );
 
-  const daysAhead = readInteger(
-    cli.daysAhead,
-    process.env.FUTESTAT_DAYS_AHEAD,
-    3,
-    "daysAhead",
+  const pastDays = readInteger(
+    cli.pastDays,
+    process.env.FUTESTAT_PAST_DAYS,
+    7,
+    "pastDays",
   );
 
-  const includeToday = readBoolean(
-    cli.includeToday,
-    process.env.FUTESTAT_INCLUDE_TODAY,
-    true,
+  const futureDays = readInteger(
+    cli.futureDays,
+    process.env.FUTESTAT_FUTURE_DAYS ?? process.env.FUTESTAT_DAYS_AHEAD,
+    7,
+    "futureDays",
   );
 
   const timeoutMs = readInteger(
@@ -43,8 +48,12 @@ export function loadAppConfig(argv = process.argv.slice(2)): AppConfig {
     "timeoutMs",
   );
 
-  if (daysAhead < 0) {
-    throw new Error(`daysAhead must be >= 0. Received ${daysAhead}.`);
+  if (pastDays < 0) {
+    throw new Error(`pastDays must be >= 0. Received ${pastDays}.`);
+  }
+
+  if (futureDays < 0) {
+    throw new Error(`futureDays must be >= 0. Received ${futureDays}.`);
   }
 
   if (timeoutMs < 1_000) {
@@ -53,9 +62,9 @@ export function loadAppConfig(argv = process.argv.slice(2)): AppConfig {
 
   return {
     baseUrl: process.env.FUTESTAT_BASE_URL ?? "https://www.sofascore.com",
-    fromDate,
-    daysAhead,
-    includeToday,
+    referenceDate,
+    pastDays,
+    futureDays,
     outputDir: path.resolve(
       cli.outputDir ?? process.env.FUTESTAT_OUTPUT_DIR ?? "data/fixtures",
     ),
@@ -63,6 +72,7 @@ export function loadAppConfig(argv = process.argv.slice(2)): AppConfig {
     timeoutMs,
     browserTimezone: "UTC",
     browserLocale: "en-US",
+    referenceTimeZone: "Europe/Lisbon",
   };
 }
 

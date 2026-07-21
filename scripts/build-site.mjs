@@ -75,14 +75,19 @@ async function loadFixtureSnapshot() {
   } catch {
     return {
       source: "sofascore",
-      status: "upcoming",
+      status: "window",
       scrapedAtUtc: null,
-      datesScraped: [],
+      referenceDate: null,
+      datesIncluded: [],
       fixtureCount: 0,
+      visibleFixtureCount: 0,
       fixtures: [],
       metadata: {
         browserTimezone: "UTC",
-        scraperVersion: 1,
+        scraperVersion: 2,
+        pastDays: 7,
+        futureDays: 7,
+        excludedStatuses: ["live"],
       },
     };
   }
@@ -105,7 +110,7 @@ function renderHomePage({ projectName, snapshot }) {
           <span class="brand__mark">F</span>
           <span class="brand__copy">
             <strong>${escapeHtml(projectName)}</strong>
-            <span>Snapshot de jogos agendados</span>
+            <span>Janela de jogos e resultados</span>
           </span>
         </a>
         <nav class="nav" aria-label="Principal">
@@ -116,9 +121,9 @@ function renderHomePage({ projectName, snapshot }) {
       <main class="panel panel--full">
         <div class="workspace">
           <section class="fixtures-pane">
-            <h1>Próximos jogos</h1>
+            <h1>Janela de jogos</h1>
             <p class="panel__intro">
-              A lista abaixo é gerada a partir do snapshot commitado em <code>data/fixtures/latest.json</code>.
+              A lista abaixo é gerada a partir do snapshot commitado em <code>data/fixtures/latest.json</code>, com uma janela deslizante de resultados passados e jogos futuros.
             </p>
             <section class="metric-grid" data-fixture-summary></section>
             <div class="fixtures-toolbar">

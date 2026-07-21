@@ -1,22 +1,32 @@
 import type { AppConfig } from "../config/app-config.js";
-import type { FixtureSnapshot } from "../domain/fixture.js";
-import { buildDateRange } from "../lib/date.js";
+import type { PublicFixtureSnapshot } from "../domain/fixture.js";
+import { buildSlidingWindowDates } from "../lib/date.js";
 import { SofascoreFixturesScraper } from "../infrastructure/sofascore/sofascore-fixtures-scraper.js";
 import { JsonFixtureStore } from "../infrastructure/storage/json-fixture-store.js";
 
 export interface RunFixturesScrapeResult {
-  snapshot: FixtureSnapshot;
+  snapshot: PublicFixtureSnapshot;
   latestPath: string;
   runPath: string;
+  dayPaths: string[];
 }
 
 export async function runFixturesScrape(config: AppConfig): Promise<RunFixturesScrapeResult> {
-  const dates = buildDateRange(config.fromDate, config.daysAhead, config.includeToday);
+  const dates = buildSlidingWindowDates(
+    config.referenceDate,
+    config.pastDays,
+    config.futureDays,
+  );
   const scraper = new SofascoreFixturesScraper(config);
   const store = new JsonFixtureStore(config.outputDir);
 
-  const snapshot = await scraper.scrapeUpcomingFixtures(dates);
-  const { latestPath, runPath } = await store.write(snapshot);
+  const scrapedDays = await scraper.scrapeFixtureDays(dates);
+  const { snapshot, latestPath, runPath, dayPaths } = await store.reconcile({
+    scrapedDays,
+    referenceDate: config.referenceDate,
+    pastDays: config.pastDays,
+    futureDays: config.futureDays,
+  });
 
-  return { snapshot, latestPath, runPath };
+  return { snapshot, latestPath, runPath, dayPaths };
 }

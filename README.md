@@ -1,31 +1,41 @@
 # Futestat
 
-1.º draft de um scraper de `fixtures` focado em jogos de futebol `upcoming` no Sofascore.
+Scraper local de `fixtures` de futebol no Sofascore com janela deslizante `D-7 ... D+7`, store canónica por dia e snapshot público para o site estático.
 
 ## Objetivo desta fase
 
-Esta primeira iteração faz apenas:
-- `fixtures` de futebol
-- estado `upcoming`
-- intervalo configurável de datas
+Esta iteração faz:
+- jogos passados dos últimos `7` dias
+- jogos de hoje
+- jogos futuros dos próximos `7` dias
+- resultados finais para jogos terminados
+- exclusão de `live` do snapshot público
 - saída local em JSON
 
 Ficam explicitamente fora desta fase:
-- `live`
-- `finished`
+- UI de `live`
+- detalhe aprofundado de jogo
+- odds, lineups e eventos in-play
 - estatísticas de equipa
-- odds, eventos in-play, lineups ou detalhe de jogo
 
 ## Escolhas principais
 
 - Stack: `Node 22 + TypeScript + Playwright`
 - Fonte: página pública do Sofascore por data, via URL direta `https://www.sofascore.com/football/YYYY-MM-DD`
-- Timezone do browser: `UTC`
-- Persistência: ficheiros JSON versionados localmente
+- Timezone do browser de scraping: `UTC`
+- Data de referência operacional: `Europe/Lisbon`
+- Persistência: store canónica em ficheiros JSON por dia
 
 ## Porque esta abordagem
 
-O Sofascore expõe páginas por data e isso é mais robusto do que depender do seletor com setas ou de uma API interna sujeita a `403`. O draft atual usa browser automation apenas para renderizar a página, aplicar o filtro `Upcoming` e extrair os cartões principais de jogo.
+O Sofascore expõe páginas por data e isso é mais robusto do que depender do seletor com setas ou de uma API interna sujeita a `403`. O scraper atual renderiza a página da data e extrai os cartões principais dos jogos, classificando-os em:
+- `upcoming`
+- `finished`
+- `postponed`
+- `cancelled`
+- `live`
+
+O estado `live` é guardado na store canónica, mas é excluído do snapshot público desta fase.
 
 ## Estrutura
 
@@ -38,6 +48,7 @@ src/
   lib/
 test/
 docs/
+site/
 ```
 
 ## Instalação
@@ -56,7 +67,7 @@ npm run scrape:fixtures
 Com argumentos:
 
 ```bash
-npm run scrape:fixtures -- --from=2026-07-21 --days-ahead=3 --include-today=true
+npm run scrape:fixtures -- --reference-date=2026-07-21 --past-days=7 --future-days=7
 ```
 
 ## Variáveis de ambiente
@@ -64,56 +75,90 @@ npm run scrape:fixtures -- --from=2026-07-21 --days-ahead=3 --include-today=true
 Ver `/.env.example` no repositório.
 
 As mais importantes:
-- `FUTESTAT_FROM_DATE`
-- `FUTESTAT_DAYS_AHEAD`
-- `FUTESTAT_INCLUDE_TODAY`
+- `FUTESTAT_REFERENCE_DATE`
+- `FUTESTAT_PAST_DAYS`
+- `FUTESTAT_FUTURE_DAYS`
 - `FUTESTAT_OUTPUT_DIR`
 
 ## Output
 
 O scraper grava:
 - `data/fixtures/latest.json`
-- `data/fixtures/runs/fixtures-<timestamp>.json`
+- `data/fixtures/runs/fixtures-window-<timestamp>.json`
+- `data/fixtures/days/YYYY-MM-DD.json`
+
+### Store canónica por dia
+
+Cada dia mantém:
+- `collectionState`: `open`, `settling` ou `frozen`
+- timestamps de primeira e última recolha
+- lista de fixtures reconciliados por `sourceEventId`
+
+### Snapshot público
+
+`data/fixtures/latest.json` é derivado da store canónica e contém:
+- a janela de datas incluídas
+- todos os `finished`, `postponed`, `cancelled` e `upcoming`
+- exclusão de `live`
 
 Exemplo resumido:
 
 ```json
 {
   "source": "sofascore",
-  "status": "upcoming",
-  "datesScraped": ["2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24"],
-  "fixtureCount": 42,
+  "status": "window",
+  "referenceDate": "2026-07-21",
+  "datesIncluded": [
+    "2026-07-14",
+    "2026-07-15",
+    "2026-07-16"
+  ],
+  "fixtureCount": 531,
+  "visibleFixtureCount": 528,
   "fixtures": [
     {
       "sourceEventId": "16350227",
-      "kickoffAtUtc": "2026-07-21T17:00:00.000Z",
+      "matchDate": "2026-07-21",
+      "kickoffAtUtc": "2026-07-21T16:00:00.000Z",
       "competitionName": "UEFA Champions League, Qualification",
       "countryName": "Europe",
-      "homeTeamId": "4884",
+      "homeTeamId": "262229",
       "homeTeamName": "Ararat-Armenia",
-      "homeTeamLogoUrl": "https://img.sofascore.com/api/v1/team/4884/image/small",
+      "homeTeamLogoUrl": "https://img.sofascore.com/api/v1/team/262229/image/small",
       "awayTeamId": "5226",
       "awayTeamName": "Shamrock Rovers",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/5226/image/small",
-      "matchUrl": "https://www.sofascore.com/football/match/fc-ararat-armenia-shamrock-rovers/CnbsEUec#id:16350227"
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 2,
+      "awayScore": 0
     }
   ]
 }
 ```
 
+## Regras operacionais
+
+- janela padrão: `D-7 ... D+7`
+- `hoje` e datas futuras: `open`
+- `ontem`: `settling`
+- `D-2` e anteriores: `frozen`
+
+O merge é sempre feito por `sourceEventId`. Um jogo conhecido não é removido só porque deixou de aparecer como `upcoming` numa run tardia do mesmo dia.
+
 ## Qualidade e limites
 
 O draft já incorpora algumas decisões de robustez:
 - URL por data em vez de clicar no calendário
-- deduplicação por `sourceEventId`
-- normalização de kickoff para `UTC`
+- store canónica por dia em vez de substituir o snapshot inteiro
+- reconciliação por `sourceEventId`
+- normalização de kickoff para `UTC` quando a hora está disponível
 - extração de `teamId` a partir dos `img` dos cartões para construir URLs estáveis de logótipo
-- filtragem de cartões reais de agenda (`event-hl-*`)
-- exclusão de jogos live/finished pelo estado visual do cartão
+- exclusão de `live` do snapshot público
 
 Limites atuais:
 - depende do DOM atual do Sofascore
-- o filtro `Upcoming` continua a ser UI-driven
+- alguns jogos passados podem não expor a hora de kickoff na página da data, pelo que `kickoffAtUtc` pode ficar `null`
 - não há retries avançados nem observabilidade externa
 - ainda não há cobertura de regressão com HTML fixtures reais
 
@@ -125,7 +170,7 @@ Limites atuais:
 ## Site estático e GitHub Pages
 
 Este repositório inclui um site estático pequeno para publicar:
-- snapshot atual de `upcoming fixtures`
+- resultados passados e jogos futuros dentro da janela atual
 - resumo do projeto
 - documentação HTML derivada dos ficheiros em `docs/`
 

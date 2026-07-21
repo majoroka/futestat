@@ -2,44 +2,51 @@
 
 ## Resumo
 
-O sistema foi desenhado para uma primeira fase pequena e auditável:
-- um comando CLI
-- uma fonte única
-- um domínio simples
-- persistência local
+O sistema evoluiu de um scraper simples de `upcoming` para uma pipeline pequena, mas já com dois níveis de persistência:
+- store canónica por dia
+- snapshot público derivado para o site
 
 ## Camadas
 
 ### `domain`
 
-Define o contrato dos dados que interessam ao produto nesta fase:
-- `UpcomingFixture`
-- `FixtureSnapshot`
+Define o contrato dos dados:
+- `MatchFixture`
+- `FixtureDay`
+- `PublicFixtureSnapshot`
+- estados de fixture e de coleção por dia
 
 ### `application`
 
 Coordena o fluxo:
-1. calcular datas
-2. executar scraping
-3. persistir output
+1. calcular a janela `D-7 ... D+7`
+2. executar scraping por data
+3. reconciliar com a store canónica
+4. derivar o snapshot público
 
 ### `infrastructure/sofascore`
 
 Contém a integração específica com o Sofascore:
 - construção da URL por data
 - automação Playwright
-- extração dos cartões principais de fixtures
-- derivação de `teamId` e URL de logótipo a partir das imagens dos cartões
+- parsing dos cartões principais de jogos
+- derivação de `teamId` e URL de logótipo a partir das imagens
+- classificação de estado: `upcoming`, `finished`, `postponed`, `cancelled`, `live`
 
 ### `infrastructure/storage`
 
 Persistência local em JSON:
-- `latest.json`
-- histórico por run
+- `data/fixtures/days/YYYY-MM-DD.json`
+- `data/fixtures/latest.json`
+- `data/fixtures/runs/fixtures-window-<timestamp>.json`
 
 ### `config` e `lib`
 
-Contêm parsing de configuração, datas e CLI.
+Contêm:
+- parsing de CLI
+- resolução da data de referência em `Europe/Lisbon`
+- construção da janela deslizante
+- utilitários de datas
 
 ## Decisões técnicas
 
@@ -60,19 +67,58 @@ Motivo:
 Padrão usado:
 - `https://www.sofascore.com/football/YYYY-MM-DD`
 
-## 3. Browser em `UTC`
+## 3. Browser em `UTC`, referência operacional em `Europe/Lisbon`
 
 Motivo:
-- elimina ambiguidade na hora dos jogos
-- reduz problemas de DST/localização
-- simplifica persistência e integrações futuras
+- `UTC` simplifica a normalização dos kickoffs quando a hora está visível
+- `Europe/Lisbon` define corretamente o “hoje” operacional para o produto
 
-## 4. Persistência append-only por run
+## 4. Store canónica por dia
 
 Motivo:
-- auditoria simples
-- comparação de runs
-- debugging mais fácil
+- evita que jogos do dia desapareçam ao longo do dia quando deixam de estar `upcoming`
+- permite reconciliar resultados finais sem substituir a lista inteira
+- facilita o `freeze` de datas passadas
+
+## 5. Snapshot público derivado
+
+Motivo:
+- a UI não precisa de conhecer a política de reconciliação
+- `live` pode ficar fora do produto sem se perder da store canónica
+- o GitHub Pages consome um único ficheiro estável
+
+## Política de estados
+
+### Estado do dia
+
+- `open`: hoje e futuro
+- `settling`: ontem
+- `frozen`: `D-2` e anteriores
+
+### Estado do fixture
+
+- `upcoming`
+- `finished`
+- `live`
+- `postponed`
+- `cancelled`
+- `unknown`
+
+Nesta fase:
+- `live` é guardado na store canónica
+- `live` é excluído do snapshot público
+
+## Estratégia de merge
+
+Chave primária:
+- `sourceEventId`
+
+Regras principais:
+- nunca substituir a lista inteira de um dia por uma única run
+- preservar fixtures antigos que não apareçam numa run posterior
+- promover `upcoming -> live -> finished`
+- manter estados terminais contra regressões pontuais do DOM
+- preservar `kickoffAtUtc` conhecido quando a página passada já não o mostra
 
 ## Segurança e design
 
@@ -91,19 +137,20 @@ Motivo:
 - banners de consentimento com variações regionais
 - widgets editoriais misturados com agenda
 - rate limits ou anti-bot no futuro
+- páginas passadas sem hora visível de kickoff
 
-### Mitigações previstas
+### Mitigações já aplicadas
 
 - usar URL por data
 - filtrar cartões `event-hl-*`
-- validar estado `upcoming` no próprio cartão
-- deduplicar por `eventId`
-- preparar testes com snapshots HTML no próximo ciclo
+- reconciliar por `sourceEventId`
+- separar store canónica de snapshot público
+- excluir `live` do produto nesta fase
 
 ## Evolução natural
 
-Quando a fase 1 estabilizar, o próximo passo técnico natural é:
-1. extrair HTML fixtures reais para testes de regressão
-2. adicionar retries, screenshots e logs estruturados
-3. suportar `finished`
-4. suportar detalhe por fixture
+Os próximos passos técnicos mais naturais são:
+1. testes com snapshots HTML reais
+2. retries e observabilidade estruturada
+3. classificação mais rica de estados raros
+4. detalhe por fixture

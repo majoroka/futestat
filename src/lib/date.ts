@@ -14,28 +14,59 @@ export function assertIsoDate(value: string, label = "date"): string {
   return value;
 }
 
-export function todayUtcIsoDate(reference = new Date()): string {
-  return reference.toISOString().slice(0, 10);
-}
+export function todayIsoDateInTimeZone(
+  timeZone: string,
+  reference = new Date(),
+): string {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(reference);
 
-export function buildDateRange(
-  fromDate: string,
-  daysAhead: number,
-  includeToday: boolean,
-): string[] {
-  assertIsoDate(fromDate, "fromDate");
+  const year = parts.find((part) => part.type === "year")?.value;
+  const month = parts.find((part) => part.type === "month")?.value;
+  const day = parts.find((part) => part.type === "day")?.value;
 
-  if (!Number.isInteger(daysAhead) || daysAhead < 0) {
-    throw new Error(`Invalid daysAhead: "${daysAhead}". Expected integer >= 0.`);
+  if (!year || !month || !day) {
+    throw new Error(`Unable to derive date for timezone "${timeZone}".`);
   }
 
-  const startOffset = includeToday ? 0 : 1;
+  return `${year}-${month}-${day}`;
+}
+
+export function shiftIsoDate(date: string, offsetDays: number): string {
+  assertIsoDate(date, "date");
+
+  if (!Number.isInteger(offsetDays)) {
+    throw new Error(`Invalid offsetDays: "${offsetDays}". Expected integer.`);
+  }
+
+  const value = new Date(`${date}T00:00:00Z`);
+  value.setUTCDate(value.getUTCDate() + offsetDays);
+  return value.toISOString().slice(0, 10);
+}
+
+export function buildSlidingWindowDates(
+  referenceDate: string,
+  pastDays: number,
+  futureDays: number,
+): string[] {
+  assertIsoDate(referenceDate, "referenceDate");
+
+  if (!Number.isInteger(pastDays) || pastDays < 0) {
+    throw new Error(`Invalid pastDays: "${pastDays}". Expected integer >= 0.`);
+  }
+
+  if (!Number.isInteger(futureDays) || futureDays < 0) {
+    throw new Error(`Invalid futureDays: "${futureDays}". Expected integer >= 0.`);
+  }
+
   const dates: string[] = [];
 
-  for (let offset = startOffset; offset <= daysAhead; offset += 1) {
-    const value = new Date(`${fromDate}T00:00:00Z`);
-    value.setUTCDate(value.getUTCDate() + offset);
-    dates.push(value.toISOString().slice(0, 10));
+  for (let offset = -pastDays; offset <= futureDays; offset += 1) {
+    dates.push(shiftIsoDate(referenceDate, offset));
   }
 
   return dates;

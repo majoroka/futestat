@@ -3,18 +3,20 @@
 ## Fase 1
 
 Objetivo:
-- scraper de `upcoming fixtures`
-- 1 fonte
-- output JSON
-- execução manual ou agendada
+- janela deslizante `D-7 ... D+7`
+- store canónica por dia
+- snapshot público sem `live`
+- site estático com resultados passados e jogos futuros
 
 Estado:
 - em progresso
 
-Entregáveis:
+Entregáveis atuais:
 - CLI funcional
-- documentação inicial
-- persistência local
+- scraping por data via Playwright
+- reconciliação por `sourceEventId`
+- days store em `data/fixtures/days/`
+- snapshot público em `data/fixtures/latest.json`
 
 ## Fase 2
 
@@ -31,13 +33,13 @@ Itens:
 ## Fase 3
 
 Objetivo:
-- suportar `finished fixtures`
+- melhorar a camada pública dos fixtures
 
 Itens:
-- navegação por datas passadas
-- parsing de score final
-- estado do jogo
-- regras anti-duplicação entre runs
+- seletor UX dedicado para `passado / hoje / futuro`
+- ordenação e filtros de estado
+- tratamento visual de `postponed` e `cancelled`
+- detalhe de fixture na coluna direita
 
 ## Fase 4
 
@@ -46,8 +48,8 @@ Objetivo:
 
 Itens:
 - país e competição mais normalizados
-- IDs de equipa quando possível
-- detalhe de fixture por página individual
+- heurísticas para recuperar kickoff em dias passados quando a página da data não o mostra
+- enriquecimento a partir da página individual do jogo
 
 ## Fase 5
 
@@ -64,3 +66,4 @@ Itens:
 - consistência do output durante vários dias
 - contagem de fixtures plausível por data
 - ausência de regressões óbvias ao mudar o DOM do site
+- estabilidade da política `open / settling / frozen`

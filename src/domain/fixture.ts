@@ -1,8 +1,18 @@
-export interface UpcomingFixture {
+export type FixtureStatus =
+  | "upcoming"
+  | "finished"
+  | "live"
+  | "postponed"
+  | "cancelled"
+  | "unknown";
+
+export type DayCollectionState = "open" | "settling" | "frozen";
+
+export interface MatchFixture {
   source: "sofascore";
   sourceEventId: string;
-  scrapeDate: string;
-  kickoffAtUtc: string;
+  matchDate: string;
+  kickoffAtUtc: string | null;
   competitionName: string | null;
   countryName: string | null;
   homeTeamId: string | null;
@@ -11,19 +21,73 @@ export interface UpcomingFixture {
   awayTeamId: string | null;
   awayTeamName: string;
   awayTeamLogoUrl: string | null;
+  status: FixtureStatus;
+  resultLabel: string | null;
+  homeScore: number | null;
+  awayScore: number | null;
+  matchUrl: string;
+  firstSeenAtUtc: string;
+  lastSeenAtUtc: string;
+  lastChangedAtUtc: string;
+}
+
+export interface FixtureDay {
+  source: "sofascore";
+  date: string;
+  collectionState: DayCollectionState;
+  firstScrapedAtUtc: string;
+  lastScrapedAtUtc: string;
+  frozenAtUtc: string | null;
+  fixtureCount: number;
+  fixtures: MatchFixture[];
+  metadata: {
+    browserTimezone: "UTC";
+    scraperVersion: 2;
+  };
+}
+
+export interface PublicFixtureSnapshot {
+  source: "sofascore";
+  status: "window";
+  scrapedAtUtc: string;
+  referenceDate: string;
+  datesIncluded: string[];
+  fixtureCount: number;
+  visibleFixtureCount: number;
+  fixtures: MatchFixture[];
+  metadata: {
+    browserTimezone: "UTC";
+    scraperVersion: 2;
+    pastDays: number;
+    futureDays: number;
+    excludedStatuses: FixtureStatus[];
+  };
+}
+
+export interface ScrapedFixture {
+  source: "sofascore";
+  sourceEventId: string;
+  matchDate: string;
+  kickoffAtUtc: string | null;
+  competitionName: string | null;
+  countryName: string | null;
+  homeTeamId: string | null;
+  homeTeamName: string;
+  homeTeamLogoUrl: string | null;
+  awayTeamId: string | null;
+  awayTeamName: string;
+  awayTeamLogoUrl: string | null;
+  status: FixtureStatus;
+  resultLabel: string | null;
+  homeScore: number | null;
+  awayScore: number | null;
   matchUrl: string;
   scrapedAtUtc: string;
 }
 
-export interface FixtureSnapshot {
+export interface ScrapedFixtureDay {
   source: "sofascore";
-  status: "upcoming";
+  date: string;
   scrapedAtUtc: string;
-  datesScraped: string[];
-  fixtureCount: number;
-  fixtures: UpcomingFixture[];
-  metadata: {
-    browserTimezone: "UTC";
-    scraperVersion: 1;
-  };
+  fixtures: ScrapedFixture[];
 }

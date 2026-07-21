@@ -37,9 +37,12 @@ async function bootstrap() {
   }
 
   state.snapshot = await response.json();
-  state.selectedDate = state.snapshot.datesScraped[0] ?? null;
+  state.selectedDate =
+    state.snapshot.referenceDate && state.snapshot.datesIncluded.includes(state.snapshot.referenceDate)
+      ? state.snapshot.referenceDate
+      : state.snapshot.datesIncluded[0] ?? null;
   state.selectedFixtureId =
-    state.snapshot.fixtures.find((fixture) => fixture.scrapeDate === state.selectedDate)
+    state.snapshot.fixtures.find((fixture) => fixture.matchDate === state.selectedDate)
       ?.sourceEventId ?? null;
 
   renderSummary();
@@ -53,10 +56,14 @@ function renderSummary() {
     return;
   }
 
-  const dates = state.snapshot.datesScraped.join(", ");
+  const windowLabel =
+    state.snapshot.datesIncluded.length > 1
+      ? `${state.snapshot.datesIncluded[0]} → ${state.snapshot.datesIncluded.at(-1)}`
+      : state.snapshot.datesIncluded[0] ?? "Sem datas";
+
   summaryEl.innerHTML = [
-    metricCard("Jogos agendados", String(state.snapshot.fixtureCount)),
-    metricCard("Datas recolhidas", dates || "Nenhuma"),
+    metricCard("Jogos visíveis", String(state.snapshot.visibleFixtureCount)),
+    metricCard("Janela ativa", windowLabel),
     metricCard("Snapshot", formatTimestamp(state.snapshot.scrapedAtUtc)),
   ].join("");
 }
@@ -68,15 +75,15 @@ function renderDateFilters() {
 
   datesEl.innerHTML = "";
 
-  for (const date of state.snapshot.datesScraped) {
+  for (const date of state.snapshot.datesIncluded) {
     const button = document.createElement("button");
     button.type = "button";
     button.className = date === state.selectedDate ? "chip chip--active" : "chip";
-    button.textContent = date;
+    button.textContent = date === state.snapshot.referenceDate ? `${date} · Hoje` : date;
     button.addEventListener("click", () => {
       state.selectedDate = date;
       state.selectedFixtureId =
-        state.snapshot.fixtures.find((fixture) => fixture.scrapeDate === date)?.sourceEventId ??
+        state.snapshot.fixtures.find((fixture) => fixture.matchDate === date)?.sourceEventId ??
         null;
       renderDateFilters();
       renderFixtures();
@@ -97,9 +104,7 @@ function renderFixtures() {
     return;
   }
 
-  const fixtures = state.snapshot.fixtures.filter(
-    (fixture) => fixture.scrapeDate === state.selectedDate,
-  );
+  const fixtures = state.snapshot.fixtures.filter((fixture) => fixture.matchDate === state.selectedDate);
 
   if (fixtures.length === 0) {
     stateEl.textContent = buildFixtureStateCopy(0, state.selectedDate);
@@ -134,23 +139,27 @@ function renderFixtures() {
 
 function renderCompetitionGroup(group) {
   const fixtureCards = group.fixtures
-    .sort((left, right) => left.kickoffAtUtc.localeCompare(right.kickoffAtUtc))
+    .sort(compareFixtures)
     .map(
       (fixture) => `
         <article class="fixture-card ${fixture.sourceEventId === state.selectedFixtureId ? "fixture-card--selected" : ""}" data-fixture-id="${fixture.sourceEventId}">
           <div class="fixture-card__meta">
-            <span>${formatKickoffTime(fixture.kickoffAtUtc)}</span>
+            <span>${formatFixtureMeta(fixture)}</span>
           </div>
           <div class="fixture-card__teams">
             ${renderTeamLine({
               name: fixture.homeTeamName,
               logoUrl: fixture.homeTeamLogoUrl,
               teamId: fixture.homeTeamId,
+              score: fixture.homeScore,
+              status: fixture.status,
             })}
             ${renderTeamLine({
               name: fixture.awayTeamName,
               logoUrl: fixture.awayTeamLogoUrl,
               teamId: fixture.awayTeamId,
+              score: fixture.awayScore,
+              status: fixture.status,
             })}
           </div>
         </article>
@@ -215,8 +224,16 @@ function renderFixtureDetail() {
     <h2>${escapeHtml(fixture.homeTeamName)} vs ${escapeHtml(fixture.awayTeamName)}</h2>
     <div class="fixture-detail__stack">
       <div class="fixture-detail__row">
+        <span>Estado</span>
+        <strong>${escapeHtml(formatStatusLabel(fixture))}</strong>
+      </div>
+      <div class="fixture-detail__row">
         <span>Hora</span>
-        <strong>${formatKickoff(fixture.kickoffAtUtc)}</strong>
+        <strong>${escapeHtml(formatFixtureDetailTime(fixture))}</strong>
+      </div>
+      <div class="fixture-detail__row">
+        <span>Resultado</span>
+        <strong>${escapeHtml(formatScoreline(fixture))}</strong>
       </div>
       <div class="fixture-detail__row">
         <span>Competição</span>
@@ -263,16 +280,11 @@ function metricCard(label, value) {
   `;
 }
 
-function formatTimestamp(value) {
-  const date = new Date(value);
-  return Number.isNaN(date.getTime()) ? value : formatter.format(date);
-}
-
 function buildFixtureStateCopy(count, date) {
-  return `${count} upcoming fixtures for ${date} - Hora de Lisboa`;
+  return `${count} jogos visíveis para ${date} - Hora de Lisboa`;
 }
 
-function renderTeamLine({ name, logoUrl, teamId }) {
+function renderTeamLine({ name, logoUrl, teamId, score, status }) {
   const safeName = escapeHtml(name);
   const crest = logoUrl
     ? `<img class="team-line__crest" src="${escapeAttribute(logoUrl)}" alt="${safeName}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`
@@ -280,12 +292,47 @@ function renderTeamLine({ name, logoUrl, teamId }) {
         buildTeamInitials(name, teamId),
       )}</span>`;
 
+  const scoreCopy =
+    shouldRenderScore(status, score) ?
+      `<span class="team-line__score">${escapeHtml(String(score))}</span>` :
+      "";
+
   return `
     <span class="team-line">
       ${crest}
       <span class="team-line__name">${safeName}</span>
+      ${scoreCopy}
     </span>
   `;
+}
+
+function shouldRenderScore(status, score) {
+  return (status === "finished" || status === "live") && score !== null;
+}
+
+function formatTimestamp(value) {
+  if (!value) {
+    return "Indisponível";
+  }
+
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? value : formatter.format(date);
+}
+
+function formatFixtureMeta(fixture) {
+  if (fixture.kickoffAtUtc) {
+    return formatKickoffTime(fixture.kickoffAtUtc);
+  }
+
+  if (fixture.resultLabel) {
+    return fixture.resultLabel;
+  }
+
+  return "Sem hora";
+}
+
+function formatFixtureDetailTime(fixture) {
+  return fixture.kickoffAtUtc ? formatKickoff(fixture.kickoffAtUtc) : "Hora não disponível";
 }
 
 function formatKickoff(value) {
@@ -306,6 +353,32 @@ function formatKickoffTime(value) {
   return Number.isNaN(date.getTime()) ? value : timeOnlyFormatter.format(date);
 }
 
+function formatStatusLabel(fixture) {
+  switch (fixture.status) {
+    case "finished":
+      return fixture.resultLabel ?? "Terminado";
+    case "upcoming":
+      return "Agendado";
+    case "postponed":
+      return fixture.resultLabel ?? "Adiado";
+    case "cancelled":
+      return fixture.resultLabel ?? "Cancelado";
+    case "live":
+      return fixture.resultLabel ?? "Ao vivo";
+    default:
+      return "Desconhecido";
+  }
+}
+
+function formatScoreline(fixture) {
+  if (fixture.homeScore !== null && fixture.awayScore !== null) {
+    const suffix = fixture.resultLabel ? ` (${fixture.resultLabel})` : "";
+    return `${fixture.homeScore} - ${fixture.awayScore}${suffix}`;
+  }
+
+  return fixture.status === "upcoming" ? "Ainda sem resultado" : "Resultado indisponível";
+}
+
 function buildTeamInitials(name, teamId) {
   const initials = String(name)
     .split(/\s+/)
@@ -315,6 +388,36 @@ function buildTeamInitials(name, teamId) {
     .join("");
 
   return initials || String(teamId ?? "?").slice(0, 2).toUpperCase();
+}
+
+function compareFixtures(left, right) {
+  return (
+    compareKickoff(left.kickoffAtUtc, right.kickoffAtUtc) ||
+    compareNullable(left.countryName, right.countryName) ||
+    compareNullable(left.competitionName, right.competitionName) ||
+    left.homeTeamName.localeCompare(right.homeTeamName) ||
+    left.awayTeamName.localeCompare(right.awayTeamName)
+  );
+}
+
+function compareKickoff(left, right) {
+  if (left === right) {
+    return 0;
+  }
+
+  if (left === null) {
+    return 1;
+  }
+
+  if (right === null) {
+    return -1;
+  }
+
+  return left.localeCompare(right);
+}
+
+function compareNullable(left, right) {
+  return String(left ?? "").localeCompare(String(right ?? ""));
 }
 
 function escapeHtml(value) {
