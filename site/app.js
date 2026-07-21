@@ -13,6 +13,12 @@ const formatter = new Intl.DateTimeFormat("pt-PT", {
   timeZone: displayTimeZone,
 });
 
+const timeOnlyFormatter = new Intl.DateTimeFormat("pt-PT", {
+  hour: "2-digit",
+  minute: "2-digit",
+  timeZone: displayTimeZone,
+});
+
 const state = {
   snapshot: null,
   selectedDate: null,
@@ -133,7 +139,7 @@ function renderCompetitionGroup(group) {
       (fixture) => `
         <article class="fixture-card ${fixture.sourceEventId === state.selectedFixtureId ? "fixture-card--selected" : ""}" data-fixture-id="${fixture.sourceEventId}">
           <div class="fixture-card__meta">
-            <span>${formatKickoff(fixture.kickoffAtUtc)}</span>
+            <span>${formatKickoffTime(fixture.kickoffAtUtc)}</span>
           </div>
           <div class="fixture-card__teams">
             <strong>${escapeHtml(fixture.homeTeamName)}</strong>
@@ -271,6 +277,11 @@ function formatKickoff(value) {
         minute: "2-digit",
         timeZone: displayTimeZone,
       }).format(date);
+}
+
+function formatKickoffTime(value) {
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? value : timeOnlyFormatter.format(date);
 }
 
 function escapeHtml(value) {
