@@ -11,20 +11,20 @@ const markdownPages = [
   {
     sourcePath: path.join(repoRoot, "README.md"),
     outputPath: path.join(docsDir, "readme.html"),
-    title: "Project Overview",
-    description: "Scope, setup, and operational notes for Futestat.",
+    title: "Visão geral do projeto",
+    description: "Âmbito, configuração e notas operacionais do Futestat.",
   },
   {
     sourcePath: path.join(repoRoot, "docs", "architecture.md"),
     outputPath: path.join(docsDir, "architecture.html"),
-    title: "Architecture",
-    description: "System structure, design decisions, and risk controls.",
+    title: "Arquitetura",
+    description: "Estrutura do sistema, decisões de desenho e controlos de risco.",
   },
   {
     sourcePath: path.join(repoRoot, "docs", "roadmap.md"),
     outputPath: path.join(docsDir, "roadmap.html"),
     title: "Roadmap",
-    description: "Planned phases after the initial fixtures-only draft.",
+    description: "Fases planeadas após o draft inicial focado apenas em fixtures.",
   },
 ];
 
@@ -89,12 +89,12 @@ async function loadFixtureSnapshot() {
 
 function renderHomePage({ projectName, snapshot }) {
   return `<!doctype html>
-<html lang="en">
+<html lang="pt-PT">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Futestat Pages</title>
-    <meta name="description" content="Static GitHub Pages view for Futestat upcoming fixtures and project documentation.">
+    <meta name="description" content="Vista estática do Futestat com próximos jogos e documentação do projeto.">
     <link rel="stylesheet" href="./assets/styles.css">
   </head>
   <body>
@@ -104,44 +104,44 @@ function renderHomePage({ projectName, snapshot }) {
           <span class="brand__mark">F</span>
           <span class="brand__copy">
             <strong>${escapeHtml(projectName)}</strong>
-            <span>Upcoming fixtures snapshot</span>
+            <span>Snapshot de jogos agendados</span>
           </span>
         </a>
-        <nav class="nav" aria-label="Primary">
-          <a href="./fixtures/latest.json">Fixtures JSON</a>
+        <nav class="nav" aria-label="Principal">
+          <a href="./fixtures/latest.json">JSON dos jogos</a>
         </nav>
       </header>
 
       <main class="panel panel--full">
         <div class="workspace">
           <section class="fixtures-pane">
-            <h1>Upcoming fixtures</h1>
+            <h1>Próximos jogos</h1>
             <p class="panel__intro">
-              The list below is rendered from the committed <code>data/fixtures/latest.json</code> snapshot.
+              A lista abaixo é gerada a partir do snapshot commitado em <code>data/fixtures/latest.json</code>.
             </p>
             <section class="metric-grid" data-fixture-summary></section>
             <div class="fixtures-toolbar">
               <div class="fixtures-toolbar__dates" data-date-filters></div>
               <p class="state-copy" data-fixture-state>
-                ${snapshot.fixtureCount > 0 ? "Loading fixtures..." : "No published snapshot yet."}
+                ${snapshot.fixtureCount > 0 ? "A carregar jogos..." : "Ainda não existe snapshot publicado."}
               </p>
             </div>
             <div class="competition-stack" data-fixture-groups></div>
           </section>
 
           <aside class="fixture-detail" data-fixture-detail>
-            <p class="fixture-detail__eyebrow">Match panel</p>
-            <h2>Fixture details</h2>
+            <p class="fixture-detail__eyebrow">Painel do jogo</p>
+            <h2>Detalhes do jogo</h2>
             <p class="fixture-detail__empty">
-              Select a fixture from the left column. This area is reserved for match details in future iterations.
+              Seleciona um jogo na coluna da esquerda. Esta área fica reservada para informação mais detalhada em futuras iterações.
             </p>
           </aside>
         </div>
       </main>
 
       <footer class="footer">
-        <span>Committed snapshot: ${escapeHtml(formatDateTime(snapshot.scrapedAtUtc))}</span>
-        <span>Source: ${escapeHtml(snapshot.source ?? "unknown")}</span>
+        <span>Snapshot gravado: ${escapeHtml(formatDateTime(snapshot.scrapedAtUtc))}</span>
+        <span>Fonte: ${escapeHtml(snapshot.source ?? "desconhecida")}</span>
       </footer>
     </div>
     <script type="module" src="./assets/app.js"></script>
@@ -163,26 +163,26 @@ function renderDocsIndex(pages) {
     .join("");
 
   return `<!doctype html>
-<html lang="en">
+<html lang="pt-PT">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Futestat Docs</title>
-    <meta name="description" content="Static documentation index for Futestat.">
+    <title>Documentação Futestat</title>
+    <meta name="description" content="Índice estático de documentação do Futestat.">
     <link rel="stylesheet" href="../assets/styles.css">
   </head>
   <body>
     <div class="doc-shell page-enter">
       <nav class="doc-nav">
-        <a href="../index.html">Home</a>
-        <a href="./readme.html">Overview</a>
-        <a href="./architecture.html">Architecture</a>
+        <a href="../index.html">Início</a>
+        <a href="./readme.html">Visão geral</a>
+        <a href="./architecture.html">Arquitetura</a>
         <a href="./roadmap.html">Roadmap</a>
       </nav>
       <section class="panel">
-        <h1>Documentation</h1>
+        <h1>Documentação</h1>
         <p class="panel__intro">
-          Static HTML generated from the markdown files committed in this repository.
+          HTML estático gerado a partir dos ficheiros markdown commitados neste repositório.
         </p>
         <div class="docs-stack">
           ${cards}
@@ -195,7 +195,7 @@ function renderDocsIndex(pages) {
 
 function renderDocPage({ title, description, content }) {
   return `<!doctype html>
-<html lang="en">
+<html lang="pt-PT">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -206,10 +206,10 @@ function renderDocPage({ title, description, content }) {
   <body>
     <div class="doc-shell page-enter">
       <nav class="doc-nav">
-        <a href="../index.html">Home</a>
-        <a href="./index.html">Docs</a>
-        <a href="./readme.html">Overview</a>
-        <a href="./architecture.html">Architecture</a>
+        <a href="../index.html">Início</a>
+        <a href="./index.html">Documentação</a>
+        <a href="./readme.html">Visão geral</a>
+        <a href="./architecture.html">Arquitetura</a>
         <a href="./roadmap.html">Roadmap</a>
       </nav>
       <section class="doc-card">
@@ -350,7 +350,7 @@ function rewriteHref(href, page) {
 
 function formatDateTime(value) {
   if (!value) {
-    return "Not available";
+    return "Indisponível";
   }
 
   const date = new Date(value);
@@ -358,7 +358,7 @@ function formatDateTime(value) {
     return String(value);
   }
 
-  return new Intl.DateTimeFormat("en-GB", {
+  return new Intl.DateTimeFormat("pt-PT", {
     dateStyle: "medium",
     timeStyle: "short",
     timeZone: "UTC",

@@ -4,7 +4,7 @@ const groupsEl = document.querySelector("[data-fixture-groups]");
 const stateEl = document.querySelector("[data-fixture-state]");
 const detailEl = document.querySelector("[data-fixture-detail]");
 
-const formatter = new Intl.DateTimeFormat("en-GB", {
+const formatter = new Intl.DateTimeFormat("pt-PT", {
   day: "2-digit",
   month: "short",
   hour: "2-digit",
@@ -26,7 +26,7 @@ async function bootstrap() {
   const response = await fetch("./fixtures/latest.json", { cache: "no-store" });
 
   if (!response.ok) {
-    throw new Error(`Fixtures snapshot unavailable (${response.status}).`);
+    throw new Error(`Snapshot de jogos indisponível (${response.status}).`);
   }
 
   state.snapshot = await response.json();
@@ -48,8 +48,8 @@ function renderSummary() {
 
   const dates = state.snapshot.datesScraped.join(", ");
   summaryEl.innerHTML = [
-    metricCard("Upcoming fixtures", String(state.snapshot.fixtureCount)),
-    metricCard("Dates scraped", dates || "None"),
+    metricCard("Jogos agendados", String(state.snapshot.fixtureCount)),
+    metricCard("Datas recolhidas", dates || "Nenhuma"),
     metricCard("Snapshot", formatTimestamp(state.snapshot.scrapedAtUtc)),
   ].join("");
 }
@@ -85,7 +85,7 @@ function renderFixtures() {
   }
 
   if (!state.snapshot || !state.selectedDate) {
-    stateEl.textContent = "No fixture snapshot available yet.";
+    stateEl.textContent = "Ainda não existe snapshot de jogos disponível.";
     groupsEl.innerHTML = "";
     return;
   }
@@ -95,7 +95,7 @@ function renderFixtures() {
   );
 
   if (fixtures.length === 0) {
-    stateEl.textContent = `No upcoming fixtures found for ${state.selectedDate}.`;
+    stateEl.textContent = `Sem jogos agendados para ${state.selectedDate} (hora do meridiano de Greenwich).`;
     groupsEl.innerHTML = "";
     return;
   }
@@ -104,14 +104,14 @@ function renderFixtures() {
     state.selectedFixtureId = fixtures[0]?.sourceEventId ?? null;
   }
 
-  stateEl.textContent = `${fixtures.length} upcoming fixtures for ${state.selectedDate}.`;
+  stateEl.textContent = `${fixtures.length} jogos agendados para ${state.selectedDate} (hora do meridiano de Greenwich).`;
 
   const byCompetition = new Map();
   for (const fixture of fixtures) {
-    const key = `${fixture.countryName ?? "Unknown"}__${fixture.competitionName ?? "Unknown"}`;
+    const key = `${fixture.countryName ?? "Desconhecido"}__${fixture.competitionName ?? "Competição desconhecida"}`;
     const group = byCompetition.get(key) ?? {
-      countryName: fixture.countryName ?? "Unknown",
-      competitionName: fixture.competitionName ?? "Unknown competition",
+      countryName: fixture.countryName ?? "Desconhecido",
+      competitionName: fixture.competitionName ?? "Competição desconhecida",
       fixtures: [],
     };
     group.fixtures.push(fixture);
@@ -133,14 +133,13 @@ function renderCompetitionGroup(group) {
         <article class="fixture-card ${fixture.sourceEventId === state.selectedFixtureId ? "fixture-card--selected" : ""}" data-fixture-id="${fixture.sourceEventId}">
           <div class="fixture-card__meta">
             <span>${formatKickoff(fixture.kickoffAtUtc)}</span>
-            <span>UTC</span>
           </div>
           <div class="fixture-card__teams">
             <strong>${escapeHtml(fixture.homeTeamName)}</strong>
             <span class="fixture-card__vs">vs</span>
             <strong>${escapeHtml(fixture.awayTeamName)}</strong>
           </div>
-          <button class="fixture-card__action" type="button">View</button>
+          <button class="fixture-card__action" type="button">Ver</button>
         </article>
       `,
     )
@@ -189,41 +188,41 @@ function renderFixtureDetail() {
 
   if (!fixture) {
     detailEl.innerHTML = `
-      <p class="fixture-detail__eyebrow">Match panel</p>
-      <h2>Fixture details</h2>
+      <p class="fixture-detail__eyebrow">Painel do jogo</p>
+      <h2>Detalhes do jogo</h2>
       <p class="fixture-detail__empty">
-        Select a fixture from the left column. This area is reserved for match details in future iterations.
+        Seleciona um jogo na coluna da esquerda. Esta área fica reservada para informação mais detalhada em futuras iterações.
       </p>
     `;
     return;
   }
 
   detailEl.innerHTML = `
-    <p class="fixture-detail__eyebrow">Match panel</p>
+    <p class="fixture-detail__eyebrow">Painel do jogo</p>
     <h2>${escapeHtml(fixture.homeTeamName)} vs ${escapeHtml(fixture.awayTeamName)}</h2>
     <div class="fixture-detail__stack">
       <div class="fixture-detail__row">
-        <span>Kickoff</span>
-        <strong>${formatKickoff(fixture.kickoffAtUtc)} UTC</strong>
+        <span>Hora</span>
+        <strong>${formatKickoff(fixture.kickoffAtUtc)}</strong>
       </div>
       <div class="fixture-detail__row">
-        <span>Competition</span>
-        <strong>${escapeHtml(fixture.competitionName ?? "Unknown competition")}</strong>
+        <span>Competição</span>
+        <strong>${escapeHtml(fixture.competitionName ?? "Competição desconhecida")}</strong>
       </div>
       <div class="fixture-detail__row">
-        <span>Country</span>
-        <strong>${escapeHtml(fixture.countryName ?? "Unknown")}</strong>
+        <span>País</span>
+        <strong>${escapeHtml(fixture.countryName ?? "Desconhecido")}</strong>
       </div>
       <div class="fixture-detail__row">
-        <span>Event ID</span>
+        <span>ID do evento</span>
         <strong>${escapeHtml(fixture.sourceEventId)}</strong>
       </div>
     </div>
     <p class="fixture-detail__note">
-      This right column is the reserved slot for richer match information in the next phase.
+      Esta coluna da direita fica reservada para informação mais rica do jogo na próxima fase.
     </p>
     <a class="fixture-detail__link" href="${fixture.matchUrl}" target="_blank" rel="noreferrer">
-      Open match page
+      Abrir página do jogo
     </a>
   `;
 }
@@ -260,7 +259,7 @@ function formatKickoff(value) {
   const date = new Date(value);
   return Number.isNaN(date.getTime())
     ? value
-    : new Intl.DateTimeFormat("en-GB", {
+    : new Intl.DateTimeFormat("pt-PT", {
         day: "2-digit",
         month: "short",
         hour: "2-digit",
