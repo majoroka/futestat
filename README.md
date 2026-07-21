@@ -87,6 +87,10 @@ O scraper grava:
 - `data/fixtures/runs/fixtures-window-<timestamp>.json`
 - `data/fixtures/days/YYYY-MM-DD.json`
 
+Nota importante:
+- `data/fixtures/days/*.json` faz parte da store canónica e deve ficar versionado no repositório
+- se esses ficheiros não existirem no GitHub, o workflow agendado começa sem histórico reconciliado e pode publicar um `latest.json` vazio quando uma run não conseguir extrair cartões
+
 ### Store canónica por dia
 
 Cada dia mantém:
