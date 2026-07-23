@@ -79,18 +79,24 @@ As mais importantes:
 - `FUTESTAT_PAST_DAYS`
 - `FUTESTAT_FUTURE_DAYS`
 - `FUTESTAT_OUTPUT_DIR`
+- `FUTESTAT_MAX_ATTEMPTS_PER_DATE`
+- `FUTESTAT_RETRY_DELAY_MS`
+- `FUTESTAT_CAPTURE_FAILURE_ARTIFACTS`
+- `FUTESTAT_STRUCTURED_LOGS`
 
 ## Output local
 
 O scraper grava:
 - `data/fixtures/latest.json`
 - `data/fixtures/runs/fixtures-window-<timestamp>.json`
+- `data/fixtures/runs/fixtures-metrics-<timestamp>.json`
 - `data/fixtures/days/YYYY-MM-DD.json`
+- `data/fixtures/diagnostics/<run>/<date>/attempt-<n>.{html,png}` quando houver falhas bloqueantes
 
 Nota importante:
 - estes ficheiros existem localmente para testes e builds locais
 - no branch `main`, `data/fixtures/` passa a ficar ignorado para evitar conflitos com a automação
-- a store canónica persistente do GitHub Actions passa a viver no ramo dedicado `fixtures-data`
+- a store canónica persistente publicada passa a viver no ramo dedicado `fixtures-data`
 
 ### Store canónica por dia
 
@@ -164,7 +170,7 @@ O draft já incorpora algumas decisões de robustez:
 Limites atuais:
 - depende do DOM atual do Sofascore
 - alguns jogos passados podem não expor a hora de kickoff na página da data, pelo que `kickoffAtUtc` pode ficar `null`
-- não há retries avançados nem observabilidade externa
+- a observabilidade fica local e orientada a ficheiros, não a serviço externo
 - ainda não há cobertura de regressão com HTML fixtures reais
 
 ## Documentação adicional
@@ -211,6 +217,8 @@ Nota técnica:
 - o ramo `fixtures-data` recebe apenas dados gerados
 - o deploy do Pages lê sempre o snapshot mais recente desse ramo
 - se o scrape local falhar e devolver zero fixtures em todas as datas, a run falha e não publica um snapshot vazio
+- cada data pode ser reintentada várias vezes antes de falhar a run inteira
+- em caso de bloqueio, a run grava logs estruturados e artefactos opcionais de diagnóstico
 
 Build local do site:
 

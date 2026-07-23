@@ -14,6 +14,11 @@ export interface AppConfig {
   browserTimezone: "UTC";
   browserLocale: "en-US";
   referenceTimeZone: "Europe/Lisbon";
+  maxAttemptsPerDate: number;
+  retryDelayMs: number;
+  captureFailureArtifacts: boolean;
+  structuredLogs: boolean;
+  diagnosticsDir: string;
 }
 
 export function loadAppConfig(argv = process.argv.slice(2)): AppConfig {
@@ -48,6 +53,20 @@ export function loadAppConfig(argv = process.argv.slice(2)): AppConfig {
     "timeoutMs",
   );
 
+  const maxAttemptsPerDate = readInteger(
+    cli.maxAttemptsPerDate,
+    process.env.FUTESTAT_MAX_ATTEMPTS_PER_DATE,
+    3,
+    "maxAttemptsPerDate",
+  );
+
+  const retryDelayMs = readInteger(
+    cli.retryDelayMs,
+    process.env.FUTESTAT_RETRY_DELAY_MS,
+    1_500,
+    "retryDelayMs",
+  );
+
   if (pastDays < 0) {
     throw new Error(`pastDays must be >= 0. Received ${pastDays}.`);
   }
@@ -58,6 +77,14 @@ export function loadAppConfig(argv = process.argv.slice(2)): AppConfig {
 
   if (timeoutMs < 1_000) {
     throw new Error(`timeoutMs must be >= 1000. Received ${timeoutMs}.`);
+  }
+
+  if (maxAttemptsPerDate < 1) {
+    throw new Error(`maxAttemptsPerDate must be >= 1. Received ${maxAttemptsPerDate}.`);
+  }
+
+  if (retryDelayMs < 0) {
+    throw new Error(`retryDelayMs must be >= 0. Received ${retryDelayMs}.`);
   }
 
   return {
@@ -73,6 +100,22 @@ export function loadAppConfig(argv = process.argv.slice(2)): AppConfig {
     browserTimezone: "UTC",
     browserLocale: "en-US",
     referenceTimeZone: "Europe/Lisbon",
+    maxAttemptsPerDate,
+    retryDelayMs,
+    captureFailureArtifacts: readBoolean(
+      cli.captureFailureArtifacts,
+      process.env.FUTESTAT_CAPTURE_FAILURE_ARTIFACTS,
+      true,
+    ),
+    structuredLogs: readBoolean(
+      cli.structuredLogs,
+      process.env.FUTESTAT_STRUCTURED_LOGS,
+      true,
+    ),
+    diagnosticsDir: path.resolve(
+      process.env.FUTESTAT_DIAGNOSTICS_DIR ??
+        path.join(cli.outputDir ?? process.env.FUTESTAT_OUTPUT_DIR ?? "data/fixtures", "diagnostics"),
+    ),
   };
 }
 

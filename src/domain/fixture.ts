@@ -64,6 +64,52 @@ export interface PublicFixtureSnapshot {
   };
 }
 
+export type FixtureScrapeAttemptOutcome = "success" | "empty" | "retryable_failure" | "failure";
+
+export interface FixtureScrapeAttemptMetrics {
+  attempt: number;
+  startedAtUtc: string;
+  completedAtUtc: string;
+  durationMs: number;
+  outcome: FixtureScrapeAttemptOutcome;
+  fixtureCount: number;
+  errorMessage: string | null;
+  diagnosticTitle: string | null;
+  diagnosticBodyPreview: string | null;
+  artifacts: {
+    screenshotPath: string | null;
+    htmlPath: string | null;
+  };
+}
+
+export interface FixtureScrapeDayMetrics {
+  date: string;
+  status: "succeeded" | "empty" | "failed";
+  startedAtUtc: string;
+  completedAtUtc: string;
+  durationMs: number;
+  fixtureCount: number;
+  attemptCount: number;
+  lastErrorMessage: string | null;
+  attempts: FixtureScrapeAttemptMetrics[];
+}
+
+export interface FixtureScrapeRunMetrics {
+  source: "sofascore";
+  referenceDate: string;
+  startedAtUtc: string;
+  completedAtUtc: string;
+  durationMs: number;
+  totalDates: number;
+  maxAttemptsPerDate: number;
+  retryDelayMs: number;
+  successfulDates: number;
+  emptyDates: number;
+  failedDates: number;
+  totalFixtures: number;
+  days: FixtureScrapeDayMetrics[];
+}
+
 export interface ScrapedFixture {
   source: "sofascore";
   sourceEventId: string;
@@ -90,4 +136,14 @@ export interface ScrapedFixtureDay {
   date: string;
   scrapedAtUtc: string;
   fixtures: ScrapedFixture[];
+}
+
+export interface ScrapeFixtureDayResult {
+  day: ScrapedFixtureDay;
+  metrics: FixtureScrapeDayMetrics;
+}
+
+export interface ScrapeFixtureDaysResult {
+  days: ScrapedFixtureDay[];
+  metrics: FixtureScrapeRunMetrics;
 }

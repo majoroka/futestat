@@ -25,12 +25,26 @@ Entregáveis atuais:
 Objetivo:
 - endurecer robustez operacional
 
+Estado:
+- em progresso
+
 Itens:
 - testes com HTML real
 - logs estruturados
 - screenshots opcionais por falha
 - retries por data
 - métricas básicas de scraping
+
+Entregáveis já introduzidos:
+- retries por data com limite configurável
+- logs estruturados da run e por tentativa
+- screenshots/HTML opcionais quando a página falha por bloqueio
+- ficheiro de métricas por run em `data/fixtures/runs/`
+
+Em falta nesta fase:
+- testes com HTML real do Sofascore
+- enriquecer classificação de falhas raras além de `403`
+- métricas históricas comparáveis entre runs
 
 ## Fase 3
 

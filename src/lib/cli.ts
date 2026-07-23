@@ -5,6 +5,10 @@ export interface CliOptions {
   outputDir?: string;
   headless?: boolean;
   timeoutMs?: number;
+  maxAttemptsPerDate?: number;
+  retryDelayMs?: number;
+  captureFailureArtifacts?: boolean;
+  structuredLogs?: boolean;
 }
 
 export function parseCliOptions(argv: string[]): CliOptions {
@@ -33,6 +37,18 @@ export function parseCliOptions(argv: string[]): CliOptions {
         break;
       case "--timeout-ms":
         options.timeoutMs = parseOptionalInteger(rawValue, flag);
+        break;
+      case "--max-attempts-per-date":
+        options.maxAttemptsPerDate = parseOptionalInteger(rawValue, flag);
+        break;
+      case "--retry-delay-ms":
+        options.retryDelayMs = parseOptionalInteger(rawValue, flag);
+        break;
+      case "--capture-failure-artifacts":
+        options.captureFailureArtifacts = parseBoolean(rawValue, flag);
+        break;
+      case "--structured-logs":
+        options.structuredLogs = parseBoolean(rawValue, flag);
         break;
       case "--help":
         printHelp();
@@ -86,5 +102,9 @@ Options:
   --output-dir=data/fixtures
   --headless=true
   --timeout-ms=60000
+  --max-attempts-per-date=3
+  --retry-delay-ms=1500
+  --capture-failure-artifacts=true
+  --structured-logs=true
 `);
 }

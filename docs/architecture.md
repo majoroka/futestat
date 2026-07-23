@@ -5,6 +5,7 @@
 O sistema evoluiu de um scraper simples de `upcoming` para uma pipeline pequena, mas já com dois níveis de persistência:
 - store canónica por dia
 - snapshot público derivado para o site
+- métricas operacionais por run
 
 Na operação em GitHub, a persistência fica também separada por ramo:
 - `main` para código, UI e documentação
@@ -32,6 +33,7 @@ Coordena o fluxo:
 2. executar scraping por data
 3. reconciliar com a store canónica
 4. derivar o snapshot público
+5. gravar métricas da run
 
 ### `infrastructure/sofascore`
 
@@ -41,6 +43,9 @@ Contém a integração específica com o Sofascore:
 - parsing dos cartões principais de jogos
 - derivação de `teamId` e URL de logótipo a partir das imagens
 - classificação de estado: `upcoming`, `finished`, `postponed`, `cancelled`, `live`
+- retries por data
+- deteção explícita de páginas bloqueadas por `403`
+- captura opcional de `html/png` para diagnóstico
 
 ### `infrastructure/storage`
 
@@ -48,6 +53,8 @@ Persistência local em JSON:
 - `data/fixtures/days/YYYY-MM-DD.json`
 - `data/fixtures/latest.json`
 - `data/fixtures/runs/fixtures-window-<timestamp>.json`
+- `data/fixtures/runs/fixtures-metrics-<timestamp>.json`
+- `data/fixtures/diagnostics/<run>/<date>/attempt-<n>.{html,png}`
 
 Persistência remota automatizada:
 - ramo `fixtures-data`
@@ -61,6 +68,7 @@ Contêm:
 - resolução da data de referência em `Europe/Lisbon`
 - construção da janela deslizante
 - utilitários de datas
+- logging estruturado da execução
 
 ## Decisões técnicas
 
@@ -112,6 +120,19 @@ Padrão aplicado:
 - `main` ignora `data/fixtures/`
 - o publish local escreve a store canónica em `fixtures-data`
 - o workflow de Pages lê o snapshot publicado nesse ramo
+
+## 7. Robustez local antes de automação externa
+
+Motivo:
+- o scraping remoto no GitHub Actions deixou de ser fiável por bloqueio `403`
+- a execução local é atualmente o ambiente mais estável
+- a observabilidade precisava de existir mesmo sem serviço externo
+
+Padrão aplicado:
+- retries configuráveis por data
+- logs estruturados em `stderr`
+- métricas persistidas por run
+- artefactos opcionais de falha para inspeção manual
 
 ## Política de estados
 
@@ -172,6 +193,9 @@ Regras principais:
 - reconciliar por `sourceEventId`
 - separar store canónica de snapshot público
 - excluir `live` do produto nesta fase
+- abortar a run quando todas as datas devolvem zero fixtures
+- reintentar datas bloqueadas antes de declarar falha
+- gravar artefactos locais quando o Sofascore devolve página bloqueada
 
 ## Evolução natural
 
