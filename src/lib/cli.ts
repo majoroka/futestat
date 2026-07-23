@@ -9,6 +9,10 @@ export interface CliOptions {
   retryDelayMs?: number;
   captureFailureArtifacts?: boolean;
   structuredLogs?: boolean;
+  matchDetailsEnabled?: boolean;
+  matchDetailsMaxFixtures?: number;
+  matchDetailsMaxAgeHours?: number;
+  matchDetailsDelayMs?: number;
 }
 
 export function parseCliOptions(argv: string[]): CliOptions {
@@ -49,6 +53,18 @@ export function parseCliOptions(argv: string[]): CliOptions {
         break;
       case "--structured-logs":
         options.structuredLogs = parseBoolean(rawValue, flag);
+        break;
+      case "--match-details-enabled":
+        options.matchDetailsEnabled = parseBoolean(rawValue, flag);
+        break;
+      case "--match-details-max-fixtures":
+        options.matchDetailsMaxFixtures = parseOptionalInteger(rawValue, flag);
+        break;
+      case "--match-details-max-age-hours":
+        options.matchDetailsMaxAgeHours = parseOptionalInteger(rawValue, flag);
+        break;
+      case "--match-details-delay-ms":
+        options.matchDetailsDelayMs = parseOptionalInteger(rawValue, flag);
         break;
       case "--help":
         printHelp();
@@ -106,5 +122,9 @@ Options:
   --retry-delay-ms=1500
   --capture-failure-artifacts=true
   --structured-logs=true
+  --match-details-enabled=true
+  --match-details-max-fixtures=16
+  --match-details-max-age-hours=12
+  --match-details-delay-ms=1200
 `);
 }

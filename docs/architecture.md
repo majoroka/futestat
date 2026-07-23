@@ -5,6 +5,7 @@
 O sistema evoluiu de um scraper simples de `upcoming` para uma pipeline pequena, mas já com dois níveis de persistência:
 - store canónica por dia
 - snapshot público derivado para o site
+- detalhe adicional por jogo `upcoming`
 - métricas operacionais por run
 
 Na operação em GitHub, a persistência fica também separada por ramo:
@@ -33,7 +34,8 @@ Coordena o fluxo:
 2. executar scraping por data
 3. reconciliar com a store canónica
 4. derivar o snapshot público
-5. gravar métricas da run
+5. refrescar detalhe adicional de um subconjunto conservador de jogos `upcoming`
+6. gravar métricas da run
 
 ### `infrastructure/sofascore`
 
@@ -46,12 +48,14 @@ Contém a integração específica com o Sofascore:
 - retries por data
 - deteção explícita de páginas bloqueadas por `403`
 - captura opcional de `html/png` para diagnóstico
+- scraping de detalhe por jogo via página individual e respostas JSON carregadas pelo próprio browser
 
 ### `infrastructure/storage`
 
 Persistência local em JSON:
 - `data/fixtures/days/YYYY-MM-DD.json`
 - `data/fixtures/latest.json`
+- `data/fixtures/details/<sourceEventId>.json`
 - `data/fixtures/runs/fixtures-window-<timestamp>.json`
 - `data/fixtures/runs/fixtures-metrics-<timestamp>.json`
 - `data/fixtures/diagnostics/<run>/<date>/attempt-<n>.{html,png}`
@@ -133,6 +137,20 @@ Padrão aplicado:
 - logs estruturados em `stderr`
 - métricas persistidas por run
 - artefactos opcionais de falha para inspeção manual
+
+## 8. Detalhe adicional apenas para `upcoming` e com limite por run
+
+Motivo:
+- abrir páginas individuais para centenas de jogos aumentaria o risco de bloqueio
+- a UI pública beneficia mais dos jogos mais próximos do que de toda a janela futura
+- o detalhe é complementar e não deve comprometer a recolha principal
+
+Padrão aplicado:
+- apenas fixtures `upcoming`
+- seleção dos jogos mais próximos até um máximo configurável por run
+- cache persistente por `sourceEventId`
+- refresh só quando o detalhe está velho ou quando o fixture mudou
+- falha num detalhe individual é registada, mas não interrompe a run principal
 
 ## Política de estados
 

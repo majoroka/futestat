@@ -19,6 +19,11 @@ export interface AppConfig {
   captureFailureArtifacts: boolean;
   structuredLogs: boolean;
   diagnosticsDir: string;
+  matchDetailsEnabled: boolean;
+  matchDetailsMaxFixtures: number;
+  matchDetailsMaxAgeHours: number;
+  matchDetailsDelayMs: number;
+  matchDetailsOutputDir: string;
 }
 
 export function loadAppConfig(argv = process.argv.slice(2)): AppConfig {
@@ -87,6 +92,43 @@ export function loadAppConfig(argv = process.argv.slice(2)): AppConfig {
     throw new Error(`retryDelayMs must be >= 0. Received ${retryDelayMs}.`);
   }
 
+  const matchDetailsMaxFixtures = readInteger(
+    cli.matchDetailsMaxFixtures,
+    process.env.FUTESTAT_MATCH_DETAILS_MAX_FIXTURES,
+    16,
+    "matchDetailsMaxFixtures",
+  );
+
+  const matchDetailsMaxAgeHours = readInteger(
+    cli.matchDetailsMaxAgeHours,
+    process.env.FUTESTAT_MATCH_DETAILS_MAX_AGE_HOURS,
+    12,
+    "matchDetailsMaxAgeHours",
+  );
+
+  const matchDetailsDelayMs = readInteger(
+    cli.matchDetailsDelayMs,
+    process.env.FUTESTAT_MATCH_DETAILS_DELAY_MS,
+    1_200,
+    "matchDetailsDelayMs",
+  );
+
+  if (matchDetailsMaxFixtures < 0) {
+    throw new Error(
+      `matchDetailsMaxFixtures must be >= 0. Received ${matchDetailsMaxFixtures}.`,
+    );
+  }
+
+  if (matchDetailsMaxAgeHours < 1) {
+    throw new Error(
+      `matchDetailsMaxAgeHours must be >= 1. Received ${matchDetailsMaxAgeHours}.`,
+    );
+  }
+
+  if (matchDetailsDelayMs < 0) {
+    throw new Error(`matchDetailsDelayMs must be >= 0. Received ${matchDetailsDelayMs}.`);
+  }
+
   return {
     baseUrl: process.env.FUTESTAT_BASE_URL ?? "https://www.sofascore.com",
     referenceDate,
@@ -115,6 +157,18 @@ export function loadAppConfig(argv = process.argv.slice(2)): AppConfig {
     diagnosticsDir: path.resolve(
       process.env.FUTESTAT_DIAGNOSTICS_DIR ??
         path.join(cli.outputDir ?? process.env.FUTESTAT_OUTPUT_DIR ?? "data/fixtures", "diagnostics"),
+    ),
+    matchDetailsEnabled: readBoolean(
+      cli.matchDetailsEnabled,
+      process.env.FUTESTAT_MATCH_DETAILS_ENABLED,
+      true,
+    ),
+    matchDetailsMaxFixtures,
+    matchDetailsMaxAgeHours,
+    matchDetailsDelayMs,
+    matchDetailsOutputDir: path.resolve(
+      process.env.FUTESTAT_MATCH_DETAILS_OUTPUT_DIR ??
+        path.join(cli.outputDir ?? process.env.FUTESTAT_OUTPUT_DIR ?? "data/fixtures", "details"),
     ),
   };
 }

@@ -50,11 +50,20 @@ Pendências residuais:
 Objetivo:
 - melhorar a camada pública dos fixtures
 
-Itens:
+Estado:
+- em curso
+
+Entregáveis já introduzidos:
+- painel direito com detalhe base do jogo
+- carregamento sob demanda de detalhe adicional por ficheiro
+- suporte a estádio, localização, árbitro, ronda, H2H e contexto recente para jogos `upcoming`
+
+Pendências desta fase:
 - seletor UX dedicado para `passado / hoje / futuro`
 - ordenação e filtros de estado
 - tratamento visual de `postponed` e `cancelled`
-- detalhe de fixture na coluna direita
+- odds `1/X/2` na coluna esquerda
+- afinação visual dos novos blocos do painel
 
 ## Fase 4
 
@@ -64,7 +73,7 @@ Objetivo:
 Itens:
 - país e competição mais normalizados
 - heurísticas para recuperar kickoff em dias passados quando a página da data não o mostra
-- enriquecimento a partir da página individual do jogo
+- ampliar o detalhe da página individual a mais jogos e mais secções
 
 ## Fase 5
 

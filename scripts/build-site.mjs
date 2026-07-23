@@ -1,4 +1,4 @@
-import { mkdir, readFile, rm, writeFile, copyFile } from "node:fs/promises";
+import { mkdir, readFile, rm, writeFile, copyFile, cp } from "node:fs/promises";
 import path from "node:path";
 
 const repoRoot = process.cwd();
@@ -8,6 +8,7 @@ const docsDir = path.join(distDir, "docs");
 const fixturesDir = path.join(distDir, "fixtures");
 const displayTimeZone = "Europe/Lisbon";
 const fixtureSnapshotPath = resolveFixtureSnapshotPath();
+const fixtureDetailsPath = resolveFixtureDetailsPath();
 
 const markdownPages = [
   {
@@ -47,6 +48,7 @@ async function buildSite() {
     writeFile(path.join(distDir, ".nojekyll"), "", "utf8"),
     writeFile(path.join(fixturesDir, "latest.json"), JSON.stringify(snapshot, null, 2), "utf8"),
   ]);
+  await copyFixtureDetails();
 
   await writeFile(
     path.join(distDir, "index.html"),
@@ -164,6 +166,27 @@ function resolveFixtureSnapshotPath() {
   return path.isAbsolute(customPath)
     ? customPath
     : path.resolve(repoRoot, customPath);
+}
+
+function resolveFixtureDetailsPath() {
+  const customPath = process.env.FUTESTAT_SITE_DETAILS_PATH;
+
+  if (!customPath) {
+    return path.join(repoRoot, "data", "fixtures", "details");
+  }
+
+  return path.isAbsolute(customPath)
+    ? customPath
+    : path.resolve(repoRoot, customPath);
+}
+
+async function copyFixtureDetails() {
+  try {
+    await rm(path.join(fixturesDir, "details"), { recursive: true, force: true });
+    await cp(fixtureDetailsPath, path.join(fixturesDir, "details"), { recursive: true });
+  } catch {
+    // Details are optional; the site falls back to the public snapshot when absent.
+  }
 }
 
 function renderDocsIndex(pages) {

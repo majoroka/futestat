@@ -11,11 +11,11 @@ Esta iteração faz:
 - resultados finais para jogos terminados
 - exclusão de `live` do snapshot público
 - saída local em JSON
+- detalhe adicional para um subconjunto conservador de jogos `upcoming`
 
 Ficam explicitamente fora desta fase:
 - UI de `live`
-- detalhe aprofundado de jogo
-- odds, lineups e eventos in-play
+- lineups completas e eventos in-play
 - estatísticas de equipa
 
 ## Escolhas principais
@@ -83,11 +83,16 @@ As mais importantes:
 - `FUTESTAT_RETRY_DELAY_MS`
 - `FUTESTAT_CAPTURE_FAILURE_ARTIFACTS`
 - `FUTESTAT_STRUCTURED_LOGS`
+- `FUTESTAT_MATCH_DETAILS_ENABLED`
+- `FUTESTAT_MATCH_DETAILS_MAX_FIXTURES`
+- `FUTESTAT_MATCH_DETAILS_MAX_AGE_HOURS`
+- `FUTESTAT_MATCH_DETAILS_DELAY_MS`
 
 ## Output local
 
 O scraper grava:
 - `data/fixtures/latest.json`
+- `data/fixtures/details/<sourceEventId>.json`
 - `data/fixtures/runs/fixtures-window-<timestamp>.json`
 - `data/fixtures/runs/fixtures-metrics-<timestamp>.json`
 - `data/fixtures/days/YYYY-MM-DD.json`
@@ -148,6 +153,28 @@ Exemplo resumido:
 }
 ```
 
+### Detalhe por jogo `upcoming`
+
+Os detalhes enriquecidos ficam em ficheiros separados:
+- `data/fixtures/details/<sourceEventId>.json`
+
+Nesta fase, o detalhe adicional inclui:
+- estádio
+- localização
+- árbitro
+- competição e ronda
+- contexto de `two legs`
+- jogos anteriores e seguintes das equipas
+- histórico `H2H`
+- odds `1/X/2` recolhidas para uso posterior na coluna esquerda
+
+Política operacional desta camada:
+- apenas jogos `upcoming`
+- apenas um subconjunto por run, ordenado pelos jogos mais próximos
+- cache persistente por `sourceEventId`
+- refresh por idade máxima e/ou alteração do fixture
+- falha num detalhe individual não invalida a run principal de fixtures
+
 ## Regras operacionais
 
 - janela padrão: `D-7 ... D+7`
@@ -203,7 +230,8 @@ npm run refresh:fixtures-local
 
 Este comando:
 1. corre `npm run scrape:fixtures`
-2. publica a store local para o ramo `fixtures-data`
+2. atualiza também o detalhe adicional de jogos `upcoming` dentro do mesmo fluxo local
+3. publica a store local para o ramo `fixtures-data`
 
 Se preferires separar os passos:
 
@@ -219,6 +247,7 @@ Nota técnica:
 - se o scrape local falhar e devolver zero fixtures em todas as datas, a run falha e não publica um snapshot vazio
 - cada data pode ser reintentada várias vezes antes de falhar a run inteira
 - em caso de bloqueio, a run grava logs estruturados e artefactos opcionais de diagnóstico
+- o refresh de detalhe adicional é conservador e não falha a run principal se um jogo individual der erro
 
 Build local do site:
 
