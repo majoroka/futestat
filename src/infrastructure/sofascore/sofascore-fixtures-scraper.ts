@@ -26,6 +26,12 @@ export class SofascoreFixturesScraper {
         days.push(await this.scrapeFixtureDay(page, date));
       }
 
+      if (days.length > 0 && days.every((day) => day.fixtures.length === 0)) {
+        throw new Error(
+          `No fixtures extracted from Sofascore for any of the ${dates.length} requested dates.`,
+        );
+      }
+
       return days;
     } finally {
       await context.close();
@@ -186,6 +192,14 @@ export class SofascoreFixturesScraper {
       { baseUrl: this.config.baseUrl, date },
     );
 
+    if (rawFixtures.length === 0) {
+      const diagnostic = await readEmptyPageDiagnostic(page);
+
+      console.warn(
+        `[sofascore][${date}] no fixtures extracted; title="${diagnostic.title}" body="${diagnostic.bodyPreview}"`,
+      );
+    }
+
     const fixtures: ScrapedFixture[] = rawFixtures
       .map((fixture) => ({
         source: "sofascore" as const,
@@ -233,6 +247,27 @@ export class SofascoreFixturesScraper {
       return;
     }
   }
+}
+
+async function readEmptyPageDiagnostic(
+  page: Page,
+): Promise<{ title: string; bodyPreview: string }> {
+  const title = await page.title().catch(() => "");
+  const bodyPreview = await page
+    .evaluate(() =>
+      document.body.innerText
+        .split("\n")
+        .map((line) => line.trim())
+        .filter(Boolean)
+        .slice(0, 12)
+        .join(" | "),
+    )
+    .catch(() => "");
+
+  return {
+    title,
+    bodyPreview: bodyPreview.slice(0, 400),
+  };
 }
 
 function compareFixtures(left: ScrapedFixture, right: ScrapedFixture): number {
