@@ -95,7 +95,7 @@ export function loadAppConfig(argv = process.argv.slice(2)): AppConfig {
   const matchDetailsMaxFixtures = readInteger(
     cli.matchDetailsMaxFixtures,
     process.env.FUTESTAT_MATCH_DETAILS_MAX_FIXTURES,
-    16,
+    64,
     "matchDetailsMaxFixtures",
   );
 

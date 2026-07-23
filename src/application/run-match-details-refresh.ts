@@ -12,7 +12,7 @@ export async function runMatchDetailsRefresh(
   const store = new JsonMatchDetailStore(config.matchDetailsOutputDir);
   const allUpcoming = snapshot.fixtures
     .filter((fixture) => fixture.status === "upcoming")
-    .sort(compareUpcomingFixtures);
+    .sort((left, right) => compareUpcomingFixtures(left, right, snapshot.referenceDate));
   const candidates: MatchFixture[] = [];
 
   for (const fixture of allUpcoming) {
@@ -62,13 +62,28 @@ export async function runMatchDetailsRefresh(
   return result;
 }
 
-function compareUpcomingFixtures(left: MatchFixture, right: MatchFixture): number {
+function compareUpcomingFixtures(
+  left: MatchFixture,
+  right: MatchFixture,
+  referenceDate: string,
+): number {
   return (
+    compareReferenceDatePriority(left.matchDate, right.matchDate, referenceDate) ||
     compareKickoff(left.kickoffAtUtc, right.kickoffAtUtc) ||
     left.matchDate.localeCompare(right.matchDate) ||
     String(left.competitionName ?? "").localeCompare(String(right.competitionName ?? "")) ||
     left.homeTeamName.localeCompare(right.homeTeamName)
   );
+}
+
+function compareReferenceDatePriority(
+  leftDate: string,
+  rightDate: string,
+  referenceDate: string,
+): number {
+  const leftPriority = leftDate === referenceDate ? 0 : 1;
+  const rightPriority = rightDate === referenceDate ? 0 : 1;
+  return leftPriority - rightPriority;
 }
 
 function compareKickoff(left: string | null, right: string | null): number {

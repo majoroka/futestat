@@ -147,7 +147,8 @@ Motivo:
 
 Padrão aplicado:
 - apenas fixtures `upcoming`
-- seleção dos jogos mais próximos até um máximo configurável por run
+- prioridade aos fixtures `upcoming` do dia de referência
+- depois, seleção dos jogos mais próximos até um máximo configurável por run
 - cache persistente por `sourceEventId`
 - refresh só quando o detalhe está velho ou quando o fixture mudou
 - falha num detalhe individual é registada, mas não interrompe a run principal

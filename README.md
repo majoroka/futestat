@@ -170,7 +170,8 @@ Nesta fase, o detalhe adicional inclui:
 
 Política operacional desta camada:
 - apenas jogos `upcoming`
-- apenas um subconjunto por run, ordenado pelos jogos mais próximos
+- prioridade a todos os jogos `upcoming` do dia de referência
+- depois, subconjunto adicional por proximidade temporal até ao limite configurado
 - cache persistente por `sourceEventId`
 - refresh por idade máxima e/ou alteração do fixture
 - falha num detalhe individual não invalida a run principal de fixtures

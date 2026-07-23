@@ -123,7 +123,7 @@ Options:
   --capture-failure-artifacts=true
   --structured-logs=true
   --match-details-enabled=true
-  --match-details-max-fixtures=16
+  --match-details-max-fixtures=64
   --match-details-max-age-hours=12
   --match-details-delay-ms=1200
 `);
