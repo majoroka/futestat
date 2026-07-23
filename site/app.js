@@ -271,8 +271,6 @@ function renderFixtureDetail() {
     return;
   }
 
-  const displayDate = formatFixtureDetailDate(fixture);
-  const displayTime = formatFixtureDetailTime(fixture);
   const centerTime = fixture.kickoffAtUtc ? formatKickoffTime(fixture.kickoffAtUtc) : "Sem hora";
   const competitionLogo = buildCompetitionLogoUrl(
     fixture.competitionLogoUrl,
@@ -317,31 +315,6 @@ function renderFixtureDetail() {
         <span class="fixture-detail__badge">${escapeHtml(formatScoreline(fixture))}</span>
       </div>
     </div>
-    <section class="fixture-detail__section">
-      <h3>Resumo</h3>
-      <div class="fixture-detail__stack">
-        <div class="fixture-detail__row">
-          <span>Data</span>
-          <strong>${escapeHtml(displayDate)}</strong>
-        </div>
-        <div class="fixture-detail__row">
-          <span>Hora</span>
-          <strong>${escapeHtml(displayTime)}</strong>
-        </div>
-        <div class="fixture-detail__row">
-          <span>Competição</span>
-          <strong>${escapeHtml(fixture.competitionName ?? "Competição desconhecida")}</strong>
-        </div>
-        <div class="fixture-detail__row">
-          <span>País</span>
-          <strong>${escapeHtml(fixture.countryName ?? "Desconhecido")}</strong>
-        </div>
-        <div class="fixture-detail__row">
-          <span>Resultado</span>
-          <strong>${escapeHtml(formatScoreline(fixture))}</strong>
-        </div>
-      </div>
-    </section>
     <section class="fixture-detail__section">
       <h3>Recolha</h3>
       <div class="fixture-detail__stack">
