@@ -273,21 +273,37 @@ function renderFixtureDetail() {
 
   const displayDate = formatFixtureDetailDate(fixture);
   const displayTime = formatFixtureDetailTime(fixture);
+  const centerTime = fixture.kickoffAtUtc ? formatKickoffTime(fixture.kickoffAtUtc) : "Sem hora";
 
   detailEl.innerHTML = `
     <p class="fixture-detail__eyebrow">Painel do jogo</p>
     <div class="fixture-detail__hero">
-      <h2>${escapeHtml(fixture.homeTeamName)} vs ${escapeHtml(fixture.awayTeamName)}</h2>
+      <div class="fixture-detail__competition">
+        <span class="fixture-detail__competition-mark" aria-hidden="true"></span>
+        <div class="fixture-detail__competition-copy">
+          <span class="fixture-detail__competition-country">${escapeHtml(
+            fixture.countryName ?? "País desconhecido",
+          )}</span>
+          <strong class="fixture-detail__competition-name">${escapeHtml(
+            fixture.competitionName ?? "Competição desconhecida",
+          )}</strong>
+        </div>
+      </div>
+      <div class="fixture-detail__matchboard">
+        ${renderDetailMatchSide(fixture.homeTeamName, fixture.homeTeamLogoUrl, fixture.homeTeamId)}
+        <div class="fixture-detail__matchboard-center">
+          <strong class="fixture-detail__matchboard-time">${escapeHtml(centerTime)}</strong>
+          <span class="fixture-detail__matchboard-day">${escapeHtml(formatFixtureHeroDayLabel(fixture))}</span>
+          <span class="fixture-detail__matchboard-meta">${escapeHtml(formatFixtureHeroMeta(fixture))}</span>
+        </div>
+        ${renderDetailMatchSide(fixture.awayTeamName, fixture.awayTeamLogoUrl, fixture.awayTeamId)}
+      </div>
       <div class="fixture-detail__badges">
         <span class="fixture-detail__badge fixture-detail__badge--accent">${escapeHtml(
           formatStatusLabel(fixture),
         )}</span>
         <span class="fixture-detail__badge">${escapeHtml(formatScoreline(fixture))}</span>
       </div>
-    </div>
-    <div class="fixture-detail__teams">
-      ${renderDetailTeamCard(fixture.homeTeamName, fixture.homeTeamLogoUrl, fixture.homeTeamId, "Casa")}
-      ${renderDetailTeamCard(fixture.awayTeamName, fixture.awayTeamLogoUrl, fixture.awayTeamId, "Fora")}
     </div>
     <section class="fixture-detail__section">
       <h3>Resumo</h3>
@@ -359,7 +375,7 @@ function renderFixtureDetail() {
   `;
 }
 
-function renderDetailTeamCard(name, logoUrl, teamId, label) {
+function renderDetailMatchSide(name, logoUrl, teamId) {
   const safeName = escapeHtml(name);
   const crest = logoUrl
     ? `<img class="fixture-detail__team-crest" src="${escapeAttribute(logoUrl)}" alt="${safeName}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`
@@ -368,14 +384,38 @@ function renderDetailTeamCard(name, logoUrl, teamId, label) {
       )}</span>`;
 
   return `
-    <article class="fixture-detail__team-card">
-      <span class="fixture-detail__team-label">${escapeHtml(label)}</span>
-      <div class="fixture-detail__team-main">
-        ${crest}
-        <strong>${safeName}</strong>
-      </div>
+    <article class="fixture-detail__matchboard-side">
+      ${crest}
+      <strong class="fixture-detail__matchboard-team-name">${safeName}</strong>
     </article>
   `;
+}
+
+function formatFixtureHeroDayLabel(fixture) {
+  if (fixture.matchDate === state.snapshot?.referenceDate) {
+    return "Hoje";
+  }
+
+  if (!fixture.kickoffAtUtc) {
+    return fixture.matchDate;
+  }
+
+  const date = new Date(fixture.kickoffAtUtc);
+  return Number.isNaN(date.getTime())
+    ? fixture.matchDate
+    : new Intl.DateTimeFormat("pt-PT", {
+        day: "2-digit",
+        month: "short",
+        timeZone: displayTimeZone,
+      }).format(date);
+}
+
+function formatFixtureHeroMeta(fixture) {
+  if (fixture.homeScore !== null && fixture.awayScore !== null) {
+    return `${fixture.homeScore} - ${fixture.awayScore}`;
+  }
+
+  return "Hora de Lisboa";
 }
 
 function renderError(message) {

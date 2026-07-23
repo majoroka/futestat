@@ -180,7 +180,102 @@ a {
 
 .fixture-detail__hero {
   display: grid;
+  gap: 18px;
+}
+
+.fixture-detail__competition {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.fixture-detail__competition-mark {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(17, 34, 84, 0.96), rgba(31, 94, 255, 0.94));
+  box-shadow: 0 10px 24px rgba(31, 94, 255, 0.16);
+}
+
+.fixture-detail__competition-mark::before,
+.fixture-detail__competition-mark::after {
+  content: "";
+  position: absolute;
+  inset: 9px 17px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.fixture-detail__competition-mark::after {
+  inset: 17px 9px;
+}
+
+.fixture-detail__competition-copy {
+  display: grid;
+  gap: 3px;
+}
+
+.fixture-detail__competition-country {
+  color: var(--muted);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.fixture-detail__competition-name {
+  font-size: 1.06rem;
+  font-weight: 500;
+}
+
+.fixture-detail__matchboard {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  gap: 20px;
+  align-items: center;
+  padding: 12px 4px 6px;
+}
+
+.fixture-detail__matchboard-side {
+  display: grid;
+  justify-items: center;
   gap: 12px;
+  min-width: 0;
+}
+
+.fixture-detail__matchboard-team-name {
+  min-width: 0;
+  font-size: 1.02rem;
+  font-weight: 600;
+  line-height: 1.22;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.fixture-detail__matchboard-center {
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+}
+
+.fixture-detail__matchboard-time {
+  font-size: clamp(2rem, 3.3vw, 2.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+  font-family: var(--font-display);
+}
+
+.fixture-detail__matchboard-day {
+  color: #7a8090;
+  font-size: 0.98rem;
+}
+
+.fixture-detail__matchboard-meta {
+  color: var(--muted);
+  font-size: 0.84rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .fixture-detail__badges {
@@ -206,45 +301,9 @@ a {
   color: var(--accent-alt);
 }
 
-.fixture-detail__teams {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
-  margin-top: 18px;
-}
-
-.fixture-detail__team-card {
-  border-radius: 18px;
-  border: 1px solid rgba(23, 32, 51, 0.08);
-  background: rgba(255, 255, 255, 0.86);
-  padding: 14px 16px;
-}
-
-.fixture-detail__team-label {
-  display: block;
-  margin-bottom: 12px;
-  color: var(--muted);
-  font-size: 0.72rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.fixture-detail__team-main {
-  display: grid;
-  grid-template-columns: 42px minmax(0, 1fr);
-  gap: 12px;
-  align-items: center;
-}
-
-.fixture-detail__team-main strong {
-  min-width: 0;
-  font-size: 1rem;
-  line-height: 1.2;
-}
-
 .fixture-detail__team-crest {
-  width: 42px;
-  height: 42px;
+  width: 64px;
+  height: 64px;
   object-fit: contain;
 }
 
@@ -254,7 +313,7 @@ a {
   border-radius: 50%;
   background: rgba(31, 94, 255, 0.12);
   color: var(--accent-alt);
-  font-size: 0.82rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -734,6 +793,7 @@ a {
 
   .fixture-detail {
     position: static;
+    max-height: none;
   }
 
   .metric-grid {
@@ -750,6 +810,16 @@ a {
 
   .fixtures-toolbar__dates {
     min-width: 100%;
+  }
+
+  .fixture-detail__matchboard {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding-inline: 0;
+  }
+
+  .fixture-detail__matchboard-center {
+    order: -1;
   }
 }
 
