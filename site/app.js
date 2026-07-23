@@ -271,41 +271,110 @@ function renderFixtureDetail() {
     return;
   }
 
+  const displayDate = formatFixtureDetailDate(fixture);
+  const displayTime = formatFixtureDetailTime(fixture);
+
   detailEl.innerHTML = `
     <p class="fixture-detail__eyebrow">Painel do jogo</p>
-    <h2>${escapeHtml(fixture.homeTeamName)} vs ${escapeHtml(fixture.awayTeamName)}</h2>
-    <div class="fixture-detail__stack">
-      <div class="fixture-detail__row">
-        <span>Estado</span>
-        <strong>${escapeHtml(formatStatusLabel(fixture))}</strong>
-      </div>
-      <div class="fixture-detail__row">
-        <span>Hora</span>
-        <strong>${escapeHtml(formatFixtureDetailTime(fixture))}</strong>
-      </div>
-      <div class="fixture-detail__row">
-        <span>Resultado</span>
-        <strong>${escapeHtml(formatScoreline(fixture))}</strong>
-      </div>
-      <div class="fixture-detail__row">
-        <span>Competição</span>
-        <strong>${escapeHtml(fixture.competitionName ?? "Competição desconhecida")}</strong>
-      </div>
-      <div class="fixture-detail__row">
-        <span>País</span>
-        <strong>${escapeHtml(fixture.countryName ?? "Desconhecido")}</strong>
-      </div>
-      <div class="fixture-detail__row">
-        <span>ID do evento</span>
-        <strong>${escapeHtml(fixture.sourceEventId)}</strong>
+    <div class="fixture-detail__hero">
+      <h2>${escapeHtml(fixture.homeTeamName)} vs ${escapeHtml(fixture.awayTeamName)}</h2>
+      <div class="fixture-detail__badges">
+        <span class="fixture-detail__badge fixture-detail__badge--accent">${escapeHtml(
+          formatStatusLabel(fixture),
+        )}</span>
+        <span class="fixture-detail__badge">${escapeHtml(formatScoreline(fixture))}</span>
       </div>
     </div>
+    <div class="fixture-detail__teams">
+      ${renderDetailTeamCard(fixture.homeTeamName, fixture.homeTeamLogoUrl, fixture.homeTeamId, "Casa")}
+      ${renderDetailTeamCard(fixture.awayTeamName, fixture.awayTeamLogoUrl, fixture.awayTeamId, "Fora")}
+    </div>
+    <section class="fixture-detail__section">
+      <h3>Resumo</h3>
+      <div class="fixture-detail__stack">
+        <div class="fixture-detail__row">
+          <span>Data</span>
+          <strong>${escapeHtml(displayDate)}</strong>
+        </div>
+        <div class="fixture-detail__row">
+          <span>Hora</span>
+          <strong>${escapeHtml(displayTime)}</strong>
+        </div>
+        <div class="fixture-detail__row">
+          <span>Competição</span>
+          <strong>${escapeHtml(fixture.competitionName ?? "Competição desconhecida")}</strong>
+        </div>
+        <div class="fixture-detail__row">
+          <span>País</span>
+          <strong>${escapeHtml(fixture.countryName ?? "Desconhecido")}</strong>
+        </div>
+        <div class="fixture-detail__row">
+          <span>Resultado</span>
+          <strong>${escapeHtml(formatScoreline(fixture))}</strong>
+        </div>
+      </div>
+    </section>
+    <section class="fixture-detail__section">
+      <h3>Recolha</h3>
+      <div class="fixture-detail__stack">
+        <div class="fixture-detail__row">
+          <span>Primeira deteção</span>
+          <strong>${escapeHtml(formatTimestamp(fixture.firstSeenAtUtc))}</strong>
+        </div>
+        <div class="fixture-detail__row">
+          <span>Última deteção</span>
+          <strong>${escapeHtml(formatTimestamp(fixture.lastSeenAtUtc))}</strong>
+        </div>
+        <div class="fixture-detail__row">
+          <span>Última alteração</span>
+          <strong>${escapeHtml(formatTimestamp(fixture.lastChangedAtUtc))}</strong>
+        </div>
+      </div>
+    </section>
+    <section class="fixture-detail__section">
+      <h3>Identificação</h3>
+      <div class="fixture-detail__stack">
+        <div class="fixture-detail__row">
+          <span>ID do evento</span>
+          <strong>${escapeHtml(fixture.sourceEventId)}</strong>
+        </div>
+        <div class="fixture-detail__row">
+          <span>Fonte</span>
+          <strong>${escapeHtml(fixture.source)}</strong>
+        </div>
+        <div class="fixture-detail__row">
+          <span>Link</span>
+          <strong class="fixture-detail__value-link">
+            <a class="fixture-detail__inline-link" href="${fixture.matchUrl}" target="_blank" rel="noreferrer">Abrir no Sofascore</a>
+          </strong>
+        </div>
+      </div>
+    </section>
     <p class="fixture-detail__note">
-      Esta coluna da direita fica reservada para informação mais rica do jogo na próxima fase.
+      Este painel usa apenas os dados já presentes no snapshot público. Estádio, árbitro, H2H, odds e eventos do jogo entram na próxima etapa.
     </p>
     <a class="fixture-detail__link" href="${fixture.matchUrl}" target="_blank" rel="noreferrer">
       Abrir página do jogo
     </a>
+  `;
+}
+
+function renderDetailTeamCard(name, logoUrl, teamId, label) {
+  const safeName = escapeHtml(name);
+  const crest = logoUrl
+    ? `<img class="fixture-detail__team-crest" src="${escapeAttribute(logoUrl)}" alt="${safeName}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`
+    : `<span class="fixture-detail__team-crest fixture-detail__team-crest--fallback" aria-hidden="true">${escapeHtml(
+        buildTeamInitials(name, teamId),
+      )}</span>`;
+
+  return `
+    <article class="fixture-detail__team-card">
+      <span class="fixture-detail__team-label">${escapeHtml(label)}</span>
+      <div class="fixture-detail__team-main">
+        ${crest}
+        <strong>${safeName}</strong>
+      </div>
+    </article>
   `;
 }
 
@@ -402,6 +471,22 @@ function formatFixtureMeta(fixture) {
 
 function formatFixtureDetailTime(fixture) {
   return fixture.kickoffAtUtc ? formatKickoff(fixture.kickoffAtUtc) : "Hora não disponível";
+}
+
+function formatFixtureDetailDate(fixture) {
+  if (!fixture.kickoffAtUtc) {
+    return fixture.matchDate;
+  }
+
+  const date = new Date(fixture.kickoffAtUtc);
+  return Number.isNaN(date.getTime())
+    ? fixture.matchDate
+    : new Intl.DateTimeFormat("pt-PT", {
+        day: "2-digit",
+        month: "long",
+        year: "numeric",
+        timeZone: displayTimeZone,
+      }).format(date);
 }
 
 function formatKickoff(value) {
