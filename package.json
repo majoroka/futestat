@@ -11,6 +11,8 @@
     "build": "tsc -p tsconfig.json",
     "build:site": "node scripts/build-site.mjs",
     "check": "tsc --noEmit -p tsconfig.json",
+    "publish:fixtures-data": "node scripts/publish-fixtures-data.mjs",
+    "refresh:fixtures-local": "node scripts/refresh-fixtures-local.mjs",
     "scrape:fixtures": "node --import tsx src/cli.ts",
     "test": "node --import tsx --test test/**/*.test.ts"
   },

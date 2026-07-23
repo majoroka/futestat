@@ -179,36 +179,38 @@ Este repositório inclui um site estático pequeno para publicar:
 - resumo do projeto
 - documentação HTML derivada dos ficheiros em `docs/`
 
-## Automatização
+## Operação recomendada
 
-Existe agora um workflow agendado em `.github/workflows/refresh-fixtures.yml` que:
-1. instala dependências
-2. instala o Chromium do Playwright
-3. monta ou inicializa o ramo dedicado `fixtures-data`
-4. corre `npm run scrape:fixtures`
-5. reconstrói o site com `npm run build:site`
-6. faz commit da store canónica apenas em `fixtures-data`
-7. publica o Pages no mesmo workflow
+O Sofascore está a bloquear os runners do GitHub Actions com `403 Forbidden`, por isso o scraping não deve correr no GitHub.
 
-Cadência configurada:
-- `03:17`
-- `09:17`
-- `13:17`
-- `17:17`
-- `21:17`
+Modelo operacional adotado:
+- `main` para código, UI e documentação
+- `fixtures-data` para a store canónica de fixtures
+- scraping e publish feitos localmente
+- GitHub Pages construído a partir de `fixtures-data`
 
-Todas as horas acima são em `Europe/Lisbon`.
+Fluxo local recomendado:
 
-Motivo da cadência:
-- evita o topo da hora, onde o GitHub Actions pode sofrer mais atrasos
-- permite apanhar resultados finais ao longo do dia sem suportar `live`
-- mantém o dia atual e o dia anterior suficientemente frescos para esta fase
+```bash
+npm run refresh:fixtures-local
+```
+
+Este comando:
+1. corre `npm run scrape:fixtures`
+2. publica a store local para o ramo `fixtures-data`
+
+Se preferires separar os passos:
+
+```bash
+npm run scrape:fixtures
+npm run publish:fixtures-data
+```
 
 Nota técnica:
-- o deploy do Pages é feito no mesmo workflow agendado
-- isto evita depender de um `push` feito pelo `GITHUB_TOKEN`, porque esse tipo de push não dispara workflows adicionais normais no GitHub Actions
-- o branch `main` deixa de receber commits automáticos de dados gerados
-- o workflow `deploy-pages.yml` passa a ler o snapshot do ramo `fixtures-data`, para que alterações de UI no `main` não publiquem uma página vazia
+- `data/fixtures/` fica ignorado no `main`
+- o ramo `fixtures-data` recebe apenas dados gerados
+- o deploy do Pages lê sempre o snapshot mais recente desse ramo
+- se o scrape local falhar e devolver zero fixtures em todas as datas, a run falha e não publica um snapshot vazio
 
 Build local do site:
 
@@ -219,10 +221,10 @@ npm run build:site
 O output é gerado em `dist/`.
 
 Para GitHub Pages, existe um workflow em `.github/workflows/deploy-pages.yml` que:
-1. instala dependências
-2. monta o snapshot mais recente a partir de `fixtures-data`
-3. corre `npm run build:site`
-4. publica o artefacto estático em Pages
+1. lê o snapshot mais recente a partir de `fixtures-data`
+2. corre `npm run build:site`
+3. publica o artefacto estático em Pages
+4. corre por `push` ao `main`, manualmente, e de hora a hora
 
 ## Regra operacional no GitHub Desktop
 
@@ -235,7 +237,7 @@ Os ficheiros gerados em `data/fixtures/` deixam de entrar no fluxo normal de com
 
 Isto evita o problema anterior:
 - refresh local a mexer nos mesmos JSON
-- workflow remoto a commitar os mesmos JSON
+- scraping remoto bloqueado por `403` no GitHub Actions
 - conflitos recorrentes em `pull`
 
 Nota operacional:

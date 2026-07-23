@@ -18,6 +18,7 @@ Entregáveis atuais:
 - days store em `data/fixtures/days/`
 - snapshot público em `data/fixtures/latest.json`
 - separação entre `main` e ramo dedicado `fixtures-data`
+- publish local da store para `fixtures-data`
 
 ## Fase 2
 

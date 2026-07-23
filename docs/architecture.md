@@ -10,6 +10,11 @@ Na operação em GitHub, a persistência fica também separada por ramo:
 - `main` para código, UI e documentação
 - `fixtures-data` para a store canónica gerada automaticamente
 
+O scraping, porém, deixa de correr no GitHub Actions:
+- o Sofascore devolve `403 Forbidden` aos runners do GitHub
+- a recolha fiável passa a ser local
+- o GitHub fica apenas com a função de publicar o snapshot já recolhido
+
 ## Camadas
 
 ### `domain`
@@ -47,6 +52,7 @@ Persistência local em JSON:
 Persistência remota automatizada:
 - ramo `fixtures-data`
 - mesmo esquema `data/fixtures/...`
+- publish local para esse ramo via script dedicado
 
 ### `config` e `lib`
 
@@ -104,7 +110,7 @@ Motivo:
 
 Padrão aplicado:
 - `main` ignora `data/fixtures/`
-- o workflow agendado lê e escreve a store canónica em `fixtures-data`
+- o publish local escreve a store canónica em `fixtures-data`
 - o workflow de Pages lê o snapshot publicado nesse ramo
 
 ## Política de estados
