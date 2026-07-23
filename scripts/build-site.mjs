@@ -184,8 +184,13 @@ async function copyFixtureDetails() {
   try {
     await rm(path.join(fixturesDir, "details"), { recursive: true, force: true });
     await cp(fixtureDetailsPath, path.join(fixturesDir, "details"), { recursive: true });
-  } catch {
-    // Details are optional; the site falls back to the public snapshot when absent.
+  } catch (error) {
+    if (error && typeof error === "object" && "code" in error && error.code === "ENOENT") {
+      // Details are optional; the site falls back to the public snapshot when absent.
+      return;
+    }
+
+    throw error;
   }
 }
 

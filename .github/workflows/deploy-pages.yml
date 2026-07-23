@@ -39,8 +39,10 @@ jobs:
             git fetch --no-tags origin "$FIXTURES_STORE_BRANCH"
             git worktree add --detach "$FIXTURES_STORE_DIR" "origin/$FIXTURES_STORE_BRANCH"
             echo "path=$FIXTURES_STORE_DIR/data/fixtures/latest.json" >> "$GITHUB_OUTPUT"
+            echo "details=$FIXTURES_STORE_DIR/data/fixtures/details" >> "$GITHUB_OUTPUT"
           else
             echo "path=data/fixtures/latest.json" >> "$GITHUB_OUTPUT"
+            echo "details=data/fixtures/details" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Setup Node.js
@@ -58,6 +60,7 @@ jobs:
       - name: Build static site
         env:
           FUTESTAT_SITE_SNAPSHOT_PATH: ${{ steps.snapshot.outputs.path }}
+          FUTESTAT_SITE_DETAILS_PATH: ${{ steps.snapshot.outputs.details }}
         run: npm run build:site
 
       - name: Upload Pages artifact
