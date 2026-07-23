@@ -1,0 +1,421 @@
+{
+  "source": "sofascore",
+  "referenceDate": "2026-07-23",
+  "startedAtUtc": "2026-07-23T14:06:19.712Z",
+  "completedAtUtc": "2026-07-23T14:06:54.115Z",
+  "durationMs": 34403,
+  "totalDates": 15,
+  "maxAttemptsPerDate": 3,
+  "retryDelayMs": 1500,
+  "successfulDates": 15,
+  "emptyDates": 0,
+  "failedDates": 0,
+  "totalFixtures": 628,
+  "days": [
+    {
+      "date": "2026-07-16",
+      "status": "succeeded",
+      "startedAtUtc": "2026-07-23T14:06:20.014Z",
+      "completedAtUtc": "2026-07-23T14:06:25.016Z",
+      "durationMs": 5002,
+      "fixtureCount": 40,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-07-23T14:06:20.014Z",
+          "completedAtUtc": "2026-07-23T14:06:25.016Z",
+          "durationMs": 5002,
+          "outcome": "success",
+          "fixtureCount": 40,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-17",
+      "status": "succeeded",
+      "startedAtUtc": "2026-07-23T14:06:25.016Z",
+      "completedAtUtc": "2026-07-23T14:06:27.020Z",
+      "durationMs": 2004,
+      "fixtureCount": 23,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-07-23T14:06:25.016Z",
+          "completedAtUtc": "2026-07-23T14:06:27.020Z",
+          "durationMs": 2004,
+          "outcome": "success",
+          "fixtureCount": 23,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-18",
+      "status": "succeeded",
+      "startedAtUtc": "2026-07-23T14:06:27.020Z",
+      "completedAtUtc": "2026-07-23T14:06:29.200Z",
+      "durationMs": 2180,
+      "fixtureCount": 35,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-07-23T14:06:27.020Z",
+          "completedAtUtc": "2026-07-23T14:06:29.200Z",
+          "durationMs": 2180,
+          "outcome": "success",
+          "fixtureCount": 35,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "status": "succeeded",
+      "startedAtUtc": "2026-07-23T14:06:29.200Z",
+      "completedAtUtc": "2026-07-23T14:06:31.338Z",
+      "durationMs": 2138,
+      "fixtureCount": 26,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-07-23T14:06:29.200Z",
+          "completedAtUtc": "2026-07-23T14:06:31.338Z",
+          "durationMs": 2138,
+          "outcome": "success",
+          "fixtureCount": 26,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "status": "succeeded",
+      "startedAtUtc": "2026-07-23T14:06:31.338Z",
+      "completedAtUtc": "2026-07-23T14:06:33.382Z",
+      "durationMs": 2044,
+      "fixtureCount": 43,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-07-23T14:06:31.338Z",
+          "completedAtUtc": "2026-07-23T14:06:33.382Z",
+          "durationMs": 2044,
+          "outcome": "success",
+          "fixtureCount": 43,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "status": "succeeded",
+      "startedAtUtc": "2026-07-23T14:06:33.382Z",
+      "completedAtUtc": "2026-07-23T14:06:35.408Z",
+      "durationMs": 2026,
+      "fixtureCount": 23,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-07-23T14:06:33.382Z",
+          "completedAtUtc": "2026-07-23T14:06:35.408Z",
+          "durationMs": 2026,
+          "outcome": "success",
+          "fixtureCount": 23,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "status": "succeeded",
+      "startedAtUtc": "2026-07-23T14:06:35.408Z",
+      "completedAtUtc": "2026-07-23T14:06:37.613Z",
+      "durationMs": 2205,
+      "fixtureCount": 37,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-07-23T14:06:35.408Z",
+          "completedAtUtc": "2026-07-23T14:06:37.613Z",
+          "durationMs": 2205,
+          "outcome": "success",
+          "fixtureCount": 37,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "status": "succeeded",
+      "startedAtUtc": "2026-07-23T14:06:37.613Z",
+      "completedAtUtc": "2026-07-23T14:06:39.822Z",
+      "durationMs": 2209,
+      "fixtureCount": 77,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-07-23T14:06:37.613Z",
+          "completedAtUtc": "2026-07-23T14:06:39.822Z",
+          "durationMs": 2209,
+          "outcome": "success",
+          "fixtureCount": 77,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "status": "succeeded",
+      "startedAtUtc": "2026-07-23T14:06:39.822Z",
+      "completedAtUtc": "2026-07-23T14:06:41.834Z",
+      "durationMs": 2012,
+      "fixtureCount": 13,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-07-23T14:06:39.822Z",
+          "completedAtUtc": "2026-07-23T14:06:41.834Z",
+          "durationMs": 2012,
+          "outcome": "success",
+          "fixtureCount": 13,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "status": "succeeded",
+      "startedAtUtc": "2026-07-23T14:06:41.834Z",
+      "completedAtUtc": "2026-07-23T14:06:43.950Z",
+      "durationMs": 2116,
+      "fixtureCount": 44,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-07-23T14:06:41.834Z",
+          "completedAtUtc": "2026-07-23T14:06:43.950Z",
+          "durationMs": 2116,
+          "outcome": "success",
+          "fixtureCount": 44,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "status": "succeeded",
+      "startedAtUtc": "2026-07-23T14:06:43.950Z",
+      "completedAtUtc": "2026-07-23T14:06:46.023Z",
+      "durationMs": 2073,
+      "fixtureCount": 41,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-07-23T14:06:43.950Z",
+          "completedAtUtc": "2026-07-23T14:06:46.022Z",
+          "durationMs": 2072,
+          "outcome": "success",
+          "fixtureCount": 41,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "status": "succeeded",
+      "startedAtUtc": "2026-07-23T14:06:46.023Z",
+      "completedAtUtc": "2026-07-23T14:06:48.059Z",
+      "durationMs": 2036,
+      "fixtureCount": 16,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-07-23T14:06:46.023Z",
+          "completedAtUtc": "2026-07-23T14:06:48.059Z",
+          "durationMs": 2036,
+          "outcome": "success",
+          "fixtureCount": 16,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "status": "succeeded",
+      "startedAtUtc": "2026-07-23T14:06:48.059Z",
+      "completedAtUtc": "2026-07-23T14:06:50.122Z",
+      "durationMs": 2063,
+      "fixtureCount": 82,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-07-23T14:06:48.059Z",
+          "completedAtUtc": "2026-07-23T14:06:50.122Z",
+          "durationMs": 2063,
+          "outcome": "success",
+          "fixtureCount": 82,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "status": "succeeded",
+      "startedAtUtc": "2026-07-23T14:06:50.122Z",
+      "completedAtUtc": "2026-07-23T14:06:52.187Z",
+      "durationMs": 2065,
+      "fixtureCount": 54,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-07-23T14:06:50.122Z",
+          "completedAtUtc": "2026-07-23T14:06:52.187Z",
+          "durationMs": 2065,
+          "outcome": "success",
+          "fixtureCount": 54,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "status": "succeeded",
+      "startedAtUtc": "2026-07-23T14:06:52.187Z",
+      "completedAtUtc": "2026-07-23T14:06:54.115Z",
+      "durationMs": 1928,
+      "fixtureCount": 74,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-07-23T14:06:52.187Z",
+          "completedAtUtc": "2026-07-23T14:06:54.115Z",
+          "durationMs": 1928,
+          "outcome": "success",
+          "fixtureCount": 74,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    }
+  ]
+}

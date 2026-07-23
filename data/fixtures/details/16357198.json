@@ -1,0 +1,180 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16357198",
+  "matchUrl": "https://www.sofascore.com/football/match/the-new-saints-flora-tallinn/WqbswYb#id:16357198",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-23T14:07:20.645Z",
+  "fixtureLastSeenAtUtc": "2026-07-23T14:06:37.613Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:09.050Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-23T16:00:00.000Z",
+    "competitionId": "17015",
+    "competitionName": "UEFA Conference League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "A. Le Coq Arena",
+    "venueCity": "Tallinn",
+    "venueCountry": "Estonia",
+    "refereeName": "Kristoffer Karlsson",
+    "refereeCountry": "Sweden"
+  },
+  "watch": {
+    "hasPortugalChannels": true,
+    "availableCountryCodes": [
+      "BR",
+      "FR",
+      "PL",
+      "PT"
+    ],
+    "note": "Canais disponíveis para Portugal."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "1.96",
+    "draw": "3.13",
+    "away": "2.54",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": null,
+    "nextLeg": {
+      "sourceEventId": "16462273",
+      "matchUrl": "https://www.sofascore.com/football/match/the-new-saints-flora-tallinn/WqbswYb#id:16462273",
+      "kickoffAtUtc": "2026-07-30T17:30:00.000Z",
+      "competitionName": "UEFA Conference League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "4921",
+      "homeTeamName": "The New Saints",
+      "awayTeamId": "3346",
+      "awayTeamName": "Flora Tallinn",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "upcoming",
+      "resultLabel": "Not started",
+      "previousLegEventId": "16357198",
+      "winnerCode": null
+    },
+    "h2h": [
+      {
+        "sourceEventId": "16462273",
+        "matchUrl": "https://www.sofascore.com/football/match/the-new-saints-flora-tallinn/WqbswYb#id:16462273",
+        "kickoffAtUtc": "2026-07-30T17:30:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "4921",
+        "homeTeamName": "The New Saints",
+        "awayTeamId": "3346",
+        "awayTeamName": "Flora Tallinn",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16357198",
+        "winnerCode": null
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15496444",
+        "matchUrl": "https://www.sofascore.com/football/match/ogre-united-flora-tallinn/WqbsaYPd#id:15496444",
+        "kickoffAtUtc": "2026-02-07T10:30:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "3346",
+        "homeTeamName": "Flora Tallinn",
+        "awayTeamId": "477400",
+        "awayTeamName": "Ogre United",
+        "homeScore": 1,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15362639",
+        "matchUrl": "https://www.sofascore.com/football/match/flora-tallinn-fci-levadia-tallinn/RqbsWqb#id:15362639",
+        "kickoffAtUtc": "2026-02-14T13:00:00.000Z",
+        "competitionName": "Winter Tournament",
+        "countryName": "Estonia",
+        "roundName": null,
+        "homeTeamId": "3346",
+        "homeTeamName": "Flora Tallinn",
+        "awayTeamId": "3342",
+        "awayTeamName": "FCI Levadia Tallinn",
+        "homeScore": 1,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15362641",
+        "matchUrl": "https://www.sofascore.com/football/match/paide-linnameeskond-flora-tallinn/WqbsBZm#id:15362641",
+        "kickoffAtUtc": "2026-02-20T17:30:00.000Z",
+        "competitionName": "Winter Tournament",
+        "countryName": "Estonia",
+        "roundName": null,
+        "homeTeamId": "32476",
+        "homeTeamName": "Paide Linnameeskond",
+        "awayTeamId": "3346",
+        "awayTeamName": "Flora Tallinn",
+        "homeScore": 1,
+        "awayScore": 3,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16462273",
+        "matchUrl": "https://www.sofascore.com/football/match/the-new-saints-flora-tallinn/WqbswYb#id:16462273",
+        "kickoffAtUtc": "2026-07-30T17:30:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "4921",
+        "homeTeamName": "The New Saints",
+        "awayTeamId": "3346",
+        "awayTeamName": "Flora Tallinn",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16357198",
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "15432373",
+        "matchUrl": "https://www.sofascore.com/football/match/harju-jalgpallikool-flora-tallinn/WqbsUjEb#id:15432373",
+        "kickoffAtUtc": "2026-08-02T16:00:00.000Z",
+        "competitionName": "Premium Liiga",
+        "countryName": "Estonia",
+        "roundName": null,
+        "homeTeamId": "3346",
+        "homeTeamName": "Flora Tallinn",
+        "awayTeamId": "197994",
+        "awayTeamName": "Harju Jalgpallikool",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

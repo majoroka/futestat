@@ -1,0 +1,181 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16357209",
+  "matchUrl": "https://www.sofascore.com/football/match/fk-liepaja-fk-austria-wien/dUsLBib#id:16357209",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-23T14:07:08.394Z",
+  "fixtureLastSeenAtUtc": "2026-07-23T14:06:37.613Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:09.050Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-23T15:00:00.000Z",
+    "competitionId": "17015",
+    "competitionName": "UEFA Conference League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
+    "competitionStage": null,
+    "countryName": "Europe",
+    "venueName": null,
+    "venueCity": null,
+    "venueCountry": null,
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": true,
+    "availableCountryCodes": [
+      "AT",
+      "BR",
+      "FR",
+      "PL",
+      "PT"
+    ],
+    "note": "Canais disponíveis para Portugal."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "5.84",
+    "draw": "4.13",
+    "away": "1.24",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": {
+      "sourceEventId": "16462277",
+      "matchUrl": "https://www.sofascore.com/football/match/fk-liepaja-fk-austria-wien/dUsLBib#id:16462277",
+      "kickoffAtUtc": "2026-07-30T18:30:00.000Z",
+      "competitionName": "UEFA Conference League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "2203",
+      "homeTeamName": "FK Austria Wien",
+      "awayTeamId": "146336",
+      "awayTeamName": "FK Liepaja",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "upcoming",
+      "resultLabel": "Not started",
+      "previousLegEventId": "16357209",
+      "winnerCode": null
+    },
+    "h2h": [
+      {
+        "sourceEventId": "16462277",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-liepaja-fk-austria-wien/dUsLBib#id:16462277",
+        "kickoffAtUtc": "2026-07-30T18:30:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "2203",
+        "homeTeamName": "FK Austria Wien",
+        "awayTeamId": "146336",
+        "awayTeamName": "FK Liepaja",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16357209",
+        "winnerCode": null
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15518521",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-liepaja-cd-alcoyano/KGcsLBib#id:15518521",
+        "kickoffAtUtc": "2026-02-11T10:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "6585",
+        "homeTeamName": "CD Alcoyano",
+        "awayTeamId": "146336",
+        "awayTeamName": "FK Liepaja",
+        "homeScore": 1,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15518530",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-liepaja-orebro-sk/tKsLBib#id:15518530",
+        "kickoffAtUtc": "2026-02-13T14:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "146336",
+        "homeTeamName": "FK Liepaja",
+        "awayTeamId": "1768",
+        "awayTeamName": "Örebro SK",
+        "homeScore": 0,
+        "awayScore": 3,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "15569607",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-liepaja-fs-jelgava/GwosLBib#id:15569607",
+        "kickoffAtUtc": "2026-02-27T10:30:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "146336",
+        "homeTeamName": "FK Liepaja",
+        "awayTeamId": "36081",
+        "awayTeamName": "FS Jelgava",
+        "homeScore": 2,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "15472541",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-liepaja-fs-jelgava/GwosLBib#id:15472541",
+        "kickoffAtUtc": "2026-07-26T15:30:00.000Z",
+        "competitionName": "Virsliga",
+        "countryName": "Latvia",
+        "roundName": null,
+        "homeTeamId": "146336",
+        "homeTeamName": "FK Liepaja",
+        "awayTeamId": "36081",
+        "awayTeamName": "FS Jelgava",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "postponed",
+        "resultLabel": "Postponed",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "15472601",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-liepaja-fs-jelgava/GwosLBib#id:15472601",
+        "kickoffAtUtc": "2026-07-26T15:30:00.000Z",
+        "competitionName": "Virsliga",
+        "countryName": "Latvia",
+        "roundName": null,
+        "homeTeamId": "36081",
+        "homeTeamName": "FS Jelgava",
+        "awayTeamId": "146336",
+        "awayTeamName": "FK Liepaja",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

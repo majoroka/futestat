@@ -1,0 +1,162 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16357220",
+  "matchUrl": "https://www.sofascore.com/football/match/bate-borisov-fc-sion/cZsarb#id:16357220",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-23T14:07:44.932Z",
+  "fixtureLastSeenAtUtc": "2026-07-23T14:06:37.613Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:09.050Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-23T17:00:00.000Z",
+    "competitionId": "17015",
+    "competitionName": "UEFA Conference League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
+    "competitionStage": null,
+    "countryName": "Europe",
+    "venueName": null,
+    "venueCity": null,
+    "venueCountry": null,
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": true,
+    "availableCountryCodes": [
+      "BR",
+      "FR",
+      "PL",
+      "PT"
+    ],
+    "note": "Canais disponíveis para Portugal."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "9.82",
+    "draw": "5.00",
+    "away": "1.08",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": {
+      "sourceEventId": "16462283",
+      "matchUrl": "https://www.sofascore.com/football/match/bate-borisov-fc-sion/cZsarb#id:16462283",
+      "kickoffAtUtc": "2026-07-30T18:15:00.000Z",
+      "competitionName": "UEFA Conference League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "2452",
+      "homeTeamName": "FC Sion",
+      "awayTeamId": "3350",
+      "awayTeamName": "BATE Borisov",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "upcoming",
+      "resultLabel": "Not started",
+      "previousLegEventId": "16357220",
+      "winnerCode": null
+    },
+    "h2h": [
+      {
+        "sourceEventId": "16462283",
+        "matchUrl": "https://www.sofascore.com/football/match/bate-borisov-fc-sion/cZsarb#id:16462283",
+        "kickoffAtUtc": "2026-07-30T18:15:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "2452",
+        "homeTeamName": "FC Sion",
+        "awayTeamId": "3350",
+        "awayTeamName": "BATE Borisov",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16357220",
+        "winnerCode": null
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15382298",
+        "matchUrl": "https://www.sofascore.com/football/match/ml-vitebsk-bate-borisov/arbsRKcd#id:15382298",
+        "kickoffAtUtc": "2026-01-17T09:30:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "381792",
+        "homeTeamName": "ML Vitebsk",
+        "awayTeamId": "3350",
+        "awayTeamName": "BATE Borisov",
+        "homeScore": 2,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15416424",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-baranovichi-bate-borisov/arbsAMo#id:15416424",
+        "kickoffAtUtc": "2026-01-24T10:30:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "3350",
+        "homeTeamName": "BATE Borisov",
+        "awayTeamId": "36875",
+        "awayTeamName": "FK Baranovichi",
+        "homeScore": 1,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      },
+      {
+        "sourceEventId": "15444160",
+        "matchUrl": "https://www.sofascore.com/football/match/arsenal-dzerzhinsk-bate-borisov/arbsXhCc#id:15444160",
+        "kickoffAtUtc": "2026-01-31T13:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "3350",
+        "homeTeamName": "BATE Borisov",
+        "awayTeamId": "317897",
+        "awayTeamName": "Arsenal Dzerzhinsk",
+        "homeScore": 0,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16462283",
+        "matchUrl": "https://www.sofascore.com/football/match/bate-borisov-fc-sion/cZsarb#id:16462283",
+        "kickoffAtUtc": "2026-07-30T18:15:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "2452",
+        "homeTeamName": "FC Sion",
+        "awayTeamId": "3350",
+        "awayTeamName": "BATE Borisov",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16357220",
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

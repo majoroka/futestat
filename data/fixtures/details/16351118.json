@@ -1,0 +1,180 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16351118",
+  "matchUrl": "https://www.sofascore.com/football/match/coleraine-fc-hjk/RUsvfc#id:16351118",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-23T14:07:23.667Z",
+  "fixtureLastSeenAtUtc": "2026-07-23T14:06:37.613Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:09.050Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-23T16:00:00.000Z",
+    "competitionId": "17015",
+    "competitionName": "UEFA Conference League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "Bolt Arena",
+    "venueCity": "Helsinki",
+    "venueCountry": "Finland",
+    "refereeName": "Simovic Novak",
+    "refereeCountry": "Serbia"
+  },
+  "watch": {
+    "hasPortugalChannels": true,
+    "availableCountryCodes": [
+      "BR",
+      "FR",
+      "PL",
+      "PT"
+    ],
+    "note": "Canais disponíveis para Portugal."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "1.15",
+    "draw": "4.81",
+    "away": "6.68",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": null,
+    "nextLeg": {
+      "sourceEventId": "16351423",
+      "matchUrl": "https://www.sofascore.com/football/match/coleraine-fc-hjk/RUsvfc#id:16351423",
+      "kickoffAtUtc": "2026-07-30T18:45:00.000Z",
+      "competitionName": "UEFA Conference League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "5270",
+      "homeTeamName": "Coleraine FC",
+      "awayTeamId": "2242",
+      "awayTeamName": "HJK",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "upcoming",
+      "resultLabel": "Not started",
+      "previousLegEventId": "16351118",
+      "winnerCode": null
+    },
+    "h2h": [
+      {
+        "sourceEventId": "16351423",
+        "matchUrl": "https://www.sofascore.com/football/match/coleraine-fc-hjk/RUsvfc#id:16351423",
+        "kickoffAtUtc": "2026-07-30T18:45:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "5270",
+        "homeTeamName": "Coleraine FC",
+        "awayTeamId": "2242",
+        "awayTeamName": "HJK",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16351118",
+        "winnerCode": null
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15253959",
+        "matchUrl": "https://www.sofascore.com/football/match/ifk-mariehamn-hjk/RUsibc#id:15253959",
+        "kickoffAtUtc": "2026-01-16T15:30:00.000Z",
+        "competitionName": "Liigacup, Group A",
+        "countryName": "Finland",
+        "roundName": null,
+        "homeTeamId": "2242",
+        "homeTeamName": "HJK",
+        "awayTeamId": "5058",
+        "awayTeamName": "IFK Mariehamn",
+        "homeScore": 0,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "15253963",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-lahti-hjk/RUsZU#id:15253963",
+        "kickoffAtUtc": "2026-01-24T13:00:00.000Z",
+        "competitionName": "Liigacup, Group A",
+        "countryName": "Finland",
+        "roundName": null,
+        "homeTeamId": "2249",
+        "homeTeamName": "FC Lahti",
+        "awayTeamId": "2242",
+        "awayTeamName": "HJK",
+        "homeScore": 2,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15253967",
+        "matchUrl": "https://www.sofascore.com/football/match/inter-turku-hjk/RUsXU#id:15253967",
+        "kickoffAtUtc": "2026-01-30T12:00:00.000Z",
+        "competitionName": "Liigacup, Group A",
+        "countryName": "Finland",
+        "roundName": null,
+        "homeTeamId": "2247",
+        "homeTeamName": "Inter Turku",
+        "awayTeamId": "2242",
+        "awayTeamName": "HJK",
+        "homeScore": 1,
+        "awayScore": 3,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "15272799",
+        "matchUrl": "https://www.sofascore.com/football/match/tps-hjk/RUseV#id:15272799",
+        "kickoffAtUtc": "2026-07-26T14:00:00.000Z",
+        "competitionName": "Veikkausliiga",
+        "countryName": "Finland",
+        "roundName": null,
+        "homeTeamId": "2242",
+        "homeTeamName": "HJK",
+        "awayTeamId": "2254",
+        "awayTeamName": "Turun Palloseura",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16351423",
+        "matchUrl": "https://www.sofascore.com/football/match/coleraine-fc-hjk/RUsvfc#id:16351423",
+        "kickoffAtUtc": "2026-07-30T18:45:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "5270",
+        "homeTeamName": "Coleraine FC",
+        "awayTeamId": "2242",
+        "awayTeamName": "HJK",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16351118",
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

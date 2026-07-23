@@ -1,0 +1,177 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16357230",
+  "matchUrl": "https://www.sofascore.com/football/match/zire-fk-paide-linnameeskond/BZmsgtub#id:16357230",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-23T14:07:26.653Z",
+  "fixtureLastSeenAtUtc": "2026-07-23T14:06:37.613Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:09.050Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-23T16:00:00.000Z",
+    "competitionId": "17015",
+    "competitionName": "UEFA Conference League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "Pärnu Rannastaadion",
+    "venueCity": "Parnu",
+    "venueCountry": "Estonia",
+    "refereeName": "Roman Jitari",
+    "refereeCountry": "Moldova"
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "BR"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "6.70",
+    "draw": "3.93",
+    "away": "1.22",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": null,
+    "nextLeg": {
+      "sourceEventId": "16462288",
+      "matchUrl": "https://www.sofascore.com/football/match/zire-fk-paide-linnameeskond/BZmsgtub#id:16462288",
+      "kickoffAtUtc": "2026-07-30T16:00:00.000Z",
+      "competitionName": "UEFA Conference League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "173406",
+      "homeTeamName": "Zirə FK",
+      "awayTeamId": "32476",
+      "awayTeamName": "Paide Linnameeskond",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "upcoming",
+      "resultLabel": "Not started",
+      "previousLegEventId": "16357230",
+      "winnerCode": null
+    },
+    "h2h": [
+      {
+        "sourceEventId": "16462288",
+        "matchUrl": "https://www.sofascore.com/football/match/zire-fk-paide-linnameeskond/BZmsgtub#id:16462288",
+        "kickoffAtUtc": "2026-07-30T16:00:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "173406",
+        "homeTeamName": "Zirə FK",
+        "awayTeamId": "32476",
+        "awayTeamName": "Paide Linnameeskond",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16357230",
+        "winnerCode": null
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15335698",
+        "matchUrl": "https://www.sofascore.com/football/match/paide-linnameeskond-narva-trans/TqbsBZm#id:15335698",
+        "kickoffAtUtc": "2026-02-07T11:00:00.000Z",
+        "competitionName": "Winter Tournament",
+        "countryName": "Estonia",
+        "roundName": null,
+        "homeTeamId": "3343",
+        "homeTeamName": "Narva Trans",
+        "awayTeamId": "32476",
+        "awayTeamName": "Paide Linnameeskond",
+        "homeScore": 1,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      },
+      {
+        "sourceEventId": "15524938",
+        "matchUrl": "https://www.sofascore.com/football/match/paide-linnameeskond-nomme-kalju/QldsBZm#id:15524938",
+        "kickoffAtUtc": "2026-02-14T10:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "32476",
+        "homeTeamName": "Paide Linnameeskond",
+        "awayTeamId": "8091",
+        "awayTeamName": "Nõmme Kalju",
+        "homeScore": 2,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15362641",
+        "matchUrl": "https://www.sofascore.com/football/match/paide-linnameeskond-flora-tallinn/WqbsBZm#id:15362641",
+        "kickoffAtUtc": "2026-02-20T17:30:00.000Z",
+        "competitionName": "Winter Tournament",
+        "countryName": "Estonia",
+        "roundName": null,
+        "homeTeamId": "32476",
+        "homeTeamName": "Paide Linnameeskond",
+        "awayTeamId": "3346",
+        "awayTeamName": "Flora Tallinn",
+        "homeScore": 1,
+        "awayScore": 3,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16462288",
+        "matchUrl": "https://www.sofascore.com/football/match/zire-fk-paide-linnameeskond/BZmsgtub#id:16462288",
+        "kickoffAtUtc": "2026-07-30T16:00:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "173406",
+        "homeTeamName": "Zirə FK",
+        "awayTeamId": "32476",
+        "awayTeamName": "Paide Linnameeskond",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16357230",
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "15432371",
+        "matchUrl": "https://www.sofascore.com/football/match/paide-linnameeskond-fc-kuressaare/gRcsBZm#id:15432371",
+        "kickoffAtUtc": "2026-08-02T14:00:00.000Z",
+        "competitionName": "Premium Liiga",
+        "countryName": "Estonia",
+        "roundName": null,
+        "homeTeamId": "32476",
+        "homeTeamName": "Paide Linnameeskond",
+        "awayTeamId": "7106",
+        "awayTeamName": "FC Kuressaare",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

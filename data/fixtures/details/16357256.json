@@ -1,0 +1,159 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16357256",
+  "matchUrl": "https://www.sofascore.com/football/match/fc-malisheva-hibernian/eXsUjFc#id:16357256",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-23T14:06:58.520Z",
+  "fixtureLastSeenAtUtc": "2026-07-23T14:06:37.613Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:09.050Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-23T14:30:00.000Z",
+    "competitionId": "17015",
+    "competitionName": "UEFA Conference League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
+    "competitionStage": null,
+    "countryName": "Europe",
+    "venueName": null,
+    "venueCity": null,
+    "venueCountry": null,
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "BR"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "4.45",
+    "draw": "3.74",
+    "away": "1.37",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": {
+      "sourceEventId": "16462284",
+      "matchUrl": "https://www.sofascore.com/football/match/fc-malisheva-hibernian/eXsUjFc#id:16462284",
+      "kickoffAtUtc": "2026-07-30T19:00:00.000Z",
+      "competitionName": "UEFA Conference League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "2354",
+      "homeTeamName": "Hibernian",
+      "awayTeamId": "325494",
+      "awayTeamName": "FC Malisheva",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "upcoming",
+      "resultLabel": "Not started",
+      "previousLegEventId": "16357256",
+      "winnerCode": null
+    },
+    "h2h": [
+      {
+        "sourceEventId": "16462284",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-malisheva-hibernian/eXsUjFc#id:16462284",
+        "kickoffAtUtc": "2026-07-30T19:00:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "2354",
+        "homeTeamName": "Hibernian",
+        "awayTeamId": "325494",
+        "awayTeamName": "FC Malisheva",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16357256",
+        "winnerCode": null
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15154095",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-malisheva-kf-trepca-mitrovice/rYQbsUjFc#id:15154095",
+        "kickoffAtUtc": "2025-12-03T11:30:00.000Z",
+        "competitionName": "Kosovo FA Cup",
+        "countryName": "Kosovo",
+        "roundName": "Round of 32",
+        "homeTeamId": "229917",
+        "homeTeamName": "KF Trepça Mitrovicë",
+        "awayTeamId": "325494",
+        "awayTeamName": "FC Malisheva",
+        "homeScore": 1,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "15173590",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-malisheva-kf-drenica/eVQbsUjFc#id:15173590",
+        "kickoffAtUtc": "2025-12-06T12:00:00.000Z",
+        "competitionName": "Superliga",
+        "countryName": "Kosovo",
+        "roundName": null,
+        "homeTeamId": "325494",
+        "homeTeamName": "FC Malisheva",
+        "awayTeamId": "229754",
+        "awayTeamName": "KF Drenica",
+        "homeScore": 2,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15181184",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-malisheva-kf-llapi/lVQbsUjFc#id:15181184",
+        "kickoffAtUtc": "2025-12-14T12:00:00.000Z",
+        "competitionName": "Superliga",
+        "countryName": "Kosovo",
+        "roundName": null,
+        "homeTeamId": "229761",
+        "homeTeamName": "KF Llapi",
+        "awayTeamId": "325494",
+        "awayTeamName": "FC Malisheva",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16462284",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-malisheva-hibernian/eXsUjFc#id:16462284",
+        "kickoffAtUtc": "2026-07-30T19:00:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "2354",
+        "homeTeamName": "Hibernian",
+        "awayTeamId": "325494",
+        "awayTeamName": "FC Malisheva",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16357256",
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16351127",
+  "matchUrl": "https://www.sofascore.com/football/match/pyunik-yerevan-debreceni-vsc/wNsoec#id:16351127",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-23T14:07:17.622Z",
+  "fixtureLastSeenAtUtc": "2026-07-23T14:06:37.613Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:09.050Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-23T16:00:00.000Z",
+    "competitionId": "17015",
+    "competitionName": "UEFA Conference League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "Nagyerdei Stadion",
+    "venueCity": "Debrecen",
+    "venueCountry": "Hungary",
+    "refereeName": "Jacob Karlsen",
+    "refereeCountry": "Denmark"
+  },
+  "watch": {
+    "hasPortugalChannels": true,
+    "availableCountryCodes": [
+      "BR",
+      "CZ",
+      "FR",
+      "HU",
+      "PL",
+      "PT",
+      "SK"
+    ],
+    "note": "Canais disponíveis para Portugal."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "1.59",
+    "draw": "3.05",
+    "away": "3.76",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": null,
+    "nextLeg": {
+      "sourceEventId": "16357210",
+      "matchUrl": "https://www.sofascore.com/football/match/pyunik-yerevan-debreceni-vsc/wNsoec#id:16357210",
+      "kickoffAtUtc": "2026-07-30T16:00:00.000Z",
+      "competitionName": "UEFA Conference League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "5214",
+      "homeTeamName": "Pyunik Yerevan",
+      "awayTeamId": "1921",
+      "awayTeamName": "Debreceni VSC",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "upcoming",
+      "resultLabel": "Not started",
+      "previousLegEventId": "16351127",
+      "winnerCode": null
+    },
+    "h2h": [
+      {
+        "sourceEventId": "16357210",
+        "matchUrl": "https://www.sofascore.com/football/match/pyunik-yerevan-debreceni-vsc/wNsoec#id:16357210",
+        "kickoffAtUtc": "2026-07-30T16:00:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "5214",
+        "homeTeamName": "Pyunik Yerevan",
+        "awayTeamId": "1921",
+        "awayTeamName": "Debreceni VSC",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16351127",
+        "winnerCode": null
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "14019436",
+        "matchUrl": "https://www.sofascore.com/football/match/ujpest-debreceni-vsc/wNszN#id:14019436",
+        "kickoffAtUtc": "2025-10-26T14:00:00.000Z",
+        "competitionName": "NB I",
+        "countryName": "Hungary",
+        "roundName": null,
+        "homeTeamId": "1921",
+        "homeTeamName": "Debreceni VSC",
+        "awayTeamId": "1924",
+        "awayTeamName": "Újpest",
+        "homeScore": 5,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14696185",
+        "matchUrl": "https://www.sofascore.com/football/match/debreceni-vsc-budapest-honved-fc/qNswN#id:14696185",
+        "kickoffAtUtc": "2025-10-30T19:00:00.000Z",
+        "competitionName": "MOL Magyar Kupa",
+        "countryName": "Hungary",
+        "roundName": "Round of 32",
+        "homeTeamId": "1921",
+        "homeTeamName": "Debreceni VSC",
+        "awayTeamId": "1916",
+        "awayTeamName": "Kispest Honvéd FC",
+        "homeScore": 1,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "AET",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "14019443",
+        "matchUrl": "https://www.sofascore.com/football/match/zalaegerszegi-te-debreceni-vsc/wNsxN#id:14019443",
+        "kickoffAtUtc": "2025-11-02T17:00:00.000Z",
+        "competitionName": "NB I",
+        "countryName": "Hungary",
+        "roundName": null,
+        "homeTeamId": "1921",
+        "homeTeamName": "Debreceni VSC",
+        "awayTeamId": "1922",
+        "awayTeamName": "Zalaegerszegi TE",
+        "homeScore": 2,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16384242",
+        "matchUrl": "https://www.sofascore.com/football/match/puskas-akademia-debreceni-vsc/wNsWlk#id:16384242",
+        "kickoffAtUtc": "2026-07-26T16:00:00.000Z",
+        "competitionName": "NB I",
+        "countryName": "Hungary",
+        "roundName": null,
+        "homeTeamId": "1921",
+        "homeTeamName": "Debreceni VSC",
+        "awayTeamId": "25596",
+        "awayTeamName": "Puskás Akadémia",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16357210",
+        "matchUrl": "https://www.sofascore.com/football/match/pyunik-yerevan-debreceni-vsc/wNsoec#id:16357210",
+        "kickoffAtUtc": "2026-07-30T16:00:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "5214",
+        "homeTeamName": "Pyunik Yerevan",
+        "awayTeamId": "1921",
+        "awayTeamName": "Debreceni VSC",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16351127",
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

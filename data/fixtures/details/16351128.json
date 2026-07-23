@@ -1,0 +1,179 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16351128",
+  "matchUrl": "https://www.sofascore.com/football/match/dac-1904-fk-velez-mostar/bycsIBj#id:16351128",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-23T14:07:35.805Z",
+  "fixtureLastSeenAtUtc": "2026-07-23T14:06:37.613Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:09.050Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-23T16:30:00.000Z",
+    "competitionId": "17015",
+    "competitionName": "UEFA Conference League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "MOL Arena",
+    "venueCity": "Dunajska Streda",
+    "venueCountry": "Slovakia",
+    "refereeName": "Stefan Ebner",
+    "refereeCountry": "Austria"
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "BA",
+      "BR",
+      "SK"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "1.07",
+    "draw": "5.21",
+    "away": "9.89",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": null,
+    "nextLeg": {
+      "sourceEventId": "16357221",
+      "matchUrl": "https://www.sofascore.com/football/match/dac-1904-fk-velez-mostar/bycsIBj#id:16357221",
+      "kickoffAtUtc": "2026-07-30T17:00:00.000Z",
+      "competitionName": "UEFA Conference League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "6151",
+      "homeTeamName": "FK Velež Mostar",
+      "awayTeamId": "23833",
+      "awayTeamName": "DAC 1904",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "upcoming",
+      "resultLabel": "Not started",
+      "previousLegEventId": "16351128",
+      "winnerCode": null
+    },
+    "h2h": [
+      {
+        "sourceEventId": "16357221",
+        "matchUrl": "https://www.sofascore.com/football/match/dac-1904-fk-velez-mostar/bycsIBj#id:16357221",
+        "kickoffAtUtc": "2026-07-30T17:00:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "6151",
+        "homeTeamName": "FK Velež Mostar",
+        "awayTeamId": "23833",
+        "awayTeamName": "DAC 1904",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16351128",
+        "winnerCode": null
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "14039079",
+        "matchUrl": "https://www.sofascore.com/football/match/dac-1904-fc-spartak-trnava/gYsIBj#id:14039079",
+        "kickoffAtUtc": "2025-12-07T17:00:00.000Z",
+        "competitionName": "Niké Liga",
+        "countryName": "Slovakia",
+        "roundName": null,
+        "homeTeamId": "23833",
+        "homeTeamName": "DAC 1904",
+        "awayTeamId": "2406",
+        "awayTeamName": "FC Spartak Trnava",
+        "homeScore": 3,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14039080",
+        "matchUrl": "https://www.sofascore.com/football/match/dac-1904-fk-zeleziarne-podbrezova/MhdsIBj#id:14039080",
+        "kickoffAtUtc": "2025-12-13T14:30:00.000Z",
+        "competitionName": "Niké Liga",
+        "countryName": "Slovakia",
+        "roundName": null,
+        "homeTeamId": "7887",
+        "homeTeamName": "FK Železiarne Podbrezová",
+        "awayTeamId": "23833",
+        "awayTeamName": "DAC 1904",
+        "homeScore": 0,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "15378471",
+        "matchUrl": "https://www.sofascore.com/football/match/karcagi-sc-dac-1904/IBjsAoac#id:15378471",
+        "kickoffAtUtc": "2026-01-16T14:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "23833",
+        "homeTeamName": "DAC 1904",
+        "awayTeamId": "250725",
+        "awayTeamName": "Karcagi SC",
+        "homeScore": 5,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16316894",
+        "matchUrl": "https://www.sofascore.com/football/match/dac-1904-mfk-ruzomberok/XXsIBj#id:16316894",
+        "kickoffAtUtc": "2026-07-26T15:00:00.000Z",
+        "competitionName": "Niké Liga",
+        "countryName": "Slovakia",
+        "roundName": null,
+        "homeTeamId": "2397",
+        "homeTeamName": "MFK Ružomberok",
+        "awayTeamId": "23833",
+        "awayTeamName": "DAC 1904",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16357221",
+        "matchUrl": "https://www.sofascore.com/football/match/dac-1904-fk-velez-mostar/bycsIBj#id:16357221",
+        "kickoffAtUtc": "2026-07-30T17:00:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "6151",
+        "homeTeamName": "FK Velež Mostar",
+        "awayTeamId": "23833",
+        "awayTeamName": "DAC 1904",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16351128",
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

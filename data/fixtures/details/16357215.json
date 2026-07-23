@@ -1,0 +1,181 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16357215",
+  "matchUrl": "https://www.sofascore.com/football/match/fc-dila-gori-apollon-limassol/ctbsuBn#id:16357215",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-23T14:07:14.503Z",
+  "fixtureLastSeenAtUtc": "2026-07-23T14:06:37.613Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:09.050Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-23T16:00:00.000Z",
+    "competitionId": "17015",
+    "competitionName": "UEFA Conference League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "Tengiz Burjanadze Stadium",
+    "venueCity": "Gori",
+    "venueCountry": "Georgia",
+    "refereeName": "Daniel Higraff",
+    "refereeCountry": "Norway"
+  },
+  "watch": {
+    "hasPortugalChannels": true,
+    "availableCountryCodes": [
+      "BR",
+      "CY",
+      "FR",
+      "PL",
+      "PT"
+    ],
+    "note": "Canais disponíveis para Portugal."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "3.58",
+    "draw": "2.87",
+    "away": "1.68",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": null,
+    "nextLeg": {
+      "sourceEventId": "16462279",
+      "matchUrl": "https://www.sofascore.com/football/match/fc-dila-gori-apollon-limassol/ctbsuBn#id:16462279",
+      "kickoffAtUtc": "2026-07-28T17:00:00.000Z",
+      "competitionName": "UEFA Conference League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "3402",
+      "homeTeamName": "Apollon Limassol",
+      "awayTeamId": "33819",
+      "awayTeamName": "FC Dila Gori",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "upcoming",
+      "resultLabel": "Not started",
+      "previousLegEventId": "16357215",
+      "winnerCode": null
+    },
+    "h2h": [
+      {
+        "sourceEventId": "16462279",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-dila-gori-apollon-limassol/ctbsuBn#id:16462279",
+        "kickoffAtUtc": "2026-07-28T17:00:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "3402",
+        "homeTeamName": "Apollon Limassol",
+        "awayTeamId": "33819",
+        "awayTeamName": "FC Dila Gori",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16357215",
+        "winnerCode": null
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15388598",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-dila-gori-fc-torpedo-kutaisi/uicsuBn#id:15388598",
+        "kickoffAtUtc": "2026-03-16T16:00:00.000Z",
+        "competitionName": "Erovnuli Liga",
+        "countryName": "Georgia",
+        "roundName": null,
+        "homeTeamId": "33819",
+        "homeTeamName": "FC Dila Gori",
+        "awayTeamId": "5419",
+        "awayTeamName": "FC Torpedo Kutaisi",
+        "homeScore": 1,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15388600",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-dila-gori-dinamo-tbilisi/wdcsuBn#id:15388600",
+        "kickoffAtUtc": "2026-03-21T12:00:00.000Z",
+        "competitionName": "Erovnuli Liga",
+        "countryName": "Georgia",
+        "roundName": null,
+        "homeTeamId": "5171",
+        "homeTeamName": "Dinamo Tbilisi",
+        "awayTeamId": "33819",
+        "awayTeamName": "FC Dila Gori",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "postponed",
+        "resultLabel": "Postponed",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "15815838",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-dila-gori-dinamo-tbilisi/wdcsuBn#id:15815838",
+        "kickoffAtUtc": "2026-04-03T11:00:00.000Z",
+        "competitionName": "Erovnuli Liga",
+        "countryName": "Georgia",
+        "roundName": null,
+        "homeTeamId": "5171",
+        "homeTeamName": "Dinamo Tbilisi",
+        "awayTeamId": "33819",
+        "awayTeamName": "FC Dila Gori",
+        "homeScore": 1,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16399934",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-iberia-2010-fc-dila-gori/uBnszRAc#id:16399934",
+        "kickoffAtUtc": "2026-07-25T12:30:00.000Z",
+        "competitionName": "Cup",
+        "countryName": "Georgia",
+        "roundName": "Round of 32",
+        "homeTeamId": "314624",
+        "homeTeamName": "FC Iberia 2010",
+        "awayTeamId": "33819",
+        "awayTeamName": "FC Dila Gori",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16462279",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-dila-gori-apollon-limassol/ctbsuBn#id:16462279",
+        "kickoffAtUtc": "2026-07-28T17:00:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "3402",
+        "homeTeamName": "Apollon Limassol",
+        "awayTeamId": "33819",
+        "awayTeamName": "FC Dila Gori",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16357215",
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

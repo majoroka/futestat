@@ -1,0 +1,177 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16357208",
+  "matchUrl": "https://www.sofascore.com/football/match/if-vestri-rfs/tzCsfBNb#id:16357208",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-23T14:07:41.905Z",
+  "fixtureLastSeenAtUtc": "2026-07-23T14:06:37.613Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:09.050Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-23T16:30:00.000Z",
+    "competitionId": "17015",
+    "competitionName": "UEFA Conference League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "Lnk Sporta Parks",
+    "venueCity": "Rīga",
+    "venueCountry": "Latvia",
+    "refereeName": "Aaron Wyn Jones",
+    "refereeCountry": "Wales"
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "BR"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "1.01",
+    "draw": "10.66",
+    "away": "23.09",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": null,
+    "nextLeg": {
+      "sourceEventId": "16462275",
+      "matchUrl": "https://www.sofascore.com/football/match/if-vestri-rfs/tzCsfBNb#id:16462275",
+      "kickoffAtUtc": "2026-07-30T18:00:00.000Z",
+      "competitionName": "UEFA Conference League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "221305",
+      "homeTeamName": "IF Vestri",
+      "awayTeamId": "68718",
+      "awayTeamName": "RFS",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "upcoming",
+      "resultLabel": "Not started",
+      "previousLegEventId": "16357208",
+      "winnerCode": null
+    },
+    "h2h": [
+      {
+        "sourceEventId": "16462275",
+        "matchUrl": "https://www.sofascore.com/football/match/if-vestri-rfs/tzCsfBNb#id:16462275",
+        "kickoffAtUtc": "2026-07-30T18:00:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "221305",
+        "homeTeamName": "IF Vestri",
+        "awayTeamId": "68718",
+        "awayTeamName": "RFS",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16357208",
+        "winnerCode": null
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15538076",
+        "matchUrl": "https://www.sofascore.com/football/match/rfs-dynamo-kyiv/fqbstzC#id:15538076",
+        "kickoffAtUtc": "2026-02-14T14:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "3305",
+        "homeTeamName": "Dynamo Kyiv",
+        "awayTeamId": "68718",
+        "awayTeamName": "RFS",
+        "homeScore": 2,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15566486",
+        "matchUrl": "https://www.sofascore.com/football/match/rfs-hvidovre/fBstzC#id:15566486",
+        "kickoffAtUtc": "2026-02-19T13:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "1305",
+        "homeTeamName": "Hvidovre",
+        "awayTeamId": "68718",
+        "awayTeamName": "RFS",
+        "homeScore": 2,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      },
+      {
+        "sourceEventId": "15566572",
+        "matchUrl": "https://www.sofascore.com/football/match/rfs-fc-silon-taborsko/HVjstzC#id:15566572",
+        "kickoffAtUtc": "2026-02-20T13:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "68718",
+        "homeTeamName": "RFS",
+        "awayTeamId": "24782",
+        "awayTeamName": "FC Silon Táborsko",
+        "homeScore": 4,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "15472540",
+        "matchUrl": "https://www.sofascore.com/football/match/rfs-fk-tukums-2000/FwostzC#id:15472540",
+        "kickoffAtUtc": "2026-07-27T15:00:00.000Z",
+        "competitionName": "Virsliga",
+        "countryName": "Latvia",
+        "roundName": null,
+        "homeTeamId": "36080",
+        "homeTeamName": "FK Tukums 2000",
+        "awayTeamId": "68718",
+        "awayTeamName": "RFS",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16462275",
+        "matchUrl": "https://www.sofascore.com/football/match/if-vestri-rfs/tzCsfBNb#id:16462275",
+        "kickoffAtUtc": "2026-07-30T18:00:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "221305",
+        "homeTeamName": "IF Vestri",
+        "awayTeamId": "68718",
+        "awayTeamName": "RFS",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16357208",
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

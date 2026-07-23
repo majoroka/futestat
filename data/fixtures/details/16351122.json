@@ -1,0 +1,177 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16351122",
+  "matchUrl": "https://www.sofascore.com/football/match/rakow-czestochowa-valletta-fc/Hgcstfo#id:16351122",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-23T14:07:38.851Z",
+  "fixtureLastSeenAtUtc": "2026-07-23T14:06:37.613Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:09.050Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-23T16:30:00.000Z",
+    "competitionId": "17015",
+    "competitionName": "UEFA Conference League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "Miejski Stadion Piłkarski Raków w Częstochowie",
+    "venueCity": "Czestochowa",
+    "venueCountry": "Poland",
+    "refereeName": "Kadir Saglam",
+    "refereeCountry": "Türkiye"
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "MT"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "1.01",
+    "draw": "8.05",
+    "away": "19.68",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": null,
+    "nextLeg": {
+      "sourceEventId": "16357207",
+      "matchUrl": "https://www.sofascore.com/football/match/rakow-czestochowa-valletta-fc/Hgcstfo#id:16357207",
+      "kickoffAtUtc": "2026-07-30T17:30:00.000Z",
+      "competitionName": "UEFA Conference League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "5332",
+      "homeTeamName": "Valletta FC",
+      "awayTeamId": "35268",
+      "awayTeamName": "Raków Częstochowa",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "upcoming",
+      "resultLabel": "Not started",
+      "previousLegEventId": "16351122",
+      "winnerCode": null
+    },
+    "h2h": [
+      {
+        "sourceEventId": "16357207",
+        "matchUrl": "https://www.sofascore.com/football/match/rakow-czestochowa-valletta-fc/Hgcstfo#id:16357207",
+        "kickoffAtUtc": "2026-07-30T17:30:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "5332",
+        "homeTeamName": "Valletta FC",
+        "awayTeamId": "35268",
+        "awayTeamName": "Raków Częstochowa",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16351122",
+        "winnerCode": null
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15410229",
+        "matchUrl": "https://www.sofascore.com/football/match/rakow-czestochowa-fk-vojvodina/adcstfo#id:15410229",
+        "kickoffAtUtc": "2026-01-23T08:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "35268",
+        "homeTeamName": "Raków Częstochowa",
+        "awayTeamId": "5150",
+        "awayTeamName": "FK Vojvodina",
+        "homeScore": 3,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15441379",
+        "matchUrl": "https://www.sofascore.com/football/match/skra-czestochowa-rakow-czestochowa/tfosDYFb#id:15441379",
+        "kickoffAtUtc": "2026-01-28T10:30:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "35268",
+        "homeTeamName": "Raków Częstochowa",
+        "awayTeamId": "202428",
+        "awayTeamName": "Skra Częstochowa",
+        "homeScore": 2,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "13981907",
+        "matchUrl": "https://www.sofascore.com/football/match/rakow-czestochowa-wisla-plock/xmbstfo#id:13981907",
+        "kickoffAtUtc": "2026-02-01T13:45:00.000Z",
+        "competitionName": "Ekstraklasa",
+        "countryName": "Poland",
+        "roundName": null,
+        "homeTeamId": "3122",
+        "homeTeamName": "Wisła Płock",
+        "awayTeamId": "35268",
+        "awayTeamName": "Raków Częstochowa",
+        "homeScore": 2,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16316947",
+        "matchUrl": "https://www.sofascore.com/football/match/rakow-czestochowa-wisla-plock/xmbstfo#id:16316947",
+        "kickoffAtUtc": "2026-07-26T12:45:00.000Z",
+        "competitionName": "Ekstraklasa",
+        "countryName": "Poland",
+        "roundName": null,
+        "homeTeamId": "35268",
+        "homeTeamName": "Raków Częstochowa",
+        "awayTeamId": "3122",
+        "awayTeamName": "Wisła Płock",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16357207",
+        "matchUrl": "https://www.sofascore.com/football/match/rakow-czestochowa-valletta-fc/Hgcstfo#id:16357207",
+        "kickoffAtUtc": "2026-07-30T17:30:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "5332",
+        "homeTeamName": "Valletta FC",
+        "awayTeamId": "35268",
+        "awayTeamName": "Raków Częstochowa",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16351122",
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

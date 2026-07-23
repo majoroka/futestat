@@ -1,0 +1,182 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16351123",
+  "matchUrl": "https://www.sofascore.com/football/match/fk-panevezys-fc-tobol/mhcsnfCb#id:16351123",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-23T14:07:11.473Z",
+  "fixtureLastSeenAtUtc": "2026-07-23T14:06:37.613Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:09.050Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-23T15:30:00.000Z",
+    "competitionId": "17015",
+    "competitionName": "UEFA Conference League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "Aukštaitija Stadium",
+    "venueCity": "Panevezys",
+    "venueCountry": "Lithuania",
+    "refereeName": "Mohammad Usman Aslam",
+    "refereeCountry": "Norway"
+  },
+  "watch": {
+    "hasPortugalChannels": true,
+    "availableCountryCodes": [
+      "BR",
+      "FR",
+      "KZ",
+      "LT",
+      "PL",
+      "PT"
+    ],
+    "note": "Canais disponíveis para Portugal."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "2.96",
+    "draw": "2.96",
+    "away": "1.83",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": null,
+    "nextLeg": {
+      "sourceEventId": "16351417",
+      "matchUrl": "https://www.sofascore.com/football/match/fk-panevezys-fc-tobol/mhcsnfCb#id:16351417",
+      "kickoffAtUtc": "2026-07-30T14:00:00.000Z",
+      "competitionName": "UEFA Conference League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "5362",
+      "homeTeamName": "FC Tobol",
+      "awayTeamId": "192763",
+      "awayTeamName": "FK Panevėžys",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "upcoming",
+      "resultLabel": "Not started",
+      "previousLegEventId": "16351123",
+      "winnerCode": null
+    },
+    "h2h": [
+      {
+        "sourceEventId": "16351417",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-panevezys-fc-tobol/mhcsnfCb#id:16351417",
+        "kickoffAtUtc": "2026-07-30T14:00:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "5362",
+        "homeTeamName": "FC Tobol",
+        "awayTeamId": "192763",
+        "awayTeamName": "FK Panevėžys",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16351123",
+        "winnerCode": null
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15416474",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-panevezys-fs-jelgava/GwosnfCb#id:15416474",
+        "kickoffAtUtc": "2026-01-24T12:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "192763",
+        "homeTeamName": "FK Panevėžys",
+        "awayTeamId": "36081",
+        "awayTeamName": "FS Jelgava",
+        "homeScore": 2,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15443987",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-panevezys-fk-tukums-2000/FwosnfCb#id:15443987",
+        "kickoffAtUtc": "2026-01-31T12:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "192763",
+        "homeTeamName": "FK Panevėžys",
+        "awayTeamId": "36080",
+        "awayTeamName": "FK Tukums 2000",
+        "homeScore": 2,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15492008",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-panevezys-fk-metta/HwosnfCb#id:15492008",
+        "kickoffAtUtc": "2026-02-07T12:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "192763",
+        "homeTeamName": "FK Panevėžys",
+        "awayTeamId": "36082",
+        "awayTeamName": "FK Metta",
+        "homeScore": 2,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16273091",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-panevezys-fk-banga-gargzdai/NhosnfCb#id:16273091",
+        "kickoffAtUtc": "2026-07-26T16:00:00.000Z",
+        "competitionName": "TOPLYGA",
+        "countryName": "Lithuania",
+        "roundName": null,
+        "homeTeamId": "35388",
+        "homeTeamName": "FK Banga Gargždai",
+        "awayTeamId": "192763",
+        "awayTeamName": "FK Panevėžys",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "postponed",
+        "resultLabel": "Postponed",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16351417",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-panevezys-fc-tobol/mhcsnfCb#id:16351417",
+        "kickoffAtUtc": "2026-07-30T14:00:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "5362",
+        "homeTeamName": "FC Tobol",
+        "awayTeamId": "192763",
+        "awayTeamName": "FK Panevėžys",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16351123",
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

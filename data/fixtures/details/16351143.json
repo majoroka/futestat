@@ -1,0 +1,179 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16351143",
+  "matchUrl": "https://www.sofascore.com/football/match/beitar-jerusalem-aek-larnaca/etbseec#id:16351143",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-23T14:07:32.829Z",
+  "fixtureLastSeenAtUtc": "2026-07-23T14:06:37.613Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:09.050Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-23T16:30:00.000Z",
+    "competitionId": "17015",
+    "competitionName": "UEFA Conference League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
+    "competitionStage": null,
+    "countryName": "Europe",
+    "venueName": null,
+    "venueCity": null,
+    "venueCountry": null,
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "BR",
+      "CY",
+      "IL"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "1.82",
+    "draw": "2.84",
+    "away": "3.11",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": {
+      "sourceEventId": "16351428",
+      "matchUrl": "https://www.sofascore.com/football/match/beitar-jerusalem-aek-larnaca/etbseec#id:16351428",
+      "kickoffAtUtc": "2026-07-30T17:30:00.000Z",
+      "competitionName": "UEFA Conference League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "5204",
+      "homeTeamName": "Beitar Jerusalem",
+      "awayTeamId": "3404",
+      "awayTeamName": "AEK Larnaca",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "upcoming",
+      "resultLabel": "Not started",
+      "previousLegEventId": "16351143",
+      "winnerCode": null
+    },
+    "h2h": [
+      {
+        "sourceEventId": "16351428",
+        "matchUrl": "https://www.sofascore.com/football/match/beitar-jerusalem-aek-larnaca/etbseec#id:16351428",
+        "kickoffAtUtc": "2026-07-30T17:30:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "5204",
+        "homeTeamName": "Beitar Jerusalem",
+        "awayTeamId": "3404",
+        "awayTeamName": "AEK Larnaca",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16351143",
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "9648422",
+        "matchUrl": "https://www.sofascore.com/football/match/beitar-jerusalem-aek-larnaca/etbseec#id:9648422",
+        "kickoffAtUtc": "2021-07-22T15:30:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "5204",
+        "homeTeamName": "Beitar Jerusalem",
+        "awayTeamId": "3404",
+        "awayTeamName": "AEK Larnaca",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "14573099",
+        "matchUrl": "https://www.sofascore.com/football/match/kf-shkendija-aek-larnaca/etbsnic#id:14573099",
+        "kickoffAtUtc": "2025-12-18T20:00:00.000Z",
+        "competitionName": "UEFA Conference League",
+        "countryName": "Europe",
+        "roundName": null,
+        "homeTeamId": "3404",
+        "homeTeamName": "AEK Larnaca",
+        "awayTeamId": "5413",
+        "awayTeamName": "KF Shkëndija",
+        "homeScore": 1,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14222803",
+        "matchUrl": "https://www.sofascore.com/football/match/ael-limassol-aek-larnaca/etbshtb#id:14222803",
+        "kickoffAtUtc": "2025-12-22T17:00:00.000Z",
+        "competitionName": "1st Division",
+        "countryName": "Cyprus",
+        "roundName": null,
+        "homeTeamId": "3407",
+        "homeTeamName": "AEL Limassol",
+        "awayTeamId": "3404",
+        "awayTeamName": "AEK Larnaca",
+        "homeScore": 0,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "14222807",
+        "matchUrl": "https://www.sofascore.com/football/match/aek-larnaca-anorthosis-famagusta/dtbsetb#id:14222807",
+        "kickoffAtUtc": "2026-01-04T15:00:00.000Z",
+        "competitionName": "1st Division",
+        "countryName": "Cyprus",
+        "roundName": null,
+        "homeTeamId": "3404",
+        "homeTeamName": "AEK Larnaca",
+        "awayTeamId": "3403",
+        "awayTeamName": "Anorthosis Famagusta",
+        "homeScore": 4,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16351428",
+        "matchUrl": "https://www.sofascore.com/football/match/beitar-jerusalem-aek-larnaca/etbseec#id:16351428",
+        "kickoffAtUtc": "2026-07-30T17:30:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "5204",
+        "homeTeamName": "Beitar Jerusalem",
+        "awayTeamId": "3404",
+        "awayTeamName": "AEK Larnaca",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": "16351143",
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}
