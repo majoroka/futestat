@@ -26,7 +26,7 @@ Objetivo:
 - endurecer robustez operacional
 
 Estado:
-- em progresso
+- fechada na base atual de operação manual
 
 Itens:
 - testes com HTML real
@@ -41,8 +41,7 @@ Entregáveis já introduzidos:
 - screenshots/HTML opcionais quando a página falha por bloqueio
 - ficheiro de métricas por run em `data/fixtures/runs/`
 
-Em falta nesta fase:
-- testes com HTML real do Sofascore
+Pendências residuais:
 - enriquecer classificação de falhas raras além de `403`
 - métricas históricas comparáveis entre runs
 

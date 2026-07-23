@@ -171,7 +171,7 @@ Limites atuais:
 - depende do DOM atual do Sofascore
 - alguns jogos passados podem não expor a hora de kickoff na página da data, pelo que `kickoffAtUtc` pode ficar `null`
 - a observabilidade fica local e orientada a ficheiros, não a serviço externo
-- ainda não há cobertura de regressão com HTML fixtures reais
+- a cobertura com HTML real existe apenas para um conjunto inicial de snapshots guardados
 
 ## Documentação adicional
 
