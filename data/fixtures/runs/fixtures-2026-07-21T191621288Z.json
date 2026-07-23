@@ -1,0 +1,111 @@
+{
+  "source": "sofascore",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-21T19:16:21.288Z",
+  "datesScraped": [
+    "2026-07-21"
+  ],
+  "fixtureCount": 6,
+  "fixtures": [
+    {
+      "source": "sofascore",
+      "sourceEventId": "15502618",
+      "scrapeDate": "2026-07-21",
+      "kickoffAtUtc": "2026-07-21T21:30:00.000Z",
+      "competitionName": "LigaPro Serie A, Primera Etapa",
+      "countryName": "Ecuador",
+      "homeTeamId": "394127",
+      "homeTeamName": "Libertad",
+      "homeTeamLogoUrl": "https://img.sofascore.com/api/v1/team/394127/image/small",
+      "awayTeamId": "213638",
+      "awayTeamName": "Delfín",
+      "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/213638/image/small",
+      "matchUrl": "https://www.sofascore.com/football/match/libertad-delfin/NxKbsCHhd#id:15502618",
+      "scrapedAtUtc": "2026-07-21T19:16:21.288Z"
+    },
+    {
+      "source": "sofascore",
+      "sourceEventId": "16251104",
+      "scrapeDate": "2026-07-21",
+      "kickoffAtUtc": "2026-07-21T22:00:00.000Z",
+      "competitionName": "CONMEBOL Sudamericana, Knockout stage",
+      "countryName": "South America",
+      "homeTeamId": "3230",
+      "homeTeamName": "Nacional",
+      "homeTeamLogoUrl": "https://img.sofascore.com/api/v1/team/3230/image/small",
+      "awayTeamId": "7628",
+      "awayTeamName": "Tigre",
+      "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/7628/image/small",
+      "matchUrl": "https://www.sofascore.com/football/match/tigre-nacional/FobsDcd#id:16251104",
+      "scrapedAtUtc": "2026-07-21T19:16:21.288Z"
+    },
+    {
+      "source": "sofascore",
+      "sourceEventId": "15237980",
+      "scrapeDate": "2026-07-21",
+      "kickoffAtUtc": "2026-07-21T22:30:00.000Z",
+      "competitionName": "Brasileirão Betano",
+      "countryName": "Brazil",
+      "homeTeamId": "1977",
+      "homeTeamName": "Atlético-MG",
+      "homeTeamLogoUrl": "https://img.sofascore.com/api/v1/team/1977/image/small",
+      "awayTeamId": "1955",
+      "awayTeamName": "Bahia",
+      "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/1955/image/small",
+      "matchUrl": "https://www.sofascore.com/football/match/atletico-mineiro-bahia/fOsCO#id:15237980",
+      "scrapedAtUtc": "2026-07-21T19:16:21.288Z"
+    },
+    {
+      "source": "sofascore",
+      "sourceEventId": "15526194",
+      "scrapeDate": "2026-07-21",
+      "kickoffAtUtc": "2026-07-21T22:30:00.000Z",
+      "competitionName": "Brasileirão Série B",
+      "countryName": "Brazil",
+      "homeTeamId": "7315",
+      "homeTeamName": "Avaí",
+      "homeTeamLogoUrl": "https://img.sofascore.com/api/v1/team/7315/image/small",
+      "awayTeamId": "1973",
+      "awayTeamName": "América-MG",
+      "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/1973/image/small",
+      "matchUrl": "https://www.sofascore.com/football/match/avai-america-mineiro/yOspWc#id:15526194",
+      "scrapedAtUtc": "2026-07-21T19:16:21.288Z"
+    },
+    {
+      "source": "sofascore",
+      "sourceEventId": "15526189",
+      "scrapeDate": "2026-07-21",
+      "kickoffAtUtc": "2026-07-21T22:30:00.000Z",
+      "competitionName": "Brasileirão Série B",
+      "countryName": "Brazil",
+      "homeTeamId": "135514",
+      "homeTeamName": "Novorizontino",
+      "homeTeamLogoUrl": "https://img.sofascore.com/api/v1/team/135514/image/small",
+      "awayTeamId": "1984",
+      "awayTeamName": "Criciúma",
+      "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/1984/image/small",
+      "matchUrl": "https://www.sofascore.com/football/match/gremio-novorizontino-criciuma/JOsokeb#id:15526189",
+      "scrapedAtUtc": "2026-07-21T19:16:21.288Z"
+    },
+    {
+      "source": "sofascore",
+      "sourceEventId": "16389605",
+      "scrapeDate": "2026-07-21",
+      "kickoffAtUtc": "2026-07-21T23:00:00.000Z",
+      "competitionName": "División Profesional",
+      "countryName": "Bolivia",
+      "homeTeamId": "372975",
+      "homeTeamName": "Independiente Petrolero",
+      "homeTeamLogoUrl": "https://img.sofascore.com/api/v1/team/372975/image/small",
+      "awayTeamId": "7060",
+      "awayTeamName": "Real Potosí",
+      "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/7060/image/small",
+      "matchUrl": "https://www.sofascore.com/football/match/club-independiente-petrolero-real-potosi/kQcsAjZc#id:16389605",
+      "scrapedAtUtc": "2026-07-21T19:16:21.288Z"
+    }
+  ],
+  "metadata": {
+    "browserTimezone": "UTC",
+    "scraperVersion": 1
+  }
+}

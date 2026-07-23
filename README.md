@@ -1,3 +1,3 @@
 # Futestat Fixtures Store
 
-Este ramo guarda apenas a store canónica de fixtures gerada automaticamente pelo workflow.
+Este ramo guarda apenas a store canónica de fixtures gerada localmente.
