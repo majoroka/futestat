@@ -1,10 +1,10 @@
 {
   "source": "sofascore",
   "date": "2026-07-21",
-  "collectionState": "settling",
+  "collectionState": "frozen",
   "firstScrapedAtUtc": "2026-07-21T20:23:18.152Z",
-  "lastScrapedAtUtc": "2026-07-22T21:31:24.229Z",
-  "frozenAtUtc": null,
+  "lastScrapedAtUtc": "2026-07-23T05:34:49.381Z",
+  "frozenAtUtc": "2026-07-23T05:34:49.381Z",
   "fixtureCount": 23,
   "fixtures": [
     {
