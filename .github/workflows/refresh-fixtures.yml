@@ -48,11 +48,10 @@ jobs:
             git switch --orphan "$FIXTURES_STORE_BRANCH"
             find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
             mkdir -p data/fixtures/days data/fixtures/runs
-            cat > README.md <<'EOF'
-            # Futestat Fixtures Store
-
-            Este ramo guarda apenas a store canónica de fixtures gerada automaticamente pelo workflow.
-            EOF
+            printf '%s\n\n%s\n' \
+              '# Futestat Fixtures Store' \
+              'Este ramo guarda apenas a store canónica de fixtures gerada automaticamente pelo workflow.' \
+              > README.md
             git add README.md data
             git commit -m "Initialize fixtures data branch"
             git push --set-upstream origin "$FIXTURES_STORE_BRANCH"
