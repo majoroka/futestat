@@ -19,7 +19,9 @@ export async function extractRawFixturesFromPage(
       const fixtures: RawSofascoreFixture[] = [];
 
       for (const sectionNode of sectionNodes) {
+        let currentCompetitionId: string | null = null;
         let currentCompetition: string | null = null;
+        let currentCompetitionLogoUrl: string | null = null;
         let currentCountry: string | null = null;
 
         for (const child of Array.from(sectionNode.children)) {
@@ -27,14 +29,30 @@ export async function extractRawFixturesFromPage(
             continue;
           }
 
-          const tournamentLinks = Array.from(
+          const tournamentAnchors = Array.from(
             child.querySelectorAll<HTMLAnchorElement>('a[href*="/football/tournament/"]'),
-          )
+          );
+          const tournamentLinks = tournamentAnchors
             .map((anchor) => anchor.textContent?.trim() ?? "")
             .filter(Boolean);
 
           if (tournamentLinks.length > 0) {
+            const tournamentAnchor = tournamentAnchors[0] ?? null;
+            const tournamentImage = child.querySelector<HTMLImageElement>(
+              'img[src*="/api/v1/unique-tournament/"]',
+            );
             currentCompetition = tournamentLinks[0] ?? currentCompetition;
+            currentCompetitionId =
+              tournamentImage?.src.match(
+                /\/api\/v1\/unique-tournament\/(\d+)\/image(?:\/dark|\/small)?$/,
+              )?.[1] ??
+              tournamentAnchor?.getAttribute("href")?.match(/\/(\d+)(?:[?#].*)?$/)?.[1] ??
+              currentCompetitionId;
+            currentCompetitionLogoUrl =
+              tournamentImage?.src ??
+              (currentCompetitionId
+                ? `https://img.sofascore.com/api/v1/unique-tournament/${currentCompetitionId}/image/dark`
+                : currentCompetitionLogoUrl);
 
             const countryLink = Array.from(
               child.querySelectorAll<HTMLAnchorElement>('a[href^="/football/"]'),
@@ -115,7 +133,9 @@ export async function extractRawFixturesFromPage(
             eventId,
             matchDate,
             kickoffTime,
+            competitionId: currentCompetitionId,
             competitionName: currentCompetition,
+            competitionLogoUrl: currentCompetitionLogoUrl,
             countryName: currentCountry,
             homeTeamId:
               teamImages[0]?.src.match(/\/api\/v1\/team\/(\d+)\/image(?:\/small)?$/)?.[1] ??

@@ -4,7 +4,9 @@ export interface RawSofascoreFixture {
   eventId: string;
   matchDate: string;
   kickoffTime: string | null;
+  competitionId: string | null;
   competitionName: string | null;
+  competitionLogoUrl: string | null;
   countryName: string | null;
   homeTeamId: string | null;
   homeTeamName: string;

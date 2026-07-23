@@ -152,7 +152,9 @@ function mergeFixture(
       sourceEventId: incoming.sourceEventId,
       matchDate: incoming.matchDate,
       kickoffAtUtc: incoming.kickoffAtUtc,
+      competitionId: incoming.competitionId,
       competitionName: incoming.competitionName,
+      competitionLogoUrl: incoming.competitionLogoUrl,
       countryName: incoming.countryName,
       homeTeamId: incoming.homeTeamId,
       homeTeamName: incoming.homeTeamName,
@@ -177,7 +179,9 @@ function mergeFixture(
     sourceEventId: existing.sourceEventId,
     matchDate: existing.matchDate,
     kickoffAtUtc: incoming.kickoffAtUtc ?? existing.kickoffAtUtc,
+    competitionId: incoming.competitionId ?? existing.competitionId,
     competitionName: incoming.competitionName ?? existing.competitionName,
+    competitionLogoUrl: incoming.competitionLogoUrl ?? existing.competitionLogoUrl,
     countryName: incoming.countryName ?? existing.countryName,
     homeTeamId: incoming.homeTeamId ?? existing.homeTeamId,
     homeTeamName: incoming.homeTeamName || existing.homeTeamName,
@@ -254,7 +258,9 @@ function isTerminalStatus(status: MatchFixture["status"]): boolean {
 function hasFixtureChanged(left: MatchFixture, right: MatchFixture): boolean {
   return (
     left.kickoffAtUtc !== right.kickoffAtUtc ||
+    left.competitionId !== right.competitionId ||
     left.competitionName !== right.competitionName ||
+    left.competitionLogoUrl !== right.competitionLogoUrl ||
     left.countryName !== right.countryName ||
     left.homeTeamId !== right.homeTeamId ||
     left.homeTeamName !== right.homeTeamName ||

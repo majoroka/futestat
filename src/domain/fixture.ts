@@ -13,7 +13,9 @@ export interface MatchFixture {
   sourceEventId: string;
   matchDate: string;
   kickoffAtUtc: string | null;
+  competitionId: string | null;
   competitionName: string | null;
+  competitionLogoUrl: string | null;
   countryName: string | null;
   homeTeamId: string | null;
   homeTeamName: string;
@@ -115,7 +117,9 @@ export interface ScrapedFixture {
   sourceEventId: string;
   matchDate: string;
   kickoffAtUtc: string | null;
+  competitionId: string | null;
   competitionName: string | null;
+  competitionLogoUrl: string | null;
   countryName: string | null;
   homeTeamId: string | null;
   homeTeamName: string;

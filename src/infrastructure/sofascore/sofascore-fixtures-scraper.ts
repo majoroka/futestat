@@ -238,7 +238,9 @@ export class SofascoreFixturesScraper {
         kickoffAtUtc: fixture.kickoffTime
           ? kickoffUtcFromDateAndTime(fixture.matchDate, fixture.kickoffTime)
           : null,
+        competitionId: fixture.competitionId,
         competitionName: fixture.competitionName,
+        competitionLogoUrl: fixture.competitionLogoUrl,
         countryName: fixture.countryName,
         homeTeamId: fixture.homeTeamId,
         homeTeamName: fixture.homeTeamName,

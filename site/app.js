@@ -274,12 +274,24 @@ function renderFixtureDetail() {
   const displayDate = formatFixtureDetailDate(fixture);
   const displayTime = formatFixtureDetailTime(fixture);
   const centerTime = fixture.kickoffAtUtc ? formatKickoffTime(fixture.kickoffAtUtc) : "Sem hora";
+  const competitionLogo = buildCompetitionLogoUrl(
+    fixture.competitionLogoUrl,
+    fixture.competitionId,
+  );
 
   detailEl.innerHTML = `
     <p class="fixture-detail__eyebrow">Painel do jogo</p>
     <div class="fixture-detail__hero">
       <div class="fixture-detail__competition">
-        <span class="fixture-detail__competition-mark" aria-hidden="true"></span>
+        ${
+          competitionLogo
+            ? `<img class="fixture-detail__competition-logo" src="${escapeAttribute(
+                competitionLogo,
+              )}" alt="${escapeAttribute(
+                fixture.competitionName ?? "Competição",
+              )}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`
+            : `<span class="fixture-detail__competition-mark" aria-hidden="true"></span>`
+        }
         <div class="fixture-detail__competition-copy">
           <span class="fixture-detail__competition-country">${escapeHtml(
             fixture.countryName ?? "País desconhecido",
@@ -377,8 +389,9 @@ function renderFixtureDetail() {
 
 function renderDetailMatchSide(name, logoUrl, teamId) {
   const safeName = escapeHtml(name);
-  const crest = logoUrl
-    ? `<img class="fixture-detail__team-crest" src="${escapeAttribute(logoUrl)}" alt="${safeName}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`
+  const displayLogoUrl = buildTeamDisplayLogoUrl(logoUrl, teamId);
+  const crest = displayLogoUrl
+    ? `<img class="fixture-detail__team-crest" src="${escapeAttribute(displayLogoUrl)}" alt="${safeName}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`
     : `<span class="fixture-detail__team-crest fixture-detail__team-crest--fallback" aria-hidden="true">${escapeHtml(
         buildTeamInitials(name, teamId),
       )}</span>`;
@@ -416,6 +429,26 @@ function formatFixtureHeroMeta(fixture) {
   }
 
   return "Hora de Lisboa";
+}
+
+function buildCompetitionLogoUrl(existingUrl, competitionId) {
+  if (existingUrl) {
+    return existingUrl;
+  }
+
+  if (!competitionId) {
+    return null;
+  }
+
+  return `https://img.sofascore.com/api/v1/unique-tournament/${competitionId}/image/dark`;
+}
+
+function buildTeamDisplayLogoUrl(existingUrl, teamId) {
+  if (teamId) {
+    return `https://img.sofascore.com/api/v1/team/${teamId}/image`;
+  }
+
+  return existingUrl ? existingUrl.replace(/\/small$/, "") : null;
 }
 
 function renderError(message) {

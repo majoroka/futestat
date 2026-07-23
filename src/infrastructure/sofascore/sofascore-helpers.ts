@@ -11,7 +11,16 @@ export function parseTeamIdFromImageUrl(value: string): string | null {
   return match?.[1] ?? null;
 }
 
+export function parseCompetitionIdFromTournamentHref(value: string): string | null {
+  const match = value.match(/\/football\/tournament\/[^?#]+\/(\d+)(?:[?#].*)?$/);
+  return match?.[1] ?? null;
+}
+
 export function buildTeamLogoUrl(teamId: string, size: "default" | "small" = "small"): string {
   const suffix = size === "small" ? "/small" : "";
   return `https://img.sofascore.com/api/v1/team/${teamId}/image${suffix}`;
+}
+
+export function buildCompetitionLogoUrl(competitionId: string): string {
+  return `https://img.sofascore.com/api/v1/unique-tournament/${competitionId}/image/dark`;
 }
