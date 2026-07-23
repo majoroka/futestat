@@ -80,7 +80,7 @@ As mais importantes:
 - `FUTESTAT_FUTURE_DAYS`
 - `FUTESTAT_OUTPUT_DIR`
 
-## Output
+## Output local
 
 O scraper grava:
 - `data/fixtures/latest.json`
@@ -88,8 +88,9 @@ O scraper grava:
 - `data/fixtures/days/YYYY-MM-DD.json`
 
 Nota importante:
-- `data/fixtures/days/*.json` faz parte da store canónica e deve ficar versionado no repositório
-- se esses ficheiros não existirem no GitHub, o workflow agendado começa sem histórico reconciliado e pode publicar um `latest.json` vazio quando uma run não conseguir extrair cartões
+- estes ficheiros existem localmente para testes e builds locais
+- no branch `main`, `data/fixtures/` passa a ficar ignorado para evitar conflitos com a automação
+- a store canónica persistente do GitHub Actions passa a viver no ramo dedicado `fixtures-data`
 
 ### Store canónica por dia
 
@@ -183,10 +184,11 @@ Este repositório inclui um site estático pequeno para publicar:
 Existe agora um workflow agendado em `.github/workflows/refresh-fixtures.yml` que:
 1. instala dependências
 2. instala o Chromium do Playwright
-3. corre `npm run scrape:fixtures`
-4. reconstrói o site com `npm run build:site`
-5. faz commit de `data/fixtures` apenas se houver alterações
-6. publica o Pages no mesmo workflow
+3. monta ou inicializa o ramo dedicado `fixtures-data`
+4. corre `npm run scrape:fixtures`
+5. reconstrói o site com `npm run build:site`
+6. faz commit da store canónica apenas em `fixtures-data`
+7. publica o Pages no mesmo workflow
 
 Cadência configurada:
 - `03:17`
@@ -205,6 +207,8 @@ Motivo da cadência:
 Nota técnica:
 - o deploy do Pages é feito no mesmo workflow agendado
 - isto evita depender de um `push` feito pelo `GITHUB_TOKEN`, porque esse tipo de push não dispara workflows adicionais normais no GitHub Actions
+- o branch `main` deixa de receber commits automáticos de dados gerados
+- o workflow `deploy-pages.yml` passa a ler o snapshot do ramo `fixtures-data`, para que alterações de UI no `main` não publiquem uma página vazia
 
 Build local do site:
 
@@ -216,8 +220,23 @@ O output é gerado em `dist/`.
 
 Para GitHub Pages, existe um workflow em `.github/workflows/deploy-pages.yml` que:
 1. instala dependências
-2. corre `npm run build:site`
-3. publica o artefacto estático em Pages
+2. monta o snapshot mais recente a partir de `fixtures-data`
+3. corre `npm run build:site`
+4. publica o artefacto estático em Pages
+
+## Regra operacional no GitHub Desktop
+
+No `main` deves tratar como versionáveis apenas:
+- código
+- UI
+- documentação
+
+Os ficheiros gerados em `data/fixtures/` deixam de entrar no fluxo normal de commit do `main`.
+
+Isto evita o problema anterior:
+- refresh local a mexer nos mesmos JSON
+- workflow remoto a commitar os mesmos JSON
+- conflitos recorrentes em `pull`
 
 Nota operacional:
 - o site publica o snapshot presente em `data/fixtures/latest.json`

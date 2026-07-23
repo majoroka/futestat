@@ -11,6 +11,11 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  FIXTURES_STORE_BRANCH: fixtures-data
+  FIXTURES_STORE_DIR: .fixtures-store
+  FIXTURES_OUTPUT_DIR: .fixtures-store/data/fixtures
+
 concurrency:
   group: refresh-fixtures
   cancel-in-progress: false
@@ -22,6 +27,36 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Prepare fixtures store branch
+        run: |
+          rm -rf "$FIXTURES_STORE_DIR"
+          git fetch --no-tags origin "$FIXTURES_STORE_BRANCH" || true
+
+          if git show-ref --verify --quiet "refs/remotes/origin/$FIXTURES_STORE_BRANCH"; then
+            git worktree add -B "$FIXTURES_STORE_BRANCH" "$FIXTURES_STORE_DIR" "origin/$FIXTURES_STORE_BRANCH"
+          else
+            git worktree add --detach "$FIXTURES_STORE_DIR" HEAD
+            cd "$FIXTURES_STORE_DIR"
+            git switch --orphan "$FIXTURES_STORE_BRANCH"
+            find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+            mkdir -p data/fixtures/days data/fixtures/runs
+            cat > README.md <<'EOF'
+            # Futestat Fixtures Store
+
+            Este ramo guarda apenas a store canónica de fixtures gerada automaticamente pelo workflow.
+            EOF
+            git add README.md data
+            git commit -m "Initialize fixtures data branch"
+            git push --set-upstream origin "$FIXTURES_STORE_BRANCH"
+          fi
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
@@ -39,15 +74,21 @@ jobs:
         run: npx playwright install chromium
 
       - name: Refresh fixtures window
+        env:
+          FUTESTAT_OUTPUT_DIR: ${{ env.FIXTURES_OUTPUT_DIR }}
         run: npm run scrape:fixtures
 
       - name: Build static site
+        env:
+          FUTESTAT_SITE_SNAPSHOT_PATH: ${{ env.FIXTURES_OUTPUT_DIR }}/latest.json
         run: npm run build:site
 
       - name: Detect data changes
         id: changes
         run: |
-          if git diff --quiet -- data/fixtures; then
+          cd "$FIXTURES_STORE_DIR"
+          git add data/fixtures
+          if git diff --cached --quiet -- data/fixtures; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -56,11 +97,9 @@ jobs:
       - name: Commit refreshed fixtures
         if: steps.changes.outputs.changed == 'true'
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/fixtures
+          cd "$FIXTURES_STORE_DIR"
           git commit -m "Refresh fixtures window"
-          git push
+          git push --set-upstream origin "$FIXTURES_STORE_BRANCH"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4

@@ -11,6 +11,10 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  FIXTURES_STORE_BRANCH: fixtures-data
+  FIXTURES_STORE_DIR: .fixtures-store
+
 concurrency:
   group: pages
   cancel-in-progress: true
@@ -21,6 +25,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Prepare fixtures store snapshot
+        id: snapshot
+        run: |
+          rm -rf "$FIXTURES_STORE_DIR"
+
+          if git ls-remote --exit-code --heads origin "$FIXTURES_STORE_BRANCH" >/dev/null 2>&1; then
+            git fetch --no-tags origin "$FIXTURES_STORE_BRANCH"
+            git worktree add --detach "$FIXTURES_STORE_DIR" "origin/$FIXTURES_STORE_BRANCH"
+            echo "path=$FIXTURES_STORE_DIR/data/fixtures/latest.json" >> "$GITHUB_OUTPUT"
+          else
+            echo "path=data/fixtures/latest.json" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
@@ -35,6 +54,8 @@ jobs:
         run: npm ci
 
       - name: Build static site
+        env:
+          FUTESTAT_SITE_SNAPSHOT_PATH: ${{ steps.snapshot.outputs.path }}
         run: npm run build:site
 
       - name: Upload Pages artifact

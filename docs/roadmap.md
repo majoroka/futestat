@@ -9,7 +9,7 @@ Objetivo:
 - site estático com resultados passados e jogos futuros
 
 Estado:
-- em progresso
+- base operacional estabilizada
 
 Entregáveis atuais:
 - CLI funcional
@@ -17,6 +17,7 @@ Entregáveis atuais:
 - reconciliação por `sourceEventId`
 - days store em `data/fixtures/days/`
 - snapshot público em `data/fixtures/latest.json`
+- separação entre `main` e ramo dedicado `fixtures-data`
 
 ## Fase 2
 

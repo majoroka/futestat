@@ -7,6 +7,7 @@ const assetsDir = path.join(distDir, "assets");
 const docsDir = path.join(distDir, "docs");
 const fixturesDir = path.join(distDir, "fixtures");
 const displayTimeZone = "Europe/Lisbon";
+const fixtureSnapshotPath = resolveFixtureSnapshotPath();
 
 const markdownPages = [
   {
@@ -67,10 +68,8 @@ async function buildSite() {
 }
 
 async function loadFixtureSnapshot() {
-  const fixturePath = path.join(repoRoot, "data", "fixtures", "latest.json");
-
   try {
-    const raw = await readFile(fixturePath, "utf8");
+    const raw = await readFile(fixtureSnapshotPath, "utf8");
     return JSON.parse(raw);
   } catch {
     return {
@@ -123,7 +122,7 @@ function renderHomePage({ projectName, snapshot }) {
           <section class="fixtures-pane">
             <h1>Janela de jogos</h1>
             <p class="panel__intro">
-              A lista abaixo é gerada a partir do snapshot commitado em <code>data/fixtures/latest.json</code>, com uma janela deslizante de resultados passados e jogos futuros.
+              A lista abaixo é gerada a partir do snapshot público de fixtures, com uma janela deslizante de resultados passados e jogos futuros.
             </p>
             <section class="metric-grid" data-fixture-summary></section>
             <div class="fixtures-toolbar">
@@ -153,6 +152,18 @@ function renderHomePage({ projectName, snapshot }) {
     <script type="module" src="./assets/app.js"></script>
   </body>
 </html>`;
+}
+
+function resolveFixtureSnapshotPath() {
+  const customPath = process.env.FUTESTAT_SITE_SNAPSHOT_PATH;
+
+  if (!customPath) {
+    return path.join(repoRoot, "data", "fixtures", "latest.json");
+  }
+
+  return path.isAbsolute(customPath)
+    ? customPath
+    : path.resolve(repoRoot, customPath);
 }
 
 function renderDocsIndex(pages) {

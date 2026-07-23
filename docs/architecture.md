@@ -6,6 +6,10 @@ O sistema evoluiu de um scraper simples de `upcoming` para uma pipeline pequena,
 - store canónica por dia
 - snapshot público derivado para o site
 
+Na operação em GitHub, a persistência fica também separada por ramo:
+- `main` para código, UI e documentação
+- `fixtures-data` para a store canónica gerada automaticamente
+
 ## Camadas
 
 ### `domain`
@@ -39,6 +43,10 @@ Persistência local em JSON:
 - `data/fixtures/days/YYYY-MM-DD.json`
 - `data/fixtures/latest.json`
 - `data/fixtures/runs/fixtures-window-<timestamp>.json`
+
+Persistência remota automatizada:
+- ramo `fixtures-data`
+- mesmo esquema `data/fixtures/...`
 
 ### `config` e `lib`
 
@@ -86,6 +94,18 @@ Motivo:
 - a UI não precisa de conhecer a política de reconciliação
 - `live` pode ficar fora do produto sem se perder da store canónica
 - o GitHub Pages consome um único ficheiro estável
+
+## 6. Separação entre código e dados gerados
+
+Motivo:
+- evita conflitos no `main` quando o utilizador faz refresh local e o GitHub Actions faz refresh remoto
+- reduz ruído no GitHub Desktop
+- mantém o histórico de código limpo de commits automáticos de dados
+
+Padrão aplicado:
+- `main` ignora `data/fixtures/`
+- o workflow agendado lê e escreve a store canónica em `fixtures-data`
+- o workflow de Pages lê o snapshot publicado nesse ramo
 
 ## Política de estados
 

@@ -3,11 +3,6 @@ dist/
 coverage/
 .DS_Store
 .env
-data/*
-!data/fixtures/
-data/fixtures/*
-!data/fixtures/latest.json
-!data/fixtures/days/
-!data/fixtures/days/*.json
+data/fixtures/
 playwright-report/
 test-results/
