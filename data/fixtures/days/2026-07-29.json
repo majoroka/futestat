@@ -3,7 +3,7 @@
   "date": "2026-07-29",
   "collectionState": "open",
   "firstScrapedAtUtc": "2026-07-22T05:30:00.650Z",
-  "lastScrapedAtUtc": "2026-07-23T10:04:42.639Z",
+  "lastScrapedAtUtc": "2026-07-23T13:33:21.473Z",
   "frozenAtUtc": null,
   "fixtureCount": 54,
   "fixtures": [
@@ -12,7 +12,9 @@
       "sourceEventId": "16251191",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T00:30:00.000Z",
+      "competitionId": "480",
       "competitionName": "CONMEBOL Sudamericana, Knockout stage",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/480/image",
       "countryName": "South America",
       "homeTeamId": "1968",
       "homeTeamName": "Santos",
@@ -26,15 +28,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/universidad-central-santos/tOscZZb#id:16251191",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "15526202",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T00:35:00.000Z",
+      "competitionId": "390",
       "competitionName": "Brasileirão Série B",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/390/image",
       "countryName": "Brazil",
       "homeTeamId": "2020",
       "homeTeamName": "Fortaleza",
@@ -48,15 +52,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fortaleza-botafogo-sp/EOsvP#id:15526202",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16274082",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T09:45:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "33",
       "homeTeamName": "Tottenham",
@@ -70,15 +76,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/sydney-fc-tottenham-hotspur/Iswuc#id:16274082",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16330988",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T10:00:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "3141",
       "homeTeamName": "Cerezo Osaka",
@@ -92,15 +100,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/cerezo-osaka-borussia-dortmund/ydbsQmb#id:16330988",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16351422",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T14:30:00.000Z",
+      "competitionId": "17015",
       "competitionName": "UEFA Conference League, Qualification",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
       "countryName": "Europe",
       "homeTeamId": "230411",
       "homeTeamName": "Dukagjini",
@@ -114,15 +124,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/dukagjini-fc-lugano/TYsliRb#id:16351422",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16408270",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T14:30:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "2801",
       "homeTeamName": "Frosinone",
@@ -136,15 +148,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/frosinone-sambenedettese/afbsbgb#id:16408270",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16350245",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T15:00:00.000Z",
+      "competitionId": "7",
       "competitionName": "UEFA Champions League, Qualification",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
       "countryName": "Europe",
       "homeTeamId": "5172",
       "homeTeamName": "Kairat",
@@ -158,15 +172,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/kairat-almaty-omonia-nicosia/Vrbsxdc#id:16350245",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16591931",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T15:00:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "3250",
       "homeTeamName": "AEK",
@@ -180,15 +196,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/aek-athens-samsunspor/dlbsapb#id:16591931",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16462124",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T15:00:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "2761",
       "homeTeamName": "Cremonese",
@@ -202,15 +220,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/cremonese-cittadella/rebslfb#id:16462124",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16462123",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T15:00:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "2715",
       "homeTeamName": "Palermo",
@@ -224,15 +244,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/pot-iraklis-palermo/pebsbKH#id:16462123",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16568544",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T15:30:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "2731",
       "homeTeamName": "Arezzo",
@@ -246,15 +268,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/albinoleffe-arezzo/GebsHeb#id:16568544",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16571367",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T15:30:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "2836",
       "homeTeamName": "Atl. Madrid",
@@ -268,15 +292,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/getafe-atletico-madrid/Lgbsjhb#id:16571367",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16350233",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T16:00:00.000Z",
+      "competitionId": "7",
       "competitionName": "UEFA Champions League, Qualification",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
       "countryName": "Europe",
       "homeTeamId": "80741",
       "homeTeamName": "Kauno Žalgiris",
@@ -290,15 +316,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fk-kauno-zalgiris-klaksvikar-itrottarfelag/UdcsQoH#id:16350233",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16565072",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T16:00:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "2569",
       "homeTeamName": "Hoffenheim",
@@ -312,15 +340,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/holstein-kiel-tsg-hoffenheim/ubbsybb#id:16565072",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16408667",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T16:30:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "2586",
       "homeTeamName": "Offenbach",
@@ -334,15 +364,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/vfb-stuttgart-kickers-offenbach/LbbsCdb#id:16408667",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "15389410",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T17:00:00.000Z",
+      "competitionId": "9558",
       "competitionName": "Women's Africa Cup of Nations",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/9558/image",
       "countryName": "Africa",
       "homeTeamId": "7417",
       "homeTeamName": "Ghana",
@@ -356,15 +388,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/cabo-verde-ghana/rYcsHNrd#id:15389410",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16350242",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T17:00:00.000Z",
+      "competitionId": "7",
       "competitionName": "UEFA Champions League, Qualification",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
       "countryName": "Europe",
       "homeTeamId": "3121",
       "homeTeamName": "Lech",
@@ -378,15 +412,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/lech-poznan-agf/QAswmb#id:16350242",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16351418",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T17:00:00.000Z",
+      "competitionId": "17015",
       "competitionName": "UEFA Conference League, Qualification",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
       "countryName": "Europe",
       "homeTeamId": "1284",
       "homeTeamName": "København",
@@ -400,15 +436,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/polissya-zhytomyr-fc-kobenhavn/JAsLvdc#id:16351418",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16408296",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T17:00:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "2835",
       "homeTeamName": "R. Racing Club",
@@ -422,15 +460,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/real-racing-club-athletic-club/AgbsKgb#id:16408296",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16350247",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T17:30:00.000Z",
+      "competitionId": "7",
       "competitionName": "UEFA Champions League, Qualification",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
       "countryName": "Europe",
       "homeTeamId": "5202",
       "homeTeamName": "H. Be'er Sheva",
@@ -444,15 +484,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/hapoel-beer-sheva-vikingur-reykjavik/iNscec#id:16350247",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16350243",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T17:30:00.000Z",
+      "competitionId": "7",
       "competitionName": "UEFA Champions League, Qualification",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
       "countryName": "Europe",
       "homeTeamId": "116223",
       "homeTeamName": "U. Craiova",
@@ -466,15 +508,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/universitatea-craiova-levski-sofia/ypbsyzW#id:16350243",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16408308",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T17:30:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "2832",
       "homeTeamName": "Deportivo",
@@ -488,15 +532,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/cd-lugo-deportivo-de-la-coruna/HgbsHLj#id:16408308",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "15235414",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:00:00.000Z",
+      "competitionId": "325",
       "competitionName": "Brasileirão Betano",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/325/image",
       "countryName": "Brazil",
       "homeTeamId": "1977",
       "homeTeamName": "Atlético-MG",
@@ -510,15 +556,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/red-bull-bragantino-atletico-mineiro/COsZO#id:15235414",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "15235419",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:00:00.000Z",
+      "competitionId": "325",
       "competitionName": "Brasileirão Betano",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/325/image",
       "countryName": "Brazil",
       "homeTeamId": "1958",
       "homeTeamName": "Botafogo",
@@ -532,15 +580,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/gremio-botafogo/iOsBtc#id:15235419",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "15235440",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:00:00.000Z",
+      "competitionId": "325",
       "competitionName": "Brasileirão Betano",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/325/image",
       "countryName": "Brazil",
       "homeTeamId": "21845",
       "homeTeamName": "Chapecoense",
@@ -554,15 +604,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/chapecoense-vasco-da-gama/zOsVLi#id:15235440",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "15235423",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:00:00.000Z",
+      "competitionId": "325",
       "competitionName": "Brasileirão Betano",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/325/image",
       "countryName": "Brazil",
       "homeTeamId": "1981",
       "homeTeamName": "São Paulo",
@@ -576,15 +628,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/sao-paulo-santos/tOsGO#id:15235423",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16350240",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:00:00.000Z",
+      "competitionId": "7",
       "competitionName": "UEFA Champions League, Qualification",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
       "countryName": "Europe",
       "homeTeamId": "5149",
       "homeTeamName": "Crvena zvezda",
@@ -598,15 +652,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/larne-fc-fk-crvena-zvezda/ZccsJdc#id:16350240",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16350250",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:00:00.000Z",
+      "competitionId": "7",
       "competitionName": "UEFA Champions League, Qualification",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
       "countryName": "Europe",
       "homeTeamId": "3110",
       "homeTeamName": "Górnik",
@@ -620,15 +676,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/gornik-zabrze-fenerbahce/clbskmb#id:16350250",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16309158",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:00:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "124",
       "homeTeamName": "Boston",
@@ -642,15 +700,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/boston-united-grimsby-town/tszc#id:16309158",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16367365",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:00:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "88",
       "homeTeamName": "Farnborough",
@@ -664,15 +724,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/farnborough-portsmouth/csNb#id:16367365",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16288810",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:00:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "94",
       "homeTeamName": "Forest Green",
@@ -686,15 +748,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/forest-green-rovers-bristol-city/ibsUb#id:16288810",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16408278",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:00:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "2816",
       "homeTeamName": "Real Betis",
@@ -708,15 +772,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/real-betis-olympique-lyonnais/ZHsqgb#id:16408278",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16350248",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:15:00.000Z",
+      "competitionId": "7",
       "competitionName": "UEFA Champions League, Qualification",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
       "countryName": "Europe",
       "homeTeamId": "2404",
       "homeTeamName": "Slovan",
@@ -730,15 +796,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fc-iberia-1999-sk-slovan-bratislava/eYsmBW#id:16350248",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16462285",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:30:00.000Z",
+      "competitionId": "17015",
       "competitionName": "UEFA Conference League, Qualification",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
       "countryName": "Europe",
       "homeTeamId": "2055",
       "homeTeamName": "Rapid",
@@ -752,15 +820,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fc-santa-coloma-sk-rapid-wien/fQsled#id:16462285",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16446842",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:30:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "22",
       "homeTeamName": "Bradford",
@@ -774,15 +844,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/bradford-city-preston-north-end/wsx#id:16446842",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16450607",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:30:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "58",
       "homeTeamName": "Bristol City",
@@ -796,15 +868,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/bristol-city-newcastle-united/Osib#id:16450607",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16446998",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:30:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "84",
       "homeTeamName": "Doncaster",
@@ -818,15 +892,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/doncaster-rovers-wolverhampton/dsJb#id:16446998",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16375808",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:30:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "47242",
       "homeTeamName": "Three Bridges",
@@ -840,15 +916,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/steyning-town-community-fc-three-bridges-fc/RUtsHhVc#id:16375808",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16408668",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:30:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "24",
       "homeTeamName": "Watford",
@@ -862,15 +940,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fiorentina-watford/zsTdb#id:16408668",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16293526",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:45:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "6",
       "homeTeamName": "Burnley",
@@ -884,15 +964,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/espanyol-burnley/gsogb#id:16293526",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16357241",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T18:45:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "32",
       "homeTeamName": "Ipswich",
@@ -906,15 +988,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/osasuna-ipswich-town/Hsvgb#id:16357241",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16588781",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T19:00:00.000Z",
+      "competitionId": "11541",
       "competitionName": "Primera División, Clausura",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/11541/image",
       "countryName": "Paraguay",
       "homeTeamId": "5998",
       "homeTeamName": "Sportivo Luqueño",
@@ -928,15 +1012,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/sportivo-trinidense-sportivo-luqueno/YucsxUp#id:16588781",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "15389411",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T20:00:00.000Z",
+      "competitionId": "9558",
       "competitionName": "Women's Africa Cup of Nations",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/9558/image",
       "countryName": "Africa",
       "homeTeamId": "69218",
       "homeTeamName": "Cameroon",
@@ -950,15 +1036,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/mali-cameroon/tJCsUidb#id:15389411",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16408277",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T20:00:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "2704",
       "homeTeamName": "Como",
@@ -972,15 +1060,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/alula-sc-como/eebsIdXj#id:16408277",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16408276",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T20:00:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "2704",
       "homeTeamName": "Como",
@@ -994,15 +1084,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/cf-villarreal-como/eebsBAfc#id:16408276",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16588783",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T21:30:00.000Z",
+      "competitionId": "11541",
       "competitionName": "Primera División, Clausura",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/11541/image",
       "countryName": "Paraguay",
       "homeTeamId": "33001",
       "homeTeamName": "Nacional",
@@ -1016,15 +1108,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/nacional-asuncion-olimpia/Xucsbkn#id:16588783",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16251111",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T22:00:00.000Z",
+      "competitionId": "480",
       "competitionName": "CONMEBOL Sudamericana, Knockout stage",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/480/image",
       "countryName": "South America",
       "homeTeamId": "1974",
       "homeTeamName": "Vasco",
@@ -1038,15 +1132,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/independiente-medellin-vasco-da-gama/zOspxc#id:16251111",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "15235488",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T22:30:00.000Z",
+      "competitionId": "325",
       "competitionName": "Brasileirão Betano",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/325/image",
       "countryName": "Brazil",
       "homeTeamId": "1966",
       "homeTeamName": "Internacional",
@@ -1060,15 +1156,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/flamengo-internacional/qOsGuc#id:15235488",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "15235433",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T22:30:00.000Z",
+      "competitionId": "325",
       "competitionName": "Brasileirão Betano",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/325/image",
       "countryName": "Brazil",
       "homeTeamId": "21982",
       "homeTeamName": "Mirassol",
@@ -1082,15 +1180,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/mirassol-remo/mPsHOi#id:15235433",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "15285753",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T23:00:00.000Z",
+      "competitionId": "13363",
       "competitionName": "USL Championship",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/13363/image",
       "countryName": "USA",
       "homeTeamId": "23635",
       "homeTeamName": "Pittsburgh Riverhounds",
@@ -1104,15 +1204,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fc-tulsa-pittsburgh-riverhounds/KxjswQDb#id:15285753",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "15285520",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T23:00:00.000Z",
+      "competitionId": "13362",
       "competitionName": "USL, League One",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/13362/image",
       "countryName": "USA",
       "homeTeamId": "312633",
       "homeTeamName": "Greenville Triumph",
@@ -1126,15 +1228,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/ac-boise-greenville-triumph-sc/IcAcsJBnj#id:15285520",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "15285756",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T23:30:00.000Z",
+      "competitionId": "13363",
       "competitionName": "USL Championship",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/13363/image",
       "countryName": "USA",
       "homeTeamId": "197070",
       "homeTeamName": "Louisville City",
@@ -1148,15 +1252,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/birmingham-legion-fc-louisville-city-fc/vQDbsruzc#id:15285756",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "16282054",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": "2026-07-29T23:30:00.000Z",
+      "competitionId": "853",
       "competitionName": "Club Friendly Games",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/853/image",
       "countryName": "World",
       "homeTeamId": "44",
       "homeTeamName": "Liverpool",
@@ -1170,15 +1276,17 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/wrexham-liverpool-fc/Usob#id:16282054",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
       "source": "sofascore",
       "sourceEventId": "15389415",
       "matchDate": "2026-07-29",
       "kickoffAtUtc": null,
+      "competitionId": "9558",
       "competitionName": "Women's Africa Cup of Nations",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/9558/image",
       "countryName": "Africa",
       "homeTeamId": "316668",
       "homeTeamName": "Burkina Faso",
@@ -1192,8 +1300,8 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/burkina-faso-tanzania/FIqcstIBc#id:15389415",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastChangedAtUtc": "2026-07-23T10:04:42.639Z"
+      "lastSeenAtUtc": "2026-07-23T13:33:21.473Z",
+      "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     }
   ],
   "metadata": {
