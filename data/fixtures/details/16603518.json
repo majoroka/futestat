@@ -1,0 +1,132 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16603518",
+  "matchUrl": "https://www.sofascore.com/football/match/athlone-town-fc-czarni-sosnowiec/haRbsdmRc#id:16603518",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-24T08:55:34.991Z",
+  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-25T16:00:00.000Z",
+    "competitionId": "696",
+    "competitionName": "UEFA Champions League, Women, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/696/image",
+    "competitionStage": "Preliminary",
+    "countryName": "Europe",
+    "venueName": "ArcelorMittal Park",
+    "venueCity": "Sosnowiec",
+    "venueCountry": "Poland",
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [],
+    "note": "Sem agenda de TV disponível."
+  },
+  "odds": null,
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": null,
+    "h2h": []
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "13246458",
+        "matchUrl": "https://www.sofascore.com/football/match/shamrock-rovers-fc-athlone-town-fc/dmRcsKrLd#id:13246458",
+        "kickoffAtUtc": "2025-09-06T15:00:00.000Z",
+        "competitionName": "Women's Premier Division",
+        "countryName": "Ireland",
+        "roundName": null,
+        "homeTeamId": "355603",
+        "homeTeamName": "Athlone Town FC",
+        "awayTeamId": "465885",
+        "awayTeamName": "Shamrock Rovers FC",
+        "homeScore": 2,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14596808",
+        "matchUrl": "https://www.sofascore.com/football/match/athlone-town-fc-glasgow-city-lfc/vJosdmRc#id:14596808",
+        "kickoffAtUtc": "2025-09-10T18:35:00.000Z",
+        "competitionName": "UEFA Women's Europa Cup",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 1",
+        "homeTeamId": "36720",
+        "homeTeamName": "Glasgow City LFC",
+        "awayTeamId": "355603",
+        "awayTeamName": "Athlone Town FC",
+        "homeScore": 3,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14490374",
+        "matchUrl": "https://www.sofascore.com/football/match/shamrock-rovers-fc-athlone-town-fc/dmRcsKrLd#id:14490374",
+        "kickoffAtUtc": "2025-09-14T13:00:00.000Z",
+        "competitionName": "Women's FAI Cup",
+        "countryName": "Ireland",
+        "roundName": "Semifinals",
+        "homeTeamId": "465885",
+        "homeTeamName": "Shamrock Rovers FC",
+        "awayTeamId": "355603",
+        "awayTeamName": "Athlone Town FC",
+        "homeScore": 0,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "15239126",
+        "matchUrl": "https://www.sofascore.com/football/match/athlone-town-fc-peamount-united/AtwsdmRc#id:15239126",
+        "kickoffAtUtc": "2026-07-25T16:00:00.000Z",
+        "competitionName": "Women's Premier Division",
+        "countryName": "Ireland",
+        "roundName": null,
+        "homeTeamId": "53425",
+        "homeTeamName": "Peamount United",
+        "awayTeamId": "355603",
+        "awayTeamName": "Athlone Town FC",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16599266",
+        "matchUrl": "https://www.sofascore.com/football/match/shamrock-rovers-fc-athlone-town-fc/dmRcsKrLd#id:16599266",
+        "kickoffAtUtc": "2026-08-01T14:00:00.000Z",
+        "competitionName": "FAI Cup, Women",
+        "countryName": "Ireland",
+        "roundName": "Quarterfinals",
+        "homeTeamId": "355603",
+        "homeTeamName": "Athlone Town FC",
+        "awayTeamId": "465885",
+        "awayTeamName": "Shamrock Rovers FC",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16603327",
+  "matchUrl": "https://www.sofascore.com/football/match/pfc-ludogorets-kff-mitrovica/iYpcsxdAh#id:16603327",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-24T08:56:16.076Z",
+  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-25T18:00:00.000Z",
+    "competitionId": "696",
+    "competitionName": "UEFA Champions League, Women, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/696/image",
+    "competitionStage": "Preliminary",
+    "countryName": "Europe",
+    "venueName": "Stadiumi Fadil Vokrri",
+    "venueCity": "Prishtinë",
+    "venueCountry": "Kosovo",
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [],
+    "note": "Sem agenda de TV disponível."
+  },
+  "odds": null,
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": null,
+    "h2h": []
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "7845829",
+        "matchUrl": "https://www.sofascore.com/football/match/kff-mitrovica-sk-slavia-praha/GqpsiYpc#id:7845829",
+        "kickoffAtUtc": "2018-08-10T15:30:00.000Z",
+        "competitionName": "UEFA Women's Champions League, Group 4",
+        "countryName": "Europe",
+        "roundName": null,
+        "homeTeamId": "38331",
+        "homeTeamName": "SK Slavia Praha",
+        "awayTeamId": "289908",
+        "awayTeamName": "KFF Mitrovica",
+        "homeScore": 4,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "7845852",
+        "matchUrl": "https://www.sofascore.com/football/match/kff-mitrovica-atasehir-belediyesi/ErwsiYpc#id:7845852",
+        "kickoffAtUtc": "2018-08-13T15:00:00.000Z",
+        "competitionName": "UEFA Women's Champions League, Group 4",
+        "countryName": "Europe",
+        "roundName": null,
+        "homeTeamId": "289908",
+        "homeTeamName": "KFF Mitrovica",
+        "awayTeamId": "53379",
+        "awayTeamName": "Ataşehir Belediyesi",
+        "homeScore": 1,
+        "awayScore": 6,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "8319458",
+        "matchUrl": "https://www.sofascore.com/football/match/kff-mitrovica-fcu-olimpia-cluj/GrwsiYpc#id:8319458",
+        "kickoffAtUtc": "2019-08-07T15:30:00.000Z",
+        "competitionName": "UEFA Women's Champions League, Group 2",
+        "countryName": "Europe",
+        "roundName": null,
+        "homeTeamId": "53381",
+        "homeTeamName": "FCU Olimpia Cluj",
+        "awayTeamId": "289908",
+        "awayTeamName": "KFF Mitrovica",
+        "homeScore": 1,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ],
+    "homeNext": [],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

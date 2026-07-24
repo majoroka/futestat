@@ -1,0 +1,132 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16605104",
+  "matchUrl": "https://www.sofascore.com/football/match/riga-fc-wrexham/pcZdsDOxe#id:16605104",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-24T08:55:38.119Z",
+  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-25T17:00:00.000Z",
+    "competitionId": "696",
+    "competitionName": "UEFA Champions League, Women, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/696/image",
+    "competitionStage": "Placement match",
+    "countryName": "Europe",
+    "venueName": "Racecourse Ground",
+    "venueCity": "Wrexham",
+    "venueCountry": "Wales",
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [],
+    "note": "Sem agenda de TV disponível."
+  },
+  "odds": null,
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": null,
+    "h2h": []
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "14250560",
+        "matchUrl": "https://www.sofascore.com/football/match/riga-fc-rfs/PjpbsDOxe#id:14250560",
+        "kickoffAtUtc": "2025-09-06T11:00:00.000Z",
+        "competitionName": "Latvian Women's League",
+        "countryName": "Latvia",
+        "roundName": null,
+        "homeTeamId": "556978",
+        "homeTeamName": "Riga FC",
+        "awayTeamId": "162990",
+        "awayTeamName": "FK RFS",
+        "homeScore": 4,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14567724",
+        "matchUrl": "https://www.sofascore.com/football/match/riga-fc-fk-rfs/PjpbsDOxe#id:14567724",
+        "kickoffAtUtc": "2025-09-10T17:00:00.000Z",
+        "competitionName": "Latvian Women's Cup",
+        "countryName": "Latvia",
+        "roundName": "Semifinals",
+        "homeTeamId": "556978",
+        "homeTeamName": "Riga FC",
+        "awayTeamId": "162990",
+        "awayTeamName": "FK RFS",
+        "homeScore": 4,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14250579",
+        "matchUrl": "https://www.sofascore.com/football/match/riga-fc-fk-liepaja/TgccsDOxe#id:14250579",
+        "kickoffAtUtc": "2025-09-14T11:00:00.000Z",
+        "competitionName": "Latvian Women's League",
+        "countryName": "Latvia",
+        "roundName": null,
+        "homeTeamId": "556978",
+        "homeTeamName": "Riga FC",
+        "awayTeamId": "255343",
+        "awayTeamName": "FK Liepāja",
+        "homeScore": 5,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "15728633",
+        "matchUrl": "https://www.sofascore.com/football/match/rigas-fs-riga-fc/DOxesFOxe#id:15728633",
+        "kickoffAtUtc": "2026-08-01T10:00:00.000Z",
+        "competitionName": "Latvian Women's League",
+        "countryName": "Latvia",
+        "roundName": null,
+        "homeTeamId": "556980",
+        "homeTeamName": "Rigas FS",
+        "awayTeamId": "556978",
+        "awayTeamName": "Riga FC",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "15728637",
+        "matchUrl": "https://www.sofascore.com/football/match/iecavaolaine-riga-fc/DOxesDqHi#id:15728637",
+        "kickoffAtUtc": "2026-08-08T11:00:00.000Z",
+        "competitionName": "Latvian Women's League",
+        "countryName": "Latvia",
+        "roundName": null,
+        "homeTeamId": "556978",
+        "homeTeamName": "Riga FC",
+        "awayTeamId": "1080828",
+        "awayTeamName": "Iecava/Olaine",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

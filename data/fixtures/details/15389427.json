@@ -1,0 +1,132 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "15389427",
+  "matchUrl": "https://www.sofascore.com/football/match/cabo-verde-cameroon/tJCsHNrd#id:15389427",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-24T08:55:47.913Z",
+  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-25T17:00:00.000Z",
+    "competitionId": "9558",
+    "competitionName": "Africa Cup of Nations, Women, Group D",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/9558/image",
+    "competitionStage": "Africa Cup of Nations, Women 2026",
+    "countryName": "Africa",
+    "venueName": null,
+    "venueCity": null,
+    "venueCountry": null,
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [],
+    "note": "Sem agenda de TV disponível."
+  },
+  "odds": null,
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": null,
+    "h2h": []
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "10390207",
+        "matchUrl": "https://www.sofascore.com/football/match/cape-verde-luxembourg/XlpsHNrd#id:10390207",
+        "kickoffAtUtc": "2022-06-19T17:15:00.000Z",
+        "competitionName": "International Friendly Games, Women",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "38097",
+        "homeTeamName": "Luxembourg",
+        "awayTeamId": "419432",
+        "awayTeamName": "Cabo Verde",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "cancelled",
+        "resultLabel": "Canceled",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "11680207",
+        "matchUrl": "https://www.sofascore.com/football/match/cape-verde-liberia/RidbsHNrd#id:11680207",
+        "kickoffAtUtc": "2023-09-22T17:00:00.000Z",
+        "competitionName": "Africa Cup of Nations, Women, Qualification",
+        "countryName": "Africa",
+        "roundName": null,
+        "homeTeamId": "419432",
+        "homeTeamName": "Cabo Verde",
+        "awayTeamId": "132942",
+        "awayTeamName": "Liberia",
+        "homeScore": 3,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "11867667",
+        "matchUrl": "https://www.sofascore.com/football/match/cape-verde-nigeria/vYcsHNrd#id:11867667",
+        "kickoffAtUtc": "2023-11-30T15:00:00.000Z",
+        "competitionName": "Africa Cup of Nations, Women, Qualification",
+        "countryName": "Africa",
+        "roundName": null,
+        "homeTeamId": "7420",
+        "homeTeamName": "Nigeria",
+        "awayTeamId": "419432",
+        "awayTeamName": "Cabo Verde",
+        "homeScore": 5,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "15389419",
+        "matchUrl": "https://www.sofascore.com/football/match/cabo-verde-mali/UidbsHNrd#id:15389419",
+        "kickoffAtUtc": "2026-07-25T17:00:00.000Z",
+        "competitionName": "Africa Cup of Nations, Women, Group D",
+        "countryName": "Africa",
+        "roundName": null,
+        "homeTeamId": "132944",
+        "homeTeamName": "Mali",
+        "awayTeamId": "419432",
+        "awayTeamName": "Cabo Verde",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "15389410",
+        "matchUrl": "https://www.sofascore.com/football/match/cabo-verde-ghana/rYcsHNrd#id:15389410",
+        "kickoffAtUtc": "2026-07-29T17:00:00.000Z",
+        "competitionName": "Africa Cup of Nations, Women, Group D",
+        "countryName": "Africa",
+        "roundName": null,
+        "homeTeamId": "7417",
+        "homeTeamName": "Ghana",
+        "awayTeamId": "419432",
+        "awayTeamName": "Cabo Verde",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

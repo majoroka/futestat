@@ -1,0 +1,158 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "15552586",
+  "matchUrl": "https://www.sofascore.com/football/match/chongqing-tonglianglong-fc-wuhan-three-towns/cdtcsOZOd#id:15552586",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-24T08:55:13.171Z",
+  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-25T12:00:00.000Z",
+    "competitionId": "649",
+    "competitionName": "Chinese Super League",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/649/image",
+    "competitionStage": "Chinese Super League 2026",
+    "countryName": "China",
+    "venueName": "Wuhan Sports Center Stadium",
+    "venueCity": "Wuhan",
+    "venueCountry": "China",
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [],
+    "note": "Sem agenda de TV disponível."
+  },
+  "odds": {
+    "providerId": 1,
+    "marketName": "Full time",
+    "home": "2.15",
+    "draw": "3.40",
+    "away": "3.10",
+    "hasMoreOdds": true
+  },
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "15552485",
+        "matchUrl": "https://www.sofascore.com/football/match/chongqing-tonglianglong-fc-wuhan-three-towns/cdtcsOZOd#id:15552485",
+        "kickoffAtUtc": "2026-04-11T11:00:00.000Z",
+        "competitionName": "Chinese Super League",
+        "countryName": "China",
+        "roundName": null,
+        "homeTeamId": "474989",
+        "homeTeamName": "Chongqing Tonglianglong FC",
+        "awayTeamId": "295152",
+        "awayTeamName": "Wuhan Three Towns",
+        "homeScore": 2,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "13522605",
+        "matchUrl": "https://www.sofascore.com/football/match/wuhan-three-towns-beijing-guoan/Brbscdtc#id:13522605",
+        "kickoffAtUtc": "2025-08-25T12:00:00.000Z",
+        "competitionName": "Chinese Super League",
+        "countryName": "China",
+        "roundName": null,
+        "homeTeamId": "3376",
+        "homeTeamName": "Beijing Guoan",
+        "awayTeamId": "295152",
+        "awayTeamName": "Wuhan Three Towns",
+        "homeScore": 4,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "13522616",
+        "matchUrl": "https://www.sofascore.com/football/match/wuhan-three-towns-shanghai-shenhua/yrbscdtc#id:13522616",
+        "kickoffAtUtc": "2025-08-31T11:00:00.000Z",
+        "competitionName": "Chinese Super League",
+        "countryName": "China",
+        "roundName": null,
+        "homeTeamId": "295152",
+        "homeTeamName": "Wuhan Three Towns",
+        "awayTeamId": "3373",
+        "awayTeamName": "Shanghai Shenhua",
+        "homeScore": 1,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "13522626",
+        "matchUrl": "https://www.sofascore.com/football/match/wuhan-three-towns-tianjin-jinmen-tiger/rrbscdtc#id:13522626",
+        "kickoffAtUtc": "2025-09-14T11:35:00.000Z",
+        "competitionName": "Chinese Super League",
+        "countryName": "China",
+        "roundName": null,
+        "homeTeamId": "3367",
+        "homeTeamName": "Tianjin Jinmen Tiger",
+        "awayTeamId": "295152",
+        "awayTeamName": "Wuhan Three Towns",
+        "homeScore": 4,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "15552597",
+        "matchUrl": "https://www.sofascore.com/football/match/wuhan-three-towns-chengdu-rongcheng/QzNbscdtc#id:15552597",
+        "kickoffAtUtc": "2026-08-01T12:00:00.000Z",
+        "competitionName": "Chinese Super League",
+        "countryName": "China",
+        "roundName": null,
+        "homeTeamId": "221241",
+        "homeTeamName": "Chengdu Rongcheng",
+        "awayTeamId": "295152",
+        "awayTeamName": "Wuhan Three Towns",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "15552603",
+        "matchUrl": "https://www.sofascore.com/football/match/wuhan-three-towns-zhejiang/XTnscdtc#id:15552603",
+        "kickoffAtUtc": "2026-08-08T11:35:00.000Z",
+        "competitionName": "Chinese Super League",
+        "countryName": "China",
+        "roundName": null,
+        "homeTeamId": "34697",
+        "homeTeamName": "Zhejiang",
+        "awayTeamId": "295152",
+        "awayTeamName": "Wuhan Three Towns",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

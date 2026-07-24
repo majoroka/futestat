@@ -1,0 +1,151 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16605103",
+  "matchUrl": "https://www.sofascore.com/football/match/fc-pyunik-yerevan-glentoran-belfast-united/gJosApme#id:16605103",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-24T08:55:04.036Z",
+  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-25T11:00:00.000Z",
+    "competitionId": "696",
+    "competitionName": "UEFA Champions League, Women, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/696/image",
+    "competitionStage": "Placement match",
+    "countryName": "Europe",
+    "venueName": "Racecourse Ground",
+    "venueCity": "Wrexham",
+    "venueCountry": "Wales",
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [],
+    "note": "Sem agenda de TV disponível."
+  },
+  "odds": null,
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "12796635",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-pyunik-yerevan-glentoran-belfast-united/gJosApme#id:12796635",
+        "kickoffAtUtc": "2024-09-07T14:00:00.000Z",
+        "competitionName": "UEFA Champions League, Women, Qualification",
+        "countryName": "Europe",
+        "roundName": null,
+        "homeTeamId": "36706",
+        "homeTeamName": "Glentoran Belfast United",
+        "awayTeamId": "530775",
+        "awayTeamName": "FC Pyunik Yerevan",
+        "homeScore": 1,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "13986860",
+        "matchUrl": "https://www.sofascore.com/football/match/bohemian-fc-glentoran-belfast-united/gJostnRc#id:13986860",
+        "kickoffAtUtc": "2025-07-05T14:00:00.000Z",
+        "competitionName": "All-Island Cup, Final Stages",
+        "countryName": "Europe",
+        "roundName": "Quarterfinals",
+        "homeTeamId": "36706",
+        "homeTeamName": "Glentoran Belfast United",
+        "awayTeamId": "355668",
+        "awayTeamName": "Bohemian FC",
+        "homeScore": 1,
+        "awayScore": 3,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "14089028",
+        "matchUrl": "https://www.sofascore.com/football/match/cliftonville-lfc-glentoran-belfast-united/gJoscunc#id:14089028",
+        "kickoffAtUtc": "2025-07-08T18:45:00.000Z",
+        "competitionName": "Northern Ireland Women's Premiership",
+        "countryName": "Northern Ireland",
+        "roundName": null,
+        "homeTeamId": "283452",
+        "homeTeamName": "Cliftonville LFC",
+        "awayTeamId": "36706",
+        "awayTeamName": "Glentoran Belfast United",
+        "homeScore": 0,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "13780159",
+        "matchUrl": "https://www.sofascore.com/football/match/cliftonville-lfc-glentoran-belfast-united/gJoscunc#id:13780159",
+        "kickoffAtUtc": "2025-07-25T18:45:00.000Z",
+        "competitionName": "Northern Ireland Women's Premiership",
+        "countryName": "Northern Ireland",
+        "roundName": null,
+        "homeTeamId": "36706",
+        "homeTeamName": "Glentoran Belfast United",
+        "awayTeamId": "283452",
+        "awayTeamName": "Cliftonville LFC",
+        "homeScore": 0,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "15882856",
+        "matchUrl": "https://www.sofascore.com/football/match/linfield-ladies-glentoran-belfast-united/gJosUNbc#id:15882856",
+        "kickoffAtUtc": "2026-07-24T18:45:00.000Z",
+        "competitionName": "Northern Ireland Women's Premiership",
+        "countryName": "Northern Ireland",
+        "roundName": null,
+        "homeTeamId": "36706",
+        "homeTeamName": "Glentoran Belfast United",
+        "awayTeamId": "254444",
+        "awayTeamName": "Linfield Ladies",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "15882860",
+        "matchUrl": "https://www.sofascore.com/football/match/derry-city-women-glentoran-belfast-united/gJosZqcc#id:15882860",
+        "kickoffAtUtc": "2026-07-31T18:45:00.000Z",
+        "competitionName": "Northern Ireland Women's Premiership",
+        "countryName": "Northern Ireland",
+        "roundName": null,
+        "homeTeamId": "255849",
+        "homeTeamName": "Derry City Women",
+        "awayTeamId": "36706",
+        "awayTeamName": "Glentoran Belfast United",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

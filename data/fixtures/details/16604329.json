@@ -1,0 +1,95 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16604329",
+  "matchUrl": "https://www.sofascore.com/football/match/neftchi-baku-pfc-paok/MTosgiKg#id:16604329",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-24T08:55:31.791Z",
+  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-25T15:30:00.000Z",
+    "competitionId": "696",
+    "competitionName": "UEFA Champions League, Women, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/696/image",
+    "competitionStage": "Placement match",
+    "countryName": "Europe",
+    "venueName": "Veria Stadium",
+    "venueCity": "Veria",
+    "venueCountry": "Greece",
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [],
+    "note": "Sem agenda de TV disponível."
+  },
+  "odds": null,
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": null,
+    "h2h": []
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "14636143",
+        "matchUrl": "https://www.sofascore.com/football/match/nees-atromitou-paok/MTosHiWd#id:14636143",
+        "kickoffAtUtc": "2025-10-19T12:00:00.000Z",
+        "competitionName": "1. Division, Women",
+        "countryName": "Greece",
+        "roundName": null,
+        "homeTeamId": "37187",
+        "homeTeamName": "PAOK",
+        "awayTeamId": "490432",
+        "awayTeamName": "Nees Atromitou",
+        "homeScore": 12,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14636151",
+        "matchUrl": "https://www.sofascore.com/football/match/odysseas-glyfadas-paok/MToslohc#id:14636151",
+        "kickoffAtUtc": "2025-11-02T13:00:00.000Z",
+        "competitionName": "1. Division, Women",
+        "countryName": "Greece",
+        "roundName": null,
+        "homeTeamId": "268211",
+        "homeTeamName": "Odysseas Moschatou WFC",
+        "awayTeamId": "37187",
+        "awayTeamName": "PAOK",
+        "homeScore": 0,
+        "awayScore": 6,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "14636152",
+        "matchUrl": "https://www.sofascore.com/football/match/aek-athens-paok/MTosLiWd#id:14636152",
+        "kickoffAtUtc": "2025-11-08T11:45:00.000Z",
+        "competitionName": "1. Division, Women",
+        "countryName": "Greece",
+        "roundName": null,
+        "homeTeamId": "37187",
+        "homeTeamName": "PAOK",
+        "awayTeamId": "490436",
+        "awayTeamName": "AEK Athens",
+        "homeScore": 4,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

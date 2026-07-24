@@ -1,0 +1,132 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16362763",
+  "matchUrl": "https://www.sofascore.com/football/match/spartak-myjava-mgarr-united/lojcszZnc#id:16362763",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-24T08:55:41.415Z",
+  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-25T17:00:00.000Z",
+    "competitionId": "696",
+    "competitionName": "UEFA Champions League, Women, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/696/image",
+    "competitionStage": "Preliminary",
+    "countryName": "Europe",
+    "venueName": "Stadium Myjava",
+    "venueCity": "Myjava",
+    "venueCountry": "Slovakia",
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [],
+    "note": "Sem agenda de TV disponível."
+  },
+  "odds": null,
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": null,
+    "h2h": []
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "14582558",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-petrzalka-1898-spartak-myjava/zZncsYWQc#id:14582558",
+        "kickoffAtUtc": "2025-09-23T16:00:00.000Z",
+        "competitionName": "1. League, Women",
+        "countryName": "Slovakia",
+        "roundName": null,
+        "homeTeamId": "284974",
+        "homeTeamName": "Spartak Myjava",
+        "awayTeamId": "354848",
+        "awayTeamName": "FC Petržalka 1898",
+        "homeScore": 7,
+        "awayScore": 3,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14098120",
+        "matchUrl": "https://www.sofascore.com/football/match/spartak-trnava-spartak-myjava/zZncsAUtc#id:14098120",
+        "kickoffAtUtc": "2025-09-27T09:00:00.000Z",
+        "competitionName": "1. League, Women",
+        "countryName": "Slovakia",
+        "roundName": null,
+        "homeTeamId": "297225",
+        "homeTeamName": "Spartak Trnava",
+        "awayTeamId": "284974",
+        "awayTeamName": "Spartak Myjava",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "postponed",
+        "resultLabel": "Postponed",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "14098127",
+        "matchUrl": "https://www.sofascore.com/football/match/spartak-myjava-skf-zilina/DKmcszZnc#id:14098127",
+        "kickoffAtUtc": "2025-10-04T09:00:00.000Z",
+        "competitionName": "1. League, Women",
+        "countryName": "Slovakia",
+        "roundName": null,
+        "homeTeamId": "284974",
+        "homeTeamName": "Spartak Myjava",
+        "awayTeamId": "281778",
+        "awayTeamName": "SKF Žilina",
+        "homeScore": 6,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16420190",
+        "matchUrl": "https://www.sofascore.com/football/match/spartak-myjava-slc-banska-bystrica/YjmcszZnc#id:16420190",
+        "kickoffAtUtc": "2026-08-15T16:00:00.000Z",
+        "competitionName": "1. League, Women",
+        "countryName": "Slovakia",
+        "roundName": null,
+        "homeTeamId": "284974",
+        "homeTeamName": "Spartak Myjava",
+        "awayTeamId": "280498",
+        "awayTeamName": "SLC Banská Bystrica",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16420260",
+        "matchUrl": "https://www.sofascore.com/football/match/spartak-myjava-sk-slovan-bratislava/orrszZnc#id:16420260",
+        "kickoffAtUtc": "2026-08-22T16:00:00.000Z",
+        "competitionName": "1. League, Women",
+        "countryName": "Slovakia",
+        "roundName": null,
+        "homeTeamId": "284974",
+        "homeTeamName": "Spartak Myjava",
+        "awayTeamId": "43364",
+        "awayTeamName": "ŠK Slovan Bratislava",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

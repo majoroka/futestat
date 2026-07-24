@@ -1,0 +1,132 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16603337",
+  "matchUrl": "https://www.sofascore.com/football/match/fc-zimbru-chisinau-klaksvikar-itrottarfelag/nJosaPVj#id:16603337",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-24T08:55:16.305Z",
+  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-25T14:30:00.000Z",
+    "competitionId": "696",
+    "competitionName": "UEFA Champions League, Women, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/696/image",
+    "competitionStage": "Placement match",
+    "countryName": "Europe",
+    "venueName": "Kampi Nacional",
+    "venueCity": "Hajvalia",
+    "venueCountry": "Kosovo",
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [],
+    "note": "Sem agenda de TV disponível."
+  },
+  "odds": null,
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": null,
+    "h2h": []
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "13800243",
+        "matchUrl": "https://www.sofascore.com/football/match/hb-torshavn-klaksvikar-itrottarfelag/nJosAWOc#id:13800243",
+        "kickoffAtUtc": "2025-04-27T11:30:00.000Z",
+        "competitionName": "Faroe Islands Premier League Women, Regular Season",
+        "countryName": "Faroe Islands",
+        "roundName": null,
+        "homeTeamId": "349825",
+        "homeTeamName": "HB Tórshavn",
+        "awayTeamId": "36713",
+        "awayTeamName": "Klaksvíkar Ítrottarfelag",
+        "homeScore": 3,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "13869500",
+        "matchUrl": "https://www.sofascore.com/football/match/07-vestur-klaksvikar-itrottarfelag/nJosQgQd#id:13869500",
+        "kickoffAtUtc": "2025-05-13T18:30:00.000Z",
+        "competitionName": "Faroe Islands Premier League Women, Regular Season",
+        "countryName": "Faroe Islands",
+        "roundName": null,
+        "homeTeamId": "477841",
+        "homeTeamName": "07 Vestur",
+        "awayTeamId": "36713",
+        "awayTeamName": "Klaksvíkar Ítrottarfelag",
+        "homeScore": 0,
+        "awayScore": 3,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "13899587",
+        "matchUrl": "https://www.sofascore.com/football/match/b36-torshavn-klaksvikar-itrottarfelag/nJoszWOc#id:13899587",
+        "kickoffAtUtc": "2025-05-18T14:00:00.000Z",
+        "competitionName": "Faroe Islands Premier League Women, Regular Season",
+        "countryName": "Faroe Islands",
+        "roundName": null,
+        "homeTeamId": "36713",
+        "homeTeamName": "Klaksvíkar Ítrottarfelag",
+        "awayTeamId": "349824",
+        "awayTeamName": "B36 Torshavn",
+        "homeScore": 9,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16506532",
+        "matchUrl": "https://www.sofascore.com/football/match/nsi-runavik-klaksvikar-itrottarfelag/nJosgkRc#id:16506532",
+        "kickoffAtUtc": "2026-08-09T18:00:00.000Z",
+        "competitionName": "Faroe Islands Premier League Women, Championship Round",
+        "countryName": "Faroe Islands",
+        "roundName": null,
+        "homeTeamId": "36713",
+        "homeTeamName": "Klaksvíkar Ítrottarfelag",
+        "awayTeamId": "355506",
+        "awayTeamName": "NSI Runavik",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16506565",
+        "matchUrl": "https://www.sofascore.com/football/match/vikingur-gota-klaksvikar-itrottarfelag/nJosJwid#id:16506565",
+        "kickoffAtUtc": "2026-08-16T18:00:00.000Z",
+        "competitionName": "Faroe Islands Premier League Women, Championship Round",
+        "countryName": "Faroe Islands",
+        "roundName": null,
+        "homeTeamId": "396084",
+        "homeTeamName": "Víkingur Gøta",
+        "awayTeamId": "36713",
+        "awayTeamName": "Klaksvíkar Ítrottarfelag",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

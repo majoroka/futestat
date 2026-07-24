@@ -1,0 +1,95 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16603487",
+  "matchUrl": "https://www.sofascore.com/football/match/wfc-lusso-nike-zfk-skopje-2014/eyFbsPjrc#id:16603487",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-24T08:54:57.967Z",
+  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-25T09:00:00.000Z",
+    "competitionId": "696",
+    "competitionName": "UEFA Champions League, Women, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/696/image",
+    "competitionStage": "Placement match",
+    "countryName": "Europe",
+    "venueName": "ArcelorMittal Park",
+    "venueCity": "Sosnowiec",
+    "venueCountry": "Poland",
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [],
+    "note": "Sem agenda de TV disponível."
+  },
+  "odds": null,
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": null,
+    "h2h": []
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "9019008",
+        "matchUrl": "https://www.sofascore.com/football/match/wfc-nike-wfc-lanchkhuti/cIqcsPjrc#id:9019008",
+        "kickoffAtUtc": "2020-09-26T11:00:00.000Z",
+        "competitionName": "Womens League",
+        "countryName": "Georgia",
+        "roundName": null,
+        "homeTeamId": "292990",
+        "homeTeamName": "WFC Lusso Nike",
+        "awayTeamId": "291652",
+        "awayTeamName": "WFC Lanchkhuti",
+        "homeScore": 1,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "9038416",
+        "matchUrl": "https://www.sofascore.com/football/match/wfc-nike-norchi-dinamo/rJosPjrc#id:9038416",
+        "kickoffAtUtc": "2020-10-03T11:00:00.000Z",
+        "competitionName": "Womens League",
+        "countryName": "Georgia",
+        "roundName": null,
+        "homeTeamId": "36717",
+        "homeTeamName": "Norchi Dinamo",
+        "awayTeamId": "292990",
+        "awayTeamName": "WFC Lusso Nike",
+        "homeScore": 1,
+        "awayScore": 5,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "9045188",
+        "matchUrl": "https://www.sofascore.com/football/match/wfc-tusheti-wfc-nike/PjrcsagVc#id:9045188",
+        "kickoffAtUtc": "2020-10-07T16:00:00.000Z",
+        "competitionName": "Womens League",
+        "countryName": "Georgia",
+        "roundName": null,
+        "homeTeamId": "292990",
+        "homeTeamName": "WFC Lusso Nike",
+        "awayTeamId": "362800",
+        "awayTeamName": "WFC Tusheti",
+        "homeScore": 16,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

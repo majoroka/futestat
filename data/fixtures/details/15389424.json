@@ -1,0 +1,132 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "15389424",
+  "matchUrl": "https://www.sofascore.com/football/match/egypt-nigeria/vYcsFidb#id:15389424",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-24T08:55:51.115Z",
+  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-25T17:00:00.000Z",
+    "competitionId": "9558",
+    "competitionName": "Women's Africa Cup of Nations, Group C",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/9558/image",
+    "competitionStage": "Africa Cup of Nations, Women 2026",
+    "countryName": "Africa",
+    "venueName": null,
+    "venueCity": null,
+    "venueCountry": null,
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [],
+    "note": "Sem agenda de TV disponível."
+  },
+  "odds": null,
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": null,
+    "h2h": []
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "7049314",
+        "matchUrl": "https://www.sofascore.com/football/match/cote-divoire-egypt/FidbsDBzb#id:7049314",
+        "kickoffAtUtc": "2016-04-11T15:30:00.000Z",
+        "competitionName": "Africa Cup of Nations, Womens, Qualification",
+        "countryName": "Africa",
+        "roundName": null,
+        "homeTeamId": "186328",
+        "homeTeamName": "Côte d'Ivoire",
+        "awayTeamId": "132930",
+        "awayTeamName": "Egypt",
+        "homeScore": 2,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "7279317",
+        "matchUrl": "https://www.sofascore.com/football/match/egypt-cameroon/tJCsFidb#id:7279317",
+        "kickoffAtUtc": "2016-11-19T14:30:00.000Z",
+        "competitionName": "Women's Africa Cup of Nations, Group A",
+        "countryName": "Africa",
+        "roundName": null,
+        "homeTeamId": "69218",
+        "homeTeamName": "Cameroon",
+        "awayTeamId": "132930",
+        "awayTeamName": "Egypt",
+        "homeScore": 2,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "7279320",
+        "matchUrl": "https://www.sofascore.com/football/match/zimbabwe-egypt/FidbsciMb#id:7279320",
+        "kickoffAtUtc": "2016-11-22T18:00:00.000Z",
+        "competitionName": "Women's Africa Cup of Nations, Group A",
+        "countryName": "Africa",
+        "roundName": null,
+        "homeTeamId": "217902",
+        "homeTeamName": "Zimbabwe",
+        "awayTeamId": "132930",
+        "awayTeamName": "Egypt",
+        "homeScore": 0,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "15389409",
+        "matchUrl": "https://www.sofascore.com/football/match/zambia-egypt/Fidbsbxpc#id:15389409",
+        "kickoffAtUtc": "2026-07-28T17:00:00.000Z",
+        "competitionName": "Women's Africa Cup of Nations, Group C",
+        "countryName": "Africa",
+        "roundName": null,
+        "homeTeamId": "288601",
+        "homeTeamName": "Zambia",
+        "awayTeamId": "132930",
+        "awayTeamName": "Egypt",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "15389417",
+        "matchUrl": "https://www.sofascore.com/football/match/malawi-egypt/FidbsYuuc#id:15389417",
+        "kickoffAtUtc": "2026-08-01T17:00:00.000Z",
+        "competitionName": "Women's Africa Cup of Nations, Group C",
+        "countryName": "Africa",
+        "roundName": null,
+        "homeTeamId": "132930",
+        "homeTeamName": "Egypt",
+        "awayTeamId": "298498",
+        "awayTeamName": "Malawi",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

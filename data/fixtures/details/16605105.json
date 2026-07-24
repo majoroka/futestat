@@ -1,0 +1,95 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16605105",
+  "matchUrl": "https://www.sofascore.com/football/match/hapoel-jerusalem-zfk-buducnost-podgorica/HJOcsviZc#id:16605105",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-24T08:54:54.932Z",
+  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-25T08:00:00.000Z",
+    "competitionId": "696",
+    "competitionName": "UEFA Champions League, Women, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/696/image",
+    "competitionStage": "Placement match",
+    "countryName": "Europe",
+    "venueName": "Veria Stadium",
+    "venueCity": "Veria",
+    "venueCountry": "Greece",
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [],
+    "note": "Sem agenda de TV disponível."
+  },
+  "odds": null,
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": null,
+    "h2h": []
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "13807140",
+        "matchUrl": "https://www.sofascore.com/football/match/zfk-buducnost-podgorica-zfk-ekonomist/uAEsHJOc#id:13807140",
+        "kickoffAtUtc": "2025-04-23T15:00:00.000Z",
+        "competitionName": "1. ŽFL",
+        "countryName": "Montenegro",
+        "roundName": null,
+        "homeTeamId": "349232",
+        "homeTeamName": "ŽFK Budućnost Podgorica",
+        "awayTeamId": "73769",
+        "awayTeamName": "ŽFK Ekonomist",
+        "homeScore": 2,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14346201",
+        "matchUrl": "https://www.sofascore.com/football/match/zfk-zora-spuz-zfk-buducnost-podgorica/HJOcsBIZd#id:14346201",
+        "kickoffAtUtc": "2025-04-26T09:00:00.000Z",
+        "competitionName": "1. ŽFL",
+        "countryName": "Montenegro",
+        "roundName": null,
+        "homeTeamId": "499176",
+        "homeTeamName": "ŽFK Zora Spuz",
+        "awayTeamId": "349232",
+        "awayTeamName": "ŽFK Budućnost Podgorica",
+        "homeScore": 0,
+        "awayScore": 19,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "13842752",
+        "matchUrl": "https://www.sofascore.com/football/match/zfk-gorica-zfk-buducnost-podgorica/HJOcsrOAh#id:13842752",
+        "kickoffAtUtc": "2025-05-02T09:00:00.000Z",
+        "competitionName": "1. ŽFL",
+        "countryName": "Montenegro",
+        "roundName": null,
+        "homeTeamId": "349232",
+        "homeTeamName": "ŽFK Budućnost Podgorica",
+        "awayTeamId": "939467",
+        "awayTeamName": "ŽFK Gorica",
+        "homeScore": 11,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [],
+    "awayLast": [],
+    "awayNext": []
+  }
+}
