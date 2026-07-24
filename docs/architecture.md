@@ -30,7 +30,7 @@ Define o contrato dos dados:
 ### `application`
 
 Coordena o fluxo:
-1. calcular a janela `D-7 ... D+7`
+1. calcular a janela `D-1 ... D+1`
 2. executar scraping por data
 3. reconciliar com a store canónica
 4. derivar o snapshot público

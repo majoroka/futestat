@@ -8,7 +8,7 @@ import {
   todayIsoDateInTimeZone,
 } from "../src/lib/date.js";
 
-test("buildSlidingWindowDates creates a D-7 to D+7 window", () => {
+test("buildSlidingWindowDates creates the expected inclusive window", () => {
   assert.deepEqual(buildSlidingWindowDates("2026-07-21", 2, 3), [
     "2026-07-19",
     "2026-07-20",

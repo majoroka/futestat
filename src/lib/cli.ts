@@ -113,8 +113,8 @@ Usage:
 
 Options:
   --reference-date=YYYY-MM-DD
-  --past-days=7
-  --future-days=7
+  --past-days=1
+  --future-days=1
   --output-dir=data/fixtures
   --headless=true
   --timeout-ms=60000

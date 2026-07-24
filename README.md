@@ -1,13 +1,13 @@
 # Futestat
 
-Scraper local de `fixtures` de futebol no Sofascore com janela deslizante `D-7 ... D+7`, store canónica por dia e snapshot público para o site estático.
+Scraper local de `fixtures` de futebol no Sofascore com janela deslizante `D-1 ... D+1`, store canónica por dia e snapshot público para o site estático.
 
 ## Objetivo desta fase
 
 Esta iteração faz:
-- jogos passados dos últimos `7` dias
+- jogos passados de ontem
 - jogos de hoje
-- jogos futuros dos próximos `7` dias
+- jogos futuros de amanhã
 - resultados finais para jogos terminados
 - exclusão de `live` do snapshot público
 - saída local em JSON
@@ -67,7 +67,7 @@ npm run scrape:fixtures
 Com argumentos:
 
 ```bash
-npm run scrape:fixtures -- --reference-date=2026-07-21 --past-days=7 --future-days=7
+npm run scrape:fixtures -- --reference-date=2026-07-24 --past-days=1 --future-days=1
 ```
 
 ## Variáveis de ambiente
@@ -178,7 +178,7 @@ Política operacional desta camada:
 
 ## Regras operacionais
 
-- janela padrão: `D-7 ... D+7`
+- janela padrão: `D-1 ... D+1`
 - `hoje` e datas futuras: `open`
 - `ontem`: `settling`
 - `D-2` e anteriores: `frozen`
@@ -209,7 +209,7 @@ Limites atuais:
 ## Site estático e GitHub Pages
 
 Este repositório inclui um site estático pequeno para publicar:
-- resultados passados e jogos futuros dentro da janela atual
+- resultados de ontem, jogos de hoje e jogos de amanhã
 - resumo do projeto
 - documentação HTML derivada dos ficheiros em `docs/`
 

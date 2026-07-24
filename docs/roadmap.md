@@ -3,7 +3,7 @@
 ## Fase 1
 
 Objetivo:
-- janela deslizante `D-7 ... D+7`
+- janela deslizante `D-1 ... D+1`
 - store canónica por dia
 - snapshot público sem `live`
 - site estático com resultados passados e jogos futuros
