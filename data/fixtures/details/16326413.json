@@ -3,8 +3,8 @@
   "sourceEventId": "16326413",
   "matchUrl": "https://www.sofascore.com/football/match/fk-radnik-surdulica-ofk-beograd/ddcsCxU#id:16326413",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:56:13.023Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:58:15.982Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T18:00:00.000Z",
@@ -194,7 +194,7 @@
       {
         "sourceEventId": "16326416",
         "matchUrl": "https://www.sofascore.com/football/match/fk-novi-pazar-ofk-beograd/ddcsLok#id:16326416",
-        "kickoffAtUtc": "2026-08-01T15:00:00.000Z",
+        "kickoffAtUtc": "2026-08-01T18:00:00.000Z",
         "competitionName": "Mozzart Bet Superliga",
         "countryName": "Serbia",
         "roundName": null,

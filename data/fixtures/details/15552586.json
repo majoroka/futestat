@@ -3,8 +3,8 @@
   "sourceEventId": "15552586",
   "matchUrl": "https://www.sofascore.com/football/match/chongqing-tonglianglong-fc-wuhan-three-towns/cdtcsOZOd#id:15552586",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:55:13.171Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:57:12.532Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T12:00:00.000Z",
@@ -21,14 +21,16 @@
   },
   "watch": {
     "hasPortugalChannels": false,
-    "availableCountryCodes": [],
-    "note": "Sem agenda de TV disponível."
+    "availableCountryCodes": [
+      "BR"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
   },
   "odds": {
     "providerId": 1,
     "marketName": "Full time",
     "home": "2.15",
-    "draw": "3.40",
+    "draw": "3.50",
     "away": "3.10",
     "hasMoreOdds": true
   },

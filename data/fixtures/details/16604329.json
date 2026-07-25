@@ -3,8 +3,8 @@
   "sourceEventId": "16604329",
   "matchUrl": "https://www.sofascore.com/football/match/neftchi-baku-pfc-paok/MTosgiKg#id:16604329",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:55:31.791Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:57:36.700Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T15:30:00.000Z",
@@ -24,7 +24,14 @@
     "availableCountryCodes": [],
     "note": "Sem agenda de TV disponível."
   },
-  "odds": null,
+  "odds": {
+    "providerId": 1,
+    "marketName": "Full time",
+    "home": "1.20",
+    "draw": "5.75",
+    "away": "11.00",
+    "hasMoreOdds": false
+  },
   "tieContext": {
     "tieFormat": null,
     "previousLeg": null,

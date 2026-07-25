@@ -3,8 +3,8 @@
   "sourceEventId": "16384119",
   "matchUrl": "https://www.sofascore.com/football/match/fc-zlin-banik-ostrava/eUsvU#id:16384119",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:55:25.437Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:57:27.678Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T15:00:00.000Z",
@@ -22,6 +22,7 @@
   "watch": {
     "hasPortugalChannels": true,
     "availableCountryCodes": [
+      "BR",
       "FR",
       "PL",
       "PT"

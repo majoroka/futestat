@@ -3,11 +3,11 @@
   "sourceEventId": "16317933",
   "matchUrl": "https://www.sofascore.com/football/match/fc-juarez-cd-guadalajara/NNszHFb#id:16317933",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:56:31.916Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
-  "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
+  "scrapedAtUtc": "2026-07-25T10:58:37.787Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
+  "fixtureLastChangedAtUtc": "2026-07-25T10:56:55.184Z",
   "overview": {
-    "kickoffAtUtc": "2026-07-25T23:07:00.000Z",
+    "kickoffAtUtc": "2026-07-25T23:00:00.000Z",
     "competitionId": "11621",
     "competitionName": "Liga MX, Apertura",
     "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/11621/image",
@@ -30,9 +30,9 @@
   "odds": {
     "providerId": 1,
     "marketName": "Full time",
-    "home": "1.46",
-    "draw": "4.20",
-    "away": "6.50",
+    "home": "1.42",
+    "draw": "4.33",
+    "away": "7.00",
     "hasMoreOdds": true
   },
   "tieContext": {

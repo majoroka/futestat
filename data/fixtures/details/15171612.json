@@ -3,8 +3,8 @@
   "sourceEventId": "15171612",
   "matchUrl": "https://www.sofascore.com/football/match/nashville-sc-orlando-city-sc/MUvsmcKc#id:15171612",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:56:54.243Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:58:59.581Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T23:30:00.000Z",
@@ -22,6 +22,7 @@
   "watch": {
     "hasPortugalChannels": false,
     "availableCountryCodes": [
+      "BR",
       "DE"
     ],
     "note": "Sem canais para Portugal; existe cobertura noutros países."
@@ -29,9 +30,9 @@
   "odds": {
     "providerId": 1,
     "marketName": "Full time",
-    "home": "3.00",
-    "draw": "4.00",
-    "away": "2.10",
+    "home": "2.82",
+    "draw": "3.90",
+    "away": "2.15",
     "hasMoreOdds": true
   },
   "tieContext": {

@@ -3,8 +3,8 @@
   "sourceEventId": "16384053",
   "matchUrl": "https://www.sofascore.com/football/match/ac-sparta-praha-fc-zbrojovka-brno/kUstU#id:16384053",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:56:06.979Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:58:09.979Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T18:00:00.000Z",
@@ -22,6 +22,7 @@
   "watch": {
     "hasPortugalChannels": true,
     "availableCountryCodes": [
+      "BR",
       "FR",
       "PL",
       "PT"
@@ -31,9 +32,9 @@
   "odds": {
     "providerId": 801,
     "marketName": "Full time",
-    "home": "4.53",
-    "draw": "3.68",
-    "away": "1.55",
+    "home": "4.35",
+    "draw": "3.69",
+    "away": "1.57",
     "hasMoreOdds": false
   },
   "tieContext": {

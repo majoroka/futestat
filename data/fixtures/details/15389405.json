@@ -1,0 +1,178 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "15389405",
+  "matchUrl": "https://www.sofascore.com/football/match/senegal-algeria/eaxbsVNBc#id:15389405",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-25T11:00:07.500Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:57.387Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:15.292Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-26T17:00:00.000Z",
+    "competitionId": "9558",
+    "competitionName": "Women's Africa Cup of Nations, Group A",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/9558/image",
+    "competitionStage": "Africa Cup of Nations, Women 2026",
+    "countryName": "Africa",
+    "venueName": null,
+    "venueCity": null,
+    "venueCountry": null,
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "DE"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 1,
+    "marketName": "Full time",
+    "home": "2.70",
+    "draw": "3.40",
+    "away": "2.25",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "14066331",
+        "matchUrl": "https://www.sofascore.com/football/match/senegal-algeria/eaxbsVNBc#id:14066331",
+        "kickoffAtUtc": "2025-07-01T19:00:00.000Z",
+        "competitionName": "International Friendly Games, Women",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "180004",
+        "homeTeamName": "Algeria",
+        "awayTeamId": "316945",
+        "awayTeamName": "Senegal",
+        "homeScore": 0,
+        "awayScore": 3,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "11448962",
+        "matchUrl": "https://www.sofascore.com/football/match/senegal-algeria/eaxbsVNBc#id:11448962",
+        "kickoffAtUtc": "2023-07-18T16:30:00.000Z",
+        "competitionName": "International Friendly Games, Women",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "316945",
+        "homeTeamName": "Senegal",
+        "awayTeamId": "180004",
+        "awayTeamName": "Algeria",
+        "homeScore": 4,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "8586114",
+        "matchUrl": "https://www.sofascore.com/football/match/tunisia-algeria/eaxbstALc#id:8586114",
+        "kickoffAtUtc": "2020-02-20T12:15:00.000Z",
+        "competitionName": "UNAF Women's Tournament",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "341268",
+        "homeTeamName": "Tunisia",
+        "awayTeamId": "180004",
+        "awayTeamName": "Algeria",
+        "homeScore": 1,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      },
+      {
+        "sourceEventId": "8587632",
+        "matchUrl": "https://www.sofascore.com/football/match/morocco-algeria/eaxbsiNec#id:8587632",
+        "kickoffAtUtc": "2020-02-22T10:00:00.000Z",
+        "competitionName": "UNAF Women's Tournament",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "180004",
+        "homeTeamName": "Algeria",
+        "awayTeamId": "261908",
+        "awayTeamName": "Morocco",
+        "homeScore": 0,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "9976143",
+        "matchUrl": "https://www.sofascore.com/football/match/tunisia-algeria/eaxbstALc#id:9976143",
+        "kickoffAtUtc": "2021-11-25T14:00:00.000Z",
+        "competitionName": "International Friendly Games, Women",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "341268",
+        "homeTeamName": "Tunisia",
+        "awayTeamId": "180004",
+        "awayTeamName": "Algeria",
+        "homeScore": 0,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "15389412",
+        "matchUrl": "https://www.sofascore.com/football/match/morocco-algeria/eaxbsiNec#id:15389412",
+        "kickoffAtUtc": "2026-07-30T20:00:00.000Z",
+        "competitionName": "Women's Africa Cup of Nations, Group A",
+        "countryName": "Africa",
+        "roundName": null,
+        "homeTeamId": "261908",
+        "homeTeamName": "Morocco",
+        "awayTeamId": "180004",
+        "awayTeamName": "Algeria",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "15389421",
+        "matchUrl": "https://www.sofascore.com/football/match/kenya-algeria/eaxbsUhVb#id:15389421",
+        "kickoffAtUtc": "2026-07-31T17:00:00.000Z",
+        "competitionName": "Women's Africa Cup of Nations, Group A",
+        "countryName": "Africa",
+        "roundName": null,
+        "homeTeamId": "237894",
+        "homeTeamName": "Kenya",
+        "awayTeamId": "180004",
+        "awayTeamName": "Algeria",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "postponed",
+        "resultLabel": "Postponed",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

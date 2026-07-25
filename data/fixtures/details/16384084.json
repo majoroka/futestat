@@ -3,29 +3,32 @@
   "sourceEventId": "16384084",
   "matchUrl": "https://www.sofascore.com/football/match/fc-viktoria-plzen-fc-slovan-liberec/uUscPb#id:16384084",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:55:22.407Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:57:24.648Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T15:00:00.000Z",
     "competitionId": "172",
     "competitionName": "Czech First League",
     "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/172/image",
-    "competitionStage": null,
-    "countryName": "Czechia",
-    "venueName": null,
-    "venueCity": null,
-    "venueCountry": null,
+    "competitionStage": "1. Liga 26/27",
+    "countryName": "Czech Republic",
+    "venueName": "Stadion Mesta Plzne",
+    "venueCity": "Plzen",
+    "venueCountry": "Czechia",
     "refereeName": null,
     "refereeCountry": null
   },
   "watch": {
     "hasPortugalChannels": true,
     "availableCountryCodes": [
+      "BR",
+      "CZ",
       "DE",
       "FR",
       "PL",
-      "PT"
+      "PT",
+      "SK"
     ],
     "note": "Canais disponíveis para Portugal."
   },

@@ -3,8 +3,8 @@
   "sourceEventId": "16326396",
   "matchUrl": "https://www.sofascore.com/football/match/fk-radnicki-nis-fk-cukaricki/YccsMok#id:16326396",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:55:28.624Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:57:33.732Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T15:30:00.000Z",
@@ -23,17 +23,18 @@
     "hasPortugalChannels": false,
     "availableCountryCodes": [
       "BA",
+      "BR",
       "MK",
       "RS"
     ],
     "note": "Sem canais para Portugal; existe cobertura noutros países."
   },
   "odds": {
-    "providerId": 1,
+    "providerId": 801,
     "marketName": "Full time",
-    "home": "2.63",
-    "draw": "3.40",
-    "away": "2.40",
+    "home": "1.93",
+    "draw": "2.88",
+    "away": "2.79",
     "hasMoreOdds": false
   },
   "tieContext": {

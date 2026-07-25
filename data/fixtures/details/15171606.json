@@ -3,8 +3,8 @@
   "sourceEventId": "15171606",
   "matchUrl": "https://www.sofascore.com/football/match/fc-cincinnati-columbus-crew/eabsrdLb#id:15171606",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:56:35.200Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:58:40.895Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T23:15:00.000Z",
@@ -129,9 +129,9 @@
   "odds": {
     "providerId": 1,
     "marketName": "Full time",
-    "home": "1.71",
-    "draw": "4.20",
-    "away": "4.00",
+    "home": "1.91",
+    "draw": "4.00",
+    "away": "3.40",
     "hasMoreOdds": true
   },
   "tieContext": {

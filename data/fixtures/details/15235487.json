@@ -3,8 +3,8 @@
   "sourceEventId": "15235487",
   "matchUrl": "https://www.sofascore.com/football/match/mirassol-vasco-da-gama/zOsHOi#id:15235487",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:56:38.349Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:58:44.010Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T23:30:00.000Z",
@@ -29,9 +29,9 @@
   "odds": {
     "providerId": 1,
     "marketName": "Full time",
-    "home": "1.96",
+    "home": "2.01",
     "draw": "3.40",
-    "away": "3.90",
+    "away": "3.70",
     "hasMoreOdds": true
   },
   "tieContext": {

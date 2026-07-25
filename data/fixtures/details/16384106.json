@@ -3,8 +3,8 @@
   "sourceEventId": "16384106",
   "matchUrl": "https://www.sofascore.com/football/match/bohemians-praha-1905-fk-teplice/iUsowc#id:16384106",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:55:19.387Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:57:21.632Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T15:00:00.000Z",
@@ -22,6 +22,7 @@
   "watch": {
     "hasPortugalChannels": true,
     "availableCountryCodes": [
+      "BR",
       "FR",
       "PL",
       "PT"
@@ -31,9 +32,9 @@
   "odds": {
     "providerId": 1,
     "marketName": "Full time",
-    "home": "2.40",
-    "draw": "3.20",
-    "away": "2.75",
+    "home": "2.15",
+    "draw": "3.25",
+    "away": "3.10",
     "hasMoreOdds": true
   },
   "tieContext": {

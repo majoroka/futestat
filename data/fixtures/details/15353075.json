@@ -3,8 +3,8 @@
   "sourceEventId": "15353075",
   "matchUrl": "https://www.sofascore.com/football/match/cobresal-huachipato/onbsrnb#id:15353075",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:56:25.655Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:58:31.451Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T21:30:00.000Z",
@@ -22,6 +22,7 @@
   "watch": {
     "hasPortugalChannels": false,
     "availableCountryCodes": [
+      "BR",
       "CL"
     ],
     "note": "Sem canais para Portugal; existe cobertura noutros países."

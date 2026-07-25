@@ -3,8 +3,8 @@
   "sourceEventId": "15171611",
   "matchUrl": "https://www.sofascore.com/football/match/inter-miami-cf-cf-montreal/gPisccKc#id:15171611",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:56:44.733Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:58:50.246Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T23:30:00.000Z",
@@ -20,19 +20,26 @@
     "refereeCountry": null
   },
   "watch": {
-    "hasPortugalChannels": false,
+    "hasPortugalChannels": true,
     "availableCountryCodes": [
+      "AF",
+      "BR",
       "CA",
-      "DE"
+      "DE",
+      "EC",
+      "FR",
+      "IT",
+      "PT",
+      "SM"
     ],
-    "note": "Sem canais para Portugal; existe cobertura noutros países."
+    "note": "Canais disponíveis para Portugal."
   },
   "odds": {
     "providerId": 1,
     "marketName": "Full time",
-    "home": "3.00",
+    "home": "2.85",
     "draw": "4.10",
-    "away": "2.05",
+    "away": "2.10",
     "hasMoreOdds": true
   },
   "tieContext": {

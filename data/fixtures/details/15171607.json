@@ -3,8 +3,8 @@
   "sourceEventId": "15171607",
   "matchUrl": "https://www.sofascore.com/football/match/atlanta-united-new-england-revolution/labsloXb#id:15171607",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:56:47.936Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:58:53.342Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T23:30:00.000Z",
@@ -22,6 +22,7 @@
   "watch": {
     "hasPortugalChannels": false,
     "availableCountryCodes": [
+      "BR",
       "DE"
     ],
     "note": "Sem canais para Portugal; existe cobertura noutros países."
@@ -29,9 +30,9 @@
   "odds": {
     "providerId": 1,
     "marketName": "Full time",
-    "home": "2.05",
+    "home": "1.96",
     "draw": "3.50",
-    "away": "3.50",
+    "away": "3.70",
     "hasMoreOdds": true
   },
   "tieContext": {

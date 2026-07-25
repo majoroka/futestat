@@ -3,34 +3,36 @@
   "sourceEventId": "15552585",
   "matchUrl": "https://www.sofascore.com/football/match/qingdao-west-coast-liaoning-tieren-fc/PzNbsHPXc#id:15552585",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:55:10.167Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:57:09.436Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T11:35:00.000Z",
     "competitionId": "649",
     "competitionName": "Chinese Super League",
     "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/649/image",
-    "competitionStage": "Chinese Super League 2026",
+    "competitionStage": null,
     "countryName": "China",
-    "venueName": "Tiexi Stadium",
-    "venueCity": "Shenyang",
-    "venueCountry": "China",
+    "venueName": null,
+    "venueCity": null,
+    "venueCountry": null,
     "refereeName": null,
     "refereeCountry": null
   },
   "watch": {
     "hasPortugalChannels": false,
-    "availableCountryCodes": [],
-    "note": "Sem agenda de TV disponível."
+    "availableCountryCodes": [
+      "BR"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
   },
   "odds": {
-    "providerId": 1,
+    "providerId": 801,
     "marketName": "Full time",
-    "home": "1.96",
-    "draw": "3.60",
-    "away": "3.50",
-    "hasMoreOdds": true
+    "home": "1.57",
+    "draw": "3.45",
+    "away": "3.36",
+    "hasMoreOdds": false
   },
   "tieContext": {
     "tieFormat": null,

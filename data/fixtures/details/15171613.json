@@ -3,25 +3,26 @@
   "sourceEventId": "15171613",
   "matchUrl": "https://www.sofascore.com/football/match/philadelphia-union-seattle-sounders-fc/jPisIWp#id:15171613",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:56:57.308Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:59:02.677Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T23:30:00.000Z",
     "competitionId": "242",
     "competitionName": "MLS",
     "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/242/image",
-    "competitionStage": "MLS 2026",
+    "competitionStage": null,
     "countryName": "USA",
-    "venueName": "Subaru Park",
-    "venueCity": "Chester",
-    "venueCountry": "USA",
-    "refereeName": "Tim Ford",
-    "refereeCountry": "USA"
+    "venueName": null,
+    "venueCity": null,
+    "venueCountry": null,
+    "refereeName": null,
+    "refereeCountry": null
   },
   "watch": {
     "hasPortugalChannels": false,
     "availableCountryCodes": [
+      "BR",
       "DE"
     ],
     "note": "Sem canais para Portugal; existe cobertura noutros países."
@@ -29,9 +30,9 @@
   "odds": {
     "providerId": 1,
     "marketName": "Full time",
-    "home": "2.10",
-    "draw": "3.60",
-    "away": "3.20",
+    "home": "1.86",
+    "draw": "3.70",
+    "away": "3.80",
     "hasMoreOdds": true
   },
   "tieContext": {

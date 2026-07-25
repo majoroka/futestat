@@ -3,19 +3,19 @@
   "sourceEventId": "15552589",
   "matchUrl": "https://www.sofascore.com/football/match/shanghai-port-shanghai-shenhua/yrbsMFq#id:15552589",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:55:07.149Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:57:06.299Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T11:35:00.000Z",
     "competitionId": "649",
     "competitionName": "Chinese Super League",
     "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/649/image",
-    "competitionStage": "Chinese Super League 2026",
+    "competitionStage": null,
     "countryName": "China",
-    "venueName": "Pudong Football Stadium",
-    "venueCity": "Shanghai",
-    "venueCountry": "China",
+    "venueName": null,
+    "venueCity": null,
+    "venueCountry": null,
     "refereeName": null,
     "refereeCountry": null
   },
@@ -27,12 +27,12 @@
     "note": "Sem canais para Portugal; existe cobertura noutros países."
   },
   "odds": {
-    "providerId": 1,
+    "providerId": 801,
     "marketName": "Full time",
-    "home": "2.35",
-    "draw": "3.75",
-    "away": "2.55",
-    "hasMoreOdds": true
+    "home": "2.09",
+    "draw": "3.39",
+    "away": "2.23",
+    "hasMoreOdds": false
   },
   "tieContext": {
     "tieFormat": null,

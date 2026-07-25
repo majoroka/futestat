@@ -3,8 +3,8 @@
   "sourceEventId": "16603327",
   "matchUrl": "https://www.sofascore.com/football/match/pfc-ludogorets-kff-mitrovica/iYpcsxdAh#id:16603327",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:56:16.076Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:58:19.024Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T18:00:00.000Z",
@@ -24,7 +24,14 @@
     "availableCountryCodes": [],
     "note": "Sem agenda de TV disponível."
   },
-  "odds": null,
+  "odds": {
+    "providerId": 1,
+    "marketName": "Full time",
+    "home": "1.50",
+    "draw": "4.00",
+    "away": "5.00",
+    "hasMoreOdds": false
+  },
   "tieContext": {
     "tieFormat": null,
     "previousLeg": null,

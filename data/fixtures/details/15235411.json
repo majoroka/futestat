@@ -3,8 +3,8 @@
   "sourceEventId": "15235411",
   "matchUrl": "https://www.sofascore.com/football/match/chapecoense-santos/tOsVLi#id:15235411",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:56:22.472Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:58:28.374Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T21:30:00.000Z",
@@ -35,8 +35,8 @@
   "odds": {
     "providerId": 1,
     "marketName": "Full time",
-    "home": "1.39",
-    "draw": "4.33",
+    "home": "1.35",
+    "draw": "4.75",
     "away": "8.50",
     "hasMoreOdds": true
   },

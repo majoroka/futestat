@@ -3,8 +3,8 @@
   "sourceEventId": "15235404",
   "matchUrl": "https://www.sofascore.com/football/match/athletico-internacional/qOsrO#id:15235404",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-24T08:56:19.328Z",
-  "fixtureLastSeenAtUtc": "2026-07-24T08:54:09.799Z",
+  "scrapedAtUtc": "2026-07-25T10:58:25.238Z",
+  "fixtureLastSeenAtUtc": "2026-07-25T10:56:55.184Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:13.125Z",
   "overview": {
     "kickoffAtUtc": "2026-07-25T21:30:00.000Z",
@@ -43,7 +43,7 @@
     "providerId": 1,
     "marketName": "Full time",
     "home": "1.96",
-    "draw": "3.30",
+    "draw": "3.25",
     "away": "4.00",
     "hasMoreOdds": true
   },
