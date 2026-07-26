@@ -1,5 +1,6 @@
 import path from "node:path";
 
+import { buildAllowedCompetitionIdSet } from "./competition-whitelist.js";
 import { parseCliOptions } from "../lib/cli.js";
 import { assertIsoDate, todayIsoDateInTimeZone } from "../lib/date.js";
 
@@ -24,6 +25,7 @@ export interface AppConfig {
   matchDetailsMaxAgeHours: number;
   matchDetailsDelayMs: number;
   matchDetailsOutputDir: string;
+  allowedCompetitionIds: ReadonlySet<string>;
 }
 
 export function loadAppConfig(argv = process.argv.slice(2)): AppConfig {
@@ -169,6 +171,9 @@ export function loadAppConfig(argv = process.argv.slice(2)): AppConfig {
     matchDetailsOutputDir: path.resolve(
       process.env.FUTESTAT_MATCH_DETAILS_OUTPUT_DIR ??
         path.join(cli.outputDir ?? process.env.FUTESTAT_OUTPUT_DIR ?? "data/fixtures", "details"),
+    ),
+    allowedCompetitionIds: buildAllowedCompetitionIdSet(
+      process.env.FUTESTAT_ALLOWED_COMPETITION_IDS,
     ),
   };
 }

@@ -31,6 +31,7 @@ export async function runFixturesScrape(config: AppConfig): Promise<RunFixturesS
     referenceDate: config.referenceDate,
     dates,
     outputDir: config.outputDir,
+    allowedCompetitionCount: config.allowedCompetitionIds.size,
     maxAttemptsPerDate: config.maxAttemptsPerDate,
     retryDelayMs: config.retryDelayMs,
   });
@@ -43,6 +44,7 @@ export async function runFixturesScrape(config: AppConfig): Promise<RunFixturesS
     referenceDate: config.referenceDate,
     pastDays: config.pastDays,
     futureDays: config.futureDays,
+    allowedCompetitionIds: config.allowedCompetitionIds,
   });
 
   const metricsPath = path.join(
@@ -72,6 +74,7 @@ export async function runFixturesScrape(config: AppConfig): Promise<RunFixturesS
     failedDates: metrics.failedDates,
     totalFixtures: metrics.totalFixtures,
     durationMs: metrics.durationMs,
+    allowedCompetitionCount: config.allowedCompetitionIds.size,
     latestPath,
     metricsPath,
     matchDetailsRefreshed: matchDetails?.refreshed ?? 0,

@@ -8,6 +8,7 @@ Esta iteração faz:
 - jogos passados de ontem
 - jogos de hoje
 - jogos futuros de amanhã
+- filtro por whitelist de ligas suportadas
 - resultados finais para jogos terminados
 - exclusão de `live` do snapshot público
 - saída local em JSON
@@ -78,6 +79,7 @@ As mais importantes:
 - `FUTESTAT_REFERENCE_DATE`
 - `FUTESTAT_PAST_DAYS`
 - `FUTESTAT_FUTURE_DAYS`
+- `FUTESTAT_ALLOWED_COMPETITION_IDS`
 - `FUTESTAT_OUTPUT_DIR`
 - `FUTESTAT_MAX_ATTEMPTS_PER_DATE`
 - `FUTESTAT_RETRY_DELAY_MS`
@@ -114,8 +116,51 @@ Cada dia mantém:
 
 `data/fixtures/latest.json` é derivado da store canónica e contém:
 - a janela de datas incluídas
-- todos os `finished`, `postponed`, `cancelled` e `upcoming`
+- todos os `finished`, `postponed`, `cancelled` e `upcoming` dentro da whitelist de ligas
 - exclusão de `live`
+
+### Filtro de ligas
+
+Por omissão, o projeto publica apenas uma whitelist curada de ligas, identificadas por `uniqueTournament.id` do Sofascore.
+
+Nesta fase inclui:
+- `17` Premier League
+- `8` LaLiga
+- `23` Serie A
+- `35` Bundesliga
+- `34` Ligue 1
+- `238` Liga Portugal
+- `37` Eredivisie
+- `40` Pro League
+- `36` Premiership
+- `52` Super Lig
+- `45` Bundesliga Austria
+- `46` Super League Switzerland
+- `39` Superliga Denmark
+- `44` Eliteserien
+- `43` Allsvenskan
+- `67` Veikkausliiga
+- `47` Ekstraklasa
+- `49` Chance Liga
+- `152` SuperLiga Romania
+- `53` NB I
+- `170` HNL
+- `210` SuperLiga Serbia
+- `211` Nike Liga
+- `212` PrvaLiga
+- `247` Parva Liga
+- `185` Super League Greece
+- `218` Premier League Ukraine
+- `203` Premier League Russia
+- `59` Premier League Israel
+- `325` Brasileirao Serie A
+- `155` Liga Profesional
+
+Se for necessário alterar sem mexer em código, podes definir:
+
+```bash
+FUTESTAT_ALLOWED_COMPETITION_IDS=17,8,23,35
+```
 
 Exemplo resumido:
 

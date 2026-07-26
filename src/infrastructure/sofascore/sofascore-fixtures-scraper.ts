@@ -13,6 +13,7 @@ import type {
   ScrapedFixture,
   ScrapedFixtureDay,
 } from "../../domain/fixture.js";
+import { filterFixturesByCompetition } from "../../config/competition-whitelist.js";
 import { kickoffUtcFromDateAndTime } from "../../lib/date.js";
 import { logStructuredEvent } from "../../lib/structured-logger.js";
 import { absoluteMatchUrl, buildSofascoreDateUrl } from "./sofascore-helpers.js";
@@ -230,7 +231,10 @@ export class SofascoreFixturesScraper {
       }
     }
 
-    const fixtures: ScrapedFixture[] = rawFixtures
+    const fixtures: ScrapedFixture[] = filterFixturesByCompetition(
+      rawFixtures,
+      this.config.allowedCompetitionIds,
+    )
       .map((fixture) => ({
         source: "sofascore" as const,
         sourceEventId: fixture.eventId,

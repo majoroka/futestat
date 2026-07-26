@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
+import { filterFixturesByCompetition } from "../../config/competition-whitelist.js";
 import type {
   DayCollectionState,
   FixtureDay,
@@ -19,20 +20,26 @@ export class JsonFixtureStore {
     referenceDate: string;
     pastDays: number;
     futureDays: number;
+    allowedCompetitionIds: ReadonlySet<string>;
   }): Promise<{
     snapshot: PublicFixtureSnapshot;
     latestPath: string;
     runPath: string;
     dayPaths: string[];
   }> {
-    const { scrapedDays, referenceDate, pastDays, futureDays } = params;
+    const { scrapedDays, referenceDate, pastDays, futureDays, allowedCompetitionIds } = params;
     const mergedDays: FixtureDay[] = [];
     const dayPaths: string[] = [];
 
     for (const scrapedDay of scrapedDays) {
       const existing = await this.readDay(scrapedDay.date);
       const collectionState = resolveCollectionState(scrapedDay.date, referenceDate);
-      const mergedDay = mergeFixtureDay(existing, scrapedDay, collectionState);
+      const mergedDay = mergeFixtureDay(
+        existing,
+        scrapedDay,
+        collectionState,
+        allowedCompetitionIds,
+      );
       const dayPath = this.dayPath(scrapedDay.date);
 
       await mkdir(path.dirname(dayPath), { recursive: true });
@@ -51,6 +58,7 @@ export class JsonFixtureStore {
       referenceDate,
       pastDays,
       futureDays,
+      allowedCompetitionIds,
     });
 
     const latestPath = path.join(this.outputDir, "latest.json");
@@ -100,6 +108,7 @@ function mergeFixtureDay(
   existing: FixtureDay | null,
   scrapedDay: ScrapedFixtureDay,
   collectionState: DayCollectionState,
+  allowedCompetitionIds: ReadonlySet<string>,
 ): FixtureDay {
   const existingFixtures = new Map(
     (existing?.fixtures ?? []).map((fixture) => [fixture.sourceEventId, fixture]),
@@ -119,7 +128,9 @@ function mergeFixtureDay(
     mergedFixtures.push(fixture);
   }
 
-  mergedFixtures.sort(compareFixtures);
+  const filteredFixtures = filterFixturesByCompetition(mergedFixtures, allowedCompetitionIds).sort(
+    compareFixtures,
+  );
 
   const frozenAtUtc =
     collectionState === "frozen"
@@ -133,8 +144,8 @@ function mergeFixtureDay(
     firstScrapedAtUtc: existing?.firstScrapedAtUtc ?? scrapedDay.scrapedAtUtc,
     lastScrapedAtUtc: scrapedDay.scrapedAtUtc,
     frozenAtUtc,
-    fixtureCount: mergedFixtures.length,
-    fixtures: mergedFixtures,
+    fixtureCount: filteredFixtures.length,
+    fixtures: filteredFixtures,
     metadata: {
       browserTimezone: "UTC",
       scraperVersion: 2,
@@ -282,11 +293,12 @@ function buildPublicSnapshot(params: {
   referenceDate: string;
   pastDays: number;
   futureDays: number;
+  allowedCompetitionIds: ReadonlySet<string>;
 }): PublicFixtureSnapshot {
-  const fixtures = params.days
-    .flatMap((day) => day.fixtures)
-    .filter((fixture) => fixture.status !== "live")
-    .sort(compareFixtures);
+  const fixtures = filterFixturesByCompetition(
+    params.days.flatMap((day) => day.fixtures).filter((fixture) => fixture.status !== "live"),
+    params.allowedCompetitionIds,
+  ).sort(compareFixtures);
 
   return {
     source: "sofascore",

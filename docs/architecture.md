@@ -32,10 +32,11 @@ Define o contrato dos dados:
 Coordena o fluxo:
 1. calcular a janela `D-1 ... D+1`
 2. executar scraping por data
-3. reconciliar com a store canónica
-4. derivar o snapshot público
-5. refrescar detalhe adicional de um subconjunto conservador de jogos `upcoming`
-6. gravar métricas da run
+3. filtrar fixtures pela whitelist de `competitionId`
+4. reconciliar com a store canónica
+5. derivar o snapshot público
+6. refrescar detalhe adicional de um subconjunto conservador de jogos `upcoming`
+7. gravar métricas da run
 
 ### `infrastructure/sofascore`
 
@@ -71,6 +72,7 @@ Contêm:
 - parsing de CLI
 - resolução da data de referência em `Europe/Lisbon`
 - construção da janela deslizante
+- whitelist curada de competições suportadas
 - utilitários de datas
 - logging estruturado da execução
 

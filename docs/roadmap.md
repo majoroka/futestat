@@ -5,6 +5,7 @@
 Objetivo:
 - janela deslizante `D-1 ... D+1`
 - store canónica por dia
+- filtro por ligas suportadas
 - snapshot público sem `live`
 - site estático com resultados passados e jogos futuros
 
