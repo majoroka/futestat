@@ -3,8 +3,8 @@
   "sourceEventId": "16326408",
   "matchUrl": "https://www.sofascore.com/football/match/fk-novi-pazar-fk-mladost-lucani/wfdsLok#id:16326408",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-25T11:00:16.652Z",
-  "fixtureLastSeenAtUtc": "2026-07-25T10:56:57.387Z",
+  "scrapedAtUtc": "2026-07-26T11:26:55.505Z",
+  "fixtureLastSeenAtUtc": "2026-07-26T11:26:44.369Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:15.292Z",
   "overview": {
     "kickoffAtUtc": "2026-07-26T18:30:00.000Z",
@@ -21,15 +21,17 @@
   },
   "watch": {
     "hasPortugalChannels": false,
-    "availableCountryCodes": [],
-    "note": "Sem agenda de TV disponível."
+    "availableCountryCodes": [
+      "BR"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
   },
   "odds": {
-    "providerId": 1,
+    "providerId": 801,
     "marketName": "Full time",
-    "home": "2.70",
-    "draw": "3.25",
-    "away": "2.45",
+    "home": "2.24",
+    "draw": "2.87",
+    "away": "2.33",
     "hasMoreOdds": false
   },
   "tieContext": {
