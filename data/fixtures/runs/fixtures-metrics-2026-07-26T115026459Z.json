@@ -1,0 +1,97 @@
+{
+  "source": "sofascore",
+  "referenceDate": "2026-07-26",
+  "startedAtUtc": "2026-07-26T11:50:26.459Z",
+  "completedAtUtc": "2026-07-26T11:51:31.124Z",
+  "durationMs": 64665,
+  "totalDates": 3,
+  "maxAttemptsPerDate": 3,
+  "retryDelayMs": 1500,
+  "successfulDates": 3,
+  "emptyDates": 0,
+  "failedDates": 0,
+  "totalFixtures": 78,
+  "days": [
+    {
+      "date": "2026-07-25",
+      "status": "succeeded",
+      "startedAtUtc": "2026-07-26T11:50:26.572Z",
+      "completedAtUtc": "2026-07-26T11:50:31.615Z",
+      "durationMs": 5043,
+      "fixtureCount": 32,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-07-26T11:50:26.572Z",
+          "completedAtUtc": "2026-07-26T11:50:31.615Z",
+          "durationMs": 5043,
+          "outcome": "success",
+          "fixtureCount": 6,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "status": "succeeded",
+      "startedAtUtc": "2026-07-26T11:50:31.615Z",
+      "completedAtUtc": "2026-07-26T11:50:33.900Z",
+      "durationMs": 2285,
+      "fixtureCount": 38,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-07-26T11:50:31.615Z",
+          "completedAtUtc": "2026-07-26T11:50:33.900Z",
+          "durationMs": 2285,
+          "outcome": "success",
+          "fixtureCount": 11,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "status": "succeeded",
+      "startedAtUtc": "2026-07-26T11:50:33.900Z",
+      "completedAtUtc": "2026-07-26T11:50:35.936Z",
+      "durationMs": 2036,
+      "fixtureCount": 8,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-07-26T11:50:33.900Z",
+          "completedAtUtc": "2026-07-26T11:50:35.936Z",
+          "durationMs": 2036,
+          "outcome": "success",
+          "fixtureCount": 1,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    }
+  ]
+}

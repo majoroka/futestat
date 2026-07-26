@@ -1,0 +1,160 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "15271326",
+  "matchUrl": "https://www.sofascore.com/football/match/sandvikens-if-ljungskile-sk/zLsUL#id:15271326",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-26T11:56:06.565Z",
+  "fixtureLastSeenAtUtc": "2026-07-26T11:55:18.026Z",
+  "fixtureLastChangedAtUtc": "2026-07-26T11:50:57.135Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-26T13:00:00.000Z",
+    "competitionId": "46",
+    "competitionName": "Superettan",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/46/image",
+    "competitionStage": "Superettan 2026",
+    "countryName": "Sweden",
+    "venueName": "Skarsjövallen",
+    "venueCity": "Ljungskile",
+    "venueCountry": "Sweden",
+    "refereeName": "Rinon Hasani",
+    "refereeCountry": "Sweden"
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "BR"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 1,
+    "marketName": "Full time",
+    "home": "1.95",
+    "draw": "3.40",
+    "away": "3.25",
+    "hasMoreOdds": true
+  },
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "15272271",
+        "matchUrl": "https://www.sofascore.com/football/match/sandvikens-if-ljungskile-sk/zLsUL#id:15272271",
+        "kickoffAtUtc": "2026-05-09T15:00:00.000Z",
+        "competitionName": "Superettan",
+        "countryName": "Sweden",
+        "roundName": null,
+        "homeTeamId": "1844",
+        "homeTeamName": "Sandvikens IF",
+        "awayTeamId": "1824",
+        "awayTeamName": "Ljungskile SK",
+        "homeScore": 1,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "13342675",
+        "matchUrl": "https://www.sofascore.com/football/match/ljungskile-sk-husqvarna-ff/vLszL#id:13342675",
+        "kickoffAtUtc": "2025-10-04T11:00:00.000Z",
+        "competitionName": "Ettan, Sodra",
+        "countryName": "Sweden",
+        "roundName": null,
+        "homeTeamId": "1820",
+        "homeTeamName": "Husqvarna FF",
+        "awayTeamId": "1824",
+        "awayTeamName": "Ljungskile SK",
+        "homeScore": 2,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "13342686",
+        "matchUrl": "https://www.sofascore.com/football/match/eskilsminne-if-ljungskile-sk/zLsibA#id:13342686",
+        "kickoffAtUtc": "2025-10-11T11:00:00.000Z",
+        "competitionName": "Ettan, Sodra",
+        "countryName": "Sweden",
+        "roundName": null,
+        "homeTeamId": "1824",
+        "homeTeamName": "Ljungskile SK",
+        "awayTeamId": "62558",
+        "awayTeamName": "Eskilsminne IF",
+        "homeScore": 3,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "13342694",
+        "matchUrl": "https://www.sofascore.com/football/match/jonkopings-sodra-ljungskile-sk/zLsQL#id:13342694",
+        "kickoffAtUtc": "2025-10-19T14:00:00.000Z",
+        "competitionName": "Ettan, Sodra",
+        "countryName": "Sweden",
+        "roundName": null,
+        "homeTeamId": "1841",
+        "homeTeamName": "Jönköpings Södra",
+        "awayTeamId": "1824",
+        "awayTeamName": "Ljungskile SK",
+        "homeScore": 1,
+        "awayScore": 3,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "15271286",
+        "matchUrl": "https://www.sofascore.com/football/match/nordic-united-fc-ljungskile-sk/zLsYbbd#id:15271286",
+        "kickoffAtUtc": "2026-08-02T13:00:00.000Z",
+        "competitionName": "Superettan",
+        "countryName": "Sweden",
+        "roundName": null,
+        "homeTeamId": "377598",
+        "homeTeamName": "Nordic United FC",
+        "awayTeamId": "1824",
+        "awayTeamName": "Ljungskile SK",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "15271294",
+        "matchUrl": "https://www.sofascore.com/football/match/ik-oddevold-ljungskile-sk/zLskM#id:15271294",
+        "kickoffAtUtc": "2026-08-08T11:00:00.000Z",
+        "competitionName": "Superettan",
+        "countryName": "Sweden",
+        "roundName": null,
+        "homeTeamId": "1824",
+        "homeTeamName": "Ljungskile SK",
+        "awayTeamId": "1860",
+        "awayTeamName": "IK Oddevold",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}
