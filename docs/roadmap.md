@@ -41,6 +41,7 @@ Entregáveis já introduzidos:
 - logs estruturados da run e por tentativa
 - screenshots/HTML opcionais quando a página falha por bloqueio
 - ficheiro de métricas por run em `data/fixtures/runs/`
+- suplemento por páginas de competição para recuperar ligas ausentes na página global
 
 Pendências residuais:
 - enriquecer classificação de falhas raras além de `403`

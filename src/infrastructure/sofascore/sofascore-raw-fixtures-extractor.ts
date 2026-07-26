@@ -2,12 +2,17 @@ import type { Page } from "playwright";
 
 import type { RawSofascoreFixture } from "./sofascore-types.js";
 
+type ExtractionMode = "date" | "competition";
+
 export async function extractRawFixturesFromPage(
   page: Pick<Page, "evaluate">,
-  params: { baseUrl: string; date: string },
+  params: { baseUrl: string; date: string; mode?: ExtractionMode },
 ): Promise<RawSofascoreFixture[]> {
-  return page.evaluate<RawSofascoreFixture[], { baseUrl: string; date: string }>(
-    ({ baseUrl, date: matchDate }) => {
+  return page.evaluate<
+    RawSofascoreFixture[],
+    { baseUrl: string; date: string; mode: ExtractionMode }
+  >(
+    ({ baseUrl, date: implicitDate, mode }) => {
       const scheduleCards = Array.from(
         document.querySelectorAll<HTMLAnchorElement>('a[class*="event-hl-"]'),
       );
@@ -85,10 +90,18 @@ export async function extractRawFixturesFromPage(
           )
             .map((node) => node.textContent?.trim() ?? "")
             .filter(Boolean);
+          const explicitDateText = smallTexts.find((text) => /^\d{2}\/\d{2}\/\d{2}$/.test(text)) ?? null;
+          const explicitDateMatch = explicitDateText?.match(/^(\d{2})\/(\d{2})\/(\d{2})$/) ?? null;
+          const matchDate = explicitDateMatch
+            ? `20${explicitDateMatch[3]}-${explicitDateMatch[2]}-${explicitDateMatch[1]}`
+            : implicitDate;
+          const nonDateSmallTexts = smallTexts.filter((text) => text !== explicitDateText);
 
           const scoreTexts = Array.from(child.querySelectorAll<HTMLElement>("span.score"))
             .map((node) => node.textContent?.trim() ?? "")
             .filter(Boolean);
+          const statusMarker =
+            scoreTexts.find((text) => !/^\d+$/.test(text)) ?? nonDateSmallTexts[0] ?? "";
 
           const teams = Array.from(
             child.querySelectorAll<HTMLElement>('bdi[class*="textStyle_body.medium"]'),
@@ -104,8 +117,7 @@ export async function extractRawFixturesFromPage(
             continue;
           }
 
-          const marker = scoreTexts[0] ?? smallTexts.find((text) => text !== matchDate) ?? "";
-          const kickoffTime = smallTexts.find((text) => /^\d{2}:\d{2}$/.test(text)) ?? null;
+          const kickoffTime = nonDateSmallTexts.find((text) => /^\d{2}:\d{2}$/.test(text)) ?? null;
           const numericScores = scoreTexts
             .filter((text) => /^\d+$/.test(text))
             .map((text) => Number.parseInt(text, 10));
@@ -116,16 +128,16 @@ export async function extractRawFixturesFromPage(
                 ? [numericScores[0] ?? null, numericScores[1] ?? null]
                 : null;
           const status =
-            (marker === "-" && Boolean(kickoffTime)) || /^\d{2}:\d{2}$/.test(marker)
+            (statusMarker === "-" && Boolean(kickoffTime)) || /^\d{2}:\d{2}$/.test(statusMarker)
               ? "upcoming"
-              : /^(FT|AET|PEN|AWD|WO|AP|Ended)$/i.test(marker) ||
-                  /^(Full Time|After Extra Time|Penalties)$/i.test(marker)
+              : /^(FT|AET|PEN|AWD|WO|AP|Ended)$/i.test(statusMarker) ||
+                  /^(Full Time|After Extra Time|Penalties)$/i.test(statusMarker)
                 ? "finished"
-                : /^(Postponed|PPD)$/i.test(marker)
+                : /^(Postponed|PPD)$/i.test(statusMarker)
                   ? "postponed"
-                  : /^(Cancelled|Canceled|CANC|Abandoned|ABD)$/i.test(marker)
+                  : /^(Cancelled|Canceled|CANC|Abandoned|ABD)$/i.test(statusMarker)
                     ? "cancelled"
-                    : marker.includes("'") || /^(HT|1ST|2ND|ET|BT)$/i.test(marker)
+                    : statusMarker.includes("'") || /^(HT|1ST|2ND|ET|BT)$/i.test(statusMarker)
                       ? "live"
                       : "unknown";
 
@@ -148,7 +160,10 @@ export async function extractRawFixturesFromPage(
             awayTeamName: teams[1] ?? null,
             awayTeamLogoUrl: teamImages[1]?.src ?? null,
             status,
-            resultLabel: marker === "-" || /^\d{2}:\d{2}$/.test(marker) ? null : marker || null,
+            resultLabel:
+              statusMarker === "-" || /^\d{2}:\d{2}$/.test(statusMarker)
+                ? null
+                : statusMarker || null,
             homeScore: scorePair?.[0] ?? null,
             awayScore: scorePair?.[1] ?? null,
             href: new URL(href, baseUrl).toString(),
@@ -158,6 +173,6 @@ export async function extractRawFixturesFromPage(
 
       return fixtures;
     },
-    params,
+    { ...params, mode: params.mode ?? "date" },
   );
 }

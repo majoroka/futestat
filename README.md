@@ -22,14 +22,14 @@ Ficam explicitamente fora desta fase:
 ## Escolhas principais
 
 - Stack: `Node 22 + TypeScript + Playwright`
-- Fonte: página pública do Sofascore por data, via URL direta `https://www.sofascore.com/football/YYYY-MM-DD`
+- Fonte: página pública do Sofascore por data, com suplemento por página de competição whitelistada
 - Timezone do browser de scraping: `UTC`
 - Data de referência operacional: `Europe/Lisbon`
 - Persistência: store canónica em ficheiros JSON por dia
 
 ## Porque esta abordagem
 
-O Sofascore expõe páginas por data e isso é mais robusto do que depender do seletor com setas ou de uma API interna sujeita a `403`. O scraper atual renderiza a página da data e extrai os cartões principais dos jogos, classificando-os em:
+O Sofascore expõe páginas por data, mas algumas ligas ficam escondidas por virtualização ou acordeões fechados. O scraper atual usa a página da data como base e, quando a data de referência é o dia operacional atual, suplementa a janela com páginas de competição whitelistadas para recuperar jogos em falta. Os cartões são classificados em:
 - `upcoming`
 - `finished`
 - `postponed`
@@ -137,7 +137,7 @@ Nesta fase inclui:
 - `45` Bundesliga Austria
 - `46` Super League Switzerland
 - `39` Superliga Denmark
-- `44` Eliteserien
+- `20` Eliteserien
 - `43` Allsvenskan
 - `67` Veikkausliiga
 - `47` Ekstraklasa
@@ -234,6 +234,7 @@ O merge é sempre feito por `sourceEventId`. Um jogo conhecido não é removido 
 
 O draft já incorpora algumas decisões de robustez:
 - URL por data em vez de clicar no calendário
+- suplemento por competição whitelistada para contornar ligas escondidas na página global
 - store canónica por dia em vez de substituir o snapshot inteiro
 - reconciliação por `sourceEventId`
 - normalização de kickoff para `UTC` quando a hora está disponível

@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 
 import {
   absoluteMatchUrl,
+  buildSofascoreCompetitionUrl,
   buildTeamLogoUrl,
   buildSofascoreDateUrl,
   parseTeamIdFromImageUrl,
@@ -22,6 +23,13 @@ test("absoluteMatchUrl resolves relative match URLs", () => {
       "/football/match/fc-ararat-armenia-shamrock-rovers/CnbsEUec#id:16350227",
     ),
     "https://www.sofascore.com/football/match/fc-ararat-armenia-shamrock-rovers/CnbsEUec#id:16350227",
+  );
+});
+
+test("buildSofascoreCompetitionUrl creates stable competition URLs from ids", () => {
+  assert.equal(
+    buildSofascoreCompetitionUrl("https://www.sofascore.com", "39"),
+    "https://www.sofascore.com/football/tournament/competition/competition/39",
   );
 });
 

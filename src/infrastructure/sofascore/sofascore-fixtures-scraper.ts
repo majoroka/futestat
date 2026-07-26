@@ -14,9 +14,13 @@ import type {
   ScrapedFixtureDay,
 } from "../../domain/fixture.js";
 import { filterFixturesByCompetition } from "../../config/competition-whitelist.js";
-import { kickoffUtcFromDateAndTime } from "../../lib/date.js";
+import { kickoffUtcFromDateAndTime, todayIsoDateInTimeZone } from "../../lib/date.js";
 import { logStructuredEvent } from "../../lib/structured-logger.js";
-import { absoluteMatchUrl, buildSofascoreDateUrl } from "./sofascore-helpers.js";
+import {
+  absoluteMatchUrl,
+  buildSofascoreCompetitionUrl,
+  buildSofascoreDateUrl,
+} from "./sofascore-helpers.js";
 import { extractRawFixturesFromPage } from "./sofascore-raw-fixtures-extractor.js";
 import {
   classifyEmptyDiagnostic,
@@ -46,8 +50,20 @@ export class SofascoreFixturesScraper {
         results.push(await this.scrapeFixtureDayWithRetry(page, date, runStartedAtUtc));
       }
 
-      const days = results.map((result) => result.day);
+      let days = results.map((result) => result.day);
       const dayMetrics = results.map((result) => result.metrics);
+
+      if (this.shouldSupplementFromCompetitionPages(dates)) {
+        const supplement = await this.scrapeCompetitionWindow(page, dates);
+        days = mergeSupplementalDays(days, supplement.days);
+        applySupplementMetrics(dayMetrics, days);
+
+        logStructuredEvent(this.config.structuredLogs, "info", "competition_window_supplement_completed", {
+          competitionCount: supplement.competitionCount,
+          supplementedDates: supplement.days.filter((day) => day.fixtures.length > 0).map((day) => day.date),
+          supplementedFixtures: supplement.days.reduce((total, day) => total + day.fixtures.length, 0),
+        });
+      }
 
       if (days.length > 0 && days.every((day) => day.fixtures.length === 0)) {
         throw new Error(
@@ -77,6 +93,15 @@ export class SofascoreFixturesScraper {
       await context.close();
       await browser.close();
     }
+  }
+
+  private shouldSupplementFromCompetitionPages(dates: string[]): boolean {
+    if (this.config.allowedCompetitionIds.size === 0) {
+      return false;
+    }
+
+    const operationalToday = todayIsoDateInTimeZone(this.config.referenceTimeZone);
+    return this.config.referenceDate === operationalToday && dates.includes(operationalToday);
   }
 
   private async scrapeFixtureDayWithRetry(
@@ -286,6 +311,87 @@ export class SofascoreFixturesScraper {
     };
   }
 
+  private async scrapeCompetitionWindow(
+    page: Page,
+    dates: string[],
+  ): Promise<{ days: ScrapedFixtureDay[]; competitionCount: number }> {
+    const grouped = new Map<string, Map<string, ScrapedFixture>>();
+
+    for (const date of dates) {
+      grouped.set(date, new Map());
+    }
+
+    for (const competitionId of this.config.allowedCompetitionIds) {
+      try {
+        await page.goto(buildSofascoreCompetitionUrl(this.config.baseUrl, competitionId), {
+          waitUntil: "domcontentloaded",
+          timeout: this.config.timeoutMs,
+        });
+
+        await page.waitForLoadState("networkidle", { timeout: this.config.timeoutMs }).catch(() => {
+          // The competition page may keep background activity alive.
+        });
+
+        await this.acceptConsentIfPresent(page);
+        await page.waitForTimeout(400);
+
+        const fixtures = await extractRawFixturesFromPage(page, {
+          baseUrl: this.config.baseUrl,
+          date: this.config.referenceDate,
+          mode: "competition",
+        });
+
+        for (const fixture of fixtures) {
+          const bucket = grouped.get(fixture.matchDate);
+
+          if (!bucket) {
+            continue;
+          }
+
+          bucket.set(fixture.eventId, {
+            source: "sofascore",
+            sourceEventId: fixture.eventId,
+            matchDate: fixture.matchDate,
+            kickoffAtUtc: fixture.kickoffTime
+              ? kickoffUtcFromDateAndTime(fixture.matchDate, fixture.kickoffTime)
+              : null,
+            competitionId: fixture.competitionId,
+            competitionName: fixture.competitionName,
+            competitionLogoUrl: fixture.competitionLogoUrl,
+            countryName: fixture.countryName,
+            homeTeamId: fixture.homeTeamId,
+            homeTeamName: fixture.homeTeamName,
+            homeTeamLogoUrl: fixture.homeTeamLogoUrl,
+            awayTeamId: fixture.awayTeamId,
+            awayTeamName: fixture.awayTeamName,
+            awayTeamLogoUrl: fixture.awayTeamLogoUrl,
+            status: fixture.status,
+            resultLabel: fixture.resultLabel,
+            homeScore: fixture.homeScore,
+            awayScore: fixture.awayScore,
+            matchUrl: absoluteMatchUrl(this.config.baseUrl, fixture.href),
+            scrapedAtUtc: new Date().toISOString(),
+          });
+        }
+      } catch (error: unknown) {
+        logStructuredEvent(this.config.structuredLogs, "warn", "competition_window_supplement_failed", {
+          competitionId,
+          errorMessage: error instanceof Error ? error.message : String(error),
+        });
+      }
+    }
+
+    return {
+      competitionCount: this.config.allowedCompetitionIds.size,
+      days: dates.map((date) => ({
+        source: "sofascore",
+        date,
+        scrapedAtUtc: new Date().toISOString(),
+        fixtures: [...(grouped.get(date)?.values() ?? [])].sort(compareFixtures),
+      })),
+    };
+  }
+
   private async acceptConsentIfPresent(page: Page): Promise<void> {
     const labels = ["Accept", "Accept all", "Consent", "Consentir"];
 
@@ -380,4 +486,52 @@ function sleep(ms: number): Promise<void> {
   }
 
   return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function mergeSupplementalDays(
+  baseDays: ScrapedFixtureDay[],
+  supplementDays: ScrapedFixtureDay[],
+): ScrapedFixtureDay[] {
+  const supplementByDate = new Map(supplementDays.map((day) => [day.date, day]));
+
+  return baseDays.map((baseDay) => {
+    const supplementDay = supplementByDate.get(baseDay.date);
+
+    if (!supplementDay) {
+      return baseDay;
+    }
+
+    const merged = new Map(baseDay.fixtures.map((fixture) => [fixture.sourceEventId, fixture]));
+
+    for (const fixture of supplementDay.fixtures) {
+      merged.set(fixture.sourceEventId, fixture);
+    }
+
+    return {
+      ...baseDay,
+      scrapedAtUtc:
+        [baseDay.scrapedAtUtc, supplementDay.scrapedAtUtc].sort().at(-1) ?? baseDay.scrapedAtUtc,
+      fixtures: [...merged.values()].sort(compareFixtures),
+    };
+  });
+}
+
+function applySupplementMetrics(
+  metrics: FixtureScrapeDayMetrics[],
+  days: ScrapedFixtureDay[],
+): void {
+  const dayByDate = new Map(days.map((day) => [day.date, day]));
+
+  for (const metric of metrics) {
+    const day = dayByDate.get(metric.date);
+
+    if (!day) {
+      continue;
+    }
+
+    metric.fixtureCount = day.fixtures.length;
+    if (day.fixtures.length > 0) {
+      metric.status = "succeeded";
+    }
+  }
 }

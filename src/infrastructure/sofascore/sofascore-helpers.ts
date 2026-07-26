@@ -2,6 +2,10 @@ export function buildSofascoreDateUrl(baseUrl: string, date: string): string {
   return new URL(`/football/${date}`, baseUrl).toString();
 }
 
+export function buildSofascoreCompetitionUrl(baseUrl: string, competitionId: string): string {
+  return new URL(`/football/tournament/competition/competition/${competitionId}`, baseUrl).toString();
+}
+
 export function absoluteMatchUrl(baseUrl: string, href: string): string {
   return new URL(href, baseUrl).toString();
 }

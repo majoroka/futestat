@@ -106,3 +106,91 @@ test("extractRawFixturesFromPage parses a future Sofascore day snapshot includin
     await browser.close();
   }
 });
+
+test("extractRawFixturesFromPage supports competition pages with implicit today rows", async () => {
+  const browser = await chromium.launch({ headless: true });
+  const page = await browser.newPage();
+
+  try {
+    await page.setContent(
+      `
+        <div>
+          <div class="d_flex ai_center py_xs">
+            <a href="/football/tournament/denmark/superliga/39">Danish Superliga</a>
+            <a href="/football/denmark">Denmark</a>
+            <img src="https://img.sofascore.com/api/v1/unique-tournament/39/image/dark" />
+          </div>
+          <a class="event-hl-1 d_block" href="/football/match/a-b/abc#id:1">
+            <bdi class="textStyle_body.small">25/07/26</bdi>
+            <bdi class="textStyle_body.small">FT</bdi>
+            <span class="score">1</span>
+            <span class="score">0</span>
+            <img src="https://img.sofascore.com/api/v1/team/11/image/small" />
+            <img src="https://img.sofascore.com/api/v1/team/12/image/small" />
+            <bdi class="textStyle_body.medium">Team A</bdi>
+            <bdi class="textStyle_body.medium">Team B</bdi>
+          </a>
+          <a class="event-hl-2 d_block" href="/football/match/c-d/def#id:2">
+            <bdi class="textStyle_body.small">13:00</bdi>
+            <bdi class="textStyle_body.small">-</bdi>
+            <img src="https://img.sofascore.com/api/v1/team/21/image/small" />
+            <img src="https://img.sofascore.com/api/v1/team/22/image/small" />
+            <bdi class="textStyle_body.medium">Team C</bdi>
+            <bdi class="textStyle_body.medium">Team D</bdi>
+          </a>
+          <a class="event-hl-3 d_block" href="/football/match/e-f/ghi#id:3">
+            <bdi class="textStyle_body.small">27/07/26</bdi>
+            <bdi class="textStyle_body.small">18:00</bdi>
+            <img src="https://img.sofascore.com/api/v1/team/31/image/small" />
+            <img src="https://img.sofascore.com/api/v1/team/32/image/small" />
+            <bdi class="textStyle_body.medium">Team E</bdi>
+            <bdi class="textStyle_body.medium">Team F</bdi>
+          </a>
+        </div>
+      `,
+      { waitUntil: "domcontentloaded" },
+    );
+
+    const fixtures = await extractRawFixturesFromPage(page, {
+      baseUrl: "https://www.sofascore.com",
+      date: "2026-07-26",
+      mode: "competition",
+    });
+
+    assert.deepEqual(
+      fixtures.map((fixture) => ({
+        eventId: fixture.eventId,
+        matchDate: fixture.matchDate,
+        status: fixture.status,
+        competitionId: fixture.competitionId,
+        countryName: fixture.countryName,
+      })),
+      [
+        {
+          eventId: "1",
+          matchDate: "2026-07-25",
+          status: "finished",
+          competitionId: "39",
+          countryName: "Denmark",
+        },
+        {
+          eventId: "2",
+          matchDate: "2026-07-26",
+          status: "upcoming",
+          competitionId: "39",
+          countryName: "Denmark",
+        },
+        {
+          eventId: "3",
+          matchDate: "2026-07-27",
+          status: "upcoming",
+          competitionId: "39",
+          countryName: "Denmark",
+        },
+      ],
+    );
+  } finally {
+    await page.close();
+    await browser.close();
+  }
+});

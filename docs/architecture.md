@@ -42,6 +42,7 @@ Coordena o fluxo:
 
 Contém a integração específica com o Sofascore:
 - construção da URL por data
+- construção da URL estável por competição a partir do `competitionId`
 - automação Playwright
 - parsing dos cartões principais de jogos
 - derivação de `teamId` e URL de logótipo a partir das imagens
@@ -49,6 +50,7 @@ Contém a integração específica com o Sofascore:
 - retries por data
 - deteção explícita de páginas bloqueadas por `403`
 - captura opcional de `html/png` para diagnóstico
+- suplemento da janela atual por páginas de competição para contornar DOM incompleto, acordeões e virtualização
 - scraping de detalhe por jogo via página individual e respostas JSON carregadas pelo próprio browser
 
 ### `infrastructure/storage`
@@ -94,6 +96,18 @@ Motivo:
 
 Padrão usado:
 - `https://www.sofascore.com/football/YYYY-MM-DD`
+
+## 2b. Suplemento por competição quando a data de referência é hoje
+
+Motivo:
+- algumas ligas não aparecem na página global por data
+- certas secções ficam em acordeão fechado
+- a virtualização do DOM pode ocultar jogos mais abaixo
+
+Padrão aplicado:
+- a página global continua a ser a base
+- para a janela operacional atual, o scraper visita também as páginas das ligas whitelistadas
+- os fixtures suplementares são agrupados por dia e fundidos por `sourceEventId`
 
 ## 3. Browser em `UTC`, referência operacional em `Europe/Lisbon`
 
