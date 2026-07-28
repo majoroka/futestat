@@ -1,0 +1,160 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "15271296",
+  "matchUrl": "https://www.sofascore.com/football/match/nordic-united-fc-helsingborgs-if/PMsYbbd#id:15271296",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T08:37:22.787Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T08:36:45.752Z",
+  "fixtureLastChangedAtUtc": "2026-07-28T08:36:45.752Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-28T17:00:00.000Z",
+    "competitionId": "46",
+    "competitionName": "Superettan",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/46/image",
+    "competitionStage": "Superettan 2026",
+    "countryName": "Sweden",
+    "venueName": "Olympia",
+    "venueCity": "Helsingborg",
+    "venueCountry": "Sweden",
+    "refereeName": "Fredrik Alknas",
+    "refereeCountry": "Sweden"
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "BR"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "1.97",
+    "draw": "3.16",
+    "away": "2.50",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "15406880",
+        "matchUrl": "https://www.sofascore.com/football/match/nordic-united-fc-helsingborgs-if/PMsYbbd#id:15406880",
+        "kickoffAtUtc": "2026-04-11T13:00:00.000Z",
+        "competitionName": "Superettan",
+        "countryName": "Sweden",
+        "roundName": null,
+        "homeTeamId": "377598",
+        "homeTeamName": "Nordic United FC",
+        "awayTeamId": "1890",
+        "awayTeamName": "Helsingborgs IF",
+        "homeScore": 3,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "13292410",
+        "matchUrl": "https://www.sofascore.com/football/match/helsingborgs-if-umea/zKsPM#id:13292410",
+        "kickoffAtUtc": "2025-10-04T13:00:00.000Z",
+        "competitionName": "Superettan",
+        "countryName": "Sweden",
+        "roundName": null,
+        "homeTeamId": "1774",
+        "homeTeamName": "Umeå",
+        "awayTeamId": "1890",
+        "awayTeamName": "Helsingborgs IF",
+        "homeScore": 1,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "13292418",
+        "matchUrl": "https://www.sofascore.com/football/match/helsingborgs-if-orebro-sk/tKsPM#id:13292418",
+        "kickoffAtUtc": "2025-10-19T13:00:00.000Z",
+        "competitionName": "Superettan",
+        "countryName": "Sweden",
+        "roundName": null,
+        "homeTeamId": "1890",
+        "homeTeamName": "Helsingborgs IF",
+        "awayTeamId": "1768",
+        "awayTeamName": "Örebro SK",
+        "homeScore": 3,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "13265691",
+        "matchUrl": "https://www.sofascore.com/football/match/helsingborgs-if-ik-brage/CKsPM#id:13265691",
+        "kickoffAtUtc": "2025-10-25T13:00:00.000Z",
+        "competitionName": "Superettan",
+        "countryName": "Sweden",
+        "roundName": null,
+        "homeTeamId": "1777",
+        "homeTeamName": "IK Brage",
+        "awayTeamId": "1890",
+        "awayTeamName": "Helsingborgs IF",
+        "homeScore": 3,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "15271304",
+        "matchUrl": "https://www.sofascore.com/football/match/helsingborgs-if-ifk-norrkoping/uKsPM#id:15271304",
+        "kickoffAtUtc": "2026-08-01T15:00:00.000Z",
+        "competitionName": "Superettan",
+        "countryName": "Sweden",
+        "roundName": null,
+        "homeTeamId": "1769",
+        "homeTeamName": "IFK Norrköping",
+        "awayTeamId": "1890",
+        "awayTeamName": "Helsingborgs IF",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "15271289",
+        "matchUrl": "https://www.sofascore.com/football/match/helsingborgs-if-ifk-varnamo/RLsPM#id:15271289",
+        "kickoffAtUtc": "2026-08-11T17:00:00.000Z",
+        "competitionName": "Superettan",
+        "countryName": "Sweden",
+        "roundName": null,
+        "homeTeamId": "1890",
+        "homeTeamName": "Helsingborgs IF",
+        "awayTeamId": "1842",
+        "awayTeamName": "IFK Värnamo",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

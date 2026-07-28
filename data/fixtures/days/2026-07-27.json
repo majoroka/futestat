@@ -1,9 +1,9 @@
 {
   "source": "sofascore",
   "date": "2026-07-27",
-  "collectionState": "open",
+  "collectionState": "settling",
   "firstScrapedAtUtc": "2026-07-21T20:23:31.214Z",
-  "lastScrapedAtUtc": "2026-07-26T11:55:47.509Z",
+  "lastScrapedAtUtc": "2026-07-28T08:37:19.201Z",
   "frozenAtUtc": null,
   "fixtureCount": 9,
   "fixtures": [
@@ -22,14 +22,14 @@
       "awayTeamId": "44255",
       "awayTeamName": "Voluntari",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/44255/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 5,
+      "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/fc-voluntari-cfr-1907-cluj/MfcsfKr#id:16403825",
       "firstSeenAtUtc": "2026-07-26T11:51:09.624Z",
-      "lastSeenAtUtc": "2026-07-26T11:55:28.976Z",
-      "lastChangedAtUtc": "2026-07-26T11:51:09.624Z"
+      "lastSeenAtUtc": "2026-07-28T08:36:57.598Z",
+      "lastChangedAtUtc": "2026-07-28T08:36:57.598Z"
     },
     {
       "source": "sofascore",
@@ -46,14 +46,14 @@
       "awayTeamId": "43840",
       "awayTeamName": "Ludogorets",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/43840/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 0,
+      "awayScore": 2,
       "matchUrl": "https://www.sofascore.com/football/match/ludogorets-fk-dunav-ruse/LpbsPBr#id:16298651",
       "firstSeenAtUtc": "2026-07-26T11:51:20.300Z",
-      "lastSeenAtUtc": "2026-07-26T11:55:38.022Z",
-      "lastChangedAtUtc": "2026-07-26T11:51:20.300Z"
+      "lastSeenAtUtc": "2026-07-28T08:37:08.144Z",
+      "lastChangedAtUtc": "2026-07-28T08:37:08.144Z"
     },
     {
       "source": "sofascore",
@@ -70,14 +70,14 @@
       "awayTeamId": "1285",
       "awayTeamName": "Silkeborg",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/1285/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 1,
+      "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/randers-fc-silkeborg-if/KAsbB#id:16278676",
       "firstSeenAtUtc": "2026-07-21T20:23:31.214Z",
-      "lastSeenAtUtc": "2026-07-26T11:55:19.529Z",
-      "lastChangedAtUtc": "2026-07-23T13:33:17.424Z"
+      "lastSeenAtUtc": "2026-07-28T08:36:47.433Z",
+      "lastChangedAtUtc": "2026-07-28T08:36:47.433Z"
     },
     {
       "source": "sofascore",
@@ -94,14 +94,14 @@
       "awayTeamId": "687",
       "awayTeamName": "Fredrikstad",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/687/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 4,
+      "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/rosenborg-bk-fredrikstad-fk/Mnsly#id:15260854",
       "firstSeenAtUtc": "2026-07-26T11:53:35.500Z",
-      "lastSeenAtUtc": "2026-07-26T11:55:21.156Z",
-      "lastChangedAtUtc": "2026-07-26T11:53:35.500Z"
+      "lastSeenAtUtc": "2026-07-28T08:36:49.196Z",
+      "lastChangedAtUtc": "2026-07-28T08:36:49.196Z"
     },
     {
       "source": "sofascore",
@@ -118,14 +118,14 @@
       "awayTeamId": "1764",
       "awayTeamName": "AIK",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/1764/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 0,
+      "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/aik-bk-hacken/kKsoK#id:15272468",
       "firstSeenAtUtc": "2026-07-26T11:50:49.984Z",
-      "lastSeenAtUtc": "2026-07-26T11:55:11.789Z",
-      "lastChangedAtUtc": "2026-07-26T11:50:49.984Z"
+      "lastSeenAtUtc": "2026-07-28T08:36:38.915Z",
+      "lastChangedAtUtc": "2026-07-28T08:36:38.915Z"
     },
     {
       "source": "sofascore",
@@ -142,14 +142,14 @@
       "awayTeamId": "1860",
       "awayTeamName": "Oddevold",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/1860/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 0,
+      "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/ik-oddevold-orebro-sk/tKskM#id:15271277",
       "firstSeenAtUtc": "2026-07-26T11:50:57.135Z",
-      "lastSeenAtUtc": "2026-07-26T11:55:18.026Z",
-      "lastChangedAtUtc": "2026-07-26T11:50:57.135Z"
+      "lastSeenAtUtc": "2026-07-28T08:36:45.752Z",
+      "lastChangedAtUtc": "2026-07-28T08:36:45.752Z"
     },
     {
       "source": "sofascore",
@@ -166,14 +166,14 @@
       "awayTeamId": "7101",
       "awayTeamName": "Varberg",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/7101/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 3,
+      "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/varbergs-bois-osters-if/GKsbRc#id:15271272",
       "firstSeenAtUtc": "2026-07-26T11:50:57.135Z",
-      "lastSeenAtUtc": "2026-07-26T11:55:18.026Z",
-      "lastChangedAtUtc": "2026-07-26T11:50:57.135Z"
+      "lastSeenAtUtc": "2026-07-28T08:36:45.752Z",
+      "lastChangedAtUtc": "2026-07-28T08:36:45.752Z"
     },
     {
       "source": "sofascore",
@@ -190,14 +190,14 @@
       "awayTeamId": "5241",
       "awayTeamName": "Botev Plovdiv",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/5241/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 3,
+      "awayScore": 2,
       "matchUrl": "https://www.sofascore.com/football/match/botev-plovdiv-cska-sofia/ApbsQec#id:16397699",
       "firstSeenAtUtc": "2026-07-26T11:51:20.300Z",
-      "lastSeenAtUtc": "2026-07-26T11:55:38.022Z",
-      "lastChangedAtUtc": "2026-07-26T11:51:20.300Z"
+      "lastSeenAtUtc": "2026-07-28T08:37:08.144Z",
+      "lastChangedAtUtc": "2026-07-28T08:37:08.144Z"
     },
     {
       "source": "sofascore",
@@ -214,14 +214,14 @@
       "awayTeamId": "295403",
       "awayTeamName": "Rapid București",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/295403/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 1,
+      "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/fc-rapid-bucuresti-fc-botosani/YVjsditc#id:16403840",
       "firstSeenAtUtc": "2026-07-26T11:51:09.624Z",
-      "lastSeenAtUtc": "2026-07-26T11:55:28.976Z",
-      "lastChangedAtUtc": "2026-07-26T11:51:09.624Z"
+      "lastSeenAtUtc": "2026-07-28T08:36:57.598Z",
+      "lastChangedAtUtc": "2026-07-28T08:36:57.598Z"
     }
   ],
   "metadata": {

@@ -1,0 +1,158 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16431107",
+  "matchUrl": "https://www.sofascore.com/football/match/gimnasia-y-esgrima-mendoza-san-lorenzo/bobsQtAb#id:16431107",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T08:37:32.205Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T08:37:19.201Z",
+  "fixtureLastChangedAtUtc": "2026-07-23T13:33:19.396Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-28T22:00:00.000Z",
+    "competitionId": "155",
+    "competitionName": "Liga Profesional, Clausura",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/155/image",
+    "competitionStage": null,
+    "countryName": "Argentina",
+    "venueName": null,
+    "venueCity": null,
+    "venueCountry": null,
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "BO",
+      "CL",
+      "CO",
+      "CR",
+      "EC",
+      "GT",
+      "HN",
+      "MX",
+      "NI",
+      "PA",
+      "PE",
+      "PR",
+      "PY",
+      "SV",
+      "US",
+      "UY",
+      "VE"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "1.91",
+    "draw": "2.79",
+    "away": "3.91",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "15269905",
+        "matchUrl": "https://www.sofascore.com/football/match/gimnasia-y-esgrima-mendoza-san-lorenzo/bobsQtAb#id:15269905",
+        "kickoffAtUtc": "2026-01-27T23:00:00.000Z",
+        "competitionName": "Liga Profesional de Fútbol, Apertura",
+        "countryName": "Argentina",
+        "roundName": null,
+        "homeTeamId": "188441",
+        "homeTeamName": "Gimnasia y Esgrima Mendoza",
+        "awayTeamId": "3201",
+        "awayTeamName": "San Lorenzo",
+        "homeScore": 0,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15330542",
+        "matchUrl": "https://www.sofascore.com/football/match/cucuta-deportivo-san-lorenzo/bobsixc#id:15330542",
+        "kickoffAtUtc": "2026-01-15T00:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "3201",
+        "homeTeamName": "San Lorenzo",
+        "awayTeamId": "6108",
+        "awayTeamName": "Cúcuta Deportivo",
+        "homeScore": 0,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "15336222",
+        "matchUrl": "https://www.sofascore.com/football/match/cerro-porteno-san-lorenzo/bobsQuc#id:15336222",
+        "kickoffAtUtc": "2026-01-17T23:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "3201",
+        "homeTeamName": "San Lorenzo",
+        "awayTeamId": "5991",
+        "awayTeamName": "Cerro Porteño",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      },
+      {
+        "sourceEventId": "15269915",
+        "matchUrl": "https://www.sofascore.com/football/match/ca-lanus-san-lorenzo/bobstob#id:15269915",
+        "kickoffAtUtc": "2026-01-23T22:00:00.000Z",
+        "competitionName": "Liga Profesional de Fútbol, Apertura",
+        "countryName": "Argentina",
+        "roundName": null,
+        "homeTeamId": "3201",
+        "homeTeamName": "San Lorenzo",
+        "awayTeamId": "3218",
+        "awayTeamName": "CA Lanús",
+        "homeScore": 2,
+        "awayScore": 3,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16431133",
+        "matchUrl": "https://www.sofascore.com/football/match/central-cordoba-san-lorenzo/bobsBnB#id:16431133",
+        "kickoffAtUtc": "2026-08-04T00:15:00.000Z",
+        "competitionName": "Liga Profesional, Clausura",
+        "countryName": "Argentina",
+        "roundName": null,
+        "homeTeamId": "65676",
+        "homeTeamName": "Central Córdoba",
+        "awayTeamId": "3201",
+        "awayTeamName": "San Lorenzo",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

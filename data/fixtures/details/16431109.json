@@ -1,0 +1,145 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16431109",
+  "matchUrl": "https://www.sofascore.com/football/match/estudiantes-de-rio-cuarto-argentinos-juniors/qobsUIgc#id:16431109",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T08:37:35.342Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T08:37:19.201Z",
+  "fixtureLastChangedAtUtc": "2026-07-28T08:37:19.201Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-29T00:15:00.000Z",
+    "competitionId": "155",
+    "competitionName": "Liga Profesional, Clausura",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/155/image",
+    "competitionStage": "Primera LPF 2026",
+    "countryName": "Argentina",
+    "venueName": "Mario Alberto Kempes",
+    "venueCity": "Cordoba",
+    "venueCountry": "Argentina",
+    "refereeName": "Felipe Viola",
+    "refereeCountry": "Argentina"
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "BO",
+      "BR",
+      "CL",
+      "PE"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 1,
+    "marketName": "Full time",
+    "home": "1.39",
+    "draw": "3.90",
+    "away": "10.00",
+    "hasMoreOdds": true
+  },
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": null,
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "15269921",
+        "matchUrl": "https://www.sofascore.com/football/match/estudiantes-de-rio-cuarto-argentinos-juniors/qobsUIgc#id:15269921",
+        "kickoffAtUtc": "2026-01-30T00:30:00.000Z",
+        "competitionName": "Liga Profesional de Fútbol, Apertura",
+        "countryName": "Argentina",
+        "roundName": null,
+        "homeTeamId": "266694",
+        "homeTeamName": "Estudiantes de Río Cuarto",
+        "awayTeamId": "3216",
+        "awayTeamName": "Argentinos Juniors",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "14957477",
+        "matchUrl": "https://www.sofascore.com/football/match/independiente-rivadavia-argentinos-juniors/qobsRLo#id:14957477",
+        "kickoffAtUtc": "2025-11-06T00:10:00.000Z",
+        "competitionName": "Copa Argentina",
+        "countryName": "Argentina",
+        "roundName": "Final",
+        "homeTeamId": "36842",
+        "homeTeamName": "Independiente Rivadavia",
+        "awayTeamId": "3216",
+        "awayTeamName": "Argentinos Juniors",
+        "homeScore": 7,
+        "awayScore": 5,
+        "status": "finished",
+        "resultLabel": "AP",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14069569",
+        "matchUrl": "https://www.sofascore.com/football/match/argentinos-juniors-belgrano/dobsqob#id:14069569",
+        "kickoffAtUtc": "2025-11-11T00:15:00.000Z",
+        "competitionName": "Liga Profesional, Clausura",
+        "countryName": "Argentina",
+        "roundName": null,
+        "homeTeamId": "3216",
+        "homeTeamName": "Argentinos Juniors",
+        "awayTeamId": "3203",
+        "awayTeamName": "Club Atlético Belgrano",
+        "homeScore": 1,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14069589",
+        "matchUrl": "https://www.sofascore.com/football/match/argentinos-juniors-estudiantes-de-la-plata/gobsqob#id:14069589",
+        "kickoffAtUtc": "2025-11-16T23:15:00.000Z",
+        "competitionName": "Liga Profesional, Clausura",
+        "countryName": "Argentina",
+        "roundName": null,
+        "homeTeamId": "3206",
+        "homeTeamName": "Estudiantes de La Plata",
+        "awayTeamId": "3216",
+        "awayTeamName": "Argentinos Juniors",
+        "homeScore": 1,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16431122",
+        "matchUrl": "https://www.sofascore.com/football/match/argentinos-juniors-club-atletico-belgrano/dobsqob#id:16431122",
+        "kickoffAtUtc": "2026-08-01T21:00:00.000Z",
+        "competitionName": "Liga Profesional, Clausura",
+        "countryName": "Argentina",
+        "roundName": null,
+        "homeTeamId": "3203",
+        "homeTeamName": "Club Atlético Belgrano",
+        "awayTeamId": "3216",
+        "awayTeamName": "Argentinos Juniors",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}
