@@ -3,8 +3,8 @@
   "sourceEventId": "16350240",
   "matchUrl": "https://www.sofascore.com/football/match/larne-fc-fk-crvena-zvezda/ZccsJdc#id:16350240",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T14:58:29.201Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "scrapedAtUtc": "2026-07-28T15:38:36.662Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:36:16.343Z",
   "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
   "overview": {
     "kickoffAtUtc": "2026-07-29T18:00:00.000Z",
@@ -38,6 +38,7 @@
     "away": "34.00",
     "hasMoreOdds": true
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": "Two legs",
     "previousLeg": {

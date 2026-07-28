@@ -3,8 +3,8 @@
   "sourceEventId": "16350243",
   "matchUrl": "https://www.sofascore.com/football/match/universitatea-craiova-levski-sofia/ypbsyzW#id:16350243",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T14:58:26.047Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "scrapedAtUtc": "2026-07-28T15:38:21.087Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:36:16.343Z",
   "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
   "overview": {
     "kickoffAtUtc": "2026-07-29T17:30:00.000Z",
@@ -36,6 +36,7 @@
     "away": "4.00",
     "hasMoreOdds": true
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": "Two legs",
     "previousLeg": {

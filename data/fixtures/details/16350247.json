@@ -3,8 +3,8 @@
   "sourceEventId": "16350247",
   "matchUrl": "https://www.sofascore.com/football/match/hapoel-beer-sheva-vikingur-reykjavik/iNscec#id:16350247",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T14:58:22.916Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "scrapedAtUtc": "2026-07-28T15:38:17.947Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:36:16.343Z",
   "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
   "overview": {
     "kickoffAtUtc": "2026-07-29T17:30:00.000Z",
@@ -32,6 +32,7 @@
     "away": "5.00",
     "hasMoreOdds": true
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": null,
     "previousLeg": {

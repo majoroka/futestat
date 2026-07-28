@@ -3,8 +3,8 @@
   "sourceEventId": "16462274",
   "matchUrl": "https://www.sofascore.com/football/match/fc-drita-floriana-fc/JwnsfVQb#id:16462274",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T14:57:54.568Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T14:56:33.877Z",
+  "scrapedAtUtc": "2026-07-28T15:37:33.961Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:36:19.394Z",
   "fixtureLastChangedAtUtc": "2026-07-28T14:56:33.877Z",
   "overview": {
     "kickoffAtUtc": "2026-07-28T18:00:00.000Z",
@@ -29,11 +29,12 @@
   "odds": {
     "providerId": 801,
     "marketName": "Full time",
-    "home": "1.47",
-    "draw": "3.95",
-    "away": "5.93",
+    "home": "1.46",
+    "draw": "4.00",
+    "away": "6.01",
     "hasMoreOdds": false
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": "Two legs",
     "previousLeg": {

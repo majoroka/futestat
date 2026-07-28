@@ -3,8 +3,8 @@
   "sourceEventId": "16431105",
   "matchUrl": "https://www.sofascore.com/football/match/river-plate-gimnasia-y-esgrima/fobslob#id:16431105",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T08:38:01.048Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T08:37:19.201Z",
+  "scrapedAtUtc": "2026-07-28T15:38:52.174Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:37:08.515Z",
   "fixtureLastChangedAtUtc": "2026-07-28T08:37:19.201Z",
   "overview": {
     "kickoffAtUtc": "2026-07-29T22:15:00.000Z",
@@ -22,6 +22,7 @@
   "watch": {
     "hasPortugalChannels": true,
     "availableCountryCodes": [
+      "AR",
       "BO",
       "BR",
       "CL",
@@ -49,11 +50,12 @@
   "odds": {
     "providerId": 1,
     "marketName": "Full time",
-    "home": "4.50",
-    "draw": "3.00",
-    "away": "1.96",
+    "home": "3.90",
+    "draw": "2.85",
+    "away": "2.15",
     "hasMoreOdds": true
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": null,
     "previousLeg": null,

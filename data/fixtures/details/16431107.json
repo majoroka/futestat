@@ -3,8 +3,8 @@
   "sourceEventId": "16431107",
   "matchUrl": "https://www.sofascore.com/football/match/gimnasia-y-esgrima-mendoza-san-lorenzo/bobsQtAb#id:16431107",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T08:37:32.205Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T08:37:19.201Z",
+  "scrapedAtUtc": "2026-07-28T15:37:49.722Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:37:08.515Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:19.396Z",
   "overview": {
     "kickoffAtUtc": "2026-07-28T22:00:00.000Z",
@@ -45,11 +45,12 @@
   "odds": {
     "providerId": 801,
     "marketName": "Full time",
-    "home": "1.91",
-    "draw": "2.79",
-    "away": "3.91",
+    "home": "1.88",
+    "draw": "2.82",
+    "away": "3.95",
     "hasMoreOdds": false
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": null,
     "previousLeg": null,

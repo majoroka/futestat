@@ -3,8 +3,8 @@
   "sourceEventId": "16350249",
   "matchUrl": "https://www.sofascore.com/football/match/kf-egnatia-nk-celje/nYsuRfc#id:16350249",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T14:57:57.714Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "scrapedAtUtc": "2026-07-28T15:37:37.048Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:36:16.343Z",
   "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
   "overview": {
     "kickoffAtUtc": "2026-07-28T18:15:00.000Z",
@@ -31,11 +31,12 @@
   "odds": {
     "providerId": 801,
     "marketName": "Full time",
-    "home": "1.40",
-    "draw": "4.53",
-    "away": "5.91",
+    "home": "1.41",
+    "draw": "4.51",
+    "away": "5.88",
     "hasMoreOdds": false
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": "Two legs",
     "previousLeg": {

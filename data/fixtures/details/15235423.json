@@ -3,7 +3,7 @@
   "sourceEventId": "15235423",
   "matchUrl": "https://www.sofascore.com/football/match/sao-paulo-santos/tOsGO#id:15235423",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T08:37:54.677Z",
+  "scrapedAtUtc": "2026-07-28T15:38:33.612Z",
   "fixtureLastSeenAtUtc": "2026-07-23T14:06:50.122Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:21.473Z",
   "overview": {
@@ -21,8 +21,10 @@
   },
   "watch": {
     "hasPortugalChannels": false,
-    "availableCountryCodes": [],
-    "note": "Sem agenda de TV disponível."
+    "availableCountryCodes": [
+      "BR"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
   },
   "odds": {
     "providerId": 1,
@@ -32,6 +34,7 @@
     "away": "3.70",
     "hasMoreOdds": true
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": null,
     "previousLeg": null,

@@ -3,8 +3,8 @@
   "sourceEventId": "16351425",
   "matchUrl": "https://www.sofascore.com/football/match/fc-cska-1948-sofia-fc-spartak-trnava/gYsFQac#id:16351425",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T14:57:48.387Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T14:56:33.877Z",
+  "scrapedAtUtc": "2026-07-28T15:37:27.793Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:36:19.394Z",
   "fixtureLastChangedAtUtc": "2026-07-28T14:56:33.877Z",
   "overview": {
     "kickoffAtUtc": "2026-07-28T17:30:00.000Z",
@@ -30,11 +30,12 @@
   "odds": {
     "providerId": 801,
     "marketName": "Full time",
-    "home": "1.80",
-    "draw": "3.27",
-    "away": "4.16",
+    "home": "1.79",
+    "draw": "3.34",
+    "away": "4.13",
     "hasMoreOdds": false
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": "Two legs",
     "previousLeg": {

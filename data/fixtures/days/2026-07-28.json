@@ -3,7 +3,7 @@
   "date": "2026-07-28",
   "collectionState": "open",
   "firstScrapedAtUtc": "2026-07-21T20:23:33.128Z",
-  "lastScrapedAtUtc": "2026-07-28T15:28:19.621Z",
+  "lastScrapedAtUtc": "2026-07-28T15:37:08.515Z",
   "frozenAtUtc": null,
   "fixtureCount": 14,
   "fixtures": [
@@ -23,13 +23,13 @@
       "awayTeamName": "Sabah",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/267828/image/small",
       "status": "live",
-      "resultLabel": "27'",
+      "resultLabel": "36'",
       "homeScore": 0,
       "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/sabah-fk-kuopion-palloseura/UUsDghc#id:16526435",
       "firstSeenAtUtc": "2026-07-28T14:56:30.300Z",
-      "lastSeenAtUtc": "2026-07-28T15:27:25.214Z",
-      "lastChangedAtUtc": "2026-07-28T15:27:25.214Z"
+      "lastSeenAtUtc": "2026-07-28T15:36:16.342Z",
+      "lastChangedAtUtc": "2026-07-28T15:36:16.342Z"
     },
     {
       "source": "sofascore",
@@ -52,7 +52,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/lincoln-red-imps-mjallby-aif/IKseBab#id:16350239",
       "firstSeenAtUtc": "2026-07-28T14:56:30.300Z",
-      "lastSeenAtUtc": "2026-07-28T15:27:25.214Z",
+      "lastSeenAtUtc": "2026-07-28T15:36:16.342Z",
       "lastChangedAtUtc": "2026-07-28T14:56:30.300Z"
     },
     {
@@ -76,7 +76,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fc-dila-gori-apollon-limassol/ctbsuBn#id:16462279",
       "firstSeenAtUtc": "2026-07-28T14:56:33.877Z",
-      "lastSeenAtUtc": "2026-07-28T15:27:28.394Z",
+      "lastSeenAtUtc": "2026-07-28T15:36:19.394Z",
       "lastChangedAtUtc": "2026-07-28T14:56:33.877Z"
     },
     {
@@ -100,7 +100,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/riga-fc-fk-vardar-skopje/dicstXob#id:16527687",
       "firstSeenAtUtc": "2026-07-28T14:56:33.877Z",
-      "lastSeenAtUtc": "2026-07-28T15:27:28.394Z",
+      "lastSeenAtUtc": "2026-07-28T15:36:19.394Z",
       "lastChangedAtUtc": "2026-07-28T14:56:33.877Z"
     },
     {
@@ -124,7 +124,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/nordic-united-fc-helsingborgs-if/PMsYbbd#id:15271296",
       "firstSeenAtUtc": "2026-07-28T08:36:45.752Z",
-      "lastSeenAtUtc": "2026-07-28T15:27:47.789Z",
+      "lastSeenAtUtc": "2026-07-28T15:36:38.524Z",
       "lastChangedAtUtc": "2026-07-28T08:36:45.752Z"
     },
     {
@@ -148,7 +148,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/landskrona-bois-ifk-norrkoping/uKsxK#id:15271280",
       "firstSeenAtUtc": "2026-07-28T08:36:45.752Z",
-      "lastSeenAtUtc": "2026-07-28T15:27:47.789Z",
+      "lastSeenAtUtc": "2026-07-28T15:36:38.525Z",
       "lastChangedAtUtc": "2026-07-28T08:36:45.752Z"
     },
     {
@@ -172,7 +172,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fc-cska-1948-sofia-fc-spartak-trnava/gYsFQac#id:16351425",
       "firstSeenAtUtc": "2026-07-28T14:56:33.877Z",
-      "lastSeenAtUtc": "2026-07-28T15:27:28.394Z",
+      "lastSeenAtUtc": "2026-07-28T15:36:19.394Z",
       "lastChangedAtUtc": "2026-07-28T14:56:33.877Z"
     },
     {
@@ -196,7 +196,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fc-thun-gnk-dinamo-zagreb/HPseZ#id:16350246",
       "firstSeenAtUtc": "2026-07-28T14:56:30.300Z",
-      "lastSeenAtUtc": "2026-07-28T15:27:25.214Z",
+      "lastSeenAtUtc": "2026-07-28T15:36:16.343Z",
       "lastChangedAtUtc": "2026-07-28T14:56:30.300Z"
     },
     {
@@ -220,7 +220,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fc-drita-floriana-fc/JwnsfVQb#id:16462274",
       "firstSeenAtUtc": "2026-07-28T14:56:33.877Z",
-      "lastSeenAtUtc": "2026-07-28T15:27:28.394Z",
+      "lastSeenAtUtc": "2026-07-28T15:36:19.394Z",
       "lastChangedAtUtc": "2026-07-28T14:56:33.877Z"
     },
     {
@@ -244,7 +244,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/kf-egnatia-nk-celje/nYsuRfc#id:16350249",
       "firstSeenAtUtc": "2026-07-28T14:56:30.300Z",
-      "lastSeenAtUtc": "2026-07-28T15:27:25.214Z",
+      "lastSeenAtUtc": "2026-07-28T15:36:16.343Z",
       "lastChangedAtUtc": "2026-07-28T14:56:30.300Z"
     },
     {
@@ -268,7 +268,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/heart-of-midlothian-sk-sturm-graz/bQsdX#id:16350251",
       "firstSeenAtUtc": "2026-07-28T14:56:30.300Z",
-      "lastSeenAtUtc": "2026-07-28T15:27:25.214Z",
+      "lastSeenAtUtc": "2026-07-28T15:36:16.343Z",
       "lastChangedAtUtc": "2026-07-28T14:56:30.300Z"
     },
     {
@@ -292,7 +292,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fc-ararat-armenia-shamrock-rovers/CnbsEUec#id:16350244",
       "firstSeenAtUtc": "2026-07-28T14:56:30.300Z",
-      "lastSeenAtUtc": "2026-07-28T15:27:25.214Z",
+      "lastSeenAtUtc": "2026-07-28T15:36:16.343Z",
       "lastChangedAtUtc": "2026-07-28T14:56:30.300Z"
     },
     {
@@ -316,7 +316,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/sarmiento-banfield/uobsNWq#id:16431110",
       "firstSeenAtUtc": "2026-07-21T20:23:33.128Z",
-      "lastSeenAtUtc": "2026-07-28T15:28:19.621Z",
+      "lastSeenAtUtc": "2026-07-28T15:37:08.515Z",
       "lastChangedAtUtc": "2026-07-23T13:33:19.396Z"
     },
     {
@@ -340,7 +340,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/gimnasia-y-esgrima-mendoza-san-lorenzo/bobsQtAb#id:16431107",
       "firstSeenAtUtc": "2026-07-21T20:23:33.128Z",
-      "lastSeenAtUtc": "2026-07-28T15:28:19.621Z",
+      "lastSeenAtUtc": "2026-07-28T15:37:08.515Z",
       "lastChangedAtUtc": "2026-07-23T13:33:19.396Z"
     }
   ],

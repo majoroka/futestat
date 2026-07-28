@@ -3,8 +3,8 @@
   "sourceEventId": "16431110",
   "matchUrl": "https://www.sofascore.com/football/match/sarmiento-banfield/uobsNWq#id:16431110",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T08:37:29.077Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T08:37:19.201Z",
+  "scrapedAtUtc": "2026-07-28T15:37:46.463Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:37:08.515Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:19.396Z",
   "overview": {
     "kickoffAtUtc": "2026-07-28T22:00:00.000Z",
@@ -27,11 +27,12 @@
   "odds": {
     "providerId": 801,
     "marketName": "Full time",
-    "home": "1.93",
-    "draw": "2.82",
-    "away": "3.77",
+    "home": "1.91",
+    "draw": "2.79",
+    "away": "3.91",
     "hasMoreOdds": false
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": null,
     "previousLeg": null,

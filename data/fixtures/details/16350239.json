@@ -3,21 +3,21 @@
   "sourceEventId": "16350239",
   "matchUrl": "https://www.sofascore.com/football/match/lincoln-red-imps-mjallby-aif/IKseBab#id:16350239",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T14:57:39.132Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "scrapedAtUtc": "2026-07-28T15:37:12.204Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:36:16.342Z",
   "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
   "overview": {
     "kickoffAtUtc": "2026-07-28T16:00:00.000Z",
     "competitionId": "7",
     "competitionName": "UEFA Champions League, Qualification",
     "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
-    "competitionStage": null,
+    "competitionStage": "Qualification Round 2",
     "countryName": "Europe",
-    "venueName": null,
-    "venueCity": null,
-    "venueCountry": null,
-    "refereeName": null,
-    "refereeCountry": null
+    "venueName": "Europa Sports Park",
+    "venueCity": "Gibraltar",
+    "venueCountry": "Gibraltar",
+    "refereeName": "Alexandros Tsakalidis",
+    "refereeCountry": "Greece"
   },
   "watch": {
     "hasPortugalChannels": false,
@@ -29,13 +29,14 @@
   "odds": {
     "providerId": 801,
     "marketName": "Full time",
-    "home": "5.53",
-    "draw": "4.34",
-    "away": "1.45",
+    "home": "4.36",
+    "draw": "4.16",
+    "away": "1.58",
     "hasMoreOdds": false
   },
+  "standings": [],
   "tieContext": {
-    "tieFormat": null,
+    "tieFormat": "Two legs",
     "previousLeg": {
       "sourceEventId": "16350228",
       "matchUrl": "https://www.sofascore.com/football/match/lincoln-red-imps-mjallby-aif/IKseBab#id:16350228",

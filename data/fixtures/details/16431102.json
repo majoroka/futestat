@@ -3,8 +3,8 @@
   "sourceEventId": "16431102",
   "matchUrl": "https://www.sofascore.com/football/match/rosario-central-racing-club/pobsrob#id:16431102",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T08:37:38.577Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T08:37:19.201Z",
+  "scrapedAtUtc": "2026-07-28T15:37:56.003Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:37:08.515Z",
   "fixtureLastChangedAtUtc": "2026-07-28T08:37:19.201Z",
   "overview": {
     "kickoffAtUtc": "2026-07-29T00:15:00.000Z",
@@ -53,11 +53,12 @@
   "odds": {
     "providerId": 1,
     "marketName": "Full time",
-    "home": "2.35",
+    "home": "2.20",
     "draw": "3.00",
-    "away": "3.30",
+    "away": "3.60",
     "hasMoreOdds": true
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": null,
     "previousLeg": null,

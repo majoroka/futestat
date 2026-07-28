@@ -3,7 +3,7 @@
   "sourceEventId": "15235414",
   "matchUrl": "https://www.sofascore.com/football/match/red-bull-bragantino-atletico-mineiro/COsZO#id:15235414",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T08:37:45.027Z",
+  "scrapedAtUtc": "2026-07-28T15:38:24.265Z",
   "fixtureLastSeenAtUtc": "2026-07-23T14:06:50.122Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:21.473Z",
   "overview": {
@@ -32,6 +32,7 @@
     "away": "3.30",
     "hasMoreOdds": true
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": null,
     "previousLeg": null,

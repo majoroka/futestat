@@ -3,7 +3,7 @@
   "sourceEventId": "15235440",
   "matchUrl": "https://www.sofascore.com/football/match/chapecoense-vasco-da-gama/zOsVLi#id:15235440",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T08:37:51.345Z",
+  "scrapedAtUtc": "2026-07-28T15:38:30.501Z",
   "fixtureLastSeenAtUtc": "2026-07-23T14:06:50.122Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:21.473Z",
   "overview": {
@@ -34,6 +34,7 @@
     "away": "2.10",
     "hasMoreOdds": true
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": null,
     "previousLeg": null,

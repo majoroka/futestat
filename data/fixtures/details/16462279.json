@@ -3,8 +3,8 @@
   "sourceEventId": "16462279",
   "matchUrl": "https://www.sofascore.com/football/match/fc-dila-gori-apollon-limassol/ctbsuBn#id:16462279",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T14:57:42.235Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T14:56:33.877Z",
+  "scrapedAtUtc": "2026-07-28T15:37:21.572Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:36:19.394Z",
   "fixtureLastChangedAtUtc": "2026-07-28T14:56:33.877Z",
   "overview": {
     "kickoffAtUtc": "2026-07-28T17:00:00.000Z",
@@ -33,11 +33,12 @@
   "odds": {
     "providerId": 801,
     "marketName": "Full time",
-    "home": "1.30",
-    "draw": "4.92",
-    "away": "7.88",
+    "home": "1.28",
+    "draw": "5.11",
+    "away": "7.86",
     "hasMoreOdds": false
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": "Two legs",
     "previousLeg": {

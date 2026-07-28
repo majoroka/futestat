@@ -3,8 +3,8 @@
   "sourceEventId": "16350244",
   "matchUrl": "https://www.sofascore.com/football/match/fc-ararat-armenia-shamrock-rovers/CnbsEUec#id:16350244",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T14:58:04.082Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "scrapedAtUtc": "2026-07-28T15:37:43.222Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:36:16.343Z",
   "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
   "overview": {
     "kickoffAtUtc": "2026-07-28T19:00:00.000Z",
@@ -30,11 +30,12 @@
   "odds": {
     "providerId": 801,
     "marketName": "Full time",
-    "home": "1.62",
-    "draw": "3.77",
-    "away": "4.56",
+    "home": "1.63",
+    "draw": "3.74",
+    "away": "4.53",
     "hasMoreOdds": false
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": "Two legs",
     "previousLeg": {

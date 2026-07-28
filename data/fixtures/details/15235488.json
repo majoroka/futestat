@@ -3,8 +3,8 @@
   "sourceEventId": "15235488",
   "matchUrl": "https://www.sofascore.com/football/match/flamengo-internacional/qOsGuc#id:15235488",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T08:38:04.223Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T08:36:23.264Z",
+  "scrapedAtUtc": "2026-07-28T15:38:55.308Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:37:06.930Z",
   "fixtureLastChangedAtUtc": "2026-07-23T13:33:21.473Z",
   "overview": {
     "kickoffAtUtc": "2026-07-29T22:30:00.000Z",
@@ -36,11 +36,12 @@
   "odds": {
     "providerId": 1,
     "marketName": "Full time",
-    "home": "4.00",
+    "home": "4.20",
     "draw": "3.40",
-    "away": "1.91",
+    "away": "1.86",
     "hasMoreOdds": true
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": null,
     "previousLeg": null,

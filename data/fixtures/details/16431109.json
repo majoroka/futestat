@@ -3,21 +3,21 @@
   "sourceEventId": "16431109",
   "matchUrl": "https://www.sofascore.com/football/match/estudiantes-de-rio-cuarto-argentinos-juniors/qobsUIgc#id:16431109",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T08:37:35.342Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T08:37:19.201Z",
+  "scrapedAtUtc": "2026-07-28T15:37:52.851Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:37:08.515Z",
   "fixtureLastChangedAtUtc": "2026-07-28T08:37:19.201Z",
   "overview": {
     "kickoffAtUtc": "2026-07-29T00:15:00.000Z",
     "competitionId": "155",
     "competitionName": "Liga Profesional, Clausura",
     "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/155/image",
-    "competitionStage": "Primera LPF 2026",
+    "competitionStage": null,
     "countryName": "Argentina",
-    "venueName": "Mario Alberto Kempes",
-    "venueCity": "Cordoba",
-    "venueCountry": "Argentina",
-    "refereeName": "Felipe Viola",
-    "refereeCountry": "Argentina"
+    "venueName": null,
+    "venueCity": null,
+    "venueCountry": null,
+    "refereeName": null,
+    "refereeCountry": null
   },
   "watch": {
     "hasPortugalChannels": false,
@@ -32,11 +32,12 @@
   "odds": {
     "providerId": 1,
     "marketName": "Full time",
-    "home": "1.39",
-    "draw": "3.90",
+    "home": "1.37",
+    "draw": "4.20",
     "away": "10.00",
     "hasMoreOdds": true
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": null,
     "previousLeg": null,

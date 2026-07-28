@@ -3,8 +3,8 @@
   "sourceEventId": "16350251",
   "matchUrl": "https://www.sofascore.com/football/match/heart-of-midlothian-sk-sturm-graz/bQsdX#id:16350251",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T14:58:00.835Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "scrapedAtUtc": "2026-07-28T15:37:40.144Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:36:16.343Z",
   "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
   "overview": {
     "kickoffAtUtc": "2026-07-28T18:45:00.000Z",
@@ -41,11 +41,12 @@
   "odds": {
     "providerId": 801,
     "marketName": "Full time",
-    "home": "1.82",
-    "draw": "3.72",
-    "away": "3.53",
+    "home": "1.84",
+    "draw": "3.73",
+    "away": "3.44",
     "hasMoreOdds": false
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": "Two legs",
     "previousLeg": {

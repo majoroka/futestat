@@ -3,21 +3,21 @@
   "sourceEventId": "16350250",
   "matchUrl": "https://www.sofascore.com/football/match/gornik-zabrze-fenerbahce/clbskmb#id:16350250",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T14:58:32.424Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "scrapedAtUtc": "2026-07-28T15:38:39.730Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:36:16.343Z",
   "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
   "overview": {
     "kickoffAtUtc": "2026-07-29T18:00:00.000Z",
     "competitionId": "7",
     "competitionName": "UEFA Champions League, Qualification",
     "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
-    "competitionStage": null,
+    "competitionStage": "Qualification Round 2",
     "countryName": "Europe",
-    "venueName": null,
-    "venueCity": null,
-    "venueCountry": null,
-    "refereeName": null,
-    "refereeCountry": null
+    "venueName": "Stadion im. Ernesta Pohla",
+    "venueCity": "Zabrze",
+    "venueCountry": "Poland",
+    "refereeName": "Lothar D'hondt",
+    "refereeCountry": "Belgium"
   },
   "watch": {
     "hasPortugalChannels": true,
@@ -37,8 +37,9 @@
     "away": "1.50",
     "hasMoreOdds": true
   },
+  "standings": [],
   "tieContext": {
-    "tieFormat": null,
+    "tieFormat": "Two legs",
     "previousLeg": {
       "sourceEventId": "16350222",
       "matchUrl": "https://www.sofascore.com/football/match/gornik-zabrze-fenerbahce/clbskmb#id:16350222",

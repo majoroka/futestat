@@ -3,8 +3,8 @@
   "sourceEventId": "16350246",
   "matchUrl": "https://www.sofascore.com/football/match/fc-thun-gnk-dinamo-zagreb/HPseZ#id:16350246",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T14:57:51.515Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "scrapedAtUtc": "2026-07-28T15:37:30.925Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:36:16.343Z",
   "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
   "overview": {
     "kickoffAtUtc": "2026-07-28T18:00:00.000Z",
@@ -22,21 +22,25 @@
   "watch": {
     "hasPortugalChannels": false,
     "availableCountryCodes": [
+      "BA",
       "BR",
       "CH",
       "DE",
-      "HR"
+      "HR",
+      "MK",
+      "RS"
     ],
     "note": "Sem canais para Portugal; existe cobertura noutros países."
   },
   "odds": {
     "providerId": 801,
     "marketName": "Full time",
-    "home": "1.31",
-    "draw": "4.93",
-    "away": "7.40",
+    "home": "1.30",
+    "draw": "5.12",
+    "away": "7.39",
     "hasMoreOdds": false
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": null,
     "previousLeg": {

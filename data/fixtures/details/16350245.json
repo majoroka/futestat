@@ -3,8 +3,8 @@
   "sourceEventId": "16350245",
   "matchUrl": "https://www.sofascore.com/football/match/kairat-almaty-omonia-nicosia/Vrbsxdc#id:16350245",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T14:58:10.429Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "scrapedAtUtc": "2026-07-28T15:38:02.214Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:36:16.343Z",
   "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
   "overview": {
     "kickoffAtUtc": "2026-07-29T15:00:00.000Z",
@@ -38,6 +38,7 @@
     "away": "3.30",
     "hasMoreOdds": true
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": "Two legs",
     "previousLeg": {

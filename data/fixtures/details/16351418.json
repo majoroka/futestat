@@ -3,8 +3,8 @@
   "sourceEventId": "16351418",
   "matchUrl": "https://www.sofascore.com/football/match/polissya-zhytomyr-fc-kobenhavn/JAsLvdc#id:16351418",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T14:58:19.816Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T14:56:33.877Z",
+  "scrapedAtUtc": "2026-07-28T15:38:11.548Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:36:19.394Z",
   "fixtureLastChangedAtUtc": "2026-07-28T14:56:33.877Z",
   "overview": {
     "kickoffAtUtc": "2026-07-29T17:00:00.000Z",
@@ -39,6 +39,7 @@
     "away": "4.10",
     "hasMoreOdds": true
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": null,
     "previousLeg": {

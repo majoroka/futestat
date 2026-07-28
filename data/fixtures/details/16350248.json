@@ -3,8 +3,8 @@
   "sourceEventId": "16350248",
   "matchUrl": "https://www.sofascore.com/football/match/fc-iberia-1999-sk-slovan-bratislava/eYsmBW#id:16350248",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T14:58:35.600Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "scrapedAtUtc": "2026-07-28T15:38:42.796Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:36:16.343Z",
   "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
   "overview": {
     "kickoffAtUtc": "2026-07-29T18:15:00.000Z",
@@ -35,6 +35,7 @@
     "away": "8.00",
     "hasMoreOdds": true
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": "Two legs",
     "previousLeg": {

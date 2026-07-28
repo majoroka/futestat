@@ -3,8 +3,8 @@
   "sourceEventId": "16527687",
   "matchUrl": "https://www.sofascore.com/football/match/riga-fc-fk-vardar-skopje/dicstXob#id:16527687",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T14:57:45.312Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T14:56:33.877Z",
+  "scrapedAtUtc": "2026-07-28T15:37:24.687Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:36:19.394Z",
   "fixtureLastChangedAtUtc": "2026-07-28T14:56:33.877Z",
   "overview": {
     "kickoffAtUtc": "2026-07-28T17:00:00.000Z",
@@ -40,6 +40,7 @@
     "away": "6.45",
     "hasMoreOdds": false
   },
+  "standings": [],
   "tieContext": {
     "tieFormat": "Two legs",
     "previousLeg": {

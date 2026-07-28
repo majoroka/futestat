@@ -3,21 +3,21 @@
   "sourceEventId": "16350242",
   "matchUrl": "https://www.sofascore.com/football/match/lech-poznan-agf/QAswmb#id:16350242",
   "status": "upcoming",
-  "scrapedAtUtc": "2026-07-28T14:58:16.678Z",
-  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "scrapedAtUtc": "2026-07-28T15:38:08.435Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T15:36:16.343Z",
   "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
   "overview": {
     "kickoffAtUtc": "2026-07-29T17:00:00.000Z",
     "competitionId": "7",
     "competitionName": "UEFA Champions League, Qualification",
     "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
-    "competitionStage": null,
+    "competitionStage": "Qualification Round 2",
     "countryName": "Europe",
-    "venueName": null,
-    "venueCity": null,
-    "venueCountry": null,
-    "refereeName": null,
-    "refereeCountry": null
+    "venueName": "Enea Poznań",
+    "venueCity": "Poznan",
+    "venueCountry": "Poland",
+    "refereeName": "Juxhin Xhaja",
+    "refereeCountry": "Albania"
   },
   "watch": {
     "hasPortugalChannels": false,
@@ -35,8 +35,9 @@
     "away": "4.33",
     "hasMoreOdds": true
   },
+  "standings": [],
   "tieContext": {
-    "tieFormat": null,
+    "tieFormat": "Two legs",
     "previousLeg": {
       "sourceEventId": "16350225",
       "matchUrl": "https://www.sofascore.com/football/match/lech-poznan-agf/QAswmb#id:16350225",
