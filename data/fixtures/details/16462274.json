@@ -1,0 +1,159 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16462274",
+  "matchUrl": "https://www.sofascore.com/football/match/fc-drita-floriana-fc/JwnsfVQb#id:16462274",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T14:57:54.568Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T14:56:33.877Z",
+  "fixtureLastChangedAtUtc": "2026-07-28T14:56:33.877Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-28T18:00:00.000Z",
+    "competitionId": "17015",
+    "competitionName": "UEFA Conference League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "Stadiumi Fadil Vokrri",
+    "venueCity": "Prishtinë",
+    "venueCountry": "Kosovo",
+    "refereeName": "Horatiu Fesnic",
+    "refereeCountry": "Romania"
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "BR"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "1.47",
+    "draw": "3.95",
+    "away": "5.93",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": {
+      "sourceEventId": "16357200",
+      "matchUrl": "https://www.sofascore.com/football/match/fc-drita-floriana-fc/JwnsfVQb#id:16357200",
+      "kickoffAtUtc": "2026-07-21T17:30:00.000Z",
+      "competitionName": "UEFA Conference League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "33584",
+      "homeTeamName": "Floriana FC",
+      "awayTeamId": "229755",
+      "awayTeamName": "FC Drita",
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "finished",
+      "resultLabel": "FT",
+      "previousLegEventId": null,
+      "winnerCode": 3
+    },
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "16357200",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-drita-floriana-fc/JwnsfVQb#id:16357200",
+        "kickoffAtUtc": "2026-07-21T17:30:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "33584",
+        "homeTeamName": "Floriana FC",
+        "awayTeamId": "229755",
+        "awayTeamName": "FC Drita",
+        "homeScore": 1,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15396010",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-drita-vasas/uNsfVQb#id:15396010",
+        "kickoffAtUtc": "2026-01-19T12:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "1919",
+        "homeTeamName": "Vasas",
+        "awayTeamId": "229755",
+        "awayTeamName": "FC Drita",
+        "homeScore": 2,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15404509",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-drita-fk-dobrudzha-dobrich/RecsfVQb#id:15404509",
+        "kickoffAtUtc": "2026-01-21T14:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "5242",
+        "homeTeamName": "FK Dobrudzha Dobrich",
+        "awayTeamId": "229755",
+        "awayTeamName": "FC Drita",
+        "homeScore": 1,
+        "awayScore": 4,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "15443527",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-drita-mfk-zemplin-michalovce/KhdsfVQb#id:15443527",
+        "kickoffAtUtc": "2026-01-30T13:30:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "229755",
+        "homeTeamName": "FC Drita",
+        "awayTeamId": "7885",
+        "awayTeamName": "MFK Zemplín Michalovce",
+        "homeScore": 1,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16651982",
+        "matchUrl": "https://www.sofascore.com/football/match/kf-llapi-fc-drita/fVQbslVQb#id:16651982",
+        "kickoffAtUtc": "2026-08-15T15:00:00.000Z",
+        "competitionName": "Superliga",
+        "countryName": "Kosovo",
+        "roundName": null,
+        "homeTeamId": "229755",
+        "homeTeamName": "FC Drita",
+        "awayTeamId": "229761",
+        "awayTeamName": "KF Llapi",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

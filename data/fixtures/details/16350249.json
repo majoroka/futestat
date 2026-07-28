@@ -1,0 +1,179 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16350249",
+  "matchUrl": "https://www.sofascore.com/football/match/kf-egnatia-nk-celje/nYsuRfc#id:16350249",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T14:57:57.714Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-28T18:15:00.000Z",
+    "competitionId": "7",
+    "competitionName": "UEFA Champions League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "Arena Z’dezele",
+    "venueCity": "Celje",
+    "venueCountry": "Slovenia",
+    "refereeName": "Joey Kooij",
+    "refereeCountry": "Netherlands"
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "AL",
+      "SI",
+      "XK"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "1.40",
+    "draw": "4.53",
+    "away": "5.91",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": {
+      "sourceEventId": "16350230",
+      "matchUrl": "https://www.sofascore.com/football/match/kf-egnatia-nk-celje/nYsuRfc#id:16350230",
+      "kickoffAtUtc": "2026-07-22T19:00:00.000Z",
+      "competitionName": "UEFA Champions League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "264619",
+      "homeTeamName": "KF Egnatia",
+      "awayTeamId": "2413",
+      "awayTeamName": "NK Celje",
+      "homeScore": 3,
+      "awayScore": 3,
+      "status": "finished",
+      "resultLabel": "FT",
+      "previousLegEventId": null,
+      "winnerCode": 3
+    },
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "16350230",
+        "matchUrl": "https://www.sofascore.com/football/match/kf-egnatia-nk-celje/nYsuRfc#id:16350230",
+        "kickoffAtUtc": "2026-07-22T19:00:00.000Z",
+        "competitionName": "UEFA Champions League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "264619",
+        "homeTeamName": "KF Egnatia",
+        "awayTeamId": "2413",
+        "awayTeamName": "NK Celje",
+        "homeScore": 3,
+        "awayScore": 3,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "14074319",
+        "matchUrl": "https://www.sofascore.com/football/match/nk-maribor-nk-celje/nYsvY#id:14074319",
+        "kickoffAtUtc": "2026-02-01T14:00:00.000Z",
+        "competitionName": "PrvaLiga",
+        "countryName": "Slovenia",
+        "roundName": null,
+        "homeTeamId": "2420",
+        "homeTeamName": "NK Maribor",
+        "awayTeamId": "2413",
+        "awayTeamName": "NK Celje",
+        "homeScore": 3,
+        "awayScore": 3,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      },
+      {
+        "sourceEventId": "14074327",
+        "matchUrl": "https://www.sofascore.com/football/match/kalcer-radomlje-nk-celje/nYsMep#id:14074327",
+        "kickoffAtUtc": "2026-02-04T16:30:00.000Z",
+        "competitionName": "PrvaLiga",
+        "countryName": "Slovenia",
+        "roundName": null,
+        "homeTeamId": "2413",
+        "homeTeamName": "NK Celje",
+        "awayTeamId": "37737",
+        "awayTeamName": "Kalcer Radomlje",
+        "homeScore": 3,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14074167",
+        "matchUrl": "https://www.sofascore.com/football/match/nk-olimpija-ljubljana-nk-celje/nYsqY#id:14074167",
+        "kickoffAtUtc": "2026-02-08T14:00:00.000Z",
+        "competitionName": "PrvaLiga",
+        "countryName": "Slovenia",
+        "roundName": null,
+        "homeTeamId": "2416",
+        "homeTeamName": "NK Olimpija Ljubljana",
+        "awayTeamId": "2413",
+        "awayTeamName": "NK Celje",
+        "homeScore": 3,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16378703",
+        "matchUrl": "https://www.sofascore.com/football/match/nk-maribor-nk-celje/nYsvY#id:16378703",
+        "kickoffAtUtc": "2026-08-01T18:15:00.000Z",
+        "competitionName": "PrvaLiga",
+        "countryName": "Slovenia",
+        "roundName": null,
+        "homeTeamId": "2413",
+        "homeTeamName": "NK Celje",
+        "awayTeamId": "2420",
+        "awayTeamName": "NK Maribor",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16378711",
+        "matchUrl": "https://www.sofascore.com/football/match/nk-olimpija-ljubljana-nk-celje/nYsqY#id:16378711",
+        "kickoffAtUtc": "2026-08-08T15:00:00.000Z",
+        "competitionName": "PrvaLiga",
+        "countryName": "Slovenia",
+        "roundName": null,
+        "homeTeamId": "2413",
+        "homeTeamName": "NK Celje",
+        "awayTeamId": "2416",
+        "awayTeamName": "NK Olimpija Ljubljana",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

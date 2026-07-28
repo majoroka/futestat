@@ -1,0 +1,182 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16351418",
+  "matchUrl": "https://www.sofascore.com/football/match/polissya-zhytomyr-fc-kobenhavn/JAsLvdc#id:16351418",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T14:58:19.816Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T14:56:33.877Z",
+  "fixtureLastChangedAtUtc": "2026-07-28T14:56:33.877Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-29T17:00:00.000Z",
+    "competitionId": "17015",
+    "competitionName": "UEFA Conference League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
+    "competitionStage": null,
+    "countryName": "Europe",
+    "venueName": null,
+    "venueCity": null,
+    "venueCountry": null,
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": true,
+    "availableCountryCodes": [
+      "CZ",
+      "FR",
+      "PL",
+      "PT",
+      "SK",
+      "UA"
+    ],
+    "note": "Canais disponíveis para Portugal."
+  },
+  "odds": {
+    "providerId": 1,
+    "marketName": "Full time",
+    "home": "1.70",
+    "draw": "3.70",
+    "away": "4.10",
+    "hasMoreOdds": true
+  },
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": {
+      "sourceEventId": "16351138",
+      "matchUrl": "https://www.sofascore.com/football/match/polissya-zhytomyr-fc-kobenhavn/JAsLvdc#id:16351138",
+      "kickoffAtUtc": "2026-07-23T18:00:00.000Z",
+      "competitionName": "UEFA Conference League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "258536",
+      "homeTeamName": "Polissya Zhytomyr",
+      "awayTeamId": "1284",
+      "awayTeamName": "FC København",
+      "homeScore": 3,
+      "awayScore": 3,
+      "status": "finished",
+      "resultLabel": "FT",
+      "previousLegEventId": null,
+      "winnerCode": 3
+    },
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "16351138",
+        "matchUrl": "https://www.sofascore.com/football/match/polissya-zhytomyr-fc-kobenhavn/JAsLvdc#id:16351138",
+        "kickoffAtUtc": "2026-07-23T18:00:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "258536",
+        "homeTeamName": "Polissya Zhytomyr",
+        "awayTeamId": "1284",
+        "awayTeamName": "FC København",
+        "homeScore": 3,
+        "awayScore": 3,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15328901",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-kobenhavn-sk-brann/jysJA#id:15328901",
+        "kickoffAtUtc": "2026-01-10T15:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "1159",
+        "homeTeamName": "SK Brann",
+        "awayTeamId": "1284",
+        "awayTeamName": "FC København",
+        "homeScore": 1,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      },
+      {
+        "sourceEventId": "15326157",
+        "matchUrl": "https://www.sofascore.com/football/match/sk-sturm-graz-fc-kobenhavn/JAsbQ#id:15326157",
+        "kickoffAtUtc": "2026-01-14T15:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "2051",
+        "homeTeamName": "SK Sturm Graz",
+        "awayTeamId": "1284",
+        "awayTeamName": "FC København",
+        "homeScore": 4,
+        "awayScore": 4,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      },
+      {
+        "sourceEventId": "14566973",
+        "matchUrl": "https://www.sofascore.com/football/match/napoli-fc-kobenhavn/JAsoeb#id:14566973",
+        "kickoffAtUtc": "2026-01-20T20:00:00.000Z",
+        "competitionName": "UEFA Champions League",
+        "countryName": "Europe",
+        "roundName": null,
+        "homeTeamId": "1284",
+        "homeTeamName": "FC København",
+        "awayTeamId": "2714",
+        "awayTeamName": "SSC Napoli",
+        "homeScore": 1,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16278677",
+        "matchUrl": "https://www.sofascore.com/football/match/silkeborg-if-fc-kobenhavn/JAsKA#id:16278677",
+        "kickoffAtUtc": "2026-08-02T16:00:00.000Z",
+        "competitionName": "Danish Superliga",
+        "countryName": "Denmark",
+        "roundName": null,
+        "homeTeamId": "1285",
+        "homeTeamName": "Silkeborg IF",
+        "awayTeamId": "1284",
+        "awayTeamName": "FC København",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16278693",
+        "matchUrl": "https://www.sofascore.com/football/match/randers-fc-fc-kobenhavn/JAsbB#id:16278693",
+        "kickoffAtUtc": "2026-08-16T16:00:00.000Z",
+        "competitionName": "Danish Superliga",
+        "countryName": "Denmark",
+        "roundName": null,
+        "homeTeamId": "1301",
+        "homeTeamName": "Randers FC",
+        "awayTeamId": "1284",
+        "awayTeamName": "FC København",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

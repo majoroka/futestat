@@ -1,0 +1,181 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16462279",
+  "matchUrl": "https://www.sofascore.com/football/match/fc-dila-gori-apollon-limassol/ctbsuBn#id:16462279",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T14:57:42.235Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T14:56:33.877Z",
+  "fixtureLastChangedAtUtc": "2026-07-28T14:56:33.877Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-28T17:00:00.000Z",
+    "competitionId": "17015",
+    "competitionName": "UEFA Conference League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "Alphamega Stadium",
+    "venueCity": "Limassol",
+    "venueCountry": "Cyprus",
+    "refereeName": "Klim Zabroda",
+    "refereeCountry": "Ukraine"
+  },
+  "watch": {
+    "hasPortugalChannels": true,
+    "availableCountryCodes": [
+      "BR",
+      "CY",
+      "FR",
+      "PL",
+      "PT"
+    ],
+    "note": "Canais disponíveis para Portugal."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "1.30",
+    "draw": "4.92",
+    "away": "7.88",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": {
+      "sourceEventId": "16357215",
+      "matchUrl": "https://www.sofascore.com/football/match/fc-dila-gori-apollon-limassol/ctbsuBn#id:16357215",
+      "kickoffAtUtc": "2026-07-23T16:00:00.000Z",
+      "competitionName": "UEFA Conference League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "33819",
+      "homeTeamName": "FC Dila Gori",
+      "awayTeamId": "3402",
+      "awayTeamName": "Apollon Limassol",
+      "homeScore": 0,
+      "awayScore": 4,
+      "status": "finished",
+      "resultLabel": "FT",
+      "previousLegEventId": null,
+      "winnerCode": 2
+    },
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "16357215",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-dila-gori-apollon-limassol/ctbsuBn#id:16357215",
+        "kickoffAtUtc": "2026-07-23T16:00:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "33819",
+        "homeTeamName": "FC Dila Gori",
+        "awayTeamId": "3402",
+        "awayTeamName": "Apollon Limassol",
+        "homeScore": 0,
+        "awayScore": 4,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "14222815",
+        "matchUrl": "https://www.sofascore.com/football/match/enosis-neon-paralimniou-apollon-limassol/ctbsftb#id:14222815",
+        "kickoffAtUtc": "2026-01-11T15:00:00.000Z",
+        "competitionName": "1st Division",
+        "countryName": "Cyprus",
+        "roundName": null,
+        "homeTeamId": "3405",
+        "homeTeamName": "Enosis Neon Paralimniou",
+        "awayTeamId": "3402",
+        "awayTeamName": "Apollon Limassol",
+        "homeScore": 0,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "15178554",
+        "matchUrl": "https://www.sofascore.com/football/match/anorthosis-famagusta-apollon-limassol/ctbsdtb#id:15178554",
+        "kickoffAtUtc": "2026-01-14T16:00:00.000Z",
+        "competitionName": "Cyprus Cup",
+        "countryName": "Cyprus",
+        "roundName": "Round 2",
+        "homeTeamId": "3402",
+        "homeTeamName": "Apollon Limassol",
+        "awayTeamId": "3403",
+        "awayTeamName": "Anorthosis Famagusta",
+        "homeScore": 2,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14222829",
+        "matchUrl": "https://www.sofascore.com/football/match/apollon-limassol-apoel-nicosia/Yrbsctb#id:14222829",
+        "kickoffAtUtc": "2026-01-18T17:00:00.000Z",
+        "competitionName": "1st Division",
+        "countryName": "Cyprus",
+        "roundName": null,
+        "homeTeamId": "3402",
+        "homeTeamName": "Apollon Limassol",
+        "awayTeamId": "3398",
+        "awayTeamName": "APOEL Nicosia",
+        "homeScore": 2,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16633366",
+        "matchUrl": "https://www.sofascore.com/football/match/apollon-limassol-aris-limassol/Xrbsctb#id:16633366",
+        "kickoffAtUtc": "2026-08-28T18:00:00.000Z",
+        "competitionName": "1st Division",
+        "countryName": "Cyprus",
+        "roundName": null,
+        "homeTeamId": "3397",
+        "homeTeamName": "Aris Limassol",
+        "awayTeamId": "3402",
+        "awayTeamName": "Apollon Limassol",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16633359",
+        "matchUrl": "https://www.sofascore.com/football/match/anorthosis-famagusta-apollon-limassol/ctbsdtb#id:16633359",
+        "kickoffAtUtc": "2026-09-04T18:00:00.000Z",
+        "competitionName": "1st Division",
+        "countryName": "Cyprus",
+        "roundName": null,
+        "homeTeamId": "3402",
+        "homeTeamName": "Apollon Limassol",
+        "awayTeamId": "3403",
+        "awayTeamName": "Anorthosis Famagusta",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16526435",
+  "matchUrl": "https://www.sofascore.com/football/match/sabah-fk-kuopion-palloseura/UUsDghc#id:16526435",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T14:57:33.527Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-28T15:00:00.000Z",
+    "competitionId": "7",
+    "competitionName": "UEFA Champions League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
+    "competitionStage": null,
+    "countryName": "Europe",
+    "venueName": null,
+    "venueCity": null,
+    "venueCountry": null,
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "AZ",
+      "BR"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "2.76",
+    "draw": "3.26",
+    "away": "2.32",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": {
+      "sourceEventId": "16526434",
+      "matchUrl": "https://www.sofascore.com/football/match/sabah-fk-kuopion-palloseura/UUsDghc#id:16526434",
+      "kickoffAtUtc": "2026-07-21T16:00:00.000Z",
+      "competitionName": "UEFA Champions League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "267828",
+      "homeTeamName": "Sabah FK",
+      "awayTeamId": "2244",
+      "awayTeamName": "Kuopion Palloseura",
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "finished",
+      "resultLabel": "FT",
+      "previousLegEventId": null,
+      "winnerCode": 1
+    },
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "16526434",
+        "matchUrl": "https://www.sofascore.com/football/match/sabah-fk-kuopion-palloseura/UUsDghc#id:16526434",
+        "kickoffAtUtc": "2026-07-21T16:00:00.000Z",
+        "competitionName": "UEFA Champions League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "267828",
+        "homeTeamName": "Sabah FK",
+        "awayTeamId": "2244",
+        "awayTeamName": "Kuopion Palloseura",
+        "homeScore": 1,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15253982",
+        "matchUrl": "https://www.sofascore.com/football/match/ac-oulu-kups/UUsocc#id:15253982",
+        "kickoffAtUtc": "2026-02-14T14:00:00.000Z",
+        "competitionName": "Liigacup, Group B",
+        "countryName": "Finland",
+        "roundName": null,
+        "homeTeamId": "5114",
+        "homeTeamName": "AC Oulu",
+        "awayTeamId": "2244",
+        "awayTeamName": "Kuopion Palloseura",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "postponed",
+        "resultLabel": "Postponed",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "15380191",
+        "matchUrl": "https://www.sofascore.com/football/match/lech-poznan-kups/UUswmb#id:15380191",
+        "kickoffAtUtc": "2026-02-19T17:45:00.000Z",
+        "competitionName": "UEFA Conference League, Knockout stage",
+        "countryName": "Europe",
+        "roundName": "Playoff round",
+        "homeTeamId": "2244",
+        "homeTeamName": "Kuopion Palloseura",
+        "awayTeamId": "3121",
+        "awayTeamName": "Lech Poznań",
+        "homeScore": 0,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "15253988",
+        "matchUrl": "https://www.sofascore.com/football/match/ff-jaro-kups/UUscV#id:15253988",
+        "kickoffAtUtc": "2026-02-22T13:00:00.000Z",
+        "competitionName": "Liigacup, Group B",
+        "countryName": "Finland",
+        "roundName": null,
+        "homeTeamId": "2244",
+        "homeTeamName": "Kuopion Palloseura",
+        "awayTeamId": "2252",
+        "awayTeamName": "FF Jaro",
+        "homeScore": 3,
+        "awayScore": 4,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "15272804",
+        "matchUrl": "https://www.sofascore.com/football/match/if-gnistan-kups/UUswV#id:15272804",
+        "kickoffAtUtc": "2026-08-01T16:00:00.000Z",
+        "competitionName": "Veikkausliiga",
+        "countryName": "Finland",
+        "roundName": null,
+        "homeTeamId": "2271",
+        "homeTeamName": "IF Gnistan",
+        "awayTeamId": "2244",
+        "awayTeamName": "Kuopion Palloseura",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "15272810",
+        "matchUrl": "https://www.sofascore.com/football/match/tps-kups/UUseV#id:15272810",
+        "kickoffAtUtc": "2026-08-08T14:00:00.000Z",
+        "competitionName": "Veikkausliiga",
+        "countryName": "Finland",
+        "roundName": null,
+        "homeTeamId": "2244",
+        "homeTeamName": "Kuopion Palloseura",
+        "awayTeamId": "2254",
+        "awayTeamName": "Turun Palloseura",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

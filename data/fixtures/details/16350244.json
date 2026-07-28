@@ -1,0 +1,178 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16350244",
+  "matchUrl": "https://www.sofascore.com/football/match/fc-ararat-armenia-shamrock-rovers/CnbsEUec#id:16350244",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T14:58:04.082Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-28T19:00:00.000Z",
+    "competitionId": "7",
+    "competitionName": "UEFA Champions League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "Tallaght Stadium",
+    "venueCity": "Dublin",
+    "venueCountry": "Ireland",
+    "refereeName": "Samuel Barrott",
+    "refereeCountry": "England"
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "GB",
+      "IE"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "1.62",
+    "draw": "3.77",
+    "away": "4.56",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": {
+      "sourceEventId": "16350227",
+      "matchUrl": "https://www.sofascore.com/football/match/fc-ararat-armenia-shamrock-rovers/CnbsEUec#id:16350227",
+      "kickoffAtUtc": "2026-07-21T16:00:00.000Z",
+      "competitionName": "UEFA Champions League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "262229",
+      "homeTeamName": "FC Ararat-Armenia",
+      "awayTeamId": "3177",
+      "awayTeamName": "Shamrock Rovers",
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "finished",
+      "resultLabel": "FT",
+      "previousLegEventId": null,
+      "winnerCode": 1
+    },
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "16350227",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-ararat-armenia-shamrock-rovers/CnbsEUec#id:16350227",
+        "kickoffAtUtc": "2026-07-21T16:00:00.000Z",
+        "competitionName": "UEFA Champions League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "262229",
+        "homeTeamName": "FC Ararat-Armenia",
+        "awayTeamId": "3177",
+        "awayTeamName": "Shamrock Rovers",
+        "homeScore": 2,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15498516",
+        "matchUrl": "https://www.sofascore.com/football/match/dundalk-fc-shamrock-rovers/CnbsEnb#id:15498516",
+        "kickoffAtUtc": "2026-02-23T20:00:00.000Z",
+        "competitionName": "Premier Division",
+        "countryName": "Ireland",
+        "roundName": null,
+        "homeTeamId": "3177",
+        "homeTeamName": "Shamrock Rovers",
+        "awayTeamId": "3179",
+        "awayTeamName": "Dundalk FC",
+        "homeScore": 1,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      },
+      {
+        "sourceEventId": "15238022",
+        "matchUrl": "https://www.sofascore.com/football/match/shamrock-rovers-bohemian-fc/ynbsCnb#id:15238022",
+        "kickoffAtUtc": "2026-02-27T20:00:00.000Z",
+        "competitionName": "Premier Division",
+        "countryName": "Ireland",
+        "roundName": null,
+        "homeTeamId": "3173",
+        "homeTeamName": "Bohemian FC",
+        "awayTeamId": "3177",
+        "awayTeamName": "Shamrock Rovers",
+        "homeScore": 3,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15238030",
+        "matchUrl": "https://www.sofascore.com/football/match/shamrock-rovers-derry-city/vnbsCnb#id:15238030",
+        "kickoffAtUtc": "2026-03-06T20:00:00.000Z",
+        "competitionName": "Premier Division",
+        "countryName": "Ireland",
+        "roundName": null,
+        "homeTeamId": "3177",
+        "homeTeamName": "Shamrock Rovers",
+        "awayTeamId": "3170",
+        "awayTeamName": "Derry City",
+        "homeScore": 1,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "15238133",
+        "matchUrl": "https://www.sofascore.com/football/match/drogheda-united-shamrock-rovers/CnbsFnb#id:15238133",
+        "kickoffAtUtc": "2026-07-31T19:00:00.000Z",
+        "competitionName": "Premier Division",
+        "countryName": "Ireland",
+        "roundName": null,
+        "homeTeamId": "3180",
+        "homeTeamName": "Drogheda United",
+        "awayTeamId": "3177",
+        "awayTeamName": "Shamrock Rovers",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "15238141",
+        "matchUrl": "https://www.sofascore.com/football/match/dundalk-fc-shamrock-rovers/CnbsEnb#id:15238141",
+        "kickoffAtUtc": "2026-08-07T19:00:00.000Z",
+        "competitionName": "Premier Division",
+        "countryName": "Ireland",
+        "roundName": null,
+        "homeTeamId": "3177",
+        "homeTeamName": "Shamrock Rovers",
+        "awayTeamId": "3179",
+        "awayTeamName": "Dundalk FC",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

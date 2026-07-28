@@ -1,0 +1,140 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16350239",
+  "matchUrl": "https://www.sofascore.com/football/match/lincoln-red-imps-mjallby-aif/IKseBab#id:16350239",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T14:57:39.132Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-28T16:00:00.000Z",
+    "competitionId": "7",
+    "competitionName": "UEFA Champions League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
+    "competitionStage": null,
+    "countryName": "Europe",
+    "venueName": null,
+    "venueCity": null,
+    "venueCountry": null,
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "BR"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "5.53",
+    "draw": "4.34",
+    "away": "1.45",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": {
+      "sourceEventId": "16350228",
+      "matchUrl": "https://www.sofascore.com/football/match/lincoln-red-imps-mjallby-aif/IKseBab#id:16350228",
+      "kickoffAtUtc": "2026-07-21T16:00:00.000Z",
+      "competitionName": "UEFA Champions League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "1783",
+      "homeTeamName": "Mjällby AIF",
+      "awayTeamId": "126304",
+      "awayTeamName": "Lincoln Red Imps",
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "finished",
+      "resultLabel": "FT",
+      "previousLegEventId": null,
+      "winnerCode": 1
+    },
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "16350228",
+        "matchUrl": "https://www.sofascore.com/football/match/lincoln-red-imps-mjallby-aif/IKseBab#id:16350228",
+        "kickoffAtUtc": "2026-07-21T16:00:00.000Z",
+        "competitionName": "UEFA Champions League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "1783",
+        "homeTeamName": "Mjällby AIF",
+        "awayTeamId": "126304",
+        "awayTeamName": "Lincoln Red Imps",
+        "homeScore": 3,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "14342084",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-hound-dogs-lincoln-red-imps/eBabsxlLc#id:14342084",
+        "kickoffAtUtc": "2025-12-10T20:00:00.000Z",
+        "competitionName": "National League",
+        "countryName": "Gibraltar",
+        "roundName": null,
+        "homeTeamId": "340572",
+        "homeTeamName": "FC Hound Dogs",
+        "awayTeamId": "126304",
+        "awayTeamName": "Lincoln Red Imps",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "postponed",
+        "resultLabel": "Postponed",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "14573069",
+        "matchUrl": "https://www.sofascore.com/football/match/lincoln-red-imps-sk-sigma-olomouc/hUseBab#id:14573069",
+        "kickoffAtUtc": "2025-12-11T20:00:00.000Z",
+        "competitionName": "UEFA Conference League",
+        "countryName": "Europe",
+        "roundName": null,
+        "homeTeamId": "126304",
+        "homeTeamName": "Lincoln Red Imps",
+        "awayTeamId": "2207",
+        "awayTeamName": "SK Sigma Olomouc",
+        "homeScore": 2,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14342170",
+        "matchUrl": "https://www.sofascore.com/football/match/lions-gibraltar-lincoln-red-imps/eBabsgBab#id:14342170",
+        "kickoffAtUtc": "2025-12-14T18:30:00.000Z",
+        "competitionName": "National League",
+        "countryName": "Gibraltar",
+        "roundName": null,
+        "homeTeamId": "126306",
+        "homeTeamName": "Lions Gibraltar",
+        "awayTeamId": "126304",
+        "awayTeamName": "Lincoln Red Imps",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "postponed",
+        "resultLabel": "Postponed",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "homeNext": [],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

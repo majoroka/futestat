@@ -1,0 +1,179 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16350243",
+  "matchUrl": "https://www.sofascore.com/football/match/universitatea-craiova-levski-sofia/ypbsyzW#id:16350243",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T14:58:26.047Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-29T17:30:00.000Z",
+    "competitionId": "7",
+    "competitionName": "UEFA Champions League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "Stadionul Ion Oblemenco",
+    "venueCity": "Craiova",
+    "venueCountry": "Romania",
+    "refereeName": "Matteo Marcenaro",
+    "refereeCountry": "Italy"
+  },
+  "watch": {
+    "hasPortugalChannels": true,
+    "availableCountryCodes": [
+      "BG",
+      "PT",
+      "RO"
+    ],
+    "note": "Canais disponíveis para Portugal."
+  },
+  "odds": {
+    "providerId": 1,
+    "marketName": "Full time",
+    "home": "1.85",
+    "draw": "3.50",
+    "away": "4.00",
+    "hasMoreOdds": true
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": {
+      "sourceEventId": "16350231",
+      "matchUrl": "https://www.sofascore.com/football/match/universitatea-craiova-levski-sofia/ypbsyzW#id:16350231",
+      "kickoffAtUtc": "2026-07-22T17:30:00.000Z",
+      "competitionName": "UEFA Champions League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "3273",
+      "homeTeamName": "Levski Sofia",
+      "awayTeamId": "116223",
+      "awayTeamName": "Universitatea Craiova",
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "finished",
+      "resultLabel": "FT",
+      "previousLegEventId": null,
+      "winnerCode": 1
+    },
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "16350231",
+        "matchUrl": "https://www.sofascore.com/football/match/universitatea-craiova-levski-sofia/ypbsyzW#id:16350231",
+        "kickoffAtUtc": "2026-07-22T17:30:00.000Z",
+        "competitionName": "UEFA Champions League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "3273",
+        "homeTeamName": "Levski Sofia",
+        "awayTeamId": "116223",
+        "awayTeamName": "Universitatea Craiova",
+        "homeScore": 1,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "14060351",
+        "matchUrl": "https://www.sofascore.com/football/match/universitatea-craiova-sc-otelul-galati/QpbsyzW#id:14060351",
+        "kickoffAtUtc": "2026-02-05T16:00:00.000Z",
+        "competitionName": "Superliga",
+        "countryName": "Romania",
+        "roundName": null,
+        "homeTeamId": "116223",
+        "homeTeamName": "Universitatea Craiova",
+        "awayTeamId": "3291",
+        "awayTeamName": "SC Oțelul Galați",
+        "homeScore": 1,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14060358",
+        "matchUrl": "https://www.sofascore.com/football/match/universitatea-craiova-fc-dinamo-bucuresti/RpbsyzW#id:14060358",
+        "kickoffAtUtc": "2026-02-09T18:00:00.000Z",
+        "competitionName": "Superliga",
+        "countryName": "Romania",
+        "roundName": null,
+        "homeTeamId": "3292",
+        "homeTeamName": "FC Dinamo București",
+        "awayTeamId": "116223",
+        "awayTeamName": "Universitatea Craiova",
+        "homeScore": 1,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      },
+      {
+        "sourceEventId": "14843643",
+        "matchUrl": "https://www.sofascore.com/football/match/universitatea-craiova-fcsb/bqbsyzW#id:14843643",
+        "kickoffAtUtc": "2026-02-12T18:30:00.000Z",
+        "competitionName": "Cupa României Betano, Group 2",
+        "countryName": "Romania",
+        "roundName": null,
+        "homeTeamId": "116223",
+        "homeTeamName": "Universitatea Craiova",
+        "awayTeamId": "3301",
+        "awayTeamName": "FCSB",
+        "homeScore": 2,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16403831",
+        "matchUrl": "https://www.sofascore.com/football/match/universitatea-craiova-fc-petrolul-ploiesti/grksyzW#id:16403831",
+        "kickoffAtUtc": "2026-08-01T18:30:00.000Z",
+        "competitionName": "Superliga",
+        "countryName": "Romania",
+        "roundName": null,
+        "homeTeamId": "116223",
+        "homeTeamName": "Universitatea Craiova",
+        "awayTeamId": "25856",
+        "awayTeamName": "FC Petrolul Ploiești",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16403847",
+        "matchUrl": "https://www.sofascore.com/football/match/universitatea-craiova-fc-arges-pitesti/wzWsyzW#id:16403847",
+        "kickoffAtUtc": "2026-08-08T13:00:00.000Z",
+        "competitionName": "Superliga",
+        "countryName": "Romania",
+        "roundName": null,
+        "homeTeamId": "116223",
+        "homeTeamName": "Universitatea Craiova",
+        "awayTeamId": "116221",
+        "awayTeamName": "FC Argeș Pitești",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

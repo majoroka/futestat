@@ -1,0 +1,180 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16350250",
+  "matchUrl": "https://www.sofascore.com/football/match/gornik-zabrze-fenerbahce/clbskmb#id:16350250",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T14:58:32.424Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-29T18:00:00.000Z",
+    "competitionId": "7",
+    "competitionName": "UEFA Champions League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
+    "competitionStage": null,
+    "countryName": "Europe",
+    "venueName": null,
+    "venueCity": null,
+    "venueCountry": null,
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": true,
+    "availableCountryCodes": [
+      "AZ",
+      "PL",
+      "PT",
+      "TR"
+    ],
+    "note": "Canais disponíveis para Portugal."
+  },
+  "odds": {
+    "providerId": 1,
+    "marketName": "Full time",
+    "home": "6.50",
+    "draw": "4.10",
+    "away": "1.50",
+    "hasMoreOdds": true
+  },
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": {
+      "sourceEventId": "16350222",
+      "matchUrl": "https://www.sofascore.com/football/match/gornik-zabrze-fenerbahce/clbskmb#id:16350222",
+      "kickoffAtUtc": "2026-07-21T18:00:00.000Z",
+      "competitionName": "UEFA Champions League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "3052",
+      "homeTeamName": "Fenerbahçe",
+      "awayTeamId": "3110",
+      "awayTeamName": "Górnik Zabrze",
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "finished",
+      "resultLabel": "FT",
+      "previousLegEventId": null,
+      "winnerCode": 1
+    },
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "16350222",
+        "matchUrl": "https://www.sofascore.com/football/match/gornik-zabrze-fenerbahce/clbskmb#id:16350222",
+        "kickoffAtUtc": "2026-07-21T18:00:00.000Z",
+        "competitionName": "UEFA Champions League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "3052",
+        "homeTeamName": "Fenerbahçe",
+        "awayTeamId": "3110",
+        "awayTeamName": "Górnik Zabrze",
+        "homeScore": 1,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15331156",
+        "matchUrl": "https://www.sofascore.com/football/match/gornik-zabrze-sk-slovan-bratislava/eYskmb#id:15331156",
+        "kickoffAtUtc": "2026-01-23T11:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "3110",
+        "homeTeamName": "Górnik Zabrze",
+        "awayTeamId": "2404",
+        "awayTeamName": "ŠK Slovan Bratislava",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "postponed",
+        "resultLabel": "Postponed",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "13981910",
+        "matchUrl": "https://www.sofascore.com/football/match/piast-gliwice-gornik-zabrze/kmbstid#id:13981910",
+        "kickoffAtUtc": "2026-01-31T13:45:00.000Z",
+        "competitionName": "Ekstraklasa",
+        "countryName": "Poland",
+        "roundName": null,
+        "homeTeamId": "3110",
+        "homeTeamName": "Górnik Zabrze",
+        "awayTeamId": "7918",
+        "awayTeamName": "Piast Gliwice",
+        "homeScore": 2,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "13981918",
+        "matchUrl": "https://www.sofascore.com/football/match/lech-poznan-gornik-zabrze/kmbswmb#id:13981918",
+        "kickoffAtUtc": "2026-02-07T19:15:00.000Z",
+        "competitionName": "Ekstraklasa",
+        "countryName": "Poland",
+        "roundName": null,
+        "homeTeamId": "3110",
+        "homeTeamName": "Górnik Zabrze",
+        "awayTeamId": "3121",
+        "awayTeamName": "Lech Poznań",
+        "homeScore": 0,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16316962",
+        "matchUrl": "https://www.sofascore.com/football/match/mks-korona-kielce-gornik-zabrze/kmbspbc#id:16316962",
+        "kickoffAtUtc": "2026-08-01T18:15:00.000Z",
+        "competitionName": "Ekstraklasa",
+        "countryName": "Poland",
+        "roundName": null,
+        "homeTeamId": "5065",
+        "homeTeamName": "MKS Korona Kielce",
+        "awayTeamId": "3110",
+        "awayTeamName": "Górnik Zabrze",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "postponed",
+        "resultLabel": "Postponed",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16316964",
+        "matchUrl": "https://www.sofascore.com/football/match/radomiak-radom-gornik-zabrze/kmbsVVc#id:16316964",
+        "kickoffAtUtc": "2026-08-08T12:45:00.000Z",
+        "competitionName": "Ekstraklasa",
+        "countryName": "Poland",
+        "roundName": null,
+        "homeTeamId": "7295",
+        "homeTeamName": "Radomiak Radom",
+        "awayTeamId": "3110",
+        "awayTeamName": "Górnik Zabrze",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

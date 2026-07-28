@@ -1,0 +1,183 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16527687",
+  "matchUrl": "https://www.sofascore.com/football/match/riga-fc-fk-vardar-skopje/dicstXob#id:16527687",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T14:57:45.312Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T14:56:33.877Z",
+  "fixtureLastChangedAtUtc": "2026-07-28T14:56:33.877Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-28T17:00:00.000Z",
+    "competitionId": "17015",
+    "competitionName": "UEFA Conference League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "Skonto",
+    "venueCity": "Rīga",
+    "venueCountry": "Latvia",
+    "refereeName": "Wojciech Myc",
+    "refereeCountry": "Poland"
+  },
+  "watch": {
+    "hasPortugalChannels": true,
+    "availableCountryCodes": [
+      "BA",
+      "BR",
+      "FR",
+      "MK",
+      "PL",
+      "PT",
+      "RS"
+    ],
+    "note": "Canais disponíveis para Portugal."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "1.36",
+    "draw": "4.77",
+    "away": "6.45",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": {
+      "sourceEventId": "16526453",
+      "matchUrl": "https://www.sofascore.com/football/match/riga-fc-fk-vardar-skopje/dicstXob#id:16526453",
+      "kickoffAtUtc": "2026-07-22T18:00:00.000Z",
+      "competitionName": "UEFA Conference League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "5403",
+      "homeTeamName": "FK Vardar Skopje",
+      "awayTeamId": "162368",
+      "awayTeamName": "Riga FC",
+      "homeScore": 2,
+      "awayScore": 3,
+      "status": "finished",
+      "resultLabel": "FT",
+      "previousLegEventId": null,
+      "winnerCode": 2
+    },
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "16526453",
+        "matchUrl": "https://www.sofascore.com/football/match/riga-fc-fk-vardar-skopje/dicstXob#id:16526453",
+        "kickoffAtUtc": "2026-07-22T18:00:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "5403",
+        "homeTeamName": "FK Vardar Skopje",
+        "awayTeamId": "162368",
+        "awayTeamName": "Riga FC",
+        "homeScore": 2,
+        "awayScore": 3,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15494589",
+        "matchUrl": "https://www.sofascore.com/football/match/riga-fc-fk-auda/WgcstXob#id:15494589",
+        "kickoffAtUtc": "2026-02-17T15:00:00.000Z",
+        "competitionName": "Latvian Supercup",
+        "countryName": "Latvia",
+        "roundName": "Final",
+        "homeTeamId": "162368",
+        "homeTeamName": "Riga FC",
+        "awayTeamId": "5346",
+        "awayTeamName": "FK Auda",
+        "homeScore": 4,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15601674",
+        "matchUrl": "https://www.sofascore.com/football/match/riga-fc-flora-tallinn/WqbstXob#id:15601674",
+        "kickoffAtUtc": "2026-02-24T15:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "3346",
+        "homeTeamName": "Flora Tallinn",
+        "awayTeamId": "162368",
+        "awayTeamName": "Riga FC",
+        "homeScore": 0,
+        "awayScore": 3,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "15472395",
+        "matchUrl": "https://www.sofascore.com/football/match/riga-fc-fk-liepaja/LBibstXob#id:15472395",
+        "kickoffAtUtc": "2026-03-07T14:00:00.000Z",
+        "competitionName": "Virsliga",
+        "countryName": "Latvia",
+        "roundName": null,
+        "homeTeamId": "146336",
+        "homeTeamName": "FK Liepaja",
+        "awayTeamId": "162368",
+        "awayTeamName": "Riga FC",
+        "homeScore": 2,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "15472547",
+        "matchUrl": "https://www.sofascore.com/football/match/riga-fc-fk-grobina/vUvstXob#id:15472547",
+        "kickoffAtUtc": "2026-08-02T15:00:00.000Z",
+        "competitionName": "Virsliga",
+        "countryName": "Latvia",
+        "roundName": null,
+        "homeTeamId": "162368",
+        "homeTeamName": "Riga FC",
+        "awayTeamId": "52220",
+        "awayTeamName": "FK Grobiņa",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "15472554",
+        "matchUrl": "https://www.sofascore.com/football/match/ogre-united-riga-fc/tXobsaYPd#id:15472554",
+        "kickoffAtUtc": "2026-08-09T15:00:00.000Z",
+        "competitionName": "Virsliga",
+        "countryName": "Latvia",
+        "roundName": null,
+        "homeTeamId": "162368",
+        "homeTeamName": "Riga FC",
+        "awayTeamId": "477400",
+        "awayTeamName": "Ogre United",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

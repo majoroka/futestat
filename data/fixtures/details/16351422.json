@@ -1,0 +1,157 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16351422",
+  "matchUrl": "https://www.sofascore.com/football/match/dukagjini-fc-lugano/TYsliRb#id:16351422",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T14:58:07.276Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T14:56:33.877Z",
+  "fixtureLastChangedAtUtc": "2026-07-28T14:56:33.877Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-29T14:30:00.000Z",
+    "competitionId": "17015",
+    "competitionName": "UEFA Conference League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "18 June Stadium",
+    "venueCity": "Klina",
+    "venueCountry": "Kosovo",
+    "refereeName": "Karel Roucek",
+    "refereeCountry": "Czechia"
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [],
+    "note": "Sem agenda de TV disponível."
+  },
+  "odds": {
+    "providerId": 1,
+    "marketName": "Full time",
+    "home": "5.00",
+    "draw": "3.60",
+    "away": "1.62",
+    "hasMoreOdds": true
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": {
+      "sourceEventId": "16351126",
+      "matchUrl": "https://www.sofascore.com/football/match/dukagjini-fc-lugano/TYsliRb#id:16351126",
+      "kickoffAtUtc": "2026-07-23T18:30:00.000Z",
+      "competitionName": "UEFA Conference League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "2443",
+      "homeTeamName": "FC Lugano",
+      "awayTeamId": "230411",
+      "awayTeamName": "Dukagjini",
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "finished",
+      "resultLabel": "FT",
+      "previousLegEventId": null,
+      "winnerCode": 1
+    },
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "16351126",
+        "matchUrl": "https://www.sofascore.com/football/match/dukagjini-fc-lugano/TYsliRb#id:16351126",
+        "kickoffAtUtc": "2026-07-23T18:30:00.000Z",
+        "competitionName": "UEFA Conference League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "2443",
+        "homeTeamName": "FC Lugano",
+        "awayTeamId": "230411",
+        "awayTeamName": "Dukagjini",
+        "homeScore": 1,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15415565",
+        "matchUrl": "https://www.sofascore.com/football/match/dukagjini-aqvital-fc-csakvar/QHrsliRb#id:15415565",
+        "kickoffAtUtc": "2026-01-23T12:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "44141",
+        "homeTeamName": "Aqvital FC Csákvár",
+        "awayTeamId": "230411",
+        "awayTeamName": "Dukagjini",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "cancelled",
+        "resultLabel": "Canceled",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "15431143",
+        "matchUrl": "https://www.sofascore.com/football/match/dukagjini-nk-veres-rivne/ypFbsliRb#id:15431143",
+        "kickoffAtUtc": "2026-01-26T12:30:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "200773",
+        "homeTeamName": "NK Veres Rivne",
+        "awayTeamId": "230411",
+        "awayTeamName": "Dukagjini",
+        "homeScore": 0,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "15443537",
+        "matchUrl": "https://www.sofascore.com/football/match/dukagjini-oleksandria/EjksliRb#id:15443537",
+        "kickoffAtUtc": "2026-01-30T13:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "25479",
+        "homeTeamName": "Oleksandria",
+        "awayTeamId": "230411",
+        "awayTeamName": "Dukagjini",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "cancelled",
+        "resultLabel": "Canceled",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16651993",
+        "matchUrl": "https://www.sofascore.com/football/match/dukagjini-kf-drenica/eVQbsliRb#id:16651993",
+        "kickoffAtUtc": "2026-08-15T15:00:00.000Z",
+        "competitionName": "Superliga",
+        "countryName": "Kosovo",
+        "roundName": null,
+        "homeTeamId": "229754",
+        "homeTeamName": "KF Drenica",
+        "awayTeamId": "230411",
+        "awayTeamName": "Dukagjini",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

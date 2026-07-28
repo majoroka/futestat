@@ -1,0 +1,178 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16350242",
+  "matchUrl": "https://www.sofascore.com/football/match/lech-poznan-agf/QAswmb#id:16350242",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T14:58:16.678Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-29T17:00:00.000Z",
+    "competitionId": "7",
+    "competitionName": "UEFA Champions League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
+    "competitionStage": null,
+    "countryName": "Europe",
+    "venueName": null,
+    "venueCity": null,
+    "venueCountry": null,
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "DK",
+      "PL"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 1,
+    "marketName": "Full time",
+    "home": "1.73",
+    "draw": "3.70",
+    "away": "4.33",
+    "hasMoreOdds": true
+  },
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": {
+      "sourceEventId": "16350225",
+      "matchUrl": "https://www.sofascore.com/football/match/lech-poznan-agf/QAswmb#id:16350225",
+      "kickoffAtUtc": "2026-07-21T17:00:00.000Z",
+      "competitionName": "UEFA Champions League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "1291",
+      "homeTeamName": "AGF",
+      "awayTeamId": "3121",
+      "awayTeamName": "Lech Poznań",
+      "homeScore": 1,
+      "awayScore": 4,
+      "status": "finished",
+      "resultLabel": "FT",
+      "previousLegEventId": null,
+      "winnerCode": 2
+    },
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "16350225",
+        "matchUrl": "https://www.sofascore.com/football/match/lech-poznan-agf/QAswmb#id:16350225",
+        "kickoffAtUtc": "2026-07-21T17:00:00.000Z",
+        "competitionName": "UEFA Champions League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "1291",
+        "homeTeamName": "AGF",
+        "awayTeamId": "3121",
+        "awayTeamName": "Lech Poznań",
+        "homeScore": 1,
+        "awayScore": 4,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15379456",
+        "matchUrl": "https://www.sofascore.com/football/match/lech-poznan-msk-zilina/cYswmb#id:15379456",
+        "kickoffAtUtc": "2026-01-17T13:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "3121",
+        "homeTeamName": "Lech Poznań",
+        "awayTeamId": "2402",
+        "awayTeamName": "MŠK Žilina",
+        "homeScore": 2,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15411003",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-okmk-lech-poznan/wmbstfq#id:15411003",
+        "kickoffAtUtc": "2026-01-24T08:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "3121",
+        "homeTeamName": "Lech Poznań",
+        "awayTeamId": "40268",
+        "awayTeamName": "FC OKMK",
+        "homeScore": 2,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15416934",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-noah-lech-poznan/wmbsDUec#id:15416934",
+        "kickoffAtUtc": "2026-01-24T13:00:00.000Z",
+        "competitionName": "Club Friendly Games",
+        "countryName": "World",
+        "roundName": null,
+        "homeTeamId": "3121",
+        "homeTeamName": "Lech Poznań",
+        "awayTeamId": "262228",
+        "awayTeamName": "FC Noah",
+        "homeScore": 0,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16316949",
+        "matchUrl": "https://www.sofascore.com/football/match/wieczysta-krakow-lech-poznan/wmbsgZIc#id:16316949",
+        "kickoffAtUtc": "2026-08-01T15:30:00.000Z",
+        "competitionName": "Ekstraklasa",
+        "countryName": "Poland",
+        "roundName": null,
+        "homeTeamId": "334956",
+        "homeTeamName": "Wieczysta Kraków",
+        "awayTeamId": "3121",
+        "awayTeamName": "Lech Poznań",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16316968",
+        "matchUrl": "https://www.sofascore.com/football/match/piast-gliwice-lech-poznan/wmbstid#id:16316968",
+        "kickoffAtUtc": "2026-08-08T15:30:00.000Z",
+        "competitionName": "Ekstraklasa",
+        "countryName": "Poland",
+        "roundName": null,
+        "homeTeamId": "3121",
+        "homeTeamName": "Lech Poznań",
+        "awayTeamId": "7918",
+        "awayTeamName": "Piast Gliwice",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

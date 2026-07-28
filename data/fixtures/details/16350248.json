@@ -1,0 +1,178 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16350248",
+  "matchUrl": "https://www.sofascore.com/football/match/fc-iberia-1999-sk-slovan-bratislava/eYsmBW#id:16350248",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T14:58:35.600Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-29T18:15:00.000Z",
+    "competitionId": "7",
+    "competitionName": "UEFA Champions League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "Tehelne Pole Stadion",
+    "venueCity": "Bratislava",
+    "venueCountry": "Slovakia",
+    "refereeName": "Christian-Petru Ciochirca",
+    "refereeCountry": "Austria"
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "GE",
+      "SK"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 1,
+    "marketName": "Full time",
+    "home": "1.33",
+    "draw": "5.00",
+    "away": "8.00",
+    "hasMoreOdds": true
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": {
+      "sourceEventId": "16350221",
+      "matchUrl": "https://www.sofascore.com/football/match/fc-iberia-1999-sk-slovan-bratislava/eYsmBW#id:16350221",
+      "kickoffAtUtc": "2026-07-21T16:00:00.000Z",
+      "competitionName": "UEFA Champions League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "116312",
+      "homeTeamName": "FC Iberia 1999",
+      "awayTeamId": "2404",
+      "awayTeamName": "ŠK Slovan Bratislava",
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "finished",
+      "resultLabel": "FT",
+      "previousLegEventId": null,
+      "winnerCode": 2
+    },
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "16350221",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-iberia-1999-sk-slovan-bratislava/eYsmBW#id:16350221",
+        "kickoffAtUtc": "2026-07-21T16:00:00.000Z",
+        "competitionName": "UEFA Champions League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "116312",
+        "homeTeamName": "FC Iberia 1999",
+        "awayTeamId": "2404",
+        "awayTeamName": "ŠK Slovan Bratislava",
+        "homeScore": 0,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "14039012",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-kosice-sk-slovan-bratislava/eYsBurb#id:14039012",
+        "kickoffAtUtc": "2025-12-06T17:00:00.000Z",
+        "competitionName": "Niké Liga",
+        "countryName": "Slovakia",
+        "roundName": null,
+        "homeTeamId": "168476",
+        "homeTeamName": "FC Košice",
+        "awayTeamId": "2404",
+        "awayTeamName": "ŠK Slovan Bratislava",
+        "homeScore": 2,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14573100",
+        "matchUrl": "https://www.sofascore.com/football/match/kf-shkendija-sk-slovan-bratislava/eYsnic#id:14573100",
+        "kickoffAtUtc": "2025-12-11T17:45:00.000Z",
+        "competitionName": "UEFA Conference League",
+        "countryName": "Europe",
+        "roundName": null,
+        "homeTeamId": "5413",
+        "homeTeamName": "KF Shkëndija",
+        "awayTeamId": "2404",
+        "awayTeamName": "ŠK Slovan Bratislava",
+        "homeScore": 2,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14039014",
+        "matchUrl": "https://www.sofascore.com/football/match/sk-slovan-bratislava-msk-zilina/cYseY#id:14039014",
+        "kickoffAtUtc": "2025-12-14T17:00:00.000Z",
+        "competitionName": "Niké Liga",
+        "countryName": "Slovakia",
+        "roundName": null,
+        "homeTeamId": "2404",
+        "homeTeamName": "ŠK Slovan Bratislava",
+        "awayTeamId": "2402",
+        "awayTeamName": "MŠK Žilina",
+        "homeScore": 3,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16316893",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-zeleziarne-podbrezova-sk-slovan-bratislava/eYsMhd#id:16316893",
+        "kickoffAtUtc": "2026-08-01T16:00:00.000Z",
+        "competitionName": "Niké Liga",
+        "countryName": "Slovakia",
+        "roundName": null,
+        "homeTeamId": "2404",
+        "homeTeamName": "ŠK Slovan Bratislava",
+        "awayTeamId": "7887",
+        "awayTeamName": "FK Železiarne Podbrezová",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16316898",
+        "matchUrl": "https://www.sofascore.com/football/match/sk-slovan-bratislava-as-trencin/YXseY#id:16316898",
+        "kickoffAtUtc": "2026-08-08T18:30:00.000Z",
+        "competitionName": "Niké Liga",
+        "countryName": "Slovakia",
+        "roundName": null,
+        "homeTeamId": "2398",
+        "homeTeamName": "AS Trenčín",
+        "awayTeamId": "2404",
+        "awayTeamName": "ŠK Slovan Bratislava",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

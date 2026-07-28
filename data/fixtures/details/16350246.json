@@ -1,0 +1,180 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16350246",
+  "matchUrl": "https://www.sofascore.com/football/match/fc-thun-gnk-dinamo-zagreb/HPseZ#id:16350246",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T14:57:51.515Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-28T18:00:00.000Z",
+    "competitionId": "7",
+    "competitionName": "UEFA Champions League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
+    "competitionStage": null,
+    "countryName": "Europe",
+    "venueName": null,
+    "venueCity": null,
+    "venueCountry": null,
+    "refereeName": null,
+    "refereeCountry": null
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "BR",
+      "CH",
+      "DE",
+      "HR"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 801,
+    "marketName": "Full time",
+    "home": "1.31",
+    "draw": "4.93",
+    "away": "7.40",
+    "hasMoreOdds": false
+  },
+  "tieContext": {
+    "tieFormat": null,
+    "previousLeg": {
+      "sourceEventId": "16350223",
+      "matchUrl": "https://www.sofascore.com/football/match/fc-thun-gnk-dinamo-zagreb/HPseZ#id:16350223",
+      "kickoffAtUtc": "2026-07-21T18:00:00.000Z",
+      "competitionName": "UEFA Champions League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "2454",
+      "homeTeamName": "FC Thun",
+      "awayTeamId": "2032",
+      "awayTeamName": "GNK Dinamo Zagreb",
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "finished",
+      "resultLabel": "FT",
+      "previousLegEventId": null,
+      "winnerCode": 3
+    },
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "16350223",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-thun-gnk-dinamo-zagreb/HPseZ#id:16350223",
+        "kickoffAtUtc": "2026-07-21T18:00:00.000Z",
+        "competitionName": "UEFA Champions League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "2454",
+        "homeTeamName": "FC Thun",
+        "awayTeamId": "2032",
+        "awayTeamName": "GNK Dinamo Zagreb",
+        "homeScore": 1,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "14572653",
+        "matchUrl": "https://www.sofascore.com/football/match/fcsb-gnk-dinamo-zagreb/HPsbqb#id:14572653",
+        "kickoffAtUtc": "2026-01-22T20:00:00.000Z",
+        "competitionName": "UEFA Europa League",
+        "countryName": "Europe",
+        "roundName": null,
+        "homeTeamId": "2032",
+        "homeTeamName": "GNK Dinamo Zagreb",
+        "awayTeamId": "3301",
+        "awayTeamName": "FCSB",
+        "homeScore": 4,
+        "awayScore": 1,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "14023633",
+        "matchUrl": "https://www.sofascore.com/football/match/nk-osijek-gnk-dinamo-zagreb/HPsPP#id:14023633",
+        "kickoffAtUtc": "2026-01-25T16:45:00.000Z",
+        "competitionName": "HNL",
+        "countryName": "Croatia",
+        "roundName": null,
+        "homeTeamId": "2040",
+        "homeTeamName": "NK Osijek",
+        "awayTeamId": "2032",
+        "awayTeamName": "GNK Dinamo Zagreb",
+        "homeScore": 0,
+        "awayScore": 3,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "14572758",
+        "matchUrl": "https://www.sofascore.com/football/match/gnk-dinamo-zagreb-fc-midtjylland/OAsHP#id:14572758",
+        "kickoffAtUtc": "2026-01-29T20:00:00.000Z",
+        "competitionName": "UEFA Europa League",
+        "countryName": "Europe",
+        "roundName": null,
+        "homeTeamId": "1289",
+        "homeTeamName": "FC Midtjylland",
+        "awayTeamId": "2032",
+        "awayTeamName": "GNK Dinamo Zagreb",
+        "homeScore": 2,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16275171",
+        "matchUrl": "https://www.sofascore.com/football/match/nk-slaven-belupo-gnk-dinamo-zagreb/HPsRP#id:16275171",
+        "kickoffAtUtc": "2026-07-31T18:00:00.000Z",
+        "competitionName": "HNL",
+        "countryName": "Croatia",
+        "roundName": null,
+        "homeTeamId": "2032",
+        "homeTeamName": "GNK Dinamo Zagreb",
+        "awayTeamId": "2042",
+        "awayTeamName": "NK Slaven Belupo",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16275179",
+        "matchUrl": "https://www.sofascore.com/football/match/hnk-rijeka-gnk-dinamo-zagreb/HPsOP#id:16275179",
+        "kickoffAtUtc": "2026-08-08T15:00:00.000Z",
+        "competitionName": "HNL",
+        "countryName": "Croatia",
+        "roundName": null,
+        "homeTeamId": "2039",
+        "homeTeamName": "HNK Rijeka",
+        "awayTeamId": "2032",
+        "awayTeamName": "GNK Dinamo Zagreb",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16350233",
+  "matchUrl": "https://www.sofascore.com/football/match/fk-kauno-zalgiris-klaksvikar-itrottarfelag/UdcsQoH#id:16350233",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T14:58:13.517Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-29T16:00:00.000Z",
+    "competitionId": "7",
+    "competitionName": "UEFA Champions League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "National Football Academy",
+    "venueCity": "Kaunas",
+    "venueCountry": "Lithuania",
+    "refereeName": "David Smajc",
+    "refereeCountry": "Slovenia"
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "LT"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 1,
+    "marketName": "Full time",
+    "home": "1.70",
+    "draw": "3.50",
+    "away": "5.00",
+    "hasMoreOdds": true
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": {
+      "sourceEventId": "16350226",
+      "matchUrl": "https://www.sofascore.com/football/match/fk-kauno-zalgiris-klaksvikar-itrottarfelag/UdcsQoH#id:16350226",
+      "kickoffAtUtc": "2026-07-21T18:45:00.000Z",
+      "competitionName": "UEFA Champions League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "5194",
+      "homeTeamName": "Klaksvíkar Ítróttarfelag",
+      "awayTeamId": "80741",
+      "awayTeamName": "FK Kauno Žalgiris",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "finished",
+      "resultLabel": "FT",
+      "previousLegEventId": null,
+      "winnerCode": 3
+    },
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "16350226",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-kauno-zalgiris-klaksvikar-itrottarfelag/UdcsQoH#id:16350226",
+        "kickoffAtUtc": "2026-07-21T18:45:00.000Z",
+        "competitionName": "UEFA Champions League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "5194",
+        "homeTeamName": "Klaksvíkar Ítróttarfelag",
+        "awayTeamId": "80741",
+        "awayTeamName": "FK Kauno Žalgiris",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 3
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "15546840",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-riteriai-fk-kauno-zalgiris/QoHshlzc#id:15546840",
+        "kickoffAtUtc": "2026-02-23T18:00:00.000Z",
+        "competitionName": "TOPLYGA",
+        "countryName": "Lithuania",
+        "roundName": null,
+        "homeTeamId": "310557",
+        "homeTeamName": "FK Riteriai",
+        "awayTeamId": "80741",
+        "awayTeamName": "FK Kauno Žalgiris",
+        "homeScore": 1,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "15546860",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-kauno-zalgiris-fk-banga-gargzdai/NhosQoH#id:15546860",
+        "kickoffAtUtc": "2026-02-28T12:15:00.000Z",
+        "competitionName": "TOPLYGA",
+        "countryName": "Lithuania",
+        "roundName": null,
+        "homeTeamId": "80741",
+        "homeTeamName": "FK Kauno Žalgiris",
+        "awayTeamId": "35388",
+        "awayTeamName": "FK Banga Gargždai",
+        "homeScore": 1,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15546842",
+        "matchUrl": "https://www.sofascore.com/football/match/dziugas-telsiai-fk-kauno-zalgiris/QoHsWtrb#id:15546842",
+        "kickoffAtUtc": "2026-03-07T11:00:00.000Z",
+        "competitionName": "TOPLYGA",
+        "countryName": "Lithuania",
+        "roundName": null,
+        "homeTeamId": "168446",
+        "homeTeamName": "Džiugas Telšiai",
+        "awayTeamId": "80741",
+        "awayTeamName": "FK Kauno Žalgiris",
+        "homeScore": 1,
+        "awayScore": 2,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16273099",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-kauno-zalgiris-fk-zalgiris/VgcsQoH#id:16273099",
+        "kickoffAtUtc": "2026-08-02T15:45:00.000Z",
+        "competitionName": "TOPLYGA",
+        "countryName": "Lithuania",
+        "roundName": null,
+        "homeTeamId": "5345",
+        "homeTeamName": "FK Žalgiris",
+        "awayTeamId": "80741",
+        "awayTeamName": "FK Kauno Žalgiris",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16273101",
+        "matchUrl": "https://www.sofascore.com/football/match/fc-hegelmann-fk-kauno-zalgiris/QoHsJEtb#id:16273101",
+        "kickoffAtUtc": "2026-08-09T16:00:00.000Z",
+        "competitionName": "TOPLYGA",
+        "countryName": "Lithuania",
+        "roundName": null,
+        "homeTeamId": "80741",
+        "homeTeamName": "FK Kauno Žalgiris",
+        "awayTeamId": "171484",
+        "awayTeamName": "FC Hegelmann",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}

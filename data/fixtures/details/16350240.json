@@ -1,0 +1,181 @@
+{
+  "source": "sofascore",
+  "sourceEventId": "16350240",
+  "matchUrl": "https://www.sofascore.com/football/match/larne-fc-fk-crvena-zvezda/ZccsJdc#id:16350240",
+  "status": "upcoming",
+  "scrapedAtUtc": "2026-07-28T14:58:29.201Z",
+  "fixtureLastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+  "fixtureLastChangedAtUtc": "2026-07-28T14:56:30.300Z",
+  "overview": {
+    "kickoffAtUtc": "2026-07-29T18:00:00.000Z",
+    "competitionId": "7",
+    "competitionName": "UEFA Champions League, Qualification",
+    "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
+    "competitionStage": "Qualification Round 2",
+    "countryName": "Europe",
+    "venueName": "Stadium Rajko Mitić",
+    "venueCity": "Belgrade",
+    "venueCountry": "Serbia",
+    "refereeName": "Elcin Masiyev",
+    "refereeCountry": "Azerbaijan"
+  },
+  "watch": {
+    "hasPortugalChannels": false,
+    "availableCountryCodes": [
+      "BA",
+      "LI",
+      "MK",
+      "RS",
+      "SN"
+    ],
+    "note": "Sem canais para Portugal; existe cobertura noutros países."
+  },
+  "odds": {
+    "providerId": 1,
+    "marketName": "Full time",
+    "home": "1.05",
+    "draw": "12.00",
+    "away": "34.00",
+    "hasMoreOdds": true
+  },
+  "tieContext": {
+    "tieFormat": "Two legs",
+    "previousLeg": {
+      "sourceEventId": "16350234",
+      "matchUrl": "https://www.sofascore.com/football/match/larne-fc-fk-crvena-zvezda/ZccsJdc#id:16350234",
+      "kickoffAtUtc": "2026-07-21T19:00:00.000Z",
+      "competitionName": "UEFA Champions League, Qualification",
+      "countryName": "Europe",
+      "roundName": "Qualification Round 2",
+      "homeTeamId": "5184",
+      "homeTeamName": "Larne FC",
+      "awayTeamId": "5149",
+      "awayTeamName": "FK Crvena zvezda",
+      "homeScore": 0,
+      "awayScore": 4,
+      "status": "finished",
+      "resultLabel": "FT",
+      "previousLegEventId": null,
+      "winnerCode": 2
+    },
+    "nextLeg": null,
+    "h2h": [
+      {
+        "sourceEventId": "16350234",
+        "matchUrl": "https://www.sofascore.com/football/match/larne-fc-fk-crvena-zvezda/ZccsJdc#id:16350234",
+        "kickoffAtUtc": "2026-07-21T19:00:00.000Z",
+        "competitionName": "UEFA Champions League, Qualification",
+        "countryName": "Europe",
+        "roundName": "Qualification Round 2",
+        "homeTeamId": "5184",
+        "homeTeamName": "Larne FC",
+        "awayTeamId": "5149",
+        "awayTeamName": "FK Crvena zvezda",
+        "homeScore": 0,
+        "awayScore": 4,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ]
+  },
+  "recent": {
+    "homeLast": [
+      {
+        "sourceEventId": "14015572",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-crvena-zvezda-fk-cukaricki/YccsZcc#id:14015572",
+        "kickoffAtUtc": "2026-02-01T14:00:00.000Z",
+        "competitionName": "Mozzart Bet Superliga",
+        "countryName": "Serbia",
+        "roundName": null,
+        "homeTeamId": "5148",
+        "homeTeamName": "FK Čukarički",
+        "awayTeamId": "5149",
+        "awayTeamName": "FK Crvena zvezda",
+        "homeScore": 1,
+        "awayScore": 3,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      },
+      {
+        "sourceEventId": "14015578",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-novi-pazar-fk-crvena-zvezda/ZccsLok#id:14015578",
+        "kickoffAtUtc": "2026-02-07T15:00:00.000Z",
+        "competitionName": "Mozzart Bet Superliga",
+        "countryName": "Serbia",
+        "roundName": null,
+        "homeTeamId": "5149",
+        "homeTeamName": "FK Crvena zvezda",
+        "awayTeamId": "25736",
+        "awayTeamName": "FK Novi Pazar",
+        "homeScore": 5,
+        "awayScore": 0,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 1
+      },
+      {
+        "sourceEventId": "15370026",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-buducnost-dobanovci-fk-crvena-zvezda/ZccsznQb#id:15370026",
+        "kickoffAtUtc": "2026-02-11T12:00:00.000Z",
+        "competitionName": "Mozzart Kup Srbije",
+        "countryName": "Serbia",
+        "roundName": "Round of 16",
+        "homeTeamId": "228174",
+        "homeTeamName": "FK Budućnost Dobanovci",
+        "awayTeamId": "5149",
+        "awayTeamName": "FK Crvena zvezda",
+        "homeScore": 1,
+        "awayScore": 4,
+        "status": "finished",
+        "resultLabel": "FT",
+        "previousLegEventId": null,
+        "winnerCode": 2
+      }
+    ],
+    "homeNext": [
+      {
+        "sourceEventId": "16326411",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-radnik-surdulica-fk-crvena-zvezda/ZccsCxU#id:16326411",
+        "kickoffAtUtc": "2026-08-01T15:00:00.000Z",
+        "competitionName": "Mozzart Bet Superliga",
+        "countryName": "Serbia",
+        "roundName": null,
+        "homeTeamId": "111127",
+        "homeTeamName": "FK Radnik Surdulica",
+        "awayTeamId": "5149",
+        "awayTeamName": "FK Crvena zvezda",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "postponed",
+        "resultLabel": "Postponed",
+        "previousLegEventId": null,
+        "winnerCode": null
+      },
+      {
+        "sourceEventId": "16326423",
+        "matchUrl": "https://www.sofascore.com/football/match/fk-novi-pazar-fk-crvena-zvezda/ZccsLok#id:16326423",
+        "kickoffAtUtc": "2026-08-08T15:00:00.000Z",
+        "competitionName": "Mozzart Bet Superliga",
+        "countryName": "Serbia",
+        "roundName": null,
+        "homeTeamId": "5149",
+        "homeTeamName": "FK Crvena zvezda",
+        "awayTeamId": "25736",
+        "awayTeamName": "FK Novi Pazar",
+        "homeScore": null,
+        "awayScore": null,
+        "status": "upcoming",
+        "resultLabel": "Not started",
+        "previousLegEventId": null,
+        "winnerCode": null
+      }
+    ],
+    "awayLast": [],
+    "awayNext": []
+  }
+}
