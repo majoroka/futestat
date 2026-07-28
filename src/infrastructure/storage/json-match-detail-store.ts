@@ -37,6 +37,11 @@ export class JsonMatchDetailStore {
       return false;
     }
 
+    // Force one-time regeneration when the stored detail file predates newer fields.
+    if (!Array.isArray(detail.standings)) {
+      return false;
+    }
+
     if (detail.fixtureLastChangedAtUtc !== fixture.lastChangedAtUtc) {
       return false;
     }
