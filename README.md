@@ -124,6 +124,9 @@ Cada dia mantém:
 Por omissão, o projeto publica apenas uma whitelist curada de ligas, identificadas por `uniqueTournament.id` do Sofascore.
 
 Nesta fase inclui:
+- `7` UEFA Champions League
+- `679` UEFA Europa League
+- `17015` UEFA Conference League
 - `17` Premier League
 - `8` LaLiga
 - `23` Serie A

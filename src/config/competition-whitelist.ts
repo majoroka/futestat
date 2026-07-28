@@ -5,6 +5,9 @@ export interface AllowedCompetition {
 }
 
 export const DEFAULT_ALLOWED_COMPETITIONS: AllowedCompetition[] = [
+  { countryName: "Europe", competitionName: "UEFA Champions League", competitionId: "7" },
+  { countryName: "Europe", competitionName: "UEFA Europa League", competitionId: "679" },
+  { countryName: "Europe", competitionName: "UEFA Conference League", competitionId: "17015" },
   { countryName: "England", competitionName: "Premier League", competitionId: "17" },
   { countryName: "Spain", competitionName: "LaLiga", competitionId: "8" },
   { countryName: "Italy", competitionName: "Serie A", competitionId: "23" },
