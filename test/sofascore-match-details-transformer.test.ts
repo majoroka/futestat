@@ -79,6 +79,46 @@ test("buildMatchDetailSnapshot maps structured upcoming detail payloads", () => 
           hasMoreOdds: false,
         },
       },
+      standings: {
+        standings: [
+          {
+            name: "Group A",
+            type: "total",
+            rows: [
+              {
+                position: 1,
+                matches: 1,
+                wins: 1,
+                draws: 0,
+                losses: 0,
+                scoresFor: 5,
+                scoresAgainst: 0,
+                scoreDiffFormatted: "+5",
+                points: 3,
+                team: {
+                  id: 325494,
+                  name: "FC Malisheva",
+                },
+              },
+              {
+                position: 2,
+                matches: 1,
+                wins: 0,
+                draws: 0,
+                losses: 1,
+                scoresFor: 0,
+                scoresAgainst: 5,
+                scoreDiffFormatted: "-5",
+                points: 0,
+                team: {
+                  id: 2354,
+                  name: "Hibernian",
+                },
+              },
+            ],
+          },
+        ],
+      },
       h2hEvents: {
         events: [
           {
@@ -152,6 +192,9 @@ test("buildMatchDetailSnapshot maps structured upcoming detail payloads", () => 
   assert.equal(detail.watch.hasPortugalChannels, false);
   assert.equal(detail.odds?.home, "4.64");
   assert.equal(detail.odds?.away, "1.35");
+  assert.equal(detail.standings[0]?.name, "Group A");
+  assert.equal(detail.standings[0]?.rows[0]?.highlight, "home");
+  assert.equal(detail.standings[0]?.rows[1]?.highlight, "away");
   assert.equal(detail.tieContext?.tieFormat, "Two legs");
   assert.equal(detail.tieContext?.nextLeg?.sourceEventId, "16462284");
   assert.equal(detail.recent.homeLast[0]?.homeTeamName, "FC Malisheva");

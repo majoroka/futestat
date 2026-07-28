@@ -328,6 +328,39 @@ a {
   margin-top: 20px;
 }
 
+.fixture-detail__section--tabbed {
+  margin-top: 18px;
+}
+
+.fixture-detail__tabs {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(23, 32, 51, 0.1);
+}
+
+.fixture-detail__tab {
+  appearance: none;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -1px;
+  padding: 0 2px 12px;
+  background: transparent;
+  color: rgba(31, 94, 255, 0.54);
+  font: 600 0.96rem/1 var(--font-sans);
+  cursor: pointer;
+  transition: color 160ms ease, border-color 160ms ease;
+}
+
+.fixture-detail__tab:hover {
+  color: var(--accent);
+}
+
+.fixture-detail__tab--active {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 .fixture-detail__subsection + .fixture-detail__subsection {
   margin-top: 18px;
 }
@@ -344,6 +377,99 @@ a {
   display: grid;
   gap: 12px;
   margin-top: 12px;
+}
+
+.fixture-detail__info-list {
+  display: grid;
+  gap: 0;
+}
+
+.fixture-detail__info-item {
+  display: grid;
+  gap: 4px;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(23, 32, 51, 0.08);
+}
+
+.fixture-detail__info-item:first-child {
+  padding-top: 0;
+}
+
+.fixture-detail__info-label {
+  color: #8a92a1;
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.fixture-detail__info-value {
+  font-size: 0.98rem;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+.fixture-detail__standings {
+  display: grid;
+  gap: 16px;
+}
+
+.fixture-detail__standings-table {
+  border-radius: 18px;
+  border: 1px solid rgba(23, 32, 51, 0.08);
+  background: rgba(255, 255, 255, 0.76);
+  overflow: hidden;
+}
+
+.fixture-detail__standings-title {
+  padding: 14px 16px 0;
+  font-size: 0.94rem;
+  line-height: 1.2;
+}
+
+.fixture-detail__standings-grid {
+  display: grid;
+  gap: 0;
+  padding: 10px 10px 12px;
+}
+
+.fixture-detail__standings-head,
+.fixture-detail__standings-row {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1.8fr) repeat(6, minmax(26px, 0.5fr));
+  gap: 8px;
+  align-items: center;
+}
+
+.fixture-detail__standings-head {
+  padding: 0 8px 8px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.fixture-detail__standings-row {
+  padding: 10px 8px;
+  border-radius: 12px;
+  font-size: 0.86rem;
+}
+
+.fixture-detail__standings-row + .fixture-detail__standings-row {
+  margin-top: 4px;
+}
+
+.fixture-detail__standings-row--home {
+  background: rgba(31, 94, 255, 0.12);
+}
+
+.fixture-detail__standings-row--away {
+  background: rgba(17, 34, 84, 0.1);
+}
+
+.fixture-detail__standings-team {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 600;
 }
 
 .fixture-detail__mini-list {

@@ -3,6 +3,7 @@ import type {
   MatchDetailOdds,
   MatchDetailRecentContext,
   MatchDetailSnapshot,
+  MatchDetailStandingTable,
   MatchDetailTieContext,
   MatchDetailWatchInfo,
   RelatedMatchSummary,
@@ -13,6 +14,7 @@ export interface CollectedMatchDetailPayloads {
   event: unknown;
   tv: unknown;
   odds: { providerId: number | null; payload: unknown } | null;
+  standings: unknown;
   h2hEvents: unknown;
   homeLast: unknown;
   awayLast: unknown;
@@ -60,6 +62,7 @@ export function buildMatchDetailSnapshot(params: {
     },
     watch: buildWatchInfo(payloads.tv),
     odds: buildOdds(payloads.odds),
+    standings: buildStandings(payloads.standings, fixture.homeTeamId, fixture.awayTeamId),
     tieContext: buildTieContext({
       baseUrl,
       currentEventId: fixture.sourceEventId,
@@ -76,6 +79,63 @@ export function buildMatchDetailSnapshot(params: {
       awayNext: payloads.awayNext,
     }),
   };
+}
+
+function buildStandings(
+  payload: unknown,
+  homeTeamId: string | null,
+  awayTeamId: string | null,
+): MatchDetailStandingTable[] {
+  return readArray(readObject(payload)?.standings)
+    .map((table) => {
+      const object = readObject(table);
+      if (!object) {
+        return null;
+      }
+
+      const rows = readArray(object.rows)
+        .map((row) => {
+          const candidate = readObject(row);
+          const team = readObject(candidate?.team);
+          const teamId = readString(team?.id);
+
+          if (!candidate || !team) {
+            return null;
+          }
+
+          return {
+            teamId,
+            teamName: readString(team.name) ?? "Desconhecido",
+            position: readNumber(candidate.position),
+            matches: readNumber(candidate.matches),
+            wins: readNumber(candidate.wins),
+            draws: readNumber(candidate.draws),
+            losses: readNumber(candidate.losses),
+            goalsFor: readNumber(candidate.scoresFor),
+            goalsAgainst: readNumber(candidate.scoresAgainst),
+            goalDifference: readString(candidate.scoreDiffFormatted),
+            points: readNumber(candidate.points),
+            highlight:
+              teamId && homeTeamId && teamId === homeTeamId
+                ? "home"
+                : teamId && awayTeamId && teamId === awayTeamId
+                  ? "away"
+                  : null,
+          };
+        })
+        .filter(Boolean);
+
+      if (rows.length === 0) {
+        return null;
+      }
+
+      return {
+        name: readString(object.name),
+        type: readString(object.type),
+        rows,
+      };
+    })
+    .filter((table): table is MatchDetailStandingTable => table !== null);
 }
 
 function buildWatchInfo(payload: unknown): MatchDetailWatchInfo {
@@ -344,5 +404,6 @@ function readBoolean(value: unknown): boolean | null {
 export const __testables = {
   fractionalToDecimal,
   buildWatchInfo,
+  buildStandings,
   simplifyEvent,
 };

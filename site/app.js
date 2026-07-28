@@ -23,6 +23,7 @@ const state = {
   snapshot: null,
   selectedDate: null,
   selectedFixtureId: null,
+  selectedDetailTab: "details",
   detailCache: new Map(),
 };
 
@@ -246,6 +247,7 @@ function bindFixtureInteractions() {
       }
 
       state.selectedFixtureId = fixtureId;
+      state.selectedDetailTab = "details";
       renderFixtures();
       renderFixtureDetail();
     });
@@ -317,86 +319,160 @@ function renderFixtureDetail() {
         <span class="fixture-detail__badge">${escapeHtml(formatScoreline(fixture))}</span>
       </div>
     </div>
-    <section class="fixture-detail__section">
-      <h3>Pré-jogo</h3>
+    ${renderFixtureDetailTabs()}
+    <section class="fixture-detail__section fixture-detail__section--tabbed">
       ${
-        renderFixturePreMatchSection(fixture, detailState?.status === "loaded" ? detailState.data : null) ??
-        '<p class="fixture-detail__empty">Ainda sem detalhe adicional publicado para este jogo.</p>'
+        state.selectedDetailTab === "standings"
+          ? renderFixtureStandingsTab(fixture, detailState)
+          : renderFixtureDetailsTab(fixture, detailState)
       }
     </section>
-    ${
-      detailState?.status === "loaded" && detailState.data.tieContext
-        ? `
-    <section class="fixture-detail__section">
-      <h3>Eliminatória e confronto</h3>
-      ${renderFixtureTieContext(detailState.data.tieContext)}
-    </section>
-    `
-        : ""
-    }
-    ${
-      detailState?.status === "loaded"
-        ? `
-    <section class="fixture-detail__section">
-      <h3>Contexto das equipas</h3>
-      ${renderFixtureRecentContext(detailState.data.recent)}
-    </section>
-    `
-        : ""
-    }
-    <section class="fixture-detail__section">
-      <h3>Recolha</h3>
-      <div class="fixture-detail__stack">
-        <div class="fixture-detail__row">
-          <span>Primeira deteção</span>
-          <strong>${escapeHtml(formatTimestamp(fixture.firstSeenAtUtc))}</strong>
-        </div>
-        <div class="fixture-detail__row">
-          <span>Última deteção</span>
-          <strong>${escapeHtml(formatTimestamp(fixture.lastSeenAtUtc))}</strong>
-        </div>
-        <div class="fixture-detail__row">
-          <span>Última alteração</span>
-          <strong>${escapeHtml(formatTimestamp(fixture.lastChangedAtUtc))}</strong>
-        </div>
-      </div>
-    </section>
-    <section class="fixture-detail__section">
-      <h3>Identificação</h3>
-      <div class="fixture-detail__stack">
-        <div class="fixture-detail__row">
-          <span>ID do evento</span>
-          <strong>${escapeHtml(fixture.sourceEventId)}</strong>
-        </div>
-        <div class="fixture-detail__row">
-          <span>Fonte</span>
-          <strong>${escapeHtml(fixture.source)}</strong>
-        </div>
-        <div class="fixture-detail__row">
-          <span>Link</span>
-          <strong class="fixture-detail__value-link">
-            <a class="fixture-detail__inline-link" href="${fixture.matchUrl}" target="_blank" rel="noreferrer">Abrir no Sofascore</a>
-          </strong>
-        </div>
-      </div>
-    </section>
-    ${
-      detailState?.status === "loading"
-        ? '<p class="fixture-detail__note">A carregar detalhe adicional do jogo...</p>'
-        : detailState?.status === "error"
-          ? '<p class="fixture-detail__note">Falhou o carregamento do detalhe adicional deste jogo. O snapshot base continua disponível.</p>'
-          : detailState?.status === "missing"
-            ? '<p class="fixture-detail__note">Este jogo ainda não tem detalhe adicional publicado. A base atual continua disponível.</p>'
-            : '<p class="fixture-detail__note">Odds 1/X/2 já podem ser recolhidas nesta fase, mas a colocação na coluna esquerda fica para o próximo ajuste de layout.</p>'
-    }
-    <a class="fixture-detail__link" href="${fixture.matchUrl}" target="_blank" rel="noreferrer">
-      Abrir página do jogo
-    </a>
   `;
 
-  if (fixture.status === "upcoming" && !detailState) {
+  bindFixtureDetailTabs();
+
+  if (!detailState) {
     void loadFixtureDetail(fixture);
   }
+}
+
+function renderFixtureDetailTabs() {
+  return `
+    <nav class="fixture-detail__tabs" aria-label="Separadores do jogo">
+      <button
+        type="button"
+        class="fixture-detail__tab ${state.selectedDetailTab === "details" ? "fixture-detail__tab--active" : ""}"
+        data-detail-tab="details"
+      >
+        Detalhes
+      </button>
+      <button
+        type="button"
+        class="fixture-detail__tab ${state.selectedDetailTab === "standings" ? "fixture-detail__tab--active" : ""}"
+        data-detail-tab="standings"
+      >
+        Classificação
+      </button>
+    </nav>
+  `;
+}
+
+function bindFixtureDetailTabs() {
+  for (const button of detailEl?.querySelectorAll("[data-detail-tab]") ?? []) {
+    button.addEventListener("click", () => {
+      const tab = button.getAttribute("data-detail-tab");
+      if (!tab || tab === state.selectedDetailTab) {
+        return;
+      }
+
+      state.selectedDetailTab = tab;
+      renderFixtureDetail();
+    });
+  }
+}
+
+function renderFixtureDetailsTab(fixture, detailState) {
+  const detail = detailState?.status === "loaded" ? detailState.data : null;
+  const rows = [
+    detailInfoRow("Data e hora", formatDetailDateTime(fixture, detail)),
+    detailInfoRow("Competição", formatCompetitionSummary(fixture, detail)),
+    detailInfoRow("Recinto", detail?.overview?.venueName ?? "Por publicar"),
+    detailInfoRow("Localização", formatLocation(detail?.overview) ?? "Por publicar"),
+    detailInfoRow("Árbitro", formatReferee(detail?.overview) ?? "Por publicar"),
+  ].join("");
+
+  return `
+    <div class="fixture-detail__info-list">
+      ${rows}
+    </div>
+    ${renderDetailStateNote(detailState, "details")}
+  `;
+}
+
+function renderFixtureStandingsTab(fixture, detailState) {
+  if (detailState?.status === "loaded" && Array.isArray(detailState.data?.standings) && detailState.data.standings.length > 0) {
+    return `
+      <div class="fixture-detail__standings">
+        ${detailState.data.standings.map((table) => renderStandingsTable(table)).join("")}
+      </div>
+      ${renderDetailStateNote(detailState, "standings")}
+    `;
+  }
+
+  const message =
+    detailState?.status === "loading"
+      ? "A carregar classificação..."
+      : "Classificação indisponível para este jogo ou competição.";
+
+  return `
+    <p class="fixture-detail__empty">${escapeHtml(message)}</p>
+    ${renderDetailStateNote(detailState, "standings")}
+  `;
+}
+
+function renderStandingsTable(table) {
+  const title = [table.name, formatStandingType(table.type)].filter(Boolean).join(" · ");
+
+  return `
+    <section class="fixture-detail__standings-table">
+      ${title ? `<h3 class="fixture-detail__standings-title">${escapeHtml(title)}</h3>` : ""}
+      <div class="fixture-detail__standings-grid" role="table" aria-label="${escapeAttribute(title || "Classificação")}">
+        <div class="fixture-detail__standings-head" role="row">
+          <span>#</span>
+          <span>Equipa</span>
+          <span>J</span>
+          <span>V</span>
+          <span>E</span>
+          <span>D</span>
+          <span>DG</span>
+          <span>P</span>
+        </div>
+        ${table.rows.map((row) => renderStandingsRow(row)).join("")}
+      </div>
+    </section>
+  `;
+}
+
+function renderStandingsRow(row) {
+  return `
+    <div class="fixture-detail__standings-row ${row.highlight ? `fixture-detail__standings-row--${row.highlight}` : ""}" role="row">
+      <span>${escapeHtml(stringValue(row.position, "—"))}</span>
+      <span class="fixture-detail__standings-team">${escapeHtml(row.teamName)}</span>
+      <span>${escapeHtml(stringValue(row.matches, "—"))}</span>
+      <span>${escapeHtml(stringValue(row.wins, "—"))}</span>
+      <span>${escapeHtml(stringValue(row.draws, "—"))}</span>
+      <span>${escapeHtml(stringValue(row.losses, "—"))}</span>
+      <span>${escapeHtml(row.goalDifference ?? "—")}</span>
+      <span>${escapeHtml(stringValue(row.points, "—"))}</span>
+    </div>
+  `;
+}
+
+function detailInfoRow(label, value) {
+  return `
+    <article class="fixture-detail__info-item">
+      <span class="fixture-detail__info-label">${escapeHtml(label)}</span>
+      <strong class="fixture-detail__info-value">${escapeHtml(value)}</strong>
+    </article>
+  `;
+}
+
+function renderDetailStateNote(detailState, tab) {
+  if (detailState?.status === "loading") {
+    return tab === "details"
+      ? '<p class="fixture-detail__note">A carregar detalhe adicional do jogo...</p>'
+      : "";
+  }
+
+  if (detailState?.status === "error") {
+    return '<p class="fixture-detail__note">Falhou o carregamento do detalhe adicional deste jogo. A base atual continua disponível.</p>';
+  }
+
+  if (detailState?.status === "missing") {
+    return '<p class="fixture-detail__note">Este jogo ainda não tem detalhe adicional publicado.</p>';
+  }
+
+  return "";
 }
 
 function renderDetailMatchSide(name, logoUrl, teamId) {
@@ -501,118 +577,6 @@ async function loadFixtureDetail(fixture) {
   }
 }
 
-function renderFixturePreMatchSection(fixture, detail) {
-  if (!detail) {
-    return null;
-  }
-
-  const rows = [
-    detail.overview?.competitionStage ? detailRow("Ronda", detail.overview.competitionStage) : "",
-    detail.tieContext?.tieFormat ? detailRow("Formato", detail.tieContext.tieFormat) : "",
-    detail.overview?.venueName ? detailRow("Estádio", detail.overview.venueName) : "",
-    detail.overview?.venueCity || detail.overview?.venueCountry
-      ? detailRow(
-          "Localização",
-          [detail.overview.venueCity, detail.overview.venueCountry].filter(Boolean).join(", "),
-        )
-      : "",
-    detail.overview?.refereeName ? detailRow("Árbitro", detail.overview.refereeName) : "",
-    detail.watch?.note ? detailRow("TV", detail.watch.note) : "",
-  ]
-    .filter(Boolean)
-    .join("");
-
-  return rows ? `<div class="fixture-detail__stack">${rows}</div>` : null;
-}
-
-function renderFixtureTieContext(tieContext) {
-  const blocks = [];
-
-  if (tieContext.previousLeg) {
-    blocks.push(renderRelatedMatchCard("Jogo anterior", tieContext.previousLeg));
-  }
-
-  if (tieContext.nextLeg) {
-    blocks.push(renderRelatedMatchCard("Jogo seguinte", tieContext.nextLeg));
-  }
-
-  if (Array.isArray(tieContext.h2h) && tieContext.h2h.length > 0) {
-    blocks.push(`
-      <div class="fixture-detail__subsection">
-        <h4>H2H</h4>
-        <div class="fixture-detail__mini-list">
-          ${tieContext.h2h.slice(0, 4).map((match) => renderMiniMatchRow(match)).join("")}
-        </div>
-      </div>
-    `);
-  }
-
-  return blocks.join("");
-}
-
-function renderFixtureRecentContext(recent) {
-  const sections = [
-    renderRecentGroup("Casa · últimos jogos", recent.homeLast),
-    renderRecentGroup("Casa · próximos jogos", recent.homeNext),
-    renderRecentGroup("Fora · últimos jogos", recent.awayLast),
-    renderRecentGroup("Fora · próximos jogos", recent.awayNext),
-  ].filter(Boolean);
-
-  return sections.join("");
-}
-
-function renderRecentGroup(title, matches) {
-  if (!Array.isArray(matches) || matches.length === 0) {
-    return "";
-  }
-
-  return `
-    <div class="fixture-detail__subsection">
-      <h4>${escapeHtml(title)}</h4>
-      <div class="fixture-detail__mini-list">
-        ${matches.map((match) => renderMiniMatchRow(match)).join("")}
-      </div>
-    </div>
-  `;
-}
-
-function renderRelatedMatchCard(title, match) {
-  return `
-    <div class="fixture-detail__subsection">
-      <h4>${escapeHtml(title)}</h4>
-      <div class="fixture-detail__mini-list">
-        ${renderMiniMatchRow(match)}
-      </div>
-    </div>
-  `;
-}
-
-function renderMiniMatchRow(match) {
-  const score = match.homeScore !== null && match.awayScore !== null
-    ? `${match.homeScore} - ${match.awayScore}${match.resultLabel ? ` (${match.resultLabel})` : ""}`
-    : "Sem resultado";
-  const kickoff = match.kickoffAtUtc ? formatKickoff(match.kickoffAtUtc) : "Sem hora";
-  const competition = [match.competitionName, match.roundName].filter(Boolean).join(" · ");
-
-  return `
-    <div class="fixture-detail__mini-row">
-      <span class="fixture-detail__mini-meta">${escapeHtml(kickoff)}</span>
-      <strong>${escapeHtml(`${match.homeTeamName} vs ${match.awayTeamName}`)}</strong>
-      <span class="fixture-detail__mini-copy">${escapeHtml(score)}</span>
-      ${competition ? `<span class="fixture-detail__mini-copy">${escapeHtml(competition)}</span>` : ""}
-    </div>
-  `;
-}
-
-function detailRow(label, value) {
-  return `
-    <div class="fixture-detail__row">
-      <span>${escapeHtml(label)}</span>
-      <strong>${escapeHtml(value)}</strong>
-    </div>
-  `;
-}
-
 function renderError(message) {
   if (stateEl) {
     stateEl.textContent = message;
@@ -640,6 +604,7 @@ function selectDate(date) {
   state.selectedDate = date;
   state.selectedFixtureId =
     state.snapshot.fixtures.find((fixture) => fixture.matchDate === date)?.sourceEventId ?? null;
+  state.selectedDetailTab = "details";
   renderDateFilters();
   renderFixtures();
   renderFixtureDetail();
@@ -757,6 +722,73 @@ function formatStatusLabel(fixture) {
     default:
       return "Desconhecido";
   }
+}
+
+function formatDetailDateTime(fixture, detail) {
+  const kickoffValue = detail?.overview?.kickoffAtUtc ?? fixture.kickoffAtUtc;
+  if (!kickoffValue) {
+    return fixture.matchDate;
+  }
+
+  const date = new Date(kickoffValue);
+  return Number.isNaN(date.getTime())
+    ? kickoffValue
+    : new Intl.DateTimeFormat("pt-PT", {
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+        timeZone: displayTimeZone,
+      })
+        .format(date)
+        .replace(", ", " · ");
+}
+
+function formatCompetitionSummary(fixture, detail) {
+  const competitionName = detail?.overview?.competitionName ?? fixture.competitionName ?? "Competição desconhecida";
+  const stage = detail?.overview?.competitionStage ?? null;
+  const tieFormat = formatTieFormat(detail?.tieContext?.tieFormat ?? null);
+
+  return `Futebol, ${[competitionName, stage].filter(Boolean).join(", ")}${tieFormat ? ` - ${tieFormat}` : ""}`;
+}
+
+function formatTieFormat(value) {
+  if (value === "Two legs") {
+    return "Duas mãos";
+  }
+
+  return value;
+}
+
+function formatLocation(overview) {
+  const parts = [overview?.venueCity, overview?.venueCountry].filter(Boolean);
+  return parts.length > 0 ? parts.join(", ") : null;
+}
+
+function formatReferee(overview) {
+  if (!overview?.refereeName) {
+    return null;
+  }
+
+  return [overview.refereeName, overview.refereeCountry].filter(Boolean).join(", ");
+}
+
+function formatStandingType(type) {
+  switch (type) {
+    case "total":
+      return "Geral";
+    case "home":
+      return "Casa";
+    case "away":
+      return "Fora";
+    default:
+      return type ?? null;
+  }
+}
+
+function stringValue(value, fallback) {
+  return value === null || value === undefined ? fallback : String(value);
 }
 
 function formatScoreline(fixture) {

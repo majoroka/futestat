@@ -60,6 +60,27 @@ export interface MatchDetailOverview {
   refereeCountry: string | null;
 }
 
+export interface MatchDetailStandingRow {
+  teamId: string | null;
+  teamName: string;
+  position: number | null;
+  matches: number | null;
+  wins: number | null;
+  draws: number | null;
+  losses: number | null;
+  goalsFor: number | null;
+  goalsAgainst: number | null;
+  goalDifference: string | null;
+  points: number | null;
+  highlight: "home" | "away" | null;
+}
+
+export interface MatchDetailStandingTable {
+  name: string | null;
+  type: string | null;
+  rows: MatchDetailStandingRow[];
+}
+
 export interface MatchDetailSnapshot {
   source: "sofascore";
   sourceEventId: string;
@@ -71,6 +92,7 @@ export interface MatchDetailSnapshot {
   overview: MatchDetailOverview;
   watch: MatchDetailWatchInfo;
   odds: MatchDetailOdds | null;
+  standings: MatchDetailStandingTable[];
   tieContext: MatchDetailTieContext | null;
   recent: MatchDetailRecentContext;
 }

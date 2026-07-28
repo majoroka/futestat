@@ -107,6 +107,10 @@ export class SofascoreMatchDetailsScraper {
         throw new Error(`Missing event payload for match detail ${fixture.sourceEventId}.`);
       }
 
+      payloads.setStandings(
+        await this.fetchStandingsPayload(page, requiredPayload),
+      );
+
       return buildMatchDetailSnapshot({
         baseUrl: this.config.baseUrl,
         fixture,
@@ -116,6 +120,42 @@ export class SofascoreMatchDetailsScraper {
     } finally {
       page.off("response", listener);
     }
+  }
+
+  private async fetchStandingsPayload(page: Page, eventPayload: unknown): Promise<unknown | null> {
+    const event = readObject(readObject(eventPayload)?.event);
+    const tournamentId = readNumber(readObject(event?.tournament)?.id);
+    const seasonId = readNumber(readObject(event?.season)?.id);
+
+    if (tournamentId === null || seasonId === null) {
+      return null;
+    }
+
+    return page
+      .evaluate(async ({ tournamentId: innerTournamentId, seasonId: innerSeasonId }) => {
+        const path = `/api/v1/tournament/${innerTournamentId}/season/${innerSeasonId}/standings/total`;
+
+        try {
+          const response = await fetch(path, {
+            credentials: "include",
+            headers: {
+              Accept: "application/json, text/plain, */*",
+            },
+          });
+
+          if (!response.ok) {
+            return null;
+          }
+
+          return await response.json();
+        } catch {
+          return null;
+        }
+      }, {
+        tournamentId,
+        seasonId,
+      })
+      .catch(() => null);
   }
 
   private async acceptConsentIfPresent(page: Page): Promise<void> {
@@ -140,6 +180,7 @@ class ResponseCollector {
     event: null,
     tv: null,
     odds: null,
+    standings: null,
     h2hEvents: null,
     homeLast: null,
     awayLast: null,
@@ -228,6 +269,10 @@ class ResponseCollector {
     return this.payloads.event ?? null;
   }
 
+  setStandings(payload: unknown): void {
+    this.payloads.standings = payload;
+  }
+
   snapshot(): CollectedMatchDetailPayloads {
     return this.payloads;
   }
@@ -246,4 +291,14 @@ function parseProviderId(url: string): number | null {
 
   const value = Number.parseInt(match[1] ?? "", 10);
   return Number.isInteger(value) ? value : null;
+}
+
+function readObject(value: unknown): Record<string, unknown> | null {
+  return value && typeof value === "object" && !Array.isArray(value)
+    ? (value as Record<string, unknown>)
+    : null;
+}
+
+function readNumber(value: unknown): number | null {
+  return typeof value === "number" && Number.isFinite(value) ? value : null;
 }
