@@ -3,7 +3,7 @@
   "date": "2026-07-29",
   "collectionState": "open",
   "firstScrapedAtUtc": "2026-07-22T05:30:00.650Z",
-  "lastScrapedAtUtc": "2026-07-28T14:57:29.874Z",
+  "lastScrapedAtUtc": "2026-07-28T15:28:19.621Z",
   "frozenAtUtc": null,
   "fixtureCount": 22,
   "fixtures": [
@@ -28,7 +28,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/estudiantes-de-rio-cuarto-argentinos-juniors/qobsUIgc#id:16431109",
       "firstSeenAtUtc": "2026-07-28T08:37:19.201Z",
-      "lastSeenAtUtc": "2026-07-28T14:57:29.874Z",
+      "lastSeenAtUtc": "2026-07-28T15:28:19.621Z",
       "lastChangedAtUtc": "2026-07-28T08:37:19.201Z"
     },
     {
@@ -52,7 +52,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/rosario-central-racing-club/pobsrob#id:16431102",
       "firstSeenAtUtc": "2026-07-28T08:37:19.201Z",
-      "lastSeenAtUtc": "2026-07-28T14:57:29.874Z",
+      "lastSeenAtUtc": "2026-07-28T15:28:19.621Z",
       "lastChangedAtUtc": "2026-07-28T08:37:19.201Z"
     },
     {
@@ -76,7 +76,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/dukagjini-fc-lugano/TYsliRb#id:16351422",
       "firstSeenAtUtc": "2026-07-28T14:56:33.877Z",
-      "lastSeenAtUtc": "2026-07-28T14:56:33.877Z",
+      "lastSeenAtUtc": "2026-07-28T15:27:28.394Z",
       "lastChangedAtUtc": "2026-07-28T14:56:33.877Z"
     },
     {
@@ -100,7 +100,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/kairat-almaty-omonia-nicosia/Vrbsxdc#id:16350245",
       "firstSeenAtUtc": "2026-07-28T14:56:30.300Z",
-      "lastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+      "lastSeenAtUtc": "2026-07-28T15:27:25.214Z",
       "lastChangedAtUtc": "2026-07-28T14:56:30.300Z"
     },
     {
@@ -124,7 +124,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fk-kauno-zalgiris-klaksvikar-itrottarfelag/UdcsQoH#id:16350233",
       "firstSeenAtUtc": "2026-07-28T14:56:30.300Z",
-      "lastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+      "lastSeenAtUtc": "2026-07-28T15:27:25.214Z",
       "lastChangedAtUtc": "2026-07-28T14:56:30.300Z"
     },
     {
@@ -148,7 +148,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/lech-poznan-agf/QAswmb#id:16350242",
       "firstSeenAtUtc": "2026-07-28T14:56:30.300Z",
-      "lastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+      "lastSeenAtUtc": "2026-07-28T15:27:25.214Z",
       "lastChangedAtUtc": "2026-07-28T14:56:30.300Z"
     },
     {
@@ -172,7 +172,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/polissya-zhytomyr-fc-kobenhavn/JAsLvdc#id:16351418",
       "firstSeenAtUtc": "2026-07-28T14:56:33.877Z",
-      "lastSeenAtUtc": "2026-07-28T14:56:33.877Z",
+      "lastSeenAtUtc": "2026-07-28T15:27:28.394Z",
       "lastChangedAtUtc": "2026-07-28T14:56:33.877Z"
     },
     {
@@ -196,7 +196,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/barracas-central-aldosivi/LLostnB#id:16431112",
       "firstSeenAtUtc": "2026-07-28T08:37:19.201Z",
-      "lastSeenAtUtc": "2026-07-28T14:57:29.874Z",
+      "lastSeenAtUtc": "2026-07-28T15:28:19.621Z",
       "lastChangedAtUtc": "2026-07-28T08:37:19.201Z"
     },
     {
@@ -220,7 +220,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/hapoel-beer-sheva-vikingur-reykjavik/iNscec#id:16350247",
       "firstSeenAtUtc": "2026-07-28T14:56:30.300Z",
-      "lastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+      "lastSeenAtUtc": "2026-07-28T15:27:25.214Z",
       "lastChangedAtUtc": "2026-07-28T14:56:30.300Z"
     },
     {
@@ -244,7 +244,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/universitatea-craiova-levski-sofia/ypbsyzW#id:16350243",
       "firstSeenAtUtc": "2026-07-28T14:56:30.300Z",
-      "lastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+      "lastSeenAtUtc": "2026-07-28T15:27:25.214Z",
       "lastChangedAtUtc": "2026-07-28T14:56:30.300Z"
     },
     {
@@ -364,7 +364,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/larne-fc-fk-crvena-zvezda/ZccsJdc#id:16350240",
       "firstSeenAtUtc": "2026-07-28T14:56:30.300Z",
-      "lastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+      "lastSeenAtUtc": "2026-07-28T15:27:25.214Z",
       "lastChangedAtUtc": "2026-07-28T14:56:30.300Z"
     },
     {
@@ -388,7 +388,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/gornik-zabrze-fenerbahce/clbskmb#id:16350250",
       "firstSeenAtUtc": "2026-07-28T14:56:30.300Z",
-      "lastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+      "lastSeenAtUtc": "2026-07-28T15:27:25.214Z",
       "lastChangedAtUtc": "2026-07-28T14:56:30.300Z"
     },
     {
@@ -412,7 +412,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fc-iberia-1999-sk-slovan-bratislava/eYsmBW#id:16350248",
       "firstSeenAtUtc": "2026-07-28T14:56:30.300Z",
-      "lastSeenAtUtc": "2026-07-28T14:56:30.300Z",
+      "lastSeenAtUtc": "2026-07-28T15:27:25.214Z",
       "lastChangedAtUtc": "2026-07-28T14:56:30.300Z"
     },
     {
@@ -436,7 +436,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fc-santa-coloma-sk-rapid-wien/fQsled#id:16462285",
       "firstSeenAtUtc": "2026-07-28T14:56:33.877Z",
-      "lastSeenAtUtc": "2026-07-28T14:56:33.877Z",
+      "lastSeenAtUtc": "2026-07-28T15:27:28.394Z",
       "lastChangedAtUtc": "2026-07-28T14:56:33.877Z"
     },
     {
@@ -460,7 +460,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/deportivo-riestra-defensa-y-justicia/OLosyUAb#id:16431106",
       "firstSeenAtUtc": "2026-07-28T08:37:19.201Z",
-      "lastSeenAtUtc": "2026-07-28T14:57:29.874Z",
+      "lastSeenAtUtc": "2026-07-28T15:28:19.621Z",
       "lastChangedAtUtc": "2026-07-28T08:37:19.201Z"
     },
     {
@@ -484,7 +484,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/river-plate-gimnasia-y-esgrima/fobslob#id:16431105",
       "firstSeenAtUtc": "2026-07-28T08:37:19.201Z",
-      "lastSeenAtUtc": "2026-07-28T14:57:29.874Z",
+      "lastSeenAtUtc": "2026-07-28T15:28:19.621Z",
       "lastChangedAtUtc": "2026-07-28T08:37:19.201Z"
     },
     {
@@ -508,7 +508,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/flamengo-internacional/qOsGuc#id:15235488",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-28T14:57:28.083Z",
+      "lastSeenAtUtc": "2026-07-28T15:28:17.947Z",
       "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     },
     {
@@ -532,7 +532,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/mirassol-remo/mPsHOi#id:15235433",
       "firstSeenAtUtc": "2026-07-23T10:04:42.639Z",
-      "lastSeenAtUtc": "2026-07-28T14:57:28.083Z",
+      "lastSeenAtUtc": "2026-07-28T15:28:17.947Z",
       "lastChangedAtUtc": "2026-07-23T13:33:21.473Z"
     }
   ],
