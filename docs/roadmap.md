@@ -57,8 +57,9 @@ Estado:
 
 Entregáveis já introduzidos:
 - painel direito com detalhe base do jogo
-- carregamento sob demanda de detalhe adicional por ficheiro
-- suporte a estádio, localização, árbitro, ronda, H2H e contexto recente para jogos `upcoming`
+- separadores `Detalhes` e `Classificação`
+- carregamento sob demanda da classificação por competição
+- classificação desacoplada do Sofascore e servida a partir do Zerozero
 
 Pendências desta fase:
 - seletor UX dedicado para `passado / hoje / futuro`
@@ -66,16 +67,18 @@ Pendências desta fase:
 - tratamento visual de `postponed` e `cancelled`
 - odds `1/X/2` na coluna esquerda
 - afinação visual dos novos blocos do painel
+- decidir o conteúdo final do separador `Detalhes`
 
 ## Fase 4
 
 Objetivo:
-- enriquecer fixtures
+- enriquecer o separador `Detalhes`
 
 Itens:
-- país e competição mais normalizados
-- heurísticas para recuperar kickoff em dias passados quando a página da data não o mostra
-- ampliar o detalhe da página individual a mais jogos e mais secções
+- reintroduzir scraping por página individual apenas quando necessário
+- estádio, localização, árbitro, ronda e contexto competitivo
+- odds `1/X/2` no layout principal
+- H2H e contexto recente das equipas
 
 ## Fase 5
 

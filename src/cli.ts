@@ -23,6 +23,7 @@ async function main(): Promise<void> {
         dayPaths: result.dayPaths,
         metricsPath: result.metricsPath,
         matchDetails: result.matchDetails,
+        competitionStandings: result.competitionStandings,
       },
       null,
       2,

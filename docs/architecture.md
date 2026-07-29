@@ -5,7 +5,7 @@
 O sistema evoluiu de um scraper simples de `upcoming` para uma pipeline pequena, mas já com dois níveis de persistência:
 - store canónica por dia
 - snapshot público derivado para o site
-- detalhe adicional por jogo `upcoming`
+- classificações por competição em ficheiros próprios
 - métricas operacionais por run
 
 Na operação em GitHub, a persistência fica também separada por ramo:
@@ -35,8 +35,9 @@ Coordena o fluxo:
 3. filtrar fixtures pela whitelist de `competitionId`
 4. reconciliar com a store canónica
 5. derivar o snapshot público
-6. refrescar detalhe adicional de um subconjunto conservador de jogos `upcoming`
+6. refrescar classificações das competições presentes na janela pública
 7. gravar métricas da run
+8. manter a porta aberta para detalhe por jogo, hoje desligado por omissão
 
 ### `infrastructure/sofascore`
 
@@ -51,14 +52,22 @@ Contém a integração específica com o Sofascore:
 - deteção explícita de páginas bloqueadas por `403`
 - captura opcional de `html/png` para diagnóstico
 - suplemento da janela atual por páginas de competição para contornar DOM incompleto, acordeões e virtualização
-- scraping de detalhe por jogo via página individual e respostas JSON carregadas pelo próprio browser
+
+### `infrastructure/zerozero`
+
+Contém a integração específica com o Zerozero:
+- pedido HTTP simples a páginas públicas de competição
+- parsing das tabelas `zz-datatable`
+- extração de `editionId` e `phaseId`
+- normalização de linhas de classificação
+- persistência por `competitionId`
 
 ### `infrastructure/storage`
 
 Persistência local em JSON:
 - `data/fixtures/days/YYYY-MM-DD.json`
 - `data/fixtures/latest.json`
-- `data/fixtures/details/<sourceEventId>.json`
+- `data/fixtures/standings/<competitionId>.json`
 - `data/fixtures/runs/fixtures-window-<timestamp>.json`
 - `data/fixtures/runs/fixtures-metrics-<timestamp>.json`
 - `data/fixtures/diagnostics/<run>/<date>/attempt-<n>.{html,png}`
@@ -154,20 +163,19 @@ Padrão aplicado:
 - métricas persistidas por run
 - artefactos opcionais de falha para inspeção manual
 
-## 8. Detalhe adicional apenas para `upcoming` e com limite por run
+## 8. Separação de responsabilidades entre fontes
 
 Motivo:
-- abrir páginas individuais para centenas de jogos aumentaria o risco de bloqueio
-- a UI pública beneficia mais dos jogos mais próximos do que de toda a janela futura
-- o detalhe é complementar e não deve comprometer a recolha principal
+- o Sofascore é a melhor fonte atual para agenda e resultados
+- o Zerozero é uma fonte mais simples para classificações públicas
+- separar responsabilidades reduz impacto quando uma das fontes falha
 
 Padrão aplicado:
-- apenas fixtures `upcoming`
-- prioridade aos fixtures `upcoming` do dia de referência
-- depois, seleção dos jogos mais próximos até um máximo configurável por run
-- cache persistente por `sourceEventId`
-- refresh só quando o detalhe está velho ou quando o fixture mudou
-- falha num detalhe individual é registada, mas não interrompe a run principal
+- Sofascore apenas para fixtures
+- Zerozero apenas para classificações
+- ficheiros de classificação persistidos por `competitionId`
+- refresh de classificação só para competições presentes na janela pública
+- falha numa classificação individual é registada, mas não interrompe a run principal
 
 ## Política de estados
 
@@ -220,6 +228,7 @@ Regras principais:
 - widgets editoriais misturados com agenda
 - rate limits ou anti-bot no futuro
 - páginas passadas sem hora visível de kickoff
+- variações de markup entre competições no Zerozero
 
 ### Mitigações já aplicadas
 
@@ -231,6 +240,7 @@ Regras principais:
 - abortar a run quando todas as datas devolvem zero fixtures
 - reintentar datas bloqueadas antes de declarar falha
 - gravar artefactos locais quando o Sofascore devolve página bloqueada
+- tratar classificações como camada secundária e opcional
 
 ## Evolução natural
 
@@ -238,4 +248,4 @@ Os próximos passos técnicos mais naturais são:
 1. testes com snapshots HTML reais
 2. retries e observabilidade estruturada
 3. classificação mais rica de estados raros
-4. detalhe por fixture
+4. enriquecimento do separador `Detalhes`

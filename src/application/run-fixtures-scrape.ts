@@ -2,12 +2,14 @@ import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 import type { AppConfig } from "../config/app-config.js";
+import type { CompetitionStandingsRefreshResult } from "../domain/competition-standings.js";
 import type { FixtureScrapeRunMetrics, PublicFixtureSnapshot } from "../domain/fixture.js";
 import type { MatchDetailRefreshResult } from "../domain/match-detail.js";
 import { buildSlidingWindowDates } from "../lib/date.js";
 import { logStructuredEvent } from "../lib/structured-logger.js";
 import { SofascoreFixturesScraper } from "../infrastructure/sofascore/sofascore-fixtures-scraper.js";
 import { JsonFixtureStore } from "../infrastructure/storage/json-fixture-store.js";
+import { runCompetitionStandingsRefresh } from "./run-competition-standings-refresh.js";
 import { runMatchDetailsRefresh } from "./run-match-details-refresh.js";
 
 export interface RunFixturesScrapeResult {
@@ -18,6 +20,7 @@ export interface RunFixturesScrapeResult {
   dayPaths: string[];
   metricsPath: string;
   matchDetails: MatchDetailRefreshResult | null;
+  competitionStandings: CompetitionStandingsRefreshResult | null;
 }
 
 export async function runFixturesScrape(config: AppConfig): Promise<RunFixturesScrapeResult> {
@@ -66,6 +69,16 @@ export async function runFixturesScrape(config: AppConfig): Promise<RunFixturesS
     });
   }
 
+  let competitionStandings: CompetitionStandingsRefreshResult | null = null;
+  if (config.competitionStandingsEnabled) {
+    competitionStandings = await runCompetitionStandingsRefresh(config, snapshot).catch((error: unknown) => {
+      logStructuredEvent(config.structuredLogs, "warn", "competition_standings_refresh_aborted", {
+        errorMessage: error instanceof Error ? error.message : String(error),
+      });
+      return null;
+    });
+  }
+
   logStructuredEvent(config.structuredLogs, "info", "fixtures_run_completed", {
     referenceDate: config.referenceDate,
     totalDates: metrics.totalDates,
@@ -79,7 +92,18 @@ export async function runFixturesScrape(config: AppConfig): Promise<RunFixturesS
     metricsPath,
     matchDetailsRefreshed: matchDetails?.refreshed ?? 0,
     matchDetailsFailed: matchDetails?.failed ?? 0,
+    competitionStandingsRefreshed: competitionStandings?.refreshed ?? 0,
+    competitionStandingsFailed: competitionStandings?.failed ?? 0,
   });
 
-  return { snapshot, metrics, latestPath, runPath, dayPaths, metricsPath, matchDetails };
+  return {
+    snapshot,
+    metrics,
+    latestPath,
+    runPath,
+    dayPaths,
+    metricsPath,
+    matchDetails,
+    competitionStandings,
+  };
 }

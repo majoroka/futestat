@@ -8,7 +8,7 @@ const docsDir = path.join(distDir, "docs");
 const fixturesDir = path.join(distDir, "fixtures");
 const displayTimeZone = "Europe/Lisbon";
 const fixtureSnapshotPath = resolveFixtureSnapshotPath();
-const fixtureDetailsPath = resolveFixtureDetailsPath();
+const competitionStandingsPath = resolveCompetitionStandingsPath();
 
 const markdownPages = [
   {
@@ -48,7 +48,7 @@ async function buildSite() {
     writeFile(path.join(distDir, ".nojekyll"), "", "utf8"),
     writeFile(path.join(fixturesDir, "latest.json"), JSON.stringify(snapshot, null, 2), "utf8"),
   ]);
-  await copyFixtureDetails();
+  await copyCompetitionStandings();
 
   await writeFile(
     path.join(distDir, "index.html"),
@@ -168,11 +168,11 @@ function resolveFixtureSnapshotPath() {
     : path.resolve(repoRoot, customPath);
 }
 
-function resolveFixtureDetailsPath() {
-  const customPath = process.env.FUTESTAT_SITE_DETAILS_PATH;
+function resolveCompetitionStandingsPath() {
+  const customPath = process.env.FUTESTAT_SITE_STANDINGS_PATH;
 
   if (!customPath) {
-    return path.join(repoRoot, "data", "fixtures", "details");
+    return path.join(repoRoot, "data", "fixtures", "standings");
   }
 
   return path.isAbsolute(customPath)
@@ -180,13 +180,13 @@ function resolveFixtureDetailsPath() {
     : path.resolve(repoRoot, customPath);
 }
 
-async function copyFixtureDetails() {
+async function copyCompetitionStandings() {
   try {
-    await rm(path.join(fixturesDir, "details"), { recursive: true, force: true });
-    await cp(fixtureDetailsPath, path.join(fixturesDir, "details"), { recursive: true });
+    await rm(path.join(fixturesDir, "standings"), { recursive: true, force: true });
+    await cp(competitionStandingsPath, path.join(fixturesDir, "standings"), { recursive: true });
   } catch (error) {
     if (error && typeof error === "object" && "code" in error && error.code === "ENOENT") {
-      // Details are optional; the site falls back to the public snapshot when absent.
+      // Standings are optional; the site falls back to the base fixture snapshot when absent.
       return;
     }
 

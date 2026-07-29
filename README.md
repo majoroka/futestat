@@ -1,6 +1,6 @@
 # Futestat
 
-Scraper local de `fixtures` de futebol no Sofascore com janela deslizante `D-1 ... D+1`, store canónica por dia e snapshot público para o site estático.
+Pipeline local híbrida para `fixtures` de futebol no Sofascore e classificações no Zerozero, com janela deslizante `D-1 ... D+1`, store canónica por dia e snapshot público para o site estático.
 
 ## Objetivo desta fase
 
@@ -11,18 +11,21 @@ Esta iteração faz:
 - filtro por whitelist de ligas suportadas
 - resultados finais para jogos terminados
 - exclusão de `live` do snapshot público
+- classificações por competição a partir do Zerozero
 - saída local em JSON
-- detalhe adicional para um subconjunto conservador de jogos `upcoming`
+- painel direito com separadores `Detalhes` e `Classificação`
 
 Ficam explicitamente fora desta fase:
 - UI de `live`
+- detalhe enriquecido completo por jogo
 - lineups completas e eventos in-play
 - estatísticas de equipa
 
 ## Escolhas principais
 
 - Stack: `Node 22 + TypeScript + Playwright`
-- Fonte: página pública do Sofascore por data, com suplemento por página de competição whitelistada
+- Fonte de fixtures: página pública do Sofascore por data, com suplemento por página de competição whitelistada
+- Fonte de classificações: páginas públicas de competição do Zerozero
 - Timezone do browser de scraping: `UTC`
 - Data de referência operacional: `Europe/Lisbon`
 - Persistência: store canónica em ficheiros JSON por dia
@@ -37,6 +40,8 @@ O Sofascore expõe páginas por data, mas algumas ligas ficam escondidas por vir
 - `live`
 
 O estado `live` é guardado na store canónica, mas é excluído do snapshot público desta fase.
+
+As classificações deixam de depender do Sofascore. Sempre que a janela pública contém uma competição suportada, o pipeline tenta refrescar a classificação dessa competição a partir do Zerozero e publica-a em ficheiro separado para consumo do site.
 
 ## Estrutura
 
@@ -85,16 +90,19 @@ As mais importantes:
 - `FUTESTAT_RETRY_DELAY_MS`
 - `FUTESTAT_CAPTURE_FAILURE_ARTIFACTS`
 - `FUTESTAT_STRUCTURED_LOGS`
-- `FUTESTAT_MATCH_DETAILS_ENABLED`
-- `FUTESTAT_MATCH_DETAILS_MAX_FIXTURES`
-- `FUTESTAT_MATCH_DETAILS_MAX_AGE_HOURS`
-- `FUTESTAT_MATCH_DETAILS_DELAY_MS`
+- `FUTESTAT_COMPETITION_STANDINGS_ENABLED`
+- `FUTESTAT_COMPETITION_STANDINGS_MAX_AGE_HOURS`
+- `FUTESTAT_COMPETITION_STANDINGS_OUTPUT_DIR`
+
+Notas:
+- `FUTESTAT_MATCH_DETAILS_ENABLED` existe, mas fica desligada por omissão nesta fase
+- o fluxo principal usa agora classificações por competição em `data/fixtures/standings/`
 
 ## Output local
 
 O scraper grava:
 - `data/fixtures/latest.json`
-- `data/fixtures/details/<sourceEventId>.json`
+- `data/fixtures/standings/<competitionId>.json`
 - `data/fixtures/runs/fixtures-window-<timestamp>.json`
 - `data/fixtures/runs/fixtures-metrics-<timestamp>.json`
 - `data/fixtures/days/YYYY-MM-DD.json`
@@ -118,6 +126,9 @@ Cada dia mantém:
 - a janela de datas incluídas
 - todos os `finished`, `postponed`, `cancelled` e `upcoming` dentro da whitelist de ligas
 - exclusão de `live`
+
+As classificações são publicadas em paralelo, por competição:
+- `data/fixtures/standings/<competitionId>.json`
 
 ### Filtro de ligas
 
@@ -201,28 +212,31 @@ Exemplo resumido:
 }
 ```
 
-### Detalhe por jogo `upcoming`
+### Classificações por competição
 
-Os detalhes enriquecidos ficam em ficheiros separados:
-- `data/fixtures/details/<sourceEventId>.json`
+As classificações ficam em ficheiros separados:
+- `data/fixtures/standings/<competitionId>.json`
 
-Nesta fase, o detalhe adicional inclui:
-- estádio
-- localização
-- árbitro
-- competição e ronda
-- contexto de `two legs`
-- jogos anteriores e seguintes das equipas
-- histórico `H2H`
-- odds `1/X/2` recolhidas para uso posterior na coluna esquerda
+Nesta fase:
+- os fixtures continuam a ser recolhidos no Sofascore
+- as classificações são recolhidas apenas no Zerozero
+- o site carrega a classificação sob demanda quando o utilizador abre o separador `Classificação`
+- se não existir ficheiro para a competição, o painel mostra estado indisponível sem falhar a página
 
 Política operacional desta camada:
-- apenas jogos `upcoming`
-- prioridade a todos os jogos `upcoming` do dia de referência
-- depois, subconjunto adicional por proximidade temporal até ao limite configurado
-- cache persistente por `sourceEventId`
-- refresh por idade máxima e/ou alteração do fixture
-- falha num detalhe individual não invalida a run principal de fixtures
+- apenas competições presentes na janela pública atual
+- cache persistente por `competitionId`
+- refresh por idade máxima configurável
+- falha numa classificação individual não invalida a run principal de fixtures
+
+### Separador `Detalhes`
+
+O separador `Detalhes` fica propositadamente reduzido nesta fase.
+
+Objetivo atual:
+- preservar a estrutura UI do painel direito
+- adiar o enriquecimento por página individual para uma fase posterior
+- evitar aumentar o risco de bloqueio no Sofascore enquanto a camada de classificações estabiliza
 
 ## Regras operacionais
 
@@ -243,6 +257,7 @@ O draft já incorpora algumas decisões de robustez:
 - normalização de kickoff para `UTC` quando a hora está disponível
 - extração de `teamId` a partir dos `img` dos cartões para construir URLs estáveis de logótipo
 - exclusão de `live` do snapshot público
+- desacoplamento entre fixtures e classificações para reduzir dependência de uma única fonte
 
 Limites atuais:
 - depende do DOM atual do Sofascore
@@ -280,7 +295,7 @@ npm run refresh:fixtures-local
 
 Este comando:
 1. corre `npm run scrape:fixtures`
-2. atualiza também o detalhe adicional de jogos `upcoming` dentro do mesmo fluxo local
+2. atualiza também as classificações suportadas a partir do Zerozero dentro do mesmo fluxo local
 3. publica a store local para o ramo `fixtures-data`
 
 Se preferires separar os passos:
@@ -297,7 +312,7 @@ Nota técnica:
 - se o scrape local falhar e devolver zero fixtures em todas as datas, a run falha e não publica um snapshot vazio
 - cada data pode ser reintentada várias vezes antes de falhar a run inteira
 - em caso de bloqueio, a run grava logs estruturados e artefactos opcionais de diagnóstico
-- o refresh de detalhe adicional é conservador e não falha a run principal se um jogo individual der erro
+- o refresh das classificações é conservador e não falha a run principal se uma competição individual der erro
 
 Build local do site:
 

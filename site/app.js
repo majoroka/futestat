@@ -24,7 +24,7 @@ const state = {
   selectedDate: null,
   selectedFixtureId: null,
   selectedDetailTab: "details",
-  detailCache: new Map(),
+  standingsCache: new Map(),
 };
 
 bootstrap().catch((error) => {
@@ -274,7 +274,6 @@ function renderFixtureDetail() {
     return;
   }
 
-  const detailState = state.detailCache.get(fixture.sourceEventId) ?? null;
   const centerTime = fixture.kickoffAtUtc ? formatKickoffTime(fixture.kickoffAtUtc) : "Sem hora";
   const competitionLogo = buildCompetitionLogoUrl(
     fixture.competitionLogoUrl,
@@ -323,16 +322,15 @@ function renderFixtureDetail() {
     <section class="fixture-detail__section fixture-detail__section--tabbed">
       ${
         state.selectedDetailTab === "standings"
-          ? renderFixtureStandingsTab(fixture, detailState)
-          : renderFixtureDetailsTab(fixture, detailState)
+          ? renderFixtureStandingsTab(fixture)
+          : renderFixtureDetailsTab()
       }
     </section>
   `;
 
   bindFixtureDetailTabs();
-
-  if (!detailState) {
-    void loadFixtureDetail(fixture);
+  if (fixture.competitionId) {
+    void loadCompetitionStandings(fixture.competitionId);
   }
 }
 
@@ -371,46 +369,42 @@ function bindFixtureDetailTabs() {
   }
 }
 
-function renderFixtureDetailsTab(fixture, detailState) {
-  const detail = detailState?.status === "loaded" ? detailState.data : null;
-  const rows = [
-    detailInfoRow("Data e hora", formatDetailDateTime(fixture, detail)),
-    detailInfoRow("Competição", formatCompetitionSummary(fixture, detail)),
-    detailInfoRow("Recinto", detail?.overview?.venueName ?? "Por publicar"),
-    detailInfoRow("Localização", formatLocation(detail?.overview) ?? "Por publicar"),
-    detailInfoRow("Árbitro", formatReferee(detail?.overview) ?? "Por publicar"),
-  ].join("");
-
+function renderFixtureDetailsTab() {
   return `
-    <div class="fixture-detail__info-list">
-      ${rows}
-    </div>
-    ${renderDetailStateNote(detailState, "details")}
+    <p class="fixture-detail__empty">
+      Este separador fica em preparação. Voltaremos aos detalhes do jogo numa fase posterior.
+    </p>
   `;
 }
 
-function renderFixtureStandingsTab(fixture, detailState) {
-  if (detailState?.status === "loaded" && Array.isArray(detailState.data?.standings) && detailState.data.standings.length > 0) {
+function renderFixtureStandingsTab(fixture) {
+  if (!fixture.competitionId) {
+    return '<p class="fixture-detail__empty">Este jogo não tem competição mapeada para classificação.</p>';
+  }
+
+  const standingsState = state.standingsCache.get(fixture.competitionId) ?? null;
+
+  if (standingsState?.status === "loaded" && Array.isArray(standingsState.data?.tables) && standingsState.data.tables.length > 0) {
     return `
       <div class="fixture-detail__standings">
-        ${detailState.data.standings.map((table) => renderStandingsTable(table)).join("")}
+        ${standingsState.data.tables.map((table) => renderStandingsTable(table, fixture)).join("")}
       </div>
-      ${renderDetailStateNote(detailState, "standings")}
+      ${renderStandingsStateNote(standingsState)}
     `;
   }
 
   const message =
-    detailState?.status === "loading"
+    standingsState?.status === "loading"
       ? "A carregar classificação..."
       : "Classificação indisponível para este jogo ou competição.";
 
   return `
     <p class="fixture-detail__empty">${escapeHtml(message)}</p>
-    ${renderDetailStateNote(detailState, "standings")}
+    ${renderStandingsStateNote(standingsState)}
   `;
 }
 
-function renderStandingsTable(table) {
+function renderStandingsTable(table, fixture) {
   const title = [table.name, formatStandingType(table.type)].filter(Boolean).join(" · ");
 
   return `
@@ -427,15 +421,17 @@ function renderStandingsTable(table) {
           <span>DG</span>
           <span>P</span>
         </div>
-        ${table.rows.map((row) => renderStandingsRow(row)).join("")}
+        ${table.rows.map((row) => renderStandingsRow(row, fixture)).join("")}
       </div>
     </section>
   `;
 }
 
-function renderStandingsRow(row) {
+function renderStandingsRow(row, fixture) {
+  const highlight = resolveStandingRowHighlight(row, fixture);
+
   return `
-    <div class="fixture-detail__standings-row ${row.highlight ? `fixture-detail__standings-row--${row.highlight}` : ""}" role="row">
+    <div class="fixture-detail__standings-row ${highlight ? `fixture-detail__standings-row--${highlight}` : ""}" role="row">
       <span>${escapeHtml(stringValue(row.position, "—"))}</span>
       <span class="fixture-detail__standings-team">${escapeHtml(row.teamName)}</span>
       <span>${escapeHtml(stringValue(row.matches, "—"))}</span>
@@ -455,24 +451,6 @@ function detailInfoRow(label, value) {
       <strong class="fixture-detail__info-value">${escapeHtml(value)}</strong>
     </article>
   `;
-}
-
-function renderDetailStateNote(detailState, tab) {
-  if (detailState?.status === "loading") {
-    return tab === "details"
-      ? '<p class="fixture-detail__note">A carregar detalhe adicional do jogo...</p>'
-      : "";
-  }
-
-  if (detailState?.status === "error") {
-    return '<p class="fixture-detail__note">Falhou o carregamento do detalhe adicional deste jogo. A base atual continua disponível.</p>';
-  }
-
-  if (detailState?.status === "missing") {
-    return '<p class="fixture-detail__note">Este jogo ainda não tem detalhe adicional publicado.</p>';
-  }
-
-  return "";
 }
 
 function renderDetailMatchSide(name, logoUrl, teamId) {
@@ -539,40 +517,46 @@ function buildTeamDisplayLogoUrl(existingUrl, teamId) {
   return existingUrl ? existingUrl.replace(/\/small$/, "") : null;
 }
 
-async function loadFixtureDetail(fixture) {
-  if (state.detailCache.get(fixture.sourceEventId)?.status === "loading") {
+async function loadCompetitionStandings(competitionId) {
+  if (state.standingsCache.get(competitionId)?.status === "loading") {
     return;
   }
 
-  state.detailCache.set(fixture.sourceEventId, { status: "loading" });
-  if (state.selectedFixtureId === fixture.sourceEventId) {
+  state.standingsCache.set(competitionId, { status: "loading" });
+  const selectedFixture = state.snapshot?.fixtures.find(
+    (fixture) => fixture.sourceEventId === state.selectedFixtureId,
+  );
+  if (selectedFixture?.competitionId === competitionId) {
     renderFixtureDetail();
   }
 
   try {
-    const response = await fetch(`./fixtures/details/${fixture.sourceEventId}.json`, {
+    const response = await fetch(`./fixtures/standings/${competitionId}.json`, {
       cache: "no-store",
     });
 
     if (response.status === 404) {
-      state.detailCache.set(fixture.sourceEventId, { status: "missing", data: null });
+      state.standingsCache.set(competitionId, { status: "missing", data: null });
     } else if (!response.ok) {
-      throw new Error(`Detalhe indisponível (${response.status})`);
+      throw new Error(`Classificação indisponível (${response.status})`);
     } else {
-      state.detailCache.set(fixture.sourceEventId, {
+      state.standingsCache.set(competitionId, {
         status: "loaded",
         data: await response.json(),
       });
     }
   } catch (error) {
-    state.detailCache.set(fixture.sourceEventId, {
+    state.standingsCache.set(competitionId, {
       status: "error",
       data: null,
       error,
     });
   }
 
-  if (state.selectedFixtureId === fixture.sourceEventId) {
+  const currentSelectedFixture = state.snapshot?.fixtures.find(
+    (fixture) => fixture.sourceEventId === state.selectedFixtureId,
+  );
+  if (currentSelectedFixture?.competitionId === competitionId) {
     renderFixtureDetail();
   }
 }
@@ -724,54 +708,16 @@ function formatStatusLabel(fixture) {
   }
 }
 
-function formatDetailDateTime(fixture, detail) {
-  const kickoffValue = detail?.overview?.kickoffAtUtc ?? fixture.kickoffAtUtc;
-  if (!kickoffValue) {
-    return fixture.matchDate;
+function renderStandingsStateNote(standingsState) {
+  if (standingsState?.status === "error") {
+    return '<p class="fixture-detail__note">Falhou o carregamento da classificação desta competição.</p>';
   }
 
-  const date = new Date(kickoffValue);
-  return Number.isNaN(date.getTime())
-    ? kickoffValue
-    : new Intl.DateTimeFormat("pt-PT", {
-        day: "2-digit",
-        month: "2-digit",
-        year: "numeric",
-        hour: "2-digit",
-        minute: "2-digit",
-        timeZone: displayTimeZone,
-      })
-        .format(date)
-        .replace(", ", " · ");
-}
-
-function formatCompetitionSummary(fixture, detail) {
-  const competitionName = detail?.overview?.competitionName ?? fixture.competitionName ?? "Competição desconhecida";
-  const stage = detail?.overview?.competitionStage ?? null;
-  const tieFormat = formatTieFormat(detail?.tieContext?.tieFormat ?? null);
-
-  return `Futebol, ${[competitionName, stage].filter(Boolean).join(", ")}${tieFormat ? ` - ${tieFormat}` : ""}`;
-}
-
-function formatTieFormat(value) {
-  if (value === "Two legs") {
-    return "Duas mãos";
+  if (standingsState?.status === "missing") {
+    return '<p class="fixture-detail__note">Ainda não existe classificação publicada para esta competição.</p>';
   }
 
-  return value;
-}
-
-function formatLocation(overview) {
-  const parts = [overview?.venueCity, overview?.venueCountry].filter(Boolean);
-  return parts.length > 0 ? parts.join(", ") : null;
-}
-
-function formatReferee(overview) {
-  if (!overview?.refereeName) {
-    return null;
-  }
-
-  return [overview.refereeName, overview.refereeCountry].filter(Boolean).join(", ");
+  return "";
 }
 
 function formatStandingType(type) {
@@ -789,6 +735,30 @@ function formatStandingType(type) {
 
 function stringValue(value, fallback) {
   return value === null || value === undefined ? fallback : String(value);
+}
+
+function resolveStandingRowHighlight(row, fixture) {
+  const normalizedRow = normalizeTeamName(row.teamName);
+  const normalizedHome = normalizeTeamName(fixture.homeTeamName);
+  const normalizedAway = normalizeTeamName(fixture.awayTeamName);
+
+  if (normalizedRow && normalizedRow === normalizedHome) {
+    return "home";
+  }
+
+  if (normalizedRow && normalizedRow === normalizedAway) {
+    return "away";
+  }
+
+  return null;
+}
+
+function normalizeTeamName(value) {
+  return String(value ?? "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9]+/g, "")
+    .toLowerCase();
 }
 
 function formatScoreline(fixture) {
