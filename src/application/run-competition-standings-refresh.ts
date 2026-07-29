@@ -1,5 +1,6 @@
 import type { AppConfig } from "../config/app-config.js";
-import { buildCompetitionStandingsSourceMap } from "../config/competition-standings-sources.js";
+import { findCompetitionStandingsSource } from "../config/competition-standings-sources.js";
+import type { CompetitionStandingsSource } from "../config/competition-standings-sources.js";
 import type { PublicFixtureSnapshot } from "../domain/fixture.js";
 import type { CompetitionStandingsRefreshResult } from "../domain/competition-standings.js";
 import { ZerozeroStandingsScraper } from "../infrastructure/zerozero/zerozero-standings-scraper.js";
@@ -10,17 +11,11 @@ export async function runCompetitionStandingsRefresh(
   config: AppConfig,
   snapshot: PublicFixtureSnapshot,
 ): Promise<CompetitionStandingsRefreshResult> {
-  const sourceMap = buildCompetitionStandingsSourceMap();
   const store = new JsonCompetitionStandingsStore(config.competitionStandingsOutputDir);
   const sources = [];
 
-  for (const competitionId of uniqueCompetitionIds(snapshot)) {
-    const source = sourceMap.get(competitionId);
-    if (!source) {
-      continue;
-    }
-
-    const existing = await store.read(competitionId);
+  for (const source of uniqueCompetitionSources(snapshot)) {
+    const existing = await store.read(source.competitionId);
     if (
       existing &&
       store.isFresh({
@@ -55,14 +50,28 @@ export async function runCompetitionStandingsRefresh(
   return result;
 }
 
-function uniqueCompetitionIds(snapshot: PublicFixtureSnapshot): string[] {
-  const ids = new Set<string>();
+function uniqueCompetitionSources(snapshot: PublicFixtureSnapshot) {
+  const byCompetitionId = new Map<string, CompetitionStandingsSource>();
 
   for (const fixture of snapshot.fixtures) {
-    if (fixture.competitionId) {
-      ids.add(fixture.competitionId);
+    if (!fixture.competitionId) {
+      continue;
     }
+
+    const source = findCompetitionStandingsSource({
+      competitionId: fixture.competitionId,
+      competitionName: fixture.competitionName,
+      countryName: fixture.countryName,
+    });
+
+    if (!source) {
+      continue;
+    }
+
+    byCompetitionId.set(source.competitionId, source);
   }
 
-  return Array.from(ids).sort();
+  return Array.from(byCompetitionId.values()).sort((left, right) =>
+    left.competitionId.localeCompare(right.competitionId),
+  );
 }

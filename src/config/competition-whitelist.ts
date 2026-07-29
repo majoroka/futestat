@@ -1,13 +1,32 @@
+import { matchesCompetitionIdentity, type FixtureCompetitionIdentity } from "../lib/competition-matcher.js";
+
 export interface AllowedCompetition {
   countryName: string;
   competitionName: string;
   competitionId: string;
+  competitionAliases?: string[];
+  countryAliases?: string[];
 }
 
 export const DEFAULT_ALLOWED_COMPETITIONS: AllowedCompetition[] = [
-  { countryName: "Europe", competitionName: "UEFA Champions League", competitionId: "7" },
-  { countryName: "Europe", competitionName: "UEFA Europa League", competitionId: "679" },
-  { countryName: "Europe", competitionName: "UEFA Conference League", competitionId: "17015" },
+  {
+    countryName: "Europe",
+    competitionName: "UEFA Champions League",
+    competitionId: "7",
+    competitionAliases: ["UEFA Champions League, Qualification"],
+  },
+  {
+    countryName: "Europe",
+    competitionName: "UEFA Europa League",
+    competitionId: "679",
+    competitionAliases: ["UEFA Europa League, Qualification"],
+  },
+  {
+    countryName: "Europe",
+    competitionName: "UEFA Conference League",
+    competitionId: "17015",
+    competitionAliases: ["UEFA Conference League, Qualification"],
+  },
   { countryName: "England", competitionName: "Premier League", competitionId: "17" },
   { countryName: "Spain", competitionName: "LaLiga", competitionId: "8" },
   { countryName: "Italy", competitionName: "Serie A", competitionId: "23" },
@@ -19,7 +38,7 @@ export const DEFAULT_ALLOWED_COMPETITIONS: AllowedCompetition[] = [
   { countryName: "Scotland", competitionName: "Premiership", competitionId: "36" },
   { countryName: "Turkey", competitionName: "Super Lig", competitionId: "52" },
   { countryName: "Austria", competitionName: "Bundesliga", competitionId: "45" },
-  { countryName: "Switzerland", competitionName: "Super League", competitionId: "46" },
+  { countryName: "Switzerland", competitionName: "Super League", competitionId: "215" },
   { countryName: "Denmark", competitionName: "Superliga", competitionId: "39" },
   { countryName: "Norway", competitionName: "Eliteserien", competitionId: "20" },
   { countryName: "Sweden", competitionName: "Allsvenskan", competitionId: "43" },
@@ -37,9 +56,23 @@ export const DEFAULT_ALLOWED_COMPETITIONS: AllowedCompetition[] = [
   { countryName: "Ukraine", competitionName: "Premier League", competitionId: "218" },
   { countryName: "Russia", competitionName: "Premier League", competitionId: "203" },
   { countryName: "Israel", competitionName: "Premier League", competitionId: "59" },
-  { countryName: "Brazil", competitionName: "Brasileirao Serie A", competitionId: "325" },
-  { countryName: "Argentina", competitionName: "Liga Profesional", competitionId: "155" },
+  {
+    countryName: "Brazil",
+    competitionName: "Brasileirao Serie A",
+    competitionId: "325",
+    competitionAliases: ["Brasileirao Betano", "Brasileirão Betano"],
+  },
+  {
+    countryName: "Argentina",
+    competitionName: "Liga Profesional",
+    competitionId: "155",
+    competitionAliases: ["Liga Profesional, Clausura", "Liga Profesional, Apertura"],
+  },
 ];
+
+const DEFAULT_ALLOWED_COMPETITIONS_BY_ID = new Map(
+  DEFAULT_ALLOWED_COMPETITIONS.map((competition) => [competition.competitionId, competition]),
+);
 
 export function buildAllowedCompetitionIdSet(rawValue?: string): Set<string> {
   if (rawValue === undefined) {
@@ -70,6 +103,30 @@ export function filterFixturesByCompetition<T extends { competitionId: string | 
   allowedCompetitionIds: ReadonlySet<string>,
 ): T[] {
   return fixtures.filter((fixture) =>
-    isAllowedCompetitionId(fixture.competitionId, allowedCompetitionIds),
+    isAllowedCompetitionFixture(fixture, allowedCompetitionIds),
   );
+}
+
+export function isAllowedCompetitionFixture(
+  fixture: FixtureCompetitionIdentity,
+  allowedCompetitionIds: ReadonlySet<string>,
+): boolean {
+  if (!isAllowedCompetitionId(fixture.competitionId, allowedCompetitionIds)) {
+    return false;
+  }
+
+  if (!fixture.competitionId) {
+    return false;
+  }
+
+  const curated = DEFAULT_ALLOWED_COMPETITIONS_BY_ID.get(fixture.competitionId);
+  if (!curated) {
+    return true;
+  }
+
+  if (!fixture.competitionName && !fixture.countryName) {
+    return true;
+  }
+
+  return matchesCompetitionIdentity(curated, fixture);
 }

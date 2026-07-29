@@ -72,6 +72,8 @@ function extractTables(
 }
 
 function extractRows(tableHtml: string) {
+  const headers = extractHeaderCells(tableHtml);
+  const columnIndexes = resolveColumnIndexes(headers);
   const bodyMatch = tableHtml.match(/<tbody>([\s\S]*?)<\/tbody>/i);
   const body = bodyMatch?.[1] ?? "";
   const rowRegex = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
@@ -80,11 +82,11 @@ function extractRows(tableHtml: string) {
 
   while ((match = rowRegex.exec(body)) !== null) {
     const cells = extractCells(match[1] ?? "");
-    if (cells.length < 11) {
+    if (cells.length < 3) {
       continue;
     }
 
-    const teamCell = cells[2] ?? "";
+    const teamCell = resolveTeamCell(cells);
     const teamName = decodeHtml(stripTags(teamCell));
     if (!teamName) {
       continue;
@@ -94,18 +96,24 @@ function extractRows(tableHtml: string) {
       position: toInteger(decodeHtml(stripTags(cells[0] ?? ""))),
       teamName,
       teamUrl: absolutizeZerozeroPath(firstMatch(teamCell, /<a href="([^"]+)"/i)),
-      points: toInteger(readCellText(cells[3] ?? "")),
-      matches: toInteger(readCellText(cells[4] ?? "")),
-      wins: toInteger(readCellText(cells[5] ?? "")),
-      draws: toInteger(readCellText(cells[6] ?? "")),
-      losses: toInteger(readCellText(cells[7] ?? "")),
-      goalsFor: toInteger(readCellText(cells[8] ?? "")),
-      goalsAgainst: toInteger(readCellText(cells[9] ?? "")),
-      goalDifference: normalizeGoalDifference(readCellText(cells[10] ?? "")),
+      points: readIntegerByIndex(cells, columnIndexes.points),
+      matches: readIntegerByIndex(cells, columnIndexes.matches),
+      wins: readIntegerByIndex(cells, columnIndexes.wins),
+      draws: readIntegerByIndex(cells, columnIndexes.draws),
+      losses: readIntegerByIndex(cells, columnIndexes.losses),
+      goalsFor: readIntegerByIndex(cells, columnIndexes.goalsFor),
+      goalsAgainst: readIntegerByIndex(cells, columnIndexes.goalsAgainst),
+      goalDifference: readGoalDifferenceByIndex(cells, columnIndexes.goalDifference),
     });
   }
 
   return rows;
+}
+
+function extractHeaderCells(tableHtml: string): string[] {
+  const headerMatch = tableHtml.match(/<thead>([\s\S]*?)<\/thead>/i);
+  const header = headerMatch?.[1] ?? "";
+  return extractCells(header).map((cell) => readCellText(cell));
 }
 
 function extractCells(rowHtml: string): string[] {
@@ -124,6 +132,22 @@ function readCellText(value: string): string {
   return (decodeHtml(stripTags(value)) ?? "").replace(/\s+/g, " ").trim();
 }
 
+function readIntegerByIndex(cells: string[], index: number | null): number | null {
+  if (index === null || index < 0 || index >= cells.length) {
+    return null;
+  }
+
+  return toInteger(readCellText(cells[index] ?? ""));
+}
+
+function readGoalDifferenceByIndex(cells: string[], index: number | null): string | null {
+  if (index === null || index < 0 || index >= cells.length) {
+    return null;
+  }
+
+  return normalizeGoalDifference(readCellText(cells[index] ?? ""));
+}
+
 function stripTags(value: string): string {
   return value
     .replace(/<br\s*\/?>/gi, " ")
@@ -138,6 +162,49 @@ function normalizeGoalDifference(value: string): string | null {
   }
 
   return value.replace(/\s+/g, "");
+}
+
+function resolveTeamCell(cells: string[]): string {
+  for (const cell of cells) {
+    const text = readCellText(cell);
+    if (!text) {
+      continue;
+    }
+
+    if (/[A-Za-zÀ-ÿ]/.test(text) && !/^\+?\-?\d+$/.test(text)) {
+      return cell;
+    }
+  }
+
+  return cells[2] ?? cells[1] ?? cells[0] ?? "";
+}
+
+function resolveColumnIndexes(headers: string[]) {
+  const normalizedHeaders = headers.map(normalizeHeaderLabel);
+
+  return {
+    points: findHeaderIndex(normalizedHeaders, ["p", "pts", "pt"]),
+    matches: findHeaderIndex(normalizedHeaders, ["j", "pj"]),
+    wins: findHeaderIndex(normalizedHeaders, ["v"]),
+    draws: findHeaderIndex(normalizedHeaders, ["e"]),
+    losses: findHeaderIndex(normalizedHeaders, ["d"]),
+    goalsFor: findHeaderIndex(normalizedHeaders, ["gm", "gf"]),
+    goalsAgainst: findHeaderIndex(normalizedHeaders, ["gs", "ga"]),
+    goalDifference: findHeaderIndex(normalizedHeaders, ["dg", "diff", "saldo"]),
+  };
+}
+
+function findHeaderIndex(headers: string[], labels: string[]): number | null {
+  const index = headers.findIndex((header) => labels.includes(header));
+  return index >= 0 ? index : null;
+}
+
+function normalizeHeaderLabel(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9]+/g, "")
+    .toLowerCase();
 }
 
 function toInteger(value: string | null): number | null {

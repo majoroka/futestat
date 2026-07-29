@@ -149,7 +149,7 @@ Nesta fase inclui:
 - `36` Premiership
 - `52` Super Lig
 - `45` Bundesliga Austria
-- `46` Super League Switzerland
+- `215` Super League Switzerland
 - `39` Superliga Denmark
 - `20` Eliteserien
 - `43` Allsvenskan
