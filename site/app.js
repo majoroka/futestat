@@ -329,7 +329,7 @@ function renderFixtureDetail() {
   `;
 
   bindFixtureDetailTabs();
-  if (fixture.competitionId) {
+  if (fixture.competitionId && shouldLoadCompetitionStandings(fixture.competitionId)) {
     void loadCompetitionStandings(fixture.competitionId);
   }
 }
@@ -518,7 +518,8 @@ function buildTeamDisplayLogoUrl(existingUrl, teamId) {
 }
 
 async function loadCompetitionStandings(competitionId) {
-  if (state.standingsCache.get(competitionId)?.status === "loading") {
+  const cached = state.standingsCache.get(competitionId) ?? null;
+  if (cached?.status === "loading" || cached?.status === "loaded" || cached?.status === "missing") {
     return;
   }
 
@@ -559,6 +560,12 @@ async function loadCompetitionStandings(competitionId) {
   if (currentSelectedFixture?.competitionId === competitionId) {
     renderFixtureDetail();
   }
+}
+
+function shouldLoadCompetitionStandings(competitionId) {
+  const cached = state.standingsCache.get(competitionId) ?? null;
+
+  return cached === null || cached.status === "error";
 }
 
 function renderError(message) {
