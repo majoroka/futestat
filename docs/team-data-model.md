@@ -538,3 +538,12 @@ Este modelo deve ser considerado a base estável para a fase de estatística de 
 Próximo passo natural:
 - implementar pipelines manuais separados para captura e parse de `FotMob` e `Soccer-Rating`
 - manter `Sofascore` e `Zerozero` totalmente independentes desses fluxos
+
+## Ficheiros de exemplo
+
+Exemplos concretos desta especificação:
+- [team_stats_season.sample.json](./examples/team_stats_season.sample.json)
+- [team_context.sample.json](./examples/team_context.sample.json)
+- [competition_standings.sample.json](./examples/competition_standings.sample.json)
+- [match_view.sample.json](./examples/match_view.sample.json)
+- [ui-field-mapping.md](./ui-field-mapping.md)

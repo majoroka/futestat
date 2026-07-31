@@ -274,6 +274,7 @@ Limites atuais:
 - [Roadmap](./docs/roadmap.md)
 - [Modelo de Dados de Equipa](./docs/team-data-model.md)
 - [Fluxo Manual de Dados de Equipa](./docs/manual-team-data-pipeline.md)
+- [Mapeamento Campo -> Interface](./docs/ui-field-mapping.md)
 
 ## Site estático e GitHub Pages
 

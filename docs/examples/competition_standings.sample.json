@@ -1,0 +1,66 @@
+{
+  "competition": {
+    "id": "238",
+    "name": "Liga Portugal",
+    "country": "Portugal"
+  },
+  "season": {
+    "id": "2025/2026",
+    "label": "2025/2026",
+    "isCurrent": false
+  },
+  "source": {
+    "provider": "zerozero",
+    "url": "https://www.zerozero.pt/competicao/liga-portuguesa",
+    "collectedAtUtc": "2026-07-31T10:00:00Z"
+  },
+  "availability": {
+    "status": "archived",
+    "coverage": "high",
+    "notes": null
+  },
+  "tables": [
+    {
+      "name": "Classificacao",
+      "type": "total",
+      "rows": [
+        {
+          "position": 1,
+          "teamName": "FC Porto",
+          "points": 45,
+          "matches": 18,
+          "wins": 14,
+          "draws": 3,
+          "losses": 1,
+          "goalsFor": 38,
+          "goalsAgainst": 12,
+          "goalDifference": "+26"
+        },
+        {
+          "position": 2,
+          "teamName": "Benfica Lisboa",
+          "points": 42,
+          "matches": 18,
+          "wins": 13,
+          "draws": 3,
+          "losses": 2,
+          "goalsFor": 34,
+          "goalsAgainst": 18,
+          "goalDifference": "+16"
+        },
+        {
+          "position": 8,
+          "teamName": "Equipa B",
+          "points": 24,
+          "matches": 18,
+          "wins": 7,
+          "draws": 3,
+          "losses": 8,
+          "goalsFor": 21,
+          "goalsAgainst": 27,
+          "goalDifference": "-6"
+        }
+      ]
+    }
+  ]
+}

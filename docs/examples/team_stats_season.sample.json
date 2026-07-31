@@ -1,0 +1,65 @@
+{
+  "team": {
+    "id": "9768",
+    "name": "Sporting CP",
+    "slug": "sporting-cp",
+    "country": "Portugal",
+    "logoUrl": null
+  },
+  "competition": {
+    "id": "238",
+    "name": "Liga Portugal"
+  },
+  "season": {
+    "id": "2025/2026",
+    "label": "2025/2026",
+    "isCurrent": false
+  },
+  "source": {
+    "provider": "fotmob",
+    "url": "https://www.fotmob.com/teams/9768/stats/sporting-cp/teams",
+    "collectedAtUtc": "2026-07-31T10:00:00Z"
+  },
+  "availability": {
+    "status": "archived",
+    "coverage": "high",
+    "notes": "Epoca anterior usada como referencia estrutural."
+  },
+  "overview": {
+    "teamRating": 7.4,
+    "goalsPerMatch": 1.9,
+    "goalsConcededPerMatch": 1.0,
+    "averagePossessionPct": 54,
+    "cleanSheets": 12,
+    "attendanceAverage": 18200
+  },
+  "attack": {
+    "xg": 1.6,
+    "xgDiff": 0.7,
+    "shotsOnTargetPerMatch": 5.2,
+    "bigChances": 43,
+    "bigChancesMissed": 18,
+    "accuratePassesPerMatch": 421,
+    "accurateLongBallsPerMatch": 28.1,
+    "accurateCrossesPerMatch": 6.1,
+    "penaltiesAwarded": 4,
+    "touchesInOppBoxPerMatch": 18.4,
+    "cornersPerMatch": 6.2,
+    "setPieceGoals": 4
+  },
+  "defense": {
+    "xgConceded": 0.9,
+    "interceptionsPerMatch": 9.8,
+    "tacklesPerMatch": 14.1,
+    "clearancesPerMatch": 7.3,
+    "finalThirdRecoveriesPerMatch": 3.6,
+    "setPieceGoalsConceded": 2,
+    "penaltiesConceded": 3,
+    "savesPerMatch": 2.9
+  },
+  "discipline": {
+    "foulsPerMatch": 11.4,
+    "yellowCardsPerMatch": 2.1,
+    "redCardsPerMatch": 0.1
+  }
+}

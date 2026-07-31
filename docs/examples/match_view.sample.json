@@ -1,0 +1,164 @@
+{
+  "match": {
+    "id": "fixture-123",
+    "competition": {
+      "id": "238",
+      "name": "Liga Portugal",
+      "country": "Portugal",
+      "logoUrl": null
+    },
+    "season": {
+      "id": "2025/2026",
+      "label": "2025/2026"
+    },
+    "kickoffAtUtc": "2026-08-15T18:45:00Z"
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "1076",
+      "name": "Benfica Lisboa",
+      "logoUrl": null
+    },
+    "headerStats": {
+      "overallRating": 7.8,
+      "nationalRank": 3,
+      "europeRank": 24,
+      "formLast3": ["W", "D", "W"],
+      "xgFor": 1.6,
+      "xgAgainst": 0.9,
+      "averagePossessionPct": 54,
+      "cleanSheets": 12
+    },
+    "overview": {
+      "prediction": {
+        "tip": "home_win",
+        "tipLabel": "Vitoria da equipa da casa",
+        "confidencePct": 75,
+        "strengthComparison": "significantly_superior"
+      },
+      "squadHealth": {
+        "injuries": [
+          {
+            "player": "Joao Silva",
+            "status": "injury",
+            "description": "muscular"
+          }
+        ],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": "4-3-3",
+        "averageRating": 7.5,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.8,
+          "draw": 3.5,
+          "away": 4.2
+        },
+        "fair1X2": {
+          "home": 1.75,
+          "draw": 3.6,
+          "away": 4.5
+        },
+        "movementSummary": "home_odds_down"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 1.9,
+        "goalsConcededPerMatch": 1.0,
+        "averagePossessionPct": 54,
+        "attendanceAverage": 18200
+      },
+      "attack": {
+        "xg": 1.6,
+        "shotsOnTargetPerMatch": 5.2,
+        "accuratePassesPerMatch": 421,
+        "accurateCrossesPerMatch": 6.1,
+        "touchesInOppBoxPerMatch": 18.4,
+        "setPieceGoals": 4
+      },
+      "defense": {
+        "xgConceded": 0.9,
+        "interceptionsPerMatch": 9.8,
+        "tacklesPerMatch": 14.1,
+        "clearancesPerMatch": 7.3,
+        "finalThirdRecoveriesPerMatch": 3.6,
+        "savesPerMatch": 2.9
+      },
+      "discipline": {
+        "foulsPerMatch": 11.4,
+        "yellowCardsPerMatch": 2.1,
+        "redCardsPerMatch": 0.1,
+        "penaltiesConceded": 3
+      }
+    },
+    "squad": [],
+    "history": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "9999",
+      "name": "Equipa B",
+      "logoUrl": null
+    },
+    "headerStats": {
+      "overallRating": 7.2,
+      "nationalRank": 8,
+      "europeRank": 105,
+      "formLast3": ["L", "L", "D"],
+      "xgFor": 1.1,
+      "xgAgainst": 1.4,
+      "averagePossessionPct": 46,
+      "cleanSheets": 5
+    },
+    "overview": {},
+    "statistics": {},
+    "squad": [],
+    "history": []
+  },
+  "standings": {
+    "available": true,
+    "tableName": "Classificacao",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "FC Porto",
+        "points": 45,
+        "matches": 18,
+        "wins": 14,
+        "draws": 3,
+        "losses": 1,
+        "goalsFor": 38,
+        "goalsAgainst": 12,
+        "goalDifference": "+26"
+      },
+      {
+        "position": 2,
+        "teamName": "Benfica Lisboa",
+        "points": 42,
+        "matches": 18,
+        "wins": 13,
+        "draws": 3,
+        "losses": 2,
+        "goalsFor": 34,
+        "goalsAgainst": 18,
+        "goalDifference": "+16"
+      },
+      {
+        "position": 8,
+        "teamName": "Equipa B",
+        "points": 24,
+        "matches": 18,
+        "wins": 7,
+        "draws": 3,
+        "losses": 8,
+        "goalsFor": 21,
+        "goalsAgainst": 27,
+        "goalDifference": "-6"
+      }
+    ]
+  }
+}

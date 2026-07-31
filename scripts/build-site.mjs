@@ -5,6 +5,7 @@ const repoRoot = process.cwd();
 const distDir = path.join(repoRoot, "dist");
 const assetsDir = path.join(distDir, "assets");
 const docsDir = path.join(distDir, "docs");
+const docsExamplesDir = path.join(docsDir, "examples");
 const fixturesDir = path.join(distDir, "fixtures");
 const displayTimeZone = "Europe/Lisbon";
 const fixtureSnapshotPath = resolveFixtureSnapshotPath();
@@ -41,6 +42,12 @@ const markdownPages = [
     title: "Fluxo Manual de Dados de Equipa",
     description: "Pipeline offline para FotMob e Soccer-Rating, separado de Sofascore e Zerozero.",
   },
+  {
+    sourcePath: path.join(repoRoot, "docs", "ui-field-mapping.md"),
+    outputPath: path.join(docsDir, "ui-field-mapping.html"),
+    title: "Mapeamento Campo -> Interface",
+    description: "Correspondencia entre os campos normalizados e cada bloco visual do painel do jogo.",
+  },
 ];
 
 await buildSite();
@@ -49,6 +56,7 @@ async function buildSite() {
   await rm(distDir, { recursive: true, force: true });
   await mkdir(assetsDir, { recursive: true });
   await mkdir(docsDir, { recursive: true });
+  await mkdir(docsExamplesDir, { recursive: true });
   await mkdir(fixturesDir, { recursive: true });
 
   const packageJson = JSON.parse(await readFile(path.join(repoRoot, "package.json"), "utf8"));
@@ -61,6 +69,7 @@ async function buildSite() {
     writeFile(path.join(fixturesDir, "latest.json"), JSON.stringify(snapshot, null, 2), "utf8"),
   ]);
   await copyCompetitionStandings();
+  await copyDocExamples();
 
   await writeFile(
     path.join(distDir, "index.html"),
@@ -199,6 +208,19 @@ async function copyCompetitionStandings() {
   } catch (error) {
     if (error && typeof error === "object" && "code" in error && error.code === "ENOENT") {
       // Standings are optional; the site falls back to the base fixture snapshot when absent.
+      return;
+    }
+
+    throw error;
+  }
+}
+
+async function copyDocExamples() {
+  try {
+    await rm(docsExamplesDir, { recursive: true, force: true });
+    await cp(path.join(repoRoot, "docs", "examples"), docsExamplesDir, { recursive: true });
+  } catch (error) {
+    if (error && typeof error === "object" && "code" in error && error.code === "ENOENT") {
       return;
     }
 

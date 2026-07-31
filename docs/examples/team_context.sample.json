@@ -1,0 +1,149 @@
+{
+  "team": {
+    "id": "1076",
+    "name": "Benfica Lisboa",
+    "slug": "benfica-lisboa",
+    "country": "Portugal",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2025/2026",
+    "label": "2025/2026",
+    "isCurrent": false
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Benfica-Lisboa/1076/",
+    "collectedAtUtc": "2026-07-31T10:00:00Z"
+  },
+  "availability": {
+    "status": "archived",
+    "coverage": "high",
+    "notes": "Exemplo rico da epoca anterior."
+  },
+  "ratings": {
+    "overall": 7.8,
+    "home": 8.0,
+    "away": 7.4
+  },
+  "rankings": {
+    "national": 3,
+    "europe": 24
+  },
+  "form": {
+    "last3": ["W", "D", "W"]
+  },
+  "prediction": {
+    "tip": "home_win",
+    "tipLabel": "Vitoria da equipa da casa",
+    "confidencePct": 75,
+    "strengthComparison": "significantly_superior"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.8,
+      "draw": 3.5,
+      "away": 4.2
+    },
+    "fair1X2": {
+      "home": 1.75,
+      "draw": 3.6,
+      "away": 4.5
+    },
+    "movementSummary": "home_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [
+      {
+        "player": "Joao Silva",
+        "status": "injury",
+        "description": "muscular"
+      }
+    ],
+    "suspensions": [
+      {
+        "player": "Pedro Santos",
+        "status": "suspension",
+        "description": "accumulated_cards"
+      }
+    ]
+  },
+  "expectedLineup": {
+    "formation": "4-3-3",
+    "averageRating": 7.5,
+    "players": [
+      {
+        "name": "Rui Silva",
+        "position": "GK",
+        "age": 29,
+        "apps": 24,
+        "goals": 0,
+        "rating": 7.8
+      },
+      {
+        "name": "Joao Costa",
+        "position": "DEF",
+        "age": 26,
+        "apps": 22,
+        "goals": 2,
+        "rating": 7.5
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Rui Silva",
+      "position": "GK",
+      "age": 29,
+      "apps": 24,
+      "goals": 0,
+      "rating": 7.8
+    },
+    {
+      "name": "Diogo Ferreira",
+      "position": "FWD",
+      "age": 22,
+      "apps": 20,
+      "goals": 11,
+      "rating": 7.9
+    }
+  ],
+  "recentMatches": [
+    {
+      "date": "2026-07-12",
+      "homeTeam": "FC Exemplo",
+      "awayTeam": "Adv A",
+      "result": "2-1",
+      "odds1X2": {
+        "home": 1.9,
+        "draw": 3.3,
+        "away": 4.1
+      },
+      "homeRating": 7.4,
+      "awayRating": 6.8
+    },
+    {
+      "date": "2026-06-28",
+      "homeTeam": "FC Exemplo",
+      "awayTeam": "Adv C",
+      "result": "1-1",
+      "odds1X2": {
+        "home": 1.7,
+        "draw": 3.6,
+        "away": 5.0
+      },
+      "homeRating": 6.8,
+      "awayRating": 6.4
+    }
+  ],
+  "similarTeams": [
+    {
+      "name": "FC Porto",
+      "rating": 7.7
+    },
+    {
+      "name": "Braga",
+      "rating": 7.3
+    }
+  ]
+}
