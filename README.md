@@ -313,6 +313,17 @@ npm run scrape:fixtures
 npm run publish:fixtures-data
 ```
 
+Primeiro comando manual já operacional para estatísticas de equipa:
+
+```bash
+npm run parse:fotmob-team-stats -- --input=raw/team-pages/fotmob/2025-2026/238-liga-portugal/9768-sporting-cp.html
+```
+
+Este comando:
+- lê HTML bruto já guardado localmente
+- normaliza `team_stats_season.json` em `data/team-stats/fotmob/...`
+- atualiza o índice `data/team-stats/fotmob/index.json`
+
 Nota técnica:
 - `data/fixtures/` fica ignorado no `main`
 - o ramo `fixtures-data` recebe apenas dados gerados

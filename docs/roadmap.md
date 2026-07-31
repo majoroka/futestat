@@ -85,6 +85,9 @@ Itens:
 Objetivo:
 - estatísticas de equipa
 
+Estado:
+- Sprint 4 iniciado com parser offline do `FotMob`
+
 Itens:
 - modelação baseada em `2025/2026` para cobrir o caso completo
 - suporte explícito a `2026/2027` parcial ou ainda não iniciada
@@ -95,6 +98,12 @@ Itens:
 - `Soccer-Rating` para contexto de equipa
 - extração estruturada por secção
 - tratamento de campos opcionais e estados de disponibilidade
+
+Entregáveis já introduzidos:
+- comando manual `parse:fotmob-team-stats`
+- normalização de `team_stats_season.json` a partir de HTML bruto local
+- manifesto `data/team-stats/fotmob/index.json`
+- deteção inicial de estados `not_started`, `partial`, `available`, `unavailable` e `archived`
 
 ## Critérios de qualidade antes de avançar
 
