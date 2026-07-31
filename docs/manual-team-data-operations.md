@@ -15,6 +15,7 @@ Este documento fecha as decisoes de:
 Estado atual:
 - `capture:team-page` operacional
 - `parse:fotmob-team-stats` operacional
+- `parse:soccer-rating-team-context` operacional
 
 Os restantes scripts continuam em fase de contrato.
 

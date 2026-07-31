@@ -326,6 +326,16 @@ Estes comandos:
 - normaliza `team_stats_season.json` em `data/team-stats/fotmob/...`
 - atualizam os índices `raw/team-pages/manifest.json` e `data/team-stats/fotmob/index.json`
 
+O segundo parser manual já operacional é:
+
+```bash
+npm run parse:soccer-rating-team-context -- --input=raw/team-pages/soccer-rating/2025-2026/portugal/1076-benfica-lisboa.html
+```
+
+Este comando:
+- normaliza `team_context.json` em `data/team-context/soccer-rating/...`
+- atualiza o índice `data/team-context/soccer-rating/index.json`
+
 Nota técnica:
 - `data/fixtures/` fica ignorado no `main`
 - o ramo `fixtures-data` recebe apenas dados gerados

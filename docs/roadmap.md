@@ -86,7 +86,7 @@ Objetivo:
 - estatísticas de equipa
 
 Estado:
-- Sprint 5 iniciado com captura manual operacional
+- Sprint 6 iniciado com parser offline do `Soccer-Rating`
 
 Itens:
 - modelação baseada em `2025/2026` para cobrir o caso completo
@@ -102,9 +102,12 @@ Itens:
 Entregáveis já introduzidos:
 - comando manual `capture:team-page`
 - comando manual `parse:fotmob-team-stats`
+- comando manual `parse:soccer-rating-team-context`
 - manifesto `raw/team-pages/manifest.json`
 - normalização de `team_stats_season.json` a partir de HTML bruto local
+- normalização de `team_context.json` a partir de HTML bruto local
 - manifesto `data/team-stats/fotmob/index.json`
+- manifesto `data/team-context/soccer-rating/index.json`
 - deteção inicial de estados `not_started`, `partial`, `available`, `unavailable` e `archived`
 
 ## Critérios de qualidade antes de avançar
