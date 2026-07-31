@@ -15,6 +15,9 @@ Este documento fecha as decisoes de:
 Ainda nao implementa os scripts.  
 Define apenas o contrato operacional para o Sprint seguinte.
 
+Os contratos finais de argumentos, manifestos e codigos de saida ficam definidos em:
+- [Contratos de Execucao dos Scripts Manuais](./manual-team-data-script-contracts.md)
+
 ## Regra de separacao
 
 Cada dominio continua isolado:

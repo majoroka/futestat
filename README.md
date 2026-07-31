@@ -276,6 +276,7 @@ Limites atuais:
 - [Fluxo Manual de Dados de Equipa](./docs/manual-team-data-pipeline.md)
 - [Mapeamento Campo -> Interface](./docs/ui-field-mapping.md)
 - [Operações Manuais de Dados de Equipa](./docs/manual-team-data-operations.md)
+- [Contratos de Execução dos Scripts Manuais](./docs/manual-team-data-script-contracts.md)
 
 ## Site estático e GitHub Pages
 

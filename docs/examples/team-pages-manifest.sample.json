@@ -1,0 +1,29 @@
+{
+  "generatedAtUtc": "2026-07-31T12:00:00Z",
+  "entries": [
+    {
+      "source": "fotmob",
+      "season": "2025-2026",
+      "teamId": "9768",
+      "teamSlug": "sporting-cp",
+      "competitionId": "238",
+      "competitionSlug": "liga-portugal",
+      "countrySlug": null,
+      "url": "https://www.fotmob.com/teams/9768/stats/sporting-cp/teams",
+      "htmlPath": "raw/team-pages/fotmob/2025-2026/238-liga-portugal/9768-sporting-cp.html",
+      "capturedAtUtc": "2026-07-31T12:00:00Z"
+    },
+    {
+      "source": "soccer-rating",
+      "season": "2025-2026",
+      "teamId": "1076",
+      "teamSlug": "benfica-lisboa",
+      "competitionId": null,
+      "competitionSlug": null,
+      "countrySlug": "portugal",
+      "url": "https://www.soccer-rating.com/Benfica-Lisboa/1076/",
+      "htmlPath": "raw/team-pages/soccer-rating/2025-2026/portugal/1076-benfica-lisboa.html",
+      "capturedAtUtc": "2026-07-31T12:05:00Z"
+    }
+  ]
+}

@@ -54,6 +54,12 @@ const markdownPages = [
     title: "Operacoes Manuais de Dados de Equipa",
     description: "Pastas, naming e comandos previstos para o fluxo manual de FotMob e Soccer-Rating.",
   },
+  {
+    sourcePath: path.join(repoRoot, "docs", "manual-team-data-script-contracts.md"),
+    outputPath: path.join(docsDir, "manual-team-data-script-contracts.html"),
+    title: "Contratos de Execucao dos Scripts Manuais",
+    description: "Flags, outputs, manifestos e codigos de saida dos futuros scripts manuais.",
+  },
 ];
 
 await buildSite();

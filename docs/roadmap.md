@@ -90,6 +90,7 @@ Itens:
 - suporte explícito a `2026/2027` parcial ou ainda não iniciada
 - pipeline manual offline separado por fonte
 - estrutura final de pastas e comandos manuais fixada antes da implementação
+- contratos de execucao e manifestos definidos antes dos scripts
 - `FotMob` para estatística agregada
 - `Soccer-Rating` para contexto de equipa
 - extração estruturada por secção
