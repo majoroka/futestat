@@ -86,9 +86,13 @@ Objetivo:
 - estatísticas de equipa
 
 Itens:
-- seleção de torneio/época
+- modelação baseada em `2025/2026` para cobrir o caso completo
+- suporte explícito a `2026/2027` parcial ou ainda não iniciada
+- pipeline manual offline separado por fonte
+- `FotMob` para estatística agregada
+- `Soccer-Rating` para contexto de equipa
 - extração estruturada por secção
-- tratamento de campos opcionais
+- tratamento de campos opcionais e estados de disponibilidade
 
 ## Critérios de qualidade antes de avançar
 

@@ -29,6 +29,18 @@ const markdownPages = [
     title: "Roadmap",
     description: "Fases planeadas após o draft inicial focado apenas em fixtures.",
   },
+  {
+    sourcePath: path.join(repoRoot, "docs", "team-data-model.md"),
+    outputPath: path.join(docsDir, "team-data-model.html"),
+    title: "Modelo de Dados de Equipa",
+    description: "Contrato de dados para estatisticas, contexto, classificacao e vista final do jogo.",
+  },
+  {
+    sourcePath: path.join(repoRoot, "docs", "manual-team-data-pipeline.md"),
+    outputPath: path.join(docsDir, "manual-team-data-pipeline.html"),
+    title: "Fluxo Manual de Dados de Equipa",
+    description: "Pipeline offline para FotMob e Soccer-Rating, separado de Sofascore e Zerozero.",
+  },
 ];
 
 await buildSite();

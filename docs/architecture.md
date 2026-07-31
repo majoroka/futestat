@@ -8,6 +8,12 @@ O sistema evoluiu de um scraper simples de `upcoming` para uma pipeline pequena,
 - classificações por competição em ficheiros próprios
 - métricas operacionais por run
 
+Para a futura camada de estatísticas de equipa, a arquitetura prevista é deliberadamente separada:
+- `FotMob` e `Soccer-Rating` fora do pipeline principal
+- captura manual de HTML
+- parse local para JSON
+- composição opcional de um `match_view` derivado
+
 Na operação em GitHub, a persistência fica também separada por ramo:
 - `main` para código, UI e documentação
 - `fixtures-data` para a store canónica gerada automaticamente
@@ -176,6 +182,20 @@ Padrão aplicado:
 - ficheiros de classificação persistidos por `competitionId`
 - refresh de classificação só para competições presentes na janela pública
 - falha numa classificação individual é registada, mas não interrompe a run principal
+
+## 9. Estatísticas de equipa como pipeline offline
+
+Motivo:
+- `FotMob` e `Soccer-Rating` acrescentam valor, mas não devem comprometer o pipeline principal
+- a recolha manual reduz risco de `403`
+- o parse local em HTML guardado permite debugging e repetibilidade
+
+Padrão previsto:
+- captura manual da página no browser
+- persistência do HTML bruto em disco
+- parser local por fonte
+- JSON normalizado por equipa/época
+- composição opcional de um `match_view` para a interface
 
 ## Política de estados
 

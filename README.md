@@ -21,6 +21,9 @@ Ficam explicitamente fora desta fase:
 - lineups completas e eventos in-play
 - estatísticas de equipa
 
+Nota de roadmap:
+- a futura camada de estatísticas de equipa será tratada como fluxo manual separado, fora do pipeline principal de `Sofascore + Zerozero`
+
 ## Escolhas principais
 
 - Stack: `Node 22 + TypeScript + Playwright`
@@ -269,6 +272,8 @@ Limites atuais:
 
 - [Arquitetura](./docs/architecture.md)
 - [Roadmap](./docs/roadmap.md)
+- [Modelo de Dados de Equipa](./docs/team-data-model.md)
+- [Fluxo Manual de Dados de Equipa](./docs/manual-team-data-pipeline.md)
 
 ## Site estático e GitHub Pages
 
