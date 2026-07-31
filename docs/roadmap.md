@@ -89,6 +89,7 @@ Itens:
 - modelação baseada em `2025/2026` para cobrir o caso completo
 - suporte explícito a `2026/2027` parcial ou ainda não iniciada
 - pipeline manual offline separado por fonte
+- estrutura final de pastas e comandos manuais fixada antes da implementação
 - `FotMob` para estatística agregada
 - `Soccer-Rating` para contexto de equipa
 - extração estruturada por secção

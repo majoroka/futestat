@@ -48,6 +48,12 @@ const markdownPages = [
     title: "Mapeamento Campo -> Interface",
     description: "Correspondencia entre os campos normalizados e cada bloco visual do painel do jogo.",
   },
+  {
+    sourcePath: path.join(repoRoot, "docs", "manual-team-data-operations.md"),
+    outputPath: path.join(docsDir, "manual-team-data-operations.html"),
+    title: "Operacoes Manuais de Dados de Equipa",
+    description: "Pastas, naming e comandos previstos para o fluxo manual de FotMob e Soccer-Rating.",
+  },
 ];
 
 await buildSite();

@@ -56,16 +56,23 @@ Separação recomendada:
 
 ## Estrutura recomendada de pastas
 
+Este documento descreve o fluxo.  
+As convencoes finais de pastas, ficheiros e comandos ficam definidas em:
+- [Operacoes Manuais de Dados de Equipa](./manual-team-data-operations.md)
+
 ### Capturas brutas
 
 ```text
 raw/
-  fotmob/
-    2025-2026/
-      liverpool-8650-premier-league.html
-  soccer-rating/
-    2025-2026/
-      benfica-lisboa-1076.html
+  team-pages/
+    fotmob/
+      2025-2026/
+        238-liga-portugal/
+          9768-sporting-cp.html
+    soccer-rating/
+      2025-2026/
+        portugal/
+          1076-benfica-lisboa.html
 ```
 
 ### Dados normalizados
@@ -75,12 +82,13 @@ data/
   team-stats/
     fotmob/
       2025-2026/
-        premier-league/
-          liverpool-8650.json
+        238-liga-portugal/
+          9768-sporting-cp.json
   team-context/
     soccer-rating/
       2025-2026/
-        benfica-lisboa-1076.json
+        portugal/
+          1076-benfica-lisboa.json
 ```
 
 ### Ficheiros derivados opcionais
