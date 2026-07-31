@@ -86,7 +86,7 @@ Objetivo:
 - estatísticas de equipa
 
 Estado:
-- Sprint 4 iniciado com parser offline do `FotMob`
+- Sprint 5 iniciado com captura manual operacional
 
 Itens:
 - modelação baseada em `2025/2026` para cobrir o caso completo
@@ -100,7 +100,9 @@ Itens:
 - tratamento de campos opcionais e estados de disponibilidade
 
 Entregáveis já introduzidos:
+- comando manual `capture:team-page`
 - comando manual `parse:fotmob-team-stats`
+- manifesto `raw/team-pages/manifest.json`
 - normalização de `team_stats_season.json` a partir de HTML bruto local
 - manifesto `data/team-stats/fotmob/index.json`
 - deteção inicial de estados `not_started`, `partial`, `available`, `unavailable` e `archived`

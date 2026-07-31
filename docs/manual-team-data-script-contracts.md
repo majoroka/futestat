@@ -14,7 +14,10 @@ Este documento fixa:
 - manifestos auxiliares
 - codigos de saida esperados
 
-Nao implementa ainda os scripts.
+Estado atual:
+- `capture:team-page` operacional
+- `parse:fotmob-team-stats` operacional
+- restantes scripts ainda por implementar
 
 ## Principio
 

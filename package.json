@@ -11,6 +11,7 @@
     "build": "tsc -p tsconfig.json",
     "build:site": "node scripts/build-site.mjs",
     "check": "tsc --noEmit -p tsconfig.json",
+    "capture:team-page": "node --import tsx src/manual/capture-team-page.ts",
     "parse:fotmob-team-stats": "node --import tsx src/manual/parse-fotmob-team-stats.ts",
     "publish:fixtures-data": "node scripts/publish-fixtures-data.mjs",
     "refresh:fixtures-local": "node scripts/refresh-fixtures-local.mjs",

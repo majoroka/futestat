@@ -12,8 +12,11 @@ Este documento fecha as decisoes de:
 - ordem de execucao
 - comandos previstos
 
-Ainda nao implementa os scripts.  
-Define apenas o contrato operacional para o Sprint seguinte.
+Estado atual:
+- `capture:team-page` operacional
+- `parse:fotmob-team-stats` operacional
+
+Os restantes scripts continuam em fase de contrato.
 
 Os contratos finais de argumentos, manifestos e codigos de saida ficam definidos em:
 - [Contratos de Execucao dos Scripts Manuais](./manual-team-data-script-contracts.md)
