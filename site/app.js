@@ -380,22 +380,33 @@ function renderFixtureDetailsTab(fixture, matchViewState) {
     return `
       <div class="fixture-detail__stack">
         <section class="fixture-detail__subsection">
-          <h4>Resumo</h4>
-          <div class="fixture-detail__info-list">
-            ${detailInfoRow("Data e hora", formatMatchViewDateTime(view))}
-            ${detailInfoRow("Competição", formatMatchViewCompetition(view))}
-            ${detailInfoRow("Recinto", fallbackText(view.match.details.venueName))}
-            ${detailInfoRow("Localização", formatMatchViewLocation(view))}
-            ${detailInfoRow("Árbitro", formatMatchViewReferee(view))}
-            ${detailInfoRow("Odds 1/X/2", formatMatchViewOdds(view.match.details.odds))}
-            ${detailInfoRow("TV em Portugal", formatMatchViewWatch(view.match.details.watch))}
+          <h4>Contexto do jogo</h4>
+          <div class="fixture-detail__summary-grid">
+            ${renderDetailSummaryCard(
+              "Jogo",
+              [
+                detailInfoRow("Data e hora", formatMatchViewDateTime(view)),
+                detailInfoRow("Competição", formatMatchViewCompetition(view)),
+                detailInfoRow("Recinto", fallbackText(view.match.details.venueName)),
+                detailInfoRow("Localização", formatMatchViewLocation(view)),
+              ].join(""),
+            )}
+            ${renderDetailSummaryCard(
+              "Enquadramento",
+              [
+                detailInfoRow("Árbitro", formatMatchViewReferee(view)),
+                detailInfoRow("Odds 1/X/2", formatMatchViewOdds(view.match.details.odds)),
+                detailInfoRow("TV em Portugal", formatMatchViewWatch(view.match.details.watch)),
+                detailInfoRow("Atualização", formatTimestamp(view.builtAtUtc)),
+              ].join(""),
+            )}
           </div>
         </section>
         <section class="fixture-detail__subsection">
-          <h4>Comparativo rápido</h4>
+          <h4>Leitura rápida</h4>
           <div class="fixture-detail__team-panels">
-            ${renderTeamSnapshotPanel("Casa", view.homeTeam)}
-            ${renderTeamSnapshotPanel("Fora", view.awayTeam)}
+            ${renderTeamSnapshotPanel("Casa", view.homeTeam, "home")}
+            ${renderTeamSnapshotPanel("Fora", view.awayTeam, "away")}
           </div>
         </section>
       </div>
@@ -555,6 +566,17 @@ function detailInfoRow(label, value) {
     <article class="fixture-detail__info-item">
       <span class="fixture-detail__info-label">${escapeHtml(label)}</span>
       <strong class="fixture-detail__info-value">${escapeHtml(value)}</strong>
+    </article>
+  `;
+}
+
+function renderDetailSummaryCard(title, content) {
+  return `
+    <article class="fixture-detail__summary-card">
+      <h3 class="fixture-detail__summary-card-title">${escapeHtml(title)}</h3>
+      <div class="fixture-detail__info-list">
+        ${content}
+      </div>
     </article>
   `;
 }
@@ -881,20 +903,26 @@ function renderStandingsStateNote(standingsState) {
   return "";
 }
 
-function renderTeamSnapshotPanel(sideLabel, team) {
+function renderTeamSnapshotPanel(sideLabel, team, side) {
   return `
-    <article class="fixture-detail__team-panel">
+    <article class="fixture-detail__team-panel fixture-detail__team-panel--${escapeAttribute(side)}">
       <span class="fixture-detail__team-panel-side">${escapeHtml(sideLabel)}</span>
       <h3 class="fixture-detail__team-panel-name">${escapeHtml(team.identity.name)}</h3>
+      ${renderTeamFormPills(team.headerStats.formLast3)}
       <div class="fixture-detail__team-panel-grid">
         ${renderTeamSnapshotMetric("Rating", decimalValue(team.headerStats.overallRating))}
-        ${renderTeamSnapshotMetric("Forma", formatForm(team.headerStats.formLast3))}
         ${renderTeamSnapshotMetric("Rank nacional", stringValue(team.headerStats.nationalRank, "—"))}
         ${renderTeamSnapshotMetric("Rank Europa", stringValue(team.headerStats.europeRank, "—"))}
         ${renderTeamSnapshotMetric("xG", decimalValue(team.headerStats.xgFor))}
         ${renderTeamSnapshotMetric("xGA", decimalValue(team.headerStats.xgAgainst))}
         ${renderTeamSnapshotMetric("Posse", percentValue(team.headerStats.averagePossessionPct))}
         ${renderTeamSnapshotMetric("Clean sheets", stringValue(team.headerStats.cleanSheets, "—"))}
+      </div>
+      <div class="fixture-detail__team-panel-copy">
+        ${renderTeamDetailPill("Prognóstico", formatTeamPrediction(team))}
+        ${renderTeamDetailPill("Sistema", fallbackText(team.overview.expectedLineup?.formation))}
+        ${renderTeamDetailPill("Baixas", formatTeamAbsences(team))}
+        ${renderTeamDetailPill("Último jogo", formatLatestHistory(team.history))}
       </div>
     </article>
   `;
@@ -905,6 +933,27 @@ function renderTeamSnapshotMetric(label, value) {
     <div class="fixture-detail__team-metric">
       <span>${escapeHtml(label)}</span>
       <strong>${escapeHtml(value)}</strong>
+    </div>
+  `;
+}
+
+function renderTeamDetailPill(label, value) {
+  return `
+    <div class="fixture-detail__team-copy-row">
+      <span>${escapeHtml(label)}</span>
+      <strong>${escapeHtml(value)}</strong>
+    </div>
+  `;
+}
+
+function renderTeamFormPills(values) {
+  if (!Array.isArray(values) || values.length === 0) {
+    return `<div class="fixture-detail__form-strip"><span class="fixture-detail__form-pill fixture-detail__form-pill--empty">Sem forma recente</span></div>`;
+  }
+
+  return `
+    <div class="fixture-detail__form-strip">
+      ${values.map((value) => `<span class="fixture-detail__form-pill fixture-detail__form-pill--${escapeAttribute(normalizeFormValue(value))}">${escapeHtml(value)}</span>`).join("")}
     </div>
   `;
 }
@@ -955,6 +1004,32 @@ function formatMatchViewWatch(watch) {
   return watch.note ?? "Sem canais PT detetados";
 }
 
+function formatTeamPrediction(team) {
+  return team.overview?.prediction?.tipLabel ?? "Indisponível";
+}
+
+function formatTeamAbsences(team) {
+  const injuries = team.overview?.squadHealth?.injuries?.length ?? 0;
+  const suspensions = team.overview?.squadHealth?.suspensions?.length ?? 0;
+
+  if (injuries === 0 && suspensions === 0) {
+    return "Sem baixas";
+  }
+
+  return `${injuries} lesionado(s) · ${suspensions} suspenso(s)`;
+}
+
+function formatLatestHistory(history) {
+  if (!Array.isArray(history) || history.length === 0) {
+    return "Sem histórico";
+  }
+
+  const latest = history[0];
+  const date = latest.date ? latest.date : "Sem data";
+  const result = latest.result ? ` · ${latest.result}` : "";
+  return `${date}${result}`;
+}
+
 function formatStandingType(type) {
   switch (type) {
     case "total":
@@ -986,6 +1061,19 @@ function fallbackText(value) {
 
 function formatForm(values) {
   return Array.isArray(values) && values.length > 0 ? values.join(" · ") : "—";
+}
+
+function normalizeFormValue(value) {
+  switch (String(value ?? "").toUpperCase()) {
+    case "W":
+      return "win";
+    case "D":
+      return "draw";
+    case "L":
+      return "loss";
+    default:
+      return "neutral";
+  }
 }
 
 function resolveStandingRowHighlight(row, fixture) {
