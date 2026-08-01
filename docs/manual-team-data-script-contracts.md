@@ -20,7 +20,7 @@ Estado atual:
 - `parse:soccer-rating-team-context` operacional
 - `parse:all-team-pages` operacional
 - `validate:team-data` operacional
-- `build:match-view` ainda por implementar
+- `build:match-view` operacional
 
 ## Principio
 

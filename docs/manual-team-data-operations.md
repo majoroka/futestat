@@ -18,8 +18,7 @@ Estado atual:
 - `parse:soccer-rating-team-context` operacional
 - `parse:all-team-pages` operacional
 - `validate:team-data` operacional
-
-O `build:match-view` continua em fase de contrato.
+- `build:match-view` operacional
 
 Os contratos finais de argumentos, manifestos e codigos de saida ficam definidos em:
 - [Contratos de Execucao dos Scripts Manuais](./manual-team-data-script-contracts.md)
@@ -281,19 +280,21 @@ Reprocessar apenas quando:
 Evitar:
 - refazer parse de todo o arquivo sem necessidade
 
-## Ficheiros de indice futuros
+## Ficheiros de indice
 
-Nao obrigatorios no primeiro momento, mas recomendados mais tarde:
+Atuais:
 
 ```text
 data/team-stats/fotmob/index.json
 data/team-context/soccer-rating/index.json
+data/match-view/index.json
 ```
 
 Uso:
 - listar equipas disponiveis
 - listar epocas disponiveis
 - saber ultima recolha
+- listar match views geradas
 
 ## Conclusao
 
@@ -304,4 +305,4 @@ O contrato operacional do fluxo manual fica assim fechado:
 - `data/match-view/...` para composicao derivada
 
 Proximo passo natural:
-- implementar os scripts minimos de parse local a partir deste contrato
+- ligar `match_view` ao frontend publico

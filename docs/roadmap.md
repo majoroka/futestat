@@ -86,7 +86,7 @@ Objetivo:
 - estatísticas de equipa
 
 Estado:
-- Sprint 7 iniciado com batch parse e validação
+- Sprint 8 com match view derivada operacional
 
 Itens:
 - modelação baseada em `2025/2026` para cobrir o caso completo
@@ -105,13 +105,16 @@ Entregáveis já introduzidos:
 - comando manual `parse:soccer-rating-team-context`
 - comando agregador `parse:all-team-pages`
 - comando agregador `validate:team-data`
+- comando derivado `build:match-view`
 - manifesto `raw/team-pages/manifest.json`
 - normalização de `team_stats_season.json` a partir de HTML bruto local
 - normalização de `team_context.json` a partir de HTML bruto local
 - manifesto `data/team-stats/fotmob/index.json`
 - manifesto `data/team-context/soccer-rating/index.json`
+- manifesto `data/match-view/index.json`
 - validação mínima cruzada entre manifestos, HTML bruto e JSON normalizados
 - deteção inicial de estados `not_started`, `partial`, `available`, `unavailable` e `archived`
+- composição derivada `match_view.json` a partir de fixture, detalhe, classificação e dados manuais de equipa
 
 ## Critérios de qualidade antes de avançar
 

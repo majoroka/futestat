@@ -101,6 +101,25 @@ Notas:
 - `FUTESTAT_MATCH_DETAILS_ENABLED` existe, mas fica desligada por omissão nesta fase
 - o fluxo principal usa agora classificações por competição em `data/fixtures/standings/`
 
+## Fluxo manual de equipa
+
+Os dados de equipa continuam separados do pipeline principal.
+
+Comandos já operacionais:
+- `npm run capture:team-page`
+- `npm run parse:fotmob-team-stats`
+- `npm run parse:soccer-rating-team-context`
+- `npm run parse:all-team-pages`
+- `npm run validate:team-data`
+- `npm run build:match-view -- --fixture-id=<id> --match-date=YYYY-MM-DD`
+
+O `build:match-view` compõe um JSON derivado em `data/match-view/<date>/<fixtureId>.json` a partir de:
+- fixture do `Sofascore`
+- detalhe persistido do jogo, quando existir
+- classificação do `Zerozero`
+- estatística agregada do `FotMob`
+- contexto de equipa do `Soccer-Rating`
+
 ## Output local
 
 O scraper grava:

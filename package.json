@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "build:match-view": "node --import tsx src/manual/build-match-view.ts",
     "build:site": "node scripts/build-site.mjs",
     "capture:team-page": "node --import tsx src/manual/capture-team-page.ts",
     "check": "tsc --noEmit -p tsconfig.json",
