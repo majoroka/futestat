@@ -7,9 +7,11 @@ const assetsDir = path.join(distDir, "assets");
 const docsDir = path.join(distDir, "docs");
 const docsExamplesDir = path.join(docsDir, "examples");
 const fixturesDir = path.join(distDir, "fixtures");
+const matchViewsDir = path.join(distDir, "match-view");
 const displayTimeZone = "Europe/Lisbon";
 const fixtureSnapshotPath = resolveFixtureSnapshotPath();
 const competitionStandingsPath = resolveCompetitionStandingsPath();
+const matchViewsPath = resolveMatchViewsPath();
 
 const markdownPages = [
   {
@@ -70,6 +72,7 @@ async function buildSite() {
   await mkdir(docsDir, { recursive: true });
   await mkdir(docsExamplesDir, { recursive: true });
   await mkdir(fixturesDir, { recursive: true });
+  await mkdir(matchViewsDir, { recursive: true });
 
   const packageJson = JSON.parse(await readFile(path.join(repoRoot, "package.json"), "utf8"));
   const snapshot = await loadFixtureSnapshot();
@@ -81,6 +84,7 @@ async function buildSite() {
     writeFile(path.join(fixturesDir, "latest.json"), JSON.stringify(snapshot, null, 2), "utf8"),
   ]);
   await copyCompetitionStandings();
+  await copyMatchViews();
   await copyDocExamples();
 
   await writeFile(
@@ -213,6 +217,18 @@ function resolveCompetitionStandingsPath() {
     : path.resolve(repoRoot, customPath);
 }
 
+function resolveMatchViewsPath() {
+  const customPath = process.env.FUTESTAT_SITE_MATCH_VIEW_PATH;
+
+  if (!customPath) {
+    return path.join(repoRoot, "data", "match-view");
+  }
+
+  return path.isAbsolute(customPath)
+    ? customPath
+    : path.resolve(repoRoot, customPath);
+}
+
 async function copyCompetitionStandings() {
   try {
     await rm(path.join(fixturesDir, "standings"), { recursive: true, force: true });
@@ -220,6 +236,19 @@ async function copyCompetitionStandings() {
   } catch (error) {
     if (error && typeof error === "object" && "code" in error && error.code === "ENOENT") {
       // Standings are optional; the site falls back to the base fixture snapshot when absent.
+      return;
+    }
+
+    throw error;
+  }
+}
+
+async function copyMatchViews() {
+  try {
+    await rm(matchViewsDir, { recursive: true, force: true });
+    await cp(matchViewsPath, matchViewsDir, { recursive: true });
+  } catch (error) {
+    if (error && typeof error === "object" && "code" in error && error.code === "ENOENT") {
       return;
     }
 

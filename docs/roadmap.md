@@ -60,6 +60,7 @@ Entregáveis já introduzidos:
 - separadores `Detalhes` e `Classificação`
 - carregamento sob demanda da classificação por competição
 - classificação desacoplada do Sofascore e servida a partir do Zerozero
+- consumo opcional de `match_view.json` no painel público quando a vista derivada existe
 
 Pendências desta fase:
 - seletor UX dedicado para `passado / hoje / futuro`

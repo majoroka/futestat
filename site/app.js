@@ -24,6 +24,7 @@ const state = {
   selectedDate: null,
   selectedFixtureId: null,
   selectedDetailTab: "details",
+  matchViewCache: new Map(),
   standingsCache: new Map(),
 };
 
@@ -262,6 +263,7 @@ function renderFixtureDetail() {
   const fixture = state.snapshot?.fixtures.find(
     (candidate) => candidate.sourceEventId === state.selectedFixtureId,
   );
+  const matchViewState = fixture ? state.matchViewCache.get(fixture.sourceEventId) ?? null : null;
 
   if (!fixture) {
     detailEl.innerHTML = `
@@ -322,13 +324,16 @@ function renderFixtureDetail() {
     <section class="fixture-detail__section fixture-detail__section--tabbed">
       ${
         state.selectedDetailTab === "standings"
-          ? renderFixtureStandingsTab(fixture)
-          : renderFixtureDetailsTab()
+          ? renderFixtureStandingsTab(fixture, matchViewState)
+          : renderFixtureDetailsTab(fixture, matchViewState)
       }
     </section>
   `;
 
   bindFixtureDetailTabs();
+  if (shouldLoadMatchView(fixture.sourceEventId)) {
+    void loadMatchView(fixture);
+  }
   if (fixture.competitionId && shouldLoadCompetitionStandings(fixture.competitionId)) {
     void loadCompetitionStandings(fixture.competitionId);
   }
@@ -369,15 +374,76 @@ function bindFixtureDetailTabs() {
   }
 }
 
-function renderFixtureDetailsTab() {
+function renderFixtureDetailsTab(fixture, matchViewState) {
+  if (matchViewState?.status === "loaded" && matchViewState.data) {
+    const view = matchViewState.data;
+    return `
+      <div class="fixture-detail__stack">
+        <section class="fixture-detail__subsection">
+          <h4>Resumo</h4>
+          <div class="fixture-detail__info-list">
+            ${detailInfoRow("Data e hora", formatMatchViewDateTime(view))}
+            ${detailInfoRow("Competição", formatMatchViewCompetition(view))}
+            ${detailInfoRow("Recinto", fallbackText(view.match.details.venueName))}
+            ${detailInfoRow("Localização", formatMatchViewLocation(view))}
+            ${detailInfoRow("Árbitro", formatMatchViewReferee(view))}
+            ${detailInfoRow("Odds 1/X/2", formatMatchViewOdds(view.match.details.odds))}
+            ${detailInfoRow("TV em Portugal", formatMatchViewWatch(view.match.details.watch))}
+          </div>
+        </section>
+        <section class="fixture-detail__subsection">
+          <h4>Comparativo rápido</h4>
+          <div class="fixture-detail__team-panels">
+            ${renderTeamSnapshotPanel("Casa", view.homeTeam)}
+            ${renderTeamSnapshotPanel("Fora", view.awayTeam)}
+          </div>
+        </section>
+      </div>
+    `;
+  }
+
+  if (matchViewState?.status === "loading") {
+    return `
+      ${renderBasicFixtureDetails(fixture)}
+      <p class="fixture-detail__note">A carregar vista detalhada do jogo...</p>
+    `;
+  }
+
   return `
-    <p class="fixture-detail__empty">
-      Este separador fica em preparação. Voltaremos aos detalhes do jogo numa fase posterior.
-    </p>
+    ${renderBasicFixtureDetails(fixture)}
+    <p class="fixture-detail__note">Ainda não existe match view publicada para este jogo.</p>
   `;
 }
 
-function renderFixtureStandingsTab(fixture) {
+function renderBasicFixtureDetails(fixture) {
+  return `
+    <section class="fixture-detail__subsection">
+      <h4>Resumo</h4>
+      <div class="fixture-detail__info-list">
+        ${detailInfoRow("Data e hora", `${formatFixtureDetailDate(fixture)} · ${formatFixtureDetailTime(fixture)}`)}
+        ${detailInfoRow("Competição", [fixture.competitionName, fixture.countryName].filter(Boolean).join(" · ") || "Indisponível")}
+        ${detailInfoRow("Estado", formatStatusLabel(fixture))}
+        ${detailInfoRow("Resultado", formatScoreline(fixture))}
+      </div>
+    </section>
+  `;
+}
+
+function renderFixtureStandingsTab(fixture, matchViewState) {
+  if (
+    matchViewState?.status === "loaded" &&
+    matchViewState.data?.standings?.available &&
+    Array.isArray(matchViewState.data.standings.rows) &&
+    matchViewState.data.standings.rows.length > 0
+  ) {
+    return `
+      <div class="fixture-detail__standings">
+        ${renderMatchViewStandingsTable(matchViewState.data.standings)}
+      </div>
+      <p class="fixture-detail__note">Classificação servida a partir da match view derivada.</p>
+    `;
+  }
+
   if (!fixture.competitionId) {
     return '<p class="fixture-detail__empty">Este jogo não tem competição mapeada para classificação.</p>';
   }
@@ -401,6 +467,46 @@ function renderFixtureStandingsTab(fixture) {
   return `
     <p class="fixture-detail__empty">${escapeHtml(message)}</p>
     ${renderStandingsStateNote(standingsState)}
+  `;
+}
+
+function renderMatchViewStandingsTable(standings) {
+  const title = [standings.tableName, formatStandingType(standings.tableType)]
+    .filter(Boolean)
+    .join(" · ");
+
+  return `
+    <section class="fixture-detail__standings-table">
+      ${title ? `<h3 class="fixture-detail__standings-title">${escapeHtml(title)}</h3>` : ""}
+      <div class="fixture-detail__standings-grid" role="table" aria-label="${escapeAttribute(title || "Classificação")}">
+        <div class="fixture-detail__standings-head" role="row">
+          <span>#</span>
+          <span>Equipa</span>
+          <span>J</span>
+          <span>V</span>
+          <span>E</span>
+          <span>D</span>
+          <span>DG</span>
+          <span>P</span>
+        </div>
+        ${standings.rows.map((row) => renderMatchViewStandingsRow(row)).join("")}
+      </div>
+    </section>
+  `;
+}
+
+function renderMatchViewStandingsRow(row) {
+  return `
+    <div class="fixture-detail__standings-row ${row.highlight ? `fixture-detail__standings-row--${row.highlight}` : ""}" role="row">
+      <span>${escapeHtml(stringValue(row.position, "—"))}</span>
+      <span class="fixture-detail__standings-team">${escapeHtml(row.teamName)}</span>
+      <span>${escapeHtml(stringValue(row.matches, "—"))}</span>
+      <span>${escapeHtml(stringValue(row.wins, "—"))}</span>
+      <span>${escapeHtml(stringValue(row.draws, "—"))}</span>
+      <span>${escapeHtml(stringValue(row.losses, "—"))}</span>
+      <span>${escapeHtml(row.goalDifference ?? "—")}</span>
+      <span>${escapeHtml(stringValue(row.points, "—"))}</span>
+    </div>
   `;
 }
 
@@ -515,6 +621,50 @@ function buildTeamDisplayLogoUrl(existingUrl, teamId) {
   }
 
   return existingUrl ? existingUrl.replace(/\/small$/, "") : null;
+}
+
+async function loadMatchView(fixture) {
+  const cached = state.matchViewCache.get(fixture.sourceEventId) ?? null;
+  if (cached?.status === "loading" || cached?.status === "loaded" || cached?.status === "missing") {
+    return;
+  }
+
+  state.matchViewCache.set(fixture.sourceEventId, { status: "loading" });
+  if (state.selectedFixtureId === fixture.sourceEventId) {
+    renderFixtureDetail();
+  }
+
+  try {
+    const response = await fetch(`./match-view/${fixture.matchDate}/${fixture.sourceEventId}.json`, {
+      cache: "no-store",
+    });
+
+    if (response.status === 404) {
+      state.matchViewCache.set(fixture.sourceEventId, { status: "missing", data: null });
+    } else if (!response.ok) {
+      throw new Error(`Match view indisponível (${response.status})`);
+    } else {
+      state.matchViewCache.set(fixture.sourceEventId, {
+        status: "loaded",
+        data: await response.json(),
+      });
+    }
+  } catch (error) {
+    state.matchViewCache.set(fixture.sourceEventId, {
+      status: "error",
+      data: null,
+      error,
+    });
+  }
+
+  if (state.selectedFixtureId === fixture.sourceEventId) {
+    renderFixtureDetail();
+  }
+}
+
+function shouldLoadMatchView(fixtureId) {
+  const cached = state.matchViewCache.get(fixtureId) ?? null;
+  return cached === null || cached.status === "error";
 }
 
 async function loadCompetitionStandings(competitionId) {
@@ -669,15 +819,7 @@ function formatFixtureDetailDate(fixture) {
     return fixture.matchDate;
   }
 
-  const date = new Date(fixture.kickoffAtUtc);
-  return Number.isNaN(date.getTime())
-    ? fixture.matchDate
-    : new Intl.DateTimeFormat("pt-PT", {
-        day: "2-digit",
-        month: "long",
-        year: "numeric",
-        timeZone: displayTimeZone,
-      }).format(date);
+  return formatLongDate(fixture.kickoffAtUtc);
 }
 
 function formatKickoff(value) {
@@ -696,6 +838,18 @@ function formatKickoff(value) {
 function formatKickoffTime(value) {
   const date = new Date(value);
   return Number.isNaN(date.getTime()) ? value : timeOnlyFormatter.format(date);
+}
+
+function formatLongDate(value) {
+  const date = new Date(value);
+  return Number.isNaN(date.getTime())
+    ? value
+    : new Intl.DateTimeFormat("pt-PT", {
+        day: "2-digit",
+        month: "long",
+        year: "numeric",
+        timeZone: displayTimeZone,
+      }).format(date);
 }
 
 function formatStatusLabel(fixture) {
@@ -727,6 +881,80 @@ function renderStandingsStateNote(standingsState) {
   return "";
 }
 
+function renderTeamSnapshotPanel(sideLabel, team) {
+  return `
+    <article class="fixture-detail__team-panel">
+      <span class="fixture-detail__team-panel-side">${escapeHtml(sideLabel)}</span>
+      <h3 class="fixture-detail__team-panel-name">${escapeHtml(team.identity.name)}</h3>
+      <div class="fixture-detail__team-panel-grid">
+        ${renderTeamSnapshotMetric("Rating", decimalValue(team.headerStats.overallRating))}
+        ${renderTeamSnapshotMetric("Forma", formatForm(team.headerStats.formLast3))}
+        ${renderTeamSnapshotMetric("Rank nacional", stringValue(team.headerStats.nationalRank, "—"))}
+        ${renderTeamSnapshotMetric("Rank Europa", stringValue(team.headerStats.europeRank, "—"))}
+        ${renderTeamSnapshotMetric("xG", decimalValue(team.headerStats.xgFor))}
+        ${renderTeamSnapshotMetric("xGA", decimalValue(team.headerStats.xgAgainst))}
+        ${renderTeamSnapshotMetric("Posse", percentValue(team.headerStats.averagePossessionPct))}
+        ${renderTeamSnapshotMetric("Clean sheets", stringValue(team.headerStats.cleanSheets, "—"))}
+      </div>
+    </article>
+  `;
+}
+
+function renderTeamSnapshotMetric(label, value) {
+  return `
+    <div class="fixture-detail__team-metric">
+      <span>${escapeHtml(label)}</span>
+      <strong>${escapeHtml(value)}</strong>
+    </div>
+  `;
+}
+
+function formatMatchViewDateTime(view) {
+  if (!view.match.kickoffAtUtc) {
+    return view.match.date;
+  }
+
+  return `${formatLongDate(view.match.kickoffAtUtc)} · ${formatKickoffTime(view.match.kickoffAtUtc)}`;
+}
+
+function formatMatchViewCompetition(view) {
+  return [view.match.competition.name, view.match.details.competitionStage]
+    .filter(Boolean)
+    .join(", ") || "Indisponível";
+}
+
+function formatMatchViewLocation(view) {
+  return [view.match.details.venueCity, view.match.details.venueCountry]
+    .filter(Boolean)
+    .join(", ") || fallbackText(view.match.competition.country);
+}
+
+function formatMatchViewReferee(view) {
+  return [view.match.details.refereeName, view.match.details.refereeCountry]
+    .filter(Boolean)
+    .join(" · ") || "Indisponível";
+}
+
+function formatMatchViewOdds(odds) {
+  if (!odds || (!odds.home && !odds.draw && !odds.away)) {
+    return "Indisponível";
+  }
+
+  return [`1 ${odds.home ?? "—"}`, `X ${odds.draw ?? "—"}`, `2 ${odds.away ?? "—"}`].join(" · ");
+}
+
+function formatMatchViewWatch(watch) {
+  if (!watch) {
+    return "Indisponível";
+  }
+
+  if (watch.hasPortugalChannels) {
+    return watch.note ? `Disponível · ${watch.note}` : "Disponível";
+  }
+
+  return watch.note ?? "Sem canais PT detetados";
+}
+
 function formatStandingType(type) {
   switch (type) {
     case "total":
@@ -742,6 +970,22 @@ function formatStandingType(type) {
 
 function stringValue(value, fallback) {
   return value === null || value === undefined ? fallback : String(value);
+}
+
+function percentValue(value) {
+  return value === null || value === undefined ? "—" : `${value}%`;
+}
+
+function decimalValue(value) {
+  return value === null || value === undefined ? "—" : Number(value).toFixed(1);
+}
+
+function fallbackText(value) {
+  return value ? String(value) : "Indisponível";
+}
+
+function formatForm(values) {
+  return Array.isArray(values) && values.length > 0 ? values.join(" · ") : "—";
 }
 
 function resolveStandingRowHighlight(row, fixture) {

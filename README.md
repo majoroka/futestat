@@ -120,6 +120,11 @@ O `build:match-view` compõe um JSON derivado em `data/match-view/<date>/<fixtur
 - estatística agregada do `FotMob`
 - contexto de equipa do `Soccer-Rating`
 
+No site estático:
+- o painel direito tenta carregar `./match-view/<data>/<fixtureId>.json`
+- se o ficheiro existir, usa-o para enriquecer `Detalhes` e `Classificação`
+- se não existir, mantém fallback para fixture base e classificação por competição
+
 ## Output local
 
 O scraper grava:
