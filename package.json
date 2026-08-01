@@ -12,12 +12,14 @@
     "build:site": "node scripts/build-site.mjs",
     "capture:team-page": "node --import tsx src/manual/capture-team-page.ts",
     "check": "tsc --noEmit -p tsconfig.json",
+    "parse:all-team-pages": "node --import tsx src/manual/parse-all-team-pages.ts",
     "parse:fotmob-team-stats": "node --import tsx src/manual/parse-fotmob-team-stats.ts",
     "parse:soccer-rating-team-context": "node --import tsx src/manual/parse-soccer-rating-team-context.ts",
     "publish:fixtures-data": "node scripts/publish-fixtures-data.mjs",
     "refresh:fixtures-local": "node scripts/refresh-fixtures-local.mjs",
     "scrape:fixtures": "node --import tsx src/cli.ts",
-    "test": "node --import tsx --test test/**/*.test.ts"
+    "test": "node --import tsx --test test/**/*.test.ts",
+    "validate:team-data": "node --import tsx src/manual/validate-team-data.ts"
   },
   "dependencies": {
     "playwright": "^1.61.1"

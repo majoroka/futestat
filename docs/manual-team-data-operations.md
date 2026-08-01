@@ -16,8 +16,10 @@ Estado atual:
 - `capture:team-page` operacional
 - `parse:fotmob-team-stats` operacional
 - `parse:soccer-rating-team-context` operacional
+- `parse:all-team-pages` operacional
+- `validate:team-data` operacional
 
-Os restantes scripts continuam em fase de contrato.
+O `build:match-view` continua em fase de contrato.
 
 Os contratos finais de argumentos, manifestos e codigos de saida ficam definidos em:
 - [Contratos de Execucao dos Scripts Manuais](./manual-team-data-script-contracts.md)

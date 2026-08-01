@@ -336,6 +336,18 @@ Este comando:
 - normaliza `team_context.json` em `data/team-context/soccer-rating/...`
 - atualiza o índice `data/team-context/soccer-rating/index.json`
 
+Comandos agregadores já operacionais:
+
+```bash
+npm run parse:all-team-pages
+npm run validate:team-data
+```
+
+Estes comandos:
+- processam em lote as capturas registadas em `raw/team-pages/manifest.json`
+- reconstroem os JSON normalizados das duas fontes
+- validam manifestos, paths e campos mínimos antes de build/deploy
+
 Nota técnica:
 - `data/fixtures/` fica ignorado no `main`
 - o ramo `fixtures-data` recebe apenas dados gerados
