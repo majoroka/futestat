@@ -189,36 +189,13 @@ function renderFixtures() {
     .join("");
 
   bindFixtureInteractions();
+  preloadVisibleMatchViews(fixtures);
 }
 
 function renderCompetitionGroup(group) {
   const fixtureCards = group.fixtures
     .sort(compareFixtures)
-    .map(
-      (fixture) => `
-        <article class="fixture-card ${fixture.sourceEventId === state.selectedFixtureId ? "fixture-card--selected" : ""}" data-fixture-id="${fixture.sourceEventId}">
-          <div class="fixture-card__meta">
-            <span>${formatFixtureMeta(fixture)}</span>
-          </div>
-          <div class="fixture-card__teams">
-            ${renderTeamLine({
-              name: fixture.homeTeamName,
-              logoUrl: fixture.homeTeamLogoUrl,
-              teamId: fixture.homeTeamId,
-              score: fixture.homeScore,
-              status: fixture.status,
-            })}
-            ${renderTeamLine({
-              name: fixture.awayTeamName,
-              logoUrl: fixture.awayTeamLogoUrl,
-              teamId: fixture.awayTeamId,
-              score: fixture.awayScore,
-              status: fixture.status,
-            })}
-          </div>
-        </article>
-      `,
-    )
+    .map((fixture) => renderFixtureCard(fixture))
     .join("");
 
   return `
@@ -235,6 +212,43 @@ function renderCompetitionGroup(group) {
         ${fixtureCards}
       </div>
     </details>
+  `;
+}
+
+function renderFixtureCard(fixture) {
+  const matchViewState = state.matchViewCache.get(fixture.sourceEventId) ?? null;
+  const cardClasses = [
+    "fixture-card",
+    fixture.sourceEventId === state.selectedFixtureId ? "fixture-card--selected" : "",
+    `fixture-card--status-${fixture.status}`,
+  ]
+    .filter(Boolean)
+    .join(" ");
+
+  return `
+    <article class="${cardClasses}" data-fixture-id="${fixture.sourceEventId}">
+      <div class="fixture-card__meta">
+        <span class="fixture-card__time">${escapeHtml(formatFixtureMeta(fixture))}</span>
+        ${renderFixtureStatusTag(fixture)}
+      </div>
+      <div class="fixture-card__teams">
+        ${renderTeamLine({
+          name: fixture.homeTeamName,
+          logoUrl: fixture.homeTeamLogoUrl,
+          teamId: fixture.homeTeamId,
+          score: fixture.homeScore,
+          status: fixture.status,
+        })}
+        ${renderTeamLine({
+          name: fixture.awayTeamName,
+          logoUrl: fixture.awayTeamLogoUrl,
+          teamId: fixture.awayTeamId,
+          score: fixture.awayScore,
+          status: fixture.status,
+        })}
+        ${renderFixtureOddsStrip(fixture, matchViewState)}
+      </div>
+    </article>
   `;
 }
 
@@ -645,6 +659,18 @@ function buildTeamDisplayLogoUrl(existingUrl, teamId) {
   return existingUrl ? existingUrl.replace(/\/small$/, "") : null;
 }
 
+function preloadVisibleMatchViews(fixtures) {
+  for (const fixture of fixtures) {
+    if (fixture.status !== "upcoming") {
+      continue;
+    }
+
+    if (shouldLoadMatchView(fixture.sourceEventId)) {
+      void loadMatchView(fixture);
+    }
+  }
+}
+
 async function loadMatchView(fixture) {
   const cached = state.matchViewCache.get(fixture.sourceEventId) ?? null;
   if (cached?.status === "loading" || cached?.status === "loaded" || cached?.status === "missing") {
@@ -677,6 +703,10 @@ async function loadMatchView(fixture) {
       data: null,
       error,
     });
+  }
+
+  if (fixture.matchDate === state.selectedDate) {
+    renderFixtures();
   }
 
   if (state.selectedFixtureId === fixture.sourceEventId) {
@@ -888,6 +918,61 @@ function formatStatusLabel(fixture) {
       return fixture.resultLabel ?? "Ao vivo";
     default:
       return "Desconhecido";
+  }
+}
+
+function renderFixtureStatusTag(fixture) {
+  if (fixture.status === "upcoming") {
+    return "";
+  }
+
+  return `
+    <span class="fixture-card__status fixture-card__status--${escapeAttribute(fixture.status)}">
+      ${escapeHtml(formatCompactStatusLabel(fixture))}
+    </span>
+  `;
+}
+
+function renderFixtureOddsStrip(fixture, matchViewState) {
+  if (fixture.status !== "upcoming") {
+    return "";
+  }
+
+  const odds = matchViewState?.status === "loaded" ? matchViewState.data?.match?.details?.odds ?? null : null;
+  if (!odds || (!odds.home && !odds.draw && !odds.away)) {
+    return "";
+  }
+
+  return `
+    <div class="fixture-card__odds" aria-label="Odds 1 X 2">
+      ${renderFixtureOddsItem("1", odds.home)}
+      ${renderFixtureOddsItem("X", odds.draw)}
+      ${renderFixtureOddsItem("2", odds.away)}
+    </div>
+  `;
+}
+
+function renderFixtureOddsItem(label, value) {
+  return `
+    <span class="fixture-card__odds-item">
+      <span class="fixture-card__odds-label">${escapeHtml(label)}</span>
+      <strong class="fixture-card__odds-value">${escapeHtml(value ?? "—")}</strong>
+    </span>
+  `;
+}
+
+function formatCompactStatusLabel(fixture) {
+  switch (fixture.status) {
+    case "finished":
+      return fixture.resultLabel ?? "FT";
+    case "postponed":
+      return "Adiado";
+    case "cancelled":
+      return "Cancelado";
+    case "live":
+      return fixture.resultLabel ?? "Live";
+    default:
+      return formatStatusLabel(fixture);
   }
 }
 

@@ -912,20 +912,108 @@ a {
   box-shadow: inset 3px 0 0 rgba(31, 94, 255, 0.7);
 }
 
+.fixture-card--status-postponed {
+  background: rgba(245, 158, 11, 0.08);
+}
+
+.fixture-card--status-postponed:hover {
+  background: rgba(245, 158, 11, 0.12);
+}
+
+.fixture-card--status-cancelled {
+  background: rgba(220, 38, 38, 0.06);
+}
+
+.fixture-card--status-cancelled:hover {
+  background: rgba(220, 38, 38, 0.1);
+}
+
 .fixture-card__meta {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  display: grid;
+  align-content: center;
+  gap: 8px;
   align-self: stretch;
   color: #5d6577;
   font-size: 0.98rem;
   font-weight: 500;
 }
 
+.fixture-card__time {
+  display: inline-flex;
+  align-items: center;
+}
+
+.fixture-card__status {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 5px 10px;
+  border: 1px solid rgba(23, 32, 51, 0.08);
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 0.72rem;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.fixture-card__status--finished {
+  color: var(--accent-alt);
+  background: rgba(31, 94, 255, 0.08);
+}
+
+.fixture-card__status--postponed {
+  color: #9a5d00;
+  background: rgba(245, 158, 11, 0.12);
+}
+
+.fixture-card__status--cancelled {
+  color: #a11d1d;
+  background: rgba(220, 38, 38, 0.12);
+}
+
+.fixture-card__status--live {
+  color: #0f6a40;
+  background: rgba(25, 135, 84, 0.14);
+}
+
 .fixture-card__teams {
   display: grid;
   gap: 8px;
   min-width: 0;
+}
+
+.fixture-card__odds {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.fixture-card__odds-item {
+  display: grid;
+  gap: 2px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(23, 32, 51, 0.06);
+  background: rgba(244, 248, 255, 0.96);
+}
+
+.fixture-card__odds-label {
+  color: var(--muted);
+  font-size: 0.68rem;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.fixture-card__odds-value {
+  color: var(--ink);
+  font-size: 0.82rem;
+  line-height: 1.15;
+  font-weight: 700;
 }
 
 .team-line {
@@ -1125,6 +1213,10 @@ a {
 
   .fixture-card__meta {
     font-size: 0.92rem;
+  }
+
+  .fixture-card__odds {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .fixtures-toolbar__dates {

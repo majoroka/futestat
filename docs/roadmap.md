@@ -62,12 +62,12 @@ Entregáveis já introduzidos:
 - classificação desacoplada do Sofascore e servida a partir do Zerozero
 - consumo opcional de `match_view.json` no painel público quando a vista derivada existe
 - refinamento visual do separador `Detalhes` com cartões de contexto e painéis comparativos por equipa
+- odds `1/X/2` na coluna esquerda quando a `match_view` existe
+- tratamento visual de `postponed` e `cancelled` nos cards de fixtures
 
 Pendências desta fase:
 - seletor UX dedicado para `passado / hoje / futuro`
 - ordenação e filtros de estado
-- tratamento visual de `postponed` e `cancelled`
-- odds `1/X/2` na coluna esquerda
 - afinação visual dos novos blocos do painel
 - decidir o conteúdo final do separador `Detalhes`
 
