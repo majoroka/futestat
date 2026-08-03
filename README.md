@@ -327,13 +327,15 @@ npm run refresh:fixtures-local
 
 Este comando:
 1. corre `npm run scrape:fixtures`
-2. atualiza também as classificações suportadas a partir do Zerozero dentro do mesmo fluxo local
-3. publica a store local para o ramo `fixtures-data`
+2. recompõe automaticamente as `match_view` para os jogos da janela atual
+3. inclui também as classificações suportadas a partir do Zerozero dentro do mesmo fluxo local
+4. publica a store pública local para o ramo `fixtures-data`
 
 Se preferires separar os passos:
 
 ```bash
 npm run scrape:fixtures
+npm run build:match-views-window
 npm run publish:fixtures-data
 ```
 

@@ -241,14 +241,15 @@ data/match-view/2026-08-15/16350227.json
 ### Fluxo normal
 
 1. `npm run refresh:fixtures-local`
-2. atualizar classificacoes, quando aplicavel
-3. capturar paginas `FotMob`
-4. capturar paginas `Soccer-Rating`
-5. correr `parse:fotmob-team-stats`
-6. correr `parse:soccer-rating-team-context`
-7. opcionalmente correr `build:match-view`
-8. validar localmente
-9. fazer deploy quando necessario
+2. o refresh recompõe tambem as `match_view` da janela atual antes de publicar para `fixtures-data`
+3. atualizar classificacoes, quando aplicavel
+4. capturar paginas `FotMob`
+5. capturar paginas `Soccer-Rating`
+6. correr `parse:fotmob-team-stats`
+7. correr `parse:soccer-rating-team-context`
+8. correr `build:match-view` ou `build:match-views-window` quando houver novo HTML/manual data relevante
+9. validar localmente
+10. fazer deploy quando necessario
 
 ## Regras de atualizacao
 
@@ -266,8 +267,8 @@ Frequencia esperada:
 ### `match_view`
 
 Frequencia esperada:
-- sob demanda
-- apenas para jogos que vao aparecer na interface
+- recomposta automaticamente no `refresh:fixtures-local` para a janela publica
+- adicionalmente sob demanda para jogos especificos ou depois de atualizar dados manuais
 
 ## Politica de reprocessamento
 

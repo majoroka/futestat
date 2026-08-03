@@ -5,8 +5,9 @@ import path from "node:path";
 
 const repoRoot = process.cwd();
 const branch = process.env.FUTESTAT_PUBLISH_BRANCH ?? "fixtures-data";
-const sourceDir = path.join(repoRoot, "data", "fixtures");
-const latestPath = path.join(sourceDir, "latest.json");
+const fixturesSourceDir = path.join(repoRoot, "data", "fixtures");
+const matchViewsSourceDir = path.join(repoRoot, "data", "match-view");
+const latestPath = path.join(fixturesSourceDir, "latest.json");
 const worktreeDir = await mkdtemp(path.join(tmpdir(), "futestat-fixtures-publish-"));
 const dryRun = process.argv.includes("--dry-run");
 
@@ -26,22 +27,24 @@ try {
 
   await writeFile(
     path.join(worktreeDir, "README.md"),
-    "# Futestat Fixtures Store\n\nEste ramo guarda apenas a store canónica de fixtures gerada localmente.\n",
+    "# Futestat Public Data Store\n\nEste ramo guarda a store pública gerada localmente para o site estático.\n",
     "utf8",
   );
   await rm(path.join(worktreeDir, "data", "fixtures"), { recursive: true, force: true });
-  await cp(sourceDir, path.join(worktreeDir, "data", "fixtures"), { recursive: true });
+  await rm(path.join(worktreeDir, "data", "match-view"), { recursive: true, force: true });
+  await cp(fixturesSourceDir, path.join(worktreeDir, "data", "fixtures"), { recursive: true });
+  await copyIfPresent(matchViewsSourceDir, path.join(worktreeDir, "data", "match-view"));
 
   ensureCommitIdentity(worktreeDir);
-  git(["add", "README.md", "data/fixtures"], { cwd: worktreeDir });
+  git(["add", "README.md", "data/fixtures", "data/match-view"], { cwd: worktreeDir });
 
   if (!hasStagedChanges(worktreeDir)) {
-    console.log(`No fixture changes to publish to ${branch}.`);
+    console.log(`No public data changes to publish to ${branch}.`);
     process.exit(0);
   }
 
   if (dryRun) {
-    console.log(`Dry run complete. Fixture changes are ready to publish to ${branch}.`);
+    console.log(`Dry run complete. Public data changes are ready to publish to ${branch}.`);
     process.exit(0);
   }
 
@@ -78,6 +81,18 @@ async function clearWorktree(directory) {
   }
 }
 
+async function copyIfPresent(sourceDir, targetDir) {
+  try {
+    await cp(sourceDir, targetDir, { recursive: true });
+  } catch (error) {
+    if (error && typeof error === "object" && "code" in error && error.code === "ENOENT") {
+      return;
+    }
+
+    throw error;
+  }
+}
+
 function ensureCommitIdentity(cwd) {
   const name = gitOptional(["config", "--get", "user.name"], { cwd }) || "Futestat Local Publisher";
   const email =
@@ -88,10 +103,14 @@ function ensureCommitIdentity(cwd) {
 }
 
 function hasStagedChanges(cwd) {
-  const result = spawnSync("git", ["diff", "--cached", "--quiet", "--", "README.md", "data/fixtures"], {
-    cwd,
-    encoding: "utf8",
-  });
+  const result = spawnSync(
+    "git",
+    ["diff", "--cached", "--quiet", "--", "README.md", "data/fixtures", "data/match-view"],
+    {
+      cwd,
+      encoding: "utf8",
+    },
+  );
 
   return result.status === 1;
 }

@@ -40,9 +40,11 @@ jobs:
             git worktree add --detach "$FIXTURES_STORE_DIR" "origin/$FIXTURES_STORE_BRANCH"
             echo "path=$FIXTURES_STORE_DIR/data/fixtures/latest.json" >> "$GITHUB_OUTPUT"
             echo "standings=$FIXTURES_STORE_DIR/data/fixtures/standings" >> "$GITHUB_OUTPUT"
+            echo "match_views=$FIXTURES_STORE_DIR/data/match-view" >> "$GITHUB_OUTPUT"
           else
             echo "path=data/fixtures/latest.json" >> "$GITHUB_OUTPUT"
             echo "standings=data/fixtures/standings" >> "$GITHUB_OUTPUT"
+            echo "match_views=data/match-view" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Setup Node.js
@@ -61,6 +63,7 @@ jobs:
         env:
           FUTESTAT_SITE_SNAPSHOT_PATH: ${{ steps.snapshot.outputs.path }}
           FUTESTAT_SITE_STANDINGS_PATH: ${{ steps.snapshot.outputs.standings }}
+          FUTESTAT_SITE_MATCH_VIEW_PATH: ${{ steps.snapshot.outputs.match_views }}
         run: npm run build:site
 
       - name: Upload Pages artifact

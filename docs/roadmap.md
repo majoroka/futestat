@@ -64,6 +64,7 @@ Entregáveis já introduzidos:
 - refinamento visual do separador `Detalhes` com cartões de contexto e painéis comparativos por equipa
 - odds `1/X/2` na coluna esquerda quando a `match_view` existe
 - tratamento visual de `postponed` e `cancelled` nos cards de fixtures
+- refresh local com recomposição em lote de `match_view` e publicação conjunta no ramo `fixtures-data`
 
 Pendências desta fase:
 - seletor UX dedicado para `passado / hoje / futuro`
