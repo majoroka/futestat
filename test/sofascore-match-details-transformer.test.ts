@@ -48,6 +48,7 @@ test("buildMatchDetailSnapshot maps structured upcoming detail payloads", () => 
           roundInfo: { name: "Qualification Round 2" },
           venue: {
             name: "Stadiumi Fadil Vokrri",
+            capacity: 13500,
             city: { name: "Prishtinë" },
             country: { name: "Kosovo" },
           },
@@ -61,6 +62,7 @@ test("buildMatchDetailSnapshot maps structured upcoming detail payloads", () => 
       tv: {
         countryChannels: {
           BR: [7548],
+          PT: [{ name: "Sport TV 1" }, { channel: { name: "DAZN 1" } }],
         },
       },
       odds: {
@@ -188,8 +190,10 @@ test("buildMatchDetailSnapshot maps structured upcoming detail payloads", () => 
   });
 
   assert.equal(detail.overview.venueName, "Stadiumi Fadil Vokrri");
+  assert.equal(detail.overview.venueCapacity, 13500);
   assert.equal(detail.overview.refereeName, "Romain Lissorgue");
-  assert.equal(detail.watch.hasPortugalChannels, false);
+  assert.equal(detail.watch.hasPortugalChannels, true);
+  assert.deepEqual(detail.watch.portugalChannels, ["Sport TV 1", "DAZN 1"]);
   assert.equal(detail.odds?.home, "4.64");
   assert.equal(detail.odds?.away, "1.35");
   assert.equal(detail.standings[0]?.name, "Group A");

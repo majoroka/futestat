@@ -92,6 +92,7 @@ export async function buildMatchView(
         venueName: matchDetail?.overview.venueName ?? null,
         venueCity: matchDetail?.overview.venueCity ?? null,
         venueCountry: matchDetail?.overview.venueCountry ?? null,
+        venueCapacity: matchDetail?.overview.venueCapacity ?? null,
         refereeName: matchDetail?.overview.refereeName ?? null,
         refereeCountry: matchDetail?.overview.refereeCountry ?? null,
         odds: matchDetail?.odds ?? null,

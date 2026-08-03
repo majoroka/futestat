@@ -135,6 +135,7 @@ export interface MatchViewDetailsBlock {
   venueName: string | null;
   venueCity: string | null;
   venueCountry: string | null;
+  venueCapacity: number | null;
   refereeName: string | null;
   refereeCountry: string | null;
   odds: MatchDetailOdds | null;

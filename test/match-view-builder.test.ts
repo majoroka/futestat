@@ -143,11 +143,13 @@ test("buildMatchView composes fixture, standings, details and manual team data i
           venueName: "Estadio da Luz",
           venueCity: "Lisboa",
           venueCountry: "Portugal",
+          venueCapacity: 64642,
           refereeName: "Joao Pinheiro",
           refereeCountry: "Portugal",
         },
         watch: {
           hasPortugalChannels: true,
+          portugalChannels: ["Sport TV 1", "DAZN 1"],
           availableCountryCodes: ["PT"],
           note: null,
         },
@@ -320,6 +322,8 @@ test("buildMatchView composes fixture, standings, details and manual team data i
 
   assert.equal(snapshot.match.competition.name, "Liga Portugal");
   assert.equal(snapshot.match.details.venueName, "Estadio da Luz");
+  assert.equal(snapshot.match.details.venueCapacity, 64642);
+  assert.deepEqual(snapshot.match.details.watch.portugalChannels, ["Sport TV 1", "DAZN 1"]);
   assert.equal(snapshot.homeTeam.headerStats.overallRating, 7.8);
   assert.equal(snapshot.homeTeam.headerStats.xgFor, 1.9);
   assert.equal(snapshot.homeTeam.overview.expectedLineup.formation, "4-2-3-1");

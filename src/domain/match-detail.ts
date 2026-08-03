@@ -9,6 +9,7 @@ export interface MatchDetailOdds {
 
 export interface MatchDetailWatchInfo {
   hasPortugalChannels: boolean;
+  portugalChannels: string[];
   availableCountryCodes: string[];
   note: string | null;
 }
@@ -56,6 +57,7 @@ export interface MatchDetailOverview {
   venueName: string | null;
   venueCity: string | null;
   venueCountry: string | null;
+  venueCapacity: number | null;
   refereeName: string | null;
   refereeCountry: string | null;
 }

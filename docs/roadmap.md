@@ -69,7 +69,7 @@ Pendências desta fase:
 - seletor UX dedicado para `passado / hoje / futuro`
 - ordenação e filtros de estado
 - afinação visual dos novos blocos do painel
-- decidir o conteúdo final do separador `Detalhes`
+- consolidar o conteúdo final do separador `Detalhes` após a fase atual
 
 ## Fase 4
 
@@ -79,6 +79,7 @@ Objetivo:
 Itens:
 - reintroduzir scraping por página individual apenas quando necessário
 - estádio, localização, árbitro, ronda e contexto competitivo
+- capacidade do estádio e TV em Portugal com nomes de canais quando disponíveis
 - odds `1/X/2` no layout principal
 - H2H e contexto recente das equipas
 

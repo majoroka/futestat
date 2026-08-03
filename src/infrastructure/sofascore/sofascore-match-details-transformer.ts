@@ -57,6 +57,7 @@ export function buildMatchDetailSnapshot(params: {
       venueCountry:
         readString(readObject(readObject(readObject(event)?.venue)?.country)?.name) ??
         readString(readObject(readObject(readObject(readObject(event)?.venue)?.city)?.country)?.name),
+      venueCapacity: readVenueCapacity(readObject(readObject(event)?.venue)),
       refereeName: readString(readObject(readObject(event)?.referee)?.name),
       refereeCountry: readString(readObject(readObject(readObject(event)?.referee)?.country)?.name),
     },
@@ -142,11 +143,15 @@ function buildWatchInfo(payload: unknown): MatchDetailWatchInfo {
   const channels = readObject(payload)?.countryChannels;
   const mapping = readObject(channels);
   const countryCodes = mapping ? Object.keys(mapping).sort() : [];
-  const hasPortugalChannels = readArray(mapping?.PT).length > 0;
+  const portugalEntries = readArray(mapping?.PT);
+  const portugalChannels = extractChannelNames(portugalEntries);
+  const hasPortugalChannels = portugalEntries.length > 0;
 
   let note: string | null = null;
-  if (hasPortugalChannels) {
-    note = "Canais disponíveis para Portugal.";
+  if (hasPortugalChannels && portugalChannels.length > 0) {
+    note = "Canais identificados para Portugal.";
+  } else if (hasPortugalChannels) {
+    note = "Cobertura disponível para Portugal.";
   } else if (countryCodes.length > 0) {
     note = "Sem canais para Portugal; existe cobertura noutros países.";
   } else {
@@ -155,6 +160,7 @@ function buildWatchInfo(payload: unknown): MatchDetailWatchInfo {
 
   return {
     hasPortugalChannels,
+    portugalChannels,
     availableCountryCodes: countryCodes,
     note,
   };
@@ -326,6 +332,55 @@ function fractionalToDecimal(value: string | null): string | null {
 
 function readScore(score: Record<string, unknown> | null): number | null {
   return readNumber(score?.current) ?? readNumber(score?.display) ?? null;
+}
+
+function readVenueCapacity(venue: Record<string, unknown> | null): number | null {
+  return (
+    readNumber(venue?.capacity) ??
+    readNumber(venue?.venueCapacity) ??
+    readNumber(venue?.seatingCapacity) ??
+    null
+  );
+}
+
+function extractChannelNames(entries: unknown[]): string[] {
+  const seen = new Set<string>();
+  const names: string[] = [];
+
+  for (const entry of entries) {
+    const name = extractChannelName(entry);
+    if (!name) {
+      continue;
+    }
+
+    const normalized = name.toLocaleLowerCase("pt-PT");
+    if (seen.has(normalized)) {
+      continue;
+    }
+
+    seen.add(normalized);
+    names.push(name);
+  }
+
+  return names;
+}
+
+function extractChannelName(entry: unknown): string | null {
+  if (typeof entry === "string") {
+    return readString(entry);
+  }
+
+  const object = readObject(entry);
+  if (!object) {
+    return null;
+  }
+
+  return (
+    readString(object.name) ??
+    readString(readObject(object.channel)?.name) ??
+    readString(readObject(object.tvChannel)?.name) ??
+    null
+  );
 }
 
 function mapEventStatus(status: Record<string, unknown> | null): FixtureStatus | null {

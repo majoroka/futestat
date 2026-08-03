@@ -394,33 +394,29 @@ function renderFixtureDetailsTab(fixture, matchViewState) {
     return `
       <div class="fixture-detail__stack">
         <section class="fixture-detail__subsection">
-          <h4>Contexto do jogo</h4>
+          <h4>Detalhes</h4>
           <div class="fixture-detail__summary-grid">
             ${renderDetailSummaryCard(
               "Jogo",
               [
                 detailInfoRow("Data e hora", formatMatchViewDateTime(view)),
                 detailInfoRow("Competição", formatMatchViewCompetition(view)),
-                detailInfoRow("Recinto", fallbackText(view.match.details.venueName)),
-                detailInfoRow("Localização", formatMatchViewLocation(view)),
+                detailInfoRow("Fase", fallbackText(view.match.details.competitionStage)),
+                detailInfoRow("Estádio", fallbackText(view.match.details.venueName)),
+                detailInfoRow("Cidade", formatMatchViewVenueCity(view)),
+                detailInfoRow("Capacidade", formatMatchViewVenueCapacity(view.match.details.venueCapacity)),
               ].join(""),
             )}
             ${renderDetailSummaryCard(
-              "Enquadramento",
+              "Contexto",
               [
                 detailInfoRow("Árbitro", formatMatchViewReferee(view)),
-                detailInfoRow("Odds 1/X/2", formatMatchViewOdds(view.match.details.odds)),
                 detailInfoRow("TV em Portugal", formatMatchViewWatch(view.match.details.watch)),
+                detailInfoRow("Formato", formatMatchViewTieFormat(view.match.details.tieContext)),
+                detailInfoRow("País", fallbackText(view.match.competition.country)),
                 detailInfoRow("Atualização", formatTimestamp(view.builtAtUtc)),
               ].join(""),
             )}
-          </div>
-        </section>
-        <section class="fixture-detail__subsection">
-          <h4>Leitura rápida</h4>
-          <div class="fixture-detail__team-panels">
-            ${renderTeamSnapshotPanel("Casa", view.homeTeam, "home")}
-            ${renderTeamSnapshotPanel("Fora", view.awayTeam, "away")}
           </div>
         </section>
       </div>
@@ -1057,16 +1053,24 @@ function formatMatchViewCompetition(view) {
     .join(", ") || "Indisponível";
 }
 
-function formatMatchViewLocation(view) {
+function formatMatchViewVenueCity(view) {
   return [view.match.details.venueCity, view.match.details.venueCountry]
     .filter(Boolean)
-    .join(", ") || fallbackText(view.match.competition.country);
+    .join(", ") || "Indisponível";
 }
 
 function formatMatchViewReferee(view) {
   return [view.match.details.refereeName, view.match.details.refereeCountry]
     .filter(Boolean)
     .join(" · ") || "Indisponível";
+}
+
+function formatMatchViewVenueCapacity(value) {
+  if (typeof value !== "number" || !Number.isFinite(value)) {
+    return "Indisponível";
+  }
+
+  return new Intl.NumberFormat("pt-PT").format(value);
 }
 
 function formatMatchViewOdds(odds) {
@@ -1083,10 +1087,26 @@ function formatMatchViewWatch(watch) {
   }
 
   if (watch.hasPortugalChannels) {
-    return watch.note ? `Disponível · ${watch.note}` : "Disponível";
+    if (Array.isArray(watch.portugalChannels) && watch.portugalChannels.length > 0) {
+      return watch.portugalChannels.join(" · ");
+    }
+
+    return watch.note ?? "Disponível";
   }
 
   return watch.note ?? "Sem canais PT detetados";
+}
+
+function formatMatchViewTieFormat(tieContext) {
+  if (!tieContext?.tieFormat) {
+    return "Jogo único / liga";
+  }
+
+  if (tieContext.tieFormat === "Two legs") {
+    return "Duas mãos";
+  }
+
+  return tieContext.tieFormat;
 }
 
 function formatTeamPrediction(team) {
