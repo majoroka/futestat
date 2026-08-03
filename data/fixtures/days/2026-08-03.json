@@ -3,7 +3,7 @@
   "date": "2026-08-03",
   "collectionState": "open",
   "firstScrapedAtUtc": "2026-08-03T17:34:35.550Z",
-  "lastScrapedAtUtc": "2026-08-03T17:34:35.550Z",
+  "lastScrapedAtUtc": "2026-08-03T19:02:28.057Z",
   "frozenAtUtc": null,
   "fixtureCount": 9,
   "fixtures": [
@@ -28,7 +28,7 @@
       "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/instituto-de-cordoba-ca-lanus/tobsMYb#id:16431130",
       "firstSeenAtUtc": "2026-08-03T17:34:35.550Z",
-      "lastSeenAtUtc": "2026-08-03T17:34:35.550Z",
+      "lastSeenAtUtc": "2026-08-03T19:02:28.057Z",
       "lastChangedAtUtc": "2026-08-03T17:34:35.550Z"
     },
     {
@@ -52,7 +52,7 @@
       "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/lnz-cherkasy-bukovyna-chernivtsi/LqrsCNnc#id:16412903",
       "firstSeenAtUtc": "2026-08-03T17:34:28.344Z",
-      "lastSeenAtUtc": "2026-08-03T17:34:28.344Z",
+      "lastSeenAtUtc": "2026-08-03T19:02:21.095Z",
       "lastChangedAtUtc": "2026-08-03T17:34:28.344Z"
     },
     {
@@ -76,7 +76,7 @@
       "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/kudrivka-shakhtar-donetsk/nqbsfwBc#id:16413030",
       "firstSeenAtUtc": "2026-08-03T17:34:28.344Z",
-      "lastSeenAtUtc": "2026-08-03T17:34:28.344Z",
+      "lastSeenAtUtc": "2026-08-03T19:02:21.095Z",
       "lastChangedAtUtc": "2026-08-03T17:34:28.344Z"
     },
     {
@@ -100,7 +100,7 @@
       "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/fc-botosani-fc-universitatea-cluj/JedsYVj#id:16403822",
       "firstSeenAtUtc": "2026-08-03T17:34:14.563Z",
-      "lastSeenAtUtc": "2026-08-03T17:34:14.563Z",
+      "lastSeenAtUtc": "2026-08-03T19:02:07.395Z",
       "lastChangedAtUtc": "2026-08-03T17:34:14.563Z"
     },
     {
@@ -118,14 +118,14 @@
       "awayTeamId": "3272",
       "awayTeamName": "Lokomotiv Plovdiv",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/3272/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "live",
+      "resultLabel": "45+'",
+      "homeScore": 1,
+      "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/fk-spartak-varna-lokomotiv-plovdiv/xpbsDpb#id:16398232",
       "firstSeenAtUtc": "2026-08-03T17:34:24.920Z",
-      "lastSeenAtUtc": "2026-08-03T17:34:24.920Z",
-      "lastChangedAtUtc": "2026-08-03T17:34:24.920Z"
+      "lastSeenAtUtc": "2026-08-03T19:02:17.723Z",
+      "lastChangedAtUtc": "2026-08-03T19:02:17.723Z"
     },
     {
       "source": "sofascore",
@@ -142,14 +142,14 @@
       "awayTeamId": "3294",
       "awayTeamName": "Farul Constanța",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/3294/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "live",
+      "resultLabel": "32'",
+      "homeScore": 0,
+      "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/fcsb-fc-farul-constanta/Upbsbqb#id:16403833",
       "firstSeenAtUtc": "2026-08-03T17:34:14.563Z",
-      "lastSeenAtUtc": "2026-08-03T17:34:14.563Z",
-      "lastChangedAtUtc": "2026-08-03T17:34:14.563Z"
+      "lastSeenAtUtc": "2026-08-03T19:02:07.395Z",
+      "lastChangedAtUtc": "2026-08-03T19:02:07.395Z"
     },
     {
       "source": "sofascore",
@@ -172,7 +172,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/sarmiento-independiente-rivadavia/RLosNWq#id:16431132",
       "firstSeenAtUtc": "2026-08-03T17:34:35.550Z",
-      "lastSeenAtUtc": "2026-08-03T17:34:35.550Z",
+      "lastSeenAtUtc": "2026-08-03T19:02:28.057Z",
       "lastChangedAtUtc": "2026-08-03T17:34:35.550Z"
     },
     {
@@ -196,7 +196,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/club-atletico-platense-ca-talleres/kobsMLo#id:16431131",
       "firstSeenAtUtc": "2026-08-03T17:34:35.550Z",
-      "lastSeenAtUtc": "2026-08-03T17:34:35.550Z",
+      "lastSeenAtUtc": "2026-08-03T19:02:28.057Z",
       "lastChangedAtUtc": "2026-08-03T17:34:35.550Z"
     },
     {
@@ -220,7 +220,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/ca-independiente-velez-sarsfield/iobsjob#id:16431134",
       "firstSeenAtUtc": "2026-08-03T17:34:35.550Z",
-      "lastSeenAtUtc": "2026-08-03T17:34:35.550Z",
+      "lastSeenAtUtc": "2026-08-03T19:02:28.057Z",
       "lastChangedAtUtc": "2026-08-03T17:34:35.550Z"
     }
   ],
