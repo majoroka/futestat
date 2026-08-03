@@ -98,6 +98,7 @@ export async function buildMatchView(
         odds: matchDetail?.odds ?? null,
         watch: matchDetail?.watch ?? null,
         tieContext: matchDetail?.tieContext ?? null,
+        recent: matchDetail?.recent ?? null,
       },
     },
     homeTeam: buildTeamBlock({

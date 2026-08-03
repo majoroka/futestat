@@ -416,6 +416,18 @@ a {
   gap: 0;
 }
 
+.fixture-detail__mini-group + .fixture-detail__mini-group {
+  margin-top: 14px;
+}
+
+.fixture-detail__mini-title {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 0.76rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .fixture-detail__info-item {
   display: grid;
   gap: 4px;

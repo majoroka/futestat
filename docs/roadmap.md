@@ -66,6 +66,7 @@ Entregáveis já introduzidos:
 - tratamento visual de `postponed` e `cancelled` nos cards de fixtures
 - refresh local com recomposição em lote de `match_view` e publicação conjunta no ramo `fixtures-data`
 - fallback visual mais limpo quando ainda não existe `match_view` e renderização condicional dos campos reais no separador `Detalhes`
+- contexto competitivo no separador `Detalhes` com H2H curto, eliminatória e momento recente das equipas
 
 Pendências desta fase:
 - seletor UX dedicado para `passado / hoje / futuro`

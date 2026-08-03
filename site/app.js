@@ -422,6 +422,8 @@ function renderFixtureDetailsTab(fixture, matchViewState) {
           </div>
           ${renderDetailsCoverageHint(view)}
         </section>
+        ${renderTieContextSection(view)}
+        ${renderRecentContextSection(view)}
       </div>
     `;
   }
@@ -626,6 +628,153 @@ function renderSummaryEmpty(message) {
 
 function renderSummaryHint(content) {
   return `<p class="fixture-detail__summary-hint">${content}</p>`;
+}
+
+function renderTieContextSection(view) {
+  const tieContext = view.match.details.tieContext ?? null;
+  const legRows = [
+    detailInfoRowIf("Formato", formatMatchViewTieFormat(tieContext)),
+    tieContext?.previousLeg ? renderRelatedMatchMiniRow("Mão anterior", tieContext.previousLeg) : "",
+    tieContext?.nextLeg ? renderRelatedMatchMiniRow("Próxima mão", tieContext.nextLeg) : "",
+  ].join("");
+  const h2hRows = (tieContext?.h2h ?? [])
+    .slice(0, 3)
+    .map((match) => renderRelatedMatchMiniRow(null, match))
+    .join("");
+
+  if (!legRows && !h2hRows) {
+    return "";
+  }
+
+  return `
+    <section class="fixture-detail__subsection">
+      <h4>Contexto competitivo</h4>
+      <div class="fixture-detail__summary-grid">
+        ${renderDetailSummaryCard(
+          "Eliminatória",
+          legRows || renderSummaryEmpty("Este jogo não tem contexto de duas mãos publicado."),
+        )}
+        ${renderDetailSummaryCard(
+          "H2H curto",
+          h2hRows || renderSummaryEmpty("Ainda não existe histórico direto resumido para este jogo."),
+        )}
+      </div>
+    </section>
+  `;
+}
+
+function renderRecentContextSection(view) {
+  const homeRows = renderTeamMomentumCard({
+    title: `Casa · ${view.homeTeam.identity.name}`,
+    form: view.homeTeam.headerStats.formLast3,
+    lastMatches: view.match.details.recent?.homeLast ?? [],
+    nextMatches: view.match.details.recent?.homeNext ?? [],
+    fallbackHistory: view.homeTeam.history,
+    teamName: view.homeTeam.identity.name,
+  });
+  const awayRows = renderTeamMomentumCard({
+    title: `Fora · ${view.awayTeam.identity.name}`,
+    form: view.awayTeam.headerStats.formLast3,
+    lastMatches: view.match.details.recent?.awayLast ?? [],
+    nextMatches: view.match.details.recent?.awayNext ?? [],
+    fallbackHistory: view.awayTeam.history,
+    teamName: view.awayTeam.identity.name,
+  });
+
+  if (!homeRows && !awayRows) {
+    return "";
+  }
+
+  return `
+    <section class="fixture-detail__subsection">
+      <h4>Momento das equipas</h4>
+      <div class="fixture-detail__summary-grid">
+        ${homeRows}
+        ${awayRows}
+      </div>
+    </section>
+  `;
+}
+
+function renderTeamMomentumCard({ title, form, lastMatches, nextMatches, fallbackHistory, teamName }) {
+  const lastRows = lastMatches.length > 0
+    ? renderMiniGroup(
+        "Últimos jogos",
+        lastMatches.slice(0, 3).map((match) => renderRelatedMatchMiniRow(null, match)).join(""),
+      )
+    : fallbackHistory.length > 0
+      ? renderMiniGroup(
+          "Últimos jogos",
+          fallbackHistory.slice(0, 3).map((match) => renderTeamHistoryMiniRow(match, teamName)).join(""),
+        )
+      : "";
+  const nextRows = nextMatches.length > 0
+    ? renderMiniGroup(
+        "Próximos jogos",
+        nextMatches.slice(0, 2).map((match) => renderRelatedMatchMiniRow(null, match)).join(""),
+      )
+    : "";
+  const body = [
+    renderTeamFormPills(form),
+    lastRows,
+    nextRows,
+  ]
+    .filter(Boolean)
+    .join("");
+
+  return renderDetailSummaryCard(
+    title,
+    body || renderSummaryEmpty("Sem contexto recente publicado para esta equipa."),
+  );
+}
+
+function renderMiniGroup(title, content) {
+  return `
+    <div class="fixture-detail__mini-group">
+      <p class="fixture-detail__mini-title">${escapeHtml(title)}</p>
+      <div class="fixture-detail__mini-list">
+        ${content}
+      </div>
+    </div>
+  `;
+}
+
+function renderRelatedMatchMiniRow(label, match) {
+  const title = [label, `${match.homeTeamName} vs ${match.awayTeamName}`].filter(Boolean).join(" · ");
+  const meta = [
+    formatRelatedMatchDate(match.kickoffAtUtc),
+    match.competitionName,
+    match.roundName,
+  ]
+    .filter(Boolean)
+    .join(" · ");
+  const outcome = formatRelatedMatchOutcome(match);
+  const strongContent = match.matchUrl
+    ? `<a class="fixture-detail__inline-link" href="${escapeAttribute(match.matchUrl)}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a>`
+    : escapeHtml(title);
+
+  return `
+    <article class="fixture-detail__mini-row">
+      <strong>${strongContent}</strong>
+      ${meta ? `<span class="fixture-detail__mini-meta">${escapeHtml(meta)}</span>` : ""}
+      ${outcome ? `<span class="fixture-detail__mini-copy">${escapeHtml(outcome)}</span>` : ""}
+    </article>
+  `;
+}
+
+function renderTeamHistoryMiniRow(match, teamName) {
+  const opponent = resolveTeamHistoryOpponent(match, teamName);
+  const title = opponent ?? `${match.homeTeam} vs ${match.awayTeam}`;
+  const meta = [formatHistoryMatchDate(match.date), match.result].filter(Boolean).join(" · ");
+  const rating = formatHistoryRating(match, teamName);
+
+  return `
+    <article class="fixture-detail__mini-row">
+      <strong>${escapeHtml(title)}</strong>
+      ${meta ? `<span class="fixture-detail__mini-meta">${escapeHtml(meta)}</span>` : ""}
+      ${rating ? `<span class="fixture-detail__mini-copy">${escapeHtml(rating)}</span>` : ""}
+    </article>
+  `;
 }
 
 function renderDetailMatchSide(name, logoUrl, teamId) {
@@ -1182,6 +1331,98 @@ function renderDetailsCoverageHint(view) {
       Campos ainda não expostos para este jogo: ${escapeHtml(missing.join(" · "))}.
     </p>
   `;
+}
+
+function formatRelatedMatchDate(kickoffAtUtc) {
+  if (!kickoffAtUtc) {
+    return "Sem data";
+  }
+
+  return `${formatLongDate(kickoffAtUtc)} · ${formatKickoffTime(kickoffAtUtc)}`;
+}
+
+function formatRelatedMatchOutcome(match) {
+  if (match.homeScore !== null && match.awayScore !== null) {
+    return `${match.homeScore}-${match.awayScore}${match.resultLabel ? ` · ${match.resultLabel}` : ""}`;
+  }
+
+  if (match.resultLabel && match.resultLabel !== "Not started") {
+    return match.resultLabel;
+  }
+
+  if (match.status === "upcoming") {
+    return "Por jogar";
+  }
+
+  return match.status ? formatStatusToken(match.status) : "";
+}
+
+function formatStatusToken(status) {
+  switch (status) {
+    case "finished":
+      return "Terminado";
+    case "upcoming":
+      return "Por jogar";
+    case "postponed":
+      return "Adiado";
+    case "cancelled":
+      return "Cancelado";
+    case "live":
+      return "Live";
+    default:
+      return String(status);
+  }
+}
+
+function formatHistoryMatchDate(date) {
+  if (!date) {
+    return "Sem data";
+  }
+
+  const normalized = /^\d{4}-\d{2}-\d{2}$/.test(date) ? `${date}T12:00:00Z` : date;
+  const parsed = new Date(normalized);
+  if (Number.isNaN(parsed.getTime())) {
+    return date;
+  }
+
+  return new Intl.DateTimeFormat("pt-PT", {
+    day: "2-digit",
+    month: "short",
+    year: "numeric",
+    timeZone: displayTimeZone,
+  }).format(parsed);
+}
+
+function resolveTeamHistoryOpponent(match, teamName) {
+  const normalizedTeamName = normalizeTeamName(teamName);
+  const home = normalizeTeamName(match.homeTeam);
+  const away = normalizeTeamName(match.awayTeam);
+
+  if (home === normalizedTeamName) {
+    return `vs ${match.awayTeam}`;
+  }
+
+  if (away === normalizedTeamName) {
+    return `vs ${match.homeTeam}`;
+  }
+
+  return null;
+}
+
+function formatHistoryRating(match, teamName) {
+  const normalizedTeamName = normalizeTeamName(teamName);
+  const home = normalizeTeamName(match.homeTeam);
+  const away = normalizeTeamName(match.awayTeam);
+
+  if (home === normalizedTeamName && typeof match.homeRating === "number") {
+    return `Rating ${match.homeRating.toFixed(1)}`;
+  }
+
+  if (away === normalizedTeamName && typeof match.awayRating === "number") {
+    return `Rating ${match.awayRating.toFixed(1)}`;
+  }
+
+  return null;
 }
 
 function formatTeamPrediction(team) {

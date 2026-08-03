@@ -2,7 +2,12 @@ import type {
   CompetitionStandingsRow,
   CompetitionStandingsSourceStatus,
 } from "./competition-standings.js";
-import type { MatchDetailOdds, MatchDetailTieContext, MatchDetailWatchInfo } from "./match-detail.js";
+import type {
+  MatchDetailOdds,
+  MatchDetailRecentContext,
+  MatchDetailTieContext,
+  MatchDetailWatchInfo,
+} from "./match-detail.js";
 import type {
   TeamContextHealthEntry,
   TeamContextPlayer,
@@ -141,6 +146,7 @@ export interface MatchViewDetailsBlock {
   odds: MatchDetailOdds | null;
   watch: MatchDetailWatchInfo | null;
   tieContext: MatchDetailTieContext | null;
+  recent: MatchDetailRecentContext | null;
 }
 
 export interface MatchViewDataSourceRef {
