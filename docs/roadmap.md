@@ -67,6 +67,7 @@ Entregáveis já introduzidos:
 - refresh local com recomposição em lote de `match_view` e publicação conjunta no ramo `fixtures-data`
 - fallback visual mais limpo quando ainda não existe `match_view` e renderização condicional dos campos reais no separador `Detalhes`
 - contexto competitivo no separador `Detalhes` com H2H curto, eliminatória e momento recente das equipas
+- separador `Classificação` com mais colunas, destaque forte das equipas do jogo, zonas coloridas e legenda de contexto quando existe regra local
 
 Pendências desta fase:
 - seletor UX dedicado para `passado / hoje / futuro`

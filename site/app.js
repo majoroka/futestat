@@ -4,6 +4,44 @@ const groupsEl = document.querySelector("[data-fixture-groups]");
 const stateEl = document.querySelector("[data-fixture-state]");
 const detailEl = document.querySelector("[data-fixture-detail]");
 const displayTimeZone = "Europe/Lisbon";
+const STANDINGS_ZONE_PRESETS = {
+  "8": [
+    { from: 1, to: 4, tone: "ucl", label: "Liga dos Campeões" },
+    { from: 5, to: 5, tone: "uel", label: "Liga Europa" },
+    { from: 6, to: 6, tone: "uecl", label: "Liga Conferência" },
+    { from: 18, to: 20, tone: "relegation", label: "Despromoção" },
+  ],
+  "17": [
+    { from: 1, to: 4, tone: "ucl", label: "Liga dos Campeões" },
+    { from: 5, to: 5, tone: "uel", label: "Liga Europa" },
+    { from: 6, to: 6, tone: "uecl", label: "Liga Conferência" },
+    { from: 18, to: 20, tone: "relegation", label: "Despromoção" },
+  ],
+  "23": [
+    { from: 1, to: 4, tone: "ucl", label: "Liga dos Campeões" },
+    { from: 5, to: 5, tone: "uel", label: "Liga Europa" },
+    { from: 6, to: 6, tone: "uecl", label: "Liga Conferência" },
+    { from: 18, to: 20, tone: "relegation", label: "Despromoção" },
+  ],
+  "35": [
+    { from: 1, to: 4, tone: "ucl", label: "Liga dos Campeões" },
+    { from: 5, to: 5, tone: "uel", label: "Liga Europa" },
+    { from: 6, to: 6, tone: "uecl", label: "Liga Conferência" },
+    { from: 16, to: 16, tone: "playoff", label: "Play-off manutenção" },
+    { from: 17, to: 18, tone: "relegation", label: "Despromoção" },
+  ],
+  "39": [
+    { from: 1, to: 6, tone: "championship", label: "Play-off Campeão" },
+    { from: 7, to: 12, tone: "relegation", label: "Play-off Despromoção" },
+  ],
+  "238": [
+    { from: 1, to: 2, tone: "ucl", label: "Liga dos Campeões" },
+    { from: 3, to: 3, tone: "uel", label: "Liga Europa" },
+    { from: 4, to: 4, tone: "uecl", label: "Liga Conferência" },
+    { from: 16, to: 16, tone: "playoff", label: "Play-off manutenção" },
+    { from: 17, to: 18, tone: "relegation", label: "Despromoção" },
+  ],
+};
 
 const formatter = new Intl.DateTimeFormat("pt-PT", {
   day: "2-digit",
@@ -474,6 +512,14 @@ function renderBasicFixtureDetails(fixture, note = null) {
 }
 
 function renderFixtureStandingsTab(fixture, matchViewState) {
+  const standingsState = fixture.competitionId
+    ? state.standingsCache.get(fixture.competitionId) ?? null
+    : null;
+
+  if (standingsState?.status === "loaded" && Array.isArray(standingsState.data?.tables) && standingsState.data.tables.length > 0) {
+    return renderCompetitionStandingsSnapshot(standingsState.data, fixture);
+  }
+
   if (
     matchViewState?.status === "loaded" &&
     matchViewState.data?.standings?.available &&
@@ -482,7 +528,7 @@ function renderFixtureStandingsTab(fixture, matchViewState) {
   ) {
     return `
       <div class="fixture-detail__standings">
-        ${renderMatchViewStandingsTable(matchViewState.data.standings)}
+        ${renderMatchViewStandingsTable(matchViewState.data.standings, fixture)}
       </div>
       <p class="fixture-detail__note">Classificação servida a partir da match view derivada.</p>
     `;
@@ -490,17 +536,6 @@ function renderFixtureStandingsTab(fixture, matchViewState) {
 
   if (!fixture.competitionId) {
     return '<p class="fixture-detail__empty">Este jogo não tem competição mapeada para classificação.</p>';
-  }
-
-  const standingsState = state.standingsCache.get(fixture.competitionId) ?? null;
-
-  if (standingsState?.status === "loaded" && Array.isArray(standingsState.data?.tables) && standingsState.data.tables.length > 0) {
-    return `
-      <div class="fixture-detail__standings">
-        ${standingsState.data.tables.map((table) => renderStandingsTable(table, fixture)).join("")}
-      </div>
-      ${renderStandingsStateNote(standingsState)}
-    `;
   }
 
   const message =
@@ -514,7 +549,25 @@ function renderFixtureStandingsTab(fixture, matchViewState) {
   `;
 }
 
-function renderMatchViewStandingsTable(standings) {
+function renderCompetitionStandingsSnapshot(snapshot, fixture) {
+  const meta = [
+    snapshot.mode !== "single_table" ? formatStandingsMode(snapshot.mode) : null,
+    snapshot.status !== "ready" ? formatStandingsStatus(snapshot.status) : null,
+  ]
+    .filter(Boolean)
+    .join(" · ");
+
+  return `
+    <div class="fixture-detail__standings">
+      ${meta ? `<p class="fixture-detail__note">${escapeHtml(meta)}</p>` : ""}
+      ${snapshot.tables.map((table) => renderStandingsTableCard(table, fixture, snapshot.competitionId)).join("")}
+      ${renderStandingsLegend(snapshot.competitionId, snapshot.tables)}
+      ${snapshot.zerozeroUrl ? `<a class="fixture-detail__link" href="${escapeAttribute(snapshot.zerozeroUrl)}" target="_blank" rel="noreferrer">Ver classificação detalhada</a>` : ""}
+    </div>
+  `;
+}
+
+function renderMatchViewStandingsTable(standings, fixture) {
   const title = [standings.tableName, formatStandingType(standings.tableType)]
     .filter(Boolean)
     .join(" · ");
@@ -522,74 +575,104 @@ function renderMatchViewStandingsTable(standings) {
   return `
     <section class="fixture-detail__standings-table">
       ${title ? `<h3 class="fixture-detail__standings-title">${escapeHtml(title)}</h3>` : ""}
-      <div class="fixture-detail__standings-grid" role="table" aria-label="${escapeAttribute(title || "Classificação")}">
-        <div class="fixture-detail__standings-head" role="row">
-          <span>#</span>
-          <span>Equipa</span>
-          <span>J</span>
-          <span>V</span>
-          <span>E</span>
-          <span>D</span>
-          <span>DG</span>
-          <span>P</span>
-        </div>
-        ${standings.rows.map((row) => renderMatchViewStandingsRow(row)).join("")}
-      </div>
+      ${renderStandingsGrid({
+        title,
+        rows: standings.rows,
+        fixture,
+        competitionId: standings.competitionId,
+      })}
+      ${renderStandingsLegend(standings.competitionId, [{ rows: standings.rows }])}
     </section>
   `;
 }
 
-function renderMatchViewStandingsRow(row) {
-  return `
-    <div class="fixture-detail__standings-row ${row.highlight ? `fixture-detail__standings-row--${row.highlight}` : ""}" role="row">
-      <span>${escapeHtml(stringValue(row.position, "—"))}</span>
-      <span class="fixture-detail__standings-team">${escapeHtml(row.teamName)}</span>
-      <span>${escapeHtml(stringValue(row.matches, "—"))}</span>
-      <span>${escapeHtml(stringValue(row.wins, "—"))}</span>
-      <span>${escapeHtml(stringValue(row.draws, "—"))}</span>
-      <span>${escapeHtml(stringValue(row.losses, "—"))}</span>
-      <span>${escapeHtml(row.goalDifference ?? "—")}</span>
-      <span>${escapeHtml(stringValue(row.points, "—"))}</span>
-    </div>
-  `;
-}
-
-function renderStandingsTable(table, fixture) {
+function renderStandingsTableCard(table, fixture, competitionId) {
   const title = [table.name, formatStandingType(table.type)].filter(Boolean).join(" · ");
 
   return `
     <section class="fixture-detail__standings-table">
       ${title ? `<h3 class="fixture-detail__standings-title">${escapeHtml(title)}</h3>` : ""}
-      <div class="fixture-detail__standings-grid" role="table" aria-label="${escapeAttribute(title || "Classificação")}">
-        <div class="fixture-detail__standings-head" role="row">
-          <span>#</span>
-          <span>Equipa</span>
-          <span>J</span>
-          <span>V</span>
-          <span>E</span>
-          <span>D</span>
-          <span>DG</span>
-          <span>P</span>
-        </div>
-        ${table.rows.map((row) => renderStandingsRow(row, fixture)).join("")}
-      </div>
+      ${renderStandingsGrid({
+        title,
+        rows: table.rows,
+        fixture,
+        competitionId,
+      })}
     </section>
   `;
 }
 
-function renderStandingsRow(row, fixture) {
-  const highlight = resolveStandingRowHighlight(row, fixture);
+function renderStandingsGrid({ title, rows, fixture, competitionId }) {
+  return `
+    <div class="fixture-detail__standings-scroll">
+      <div class="fixture-detail__standings-grid" role="table" aria-label="${escapeAttribute(title || "Classificação")}">
+        <div class="fixture-detail__standings-head" role="row">
+          <span>#</span>
+          <span>Equipa</span>
+          <span>P</span>
+          <span>J</span>
+          <span>V</span>
+          <span>E</span>
+          <span>D</span>
+          <span>GM</span>
+          <span>GS</span>
+          <span>DG</span>
+        </div>
+        ${rows.map((row) => renderStandingsRow(row, fixture, competitionId)).join("")}
+      </div>
+    </div>
+  `;
+}
+
+function renderStandingsRow(row, fixture, competitionId) {
+  const highlight = row.highlight ?? resolveStandingRowHighlight(row, fixture);
+  const zone = resolveStandingsZone(competitionId, row.position);
+  const teamMarker = highlight === "home" ? "Casa" : highlight === "away" ? "Fora" : null;
+  const classes = [
+    "fixture-detail__standings-row",
+    highlight ? `fixture-detail__standings-row--${highlight}` : "",
+    zone ? `fixture-detail__standings-row--zone-${zone.tone}` : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
 
   return `
-    <div class="fixture-detail__standings-row ${highlight ? `fixture-detail__standings-row--${highlight}` : ""}" role="row">
+    <div class="${classes}" role="row">
       <span>${escapeHtml(stringValue(row.position, "—"))}</span>
-      <span class="fixture-detail__standings-team">${escapeHtml(row.teamName)}</span>
+      <span class="fixture-detail__standings-team">
+        ${escapeHtml(row.teamName)}
+        ${teamMarker ? `<span class="fixture-detail__standings-team-tag fixture-detail__standings-team-tag--${highlight}">${escapeHtml(teamMarker)}</span>` : ""}
+      </span>
+      <span>${escapeHtml(stringValue(row.points, "—"))}</span>
       <span>${escapeHtml(stringValue(row.matches, "—"))}</span>
       <span>${escapeHtml(stringValue(row.wins, "—"))}</span>
       <span>${escapeHtml(stringValue(row.draws, "—"))}</span>
       <span>${escapeHtml(stringValue(row.losses, "—"))}</span>
+      <span>${escapeHtml(stringValue(row.goalsFor, "—"))}</span>
+      <span>${escapeHtml(stringValue(row.goalsAgainst, "—"))}</span>
       <span>${escapeHtml(row.goalDifference ?? "—")}</span>
-      <span>${escapeHtml(stringValue(row.points, "—"))}</span>
+    </div>
+  `;
+}
+
+function renderStandingsLegend(competitionId, tables) {
+  const zones = collectLegendZones(competitionId, tables);
+  if (zones.length === 0) {
+    return "";
+  }
+
+  return `
+    <div class="fixture-detail__standings-legend">
+      ${zones
+        .map(
+          (zone) => `
+            <div class="fixture-detail__standings-legend-item">
+              <span class="fixture-detail__standings-legend-swatch fixture-detail__standings-legend-swatch--${escapeAttribute(zone.tone)}" aria-hidden="true"></span>
+              <span>${escapeHtml(zone.label)}</span>
+            </div>
+          `,
+        )
+        .join("")}
     </div>
   `;
 }
@@ -1331,6 +1414,61 @@ function renderDetailsCoverageHint(view) {
       Campos ainda não expostos para este jogo: ${escapeHtml(missing.join(" · "))}.
     </p>
   `;
+}
+
+function resolveStandingsZone(competitionId, position) {
+  if (!competitionId || typeof position !== "number") {
+    return null;
+  }
+
+  const preset = STANDINGS_ZONE_PRESETS[String(competitionId)] ?? [];
+  return preset.find((zone) => position >= zone.from && position <= zone.to) ?? null;
+}
+
+function collectLegendZones(competitionId, tables) {
+  if (!competitionId) {
+    return [];
+  }
+
+  const preset = STANDINGS_ZONE_PRESETS[String(competitionId)] ?? [];
+  const positions = new Set(
+    (tables ?? [])
+      .flatMap((table) => (Array.isArray(table.rows) ? table.rows : []))
+      .map((row) => row.position)
+      .filter((value) => typeof value === "number"),
+  );
+
+  return preset.filter((zone) => {
+    for (let position = zone.from; position <= zone.to; position += 1) {
+      if (positions.has(position)) {
+        return true;
+      }
+    }
+
+    return false;
+  });
+}
+
+function formatStandingsMode(mode) {
+  switch (mode) {
+    case "regular_plus_playoffs":
+      return "Competição com fase regular e playoffs";
+    case "league_phase":
+      return "Competição com várias fases ou grupos";
+    default:
+      return null;
+  }
+}
+
+function formatStandingsStatus(status) {
+  switch (status) {
+    case "needs_phase_rules":
+      return "A fase atual pode exigir leitura por grupos ou playoffs";
+    case "needs_validation":
+      return "Classificação publicada, mas ainda por validar";
+    default:
+      return null;
+  }
 }
 
 function formatRelatedMatchDate(kickoffAtUtc) {
