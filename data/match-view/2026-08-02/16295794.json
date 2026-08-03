@@ -1,0 +1,351 @@
+{
+  "builtAtUtc": "2026-08-03T17:34:46.195Z",
+  "match": {
+    "id": "16295794",
+    "date": "2026-08-02",
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 2,
+    "awayScore": 1,
+    "matchUrl": "https://www.sofascore.com/football/match/ludogorets-botev-vratsa/NNosPBr#id:16295794",
+    "kickoffAtUtc": "2026-08-02T16:00:00.000Z",
+    "competition": {
+      "id": "247",
+      "name": "Parva Liga",
+      "country": "Bulgaria",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/247/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "43840",
+      "name": "Ludogorets",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/43840/image/small",
+      "sourceIds": {
+        "sofascore": "43840",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "36938",
+      "name": "Botev Vratsa",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/36938/image/small",
+      "sourceIds": {
+        "sofascore": "36938",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "247",
+    "sourceStatus": "needs_phase_rules",
+    "tableName": "Campeonato",
+    "tableType": "regular_plus_playoffs",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Levski Sofia",
+        "teamUrl": "https://www.zerozero.pt/equipa/levski-sofia/1040?epoca_id=156",
+        "points": 9,
+        "matches": 3,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 2,
+        "goalDifference": "+5",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Ludogorets Razgrad",
+        "teamUrl": "https://www.zerozero.pt/equipa/ludogorets-razgrad?epoca_id=156",
+        "points": 9,
+        "matches": 3,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 1,
+        "goalDifference": "+4",
+        "highlight": "home"
+      },
+      {
+        "position": 3,
+        "teamName": "CSKA 1948",
+        "teamUrl": "https://www.zerozero.pt/equipa/cska-1948/216100?epoca_id=156",
+        "points": 7,
+        "matches": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 4,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "CSKA Sofia",
+        "teamUrl": "https://www.zerozero.pt/equipa/cska-sofia?epoca_id=156",
+        "points": 7,
+        "matches": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 3,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Spartak Varna",
+        "teamUrl": "https://www.zerozero.pt/equipa/spartak-varna/1821?epoca_id=156",
+        "points": 4,
+        "matches": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 2,
+        "goalDifference": "+3",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Botev Plovdiv",
+        "teamUrl": "https://www.zerozero.pt/equipa/botev-plovdiv/1827?epoca_id=156",
+        "points": 4,
+        "matches": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 4,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "Arda Kardzhali",
+        "teamUrl": "https://www.zerozero.pt/equipa/arda-kardzhali/209666?epoca_id=156",
+        "points": 4,
+        "matches": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 3,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "Lokomotiv Plovdiv",
+        "teamUrl": "https://www.zerozero.pt/equipa/lokomotiv-plovdiv/1815?epoca_id=156",
+        "points": 3,
+        "matches": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Lokomotiv Sofia",
+        "teamUrl": "https://www.zerozero.pt/equipa/lokomotiv-sofia/1818?epoca_id=156",
+        "points": 2,
+        "matches": 3,
+        "wins": 0,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 4,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Slavia",
+        "teamUrl": "https://www.zerozero.pt/equipa/slavia/1816?epoca_id=156",
+        "points": 2,
+        "matches": 3,
+        "wins": 0,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Botev Vratsa",
+        "teamUrl": "https://www.zerozero.pt/equipa/botev-vratsa/10830?epoca_id=156",
+        "points": 1,
+        "matches": 3,
+        "wins": 0,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 3,
+        "goalsAgainst": 5,
+        "goalDifference": "-2",
+        "highlight": "away"
+      },
+      {
+        "position": 12,
+        "teamName": "Cherno More",
+        "teamUrl": "https://www.zerozero.pt/equipa/cherno-more/1824?epoca_id=156",
+        "points": 1,
+        "matches": 3,
+        "wins": 0,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 5,
+        "goalDifference": "-4",
+        "highlight": null
+      },
+      {
+        "position": 13,
+        "teamName": "Septemvri Sofia",
+        "teamUrl": "https://www.zerozero.pt/equipa/septemvri-sofia/109166?epoca_id=156",
+        "points": 1,
+        "matches": 3,
+        "wins": 0,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 6,
+        "goalDifference": "-4",
+        "highlight": null
+      },
+      {
+        "position": 14,
+        "teamName": "FC Dunav",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-dunav/10828?epoca_id=156",
+        "points": 0,
+        "matches": 3,
+        "wins": 0,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 2,
+        "goalsAgainst": 6,
+        "goalDifference": "-4",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-02.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/247.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

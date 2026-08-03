@@ -1,3 +1,3 @@
-# Futestat Fixtures Store
+# Futestat Public Data Store
 
-Este ramo guarda apenas a store canónica de fixtures gerada localmente.
+Este ramo guarda a store pública gerada localmente para o site estático.

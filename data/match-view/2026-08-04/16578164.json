@@ -1,0 +1,154 @@
+{
+  "builtAtUtc": "2026-08-03T17:34:46.216Z",
+  "match": {
+    "id": "16578164",
+    "date": "2026-08-04",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/kairat-almaty-levski-sofia/ypbsxdc#id:16578164",
+    "kickoffAtUtc": "2026-08-04T17:30:00.000Z",
+    "competition": {
+      "id": "7",
+      "name": "UEFA Champions League, Qualification",
+      "country": "Europe",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "3273",
+      "name": "Levski Sofia",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3273/image/small",
+      "sourceIds": {
+        "sofascore": "3273",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "5172",
+      "name": "Kairat",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/5172/image/small",
+      "sourceIds": {
+        "sofascore": "5172",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": false,
+    "competitionId": "7",
+    "sourceStatus": "missing",
+    "tableName": null,
+    "tableType": null,
+    "rows": []
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-04.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

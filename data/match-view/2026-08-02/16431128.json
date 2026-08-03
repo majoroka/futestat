@@ -1,0 +1,365 @@
+{
+  "builtAtUtc": "2026-08-03T17:34:46.205Z",
+  "match": {
+    "id": "16431128",
+    "date": "2026-08-02",
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 0,
+    "awayScore": 1,
+    "matchUrl": "https://www.sofascore.com/football/match/rosario-central-river-plate/lobsrob#id:16431128",
+    "kickoffAtUtc": "2026-08-02T22:15:00.000Z",
+    "competition": {
+      "id": "155",
+      "name": "Liga Profesional, Clausura",
+      "country": "Argentina",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/155/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "3211",
+      "name": "River Plate",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3211/image/small",
+      "sourceIds": {
+        "sofascore": "3211",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "3217",
+      "name": "Rosario Central",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3217/image/small",
+      "sourceIds": {
+        "sofascore": "3217",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "155",
+    "sourceStatus": "needs_validation",
+    "tableName": "1ª Fase",
+    "tableType": "regular_plus_playoffs",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Argentinos Juniors",
+        "teamUrl": "https://www.zerozero.pt/equipa/argentinos-juniors?epoca_id=155",
+        "points": 9,
+        "matches": 3,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 7,
+        "goalsAgainst": 2,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Barracas Central",
+        "teamUrl": "https://www.zerozero.pt/equipa/barracas-central/36413?epoca_id=155",
+        "points": 9,
+        "matches": 3,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 3,
+        "goalsAgainst": 0,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Gimnasia",
+        "teamUrl": "https://www.zerozero.pt/equipa/gimnasia?epoca_id=155",
+        "points": 6,
+        "matches": 3,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 4,
+        "goalsAgainst": 3,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "Banfield",
+        "teamUrl": "https://www.zerozero.pt/equipa/banfield?epoca_id=155",
+        "points": 4,
+        "matches": 3,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 3,
+        "goalsAgainst": 3,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Racing Club",
+        "teamUrl": "https://www.zerozero.pt/equipa/racing-club?epoca_id=155",
+        "points": 4,
+        "matches": 3,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 3,
+        "goalsAgainst": 4,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Rosario Central",
+        "teamUrl": "https://www.zerozero.pt/equipa/rosario-central?epoca_id=155",
+        "points": 4,
+        "matches": 3,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": null,
+        "highlight": "away"
+      },
+      {
+        "position": 7,
+        "teamName": "Atlético Tucumán",
+        "teamUrl": "https://www.zerozero.pt/equipa/atletico-tucuman?epoca_id=155",
+        "points": 4,
+        "matches": 2,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 2,
+        "goalsAgainst": 0,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "Independiente Rivadavia",
+        "teamUrl": "https://www.zerozero.pt/equipa/independiente-rivadavia/9201?epoca_id=155",
+        "points": 4,
+        "matches": 2,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Estudiantes Río Cuarto",
+        "teamUrl": "https://www.zerozero.pt/equipa/estudiantes-rio-cuarto/55044?epoca_id=155",
+        "points": 4,
+        "matches": 3,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 1,
+        "goalsAgainst": 3,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Huracán",
+        "teamUrl": "https://www.zerozero.pt/equipa/huracan?epoca_id=155",
+        "points": 3,
+        "matches": 2,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Belgrano",
+        "teamUrl": "https://www.zerozero.pt/equipa/belgrano?epoca_id=155",
+        "points": 3,
+        "matches": 2,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "Tigre",
+        "teamUrl": "https://www.zerozero.pt/equipa/tigre?epoca_id=155",
+        "points": 3,
+        "matches": 2,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 13,
+        "teamName": "Aldosivi",
+        "teamUrl": "https://www.zerozero.pt/equipa/aldosivi?epoca_id=155",
+        "points": 1,
+        "matches": 3,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 2,
+        "goalsAgainst": 4,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 14,
+        "teamName": "River Plate",
+        "teamUrl": "https://www.zerozero.pt/equipa/river-plate?epoca_id=155",
+        "points": 0,
+        "matches": 3,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 0,
+        "goalsAgainst": 3,
+        "goalDifference": null,
+        "highlight": "home"
+      },
+      {
+        "position": 15,
+        "teamName": "Sarmiento de Junín",
+        "teamUrl": "https://www.zerozero.pt/equipa/sarmiento-de-junin/9065?epoca_id=155",
+        "points": 0,
+        "matches": 2,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 4,
+        "goalsAgainst": 6,
+        "goalDifference": null,
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-02.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/155.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

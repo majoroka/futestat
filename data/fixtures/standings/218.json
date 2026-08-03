@@ -6,7 +6,7 @@
   "zerozeroUrl": "https://www.zerozero.pt/competicao/liga-ucraniana",
   "mode": "single_table",
   "status": "ready",
-  "scrapedAtUtc": "2026-08-01T13:35:26.291Z",
+  "scrapedAtUtc": "2026-08-03T17:34:43.747Z",
   "editionId": "219924",
   "phaseId": "243005",
   "tables": [
@@ -16,6 +16,19 @@
       "rows": [
         {
           "position": 1,
+          "teamName": "Metalist 1925 Kharkov",
+          "teamUrl": "https://www.zerozero.pt/equipa/metalist-1925-kharkov/213307?epoca_id=156",
+          "points": 3,
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "goalDifference": "+1"
+        },
+        {
+          "position": 2,
           "teamName": "Karpaty",
           "teamUrl": "https://www.zerozero.pt/equipa/karpaty/2161?epoca_id=156",
           "points": 3,
@@ -28,7 +41,7 @@
           "goalDifference": "+3"
         },
         {
-          "position": 2,
+          "position": 3,
           "teamName": "Zorya",
           "teamUrl": "https://www.zerozero.pt/equipa/zorya/7872?epoca_id=156",
           "points": 3,
@@ -41,33 +54,85 @@
           "goalDifference": "+2"
         },
         {
-          "position": 3,
-          "teamName": "Metalist 1925 Kharkov",
-          "teamUrl": "https://www.zerozero.pt/equipa/metalist-1925-kharkov/213307?epoca_id=156",
-          "points": 0,
-          "matches": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": "0"
-        },
-        {
           "position": 4,
-          "teamName": "FC Veres",
-          "teamUrl": "https://www.zerozero.pt/equipa/fc-veres/41915?epoca_id=156",
-          "points": 0,
-          "matches": 0,
-          "wins": 0,
+          "teamName": "Epitsentr Dunaivtsi",
+          "teamUrl": "https://www.zerozero.pt/equipa/epitsentr-dunaivtsi/263553?epoca_id=156",
+          "points": 3,
+          "matches": 1,
+          "wins": 1,
           "draws": 0,
           "losses": 0,
-          "goalsFor": 0,
+          "goalsFor": 3,
           "goalsAgainst": 0,
-          "goalDifference": "0"
+          "goalDifference": "+3"
         },
         {
           "position": 5,
+          "teamName": "Polissya",
+          "teamUrl": "https://www.zerozero.pt/equipa/polissya/38513?epoca_id=156",
+          "points": 3,
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "goalDifference": "+1"
+        },
+        {
+          "position": 6,
+          "teamName": "Shakhtar Donetsk",
+          "teamUrl": "https://www.zerozero.pt/equipa/shakhtar-donetsk?epoca_id=156",
+          "points": 3,
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 1,
+          "goalDifference": "+4"
+        },
+        {
+          "position": 7,
+          "teamName": "Bukovyna",
+          "teamUrl": "https://www.zerozero.pt/equipa/bukovyna/41976?epoca_id=156",
+          "points": 1,
+          "matches": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": "0"
+        },
+        {
+          "position": 8,
+          "teamName": "LNZ Cherkasy",
+          "teamUrl": "https://www.zerozero.pt/equipa/lnz-cherkasy/262926?epoca_id=156",
+          "points": 1,
+          "matches": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": "0"
+        },
+        {
+          "position": 9,
+          "teamName": "FC Veres",
+          "teamUrl": "https://www.zerozero.pt/equipa/fc-veres/41915?epoca_id=156",
+          "points": 0,
+          "matches": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 1,
+          "goalDifference": "-1"
+        },
+        {
+          "position": 10,
           "teamName": "Dynamo Kyiv",
           "teamUrl": "https://www.zerozero.pt/equipa/dynamo-kyiv/141?epoca_id=156",
           "points": 0,
@@ -80,7 +145,7 @@
           "goalDifference": "0"
         },
         {
-          "position": 6,
+          "position": 11,
           "teamName": "Livyi Bereh",
           "teamUrl": "https://www.zerozero.pt/equipa/livyi-bereh/262925?epoca_id=156",
           "points": 0,
@@ -93,7 +158,7 @@
           "goalDifference": "0"
         },
         {
-          "position": 7,
+          "position": 12,
           "teamName": "Kryvbas",
           "teamUrl": "https://www.zerozero.pt/equipa/kryvbas/85604?epoca_id=156",
           "points": 0,
@@ -106,7 +171,7 @@
           "goalDifference": "-3"
         },
         {
-          "position": 8,
+          "position": 13,
           "teamName": "Kolos Kovalivka",
           "teamUrl": "https://www.zerozero.pt/equipa/kolos-kovalivka/101825?epoca_id=156",
           "points": 0,
@@ -119,108 +184,43 @@
           "goalDifference": "-2"
         },
         {
-          "position": 9,
-          "teamName": "Bukovyna",
-          "teamUrl": "https://www.zerozero.pt/equipa/bukovyna/41976?epoca_id=156",
-          "points": 0,
-          "matches": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": "0"
-        },
-        {
-          "position": 10,
-          "teamName": "LNZ Cherkasy",
-          "teamUrl": "https://www.zerozero.pt/equipa/lnz-cherkasy/262926?epoca_id=156",
-          "points": 0,
-          "matches": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": "0"
-        },
-        {
-          "position": 11,
-          "teamName": "Epitsentr Dunaivtsi",
-          "teamUrl": "https://www.zerozero.pt/equipa/epitsentr-dunaivtsi/263553?epoca_id=156",
-          "points": 0,
-          "matches": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": "0"
-        },
-        {
-          "position": 12,
+          "position": 14,
           "teamName": "FK Kudrivka",
           "teamUrl": "https://www.zerozero.pt/equipa/fk-kudrivka/263502?epoca_id=156",
           "points": 0,
-          "matches": 0,
+          "matches": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": "0"
-        },
-        {
-          "position": 13,
-          "teamName": "Shakhtar Donetsk",
-          "teamUrl": "https://www.zerozero.pt/equipa/shakhtar-donetsk?epoca_id=156",
-          "points": 0,
-          "matches": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": "0"
-        },
-        {
-          "position": 14,
-          "teamName": "Chornomorets",
-          "teamUrl": "https://www.zerozero.pt/equipa/chornomorets/2157?epoca_id=156",
-          "points": 0,
-          "matches": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": "0"
+          "losses": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 5,
+          "goalDifference": "-4"
         },
         {
           "position": 15,
-          "teamName": "Polissya",
-          "teamUrl": "https://www.zerozero.pt/equipa/polissya/38513?epoca_id=156",
+          "teamName": "Chornomorets",
+          "teamUrl": "https://www.zerozero.pt/equipa/chornomorets/2157?epoca_id=156",
           "points": 0,
-          "matches": 0,
+          "matches": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": "0"
+          "losses": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 2,
+          "goalDifference": "-1"
         },
         {
           "position": 16,
           "teamName": "Obolon-Brovar",
           "teamUrl": "https://www.zerozero.pt/equipa/obolon-brovar/84680?epoca_id=156",
           "points": 0,
-          "matches": 0,
+          "matches": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
+          "losses": 1,
           "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": "0"
+          "goalsAgainst": 3,
+          "goalDifference": "-3"
         }
       ]
     }
