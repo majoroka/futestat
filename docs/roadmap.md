@@ -65,6 +65,7 @@ Entregáveis já introduzidos:
 - odds `1/X/2` na coluna esquerda quando a `match_view` existe
 - tratamento visual de `postponed` e `cancelled` nos cards de fixtures
 - refresh local com recomposição em lote de `match_view` e publicação conjunta no ramo `fixtures-data`
+- fallback visual mais limpo quando ainda não existe `match_view` e renderização condicional dos campos reais no separador `Detalhes`
 
 Pendências desta fase:
 - seletor UX dedicado para `passado / hoje / futuro`

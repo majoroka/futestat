@@ -391,6 +391,18 @@ function bindFixtureDetailTabs() {
 function renderFixtureDetailsTab(fixture, matchViewState) {
   if (matchViewState?.status === "loaded" && matchViewState.data) {
     const view = matchViewState.data;
+    const venueRows = [
+      detailInfoRowIf("Estádio", view.match.details.venueName),
+      detailInfoRowIf("Cidade", formatMatchViewVenueCity(view)),
+      detailInfoRowIf("Capacidade", formatMatchViewVenueCapacity(view.match.details.venueCapacity)),
+    ].join("");
+    const coverageRows = [
+      detailInfoRowIf("Árbitro", formatMatchViewReferee(view)),
+      detailInfoRow("TV em Portugal", formatMatchViewWatch(view.match.details.watch)),
+      detailInfoRowIf("Formato", formatMatchViewTieFormat(view.match.details.tieContext)),
+      detailInfoRow("Atualização", formatTimestamp(view.builtAtUtc)),
+    ].join("");
+
     return `
       <div class="fixture-detail__stack">
         <section class="fixture-detail__subsection">
@@ -400,24 +412,15 @@ function renderFixtureDetailsTab(fixture, matchViewState) {
               "Jogo",
               [
                 detailInfoRow("Data e hora", formatMatchViewDateTime(view)),
-                detailInfoRow("Competição", formatMatchViewCompetition(view)),
-                detailInfoRow("Fase", fallbackText(view.match.details.competitionStage)),
-                detailInfoRow("Estádio", fallbackText(view.match.details.venueName)),
-                detailInfoRow("Cidade", formatMatchViewVenueCity(view)),
-                detailInfoRow("Capacidade", formatMatchViewVenueCapacity(view.match.details.venueCapacity)),
+                detailInfoRow("Competição", formatMatchViewCompetitionName(view)),
+                detailInfoRowIf("Fase", view.match.details.competitionStage),
+                detailInfoRowIf("País", view.match.competition.country),
               ].join(""),
             )}
-            ${renderDetailSummaryCard(
-              "Contexto",
-              [
-                detailInfoRow("Árbitro", formatMatchViewReferee(view)),
-                detailInfoRow("TV em Portugal", formatMatchViewWatch(view.match.details.watch)),
-                detailInfoRow("Formato", formatMatchViewTieFormat(view.match.details.tieContext)),
-                detailInfoRow("País", fallbackText(view.match.competition.country)),
-                detailInfoRow("Atualização", formatTimestamp(view.builtAtUtc)),
-              ].join(""),
-            )}
+            ${renderDetailSummaryCard("Recinto", venueRows || renderSummaryEmpty("Sofascore ainda não expôs estádio, cidade ou capacidade para este jogo."))}
+            ${renderDetailSummaryCard("Cobertura", coverageRows || renderSummaryEmpty("Ainda não existe arbitragem ou agenda de TV confirmada para este jogo."))}
           </div>
+          ${renderDetailsCoverageHint(view)}
         </section>
       </div>
     `;
@@ -425,26 +428,44 @@ function renderFixtureDetailsTab(fixture, matchViewState) {
 
   if (matchViewState?.status === "loading") {
     return `
-      ${renderBasicFixtureDetails(fixture)}
-      <p class="fixture-detail__note">A carregar vista detalhada do jogo...</p>
+      ${renderBasicFixtureDetails(
+        fixture,
+        "A carregar vista detalhada do jogo. O painel será enriquecido assim que a match view terminar de carregar.",
+      )}
     `;
   }
 
   return `
-    ${renderBasicFixtureDetails(fixture)}
-    <p class="fixture-detail__note">Ainda não existe match view publicada para este jogo.</p>
+    ${renderBasicFixtureDetails(
+      fixture,
+      "Ainda não existe match view publicada para este jogo. Estádio, TV em Portugal e outros campos avançados ficam disponíveis depois do próximo refresh/publicação manual.",
+    )}
   `;
 }
 
-function renderBasicFixtureDetails(fixture) {
+function renderBasicFixtureDetails(fixture, note = null) {
   return `
     <section class="fixture-detail__subsection">
       <h4>Resumo</h4>
-      <div class="fixture-detail__info-list">
-        ${detailInfoRow("Data e hora", `${formatFixtureDetailDate(fixture)} · ${formatFixtureDetailTime(fixture)}`)}
-        ${detailInfoRow("Competição", [fixture.competitionName, fixture.countryName].filter(Boolean).join(" · ") || "Indisponível")}
-        ${detailInfoRow("Estado", formatStatusLabel(fixture))}
-        ${detailInfoRow("Resultado", formatScoreline(fixture))}
+      <div class="fixture-detail__summary-grid">
+        ${renderDetailSummaryCard(
+          "Jogo",
+          [
+            detailInfoRow("Data e hora", `${formatFixtureDetailDate(fixture)} · ${formatFixtureDetailTime(fixture)}`),
+            detailInfoRow("Competição", [fixture.competitionName, fixture.countryName].filter(Boolean).join(" · ") || "Indisponível"),
+            detailInfoRow("Estado", formatStatusLabel(fixture)),
+            detailInfoRow("Resultado", formatScoreline(fixture)),
+          ].join(""),
+        )}
+        ${renderDetailSummaryCard(
+          "Estado da vista",
+          [
+            note ? renderSummaryEmpty(note) : renderSummaryEmpty("A vista detalhada deste jogo ainda não foi publicada."),
+            renderSummaryHint(
+              `<a class="fixture-detail__inline-link" href="${escapeAttribute(fixture.matchUrl)}" target="_blank" rel="noreferrer">Abrir jogo no Sofascore</a>`,
+            ),
+          ].join(""),
+        )}
       </div>
     </section>
   `;
@@ -580,6 +601,14 @@ function detailInfoRow(label, value) {
   `;
 }
 
+function detailInfoRowIf(label, value) {
+  if (value === null || value === undefined || value === "") {
+    return "";
+  }
+
+  return detailInfoRow(label, String(value));
+}
+
 function renderDetailSummaryCard(title, content) {
   return `
     <article class="fixture-detail__summary-card">
@@ -589,6 +618,14 @@ function renderDetailSummaryCard(title, content) {
       </div>
     </article>
   `;
+}
+
+function renderSummaryEmpty(message) {
+  return `<p class="fixture-detail__summary-empty">${escapeHtml(message)}</p>`;
+}
+
+function renderSummaryHint(content) {
+  return `<p class="fixture-detail__summary-hint">${content}</p>`;
 }
 
 function renderDetailMatchSide(name, logoUrl, teamId) {
@@ -1047,27 +1084,25 @@ function formatMatchViewDateTime(view) {
   return `${formatLongDate(view.match.kickoffAtUtc)} · ${formatKickoffTime(view.match.kickoffAtUtc)}`;
 }
 
-function formatMatchViewCompetition(view) {
-  return [view.match.competition.name, view.match.details.competitionStage]
-    .filter(Boolean)
-    .join(", ") || "Indisponível";
+function formatMatchViewCompetitionName(view) {
+  return view.match.competition.name ?? "Indisponível";
 }
 
 function formatMatchViewVenueCity(view) {
   return [view.match.details.venueCity, view.match.details.venueCountry]
     .filter(Boolean)
-    .join(", ") || "Indisponível";
+    .join(", ") || null;
 }
 
 function formatMatchViewReferee(view) {
   return [view.match.details.refereeName, view.match.details.refereeCountry]
     .filter(Boolean)
-    .join(" · ") || "Indisponível";
+    .join(" · ") || null;
 }
 
 function formatMatchViewVenueCapacity(value) {
   if (typeof value !== "number" || !Number.isFinite(value)) {
-    return "Indisponível";
+    return null;
   }
 
   return new Intl.NumberFormat("pt-PT").format(value);
@@ -1083,7 +1118,7 @@ function formatMatchViewOdds(odds) {
 
 function formatMatchViewWatch(watch) {
   if (!watch) {
-    return "Indisponível";
+    return "Sem agenda de TV";
   }
 
   if (watch.hasPortugalChannels) {
@@ -1091,7 +1126,11 @@ function formatMatchViewWatch(watch) {
       return watch.portugalChannels.join(" · ");
     }
 
-    return watch.note ?? "Disponível";
+    return watch.note ?? "Cobertura confirmada em Portugal";
+  }
+
+  if (Array.isArray(watch.availableCountryCodes) && watch.availableCountryCodes.length > 0) {
+    return `Sem canais PT · ${formatCountryCodePreview(watch.availableCountryCodes)}`;
   }
 
   return watch.note ?? "Sem canais PT detetados";
@@ -1099,7 +1138,7 @@ function formatMatchViewWatch(watch) {
 
 function formatMatchViewTieFormat(tieContext) {
   if (!tieContext?.tieFormat) {
-    return "Jogo único / liga";
+    return null;
   }
 
   if (tieContext.tieFormat === "Two legs") {
@@ -1107,6 +1146,42 @@ function formatMatchViewTieFormat(tieContext) {
   }
 
   return tieContext.tieFormat;
+}
+
+function formatCountryCodePreview(countryCodes) {
+  if (!Array.isArray(countryCodes) || countryCodes.length === 0) {
+    return "";
+  }
+
+  const codes = countryCodes.slice(0, 3);
+  const suffix = countryCodes.length > 3 ? ` +${countryCodes.length - 3}` : "";
+  return `${codes.join(" · ")}${suffix}`;
+}
+
+function renderDetailsCoverageHint(view) {
+  const missing = [];
+
+  if (!view.match.details.venueName && !view.match.details.venueCity && !view.match.details.venueCapacity) {
+    missing.push("recinto");
+  }
+
+  if (!view.match.details.refereeName) {
+    missing.push("árbitro");
+  }
+
+  if (!view.match.details.watch?.hasPortugalChannels) {
+    missing.push("TV PT");
+  }
+
+  if (missing.length === 0) {
+    return "";
+  }
+
+  return `
+    <p class="fixture-detail__note">
+      Campos ainda não expostos para este jogo: ${escapeHtml(missing.join(" · "))}.
+    </p>
+  `;
 }
 
 function formatTeamPrediction(team) {
