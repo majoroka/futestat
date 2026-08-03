@@ -1,47 +1,11 @@
+import { getStandingsZonePreset } from "./standings-zone-presets.js";
+
 const summaryEl = document.querySelector("[data-fixture-summary]");
 const datesEl = document.querySelector("[data-date-filters]");
 const groupsEl = document.querySelector("[data-fixture-groups]");
 const stateEl = document.querySelector("[data-fixture-state]");
 const detailEl = document.querySelector("[data-fixture-detail]");
 const displayTimeZone = "Europe/Lisbon";
-const STANDINGS_ZONE_PRESETS = {
-  "8": [
-    { from: 1, to: 4, tone: "ucl", label: "Liga dos Campeões" },
-    { from: 5, to: 5, tone: "uel", label: "Liga Europa" },
-    { from: 6, to: 6, tone: "uecl", label: "Liga Conferência" },
-    { from: 18, to: 20, tone: "relegation", label: "Despromoção" },
-  ],
-  "17": [
-    { from: 1, to: 4, tone: "ucl", label: "Liga dos Campeões" },
-    { from: 5, to: 5, tone: "uel", label: "Liga Europa" },
-    { from: 6, to: 6, tone: "uecl", label: "Liga Conferência" },
-    { from: 18, to: 20, tone: "relegation", label: "Despromoção" },
-  ],
-  "23": [
-    { from: 1, to: 4, tone: "ucl", label: "Liga dos Campeões" },
-    { from: 5, to: 5, tone: "uel", label: "Liga Europa" },
-    { from: 6, to: 6, tone: "uecl", label: "Liga Conferência" },
-    { from: 18, to: 20, tone: "relegation", label: "Despromoção" },
-  ],
-  "35": [
-    { from: 1, to: 4, tone: "ucl", label: "Liga dos Campeões" },
-    { from: 5, to: 5, tone: "uel", label: "Liga Europa" },
-    { from: 6, to: 6, tone: "uecl", label: "Liga Conferência" },
-    { from: 16, to: 16, tone: "playoff", label: "Play-off manutenção" },
-    { from: 17, to: 18, tone: "relegation", label: "Despromoção" },
-  ],
-  "39": [
-    { from: 1, to: 6, tone: "championship", label: "Play-off Campeão" },
-    { from: 7, to: 12, tone: "relegation", label: "Play-off Despromoção" },
-  ],
-  "238": [
-    { from: 1, to: 2, tone: "ucl", label: "Liga dos Campeões" },
-    { from: 3, to: 3, tone: "uel", label: "Liga Europa" },
-    { from: 4, to: 4, tone: "uecl", label: "Liga Conferência" },
-    { from: 16, to: 16, tone: "playoff", label: "Play-off manutenção" },
-    { from: 17, to: 18, tone: "relegation", label: "Despromoção" },
-  ],
-};
 
 const formatter = new Intl.DateTimeFormat("pt-PT", {
   day: "2-digit",
@@ -1421,7 +1385,7 @@ function resolveStandingsZone(competitionId, position) {
     return null;
   }
 
-  const preset = STANDINGS_ZONE_PRESETS[String(competitionId)] ?? [];
+  const preset = getStandingsZonePreset(competitionId);
   return preset.find((zone) => position >= zone.from && position <= zone.to) ?? null;
 }
 
@@ -1430,7 +1394,7 @@ function collectLegendZones(competitionId, tables) {
     return [];
   }
 
-  const preset = STANDINGS_ZONE_PRESETS[String(competitionId)] ?? [];
+  const preset = getStandingsZonePreset(competitionId);
   const positions = new Set(
     (tables ?? [])
       .flatMap((table) => (Array.isArray(table.rows) ? table.rows : []))

@@ -80,6 +80,10 @@ async function buildSite() {
   await Promise.all([
     copyFile(path.join(repoRoot, "site", "styles.css"), path.join(assetsDir, "styles.css")),
     copyFile(path.join(repoRoot, "site", "app.js"), path.join(assetsDir, "app.js")),
+    copyFile(
+      path.join(repoRoot, "site", "standings-zone-presets.js"),
+      path.join(assetsDir, "standings-zone-presets.js"),
+    ),
     writeFile(path.join(distDir, ".nojekyll"), "", "utf8"),
     writeFile(path.join(fixturesDir, "latest.json"), JSON.stringify(snapshot, null, 2), "utf8"),
   ]);
