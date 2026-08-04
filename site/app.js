@@ -515,6 +515,7 @@ function renderFixtureStandingsTab(fixture, matchViewState) {
 
 function renderCompetitionStandingsSnapshot(snapshot, fixture) {
   const meta = [
+    snapshot.phaseName ? `Fase: ${snapshot.phaseName}` : null,
     snapshot.mode !== "single_table" ? formatStandingsMode(snapshot.mode) : null,
     snapshot.status !== "ready" ? formatStandingsStatus(snapshot.status) : null,
   ]
@@ -524,6 +525,7 @@ function renderCompetitionStandingsSnapshot(snapshot, fixture) {
   return `
     <div class="fixture-detail__standings">
       ${meta ? `<p class="fixture-detail__note">${escapeHtml(meta)}</p>` : ""}
+      ${renderStandingsPhaseNotes(snapshot.phaseNotes)}
       ${snapshot.tables.map((table) => renderStandingsTableCard(table, fixture, snapshot.competitionId)).join("")}
       ${renderStandingsLegend(snapshot.competitionId, snapshot.tables)}
       ${snapshot.zerozeroUrl ? `<a class="fixture-detail__link" href="${escapeAttribute(snapshot.zerozeroUrl)}" target="_blank" rel="noreferrer">Ver classificação detalhada</a>` : ""}
@@ -634,6 +636,24 @@ function renderStandingsLegend(competitionId, tables) {
               <span class="fixture-detail__standings-legend-swatch fixture-detail__standings-legend-swatch--${escapeAttribute(zone.tone)}" aria-hidden="true"></span>
               <span>${escapeHtml(zone.label)}</span>
             </div>
+          `,
+        )
+        .join("")}
+    </div>
+  `;
+}
+
+function renderStandingsPhaseNotes(notes) {
+  if (!Array.isArray(notes) || notes.length === 0) {
+    return "";
+  }
+
+  return `
+    <div class="fixture-detail__standings-notes">
+      ${notes
+        .map(
+          (note) => `
+            <p class="fixture-detail__standings-note">${escapeHtml(note)}</p>
           `,
         )
         .join("")}

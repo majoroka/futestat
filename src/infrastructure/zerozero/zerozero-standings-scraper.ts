@@ -66,6 +66,9 @@ export class ZerozeroStandingsScraper {
       mode: source.mode,
       status: source.status,
       scrapedAtUtc: new Date().toISOString(),
+      defaultPhaseNotes: source.defaultPhaseNotes,
+      defaultRuleProfileId: source.defaultRuleProfileId,
+      phaseRules: source.phaseRules,
     });
   }
 }

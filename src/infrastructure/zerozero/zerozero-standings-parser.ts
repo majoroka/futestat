@@ -4,6 +4,10 @@ import type {
   CompetitionStandingsSourceStatus,
   CompetitionStandingsTable,
 } from "../../domain/competition-standings.js";
+import {
+  resolveCompetitionStandingsPhaseMetadata,
+  type CompetitionStandingsPhaseRule,
+} from "../../config/competition-standings-phase-rules.js";
 
 export function extractCompetitionStandingsFromHtml(params: {
   html: string;
@@ -14,6 +18,9 @@ export function extractCompetitionStandingsFromHtml(params: {
   mode: CompetitionStandingsMode;
   status: CompetitionStandingsSourceStatus;
   scrapedAtUtc: string;
+  defaultPhaseNotes?: string[];
+  defaultRuleProfileId?: string | null;
+  phaseRules?: CompetitionStandingsPhaseRule[];
 }): CompetitionStandingsSnapshot {
   const { html } = params;
   const editionId = firstMatch(html, /name="id_edicao" type="hidden" value="(\d+)"/i);
@@ -25,6 +32,20 @@ export function extractCompetitionStandingsFromHtml(params: {
     throw new Error(`No classification tables found for competition ${params.competitionId}.`);
   }
 
+  const phaseMetadata = resolveCompetitionStandingsPhaseMetadata(
+    {
+      status: params.status,
+      defaultPhaseNotes: params.defaultPhaseNotes,
+      defaultRuleProfileId: params.defaultRuleProfileId,
+      phaseRules: params.phaseRules,
+    },
+    {
+      phaseId,
+      phaseName: pagePhase,
+      tableNames: tables.map((table) => table.name ?? ""),
+    },
+  );
+
   return {
     source: "zerozero",
     competitionId: params.competitionId,
@@ -32,10 +53,13 @@ export function extractCompetitionStandingsFromHtml(params: {
     countryName: params.countryName,
     zerozeroUrl: params.zerozeroUrl,
     mode: params.mode,
-    status: params.status,
+    status: phaseMetadata.status,
     scrapedAtUtc: params.scrapedAtUtc,
     editionId,
     phaseId,
+    phaseName: pagePhase,
+    phaseNotes: phaseMetadata.phaseNotes,
+    ruleProfileId: phaseMetadata.ruleProfileId,
     tables,
   };
 }

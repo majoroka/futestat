@@ -69,6 +69,7 @@ Entregáveis já introduzidos:
 - contexto competitivo no separador `Detalhes` com H2H curto, eliminatória e momento recente das equipas
 - separador `Classificação` com mais colunas, destaque forte das equipas do jogo, zonas coloridas e legenda de contexto quando existe regra local
 - regras de zonas/classificação extraídas para configuração dedicada, preparadas para crescer por competição sem mexer no renderer
+- snapshot de classificações enriquecida com `phaseName`, `phaseNotes` e `ruleProfileId` a partir das regras do `Zerozero`
 
 Pendências desta fase:
 - seletor UX dedicado para `passado / hoje / futuro`

@@ -39,6 +39,9 @@ export interface CompetitionStandingsSnapshot {
   scrapedAtUtc: string;
   editionId: string | null;
   phaseId: string | null;
+  phaseName: string | null;
+  phaseNotes: string[];
+  ruleProfileId: string | null;
   tables: CompetitionStandingsTable[];
 }
 

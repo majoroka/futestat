@@ -359,6 +359,11 @@ Estrutura:
     "coverage": "empty",
     "notes": null
   },
+  "phaseName": "Campeonato",
+  "phaseNotes": [
+    "Tabela da fase regular."
+  ],
+  "ruleProfileId": "regular-season-before-split",
   "tables": [
     {
       "name": "Classificacao",
