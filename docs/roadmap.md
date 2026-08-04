@@ -79,6 +79,7 @@ Entregáveis já introduzidos:
 - separador `Histórico` aberto na UI pública com jogos recentes por equipa a partir do bloco `history` já presente na `match_view`
 - shell visual transversal dos separadores reforçado, com introduções consistentes, estados vazios reutilizáveis e navegação mais robusta em mobile
 - separador `Detalhes` consolidado com menos redundância entre highlights e cartões, e melhor separação entre contexto competitivo, cobertura e estado operacional
+- cartões internos do `Detalhes` e painéis de equipa afinados com hierarquia tipográfica mais clara e densidade visual mais controlada
 
 Pendências desta fase:
 - seletor UX dedicado para `passado / hoje / futuro`

@@ -2097,14 +2097,27 @@ function resolveStatisticsWinner(homeValue, awayValue, higherIsBetter = true) {
 }
 
 function renderTeamSnapshotPanel(sideLabel, team, side) {
+  const badges = buildTeamSnapshotBadges(team);
+
   return `
     <article class="fixture-detail__team-panel fixture-detail__team-panel--${escapeAttribute(side)}">
-      <span class="fixture-detail__team-panel-side">${escapeHtml(sideLabel)}</span>
-      <h3 class="fixture-detail__team-panel-name">${escapeHtml(team.identity.name)}</h3>
+      <div class="fixture-detail__team-panel-head">
+        <div class="fixture-detail__team-panel-title">
+          <span class="fixture-detail__team-panel-side">${escapeHtml(sideLabel)}</span>
+          <h3 class="fixture-detail__team-panel-name">${escapeHtml(team.identity.name)}</h3>
+        </div>
+        ${
+          badges.length > 0
+            ? `
+              <div class="fixture-detail__team-panel-badges">
+                ${badges.map((badge) => `<span class="fixture-detail__badge">${escapeHtml(badge)}</span>`).join("")}
+              </div>
+            `
+            : ""
+        }
+      </div>
       ${renderTeamFormPills(team.headerStats.formLast3)}
       <div class="fixture-detail__team-panel-grid">
-        ${renderTeamSnapshotMetric("Rating", decimalValue(team.headerStats.overallRating))}
-        ${renderTeamSnapshotMetric("Rank nacional", stringValue(team.headerStats.nationalRank, "—"))}
         ${renderTeamSnapshotMetric("Rank Europa", stringValue(team.headerStats.europeRank, "—"))}
         ${renderTeamSnapshotMetric("xG", decimalValue(team.headerStats.xgFor))}
         ${renderTeamSnapshotMetric("xGA", decimalValue(team.headerStats.xgAgainst))}
@@ -2119,6 +2132,20 @@ function renderTeamSnapshotPanel(sideLabel, team, side) {
       </div>
     </article>
   `;
+}
+
+function buildTeamSnapshotBadges(team) {
+  const badges = [];
+
+  if (typeof team.headerStats.overallRating === "number") {
+    badges.push(`Rating ${decimalValue(team.headerStats.overallRating)}`);
+  }
+
+  if (team.headerStats.nationalRank !== null && team.headerStats.nationalRank !== undefined) {
+    badges.push(`Rank nacional ${team.headerStats.nationalRank}`);
+  }
+
+  return badges;
 }
 
 function renderTeamSnapshotMetric(label, value) {
