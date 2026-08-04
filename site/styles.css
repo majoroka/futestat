@@ -730,6 +730,78 @@ a {
   line-height: 1.25;
 }
 
+.fixture-detail__history {
+  display: grid;
+  gap: 16px;
+}
+
+.fixture-detail__history-panels {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.fixture-detail__history-panel {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(23, 32, 51, 0.08);
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 14px 30px rgba(17, 34, 84, 0.04);
+}
+
+.fixture-detail__history-panel--home {
+  background: linear-gradient(180deg, rgba(244, 248, 255, 0.96), rgba(255, 255, 255, 0.88));
+}
+
+.fixture-detail__history-panel--away {
+  background: linear-gradient(180deg, rgba(248, 250, 255, 0.96), rgba(255, 255, 255, 0.88));
+}
+
+.fixture-detail__history-list {
+  display: grid;
+  gap: 8px;
+}
+
+.fixture-detail__history-row {
+  display: grid;
+  gap: 6px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  border: 1px solid rgba(23, 32, 51, 0.08);
+  background: rgba(255, 255, 255, 0.86);
+}
+
+.fixture-detail__history-title {
+  font-size: 0.96rem;
+  line-height: 1.25;
+}
+
+.fixture-detail__history-meta {
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.fixture-detail__history-extras {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.fixture-detail__history-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: rgba(17, 34, 84, 0.08);
+  color: #23314c;
+  font-size: 0.76rem;
+  font-weight: 600;
+}
+
 .fixture-detail__form-strip {
   display: flex;
   flex-wrap: wrap;
@@ -1654,6 +1726,7 @@ a {
   .fixture-detail__summary-grid,
   .fixture-detail__highlights,
   .fixture-detail__highlights--compact,
+  .fixture-detail__history-panels,
   .fixture-detail__squad-panels,
   .fixture-detail__team-panels,
   .fixture-detail__team-panel-grid {

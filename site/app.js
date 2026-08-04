@@ -346,6 +346,8 @@ function renderFixtureDetail() {
             ? renderFixtureStatisticsTab(fixture, matchViewState)
             : state.selectedDetailTab === "squad"
               ? renderFixtureSquadTab(fixture, matchViewState)
+              : state.selectedDetailTab === "history"
+                ? renderFixtureHistoryTab(fixture, matchViewState)
             : renderFixtureDetailsTab(fixture, matchViewState)
       }
     </section>
@@ -390,6 +392,13 @@ function renderFixtureDetailTabs() {
         data-detail-tab="squad"
       >
         Plantel
+      </button>
+      <button
+        type="button"
+        class="fixture-detail__tab ${state.selectedDetailTab === "history" ? "fixture-detail__tab--active" : ""}"
+        data-detail-tab="history"
+      >
+        Histórico
       </button>
     </nav>
   `;
@@ -700,6 +709,51 @@ function renderFixtureSquadTab(fixture, matchViewState) {
   return `
     <p class="fixture-detail__empty">Ainda não existe match view publicada para mostrar o plantel deste jogo.</p>
     <p class="fixture-detail__note">Depois do próximo refresh/publicação manual, este separador poderá ser preenchido com os dados já capturados do Soccer-Rating.</p>
+  `;
+}
+
+function renderFixtureHistoryTab(fixture, matchViewState) {
+  if (matchViewState?.status === "loaded" && matchViewState.data) {
+    const view = matchViewState.data;
+    if (hasAnyTeamHistory(view)) {
+      return `
+        <div class="fixture-detail__history">
+          <section class="fixture-detail__subsection">
+            <h4>Resumo do histórico</h4>
+            <div class="fixture-detail__highlights">
+              ${renderDetailHighlight("Últimos jogos casa", `${countHistoryMatches(view.homeTeam.history)} entradas`, "accent")}
+              ${renderDetailHighlight("Últimos jogos fora", `${countHistoryMatches(view.awayTeam.history)} entradas`)}
+              ${renderDetailHighlight("Forma casa", formatForm(view.homeTeam.headerStats.formLast3))}
+              ${renderDetailHighlight("Forma fora", formatForm(view.awayTeam.headerStats.formLast3))}
+            </div>
+          </section>
+          <section class="fixture-detail__subsection">
+            <h4>Últimos jogos</h4>
+            <div class="fixture-detail__history-panels">
+              ${renderHistoryPanel("Casa", view.homeTeam, "home")}
+              ${renderHistoryPanel("Fora", view.awayTeam, "away")}
+            </div>
+          </section>
+        </div>
+      `;
+    }
+
+    return `
+      <p class="fixture-detail__empty">Ainda não existe histórico publicado para este jogo.</p>
+      <p class="fixture-detail__note">O separador depende do bloco de history já presente na match view.</p>
+    `;
+  }
+
+  if (matchViewState?.status === "loading") {
+    return `
+      <p class="fixture-detail__empty">A carregar histórico do jogo...</p>
+      <p class="fixture-detail__note">Assim que a match view terminar de carregar, este separador será preenchido.</p>
+    `;
+  }
+
+  return `
+    <p class="fixture-detail__empty">Ainda não existe match view publicada para mostrar o histórico deste jogo.</p>
+    <p class="fixture-detail__note">Depois do próximo refresh/publicação manual, este separador poderá ser preenchido com os jogos recentes de cada equipa.</p>
   `;
 }
 
@@ -1607,6 +1661,61 @@ function renderSquadPanel(sideLabel, team, side) {
   `;
 }
 
+function renderHistoryPanel(sideLabel, team, side) {
+  const history = Array.isArray(team.history) ? team.history.slice(0, 6) : [];
+
+  return `
+    <article class="fixture-detail__history-panel fixture-detail__history-panel--${escapeAttribute(side)}">
+      <div class="fixture-detail__squad-panel-head">
+        <div>
+          <span class="fixture-detail__team-panel-side">${escapeHtml(sideLabel)}</span>
+          <h3 class="fixture-detail__team-panel-name">${escapeHtml(team.identity.name)}</h3>
+        </div>
+        <div class="fixture-detail__squad-panel-badges">
+          <span class="fixture-detail__badge">${escapeHtml(`${history.length} jogos`)}</span>
+        </div>
+      </div>
+      ${renderTeamFormPills(team.headerStats.formLast3)}
+      ${
+        history.length > 0
+          ? `
+            <div class="fixture-detail__history-list">
+              ${history.map((match) => renderHistoryEntry(match, team.identity.name)).join("")}
+            </div>
+          `
+          : `<p class="fixture-detail__summary-empty">Ainda não existe histórico recente publicado para esta equipa.</p>`
+      }
+    </article>
+  `;
+}
+
+function renderHistoryEntry(match, teamName) {
+  const opponent = resolveTeamHistoryOpponent(match, teamName);
+  const title = opponent ?? `${match.homeTeam} vs ${match.awayTeam}`;
+  const meta = [formatHistoryMatchDate(match.date), match.result].filter(Boolean).join(" · ");
+  const rating = formatHistoryRating(match, teamName);
+  const odds = formatHistoryOdds(match.odds1X2);
+
+  return `
+    <article class="fixture-detail__history-row">
+      <strong class="fixture-detail__history-title">${escapeHtml(title)}</strong>
+      ${meta ? `<span class="fixture-detail__history-meta">${escapeHtml(meta)}</span>` : ""}
+      <div class="fixture-detail__history-extras">
+        ${rating ? `<span class="fixture-detail__history-pill">${escapeHtml(rating)}</span>` : ""}
+        ${odds ? `<span class="fixture-detail__history-pill">${escapeHtml(odds)}</span>` : ""}
+      </div>
+    </article>
+  `;
+}
+
+function hasAnyTeamHistory(view) {
+  return countHistoryMatches(view.homeTeam.history) > 0 || countHistoryMatches(view.awayTeam.history) > 0;
+}
+
+function countHistoryMatches(history) {
+  return Array.isArray(history) ? history.length : 0;
+}
+
 function renderSquadPlayerRow(player) {
   return `
     <article class="fixture-detail__squad-row">
@@ -2103,6 +2212,20 @@ function formatHistoryRating(match, teamName) {
   }
 
   return null;
+}
+
+function formatHistoryOdds(odds) {
+  if (!odds) {
+    return null;
+  }
+
+  const values = [
+    odds.home !== null && odds.home !== undefined ? `1 ${odds.home}` : null,
+    odds.draw !== null && odds.draw !== undefined ? `X ${odds.draw}` : null,
+    odds.away !== null && odds.away !== undefined ? `2 ${odds.away}` : null,
+  ].filter(Boolean);
+
+  return values.length > 0 ? values.join(" · ") : null;
 }
 
 function formatTeamPrediction(team) {

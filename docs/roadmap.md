@@ -76,6 +76,7 @@ Entregáveis já introduzidos:
 - separador `Detalhes` com melhor hierarquia visual, leitura rápida no topo e painéis-resumo por equipa reaproveitados na vista pública
 - separador `Estatísticas` aberto na UI pública com comparação casa/fora a partir dos dados já existentes no `match_view`
 - separador `Plantel` aberto na UI pública com elencos por equipa a partir do bloco `squad` já presente na `match_view`
+- separador `Histórico` aberto na UI pública com jogos recentes por equipa a partir do bloco `history` já presente na `match_view`
 
 Pendências desta fase:
 - seletor UX dedicado para `passado / hoje / futuro`
