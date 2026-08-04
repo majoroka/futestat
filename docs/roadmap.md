@@ -74,6 +74,7 @@ Entregáveis já introduzidos:
 - regras por competição refinadas para ligas com splits e playoffs, com distinção visual entre fase regular, grupo do campeão, grupo europeu e manutenção quando aplicável
 - classificação com UX melhorada para múltiplas tabelas, destacando automaticamente a tabela do jogo e recolhendo as restantes num bloco secundário
 - separador `Detalhes` com melhor hierarquia visual, leitura rápida no topo e painéis-resumo por equipa reaproveitados na vista pública
+- separador `Estatísticas` aberto na UI pública com comparação casa/fora a partir dos dados já existentes no `match_view`
 
 Pendências desta fase:
 - seletor UX dedicado para `passado / hoje / futuro`

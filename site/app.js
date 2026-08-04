@@ -342,7 +342,9 @@ function renderFixtureDetail() {
       ${
         state.selectedDetailTab === "standings"
           ? renderFixtureStandingsTab(fixture, matchViewState)
-          : renderFixtureDetailsTab(fixture, matchViewState)
+          : state.selectedDetailTab === "statistics"
+            ? renderFixtureStatisticsTab(fixture, matchViewState)
+            : renderFixtureDetailsTab(fixture, matchViewState)
       }
     </section>
   `;
@@ -372,6 +374,13 @@ function renderFixtureDetailTabs() {
         data-detail-tab="standings"
       >
         Classificação
+      </button>
+      <button
+        type="button"
+        class="fixture-detail__tab ${state.selectedDetailTab === "statistics" ? "fixture-detail__tab--active" : ""}"
+        data-detail-tab="statistics"
+      >
+        Estatísticas
       </button>
     </nav>
   `;
@@ -571,6 +580,72 @@ function renderFixtureStandingsTab(fixture, matchViewState) {
   return `
     <p class="fixture-detail__empty">${escapeHtml(message)}</p>
     ${renderStandingsStateNote(standingsState)}
+  `;
+}
+
+function renderFixtureStatisticsTab(fixture, matchViewState) {
+  if (matchViewState?.status === "loaded" && matchViewState.data) {
+    const view = matchViewState.data;
+    if (hasAnyTeamStatistics(view)) {
+      return `
+        <div class="fixture-detail__stats">
+          ${renderStatisticsHero(view)}
+          ${renderStatisticsSection("Visão geral", [
+            createStatisticsMetric("Golos/jogo", "goalsPerMatch"),
+            createStatisticsMetric("Golos sofridos/jogo", "goalsConcededPerMatch", "decimal", false),
+            createStatisticsMetric("Posse média", "averagePossessionPct", "percent"),
+            createStatisticsMetric("Assistência média", "attendanceAverage", "integer"),
+          ], view, "overview")}
+          ${renderStatisticsSection("Ataque", [
+            createStatisticsMetric("xG", "xg", "decimal"),
+            createStatisticsMetric("xG diff", "xgDiff", "decimal"),
+            createStatisticsMetric("Remates à baliza", "shotsOnTargetPerMatch", "decimal"),
+            createStatisticsMetric("Grandes ocasiões", "bigChances", "decimal"),
+            createStatisticsMetric("Grandes ocasiões falhadas", "bigChancesMissed", "decimal"),
+            createStatisticsMetric("Passes certos", "accuratePassesPerMatch", "integer"),
+            createStatisticsMetric("Bolas longas certas", "accurateLongBallsPerMatch", "decimal"),
+            createStatisticsMetric("Cruzamentos certos", "accurateCrossesPerMatch", "decimal"),
+            createStatisticsMetric("Toques na área", "touchesInOppBoxPerMatch", "decimal"),
+            createStatisticsMetric("Cantos/jogo", "cornersPerMatch", "decimal"),
+            createStatisticsMetric("Golos de bola parada", "setPieceGoals", "integer"),
+            createStatisticsMetric("Penáltis ganhos", "penaltiesAwarded", "integer"),
+          ], view, "attack")}
+          ${renderStatisticsSection("Defesa", [
+            createStatisticsMetric("xGA", "xgConceded", "decimal", false),
+            createStatisticsMetric("Interceções/jogo", "interceptionsPerMatch", "decimal"),
+            createStatisticsMetric("Desarmes/jogo", "tacklesPerMatch", "decimal"),
+            createStatisticsMetric("Cortes/jogo", "clearancesPerMatch", "decimal"),
+            createStatisticsMetric("Recuperações altas", "finalThirdRecoveriesPerMatch", "decimal"),
+            createStatisticsMetric("Golos sofridos de bola parada", "setPieceGoalsConceded", "integer", false),
+            createStatisticsMetric("Penáltis cometidos", "penaltiesConceded", "integer", false),
+            createStatisticsMetric("Defesas/jogo", "savesPerMatch", "decimal"),
+          ], view, "defense")}
+          ${renderStatisticsSection("Disciplina", [
+            createStatisticsMetric("Faltas/jogo", "foulsPerMatch", "decimal", false),
+            createStatisticsMetric("Amarelos/jogo", "yellowCardsPerMatch", "decimal", false),
+            createStatisticsMetric("Vermelhos/jogo", "redCardsPerMatch", "decimal", false),
+            createStatisticsMetric("Penáltis cometidos", "penaltiesConceded", "integer", false),
+          ], view, "discipline")}
+        </div>
+      `;
+    }
+
+    return `
+      <p class="fixture-detail__empty">Ainda não existem estatísticas agregadas publicadas para este jogo.</p>
+      <p class="fixture-detail__note">O separador depende dos dados manuais de equipa já normalizados no match view.</p>
+    `;
+  }
+
+  if (matchViewState?.status === "loading") {
+    return `
+      <p class="fixture-detail__empty">A carregar estatísticas do jogo...</p>
+      <p class="fixture-detail__note">Assim que a match view terminar de carregar, este separador será preenchido.</p>
+    `;
+  }
+
+  return `
+    <p class="fixture-detail__empty">Ainda não existe match view publicada para mostrar estatísticas deste jogo.</p>
+    <p class="fixture-detail__note">Depois do próximo refresh/publicação manual, este separador poderá ser preenchido sem novo scraping ao vivo.</p>
   `;
 }
 
@@ -1419,6 +1494,133 @@ function renderStandingsStateNote(standingsState) {
   }
 
   return "";
+}
+
+function renderStatisticsHero(view) {
+  return `
+    <section class="fixture-detail__subsection">
+      <h4>Resumo estatístico</h4>
+      <div class="fixture-detail__highlights">
+        ${renderDetailHighlight("Época", view.match.season?.label ?? "Indisponível", "accent")}
+        ${renderDetailHighlight("Casa", view.homeTeam.identity.name)}
+        ${renderDetailHighlight("Fora", view.awayTeam.identity.name)}
+        ${renderDetailHighlight("Fonte", "Match view manual")}
+      </div>
+    </section>
+  `;
+}
+
+function renderStatisticsSection(title, metrics, view, blockKey) {
+  const rows = metrics
+    .map((metric) => buildStatisticsRow(metric, view, blockKey))
+    .filter(Boolean);
+
+  if (rows.length === 0) {
+    return "";
+  }
+
+  return `
+    <section class="fixture-detail__subsection">
+      <h4>${escapeHtml(title)}</h4>
+      <div class="fixture-detail__stats-card">
+        <div class="fixture-detail__stats-head">
+          <span>${escapeHtml(view.homeTeam.identity.name)}</span>
+          <span>Métrica</span>
+          <span>${escapeHtml(view.awayTeam.identity.name)}</span>
+        </div>
+        <div class="fixture-detail__stats-list">
+          ${rows.join("")}
+        </div>
+      </div>
+    </section>
+  `;
+}
+
+function buildStatisticsRow(metric, view, blockKey) {
+  const homeValue = view.homeTeam.statistics?.[blockKey]?.[metric.key];
+  const awayValue = view.awayTeam.statistics?.[blockKey]?.[metric.key];
+
+  if (homeValue === null || homeValue === undefined) {
+    if (awayValue === null || awayValue === undefined) {
+      return "";
+    }
+  }
+
+  const homeDisplay = formatStatisticsValue(homeValue, metric.format);
+  const awayDisplay = formatStatisticsValue(awayValue, metric.format);
+  const winner = resolveStatisticsWinner(homeValue, awayValue, metric.higherIsBetter);
+
+  return `
+    <article class="fixture-detail__stats-row">
+      <strong class="fixture-detail__stats-value ${winner === "home" ? "fixture-detail__stats-value--home" : ""}">
+        ${escapeHtml(homeDisplay)}
+      </strong>
+      <span class="fixture-detail__stats-label">${escapeHtml(metric.label)}</span>
+      <strong class="fixture-detail__stats-value ${winner === "away" ? "fixture-detail__stats-value--away" : ""}">
+        ${escapeHtml(awayDisplay)}
+      </strong>
+    </article>
+  `;
+}
+
+function createStatisticsMetric(label, key, format = "decimal", higherIsBetter = true) {
+  return { label, key, format, higherIsBetter };
+}
+
+function hasAnyTeamStatistics(view) {
+  return hasTeamStatistics(view.homeTeam) || hasTeamStatistics(view.awayTeam);
+}
+
+function hasTeamStatistics(team) {
+  const statistics = team?.statistics ?? null;
+  if (!statistics) {
+    return false;
+  }
+
+  return ["overview", "attack", "defense", "discipline"].some((blockKey) => {
+    const block = statistics[blockKey];
+    return block && Object.values(block).some((value) => value !== null && value !== undefined);
+  });
+}
+
+function formatStatisticsValue(value, format = "decimal") {
+  if (value === null || value === undefined) {
+    return "—";
+  }
+
+  switch (format) {
+    case "integer":
+      return new Intl.NumberFormat("pt-PT", { maximumFractionDigits: 0 }).format(Number(value));
+    case "percent":
+      return `${Number(value).toFixed(1)}%`;
+    case "decimal":
+    default:
+      return Number(value).toFixed(1);
+  }
+}
+
+function resolveStatisticsWinner(homeValue, awayValue, higherIsBetter = true) {
+  if (
+    homeValue === null ||
+    homeValue === undefined ||
+    awayValue === null ||
+    awayValue === undefined
+  ) {
+    return null;
+  }
+
+  const homeNumber = Number(homeValue);
+  const awayNumber = Number(awayValue);
+
+  if (!Number.isFinite(homeNumber) || !Number.isFinite(awayNumber) || homeNumber === awayNumber) {
+    return null;
+  }
+
+  if (higherIsBetter) {
+    return homeNumber > awayNumber ? "home" : "away";
+  }
+
+  return homeNumber < awayNumber ? "home" : "away";
 }
 
 function renderTeamSnapshotPanel(sideLabel, team, side) {

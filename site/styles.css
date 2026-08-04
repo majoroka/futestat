@@ -575,6 +575,82 @@ a {
   text-align: right;
 }
 
+.fixture-detail__stats {
+  display: grid;
+  gap: 16px;
+}
+
+.fixture-detail__stats-card {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+  border-radius: 18px;
+  border: 1px solid rgba(23, 32, 51, 0.08);
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 14px 30px rgba(17, 34, 84, 0.04);
+}
+
+.fixture-detail__stats-head,
+.fixture-detail__stats-row {
+  display: grid;
+  grid-template-columns: minmax(88px, 0.9fr) minmax(150px, 1.3fr) minmax(88px, 0.9fr);
+  gap: 12px;
+  align-items: center;
+}
+
+.fixture-detail__stats-head {
+  padding: 0 6px 8px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.fixture-detail__stats-head span:nth-child(2) {
+  text-align: center;
+}
+
+.fixture-detail__stats-head span:last-child {
+  text-align: right;
+}
+
+.fixture-detail__stats-list {
+  display: grid;
+  gap: 6px;
+}
+
+.fixture-detail__stats-row {
+  padding: 12px 10px;
+  border-radius: 14px;
+  background: rgba(248, 250, 255, 0.9);
+}
+
+.fixture-detail__stats-label {
+  color: #243047;
+  font-size: 0.88rem;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.fixture-detail__stats-value {
+  font-size: 0.95rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.fixture-detail__stats-value:last-child {
+  text-align: right;
+}
+
+.fixture-detail__stats-value--home {
+  color: #1d4ed8;
+}
+
+.fixture-detail__stats-value--away {
+  color: #112254;
+}
+
 .fixture-detail__form-strip {
   display: flex;
   flex-wrap: wrap;
@@ -1501,6 +1577,11 @@ a {
   .fixture-detail__team-panels,
   .fixture-detail__team-panel-grid {
     grid-template-columns: 1fr;
+  }
+
+  .fixture-detail__stats-head,
+  .fixture-detail__stats-row {
+    grid-template-columns: minmax(72px, 0.9fr) minmax(132px, 1.3fr) minmax(72px, 0.9fr);
   }
 }
 
