@@ -579,15 +579,32 @@ function renderFixtureStandingsTab(fixture, matchViewState) {
     matchViewState.data.standings.rows.length > 0
   ) {
     return `
-      <div class="fixture-detail__standings">
+      <div class="fixture-detail__tab-panel fixture-detail__standings">
+        ${renderFixtureTabIntro({
+          eyebrow: "Classificação",
+          title: "Tabela contextual do jogo",
+          copy: "Fallback servido pela match view derivada quando ainda não existe snapshot dedicado da competição.",
+          badges: ["Fonte derivada"],
+        })}
         ${renderMatchViewStandingsTable(matchViewState.data.standings, fixture)}
       </div>
-      <p class="fixture-detail__note">Classificação servida a partir da match view derivada.</p>
     `;
   }
 
   if (!fixture.competitionId) {
-    return '<p class="fixture-detail__empty">Este jogo não tem competição mapeada para classificação.</p>';
+    return `
+      <div class="fixture-detail__tab-panel">
+        ${renderFixtureTabIntro({
+          eyebrow: "Classificação",
+          title: "Tabela indisponível",
+          copy: "Este jogo ainda não tem competição mapeada para classificação pública.",
+        })}
+        ${renderFixtureTabEmptyState(
+          "Sem competição associada",
+          "Não foi possível determinar a competição necessária para carregar a classificação deste jogo.",
+        )}
+      </div>
+    `;
   }
 
   const message =
@@ -596,8 +613,18 @@ function renderFixtureStandingsTab(fixture, matchViewState) {
       : "Classificação indisponível para este jogo ou competição.";
 
   return `
-    <p class="fixture-detail__empty">${escapeHtml(message)}</p>
-    ${renderStandingsStateNote(standingsState)}
+    <div class="fixture-detail__tab-panel">
+      ${renderFixtureTabIntro({
+        eyebrow: "Classificação",
+        title: "Tabela da competição",
+        copy: "Quando existir snapshot publicado para esta competição, a classificação surge automaticamente neste separador.",
+      })}
+      ${renderFixtureTabEmptyState(
+        standingsState?.status === "loading" ? "A carregar classificação" : "Classificação indisponível",
+        message,
+        renderStandingsStateNote(standingsState),
+      )}
+    </div>
   `;
 }
 
@@ -606,7 +633,13 @@ function renderFixtureStatisticsTab(fixture, matchViewState) {
     const view = matchViewState.data;
     if (hasAnyTeamStatistics(view)) {
       return `
-        <div class="fixture-detail__stats">
+        <div class="fixture-detail__tab-panel fixture-detail__stats">
+          ${renderFixtureTabIntro({
+            eyebrow: "Estatísticas",
+            title: "Comparação agregada casa vs fora",
+            copy: "Leitura comparativa construída com os blocos estatísticos já normalizados na match view.",
+            badges: [view.match.season?.label ?? null, "Fonte manual"],
+          })}
           ${renderStatisticsHero(view)}
           ${renderStatisticsSection("Visão geral", [
             createStatisticsMetric("Golos/jogo", "goalsPerMatch"),
@@ -649,21 +682,50 @@ function renderFixtureStatisticsTab(fixture, matchViewState) {
     }
 
     return `
-      <p class="fixture-detail__empty">Ainda não existem estatísticas agregadas publicadas para este jogo.</p>
-      <p class="fixture-detail__note">O separador depende dos dados manuais de equipa já normalizados no match view.</p>
+      <div class="fixture-detail__tab-panel">
+        ${renderFixtureTabIntro({
+          eyebrow: "Estatísticas",
+          title: "Bloco estatístico ainda vazio",
+          copy: "Este separador depende dos dados de equipa previamente normalizados na match view.",
+        })}
+        ${renderFixtureTabEmptyState(
+          "Sem métricas publicadas",
+          "Ainda não existem estatísticas agregadas disponíveis para este jogo.",
+          "Quando o bloco estatístico da match view existir, esta comparação será preenchida sem scraping adicional ao vivo.",
+        )}
+      </div>
     `;
   }
 
   if (matchViewState?.status === "loading") {
     return `
-      <p class="fixture-detail__empty">A carregar estatísticas do jogo...</p>
-      <p class="fixture-detail__note">Assim que a match view terminar de carregar, este separador será preenchido.</p>
+      <div class="fixture-detail__tab-panel">
+        ${renderFixtureTabIntro({
+          eyebrow: "Estatísticas",
+          title: "A preparar comparação estatística",
+          copy: "A match view está a carregar e este separador será preenchido assim que terminar.",
+        })}
+        ${renderFixtureTabEmptyState(
+          "A carregar estatísticas",
+          "Estamos a montar as métricas comparativas deste jogo.",
+        )}
+      </div>
     `;
   }
 
   return `
-    <p class="fixture-detail__empty">Ainda não existe match view publicada para mostrar estatísticas deste jogo.</p>
-    <p class="fixture-detail__note">Depois do próximo refresh/publicação manual, este separador poderá ser preenchido sem novo scraping ao vivo.</p>
+    <div class="fixture-detail__tab-panel">
+      ${renderFixtureTabIntro({
+        eyebrow: "Estatísticas",
+        title: "Comparação ainda indisponível",
+        copy: "Este jogo ainda não tem match view publicada com estatísticas agregadas.",
+      })}
+      ${renderFixtureTabEmptyState(
+        "Sem match view publicada",
+        "Ainda não existe match view publicada para mostrar estatísticas deste jogo.",
+        "Depois do próximo refresh/publicação manual, este separador poderá ser preenchido sem novo scraping ao vivo.",
+      )}
+    </div>
   `;
 }
 
@@ -672,7 +734,16 @@ function renderFixtureSquadTab(fixture, matchViewState) {
     const view = matchViewState.data;
     if (hasAnyTeamSquad(view)) {
       return `
-        <div class="fixture-detail__squad">
+        <div class="fixture-detail__tab-panel fixture-detail__squad">
+          ${renderFixtureTabIntro({
+            eyebrow: "Plantel",
+            title: "Elencos e disponibilidade",
+            copy: "Vista pública do plantel ordenada por impacto recente, com contexto rápido de sistema e baixas.",
+            badges: [
+              `${countAvailablePlayers(view.homeTeam.squad)} casa`,
+              `${countAvailablePlayers(view.awayTeam.squad)} fora`,
+            ],
+          })}
           <section class="fixture-detail__subsection">
             <h4>Resumo do plantel</h4>
             <div class="fixture-detail__highlights">
@@ -694,21 +765,50 @@ function renderFixtureSquadTab(fixture, matchViewState) {
     }
 
     return `
-      <p class="fixture-detail__empty">Ainda não existe plantel publicado para este jogo.</p>
-      <p class="fixture-detail__note">O separador depende do bloco de squad já normalizado na match view.</p>
+      <div class="fixture-detail__tab-panel">
+        ${renderFixtureTabIntro({
+          eyebrow: "Plantel",
+          title: "Elencos ainda não publicados",
+          copy: "Este separador depende do bloco `squad` já normalizado na match view.",
+        })}
+        ${renderFixtureTabEmptyState(
+          "Sem plantel disponível",
+          "Ainda não existe plantel publicado para este jogo.",
+          "Quando o bloco `squad` estiver presente na match view, o painel será preenchido automaticamente.",
+        )}
+      </div>
     `;
   }
 
   if (matchViewState?.status === "loading") {
     return `
-      <p class="fixture-detail__empty">A carregar plantéis do jogo...</p>
-      <p class="fixture-detail__note">Assim que a match view terminar de carregar, este separador será preenchido.</p>
+      <div class="fixture-detail__tab-panel">
+        ${renderFixtureTabIntro({
+          eyebrow: "Plantel",
+          title: "A preparar elencos",
+          copy: "A match view está a carregar e o plantel ficará visível quando a composição terminar.",
+        })}
+        ${renderFixtureTabEmptyState(
+          "A carregar plantéis",
+          "Estamos a preparar os elencos deste jogo.",
+        )}
+      </div>
     `;
   }
 
   return `
-    <p class="fixture-detail__empty">Ainda não existe match view publicada para mostrar o plantel deste jogo.</p>
-    <p class="fixture-detail__note">Depois do próximo refresh/publicação manual, este separador poderá ser preenchido com os dados já capturados do Soccer-Rating.</p>
+    <div class="fixture-detail__tab-panel">
+      ${renderFixtureTabIntro({
+        eyebrow: "Plantel",
+        title: "Elencos ainda indisponíveis",
+        copy: "Este jogo ainda não tem match view publicada com contexto de plantel.",
+      })}
+      ${renderFixtureTabEmptyState(
+        "Sem match view publicada",
+        "Ainda não existe match view publicada para mostrar o plantel deste jogo.",
+        "Depois do próximo refresh/publicação manual, este separador poderá ser preenchido com os dados já capturados do Soccer-Rating.",
+      )}
+    </div>
   `;
 }
 
@@ -717,7 +817,16 @@ function renderFixtureHistoryTab(fixture, matchViewState) {
     const view = matchViewState.data;
     if (hasAnyTeamHistory(view)) {
       return `
-        <div class="fixture-detail__history">
+        <div class="fixture-detail__tab-panel fixture-detail__history">
+          ${renderFixtureTabIntro({
+            eyebrow: "Histórico",
+            title: "Momento recente das equipas",
+            copy: "Últimos jogos agregados por equipa para ajudar a ler forma, resultados e contexto curto.",
+            badges: [
+              `${countHistoryMatches(view.homeTeam.history)} casa`,
+              `${countHistoryMatches(view.awayTeam.history)} fora`,
+            ],
+          })}
           <section class="fixture-detail__subsection">
             <h4>Resumo do histórico</h4>
             <div class="fixture-detail__highlights">
@@ -739,21 +848,50 @@ function renderFixtureHistoryTab(fixture, matchViewState) {
     }
 
     return `
-      <p class="fixture-detail__empty">Ainda não existe histórico publicado para este jogo.</p>
-      <p class="fixture-detail__note">O separador depende do bloco de history já presente na match view.</p>
+      <div class="fixture-detail__tab-panel">
+        ${renderFixtureTabIntro({
+          eyebrow: "Histórico",
+          title: "Momento recente ainda vazio",
+          copy: "Este separador depende do bloco `history` já presente na match view.",
+        })}
+        ${renderFixtureTabEmptyState(
+          "Sem histórico disponível",
+          "Ainda não existe histórico publicado para este jogo.",
+          "Quando o bloco `history` estiver presente na match view, o painel será preenchido automaticamente.",
+        )}
+      </div>
     `;
   }
 
   if (matchViewState?.status === "loading") {
     return `
-      <p class="fixture-detail__empty">A carregar histórico do jogo...</p>
-      <p class="fixture-detail__note">Assim que a match view terminar de carregar, este separador será preenchido.</p>
+      <div class="fixture-detail__tab-panel">
+        ${renderFixtureTabIntro({
+          eyebrow: "Histórico",
+          title: "A preparar jogos recentes",
+          copy: "A match view está a carregar e o histórico ficará visível quando a composição terminar.",
+        })}
+        ${renderFixtureTabEmptyState(
+          "A carregar histórico",
+          "Estamos a preparar os últimos jogos de cada equipa.",
+        )}
+      </div>
     `;
   }
 
   return `
-    <p class="fixture-detail__empty">Ainda não existe match view publicada para mostrar o histórico deste jogo.</p>
-    <p class="fixture-detail__note">Depois do próximo refresh/publicação manual, este separador poderá ser preenchido com os jogos recentes de cada equipa.</p>
+    <div class="fixture-detail__tab-panel">
+      ${renderFixtureTabIntro({
+        eyebrow: "Histórico",
+        title: "Jogos recentes ainda indisponíveis",
+        copy: "Este jogo ainda não tem match view publicada com histórico recente das equipas.",
+      })}
+      ${renderFixtureTabEmptyState(
+        "Sem match view publicada",
+        "Ainda não existe match view publicada para mostrar o histórico deste jogo.",
+        "Depois do próximo refresh/publicação manual, este separador poderá ser preenchido com os jogos recentes de cada equipa.",
+      )}
+    </div>
   `;
 }
 
@@ -768,7 +906,17 @@ function renderCompetitionStandingsSnapshot(snapshot, fixture) {
     .join(" · ");
 
   return `
-    <div class="fixture-detail__standings">
+    <div class="fixture-detail__tab-panel fixture-detail__standings">
+      ${renderFixtureTabIntro({
+        eyebrow: "Classificação",
+        title: "Tabela oficial da competição",
+        copy: "Classificação pública servida a partir do Zerozero e contextualizada para o jogo selecionado.",
+        badges: [
+          snapshot.phaseName ?? null,
+          snapshot.mode !== "single_table" ? formatStandingsMode(snapshot.mode) : null,
+          "Fonte Zerozero",
+        ],
+      })}
       ${meta ? `<p class="fixture-detail__note">${escapeHtml(meta)}</p>` : ""}
       ${renderStandingsPhaseNotes(snapshot.phaseNotes)}
       ${layout.summary ? `<p class="fixture-detail__standings-context">${escapeHtml(layout.summary)}</p>` : ""}
@@ -1028,6 +1176,47 @@ function renderSummaryEmpty(message) {
 
 function renderSummaryHint(content) {
   return `<p class="fixture-detail__summary-hint">${content}</p>`;
+}
+
+function renderFixtureTabIntro({ eyebrow, title, copy, badges = [] }) {
+  const visibleBadges = Array.isArray(badges)
+    ? badges.filter((badge) => typeof badge === "string" && badge.trim().length > 0)
+    : [];
+
+  return `
+    <section class="fixture-detail__tab-intro">
+      <div class="fixture-detail__tab-intro-copy">
+        ${eyebrow ? `<p class="fixture-detail__tab-kicker">${escapeHtml(eyebrow)}</p>` : ""}
+        ${title ? `<h3 class="fixture-detail__tab-title">${escapeHtml(title)}</h3>` : ""}
+        ${copy ? `<p class="fixture-detail__tab-copy">${escapeHtml(copy)}</p>` : ""}
+      </div>
+      ${
+        visibleBadges.length > 0
+          ? `
+            <div class="fixture-detail__tab-badges">
+              ${visibleBadges.map((badge) => `<span class="fixture-detail__badge">${escapeHtml(badge)}</span>`).join("")}
+            </div>
+          `
+          : ""
+      }
+    </section>
+  `;
+}
+
+function renderFixtureTabEmptyState(title, message, note = null) {
+  const renderedNote = note
+    ? note.includes("fixture-detail__note")
+      ? note
+      : `<p class="fixture-detail__note">${escapeHtml(note)}</p>`
+    : "";
+
+  return `
+    <section class="fixture-detail__empty-state">
+      <h3 class="fixture-detail__empty-title">${escapeHtml(title)}</h3>
+      <p class="fixture-detail__empty">${escapeHtml(message)}</p>
+      ${renderedNote}
+    </section>
+  `;
 }
 
 function renderTieContextSection(view) {

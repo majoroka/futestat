@@ -337,9 +337,17 @@ a {
   gap: 20px;
   margin-top: 20px;
   border-bottom: 1px solid rgba(23, 32, 51, 0.1);
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+
+.fixture-detail__tabs::-webkit-scrollbar {
+  display: none;
 }
 
 .fixture-detail__tab {
+  flex: 0 0 auto;
   appearance: none;
   border: 0;
   border-bottom: 3px solid transparent;
@@ -363,6 +371,55 @@ a {
 
 .fixture-detail__subsection + .fixture-detail__subsection {
   margin-top: 22px;
+}
+
+.fixture-detail__tab-panel {
+  display: grid;
+  gap: 16px;
+  margin-top: 14px;
+}
+
+.fixture-detail__tab-intro {
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid rgba(23, 32, 51, 0.08);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(243, 247, 255, 0.94));
+  box-shadow: 0 14px 30px rgba(17, 34, 84, 0.04);
+}
+
+.fixture-detail__tab-intro-copy {
+  display: grid;
+  gap: 6px;
+}
+
+.fixture-detail__tab-kicker {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.fixture-detail__tab-title {
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.18;
+}
+
+.fixture-detail__tab-copy {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.fixture-detail__tab-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .fixture-detail__subsection h4 {
@@ -449,6 +506,21 @@ a {
 
 .fixture-detail__summary-hint {
   margin-top: 10px;
+}
+
+.fixture-detail__empty-state {
+  display: grid;
+  gap: 8px;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px dashed rgba(23, 32, 51, 0.16);
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.fixture-detail__empty-title {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.24;
 }
 
 .fixture-detail__info-list {
@@ -1733,6 +1805,10 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .fixture-detail__tab-intro {
+    padding: 16px;
+  }
+
   .fixture-detail__stats-head,
   .fixture-detail__stats-row {
     grid-template-columns: minmax(72px, 0.9fr) minmax(132px, 1.3fr) minmax(72px, 0.9fr);
@@ -1767,5 +1843,30 @@ a {
 
   .date-selector__select {
     font-size: 0.94rem;
+  }
+
+  .fixture-detail__tabs {
+    gap: 16px;
+    padding-bottom: 2px;
+  }
+
+  .fixture-detail__tab {
+    font-size: 0.92rem;
+  }
+
+  .fixture-detail__tab-panel {
+    gap: 14px;
+  }
+
+  .fixture-detail__tab-title {
+    font-size: 0.96rem;
+  }
+
+  .fixture-detail__tab-copy {
+    font-size: 0.88rem;
+  }
+
+  .fixture-detail__empty-state {
+    padding: 16px;
   }
 }
