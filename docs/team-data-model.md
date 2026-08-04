@@ -461,6 +461,9 @@ Estrutura:
   },
   "standings": {
     "available": false,
+    "phaseName": null,
+    "phaseNotes": [],
+    "ruleProfileId": null,
     "tableName": null,
     "rows": []
   }
@@ -520,6 +523,12 @@ Origem recomendada:
 
 Campos:
 - `standings.*`
+- com foco especial em:
+  - `standings.phaseName`
+  - `standings.phaseNotes[]`
+  - `standings.ruleProfileId`
+  - `standings.tableName`
+  - `standings.rows[]`
 
 Origem recomendada:
 - `Zerozero`

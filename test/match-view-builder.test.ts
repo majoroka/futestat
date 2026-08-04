@@ -81,6 +81,9 @@ test("buildMatchView composes fixture, standings, details and manual team data i
         scrapedAtUtc: "2026-08-01T10:00:00Z",
         editionId: "1",
         phaseId: null,
+        phaseName: "Campeonato",
+        phaseNotes: ["Tabela corrida ao longo de toda a época."],
+        ruleProfileId: null,
         tables: [
           {
             name: "Classificacao",
@@ -466,6 +469,9 @@ test("buildMatchView composes fixture, standings, details and manual team data i
   assert.equal(snapshot.homeTeam.overview.expectedLineup.formation, "4-2-3-1");
   assert.equal(snapshot.awayTeam.headerStats.overallRating, 7.6);
   assert.equal(snapshot.awayTeam.statistics.overview, null);
+  assert.equal(snapshot.standings.phaseName, "Campeonato");
+  assert.deepEqual(snapshot.standings.phaseNotes, ["Tabela corrida ao longo de toda a época."]);
+  assert.equal(snapshot.standings.ruleProfileId, null);
   assert.equal(snapshot.standings.rows[0].highlight, "home");
   assert.equal(snapshot.standings.rows[1].highlight, "away");
   assert.equal(snapshot.homeTeam.identity.sourceIds.fotmob, "f-3006");

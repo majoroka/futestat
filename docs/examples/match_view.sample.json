@@ -121,6 +121,11 @@
   },
   "standings": {
     "available": true,
+    "phaseName": "Campeonato",
+    "phaseNotes": [
+      "Tabela corrida ao longo de toda a época."
+    ],
+    "ruleProfileId": null,
     "tableName": "Classificacao",
     "rows": [
       {

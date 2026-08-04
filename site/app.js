@@ -526,33 +526,62 @@ function renderCompetitionStandingsSnapshot(snapshot, fixture) {
     <div class="fixture-detail__standings">
       ${meta ? `<p class="fixture-detail__note">${escapeHtml(meta)}</p>` : ""}
       ${renderStandingsPhaseNotes(snapshot.phaseNotes)}
-      ${snapshot.tables.map((table) => renderStandingsTableCard(table, fixture, snapshot.competitionId)).join("")}
-      ${renderStandingsLegend(snapshot.competitionId, snapshot.tables)}
+      ${snapshot.tables
+        .map((table) =>
+          renderStandingsTableCard(table, fixture, {
+            competitionId: snapshot.competitionId,
+            ruleProfileId: snapshot.ruleProfileId,
+          }),
+        )
+        .join("")}
+      ${renderStandingsLegend(
+        {
+          competitionId: snapshot.competitionId,
+          ruleProfileId: snapshot.ruleProfileId,
+        },
+        snapshot.tables,
+      )}
       ${snapshot.zerozeroUrl ? `<a class="fixture-detail__link" href="${escapeAttribute(snapshot.zerozeroUrl)}" target="_blank" rel="noreferrer">Ver classificação detalhada</a>` : ""}
     </div>
   `;
 }
 
 function renderMatchViewStandingsTable(standings, fixture) {
+  const meta = [
+    standings.phaseName ? `Fase: ${standings.phaseName}` : null,
+    standings.tableType ? formatStandingsMode(standings.tableType) : null,
+    standings.sourceStatus !== "ready" ? formatStandingsStatus(standings.sourceStatus) : null,
+  ]
+    .filter(Boolean)
+    .join(" · ");
   const title = [standings.tableName, formatStandingType(standings.tableType)]
     .filter(Boolean)
     .join(" · ");
 
   return `
     <section class="fixture-detail__standings-table">
+      ${meta ? `<p class="fixture-detail__note">${escapeHtml(meta)}</p>` : ""}
+      ${renderStandingsPhaseNotes(standings.phaseNotes)}
       ${title ? `<h3 class="fixture-detail__standings-title">${escapeHtml(title)}</h3>` : ""}
       ${renderStandingsGrid({
         title,
         rows: standings.rows,
         fixture,
         competitionId: standings.competitionId,
+        ruleProfileId: standings.ruleProfileId,
       })}
-      ${renderStandingsLegend(standings.competitionId, [{ rows: standings.rows }])}
+      ${renderStandingsLegend(
+        {
+          competitionId: standings.competitionId,
+          ruleProfileId: standings.ruleProfileId,
+        },
+        [{ rows: standings.rows }],
+      )}
     </section>
   `;
 }
 
-function renderStandingsTableCard(table, fixture, competitionId) {
+function renderStandingsTableCard(table, fixture, standingsContext) {
   const title = [table.name, formatStandingType(table.type)].filter(Boolean).join(" · ");
 
   return `
@@ -562,13 +591,14 @@ function renderStandingsTableCard(table, fixture, competitionId) {
         title,
         rows: table.rows,
         fixture,
-        competitionId,
+        competitionId: standingsContext?.competitionId ?? null,
+        ruleProfileId: standingsContext?.ruleProfileId ?? null,
       })}
     </section>
   `;
 }
 
-function renderStandingsGrid({ title, rows, fixture, competitionId }) {
+function renderStandingsGrid({ title, rows, fixture, competitionId, ruleProfileId }) {
   return `
     <div class="fixture-detail__standings-scroll">
       <div class="fixture-detail__standings-grid" role="table" aria-label="${escapeAttribute(title || "Classificação")}">
@@ -584,15 +614,15 @@ function renderStandingsGrid({ title, rows, fixture, competitionId }) {
           <span>GS</span>
           <span>DG</span>
         </div>
-        ${rows.map((row) => renderStandingsRow(row, fixture, competitionId)).join("")}
+        ${rows.map((row) => renderStandingsRow(row, fixture, { competitionId, ruleProfileId })).join("")}
       </div>
     </div>
   `;
 }
 
-function renderStandingsRow(row, fixture, competitionId) {
+function renderStandingsRow(row, fixture, standingsContext) {
   const highlight = row.highlight ?? resolveStandingRowHighlight(row, fixture);
-  const zone = resolveStandingsZone(competitionId, row.position);
+  const zone = resolveStandingsZone(standingsContext, row.position);
   const teamMarker = highlight === "home" ? "Casa" : highlight === "away" ? "Fora" : null;
   const classes = [
     "fixture-detail__standings-row",
@@ -621,8 +651,8 @@ function renderStandingsRow(row, fixture, competitionId) {
   `;
 }
 
-function renderStandingsLegend(competitionId, tables) {
-  const zones = collectLegendZones(competitionId, tables);
+function renderStandingsLegend(standingsContext, tables) {
+  const zones = collectLegendZones(standingsContext, tables);
   if (zones.length === 0) {
     return "";
   }
@@ -1400,21 +1430,27 @@ function renderDetailsCoverageHint(view) {
   `;
 }
 
-function resolveStandingsZone(competitionId, position) {
-  if (!competitionId || typeof position !== "number") {
+function resolveStandingsZone(standingsContext, position) {
+  if (!standingsContext?.competitionId || typeof position !== "number") {
     return null;
   }
 
-  const preset = getStandingsZonePreset(competitionId);
+  const preset = getStandingsZonePreset(
+    standingsContext.competitionId,
+    standingsContext.ruleProfileId ?? null,
+  );
   return preset.find((zone) => position >= zone.from && position <= zone.to) ?? null;
 }
 
-function collectLegendZones(competitionId, tables) {
-  if (!competitionId) {
+function collectLegendZones(standingsContext, tables) {
+  if (!standingsContext?.competitionId) {
     return [];
   }
 
-  const preset = getStandingsZonePreset(competitionId);
+  const preset = getStandingsZonePreset(
+    standingsContext.competitionId,
+    standingsContext.ruleProfileId ?? null,
+  );
   const positions = new Set(
     (tables ?? [])
       .flatMap((table) => (Array.isArray(table.rows) ? table.rows : []))

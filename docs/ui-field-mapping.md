@@ -256,6 +256,9 @@ Origem:
 
 Campos:
 - `standings.available`
+- `standings.phaseName`
+- `standings.phaseNotes[]`
+- `standings.ruleProfileId`
 - `standings.tableName`
 - `standings.rows[]`
 

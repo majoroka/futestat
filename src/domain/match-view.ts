@@ -130,6 +130,9 @@ export interface MatchViewStandingsBlock {
   available: boolean;
   competitionId: string | null;
   sourceStatus: CompetitionStandingsSourceStatus | "missing";
+  phaseName: string | null;
+  phaseNotes: string[];
+  ruleProfileId: string | null;
   tableName: string | null;
   tableType: string | null;
   rows: MatchViewStandingRow[];

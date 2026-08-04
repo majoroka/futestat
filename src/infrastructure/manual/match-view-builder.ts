@@ -119,6 +119,9 @@ export async function buildMatchView(
       available: Boolean(selectedTable && standingsSnapshot),
       competitionId: fixture.competitionId,
       sourceStatus: standingsSnapshot?.status ?? "missing",
+      phaseName: standingsSnapshot?.phaseName ?? null,
+      phaseNotes: standingsSnapshot?.phaseNotes ?? [],
+      ruleProfileId: standingsSnapshot?.ruleProfileId ?? null,
       tableName: selectedTable?.name ?? null,
       tableType: selectedTable?.type ?? null,
       rows:
