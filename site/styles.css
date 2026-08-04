@@ -413,6 +413,10 @@ a {
   font-weight: 600;
 }
 
+.fixture-detail__highlights--compact {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .fixture-detail__summary-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -649,6 +653,81 @@ a {
 
 .fixture-detail__stats-value--away {
   color: #112254;
+}
+
+.fixture-detail__squad {
+  display: grid;
+  gap: 16px;
+}
+
+.fixture-detail__squad-panels {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.fixture-detail__squad-panel {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(23, 32, 51, 0.08);
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 14px 30px rgba(17, 34, 84, 0.04);
+}
+
+.fixture-detail__squad-panel--home {
+  background: linear-gradient(180deg, rgba(244, 248, 255, 0.96), rgba(255, 255, 255, 0.88));
+}
+
+.fixture-detail__squad-panel--away {
+  background: linear-gradient(180deg, rgba(248, 250, 255, 0.96), rgba(255, 255, 255, 0.88));
+}
+
+.fixture-detail__squad-panel-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.fixture-detail__squad-panel-badges {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.fixture-detail__squad-list {
+  display: grid;
+  gap: 6px;
+}
+
+.fixture-detail__squad-head,
+.fixture-detail__squad-row {
+  display: grid;
+  grid-template-columns: minmax(160px, 1.6fr) repeat(5, minmax(40px, 0.45fr));
+  gap: 10px;
+  align-items: center;
+}
+
+.fixture-detail__squad-head {
+  padding: 0 8px 8px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.fixture-detail__squad-row {
+  padding: 12px 8px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.86);
+}
+
+.fixture-detail__squad-player {
+  font-size: 0.9rem;
+  line-height: 1.25;
 }
 
 .fixture-detail__form-strip {
@@ -1574,6 +1653,8 @@ a {
 
   .fixture-detail__summary-grid,
   .fixture-detail__highlights,
+  .fixture-detail__highlights--compact,
+  .fixture-detail__squad-panels,
   .fixture-detail__team-panels,
   .fixture-detail__team-panel-grid {
     grid-template-columns: 1fr;
@@ -1582,6 +1663,11 @@ a {
   .fixture-detail__stats-head,
   .fixture-detail__stats-row {
     grid-template-columns: minmax(72px, 0.9fr) minmax(132px, 1.3fr) minmax(72px, 0.9fr);
+  }
+
+  .fixture-detail__squad-head,
+  .fixture-detail__squad-row {
+    grid-template-columns: minmax(132px, 1.4fr) repeat(5, minmax(34px, 0.5fr));
   }
 }
 

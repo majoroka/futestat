@@ -344,6 +344,8 @@ function renderFixtureDetail() {
           ? renderFixtureStandingsTab(fixture, matchViewState)
           : state.selectedDetailTab === "statistics"
             ? renderFixtureStatisticsTab(fixture, matchViewState)
+            : state.selectedDetailTab === "squad"
+              ? renderFixtureSquadTab(fixture, matchViewState)
             : renderFixtureDetailsTab(fixture, matchViewState)
       }
     </section>
@@ -381,6 +383,13 @@ function renderFixtureDetailTabs() {
         data-detail-tab="statistics"
       >
         Estatísticas
+      </button>
+      <button
+        type="button"
+        class="fixture-detail__tab ${state.selectedDetailTab === "squad" ? "fixture-detail__tab--active" : ""}"
+        data-detail-tab="squad"
+      >
+        Plantel
       </button>
     </nav>
   `;
@@ -646,6 +655,51 @@ function renderFixtureStatisticsTab(fixture, matchViewState) {
   return `
     <p class="fixture-detail__empty">Ainda não existe match view publicada para mostrar estatísticas deste jogo.</p>
     <p class="fixture-detail__note">Depois do próximo refresh/publicação manual, este separador poderá ser preenchido sem novo scraping ao vivo.</p>
+  `;
+}
+
+function renderFixtureSquadTab(fixture, matchViewState) {
+  if (matchViewState?.status === "loaded" && matchViewState.data) {
+    const view = matchViewState.data;
+    if (hasAnyTeamSquad(view)) {
+      return `
+        <div class="fixture-detail__squad">
+          <section class="fixture-detail__subsection">
+            <h4>Resumo do plantel</h4>
+            <div class="fixture-detail__highlights">
+              ${renderDetailHighlight("Casa", `${countAvailablePlayers(view.homeTeam.squad)} jogadores`, "accent")}
+              ${renderDetailHighlight("Fora", `${countAvailablePlayers(view.awayTeam.squad)} jogadores`)}
+              ${renderDetailHighlight("Sistema casa", fallbackText(view.homeTeam.overview.expectedLineup?.formation))}
+              ${renderDetailHighlight("Sistema fora", fallbackText(view.awayTeam.overview.expectedLineup?.formation))}
+            </div>
+          </section>
+          <section class="fixture-detail__subsection">
+            <h4>Elencos</h4>
+            <div class="fixture-detail__squad-panels">
+              ${renderSquadPanel("Casa", view.homeTeam, "home")}
+              ${renderSquadPanel("Fora", view.awayTeam, "away")}
+            </div>
+          </section>
+        </div>
+      `;
+    }
+
+    return `
+      <p class="fixture-detail__empty">Ainda não existe plantel publicado para este jogo.</p>
+      <p class="fixture-detail__note">O separador depende do bloco de squad já normalizado na match view.</p>
+    `;
+  }
+
+  if (matchViewState?.status === "loading") {
+    return `
+      <p class="fixture-detail__empty">A carregar plantéis do jogo...</p>
+      <p class="fixture-detail__note">Assim que a match view terminar de carregar, este separador será preenchido.</p>
+    `;
+  }
+
+  return `
+    <p class="fixture-detail__empty">Ainda não existe match view publicada para mostrar o plantel deste jogo.</p>
+    <p class="fixture-detail__note">Depois do próximo refresh/publicação manual, este separador poderá ser preenchido com os dados já capturados do Soccer-Rating.</p>
   `;
 }
 
@@ -1510,6 +1564,98 @@ function renderStatisticsHero(view) {
   `;
 }
 
+function renderSquadPanel(sideLabel, team, side) {
+  const players = sortSquadPlayers(team.squad);
+  const injuries = team.overview?.squadHealth?.injuries?.length ?? 0;
+  const suspensions = team.overview?.squadHealth?.suspensions?.length ?? 0;
+
+  return `
+    <article class="fixture-detail__squad-panel fixture-detail__squad-panel--${escapeAttribute(side)}">
+      <div class="fixture-detail__squad-panel-head">
+        <div>
+          <span class="fixture-detail__team-panel-side">${escapeHtml(sideLabel)}</span>
+          <h3 class="fixture-detail__team-panel-name">${escapeHtml(team.identity.name)}</h3>
+        </div>
+        <div class="fixture-detail__squad-panel-badges">
+          <span class="fixture-detail__badge">${escapeHtml(`${players.length} jogadores`)}</span>
+        </div>
+      </div>
+      <div class="fixture-detail__highlights fixture-detail__highlights--compact">
+        ${renderDetailHighlight("Sistema", fallbackText(team.overview.expectedLineup?.formation))}
+        ${renderDetailHighlight("Lesões", String(injuries), injuries > 0 ? "accent" : null)}
+        ${renderDetailHighlight("Suspensões", String(suspensions), suspensions > 0 ? "accent" : null)}
+        ${renderDetailHighlight("Rating médio XI", formatOptionalDecimal(team.overview.expectedLineup?.averageRating))}
+      </div>
+      ${
+        players.length > 0
+          ? `
+            <div class="fixture-detail__squad-list">
+              <div class="fixture-detail__squad-head">
+                <span>Jogador</span>
+                <span>Pos</span>
+                <span>Id</span>
+                <span>J</span>
+                <span>G</span>
+                <span>Rt</span>
+              </div>
+              ${players.map((player) => renderSquadPlayerRow(player)).join("")}
+            </div>
+          `
+          : `<p class="fixture-detail__summary-empty">Ainda não existe plantel publicado para esta equipa.</p>`
+      }
+    </article>
+  `;
+}
+
+function renderSquadPlayerRow(player) {
+  return `
+    <article class="fixture-detail__squad-row">
+      <strong class="fixture-detail__squad-player">${escapeHtml(player.name)}</strong>
+      <span>${escapeHtml(player.position ?? "—")}</span>
+      <span>${escapeHtml(stringValue(player.age, "—"))}</span>
+      <span>${escapeHtml(stringValue(player.apps, "—"))}</span>
+      <span>${escapeHtml(stringValue(player.goals, "—"))}</span>
+      <span>${escapeHtml(formatOptionalDecimal(player.rating))}</span>
+    </article>
+  `;
+}
+
+function hasAnyTeamSquad(view) {
+  return countAvailablePlayers(view.homeTeam.squad) > 0 || countAvailablePlayers(view.awayTeam.squad) > 0;
+}
+
+function countAvailablePlayers(players) {
+  return Array.isArray(players) ? players.length : 0;
+}
+
+function sortSquadPlayers(players) {
+  return (Array.isArray(players) ? [...players] : []).sort((left, right) => {
+    const ratingDelta = compareNullableNumberDesc(left.rating, right.rating);
+    if (ratingDelta !== 0) {
+      return ratingDelta;
+    }
+
+    const appsDelta = compareNullableNumberDesc(left.apps, right.apps);
+    if (appsDelta !== 0) {
+      return appsDelta;
+    }
+
+    const goalsDelta = compareNullableNumberDesc(left.goals, right.goals);
+    if (goalsDelta !== 0) {
+      return goalsDelta;
+    }
+
+    return String(left.name ?? "").localeCompare(String(right.name ?? ""), "pt");
+  });
+}
+
+function compareNullableNumberDesc(left, right) {
+  const leftNumber = typeof left === "number" ? left : Number.NEGATIVE_INFINITY;
+  const rightNumber = typeof right === "number" ? right : Number.NEGATIVE_INFINITY;
+
+  return rightNumber - leftNumber;
+}
+
 function renderStatisticsSection(title, metrics, view, blockKey) {
   const rows = metrics
     .map((metric) => buildStatisticsRow(metric, view, blockKey))
@@ -2007,6 +2153,10 @@ function percentValue(value) {
 }
 
 function decimalValue(value) {
+  return value === null || value === undefined ? "—" : Number(value).toFixed(1);
+}
+
+function formatOptionalDecimal(value) {
   return value === null || value === undefined ? "—" : Number(value).toFixed(1);
 }
 
