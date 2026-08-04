@@ -689,7 +689,7 @@ a {
 .fixture-detail__stats-card {
   display: grid;
   gap: 10px;
-  padding: 14px;
+  padding: 15px;
   border-radius: 18px;
   border: 1px solid rgba(23, 32, 51, 0.08);
   background: rgba(255, 255, 255, 0.8);
@@ -705,7 +705,7 @@ a {
 }
 
 .fixture-detail__stats-head {
-  padding: 0 6px 8px;
+  padding: 0 8px 8px;
   color: var(--muted);
   font-size: 0.72rem;
   font-weight: 700;
@@ -723,25 +723,25 @@ a {
 
 .fixture-detail__stats-list {
   display: grid;
-  gap: 6px;
+  gap: 7px;
 }
 
 .fixture-detail__stats-row {
-  padding: 12px 10px;
+  padding: 11px 12px;
   border-radius: 14px;
   background: rgba(248, 250, 255, 0.9);
 }
 
 .fixture-detail__stats-label {
   color: #243047;
-  font-size: 0.88rem;
-  line-height: 1.35;
+  font-size: 0.84rem;
+  line-height: 1.32;
   text-align: center;
 }
 
 .fixture-detail__stats-value {
-  font-size: 0.95rem;
-  line-height: 1.2;
+  font-size: 0.92rem;
+  line-height: 1.18;
   font-weight: 600;
 }
 
@@ -771,7 +771,7 @@ a {
 .fixture-detail__squad-panel {
   display: grid;
   gap: 14px;
-  padding: 16px;
+  padding: 17px;
   border-radius: 18px;
   border: 1px solid rgba(23, 32, 51, 0.08);
   background: rgba(255, 255, 255, 0.8);
@@ -796,12 +796,13 @@ a {
 .fixture-detail__squad-panel-badges {
   display: inline-flex;
   flex-wrap: wrap;
+  justify-content: flex-end;
   gap: 8px;
 }
 
 .fixture-detail__squad-list {
   display: grid;
-  gap: 6px;
+  gap: 7px;
 }
 
 .fixture-detail__squad-head,
@@ -822,14 +823,26 @@ a {
 }
 
 .fixture-detail__squad-row {
-  padding: 12px 8px;
+  padding: 11px 10px;
   border-radius: 14px;
   background: rgba(255, 255, 255, 0.86);
 }
 
 .fixture-detail__squad-player {
-  font-size: 0.9rem;
-  line-height: 1.25;
+  font-size: 0.88rem;
+  line-height: 1.24;
+}
+
+.fixture-detail__squad-cell {
+  color: #31405c;
+  font-size: 0.82rem;
+  line-height: 1.2;
+}
+
+.fixture-detail__squad-cell--accent {
+  color: var(--accent-alt);
+  font-weight: 700;
+  text-align: right;
 }
 
 .fixture-detail__history {
@@ -846,7 +859,7 @@ a {
 .fixture-detail__history-panel {
   display: grid;
   gap: 14px;
-  padding: 16px;
+  padding: 17px;
   border-radius: 18px;
   border: 1px solid rgba(23, 32, 51, 0.08);
   background: rgba(255, 255, 255, 0.8);
@@ -863,44 +876,44 @@ a {
 
 .fixture-detail__history-list {
   display: grid;
-  gap: 8px;
+  gap: 7px;
 }
 
 .fixture-detail__history-row {
   display: grid;
-  gap: 6px;
-  padding: 12px 14px;
+  gap: 5px;
+  padding: 11px 13px;
   border-radius: 16px;
   border: 1px solid rgba(23, 32, 51, 0.08);
   background: rgba(255, 255, 255, 0.86);
 }
 
 .fixture-detail__history-title {
-  font-size: 0.96rem;
-  line-height: 1.25;
+  font-size: 0.9rem;
+  line-height: 1.24;
 }
 
 .fixture-detail__history-meta {
   color: var(--muted);
-  font-size: 0.82rem;
-  line-height: 1.4;
+  font-size: 0.78rem;
+  line-height: 1.38;
 }
 
 .fixture-detail__history-extras {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 7px;
 }
 
 .fixture-detail__history-pill {
   display: inline-flex;
   align-items: center;
   min-height: 28px;
-  padding: 0 10px;
+  padding: 0 9px;
   border-radius: 999px;
   background: rgba(17, 34, 84, 0.08);
   color: #23314c;
-  font-size: 0.76rem;
+  font-size: 0.74rem;
   font-weight: 600;
 }
 
@@ -1853,7 +1866,15 @@ a {
     flex-direction: column;
   }
 
+  .fixture-detail__squad-panel-head {
+    flex-direction: column;
+  }
+
   .fixture-detail__team-panel-badges {
+    justify-content: flex-start;
+  }
+
+  .fixture-detail__squad-panel-badges {
     justify-content: flex-start;
   }
 }
@@ -1881,6 +1902,56 @@ a {
 
   .date-selector__select {
     font-size: 0.94rem;
+  }
+
+  .fixture-detail__stats-card,
+  .fixture-detail__squad-panel,
+  .fixture-detail__history-panel {
+    padding: 14px;
+  }
+
+  .fixture-detail__stats-head,
+  .fixture-detail__squad-head {
+    font-size: 0.68rem;
+  }
+
+  .fixture-detail__stats-row {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .fixture-detail__stats-label {
+    font-size: 0.8rem;
+  }
+
+  .fixture-detail__stats-value {
+    font-size: 0.88rem;
+  }
+
+  .fixture-detail__squad-row {
+    gap: 8px;
+    padding: 10px 8px;
+  }
+
+  .fixture-detail__squad-player {
+    font-size: 0.84rem;
+  }
+
+  .fixture-detail__squad-cell {
+    font-size: 0.76rem;
+  }
+
+  .fixture-detail__history-row {
+    padding: 10px 11px;
+  }
+
+  .fixture-detail__history-title {
+    font-size: 0.86rem;
+  }
+
+  .fixture-detail__history-meta,
+  .fixture-detail__history-pill {
+    font-size: 0.72rem;
   }
 
   .fixture-detail__tabs {

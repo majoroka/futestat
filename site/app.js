@@ -1826,7 +1826,7 @@ function renderStatisticsHero(view) {
   return `
     <section class="fixture-detail__subsection">
       <h4>Resumo estatístico</h4>
-      <div class="fixture-detail__highlights">
+      <div class="fixture-detail__highlights fixture-detail__highlights--compact">
         ${renderDetailHighlight("Época", view.match.season?.label ?? "Indisponível", "accent")}
         ${renderDetailHighlight("Casa", view.homeTeam.identity.name)}
         ${renderDetailHighlight("Fora", view.awayTeam.identity.name)}
@@ -1938,11 +1938,11 @@ function renderSquadPlayerRow(player) {
   return `
     <article class="fixture-detail__squad-row">
       <strong class="fixture-detail__squad-player">${escapeHtml(player.name)}</strong>
-      <span>${escapeHtml(player.position ?? "—")}</span>
-      <span>${escapeHtml(stringValue(player.age, "—"))}</span>
-      <span>${escapeHtml(stringValue(player.apps, "—"))}</span>
-      <span>${escapeHtml(stringValue(player.goals, "—"))}</span>
-      <span>${escapeHtml(formatOptionalDecimal(player.rating))}</span>
+      <span class="fixture-detail__squad-cell">${escapeHtml(player.position ?? "—")}</span>
+      <span class="fixture-detail__squad-cell">${escapeHtml(stringValue(player.age, "—"))}</span>
+      <span class="fixture-detail__squad-cell">${escapeHtml(stringValue(player.apps, "—"))}</span>
+      <span class="fixture-detail__squad-cell">${escapeHtml(stringValue(player.goals, "—"))}</span>
+      <span class="fixture-detail__squad-cell fixture-detail__squad-cell--accent">${escapeHtml(formatOptionalDecimal(player.rating))}</span>
     </article>
   `;
 }
