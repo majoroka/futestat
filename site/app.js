@@ -403,13 +403,34 @@ function renderFixtureDetailsTab(fixture, matchViewState) {
       detailInfoRowIf("Árbitro", formatMatchViewReferee(view)),
       detailInfoRow("TV em Portugal", formatMatchViewWatch(view.match.details.watch)),
       detailInfoRowIf("Formato", formatMatchViewTieFormat(view.match.details.tieContext)),
-      detailInfoRow("Atualização", formatTimestamp(view.builtAtUtc)),
     ].join("");
 
     return `
       <div class="fixture-detail__stack">
         <section class="fixture-detail__subsection">
-          <h4>Detalhes</h4>
+          <h4>Leitura rápida</h4>
+          ${renderDetailHighlights([
+            {
+              label: "Data e hora",
+              value: formatMatchViewDateTime(view),
+              tone: "accent",
+            },
+            {
+              label: "Fase",
+              value: view.match.details.competitionStage ?? "Sem fase publicada",
+            },
+            {
+              label: "Recinto",
+              value: view.match.details.venueName ?? "Sem recinto publicado",
+            },
+            {
+              label: "TV PT",
+              value: formatMatchViewWatchCompact(view.match.details.watch),
+            },
+          ])}
+        </section>
+        <section class="fixture-detail__subsection">
+          <h4>Informação do jogo</h4>
           <div class="fixture-detail__summary-grid">
             ${renderDetailSummaryCard(
               "Jogo",
@@ -422,8 +443,23 @@ function renderFixtureDetailsTab(fixture, matchViewState) {
             )}
             ${renderDetailSummaryCard("Recinto", venueRows || renderSummaryEmpty("Sofascore ainda não expôs estádio, cidade ou capacidade para este jogo."))}
             ${renderDetailSummaryCard("Cobertura", coverageRows || renderSummaryEmpty("Ainda não existe arbitragem ou agenda de TV confirmada para este jogo."))}
+            ${renderDetailSummaryCard(
+              "Estado da vista",
+              [
+                detailInfoRow("Atualização", formatTimestamp(view.builtAtUtc)),
+                detailInfoRow("Estado", formatStatusLabel(fixture)),
+                detailInfoRow("Resultado", formatScoreline(fixture)),
+              ].join(""),
+            )}
           </div>
           ${renderDetailsCoverageHint(view)}
+        </section>
+        <section class="fixture-detail__subsection">
+          <h4>Raio-X das equipas</h4>
+          <div class="fixture-detail__team-panels">
+            ${renderTeamSnapshotPanel("Casa", view.homeTeam, "home")}
+            ${renderTeamSnapshotPanel("Fora", view.awayTeam, "away")}
+          </div>
         </section>
         ${renderTieContextSection(view)}
         ${renderRecentContextSection(view)}
@@ -450,29 +486,53 @@ function renderFixtureDetailsTab(fixture, matchViewState) {
 
 function renderBasicFixtureDetails(fixture, note = null) {
   return `
-    <section class="fixture-detail__subsection">
-      <h4>Resumo</h4>
-      <div class="fixture-detail__summary-grid">
-        ${renderDetailSummaryCard(
-          "Jogo",
-          [
-            detailInfoRow("Data e hora", `${formatFixtureDetailDate(fixture)} · ${formatFixtureDetailTime(fixture)}`),
-            detailInfoRow("Competição", [fixture.competitionName, fixture.countryName].filter(Boolean).join(" · ") || "Indisponível"),
-            detailInfoRow("Estado", formatStatusLabel(fixture)),
-            detailInfoRow("Resultado", formatScoreline(fixture)),
-          ].join(""),
-        )}
-        ${renderDetailSummaryCard(
-          "Estado da vista",
-          [
-            note ? renderSummaryEmpty(note) : renderSummaryEmpty("A vista detalhada deste jogo ainda não foi publicada."),
-            renderSummaryHint(
-              `<a class="fixture-detail__inline-link" href="${escapeAttribute(fixture.matchUrl)}" target="_blank" rel="noreferrer">Abrir jogo no Sofascore</a>`,
-            ),
-          ].join(""),
-        )}
-      </div>
-    </section>
+    <div class="fixture-detail__stack">
+      <section class="fixture-detail__subsection">
+        <h4>Leitura rápida</h4>
+        ${renderDetailHighlights([
+          {
+            label: "Data e hora",
+            value: `${formatFixtureDetailDate(fixture)} · ${formatFixtureDetailTime(fixture)}`,
+            tone: "accent",
+          },
+          {
+            label: "Competição",
+            value: fixture.competitionName ?? "Indisponível",
+          },
+          {
+            label: "Estado",
+            value: formatStatusLabel(fixture),
+          },
+          {
+            label: "Resultado",
+            value: formatScoreline(fixture),
+          },
+        ])}
+      </section>
+      <section class="fixture-detail__subsection">
+        <h4>Resumo</h4>
+        <div class="fixture-detail__summary-grid">
+          ${renderDetailSummaryCard(
+            "Jogo",
+            [
+              detailInfoRow("Data e hora", `${formatFixtureDetailDate(fixture)} · ${formatFixtureDetailTime(fixture)}`),
+              detailInfoRow("Competição", [fixture.competitionName, fixture.countryName].filter(Boolean).join(" · ") || "Indisponível"),
+              detailInfoRow("Estado", formatStatusLabel(fixture)),
+              detailInfoRow("Resultado", formatScoreline(fixture)),
+            ].join(""),
+          )}
+          ${renderDetailSummaryCard(
+            "Estado da vista",
+            [
+              note ? renderSummaryEmpty(note) : renderSummaryEmpty("A vista detalhada deste jogo ainda não foi publicada."),
+              renderSummaryHint(
+                `<a class="fixture-detail__inline-link" href="${escapeAttribute(fixture.matchUrl)}" target="_blank" rel="noreferrer">Abrir jogo no Sofascore</a>`,
+              ),
+            ].join(""),
+          )}
+        </div>
+      </section>
+    </div>
   `;
 }
 
@@ -893,6 +953,40 @@ function renderMiniGroup(title, content) {
         ${content}
       </div>
     </div>
+  `;
+}
+
+function renderDetailHighlights(items) {
+  const visibleItems = Array.isArray(items)
+    ? items.filter((item) => item && item.label && item.value)
+    : [];
+
+  if (visibleItems.length === 0) {
+    return "";
+  }
+
+  return `
+    <div class="fixture-detail__highlights">
+      ${visibleItems
+        .map((item) => renderDetailHighlight(item.label, item.value, item.tone ?? null))
+        .join("")}
+    </div>
+  `;
+}
+
+function renderDetailHighlight(label, value, tone = null) {
+  const classes = [
+    "fixture-detail__highlight",
+    tone ? `fixture-detail__highlight--${tone}` : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
+
+  return `
+    <article class="${classes}">
+      <span class="fixture-detail__highlight-label">${escapeHtml(label)}</span>
+      <strong class="fixture-detail__highlight-value">${escapeHtml(value)}</strong>
+    </article>
   `;
 }
 
@@ -1440,6 +1534,26 @@ function formatMatchViewWatch(watch) {
   }
 
   return watch.note ?? "Sem canais PT detetados";
+}
+
+function formatMatchViewWatchCompact(watch) {
+  if (!watch) {
+    return "Sem agenda";
+  }
+
+  if (watch.hasPortugalChannels) {
+    if (Array.isArray(watch.portugalChannels) && watch.portugalChannels.length > 0) {
+      if (watch.portugalChannels.length === 1) {
+        return watch.portugalChannels[0];
+      }
+
+      return `${watch.portugalChannels[0]} +${watch.portugalChannels.length - 1}`;
+    }
+
+    return "Cobertura PT";
+  }
+
+  return "Sem canais PT";
 }
 
 function formatMatchViewTieFormat(tieContext) {

@@ -73,6 +73,7 @@ Entregáveis já introduzidos:
 - zonas e legendas da classificação agora conscientes da fase (`ruleProfileId`), incluindo ajustes específicos para UEFA fase-liga e grupos da Argentina
 - regras por competição refinadas para ligas com splits e playoffs, com distinção visual entre fase regular, grupo do campeão, grupo europeu e manutenção quando aplicável
 - classificação com UX melhorada para múltiplas tabelas, destacando automaticamente a tabela do jogo e recolhendo as restantes num bloco secundário
+- separador `Detalhes` com melhor hierarquia visual, leitura rápida no topo e painéis-resumo por equipa reaproveitados na vista pública
 
 Pendências desta fase:
 - seletor UX dedicado para `passado / hoje / futuro`
