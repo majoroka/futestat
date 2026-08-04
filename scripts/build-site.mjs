@@ -81,6 +81,10 @@ async function buildSite() {
     copyFile(path.join(repoRoot, "site", "styles.css"), path.join(assetsDir, "styles.css")),
     copyFile(path.join(repoRoot, "site", "app.js"), path.join(assetsDir, "app.js")),
     copyFile(
+      path.join(repoRoot, "site", "standings-table-groups.js"),
+      path.join(assetsDir, "standings-table-groups.js"),
+    ),
+    copyFile(
       path.join(repoRoot, "site", "standings-zone-presets.js"),
       path.join(assetsDir, "standings-zone-presets.js"),
     ),

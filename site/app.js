@@ -1,4 +1,5 @@
 import { getStandingsZonePreset } from "./standings-zone-presets.js";
+import { buildStandingsTableLayout } from "./standings-table-groups.js";
 
 const summaryEl = document.querySelector("[data-fixture-summary]");
 const datesEl = document.querySelector("[data-date-filters]");
@@ -514,6 +515,7 @@ function renderFixtureStandingsTab(fixture, matchViewState) {
 }
 
 function renderCompetitionStandingsSnapshot(snapshot, fixture) {
+  const layout = buildStandingsTableLayout(snapshot.tables, fixture);
   const meta = [
     snapshot.phaseName ? `Fase: ${snapshot.phaseName}` : null,
     snapshot.mode !== "single_table" ? formatStandingsMode(snapshot.mode) : null,
@@ -526,20 +528,26 @@ function renderCompetitionStandingsSnapshot(snapshot, fixture) {
     <div class="fixture-detail__standings">
       ${meta ? `<p class="fixture-detail__note">${escapeHtml(meta)}</p>` : ""}
       ${renderStandingsPhaseNotes(snapshot.phaseNotes)}
-      ${snapshot.tables
+      ${layout.summary ? `<p class="fixture-detail__standings-context">${escapeHtml(layout.summary)}</p>` : ""}
+      ${layout.primaryTables
         .map((table) =>
           renderStandingsTableCard(table, fixture, {
             competitionId: snapshot.competitionId,
             ruleProfileId: snapshot.ruleProfileId,
+            isPrimary: true,
           }),
         )
         .join("")}
+      ${renderSecondaryStandingsTables(layout.secondaryTables, fixture, {
+        competitionId: snapshot.competitionId,
+        ruleProfileId: snapshot.ruleProfileId,
+      })}
       ${renderStandingsLegend(
         {
           competitionId: snapshot.competitionId,
           ruleProfileId: snapshot.ruleProfileId,
         },
-        snapshot.tables,
+        layout.primaryTables.length > 0 ? layout.primaryTables : snapshot.tables,
       )}
       ${snapshot.zerozeroUrl ? `<a class="fixture-detail__link" href="${escapeAttribute(snapshot.zerozeroUrl)}" target="_blank" rel="noreferrer">Ver classificação detalhada</a>` : ""}
     </div>
@@ -562,7 +570,17 @@ function renderMatchViewStandingsTable(standings, fixture) {
     <section class="fixture-detail__standings-table">
       ${meta ? `<p class="fixture-detail__note">${escapeHtml(meta)}</p>` : ""}
       ${renderStandingsPhaseNotes(standings.phaseNotes)}
-      ${title ? `<h3 class="fixture-detail__standings-title">${escapeHtml(title)}</h3>` : ""}
+      ${
+        title
+          ? `
+            <div class="fixture-detail__standings-table-head">
+              <div>
+                <h3 class="fixture-detail__standings-title">${escapeHtml(title)}</h3>
+              </div>
+            </div>
+          `
+          : ""
+      }
       ${renderStandingsGrid({
         title,
         rows: standings.rows,
@@ -583,10 +601,27 @@ function renderMatchViewStandingsTable(standings, fixture) {
 
 function renderStandingsTableCard(table, fixture, standingsContext) {
   const title = [table.name, formatStandingType(table.type)].filter(Boolean).join(" · ");
+  const classes = [
+    "fixture-detail__standings-table",
+    standingsContext?.isPrimary ? "fixture-detail__standings-table--primary" : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
 
   return `
-    <section class="fixture-detail__standings-table">
-      ${title ? `<h3 class="fixture-detail__standings-title">${escapeHtml(title)}</h3>` : ""}
+    <section class="${classes}">
+      ${
+        table.badge || title
+          ? `
+            <div class="fixture-detail__standings-table-head">
+              <div>
+                ${table.badge ? `<p class="fixture-detail__standings-badge">${escapeHtml(table.badge)}</p>` : ""}
+                ${title ? `<h3 class="fixture-detail__standings-title">${escapeHtml(title)}</h3>` : ""}
+              </div>
+            </div>
+          `
+          : ""
+      }
       ${renderStandingsGrid({
         title,
         rows: table.rows,
@@ -595,6 +630,31 @@ function renderStandingsTableCard(table, fixture, standingsContext) {
         ruleProfileId: standingsContext?.ruleProfileId ?? null,
       })}
     </section>
+  `;
+}
+
+function renderSecondaryStandingsTables(tables, fixture, standingsContext) {
+  if (!Array.isArray(tables) || tables.length === 0) {
+    return "";
+  }
+
+  return `
+    <details class="fixture-detail__standings-more">
+      <summary class="fixture-detail__standings-more-summary">
+        <span>Outras tabelas desta fase</span>
+        <span class="fixture-detail__standings-more-count">${escapeHtml(String(tables.length))}</span>
+      </summary>
+      <div class="fixture-detail__standings-more-body">
+        ${tables
+          .map((table) =>
+            renderStandingsTableCard(table, fixture, {
+              ...standingsContext,
+              isPrimary: false,
+            }),
+          )
+          .join("")}
+      </div>
+    </details>
   `;
 }
 
