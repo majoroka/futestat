@@ -58,6 +58,123 @@ const championshipGroupRules: CompetitionStandingsPhaseRule[] = [
   },
 ];
 
+const titleRoundRules: CompetitionStandingsPhaseRule[] = [
+  {
+    matchPhaseNames: ["grupo titulo", "title group", "title round", "championship round"],
+    matchTableNames: ["grupo titulo", "title group", "title round", "championship round"],
+    status: "ready",
+    phaseNotes: [
+      "Tabela da ronda final pelo título.",
+    ],
+    ruleProfileId: "title-round",
+  },
+];
+
+const qualificationRoundRules: CompetitionStandingsPhaseRule[] = [
+  {
+    matchPhaseNames: ["grupo europeu", "europe group", "qualification group", "qualification round"],
+    matchTableNames: ["grupo europeu", "europe group", "qualification group", "qualification round"],
+    status: "ready",
+    phaseNotes: [
+      "Tabela da ronda intermédia de apuramento europeu ou manutenção.",
+    ],
+    ruleProfileId: "qualification-round",
+  },
+];
+
+const europePlayoffRules: CompetitionStandingsPhaseRule[] = [
+  {
+    matchPhaseNames: ["europa play off", "europa play-off", "europe play off", "europe play-off"],
+    matchTableNames: ["europa play off", "europa play-off", "europe play off", "europe play-off"],
+    status: "ready",
+    phaseNotes: [
+      "Tabela do playoff ou grupo de apuramento europeu.",
+    ],
+    ruleProfileId: "europe-round",
+  },
+];
+
+const scottishSplitRules: CompetitionStandingsPhaseRule[] = [
+  {
+    matchPhaseNames: ["campeonato", "fase regular"],
+    matchTableNames: ["campeonato", "classificacao"],
+    status: "ready",
+    phaseNotes: [
+      "Tabela da fase regular antes da divisão em top-6 e bottom-6.",
+    ],
+    ruleProfileId: "regular-season-before-split",
+  },
+  {
+    matchPhaseNames: ["championship round"],
+    matchTableNames: ["championship round"],
+    status: "ready",
+    phaseNotes: [
+      "Tabela da ronda final do top-6.",
+    ],
+    ruleProfileId: "championship-round",
+  },
+  {
+    matchPhaseNames: ["relegation round"],
+    matchTableNames: ["relegation round"],
+    status: "ready",
+    phaseNotes: [
+      "Tabela da ronda final de manutenção e despromoção.",
+    ],
+    ruleProfileId: "relegation-round",
+  },
+];
+
+const belgianPlayoffRules: CompetitionStandingsPhaseRule[] = [
+  {
+    matchPhaseNames: ["campeonato", "fase regular"],
+    matchTableNames: ["campeonato", "classificacao"],
+    status: "ready",
+    phaseNotes: [
+      "Tabela da fase regular antes dos playoffs finais.",
+    ],
+    ruleProfileId: "regular-season-before-split",
+  },
+  {
+    matchPhaseNames: ["championship play off", "championship play-off"],
+    matchTableNames: ["championship play off", "championship play-off"],
+    status: "ready",
+    phaseNotes: [
+      "Tabela do playoff de campeão.",
+    ],
+    ruleProfileId: "championship-round",
+  },
+  {
+    matchPhaseNames: ["europa play off", "europa play-off", "europe play off", "europe play-off"],
+    matchTableNames: ["europa play off", "europa play-off", "europe play off", "europe play-off"],
+    status: "ready",
+    phaseNotes: [
+      "Tabela do playoff de apuramento europeu.",
+    ],
+    ruleProfileId: "europe-round",
+  },
+  {
+    matchPhaseNames: ["relegation play off", "relegation play-off"],
+    matchTableNames: ["relegation play off", "relegation play-off"],
+    status: "ready",
+    phaseNotes: [
+      "Tabela do playoff de manutenção ou despromoção.",
+    ],
+    ruleProfileId: "relegation-round",
+  },
+];
+
+const argentinaGroupStageRules: CompetitionStandingsPhaseRule[] = [
+  {
+    matchPhaseNames: ["1 fase", "1a fase", "1. fase", "1ª fase", "fase inicial", "fase de grupos"],
+    matchTableNames: ["grupo a", "grupo b", "grupo"],
+    status: "ready",
+    phaseNotes: [
+      "Tabela da fase inicial por grupos.",
+    ],
+    ruleProfileId: "arg-group-stage",
+  },
+];
+
 const knockoutEuropeanRules: CompetitionStandingsPhaseRule[] = [
   {
     matchPhaseNames: ["qualificacao", "qualifying", "pre-eliminatoria", "eliminatoria"],
@@ -91,31 +208,45 @@ export const DEFAULT_COMPETITION_STANDINGS_SOURCES: CompetitionStandingsSource[]
   { competitionId: "34", competitionName: "Ligue 1", countryName: "France", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-francesa", mode: "single_table", status: "ready", enabled: true },
   { competitionId: "238", competitionName: "Liga Portugal", countryName: "Portugal", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-portuguesa", mode: "single_table", status: "ready", enabled: true },
   { competitionId: "37", competitionName: "Eredivisie", countryName: "Netherlands", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-neerlandesa", mode: "single_table", status: "ready", enabled: true },
-  { competitionId: "40", competitionName: "Pro League", countryName: "Belgium", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-belga", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular e grupos finais."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules] },
-  { competitionId: "36", competitionName: "Premiership", countryName: "Scotland", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-escocesa", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com corte final entre grupo do campeão e manutenção."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules] },
+  { competitionId: "40", competitionName: "Pro League", countryName: "Belgium", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-belga", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular e múltiplos playoffs finais."], phaseRules: belgianPlayoffRules },
+  { competitionId: "36", competitionName: "Premiership", countryName: "Scotland", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-escocesa", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular e divisão final entre top-6 e bottom-6."], phaseRules: scottishSplitRules },
   { competitionId: "52", competitionName: "Super Lig", countryName: "Turkey", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-turca", mode: "single_table", status: "ready", enabled: true },
-  { competitionId: "45", competitionName: "Bundesliga", countryName: "Austria", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-austriaca", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular e ronda final."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules] },
-  { competitionId: "215", competitionName: "Super League", countryName: "Switzerland", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-suica", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, competitionAliases: ["Swiss Super League"], defaultPhaseNotes: ["Competição com divisão final por grupos."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules] },
+  { competitionId: "45", competitionName: "Bundesliga", countryName: "Austria", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-austriaca", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular e ronda final por grupos."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules, ...qualificationRoundRules] },
+  { competitionId: "215", competitionName: "Super League", countryName: "Switzerland", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-suica", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, competitionAliases: ["Swiss Super League"], defaultPhaseNotes: ["Competição com fase regular e divisão final por grupos."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules] },
   { competitionId: "39", competitionName: "Superliga", countryName: "Denmark", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-dinamarquesa", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição dividida entre play-off campeão e play-off despromoção."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules] },
   { competitionId: "20", competitionName: "Eliteserien", countryName: "Norway", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-norueguesa", mode: "single_table", status: "ready", enabled: true },
   { competitionId: "43", competitionName: "Allsvenskan", countryName: "Sweden", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-sueca", mode: "single_table", status: "ready", enabled: true },
-  { competitionId: "67", competitionName: "Veikkausliiga", countryName: "Finland", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-finlandesa", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com mudança de fase ao longo da época."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules] },
+  { competitionId: "67", competitionName: "Veikkausliiga", countryName: "Finland", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-finlandesa", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular e divisão final por séries."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules, ...relegationRoundRules()] },
   { competitionId: "47", competitionName: "Ekstraklasa", countryName: "Poland", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-polaca", mode: "single_table", status: "ready", enabled: true },
-  { competitionId: "49", competitionName: "Chance Liga", countryName: "Czech Republic", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-checa", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular e grupos finais."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules] },
-  { competitionId: "152", competitionName: "SuperLiga", countryName: "Romania", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-romena", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular seguida de playoff campeão e manutenção."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules] },
+  { competitionId: "49", competitionName: "Chance Liga", countryName: "Czech Republic", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-checa", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular e grupos finais diferenciados."], phaseRules: [...regularSeasonSplitRules, ...titleRoundRules, ...europePlayoffRules, ...relegationRoundRules()] },
+  { competitionId: "152", competitionName: "SuperLiga", countryName: "Romania", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-romena", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular seguida de playoff campeão e manutenção."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules, ...relegationRoundRules()] },
   { competitionId: "53", competitionName: "NB I", countryName: "Hungary", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-hungara", mode: "single_table", status: "ready", enabled: true },
   { competitionId: "170", competitionName: "HNL", countryName: "Croatia", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-croata", mode: "single_table", status: "ready", enabled: true },
-  { competitionId: "210", competitionName: "SuperLiga", countryName: "Serbia", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-servia", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com divisão final após a fase regular."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules] },
-  { competitionId: "211", competitionName: "Nike Liga", countryName: "Slovakia", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-eslovaca", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular e grupo final."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules] },
+  { competitionId: "210", competitionName: "SuperLiga", countryName: "Serbia", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-servia", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com divisão final após a fase regular."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules, ...relegationRoundRules()] },
+  { competitionId: "211", competitionName: "Nike Liga", countryName: "Slovakia", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-eslovaca", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular e grupos finais."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules, ...relegationRoundRules()] },
   { competitionId: "212", competitionName: "PrvaLiga", countryName: "Slovenia", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-eslovena", mode: "single_table", status: "ready", enabled: true },
-  { competitionId: "247", competitionName: "Parva Liga", countryName: "Bulgaria", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-bulgara", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular e grupos finais."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules] },
-  { competitionId: "185", competitionName: "Super League", countryName: "Greece", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-grega", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com apuramentos finais por grupo."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules] },
+  { competitionId: "247", competitionName: "Parva Liga", countryName: "Bulgaria", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-bulgara", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular e três grupos finais distintos."], phaseRules: [...regularSeasonSplitRules, ...titleRoundRules, ...europePlayoffRules, ...relegationRoundRules()] },
+  { competitionId: "185", competitionName: "Super League", countryName: "Greece", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-grega", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular e grupos finais por objetivo."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules, ...europePlayoffRules, ...relegationRoundRules()] },
   { competitionId: "218", competitionName: "Premier League", countryName: "Ukraine", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-ucraniana", mode: "single_table", status: "ready", enabled: true },
   { competitionId: "203", competitionName: "Premier League", countryName: "Russia", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-russa", mode: "single_table", status: "ready", enabled: true },
-  { competitionId: "59", competitionName: "Premier League", countryName: "Israel", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-israelita", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular e grupos finais."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules] },
+  { competitionId: "59", competitionName: "Premier League", countryName: "Israel", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-israelita", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular e grupos finais."], phaseRules: [...regularSeasonSplitRules, ...championshipGroupRules, ...relegationRoundRules()] },
   { competitionId: "325", competitionName: "Brasileirao Serie A", countryName: "Brazil", zerozeroUrl: "https://www.zerozero.pt/competicao/brasileirao-serie-a", mode: "single_table", status: "ready", enabled: true, competitionAliases: ["Brasileirao Betano", "Brasileirão Betano"], defaultPhaseNotes: ["Tabela corrida ao longo de toda a época."] },
-  { competitionId: "155", competitionName: "Liga Profesional", countryName: "Argentina", zerozeroUrl: "https://www.zerozero.pt/competicao/i-divisao-argentina", mode: "regular_plus_playoffs", status: "needs_validation", enabled: true, competitionAliases: ["Liga Profesional, Clausura", "Liga Profesional, Apertura"], defaultPhaseNotes: ["Competição com grupos e fases internas; validar sempre a fase apresentada."], phaseRules: [{ matchPhaseNames: ["1 fase", "1a fase", "fase inicial"], status: "ready", phaseNotes: ["Tabela da fase inicial por grupo."], ruleProfileId: "arg-group-stage" }] },
+  { competitionId: "155", competitionName: "Liga Profesional", countryName: "Argentina", zerozeroUrl: "https://www.zerozero.pt/competicao/i-divisao-argentina", mode: "regular_plus_playoffs", status: "needs_validation", enabled: true, competitionAliases: ["Liga Profesional, Clausura", "Liga Profesional, Apertura"], defaultPhaseNotes: ["Competição com grupos e fases internas; validar sempre a fase apresentada."], phaseRules: argentinaGroupStageRules },
 ];
+
+function relegationRoundRules(): CompetitionStandingsPhaseRule[] {
+  return [
+    {
+      matchPhaseNames: ["relegation round", "relegation group", "playout", "play-out"],
+      matchTableNames: ["relegation round", "relegation group", "playout", "play-out"],
+      status: "ready",
+      phaseNotes: [
+        "Tabela da ronda final de manutenção ou despromoção.",
+      ],
+      ruleProfileId: "relegation-round",
+    },
+  ];
+}
 
 export function buildCompetitionStandingsSourceMap(): ReadonlyMap<string, CompetitionStandingsSource> {
   return new Map(

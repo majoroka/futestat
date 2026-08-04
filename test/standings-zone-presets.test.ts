@@ -20,6 +20,15 @@ test("getStandingsZonePreset suppresses misleading default zones for Argentina g
   ]);
 });
 
+test("getStandingsZonePreset uses softer split labels during regular season", () => {
+  const zones = getStandingsZonePreset("39", "regular-season-before-split");
+
+  assert.deepEqual(zones, [
+    { from: 1, to: 6, tone: "playoff", label: "Zona de apuramento para o play-off campeão" },
+    { from: 7, to: 12, tone: "relegation", label: "Zona de manutenção" },
+  ]);
+});
+
 test("getStandingsZonePreset falls back to competition defaults when no phase profile exists", () => {
   const zones = getStandingsZonePreset("39", null);
 

@@ -71,6 +71,7 @@ Entregáveis já introduzidos:
 - regras de zonas/classificação extraídas para configuração dedicada, preparadas para crescer por competição sem mexer no renderer
 - snapshot de classificações enriquecida com `phaseName`, `phaseNotes` e `ruleProfileId` a partir das regras do `Zerozero`
 - zonas e legendas da classificação agora conscientes da fase (`ruleProfileId`), incluindo ajustes específicos para UEFA fase-liga e grupos da Argentina
+- regras por competição refinadas para ligas com splits e playoffs, com distinção visual entre fase regular, grupo do campeão, grupo europeu e manutenção quando aplicável
 
 Pendências desta fase:
 - seletor UX dedicado para `passado / hoje / futuro`
