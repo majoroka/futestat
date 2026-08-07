@@ -5,10 +5,17 @@
   "countryName": "Slovakia",
   "zerozeroUrl": "https://www.zerozero.pt/competicao/liga-eslovaca",
   "mode": "regular_plus_playoffs",
-  "status": "needs_phase_rules",
-  "scrapedAtUtc": "2026-08-03T17:34:42.363Z",
+  "status": "ready",
+  "scrapedAtUtc": "2026-08-07T08:37:08.617Z",
   "editionId": "219693",
   "phaseId": "242621",
+  "phaseName": "Campeonato",
+  "phaseNotes": [
+    "Competição com fase regular e grupos finais.",
+    "Tabela da fase regular.",
+    "Quando a competição dividir em grupos ou playoffs, as zonas finais podem mudar."
+  ],
+  "ruleProfileId": "regular-season-before-split",
   "tables": [
     {
       "name": "Campeonato",

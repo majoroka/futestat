@@ -1,0 +1,383 @@
+{
+  "builtAtUtc": "2026-08-07T08:37:35.245Z",
+  "match": {
+    "id": "15260871",
+    "date": "2026-08-08",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/viking-fk-sarpsborg-08/xqsoy#id:15260871",
+    "kickoffAtUtc": "2026-08-08T14:00:00.000Z",
+    "competition": {
+      "id": "20",
+      "name": "Eliteserien",
+      "country": "Norway",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/20/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "1164",
+      "name": "Viking",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/1164/image/small",
+      "sourceIds": {
+        "sofascore": "1164",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "822",
+      "name": "Sarpsborg 08",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/822/image/small",
+      "sourceIds": {
+        "sofascore": "822",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "20",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Bodo/Glimt",
+        "teamUrl": "https://www.zerozero.pt/equipa/bodo-glimt?epoca_id=155",
+        "points": 38,
+        "matches": 16,
+        "wins": 12,
+        "draws": 2,
+        "losses": 2,
+        "goalsFor": 41,
+        "goalsAgainst": 11,
+        "goalDifference": "+30",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Viking",
+        "teamUrl": "https://www.zerozero.pt/equipa/viking/2027?epoca_id=155",
+        "points": 37,
+        "matches": 15,
+        "wins": 12,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 37,
+        "goalsAgainst": 14,
+        "goalDifference": "+23",
+        "highlight": "home"
+      },
+      {
+        "position": 3,
+        "teamName": "Tromso",
+        "teamUrl": "https://www.zerozero.pt/equipa/tromso/2031?epoca_id=155",
+        "points": 34,
+        "matches": 16,
+        "wins": 10,
+        "draws": 4,
+        "losses": 2,
+        "goalsFor": 32,
+        "goalsAgainst": 17,
+        "goalDifference": "+15",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "Lillestrom",
+        "teamUrl": "https://www.zerozero.pt/equipa/lillestrom/2029?epoca_id=155",
+        "points": 25,
+        "matches": 15,
+        "wins": 8,
+        "draws": 1,
+        "losses": 6,
+        "goalsFor": 22,
+        "goalsAgainst": 18,
+        "goalDifference": "+4",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Molde",
+        "teamUrl": "https://www.zerozero.pt/equipa/molde?epoca_id=155",
+        "points": 24,
+        "matches": 15,
+        "wins": 7,
+        "draws": 3,
+        "losses": 5,
+        "goalsFor": 28,
+        "goalsAgainst": 22,
+        "goalDifference": "+6",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Sarpsborg 08",
+        "teamUrl": "https://www.zerozero.pt/equipa/sarpsborg-08/25919?epoca_id=155",
+        "points": 22,
+        "matches": 15,
+        "wins": 6,
+        "draws": 4,
+        "losses": 5,
+        "goalsFor": 18,
+        "goalsAgainst": 19,
+        "goalDifference": "-1",
+        "highlight": "away"
+      },
+      {
+        "position": 7,
+        "teamName": "Brann",
+        "teamUrl": "https://www.zerozero.pt/equipa/brann/2028?epoca_id=155",
+        "points": 22,
+        "matches": 16,
+        "wins": 7,
+        "draws": 1,
+        "losses": 8,
+        "goalsFor": 33,
+        "goalsAgainst": 27,
+        "goalDifference": "+6",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "HamKam",
+        "teamUrl": "https://www.zerozero.pt/equipa/hamkam/4305?epoca_id=155",
+        "points": 21,
+        "matches": 15,
+        "wins": 6,
+        "draws": 3,
+        "losses": 6,
+        "goalsFor": 23,
+        "goalsAgainst": 26,
+        "goalDifference": "-3",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Valerenga",
+        "teamUrl": "https://www.zerozero.pt/equipa/valerenga/1110?epoca_id=155",
+        "points": 20,
+        "matches": 15,
+        "wins": 6,
+        "draws": 2,
+        "losses": 7,
+        "goalsFor": 22,
+        "goalsAgainst": 27,
+        "goalDifference": "-5",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Rosenborg",
+        "teamUrl": "https://www.zerozero.pt/equipa/rosenborg/155?epoca_id=155",
+        "points": 18,
+        "matches": 15,
+        "wins": 5,
+        "draws": 3,
+        "losses": 7,
+        "goalsFor": 21,
+        "goalsAgainst": 21,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Fredrikstad",
+        "teamUrl": "https://www.zerozero.pt/equipa/fredrikstad/4304?epoca_id=155",
+        "points": 17,
+        "matches": 15,
+        "wins": 5,
+        "draws": 2,
+        "losses": 8,
+        "goalsFor": 16,
+        "goalsAgainst": 27,
+        "goalDifference": "-11",
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "Sandefjord",
+        "teamUrl": "https://www.zerozero.pt/equipa/sandefjord/7317?epoca_id=155",
+        "points": 15,
+        "matches": 15,
+        "wins": 4,
+        "draws": 3,
+        "losses": 8,
+        "goalsFor": 13,
+        "goalsAgainst": 21,
+        "goalDifference": "-8",
+        "highlight": null
+      },
+      {
+        "position": 13,
+        "teamName": "KFUM Fotball",
+        "teamUrl": "https://www.zerozero.pt/equipa/kfum-fotball/56803?epoca_id=155",
+        "points": 15,
+        "matches": 15,
+        "wins": 4,
+        "draws": 3,
+        "losses": 8,
+        "goalsFor": 17,
+        "goalsAgainst": 26,
+        "goalDifference": "-9",
+        "highlight": null
+      },
+      {
+        "position": 14,
+        "teamName": "Aalesund",
+        "teamUrl": "https://www.zerozero.pt/equipa/aalesund/2032?epoca_id=155",
+        "points": 13,
+        "matches": 15,
+        "wins": 2,
+        "draws": 7,
+        "losses": 6,
+        "goalsFor": 21,
+        "goalsAgainst": 35,
+        "goalDifference": "-14",
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "Kristiansund BK",
+        "teamUrl": "https://www.zerozero.pt/equipa/kristiansund-bk/29819?epoca_id=155",
+        "points": 12,
+        "matches": 15,
+        "wins": 3,
+        "draws": 3,
+        "losses": 9,
+        "goalsFor": 13,
+        "goalsAgainst": 25,
+        "goalDifference": "-12",
+        "highlight": null
+      },
+      {
+        "position": 16,
+        "teamName": "Start",
+        "teamUrl": "https://www.zerozero.pt/equipa/start/4014?epoca_id=155",
+        "points": 10,
+        "matches": 16,
+        "wins": 2,
+        "draws": 4,
+        "losses": 10,
+        "goalsFor": 16,
+        "goalsAgainst": 37,
+        "goalDifference": "-21",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-08.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/20.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

@@ -6,9 +6,12 @@
   "zerozeroUrl": "https://www.zerozero.pt/competicao/liga-russa",
   "mode": "single_table",
   "status": "ready",
-  "scrapedAtUtc": "2026-08-03T17:34:41.447Z",
+  "scrapedAtUtc": "2026-08-07T08:37:04.995Z",
   "editionId": "219925",
   "phaseId": "243006",
+  "phaseName": "Campeonato",
+  "phaseNotes": [],
+  "ruleProfileId": null,
   "tables": [
     {
       "name": "Campeonato",

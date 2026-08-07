@@ -6,9 +6,14 @@
   "zerozeroUrl": "https://www.zerozero.pt/competicao/brasileirao-serie-a",
   "mode": "single_table",
   "status": "ready",
-  "scrapedAtUtc": "2026-08-01T13:35:27.943Z",
+  "scrapedAtUtc": "2026-08-07T08:37:29.171Z",
   "editionId": "210277",
   "phaseId": "230406",
+  "phaseName": "Campeonato",
+  "phaseNotes": [
+    "Tabela corrida ao longo de toda a época."
+  ],
+  "ruleProfileId": null,
   "tables": [
     {
       "name": "Campeonato",

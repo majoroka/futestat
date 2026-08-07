@@ -6,9 +6,12 @@
   "zerozeroUrl": "https://www.zerozero.pt/competicao/liga-croata",
   "mode": "single_table",
   "status": "ready",
-  "scrapedAtUtc": "2026-08-03T17:34:38.752Z",
+  "scrapedAtUtc": "2026-08-07T08:36:50.457Z",
   "editionId": "219577",
   "phaseId": "242377",
+  "phaseName": "Campeonato",
+  "phaseNotes": [],
+  "ruleProfileId": null,
   "tables": [
     {
       "name": "Campeonato",

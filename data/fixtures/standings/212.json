@@ -6,9 +6,12 @@
   "zerozeroUrl": "https://www.zerozero.pt/competicao/liga-eslovena",
   "mode": "single_table",
   "status": "ready",
-  "scrapedAtUtc": "2026-08-03T17:34:43.097Z",
+  "scrapedAtUtc": "2026-08-07T08:37:13.222Z",
   "editionId": "219735",
   "phaseId": "242695",
+  "phaseName": "Campeonato",
+  "phaseNotes": [],
+  "ruleProfileId": null,
   "tables": [
     {
       "name": "Campeonato",

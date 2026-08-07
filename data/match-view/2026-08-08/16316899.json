@@ -1,0 +1,331 @@
+{
+  "builtAtUtc": "2026-08-07T08:37:35.250Z",
+  "match": {
+    "id": "16316899",
+    "date": "2026-08-08",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/kfc-komarno-mfk-zemplin-michalovce/KhdsnWAb#id:16316899",
+    "kickoffAtUtc": "2026-08-08T16:00:00.000Z",
+    "competition": {
+      "id": "211",
+      "name": "Niké Liga",
+      "country": "Slovakia",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/211/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "7885",
+      "name": "Michalovce",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/7885/image/small",
+      "sourceIds": {
+        "sofascore": "7885",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "189813",
+      "name": "Komárno",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/189813/image/small",
+      "sourceIds": {
+        "sofascore": "189813",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "211",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [
+      "Competição com fase regular e grupos finais.",
+      "Tabela da fase regular.",
+      "Quando a competição dividir em grupos ou playoffs, as zonas finais podem mudar."
+    ],
+    "ruleProfileId": "regular-season-before-split",
+    "tableName": "Campeonato",
+    "tableType": "regular_plus_playoffs",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Slovan Bratislava",
+        "teamUrl": "https://www.zerozero.pt/equipa/slovan-bratislava?epoca_id=156",
+        "points": 6,
+        "matches": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 0,
+        "goalDifference": "+7",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Spartak Trnava",
+        "teamUrl": "https://www.zerozero.pt/equipa/spartak-trnava?epoca_id=156",
+        "points": 4,
+        "matches": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "MFK Skalica",
+        "teamUrl": "https://www.zerozero.pt/equipa/mfk-skalica/89806?epoca_id=156",
+        "points": 4,
+        "matches": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "FC DAC 1904",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-dac-1904/10803?epoca_id=156",
+        "points": 4,
+        "matches": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 1,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "MSK Zilina",
+        "teamUrl": "https://www.zerozero.pt/equipa/msk-zilina/153?epoca_id=156",
+        "points": 4,
+        "matches": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 4,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Podbrezová",
+        "teamUrl": "https://www.zerozero.pt/equipa/podbrezova/21053?epoca_id=156",
+        "points": 3,
+        "matches": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "FK Kosice",
+        "teamUrl": "https://www.zerozero.pt/equipa/fk-kosice/230267?epoca_id=156",
+        "points": 2,
+        "matches": 2,
+        "wins": 0,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 7,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "AS Trencin",
+        "teamUrl": "https://www.zerozero.pt/equipa/as-trencin/1879?epoca_id=156",
+        "points": 2,
+        "matches": 2,
+        "wins": 0,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 4,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "KFC Komarno",
+        "teamUrl": "https://www.zerozero.pt/equipa/kfc-komarno/77361?epoca_id=156",
+        "points": 1,
+        "matches": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
+        "goalDifference": "-1",
+        "highlight": "away"
+      },
+      {
+        "position": 10,
+        "teamName": "Ruzomberok",
+        "teamUrl": "https://www.zerozero.pt/equipa/ruzomberok/1877?epoca_id=156",
+        "points": 1,
+        "matches": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Zemplín Michalovce",
+        "teamUrl": "https://www.zerozero.pt/equipa/zemplin-michalovce/39625?epoca_id=156",
+        "points": 0,
+        "matches": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 0,
+        "goalsAgainst": 3,
+        "goalDifference": "-3",
+        "highlight": "home"
+      },
+      {
+        "position": 12,
+        "teamName": "Dukla",
+        "teamUrl": "https://www.zerozero.pt/equipa/dukla/1876?epoca_id=156",
+        "points": 0,
+        "matches": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 0,
+        "goalsAgainst": 6,
+        "goalDifference": "-6",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-08.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/211.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

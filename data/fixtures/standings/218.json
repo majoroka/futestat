@@ -6,9 +6,12 @@
   "zerozeroUrl": "https://www.zerozero.pt/competicao/liga-ucraniana",
   "mode": "single_table",
   "status": "ready",
-  "scrapedAtUtc": "2026-08-03T17:34:43.747Z",
+  "scrapedAtUtc": "2026-08-07T08:37:15.888Z",
   "editionId": "219924",
   "phaseId": "243005",
+  "phaseName": "Campeonato",
+  "phaseNotes": [],
+  "ruleProfileId": null,
   "tables": [
     {
       "name": "Campeonato",
@@ -68,19 +71,6 @@
         },
         {
           "position": 5,
-          "teamName": "Polissya",
-          "teamUrl": "https://www.zerozero.pt/equipa/polissya/38513?epoca_id=156",
-          "points": 3,
-          "matches": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 2,
-          "goalsAgainst": 1,
-          "goalDifference": "+1"
-        },
-        {
-          "position": 6,
           "teamName": "Shakhtar Donetsk",
           "teamUrl": "https://www.zerozero.pt/equipa/shakhtar-donetsk?epoca_id=156",
           "points": 3,
@@ -91,6 +81,19 @@
           "goalsFor": 5,
           "goalsAgainst": 1,
           "goalDifference": "+4"
+        },
+        {
+          "position": 6,
+          "teamName": "Polissya",
+          "teamUrl": "https://www.zerozero.pt/equipa/polissya/38513?epoca_id=156",
+          "points": 3,
+          "matches": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "goalDifference": "+1"
         },
         {
           "position": 7,
