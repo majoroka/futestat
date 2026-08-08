@@ -1520,6 +1520,14 @@ a {
   flex: 1;
 }
 
+.competition-group__summary-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  flex: 0 0 auto;
+  margin-left: 12px;
+}
+
 .competition-group__flag {
   display: inline-flex;
   align-items: center;
@@ -1555,6 +1563,22 @@ a {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.competition-group__count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 30px;
+  height: 30px;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid rgba(23, 32, 51, 0.08);
+  color: #67748b;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1;
 }
 
 .competition-group__arrow {

@@ -201,9 +201,10 @@ function renderCompetitionGroup(group) {
     .map((fixture) => renderFixtureCard(fixture))
     .join("");
   const countryFlag = renderCompetitionCountryFlag(group.countryName);
+  const fixtureCount = group.fixtures.length;
 
   return `
-    <details class="competition-group" open>
+    <details class="competition-group">
       <summary class="competition-group__summary">
         <span class="competition-group__summary-copy">
           <span class="competition-group__flag" aria-hidden="true">${countryFlag}</span>
@@ -211,7 +212,10 @@ function renderCompetitionGroup(group) {
           <span class="competition-group__separator" aria-hidden="true">·</span>
           <span class="competition-group__title">${escapeHtml(group.competitionName)}</span>
         </span>
-        <span class="competition-group__arrow" aria-hidden="true"></span>
+        <span class="competition-group__summary-meta">
+          <span class="competition-group__count">${escapeHtml(String(fixtureCount))}</span>
+          <span class="competition-group__arrow" aria-hidden="true"></span>
+        </span>
       </summary>
       <div class="competition-group__fixtures">
         ${fixtureCards}
