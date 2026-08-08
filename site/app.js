@@ -489,7 +489,7 @@ function renderFixtureDetailsTab(fixture, matchViewState) {
                 detailInfoRow("Resultado", formatScoreline(fixture)),
                 detailInfoRow("Atualização", formatTimestamp(view.builtAtUtc)),
                 renderSummaryHint(
-                  `<a class="fixture-detail__inline-link" href="${escapeAttribute(fixture.matchUrl)}" target="_blank" rel="noreferrer">Abrir jogo no Sofascore</a>`,
+                  `<a class="fixture-detail__inline-link" href="${escapeAttribute(fixture.matchUrl)}" target="_blank" rel="noreferrer">Abrir no Sofascore</a>`,
                 ),
               ].join(""),
             )}
@@ -582,7 +582,7 @@ function renderBasicFixtureDetails(fixture, note = null) {
             [
               note ? renderSummaryEmpty(note) : renderSummaryEmpty("A vista detalhada deste jogo ainda não foi publicada."),
               renderSummaryHint(
-                `<a class="fixture-detail__inline-link" href="${escapeAttribute(fixture.matchUrl)}" target="_blank" rel="noreferrer">Abrir jogo no Sofascore</a>`,
+                `<a class="fixture-detail__inline-link" href="${escapeAttribute(fixture.matchUrl)}" target="_blank" rel="noreferrer">Abrir no Sofascore</a>`,
               ),
             ].join(""),
           )}
@@ -652,6 +652,10 @@ function renderFixtureStandingsTab(fixture, matchViewState) {
         standingsState?.status === "loading" ? "A carregar classificação" : "Classificação indisponível",
         message,
         renderStandingsStateNote(standingsState),
+        {
+          statusLabel: standingsState?.status === "loading" ? "A carregar" : "Sem snapshot",
+          links: [createFixtureExternalLink(fixture.matchUrl, "Abrir no Sofascore")],
+        },
       )}
     </div>
   `;
@@ -721,6 +725,10 @@ function renderFixtureStatisticsTab(fixture, matchViewState) {
           "Sem métricas publicadas",
           "Ainda não existem estatísticas agregadas disponíveis para este jogo.",
           "Quando o bloco estatístico da match view existir, esta comparação será preenchida sem scraping adicional ao vivo.",
+          {
+            statusLabel: "Sem dados",
+            links: [createFixtureExternalLink(fixture.matchUrl, "Abrir no Sofascore")],
+          },
         )}
       </div>
     `;
@@ -735,8 +743,13 @@ function renderFixtureStatisticsTab(fixture, matchViewState) {
           copy: "A match view está a carregar e este separador será preenchido assim que terminar.",
         })}
         ${renderFixtureTabEmptyState(
-          "A carregar estatísticas",
+          "Carregamento em curso",
           "Estamos a montar as métricas comparativas deste jogo.",
+          null,
+          {
+            statusLabel: "A carregar",
+            links: [createFixtureExternalLink(fixture.matchUrl, "Abrir no Sofascore")],
+          },
         )}
       </div>
     `;
@@ -753,6 +766,10 @@ function renderFixtureStatisticsTab(fixture, matchViewState) {
         "Sem match view publicada",
         "Ainda não existe match view publicada para mostrar estatísticas deste jogo.",
         "Depois do próximo refresh/publicação manual, este separador poderá ser preenchido sem novo scraping ao vivo.",
+        {
+          statusLabel: "Snapshot público",
+          links: [createFixtureExternalLink(fixture.matchUrl, "Abrir no Sofascore")],
+        },
       )}
     </div>
   `;
@@ -804,6 +821,10 @@ function renderFixtureSquadTab(fixture, matchViewState) {
           "Sem plantel disponível",
           "Ainda não existe plantel publicado para este jogo.",
           "Quando o bloco `squad` estiver presente na match view, o painel será preenchido automaticamente.",
+          {
+            statusLabel: "Sem dados",
+            links: [createFixtureExternalLink(fixture.matchUrl, "Abrir no Sofascore")],
+          },
         )}
       </div>
     `;
@@ -818,8 +839,13 @@ function renderFixtureSquadTab(fixture, matchViewState) {
           copy: "A match view está a carregar e o plantel ficará visível quando a composição terminar.",
         })}
         ${renderFixtureTabEmptyState(
-          "A carregar plantéis",
+          "Carregamento em curso",
           "Estamos a preparar os elencos deste jogo.",
+          null,
+          {
+            statusLabel: "A carregar",
+            links: [createFixtureExternalLink(fixture.matchUrl, "Abrir no Sofascore")],
+          },
         )}
       </div>
     `;
@@ -836,6 +862,10 @@ function renderFixtureSquadTab(fixture, matchViewState) {
         "Sem match view publicada",
         "Ainda não existe match view publicada para mostrar o plantel deste jogo.",
         "Depois do próximo refresh/publicação manual, este separador poderá ser preenchido com os dados já capturados do Soccer-Rating.",
+        {
+          statusLabel: "Snapshot público",
+          links: [createFixtureExternalLink(fixture.matchUrl, "Abrir no Sofascore")],
+        },
       )}
     </div>
   `;
@@ -887,6 +917,10 @@ function renderFixtureHistoryTab(fixture, matchViewState) {
           "Sem histórico disponível",
           "Ainda não existe histórico publicado para este jogo.",
           "Quando o bloco `history` estiver presente na match view, o painel será preenchido automaticamente.",
+          {
+            statusLabel: "Sem dados",
+            links: [createFixtureExternalLink(fixture.matchUrl, "Abrir no Sofascore")],
+          },
         )}
       </div>
     `;
@@ -901,8 +935,13 @@ function renderFixtureHistoryTab(fixture, matchViewState) {
           copy: "A match view está a carregar e o histórico ficará visível quando a composição terminar.",
         })}
         ${renderFixtureTabEmptyState(
-          "A carregar histórico",
+          "Carregamento em curso",
           "Estamos a preparar os últimos jogos de cada equipa.",
+          null,
+          {
+            statusLabel: "A carregar",
+            links: [createFixtureExternalLink(fixture.matchUrl, "Abrir no Sofascore")],
+          },
         )}
       </div>
     `;
@@ -919,6 +958,10 @@ function renderFixtureHistoryTab(fixture, matchViewState) {
         "Sem match view publicada",
         "Ainda não existe match view publicada para mostrar o histórico deste jogo.",
         "Depois do próximo refresh/publicação manual, este separador poderá ser preenchido com os jogos recentes de cada equipa.",
+        {
+          statusLabel: "Snapshot público",
+          links: [createFixtureExternalLink(fixture.matchUrl, "Abrir no Sofascore")],
+        },
       )}
     </div>
   `;
@@ -969,7 +1012,10 @@ function renderCompetitionStandingsSnapshot(snapshot, fixture) {
         },
         layout.primaryTables.length > 0 ? layout.primaryTables : snapshot.tables,
       )}
-      ${snapshot.zerozeroUrl ? `<a class="fixture-detail__link" href="${escapeAttribute(snapshot.zerozeroUrl)}" target="_blank" rel="noreferrer">Ver classificação detalhada</a>` : ""}
+      ${renderFixtureActionLinks([
+        snapshot.zerozeroUrl ? createFixtureExternalLink(snapshot.zerozeroUrl, "Abrir no Zerozero") : null,
+        createFixtureExternalLink(fixture.matchUrl, "Abrir no Sofascore"),
+      ])}
     </div>
   `;
 }
@@ -1232,19 +1278,55 @@ function renderFixtureTabIntro({ eyebrow, title, copy, badges = [] }) {
   `;
 }
 
-function renderFixtureTabEmptyState(title, message, note = null) {
+function renderFixtureTabEmptyState(title, message, note = null, options = {}) {
   const renderedNote = note
     ? note.includes("fixture-detail__note")
       ? note
       : `<p class="fixture-detail__note">${escapeHtml(note)}</p>`
     : "";
+  const statusLabel =
+    typeof options.statusLabel === "string" && options.statusLabel.trim().length > 0
+      ? options.statusLabel.trim()
+      : null;
+  const links = Array.isArray(options.links) ? options.links.filter(Boolean) : [];
 
   return `
     <section class="fixture-detail__empty-state">
+      ${statusLabel ? `<span class="fixture-detail__state-badge">${escapeHtml(statusLabel)}</span>` : ""}
       <h3 class="fixture-detail__empty-title">${escapeHtml(title)}</h3>
       <p class="fixture-detail__empty">${escapeHtml(message)}</p>
       ${renderedNote}
+      ${renderFixtureActionLinks(links)}
     </section>
+  `;
+}
+
+function createFixtureExternalLink(href, label) {
+  if (!href || !label) {
+    return null;
+  }
+
+  return { href, label };
+}
+
+function renderFixtureActionLinks(links) {
+  const visibleLinks = Array.isArray(links)
+    ? links.filter((link) => link?.href && link?.label)
+    : [];
+
+  if (visibleLinks.length === 0) {
+    return "";
+  }
+
+  return `
+    <div class="fixture-detail__action-links">
+      ${visibleLinks
+        .map(
+          (link) =>
+            `<a class="fixture-detail__action-link" href="${escapeAttribute(link.href)}" target="_blank" rel="noreferrer">${escapeHtml(link.label)}</a>`,
+        )
+        .join("")}
+    </div>
   `;
 }
 
