@@ -2691,11 +2691,11 @@ function resolveStandingRowHighlight(row, fixture) {
   const normalizedHome = normalizeTeamName(fixture.homeTeamName);
   const normalizedAway = normalizeTeamName(fixture.awayTeamName);
 
-  if (normalizedRow && normalizedRow === normalizedHome) {
+  if (matchesTeamReference(normalizedHome, normalizedRow)) {
     return "home";
   }
 
-  if (normalizedRow && normalizedRow === normalizedAway) {
+  if (matchesTeamReference(normalizedAway, normalizedRow)) {
     return "away";
   }
 
@@ -2706,9 +2706,99 @@ function normalizeTeamName(value) {
   return String(value ?? "")
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-zA-Z0-9]+/g, "")
+    .replace(/[^a-zA-Z0-9]+/g, " ")
+    .trim()
+    .replace(/\s+/g, " ")
     .toLowerCase();
 }
+
+function matchesTeamReference(expectedValue, candidateValue) {
+  const expectedToken = normalizeTeamName(expectedValue);
+  const candidateToken = normalizeTeamName(candidateValue);
+
+  if (!expectedToken || !candidateToken) {
+    return false;
+  }
+
+  const expectedCompact = compactTeamName(expectedToken);
+  const candidateCompact = compactTeamName(candidateToken);
+
+  if (
+    expectedCompact === candidateCompact ||
+    (expectedCompact.length >= 6 && candidateCompact.includes(expectedCompact)) ||
+    (candidateCompact.length >= 6 && expectedCompact.includes(candidateCompact))
+  ) {
+    return true;
+  }
+
+  const expectedParts = tokenizeTeamName(expectedToken);
+  const candidateParts = tokenizeTeamName(candidateToken);
+
+  return (
+    tokensCoverReference(expectedParts, candidateParts) ||
+    tokensCoverReference(candidateParts, expectedParts)
+  );
+}
+
+function compactTeamName(value) {
+  return normalizeTeamName(value).replace(/\s+/g, "");
+}
+
+function tokenizeTeamName(value) {
+  return normalizeTeamName(value)
+    .split(" ")
+    .map((token) => token.trim())
+    .filter(Boolean)
+    .filter((token) => !TEAM_NAME_STOPWORDS.has(token));
+}
+
+function tokensCoverReference(referenceParts, candidateParts) {
+  if (!referenceParts.length || !candidateParts.length) {
+    return false;
+  }
+
+  return referenceParts.every((referencePart) =>
+    candidateParts.some((candidatePart) => tokensRoughlyMatch(referencePart, candidatePart)),
+  );
+}
+
+function tokensRoughlyMatch(left, right) {
+  if (left === right) {
+    return true;
+  }
+
+  const shorter = left.length <= right.length ? left : right;
+  const longer = left.length <= right.length ? right : left;
+
+  if (shorter.length >= 3 && longer.startsWith(shorter)) {
+    return true;
+  }
+
+  return shorter.length >= 5 && longer.includes(shorter);
+}
+
+const TEAM_NAME_STOPWORDS = new Set([
+  "ac",
+  "afc",
+  "athletic",
+  "atletico",
+  "ca",
+  "cd",
+  "cf",
+  "club",
+  "cp",
+  "fc",
+  "fk",
+  "foot",
+  "football",
+  "futebol",
+  "if",
+  "sc",
+  "sd",
+  "sv",
+  "the",
+  "ud",
+]);
 
 function formatScoreline(fixture) {
   if (fixture.homeScore !== null && fixture.awayScore !== null) {
