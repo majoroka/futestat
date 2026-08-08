@@ -323,6 +323,7 @@ test("buildMatchView composes fixture, standings, details and manual team data i
             season: "2026-2027",
             competitionId: "238",
             competitionSlug: "liga-portugal",
+            sofascoreTeamId: "3006",
             teamId: "f-3006",
             teamSlug: "benfica",
             jsonPath: "data/team-stats/fotmob/2026-2027/238-liga-portugal/f-3006-benfica.json",
@@ -367,6 +368,7 @@ test("buildMatchView composes fixture, standings, details and manual team data i
           {
             season: "2026-2027",
             countrySlug: "portugal",
+            sofascoreTeamId: "3006",
             teamId: "sr-1076",
             teamSlug: "benfica-lisboa",
             jsonPath: "data/team-context/soccer-rating/2026-2027/portugal/sr-1076-benfica-lisboa.json",
@@ -377,6 +379,7 @@ test("buildMatchView composes fixture, standings, details and manual team data i
           {
             season: "2026-2027",
             countrySlug: "portugal",
+            sofascoreTeamId: "9768",
             teamId: "sr-9768",
             teamSlug: "sporting-cp",
             jsonPath: "data/team-context/soccer-rating/2026-2027/portugal/sr-9768-sporting-cp.json",
@@ -453,6 +456,9 @@ test("buildMatchView composes fixture, standings, details and manual team data i
   assert.equal(result.sources.awayTeamStats.available, false);
   assert.equal(result.sources.homeTeamContext.available, true);
   assert.equal(result.sources.awayTeamContext.available, true);
+  assert.equal(result.sources.homeTeamStats.matchedBy, "sofascoreTeamId");
+  assert.equal(result.sources.homeTeamContext.matchedBy, "sofascoreTeamId");
+  assert.equal(result.sources.awayTeamContext.matchedBy, "sofascoreTeamId");
 
   const outputPath = path.join(repoRoot, "data", "match-view", "2026-08-15", "16350227.json");
   const snapshot = JSON.parse(await readFile(outputPath, "utf8"));

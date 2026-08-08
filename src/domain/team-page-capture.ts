@@ -3,6 +3,7 @@ export type TeamPageCaptureSource = "fotmob" | "soccer-rating";
 export interface TeamPageCaptureManifestEntry {
   source: TeamPageCaptureSource;
   season: string;
+  sofascoreTeamId: string | null;
   teamId: string;
   teamSlug: string;
   competitionId: string | null;

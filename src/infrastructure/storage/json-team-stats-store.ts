@@ -10,6 +10,7 @@ export interface WriteTeamStatsSnapshotParams {
   seasonFs: string;
   competitionId: string;
   competitionSlug: string;
+  sofascoreTeamId: string | null;
   teamId: string;
   teamSlug: string;
   parsedAtUtc: string;
@@ -29,6 +30,7 @@ export class JsonTeamStatsStore {
       season: params.seasonFs,
       competitionId: params.competitionId,
       competitionSlug: params.competitionSlug,
+      sofascoreTeamId: params.sofascoreTeamId,
       teamId: params.teamId,
       teamSlug: params.teamSlug,
       jsonPath: toProjectRelativePath(this.repoRoot, params.outputPath),

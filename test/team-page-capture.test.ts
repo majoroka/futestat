@@ -80,6 +80,7 @@ test("buildTeamPageManifestEntry normalizes the relative manifest path", () => {
     options: {
       source: "fotmob",
       season: "2025-2026",
+      sofascoreTeamId: "3006",
       competitionId: "238",
       competitionSlug: "liga-portugal",
       teamId: "9768",
@@ -96,6 +97,7 @@ test("buildTeamPageManifestEntry normalizes the relative manifest path", () => {
   assert.deepEqual(entry, {
     source: "fotmob",
     season: "2025-2026",
+    sofascoreTeamId: "3006",
     teamId: "9768",
     teamSlug: "sporting-cp",
     competitionId: "238",
@@ -105,4 +107,34 @@ test("buildTeamPageManifestEntry normalizes the relative manifest path", () => {
     htmlPath: "raw/team-pages/fotmob/2025-2026/238-liga-portugal/9768-sporting-cp.html",
     capturedAtUtc: "2026-07-31T18:00:00.000Z",
   });
+});
+
+test("validateTeamPageCaptureOptions accepts optional Sofascore team id and rejects invalid values", () => {
+  validateTeamPageCaptureOptions({
+    source: "fotmob",
+    season: "2025-2026",
+    sofascoreTeamId: "3006",
+    teamId: "9768",
+    teamSlug: "sporting-cp",
+    competitionId: "238",
+    competitionSlug: "liga-portugal",
+    url: "https://www.fotmob.com/teams/9768/stats/sporting-cp/teams",
+    force: false,
+  });
+
+  assert.throws(
+    () =>
+      validateTeamPageCaptureOptions({
+        source: "fotmob",
+        season: "2025-2026",
+        sofascoreTeamId: "abc",
+        teamId: "9768",
+        teamSlug: "sporting-cp",
+        competitionId: "238",
+        competitionSlug: "liga-portugal",
+        url: "https://www.fotmob.com/teams/9768/stats/sporting-cp/teams",
+        force: false,
+      }),
+    /Invalid sofascoreTeamId/,
+  );
 });

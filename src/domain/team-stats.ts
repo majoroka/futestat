@@ -87,6 +87,7 @@ export interface TeamStatsIndexEntry {
   season: string;
   competitionId: string;
   competitionSlug: string;
+  sofascoreTeamId: string | null;
   teamId: string;
   teamSlug: string;
   jsonPath: string;

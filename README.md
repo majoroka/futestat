@@ -344,7 +344,7 @@ npm run publish:fixtures-data
 Primeiro comando manual já operacional para estatísticas de equipa:
 
 ```bash
-npm run capture:team-page -- --source=fotmob --season=2025-2026 --competition-id=238 --competition-slug=liga-portugal --team-id=9768 --team-slug=sporting-cp --url=https://www.fotmob.com/teams/9768/stats/sporting-cp/teams
+npm run capture:team-page -- --source=fotmob --season=2025-2026 --sofascore-team-id=3006 --competition-id=238 --competition-slug=liga-portugal --team-id=9768 --team-slug=sporting-cp --url=https://www.fotmob.com/teams/9768/stats/sporting-cp/teams
 npm run parse:fotmob-team-stats -- --input=raw/team-pages/fotmob/2025-2026/238-liga-portugal/9768-sporting-cp.html
 ```
 
@@ -353,6 +353,7 @@ Estes comandos:
 - lêem HTML bruto já guardado localmente
 - normaliza `team_stats_season.json` em `data/team-stats/fotmob/...`
 - atualizam os índices `raw/team-pages/manifest.json` e `data/team-stats/fotmob/index.json`
+- quando `--sofascore-team-id` é fornecido, deixam também uma ligação canónica para casar a equipa no `match_view` sem depender apenas do slug
 
 O segundo parser manual já operacional é:
 

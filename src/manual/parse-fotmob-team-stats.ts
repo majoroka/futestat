@@ -10,6 +10,7 @@ interface CliOptions {
   season?: string;
   competitionId?: string;
   competitionSlug?: string;
+  sofascoreTeamId?: string;
   teamId?: string;
   teamSlug?: string;
   force: boolean;
@@ -45,6 +46,7 @@ async function main(): Promise<void> {
     seasonFs: parserResult.seasonFs,
     competitionId: parserResult.competitionId,
     competitionSlug: parserResult.competitionSlug,
+    sofascoreTeamId: options.sofascoreTeamId ?? null,
     teamId: parserResult.teamId,
     teamSlug: parserResult.teamSlug,
     parsedAtUtc,
@@ -61,6 +63,7 @@ async function main(): Promise<void> {
         season: parserResult.seasonFs,
         competitionId: parserResult.competitionId,
         competitionSlug: parserResult.competitionSlug,
+        sofascoreTeamId: options.sofascoreTeamId ?? null,
         teamId: parserResult.teamId,
         teamSlug: parserResult.teamSlug,
         availabilityStatus: parserResult.snapshot.availability.status,
@@ -95,6 +98,9 @@ function parseCliOptions(argv: string[]): CliOptions {
         break;
       case "--competition-slug":
         options.competitionSlug = requireValue(rawValue, flag);
+        break;
+      case "--sofascore-team-id":
+        options.sofascoreTeamId = requireValue(rawValue, flag);
         break;
       case "--team-id":
         options.teamId = requireValue(rawValue, flag);
@@ -155,6 +161,7 @@ Options:
   --season=YYYY-YYYY
   --competition-id=<id>
   --competition-slug=<slug>
+  --sofascore-team-id=<id>
   --team-id=<id>
   --team-slug=<slug>
   --force=true|false

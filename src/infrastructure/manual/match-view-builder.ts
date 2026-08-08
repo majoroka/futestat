@@ -191,29 +191,31 @@ async function resolveTeamStats(
   }
 
   const teamName = side === "home" ? fixture.homeTeamName : fixture.awayTeamName;
+  const fixtureTeamId = side === "home" ? fixture.homeTeamId : fixture.awayTeamId;
   const teamToken = normalizeTeamToken(teamName);
+  const exactCandidates = index.entries
+    .filter((entry) => entry.competitionId === fixture.competitionId)
+    .filter((entry) => fixtureTeamId && entry.sofascoreTeamId === fixtureTeamId)
+    .sort((left, right) => comparePreferredSeason(left.season, right.season, preferredSeasonFs));
+
+  const exactMatch = await resolveFirstAvailableSource<TeamStatsIndexEntry, TeamStatsSeasonSnapshot>(
+    repoRoot,
+    exactCandidates,
+    "sofascoreTeamId",
+  );
+  if (exactMatch.snapshot) {
+    return exactMatch;
+  }
+
   const candidates = index.entries
     .filter((entry) => entry.competitionId === fixture.competitionId)
     .filter((entry) => matchesTeamReference(teamToken, entry.teamSlug))
     .sort((left, right) => comparePreferredSeason(left.season, right.season, preferredSeasonFs));
-
-  const entry = candidates[0] ?? null;
-  if (!entry) {
-    return unavailableSource();
-  }
-
-  const absolutePath = path.resolve(repoRoot, entry.jsonPath);
-  const snapshot = await readJsonOptional<TeamStatsSeasonSnapshot>(absolutePath);
-  if (!snapshot) {
-    return unavailableSource();
-  }
-
-  return {
-    entry,
-    snapshot,
-    path: toProjectRelativePath(repoRoot, absolutePath),
-    matchedBy: "teamSlug",
-  };
+  return resolveFirstAvailableSource<TeamStatsIndexEntry, TeamStatsSeasonSnapshot>(
+    repoRoot,
+    candidates,
+    "teamSlug",
+  );
 }
 
 async function resolveTeamContext(
@@ -228,28 +230,29 @@ async function resolveTeamContext(
   }
 
   const teamName = side === "home" ? fixture.homeTeamName : fixture.awayTeamName;
+  const fixtureTeamId = side === "home" ? fixture.homeTeamId : fixture.awayTeamId;
   const teamToken = normalizeTeamToken(teamName);
+  const exactCandidates = index.entries
+    .filter((entry) => fixtureTeamId && entry.sofascoreTeamId === fixtureTeamId)
+    .sort((left, right) => comparePreferredSeason(left.season, right.season, preferredSeasonFs));
+
+  const exactMatch = await resolveFirstAvailableSource<TeamContextIndexEntry, TeamContextSnapshot>(
+    repoRoot,
+    exactCandidates,
+    "sofascoreTeamId",
+  );
+  if (exactMatch.snapshot) {
+    return exactMatch;
+  }
+
   const candidates = index.entries
     .filter((entry) => matchesTeamReference(teamToken, entry.teamSlug))
     .sort((left, right) => comparePreferredSeason(left.season, right.season, preferredSeasonFs));
-
-  const entry = candidates[0] ?? null;
-  if (!entry) {
-    return unavailableSource();
-  }
-
-  const absolutePath = path.resolve(repoRoot, entry.jsonPath);
-  const snapshot = await readJsonOptional<TeamContextSnapshot>(absolutePath);
-  if (!snapshot) {
-    return unavailableSource();
-  }
-
-  return {
-    entry,
-    snapshot,
-    path: toProjectRelativePath(repoRoot, absolutePath),
-    matchedBy: "teamSlug",
-  };
+  return resolveFirstAvailableSource<TeamContextIndexEntry, TeamContextSnapshot>(
+    repoRoot,
+    candidates,
+    "teamSlug",
+  );
 }
 
 function buildTeamBlock(params: {
@@ -414,6 +417,33 @@ function sourceRefFromResolved<TEntry, TSnapshot>(
     path: source.path,
     matchedBy: source.matchedBy,
   };
+}
+
+async function resolveFirstAvailableSource<
+  TEntry extends { jsonPath: string },
+  TSnapshot,
+>(
+  repoRoot: string,
+  candidates: TEntry[],
+  matchedBy: string,
+): Promise<ResolvedSource<TEntry, TSnapshot>> {
+  for (const entry of candidates) {
+    const absolutePath = path.resolve(repoRoot, entry.jsonPath);
+    const snapshot = await readJsonOptional<TSnapshot>(absolutePath);
+
+    if (!snapshot) {
+      continue;
+    }
+
+    return {
+      entry,
+      snapshot,
+      path: toProjectRelativePath(repoRoot, absolutePath),
+      matchedBy,
+    };
+  }
+
+  return unavailableSource();
 }
 
 function unavailableSource<TEntry = never, TSnapshot = never>(): ResolvedSource<TEntry, TSnapshot> {

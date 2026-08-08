@@ -114,6 +114,7 @@ export interface TeamContextSnapshot {
 export interface TeamContextIndexEntry {
   season: string;
   countrySlug: string;
+  sofascoreTeamId: string | null;
   teamId: string;
   teamSlug: string;
   jsonPath: string;

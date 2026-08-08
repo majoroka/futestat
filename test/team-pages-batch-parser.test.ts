@@ -41,6 +41,7 @@ test("parseAllCapturedTeamPages processes both sources from capture manifest", a
           {
             source: "fotmob",
             season: "2025-2026",
+            sofascoreTeamId: "8650",
             teamId: "8650",
             teamSlug: "liverpool",
             competitionId: "17",
@@ -53,6 +54,7 @@ test("parseAllCapturedTeamPages processes both sources from capture manifest", a
           {
             source: "soccer-rating",
             season: "2025-2026",
+            sofascoreTeamId: "3006",
             teamId: "1076",
             teamSlug: "benfica-lisboa",
             competitionId: null,
@@ -112,6 +114,19 @@ test("parseAllCapturedTeamPages processes both sources from capture manifest", a
 
   assert.equal(statsJson.team.id, "8650");
   assert.equal(contextJson.team.id, "1076");
+
+  const statsIndex = JSON.parse(
+    await readFile(path.join(repoRoot, "data", "team-stats", "fotmob", "index.json"), "utf8"),
+  );
+  const contextIndex = JSON.parse(
+    await readFile(
+      path.join(repoRoot, "data", "team-context", "soccer-rating", "index.json"),
+      "utf8",
+    ),
+  );
+
+  assert.equal(statsIndex.entries[0].sofascoreTeamId, "8650");
+  assert.equal(contextIndex.entries[0].sofascoreTeamId, "3006");
 });
 
 function buildFotmobHtml(): string {

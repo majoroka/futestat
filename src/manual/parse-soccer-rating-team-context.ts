@@ -9,6 +9,7 @@ interface CliOptions {
   output?: string;
   season?: string;
   countrySlug?: string;
+  sofascoreTeamId?: string;
   teamId?: string;
   teamSlug?: string;
   force: boolean;
@@ -42,6 +43,7 @@ async function main(): Promise<void> {
     sourceHtmlPath: inputPath,
     seasonFs: parserResult.seasonFs,
     countrySlug: parserResult.countrySlug,
+    sofascoreTeamId: options.sofascoreTeamId ?? null,
     teamId: parserResult.teamId,
     teamSlug: parserResult.teamSlug,
     parsedAtUtc,
@@ -57,6 +59,7 @@ async function main(): Promise<void> {
         indexPath: writeResult.indexPath,
         season: parserResult.seasonFs,
         countrySlug: parserResult.countrySlug,
+        sofascoreTeamId: options.sofascoreTeamId ?? null,
         teamId: parserResult.teamId,
         teamSlug: parserResult.teamSlug,
         availabilityStatus: parserResult.snapshot.availability.status,
@@ -88,6 +91,9 @@ function parseCliOptions(argv: string[]): CliOptions {
         break;
       case "--country-slug":
         options.countrySlug = requireValue(rawValue, flag);
+        break;
+      case "--sofascore-team-id":
+        options.sofascoreTeamId = requireValue(rawValue, flag);
         break;
       case "--team-id":
         options.teamId = requireValue(rawValue, flag);
@@ -147,6 +153,7 @@ Options:
   --output=<path-json>
   --season=YYYY-YYYY
   --country-slug=<slug>
+  --sofascore-team-id=<id>
   --team-id=<id>
   --team-slug=<slug>
   --force=true|false

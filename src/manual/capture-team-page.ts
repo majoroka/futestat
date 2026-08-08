@@ -54,6 +54,7 @@ async function main(): Promise<void> {
       {
         source: options.source,
         season: options.season,
+        sofascoreTeamId: options.sofascoreTeamId ?? null,
         teamId: options.teamId,
         teamSlug: options.teamSlug,
         htmlPath,
@@ -85,6 +86,9 @@ function parseCliOptions(argv: string[]): TeamPageCaptureOptions {
         break;
       case "--season":
         options.season = requireValue(rawValue, flag);
+        break;
+      case "--sofascore-team-id":
+        options.sofascoreTeamId = requireValue(rawValue, flag);
         break;
       case "--team-id":
         options.teamId = requireValue(rawValue, flag);
@@ -154,11 +158,12 @@ function parseBoolean(value: string | undefined, flag: string): boolean {
 function printHelp(): void {
   console.log(`
 Usage:
-  npm run capture:team-page -- --source=fotmob --season=2025-2026 --competition-id=238 --competition-slug=liga-portugal --team-id=9768 --team-slug=sporting-cp --url=https://www.fotmob.com/teams/9768/stats/sporting-cp/teams
+  npm run capture:team-page -- --source=fotmob --season=2025-2026 --sofascore-team-id=3006 --competition-id=238 --competition-slug=liga-portugal --team-id=9768 --team-slug=sporting-cp --url=https://www.fotmob.com/teams/9768/stats/sporting-cp/teams
 
 Options:
   --source=fotmob|soccer-rating
   --season=YYYY-YYYY
+  --sofascore-team-id=<id>       Optional but recommended for exact team linking
   --team-id=<id>
   --team-slug=<slug>
   --url=<url>

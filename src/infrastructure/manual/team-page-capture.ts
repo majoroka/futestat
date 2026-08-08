@@ -8,6 +8,7 @@ import type {
 export interface TeamPageCaptureOptions {
   source: TeamPageCaptureSource;
   season: string;
+  sofascoreTeamId?: string;
   teamId: string;
   teamSlug: string;
   url: string;
@@ -25,6 +26,12 @@ export function validateTeamPageCaptureOptions(options: TeamPageCaptureOptions):
 
   if (!options.teamId.trim()) {
     throw new Error("teamId is required.");
+  }
+
+  if (options.sofascoreTeamId !== undefined && !/^\d+$/.test(options.sofascoreTeamId)) {
+    throw new Error(
+      `Invalid sofascoreTeamId "${options.sofascoreTeamId}". Expected numeric Sofascore team id.`,
+    );
   }
 
   if (!isSafeSlug(options.teamSlug)) {
@@ -90,6 +97,7 @@ export function buildTeamPageManifestEntry(params: {
   return {
     source: options.source,
     season: options.season,
+    sofascoreTeamId: options.sofascoreTeamId ?? null,
     teamId: options.teamId,
     teamSlug: options.teamSlug,
     competitionId: options.source === "fotmob" ? String(options.competitionId) : null,

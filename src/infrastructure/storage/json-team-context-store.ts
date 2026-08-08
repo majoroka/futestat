@@ -13,6 +13,7 @@ export interface WriteTeamContextSnapshotParams {
   sourceHtmlPath: string;
   seasonFs: string;
   countrySlug: string;
+  sofascoreTeamId: string | null;
   teamId: string;
   teamSlug: string;
   parsedAtUtc: string;
@@ -39,6 +40,7 @@ export class JsonTeamContextStore {
     await this.updateIndex(indexPath, {
       season: params.seasonFs,
       countrySlug: params.countrySlug,
+      sofascoreTeamId: params.sofascoreTeamId,
       teamId: params.teamId,
       teamSlug: params.teamSlug,
       jsonPath: toProjectRelativePath(this.repoRoot, params.outputPath),

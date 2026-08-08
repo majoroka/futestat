@@ -138,6 +138,7 @@ Entregáveis já introduzidos:
 - validação mínima cruzada entre manifestos, HTML bruto e JSON normalizados
 - deteção inicial de estados `not_started`, `partial`, `available`, `unavailable` e `archived`
 - composição derivada `match_view.json` a partir de fixture, detalhe, classificação e dados manuais de equipa
+- ligação opcional por `sofascoreTeamId` nos dados manuais para resolver equipas no `match_view` com menos dependência de slugs aproximados
 
 ## Critérios de qualidade antes de avançar
 

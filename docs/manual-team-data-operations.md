@@ -141,6 +141,13 @@ Manter o ID nativo da fonte:
 
 Nao assumir que os IDs sao partilhados entre fontes.
 
+Quando existir mapeamento manual confiavel, guardar tambem:
+- `sofascoreTeamId`
+
+Uso:
+- ligar o HTML/JSON manual a uma equipa concreta dos fixtures
+- reduzir ambiguidades de slug e pequenas diferencas de nomenclatura
+
 ### Competicao
 
 Para `FotMob`, usar:
@@ -165,6 +172,7 @@ Estes comandos sao o contrato desejado para a futura implementacao.
 npm run capture:team-page -- \
   --source=fotmob \
   --season=2025-2026 \
+  --sofascore-team-id=3006 \
   --competition-id=238 \
   --competition-slug=liga-portugal \
   --team-id=9768 \
@@ -184,6 +192,7 @@ raw/team-pages/fotmob/2025-2026/238-liga-portugal/9768-sporting-cp.html
 npm run capture:team-page -- \
   --source=soccer-rating \
   --season=2025-2026 \
+  --sofascore-team-id=3006 \
   --country-slug=portugal \
   --team-id=1076 \
   --team-slug=benfica-lisboa \
@@ -200,6 +209,7 @@ raw/team-pages/soccer-rating/2025-2026/portugal/1076-benfica-lisboa.html
 
 ```bash
 npm run parse:fotmob-team-stats -- \
+  --sofascore-team-id=3006 \
   --input="raw/team-pages/fotmob/2025-2026/238-liga-portugal/9768-sporting-cp.html"
 ```
 
@@ -213,6 +223,7 @@ data/team-stats/fotmob/2025-2026/238-liga-portugal/9768-sporting-cp.json
 
 ```bash
 npm run parse:soccer-rating-team-context -- \
+  --sofascore-team-id=3006 \
   --input="raw/team-pages/soccer-rating/2025-2026/portugal/1076-benfica-lisboa.html"
 ```
 
