@@ -33,6 +33,8 @@ export const DEFAULT_ALLOWED_COMPETITIONS: AllowedCompetition[] = [
   { countryName: "Germany", competitionName: "Bundesliga", competitionId: "35" },
   { countryName: "France", competitionName: "Ligue 1", competitionId: "34" },
   { countryName: "Portugal", competitionName: "Liga Portugal", competitionId: "238" },
+  { countryName: "Portugal", competitionName: "Liga Portugal 2", competitionId: "239" },
+  { countryName: "Portugal", competitionName: "Liga 3", competitionId: "17101" },
   { countryName: "Netherlands", competitionName: "Eredivisie", competitionId: "37" },
   { countryName: "Belgium", competitionName: "Pro League", competitionId: "40" },
   { countryName: "Scotland", competitionName: "Premiership", competitionId: "36" },

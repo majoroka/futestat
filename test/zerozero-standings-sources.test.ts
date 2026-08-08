@@ -53,3 +53,23 @@ test("findCompetitionStandingsSource exposes competition-specific phase rule pro
   assert.ok(scotlandSource?.phaseRules?.some((rule) => rule.ruleProfileId === "championship-round"));
   assert.ok(argentinaSource?.phaseRules?.some((rule) => rule.ruleProfileId === "arg-group-stage"));
 });
+
+test("findCompetitionStandingsSource resolves Portugal lower divisions", () => {
+  const secondTierSource = findCompetitionStandingsSource({
+    competitionId: "239",
+    competitionName: "Liga Portugal 2",
+    countryName: "Portugal",
+  });
+  const leagueThreeSource = findCompetitionStandingsSource({
+    competitionId: "17101",
+    competitionName: "Liga 3",
+    countryName: "Portugal",
+  });
+
+  assert.equal(
+    secondTierSource?.zerozeroUrl,
+    "https://www.zerozero.pt/competicao/segunda-liga-portuguesa",
+  );
+  assert.equal(leagueThreeSource?.zerozeroUrl, "https://www.zerozero.pt/competicao/liga-3");
+  assert.ok(leagueThreeSource?.phaseRules?.some((rule) => rule.ruleProfileId === "group-stage"));
+});

@@ -15,6 +15,8 @@ test("buildAllowedCompetitionIdSet returns the curated defaults when env is abse
   assert.equal(ids.has("679"), true);
   assert.equal(ids.has("17015"), true);
   assert.equal(ids.has("238"), true);
+  assert.equal(ids.has("239"), true);
+  assert.equal(ids.has("17101"), true);
   assert.equal(ids.has("325"), true);
   assert.equal(ids.has("203"), true);
 });

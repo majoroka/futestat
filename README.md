@@ -171,6 +171,8 @@ Nesta fase inclui:
 - `35` Bundesliga
 - `34` Ligue 1
 - `238` Liga Portugal
+- `239` Liga Portugal 2
+- `17101` Liga 3
 - `37` Eredivisie
 - `40` Pro League
 - `36` Premiership

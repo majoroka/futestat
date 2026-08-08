@@ -194,6 +194,37 @@ const knockoutEuropeanRules: CompetitionStandingsPhaseRule[] = [
   },
 ];
 
+const portugalLeagueThreeRules: CompetitionStandingsPhaseRule[] = [
+  {
+    matchPhaseNames: ["1 fase", "1a fase", "1. fase", "1ª fase", "fase regular"],
+    matchTableNames: ["serie a", "série a", "serie b", "série b", "grupo a", "grupo b"],
+    status: "ready",
+    phaseNotes: [
+      "Tabela base da primeira fase por séries.",
+      "Nesta fase o Futestat mostra a classificação do grupo ou zona em que o jogo se insere.",
+    ],
+    ruleProfileId: "group-stage",
+  },
+  {
+    matchPhaseNames: ["apuramento de campeao", "apuramento de campeão", "championship"],
+    matchTableNames: ["apuramento de campeao", "apuramento de campeão", "championship"],
+    status: "ready",
+    phaseNotes: [
+      "Tabela da fase de apuramento de campeão e subida.",
+    ],
+    ruleProfileId: "championship-round",
+  },
+  {
+    matchPhaseNames: ["manutencao", "manutenção", "relegation"],
+    matchTableNames: ["manutencao", "manutenção", "serie 1", "série 1", "serie 2", "série 2", "relegation"],
+    status: "ready",
+    phaseNotes: [
+      "Tabela da fase de manutenção ou despromoção.",
+    ],
+    ruleProfileId: "relegation-round",
+  },
+];
+
 export const DEFAULT_COMPETITION_STANDINGS_SOURCES: CompetitionStandingsSource[] = [
   { competitionId: "7", competitionName: "UEFA Champions League", countryName: "Europe", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-dos-campeoes", mode: "league_phase", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição europeia com fases distintas ao longo da época."], phaseRules: knockoutEuropeanRules },
   { competitionId: "7", competitionName: "UEFA Champions League, Qualification", countryName: "Europe", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-dos-campeoes-qualificacao-", mode: "league_phase", status: "needs_phase_rules", enabled: true, competitionAliases: ["UEFA Champions League"], defaultPhaseNotes: ["Qualificação europeia a eliminar."], phaseRules: knockoutEuropeanRules },
@@ -207,6 +238,8 @@ export const DEFAULT_COMPETITION_STANDINGS_SOURCES: CompetitionStandingsSource[]
   { competitionId: "35", competitionName: "Bundesliga", countryName: "Germany", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-alema", mode: "single_table", status: "ready", enabled: true },
   { competitionId: "34", competitionName: "Ligue 1", countryName: "France", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-francesa", mode: "single_table", status: "ready", enabled: true },
   { competitionId: "238", competitionName: "Liga Portugal", countryName: "Portugal", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-portuguesa", mode: "single_table", status: "ready", enabled: true },
+  { competitionId: "239", competitionName: "Liga Portugal 2", countryName: "Portugal", zerozeroUrl: "https://www.zerozero.pt/competicao/segunda-liga-portuguesa", mode: "single_table", status: "ready", enabled: true, defaultPhaseNotes: ["Tabela corrida da II Liga portuguesa."] },
+  { competitionId: "17101", competitionName: "Liga 3", countryName: "Portugal", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-3", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fases e séries distintas ao longo da época."], phaseRules: portugalLeagueThreeRules },
   { competitionId: "37", competitionName: "Eredivisie", countryName: "Netherlands", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-neerlandesa", mode: "single_table", status: "ready", enabled: true },
   { competitionId: "40", competitionName: "Pro League", countryName: "Belgium", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-belga", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular e múltiplos playoffs finais."], phaseRules: belgianPlayoffRules },
   { competitionId: "36", competitionName: "Premiership", countryName: "Scotland", zerozeroUrl: "https://www.zerozero.pt/competicao/liga-escocesa", mode: "regular_plus_playoffs", status: "needs_phase_rules", enabled: true, defaultPhaseNotes: ["Competição com fase regular e divisão final entre top-6 e bottom-6."], phaseRules: scottishSplitRules },
