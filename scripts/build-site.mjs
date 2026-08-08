@@ -168,9 +168,6 @@ function renderHomePage({ projectName, snapshot }) {
         <div class="workspace">
           <section class="fixtures-pane">
             <h1>Janela de jogos</h1>
-            <p class="panel__intro">
-              A lista abaixo é gerada a partir do snapshot público de fixtures, com uma janela deslizante de resultados passados e jogos futuros.
-            </p>
             <div class="fixtures-toolbar">
               <div class="fixtures-toolbar__dates" data-date-filters></div>
               <p class="state-copy" data-fixture-state>
