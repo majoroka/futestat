@@ -171,7 +171,6 @@ function renderHomePage({ projectName, snapshot }) {
             <p class="panel__intro">
               A lista abaixo é gerada a partir do snapshot público de fixtures, com uma janela deslizante de resultados passados e jogos futuros.
             </p>
-            <section class="metric-grid" data-fixture-summary></section>
             <div class="fixtures-toolbar">
               <div class="fixtures-toolbar__dates" data-date-filters></div>
               <p class="state-copy" data-fixture-state>
@@ -192,6 +191,13 @@ function renderHomePage({ projectName, snapshot }) {
       </main>
 
       <footer class="footer">
+        <span data-fixture-footer-meta>
+          Jogos visíveis: ${escapeHtml(String(snapshot.visibleFixtureCount ?? snapshot.fixtureCount ?? 0))} · Janela ativa: ${escapeHtml(
+            snapshot.datesIncluded.length > 1
+              ? `${snapshot.datesIncluded[0]} → ${snapshot.datesIncluded.at(-1)}`
+              : snapshot.datesIncluded[0] ?? "Sem datas",
+          )} · Snapshot: ${escapeHtml(formatDateTime(snapshot.scrapedAtUtc))}
+        </span>
         <span>Snapshot gravado: ${escapeHtml(formatDateTime(snapshot.scrapedAtUtc))}</span>
         <span>Fonte: ${escapeHtml(snapshot.source ?? "desconhecida")}</span>
       </footer>

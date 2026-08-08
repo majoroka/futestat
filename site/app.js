@@ -1,11 +1,11 @@
 import { getStandingsZonePreset } from "./standings-zone-presets.js";
 import { buildStandingsTableLayout } from "./standings-table-groups.js";
 
-const summaryEl = document.querySelector("[data-fixture-summary]");
 const datesEl = document.querySelector("[data-date-filters]");
 const groupsEl = document.querySelector("[data-fixture-groups]");
 const stateEl = document.querySelector("[data-fixture-state]");
 const detailEl = document.querySelector("[data-fixture-detail]");
+const footerMetaEl = document.querySelector("[data-fixture-footer-meta]");
 const displayTimeZone = "Europe/Lisbon";
 
 const formatter = new Intl.DateTimeFormat("pt-PT", {
@@ -58,7 +58,7 @@ async function bootstrap() {
 }
 
 function renderSummary() {
-  if (!state.snapshot || !summaryEl) {
+  if (!state.snapshot || !footerMetaEl) {
     return;
   }
 
@@ -67,11 +67,11 @@ function renderSummary() {
       ? `${state.snapshot.datesIncluded[0]} → ${state.snapshot.datesIncluded.at(-1)}`
       : state.snapshot.datesIncluded[0] ?? "Sem datas";
 
-  summaryEl.innerHTML = [
-    metricCard("Jogos visíveis", String(state.snapshot.visibleFixtureCount)),
-    metricCard("Janela ativa", windowLabel),
-    metricCard("Snapshot", formatTimestamp(state.snapshot.scrapedAtUtc)),
-  ].join("");
+  footerMetaEl.textContent = [
+    `Jogos visíveis: ${state.snapshot.visibleFixtureCount}`,
+    `Janela ativa: ${windowLabel}`,
+    `Snapshot: ${formatTimestamp(state.snapshot.scrapedAtUtc)}`,
+  ].join(" · ");
 }
 
 function renderDateFilters() {
@@ -1718,15 +1718,6 @@ function renderError(message) {
   if (detailEl) {
     detailEl.innerHTML = "";
   }
-}
-
-function metricCard(label, value) {
-  return `
-    <article class="metric-card">
-      <p>${escapeHtml(label)}</p>
-      <strong>${escapeHtml(value)}</strong>
-    </article>
-  `;
 }
 
 function selectDate(date) {
