@@ -1503,7 +1503,7 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 16px 18px;
-  background: linear-gradient(180deg, rgba(248, 250, 253, 0.98), rgba(239, 243, 248, 0.98));
+  background: linear-gradient(180deg, rgba(236, 244, 255, 0.98), rgba(219, 233, 255, 0.98));
   color: var(--ink);
   cursor: pointer;
 }
