@@ -3346,19 +3346,19 @@
       "sources": {
         "fotmob": {
           "status": "pending",
-          "sourceTeamId": null,
+          "sourceTeamId": "9772",
           "teamSlug": "benfica",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": null,
+          "url": "https://www.fotmob.com/pt-PT/teams/9772/stats/benfica/teams",
           "notes": null
         },
         "soccerRating": {
           "status": "pending",
-          "sourceTeamId": null,
+          "sourceTeamId":"1076",
           "teamSlug": "benfica",
           "countrySlug": "portugal",
-          "url": null,
+          "url":"https://www.soccer-rating.com/Benfica-Lisboa/1076/",
           "notes": null
         }
       }
