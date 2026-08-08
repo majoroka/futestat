@@ -82,6 +82,7 @@ Entregáveis já introduzidos:
 - cartões internos do `Detalhes` e painéis de equipa afinados com hierarquia tipográfica mais clara e densidade visual mais controlada
 - separadores `Estatísticas`, `Plantel` e `Histórico` alinhados visualmente com cabeçalhos, listas e leitura mobile mais consistentes
 - estados de loading, indisponibilidade e links externos unificados no painel direito, com micro-UX mais consistente entre separadores
+- separador `Classificação` refinado com meta em chips, legenda/notas tituladas e acordeão de tabelas secundárias mais claro
 
 Pendências desta fase:
 - seletor UX dedicado para `passado / hoje / futuro`

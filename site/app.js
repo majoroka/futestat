@@ -969,13 +969,12 @@ function renderFixtureHistoryTab(fixture, matchViewState) {
 
 function renderCompetitionStandingsSnapshot(snapshot, fixture) {
   const layout = buildStandingsTableLayout(snapshot.tables, fixture);
-  const meta = [
+  const metaItems = [
     snapshot.phaseName ? `Fase: ${snapshot.phaseName}` : null,
     snapshot.mode !== "single_table" ? formatStandingsMode(snapshot.mode) : null,
     snapshot.status !== "ready" ? formatStandingsStatus(snapshot.status) : null,
   ]
-    .filter(Boolean)
-    .join(" · ");
+    .filter(Boolean);
 
   return `
     <div class="fixture-detail__tab-panel fixture-detail__standings">
@@ -989,7 +988,7 @@ function renderCompetitionStandingsSnapshot(snapshot, fixture) {
           "Fonte Zerozero",
         ],
       })}
-      ${meta ? `<p class="fixture-detail__note">${escapeHtml(meta)}</p>` : ""}
+      ${renderStandingsMeta(metaItems)}
       ${renderStandingsPhaseNotes(snapshot.phaseNotes)}
       ${layout.summary ? `<p class="fixture-detail__standings-context">${escapeHtml(layout.summary)}</p>` : ""}
       ${layout.primaryTables
@@ -1021,20 +1020,19 @@ function renderCompetitionStandingsSnapshot(snapshot, fixture) {
 }
 
 function renderMatchViewStandingsTable(standings, fixture) {
-  const meta = [
+  const metaItems = [
     standings.phaseName ? `Fase: ${standings.phaseName}` : null,
     standings.tableType ? formatStandingsMode(standings.tableType) : null,
     standings.sourceStatus !== "ready" ? formatStandingsStatus(standings.sourceStatus) : null,
   ]
-    .filter(Boolean)
-    .join(" · ");
+    .filter(Boolean);
   const title = [standings.tableName, formatStandingType(standings.tableType)]
     .filter(Boolean)
     .join(" · ");
 
   return `
     <section class="fixture-detail__standings-table">
-      ${meta ? `<p class="fixture-detail__note">${escapeHtml(meta)}</p>` : ""}
+      ${renderStandingsMeta(metaItems)}
       ${renderStandingsPhaseNotes(standings.phaseNotes)}
       ${
         title
@@ -1107,7 +1105,10 @@ function renderSecondaryStandingsTables(tables, fixture, standingsContext) {
   return `
     <details class="fixture-detail__standings-more">
       <summary class="fixture-detail__standings-more-summary">
-        <span>Outras tabelas desta fase</span>
+        <span class="fixture-detail__standings-more-summary-copy">
+          <strong class="fixture-detail__standings-more-title">Outras tabelas desta fase</strong>
+          <span class="fixture-detail__standings-more-subtitle">Grupos, quadros ou rankings adicionais da mesma competição.</span>
+        </span>
         <span class="fixture-detail__standings-more-count">${escapeHtml(String(tables.length))}</span>
       </summary>
       <div class="fixture-detail__standings-more-body">
@@ -1184,7 +1185,9 @@ function renderStandingsLegend(standingsContext, tables) {
   }
 
   return `
-    <div class="fixture-detail__standings-legend">
+    <section class="fixture-detail__standings-legend-block">
+      <h3 class="fixture-detail__standings-section-title">Legenda da fase</h3>
+      <div class="fixture-detail__standings-legend">
       ${zones
         .map(
           (zone) => `
@@ -1195,7 +1198,8 @@ function renderStandingsLegend(standingsContext, tables) {
           `,
         )
         .join("")}
-    </div>
+      </div>
+    </section>
   `;
 }
 
@@ -1205,7 +1209,9 @@ function renderStandingsPhaseNotes(notes) {
   }
 
   return `
-    <div class="fixture-detail__standings-notes">
+    <section class="fixture-detail__standings-notes-block">
+      <h3 class="fixture-detail__standings-section-title">Notas da fase</h3>
+      <div class="fixture-detail__standings-notes">
       ${notes
         .map(
           (note) => `
@@ -1213,6 +1219,20 @@ function renderStandingsPhaseNotes(notes) {
           `,
         )
         .join("")}
+      </div>
+    </section>
+  `;
+}
+
+function renderStandingsMeta(items) {
+  const visibleItems = Array.isArray(items) ? items.filter(Boolean) : [];
+  if (visibleItems.length === 0) {
+    return "";
+  }
+
+  return `
+    <div class="fixture-detail__standings-meta">
+      ${visibleItems.map((item) => `<span class="fixture-detail__state-badge">${escapeHtml(item)}</span>`).join("")}
     </div>
   `;
 }

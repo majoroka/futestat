@@ -1006,6 +1006,12 @@ a {
   gap: 16px;
 }
 
+.fixture-detail__standings-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 .fixture-detail__standings-table {
   border-radius: 18px;
   border: 1px solid rgba(23, 32, 51, 0.08);
@@ -1163,6 +1169,21 @@ a {
   padding: 2px 4px 0;
 }
 
+.fixture-detail__standings-legend-block,
+.fixture-detail__standings-notes-block {
+  display: grid;
+  gap: 10px;
+}
+
+.fixture-detail__standings-section-title {
+  margin: 0;
+  color: #22314d;
+  font-size: 0.76rem;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .fixture-detail__standings-notes {
   display: grid;
   gap: 8px;
@@ -1234,6 +1255,23 @@ a {
   cursor: pointer;
   font-size: 0.88rem;
   font-weight: 600;
+}
+
+.fixture-detail__standings-more-summary-copy {
+  display: grid;
+  gap: 4px;
+}
+
+.fixture-detail__standings-more-title {
+  font-size: 0.88rem;
+  line-height: 1.2;
+}
+
+.fixture-detail__standings-more-subtitle {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.35;
 }
 
 .fixture-detail__standings-more-summary::-webkit-details-marker {
@@ -1912,6 +1950,10 @@ a {
   .fixture-detail__squad-panel-badges {
     justify-content: flex-start;
   }
+
+  .fixture-detail__standings-more-summary {
+    align-items: flex-start;
+  }
 }
 
 @media (max-width: 640px) {
@@ -1987,6 +2029,18 @@ a {
   .fixture-detail__history-meta,
   .fixture-detail__history-pill {
     font-size: 0.72rem;
+  }
+
+  .fixture-detail__standings-more-summary {
+    padding: 13px 14px;
+  }
+
+  .fixture-detail__standings-more-title {
+    font-size: 0.84rem;
+  }
+
+  .fixture-detail__standings-more-subtitle {
+    font-size: 0.74rem;
   }
 
   .fixture-detail__tabs {
