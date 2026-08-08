@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.456Z",
+  "builtAtUtc": "2026-08-08T18:29:00.256Z",
   "match": {
     "id": "16560183",
     "date": "2026-08-08",
@@ -40,35 +40,100 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/38744/image/small",
       "sourceIds": {
         "sofascore": "38744",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "47535",
+        "soccerRating": "2988"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
+      "overallRating": 1645.26,
+      "nationalRank": 49,
+      "europeRank": 1452,
+      "formLast3": [
+        "L",
+        "D",
+        "W"
+      ],
       "xgFor": null,
       "xgAgainst": null,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": "home_win",
+        "tipLabel": "Bet on (1) CD Mafra (Stake 5/10)",
+        "confidencePct": 50,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.7,
+          "draw": 3.5,
+          "away": 4.1
+        },
+        "fair1X2": null,
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
     "squad": [],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "FC Vilnius",
+        "rating": 1645.37
+      },
+      {
+        "name": "Truro City FC",
+        "rating": 1666.7
+      }
+    ]
   },
   "awayTeam": {
     "identity": {
@@ -77,7 +142,7 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/178312/image/small",
       "sourceIds": {
         "sofascore": "178312",
-        "fotmob": null,
+        "fotmob": "560912",
         "soccerRating": null
       }
     },
@@ -98,10 +163,42 @@
       "oddsMarket": null
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
     "squad": [],
     "history": [],
@@ -135,19 +232,19 @@
       "matchedBy": null
     },
     "homeTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-b/47535-mafra.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-b/560912-vitoria-de-sernache.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "homeTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/2988-cd-mafra.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamContext": {
       "available": false,

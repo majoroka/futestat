@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.484Z",
+  "builtAtUtc": "2026-08-08T18:29:00.300Z",
   "match": {
     "id": "16450739",
     "date": "2026-08-09",
@@ -40,35 +40,440 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/3014/image/small",
       "sourceIds": {
         "sofascore": "3014",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "8348",
+        "soccerRating": "2872"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
-      "xgFor": null,
-      "xgAgainst": null,
+      "overallRating": 1858.91,
+      "nationalRank": 20,
+      "europeRank": 544,
+      "formLast3": [
+        "D",
+        "L",
+        "W"
+      ],
+      "xgFor": 1.6548000574111938,
+      "xgAgainst": 0.44589999318122864,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": "away_win",
+        "tipLabel": "Bet on (2) Sporting Braga (Stake 2/10)",
+        "confidencePct": 20,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [
+          {
+            "player": "Maracas",
+            "status": "injury_or_suspension",
+            "description": null
+          }
+        ],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 6.3,
+        "players": [
+          {
+            "name": "André Ferreira",
+            "position": "GK",
+            "age": null,
+            "apps": 22,
+            "goals": 0,
+            "rating": 4.9
+          },
+          {
+            "name": "Dinis Pinto",
+            "position": "DF",
+            "age": null,
+            "apps": 23,
+            "goals": 1,
+            "rating": 6.3
+          },
+          {
+            "name": "Bondoso Kiko",
+            "position": "DF",
+            "age": null,
+            "apps": 31,
+            "goals": 0,
+            "rating": 6.6
+          },
+          {
+            "name": "Kiko",
+            "position": "DF",
+            "age": null,
+            "apps": 27,
+            "goals": 1,
+            "rating": 5.7
+          },
+          {
+            "name": "Rodri Alonso",
+            "position": "MF",
+            "age": null,
+            "apps": 26,
+            "goals": 3,
+            "rating": 6.1
+          },
+          {
+            "name": "Vasco Sousa",
+            "position": "MF",
+            "age": null,
+            "apps": 9,
+            "goals": 1,
+            "rating": 6.4
+          },
+          {
+            "name": "Mateja Stjepanovic",
+            "position": "MF",
+            "age": null,
+            "apps": 32,
+            "goals": 1,
+            "rating": 6.7
+          },
+          {
+            "name": "Diogo Travassos",
+            "position": "MF",
+            "age": null,
+            "apps": 29,
+            "goals": 5,
+            "rating": 7
+          },
+          {
+            "name": "Alan",
+            "position": "MF",
+            "age": null,
+            "apps": 33,
+            "goals": 5,
+            "rating": 7.4
+          },
+          {
+            "name": "Cedric Teguia",
+            "position": "ST",
+            "age": null,
+            "apps": 21,
+            "goals": 0,
+            "rating": 6.1
+          },
+          {
+            "name": "Landerson",
+            "position": "ST",
+            "age": null,
+            "apps": 29,
+            "goals": 0,
+            "rating": 5.9
+          },
+          {
+            "name": "Caio Secco",
+            "position": "GK",
+            "age": null,
+            "apps": 11,
+            "goals": 0,
+            "rating": 2.7
+          },
+          {
+            "name": "Gilberto Batista",
+            "position": "DF",
+            "age": null,
+            "apps": 28,
+            "goals": 0,
+            "rating": 5.5
+          },
+          {
+            "name": "Afonso Assis",
+            "position": "MF",
+            "age": null,
+            "apps": 18,
+            "goals": 1,
+            "rating": 4.4
+          },
+          {
+            "name": "Yan Maranhao",
+            "position": "ST",
+            "age": null,
+            "apps": 21,
+            "goals": 1,
+            "rating": 4.8
+          },
+          {
+            "name": "Leandro Santos",
+            "position": "DF",
+            "age": null,
+            "apps": 9,
+            "goals": 0,
+            "rating": 5.4
+          },
+          {
+            "name": "Alvaro Martinez",
+            "position": "DF",
+            "age": null,
+            "apps": 15,
+            "goals": 0,
+            "rating": 4.2
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 5,
+          "draw": 3.8,
+          "away": 1.63
+        },
+        "fair1X2": {
+          "home": 8.97,
+          "draw": 4.07,
+          "away": 1.56
+        },
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 1.6548000574111938,
+        "xgDiff": -1.6548000574111938,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 0.44589999318122864,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Mika Mika",
+        "position": null,
+        "age": 35,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.7
+      },
+      {
+        "name": "André Ferreira",
+        "position": "GK",
+        "age": 29,
+        "apps": 22,
+        "goals": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Caio Secco",
+        "position": "GK",
+        "age": 35,
+        "apps": 11,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "Kevyn Monteiro",
+        "position": null,
+        "age": 20,
+        "apps": 10,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Michel",
+        "position": null,
+        "age": 22,
+        "apps": 4,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Dinis Pinto",
+        "position": "DF",
+        "age": 25,
+        "apps": 23,
+        "goals": 1,
+        "rating": 6.3
+      },
+      {
+        "name": "Bondoso Kiko",
+        "position": "DF",
+        "age": 30,
+        "apps": 31,
+        "goals": 0,
+        "rating": 6.6
+      },
+      {
+        "name": "Kiko",
+        "position": "DF",
+        "age": 24,
+        "apps": 27,
+        "goals": 1,
+        "rating": 5.7
+      },
+      {
+        "name": "Gilberto Batista",
+        "position": "DF",
+        "age": 22,
+        "apps": 28,
+        "goals": 0,
+        "rating": 5.5
+      },
+      {
+        "name": "Leandro Santos",
+        "position": "DF",
+        "age": 20,
+        "apps": 9,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Alvaro Martinez",
+        "position": "DF",
+        "age": 24,
+        "apps": 15,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Maracas",
+        "position": null,
+        "age": 32,
+        "apps": 29,
+        "goals": 4,
+        "rating": 6.3
+      },
+      {
+        "name": "Mateja Stjepanovic",
+        "position": "MF",
+        "age": 22,
+        "apps": 32,
+        "goals": 1,
+        "rating": 6.7
+      },
+      {
+        "name": "Diogo Travassos",
+        "position": "MF",
+        "age": 22,
+        "apps": 29,
+        "goals": 5,
+        "rating": 7
+      },
+      {
+        "name": "Afonso Assis",
+        "position": "MF",
+        "age": 19,
+        "apps": 18,
+        "goals": 1,
+        "rating": 4.4
+      },
+      {
+        "name": "Rodri Alonso",
+        "position": "MF",
+        "age": 23,
+        "apps": 26,
+        "goals": 3,
+        "rating": 6.1
+      },
+      {
+        "name": "Vasco Sousa",
+        "position": "MF",
+        "age": 23,
+        "apps": 9,
+        "goals": 1,
+        "rating": 6.4
+      },
+      {
+        "name": "Nile John",
+        "position": null,
+        "age": 23,
+        "apps": 14,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Jimi Gower",
+        "position": null,
+        "age": 21,
+        "apps": 9,
+        "goals": 0,
+        "rating": 1.8
+      },
+      {
+        "name": "Alan",
+        "position": "MF",
+        "age": 26,
+        "apps": 33,
+        "goals": 5,
+        "rating": 7.4
+      },
+      {
+        "name": "Luis Semedo",
+        "position": null,
+        "age": 22,
+        "apps": 21,
+        "goals": 3,
+        "rating": 4
+      },
+      {
+        "name": "Cedric Teguia",
+        "position": "ST",
+        "age": 24,
+        "apps": 21,
+        "goals": 0,
+        "rating": 6.1
+      },
+      {
+        "name": "Landerson",
+        "position": "ST",
+        "age": 19,
+        "apps": 29,
+        "goals": 0,
+        "rating": 5.9
+      },
+      {
+        "name": "Yan Maranhao",
+        "position": "ST",
+        "age": 23,
+        "apps": 21,
+        "goals": 1,
+        "rating": 4.8
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "Farul Constanta",
+        "rating": 1862.93
+      },
+      {
+        "name": "UTA Batrana Doamna",
+        "rating": 1858.56
+      }
+    ]
   },
   "awayTeam": {
     "identity": {
@@ -77,7 +482,7 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/2999/image/small",
       "sourceIds": {
         "sofascore": "2999",
-        "fotmob": null,
+        "fotmob": "10264",
         "soccerRating": null
       }
     },
@@ -86,8 +491,8 @@
       "nationalRank": null,
       "europeRank": null,
       "formLast3": [],
-      "xgFor": null,
-      "xgAgainst": null,
+      "xgFor": 1.6548000574111938,
+      "xgAgainst": 0.44589999318122864,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
@@ -98,10 +503,42 @@
       "oddsMarket": null
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 1.6548000574111938,
+        "xgDiff": -1.6548000574111938,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 0.44589999318122864,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
     "squad": [],
     "history": [],
@@ -388,19 +825,19 @@
       "matchedBy": "competitionId"
     },
     "homeTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/8348-moreirense.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/10264-braga.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "homeTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/2872-moreirense-fc.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamContext": {
       "available": false,

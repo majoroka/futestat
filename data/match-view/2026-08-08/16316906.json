@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.447Z",
+  "builtAtUtc": "2026-08-08T18:29:00.241Z",
   "match": {
     "id": "16316906",
     "date": "2026-08-08",
@@ -40,35 +40,402 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/2397/image/small",
       "sourceIds": {
         "sofascore": "2397",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "10186",
+        "soccerRating": "163"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
+      "overallRating": 1798.65,
+      "nationalRank": 7,
+      "europeRank": 724,
+      "formLast3": [
+        "L",
+        "D",
+        "L"
+      ],
       "xgFor": null,
       "xgAgainst": null,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": "away_win",
+        "tipLabel": "Bet on (2) ZP Sport Podbrezova (Stake 4/10)",
+        "confidencePct": 40,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": [
+          {
+            "name": "Ivan Krajcirik",
+            "position": "GK",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.8
+          },
+          {
+            "name": "Alexander Selecky",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Dominik Kostka",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Daniel Kostl",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.5
+          },
+          {
+            "name": "Tomas Marusin",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 1.3
+          },
+          {
+            "name": "Samuel Lavrincik",
+            "position": "MF",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 2.9
+          },
+          {
+            "name": "Filip Soucek",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.5
+          },
+          {
+            "name": "Vojtech Hranos",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.8
+          },
+          {
+            "name": "Jan Hladik",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 1,
+            "rating": 3.1
+          },
+          {
+            "name": "Matej Koubek",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.3
+          },
+          {
+            "name": "Patrik Jevos",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 1.6
+          },
+          {
+            "name": "David Huska",
+            "position": "GK",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 1.4
+          },
+          {
+            "name": "Adrian Slavik",
+            "position": "DF",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 2
+          },
+          {
+            "name": "Martin Bacik",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.8
+          },
+          {
+            "name": "Adam Tucny",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.2
+          },
+          {
+            "name": "Martin Boda",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 1,
+            "rating": 2.6
+          },
+          {
+            "name": "Marian Chobot",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.3
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 2.55,
+          "draw": 3.3,
+          "away": 2.45
+        },
+        "fair1X2": {
+          "home": 2.97,
+          "draw": 3.82,
+          "away": 2.49
+        },
+        "movementSummary": "home_odds_flat_away_odds_flat"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Ivan Krajcirik",
+        "position": "GK",
+        "age": 26,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "David Huska",
+        "position": "GK",
+        "age": 22,
+        "apps": 0,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Alexander Mojzis",
+        "position": null,
+        "age": 27,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Alexander Selecky",
+        "position": "DF",
+        "age": 23,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Dominik Kostka",
+        "position": "DF",
+        "age": 30,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Daniel Kostl",
+        "position": "DF",
+        "age": 28,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Tomas Marusin",
+        "position": "DF",
+        "age": 21,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Adrian Slavik",
+        "position": "DF",
+        "age": 27,
+        "apps": 0,
+        "goals": 0,
+        "rating": 2
+      },
+      {
+        "name": "Marian Chobot",
+        "position": "MF",
+        "age": 26,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.3
+      },
+      {
+        "name": "Samuel Lavrincik",
+        "position": "MF",
+        "age": 24,
+        "apps": 0,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Filip Soucek",
+        "position": "MF",
+        "age": 25,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.5
+      },
+      {
+        "name": "Oliver Luteran",
+        "position": null,
+        "age": 24,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.7
+      },
+      {
+        "name": "Martin Bacik",
+        "position": "MF",
+        "age": 19,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Jan Hladik",
+        "position": "ST",
+        "age": 32,
+        "apps": 2,
+        "goals": 1,
+        "rating": 3.1
+      },
+      {
+        "name": "Vojtech Hranos",
+        "position": "ST",
+        "age": 20,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Patrik Jevos",
+        "position": "ST",
+        "age": 18,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.6
+      },
+      {
+        "name": "Adam Tucny",
+        "position": "ST",
+        "age": 24,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Martin Boda",
+        "position": "ST",
+        "age": 29,
+        "apps": 2,
+        "goals": 1,
+        "rating": 2.6
+      },
+      {
+        "name": "Marko Kelemen",
+        "position": null,
+        "age": 26,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.1
+      },
+      {
+        "name": "Matej Koubek",
+        "position": "ST",
+        "age": 26,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.3
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "SC Freiburg II",
+        "rating": 1798.37
+      },
+      {
+        "name": "Stjarnan Gardabaer",
+        "rating": 1796.83
+      }
+    ]
   },
   "awayTeam": {
     "identity": {
@@ -77,7 +444,7 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/7887/image/small",
       "sourceIds": {
         "sofascore": "7887",
-        "fotmob": null,
+        "fotmob": "2437",
         "soccerRating": null
       }
     },
@@ -98,10 +465,42 @@
       "oddsMarket": null
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
     "squad": [],
     "history": [],
@@ -308,19 +707,19 @@
       "matchedBy": "competitionId"
     },
     "homeTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/211-nike-liga/10186-ruzomberok.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/211-nike-liga/2437-zeleziarne-podbrezova.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "homeTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/slovakia/163-mfk-ruzomberok.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamContext": {
       "available": false,

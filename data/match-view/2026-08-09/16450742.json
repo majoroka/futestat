@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.483Z",
+  "builtAtUtc": "2026-08-08T18:29:00.298Z",
   "match": {
     "id": "16450742",
     "date": "2026-08-09",
@@ -40,35 +40,104 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/3006/image/small",
       "sourceIds": {
         "sofascore": "3006",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "9772",
+        "soccerRating": "1076"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
-      "xgFor": null,
-      "xgAgainst": null,
+      "overallRating": 2347.12,
+      "nationalRank": 1,
+      "europeRank": 20,
+      "formLast3": [
+        "W",
+        "W",
+        "L"
+      ],
+      "xgFor": 1.6548000574111938,
+      "xgAgainst": 0.44589999318122864,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 5.2,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.09,
+          "draw": 10.5,
+          "away": 26
+        },
+        "fair1X2": {
+          "home": 1.17,
+          "draw": 9.94,
+          "away": 23.96
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 1.6548000574111938,
+        "xgDiff": -1.6548000574111938,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 0.44589999318122864,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
     "squad": [],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "Aston Villa",
+        "rating": 2343.68
+      },
+      {
+        "name": "AC Milan",
+        "rating": 2342.24
+      }
+    ]
   },
   "awayTeam": {
     "identity": {
@@ -77,35 +146,104 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/3022/image/small",
       "sourceIds": {
         "sofascore": "3022",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "1786",
+        "soccerRating": "6047"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
-      "xgFor": null,
-      "xgAgainst": null,
+      "overallRating": 1898.26,
+      "nationalRank": 14,
+      "europeRank": 420,
+      "formLast3": [
+        "W",
+        "W",
+        "L"
+      ],
+      "xgFor": 1.6548000574111938,
+      "xgAgainst": 0.44589999318122864,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 5.2,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.09,
+          "draw": 10.5,
+          "away": 26
+        },
+        "fair1X2": {
+          "home": 1.17,
+          "draw": 9.94,
+          "away": 23.96
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 1.6548000574111938,
+        "xgDiff": -1.6548000574111938,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 0.44589999318122864,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
     "squad": [],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "Pendikspor",
+        "rating": 1904.28
+      },
+      {
+        "name": "CD Mirandes",
+        "rating": 1903.61
+      }
+    ]
   },
   "standings": {
     "available": true,
@@ -388,24 +526,24 @@
       "matchedBy": "competitionId"
     },
     "homeTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/9772-benfica.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/1786-academico-viseu.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "homeTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/1076-benfica-lisboa.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/6047-academico-viseu.json",
+      "matchedBy": "sofascoreTeamId"
     }
   }
 }

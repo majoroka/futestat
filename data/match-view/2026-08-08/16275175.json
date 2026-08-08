@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.447Z",
+  "builtAtUtc": "2026-08-08T18:29:00.242Z",
   "match": {
     "id": "16275175",
     "date": "2026-08-08",
@@ -40,35 +40,370 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/35226/image/small",
       "sourceIds": {
         "sofascore": "35226",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "187866",
+        "soccerRating": "5711"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
+      "overallRating": 1678.93,
+      "nationalRank": 12,
+      "europeRank": 1233,
+      "formLast3": [
+        "L",
+        "W",
+        "W"
+      ],
       "xgFor": null,
       "xgAgainst": null,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": "away_win",
+        "tipLabel": "Bet on (2) NK Osijek (Stake 2/10)",
+        "confidencePct": 20,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": [
+          {
+            "name": "Lovre Rogic",
+            "position": "GK",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.6
+          },
+          {
+            "name": "Diego Zivulic",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4.3
+          },
+          {
+            "name": "Vedran Celjak",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.1
+          },
+          {
+            "name": "Marko Stolnik",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.9
+          },
+          {
+            "name": "Ante Susak",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 1.7
+          },
+          {
+            "name": "Vid Seitz",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 1.4
+          },
+          {
+            "name": "Felipe Curcio",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.1
+          },
+          {
+            "name": "Bruno Unusic",
+            "position": "MF",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 3
+          },
+          {
+            "name": "Jakov Blagaic",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.8
+          },
+          {
+            "name": "Ivan Djoric",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Xavi",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.7
+          },
+          {
+            "name": "Stefan Vukic",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 1,
+            "rating": 4.1
+          },
+          {
+            "name": "Toni Kolega",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.9
+          },
+          {
+            "name": "Josip Pejic",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.8
+          },
+          {
+            "name": "Noa Skoko",
+            "position": "MF",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 1.4
+          },
+          {
+            "name": "Lenny Ilecic",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 1.3
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 3.75,
+          "draw": 3.5,
+          "away": 1.93
+        },
+        "fair1X2": {
+          "home": 4.65,
+          "draw": 4.05,
+          "away": 1.86
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Lovre Rogic",
+        "position": "GK",
+        "age": 30,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Diego Zivulic",
+        "position": "DF",
+        "age": 34,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Vedran Celjak",
+        "position": "DF",
+        "age": 34,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Marko Stolnik",
+        "position": "DF",
+        "age": 30,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Ante Susak",
+        "position": "DF",
+        "age": 20,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.7
+      },
+      {
+        "name": "Karlo Kamenar",
+        "position": null,
+        "age": 32,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Felipe Curcio",
+        "position": "MF",
+        "age": 32,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.1
+      },
+      {
+        "name": "Bruno Unusic",
+        "position": "MF",
+        "age": 24,
+        "apps": 0,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Xavi",
+        "position": "MF",
+        "age": 28,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "Noa Skoko",
+        "position": "MF",
+        "age": 20,
+        "apps": 0,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Ivan Djoric",
+        "position": "MF",
+        "age": 31,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Vid Seitz",
+        "position": "MF",
+        "age": 16,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Jakov Blagaic",
+        "position": "MF",
+        "age": 26,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Lenny Ilecic",
+        "position": "ST",
+        "age": 22,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Toni Kolega",
+        "position": "ST",
+        "age": 27,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Josip Pejic",
+        "position": "ST",
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Stefan Vukic",
+        "position": "ST",
+        "age": 31,
+        "apps": 1,
+        "goals": 1,
+        "rating": 4.1
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "2DROTS",
+        "rating": 1680.35
+      },
+      {
+        "name": "Sportfreunde Lotte",
+        "rating": 1647.03
+      }
+    ]
   },
   "awayTeam": {
     "identity": {
@@ -77,35 +412,370 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/2040/image/small",
       "sourceIds": {
         "sofascore": "2040",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "10157",
+        "soccerRating": "638"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
+      "overallRating": 1845.67,
+      "nationalRank": 9,
+      "europeRank": 586,
+      "formLast3": [
+        "L",
+        "W",
+        "W"
+      ],
       "xgFor": null,
       "xgAgainst": null,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": "away_win",
+        "tipLabel": "Bet on (2) NK Osijek (Stake 2/10)",
+        "confidencePct": 20,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": [
+          {
+            "name": "Lovre Rogic",
+            "position": "GK",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.6
+          },
+          {
+            "name": "Diego Zivulic",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4.3
+          },
+          {
+            "name": "Vedran Celjak",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.1
+          },
+          {
+            "name": "Marko Stolnik",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.9
+          },
+          {
+            "name": "Ante Susak",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 1.7
+          },
+          {
+            "name": "Vid Seitz",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 1.4
+          },
+          {
+            "name": "Felipe Curcio",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.1
+          },
+          {
+            "name": "Bruno Unusic",
+            "position": "MF",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 3
+          },
+          {
+            "name": "Jakov Blagaic",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.8
+          },
+          {
+            "name": "Ivan Djoric",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Xavi",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.7
+          },
+          {
+            "name": "Stefan Vukic",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 1,
+            "rating": 4.1
+          },
+          {
+            "name": "Toni Kolega",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.9
+          },
+          {
+            "name": "Josip Pejic",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.8
+          },
+          {
+            "name": "Noa Skoko",
+            "position": "MF",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 1.4
+          },
+          {
+            "name": "Lenny Ilecic",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 1.3
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 3.75,
+          "draw": 3.5,
+          "away": 1.93
+        },
+        "fair1X2": {
+          "home": 4.65,
+          "draw": 4.05,
+          "away": 1.86
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Lovre Rogic",
+        "position": "GK",
+        "age": 30,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Diego Zivulic",
+        "position": "DF",
+        "age": 34,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Vedran Celjak",
+        "position": "DF",
+        "age": 34,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Marko Stolnik",
+        "position": "DF",
+        "age": 30,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Ante Susak",
+        "position": "DF",
+        "age": 20,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.7
+      },
+      {
+        "name": "Karlo Kamenar",
+        "position": null,
+        "age": 32,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Felipe Curcio",
+        "position": "MF",
+        "age": 32,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.1
+      },
+      {
+        "name": "Bruno Unusic",
+        "position": "MF",
+        "age": 24,
+        "apps": 0,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Xavi",
+        "position": "MF",
+        "age": 28,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "Noa Skoko",
+        "position": "MF",
+        "age": 20,
+        "apps": 0,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Ivan Djoric",
+        "position": "MF",
+        "age": 31,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Vid Seitz",
+        "position": "MF",
+        "age": 16,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Jakov Blagaic",
+        "position": "MF",
+        "age": 26,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Lenny Ilecic",
+        "position": "ST",
+        "age": 22,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Toni Kolega",
+        "position": "ST",
+        "age": 27,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Josip Pejic",
+        "position": "ST",
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Stefan Vukic",
+        "position": "ST",
+        "age": 31,
+        "apps": 1,
+        "goals": 1,
+        "rating": 4.1
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "FC Haka Valkeakoski",
+        "rating": 1844.51
+      },
+      {
+        "name": "Manisa BBSK",
+        "rating": 1843.96
+      }
+    ]
   },
   "standings": {
     "available": true,
@@ -276,24 +946,24 @@
       "matchedBy": "competitionId"
     },
     "homeTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/170-hnl/187866-rudes.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/170-hnl/10157-osijek.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "homeTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/croatia/5711-nk-rudes.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/croatia/638-nk-osijek.json",
+      "matchedBy": "sofascoreTeamId"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.463Z",
+  "builtAtUtc": "2026-08-08T18:29:00.265Z",
   "match": {
     "id": "16560093",
     "date": "2026-08-09",
@@ -40,35 +40,104 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/388947/image/small",
       "sourceIds": {
         "sofascore": "388947",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "1530180",
+        "soccerRating": "18196"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
+      "overallRating": 1657.32,
+      "nationalRank": 46,
+      "europeRank": 1375,
+      "formLast3": [
+        "L",
+        "D",
+        "W"
+      ],
       "xgFor": null,
       "xgAgainst": null,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": "home_win",
+        "tipLabel": "Bet on (1) USC Paredes (Stake 3/10)",
+        "confidencePct": 30,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 2.87,
+          "draw": 3,
+          "away": 2.25
+        },
+        "fair1X2": {
+          "home": 2.15,
+          "draw": 3.55,
+          "away": 3.94
+        },
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
     "squad": [],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "Levski Krumovgrad",
+        "rating": 1657.32
+      },
+      {
+        "name": "Vendee Fontenay",
+        "rating": 1657.28
+      }
+    ]
   },
   "awayTeam": {
     "identity": {
@@ -77,35 +146,426 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/3003/image/small",
       "sourceIds": {
         "sofascore": "3003",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "6403",
+        "soccerRating": "1078"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
+      "overallRating": 1760.12,
+      "nationalRank": 31,
+      "europeRank": 864,
+      "formLast3": [
+        "D",
+        "L",
+        "L"
+      ],
       "xgFor": null,
       "xgAgainst": null,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": "away_or_draw",
+        "tipLabel": "Bet on (X2) FC Penafiel (Stake 4/10)",
+        "confidencePct": 40,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 4.1,
+        "players": [
+          {
+            "name": "Martim Silva",
+            "position": "GK",
+            "age": null,
+            "apps": 26,
+            "goals": 1,
+            "rating": 2.7
+          },
+          {
+            "name": "Anilson",
+            "position": "DF",
+            "age": null,
+            "apps": 30,
+            "goals": 2,
+            "rating": 4.9
+          },
+          {
+            "name": "André Sousa",
+            "position": "DF",
+            "age": null,
+            "apps": 24,
+            "goals": 1,
+            "rating": 4.3
+          },
+          {
+            "name": "Kauan",
+            "position": "DF",
+            "age": null,
+            "apps": 17,
+            "goals": 0,
+            "rating": 3.8
+          },
+          {
+            "name": "Leandro Dias",
+            "position": "DF",
+            "age": null,
+            "apps": 21,
+            "goals": 0,
+            "rating": 3.6
+          },
+          {
+            "name": "Francisco Ramos",
+            "position": "MF",
+            "age": null,
+            "apps": 32,
+            "goals": 0,
+            "rating": 4.2
+          },
+          {
+            "name": "Nuno Cunha",
+            "position": "MF",
+            "age": null,
+            "apps": 28,
+            "goals": 3,
+            "rating": 4
+          },
+          {
+            "name": "David Costa",
+            "position": "MF",
+            "age": null,
+            "apps": 14,
+            "goals": 4,
+            "rating": 4
+          },
+          {
+            "name": "Ronaldo Lumungo",
+            "position": "ST",
+            "age": null,
+            "apps": 31,
+            "goals": 4,
+            "rating": 5.3
+          },
+          {
+            "name": "Joao Pinto",
+            "position": "ST",
+            "age": null,
+            "apps": 26,
+            "goals": 1,
+            "rating": 3.3
+          },
+          {
+            "name": "Joao Victor",
+            "position": "ST",
+            "age": null,
+            "apps": 32,
+            "goals": 8,
+            "rating": 4.6
+          },
+          {
+            "name": "Marafona",
+            "position": "GK",
+            "age": null,
+            "apps": 12,
+            "goals": 0,
+            "rating": 3.5
+          },
+          {
+            "name": "Tiago Ferreira",
+            "position": "DF",
+            "age": null,
+            "apps": 31,
+            "goals": 0,
+            "rating": 3.6
+          },
+          {
+            "name": "Nito",
+            "position": "MF",
+            "age": null,
+            "apps": 22,
+            "goals": 0,
+            "rating": 3.2
+          },
+          {
+            "name": "Miguel Falé",
+            "position": "ST",
+            "age": null,
+            "apps": 14,
+            "goals": 1,
+            "rating": 4
+          },
+          {
+            "name": "Diego Fernandes",
+            "position": "ST",
+            "age": null,
+            "apps": 26,
+            "goals": 1,
+            "rating": 3.4
+          },
+          {
+            "name": "Gonçalo Cardoso",
+            "position": "DF",
+            "age": null,
+            "apps": 10,
+            "goals": 0,
+            "rating": 3.9
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.72,
+          "draw": 3.4,
+          "away": 4.1
+        },
+        "fair1X2": {
+          "home": 2.21,
+          "draw": 4.12,
+          "away": 3.28
+        },
+        "movementSummary": "home_odds_down_away_odds_down"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Rafa",
+        "position": null,
+        "age": 22,
+        "apps": 19,
+        "goals": 0,
+        "rating": 2.1
+      },
+      {
+        "name": "Jeimes",
+        "position": null,
+        "age": 25,
+        "apps": 4,
+        "goals": 0,
+        "rating": 2.3
+      },
+      {
+        "name": "Martim Silva",
+        "position": "GK",
+        "age": 17,
+        "apps": 26,
+        "goals": 1,
+        "rating": 2.7
+      },
+      {
+        "name": "Marafona",
+        "position": "GK",
+        "age": 39,
+        "apps": 12,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Rodrigo Silva",
+        "position": null,
+        "age": 20,
+        "apps": 3,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Rafa Vieira",
+        "position": null,
+        "age": 33,
+        "apps": 26,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Diegao",
+        "position": null,
+        "age": 22,
+        "apps": 8,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Anilson",
+        "position": "DF",
+        "age": 24,
+        "apps": 30,
+        "goals": 2,
+        "rating": 4.9
+      },
+      {
+        "name": "André Sousa",
+        "position": "DF",
+        "age": 28,
+        "apps": 24,
+        "goals": 1,
+        "rating": 4.3
+      },
+      {
+        "name": "Kauan",
+        "position": "DF",
+        "age": 23,
+        "apps": 17,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Leandro Dias",
+        "position": "DF",
+        "age": 23,
+        "apps": 21,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Tiago Ferreira",
+        "position": "DF",
+        "age": 32,
+        "apps": 31,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Gonçalo Cardoso",
+        "position": "DF",
+        "age": 25,
+        "apps": 10,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Francisco Ramos",
+        "position": "MF",
+        "age": 31,
+        "apps": 32,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Nuno Cunha",
+        "position": "MF",
+        "age": 25,
+        "apps": 28,
+        "goals": 3,
+        "rating": 4
+      },
+      {
+        "name": "Nito",
+        "position": "MF",
+        "age": 24,
+        "apps": 22,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "David Costa",
+        "position": "MF",
+        "age": 22,
+        "apps": 14,
+        "goals": 4,
+        "rating": 4
+      },
+      {
+        "name": "Iuri Moreira",
+        "position": null,
+        "age": 22,
+        "apps": 13,
+        "goals": 0,
+        "rating": 1.9
+      },
+      {
+        "name": "Joao Pinto",
+        "position": "ST",
+        "age": 23,
+        "apps": 26,
+        "goals": 1,
+        "rating": 3.3
+      },
+      {
+        "name": "Joao Victor",
+        "position": "ST",
+        "age": 26,
+        "apps": 32,
+        "goals": 8,
+        "rating": 4.6
+      },
+      {
+        "name": "Miguel Falé",
+        "position": "ST",
+        "age": 22,
+        "apps": 14,
+        "goals": 1,
+        "rating": 4
+      },
+      {
+        "name": "Ronaldo Lumungo",
+        "position": "ST",
+        "age": 24,
+        "apps": 31,
+        "goals": 4,
+        "rating": 5.3
+      },
+      {
+        "name": "Diego Fernandes",
+        "position": "ST",
+        "age": 24,
+        "apps": 26,
+        "goals": 1,
+        "rating": 3.4
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "Lusitanos Saint-Maur",
+        "rating": 1760.39
+      },
+      {
+        "name": "FK Kyzylzhar Petropavlovsk",
+        "rating": 1769.7
+      }
+    ]
   },
   "standings": {
     "available": false,
@@ -135,24 +595,24 @@
       "matchedBy": null
     },
     "homeTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-a/1530180-ad-marco-09.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-a/6403-pacos-de-ferreira.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "homeTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/18196-ad-marco-09.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/1078-pacos-ferreira.json",
+      "matchedBy": "sofascoreTeamId"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.444Z",
+  "builtAtUtc": "2026-08-08T18:29:00.236Z",
   "match": {
     "id": "16295793",
     "date": "2026-08-08",
@@ -41,24 +41,189 @@
       "sourceIds": {
         "sofascore": "3277",
         "fotmob": null,
-        "soccerRating": null
+        "soccerRating": "1457"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
+      "overallRating": 1764.86,
+      "nationalRank": 10,
+      "europeRank": 884,
+      "formLast3": [
+        "D",
+        "D",
+        "L"
+      ],
       "xgFor": null,
       "xgAgainst": null,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": "away_win",
+        "tipLabel": "Bet on (2) CSKA 1948 Sofia (Stake 2/10)",
+        "confidencePct": 20,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": [
+          {
+            "name": "Martin Velichkov",
+            "position": "GK",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.7
+          },
+          {
+            "name": "Angel Lyaskov",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.6
+          },
+          {
+            "name": "Ryan Bidounga",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4
+          },
+          {
+            "name": "Dimitar Kostadinov",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 1,
+            "rating": 3.2
+          },
+          {
+            "name": "Reyan Daskalov",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.5
+          },
+          {
+            "name": "Krasimir Stanoev",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.4
+          },
+          {
+            "name": "Erol Dost",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.5
+          },
+          {
+            "name": "Bozhidar Katsarov",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 4.8
+          },
+          {
+            "name": "Georgi Minchev",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.2
+          },
+          {
+            "name": "Spas Delev",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 1,
+            "rating": 3.5
+          },
+          {
+            "name": "Nicolás Penev",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 1,
+            "rating": 2.5
+          },
+          {
+            "name": "Aleksandar Lyubenov",
+            "position": "GK",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 3.5
+          },
+          {
+            "name": "Eirô",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4
+          },
+          {
+            "name": "Krasimir Stanoev",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.8
+          },
+          {
+            "name": "Cauê Caruso",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.1
+          },
+          {
+            "name": "Mark-Emilio Papazov",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 3
+          },
+          {
+            "name": "Adil Taoui",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.5
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 2.85,
+          "draw": 3.25,
+          "away": 2.25
+        },
+        "fair1X2": {
+          "home": 4.44,
+          "draw": 3.71,
+          "away": 1.98
+        },
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
     },
     "statistics": {
       "overview": null,
@@ -66,9 +231,179 @@
       "defense": null,
       "discipline": null
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Martin Velichkov",
+        "position": "GK",
+        "age": 26,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Aleksandar Lyubenov",
+        "position": "GK",
+        "age": 31,
+        "apps": 0,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Kaloyan Kostov",
+        "position": null,
+        "age": 22,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.8
+      },
+      {
+        "name": "Angel Lyaskov",
+        "position": "DF",
+        "age": 28,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.6
+      },
+      {
+        "name": "Ryan Bidounga",
+        "position": "DF",
+        "age": 29,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Eirô",
+        "position": "DF",
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Kristian Chachev",
+        "position": null,
+        "age": 20,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Dimitar Kostadinov",
+        "position": "MF",
+        "age": 26,
+        "apps": 3,
+        "goals": 1,
+        "rating": 3.2
+      },
+      {
+        "name": "Reyan Daskalov",
+        "position": "MF",
+        "age": 31,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Erol Dost",
+        "position": "MF",
+        "age": 27,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Krasimir Stanoev",
+        "position": "MF",
+        "age": 31,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Bozhidar Katsarov",
+        "position": "MF",
+        "age": 32,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Krasimir Stanoev",
+        "position": "MF",
+        "age": 26,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Mohamed Medfai",
+        "position": null,
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Spas Delev",
+        "position": "ST",
+        "age": 36,
+        "apps": 3,
+        "goals": 1,
+        "rating": 3.5
+      },
+      {
+        "name": "Nicolás Penev",
+        "position": "ST",
+        "age": 21,
+        "apps": 3,
+        "goals": 1,
+        "rating": 2.5
+      },
+      {
+        "name": "Cauê Caruso",
+        "position": "ST",
+        "age": 24,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Mark-Emilio Papazov",
+        "position": "ST",
+        "age": 22,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Adil Taoui",
+        "position": "ST",
+        "age": 24,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Georgi Minchev",
+        "position": "ST",
+        "age": 31,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.2
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "FC Augsburg II",
+        "rating": 1754.58
+      },
+      {
+        "name": "KFC Komarno",
+        "rating": 1749.81
+      }
+    ]
   },
   "awayTeam": {
     "identity": {
@@ -78,24 +413,189 @@
       "sourceIds": {
         "sofascore": "252080",
         "fotmob": null,
-        "soccerRating": null
+        "soccerRating": "13235"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
+      "overallRating": 1899.73,
+      "nationalRank": 4,
+      "europeRank": 406,
+      "formLast3": [
+        "D",
+        "D",
+        "L"
+      ],
       "xgFor": null,
       "xgAgainst": null,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": "away_win",
+        "tipLabel": "Bet on (2) CSKA 1948 Sofia (Stake 2/10)",
+        "confidencePct": 20,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": [
+          {
+            "name": "Martin Velichkov",
+            "position": "GK",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.7
+          },
+          {
+            "name": "Angel Lyaskov",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.6
+          },
+          {
+            "name": "Ryan Bidounga",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4
+          },
+          {
+            "name": "Dimitar Kostadinov",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 1,
+            "rating": 3.2
+          },
+          {
+            "name": "Reyan Daskalov",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.5
+          },
+          {
+            "name": "Krasimir Stanoev",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.4
+          },
+          {
+            "name": "Erol Dost",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.5
+          },
+          {
+            "name": "Bozhidar Katsarov",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 4.8
+          },
+          {
+            "name": "Georgi Minchev",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.2
+          },
+          {
+            "name": "Spas Delev",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 1,
+            "rating": 3.5
+          },
+          {
+            "name": "Nicolás Penev",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 1,
+            "rating": 2.5
+          },
+          {
+            "name": "Aleksandar Lyubenov",
+            "position": "GK",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 3.5
+          },
+          {
+            "name": "Eirô",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4
+          },
+          {
+            "name": "Krasimir Stanoev",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.8
+          },
+          {
+            "name": "Cauê Caruso",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.1
+          },
+          {
+            "name": "Mark-Emilio Papazov",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 3
+          },
+          {
+            "name": "Adil Taoui",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.5
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 2.85,
+          "draw": 3.25,
+          "away": 2.25
+        },
+        "fair1X2": {
+          "home": 4.44,
+          "draw": 3.71,
+          "away": 1.98
+        },
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
     },
     "statistics": {
       "overview": null,
@@ -103,9 +603,179 @@
       "defense": null,
       "discipline": null
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Martin Velichkov",
+        "position": "GK",
+        "age": 26,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Aleksandar Lyubenov",
+        "position": "GK",
+        "age": 31,
+        "apps": 0,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Kaloyan Kostov",
+        "position": null,
+        "age": 22,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.8
+      },
+      {
+        "name": "Angel Lyaskov",
+        "position": "DF",
+        "age": 28,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.6
+      },
+      {
+        "name": "Ryan Bidounga",
+        "position": "DF",
+        "age": 29,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Eirô",
+        "position": "DF",
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Kristian Chachev",
+        "position": null,
+        "age": 20,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Dimitar Kostadinov",
+        "position": "MF",
+        "age": 26,
+        "apps": 3,
+        "goals": 1,
+        "rating": 3.2
+      },
+      {
+        "name": "Reyan Daskalov",
+        "position": "MF",
+        "age": 31,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Erol Dost",
+        "position": "MF",
+        "age": 27,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Krasimir Stanoev",
+        "position": "MF",
+        "age": 31,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Bozhidar Katsarov",
+        "position": "MF",
+        "age": 32,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Krasimir Stanoev",
+        "position": "MF",
+        "age": 26,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Mohamed Medfai",
+        "position": null,
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Spas Delev",
+        "position": "ST",
+        "age": 36,
+        "apps": 3,
+        "goals": 1,
+        "rating": 3.5
+      },
+      {
+        "name": "Nicolás Penev",
+        "position": "ST",
+        "age": 21,
+        "apps": 3,
+        "goals": 1,
+        "rating": 2.5
+      },
+      {
+        "name": "Cauê Caruso",
+        "position": "ST",
+        "age": 24,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Mark-Emilio Papazov",
+        "position": "ST",
+        "age": 22,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Adil Taoui",
+        "position": "ST",
+        "age": 24,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Georgi Minchev",
+        "position": "ST",
+        "age": 31,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.2
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "FK Astana",
+        "rating": 1918.42
+      },
+      {
+        "name": "Puskas FC",
+        "rating": 1909.93
+      }
+    ]
   },
   "standings": {
     "available": true,
@@ -346,14 +1016,14 @@
       "matchedBy": null
     },
     "homeTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/bulgaria/1457-lokomotiv-sofia.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/bulgaria/13235-cska-1948-sofia.json",
+      "matchedBy": "sofascoreTeamId"
     }
   }
 }

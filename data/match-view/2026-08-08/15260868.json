@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.444Z",
+  "builtAtUtc": "2026-08-08T18:29:00.237Z",
   "match": {
     "id": "15260868",
     "date": "2026-08-08",
@@ -40,7 +40,7 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/667/image/small",
       "sourceIds": {
         "sofascore": "667",
-        "fotmob": null,
+        "fotmob": "1439771",
         "soccerRating": null
       }
     },
@@ -61,10 +61,42 @@
       "oddsMarket": null
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
     "squad": [],
     "history": [],
@@ -77,35 +109,434 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/687/image/small",
       "sourceIds": {
         "sofascore": "687",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "8417",
+        "soccerRating": "73"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
-      "xgFor": null,
-      "xgAgainst": null,
+      "overallRating": 1866.98,
+      "nationalRank": 17,
+      "europeRank": 475,
+      "formLast3": [
+        "L",
+        "W",
+        "L"
+      ],
+      "xgFor": 48.077599823474884,
+      "xgAgainst": 17.47010011970997,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": [
+          {
+            "name": "Jacob Pryts",
+            "position": "GK",
+            "age": null,
+            "apps": 16,
+            "goals": 0,
+            "rating": 5.2
+          },
+          {
+            "name": "Erlend Dahl Reitan",
+            "position": "DF",
+            "age": null,
+            "apps": 15,
+            "goals": 1,
+            "rating": 5.3
+          },
+          {
+            "name": "John Olav Norheim",
+            "position": "DF",
+            "age": null,
+            "apps": 13,
+            "goals": 0,
+            "rating": 4.5
+          },
+          {
+            "name": "O. Diallo Toure",
+            "position": "DF",
+            "age": null,
+            "apps": 14,
+            "goals": 2,
+            "rating": 3.3
+          },
+          {
+            "name": "Jens Husebø",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 2.7
+          },
+          {
+            "name": "Erlend Segberg",
+            "position": "MF",
+            "age": null,
+            "apps": 15,
+            "goals": 2,
+            "rating": 3.6
+          },
+          {
+            "name": "Eirik Schulze",
+            "position": "MF",
+            "age": null,
+            "apps": 12,
+            "goals": 1,
+            "rating": 4.6
+          },
+          {
+            "name": "Tom Strannegård",
+            "position": "MF",
+            "age": null,
+            "apps": 16,
+            "goals": 2,
+            "rating": 5.2
+          },
+          {
+            "name": "Håkon Lorentzen",
+            "position": "ST",
+            "age": null,
+            "apps": 16,
+            "goals": 2,
+            "rating": 5.8
+          },
+          {
+            "name": "Jesper Cornelius",
+            "position": "ST",
+            "age": null,
+            "apps": 16,
+            "goals": 4,
+            "rating": 4.9
+          },
+          {
+            "name": "James Ampofo",
+            "position": "ST",
+            "age": null,
+            "apps": 14,
+            "goals": 0,
+            "rating": 4
+          },
+          {
+            "name": "M. P. Fredrik",
+            "position": "DF",
+            "age": null,
+            "apps": 7,
+            "goals": 0,
+            "rating": 3.5
+          },
+          {
+            "name": "Mikael Ugland",
+            "position": "MF",
+            "age": null,
+            "apps": 14,
+            "goals": 0,
+            "rating": 4.8
+          },
+          {
+            "name": "Santino Samuyiwa",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 1.3
+          },
+          {
+            "name": "Markus Soomets",
+            "position": "MF",
+            "age": null,
+            "apps": 11,
+            "goals": 0,
+            "rating": 4.2
+          },
+          {
+            "name": "L. H. Gausdal",
+            "position": "MF",
+            "age": null,
+            "apps": 8,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Johan Meyer",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.1
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 2.25,
+          "draw": 3.5,
+          "away": 2.95
+        },
+        "fair1X2": {
+          "home": 2.32,
+          "draw": 3.84,
+          "away": 3.23
+        },
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 48.077599823474884,
+        "xgDiff": -5.077599823474884,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 17.47010011970997,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Jacob Pryts",
+        "position": "GK",
+        "age": 28,
+        "apps": 16,
+        "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Johan Meyer",
+        "position": "DF",
+        "age": 22,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Sebastian Griesbeck",
+        "position": null,
+        "age": 35,
+        "apps": 7,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "K. Tønnessen",
+        "position": null,
+        "age": 28,
+        "apps": 5,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Deni Dashaev",
+        "position": null,
+        "age": 21,
+        "apps": 4,
+        "goals": 0,
+        "rating": 2.4
+      },
+      {
+        "name": "Altin Ujkani",
+        "position": null,
+        "age": 26,
+        "apps": 4,
+        "goals": 0,
+        "rating": 1.5
+      },
+      {
+        "name": "Erlend Dahl Reitan",
+        "position": "DF",
+        "age": 28,
+        "apps": 15,
+        "goals": 1,
+        "rating": 5.3
+      },
+      {
+        "name": "John Olav Norheim",
+        "position": "DF",
+        "age": 31,
+        "apps": 13,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "O. Diallo Toure",
+        "position": "DF",
+        "age": 23,
+        "apps": 14,
+        "goals": 2,
+        "rating": 3.3
+      },
+      {
+        "name": "Jens Husebø",
+        "position": "DF",
+        "age": 27,
+        "apps": 3,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "M. P. Fredrik",
+        "position": "DF",
+        "age": 32,
+        "apps": 7,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Filip Lien",
+        "position": null,
+        "age": 17,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Erlend Segberg",
+        "position": "MF",
+        "age": 29,
+        "apps": 15,
+        "goals": 2,
+        "rating": 3.6
+      },
+      {
+        "name": "Mikael Ugland",
+        "position": "MF",
+        "age": 26,
+        "apps": 14,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Markus Soomets",
+        "position": "MF",
+        "age": 26,
+        "apps": 11,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "L. H. Gausdal",
+        "position": "MF",
+        "age": 19,
+        "apps": 8,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Eirik Schulze",
+        "position": "MF",
+        "age": 33,
+        "apps": 12,
+        "goals": 1,
+        "rating": 4.6
+      },
+      {
+        "name": "Tom Strannegård",
+        "position": "MF",
+        "age": 24,
+        "apps": 16,
+        "goals": 2,
+        "rating": 5.2
+      },
+      {
+        "name": "Steve Mvoué",
+        "position": null,
+        "age": 24,
+        "apps": 10,
+        "goals": 2,
+        "rating": 5.3
+      },
+      {
+        "name": "Santino Samuyiwa",
+        "position": "ST",
+        "age": 20,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Jesper Cornelius",
+        "position": "ST",
+        "age": 25,
+        "apps": 16,
+        "goals": 4,
+        "rating": 4.9
+      },
+      {
+        "name": "James Ampofo",
+        "position": "ST",
+        "age": 22,
+        "apps": 14,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Marius Nordal",
+        "position": null,
+        "age": 19,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.9
+      },
+      {
+        "name": "Håkon Lorentzen",
+        "position": "ST",
+        "age": 29,
+        "apps": 16,
+        "goals": 2,
+        "rating": 5.8
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "Montpellier HSC",
+        "rating": 1888.76
+      },
+      {
+        "name": "Doncaster Rovers",
+        "rating": 1886.82
+      }
+    ]
   },
   "standings": {
     "available": true,
@@ -360,14 +791,14 @@
       "matchedBy": "competitionId"
     },
     "homeTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/20-eliteserien/1439771-ik-start-w.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/20-eliteserien/8417-fredrikstad.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "homeTeamContext": {
       "available": false,
@@ -375,9 +806,9 @@
       "matchedBy": null
     },
     "awayTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/norway/73-fredrikstad-fk.json",
+      "matchedBy": "sofascoreTeamId"
     }
   }
 }

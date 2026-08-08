@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.468Z",
+  "builtAtUtc": "2026-08-08T18:29:00.273Z",
   "match": {
     "id": "16390317",
     "date": "2026-08-09",
@@ -77,35 +77,434 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/322699/image/small",
       "sourceIds": {
         "sofascore": "322699",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "1066681",
+        "soccerRating": "13990"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
-      "xgFor": null,
-      "xgAgainst": null,
+      "overallRating": 1850.11,
+      "nationalRank": 17,
+      "europeRank": 575,
+      "formLast3": [
+        "D",
+        "W",
+        "D"
+      ],
+      "xgFor": 4.317200064659119,
+      "xgAgainst": 2.6242999732494354,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": "home_win",
+        "tipLabel": "Bet on (1) Rodina Moscow (Stake 3/10)",
+        "confidencePct": 30,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 5.2,
+        "players": [
+          {
+            "name": "Sergey Volkov",
+            "position": "GK",
+            "age": null,
+            "apps": 15,
+            "goals": 0,
+            "rating": 5.7
+          },
+          {
+            "name": "Mitja Krizan",
+            "position": "DF",
+            "age": null,
+            "apps": 18,
+            "goals": 0,
+            "rating": 5.5
+          },
+          {
+            "name": "Artem Sokol",
+            "position": "DF",
+            "age": null,
+            "apps": 11,
+            "goals": 0,
+            "rating": 5.2
+          },
+          {
+            "name": "Artem Meshchaninov",
+            "position": "DF",
+            "age": null,
+            "apps": 17,
+            "goals": 0,
+            "rating": 5.3
+          },
+          {
+            "name": "Ilya Dyatlov",
+            "position": "DF",
+            "age": null,
+            "apps": 11,
+            "goals": 2,
+            "rating": 2.7
+          },
+          {
+            "name": "A. Gordyushenko",
+            "position": "MF",
+            "age": null,
+            "apps": 15,
+            "goals": 0,
+            "rating": 5.4
+          },
+          {
+            "name": "Andrey Egorychev",
+            "position": "MF",
+            "age": null,
+            "apps": 14,
+            "goals": 0,
+            "rating": 5.8
+          },
+          {
+            "name": "Ruslan Fishchenko",
+            "position": "MF",
+            "age": null,
+            "apps": 15,
+            "goals": 0,
+            "rating": 5.4
+          },
+          {
+            "name": "Artem Maksimenko",
+            "position": "ST",
+            "age": null,
+            "apps": 19,
+            "goals": 8,
+            "rating": 6
+          },
+          {
+            "name": "Yordy Reyna",
+            "position": "ST",
+            "age": null,
+            "apps": 14,
+            "goals": 3,
+            "rating": 5.4
+          },
+          {
+            "name": "Arshak Koryan",
+            "position": "ST",
+            "age": null,
+            "apps": 14,
+            "goals": 0,
+            "rating": 4.7
+          },
+          {
+            "name": "Sergey Aydarov",
+            "position": "GK",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 1.9
+          },
+          {
+            "name": "Leo Goglichidze",
+            "position": "DF",
+            "age": null,
+            "apps": 13,
+            "goals": 0,
+            "rating": 5.2
+          },
+          {
+            "name": "Leon Musaev",
+            "position": "MF",
+            "age": null,
+            "apps": 11,
+            "goals": 0,
+            "rating": 4.4
+          },
+          {
+            "name": "M. Abdusalamov",
+            "position": "ST",
+            "age": null,
+            "apps": 6,
+            "goals": 4,
+            "rating": 4.1
+          },
+          {
+            "name": "Ivan Timoshenko",
+            "position": "ST",
+            "age": null,
+            "apps": 18,
+            "goals": 3,
+            "rating": 6.1
+          },
+          {
+            "name": "Pape Gueye",
+            "position": "ST",
+            "age": null,
+            "apps": 17,
+            "goals": 3,
+            "rating": 4.2
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.58,
+          "draw": 3.6,
+          "away": 5.5
+        },
+        "fair1X2": {
+          "home": 1.93,
+          "draw": 3.73,
+          "away": 4.68
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 4.317200064659119,
+        "xgDiff": -1.3172000646591187,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 2.6242999732494354,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Ilya Svinov",
+        "position": null,
+        "age": 25,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Sergey Volkov",
+        "position": "GK",
+        "age": 30,
+        "apps": 15,
+        "goals": 0,
+        "rating": 5.7
+      },
+      {
+        "name": "Sergey Aydarov",
+        "position": "GK",
+        "age": 27,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.9
+      },
+      {
+        "name": "S. Bessmertniy",
+        "position": null,
+        "age": 21,
+        "apps": 15,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Mitja Krizan",
+        "position": "DF",
+        "age": 28,
+        "apps": 18,
+        "goals": 0,
+        "rating": 5.5
+      },
+      {
+        "name": "Artem Sokol",
+        "position": "DF",
+        "age": 28,
+        "apps": 11,
+        "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Artem Meshchaninov",
+        "position": "DF",
+        "age": 29,
+        "apps": 17,
+        "goals": 0,
+        "rating": 5.3
+      },
+      {
+        "name": "Ilya Dyatlov",
+        "position": "DF",
+        "age": 21,
+        "apps": 11,
+        "goals": 2,
+        "rating": 2.7
+      },
+      {
+        "name": "Leo Goglichidze",
+        "position": "DF",
+        "age": 28,
+        "apps": 13,
+        "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Kirill Ushatov",
+        "position": null,
+        "age": 25,
+        "apps": 13,
+        "goals": 1,
+        "rating": 4.6
+      },
+      {
+        "name": "Artem Biryukov",
+        "position": null,
+        "age": 19,
+        "apps": 4,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Denis Tikhonov",
+        "position": null,
+        "age": 23,
+        "apps": 2,
+        "goals": 1,
+        "rating": 2.3
+      },
+      {
+        "name": "A. Gordyushenko",
+        "position": "MF",
+        "age": 28,
+        "apps": 15,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Ruslan Fishchenko",
+        "position": "MF",
+        "age": 25,
+        "apps": 15,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Leon Musaev",
+        "position": "MF",
+        "age": 26,
+        "apps": 11,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Daniel Svintsov",
+        "position": null,
+        "age": 22,
+        "apps": 3,
+        "goals": 0,
+        "rating": 1.5
+      },
+      {
+        "name": "Andrey Egorychev",
+        "position": "MF",
+        "age": 32,
+        "apps": 14,
+        "goals": 0,
+        "rating": 5.8
+      },
+      {
+        "name": "Svyatoslav Kozhedub",
+        "position": null,
+        "age": 23,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Yordy Reyna",
+        "position": "ST",
+        "age": 32,
+        "apps": 14,
+        "goals": 3,
+        "rating": 5.4
+      },
+      {
+        "name": "Arshak Koryan",
+        "position": "ST",
+        "age": 30,
+        "apps": 14,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "M. Abdusalamov",
+        "position": "ST",
+        "age": 22,
+        "apps": 6,
+        "goals": 4,
+        "rating": 4.1
+      },
+      {
+        "name": "Pape Gueye",
+        "position": "ST",
+        "age": 22,
+        "apps": 17,
+        "goals": 3,
+        "rating": 4.2
+      },
+      {
+        "name": "Artem Maksimenko",
+        "position": "ST",
+        "age": 27,
+        "apps": 19,
+        "goals": 8,
+        "rating": 6
+      },
+      {
+        "name": "Ivan Timoshenko",
+        "position": "ST",
+        "age": 26,
+        "apps": 18,
+        "goals": 3,
+        "rating": 6.1
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "Otelul Galati",
+        "rating": 1850.58
+      },
+      {
+        "name": "CD Leganes",
+        "rating": 1849.99
+      }
+    ]
   },
   "standings": {
     "available": true,
@@ -365,9 +764,9 @@
       "matchedBy": null
     },
     "awayTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/203-premier-league/1066681-rodina.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "homeTeamContext": {
       "available": false,
@@ -375,9 +774,9 @@
       "matchedBy": null
     },
     "awayTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/russia/13990-rodina-moscow.json",
+      "matchedBy": "sofascoreTeamId"
     }
   }
 }

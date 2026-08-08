@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.443Z",
+  "builtAtUtc": "2026-08-08T18:29:00.235Z",
   "match": {
     "id": "16403846",
     "date": "2026-08-08",
@@ -41,24 +41,181 @@
       "sourceIds": {
         "sofascore": "3294",
         "fotmob": null,
-        "soccerRating": null
+        "soccerRating": "1018"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
+      "overallRating": 1862.93,
+      "nationalRank": 8,
+      "europeRank": 543,
+      "formLast3": [
+        "D",
+        "W",
+        "L"
+      ],
       "xgFor": null,
       "xgAgainst": null,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": [
+          {
+            "name": "Rafael Munteanu",
+            "position": "GK",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 3.1
+          },
+          {
+            "name": "Dan Sîrbu",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.7
+          },
+          {
+            "name": "Gustavo Marins",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.3
+          },
+          {
+            "name": "Sofyane Bouzamoucha",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.4
+          },
+          {
+            "name": "Eddy Sylvestre",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 3.4
+          },
+          {
+            "name": "Tony Njiké",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 3.8
+          },
+          {
+            "name": "Matteo Ahlinvi",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 1,
+            "rating": 4.5
+          },
+          {
+            "name": "Victor Dican",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 5.4
+          },
+          {
+            "name": "Eduard Radaslavescu",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 1,
+            "rating": 5.8
+          },
+          {
+            "name": "Iustin Doicaru",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 2,
+            "rating": 3.1
+          },
+          {
+            "name": "Alexandru Buzbuchi",
+            "position": "GK",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Ionut Larie",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 4
+          },
+          {
+            "name": "Nicolas Popescu",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.5
+          },
+          {
+            "name": "Razvan Tanasa",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 6.1
+          },
+          {
+            "name": "Cristian Ganea",
+            "position": "DF",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 4.6
+          },
+          {
+            "name": "Ionut Cojocaru",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.7
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.5,
+          "draw": 4.1,
+          "away": 5.5
+        },
+        "fair1X2": {
+          "home": 1.71,
+          "draw": 4.84,
+          "away": 4.77
+        },
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
     },
     "statistics": {
       "overview": null,
@@ -66,9 +223,195 @@
       "defense": null,
       "discipline": null
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Rafael Munteanu",
+        "position": "GK",
+        "age": 20,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Alexandru Buzbuchi",
+        "position": "GK",
+        "age": 32,
+        "apps": 0,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Dan Sîrbu",
+        "position": "DF",
+        "age": 23,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Gustavo Marins",
+        "position": "DF",
+        "age": 24,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Sofyane Bouzamoucha",
+        "position": "DF",
+        "age": 26,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Ionut Larie",
+        "position": "DF",
+        "age": 39,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Cristian Ganea",
+        "position": "DF",
+        "age": 34,
+        "apps": 0,
+        "goals": 0,
+        "rating": 4.6
+      },
+      {
+        "name": "Alexandru Goncear",
+        "position": null,
+        "age": 17,
+        "apps": 2,
+        "goals": 1,
+        "rating": 1.8
+      },
+      {
+        "name": "Luca Banu",
+        "position": null,
+        "age": 21,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2
+      },
+      {
+        "name": "Nicolas Popescu",
+        "position": "MF",
+        "age": 23,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Tony Njiké",
+        "position": "MF",
+        "age": 28,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Victor Dican",
+        "position": "MF",
+        "age": 25,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Ionut Vîna",
+        "position": null,
+        "age": 31,
+        "apps": 1,
+        "goals": 0,
+        "rating": 5.8
+      },
+      {
+        "name": "Eddy Sylvestre",
+        "position": "MF",
+        "age": 26,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Matteo Ahlinvi",
+        "position": "MF",
+        "age": 27,
+        "apps": 3,
+        "goals": 1,
+        "rating": 4.5
+      },
+      {
+        "name": "Eduard Radaslavescu",
+        "position": "MF",
+        "age": 22,
+        "apps": 3,
+        "goals": 1,
+        "rating": 5.8
+      },
+      {
+        "name": "Narek Grigoryan",
+        "position": null,
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 5.7
+      },
+      {
+        "name": "Cristian Sima",
+        "position": null,
+        "age": 19,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Razvan Tanasa",
+        "position": "ST",
+        "age": 23,
+        "apps": 3,
+        "goals": 0,
+        "rating": 6.1
+      },
+      {
+        "name": "Denis Alibec",
+        "position": null,
+        "age": 35,
+        "apps": 2,
+        "goals": 0,
+        "rating": 5.3
+      },
+      {
+        "name": "Iustin Doicaru",
+        "position": "ST",
+        "age": 19,
+        "apps": 3,
+        "goals": 2,
+        "rating": 3.1
+      },
+      {
+        "name": "Ionut Cojocaru",
+        "position": "ST",
+        "age": 23,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.7
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "South Shields",
+        "rating": 1857.84
+      },
+      {
+        "name": "Moreirense FC",
+        "rating": 1858.91
+      }
+    ]
   },
   "awayTeam": {
     "identity": {
@@ -374,9 +717,9 @@
       "matchedBy": null
     },
     "homeTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/romania/1018-farul-constanta.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamContext": {
       "available": false,

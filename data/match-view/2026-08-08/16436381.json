@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.448Z",
+  "builtAtUtc": "2026-08-08T18:29:00.244Z",
   "match": {
     "id": "16436381",
     "date": "2026-08-08",
@@ -40,35 +40,410 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/38396/image/small",
       "sourceIds": {
         "sofascore": "38396",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "188163",
+        "soccerRating": "6014"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
+      "overallRating": 1937.47,
+      "nationalRank": 13,
+      "europeRank": 377,
+      "formLast3": [
+        "L",
+        "W",
+        "W"
+      ],
       "xgFor": null,
       "xgAgainst": null,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": "away_or_draw",
+        "tipLabel": "Bet on (X2) Amarante FC (Stake 2/10)",
+        "confidencePct": 20,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 5.8,
+        "players": [
+          {
+            "name": "Bernardo",
+            "position": "GK",
+            "age": null,
+            "apps": 34,
+            "goals": 0,
+            "rating": 7.3
+          },
+          {
+            "name": "Brayan Medina",
+            "position": "DF",
+            "age": null,
+            "apps": 25,
+            "goals": 0,
+            "rating": 6.8
+          },
+          {
+            "name": "Christian Marques",
+            "position": "DF",
+            "age": null,
+            "apps": 31,
+            "goals": 0,
+            "rating": 6.7
+          },
+          {
+            "name": "Tiago Manso",
+            "position": "DF",
+            "age": null,
+            "apps": 28,
+            "goals": 1,
+            "rating": 5.5
+          },
+          {
+            "name": "Bebeto",
+            "position": "DF",
+            "age": null,
+            "apps": 24,
+            "goals": 3,
+            "rating": 3.8
+          },
+          {
+            "name": "Nor Maviram",
+            "position": "DF",
+            "age": null,
+            "apps": 20,
+            "goals": 2,
+            "rating": 4.7
+          },
+          {
+            "name": "Yaya Sithole",
+            "position": "MF",
+            "age": null,
+            "apps": 26,
+            "goals": 1,
+            "rating": 4.7
+          },
+          {
+            "name": "Hugo Félix",
+            "position": "MF",
+            "age": null,
+            "apps": 26,
+            "goals": 0,
+            "rating": 5.8
+          },
+          {
+            "name": "Joe Hodge",
+            "position": "MF",
+            "age": null,
+            "apps": 26,
+            "goals": 1,
+            "rating": 5.6
+          },
+          {
+            "name": "Jordan",
+            "position": "ST",
+            "age": null,
+            "apps": 22,
+            "goals": 1,
+            "rating": 6.6
+          },
+          {
+            "name": "Rony Lopes",
+            "position": "ST",
+            "age": null,
+            "apps": 16,
+            "goals": 4,
+            "rating": 6.3
+          },
+          {
+            "name": "Lucas Cañizares",
+            "position": "GK",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 3.1
+          },
+          {
+            "name": "Joao Silva",
+            "position": "DF",
+            "age": null,
+            "apps": 12,
+            "goals": 1,
+            "rating": 5.4
+          },
+          {
+            "name": "Cicero",
+            "position": "MF",
+            "age": null,
+            "apps": 18,
+            "goals": 1,
+            "rating": 4.5
+          },
+          {
+            "name": "Benjamin Kimpioka",
+            "position": "ST",
+            "age": null,
+            "apps": 10,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Hélder Tavares",
+            "position": "MF",
+            "age": null,
+            "apps": 20,
+            "goals": 0,
+            "rating": 2.9
+          },
+          {
+            "name": "Joao Afonso",
+            "position": "DF",
+            "age": null,
+            "apps": 13,
+            "goals": 0,
+            "rating": 2.6
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.5,
+          "draw": 3.6,
+          "away": 6
+        },
+        "fair1X2": {
+          "home": 1.66,
+          "draw": 4.24,
+          "away": 6.2
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Bernardo",
+        "position": "GK",
+        "age": 23,
+        "apps": 34,
+        "goals": 0,
+        "rating": 7.3
+      },
+      {
+        "name": "Lucas Cañizares",
+        "position": "GK",
+        "age": 24,
+        "apps": 0,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Brayan Medina",
+        "position": "DF",
+        "age": 24,
+        "apps": 25,
+        "goals": 0,
+        "rating": 6.8
+      },
+      {
+        "name": "Christian Marques",
+        "position": "DF",
+        "age": 23,
+        "apps": 31,
+        "goals": 0,
+        "rating": 6.7
+      },
+      {
+        "name": "Nor Maviram",
+        "position": "DF",
+        "age": 25,
+        "apps": 20,
+        "goals": 2,
+        "rating": 4.7
+      },
+      {
+        "name": "Joao Silva",
+        "position": "DF",
+        "age": 27,
+        "apps": 12,
+        "goals": 1,
+        "rating": 5.4
+      },
+      {
+        "name": "Joao Afonso",
+        "position": "DF",
+        "age": 35,
+        "apps": 13,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Rémy Vita",
+        "position": null,
+        "age": 25,
+        "apps": 4,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Tiago Manso",
+        "position": "DF",
+        "age": 26,
+        "apps": 28,
+        "goals": 1,
+        "rating": 5.5
+      },
+      {
+        "name": "Bebeto",
+        "position": "DF",
+        "age": 36,
+        "apps": 24,
+        "goals": 3,
+        "rating": 3.8
+      },
+      {
+        "name": "Cicero",
+        "position": "MF",
+        "age": 29,
+        "apps": 18,
+        "goals": 1,
+        "rating": 4.5
+      },
+      {
+        "name": "Xabi Huarte",
+        "position": null,
+        "age": 25,
+        "apps": 5,
+        "goals": 0,
+        "rating": 2.4
+      },
+      {
+        "name": "Hugo Félix",
+        "position": "MF",
+        "age": 22,
+        "apps": 26,
+        "goals": 0,
+        "rating": 5.8
+      },
+      {
+        "name": "Hélder Tavares",
+        "position": "MF",
+        "age": 36,
+        "apps": 20,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Yaya Sithole",
+        "position": "MF",
+        "age": 27,
+        "apps": 26,
+        "goals": 1,
+        "rating": 4.7
+      },
+      {
+        "name": "Joe Hodge",
+        "position": "MF",
+        "age": 23,
+        "apps": 26,
+        "goals": 1,
+        "rating": 5.6
+      },
+      {
+        "name": "Moudja Ouattara",
+        "position": null,
+        "age": 23,
+        "apps": 16,
+        "goals": 0,
+        "rating": 1.9
+      },
+      {
+        "name": "Arjen van der Heide",
+        "position": null,
+        "age": 24,
+        "apps": 10,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Benjamin Kimpioka",
+        "position": "ST",
+        "age": 26,
+        "apps": 10,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Jordan",
+        "position": "ST",
+        "age": 30,
+        "apps": 22,
+        "goals": 1,
+        "rating": 6.6
+      },
+      {
+        "name": "Rony Lopes",
+        "position": "ST",
+        "age": 30,
+        "apps": 16,
+        "goals": 4,
+        "rating": 6.3
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "Le Mans UC 72",
+        "rating": 1929.62
+      },
+      {
+        "name": "GKS Katowice",
+        "rating": 1929.47
+      }
+    ]
   },
   "awayTeam": {
     "identity": {
@@ -77,35 +452,410 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/207139/image/small",
       "sourceIds": {
         "sofascore": "207139",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "280216",
+        "soccerRating": "4203"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
+      "overallRating": 1696.57,
+      "nationalRank": 39,
+      "europeRank": 1106,
+      "formLast3": [
+        "L",
+        "W",
+        "W"
+      ],
       "xgFor": null,
       "xgAgainst": null,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": "away_or_draw",
+        "tipLabel": "Bet on (X2) Amarante FC (Stake 2/10)",
+        "confidencePct": 20,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 5.8,
+        "players": [
+          {
+            "name": "Bernardo",
+            "position": "GK",
+            "age": null,
+            "apps": 34,
+            "goals": 0,
+            "rating": 7.3
+          },
+          {
+            "name": "Brayan Medina",
+            "position": "DF",
+            "age": null,
+            "apps": 25,
+            "goals": 0,
+            "rating": 6.8
+          },
+          {
+            "name": "Christian Marques",
+            "position": "DF",
+            "age": null,
+            "apps": 31,
+            "goals": 0,
+            "rating": 6.7
+          },
+          {
+            "name": "Tiago Manso",
+            "position": "DF",
+            "age": null,
+            "apps": 28,
+            "goals": 1,
+            "rating": 5.5
+          },
+          {
+            "name": "Bebeto",
+            "position": "DF",
+            "age": null,
+            "apps": 24,
+            "goals": 3,
+            "rating": 3.8
+          },
+          {
+            "name": "Nor Maviram",
+            "position": "DF",
+            "age": null,
+            "apps": 20,
+            "goals": 2,
+            "rating": 4.7
+          },
+          {
+            "name": "Yaya Sithole",
+            "position": "MF",
+            "age": null,
+            "apps": 26,
+            "goals": 1,
+            "rating": 4.7
+          },
+          {
+            "name": "Hugo Félix",
+            "position": "MF",
+            "age": null,
+            "apps": 26,
+            "goals": 0,
+            "rating": 5.8
+          },
+          {
+            "name": "Joe Hodge",
+            "position": "MF",
+            "age": null,
+            "apps": 26,
+            "goals": 1,
+            "rating": 5.6
+          },
+          {
+            "name": "Jordan",
+            "position": "ST",
+            "age": null,
+            "apps": 22,
+            "goals": 1,
+            "rating": 6.6
+          },
+          {
+            "name": "Rony Lopes",
+            "position": "ST",
+            "age": null,
+            "apps": 16,
+            "goals": 4,
+            "rating": 6.3
+          },
+          {
+            "name": "Lucas Cañizares",
+            "position": "GK",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 3.1
+          },
+          {
+            "name": "Joao Silva",
+            "position": "DF",
+            "age": null,
+            "apps": 12,
+            "goals": 1,
+            "rating": 5.4
+          },
+          {
+            "name": "Cicero",
+            "position": "MF",
+            "age": null,
+            "apps": 18,
+            "goals": 1,
+            "rating": 4.5
+          },
+          {
+            "name": "Benjamin Kimpioka",
+            "position": "ST",
+            "age": null,
+            "apps": 10,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Hélder Tavares",
+            "position": "MF",
+            "age": null,
+            "apps": 20,
+            "goals": 0,
+            "rating": 2.9
+          },
+          {
+            "name": "Joao Afonso",
+            "position": "DF",
+            "age": null,
+            "apps": 13,
+            "goals": 0,
+            "rating": 2.6
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.5,
+          "draw": 3.6,
+          "away": 6
+        },
+        "fair1X2": {
+          "home": 1.66,
+          "draw": 4.24,
+          "away": 6.2
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Bernardo",
+        "position": "GK",
+        "age": 23,
+        "apps": 34,
+        "goals": 0,
+        "rating": 7.3
+      },
+      {
+        "name": "Lucas Cañizares",
+        "position": "GK",
+        "age": 24,
+        "apps": 0,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Brayan Medina",
+        "position": "DF",
+        "age": 24,
+        "apps": 25,
+        "goals": 0,
+        "rating": 6.8
+      },
+      {
+        "name": "Christian Marques",
+        "position": "DF",
+        "age": 23,
+        "apps": 31,
+        "goals": 0,
+        "rating": 6.7
+      },
+      {
+        "name": "Nor Maviram",
+        "position": "DF",
+        "age": 25,
+        "apps": 20,
+        "goals": 2,
+        "rating": 4.7
+      },
+      {
+        "name": "Joao Silva",
+        "position": "DF",
+        "age": 27,
+        "apps": 12,
+        "goals": 1,
+        "rating": 5.4
+      },
+      {
+        "name": "Joao Afonso",
+        "position": "DF",
+        "age": 35,
+        "apps": 13,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Rémy Vita",
+        "position": null,
+        "age": 25,
+        "apps": 4,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Tiago Manso",
+        "position": "DF",
+        "age": 26,
+        "apps": 28,
+        "goals": 1,
+        "rating": 5.5
+      },
+      {
+        "name": "Bebeto",
+        "position": "DF",
+        "age": 36,
+        "apps": 24,
+        "goals": 3,
+        "rating": 3.8
+      },
+      {
+        "name": "Cicero",
+        "position": "MF",
+        "age": 29,
+        "apps": 18,
+        "goals": 1,
+        "rating": 4.5
+      },
+      {
+        "name": "Xabi Huarte",
+        "position": null,
+        "age": 25,
+        "apps": 5,
+        "goals": 0,
+        "rating": 2.4
+      },
+      {
+        "name": "Hugo Félix",
+        "position": "MF",
+        "age": 22,
+        "apps": 26,
+        "goals": 0,
+        "rating": 5.8
+      },
+      {
+        "name": "Hélder Tavares",
+        "position": "MF",
+        "age": 36,
+        "apps": 20,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Yaya Sithole",
+        "position": "MF",
+        "age": 27,
+        "apps": 26,
+        "goals": 1,
+        "rating": 4.7
+      },
+      {
+        "name": "Joe Hodge",
+        "position": "MF",
+        "age": 23,
+        "apps": 26,
+        "goals": 1,
+        "rating": 5.6
+      },
+      {
+        "name": "Moudja Ouattara",
+        "position": null,
+        "age": 23,
+        "apps": 16,
+        "goals": 0,
+        "rating": 1.9
+      },
+      {
+        "name": "Arjen van der Heide",
+        "position": null,
+        "age": 24,
+        "apps": 10,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Benjamin Kimpioka",
+        "position": "ST",
+        "age": 26,
+        "apps": 10,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Jordan",
+        "position": "ST",
+        "age": 30,
+        "apps": 22,
+        "goals": 1,
+        "rating": 6.6
+      },
+      {
+        "name": "Rony Lopes",
+        "position": "ST",
+        "age": 30,
+        "apps": 16,
+        "goals": 4,
+        "rating": 6.3
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "Eidsvold TF",
+        "rating": 1703.75
+      },
+      {
+        "name": "CA Osasuna II",
+        "rating": 1704.35
+      }
+    ]
   },
   "standings": {
     "available": true,
@@ -390,24 +1140,24 @@
       "matchedBy": "competitionId"
     },
     "homeTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/239-liga-portugal-2/188163-tondela.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/239-liga-portugal-2/280216-amarante-fc.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "homeTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/6014-cd-tondela.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/4203-amarante-fc.json",
+      "matchedBy": "sofascoreTeamId"
     }
   }
 }

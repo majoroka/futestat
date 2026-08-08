@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.458Z",
+  "builtAtUtc": "2026-08-08T18:29:00.259Z",
   "match": {
     "id": "15235415",
     "date": "2026-08-08",
@@ -40,7 +40,7 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/2012/image/small",
       "sourceIds": {
         "sofascore": "2012",
-        "fotmob": null,
+        "fotmob": "1626",
         "soccerRating": null
       }
     },
@@ -49,8 +49,8 @@
       "nationalRank": null,
       "europeRank": null,
       "formLast3": [],
-      "xgFor": null,
-      "xgAgainst": null,
+      "xgFor": 31.592900000000004,
+      "xgAgainst": 20.174400000000002,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
@@ -61,10 +61,42 @@
       "oddsMarket": null
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 31.592900000000004,
+        "xgDiff": 5.407099999999996,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 20.174400000000002,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
     "squad": [],
     "history": [],
@@ -77,7 +109,7 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/1977/image/small",
       "sourceIds": {
         "sofascore": "1977",
-        "fotmob": null,
+        "fotmob": "10272",
         "soccerRating": null
       }
     },
@@ -86,8 +118,8 @@
       "nationalRank": null,
       "europeRank": null,
       "formLast3": [],
-      "xgFor": null,
-      "xgAgainst": null,
+      "xgFor": 31.592900000000004,
+      "xgAgainst": 20.174400000000002,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
@@ -98,10 +130,42 @@
       "oddsMarket": null
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 31.592900000000004,
+        "xgDiff": 5.407099999999996,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 20.174400000000002,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
     "squad": [],
     "history": [],
@@ -418,14 +482,14 @@
       "matchedBy": "competitionId"
     },
     "homeTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/1626-remo.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/10272-atletico-mg.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "homeTeamContext": {
       "available": false,

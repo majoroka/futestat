@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.441Z",
+  "builtAtUtc": "2026-08-08T18:29:00.232Z",
   "match": {
     "id": "16275179",
     "date": "2026-08-08",
@@ -40,35 +40,330 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/2039/image/small",
       "sourceIds": {
         "sofascore": "2039",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "10162",
+        "soccerRating": "636"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
+      "overallRating": 2098.56,
+      "nationalRank": 2,
+      "europeRank": 133,
+      "formLast3": [
+        "W",
+        "W",
+        "W"
+      ],
       "xgFor": null,
       "xgAgainst": null,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 4.2,
+        "players": [
+          {
+            "name": "Aleksa Todorovic",
+            "position": "GK",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 1.4
+          },
+          {
+            "name": "Mladen Devetak",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4.4
+          },
+          {
+            "name": "Ante Majstorovic",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4.1
+          },
+          {
+            "name": "Justas Lasickas",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 1,
+            "rating": 3.5
+          },
+          {
+            "name": "Amer Gojak",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4.4
+          },
+          {
+            "name": "Alfonso Barco",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.4
+          },
+          {
+            "name": "Tiago Dantas",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 5.2
+          },
+          {
+            "name": "Niko Jankovic",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 5.2
+          },
+          {
+            "name": "Toni Fruk",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 6
+          },
+          {
+            "name": "Daniel Adu-Adjei",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 1,
+            "rating": 4.1
+          },
+          {
+            "name": "Jakov Puljic",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4.2
+          },
+          {
+            "name": "Branko Pavic",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.1
+          },
+          {
+            "name": "Gabriel Rukavina",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.8
+          },
+          {
+            "name": "Ivan Cubelic",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4.4
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.18,
+          "draw": 6.5,
+          "away": 13
+        },
+        "fair1X2": {
+          "home": 1.54,
+          "draw": 6.22,
+          "away": 5.26
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Aleksa Todorovic",
+        "position": "GK",
+        "age": 22,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Mladen Devetak",
+        "position": "DF",
+        "age": 27,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Ante Majstorovic",
+        "position": "DF",
+        "age": 32,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.1
+      },
+      {
+        "name": "Justas Lasickas",
+        "position": "DF",
+        "age": 28,
+        "apps": 1,
+        "goals": 1,
+        "rating": 3.5
+      },
+      {
+        "name": "Alfonso Barco",
+        "position": "MF",
+        "age": 24,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Branko Pavic",
+        "position": "MF",
+        "age": 19,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Niko Jankovic",
+        "position": "MF",
+        "age": 24,
+        "apps": 1,
+        "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Amer Gojak",
+        "position": "MF",
+        "age": 29,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Tiago Dantas",
+        "position": "MF",
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Ivan Cubelic",
+        "position": "MF",
+        "age": 23,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Toni Fruk",
+        "position": "MF",
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 6
+      },
+      {
+        "name": "Gabriel Rukavina",
+        "position": "ST",
+        "age": 22,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Daniel Adu-Adjei",
+        "position": "ST",
+        "age": 21,
+        "apps": 1,
+        "goals": 1,
+        "rating": 4.1
+      },
+      {
+        "name": "Jakov Puljic",
+        "position": "ST",
+        "age": 33,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.2
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "SSC Venezia",
+        "rating": 2098.93
+      },
+      {
+        "name": "Hamburger SV",
+        "rating": 2098.44
+      }
+    ]
   },
   "awayTeam": {
     "identity": {
@@ -77,35 +372,426 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/2032/image/small",
       "sourceIds": {
         "sofascore": "2032",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "10156",
+        "soccerRating": "484"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
+      "overallRating": 2179.7,
+      "nationalRank": 1,
+      "europeRank": 62,
+      "formLast3": [
+        "W",
+        "D",
+        "W"
+      ],
       "xgFor": null,
       "xgAgainst": null,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": "away_win",
+        "tipLabel": "Bet on (2) Dinamo Zagreb (Stake 3/10)",
+        "confidencePct": 30,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 4.6,
+        "players": [
+          {
+            "name": "Tomas Svedkauskas",
+            "position": "GK",
+            "age": null,
+            "apps": 22,
+            "goals": 0,
+            "rating": 5.3
+          },
+          {
+            "name": "Aldayr Hernandez",
+            "position": "DF",
+            "age": null,
+            "apps": 17,
+            "goals": 1,
+            "rating": 5.2
+          },
+          {
+            "name": "N. I. Edokpolor",
+            "position": "DF",
+            "age": null,
+            "apps": 19,
+            "goals": 1,
+            "rating": 4.7
+          },
+          {
+            "name": "Luka Racic",
+            "position": "DF",
+            "age": null,
+            "apps": 6,
+            "goals": 0,
+            "rating": 3.4
+          },
+          {
+            "name": "Vykintas Slivka",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.7
+          },
+          {
+            "name": "Yukiyoshi Karashima",
+            "position": "MF",
+            "age": null,
+            "apps": 20,
+            "goals": 1,
+            "rating": 4.5
+          },
+          {
+            "name": "Amine Benchaib",
+            "position": "MF",
+            "age": null,
+            "apps": 21,
+            "goals": 10,
+            "rating": 6.5
+          },
+          {
+            "name": "Motiejus Burba",
+            "position": "ST",
+            "age": null,
+            "apps": 22,
+            "goals": 2,
+            "rating": 5.3
+          },
+          {
+            "name": "Léo Ribeiro",
+            "position": "ST",
+            "age": null,
+            "apps": 20,
+            "goals": 5,
+            "rating": 4.9
+          },
+          {
+            "name": "Lirim Kastrati",
+            "position": "ST",
+            "age": null,
+            "apps": 17,
+            "goals": 1,
+            "rating": 4.2
+          },
+          {
+            "name": "Haris Kadric",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 1,
+            "rating": 3
+          },
+          {
+            "name": "Deividas Mikelionis",
+            "position": "GK",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 3.1
+          },
+          {
+            "name": "Rokas Lekiatas",
+            "position": "DF",
+            "age": null,
+            "apps": 20,
+            "goals": 1,
+            "rating": 4
+          },
+          {
+            "name": "Fedor Cernych",
+            "position": "ST",
+            "age": null,
+            "apps": 10,
+            "goals": 0,
+            "rating": 4.1
+          },
+          {
+            "name": "Anthony Kalik",
+            "position": "MF",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 4.2
+          },
+          {
+            "name": "Renan Oliveira",
+            "position": "ST",
+            "age": null,
+            "apps": 4,
+            "goals": 2,
+            "rating": 3.4
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 7,
+          "draw": 5,
+          "away": 1.4
+        },
+        "fair1X2": {
+          "home": 8.01,
+          "draw": 5.52,
+          "away": 1.44
+        },
+        "movementSummary": "home_odds_up_away_odds_flat"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Tomas Svedkauskas",
+        "position": "GK",
+        "age": 32,
+        "apps": 22,
+        "goals": 0,
+        "rating": 5.3
+      },
+      {
+        "name": "Deividas Mikelionis",
+        "position": "GK",
+        "age": 29,
+        "apps": 0,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Joris Moutachy",
+        "position": null,
+        "age": 28,
+        "apps": 21,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Anton Tolordava",
+        "position": null,
+        "age": 30,
+        "apps": 19,
+        "goals": 4,
+        "rating": 4.9
+      },
+      {
+        "name": "T. Burdzilauskas",
+        "position": null,
+        "age": 21,
+        "apps": 9,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Marko Konatar",
+        "position": null,
+        "age": 26,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Aldayr Hernandez",
+        "position": "DF",
+        "age": 31,
+        "apps": 17,
+        "goals": 1,
+        "rating": 5.2
+      },
+      {
+        "name": "N. I. Edokpolor",
+        "position": "DF",
+        "age": 29,
+        "apps": 19,
+        "goals": 1,
+        "rating": 4.7
+      },
+      {
+        "name": "Luka Racic",
+        "position": "DF",
+        "age": 27,
+        "apps": 6,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Rokas Lekiatas",
+        "position": "DF",
+        "age": 27,
+        "apps": 20,
+        "goals": 1,
+        "rating": 4
+      },
+      {
+        "name": "Yukiyoshi Karashima",
+        "position": "MF",
+        "age": 29,
+        "apps": 20,
+        "goals": 1,
+        "rating": 4.5
+      },
+      {
+        "name": "Franco Baldassarra",
+        "position": null,
+        "age": 27,
+        "apps": 17,
+        "goals": 1,
+        "rating": 4.6
+      },
+      {
+        "name": "Vykintas Slivka",
+        "position": "MF",
+        "age": 31,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.7
+      },
+      {
+        "name": "Ivan Fiolic",
+        "position": null,
+        "age": 30,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Amine Benchaib",
+        "position": "MF",
+        "age": 28,
+        "apps": 21,
+        "goals": 10,
+        "rating": 6.5
+      },
+      {
+        "name": "Anthony Kalik",
+        "position": "MF",
+        "age": 28,
+        "apps": 0,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Motiejus Burba",
+        "position": "ST",
+        "age": 22,
+        "apps": 22,
+        "goals": 2,
+        "rating": 5.3
+      },
+      {
+        "name": "Fabien Ourega",
+        "position": null,
+        "age": 33,
+        "apps": 22,
+        "goals": 7,
+        "rating": 5.2
+      },
+      {
+        "name": "Leon Krekovic",
+        "position": null,
+        "age": 26,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.5
+      },
+      {
+        "name": "Léo Ribeiro",
+        "position": "ST",
+        "age": 32,
+        "apps": 20,
+        "goals": 5,
+        "rating": 4.9
+      },
+      {
+        "name": "Lirim Kastrati",
+        "position": "ST",
+        "age": 27,
+        "apps": 17,
+        "goals": 1,
+        "rating": 4.2
+      },
+      {
+        "name": "Haris Kadric",
+        "position": "ST",
+        "age": 26,
+        "apps": 2,
+        "goals": 1,
+        "rating": 3
+      },
+      {
+        "name": "Fedor Cernych",
+        "position": "ST",
+        "age": 35,
+        "apps": 10,
+        "goals": 0,
+        "rating": 4.1
+      },
+      {
+        "name": "Renan Oliveira",
+        "position": "ST",
+        "age": 29,
+        "apps": 4,
+        "goals": 2,
+        "rating": 3.4
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "Betis Sevilla",
+        "rating": 2197.09
+      },
+      {
+        "name": "1. FC Köln",
+        "rating": 2192.46
+      }
+    ]
   },
   "standings": {
     "available": true,
@@ -276,24 +962,24 @@
       "matchedBy": "competitionId"
     },
     "homeTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/170-hnl/10162-rijeka.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/170-hnl/10156-dinamo-zagreb.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "homeTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/croatia/636-nk-rijeka.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/croatia/484-dinamo-zagreb.json",
+      "matchedBy": "sofascoreTeamId"
     }
   }
 }

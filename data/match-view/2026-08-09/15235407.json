@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.486Z",
+  "builtAtUtc": "2026-08-08T18:29:00.303Z",
   "match": {
     "id": "15235407",
     "date": "2026-08-09",
@@ -77,35 +77,104 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/1957/image/small",
       "sourceIds": {
         "sofascore": "1957",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "9808",
+        "soccerRating": "8624"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
-      "xgFor": null,
-      "xgAgainst": null,
+      "overallRating": 1497.24,
+      "nationalRank": 31,
+      "europeRank": 3909,
+      "formLast3": [
+        "W",
+        "L",
+        "W"
+      ],
+      "xgFor": 31.592900000000004,
+      "xgAgainst": 20.174400000000002,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": "home_win",
+        "tipLabel": "Bet on (1) Bangor Celtic (Stake 7/10)",
+        "confidencePct": 70,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 2.65,
+          "draw": 3.6,
+          "away": 2.15
+        },
+        "fair1X2": {
+          "home": 1.62,
+          "draw": 4.24,
+          "away": 6.8
+        },
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 31.592900000000004,
+        "xgDiff": 5.407099999999996,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 20.174400000000002,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
     "squad": [],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "AC Malcantone",
+        "rating": 1497.26
+      },
+      {
+        "name": "FC Höllviken",
+        "rating": 1497.22
+      }
+    ]
   },
   "standings": {
     "available": true,
@@ -423,9 +492,9 @@
       "matchedBy": null
     },
     "awayTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/9808-corinthians.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "homeTeamContext": {
       "available": false,
@@ -433,9 +502,9 @@
       "matchedBy": null
     },
     "awayTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/brazil/8624-college-corinthians.json",
+      "matchedBy": "sofascoreTeamId"
     }
   }
 }

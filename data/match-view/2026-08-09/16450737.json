@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.484Z",
+  "builtAtUtc": "2026-08-08T18:29:00.299Z",
   "match": {
     "id": "16450737",
     "date": "2026-08-09",
@@ -40,35 +40,434 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/3010/image/small",
       "sourceIds": {
         "sofascore": "3010",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "9764",
+        "soccerRating": "1097"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
-      "xgFor": null,
-      "xgAgainst": null,
+      "overallRating": 2009.87,
+      "nationalRank": 7,
+      "europeRank": 242,
+      "formLast3": [
+        "L",
+        "L",
+        "D"
+      ],
+      "xgFor": 1.6548000574111938,
+      "xgAgainst": 0.44589999318122864,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 6.3,
+        "players": [
+          {
+            "name": "Lucao",
+            "position": "GK",
+            "age": null,
+            "apps": 8,
+            "goals": 0,
+            "rating": 4.9
+          },
+          {
+            "name": "Marvin Elimbi",
+            "position": "DF",
+            "age": null,
+            "apps": 28,
+            "goals": 0,
+            "rating": 6.9
+          },
+          {
+            "name": "Ghislain Konan",
+            "position": "DF",
+            "age": null,
+            "apps": 30,
+            "goals": 0,
+            "rating": 7
+          },
+          {
+            "name": "Zé Carlos",
+            "position": "DF",
+            "age": null,
+            "apps": 30,
+            "goals": 0,
+            "rating": 6.6
+          },
+          {
+            "name": "Antonio Espigares",
+            "position": "DF",
+            "age": null,
+            "apps": 19,
+            "goals": 1,
+            "rating": 5.2
+          },
+          {
+            "name": "Zé Carlos",
+            "position": "MF",
+            "age": null,
+            "apps": 32,
+            "goals": 0,
+            "rating": 6
+          },
+          {
+            "name": "Facundo Caseres",
+            "position": "MF",
+            "age": null,
+            "apps": 29,
+            "goals": 0,
+            "rating": 6.6
+          },
+          {
+            "name": "Santi Garcia",
+            "position": "MF",
+            "age": null,
+            "apps": 33,
+            "goals": 6,
+            "rating": 6.8
+          },
+          {
+            "name": "Gustavo Varela",
+            "position": "ST",
+            "age": null,
+            "apps": 32,
+            "goals": 6,
+            "rating": 6.9
+          },
+          {
+            "name": "Joelson Fernandes",
+            "position": "ST",
+            "age": null,
+            "apps": 24,
+            "goals": 1,
+            "rating": 6.5
+          },
+          {
+            "name": "Murilo",
+            "position": "ST",
+            "age": null,
+            "apps": 32,
+            "goals": 11,
+            "rating": 6.1
+          },
+          {
+            "name": "Buatu",
+            "position": "DF",
+            "age": null,
+            "apps": 31,
+            "goals": 1,
+            "rating": 5.2
+          },
+          {
+            "name": "Martin Fernandez",
+            "position": "MF",
+            "age": null,
+            "apps": 26,
+            "goals": 1,
+            "rating": 4.7
+          },
+          {
+            "name": "Agustin Moreira",
+            "position": "ST",
+            "age": null,
+            "apps": 21,
+            "goals": 2,
+            "rating": 5.1
+          },
+          {
+            "name": "Carlos Eduardo",
+            "position": "ST",
+            "age": null,
+            "apps": 15,
+            "goals": 2,
+            "rating": 5
+          },
+          {
+            "name": "Mohamed Bamba",
+            "position": "MF",
+            "age": null,
+            "apps": 4,
+            "goals": 0,
+            "rating": 5.2
+          },
+          {
+            "name": "Sergio Bermejo",
+            "position": "ST",
+            "age": null,
+            "apps": 16,
+            "goals": 0,
+            "rating": 5.1
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.71,
+          "draw": 3.7,
+          "away": 4.6
+        },
+        "fair1X2": {
+          "home": 1.64,
+          "draw": 3.84,
+          "away": 7.72
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 1.6548000574111938,
+        "xgDiff": -1.6548000574111938,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 0.44589999318122864,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Lucao",
+        "position": "GK",
+        "age": 25,
+        "apps": 8,
+        "goals": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Jonathan Mutombo",
+        "position": null,
+        "age": 23,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Weverson",
+        "position": null,
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Marvin Elimbi",
+        "position": "DF",
+        "age": 23,
+        "apps": 28,
+        "goals": 0,
+        "rating": 6.9
+      },
+      {
+        "name": "Ghislain Konan",
+        "position": "DF",
+        "age": 30,
+        "apps": 30,
+        "goals": 0,
+        "rating": 7
+      },
+      {
+        "name": "Zé Carlos",
+        "position": "MF",
+        "age": 24,
+        "apps": 30,
+        "goals": 0,
+        "rating": 6.6
+      },
+      {
+        "name": "Antonio Espigares",
+        "position": "DF",
+        "age": 21,
+        "apps": 19,
+        "goals": 1,
+        "rating": 5.2
+      },
+      {
+        "name": "Buatu",
+        "position": "DF",
+        "age": 32,
+        "apps": 31,
+        "goals": 1,
+        "rating": 5.2
+      },
+      {
+        "name": "Gonçalo Maia",
+        "position": null,
+        "age": 20,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Mohamed Bamba",
+        "position": "MF",
+        "age": 21,
+        "apps": 4,
+        "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Gil Martins",
+        "position": null,
+        "age": 20,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.2
+      },
+      {
+        "name": "Zé Carlos",
+        "position": "MF",
+        "age": 27,
+        "apps": 32,
+        "goals": 0,
+        "rating": 6
+      },
+      {
+        "name": "Facundo Caseres",
+        "position": "MF",
+        "age": 24,
+        "apps": 29,
+        "goals": 0,
+        "rating": 6.6
+      },
+      {
+        "name": "Santi Garcia",
+        "position": "MF",
+        "age": 24,
+        "apps": 33,
+        "goals": 6,
+        "rating": 6.8
+      },
+      {
+        "name": "Martin Fernandez",
+        "position": "MF",
+        "age": 22,
+        "apps": 26,
+        "goals": 1,
+        "rating": 4.7
+      },
+      {
+        "name": "Rodrigo Rodrigues",
+        "position": null,
+        "age": 18,
+        "apps": 4,
+        "goals": 0,
+        "rating": 1.5
+      },
+      {
+        "name": "Joelson Fernandes",
+        "position": "ST",
+        "age": 23,
+        "apps": 24,
+        "goals": 1,
+        "rating": 6.5
+      },
+      {
+        "name": "Murilo",
+        "position": "ST",
+        "age": 31,
+        "apps": 32,
+        "goals": 11,
+        "rating": 6.1
+      },
+      {
+        "name": "Agustin Moreira",
+        "position": "ST",
+        "age": 24,
+        "apps": 21,
+        "goals": 2,
+        "rating": 5.1
+      },
+      {
+        "name": "Sergio Bermejo",
+        "position": "ST",
+        "age": 28,
+        "apps": 16,
+        "goals": 0,
+        "rating": 5.1
+      },
+      {
+        "name": "Tidjany Touré",
+        "position": null,
+        "age": 23,
+        "apps": 11,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Héctor Hernandez",
+        "position": null,
+        "age": 30,
+        "apps": 9,
+        "goals": 2,
+        "rating": 4.9
+      },
+      {
+        "name": "Gustavo Varela",
+        "position": "ST",
+        "age": 21,
+        "apps": 32,
+        "goals": 6,
+        "rating": 6.9
+      },
+      {
+        "name": "Carlos Eduardo",
+        "position": "ST",
+        "age": 23,
+        "apps": 15,
+        "goals": 2,
+        "rating": 5
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "Lilleström SK",
+        "rating": 2010.67
+      },
+      {
+        "name": "Amedspor",
+        "rating": 2008.57
+      }
+    ]
   },
   "awayTeam": {
     "identity": {
@@ -77,35 +476,434 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/3036/image/small",
       "sourceIds": {
         "sofascore": "3036",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "7841",
+        "soccerRating": "1100"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
-      "xgFor": null,
-      "xgAgainst": null,
+      "overallRating": 1897.15,
+      "nationalRank": 16,
+      "europeRank": 436,
+      "formLast3": [
+        "L",
+        "L",
+        "D"
+      ],
+      "xgFor": 1.6548000574111938,
+      "xgAgainst": 0.44589999318122864,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 6.3,
+        "players": [
+          {
+            "name": "Lucao",
+            "position": "GK",
+            "age": null,
+            "apps": 8,
+            "goals": 0,
+            "rating": 4.9
+          },
+          {
+            "name": "Marvin Elimbi",
+            "position": "DF",
+            "age": null,
+            "apps": 28,
+            "goals": 0,
+            "rating": 6.9
+          },
+          {
+            "name": "Ghislain Konan",
+            "position": "DF",
+            "age": null,
+            "apps": 30,
+            "goals": 0,
+            "rating": 7
+          },
+          {
+            "name": "Zé Carlos",
+            "position": "DF",
+            "age": null,
+            "apps": 30,
+            "goals": 0,
+            "rating": 6.6
+          },
+          {
+            "name": "Antonio Espigares",
+            "position": "DF",
+            "age": null,
+            "apps": 19,
+            "goals": 1,
+            "rating": 5.2
+          },
+          {
+            "name": "Zé Carlos",
+            "position": "MF",
+            "age": null,
+            "apps": 32,
+            "goals": 0,
+            "rating": 6
+          },
+          {
+            "name": "Facundo Caseres",
+            "position": "MF",
+            "age": null,
+            "apps": 29,
+            "goals": 0,
+            "rating": 6.6
+          },
+          {
+            "name": "Santi Garcia",
+            "position": "MF",
+            "age": null,
+            "apps": 33,
+            "goals": 6,
+            "rating": 6.8
+          },
+          {
+            "name": "Gustavo Varela",
+            "position": "ST",
+            "age": null,
+            "apps": 32,
+            "goals": 6,
+            "rating": 6.9
+          },
+          {
+            "name": "Joelson Fernandes",
+            "position": "ST",
+            "age": null,
+            "apps": 24,
+            "goals": 1,
+            "rating": 6.5
+          },
+          {
+            "name": "Murilo",
+            "position": "ST",
+            "age": null,
+            "apps": 32,
+            "goals": 11,
+            "rating": 6.1
+          },
+          {
+            "name": "Buatu",
+            "position": "DF",
+            "age": null,
+            "apps": 31,
+            "goals": 1,
+            "rating": 5.2
+          },
+          {
+            "name": "Martin Fernandez",
+            "position": "MF",
+            "age": null,
+            "apps": 26,
+            "goals": 1,
+            "rating": 4.7
+          },
+          {
+            "name": "Agustin Moreira",
+            "position": "ST",
+            "age": null,
+            "apps": 21,
+            "goals": 2,
+            "rating": 5.1
+          },
+          {
+            "name": "Carlos Eduardo",
+            "position": "ST",
+            "age": null,
+            "apps": 15,
+            "goals": 2,
+            "rating": 5
+          },
+          {
+            "name": "Mohamed Bamba",
+            "position": "MF",
+            "age": null,
+            "apps": 4,
+            "goals": 0,
+            "rating": 5.2
+          },
+          {
+            "name": "Sergio Bermejo",
+            "position": "ST",
+            "age": null,
+            "apps": 16,
+            "goals": 0,
+            "rating": 5.1
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.71,
+          "draw": 3.7,
+          "away": 4.6
+        },
+        "fair1X2": {
+          "home": 1.64,
+          "draw": 3.84,
+          "away": 7.72
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 1.6548000574111938,
+        "xgDiff": -1.6548000574111938,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 0.44589999318122864,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Lucao",
+        "position": "GK",
+        "age": 25,
+        "apps": 8,
+        "goals": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Jonathan Mutombo",
+        "position": null,
+        "age": 23,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Weverson",
+        "position": null,
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Marvin Elimbi",
+        "position": "DF",
+        "age": 23,
+        "apps": 28,
+        "goals": 0,
+        "rating": 6.9
+      },
+      {
+        "name": "Ghislain Konan",
+        "position": "DF",
+        "age": 30,
+        "apps": 30,
+        "goals": 0,
+        "rating": 7
+      },
+      {
+        "name": "Zé Carlos",
+        "position": "MF",
+        "age": 24,
+        "apps": 30,
+        "goals": 0,
+        "rating": 6.6
+      },
+      {
+        "name": "Antonio Espigares",
+        "position": "DF",
+        "age": 21,
+        "apps": 19,
+        "goals": 1,
+        "rating": 5.2
+      },
+      {
+        "name": "Buatu",
+        "position": "DF",
+        "age": 32,
+        "apps": 31,
+        "goals": 1,
+        "rating": 5.2
+      },
+      {
+        "name": "Gonçalo Maia",
+        "position": null,
+        "age": 20,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Mohamed Bamba",
+        "position": "MF",
+        "age": 21,
+        "apps": 4,
+        "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Gil Martins",
+        "position": null,
+        "age": 20,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.2
+      },
+      {
+        "name": "Zé Carlos",
+        "position": "MF",
+        "age": 27,
+        "apps": 32,
+        "goals": 0,
+        "rating": 6
+      },
+      {
+        "name": "Facundo Caseres",
+        "position": "MF",
+        "age": 24,
+        "apps": 29,
+        "goals": 0,
+        "rating": 6.6
+      },
+      {
+        "name": "Santi Garcia",
+        "position": "MF",
+        "age": 24,
+        "apps": 33,
+        "goals": 6,
+        "rating": 6.8
+      },
+      {
+        "name": "Martin Fernandez",
+        "position": "MF",
+        "age": 22,
+        "apps": 26,
+        "goals": 1,
+        "rating": 4.7
+      },
+      {
+        "name": "Rodrigo Rodrigues",
+        "position": null,
+        "age": 18,
+        "apps": 4,
+        "goals": 0,
+        "rating": 1.5
+      },
+      {
+        "name": "Joelson Fernandes",
+        "position": "ST",
+        "age": 23,
+        "apps": 24,
+        "goals": 1,
+        "rating": 6.5
+      },
+      {
+        "name": "Murilo",
+        "position": "ST",
+        "age": 31,
+        "apps": 32,
+        "goals": 11,
+        "rating": 6.1
+      },
+      {
+        "name": "Agustin Moreira",
+        "position": "ST",
+        "age": 24,
+        "apps": 21,
+        "goals": 2,
+        "rating": 5.1
+      },
+      {
+        "name": "Sergio Bermejo",
+        "position": "ST",
+        "age": 28,
+        "apps": 16,
+        "goals": 0,
+        "rating": 5.1
+      },
+      {
+        "name": "Tidjany Touré",
+        "position": null,
+        "age": 23,
+        "apps": 11,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Héctor Hernandez",
+        "position": null,
+        "age": 30,
+        "apps": 9,
+        "goals": 2,
+        "rating": 4.9
+      },
+      {
+        "name": "Gustavo Varela",
+        "position": "ST",
+        "age": 21,
+        "apps": 32,
+        "goals": 6,
+        "rating": 6.9
+      },
+      {
+        "name": "Carlos Eduardo",
+        "position": "ST",
+        "age": 23,
+        "apps": 15,
+        "goals": 2,
+        "rating": 5
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "Asteras Tripolis",
+        "rating": 1898.15
+      },
+      {
+        "name": "Oud Heverlee Leuven",
+        "rating": 1896.22
+      }
+    ]
   },
   "standings": {
     "available": true,
@@ -388,24 +1186,24 @@
       "matchedBy": "competitionId"
     },
     "homeTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/9764-gil-vicente.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/7841-rio-ave.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "homeTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/1097-gil-vicente.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/1100-rio-ave.json",
+      "matchedBy": "sofascoreTeamId"
     }
   }
 }

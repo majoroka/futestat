@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.477Z",
+  "builtAtUtc": "2026-08-08T18:29:00.288Z",
   "match": {
     "id": "15260865",
     "date": "2026-08-09",
@@ -40,35 +40,400 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/957/image/small",
       "sourceIds": {
         "sofascore": "957",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "8605",
+        "soccerRating": "402"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
-      "xgFor": null,
-      "xgAgainst": null,
+      "overallRating": 1841.61,
+      "nationalRank": 20,
+      "europeRank": 590,
+      "formLast3": [
+        "L",
+        "L",
+        "D"
+      ],
+      "xgFor": 48.077599823474884,
+      "xgAgainst": 17.47010011970997,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [
+          {
+            "player": "J. Mar Juliusson",
+            "status": "injury_or_suspension",
+            "description": null
+          }
+        ],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 4.9,
+        "players": [
+          {
+            "name": "Adrian Saether",
+            "position": "GK",
+            "age": null,
+            "apps": 12,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Dan Peter Ulvestad",
+            "position": "DF",
+            "age": null,
+            "apps": 14,
+            "goals": 0,
+            "rating": 4.3
+          },
+          {
+            "name": "Frederik Flex",
+            "position": "DF",
+            "age": null,
+            "apps": 13,
+            "goals": 0,
+            "rating": 4.2
+          },
+          {
+            "name": "A. Munksgaard",
+            "position": "DF",
+            "age": null,
+            "apps": 15,
+            "goals": 0,
+            "rating": 4.3
+          },
+          {
+            "name": "Tobias Svendsen",
+            "position": "MF",
+            "age": null,
+            "apps": 12,
+            "goals": 1,
+            "rating": 4.7
+          },
+          {
+            "name": "Jesper Isaksen",
+            "position": "MF",
+            "age": null,
+            "apps": 11,
+            "goals": 0,
+            "rating": 4.8
+          },
+          {
+            "name": "H. G. Bruseth",
+            "position": "MF",
+            "age": null,
+            "apps": 12,
+            "goals": 0,
+            "rating": 5.4
+          },
+          {
+            "name": "Wilfred George Igor",
+            "position": "MF",
+            "age": null,
+            "apps": 15,
+            "goals": 1,
+            "rating": 6.3
+          },
+          {
+            "name": "Sander Kilen",
+            "position": "ST",
+            "age": null,
+            "apps": 14,
+            "goals": 1,
+            "rating": 6.9
+          },
+          {
+            "name": "Leander Alvheim",
+            "position": "ST",
+            "age": null,
+            "apps": 14,
+            "goals": 5,
+            "rating": 5.7
+          },
+          {
+            "name": "H. Snaer Magnusson",
+            "position": "ST",
+            "age": null,
+            "apps": 9,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Michael Lansing",
+            "position": "GK",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.2
+          },
+          {
+            "name": "Haakon Haugen",
+            "position": "DF",
+            "age": null,
+            "apps": 11,
+            "goals": 0,
+            "rating": 3.2
+          },
+          {
+            "name": "Adrian Ronning",
+            "position": "MF",
+            "age": null,
+            "apps": 15,
+            "goals": 1,
+            "rating": 3.7
+          },
+          {
+            "name": "Sander Svendsen",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4.3
+          },
+          {
+            "name": "Syver Skeide",
+            "position": "MF",
+            "age": null,
+            "apps": 10,
+            "goals": 0,
+            "rating": 4.2
+          },
+          {
+            "name": "Max Williamsen",
+            "position": "DF",
+            "age": null,
+            "apps": 5,
+            "goals": 0,
+            "rating": 3.8
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 4.2,
+          "draw": 3.9,
+          "away": 1.72
+        },
+        "fair1X2": {
+          "home": 4.17,
+          "draw": 4.62,
+          "away": 1.84
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 48.077599823474884,
+        "xgDiff": -5.077599823474884,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 17.47010011970997,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Adrian Saether",
+        "position": "GK",
+        "age": 25,
+        "apps": 12,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Michael Lansing",
+        "position": "GK",
+        "age": 32,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Anders Børset",
+        "position": null,
+        "age": 20,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.7
+      },
+      {
+        "name": "Dan Peter Ulvestad",
+        "position": "DF",
+        "age": 37,
+        "apps": 14,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Frederik Flex",
+        "position": "DF",
+        "age": 22,
+        "apps": 13,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "A. Munksgaard",
+        "position": "DF",
+        "age": 28,
+        "apps": 15,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Haakon Haugen",
+        "position": "DF",
+        "age": 19,
+        "apps": 11,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Max Williamsen",
+        "position": "DF",
+        "age": 23,
+        "apps": 5,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "J. Mar Juliusson",
+        "position": null,
+        "age": 22,
+        "apps": 14,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Jesper Isaksen",
+        "position": "MF",
+        "age": 26,
+        "apps": 11,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Wilfred George Igor",
+        "position": "MF",
+        "age": 21,
+        "apps": 15,
+        "goals": 1,
+        "rating": 6.3
+      },
+      {
+        "name": "Tobias Svendsen",
+        "position": "MF",
+        "age": 26,
+        "apps": 12,
+        "goals": 1,
+        "rating": 4.7
+      },
+      {
+        "name": "H. G. Bruseth",
+        "position": "MF",
+        "age": 22,
+        "apps": 12,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Adrian Ronning",
+        "position": "MF",
+        "age": 20,
+        "apps": 15,
+        "goals": 1,
+        "rating": 3.7
+      },
+      {
+        "name": "Syver Skeide",
+        "position": "MF",
+        "age": 21,
+        "apps": 10,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Sander Kilen",
+        "position": "ST",
+        "age": 21,
+        "apps": 14,
+        "goals": 1,
+        "rating": 6.9
+      },
+      {
+        "name": "H. Snaer Magnusson",
+        "position": "ST",
+        "age": 24,
+        "apps": 9,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Sander Svendsen",
+        "position": "ST",
+        "age": 28,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Leander Alvheim",
+        "position": "ST",
+        "age": 21,
+        "apps": 14,
+        "goals": 5,
+        "rating": 5.7
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "Landskrona BoIS",
+        "rating": 1845.85
+      },
+      {
+        "name": "Annecy FC",
+        "rating": 1845.26
+      }
+    ]
   },
   "awayTeam": {
     "identity": {
@@ -77,35 +442,400 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/661/image/small",
       "sourceIds": {
         "sofascore": "661",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "9917",
+        "soccerRating": "118"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
-      "xgFor": null,
-      "xgAgainst": null,
+      "overallRating": 2057.3,
+      "nationalRank": 5,
+      "europeRank": 176,
+      "formLast3": [
+        "L",
+        "L",
+        "D"
+      ],
+      "xgFor": 48.077599823474884,
+      "xgAgainst": 17.47010011970997,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [
+          {
+            "player": "J. Mar Juliusson",
+            "status": "injury_or_suspension",
+            "description": null
+          }
+        ],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 4.9,
+        "players": [
+          {
+            "name": "Adrian Saether",
+            "position": "GK",
+            "age": null,
+            "apps": 12,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Dan Peter Ulvestad",
+            "position": "DF",
+            "age": null,
+            "apps": 14,
+            "goals": 0,
+            "rating": 4.3
+          },
+          {
+            "name": "Frederik Flex",
+            "position": "DF",
+            "age": null,
+            "apps": 13,
+            "goals": 0,
+            "rating": 4.2
+          },
+          {
+            "name": "A. Munksgaard",
+            "position": "DF",
+            "age": null,
+            "apps": 15,
+            "goals": 0,
+            "rating": 4.3
+          },
+          {
+            "name": "Tobias Svendsen",
+            "position": "MF",
+            "age": null,
+            "apps": 12,
+            "goals": 1,
+            "rating": 4.7
+          },
+          {
+            "name": "Jesper Isaksen",
+            "position": "MF",
+            "age": null,
+            "apps": 11,
+            "goals": 0,
+            "rating": 4.8
+          },
+          {
+            "name": "H. G. Bruseth",
+            "position": "MF",
+            "age": null,
+            "apps": 12,
+            "goals": 0,
+            "rating": 5.4
+          },
+          {
+            "name": "Wilfred George Igor",
+            "position": "MF",
+            "age": null,
+            "apps": 15,
+            "goals": 1,
+            "rating": 6.3
+          },
+          {
+            "name": "Sander Kilen",
+            "position": "ST",
+            "age": null,
+            "apps": 14,
+            "goals": 1,
+            "rating": 6.9
+          },
+          {
+            "name": "Leander Alvheim",
+            "position": "ST",
+            "age": null,
+            "apps": 14,
+            "goals": 5,
+            "rating": 5.7
+          },
+          {
+            "name": "H. Snaer Magnusson",
+            "position": "ST",
+            "age": null,
+            "apps": 9,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Michael Lansing",
+            "position": "GK",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.2
+          },
+          {
+            "name": "Haakon Haugen",
+            "position": "DF",
+            "age": null,
+            "apps": 11,
+            "goals": 0,
+            "rating": 3.2
+          },
+          {
+            "name": "Adrian Ronning",
+            "position": "MF",
+            "age": null,
+            "apps": 15,
+            "goals": 1,
+            "rating": 3.7
+          },
+          {
+            "name": "Sander Svendsen",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4.3
+          },
+          {
+            "name": "Syver Skeide",
+            "position": "MF",
+            "age": null,
+            "apps": 10,
+            "goals": 0,
+            "rating": 4.2
+          },
+          {
+            "name": "Max Williamsen",
+            "position": "DF",
+            "age": null,
+            "apps": 5,
+            "goals": 0,
+            "rating": 3.8
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 4.2,
+          "draw": 3.9,
+          "away": 1.72
+        },
+        "fair1X2": {
+          "home": 4.17,
+          "draw": 4.62,
+          "away": 1.84
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 48.077599823474884,
+        "xgDiff": -5.077599823474884,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 17.47010011970997,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Adrian Saether",
+        "position": "GK",
+        "age": 25,
+        "apps": 12,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Michael Lansing",
+        "position": "GK",
+        "age": 32,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Anders Børset",
+        "position": null,
+        "age": 20,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.7
+      },
+      {
+        "name": "Dan Peter Ulvestad",
+        "position": "DF",
+        "age": 37,
+        "apps": 14,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Frederik Flex",
+        "position": "DF",
+        "age": 22,
+        "apps": 13,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "A. Munksgaard",
+        "position": "DF",
+        "age": 28,
+        "apps": 15,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Haakon Haugen",
+        "position": "DF",
+        "age": 19,
+        "apps": 11,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Max Williamsen",
+        "position": "DF",
+        "age": 23,
+        "apps": 5,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "J. Mar Juliusson",
+        "position": null,
+        "age": 22,
+        "apps": 14,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Jesper Isaksen",
+        "position": "MF",
+        "age": 26,
+        "apps": 11,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Wilfred George Igor",
+        "position": "MF",
+        "age": 21,
+        "apps": 15,
+        "goals": 1,
+        "rating": 6.3
+      },
+      {
+        "name": "Tobias Svendsen",
+        "position": "MF",
+        "age": 26,
+        "apps": 12,
+        "goals": 1,
+        "rating": 4.7
+      },
+      {
+        "name": "H. G. Bruseth",
+        "position": "MF",
+        "age": 22,
+        "apps": 12,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Adrian Ronning",
+        "position": "MF",
+        "age": 20,
+        "apps": 15,
+        "goals": 1,
+        "rating": 3.7
+      },
+      {
+        "name": "Syver Skeide",
+        "position": "MF",
+        "age": 21,
+        "apps": 10,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Sander Kilen",
+        "position": "ST",
+        "age": 21,
+        "apps": 14,
+        "goals": 1,
+        "rating": 6.9
+      },
+      {
+        "name": "H. Snaer Magnusson",
+        "position": "ST",
+        "age": 24,
+        "apps": 9,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Sander Svendsen",
+        "position": "ST",
+        "age": 28,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Leander Alvheim",
+        "position": "ST",
+        "age": 21,
+        "apps": 14,
+        "goals": 5,
+        "rating": 5.7
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "OGC Nice",
+        "rating": 2056.24
+      },
+      {
+        "name": "Norwich City",
+        "rating": 2057.39
+      }
+    ]
   },
   "standings": {
     "available": true,
@@ -360,24 +1090,24 @@
       "matchedBy": "competitionId"
     },
     "homeTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/20-eliteserien/8605-kristiansund.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/20-eliteserien/9917-molde.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "homeTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/norway/402-kristiansund-bk.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/norway/118-molde-fk.json",
+      "matchedBy": "sofascoreTeamId"
     }
   }
 }

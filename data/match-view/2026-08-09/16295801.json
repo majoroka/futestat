@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.473Z",
+  "builtAtUtc": "2026-08-08T18:29:00.281Z",
   "match": {
     "id": "16295801",
     "date": "2026-08-09",
@@ -41,24 +41,202 @@
       "sourceIds": {
         "sofascore": "3280",
         "fotmob": null,
-        "soccerRating": null
+        "soccerRating": "644"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
+      "overallRating": 1788.94,
+      "nationalRank": 8,
+      "europeRank": 743,
+      "formLast3": [
+        "L",
+        "L",
+        "L"
+      ],
       "xgFor": null,
       "xgAgainst": null,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [
+          {
+            "player": "Ventsislav Kerchev",
+            "status": "injury_or_suspension",
+            "description": null
+          },
+          {
+            "player": "Zhivko Atanasov",
+            "status": "injury_or_suspension",
+            "description": null
+          },
+          {
+            "player": "Celso Sidney",
+            "status": "injury_or_suspension",
+            "description": null
+          },
+          {
+            "player": "Mohamed Achi",
+            "status": "injury_or_suspension",
+            "description": null
+          }
+        ],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 3.7,
+        "players": [
+          {
+            "name": "Kristian Tomov",
+            "position": "GK",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 3.3
+          },
+          {
+            "name": "Luciano Squadrone",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 3.8
+          },
+          {
+            "name": "Ertan Tombak",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.5
+          },
+          {
+            "name": "Bandaro Joao",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 1.5
+          },
+          {
+            "name": "Vasil Panayotov",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 1,
+            "rating": 3
+          },
+          {
+            "name": "Berk Beyhan",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.6
+          },
+          {
+            "name": "Aleksandar Todorov",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.7
+          },
+          {
+            "name": "David Teles",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 3.7
+          },
+          {
+            "name": "Aleksandar Kolev",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 5.3
+          },
+          {
+            "name": "Georgi Lazarov",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.8
+          },
+          {
+            "name": "Asen Donchev",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4.1
+          },
+          {
+            "name": "Emmanuel Nyagolov",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 1.5
+          },
+          {
+            "name": "Nikolaj Zlatev",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.4
+          },
+          {
+            "name": "Petar Andreev",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 2.3
+          },
+          {
+            "name": "Idris Bounaas",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.4
+          },
+          {
+            "name": "Miguel Barandas",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 1.4
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 4.2,
+          "draw": 3.6,
+          "away": 1.71
+        },
+        "fair1X2": {
+          "home": 3.22,
+          "draw": 4.3,
+          "away": 2.19
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
     },
     "statistics": {
       "overview": null,
@@ -66,9 +244,179 @@
       "defense": null,
       "discipline": null
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Kristian Tomov",
+        "position": "GK",
+        "age": 23,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Luciano Squadrone",
+        "position": "DF",
+        "age": 26,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Ertan Tombak",
+        "position": "DF",
+        "age": 27,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Bandaro Joao",
+        "position": "DF",
+        "age": 22,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.5
+      },
+      {
+        "name": "Emmanuel Nyagolov",
+        "position": "DF",
+        "age": 17,
+        "apps": 3,
+        "goals": 0,
+        "rating": 1.5
+      },
+      {
+        "name": "Ventsislav Kerchev",
+        "position": null,
+        "age": 29,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Zhivko Atanasov",
+        "position": null,
+        "age": 35,
+        "apps": 3,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Idris Bounaas",
+        "position": "MF",
+        "age": 23,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.4
+      },
+      {
+        "name": "Vasil Panayotov",
+        "position": "MF",
+        "age": 36,
+        "apps": 3,
+        "goals": 1,
+        "rating": 3
+      },
+      {
+        "name": "Berk Beyhan",
+        "position": "MF",
+        "age": 21,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Aleksandar Todorov",
+        "position": "MF",
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.7
+      },
+      {
+        "name": "David Teles",
+        "position": "MF",
+        "age": 28,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.7
+      },
+      {
+        "name": "Nikolaj Zlatev",
+        "position": "MF",
+        "age": 21,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.4
+      },
+      {
+        "name": "Mohamed Achi",
+        "position": null,
+        "age": 24,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.9
+      },
+      {
+        "name": "Georgi Lazarov",
+        "position": "ST",
+        "age": 21,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Asen Donchev",
+        "position": "ST",
+        "age": 24,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.1
+      },
+      {
+        "name": "Miguel Barandas",
+        "position": "ST",
+        "age": 26,
+        "apps": 3,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Aleksandar Kolev",
+        "position": "ST",
+        "age": 33,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5.3
+      },
+      {
+        "name": "Petar Andreev",
+        "position": "ST",
+        "age": 22,
+        "apps": 3,
+        "goals": 0,
+        "rating": 2.3
+      },
+      {
+        "name": "Celso Sidney",
+        "position": null,
+        "age": 25,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.7
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "Bryne FK",
+        "rating": 1791.86
+      },
+      {
+        "name": "NK Rogaska",
+        "rating": 1790.85
+      }
+    ]
   },
   "awayTeam": {
     "identity": {
@@ -77,35 +425,415 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/43840/image/small",
       "sourceIds": {
         "sofascore": "43840",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "210173",
+        "soccerRating": "7254"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
+      "overallRating": 2050.06,
+      "nationalRank": 1,
+      "europeRank": 186,
+      "formLast3": [
+        "L",
+        "L",
+        "L"
+      ],
       "xgFor": null,
       "xgAgainst": null,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [
+          {
+            "player": "Ventsislav Kerchev",
+            "status": "injury_or_suspension",
+            "description": null
+          },
+          {
+            "player": "Zhivko Atanasov",
+            "status": "injury_or_suspension",
+            "description": null
+          },
+          {
+            "player": "Celso Sidney",
+            "status": "injury_or_suspension",
+            "description": null
+          },
+          {
+            "player": "Mohamed Achi",
+            "status": "injury_or_suspension",
+            "description": null
+          }
+        ],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 3.7,
+        "players": [
+          {
+            "name": "Kristian Tomov",
+            "position": "GK",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 3.3
+          },
+          {
+            "name": "Luciano Squadrone",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 3.8
+          },
+          {
+            "name": "Ertan Tombak",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.5
+          },
+          {
+            "name": "Bandaro Joao",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 1.5
+          },
+          {
+            "name": "Vasil Panayotov",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 1,
+            "rating": 3
+          },
+          {
+            "name": "Berk Beyhan",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.6
+          },
+          {
+            "name": "Aleksandar Todorov",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.7
+          },
+          {
+            "name": "David Teles",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 3.7
+          },
+          {
+            "name": "Aleksandar Kolev",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 5.3
+          },
+          {
+            "name": "Georgi Lazarov",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.8
+          },
+          {
+            "name": "Asen Donchev",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4.1
+          },
+          {
+            "name": "Emmanuel Nyagolov",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 1.5
+          },
+          {
+            "name": "Nikolaj Zlatev",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.4
+          },
+          {
+            "name": "Petar Andreev",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 2.3
+          },
+          {
+            "name": "Idris Bounaas",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.4
+          },
+          {
+            "name": "Miguel Barandas",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 1.4
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 4.2,
+          "draw": 3.6,
+          "away": 1.71
+        },
+        "fair1X2": {
+          "home": 3.22,
+          "draw": 4.3,
+          "away": 2.19
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Kristian Tomov",
+        "position": "GK",
+        "age": 23,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Luciano Squadrone",
+        "position": "DF",
+        "age": 26,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Ertan Tombak",
+        "position": "DF",
+        "age": 27,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Bandaro Joao",
+        "position": "DF",
+        "age": 22,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.5
+      },
+      {
+        "name": "Emmanuel Nyagolov",
+        "position": "DF",
+        "age": 17,
+        "apps": 3,
+        "goals": 0,
+        "rating": 1.5
+      },
+      {
+        "name": "Ventsislav Kerchev",
+        "position": null,
+        "age": 29,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Zhivko Atanasov",
+        "position": null,
+        "age": 35,
+        "apps": 3,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Idris Bounaas",
+        "position": "MF",
+        "age": 23,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.4
+      },
+      {
+        "name": "Vasil Panayotov",
+        "position": "MF",
+        "age": 36,
+        "apps": 3,
+        "goals": 1,
+        "rating": 3
+      },
+      {
+        "name": "Berk Beyhan",
+        "position": "MF",
+        "age": 21,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Aleksandar Todorov",
+        "position": "MF",
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.7
+      },
+      {
+        "name": "David Teles",
+        "position": "MF",
+        "age": 28,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.7
+      },
+      {
+        "name": "Nikolaj Zlatev",
+        "position": "MF",
+        "age": 21,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.4
+      },
+      {
+        "name": "Mohamed Achi",
+        "position": null,
+        "age": 24,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.9
+      },
+      {
+        "name": "Georgi Lazarov",
+        "position": "ST",
+        "age": 21,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Asen Donchev",
+        "position": "ST",
+        "age": 24,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.1
+      },
+      {
+        "name": "Miguel Barandas",
+        "position": "ST",
+        "age": 26,
+        "apps": 3,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Aleksandar Kolev",
+        "position": "ST",
+        "age": 33,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5.3
+      },
+      {
+        "name": "Petar Andreev",
+        "position": "ST",
+        "age": 22,
+        "apps": 3,
+        "goals": 0,
+        "rating": 2.3
+      },
+      {
+        "name": "Celso Sidney",
+        "position": null,
+        "age": 25,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.7
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "FC Liverpool II",
+        "rating": 2048.08
+      },
+      {
+        "name": "Lokomotiv Moskva",
+        "rating": 2047.53
+      }
+    ]
   },
   "standings": {
     "available": true,
@@ -341,19 +1069,19 @@
       "matchedBy": null
     },
     "awayTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/247-parva-liga/210173-ludogorets-razgrad.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "homeTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/bulgaria/644-cherno-more-varna.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/bulgaria/7254-ludogorets-razgrad.json",
+      "matchedBy": "sofascoreTeamId"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.437Z",
+  "builtAtUtc": "2026-08-08T18:29:00.226Z",
   "match": {
     "id": "16390311",
     "date": "2026-08-08",
@@ -40,35 +40,450 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/2322/image/small",
       "sourceIds": {
         "sofascore": "2322",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "8709",
+        "soccerRating": "128"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
-      "xgFor": null,
-      "xgAgainst": null,
+      "overallRating": 1827.87,
+      "nationalRank": 20,
+      "europeRank": 632,
+      "formLast3": [
+        "W",
+        "W",
+        "D"
+      ],
+      "xgFor": 4.317200064659119,
+      "xgAgainst": 2.6242999732494354,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 6.2,
+        "players": [
+          {
+            "name": "Maksim Borisko",
+            "position": "GK",
+            "age": null,
+            "apps": 23,
+            "goals": 0,
+            "rating": 5.7
+          },
+          {
+            "name": "Kevin Andrade",
+            "position": "DF",
+            "age": null,
+            "apps": 25,
+            "goals": 1,
+            "rating": 6.9
+          },
+          {
+            "name": "Sergey Varatynov",
+            "position": "DF",
+            "age": null,
+            "apps": 28,
+            "goals": 1,
+            "rating": 6.6
+          },
+          {
+            "name": "Mingiyan Beveev",
+            "position": "DF",
+            "age": null,
+            "apps": 26,
+            "goals": 2,
+            "rating": 6
+          },
+          {
+            "name": "Aleksandr Filin",
+            "position": "DF",
+            "age": null,
+            "apps": 22,
+            "goals": 1,
+            "rating": 5.7
+          },
+          {
+            "name": "Maksim Petrov",
+            "position": "MF",
+            "age": null,
+            "apps": 24,
+            "goals": 7,
+            "rating": 5.9
+          },
+          {
+            "name": "Ilya Petrov",
+            "position": "MF",
+            "age": null,
+            "apps": 26,
+            "goals": 1,
+            "rating": 6.3
+          },
+          {
+            "name": "Stefan Kovac",
+            "position": "MF",
+            "age": null,
+            "apps": 6,
+            "goals": 0,
+            "rating": 5.9
+          },
+          {
+            "name": "Brayan Gil",
+            "position": "ST",
+            "age": null,
+            "apps": 24,
+            "goals": 13,
+            "rating": 7.5
+          },
+          {
+            "name": "Chinonso Offor",
+            "position": "ST",
+            "age": null,
+            "apps": 22,
+            "goals": 3,
+            "rating": 6.3
+          },
+          {
+            "name": "Tenton Yenne",
+            "position": "ST",
+            "age": null,
+            "apps": 17,
+            "goals": 0,
+            "rating": 5.5
+          },
+          {
+            "name": "Egor Lyubakov",
+            "position": "GK",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.3
+          },
+          {
+            "name": "Eldar Civic",
+            "position": "DF",
+            "age": null,
+            "apps": 17,
+            "goals": 1,
+            "rating": 5.3
+          },
+          {
+            "name": "Yuriy Kovalev",
+            "position": "MF",
+            "age": null,
+            "apps": 15,
+            "goals": 0,
+            "rating": 4.8
+          },
+          {
+            "name": "Irakliy Manelov",
+            "position": "ST",
+            "age": null,
+            "apps": 16,
+            "goals": 0,
+            "rating": 5.1
+          },
+          {
+            "name": "Nikolay Titkov",
+            "position": "MF",
+            "age": null,
+            "apps": 27,
+            "goals": 2,
+            "rating": 5.4
+          },
+          {
+            "name": "Derik Lacerda",
+            "position": "ST",
+            "age": null,
+            "apps": 5,
+            "goals": 1,
+            "rating": 5.1
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.78,
+          "draw": 3.4,
+          "away": 5
+        },
+        "fair1X2": {
+          "home": 1.72,
+          "draw": 4.41,
+          "away": 5.22
+        },
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 4.317200064659119,
+        "xgDiff": -1.3172000646591187,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 2.6242999732494354,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Egor Lyubakov",
+        "position": "GK",
+        "age": 26,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Ivan Kukushkin",
+        "position": null,
+        "age": 23,
+        "apps": 4,
+        "goals": 0,
+        "rating": 1.6
+      },
+      {
+        "name": "Maksim Borisko",
+        "position": "GK",
+        "age": 26,
+        "apps": 23,
+        "goals": 0,
+        "rating": 5.7
+      },
+      {
+        "name": "Nathan Gassama",
+        "position": null,
+        "age": 25,
+        "apps": 22,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Mikhail Ryadno",
+        "position": null,
+        "age": 20,
+        "apps": 9,
+        "goals": 1,
+        "rating": 4.6
+      },
+      {
+        "name": "Eduardo Anderson",
+        "position": null,
+        "age": 25,
+        "apps": 5,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Kevin Andrade",
+        "position": "DF",
+        "age": 26,
+        "apps": 25,
+        "goals": 1,
+        "rating": 6.9
+      },
+      {
+        "name": "Sergey Varatynov",
+        "position": "DF",
+        "age": 22,
+        "apps": 28,
+        "goals": 1,
+        "rating": 6.6
+      },
+      {
+        "name": "Mingiyan Beveev",
+        "position": "DF",
+        "age": 30,
+        "apps": 26,
+        "goals": 2,
+        "rating": 6
+      },
+      {
+        "name": "Aleksandr Filin",
+        "position": "DF",
+        "age": 29,
+        "apps": 22,
+        "goals": 1,
+        "rating": 5.7
+      },
+      {
+        "name": "Eldar Civic",
+        "position": "DF",
+        "age": 29,
+        "apps": 17,
+        "goals": 1,
+        "rating": 5.3
+      },
+      {
+        "name": "Ivan Belikov",
+        "position": null,
+        "age": 21,
+        "apps": 17,
+        "goals": 0,
+        "rating": 2.5
+      },
+      {
+        "name": "Andrey Mendel",
+        "position": null,
+        "age": 31,
+        "apps": 13,
+        "goals": 0,
+        "rating": 5.3
+      },
+      {
+        "name": "Aymane Mourid",
+        "position": null,
+        "age": 25,
+        "apps": 11,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Maksim Petrov",
+        "position": "MF",
+        "age": 25,
+        "apps": 24,
+        "goals": 7,
+        "rating": 5.9
+      },
+      {
+        "name": "Ilya Petrov",
+        "position": "MF",
+        "age": 30,
+        "apps": 26,
+        "goals": 1,
+        "rating": 6.3
+      },
+      {
+        "name": "Stefan Kovac",
+        "position": "MF",
+        "age": 27,
+        "apps": 6,
+        "goals": 0,
+        "rating": 5.9
+      },
+      {
+        "name": "Yuriy Kovalev",
+        "position": "MF",
+        "age": 33,
+        "apps": 15,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Nikolay Titkov",
+        "position": "MF",
+        "age": 25,
+        "apps": 27,
+        "goals": 2,
+        "rating": 5.4
+      },
+      {
+        "name": "Kirill Stepanov",
+        "position": null,
+        "age": 19,
+        "apps": 3,
+        "goals": 0,
+        "rating": 1.5
+      },
+      {
+        "name": "Vladislav Pospelov",
+        "position": null,
+        "age": 19,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Chinonso Offor",
+        "position": "ST",
+        "age": 25,
+        "apps": 22,
+        "goals": 3,
+        "rating": 6.3
+      },
+      {
+        "name": "Tenton Yenne",
+        "position": "ST",
+        "age": 25,
+        "apps": 17,
+        "goals": 0,
+        "rating": 5.5
+      },
+      {
+        "name": "Brayan Gil",
+        "position": "ST",
+        "age": 24,
+        "apps": 24,
+        "goals": 13,
+        "rating": 7.5
+      },
+      {
+        "name": "Irakliy Manelov",
+        "position": "ST",
+        "age": 23,
+        "apps": 16,
+        "goals": 0,
+        "rating": 5.1
+      },
+      {
+        "name": "Derik Lacerda",
+        "position": "ST",
+        "age": 26,
+        "apps": 5,
+        "goals": 1,
+        "rating": 5.1
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "AE Larisa",
+        "rating": 1827.89
+      },
+      {
+        "name": "Skendija 79 Tetovo",
+        "rating": 1827.32
+      }
+    ]
   },
   "awayTeam": {
     "identity": {
@@ -77,35 +492,450 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/7517/image/small",
       "sourceIds": {
         "sofascore": "7517",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "49694",
+        "soccerRating": "357"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
-      "xgFor": null,
-      "xgAgainst": null,
+      "overallRating": 1972.36,
+      "nationalRank": 8,
+      "europeRank": 296,
+      "formLast3": [
+        "W",
+        "W",
+        "D"
+      ],
+      "xgFor": 4.317200064659119,
+      "xgAgainst": 2.6242999732494354,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 6.2,
+        "players": [
+          {
+            "name": "Maksim Borisko",
+            "position": "GK",
+            "age": null,
+            "apps": 23,
+            "goals": 0,
+            "rating": 5.7
+          },
+          {
+            "name": "Kevin Andrade",
+            "position": "DF",
+            "age": null,
+            "apps": 25,
+            "goals": 1,
+            "rating": 6.9
+          },
+          {
+            "name": "Sergey Varatynov",
+            "position": "DF",
+            "age": null,
+            "apps": 28,
+            "goals": 1,
+            "rating": 6.6
+          },
+          {
+            "name": "Mingiyan Beveev",
+            "position": "DF",
+            "age": null,
+            "apps": 26,
+            "goals": 2,
+            "rating": 6
+          },
+          {
+            "name": "Aleksandr Filin",
+            "position": "DF",
+            "age": null,
+            "apps": 22,
+            "goals": 1,
+            "rating": 5.7
+          },
+          {
+            "name": "Maksim Petrov",
+            "position": "MF",
+            "age": null,
+            "apps": 24,
+            "goals": 7,
+            "rating": 5.9
+          },
+          {
+            "name": "Ilya Petrov",
+            "position": "MF",
+            "age": null,
+            "apps": 26,
+            "goals": 1,
+            "rating": 6.3
+          },
+          {
+            "name": "Stefan Kovac",
+            "position": "MF",
+            "age": null,
+            "apps": 6,
+            "goals": 0,
+            "rating": 5.9
+          },
+          {
+            "name": "Brayan Gil",
+            "position": "ST",
+            "age": null,
+            "apps": 24,
+            "goals": 13,
+            "rating": 7.5
+          },
+          {
+            "name": "Chinonso Offor",
+            "position": "ST",
+            "age": null,
+            "apps": 22,
+            "goals": 3,
+            "rating": 6.3
+          },
+          {
+            "name": "Tenton Yenne",
+            "position": "ST",
+            "age": null,
+            "apps": 17,
+            "goals": 0,
+            "rating": 5.5
+          },
+          {
+            "name": "Egor Lyubakov",
+            "position": "GK",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.3
+          },
+          {
+            "name": "Eldar Civic",
+            "position": "DF",
+            "age": null,
+            "apps": 17,
+            "goals": 1,
+            "rating": 5.3
+          },
+          {
+            "name": "Yuriy Kovalev",
+            "position": "MF",
+            "age": null,
+            "apps": 15,
+            "goals": 0,
+            "rating": 4.8
+          },
+          {
+            "name": "Irakliy Manelov",
+            "position": "ST",
+            "age": null,
+            "apps": 16,
+            "goals": 0,
+            "rating": 5.1
+          },
+          {
+            "name": "Nikolay Titkov",
+            "position": "MF",
+            "age": null,
+            "apps": 27,
+            "goals": 2,
+            "rating": 5.4
+          },
+          {
+            "name": "Derik Lacerda",
+            "position": "ST",
+            "age": null,
+            "apps": 5,
+            "goals": 1,
+            "rating": 5.1
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.78,
+          "draw": 3.4,
+          "away": 5
+        },
+        "fair1X2": {
+          "home": 1.72,
+          "draw": 4.41,
+          "away": 5.22
+        },
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 4.317200064659119,
+        "xgDiff": -1.3172000646591187,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 2.6242999732494354,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
-    "squad": [],
+    "squad": [
+      {
+        "name": "Egor Lyubakov",
+        "position": "GK",
+        "age": 26,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Ivan Kukushkin",
+        "position": null,
+        "age": 23,
+        "apps": 4,
+        "goals": 0,
+        "rating": 1.6
+      },
+      {
+        "name": "Maksim Borisko",
+        "position": "GK",
+        "age": 26,
+        "apps": 23,
+        "goals": 0,
+        "rating": 5.7
+      },
+      {
+        "name": "Nathan Gassama",
+        "position": null,
+        "age": 25,
+        "apps": 22,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Mikhail Ryadno",
+        "position": null,
+        "age": 20,
+        "apps": 9,
+        "goals": 1,
+        "rating": 4.6
+      },
+      {
+        "name": "Eduardo Anderson",
+        "position": null,
+        "age": 25,
+        "apps": 5,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Kevin Andrade",
+        "position": "DF",
+        "age": 26,
+        "apps": 25,
+        "goals": 1,
+        "rating": 6.9
+      },
+      {
+        "name": "Sergey Varatynov",
+        "position": "DF",
+        "age": 22,
+        "apps": 28,
+        "goals": 1,
+        "rating": 6.6
+      },
+      {
+        "name": "Mingiyan Beveev",
+        "position": "DF",
+        "age": 30,
+        "apps": 26,
+        "goals": 2,
+        "rating": 6
+      },
+      {
+        "name": "Aleksandr Filin",
+        "position": "DF",
+        "age": 29,
+        "apps": 22,
+        "goals": 1,
+        "rating": 5.7
+      },
+      {
+        "name": "Eldar Civic",
+        "position": "DF",
+        "age": 29,
+        "apps": 17,
+        "goals": 1,
+        "rating": 5.3
+      },
+      {
+        "name": "Ivan Belikov",
+        "position": null,
+        "age": 21,
+        "apps": 17,
+        "goals": 0,
+        "rating": 2.5
+      },
+      {
+        "name": "Andrey Mendel",
+        "position": null,
+        "age": 31,
+        "apps": 13,
+        "goals": 0,
+        "rating": 5.3
+      },
+      {
+        "name": "Aymane Mourid",
+        "position": null,
+        "age": 25,
+        "apps": 11,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Maksim Petrov",
+        "position": "MF",
+        "age": 25,
+        "apps": 24,
+        "goals": 7,
+        "rating": 5.9
+      },
+      {
+        "name": "Ilya Petrov",
+        "position": "MF",
+        "age": 30,
+        "apps": 26,
+        "goals": 1,
+        "rating": 6.3
+      },
+      {
+        "name": "Stefan Kovac",
+        "position": "MF",
+        "age": 27,
+        "apps": 6,
+        "goals": 0,
+        "rating": 5.9
+      },
+      {
+        "name": "Yuriy Kovalev",
+        "position": "MF",
+        "age": 33,
+        "apps": 15,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Nikolay Titkov",
+        "position": "MF",
+        "age": 25,
+        "apps": 27,
+        "goals": 2,
+        "rating": 5.4
+      },
+      {
+        "name": "Kirill Stepanov",
+        "position": null,
+        "age": 19,
+        "apps": 3,
+        "goals": 0,
+        "rating": 1.5
+      },
+      {
+        "name": "Vladislav Pospelov",
+        "position": null,
+        "age": 19,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Chinonso Offor",
+        "position": "ST",
+        "age": 25,
+        "apps": 22,
+        "goals": 3,
+        "rating": 6.3
+      },
+      {
+        "name": "Tenton Yenne",
+        "position": "ST",
+        "age": 25,
+        "apps": 17,
+        "goals": 0,
+        "rating": 5.5
+      },
+      {
+        "name": "Brayan Gil",
+        "position": "ST",
+        "age": 24,
+        "apps": 24,
+        "goals": 13,
+        "rating": 7.5
+      },
+      {
+        "name": "Irakliy Manelov",
+        "position": "ST",
+        "age": 23,
+        "apps": 16,
+        "goals": 0,
+        "rating": 5.1
+      },
+      {
+        "name": "Derik Lacerda",
+        "position": "ST",
+        "age": 26,
+        "apps": 5,
+        "goals": 1,
+        "rating": 5.1
+      }
+    ],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "Västeras SK FK",
+        "rating": 1972.95
+      },
+      {
+        "name": "FK Slovan Liberec",
+        "rating": 1972.27
+      }
+    ]
   },
   "standings": {
     "available": true,
@@ -360,24 +1190,24 @@
       "matchedBy": "competitionId"
     },
     "homeTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/203-premier-league/8709-krylya-sovetov-samara.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/203-premier-league/49694-baltika.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "homeTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/russia/128-krylya-sovetov-samara.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/russia/357-baltika-kaliningrad.json",
+      "matchedBy": "sofascoreTeamId"
     }
   }
 }

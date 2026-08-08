@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.482Z",
+  "builtAtUtc": "2026-08-08T18:29:00.297Z",
   "match": {
     "id": "16275177",
     "date": "2026-08-09",
@@ -40,14 +40,14 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/2036/image/small",
       "sourceIds": {
         "sofascore": "2036",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "10154",
+        "soccerRating": "645"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
+      "overallRating": 1519.66,
+      "nationalRank": 24,
+      "europeRank": 3340,
       "formLast3": [],
       "xgFor": null,
       "xgAgainst": null,
@@ -55,20 +55,77 @@
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": null
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": null,
+        "fair1X2": null,
+        "movementSummary": null
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
     "squad": [],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "VPS Vaasa II",
+        "rating": 1521.12
+      },
+      {
+        "name": "Parla",
+        "rating": 1519.66
+      }
+    ]
   },
   "awayTeam": {
     "identity": {
@@ -78,13 +135,13 @@
       "sourceIds": {
         "sofascore": "25529",
         "fotmob": null,
-        "soccerRating": null
+        "soccerRating": "3439"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
+      "overallRating": 1456.85,
+      "nationalRank": 134,
+      "europeRank": 5054,
       "formLast3": [],
       "xgFor": null,
       "xgAgainst": null,
@@ -92,10 +149,26 @@
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": null
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": null,
+        "fair1X2": null,
+        "movementSummary": null
+      }
     },
     "statistics": {
       "overview": null,
@@ -105,7 +178,16 @@
     },
     "squad": [],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "Kahramanmarasspor",
+        "rating": 1456.85
+      },
+      {
+        "name": "1. FC Heidenheim II",
+        "rating": 1456.85
+      }
+    ]
   },
   "standings": {
     "available": true,
@@ -276,9 +358,9 @@
       "matchedBy": "competitionId"
     },
     "homeTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/170-hnl/10154-hajduk-split.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamStats": {
       "available": false,
@@ -286,14 +368,14 @@
       "matchedBy": null
     },
     "homeTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/croatia/645-fk-hajduk-kula.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/croatia/3439-fk-istra.json",
+      "matchedBy": "sofascoreTeamId"
     }
   }
 }

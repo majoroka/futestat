@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T10:20:03.445Z",
+  "builtAtUtc": "2026-08-08T18:29:00.238Z",
   "match": {
     "id": "16560191",
     "date": "2026-08-08",
@@ -40,35 +40,104 @@
       "logoUrl": "https://img.sofascore.com/api/v1/team/3037/image/small",
       "sourceIds": {
         "sofascore": "3037",
-        "fotmob": null,
-        "soccerRating": null
+        "fotmob": "1940",
+        "soccerRating": "2978"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
+      "overallRating": 1519.35,
+      "nationalRank": 116,
+      "europeRank": 3173,
+      "formLast3": [
+        "D",
+        "D",
+        "L"
+      ],
       "xgFor": null,
       "xgAgainst": null,
       "averagePossessionPct": null,
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": "home_win",
+        "tipLabel": "Bet on (1) SC Covilha (Stake 2/10)",
+        "confidencePct": 20,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 2.45,
+          "draw": 2.95,
+          "away": 2.6
+        },
+        "fair1X2": {
+          "home": 2.5,
+          "draw": 3.51,
+          "away": 3.17
+        },
+        "movementSummary": "home_odds_flat_away_odds_flat"
+      }
     },
     "statistics": {
-      "overview": null,
-      "attack": null,
-      "defense": null,
-      "discipline": null
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
     },
     "squad": [],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "WSG Tirol II",
+        "rating": 1527.01
+      },
+      {
+        "name": "Shahdag",
+        "rating": 1526.95
+      }
+    ]
   },
   "awayTeam": {
     "identity": {
@@ -135,9 +204,9 @@
       "matchedBy": null
     },
     "homeTeamStats": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-b/1940-sporting-covilha.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamStats": {
       "available": false,
@@ -145,9 +214,9 @@
       "matchedBy": null
     },
     "homeTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/2978-sc-covilha.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamContext": {
       "available": false,
