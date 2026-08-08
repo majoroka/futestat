@@ -3,9 +3,9 @@
   "date": "2026-08-07",
   "collectionState": "settling",
   "firstScrapedAtUtc": "2026-08-07T08:36:34.929Z",
-  "lastScrapedAtUtc": "2026-08-08T09:05:19.426Z",
+  "lastScrapedAtUtc": "2026-08-08T10:19:54.294Z",
   "frozenAtUtc": null,
-  "fixtureCount": 5,
+  "fixtureCount": 6,
   "fixtures": [
     {
       "source": "sofascore",
@@ -28,7 +28,7 @@
       "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/kfum-oslo-sandefjord-fotball/BnsLp#id:15260874",
       "firstSeenAtUtc": "2026-08-07T08:36:04.913Z",
-      "lastSeenAtUtc": "2026-08-08T09:04:47.826Z",
+      "lastSeenAtUtc": "2026-08-08T10:19:28.020Z",
       "lastChangedAtUtc": "2026-08-08T09:04:47.826Z"
     },
     {
@@ -52,7 +52,7 @@
       "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/fc-rapid-bucuresti-uta-arad/hTGbsditc#id:16403842",
       "firstSeenAtUtc": "2026-08-07T08:36:12.905Z",
-      "lastSeenAtUtc": "2026-08-08T09:04:56.813Z",
+      "lastSeenAtUtc": "2026-08-08T10:19:35.613Z",
       "lastChangedAtUtc": "2026-08-08T09:04:56.813Z"
     },
     {
@@ -76,7 +76,7 @@
       "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/levski-sofia-lokomotiv-plovdiv/xpbsypb#id:16295795",
       "firstSeenAtUtc": "2026-08-07T08:36:22.874Z",
-      "lastSeenAtUtc": "2026-08-08T09:05:09.668Z",
+      "lastSeenAtUtc": "2026-08-08T10:19:44.855Z",
       "lastChangedAtUtc": "2026-08-08T09:05:09.668Z"
     },
     {
@@ -100,7 +100,7 @@
       "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/famalicao-estoril-praia/aPbsGPu#id:16450736",
       "firstSeenAtUtc": "2026-08-07T08:35:51.134Z",
-      "lastSeenAtUtc": "2026-08-08T09:04:34.568Z",
+      "lastSeenAtUtc": "2026-08-08T10:19:11.385Z",
       "lastChangedAtUtc": "2026-08-08T09:04:34.568Z"
     },
     {
@@ -124,8 +124,32 @@
       "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/aldosivi-rosario-central/robsLLo#id:16667385",
       "firstSeenAtUtc": "2026-08-08T09:05:19.426Z",
-      "lastSeenAtUtc": "2026-08-08T09:05:19.426Z",
+      "lastSeenAtUtc": "2026-08-08T10:19:54.293Z",
       "lastChangedAtUtc": "2026-08-08T09:05:19.426Z"
+    },
+    {
+      "source": "sofascore",
+      "sourceEventId": "16560088",
+      "matchDate": "2026-08-07",
+      "kickoffAtUtc": null,
+      "competitionId": "17101",
+      "competitionName": "Liga 3, Group A",
+      "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17101/image",
+      "countryName": "Portugal",
+      "homeTeamId": "231591",
+      "homeTeamName": "Paredes",
+      "homeTeamLogoUrl": "https://img.sofascore.com/api/v1/team/231591/image/small",
+      "awayTeamId": "74475",
+      "awayTeamName": "Vitória B",
+      "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/74475/image/small",
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 3,
+      "awayScore": 1,
+      "matchUrl": "https://www.sofascore.com/football/match/usc-paredes-vitoria-sc/AOEsQGRb#id:16560088",
+      "firstSeenAtUtc": "2026-08-08T10:19:14.558Z",
+      "lastSeenAtUtc": "2026-08-08T10:19:14.558Z",
+      "lastChangedAtUtc": "2026-08-08T10:19:14.558Z"
     }
   ],
   "metadata": {
