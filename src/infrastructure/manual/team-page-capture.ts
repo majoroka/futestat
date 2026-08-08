@@ -1,9 +1,11 @@
 import path from "node:path";
+import { Buffer } from "node:buffer";
 
 import type {
   TeamPageCaptureManifestEntry,
   TeamPageCaptureSource,
 } from "../../domain/team-page-capture.js";
+import { JsonTeamPageCaptureStore } from "../storage/json-team-page-capture-store.js";
 
 export interface TeamPageCaptureOptions {
   source: TeamPageCaptureSource;
@@ -18,6 +20,23 @@ export interface TeamPageCaptureOptions {
   force: boolean;
   note?: string;
 }
+
+export interface TeamPageCaptureResult {
+  source: TeamPageCaptureSource;
+  season: string;
+  sofascoreTeamId: string | null;
+  teamId: string;
+  teamSlug: string;
+  htmlPath: string;
+  manifestPath: string;
+  url: string;
+  bytes: number;
+  note: string | null;
+}
+
+const DEFAULT_TIMEOUT_MS = 30_000;
+const DEFAULT_USER_AGENT =
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36";
 
 export function validateTeamPageCaptureOptions(options: TeamPageCaptureOptions): void {
   if (!/^\d{4}-\d{4}$/.test(options.season)) {
@@ -106,6 +125,60 @@ export function buildTeamPageManifestEntry(params: {
     url: params.finalUrl ?? options.url,
     htmlPath: toProjectRelativePath(repoRoot, htmlPath),
     capturedAtUtc,
+  };
+}
+
+export async function captureTeamPage(
+  repoRoot: string,
+  options: TeamPageCaptureOptions,
+): Promise<TeamPageCaptureResult> {
+  validateTeamPageCaptureOptions(options);
+
+  const store = new JsonTeamPageCaptureStore(repoRoot);
+  const htmlPath = deriveTeamPageHtmlPath(repoRoot, options);
+  await store.ensureWritableOutput(htmlPath, options.force);
+
+  const response = await fetch(options.url, {
+    headers: {
+      "user-agent": DEFAULT_USER_AGENT,
+      accept: "text/html,application/xhtml+xml",
+      "accept-language": "pt-PT,pt;q=0.9,en;q=0.8",
+      "cache-control": "no-cache",
+    },
+    redirect: "follow",
+    signal: AbortSignal.timeout(DEFAULT_TIMEOUT_MS),
+  });
+
+  if (!response.ok) {
+    throw new Error(
+      `Capture failed for ${options.url}. HTTP ${response.status} ${response.statusText}.`,
+    );
+  }
+
+  const html = await response.text();
+  const capturedAtUtc = new Date().toISOString();
+  await store.writeHtml(htmlPath, html);
+  const manifestPath = await store.updateManifest(
+    buildTeamPageManifestEntry({
+      repoRoot,
+      options,
+      htmlPath,
+      finalUrl: response.url,
+      capturedAtUtc,
+    }),
+  );
+
+  return {
+    source: options.source,
+    season: options.season,
+    sofascoreTeamId: options.sofascoreTeamId ?? null,
+    teamId: options.teamId,
+    teamSlug: options.teamSlug,
+    htmlPath,
+    manifestPath,
+    url: response.url,
+    bytes: Buffer.byteLength(html, "utf8"),
+    note: options.note ?? null,
   };
 }
 

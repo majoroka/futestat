@@ -14,6 +14,7 @@ Este documento fecha as decisoes de:
 
 Estado atual:
 - `autofill:team-source-registry` operacional
+- `capture:team-pages-batch` operacional
 - `capture:team-page` operacional
 - `parse:fotmob-team-stats` operacional
 - `parse:soccer-rating-team-context` operacional
@@ -44,11 +45,11 @@ Nao misturar capturas nem outputs entre dominios.
 raw/
   team-pages/
     fotmob/
-      2025-2026/
+      2026-2027/
         238-liga-portugal/
           9768-sporting-cp.html
     soccer-rating/
-      2025-2026/
+      2026-2027/
         portugal/
           1076-benfica-lisboa.html
 ```
@@ -59,12 +60,12 @@ raw/
 data/
   team-stats/
     fotmob/
-      2025-2026/
+      2026-2027/
         238-liga-portugal/
           9768-sporting-cp.json
   team-context/
     soccer-rating/
-      2025-2026/
+      2026-2027/
         portugal/
           1076-benfica-lisboa.json
   match-view/
@@ -77,7 +78,7 @@ data/
 ### Epoca em filesystem
 
 Usar sempre:
-- `2025-2026`
+- `2026-2027`
 - `2026-2027`
 
 Nunca usar barras no nome da pasta.
@@ -174,7 +175,7 @@ Estes comandos sao o contrato desejado para a futura implementacao.
 ```bash
 npm run capture:team-page -- \
   --source=fotmob \
-  --season=2025-2026 \
+  --season=2026-2027 \
   --sofascore-team-id=3006 \
   --competition-id=238 \
   --competition-slug=liga-portugal \
@@ -186,7 +187,7 @@ npm run capture:team-page -- \
 Saida esperada:
 
 ```text
-raw/team-pages/fotmob/2025-2026/238-liga-portugal/9768-sporting-cp.html
+raw/team-pages/fotmob/2026-2027/238-liga-portugal/9768-sporting-cp.html
 ```
 
 ### 2. Captura manual de pagina `Soccer-Rating`
@@ -194,7 +195,7 @@ raw/team-pages/fotmob/2025-2026/238-liga-portugal/9768-sporting-cp.html
 ```bash
 npm run capture:team-page -- \
   --source=soccer-rating \
-  --season=2025-2026 \
+  --season=2026-2027 \
   --sofascore-team-id=3006 \
   --country-slug=portugal \
   --team-id=1076 \
@@ -205,7 +206,7 @@ npm run capture:team-page -- \
 Saida esperada:
 
 ```text
-raw/team-pages/soccer-rating/2025-2026/portugal/1076-benfica-lisboa.html
+raw/team-pages/soccer-rating/2026-2027/portugal/1076-benfica-lisboa.html
 ```
 
 ### 3. Parse local de `FotMob`
@@ -213,13 +214,13 @@ raw/team-pages/soccer-rating/2025-2026/portugal/1076-benfica-lisboa.html
 ```bash
 npm run parse:fotmob-team-stats -- \
   --sofascore-team-id=3006 \
-  --input="raw/team-pages/fotmob/2025-2026/238-liga-portugal/9768-sporting-cp.html"
+  --input="raw/team-pages/fotmob/2026-2027/238-liga-portugal/9768-sporting-cp.html"
 ```
 
 Saida esperada:
 
 ```text
-data/team-stats/fotmob/2025-2026/238-liga-portugal/9768-sporting-cp.json
+data/team-stats/fotmob/2026-2027/238-liga-portugal/9768-sporting-cp.json
 ```
 
 ### 4. Parse local de `Soccer-Rating`
@@ -227,13 +228,13 @@ data/team-stats/fotmob/2025-2026/238-liga-portugal/9768-sporting-cp.json
 ```bash
 npm run parse:soccer-rating-team-context -- \
   --sofascore-team-id=3006 \
-  --input="raw/team-pages/soccer-rating/2025-2026/portugal/1076-benfica-lisboa.html"
+  --input="raw/team-pages/soccer-rating/2026-2027/portugal/1076-benfica-lisboa.html"
 ```
 
 Saida esperada:
 
 ```text
-data/team-context/soccer-rating/2025-2026/portugal/1076-benfica-lisboa.json
+data/team-context/soccer-rating/2026-2027/portugal/1076-benfica-lisboa.json
 ```
 
 ### 5. Composicao opcional da vista final do jogo
@@ -309,6 +310,25 @@ Notas operacionais:
 - usa atrasos entre pedidos para reduzir risco de bloqueio
 - se um domínio devolver `403`, a execução falha logo para evitar insistência
 
+### 9. Captura em lote a partir do registo canónico
+
+```bash
+npm run capture:team-pages-batch -- --season=2026-2027
+```
+
+Exemplos:
+
+```bash
+npm run capture:team-pages-batch -- --season=2026-2027 --source=fotmob --only-active=true
+npm run capture:team-pages-batch -- --season=2026-2027 --source=soccer-rating --limit=20 --dry-run=true
+```
+
+Este comando:
+- lê `data/team-source-registry.json`
+- seleciona apenas equipas mapeadas nas fontes pedidas
+- faz captura sequencial com atraso configurável
+- escreve HTML bruto e atualiza `raw/team-pages/manifest.json`
+
 ## Ordem manual recomendada
 
 ### Fluxo normal
@@ -320,13 +340,11 @@ Notas operacionais:
 5. capturar paginas `Soccer-Rating`
 6. correr `sync:team-source-registry`
 7. correr `autofill:team-source-registry`
-8. capturar paginas `FotMob`
-9. capturar paginas `Soccer-Rating`
-10. correr `parse:fotmob-team-stats`
-11. correr `parse:soccer-rating-team-context`
-12. correr `build:match-view` ou `build:match-views-window` quando houver novo HTML/manual data relevante
-13. validar localmente
-14. fazer deploy quando necessario
+8. correr `capture:team-pages-batch`
+9. correr `parse:all-team-pages`
+10. correr `build:match-view` ou `build:match-views-window` quando houver novo HTML/manual data relevante
+11. validar localmente
+12. fazer deploy quando necessario
 
 ## Regras de atualizacao
 

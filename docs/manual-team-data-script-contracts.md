@@ -15,6 +15,7 @@ Este documento fixa:
 - codigos de saida esperados
 
 Estado atual:
+- `capture:team-pages-batch` operacional
 - `capture:team-page` operacional
 - `parse:fotmob-team-stats` operacional
 - `parse:soccer-rating-team-context` operacional
@@ -101,6 +102,45 @@ Saida secundaria:
 Comportamento esperado:
 - se `--output` nao vier, o script deriva o caminho a partir do `input`
 - o parser deve escrever sempre JSON valido, mesmo que o estado seja `partial` ou `unavailable`
+
+### 2b. `capture:team-pages-batch`
+
+Uso:
+- capturar em lote páginas `FotMob` e/ou `Soccer-Rating` a partir de `data/team-source-registry.json`
+
+Forma de chamada:
+
+```bash
+npm run capture:team-pages-batch -- [args]
+```
+
+Argumentos obrigatorios:
+- `--season=YYYY-YYYY`
+
+Argumentos opcionais:
+- `--registry=<path-json>`
+- `--source=all|fotmob|soccer-rating`
+- `--only-active=true|false`
+- `--only-mapped=true|false`
+- `--team-id=<sofascore-team-id>`
+- `--competition-id=<competition-id>`
+- `--limit=<n>`
+- `--delay-ms=<ms>`
+- `--force=true|false`
+- `--dry-run=true|false`
+
+Saida principal:
+- ficheiros `.html` em `raw/team-pages/...`
+
+Saida secundaria:
+- entradas em `raw/team-pages/manifest.json`
+- sumário JSON de capturas, falhas e skips
+
+Comportamento esperado:
+- lê apenas equipas do registo canónico
+- por defeito, tenta apenas equipas `mapped`
+- respeita atraso entre pedidos para reduzir risco de bloqueio
+- em `dry-run`, não faz pedidos e apenas devolve o plano
 
 ### 3. `parse:soccer-rating-team-context`
 
@@ -196,14 +236,14 @@ Estrutura:
   "entries": [
     {
       "source": "fotmob",
-      "season": "2025-2026",
+      "season": "2026-2027",
       "teamId": "9768",
       "teamSlug": "sporting-cp",
       "competitionId": "238",
       "competitionSlug": "liga-portugal",
       "countrySlug": null,
       "url": "https://www.fotmob.com/teams/9768/stats/sporting-cp/teams",
-      "htmlPath": "raw/team-pages/fotmob/2025-2026/238-liga-portugal/9768-sporting-cp.html",
+      "htmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal/9768-sporting-cp.html",
       "capturedAtUtc": "2026-07-31T12:00:00Z"
     }
   ]
@@ -225,13 +265,13 @@ Estrutura:
   "generatedAtUtc": "2026-07-31T12:10:00Z",
   "entries": [
     {
-      "season": "2025-2026",
+      "season": "2026-2027",
       "competitionId": "238",
       "competitionSlug": "liga-portugal",
       "teamId": "9768",
       "teamSlug": "sporting-cp",
-      "jsonPath": "data/team-stats/fotmob/2025-2026/238-liga-portugal/9768-sporting-cp.json",
-      "sourceHtmlPath": "raw/team-pages/fotmob/2025-2026/238-liga-portugal/9768-sporting-cp.html",
+      "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal/9768-sporting-cp.json",
+      "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal/9768-sporting-cp.html",
       "parsedAtUtc": "2026-07-31T12:10:00Z",
       "availabilityStatus": "archived"
     }
@@ -254,12 +294,12 @@ Estrutura:
   "generatedAtUtc": "2026-07-31T12:15:00Z",
   "entries": [
     {
-      "season": "2025-2026",
+      "season": "2026-2027",
       "countrySlug": "portugal",
       "teamId": "1076",
       "teamSlug": "benfica-lisboa",
-      "jsonPath": "data/team-context/soccer-rating/2025-2026/portugal/1076-benfica-lisboa.json",
-      "sourceHtmlPath": "raw/team-pages/soccer-rating/2025-2026/portugal/1076-benfica-lisboa.html",
+      "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1076-benfica-lisboa.json",
+      "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1076-benfica-lisboa.html",
       "parsedAtUtc": "2026-07-31T12:15:00Z",
       "availabilityStatus": "archived"
     }

@@ -13,6 +13,7 @@
     "build:match-views-window": "node --import tsx src/manual/build-match-views-window.ts",
     "build:site": "node scripts/build-site.mjs",
     "autofill:team-source-registry": "node --import tsx src/manual/autofill-team-source-registry.ts",
+    "capture:team-pages-batch": "node --import tsx src/manual/capture-team-pages-batch.ts",
     "capture:team-page": "node --import tsx src/manual/capture-team-page.ts",
     "check": "tsc --noEmit -p tsconfig.json",
     "parse:all-team-pages": "node --import tsx src/manual/parse-all-team-pages.ts",

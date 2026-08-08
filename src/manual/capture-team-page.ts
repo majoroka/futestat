@@ -1,72 +1,12 @@
 import {
-  buildTeamPageManifestEntry,
-  deriveTeamPageHtmlPath,
+  captureTeamPage,
   type TeamPageCaptureOptions,
-  validateTeamPageCaptureOptions,
 } from "../infrastructure/manual/team-page-capture.js";
-import { JsonTeamPageCaptureStore } from "../infrastructure/storage/json-team-page-capture-store.js";
-
-const DEFAULT_TIMEOUT_MS = 30_000;
-const DEFAULT_USER_AGENT =
-  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36";
 
 async function main(): Promise<void> {
   const options = parseCliOptions(process.argv.slice(2));
-  validateTeamPageCaptureOptions(options);
-
-  const repoRoot = process.cwd();
-  const store = new JsonTeamPageCaptureStore(repoRoot);
-  const htmlPath = deriveTeamPageHtmlPath(repoRoot, options);
-  await store.ensureWritableOutput(htmlPath, options.force);
-
-  const response = await fetch(options.url, {
-    headers: {
-      "user-agent": DEFAULT_USER_AGENT,
-      accept: "text/html,application/xhtml+xml",
-      "accept-language": "pt-PT,pt;q=0.9,en;q=0.8",
-      "cache-control": "no-cache",
-    },
-    redirect: "follow",
-    signal: AbortSignal.timeout(DEFAULT_TIMEOUT_MS),
-  });
-
-  if (!response.ok) {
-    throw new Error(
-      `Capture failed for ${options.url}. HTTP ${response.status} ${response.statusText}.`,
-    );
-  }
-
-  const html = await response.text();
-  const capturedAtUtc = new Date().toISOString();
-  await store.writeHtml(htmlPath, html);
-  const manifestPath = await store.updateManifest(
-    buildTeamPageManifestEntry({
-      repoRoot,
-      options,
-      htmlPath,
-      finalUrl: response.url,
-      capturedAtUtc,
-    }),
-  );
-
-  console.log(
-    JSON.stringify(
-      {
-        source: options.source,
-        season: options.season,
-        sofascoreTeamId: options.sofascoreTeamId ?? null,
-        teamId: options.teamId,
-        teamSlug: options.teamSlug,
-        htmlPath,
-        manifestPath,
-        url: response.url,
-        bytes: Buffer.byteLength(html, "utf8"),
-        note: options.note ?? null,
-      },
-      null,
-      2,
-    ),
-  );
+  const result = await captureTeamPage(process.cwd(), options);
+  console.log(JSON.stringify(result, null, 2));
 }
 
 function parseCliOptions(argv: string[]): TeamPageCaptureOptions {
@@ -158,7 +98,7 @@ function parseBoolean(value: string | undefined, flag: string): boolean {
 function printHelp(): void {
   console.log(`
 Usage:
-  npm run capture:team-page -- --source=fotmob --season=2025-2026 --sofascore-team-id=3006 --competition-id=238 --competition-slug=liga-portugal --team-id=9768 --team-slug=sporting-cp --url=https://www.fotmob.com/teams/9768/stats/sporting-cp/teams
+  npm run capture:team-page -- --source=fotmob --season=2026-2027 --sofascore-team-id=3006 --competition-id=238 --competition-slug=liga-portugal --team-id=9768 --team-slug=sporting-cp --url=https://www.fotmob.com/teams/9768/stats/sporting-cp/teams
 
 Options:
   --source=fotmob|soccer-rating

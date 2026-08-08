@@ -142,6 +142,7 @@ Entregáveis já introduzidos:
 - relatório `team-coverage` para medir a cobertura real das equipas do snapshot por fonte manual
 - registo `team-source-registry.json` para preservar o mapeamento canónico das equipas entre `Sofascore`, `FotMob` e `Soccer-Rating`
 - autofill conservador desse registo por pesquisa remota, mantendo revisão manual apenas para casos ambíguos
+- captura manual em lote de HTML por fonte a partir do registo canónico, para escalar a recolha sem captura equipa a equipa
 
 ## Critérios de qualidade antes de avançar
 
