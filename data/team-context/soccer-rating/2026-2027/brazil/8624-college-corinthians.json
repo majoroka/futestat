@@ -1,0 +1,80 @@
+{
+  "team": {
+    "id": "8624",
+    "name": "College Corinthians",
+    "slug": "college-corinthians",
+    "country": "Ireland",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/College-Corinthians/8624/",
+    "collectedAtUtc": "2026-08-08T18:26:38.932Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "medium",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
+  },
+  "ratings": {
+    "overall": 1497.24,
+    "home": 1582.75,
+    "away": 1411.73
+  },
+  "rankings": {
+    "national": 31,
+    "europe": 3909
+  },
+  "form": {
+    "last3": [
+      "W",
+      "L",
+      "W"
+    ]
+  },
+  "prediction": {
+    "tip": "home_win",
+    "tipLabel": "Bet on (1) Bangor Celtic (Stake 7/10)",
+    "confidencePct": 70,
+    "strengthComparison": "underdog"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 2.65,
+      "draw": 3.6,
+      "away": 2.15
+    },
+    "fair1X2": {
+      "home": 1.62,
+      "draw": 4.24,
+      "away": 6.8
+    },
+    "movementSummary": "home_odds_down_away_odds_up"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "AC Malcantone",
+      "rating": 1497.26
+    },
+    {
+      "name": "FC Höllviken",
+      "rating": 1497.22
+    }
+  ]
+}

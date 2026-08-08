@@ -1,0 +1,80 @@
+{
+  "team": {
+    "id": "3040",
+    "name": "AD Fafe",
+    "slug": "ad-fafe",
+    "country": "Portugal",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Ad-Fafe/3040/",
+    "collectedAtUtc": "2026-08-08T18:27:23.158Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "medium",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
+  },
+  "ratings": {
+    "overall": 1603.16,
+    "home": 1622.16,
+    "away": 1584.17
+  },
+  "rankings": {
+    "national": 64,
+    "europe": 1809
+  },
+  "form": {
+    "last3": [
+      "L",
+      "L",
+      "L"
+    ]
+  },
+  "prediction": {
+    "tip": "away_win",
+    "tipLabel": "Bet on (2) AD Fafe (Stake 4/10)",
+    "confidencePct": 40,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.83,
+      "draw": 3.4,
+      "away": 3.5
+    },
+    "fair1X2": {
+      "home": 3.1,
+      "draw": 4.02,
+      "away": 2.33
+    },
+    "movementSummary": "home_odds_flat_away_odds_flat"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Llanuwchllyn",
+      "rating": 1603.21
+    },
+    {
+      "name": "MS Ruakh Tel Aviv",
+      "rating": 1602.99
+    }
+  ]
+}

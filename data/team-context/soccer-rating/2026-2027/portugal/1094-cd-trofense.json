@@ -1,0 +1,80 @@
+{
+  "team": {
+    "id": "1094",
+    "name": "CD Trofense",
+    "slug": "cd-trofense",
+    "country": "Portugal",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Cd-Trofense/1094/",
+    "collectedAtUtc": "2026-08-08T18:27:29.011Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "medium",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
+  },
+  "ratings": {
+    "overall": 1583,
+    "home": 1589.26,
+    "away": 1576.74
+  },
+  "rankings": {
+    "national": 72,
+    "europe": 2060
+  },
+  "form": {
+    "last3": [
+      "D",
+      "W",
+      "D"
+    ]
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": "underdog"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.4,
+      "draw": 4.1,
+      "away": 6.5
+    },
+    "fair1X2": {
+      "home": 1.72,
+      "draw": 4.24,
+      "away": 5.49
+    },
+    "movementSummary": "home_odds_up_away_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Mus Spor FC",
+      "rating": 1583.02
+    },
+    {
+      "name": "SK Austria Klagenfurt",
+      "rating": 1582.95
+    }
+  ]
+}

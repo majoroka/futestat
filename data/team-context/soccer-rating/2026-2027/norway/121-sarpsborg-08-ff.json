@@ -1,0 +1,408 @@
+{
+  "team": {
+    "id": "121",
+    "name": "Sarpsborg 08 FF",
+    "slug": "sarpsborg-08-ff",
+    "country": "Norway",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Sarpsborg-08-Ff/121/",
+    "collectedAtUtc": "2026-08-08T18:27:18.733Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1956.64,
+    "home": 1980.38,
+    "away": 1932.9
+  },
+  "rankings": {
+    "national": 9,
+    "europe": 333
+  },
+  "form": {
+    "last3": [
+      "W",
+      "D",
+      "W"
+    ]
+  },
+  "prediction": {
+    "tip": "home_win",
+    "tipLabel": "Bet on (1) Viking Stavanger (Stake 2/10)",
+    "confidencePct": 20,
+    "strengthComparison": "underdog"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.37,
+      "draw": 5.25,
+      "away": 6.5
+    },
+    "fair1X2": {
+      "home": 1.44,
+      "draw": 5.62,
+      "away": 7.8
+    },
+    "movementSummary": "home_odds_up_away_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [
+      {
+        "player": "Henrik Falchener",
+        "status": "injury_or_suspension",
+        "description": null
+      }
+    ],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": [
+      {
+        "name": "Arild Ostbo",
+        "position": "GK",
+        "age": null,
+        "apps": 5,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Henrik Heggheim",
+        "position": "DF",
+        "age": null,
+        "apps": 14,
+        "goals": 3,
+        "rating": 6.9
+      },
+      {
+        "name": "Gianni Stensness",
+        "position": "DF",
+        "age": null,
+        "apps": 13,
+        "goals": 3,
+        "rating": 5.2
+      },
+      {
+        "name": "Sondre Bjorshol",
+        "position": "DF",
+        "age": null,
+        "apps": 10,
+        "goals": 1,
+        "rating": 4.3
+      },
+      {
+        "name": "Vetle Auklend",
+        "position": "DF",
+        "age": null,
+        "apps": 10,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Ruben Alte",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "K. Askildsen",
+        "position": "MF",
+        "age": null,
+        "apps": 14,
+        "goals": 5,
+        "rating": 7.2
+      },
+      {
+        "name": "Simen Kvia-Egeskog",
+        "position": "MF",
+        "age": null,
+        "apps": 15,
+        "goals": 5,
+        "rating": 7.3
+      },
+      {
+        "name": "Edvin Austbø",
+        "position": "ST",
+        "age": null,
+        "apps": 9,
+        "goals": 2,
+        "rating": 7.6
+      },
+      {
+        "name": "Peter Christiansen",
+        "position": "ST",
+        "age": null,
+        "apps": 14,
+        "goals": 8,
+        "rating": 8.1
+      },
+      {
+        "name": "Lubomir Belko",
+        "position": "GK",
+        "age": null,
+        "apps": 10,
+        "goals": 0,
+        "rating": 6.2
+      },
+      {
+        "name": "Johan Haugen Herman",
+        "position": "DF",
+        "age": null,
+        "apps": 12,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Ola Visted",
+        "position": "MF",
+        "age": null,
+        "apps": 11,
+        "goals": 0,
+        "rating": 5.1
+      },
+      {
+        "name": "Romano Postema",
+        "position": "ST",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 5.8
+      },
+      {
+        "name": "Jakob Hansen",
+        "position": "MF",
+        "age": null,
+        "apps": 7,
+        "goals": 0,
+        "rating": 6.2
+      },
+      {
+        "name": "Niklas Fuglestad",
+        "position": "ST",
+        "age": null,
+        "apps": 13,
+        "goals": 2,
+        "rating": 5.2
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Arild Ostbo",
+      "position": "GK",
+      "age": 35,
+      "apps": 5,
+      "goals": 0,
+      "rating": 3.1
+    },
+    {
+      "name": "Lubomir Belko",
+      "position": "GK",
+      "age": 24,
+      "apps": 10,
+      "goals": 0,
+      "rating": 6.2
+    },
+    {
+      "name": "Kristoffer Haugen",
+      "position": null,
+      "age": 32,
+      "apps": 14,
+      "goals": 1,
+      "rating": 6
+    },
+    {
+      "name": "Anders Baertelsen",
+      "position": null,
+      "age": 26,
+      "apps": 11,
+      "goals": 0,
+      "rating": 5.3
+    },
+    {
+      "name": "Viljar Vevatne",
+      "position": null,
+      "age": 31,
+      "apps": 3,
+      "goals": 0,
+      "rating": 3.1
+    },
+    {
+      "name": "Henrik Heggheim",
+      "position": "DF",
+      "age": 25,
+      "apps": 14,
+      "goals": 3,
+      "rating": 6.9
+    },
+    {
+      "name": "Gianni Stensness",
+      "position": "DF",
+      "age": 27,
+      "apps": 13,
+      "goals": 3,
+      "rating": 5.2
+    },
+    {
+      "name": "Sondre Bjorshol",
+      "position": "DF",
+      "age": 32,
+      "apps": 10,
+      "goals": 1,
+      "rating": 4.3
+    },
+    {
+      "name": "Vetle Auklend",
+      "position": "DF",
+      "age": 21,
+      "apps": 10,
+      "goals": 0,
+      "rating": 3.3
+    },
+    {
+      "name": "Johan Haugen Herman",
+      "position": "DF",
+      "age": 26,
+      "apps": 12,
+      "goals": 0,
+      "rating": 4.8
+    },
+    {
+      "name": "Henrik Falchener",
+      "position": null,
+      "age": 23,
+      "apps": 11,
+      "goals": 2,
+      "rating": 7.4
+    },
+    {
+      "name": "Jakob Hansen",
+      "position": "MF",
+      "age": 21,
+      "apps": 7,
+      "goals": 0,
+      "rating": 6.2
+    },
+    {
+      "name": "Joe Bell",
+      "position": null,
+      "age": 27,
+      "apps": 10,
+      "goals": 0,
+      "rating": 6.9
+    },
+    {
+      "name": "Tobias Moi",
+      "position": null,
+      "age": 20,
+      "apps": 9,
+      "goals": 0,
+      "rating": 2
+    },
+    {
+      "name": "Ruben Alte",
+      "position": "MF",
+      "age": 26,
+      "apps": 2,
+      "goals": 0,
+      "rating": 4.8
+    },
+    {
+      "name": "K. Askildsen",
+      "position": "MF",
+      "age": 25,
+      "apps": 14,
+      "goals": 5,
+      "rating": 7.2
+    },
+    {
+      "name": "Simen Kvia-Egeskog",
+      "position": "MF",
+      "age": 23,
+      "apps": 15,
+      "goals": 5,
+      "rating": 7.3
+    },
+    {
+      "name": "Ola Visted",
+      "position": "MF",
+      "age": 21,
+      "apps": 11,
+      "goals": 0,
+      "rating": 5.1
+    },
+    {
+      "name": "Veton Berisha",
+      "position": null,
+      "age": 32,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4.7
+    },
+    {
+      "name": "Amin Cosic",
+      "position": null,
+      "age": 20,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.5
+    },
+    {
+      "name": "Edvin Austbø",
+      "position": "ST",
+      "age": 21,
+      "apps": 9,
+      "goals": 2,
+      "rating": 7.6
+    },
+    {
+      "name": "Romano Postema",
+      "position": "ST",
+      "age": 24,
+      "apps": 1,
+      "goals": 0,
+      "rating": 5.8
+    },
+    {
+      "name": "Niklas Fuglestad",
+      "position": "ST",
+      "age": 20,
+      "apps": 13,
+      "goals": 2,
+      "rating": 5.2
+    },
+    {
+      "name": "Peter Christiansen",
+      "position": "ST",
+      "age": 26,
+      "apps": 14,
+      "goals": 8,
+      "rating": 8.1
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "SD Eibar",
+      "rating": 1954.44
+    },
+    {
+      "name": "FK Jablonec 97",
+      "rating": 1953.53
+    }
+  ]
+}

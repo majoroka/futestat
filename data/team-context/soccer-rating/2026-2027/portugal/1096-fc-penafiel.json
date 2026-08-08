@@ -1,0 +1,426 @@
+{
+  "team": {
+    "id": "1096",
+    "name": "FC Penafiel",
+    "slug": "fc-penafiel",
+    "country": "Portugal",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Fc-Penafiel/1096/",
+    "collectedAtUtc": "2026-08-08T18:27:48.406Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1753.22,
+    "home": 1840.82,
+    "away": 1665.63
+  },
+  "rankings": {
+    "national": 33,
+    "europe": 900
+  },
+  "form": {
+    "last3": [
+      "L",
+      "W",
+      "L"
+    ]
+  },
+  "prediction": {
+    "tip": "home_win",
+    "tipLabel": "Bet on (1) FC Penafiel (Stake 6/10)",
+    "confidencePct": 60,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 2.05,
+      "draw": 3.1,
+      "away": 3.2
+    },
+    "fair1X2": {
+      "home": 1.88,
+      "draw": 3.77,
+      "away": 4.92
+    },
+    "movementSummary": "home_odds_down_away_odds_up"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": [
+      {
+        "name": "Miguel Oliveira",
+        "position": "GK",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "C. Moreira Silva",
+        "position": "DF",
+        "age": null,
+        "apps": 27,
+        "goals": 1,
+        "rating": 4.5
+      },
+      {
+        "name": "Gonçalo Negrao",
+        "position": "DF",
+        "age": null,
+        "apps": 27,
+        "goals": 1,
+        "rating": 4.2
+      },
+      {
+        "name": "Jaime Sanchez",
+        "position": "DF",
+        "age": null,
+        "apps": 20,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Teddy Alloh",
+        "position": "DF",
+        "age": null,
+        "apps": 13,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Nuno Martins",
+        "position": "MF",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "Pedro Sa",
+        "position": "MF",
+        "age": null,
+        "apps": 27,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Alex Carbonell",
+        "position": "MF",
+        "age": null,
+        "apps": 10,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Davo",
+        "position": "ST",
+        "age": null,
+        "apps": 33,
+        "goals": 5,
+        "rating": 5.6
+      },
+      {
+        "name": "Ricardo Schutte",
+        "position": "ST",
+        "age": null,
+        "apps": 13,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Alvaro Santos",
+        "position": "ST",
+        "age": null,
+        "apps": 28,
+        "goals": 4,
+        "rating": 5.9
+      },
+      {
+        "name": "Joan Femenias",
+        "position": "GK",
+        "age": null,
+        "apps": 32,
+        "goals": 0,
+        "rating": 5
+      },
+      {
+        "name": "Joao Miguel",
+        "position": "DF",
+        "age": null,
+        "apps": 25,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Soma Anzai",
+        "position": "MF",
+        "age": null,
+        "apps": 14,
+        "goals": 1,
+        "rating": 5.3
+      },
+      {
+        "name": "Zé Leite",
+        "position": "ST",
+        "age": null,
+        "apps": 13,
+        "goals": 3,
+        "rating": 5.2
+      },
+      {
+        "name": "Iano Simao",
+        "position": "DF",
+        "age": null,
+        "apps": 25,
+        "goals": 1,
+        "rating": 3.8
+      },
+      {
+        "name": "Reko",
+        "position": "MF",
+        "age": null,
+        "apps": 31,
+        "goals": 8,
+        "rating": 5.3
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Manuel Baldé",
+      "position": null,
+      "age": 23,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3.9
+    },
+    {
+      "name": "Miguel Oliveira",
+      "position": "GK",
+      "age": 31,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.6
+    },
+    {
+      "name": "Joan Femenias",
+      "position": "GK",
+      "age": 29,
+      "apps": 32,
+      "goals": 0,
+      "rating": 5
+    },
+    {
+      "name": "Jorge Meré",
+      "position": null,
+      "age": 29,
+      "apps": 10,
+      "goals": 1,
+      "rating": 5.2
+    },
+    {
+      "name": "Meireles Injai",
+      "position": null,
+      "age": 23,
+      "apps": 6,
+      "goals": 0,
+      "rating": 1.8
+    },
+    {
+      "name": "C. Moreira Silva",
+      "position": "DF",
+      "age": 25,
+      "apps": 27,
+      "goals": 1,
+      "rating": 4.5
+    },
+    {
+      "name": "Gonçalo Negrao",
+      "position": "DF",
+      "age": 23,
+      "apps": 27,
+      "goals": 1,
+      "rating": 4.2
+    },
+    {
+      "name": "Jaime Sanchez",
+      "position": "DF",
+      "age": 31,
+      "apps": 20,
+      "goals": 0,
+      "rating": 3.4
+    },
+    {
+      "name": "Teddy Alloh",
+      "position": "DF",
+      "age": 24,
+      "apps": 13,
+      "goals": 0,
+      "rating": 3
+    },
+    {
+      "name": "Joao Miguel",
+      "position": "DF",
+      "age": 32,
+      "apps": 25,
+      "goals": 0,
+      "rating": 4.2
+    },
+    {
+      "name": "Iano Simao",
+      "position": "DF",
+      "age": 27,
+      "apps": 25,
+      "goals": 1,
+      "rating": 3.8
+    },
+    {
+      "name": "Jaime Escario",
+      "position": null,
+      "age": 22,
+      "apps": 1,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Ruben Alves",
+      "position": null,
+      "age": 31,
+      "apps": 27,
+      "goals": 0,
+      "rating": 4.3
+    },
+    {
+      "name": "Pedro Sa",
+      "position": "MF",
+      "age": 32,
+      "apps": 27,
+      "goals": 0,
+      "rating": 4.5
+    },
+    {
+      "name": "Nuno Martins",
+      "position": "MF",
+      "age": 21,
+      "apps": 0,
+      "goals": 0,
+      "rating": 2.7
+    },
+    {
+      "name": "Alex Carbonell",
+      "position": "MF",
+      "age": 28,
+      "apps": 10,
+      "goals": 0,
+      "rating": 4.5
+    },
+    {
+      "name": "Ibrahima Kébé",
+      "position": null,
+      "age": 25,
+      "apps": 19,
+      "goals": 1,
+      "rating": 4.4
+    },
+    {
+      "name": "Soma Anzai",
+      "position": "MF",
+      "age": 23,
+      "apps": 14,
+      "goals": 1,
+      "rating": 5.3
+    },
+    {
+      "name": "Reko",
+      "position": "MF",
+      "age": 30,
+      "apps": 31,
+      "goals": 8,
+      "rating": 5.3
+    },
+    {
+      "name": "Dinis Rodrigues",
+      "position": null,
+      "age": 20,
+      "apps": 3,
+      "goals": 0,
+      "rating": 2.7
+    },
+    {
+      "name": "Davo",
+      "position": "ST",
+      "age": 31,
+      "apps": 33,
+      "goals": 5,
+      "rating": 5.6
+    },
+    {
+      "name": "Alvaro Santos",
+      "position": "ST",
+      "age": 20,
+      "apps": 28,
+      "goals": 4,
+      "rating": 5.9
+    },
+    {
+      "name": "Zé Leite",
+      "position": "ST",
+      "age": 26,
+      "apps": 13,
+      "goals": 3,
+      "rating": 5.2
+    },
+    {
+      "name": "Joseph Séry",
+      "position": null,
+      "age": 25,
+      "apps": 27,
+      "goals": 4,
+      "rating": 3.8
+    },
+    {
+      "name": "Raul Alcaina",
+      "position": null,
+      "age": 25,
+      "apps": 24,
+      "goals": 2,
+      "rating": 4.1
+    },
+    {
+      "name": "Ricardo Schutte",
+      "position": "ST",
+      "age": 27,
+      "apps": 13,
+      "goals": 0,
+      "rating": 3.3
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Academica Coimbra",
+      "rating": 1751.22
+    },
+    {
+      "name": "CE Europa",
+      "rating": 1750.28
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "team": {
+    "id": "1214",
+    "name": "Veres Rivne",
+    "slug": "veres-rivne",
+    "country": "Ukraine",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Veres-Rivne/1214/",
+    "collectedAtUtc": "2026-08-08T18:28:58.844Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1552.55,
+    "home": 1714.66,
+    "away": 1390.43
+  },
+  "rankings": {
+    "national": 40,
+    "europe": 2602
+  },
+  "form": {
+    "last3": [
+      "L",
+      "L",
+      "L"
+    ]
+  },
+  "prediction": {
+    "tip": "away_win",
+    "tipLabel": "Bet on (2) Veres Rivne (Stake 3/10)",
+    "confidencePct": 30,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.53,
+      "draw": 3.9,
+      "away": 6
+    },
+    "fair1X2": {
+      "home": 7.18,
+      "draw": 4.5,
+      "away": 1.57
+    },
+    "movementSummary": "home_odds_down_away_odds_up"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Meshakhte Tkibuli",
+      "rating": 1552.61
+    },
+    {
+      "name": "KFC Oosterzonen",
+      "rating": 1552.51
+    }
+  ]
+}

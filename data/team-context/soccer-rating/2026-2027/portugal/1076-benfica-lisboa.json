@@ -1,0 +1,80 @@
+{
+  "team": {
+    "id": "1076",
+    "name": "Benfica Lisboa",
+    "slug": "benfica-lisboa",
+    "country": "Portugal",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Benfica-Lisboa/1076/",
+    "collectedAtUtc": "2026-08-08T18:28:01.723Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "medium",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
+  },
+  "ratings": {
+    "overall": 2347.12,
+    "home": 2365.04,
+    "away": 2329.21
+  },
+  "rankings": {
+    "national": 1,
+    "europe": 20
+  },
+  "form": {
+    "last3": [
+      "W",
+      "W",
+      "L"
+    ]
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.09,
+      "draw": 10.5,
+      "away": 26
+    },
+    "fair1X2": {
+      "home": 1.17,
+      "draw": 9.94,
+      "away": 23.96
+    },
+    "movementSummary": "home_odds_up_away_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": 5.2,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Aston Villa",
+      "rating": 2343.68
+    },
+    {
+      "name": "AC Milan",
+      "rating": 2342.24
+    }
+  ]
+}

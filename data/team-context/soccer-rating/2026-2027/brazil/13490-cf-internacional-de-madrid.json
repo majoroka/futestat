@@ -1,0 +1,68 @@
+{
+  "team": {
+    "id": "13490",
+    "name": "CF Internacional de Madrid",
+    "slug": "cf-internacional-de-madrid",
+    "country": "Spain",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Cf-Internacional-De-Madrid/13490/",
+    "collectedAtUtc": "2026-08-08T18:26:40.400Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "low",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
+  },
+  "ratings": {
+    "overall": 1682.07,
+    "home": 1710.54,
+    "away": 1653.61
+  },
+  "rankings": {
+    "national": 82,
+    "europe": 1219
+  },
+  "form": {
+    "last3": []
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": null
+  },
+  "oddsMarket": {
+    "opening1X2": null,
+    "fair1X2": null,
+    "movementSummary": null
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Strommen IF",
+      "rating": 1682.24
+    },
+    {
+      "name": "FK Volgograd",
+      "rating": 1681.92
+    }
+  ]
+}

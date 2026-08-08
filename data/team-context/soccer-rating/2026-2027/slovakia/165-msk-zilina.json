@@ -1,0 +1,365 @@
+{
+  "team": {
+    "id": "165",
+    "name": "MSK Zilina",
+    "slug": "msk-zilina",
+    "country": "Slovakia",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Msk-Zilina/165/",
+    "collectedAtUtc": "2026-08-08T18:28:43.840Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1887.8,
+    "home": 1937.7,
+    "away": 1837.9
+  },
+  "rankings": {
+    "national": 3,
+    "europe": 463
+  },
+  "form": {
+    "last3": [
+      "W",
+      "L",
+      "D"
+    ]
+  },
+  "prediction": {
+    "tip": "away_or_draw",
+    "tipLabel": "Bet on (X2) MFK Skalica (Stake 2/10)",
+    "confidencePct": 20,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.68,
+      "draw": 3.7,
+      "away": 4.4
+    },
+    "fair1X2": {
+      "home": 2.2,
+      "draw": 4.34,
+      "away": 3.18
+    },
+    "movementSummary": "home_odds_down_away_odds_up"
+  },
+  "squadHealth": {
+    "injuries": [
+      {
+        "player": "Filip Kasa",
+        "status": "injury_or_suspension",
+        "description": null
+      },
+      {
+        "player": "Daniel Homet Ruiz",
+        "status": "injury_or_suspension",
+        "description": null
+      }
+    ],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": 3.2,
+    "players": [
+      {
+        "name": "David Sipos",
+        "position": "GK",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.3
+      },
+      {
+        "name": "Tobias Paliscak",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Timotej Hranica",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 1,
+        "rating": 3.1
+      },
+      {
+        "name": "Kristian Bari",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "A. Narimanidze",
+        "position": "DF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Samuel Datko",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Michal Fasko",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Andrei Florea",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 1,
+        "rating": 1.8
+      },
+      {
+        "name": "Xavier Adang",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Fabian Bzdyl",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 1,
+        "rating": 3.6
+      },
+      {
+        "name": "Marko Roginic",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Marek Okal",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Frantisek Kosa",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.2
+      },
+      {
+        "name": "Ján Minarik",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "Patrik Baleja",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Patrik Ilko",
+        "position": "ST",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.7
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "David Sipos",
+      "position": "GK",
+      "age": 27,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.3
+    },
+    {
+      "name": "Tobias Paliscak",
+      "position": "DF",
+      "age": 18,
+      "apps": 2,
+      "goals": 0,
+      "rating": 4.7
+    },
+    {
+      "name": "Timotej Hranica",
+      "position": "DF",
+      "age": 21,
+      "apps": 2,
+      "goals": 1,
+      "rating": 3.1
+    },
+    {
+      "name": "Kristian Bari",
+      "position": "DF",
+      "age": 25,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.2
+    },
+    {
+      "name": "A. Narimanidze",
+      "position": "DF",
+      "age": 21,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3.9
+    },
+    {
+      "name": "Marek Okal",
+      "position": "DF",
+      "age": 17,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.1
+    },
+    {
+      "name": "Ján Minarik",
+      "position": "DF",
+      "age": 29,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.7
+    },
+    {
+      "name": "Filip Kasa",
+      "position": null,
+      "age": 32,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.1
+    },
+    {
+      "name": "Samuel Datko",
+      "position": "MF",
+      "age": 25,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.9
+    },
+    {
+      "name": "Michal Fasko",
+      "position": "MF",
+      "age": 31,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.1
+    },
+    {
+      "name": "Fabian Bzdyl",
+      "position": "MF",
+      "age": 18,
+      "apps": 2,
+      "goals": 1,
+      "rating": 3.6
+    },
+    {
+      "name": "Andrei Florea",
+      "position": "MF",
+      "age": 21,
+      "apps": 2,
+      "goals": 1,
+      "rating": 1.8
+    },
+    {
+      "name": "Xavier Adang",
+      "position": "MF",
+      "age": 22,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.4
+    },
+    {
+      "name": "Frantisek Kosa",
+      "position": "ST",
+      "age": 20,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.2
+    },
+    {
+      "name": "Patrik Ilko",
+      "position": "ST",
+      "age": 25,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.7
+    },
+    {
+      "name": "Marko Roginic",
+      "position": "ST",
+      "age": 30,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.8
+    },
+    {
+      "name": "Patrik Baleja",
+      "position": "ST",
+      "age": 19,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Daniel Homet Ruiz",
+      "position": null,
+      "age": 27,
+      "apps": 1,
+      "goals": 2,
+      "rating": 1.4
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "1. FC Slovacko",
+      "rating": 1886.18
+    },
+    {
+      "name": "Östersunds FK",
+      "rating": 1885.83
+    }
+  ]
+}

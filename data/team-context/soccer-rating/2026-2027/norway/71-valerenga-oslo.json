@@ -1,0 +1,386 @@
+{
+  "team": {
+    "id": "71",
+    "name": "Valerenga Oslo",
+    "slug": "valerenga-oslo",
+    "country": "Norway",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Valerenga-Oslo/71/",
+    "collectedAtUtc": "2026-08-08T18:27:20.198Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1965.11,
+    "home": 2002.87,
+    "away": 1927.34
+  },
+  "rankings": {
+    "national": 8,
+    "europe": 322
+  },
+  "form": {
+    "last3": [
+      "L",
+      "W",
+      "W"
+    ]
+  },
+  "prediction": {
+    "tip": "home_or_draw",
+    "tipLabel": "Bet on (1X) Valerenga Oslo (Stake 2/10)",
+    "confidencePct": 20,
+    "strengthComparison": "underdog"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 5.75,
+      "draw": 4.8,
+      "away": 1.46
+    },
+    "fair1X2": {
+      "home": 5.23,
+      "draw": 5.35,
+      "away": 1.61
+    },
+    "movementSummary": "home_odds_down_away_odds_up"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": [
+      {
+        "name": "Oscar Hedvall",
+        "position": "GK",
+        "age": null,
+        "apps": 15,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Aaron Kiil Olsen",
+        "position": "DF",
+        "age": null,
+        "apps": 14,
+        "goals": 0,
+        "rating": 6.3
+      },
+      {
+        "name": "Ivan Näsberg",
+        "position": "DF",
+        "age": null,
+        "apps": 13,
+        "goals": 1,
+        "rating": 5.1
+      },
+      {
+        "name": "Kolbeinn Finnsson",
+        "position": "DF",
+        "age": null,
+        "apps": 14,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Sebastian Jarl",
+        "position": "DF",
+        "age": null,
+        "apps": 5,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Magnus Westergaard",
+        "position": "MF",
+        "age": null,
+        "apps": 15,
+        "goals": 1,
+        "rating": 5.5
+      },
+      {
+        "name": "Carl Lange",
+        "position": "MF",
+        "age": null,
+        "apps": 15,
+        "goals": 4,
+        "rating": 6.1
+      },
+      {
+        "name": "Fidel Brice Ambina",
+        "position": "MF",
+        "age": null,
+        "apps": 13,
+        "goals": 0,
+        "rating": 7
+      },
+      {
+        "name": "Lucas Haren",
+        "position": "ST",
+        "age": null,
+        "apps": 14,
+        "goals": 6,
+        "rating": 6.6
+      },
+      {
+        "name": "Mathias Grundetjern",
+        "position": "ST",
+        "age": null,
+        "apps": 15,
+        "goals": 2,
+        "rating": 6.6
+      },
+      {
+        "name": "Mohamed Ofkir",
+        "position": "ST",
+        "age": null,
+        "apps": 4,
+        "goals": 2,
+        "rating": 4
+      },
+      {
+        "name": "Håkon Sjåtil",
+        "position": "DF",
+        "age": null,
+        "apps": 13,
+        "goals": 0,
+        "rating": 5.1
+      },
+      {
+        "name": "Petter Strand",
+        "position": "MF",
+        "age": null,
+        "apps": 15,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Ole Saeter",
+        "position": "ST",
+        "age": null,
+        "apps": 4,
+        "goals": 0,
+        "rating": 5
+      },
+      {
+        "name": "Kevin Tshiembe",
+        "position": "DF",
+        "age": null,
+        "apps": 8,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Odin Holm",
+        "position": "MF",
+        "age": null,
+        "apps": 7,
+        "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Vegar Hedenstad",
+        "position": "DF",
+        "age": null,
+        "apps": 7,
+        "goals": 0,
+        "rating": 4.2
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Alexander Ordal",
+      "position": null,
+      "age": 18,
+      "apps": 0,
+      "goals": 0,
+      "rating": 1.2
+    },
+    {
+      "name": "Oscar Hedvall",
+      "position": "GK",
+      "age": 27,
+      "apps": 15,
+      "goals": 0,
+      "rating": 5.4
+    },
+    {
+      "name": "Aaron Kiil Olsen",
+      "position": "DF",
+      "age": 25,
+      "apps": 14,
+      "goals": 0,
+      "rating": 6.3
+    },
+    {
+      "name": "Ivan Näsberg",
+      "position": "DF",
+      "age": 30,
+      "apps": 13,
+      "goals": 1,
+      "rating": 5.1
+    },
+    {
+      "name": "Kolbeinn Finnsson",
+      "position": "DF",
+      "age": 26,
+      "apps": 14,
+      "goals": 0,
+      "rating": 4.8
+    },
+    {
+      "name": "Sebastian Jarl",
+      "position": "DF",
+      "age": 26,
+      "apps": 5,
+      "goals": 0,
+      "rating": 3.6
+    },
+    {
+      "name": "Håkon Sjåtil",
+      "position": "DF",
+      "age": 23,
+      "apps": 13,
+      "goals": 0,
+      "rating": 5.1
+    },
+    {
+      "name": "Kevin Tshiembe",
+      "position": "DF",
+      "age": 29,
+      "apps": 8,
+      "goals": 0,
+      "rating": 4.8
+    },
+    {
+      "name": "Vegar Hedenstad",
+      "position": "DF",
+      "age": 35,
+      "apps": 7,
+      "goals": 0,
+      "rating": 4.2
+    },
+    {
+      "name": "Henrik Bjørdal",
+      "position": null,
+      "age": 29,
+      "apps": 15,
+      "goals": 1,
+      "rating": 6.2
+    },
+    {
+      "name": "Magnus Westergaard",
+      "position": "MF",
+      "age": 28,
+      "apps": 15,
+      "goals": 1,
+      "rating": 5.5
+    },
+    {
+      "name": "Fidel Brice Ambina",
+      "position": "MF",
+      "age": 24,
+      "apps": 13,
+      "goals": 0,
+      "rating": 7
+    },
+    {
+      "name": "Petter Strand",
+      "position": "MF",
+      "age": 31,
+      "apps": 15,
+      "goals": 0,
+      "rating": 5.4
+    },
+    {
+      "name": "Odin Holm",
+      "position": "MF",
+      "age": 23,
+      "apps": 7,
+      "goals": 0,
+      "rating": 5.2
+    },
+    {
+      "name": "Carl Lange",
+      "position": "MF",
+      "age": 27,
+      "apps": 15,
+      "goals": 4,
+      "rating": 6.1
+    },
+    {
+      "name": "Gabriel Rajkovic",
+      "position": null,
+      "age": 15,
+      "apps": 8,
+      "goals": 0,
+      "rating": 1.9
+    },
+    {
+      "name": "Filip Thorvaldsen",
+      "position": null,
+      "age": 20,
+      "apps": 13,
+      "goals": 3,
+      "rating": 6.5
+    },
+    {
+      "name": "Lucas Haren",
+      "position": "ST",
+      "age": 28,
+      "apps": 14,
+      "goals": 6,
+      "rating": 6.6
+    },
+    {
+      "name": "Mohamed Ofkir",
+      "position": "ST",
+      "age": 29,
+      "apps": 4,
+      "goals": 2,
+      "rating": 4
+    },
+    {
+      "name": "Ole Saeter",
+      "position": "ST",
+      "age": 30,
+      "apps": 4,
+      "goals": 0,
+      "rating": 5
+    },
+    {
+      "name": "Mathias Grundetjern",
+      "position": "ST",
+      "age": 26,
+      "apps": 15,
+      "goals": 2,
+      "rating": 6.6
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "SCR Altach",
+      "rating": 1959.86
+    },
+    {
+      "name": "Fatih Karagümrük",
+      "rating": 1936.09
+    }
+  ]
+}

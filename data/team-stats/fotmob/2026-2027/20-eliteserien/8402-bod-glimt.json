@@ -1,0 +1,65 @@
+{
+  "team": {
+    "id": "8402",
+    "name": "Bodø/Glimt",
+    "slug": "bod-glimt",
+    "country": "Norway",
+    "logoUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8402.png"
+  },
+  "competition": {
+    "id": "20",
+    "name": "Champions League Qualification"
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": false
+  },
+  "source": {
+    "provider": "fotmob",
+    "url": "https://www.fotmob.com/teams/8402/stats/bod-glimt/teams",
+    "collectedAtUtc": "2026-08-08T18:23:48.027Z"
+  },
+  "availability": {
+    "status": "archived",
+    "coverage": "low",
+    "notes": "Epoca anterior capturada para referencia estrutural."
+  },
+  "overview": {
+    "teamRating": 7.4,
+    "goalsPerMatch": null,
+    "goalsConcededPerMatch": null,
+    "averagePossessionPct": null,
+    "cleanSheets": null,
+    "attendanceAverage": null
+  },
+  "attack": {
+    "xg": 48.077599823474884,
+    "xgDiff": -5.077599823474884,
+    "shotsOnTargetPerMatch": null,
+    "bigChances": null,
+    "bigChancesMissed": null,
+    "accuratePassesPerMatch": null,
+    "accurateLongBallsPerMatch": null,
+    "accurateCrossesPerMatch": null,
+    "penaltiesAwarded": null,
+    "touchesInOppBoxPerMatch": null,
+    "cornersPerMatch": null,
+    "setPieceGoals": null
+  },
+  "defense": {
+    "xgConceded": 17.47010011970997,
+    "interceptionsPerMatch": null,
+    "tacklesPerMatch": null,
+    "clearancesPerMatch": null,
+    "finalThirdRecoveriesPerMatch": null,
+    "setPieceGoalsConceded": null,
+    "penaltiesConceded": null,
+    "savesPerMatch": null
+  },
+  "discipline": {
+    "foulsPerMatch": null,
+    "yellowCardsPerMatch": null,
+    "redCardsPerMatch": null
+  }
+}

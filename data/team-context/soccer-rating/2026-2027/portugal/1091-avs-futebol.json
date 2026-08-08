@@ -1,0 +1,400 @@
+{
+  "team": {
+    "id": "1091",
+    "name": "AVS Futebol",
+    "slug": "avs-futebol",
+    "country": "Portugal",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Avs-Futebol/1091/",
+    "collectedAtUtc": "2026-08-08T18:27:41.018Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1802.77,
+    "home": 1844.73,
+    "away": 1760.81
+  },
+  "rankings": {
+    "national": 25,
+    "europe": 697
+  },
+  "form": {
+    "last3": [
+      "D",
+      "W",
+      "W"
+    ]
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.52,
+      "draw": 3.6,
+      "away": 5.5
+    },
+    "fair1X2": {
+      "home": 1.83,
+      "draw": 3.78,
+      "away": 5.33
+    },
+    "movementSummary": "home_odds_up_away_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [
+      {
+        "player": "Kiki",
+        "status": "injury_or_suspension",
+        "description": null
+      }
+    ],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": 5,
+    "players": [
+      {
+        "name": "Adriel",
+        "position": "GK",
+        "age": null,
+        "apps": 16,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Cristian Devenish",
+        "position": "DF",
+        "age": null,
+        "apps": 26,
+        "goals": 0,
+        "rating": 5.5
+      },
+      {
+        "name": "Paulo Vitor",
+        "position": "DF",
+        "age": null,
+        "apps": 17,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Aderlan Santos",
+        "position": "DF",
+        "age": null,
+        "apps": 17,
+        "goals": 1,
+        "rating": 4.5
+      },
+      {
+        "name": "Gustavo Mendonça",
+        "position": "MF",
+        "age": null,
+        "apps": 21,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Angel Algobia",
+        "position": "MF",
+        "age": null,
+        "apps": 21,
+        "goals": 1,
+        "rating": 5
+      },
+      {
+        "name": "Pedro Lima",
+        "position": "MF",
+        "age": null,
+        "apps": 26,
+        "goals": 4,
+        "rating": 4.6
+      },
+      {
+        "name": "Roni",
+        "position": "MF",
+        "age": null,
+        "apps": 16,
+        "goals": 2,
+        "rating": 5.5
+      },
+      {
+        "name": "Oscar Perea",
+        "position": "ST",
+        "age": null,
+        "apps": 25,
+        "goals": 2,
+        "rating": 6.1
+      },
+      {
+        "name": "Tunde Akinsola",
+        "position": "ST",
+        "age": null,
+        "apps": 34,
+        "goals": 1,
+        "rating": 5.7
+      },
+      {
+        "name": "Nenê",
+        "position": "ST",
+        "age": null,
+        "apps": 21,
+        "goals": 4,
+        "rating": 4.6
+      },
+      {
+        "name": "Simao",
+        "position": "GK",
+        "age": null,
+        "apps": 12,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Leonardo Rivas",
+        "position": "DF",
+        "age": null,
+        "apps": 26,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Tomané",
+        "position": "ST",
+        "age": null,
+        "apps": 29,
+        "goals": 4,
+        "rating": 5
+      },
+      {
+        "name": "Guilherme Neiva",
+        "position": "ST",
+        "age": null,
+        "apps": 24,
+        "goals": 2,
+        "rating": 3.4
+      },
+      {
+        "name": "Mateus Pivô",
+        "position": "DF",
+        "age": null,
+        "apps": 14,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Ruben Semedo",
+        "position": "DF",
+        "age": null,
+        "apps": 9,
+        "goals": 0,
+        "rating": 5.5
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Trigueira",
+      "position": null,
+      "age": 38,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.7
+    },
+    {
+      "name": "Adriel",
+      "position": "GK",
+      "age": 25,
+      "apps": 16,
+      "goals": 0,
+      "rating": 5.4
+    },
+    {
+      "name": "Simao",
+      "position": "GK",
+      "age": 32,
+      "apps": 12,
+      "goals": 0,
+      "rating": 2.8
+    },
+    {
+      "name": "Ponck",
+      "position": null,
+      "age": 35,
+      "apps": 16,
+      "goals": 0,
+      "rating": 4.3
+    },
+    {
+      "name": "Guillem Molina",
+      "position": null,
+      "age": 26,
+      "apps": 7,
+      "goals": 0,
+      "rating": 3.1
+    },
+    {
+      "name": "Cristian Devenish",
+      "position": "DF",
+      "age": 25,
+      "apps": 26,
+      "goals": 0,
+      "rating": 5.5
+    },
+    {
+      "name": "Paulo Vitor",
+      "position": "DF",
+      "age": 24,
+      "apps": 17,
+      "goals": 0,
+      "rating": 4.8
+    },
+    {
+      "name": "Aderlan Santos",
+      "position": "DF",
+      "age": 37,
+      "apps": 17,
+      "goals": 1,
+      "rating": 4.5
+    },
+    {
+      "name": "Leonardo Rivas",
+      "position": "DF",
+      "age": 24,
+      "apps": 26,
+      "goals": 0,
+      "rating": 4.3
+    },
+    {
+      "name": "Mateus Pivô",
+      "position": "DF",
+      "age": 28,
+      "apps": 14,
+      "goals": 0,
+      "rating": 3
+    },
+    {
+      "name": "Ruben Semedo",
+      "position": "DF",
+      "age": 32,
+      "apps": 9,
+      "goals": 0,
+      "rating": 5.5
+    },
+    {
+      "name": "Kiki",
+      "position": null,
+      "age": 31,
+      "apps": 27,
+      "goals": 0,
+      "rating": 4.8
+    },
+    {
+      "name": "Angel Algobia",
+      "position": "MF",
+      "age": 26,
+      "apps": 21,
+      "goals": 1,
+      "rating": 5
+    },
+    {
+      "name": "Roni",
+      "position": "MF",
+      "age": 27,
+      "apps": 16,
+      "goals": 2,
+      "rating": 5.5
+    },
+    {
+      "name": "Gustavo Mendonça",
+      "position": "MF",
+      "age": 23,
+      "apps": 21,
+      "goals": 0,
+      "rating": 3.4
+    },
+    {
+      "name": "Pedro Lima",
+      "position": "MF",
+      "age": 23,
+      "apps": 26,
+      "goals": 4,
+      "rating": 4.6
+    },
+    {
+      "name": "Oscar Perea",
+      "position": "ST",
+      "age": 20,
+      "apps": 25,
+      "goals": 2,
+      "rating": 6.1
+    },
+    {
+      "name": "Tunde Akinsola",
+      "position": "ST",
+      "age": 23,
+      "apps": 34,
+      "goals": 1,
+      "rating": 5.7
+    },
+    {
+      "name": "Guilherme Neiva",
+      "position": "ST",
+      "age": 25,
+      "apps": 24,
+      "goals": 2,
+      "rating": 3.4
+    },
+    {
+      "name": "Andre Green",
+      "position": null,
+      "age": 27,
+      "apps": 5,
+      "goals": 0,
+      "rating": 4.1
+    },
+    {
+      "name": "Nenê",
+      "position": "ST",
+      "age": 42,
+      "apps": 21,
+      "goals": 4,
+      "rating": 4.6
+    },
+    {
+      "name": "Tomané",
+      "position": "ST",
+      "age": 33,
+      "apps": 29,
+      "goals": 4,
+      "rating": 5
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "SV Mattersburg",
+      "rating": 1805.03
+    },
+    {
+      "name": "GD Chaves",
+      "rating": 1803.65
+    }
+  ]
+}

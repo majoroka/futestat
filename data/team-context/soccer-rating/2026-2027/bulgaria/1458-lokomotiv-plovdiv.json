@@ -1,0 +1,413 @@
+{
+  "team": {
+    "id": "1458",
+    "name": "Lokomotiv Plovdiv",
+    "slug": "lokomotiv-plovdiv",
+    "country": "Bulgaria",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Lokomotiv-Plovdiv/1458/",
+    "collectedAtUtc": "2026-08-08T18:26:50.771Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1821.17,
+    "home": 1846.48,
+    "away": 1795.86
+  },
+  "rankings": {
+    "national": 7,
+    "europe": 654
+  },
+  "form": {
+    "last3": [
+      "W",
+      "D",
+      "W"
+    ]
+  },
+  "prediction": {
+    "tip": "home_win",
+    "tipLabel": "Bet on (1) Levski Sofia (Stake 5/10)",
+    "confidencePct": 50,
+    "strengthComparison": "underdog"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.36,
+      "draw": 4.4,
+      "away": 7.75
+    },
+    "fair1X2": {
+      "home": 1.42,
+      "draw": 4.95,
+      "away": 10.83
+    },
+    "movementSummary": "home_odds_up_away_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [
+      {
+        "player": "Christian Makoun",
+        "status": "injury_or_suspension",
+        "description": null
+      },
+      {
+        "player": "Akram Bouras",
+        "status": "injury_or_suspension",
+        "description": null
+      }
+    ],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": [
+      {
+        "name": "Svetoslav Vutsov",
+        "position": "GK",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Maicon",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 5.3
+      },
+      {
+        "name": "Hevertton",
+        "position": "DF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Kristian Dimitrov",
+        "position": "DF",
+        "age": null,
+        "apps": 1,
+        "goals": 1,
+        "rating": 5.2
+      },
+      {
+        "name": "David Kusso",
+        "position": "DF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Asen Mitkov",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Mehdi Moubarik",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Mazire Soula",
+        "position": "MF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5
+      },
+      {
+        "name": "Armstrong Oko-Flex",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 1,
+        "rating": 4.2
+      },
+      {
+        "name": "Juan Perea",
+        "position": "ST",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Everton Bala",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Ognyan Vladimirov",
+        "position": "GK",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Aldair",
+        "position": "DF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Serginho",
+        "position": "MF",
+        "age": null,
+        "apps": 3,
+        "goals": 2,
+        "rating": 5
+      },
+      {
+        "name": "Reinaldo",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 1,
+        "rating": 4.1
+      },
+      {
+        "name": "Gasper Trdin",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Nikola Serafimov",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.2
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Martin Lukov",
+      "position": null,
+      "age": 32,
+      "apps": 0,
+      "goals": 0,
+      "rating": 2
+    },
+    {
+      "name": "Svetoslav Vutsov",
+      "position": "GK",
+      "age": 24,
+      "apps": 2,
+      "goals": 0,
+      "rating": 5.2
+    },
+    {
+      "name": "Ognyan Vladimirov",
+      "position": "GK",
+      "age": 18,
+      "apps": 1,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Alex Centelles",
+      "position": null,
+      "age": 26,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.6
+    },
+    {
+      "name": "Maicon",
+      "position": "DF",
+      "age": 26,
+      "apps": 2,
+      "goals": 0,
+      "rating": 5.3
+    },
+    {
+      "name": "Hevertton",
+      "position": "DF",
+      "age": 25,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4.8
+    },
+    {
+      "name": "Kristian Dimitrov",
+      "position": "DF",
+      "age": 29,
+      "apps": 1,
+      "goals": 1,
+      "rating": 5.2
+    },
+    {
+      "name": "David Kusso",
+      "position": "DF",
+      "age": 22,
+      "apps": 3,
+      "goals": 0,
+      "rating": 3.6
+    },
+    {
+      "name": "Aldair",
+      "position": "DF",
+      "age": 26,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "Nikola Serafimov",
+      "position": "DF",
+      "age": 26,
+      "apps": 2,
+      "goals": 0,
+      "rating": 4.2
+    },
+    {
+      "name": "Christian Makoun",
+      "position": null,
+      "age": 26,
+      "apps": 3,
+      "goals": 0,
+      "rating": 5.3
+    },
+    {
+      "name": "Asen Mitkov",
+      "position": "MF",
+      "age": 21,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4.3
+    },
+    {
+      "name": "Mehdi Moubarik",
+      "position": "MF",
+      "age": 25,
+      "apps": 2,
+      "goals": 0,
+      "rating": 4.4
+    },
+    {
+      "name": "Serginho",
+      "position": "MF",
+      "age": 26,
+      "apps": 3,
+      "goals": 2,
+      "rating": 5
+    },
+    {
+      "name": "Gasper Trdin",
+      "position": "MF",
+      "age": 28,
+      "apps": 2,
+      "goals": 0,
+      "rating": 4.4
+    },
+    {
+      "name": "Mazire Soula",
+      "position": "MF",
+      "age": 28,
+      "apps": 3,
+      "goals": 0,
+      "rating": 5
+    },
+    {
+      "name": "Akram Bouras",
+      "position": null,
+      "age": 24,
+      "apps": 3,
+      "goals": 2,
+      "rating": 4.8
+    },
+    {
+      "name": "Armstrong Oko-Flex",
+      "position": "ST",
+      "age": 24,
+      "apps": 3,
+      "goals": 1,
+      "rating": 4.2
+    },
+    {
+      "name": "Everton Bala",
+      "position": "ST",
+      "age": 27,
+      "apps": 3,
+      "goals": 0,
+      "rating": 5.2
+    },
+    {
+      "name": "Reinaldo",
+      "position": "ST",
+      "age": 25,
+      "apps": 3,
+      "goals": 1,
+      "rating": 4.1
+    },
+    {
+      "name": "Steven Stoyanchov",
+      "position": null,
+      "age": 18,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.4
+    },
+    {
+      "name": "Mustapha Sangaré",
+      "position": null,
+      "age": 27,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4.8
+    },
+    {
+      "name": "Juan Perea",
+      "position": "ST",
+      "age": 26,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3.8
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Dijon FC",
+      "rating": 1816.4
+    },
+    {
+      "name": "Ruch Chorzow",
+      "rating": 1820.52
+    }
+  ]
+}

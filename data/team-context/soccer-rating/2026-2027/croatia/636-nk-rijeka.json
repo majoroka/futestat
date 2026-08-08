@@ -1,0 +1,306 @@
+{
+  "team": {
+    "id": "636",
+    "name": "NK Rijeka",
+    "slug": "nk-rijeka",
+    "country": "Croatia",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Nk-Rijeka/636/",
+    "collectedAtUtc": "2026-08-08T18:27:05.503Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 2098.56,
+    "home": 2157.19,
+    "away": 2039.93
+  },
+  "rankings": {
+    "national": 2,
+    "europe": 133
+  },
+  "form": {
+    "last3": [
+      "W",
+      "W",
+      "W"
+    ]
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.18,
+      "draw": 6.5,
+      "away": 13
+    },
+    "fair1X2": {
+      "home": 1.54,
+      "draw": 6.22,
+      "away": 5.26
+    },
+    "movementSummary": "home_odds_up_away_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": 4.2,
+    "players": [
+      {
+        "name": "Aleksa Todorovic",
+        "position": "GK",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Mladen Devetak",
+        "position": "DF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Ante Majstorovic",
+        "position": "DF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.1
+      },
+      {
+        "name": "Justas Lasickas",
+        "position": "DF",
+        "age": null,
+        "apps": 1,
+        "goals": 1,
+        "rating": 3.5
+      },
+      {
+        "name": "Amer Gojak",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Alfonso Barco",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Tiago Dantas",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Niko Jankovic",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Toni Fruk",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 6
+      },
+      {
+        "name": "Daniel Adu-Adjei",
+        "position": "ST",
+        "age": null,
+        "apps": 1,
+        "goals": 1,
+        "rating": 4.1
+      },
+      {
+        "name": "Jakov Puljic",
+        "position": "ST",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Branko Pavic",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Gabriel Rukavina",
+        "position": "ST",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Ivan Cubelic",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.4
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Aleksa Todorovic",
+      "position": "GK",
+      "age": 22,
+      "apps": 1,
+      "goals": 0,
+      "rating": 1.4
+    },
+    {
+      "name": "Mladen Devetak",
+      "position": "DF",
+      "age": 27,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4.4
+    },
+    {
+      "name": "Ante Majstorovic",
+      "position": "DF",
+      "age": 32,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4.1
+    },
+    {
+      "name": "Justas Lasickas",
+      "position": "DF",
+      "age": 28,
+      "apps": 1,
+      "goals": 1,
+      "rating": 3.5
+    },
+    {
+      "name": "Alfonso Barco",
+      "position": "MF",
+      "age": 24,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3.4
+    },
+    {
+      "name": "Branko Pavic",
+      "position": "MF",
+      "age": 19,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3.1
+    },
+    {
+      "name": "Niko Jankovic",
+      "position": "MF",
+      "age": 24,
+      "apps": 1,
+      "goals": 0,
+      "rating": 5.2
+    },
+    {
+      "name": "Amer Gojak",
+      "position": "MF",
+      "age": 29,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4.4
+    },
+    {
+      "name": "Tiago Dantas",
+      "position": "MF",
+      "age": 25,
+      "apps": 1,
+      "goals": 0,
+      "rating": 5.2
+    },
+    {
+      "name": "Ivan Cubelic",
+      "position": "MF",
+      "age": 23,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4.4
+    },
+    {
+      "name": "Toni Fruk",
+      "position": "MF",
+      "age": 25,
+      "apps": 1,
+      "goals": 0,
+      "rating": 6
+    },
+    {
+      "name": "Gabriel Rukavina",
+      "position": "ST",
+      "age": 22,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3.8
+    },
+    {
+      "name": "Daniel Adu-Adjei",
+      "position": "ST",
+      "age": 21,
+      "apps": 1,
+      "goals": 1,
+      "rating": 4.1
+    },
+    {
+      "name": "Jakov Puljic",
+      "position": "ST",
+      "age": 33,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4.2
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "SSC Venezia",
+      "rating": 2098.93
+    },
+    {
+      "name": "Hamburger SV",
+      "rating": 2098.44
+    }
+  ]
+}

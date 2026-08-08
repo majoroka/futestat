@@ -1,0 +1,410 @@
+{
+  "team": {
+    "id": "13992",
+    "name": "Dinamo Makhachkala",
+    "slug": "dinamo-makhachkala",
+    "country": "Russia",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Dinamo-Makhachkala/13992/",
+    "collectedAtUtc": "2026-08-08T18:28:22.257Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1905.75,
+    "home": 1939.92,
+    "away": 1871.58
+  },
+  "rankings": {
+    "national": 12,
+    "europe": 416
+  },
+  "form": {
+    "last3": [
+      "D",
+      "L",
+      "L"
+    ]
+  },
+  "prediction": {
+    "tip": "home_win",
+    "tipLabel": "Bet on (1) Dinamo Makhachkala (Stake 4/10)",
+    "confidencePct": 40,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.95,
+      "draw": 3.25,
+      "away": 4.2
+    },
+    "fair1X2": {
+      "home": 1.87,
+      "draw": 3.66,
+      "away": 5.19
+    },
+    "movementSummary": "home_odds_down_away_odds_up"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": 6.1,
+    "players": [
+      {
+        "name": "David Volk",
+        "position": "GK",
+        "age": null,
+        "apps": 15,
+        "goals": 0,
+        "rating": 5.6
+      },
+      {
+        "name": "Soslan Kagermazov",
+        "position": "DF",
+        "age": null,
+        "apps": 17,
+        "goals": 0,
+        "rating": 5.9
+      },
+      {
+        "name": "Temirkan Sundukov",
+        "position": "DF",
+        "age": null,
+        "apps": 27,
+        "goals": 0,
+        "rating": 5.7
+      },
+      {
+        "name": "Mutalip Alibekov",
+        "position": "DF",
+        "age": null,
+        "apps": 15,
+        "goals": 0,
+        "rating": 5.5
+      },
+      {
+        "name": "Idar Shumakhov",
+        "position": "DF",
+        "age": null,
+        "apps": 19,
+        "goals": 0,
+        "rating": 5.7
+      },
+      {
+        "name": "Kirill Zinovich",
+        "position": "MF",
+        "age": null,
+        "apps": 11,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Nikita Glushkov",
+        "position": "MF",
+        "age": null,
+        "apps": 28,
+        "goals": 0,
+        "rating": 6
+      },
+      {
+        "name": "Razhab Magomedov",
+        "position": "MF",
+        "age": null,
+        "apps": 13,
+        "goals": 0,
+        "rating": 5.5
+      },
+      {
+        "name": "M. Hosseinnejad",
+        "position": "MF",
+        "age": null,
+        "apps": 28,
+        "goals": 4,
+        "rating": 6.8
+      },
+      {
+        "name": "Houssem Aouar",
+        "position": "MF",
+        "age": null,
+        "apps": 26,
+        "goals": 1,
+        "rating": 8.2
+      },
+      {
+        "name": "Gamid Agalarov",
+        "position": "ST",
+        "age": null,
+        "apps": 27,
+        "goals": 7,
+        "rating": 7.4
+      },
+      {
+        "name": "Timur Magomedov",
+        "position": "GK",
+        "age": null,
+        "apps": 13,
+        "goals": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Jemal Tabidze",
+        "position": "DF",
+        "age": null,
+        "apps": 24,
+        "goals": 1,
+        "rating": 5.8
+      },
+      {
+        "name": "A. Dzhabrailov",
+        "position": "MF",
+        "age": null,
+        "apps": 15,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Serder Serderov",
+        "position": "ST",
+        "age": null,
+        "apps": 13,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Mohamed Azzi",
+        "position": "DF",
+        "age": null,
+        "apps": 23,
+        "goals": 0,
+        "rating": 5.5
+      },
+      {
+        "name": "Jan Dapo",
+        "position": "DF",
+        "age": null,
+        "apps": 7,
+        "goals": 0,
+        "rating": 4.6
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "David Volk",
+      "position": "GK",
+      "age": 25,
+      "apps": 15,
+      "goals": 0,
+      "rating": 5.6
+    },
+    {
+      "name": "Timur Magomedov",
+      "position": "GK",
+      "age": 24,
+      "apps": 13,
+      "goals": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "A. Sandrachuk",
+      "position": null,
+      "age": 24,
+      "apps": 2,
+      "goals": 0,
+      "rating": 4.2
+    },
+    {
+      "name": "Andrés Alarcon",
+      "position": null,
+      "age": 24,
+      "apps": 12,
+      "goals": 0,
+      "rating": 3.1
+    },
+    {
+      "name": "Ilyas Akhmedov",
+      "position": null,
+      "age": 19,
+      "apps": 5,
+      "goals": 0,
+      "rating": 1.4
+    },
+    {
+      "name": "Soslan Kagermazov",
+      "position": "DF",
+      "age": 29,
+      "apps": 17,
+      "goals": 0,
+      "rating": 5.9
+    },
+    {
+      "name": "Temirkan Sundukov",
+      "position": "DF",
+      "age": 24,
+      "apps": 27,
+      "goals": 0,
+      "rating": 5.7
+    },
+    {
+      "name": "Mutalip Alibekov",
+      "position": "DF",
+      "age": 28,
+      "apps": 15,
+      "goals": 0,
+      "rating": 5.5
+    },
+    {
+      "name": "Idar Shumakhov",
+      "position": "DF",
+      "age": 26,
+      "apps": 19,
+      "goals": 0,
+      "rating": 5.7
+    },
+    {
+      "name": "Jemal Tabidze",
+      "position": "DF",
+      "age": 30,
+      "apps": 24,
+      "goals": 1,
+      "rating": 5.8
+    },
+    {
+      "name": "Mohamed Azzi",
+      "position": "DF",
+      "age": 23,
+      "apps": 23,
+      "goals": 0,
+      "rating": 5.5
+    },
+    {
+      "name": "Jan Dapo",
+      "position": "DF",
+      "age": 23,
+      "apps": 7,
+      "goals": 0,
+      "rating": 4.6
+    },
+    {
+      "name": "A. Dzhabrailov",
+      "position": "MF",
+      "age": 21,
+      "apps": 15,
+      "goals": 0,
+      "rating": 3.5
+    },
+    {
+      "name": "Nikita Glushkov",
+      "position": "MF",
+      "age": 27,
+      "apps": 28,
+      "goals": 0,
+      "rating": 6
+    },
+    {
+      "name": "Razhab Magomedov",
+      "position": "MF",
+      "age": 25,
+      "apps": 13,
+      "goals": 0,
+      "rating": 5.5
+    },
+    {
+      "name": "Kirill Zinovich",
+      "position": "MF",
+      "age": 23,
+      "apps": 11,
+      "goals": 0,
+      "rating": 4.3
+    },
+    {
+      "name": "M. Hosseinnejad",
+      "position": "MF",
+      "age": 22,
+      "apps": 28,
+      "goals": 4,
+      "rating": 6.8
+    },
+    {
+      "name": "Houssem Aouar",
+      "position": "MF",
+      "age": 26,
+      "apps": 26,
+      "goals": 1,
+      "rating": 8.2
+    },
+    {
+      "name": "Hazem Mastouri",
+      "position": null,
+      "age": 28,
+      "apps": 20,
+      "goals": 2,
+      "rating": 3.9
+    },
+    {
+      "name": "Abdulla Ashurov",
+      "position": null,
+      "age": 18,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Miro",
+      "position": null,
+      "age": 23,
+      "apps": 18,
+      "goals": 1,
+      "rating": 4.7
+    },
+    {
+      "name": "Gadzhi Budunov",
+      "position": null,
+      "age": 19,
+      "apps": 3,
+      "goals": 0,
+      "rating": 1.4
+    },
+    {
+      "name": "Gamid Agalarov",
+      "position": "ST",
+      "age": 25,
+      "apps": 27,
+      "goals": 7,
+      "rating": 7.4
+    },
+    {
+      "name": "Serder Serderov",
+      "position": "ST",
+      "age": 32,
+      "apps": 13,
+      "goals": 0,
+      "rating": 4.2
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Excelsior Rotterdam",
+      "rating": 1905.76
+    },
+    {
+      "name": "1. FC Brno",
+      "rating": 1904.77
+    }
+  ]
+}

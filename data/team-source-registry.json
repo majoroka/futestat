@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-08-08T17:57:57.491Z",
+  "generatedAtUtc": "2026-08-08T18:21:56.754Z",
   "referenceDate": "2026-08-08",
   "snapshotPath": "data/fixtures/latest.json",
   "entries": [
@@ -5159,7 +5159,7 @@
           "teamSlug": "epicentr",
           "countrySlug": "ukraine",
           "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },

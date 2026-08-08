@@ -1,0 +1,410 @@
+{
+  "team": {
+    "id": "582",
+    "name": "FK Orenburg",
+    "slug": "fk-orenburg",
+    "country": "Russia",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Fk-Orenburg/582/",
+    "collectedAtUtc": "2026-08-08T18:28:29.678Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1884.22,
+    "home": 1865.5,
+    "away": 1902.93
+  },
+  "rankings": {
+    "national": 13,
+    "europe": 472
+  },
+  "form": {
+    "last3": [
+      "W",
+      "L",
+      "L"
+    ]
+  },
+  "prediction": {
+    "tip": "home_win",
+    "tipLabel": "Bet on (1) Akhmat Grozny (Stake 6/10)",
+    "confidencePct": 60,
+    "strengthComparison": "underdog"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.8,
+      "draw": 3.8,
+      "away": 4.1
+    },
+    "fair1X2": {
+      "home": 1.86,
+      "draw": 4.01,
+      "away": 4.68
+    },
+    "movementSummary": "home_odds_up_away_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": 6.2,
+    "players": [
+      {
+        "name": "Giorgiy Shelia",
+        "position": "GK",
+        "age": null,
+        "apps": 15,
+        "goals": 0,
+        "rating": 5.3
+      },
+      {
+        "name": "Daniil Khlusevich",
+        "position": "DF",
+        "age": null,
+        "apps": 7,
+        "goals": 0,
+        "rating": 6
+      },
+      {
+        "name": "Miroslav Bogosavac",
+        "position": "DF",
+        "age": null,
+        "apps": 28,
+        "goals": 0,
+        "rating": 6.3
+      },
+      {
+        "name": "Ousmane N'Dong",
+        "position": "DF",
+        "age": null,
+        "apps": 21,
+        "goals": 2,
+        "rating": 5.8
+      },
+      {
+        "name": "Maksim Sidorov",
+        "position": "DF",
+        "age": null,
+        "apps": 22,
+        "goals": 1,
+        "rating": 5.6
+      },
+      {
+        "name": "Ismael Silva",
+        "position": "MF",
+        "age": null,
+        "apps": 24,
+        "goals": 1,
+        "rating": 6.3
+      },
+      {
+        "name": "Rifat Zhemaletdinov",
+        "position": "MF",
+        "age": null,
+        "apps": 13,
+        "goals": 0,
+        "rating": 6.3
+      },
+      {
+        "name": "Egas Cacintura",
+        "position": "MF",
+        "age": null,
+        "apps": 26,
+        "goals": 8,
+        "rating": 6.9
+      },
+      {
+        "name": "Lechi Sadulaev",
+        "position": "ST",
+        "age": null,
+        "apps": 26,
+        "goals": 1,
+        "rating": 6.6
+      },
+      {
+        "name": "Mohamed Konaté",
+        "position": "ST",
+        "age": null,
+        "apps": 19,
+        "goals": 1,
+        "rating": 6.6
+      },
+      {
+        "name": "Maksim Samorodov",
+        "position": "ST",
+        "age": null,
+        "apps": 27,
+        "goals": 5,
+        "rating": 6.7
+      },
+      {
+        "name": "Vadim Ulyanov",
+        "position": "GK",
+        "age": null,
+        "apps": 13,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Turpal-Ali Ibishev",
+        "position": "DF",
+        "age": null,
+        "apps": 20,
+        "goals": 0,
+        "rating": 5.6
+      },
+      {
+        "name": "Manuel Keliano",
+        "position": "MF",
+        "age": null,
+        "apps": 22,
+        "goals": 1,
+        "rating": 5.2
+      },
+      {
+        "name": "Brian Mansilla",
+        "position": "ST",
+        "age": null,
+        "apps": 22,
+        "goals": 3,
+        "rating": 6.6
+      },
+      {
+        "name": "Georgiy Melkadze",
+        "position": "ST",
+        "age": null,
+        "apps": 27,
+        "goals": 7,
+        "rating": 6.2
+      },
+      {
+        "name": "Nader Ghandri",
+        "position": "DF",
+        "age": null,
+        "apps": 17,
+        "goals": 0,
+        "rating": 5.3
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Yakhya Magomedov",
+      "position": null,
+      "age": 19,
+      "apps": 1,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Giorgiy Shelia",
+      "position": "GK",
+      "age": 37,
+      "apps": 15,
+      "goals": 0,
+      "rating": 5.3
+    },
+    {
+      "name": "Vadim Ulyanov",
+      "position": "GK",
+      "age": 24,
+      "apps": 13,
+      "goals": 0,
+      "rating": 4.3
+    },
+    {
+      "name": "Mohammadmehdi Zare",
+      "position": null,
+      "age": 23,
+      "apps": 9,
+      "goals": 0,
+      "rating": 4.5
+    },
+    {
+      "name": "Klisman Cake",
+      "position": null,
+      "age": 27,
+      "apps": 10,
+      "goals": 0,
+      "rating": 4.6
+    },
+    {
+      "name": "D. Abdulkadyrov",
+      "position": null,
+      "age": 21,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.5
+    },
+    {
+      "name": "Daniil Khlusevich",
+      "position": "DF",
+      "age": 25,
+      "apps": 7,
+      "goals": 0,
+      "rating": 6
+    },
+    {
+      "name": "Miroslav Bogosavac",
+      "position": "DF",
+      "age": 29,
+      "apps": 28,
+      "goals": 0,
+      "rating": 6.3
+    },
+    {
+      "name": "Ousmane N'Dong",
+      "position": "DF",
+      "age": 26,
+      "apps": 21,
+      "goals": 2,
+      "rating": 5.8
+    },
+    {
+      "name": "Maksim Sidorov",
+      "position": "DF",
+      "age": 28,
+      "apps": 22,
+      "goals": 1,
+      "rating": 5.6
+    },
+    {
+      "name": "Turpal-Ali Ibishev",
+      "position": "DF",
+      "age": 24,
+      "apps": 20,
+      "goals": 0,
+      "rating": 5.6
+    },
+    {
+      "name": "Nader Ghandri",
+      "position": "DF",
+      "age": 31,
+      "apps": 17,
+      "goals": 0,
+      "rating": 5.3
+    },
+    {
+      "name": "Ismael Silva",
+      "position": "MF",
+      "age": 31,
+      "apps": 24,
+      "goals": 1,
+      "rating": 6.3
+    },
+    {
+      "name": "Rifat Zhemaletdinov",
+      "position": "MF",
+      "age": 29,
+      "apps": 13,
+      "goals": 0,
+      "rating": 6.3
+    },
+    {
+      "name": "Manuel Keliano",
+      "position": "MF",
+      "age": 23,
+      "apps": 22,
+      "goals": 1,
+      "rating": 5.2
+    },
+    {
+      "name": "Abakar Gadzhiev",
+      "position": null,
+      "age": 22,
+      "apps": 6,
+      "goals": 0,
+      "rating": 4.6
+    },
+    {
+      "name": "Egas Cacintura",
+      "position": "MF",
+      "age": 28,
+      "apps": 26,
+      "goals": 8,
+      "rating": 6.9
+    },
+    {
+      "name": "Sergey Pryakhin",
+      "position": null,
+      "age": 23,
+      "apps": 9,
+      "goals": 0,
+      "rating": 4.4
+    },
+    {
+      "name": "Galymzhan Kenzhebek",
+      "position": null,
+      "age": 23,
+      "apps": 5,
+      "goals": 0,
+      "rating": 2.7
+    },
+    {
+      "name": "Lechi Sadulaev",
+      "position": "ST",
+      "age": 26,
+      "apps": 26,
+      "goals": 1,
+      "rating": 6.6
+    },
+    {
+      "name": "Maksim Samorodov",
+      "position": "ST",
+      "age": 23,
+      "apps": 27,
+      "goals": 5,
+      "rating": 6.7
+    },
+    {
+      "name": "Mohamed Konaté",
+      "position": "ST",
+      "age": 28,
+      "apps": 19,
+      "goals": 1,
+      "rating": 6.6
+    },
+    {
+      "name": "Brian Mansilla",
+      "position": "ST",
+      "age": 29,
+      "apps": 22,
+      "goals": 3,
+      "rating": 6.6
+    },
+    {
+      "name": "Georgiy Melkadze",
+      "position": "ST",
+      "age": 29,
+      "apps": 27,
+      "goals": 7,
+      "rating": 6.2
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Motor Lublin",
+      "rating": 1881.01
+    },
+    {
+      "name": "1. FC Lokomotive Leipzig",
+      "rating": 1884.49
+    }
+  ]
+}

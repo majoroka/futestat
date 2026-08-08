@@ -1,0 +1,354 @@
+{
+  "team": {
+    "id": "16993",
+    "name": "Brinje Grosuplje",
+    "slug": "brinje-grosuplje",
+    "country": "Slovenia",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Brinje-Grosuplje/16993/",
+    "collectedAtUtc": "2026-08-08T18:28:48.450Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1718.28,
+    "home": 1759.96,
+    "away": 1676.6
+  },
+  "rankings": {
+    "national": 8,
+    "europe": 1047
+  },
+  "form": {
+    "last3": [
+      "W",
+      "L",
+      "L"
+    ]
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": "underdog"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.8,
+      "draw": 3.5,
+      "away": 4
+    },
+    "fair1X2": {
+      "home": 1.81,
+      "draw": 4.03,
+      "away": 5.04
+    },
+    "movementSummary": "home_odds_up_away_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": 3.1,
+    "players": [
+      {
+        "name": "Benjamin Maticic",
+        "position": "GK",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2
+      },
+      {
+        "name": "Gasper Jovan",
+        "position": "DF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.1
+      },
+      {
+        "name": "Marwann Nzuzi",
+        "position": "DF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Jakob Brunnhofer",
+        "position": "DF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Maj Fogec",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Enrik Ostrc",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.2
+      },
+      {
+        "name": "Lan Stravs",
+        "position": "MF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 1.7
+      },
+      {
+        "name": "Sandi Nuhanovic",
+        "position": "MF",
+        "age": null,
+        "apps": 3,
+        "goals": 1,
+        "rating": 4
+      },
+      {
+        "name": "Jakoslav Stankovic",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 1,
+        "rating": 4.5
+      },
+      {
+        "name": "Aldin Jakupovic",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Okpo Mazié",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 2,
+        "rating": 2.6
+      },
+      {
+        "name": "Matjaz Rozman",
+        "position": "GK",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.1
+      },
+      {
+        "name": "Ibrahim Halilou",
+        "position": "DF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Marko Simonic",
+        "position": "MF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Divine Omoregie",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 2.2
+      },
+      {
+        "name": "Rok Kopatin",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 1.6
+      },
+      {
+        "name": "James Arinze",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.3
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Benjamin Maticic",
+      "position": "GK",
+      "age": 19,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2
+    },
+    {
+      "name": "Matjaz Rozman",
+      "position": "GK",
+      "age": 39,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.1
+    },
+    {
+      "name": "Gasper Jovan",
+      "position": "DF",
+      "age": 25,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.1
+    },
+    {
+      "name": "Marwann Nzuzi",
+      "position": "DF",
+      "age": 22,
+      "apps": 3,
+      "goals": 0,
+      "rating": 3.6
+    },
+    {
+      "name": "Jakob Brunnhofer",
+      "position": "DF",
+      "age": 20,
+      "apps": 3,
+      "goals": 0,
+      "rating": 3.1
+    },
+    {
+      "name": "Maj Fogec",
+      "position": "DF",
+      "age": 24,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.6
+    },
+    {
+      "name": "Ibrahim Halilou",
+      "position": "DF",
+      "age": 21,
+      "apps": 1,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Marko Simonic",
+      "position": "MF",
+      "age": 21,
+      "apps": 3,
+      "goals": 0,
+      "rating": 1.4
+    },
+    {
+      "name": "Enrik Ostrc",
+      "position": "MF",
+      "age": 24,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.2
+    },
+    {
+      "name": "Lan Stravs",
+      "position": "MF",
+      "age": 26,
+      "apps": 3,
+      "goals": 0,
+      "rating": 1.7
+    },
+    {
+      "name": "Sandi Nuhanovic",
+      "position": "MF",
+      "age": 27,
+      "apps": 3,
+      "goals": 1,
+      "rating": 4
+    },
+    {
+      "name": "James Arinze",
+      "position": "MF",
+      "age": 20,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Jakoslav Stankovic",
+      "position": "ST",
+      "age": 25,
+      "apps": 3,
+      "goals": 1,
+      "rating": 4.5
+    },
+    {
+      "name": "Okpo Mazié",
+      "position": "ST",
+      "age": 22,
+      "apps": 3,
+      "goals": 2,
+      "rating": 2.6
+    },
+    {
+      "name": "Divine Omoregie",
+      "position": "ST",
+      "age": 21,
+      "apps": 3,
+      "goals": 0,
+      "rating": 2.2
+    },
+    {
+      "name": "Rok Kopatin",
+      "position": "ST",
+      "age": 20,
+      "apps": 3,
+      "goals": 0,
+      "rating": 1.6
+    },
+    {
+      "name": "Aldin Jakupovic",
+      "position": "ST",
+      "age": 20,
+      "apps": 3,
+      "goals": 0,
+      "rating": 3.3
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Velez Mostar",
+      "rating": 1724.95
+    },
+    {
+      "name": "Bonner SC",
+      "rating": 1698.88
+    }
+  ]
+}

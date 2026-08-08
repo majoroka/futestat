@@ -1,0 +1,80 @@
+{
+  "team": {
+    "id": "1192",
+    "name": "Obolon Kiev",
+    "slug": "obolon-kiev",
+    "country": "Ukraine",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Obolon-Kiev/1192/",
+    "collectedAtUtc": "2026-08-08T18:28:55.907Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1714.33,
+    "home": 1730.76,
+    "away": 1697.89
+  },
+  "rankings": {
+    "national": 18,
+    "europe": 1045
+  },
+  "form": {
+    "last3": [
+      "D",
+      "W",
+      "W"
+    ]
+  },
+  "prediction": {
+    "tip": "home_win",
+    "tipLabel": "Bet on (1) Bukovina Chernovtsy (Stake 3/10)",
+    "confidencePct": 30,
+    "strengthComparison": "underdog"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 2.05,
+      "draw": 3.3,
+      "away": 3.5
+    },
+    "fair1X2": {
+      "home": 2.13,
+      "draw": 3.82,
+      "away": 3.71
+    },
+    "movementSummary": "home_odds_down_away_odds_up"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": 3.2,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Stal Mielec",
+      "rating": 1725.28
+    },
+    {
+      "name": "Velez Mostar",
+      "rating": 1724.95
+    }
+  ]
+}

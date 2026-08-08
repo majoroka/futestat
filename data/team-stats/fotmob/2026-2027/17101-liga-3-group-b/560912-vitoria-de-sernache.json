@@ -1,0 +1,65 @@
+{
+  "team": {
+    "id": "560912",
+    "name": "Vitoria de Sernache",
+    "slug": "vitoria-de-sernache",
+    "country": "Portugal",
+    "logoUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/560912.png"
+  },
+  "competition": {
+    "id": "17101",
+    "name": "Liga 3 Zona B"
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "fotmob",
+    "url": "https://www.fotmob.com/teams/560912/stats/vitoria-de-sernache/teams",
+    "collectedAtUtc": "2026-08-08T18:24:34.699Z"
+  },
+  "availability": {
+    "status": "not_started",
+    "coverage": "low",
+    "notes": "Epoca atual ainda sem estatisticas agregadas disponiveis no HTML capturado."
+  },
+  "overview": {
+    "teamRating": null,
+    "goalsPerMatch": null,
+    "goalsConcededPerMatch": null,
+    "averagePossessionPct": null,
+    "cleanSheets": null,
+    "attendanceAverage": null
+  },
+  "attack": {
+    "xg": null,
+    "xgDiff": null,
+    "shotsOnTargetPerMatch": null,
+    "bigChances": null,
+    "bigChancesMissed": null,
+    "accuratePassesPerMatch": null,
+    "accurateLongBallsPerMatch": null,
+    "accurateCrossesPerMatch": null,
+    "penaltiesAwarded": null,
+    "touchesInOppBoxPerMatch": null,
+    "cornersPerMatch": null,
+    "setPieceGoals": null
+  },
+  "defense": {
+    "xgConceded": null,
+    "interceptionsPerMatch": null,
+    "tacklesPerMatch": null,
+    "clearancesPerMatch": null,
+    "finalThirdRecoveriesPerMatch": null,
+    "setPieceGoalsConceded": null,
+    "penaltiesConceded": null,
+    "savesPerMatch": null
+  },
+  "discipline": {
+    "foulsPerMatch": null,
+    "yellowCardsPerMatch": null,
+    "redCardsPerMatch": null
+  }
+}

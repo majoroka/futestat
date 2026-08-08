@@ -1,0 +1,76 @@
+{
+  "team": {
+    "id": "299",
+    "name": "Shakhtar Donezk",
+    "slug": "shakhtar-donezk",
+    "country": "Ukraine",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Shakhtar-Donezk/299/",
+    "collectedAtUtc": "2026-08-08T18:28:57.381Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 2074.09,
+    "home": 2144.6,
+    "away": 2003.57
+  },
+  "rankings": {
+    "national": 1,
+    "europe": 114
+  },
+  "form": {
+    "last3": [
+      "W",
+      "L",
+      "W"
+    ]
+  },
+  "prediction": {
+    "tip": "away_win",
+    "tipLabel": "Bet on (2) Shakhtar Donezk (Stake 4/10)",
+    "confidencePct": 40,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 7.5,
+      "draw": 5,
+      "away": 1.36
+    },
+    "fair1X2": null,
+    "movementSummary": "home_odds_flat_away_odds_flat"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "FK Krasnodar",
+      "rating": 2130.84
+    },
+    {
+      "name": "Wolverhampton Wanderers",
+      "rating": 2132.62
+    }
+  ]
+}

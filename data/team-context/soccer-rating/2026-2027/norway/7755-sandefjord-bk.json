@@ -1,0 +1,59 @@
+{
+  "team": {
+    "id": "7755",
+    "name": "Sandefjord BK",
+    "slug": "sandefjord-bk",
+    "country": "Norway",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Sandefjord-Bk/7755/",
+    "collectedAtUtc": "2026-08-08T18:27:17.246Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "low",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
+  },
+  "ratings": {
+    "overall": null,
+    "home": null,
+    "away": null
+  },
+  "rankings": {
+    "national": 443,
+    "europe": 10178
+  },
+  "form": {
+    "last3": []
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": null
+  },
+  "oddsMarket": {
+    "opening1X2": null,
+    "fair1X2": null,
+    "movementSummary": null
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": []
+}

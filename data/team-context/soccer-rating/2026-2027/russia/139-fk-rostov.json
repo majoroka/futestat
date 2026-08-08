@@ -1,0 +1,410 @@
+{
+  "team": {
+    "id": "139",
+    "name": "FK Rostov",
+    "slug": "fk-rostov",
+    "country": "Russia",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Fk-Rostov/139/",
+    "collectedAtUtc": "2026-08-08T18:28:32.636Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1934.09,
+    "home": 1987.06,
+    "away": 1881.11
+  },
+  "rankings": {
+    "national": 9,
+    "europe": 369
+  },
+  "form": {
+    "last3": [
+      "L",
+      "W",
+      "L"
+    ]
+  },
+  "prediction": {
+    "tip": "home_win",
+    "tipLabel": "Bet on (1) FK Rostov (Stake 4/10)",
+    "confidencePct": 40,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 2.2,
+      "draw": 3.2,
+      "away": 3.45
+    },
+    "fair1X2": {
+      "home": 1.92,
+      "draw": 3.41,
+      "away": 5.38
+    },
+    "movementSummary": "home_odds_flat_away_odds_up"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": 6.3,
+    "players": [
+      {
+        "name": "Rustam Yatimov",
+        "position": "GK",
+        "age": null,
+        "apps": 15,
+        "goals": 0,
+        "rating": 5.6
+      },
+      {
+        "name": "Ilya Vakhania",
+        "position": "DF",
+        "age": null,
+        "apps": 23,
+        "goals": 1,
+        "rating": 6.7
+      },
+      {
+        "name": "Viktor Melekhin",
+        "position": "DF",
+        "age": null,
+        "apps": 22,
+        "goals": 1,
+        "rating": 6.6
+      },
+      {
+        "name": "Oumar Sako",
+        "position": "DF",
+        "age": null,
+        "apps": 17,
+        "goals": 0,
+        "rating": 6
+      },
+      {
+        "name": "Danila Prokhin",
+        "position": "DF",
+        "age": null,
+        "apps": 11,
+        "goals": 0,
+        "rating": 5.6
+      },
+      {
+        "name": "Aleksey Mironov",
+        "position": "MF",
+        "age": null,
+        "apps": 22,
+        "goals": 2,
+        "rating": 6
+      },
+      {
+        "name": "Ivan Komarov",
+        "position": "MF",
+        "age": null,
+        "apps": 20,
+        "goals": 1,
+        "rating": 6.1
+      },
+      {
+        "name": "Kirill Shchetinin",
+        "position": "MF",
+        "age": null,
+        "apps": 23,
+        "goals": 1,
+        "rating": 6.7
+      },
+      {
+        "name": "Ronaldo",
+        "position": "ST",
+        "age": null,
+        "apps": 20,
+        "goals": 4,
+        "rating": 6.6
+      },
+      {
+        "name": "Mohammad Mohebi",
+        "position": "ST",
+        "age": null,
+        "apps": 23,
+        "goals": 2,
+        "rating": 6.8
+      },
+      {
+        "name": "Egor Golenkov",
+        "position": "ST",
+        "age": null,
+        "apps": 23,
+        "goals": 2,
+        "rating": 6.8
+      },
+      {
+        "name": "Hidajet Hankic",
+        "position": "GK",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Dmitriy Chistyakov",
+        "position": "DF",
+        "age": null,
+        "apps": 16,
+        "goals": 0,
+        "rating": 5.7
+      },
+      {
+        "name": "Konstantin Kuchaev",
+        "position": "MF",
+        "age": null,
+        "apps": 19,
+        "goals": 1,
+        "rating": 6
+      },
+      {
+        "name": "Timur Suleymanov",
+        "position": "ST",
+        "age": null,
+        "apps": 22,
+        "goals": 4,
+        "rating": 6.4
+      },
+      {
+        "name": "David Semenchuk",
+        "position": "DF",
+        "age": null,
+        "apps": 17,
+        "goals": 0,
+        "rating": 5
+      },
+      {
+        "name": "Anton Shamonin",
+        "position": "ST",
+        "age": null,
+        "apps": 13,
+        "goals": 0,
+        "rating": 3.9
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Rustam Yatimov",
+      "position": "GK",
+      "age": 27,
+      "apps": 15,
+      "goals": 0,
+      "rating": 5.6
+    },
+    {
+      "name": "Hidajet Hankic",
+      "position": "GK",
+      "age": 31,
+      "apps": 0,
+      "goals": 0,
+      "rating": 3.3
+    },
+    {
+      "name": "German Ignatov",
+      "position": null,
+      "age": 20,
+      "apps": 7,
+      "goals": 0,
+      "rating": 4.1
+    },
+    {
+      "name": "Aleksandr Tarasov",
+      "position": null,
+      "age": 20,
+      "apps": 4,
+      "goals": 0,
+      "rating": 2.9
+    },
+    {
+      "name": "Ilya Vakhania",
+      "position": "DF",
+      "age": 25,
+      "apps": 23,
+      "goals": 1,
+      "rating": 6.7
+    },
+    {
+      "name": "Viktor Melekhin",
+      "position": "DF",
+      "age": 22,
+      "apps": 22,
+      "goals": 1,
+      "rating": 6.6
+    },
+    {
+      "name": "Oumar Sako",
+      "position": "DF",
+      "age": 29,
+      "apps": 17,
+      "goals": 0,
+      "rating": 6
+    },
+    {
+      "name": "Danila Prokhin",
+      "position": "DF",
+      "age": 24,
+      "apps": 11,
+      "goals": 0,
+      "rating": 5.6
+    },
+    {
+      "name": "Dmitriy Chistyakov",
+      "position": "DF",
+      "age": 32,
+      "apps": 16,
+      "goals": 0,
+      "rating": 5.7
+    },
+    {
+      "name": "David Semenchuk",
+      "position": "DF",
+      "age": 21,
+      "apps": 17,
+      "goals": 0,
+      "rating": 5
+    },
+    {
+      "name": "Andrey Langovich",
+      "position": null,
+      "age": 22,
+      "apps": 7,
+      "goals": 0,
+      "rating": 5.7
+    },
+    {
+      "name": "Aleksey Mironov",
+      "position": "MF",
+      "age": 26,
+      "apps": 22,
+      "goals": 2,
+      "rating": 6
+    },
+    {
+      "name": "Ivan Komarov",
+      "position": "MF",
+      "age": 23,
+      "apps": 20,
+      "goals": 1,
+      "rating": 6.1
+    },
+    {
+      "name": "Konstantin Kuchaev",
+      "position": "MF",
+      "age": 28,
+      "apps": 19,
+      "goals": 1,
+      "rating": 6
+    },
+    {
+      "name": "Daniil Shantaliy",
+      "position": null,
+      "age": 21,
+      "apps": 10,
+      "goals": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "Ilya Zhbanov",
+      "position": null,
+      "age": 21,
+      "apps": 5,
+      "goals": 0,
+      "rating": 2.9
+    },
+    {
+      "name": "Kirill Shchetinin",
+      "position": "MF",
+      "age": 24,
+      "apps": 23,
+      "goals": 1,
+      "rating": 6.7
+    },
+    {
+      "name": "Khoren Bayramyan",
+      "position": null,
+      "age": 34,
+      "apps": 5,
+      "goals": 0,
+      "rating": 5.3
+    },
+    {
+      "name": "I. Mahfus Ajasa",
+      "position": null,
+      "age": 20,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2
+    },
+    {
+      "name": "Ronaldo",
+      "position": "ST",
+      "age": 25,
+      "apps": 20,
+      "goals": 4,
+      "rating": 6.6
+    },
+    {
+      "name": "Mohammad Mohebi",
+      "position": "ST",
+      "age": 27,
+      "apps": 23,
+      "goals": 2,
+      "rating": 6.8
+    },
+    {
+      "name": "Timur Suleymanov",
+      "position": "ST",
+      "age": 26,
+      "apps": 22,
+      "goals": 4,
+      "rating": 6.4
+    },
+    {
+      "name": "Egor Golenkov",
+      "position": "ST",
+      "age": 26,
+      "apps": 23,
+      "goals": 2,
+      "rating": 6.8
+    },
+    {
+      "name": "Anton Shamonin",
+      "position": "ST",
+      "age": 21,
+      "apps": 13,
+      "goals": 0,
+      "rating": 3.9
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Empoli FC",
+      "rating": 1934.33
+    },
+    {
+      "name": "Rubin Kazan",
+      "rating": 1933.76
+    }
+  ]
+}

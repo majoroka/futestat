@@ -1,0 +1,80 @@
+{
+  "team": {
+    "id": "4196",
+    "name": "SC Vianense",
+    "slug": "sc-vianense",
+    "country": "Portugal",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Sc-Vianense/4196/",
+    "collectedAtUtc": "2026-08-08T18:27:32.023Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "medium",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
+  },
+  "ratings": {
+    "overall": 1526.4,
+    "home": 1527.16,
+    "away": 1525.64
+  },
+  "rankings": {
+    "national": 118,
+    "europe": 3193
+  },
+  "form": {
+    "last3": [
+      "D",
+      "L",
+      "L"
+    ]
+  },
+  "prediction": {
+    "tip": "home_win",
+    "tipLabel": "Bet on (1) UF Comercio e Industria Setubal (Stake 3/10)",
+    "confidencePct": 30,
+    "strengthComparison": "underdog"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 2.35,
+      "draw": 3.1,
+      "away": 2.75
+    },
+    "fair1X2": {
+      "home": 2.3,
+      "draw": 3.61,
+      "away": 3.46
+    },
+    "movementSummary": "home_odds_up_away_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Cornard United",
+      "rating": 1526.44
+    },
+    {
+      "name": "Victoria Sulejowek",
+      "rating": 1526.36
+    }
+  ]
+}

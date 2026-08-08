@@ -1,0 +1,386 @@
+{
+  "team": {
+    "id": "112",
+    "name": "Ham-Kam",
+    "slug": "ham-kam",
+    "country": "Norway",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Ham-Kam/112/",
+    "collectedAtUtc": "2026-08-08T18:27:09.933Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1872.09,
+    "home": 1920.08,
+    "away": 1824.11
+  },
+  "rankings": {
+    "national": 18,
+    "europe": 500
+  },
+  "form": {
+    "last3": [
+      "W",
+      "L",
+      "L"
+    ]
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 2.1,
+      "draw": 3.7,
+      "away": 3.1
+    },
+    "fair1X2": {
+      "home": 2.36,
+      "draw": 4.15,
+      "away": 2.98
+    },
+    "movementSummary": "home_odds_flat_away_odds_flat"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": 5.1,
+    "players": [
+      {
+        "name": "Marcus Sandberg",
+        "position": "GK",
+        "age": null,
+        "apps": 15,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Anton Ekeroth",
+        "position": "DF",
+        "age": null,
+        "apps": 12,
+        "goals": 0,
+        "rating": 5.8
+      },
+      {
+        "name": "Ethan Amundsen-Day",
+        "position": "DF",
+        "age": null,
+        "apps": 14,
+        "goals": 1,
+        "rating": 5.7
+      },
+      {
+        "name": "Martin Gjone",
+        "position": "DF",
+        "age": null,
+        "apps": 14,
+        "goals": 2,
+        "rating": 5.3
+      },
+      {
+        "name": "Anders Trondsen",
+        "position": "MF",
+        "age": null,
+        "apps": 11,
+        "goals": 1,
+        "rating": 4.9
+      },
+      {
+        "name": "Gard Simenstad",
+        "position": "MF",
+        "age": null,
+        "apps": 4,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Loris Mettler",
+        "position": "MF",
+        "age": null,
+        "apps": 8,
+        "goals": 1,
+        "rating": 4.7
+      },
+      {
+        "name": "Patrick Metcalfe",
+        "position": "MF",
+        "age": null,
+        "apps": 12,
+        "goals": 1,
+        "rating": 5.2
+      },
+      {
+        "name": "Aksel Baran Potur",
+        "position": "MF",
+        "age": null,
+        "apps": 15,
+        "goals": 4,
+        "rating": 5.7
+      },
+      {
+        "name": "Henrik Udahl",
+        "position": "ST",
+        "age": null,
+        "apps": 15,
+        "goals": 5,
+        "rating": 4.7
+      },
+      {
+        "name": "Julian Gonstad",
+        "position": "ST",
+        "age": null,
+        "apps": 7,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Fredrik Sjølstad",
+        "position": "DF",
+        "age": null,
+        "apps": 15,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Luc Mares",
+        "position": "MF",
+        "age": null,
+        "apps": 6,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Danilo Al Saed",
+        "position": "ST",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "W. Osnes-Ringen",
+        "position": "MF",
+        "age": null,
+        "apps": 11,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "S. Strand Nilsen",
+        "position": "DF",
+        "age": null,
+        "apps": 11,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Vidar Ari Jonsson",
+        "position": "MF",
+        "age": null,
+        "apps": 10,
+        "goals": 0,
+        "rating": 4.2
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Marcus Sandberg",
+      "position": "GK",
+      "age": 35,
+      "apps": 15,
+      "goals": 0,
+      "rating": 4.7
+    },
+    {
+      "name": "H. R. Opsahl",
+      "position": null,
+      "age": 23,
+      "apps": 8,
+      "goals": 0,
+      "rating": 4.3
+    },
+    {
+      "name": "Anton Ekeroth",
+      "position": "DF",
+      "age": 24,
+      "apps": 12,
+      "goals": 0,
+      "rating": 5.8
+    },
+    {
+      "name": "Ethan Amundsen-Day",
+      "position": "DF",
+      "age": 21,
+      "apps": 14,
+      "goals": 1,
+      "rating": 5.7
+    },
+    {
+      "name": "Martin Gjone",
+      "position": "DF",
+      "age": 21,
+      "apps": 14,
+      "goals": 2,
+      "rating": 5.3
+    },
+    {
+      "name": "Fredrik Sjølstad",
+      "position": "DF",
+      "age": 32,
+      "apps": 15,
+      "goals": 0,
+      "rating": 4.8
+    },
+    {
+      "name": "S. Strand Nilsen",
+      "position": "DF",
+      "age": 29,
+      "apps": 11,
+      "goals": 0,
+      "rating": 4.4
+    },
+    {
+      "name": "Markus Johnsgård",
+      "position": null,
+      "age": 27,
+      "apps": 13,
+      "goals": 2,
+      "rating": 3.7
+    },
+    {
+      "name": "Anders Trondsen",
+      "position": "MF",
+      "age": 31,
+      "apps": 11,
+      "goals": 1,
+      "rating": 4.9
+    },
+    {
+      "name": "Gard Simenstad",
+      "position": "MF",
+      "age": 27,
+      "apps": 4,
+      "goals": 0,
+      "rating": 4.7
+    },
+    {
+      "name": "Luc Mares",
+      "position": "MF",
+      "age": 29,
+      "apps": 6,
+      "goals": 0,
+      "rating": 4.4
+    },
+    {
+      "name": "Blerton Isufi",
+      "position": null,
+      "age": 20,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.6
+    },
+    {
+      "name": "Loris Mettler",
+      "position": "MF",
+      "age": 27,
+      "apps": 8,
+      "goals": 1,
+      "rating": 4.7
+    },
+    {
+      "name": "Vidar Ari Jonsson",
+      "position": "MF",
+      "age": 32,
+      "apps": 10,
+      "goals": 0,
+      "rating": 4.2
+    },
+    {
+      "name": "Patrick Metcalfe",
+      "position": "MF",
+      "age": 27,
+      "apps": 12,
+      "goals": 1,
+      "rating": 5.2
+    },
+    {
+      "name": "Aksel Baran Potur",
+      "position": "MF",
+      "age": 23,
+      "apps": 15,
+      "goals": 4,
+      "rating": 5.7
+    },
+    {
+      "name": "W. Osnes-Ringen",
+      "position": "MF",
+      "age": 19,
+      "apps": 11,
+      "goals": 0,
+      "rating": 4.3
+    },
+    {
+      "name": "Danilo Al Saed",
+      "position": "ST",
+      "age": 27,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3.9
+    },
+    {
+      "name": "David Benjamin",
+      "position": null,
+      "age": 18,
+      "apps": 5,
+      "goals": 0,
+      "rating": 1.6
+    },
+    {
+      "name": "Henrik Udahl",
+      "position": "ST",
+      "age": 29,
+      "apps": 15,
+      "goals": 5,
+      "rating": 4.7
+    },
+    {
+      "name": "Julian Gonstad",
+      "position": "ST",
+      "age": 20,
+      "apps": 7,
+      "goals": 0,
+      "rating": 4.8
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "FK Moskva",
+      "rating": 1872.48
+    },
+    {
+      "name": "Peterborough United",
+      "rating": 1871.63
+    }
+  ]
+}

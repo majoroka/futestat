@@ -1,0 +1,392 @@
+{
+  "team": {
+    "id": "1131",
+    "name": "NK Celje",
+    "slug": "nk-celje",
+    "country": "Slovenia",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Nk-Celje/1131/",
+    "collectedAtUtc": "2026-08-08T18:28:50.018Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1957.71,
+    "home": 1963.79,
+    "away": 1951.63
+  },
+  "rankings": {
+    "national": 1,
+    "europe": 315
+  },
+  "form": {
+    "last3": [
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "prediction": {
+    "tip": "home_win",
+    "tipLabel": "Bet on (1) NK Celje (Stake 2/10)",
+    "confidencePct": 20,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.93,
+      "draw": 3.6,
+      "away": 3.3
+    },
+    "fair1X2": {
+      "home": 1.98,
+      "draw": 3.92,
+      "away": 4.18
+    },
+    "movementSummary": "home_odds_up_away_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [
+      {
+        "player": "A. Tutyskinas",
+        "status": "injury_or_suspension",
+        "description": null
+      }
+    ],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": [
+      {
+        "name": "Zan-Luk Leban",
+        "position": "GK",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Leonardo Koutris",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 5.5
+      },
+      {
+        "name": "Alpha Diounkou",
+        "position": "DF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Damjan Vuklisevic",
+        "position": "DF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Tilen Letonja",
+        "position": "MF",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Darko Hrka",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 1,
+        "rating": 3
+      },
+      {
+        "name": "Ivan Calusic",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Papa Daniel",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Andrej Kotnik",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Matic Ivansek",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Yaya Dukuly",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Svit Seslar",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 2,
+        "rating": 5.8
+      },
+      {
+        "name": "Mario Kvesic",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Milot Avdyli",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Rudi Pozeg Vancas",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Armandas Kucys",
+        "position": "ST",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Veton Tusha",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.2
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Zan-Luk Leban",
+      "position": "GK",
+      "age": 23,
+      "apps": 2,
+      "goals": 0,
+      "rating": 4.5
+    },
+    {
+      "name": "Pijus Sirvys",
+      "position": null,
+      "age": 28,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4.1
+    },
+    {
+      "name": "Leonardo Koutris",
+      "position": "DF",
+      "age": 31,
+      "apps": 2,
+      "goals": 0,
+      "rating": 5.5
+    },
+    {
+      "name": "Alpha Diounkou",
+      "position": "DF",
+      "age": 24,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4.5
+    },
+    {
+      "name": "Damjan Vuklisevic",
+      "position": "DF",
+      "age": 31,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3.4
+    },
+    {
+      "name": "A. Tutyskinas",
+      "position": null,
+      "age": 23,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4.1
+    },
+    {
+      "name": "Mark Zabukovnik",
+      "position": null,
+      "age": 25,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.7
+    },
+    {
+      "name": "Tilen Letonja",
+      "position": "MF",
+      "age": 18,
+      "apps": 0,
+      "goals": 0,
+      "rating": 3
+    },
+    {
+      "name": "Ivan Calusic",
+      "position": "MF",
+      "age": 26,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3
+    },
+    {
+      "name": "Rudi Pozeg Vancas",
+      "position": "MF",
+      "age": 32,
+      "apps": 2,
+      "goals": 0,
+      "rating": 4.3
+    },
+    {
+      "name": "Darko Hrka",
+      "position": "MF",
+      "age": 26,
+      "apps": 1,
+      "goals": 1,
+      "rating": 3
+    },
+    {
+      "name": "Papa Daniel",
+      "position": "MF",
+      "age": 24,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3
+    },
+    {
+      "name": "Andrej Kotnik",
+      "position": "MF",
+      "age": 31,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.9
+    },
+    {
+      "name": "Svit Seslar",
+      "position": "MF",
+      "age": 24,
+      "apps": 2,
+      "goals": 2,
+      "rating": 5.8
+    },
+    {
+      "name": "Mario Kvesic",
+      "position": "MF",
+      "age": 34,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.6
+    },
+    {
+      "name": "Milot Avdyli",
+      "position": "ST",
+      "age": 24,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.9
+    },
+    {
+      "name": "Veton Tusha",
+      "position": "ST",
+      "age": 23,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.2
+    },
+    {
+      "name": "Matej Poplatnik",
+      "position": null,
+      "age": 34,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.1
+    },
+    {
+      "name": "Matic Ivansek",
+      "position": "ST",
+      "age": 22,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.8
+    },
+    {
+      "name": "Yaya Dukuly",
+      "position": "ST",
+      "age": 23,
+      "apps": 2,
+      "goals": 0,
+      "rating": 4.2
+    },
+    {
+      "name": "Armandas Kucys",
+      "position": "ST",
+      "age": 23,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4.4
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Preußen Münster",
+      "rating": 1961.52
+    },
+    {
+      "name": "Austria Wien",
+      "rating": 1965.47
+    }
+  ]
+}

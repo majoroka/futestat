@@ -1,0 +1,65 @@
+{
+  "team": {
+    "id": "1626",
+    "name": "Remo",
+    "slug": "remo",
+    "country": "Brazil",
+    "logoUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/1626.png"
+  },
+  "competition": {
+    "id": "325",
+    "name": "Serie A"
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": false
+  },
+  "source": {
+    "provider": "fotmob",
+    "url": "https://www.fotmob.com/teams/1626/stats/remo/teams",
+    "collectedAtUtc": "2026-08-08T18:23:11.145Z"
+  },
+  "availability": {
+    "status": "archived",
+    "coverage": "low",
+    "notes": "Epoca anterior capturada para referencia estrutural."
+  },
+  "overview": {
+    "teamRating": 6.5,
+    "goalsPerMatch": null,
+    "goalsConcededPerMatch": null,
+    "averagePossessionPct": null,
+    "cleanSheets": null,
+    "attendanceAverage": null
+  },
+  "attack": {
+    "xg": 31.592900000000004,
+    "xgDiff": 5.407099999999996,
+    "shotsOnTargetPerMatch": null,
+    "bigChances": null,
+    "bigChancesMissed": null,
+    "accuratePassesPerMatch": null,
+    "accurateLongBallsPerMatch": null,
+    "accurateCrossesPerMatch": null,
+    "penaltiesAwarded": null,
+    "touchesInOppBoxPerMatch": null,
+    "cornersPerMatch": null,
+    "setPieceGoals": null
+  },
+  "defense": {
+    "xgConceded": 20.174400000000002,
+    "interceptionsPerMatch": null,
+    "tacklesPerMatch": null,
+    "clearancesPerMatch": null,
+    "finalThirdRecoveriesPerMatch": null,
+    "setPieceGoalsConceded": null,
+    "penaltiesConceded": null,
+    "savesPerMatch": null
+  },
+  "discipline": {
+    "foulsPerMatch": null,
+    "yellowCardsPerMatch": null,
+    "redCardsPerMatch": null
+  }
+}

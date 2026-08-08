@@ -1,0 +1,80 @@
+{
+  "team": {
+    "id": "520",
+    "name": "ND Gorica",
+    "slug": "nd-gorica",
+    "country": "Slovenia",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Nd-Gorica/520/",
+    "collectedAtUtc": "2026-08-08T18:26:58.210Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "medium",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
+  },
+  "ratings": {
+    "overall": 1504.89,
+    "home": 1547.81,
+    "away": 1461.97
+  },
+  "rankings": {
+    "national": 27,
+    "europe": 3714
+  },
+  "form": {
+    "last3": [
+      "L",
+      "L",
+      "L"
+    ]
+  },
+  "prediction": {
+    "tip": "away_win",
+    "tipLabel": "Bet on (2) ND Gorica (Stake 3/10)",
+    "confidencePct": 30,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 2.55,
+      "draw": 3.2,
+      "away": 2.37
+    },
+    "fair1X2": {
+      "home": 3.29,
+      "draw": 3.92,
+      "away": 2.26
+    },
+    "movementSummary": "home_odds_up_away_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Maccabi Yavne",
+      "rating": 1504.91
+    },
+    {
+      "name": "Denizli Belediye",
+      "rating": 1504.89
+    }
+  ]
+}

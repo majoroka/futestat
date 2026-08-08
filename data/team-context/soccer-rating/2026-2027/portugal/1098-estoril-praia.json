@@ -1,0 +1,413 @@
+{
+  "team": {
+    "id": "1098",
+    "name": "Estoril Praia",
+    "slug": "estoril-praia",
+    "country": "Portugal",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Estoril-Praia/1098/",
+    "collectedAtUtc": "2026-08-08T18:28:04.664Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1986.87,
+    "home": 1993.68,
+    "away": 1980.06
+  },
+  "rankings": {
+    "national": 8,
+    "europe": 266
+  },
+  "form": {
+    "last3": [
+      "L",
+      "D",
+      "D"
+    ]
+  },
+  "prediction": {
+    "tip": "away_win",
+    "tipLabel": "Bet on (2) FC Famalicao (Stake 3/10)",
+    "confidencePct": 30,
+    "strengthComparison": "underdog"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 3.2,
+      "draw": 3.25,
+      "away": 2.2
+    },
+    "fair1X2": {
+      "home": 3.81,
+      "draw": 3.61,
+      "away": 2.17
+    },
+    "movementSummary": "home_odds_down_away_odds_up"
+  },
+  "squadHealth": {
+    "injuries": [
+      {
+        "player": "Felix Bacher",
+        "status": "injury_or_suspension",
+        "description": null
+      },
+      {
+        "player": "Jordan Holsgrove",
+        "status": "injury_or_suspension",
+        "description": null
+      }
+    ],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": [
+      {
+        "name": "Joel Robles",
+        "position": "GK",
+        "age": null,
+        "apps": 31,
+        "goals": 0,
+        "rating": 6.6
+      },
+      {
+        "name": "Ricard Sanchez",
+        "position": "DF",
+        "age": null,
+        "apps": 26,
+        "goals": 2,
+        "rating": 6.9
+      },
+      {
+        "name": "Ferro",
+        "position": "DF",
+        "age": null,
+        "apps": 27,
+        "goals": 2,
+        "rating": 6.4
+      },
+      {
+        "name": "Antef Tsoungui",
+        "position": "DF",
+        "age": null,
+        "apps": 23,
+        "goals": 0,
+        "rating": 5
+      },
+      {
+        "name": "Pedro Carvalho",
+        "position": "DF",
+        "age": null,
+        "apps": 26,
+        "goals": 0,
+        "rating": 5.6
+      },
+      {
+        "name": "Jandro Orellana",
+        "position": "MF",
+        "age": null,
+        "apps": 19,
+        "goals": 0,
+        "rating": 5.7
+      },
+      {
+        "name": "Xeka",
+        "position": "MF",
+        "age": null,
+        "apps": 12,
+        "goals": 1,
+        "rating": 5.5
+      },
+      {
+        "name": "Joao Carvalho",
+        "position": "MF",
+        "age": null,
+        "apps": 33,
+        "goals": 6,
+        "rating": 7.2
+      },
+      {
+        "name": "Yanis Begraoui",
+        "position": "ST",
+        "age": null,
+        "apps": 34,
+        "goals": 20,
+        "rating": 8.3
+      },
+      {
+        "name": "Rafik Guitane",
+        "position": "ST",
+        "age": null,
+        "apps": 30,
+        "goals": 3,
+        "rating": 7.5
+      },
+      {
+        "name": "André Lacximicant",
+        "position": "ST",
+        "age": null,
+        "apps": 22,
+        "goals": 3,
+        "rating": 5.3
+      },
+      {
+        "name": "Martin Turk",
+        "position": "GK",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Gonçalo Costa",
+        "position": "DF",
+        "age": null,
+        "apps": 16,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Luis Gomes",
+        "position": "MF",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 1.2
+      },
+      {
+        "name": "Peixinho",
+        "position": "ST",
+        "age": null,
+        "apps": 11,
+        "goals": 1,
+        "rating": 1.8
+      },
+      {
+        "name": "Diogo Dias",
+        "position": "GK",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 2.1
+      },
+      {
+        "name": "Alejandro Marqués",
+        "position": "ST",
+        "age": null,
+        "apps": 26,
+        "goals": 4,
+        "rating": 6.6
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Diogo Dias",
+      "position": "GK",
+      "age": 22,
+      "apps": 0,
+      "goals": 0,
+      "rating": 2.1
+    },
+    {
+      "name": "Joel Robles",
+      "position": "GK",
+      "age": 35,
+      "apps": 31,
+      "goals": 0,
+      "rating": 6.6
+    },
+    {
+      "name": "Martin Turk",
+      "position": "GK",
+      "age": 22,
+      "apps": 3,
+      "goals": 0,
+      "rating": 2.8
+    },
+    {
+      "name": "Pedro Amaral",
+      "position": null,
+      "age": 28,
+      "apps": 27,
+      "goals": 0,
+      "rating": 5.7
+    },
+    {
+      "name": "Ricard Sanchez",
+      "position": "DF",
+      "age": 26,
+      "apps": 26,
+      "goals": 2,
+      "rating": 6.9
+    },
+    {
+      "name": "Ferro",
+      "position": "DF",
+      "age": 29,
+      "apps": 27,
+      "goals": 2,
+      "rating": 6.4
+    },
+    {
+      "name": "Antef Tsoungui",
+      "position": "DF",
+      "age": 23,
+      "apps": 23,
+      "goals": 0,
+      "rating": 5
+    },
+    {
+      "name": "Pedro Carvalho",
+      "position": "DF",
+      "age": 23,
+      "apps": 26,
+      "goals": 0,
+      "rating": 5.6
+    },
+    {
+      "name": "Gonçalo Costa",
+      "position": "DF",
+      "age": 26,
+      "apps": 16,
+      "goals": 0,
+      "rating": 4.4
+    },
+    {
+      "name": "Felix Bacher",
+      "position": null,
+      "age": 25,
+      "apps": 34,
+      "goals": 2,
+      "rating": 7.2
+    },
+    {
+      "name": "Luis Gomes",
+      "position": "MF",
+      "age": 21,
+      "apps": 0,
+      "goals": 0,
+      "rating": 1.2
+    },
+    {
+      "name": "Jandro Orellana",
+      "position": "MF",
+      "age": 25,
+      "apps": 19,
+      "goals": 0,
+      "rating": 5.7
+    },
+    {
+      "name": "Xeka",
+      "position": "MF",
+      "age": 31,
+      "apps": 12,
+      "goals": 1,
+      "rating": 5.5
+    },
+    {
+      "name": "Pizzi",
+      "position": null,
+      "age": 36,
+      "apps": 23,
+      "goals": 0,
+      "rating": 8
+    },
+    {
+      "name": "Nodar Lominadze",
+      "position": null,
+      "age": 24,
+      "apps": 16,
+      "goals": 2,
+      "rating": 4.9
+    },
+    {
+      "name": "Joao Carvalho",
+      "position": "MF",
+      "age": 29,
+      "apps": 33,
+      "goals": 6,
+      "rating": 7.2
+    },
+    {
+      "name": "Jordan Holsgrove",
+      "position": null,
+      "age": 26,
+      "apps": 33,
+      "goals": 1,
+      "rating": 7
+    },
+    {
+      "name": "Rafik Guitane",
+      "position": "ST",
+      "age": 26,
+      "apps": 30,
+      "goals": 3,
+      "rating": 7.5
+    },
+    {
+      "name": "André Lacximicant",
+      "position": "ST",
+      "age": 24,
+      "apps": 22,
+      "goals": 3,
+      "rating": 5.3
+    },
+    {
+      "name": "Alejandro Marqués",
+      "position": "ST",
+      "age": 25,
+      "apps": 26,
+      "goals": 4,
+      "rating": 6.6
+    },
+    {
+      "name": "Khayon Edwards",
+      "position": null,
+      "age": 22,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.6
+    },
+    {
+      "name": "Yanis Begraoui",
+      "position": "ST",
+      "age": 24,
+      "apps": 34,
+      "goals": 20,
+      "rating": 8.3
+    },
+    {
+      "name": "Peixinho",
+      "position": "ST",
+      "age": 21,
+      "apps": 11,
+      "goals": 1,
+      "rating": 1.8
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Kasimpasa Istanbul",
+      "rating": 1987.15
+    },
+    {
+      "name": "Bradford City",
+      "rating": 1985.77
+    }
+  ]
+}

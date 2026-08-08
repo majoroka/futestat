@@ -1,0 +1,68 @@
+{
+  "team": {
+    "id": "422",
+    "name": "Rosenborg BK II",
+    "slug": "rosenborg-bk-ii",
+    "country": "Norway",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Rosenborg-Bk-Ii/422/",
+    "collectedAtUtc": "2026-08-08T18:27:15.803Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "low",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
+  },
+  "ratings": {
+    "overall": 1202.86,
+    "home": 1236.87,
+    "away": 1168.86
+  },
+  "rankings": {
+    "national": 387,
+    "europe": 9647
+  },
+  "form": {
+    "last3": []
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": null
+  },
+  "oddsMarket": {
+    "opening1X2": null,
+    "fair1X2": null,
+    "movementSummary": null
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Orgenergostroy",
+      "rating": 1202.93
+    },
+    {
+      "name": "NTNUI Trondheim",
+      "rating": 1202.67
+    }
+  ]
+}

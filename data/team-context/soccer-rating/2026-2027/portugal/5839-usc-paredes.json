@@ -1,0 +1,80 @@
+{
+  "team": {
+    "id": "5839",
+    "name": "USC Paredes",
+    "slug": "usc-paredes",
+    "country": "Portugal",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Usc-Paredes/5839/",
+    "collectedAtUtc": "2026-08-08T18:27:27.527Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "medium",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
+  },
+  "ratings": {
+    "overall": 1689.77,
+    "home": 1693.93,
+    "away": 1685.61
+  },
+  "rankings": {
+    "national": 41,
+    "europe": 1177
+  },
+  "form": {
+    "last3": [
+      "D",
+      "L",
+      "D"
+    ]
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.77,
+      "draw": 3.25,
+      "away": 4
+    },
+    "fair1X2": {
+      "home": 2.41,
+      "draw": 3.83,
+      "away": 3.08
+    },
+    "movementSummary": "home_odds_flat_away_odds_flat"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "KF Drenica Skenderaj",
+      "rating": 1689.85
+    },
+    {
+      "name": "Leca FC",
+      "rating": 1689.64
+    }
+  ]
+}

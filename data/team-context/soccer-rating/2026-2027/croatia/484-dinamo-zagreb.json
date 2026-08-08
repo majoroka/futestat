@@ -1,0 +1,402 @@
+{
+  "team": {
+    "id": "484",
+    "name": "Dinamo Zagreb",
+    "slug": "dinamo-zagreb",
+    "country": "Croatia",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Dinamo-Zagreb/484/",
+    "collectedAtUtc": "2026-08-08T18:26:56.747Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 2179.7,
+    "home": 2232.26,
+    "away": 2127.13
+  },
+  "rankings": {
+    "national": 1,
+    "europe": 62
+  },
+  "form": {
+    "last3": [
+      "W",
+      "D",
+      "W"
+    ]
+  },
+  "prediction": {
+    "tip": "away_win",
+    "tipLabel": "Bet on (2) Dinamo Zagreb (Stake 3/10)",
+    "confidencePct": 30,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 7,
+      "draw": 5,
+      "away": 1.4
+    },
+    "fair1X2": {
+      "home": 8.01,
+      "draw": 5.52,
+      "away": 1.44
+    },
+    "movementSummary": "home_odds_up_away_odds_flat"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": 4.6,
+    "players": [
+      {
+        "name": "Tomas Svedkauskas",
+        "position": "GK",
+        "age": null,
+        "apps": 22,
+        "goals": 0,
+        "rating": 5.3
+      },
+      {
+        "name": "Aldayr Hernandez",
+        "position": "DF",
+        "age": null,
+        "apps": 17,
+        "goals": 1,
+        "rating": 5.2
+      },
+      {
+        "name": "N. I. Edokpolor",
+        "position": "DF",
+        "age": null,
+        "apps": 19,
+        "goals": 1,
+        "rating": 4.7
+      },
+      {
+        "name": "Luka Racic",
+        "position": "DF",
+        "age": null,
+        "apps": 6,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Vykintas Slivka",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.7
+      },
+      {
+        "name": "Yukiyoshi Karashima",
+        "position": "MF",
+        "age": null,
+        "apps": 20,
+        "goals": 1,
+        "rating": 4.5
+      },
+      {
+        "name": "Amine Benchaib",
+        "position": "MF",
+        "age": null,
+        "apps": 21,
+        "goals": 10,
+        "rating": 6.5
+      },
+      {
+        "name": "Motiejus Burba",
+        "position": "ST",
+        "age": null,
+        "apps": 22,
+        "goals": 2,
+        "rating": 5.3
+      },
+      {
+        "name": "Léo Ribeiro",
+        "position": "ST",
+        "age": null,
+        "apps": 20,
+        "goals": 5,
+        "rating": 4.9
+      },
+      {
+        "name": "Lirim Kastrati",
+        "position": "ST",
+        "age": null,
+        "apps": 17,
+        "goals": 1,
+        "rating": 4.2
+      },
+      {
+        "name": "Haris Kadric",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 1,
+        "rating": 3
+      },
+      {
+        "name": "Deividas Mikelionis",
+        "position": "GK",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Rokas Lekiatas",
+        "position": "DF",
+        "age": null,
+        "apps": 20,
+        "goals": 1,
+        "rating": 4
+      },
+      {
+        "name": "Fedor Cernych",
+        "position": "ST",
+        "age": null,
+        "apps": 10,
+        "goals": 0,
+        "rating": 4.1
+      },
+      {
+        "name": "Anthony Kalik",
+        "position": "MF",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Renan Oliveira",
+        "position": "ST",
+        "age": null,
+        "apps": 4,
+        "goals": 2,
+        "rating": 3.4
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Tomas Svedkauskas",
+      "position": "GK",
+      "age": 32,
+      "apps": 22,
+      "goals": 0,
+      "rating": 5.3
+    },
+    {
+      "name": "Deividas Mikelionis",
+      "position": "GK",
+      "age": 29,
+      "apps": 0,
+      "goals": 0,
+      "rating": 3.1
+    },
+    {
+      "name": "Joris Moutachy",
+      "position": null,
+      "age": 28,
+      "apps": 21,
+      "goals": 0,
+      "rating": 5.4
+    },
+    {
+      "name": "Anton Tolordava",
+      "position": null,
+      "age": 30,
+      "apps": 19,
+      "goals": 4,
+      "rating": 4.9
+    },
+    {
+      "name": "T. Burdzilauskas",
+      "position": null,
+      "age": 21,
+      "apps": 9,
+      "goals": 0,
+      "rating": 2.6
+    },
+    {
+      "name": "Marko Konatar",
+      "position": null,
+      "age": 26,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.3
+    },
+    {
+      "name": "Aldayr Hernandez",
+      "position": "DF",
+      "age": 31,
+      "apps": 17,
+      "goals": 1,
+      "rating": 5.2
+    },
+    {
+      "name": "N. I. Edokpolor",
+      "position": "DF",
+      "age": 29,
+      "apps": 19,
+      "goals": 1,
+      "rating": 4.7
+    },
+    {
+      "name": "Luka Racic",
+      "position": "DF",
+      "age": 27,
+      "apps": 6,
+      "goals": 0,
+      "rating": 3.4
+    },
+    {
+      "name": "Rokas Lekiatas",
+      "position": "DF",
+      "age": 27,
+      "apps": 20,
+      "goals": 1,
+      "rating": 4
+    },
+    {
+      "name": "Yukiyoshi Karashima",
+      "position": "MF",
+      "age": 29,
+      "apps": 20,
+      "goals": 1,
+      "rating": 4.5
+    },
+    {
+      "name": "Franco Baldassarra",
+      "position": null,
+      "age": 27,
+      "apps": 17,
+      "goals": 1,
+      "rating": 4.6
+    },
+    {
+      "name": "Vykintas Slivka",
+      "position": "MF",
+      "age": 31,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.7
+    },
+    {
+      "name": "Ivan Fiolic",
+      "position": null,
+      "age": 30,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.8
+    },
+    {
+      "name": "Amine Benchaib",
+      "position": "MF",
+      "age": 28,
+      "apps": 21,
+      "goals": 10,
+      "rating": 6.5
+    },
+    {
+      "name": "Anthony Kalik",
+      "position": "MF",
+      "age": 28,
+      "apps": 0,
+      "goals": 0,
+      "rating": 4.2
+    },
+    {
+      "name": "Motiejus Burba",
+      "position": "ST",
+      "age": 22,
+      "apps": 22,
+      "goals": 2,
+      "rating": 5.3
+    },
+    {
+      "name": "Fabien Ourega",
+      "position": null,
+      "age": 33,
+      "apps": 22,
+      "goals": 7,
+      "rating": 5.2
+    },
+    {
+      "name": "Leon Krekovic",
+      "position": null,
+      "age": 26,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.5
+    },
+    {
+      "name": "Léo Ribeiro",
+      "position": "ST",
+      "age": 32,
+      "apps": 20,
+      "goals": 5,
+      "rating": 4.9
+    },
+    {
+      "name": "Lirim Kastrati",
+      "position": "ST",
+      "age": 27,
+      "apps": 17,
+      "goals": 1,
+      "rating": 4.2
+    },
+    {
+      "name": "Haris Kadric",
+      "position": "ST",
+      "age": 26,
+      "apps": 2,
+      "goals": 1,
+      "rating": 3
+    },
+    {
+      "name": "Fedor Cernych",
+      "position": "ST",
+      "age": 35,
+      "apps": 10,
+      "goals": 0,
+      "rating": 4.1
+    },
+    {
+      "name": "Renan Oliveira",
+      "position": "ST",
+      "age": 29,
+      "apps": 4,
+      "goals": 2,
+      "rating": 3.4
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Betis Sevilla",
+      "rating": 2197.09
+    },
+    {
+      "name": "1. FC Köln",
+      "rating": 2192.46
+    }
+  ]
+}

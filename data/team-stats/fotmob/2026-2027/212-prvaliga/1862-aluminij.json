@@ -1,0 +1,65 @@
+{
+  "team": {
+    "id": "1862",
+    "name": "Aluminij",
+    "slug": "aluminij",
+    "country": "Slovenia",
+    "logoUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/1862.png"
+  },
+  "competition": {
+    "id": "212",
+    "name": "Prva Liga"
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "fotmob",
+    "url": "https://www.fotmob.com/teams/1862/stats/aluminij/teams",
+    "collectedAtUtc": "2026-08-08T18:26:12.036Z"
+  },
+  "availability": {
+    "status": "not_started",
+    "coverage": "low",
+    "notes": "Epoca atual ainda sem estatisticas agregadas disponiveis no HTML capturado."
+  },
+  "overview": {
+    "teamRating": null,
+    "goalsPerMatch": null,
+    "goalsConcededPerMatch": null,
+    "averagePossessionPct": null,
+    "cleanSheets": null,
+    "attendanceAverage": null
+  },
+  "attack": {
+    "xg": null,
+    "xgDiff": null,
+    "shotsOnTargetPerMatch": null,
+    "bigChances": null,
+    "bigChancesMissed": null,
+    "accuratePassesPerMatch": null,
+    "accurateLongBallsPerMatch": null,
+    "accurateCrossesPerMatch": null,
+    "penaltiesAwarded": null,
+    "touchesInOppBoxPerMatch": null,
+    "cornersPerMatch": null,
+    "setPieceGoals": null
+  },
+  "defense": {
+    "xgConceded": null,
+    "interceptionsPerMatch": null,
+    "tacklesPerMatch": null,
+    "clearancesPerMatch": null,
+    "finalThirdRecoveriesPerMatch": null,
+    "setPieceGoalsConceded": null,
+    "penaltiesConceded": null,
+    "savesPerMatch": null
+  },
+  "discipline": {
+    "foulsPerMatch": null,
+    "yellowCardsPerMatch": null,
+    "redCardsPerMatch": null
+  }
+}

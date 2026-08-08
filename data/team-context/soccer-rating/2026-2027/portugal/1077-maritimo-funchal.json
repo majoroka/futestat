@@ -1,0 +1,480 @@
+{
+  "team": {
+    "id": "1077",
+    "name": "Maritimo Funchal",
+    "slug": "maritimo-funchal",
+    "country": "Portugal",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Maritimo-Funchal/1077/",
+    "collectedAtUtc": "2026-08-08T18:28:07.599Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1837.78,
+    "home": 1900.2,
+    "away": 1775.36
+  },
+  "rankings": {
+    "national": 22,
+    "europe": 649
+  },
+  "form": {
+    "last3": [
+      "L",
+      "L",
+      "W"
+    ]
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 2.75,
+      "draw": 3.4,
+      "away": 2.4
+    },
+    "fair1X2": {
+      "home": 2.72,
+      "draw": 3.49,
+      "away": 2.88
+    },
+    "movementSummary": "home_odds_down_away_odds_up"
+  },
+  "squadHealth": {
+    "injuries": [
+      {
+        "player": "Samu",
+        "status": "injury_or_suspension",
+        "description": null
+      }
+    ],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": [
+      {
+        "name": "Alfonso Pastor",
+        "position": "GK",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2
+      },
+      {
+        "name": "Romain Correia",
+        "position": "DF",
+        "age": null,
+        "apps": 28,
+        "goals": 3,
+        "rating": 5.7
+      },
+      {
+        "name": "Paulo Henrique",
+        "position": "DF",
+        "age": null,
+        "apps": 29,
+        "goals": 1,
+        "rating": 5.5
+      },
+      {
+        "name": "Igor Juliao",
+        "position": "DF",
+        "age": null,
+        "apps": 21,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Rafael Fernandes",
+        "position": "DF",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Rodri Andrade",
+        "position": "MF",
+        "age": null,
+        "apps": 11,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Raphael Guzzo",
+        "position": "MF",
+        "age": null,
+        "apps": 31,
+        "goals": 2,
+        "rating": 4.5
+      },
+      {
+        "name": "Vladan Danilovic",
+        "position": "MF",
+        "age": null,
+        "apps": 31,
+        "goals": 1,
+        "rating": 5.8
+      },
+      {
+        "name": "Martin Tejon",
+        "position": "ST",
+        "age": null,
+        "apps": 32,
+        "goals": 5,
+        "rating": 6.3
+      },
+      {
+        "name": "Simo Bouzaidi",
+        "position": "ST",
+        "age": null,
+        "apps": 31,
+        "goals": 8,
+        "rating": 5.3
+      },
+      {
+        "name": "Adrian Butzke",
+        "position": "ST",
+        "age": null,
+        "apps": 28,
+        "goals": 10,
+        "rating": 4.5
+      },
+      {
+        "name": "Pedro Teixeira",
+        "position": "GK",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 1.2
+      },
+      {
+        "name": "Gabor Szalai",
+        "position": "DF",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Tomas Tavares",
+        "position": "MF",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Samuel Bamba",
+        "position": "ST",
+        "age": null,
+        "apps": 34,
+        "goals": 1,
+        "rating": 4.6
+      },
+      {
+        "name": "Israel Ayuma",
+        "position": "MF",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Maurice Boakye",
+        "position": "ST",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 1.6
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Kimiss Zavala",
+      "position": null,
+      "age": 22,
+      "apps": 1,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Alfonso Pastor",
+      "position": "GK",
+      "age": 25,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2
+    },
+    {
+      "name": "Pedro Teixeira",
+      "position": "GK",
+      "age": 24,
+      "apps": 0,
+      "goals": 0,
+      "rating": 1.2
+    },
+    {
+      "name": "Samu",
+      "position": null,
+      "age": 27,
+      "apps": 33,
+      "goals": 0,
+      "rating": 5.2
+    },
+    {
+      "name": "Noah Madsen",
+      "position": null,
+      "age": 24,
+      "apps": 29,
+      "goals": 1,
+      "rating": 4.8
+    },
+    {
+      "name": "Xavi Grande",
+      "position": null,
+      "age": 21,
+      "apps": 25,
+      "goals": 0,
+      "rating": 4.5
+    },
+    {
+      "name": "Afonso Freitas",
+      "position": null,
+      "age": 26,
+      "apps": 17,
+      "goals": 1,
+      "rating": 4
+    },
+    {
+      "name": "Rodrigo Borges",
+      "position": null,
+      "age": 27,
+      "apps": 15,
+      "goals": 0,
+      "rating": 3.9
+    },
+    {
+      "name": "Junior Almeida",
+      "position": null,
+      "age": 26,
+      "apps": 9,
+      "goals": 0,
+      "rating": 3.8
+    },
+    {
+      "name": "Romain Correia",
+      "position": "DF",
+      "age": 26,
+      "apps": 28,
+      "goals": 3,
+      "rating": 5.7
+    },
+    {
+      "name": "Paulo Henrique",
+      "position": "DF",
+      "age": 29,
+      "apps": 29,
+      "goals": 1,
+      "rating": 5.5
+    },
+    {
+      "name": "Igor Juliao",
+      "position": "DF",
+      "age": 31,
+      "apps": 21,
+      "goals": 0,
+      "rating": 3.5
+    },
+    {
+      "name": "Rafael Fernandes",
+      "position": "DF",
+      "age": 23,
+      "apps": 0,
+      "goals": 0,
+      "rating": 3.8
+    },
+    {
+      "name": "Gabor Szalai",
+      "position": "DF",
+      "age": 25,
+      "apps": 0,
+      "goals": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "Nelio Batista",
+      "position": null,
+      "age": 17,
+      "apps": 1,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Israel Ayuma",
+      "position": "MF",
+      "age": 20,
+      "apps": 0,
+      "goals": 0,
+      "rating": 2.9
+    },
+    {
+      "name": "Tomas Tavares",
+      "position": "MF",
+      "age": 25,
+      "apps": 0,
+      "goals": 0,
+      "rating": 4.5
+    },
+    {
+      "name": "Ibrahima",
+      "position": null,
+      "age": 27,
+      "apps": 32,
+      "goals": 2,
+      "rating": 5
+    },
+    {
+      "name": "Rodri Andrade",
+      "position": "MF",
+      "age": 24,
+      "apps": 11,
+      "goals": 0,
+      "rating": 2.6
+    },
+    {
+      "name": "Carlos Daniel",
+      "position": null,
+      "age": 31,
+      "apps": 33,
+      "goals": 11,
+      "rating": 5.4
+    },
+    {
+      "name": "Marco Cruz",
+      "position": null,
+      "age": 22,
+      "apps": 26,
+      "goals": 0,
+      "rating": 4.3
+    },
+    {
+      "name": "Raphael Guzzo",
+      "position": "MF",
+      "age": 31,
+      "apps": 31,
+      "goals": 2,
+      "rating": 4.5
+    },
+    {
+      "name": "Vladan Danilovic",
+      "position": "MF",
+      "age": 26,
+      "apps": 31,
+      "goals": 1,
+      "rating": 5.8
+    },
+    {
+      "name": "Alexandre Guedes",
+      "position": null,
+      "age": 32,
+      "apps": 8,
+      "goals": 0,
+      "rating": 2.3
+    },
+    {
+      "name": "Xiko Gomes",
+      "position": null,
+      "age": 22,
+      "apps": 20,
+      "goals": 2,
+      "rating": 2.9
+    },
+    {
+      "name": "José Melro",
+      "position": null,
+      "age": 21,
+      "apps": 4,
+      "goals": 0,
+      "rating": 4.1
+    },
+    {
+      "name": "Martin Tejon",
+      "position": "ST",
+      "age": 22,
+      "apps": 32,
+      "goals": 5,
+      "rating": 6.3
+    },
+    {
+      "name": "Simo Bouzaidi",
+      "position": "ST",
+      "age": 26,
+      "apps": 31,
+      "goals": 8,
+      "rating": 5.3
+    },
+    {
+      "name": "Samuel Bamba",
+      "position": "ST",
+      "age": 22,
+      "apps": 34,
+      "goals": 1,
+      "rating": 4.6
+    },
+    {
+      "name": "Maurice Boakye",
+      "position": "ST",
+      "age": 20,
+      "apps": 0,
+      "goals": 0,
+      "rating": 1.6
+    },
+    {
+      "name": "E. Peña Zauner",
+      "position": null,
+      "age": 26,
+      "apps": 18,
+      "goals": 1,
+      "rating": 5.1
+    },
+    {
+      "name": "Adrian Butzke",
+      "position": "ST",
+      "age": 27,
+      "apps": 28,
+      "goals": 10,
+      "rating": 4.5
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Port Vale",
+      "rating": 1824.22
+    },
+    {
+      "name": "FC Vizela",
+      "rating": 1823.1
+    }
+  ]
+}

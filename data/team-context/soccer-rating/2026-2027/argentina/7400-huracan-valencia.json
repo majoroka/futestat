@@ -1,0 +1,68 @@
+{
+  "team": {
+    "id": "7400",
+    "name": "Huracan Valencia",
+    "slug": "huracan-valencia",
+    "country": "Spain",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Huracan-Valencia/7400/",
+    "collectedAtUtc": "2026-08-08T18:26:34.589Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "low",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
+  },
+  "ratings": {
+    "overall": 1632.72,
+    "home": 1687.47,
+    "away": 1577.98
+  },
+  "rankings": {
+    "national": 119,
+    "europe": 1562
+  },
+  "form": {
+    "last3": []
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": null
+  },
+  "oddsMarket": {
+    "opening1X2": null,
+    "fair1X2": null,
+    "movementSummary": null
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "CD Cieza",
+      "rating": 1632.76
+    },
+    {
+      "name": "Sokol Saratov",
+      "rating": 1632.24
+    }
+  ]
+}

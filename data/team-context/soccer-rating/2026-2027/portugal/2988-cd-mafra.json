@@ -1,0 +1,76 @@
+{
+  "team": {
+    "id": "2988",
+    "name": "CD Mafra",
+    "slug": "cd-mafra",
+    "country": "Portugal",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Cd-Mafra/2988/",
+    "collectedAtUtc": "2026-08-08T18:27:37.994Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "medium",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
+  },
+  "ratings": {
+    "overall": 1645.26,
+    "home": 1694.13,
+    "away": 1596.39
+  },
+  "rankings": {
+    "national": 49,
+    "europe": 1452
+  },
+  "form": {
+    "last3": [
+      "L",
+      "D",
+      "W"
+    ]
+  },
+  "prediction": {
+    "tip": "home_win",
+    "tipLabel": "Bet on (1) CD Mafra (Stake 5/10)",
+    "confidencePct": 50,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.7,
+      "draw": 3.5,
+      "away": 4.1
+    },
+    "fair1X2": null,
+    "movementSummary": "home_odds_down_away_odds_up"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "FC Vilnius",
+      "rating": 1645.37
+    },
+    {
+      "name": "Truro City FC",
+      "rating": 1666.7
+    }
+  ]
+}

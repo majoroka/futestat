@@ -1,0 +1,80 @@
+{
+  "team": {
+    "id": "1102",
+    "name": "Varzim SC",
+    "slug": "varzim-sc",
+    "country": "Portugal",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Varzim-Sc/1102/",
+    "collectedAtUtc": "2026-08-08T18:27:30.468Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "medium",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
+  },
+  "ratings": {
+    "overall": 1601.09,
+    "home": 1633.72,
+    "away": 1568.45
+  },
+  "rankings": {
+    "national": 65,
+    "europe": 1831
+  },
+  "form": {
+    "last3": [
+      "L",
+      "D",
+      "D"
+    ]
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": "underdog"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 2.4,
+      "draw": 3,
+      "away": 2.65
+    },
+    "fair1X2": {
+      "home": 2.67,
+      "draw": 3.66,
+      "away": 2.84
+    },
+    "movementSummary": "home_odds_flat_away_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "UD Logrones B",
+      "rating": 1601.19
+    },
+    {
+      "name": "Hamilton Academical",
+      "rating": 1601.01
+    }
+  ]
+}

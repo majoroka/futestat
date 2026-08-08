@@ -1,0 +1,231 @@
+{
+  "team": {
+    "id": "1456",
+    "name": "CSKA Sofia",
+    "slug": "cska-sofia",
+    "country": "Bulgaria",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Cska-Sofia/1456/",
+    "collectedAtUtc": "2026-08-08T18:26:47.782Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 2016.47,
+    "home": 2076.01,
+    "away": 1956.92
+  },
+  "rankings": {
+    "national": 3,
+    "europe": 253
+  },
+  "form": {
+    "last3": [
+      "L",
+      "L",
+      "D"
+    ]
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 5.5,
+      "draw": 3.9,
+      "away": 1.52
+    },
+    "fair1X2": {
+      "home": 4.64,
+      "draw": 4.6,
+      "away": 1.76
+    },
+    "movementSummary": "home_odds_up_away_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [
+      {
+        "player": "Martín Hristov",
+        "status": "injury_or_suspension",
+        "description": null
+      }
+    ],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": 4.8,
+    "players": []
+  },
+  "squad": [
+    {
+      "name": "Vladimir Ivanov",
+      "position": null,
+      "age": 21,
+      "apps": 3,
+      "goals": 0,
+      "rating": 1.4
+    },
+    {
+      "name": "Sebas Wade",
+      "position": null,
+      "age": 23,
+      "apps": 3,
+      "goals": 1,
+      "rating": 2.1
+    },
+    {
+      "name": "Martín Hristov",
+      "position": null,
+      "age": 22,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.5
+    },
+    {
+      "name": "A. Atanasov Zahari",
+      "position": null,
+      "age": 21,
+      "apps": 3,
+      "goals": 0,
+      "rating": 2
+    },
+    {
+      "name": "Venislav Mihajlov",
+      "position": null,
+      "age": 18,
+      "apps": 1,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Viktor Dobrev",
+      "position": null,
+      "age": 17,
+      "apps": 1,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Bozhidar Penchev",
+      "position": null,
+      "age": 24,
+      "apps": 3,
+      "goals": 0,
+      "rating": 1.8
+    },
+    {
+      "name": "P. T. Ferreira",
+      "position": null,
+      "age": 26,
+      "apps": 3,
+      "goals": 0,
+      "rating": 1.4
+    },
+    {
+      "name": "Kubrat Onasci",
+      "position": null,
+      "age": 20,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.4
+    },
+    {
+      "name": "Yoan Baurenski",
+      "position": null,
+      "age": 24,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.1
+    },
+    {
+      "name": "Galin Ivanov",
+      "position": null,
+      "age": 38,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.2
+    },
+    {
+      "name": "Preslav Georgiev",
+      "position": null,
+      "age": 20,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2
+    },
+    {
+      "name": "Stoyan Stoichkov",
+      "position": null,
+      "age": 23,
+      "apps": 3,
+      "goals": 0,
+      "rating": 2.5
+    },
+    {
+      "name": "Aleksandar Dzhamov",
+      "position": null,
+      "age": 18,
+      "apps": 3,
+      "goals": 1,
+      "rating": 1.5
+    },
+    {
+      "name": "Frantzety Herard",
+      "position": null,
+      "age": 24,
+      "apps": 3,
+      "goals": 0,
+      "rating": 1.5
+    },
+    {
+      "name": "Andre Liberal",
+      "position": null,
+      "age": 24,
+      "apps": 3,
+      "goals": 0,
+      "rating": 2
+    },
+    {
+      "name": "Nicolas Fontaine",
+      "position": null,
+      "age": 26,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.6
+    },
+    {
+      "name": "Edney Ribeiro",
+      "position": null,
+      "age": 25,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.8
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Bolton Wanderers",
+      "rating": 1998.87
+    },
+    {
+      "name": "Swansea City",
+      "rating": 1995.63
+    }
+  ]
+}

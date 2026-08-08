@@ -1,0 +1,368 @@
+{
+  "team": {
+    "id": "2475",
+    "name": "Petrolul Ploiesti",
+    "slug": "petrolul-ploiesti",
+    "country": "Romania",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Petrolul-Ploiesti/2475/",
+    "collectedAtUtc": "2026-08-08T18:28:17.676Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1788.13,
+    "home": 1785.09,
+    "away": 1791.17
+  },
+  "rankings": {
+    "national": 16,
+    "europe": 754
+  },
+  "form": {
+    "last3": [
+      "L",
+      "L",
+      "L"
+    ]
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 2.6,
+      "draw": 3,
+      "away": 2.6
+    },
+    "fair1X2": {
+      "home": 1.95,
+      "draw": 3.56,
+      "away": 4.83
+    },
+    "movementSummary": "home_odds_up_away_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [
+      {
+        "player": "Calal Hüseynov",
+        "status": "injury_or_suspension",
+        "description": null
+      }
+    ],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": 4.3,
+    "players": [
+      {
+        "name": "Lukas Zima",
+        "position": "GK",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Tiberiu Capusa",
+        "position": "DF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Paul Papp",
+        "position": "DF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.6
+      },
+      {
+        "name": "Breston Malula",
+        "position": "DF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Mario Ionita",
+        "position": "MF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 2.5
+      },
+      {
+        "name": "Sergiu Hanca",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Alejandro Bran",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Léo",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5
+      },
+      {
+        "name": "Dan N'Lundulu",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Robert Jerdea",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Andres Dumitrescu",
+        "position": "DF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Dele Israel",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "Rodrigo Martins",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 1,
+        "rating": 2.6
+      },
+      {
+        "name": "Adam Zaian",
+        "position": "DF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Ioan Tolea",
+        "position": "ST",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Kilian Ludewig",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.2
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Lukas Zima",
+      "position": "GK",
+      "age": 32,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.5
+    },
+    {
+      "name": "Calal Hüseynov",
+      "position": null,
+      "age": 23,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.7
+    },
+    {
+      "name": "Tiberiu Capusa",
+      "position": "DF",
+      "age": 28,
+      "apps": 3,
+      "goals": 0,
+      "rating": 5.4
+    },
+    {
+      "name": "Paul Papp",
+      "position": "DF",
+      "age": 36,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.6
+    },
+    {
+      "name": "Breston Malula",
+      "position": "DF",
+      "age": 25,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4
+    },
+    {
+      "name": "Andres Dumitrescu",
+      "position": "DF",
+      "age": 25,
+      "apps": 3,
+      "goals": 0,
+      "rating": 3.8
+    },
+    {
+      "name": "Adam Zaian",
+      "position": "DF",
+      "age": 22,
+      "apps": 3,
+      "goals": 0,
+      "rating": 2.6
+    },
+    {
+      "name": "Kilian Ludewig",
+      "position": "DF",
+      "age": 26,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.2
+    },
+    {
+      "name": "Dele Israel",
+      "position": "MF",
+      "age": 24,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.7
+    },
+    {
+      "name": "Liviu Argesanu",
+      "position": null,
+      "age": 16,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.4
+    },
+    {
+      "name": "David Paraschiv",
+      "position": null,
+      "age": 19,
+      "apps": 1,
+      "goals": 0,
+      "rating": 1.4
+    },
+    {
+      "name": "Mario Ionita",
+      "position": "MF",
+      "age": 19,
+      "apps": 3,
+      "goals": 0,
+      "rating": 2.5
+    },
+    {
+      "name": "Sergiu Hanca",
+      "position": "MF",
+      "age": 34,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3.8
+    },
+    {
+      "name": "Alejandro Bran",
+      "position": "MF",
+      "age": 25,
+      "apps": 2,
+      "goals": 0,
+      "rating": 4.8
+    },
+    {
+      "name": "Léo",
+      "position": "ST",
+      "age": 27,
+      "apps": 3,
+      "goals": 0,
+      "rating": 5
+    },
+    {
+      "name": "Dan N'Lundulu",
+      "position": "ST",
+      "age": 27,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.2
+    },
+    {
+      "name": "Rodrigo Martins",
+      "position": "ST",
+      "age": 27,
+      "apps": 3,
+      "goals": 1,
+      "rating": 2.6
+    },
+    {
+      "name": "Ioan Tolea",
+      "position": "ST",
+      "age": 23,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.9
+    },
+    {
+      "name": "Robert Jerdea",
+      "position": "ST",
+      "age": 22,
+      "apps": 3,
+      "goals": 0,
+      "rating": 3.1
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Hapoel Petah Tikva",
+      "rating": 1794.72
+    },
+    {
+      "name": "FK Sochi",
+      "rating": 1787.59
+    }
+  ]
+}

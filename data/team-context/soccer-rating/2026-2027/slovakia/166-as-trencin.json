@@ -1,0 +1,349 @@
+{
+  "team": {
+    "id": "166",
+    "name": "AS Trencin",
+    "slug": "as-trencin",
+    "country": "Slovakia",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/As-Trencin/166/",
+    "collectedAtUtc": "2026-08-08T18:28:41.832Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1722.32,
+    "home": 1748.85,
+    "away": 1695.8
+  },
+  "rankings": {
+    "national": 11,
+    "europe": 1011
+  },
+  "form": {
+    "last3": [
+      "D",
+      "L",
+      "W"
+    ]
+  },
+  "prediction": {
+    "tip": "home_win",
+    "tipLabel": "Bet on (1) FK Kosice (Stake 6/10)",
+    "confidencePct": 60,
+    "strengthComparison": "underdog"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.68,
+      "draw": 4,
+      "away": 4
+    },
+    "fair1X2": {
+      "home": 1.7,
+      "draw": 4.63,
+      "away": 5.15
+    },
+    "movementSummary": "home_odds_down_away_odds_up"
+  },
+  "squadHealth": {
+    "injuries": [
+      {
+        "player": "Dominik Kruzliak",
+        "status": "injury_or_suspension",
+        "description": null
+      },
+      {
+        "player": "David Gallovic",
+        "status": "injury_or_suspension",
+        "description": null
+      }
+    ],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": 3.4,
+    "players": [
+      {
+        "name": "Maciej Dabrowski",
+        "position": "GK",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Sebastian Kosa",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 1,
+        "rating": 4
+      },
+      {
+        "name": "Osman Kakay",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 1,
+        "rating": 3.5
+      },
+      {
+        "name": "Matej Madlenak",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Daniel Magda",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "Miroslav Sovic",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.5
+      },
+      {
+        "name": "Marek Zsigmund",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Kevor Palumets",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Roman Cerepkai",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 2,
+        "rating": 4.7
+      },
+      {
+        "name": "Aleksa Maras",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 2,
+        "rating": 3.8
+      },
+      {
+        "name": "Milan Rehus",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Filip Lichy",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Milan Dimun",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.5
+      },
+      {
+        "name": "Maxim Mateas",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Viliam Vrabel",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.3
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Maciej Dabrowski",
+      "position": "GK",
+      "age": 28,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.6
+    },
+    {
+      "name": "Sebastian Kosa",
+      "position": "DF",
+      "age": 22,
+      "apps": 2,
+      "goals": 1,
+      "rating": 4
+    },
+    {
+      "name": "Osman Kakay",
+      "position": "DF",
+      "age": 28,
+      "apps": 2,
+      "goals": 1,
+      "rating": 3.5
+    },
+    {
+      "name": "Matej Madlenak",
+      "position": "DF",
+      "age": 27,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.2
+    },
+    {
+      "name": "Daniel Magda",
+      "position": "DF",
+      "age": 28,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.7
+    },
+    {
+      "name": "Dominik Kruzliak",
+      "position": null,
+      "age": 30,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.5
+    },
+    {
+      "name": "Maxim Mateas",
+      "position": "MF",
+      "age": 18,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.9
+    },
+    {
+      "name": "Viliam Vrabel",
+      "position": "MF",
+      "age": 18,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Marek Zsigmund",
+      "position": "MF",
+      "age": 29,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3
+    },
+    {
+      "name": "Kevor Palumets",
+      "position": "MF",
+      "age": 23,
+      "apps": 2,
+      "goals": 0,
+      "rating": 4.4
+    },
+    {
+      "name": "Miroslav Sovic",
+      "position": "MF",
+      "age": 22,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.5
+    },
+    {
+      "name": "Filip Lichy",
+      "position": "MF",
+      "age": 25,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.9
+    },
+    {
+      "name": "Milan Dimun",
+      "position": "MF",
+      "age": 29,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.5
+    },
+    {
+      "name": "David Gallovic",
+      "position": null,
+      "age": 30,
+      "apps": 2,
+      "goals": 1,
+      "rating": 3.2
+    },
+    {
+      "name": "Aleksa Maras",
+      "position": "ST",
+      "age": 24,
+      "apps": 2,
+      "goals": 2,
+      "rating": 3.8
+    },
+    {
+      "name": "Milan Rehus",
+      "position": "ST",
+      "age": 20,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.3
+    },
+    {
+      "name": "Roman Cerepkai",
+      "position": "ST",
+      "age": 24,
+      "apps": 2,
+      "goals": 2,
+      "rating": 4.7
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "FC Martigues",
+      "rating": 1722.35
+    },
+    {
+      "name": "Barrow AFC",
+      "rating": 1718.51
+    }
+  ]
+}

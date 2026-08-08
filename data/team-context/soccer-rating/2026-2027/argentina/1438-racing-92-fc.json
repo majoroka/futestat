@@ -1,0 +1,68 @@
+{
+  "team": {
+    "id": "1438",
+    "name": "Racing 92 FC",
+    "slug": "racing-92-fc",
+    "country": "France",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Racing-92-Fc/1438/",
+    "collectedAtUtc": "2026-08-08T18:26:36.034Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "low",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
+  },
+  "ratings": {
+    "overall": 1486.45,
+    "home": 1493.26,
+    "away": 1479.64
+  },
+  "rankings": {
+    "national": 263,
+    "europe": 4215
+  },
+  "form": {
+    "last3": []
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": null
+  },
+  "oddsMarket": {
+    "opening1X2": null,
+    "fair1X2": null,
+    "movementSummary": null
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "NK Sredisce",
+      "rating": 1486.51
+    },
+    {
+      "name": "Coggeshall Town",
+      "rating": 1486.4
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "team": {
+    "id": "8329",
+    "name": "NK Lokomotiva",
+    "slug": "nk-lokomotiva",
+    "country": "North Macedonia",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Nk-Lokomotiva/8329/",
+    "collectedAtUtc": "2026-08-08T18:27:02.517Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "low",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
+  },
+  "ratings": {
+    "overall": 1362.22,
+    "home": 1600,
+    "away": 1124.45
+  },
+  "rankings": {
+    "national": 39,
+    "europe": 7594
+  },
+  "form": {
+    "last3": []
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": null
+  },
+  "oddsMarket": {
+    "opening1X2": null,
+    "fair1X2": null,
+    "movementSummary": null
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "SanGiovanniValdarno",
+      "rating": 1362.28
+    },
+    {
+      "name": "Racing Club Genève",
+      "rating": 1362.2
+    }
+  ]
+}

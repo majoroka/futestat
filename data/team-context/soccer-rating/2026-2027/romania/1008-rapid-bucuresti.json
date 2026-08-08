@@ -1,0 +1,370 @@
+{
+  "team": {
+    "id": "1008",
+    "name": "Rapid Bucuresti",
+    "slug": "rapid-bucuresti",
+    "country": "Romania",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Rapid-Bucuresti/1008/",
+    "collectedAtUtc": "2026-08-08T18:28:19.144Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1940.06,
+    "home": 2015.36,
+    "away": 1864.76
+  },
+  "rankings": {
+    "national": 5,
+    "europe": 355
+  },
+  "form": {
+    "last3": [
+      "L",
+      "D",
+      "L"
+    ]
+  },
+  "prediction": {
+    "tip": "away_win",
+    "tipLabel": "Bet on (2) Rapid Bucuresti (Stake 8/10)",
+    "confidencePct": 80,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 2.4,
+      "draw": 3.1,
+      "away": 2.8
+    },
+    "fair1X2": {
+      "home": 3.8,
+      "draw": 3.58,
+      "away": 2.19
+    },
+    "movementSummary": "home_odds_up_away_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": [
+      {
+        "name": "Arpad Tordai",
+        "position": "GK",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 2.2
+      },
+      {
+        "name": "Peter Ouaneh",
+        "position": "DF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Andrei Dorobantu",
+        "position": "DF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Andrea Padula",
+        "position": "DF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.1
+      },
+      {
+        "name": "Alexandru Benga",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Richard Odada",
+        "position": "MF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Sota Mino",
+        "position": "MF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Alin Roman",
+        "position": "MF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5.7
+      },
+      {
+        "name": "Hakim Abdallah",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Ismet Sinani",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 1,
+        "rating": 3.7
+      },
+      {
+        "name": "Alexi Pitu",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Andrei Gorcea",
+        "position": "GK",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Dmytro Pospelov",
+        "position": "DF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Marinos Tzionis",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5.6
+      },
+      {
+        "name": "Marius Coman",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Jayson Papeau",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 1,
+        "rating": 4.3
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Arpad Tordai",
+      "position": "GK",
+      "age": 29,
+      "apps": 0,
+      "goals": 0,
+      "rating": 2.2
+    },
+    {
+      "name": "Andrei Gorcea",
+      "position": "GK",
+      "age": 25,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4
+    },
+    {
+      "name": "Din Alomerovic",
+      "position": null,
+      "age": 29,
+      "apps": 2,
+      "goals": 0,
+      "rating": 5.4
+    },
+    {
+      "name": "Robert Badescu",
+      "position": null,
+      "age": 21,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.9
+    },
+    {
+      "name": "Peter Ouaneh",
+      "position": "DF",
+      "age": 28,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4.4
+    },
+    {
+      "name": "Andrei Dorobantu",
+      "position": "DF",
+      "age": 21,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4
+    },
+    {
+      "name": "Andrea Padula",
+      "position": "DF",
+      "age": 30,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.1
+    },
+    {
+      "name": "Alexandru Benga",
+      "position": "DF",
+      "age": 37,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.3
+    },
+    {
+      "name": "Dmytro Pospelov",
+      "position": "DF",
+      "age": 34,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.5
+    },
+    {
+      "name": "Denis Ile",
+      "position": null,
+      "age": 16,
+      "apps": 0,
+      "goals": 0,
+      "rating": 1.2
+    },
+    {
+      "name": "Razvan Oaida",
+      "position": null,
+      "age": 28,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3.7
+    },
+    {
+      "name": "Richard Odada",
+      "position": "MF",
+      "age": 25,
+      "apps": 3,
+      "goals": 0,
+      "rating": 2.8
+    },
+    {
+      "name": "Sota Mino",
+      "position": "MF",
+      "age": 31,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.2
+    },
+    {
+      "name": "Alin Roman",
+      "position": "MF",
+      "age": 32,
+      "apps": 3,
+      "goals": 0,
+      "rating": 5.7
+    },
+    {
+      "name": "Ismet Sinani",
+      "position": "ST",
+      "age": 27,
+      "apps": 2,
+      "goals": 1,
+      "rating": 3.7
+    },
+    {
+      "name": "Alexi Pitu",
+      "position": "ST",
+      "age": 24,
+      "apps": 3,
+      "goals": 0,
+      "rating": 3.6
+    },
+    {
+      "name": "Marinos Tzionis",
+      "position": "ST",
+      "age": 25,
+      "apps": 3,
+      "goals": 0,
+      "rating": 5.6
+    },
+    {
+      "name": "Jayson Papeau",
+      "position": "ST",
+      "age": 30,
+      "apps": 3,
+      "goals": 1,
+      "rating": 4.3
+    },
+    {
+      "name": "Hakim Abdallah",
+      "position": "ST",
+      "age": 28,
+      "apps": 3,
+      "goals": 0,
+      "rating": 5.2
+    },
+    {
+      "name": "Marius Coman",
+      "position": "ST",
+      "age": 30,
+      "apps": 3,
+      "goals": 0,
+      "rating": 5.4
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "IF Brommapojkarna",
+      "rating": 1941.12
+    },
+    {
+      "name": "Metalist 1925 Kharkiv",
+      "rating": 1939.53
+    }
+  ]
+}

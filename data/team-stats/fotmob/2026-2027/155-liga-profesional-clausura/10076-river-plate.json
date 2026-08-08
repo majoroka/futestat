@@ -1,0 +1,65 @@
+{
+  "team": {
+    "id": "10076",
+    "name": "River Plate",
+    "slug": "river-plate",
+    "country": "Argentina",
+    "logoUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10076.png"
+  },
+  "competition": {
+    "id": "155",
+    "name": "Liga Profesional Clausura"
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": false
+  },
+  "source": {
+    "provider": "fotmob",
+    "url": "https://www.fotmob.com/teams/10076/stats/river-plate/teams",
+    "collectedAtUtc": "2026-08-08T18:22:30.329Z"
+  },
+  "availability": {
+    "status": "archived",
+    "coverage": "low",
+    "notes": "Epoca anterior capturada para referencia estrutural."
+  },
+  "overview": {
+    "teamRating": 6.6,
+    "goalsPerMatch": null,
+    "goalsConcededPerMatch": null,
+    "averagePossessionPct": null,
+    "cleanSheets": null,
+    "attendanceAverage": null
+  },
+  "attack": {
+    "xg": null,
+    "xgDiff": null,
+    "shotsOnTargetPerMatch": null,
+    "bigChances": null,
+    "bigChancesMissed": null,
+    "accuratePassesPerMatch": null,
+    "accurateLongBallsPerMatch": null,
+    "accurateCrossesPerMatch": null,
+    "penaltiesAwarded": null,
+    "touchesInOppBoxPerMatch": null,
+    "cornersPerMatch": null,
+    "setPieceGoals": null
+  },
+  "defense": {
+    "xgConceded": null,
+    "interceptionsPerMatch": null,
+    "tacklesPerMatch": null,
+    "clearancesPerMatch": null,
+    "finalThirdRecoveriesPerMatch": null,
+    "setPieceGoalsConceded": null,
+    "penaltiesConceded": null,
+    "savesPerMatch": null
+  },
+  "discipline": {
+    "foulsPerMatch": null,
+    "yellowCardsPerMatch": null,
+    "redCardsPerMatch": null
+  }
+}

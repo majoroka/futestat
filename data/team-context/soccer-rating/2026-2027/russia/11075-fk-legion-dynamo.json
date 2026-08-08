@@ -1,0 +1,76 @@
+{
+  "team": {
+    "id": "11075",
+    "name": "FK Legion Dynamo",
+    "slug": "fk-legion-dynamo",
+    "country": "Russia",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Fk-Legion-Dynamo/11075/",
+    "collectedAtUtc": "2026-08-08T18:28:23.704Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "medium",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
+  },
+  "ratings": {
+    "overall": 1350.59,
+    "home": 1297.72,
+    "away": 1403.45
+  },
+  "rankings": {
+    "national": 211,
+    "europe": 7847
+  },
+  "form": {
+    "last3": []
+  },
+  "prediction": {
+    "tip": "away_win",
+    "tipLabel": "Bet on (2) FK Legion Dynamo (Stake 6/10)",
+    "confidencePct": 60,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 2.36,
+      "draw": 3.2,
+      "away": 2.88
+    },
+    "fair1X2": {
+      "home": 4.13,
+      "draw": 3.64,
+      "away": 2.07
+    },
+    "movementSummary": "home_odds_up_away_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Rot-Weiss Darmstadt",
+      "rating": 1350.6
+    },
+    {
+      "name": "Sankt Margarethen",
+      "rating": 1350.58
+    }
+  ]
+}

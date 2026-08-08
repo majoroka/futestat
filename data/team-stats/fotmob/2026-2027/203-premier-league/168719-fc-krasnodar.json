@@ -1,0 +1,65 @@
+{
+  "team": {
+    "id": "168719",
+    "name": "FC Krasnodar",
+    "slug": "fc-krasnodar",
+    "country": "Russia",
+    "logoUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/168719.png"
+  },
+  "competition": {
+    "id": "203",
+    "name": "Premier League"
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "fotmob",
+    "url": "https://www.fotmob.com/teams/168719/stats/fc-krasnodar/teams",
+    "collectedAtUtc": "2026-08-08T18:25:43.068Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "low",
+    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+  },
+  "overview": {
+    "teamRating": 7.1,
+    "goalsPerMatch": null,
+    "goalsConcededPerMatch": null,
+    "averagePossessionPct": null,
+    "cleanSheets": null,
+    "attendanceAverage": null
+  },
+  "attack": {
+    "xg": 4.317200064659119,
+    "xgDiff": -1.3172000646591187,
+    "shotsOnTargetPerMatch": null,
+    "bigChances": null,
+    "bigChancesMissed": null,
+    "accuratePassesPerMatch": null,
+    "accurateLongBallsPerMatch": null,
+    "accurateCrossesPerMatch": null,
+    "penaltiesAwarded": null,
+    "touchesInOppBoxPerMatch": null,
+    "cornersPerMatch": null,
+    "setPieceGoals": null
+  },
+  "defense": {
+    "xgConceded": 2.6242999732494354,
+    "interceptionsPerMatch": null,
+    "tacklesPerMatch": null,
+    "clearancesPerMatch": null,
+    "finalThirdRecoveriesPerMatch": null,
+    "setPieceGoalsConceded": null,
+    "penaltiesConceded": null,
+    "savesPerMatch": null
+  },
+  "discipline": {
+    "foulsPerMatch": null,
+    "yellowCardsPerMatch": null,
+    "redCardsPerMatch": null
+  }
+}

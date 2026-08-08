@@ -1,0 +1,65 @@
+{
+  "team": {
+    "id": "2503",
+    "name": "Paredes",
+    "slug": "paredes",
+    "country": "Portugal",
+    "logoUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/2503.png"
+  },
+  "competition": {
+    "id": "17101",
+    "name": "Liga 3"
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "fotmob",
+    "url": "https://www.fotmob.com/teams/2503/stats/paredes/teams",
+    "collectedAtUtc": "2026-08-08T18:24:18.433Z"
+  },
+  "availability": {
+    "status": "not_started",
+    "coverage": "low",
+    "notes": "Epoca atual ainda sem estatisticas agregadas disponiveis no HTML capturado."
+  },
+  "overview": {
+    "teamRating": null,
+    "goalsPerMatch": null,
+    "goalsConcededPerMatch": null,
+    "averagePossessionPct": null,
+    "cleanSheets": null,
+    "attendanceAverage": null
+  },
+  "attack": {
+    "xg": null,
+    "xgDiff": null,
+    "shotsOnTargetPerMatch": null,
+    "bigChances": null,
+    "bigChancesMissed": null,
+    "accuratePassesPerMatch": null,
+    "accurateLongBallsPerMatch": null,
+    "accurateCrossesPerMatch": null,
+    "penaltiesAwarded": null,
+    "touchesInOppBoxPerMatch": null,
+    "cornersPerMatch": null,
+    "setPieceGoals": null
+  },
+  "defense": {
+    "xgConceded": null,
+    "interceptionsPerMatch": null,
+    "tacklesPerMatch": null,
+    "clearancesPerMatch": null,
+    "finalThirdRecoveriesPerMatch": null,
+    "setPieceGoalsConceded": null,
+    "penaltiesConceded": null,
+    "savesPerMatch": null
+  },
+  "discipline": {
+    "foulsPerMatch": null,
+    "yellowCardsPerMatch": null,
+    "redCardsPerMatch": null
+  }
+}

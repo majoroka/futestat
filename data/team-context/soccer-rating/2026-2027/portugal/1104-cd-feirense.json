@@ -1,0 +1,413 @@
+{
+  "team": {
+    "id": "1104",
+    "name": "CD Feirense",
+    "slug": "cd-feirense",
+    "country": "Portugal",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Cd-Feirense/1104/",
+    "collectedAtUtc": "2026-08-08T18:27:43.971Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1737.89,
+    "home": 1760.36,
+    "away": 1715.43
+  },
+  "rankings": {
+    "national": 36,
+    "europe": 948
+  },
+  "form": {
+    "last3": [
+      "D",
+      "L",
+      "W"
+    ]
+  },
+  "prediction": {
+    "tip": "away_win",
+    "tipLabel": "Bet on (2) FC Felgueiras (Stake 9/10)",
+    "confidencePct": 90,
+    "strengthComparison": "underdog"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 2.35,
+      "draw": 2.85,
+      "away": 2.87
+    },
+    "fair1X2": {
+      "home": 2.98,
+      "draw": 3.42,
+      "away": 2.69
+    },
+    "movementSummary": "home_odds_up_away_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [
+      {
+        "player": "Emanuel Fernandes",
+        "status": "injury_or_suspension",
+        "description": null
+      },
+      {
+        "player": "Tiago Ribeiro",
+        "status": "injury_or_suspension",
+        "description": null
+      }
+    ],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": 3.8,
+    "players": [
+      {
+        "name": "Francisco Meixedo",
+        "position": "GK",
+        "age": null,
+        "apps": 19,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Antonio Leal",
+        "position": "DF",
+        "age": null,
+        "apps": 32,
+        "goals": 1,
+        "rating": 5
+      },
+      {
+        "name": "Luiz Gustavo",
+        "position": "DF",
+        "age": null,
+        "apps": 29,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Ricardo Ze",
+        "position": "DF",
+        "age": null,
+        "apps": 27,
+        "goals": 1,
+        "rating": 4.3
+      },
+      {
+        "name": "Lima Joao",
+        "position": "DF",
+        "age": null,
+        "apps": 10,
+        "goals": 1,
+        "rating": 3.6
+      },
+      {
+        "name": "Samad Popoola",
+        "position": "MF",
+        "age": null,
+        "apps": 20,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Gui Meira",
+        "position": "MF",
+        "age": null,
+        "apps": 31,
+        "goals": 4,
+        "rating": 3.2
+      },
+      {
+        "name": "Jojo",
+        "position": "ST",
+        "age": null,
+        "apps": 26,
+        "goals": 1,
+        "rating": 3.7
+      },
+      {
+        "name": "Miguel",
+        "position": "ST",
+        "age": null,
+        "apps": 20,
+        "goals": 1,
+        "rating": 3.9
+      },
+      {
+        "name": "Pedrinho",
+        "position": "ST",
+        "age": null,
+        "apps": 25,
+        "goals": 2,
+        "rating": 2.9
+      },
+      {
+        "name": "Desmond Nketia",
+        "position": "ST",
+        "age": null,
+        "apps": 29,
+        "goals": 3,
+        "rating": 3.4
+      },
+      {
+        "name": "Diego Altube",
+        "position": "GK",
+        "age": null,
+        "apps": 15,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Pedro Mendes",
+        "position": "DF",
+        "age": null,
+        "apps": 5,
+        "goals": 0,
+        "rating": 5.7
+      },
+      {
+        "name": "André Lopes",
+        "position": "MF",
+        "age": null,
+        "apps": 16,
+        "goals": 0,
+        "rating": 2.5
+      },
+      {
+        "name": "Luis Airton",
+        "position": "ST",
+        "age": null,
+        "apps": 18,
+        "goals": 2,
+        "rating": 3.2
+      },
+      {
+        "name": "Kirill Klimov",
+        "position": "ST",
+        "age": null,
+        "apps": 21,
+        "goals": 0,
+        "rating": 3.7
+      },
+      {
+        "name": "Jonny Arriba",
+        "position": "ST",
+        "age": null,
+        "apps": 13,
+        "goals": 1,
+        "rating": 3.4
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Francisco Meixedo",
+      "position": "GK",
+      "age": 25,
+      "apps": 19,
+      "goals": 0,
+      "rating": 4.4
+    },
+    {
+      "name": "Diego Altube",
+      "position": "GK",
+      "age": 26,
+      "apps": 15,
+      "goals": 0,
+      "rating": 3.2
+    },
+    {
+      "name": "Robinho",
+      "position": null,
+      "age": 22,
+      "apps": 6,
+      "goals": 0,
+      "rating": 1.6
+    },
+    {
+      "name": "Bruno Silva",
+      "position": null,
+      "age": 33,
+      "apps": 14,
+      "goals": 0,
+      "rating": 2.7
+    },
+    {
+      "name": "Edgar Ié",
+      "position": null,
+      "age": 32,
+      "apps": 3,
+      "goals": 1,
+      "rating": 4.8
+    },
+    {
+      "name": "Antonio Leal",
+      "position": "DF",
+      "age": 27,
+      "apps": 32,
+      "goals": 1,
+      "rating": 5
+    },
+    {
+      "name": "Luiz Gustavo",
+      "position": "DF",
+      "age": 26,
+      "apps": 29,
+      "goals": 0,
+      "rating": 4.5
+    },
+    {
+      "name": "Ricardo Ze",
+      "position": "DF",
+      "age": 27,
+      "apps": 27,
+      "goals": 1,
+      "rating": 4.3
+    },
+    {
+      "name": "Lima Joao",
+      "position": "DF",
+      "age": 26,
+      "apps": 10,
+      "goals": 1,
+      "rating": 3.6
+    },
+    {
+      "name": "Pedro Mendes",
+      "position": "DF",
+      "age": 35,
+      "apps": 5,
+      "goals": 0,
+      "rating": 5.7
+    },
+    {
+      "name": "Emanuel Fernandes",
+      "position": null,
+      "age": 23,
+      "apps": 31,
+      "goals": 3,
+      "rating": 5.5
+    },
+    {
+      "name": "Samad Popoola",
+      "position": "MF",
+      "age": 20,
+      "apps": 20,
+      "goals": 0,
+      "rating": 2.8
+    },
+    {
+      "name": "Gui Meira",
+      "position": "MF",
+      "age": 21,
+      "apps": 31,
+      "goals": 4,
+      "rating": 3.2
+    },
+    {
+      "name": "André Lopes",
+      "position": "MF",
+      "age": 24,
+      "apps": 16,
+      "goals": 0,
+      "rating": 2.5
+    },
+    {
+      "name": "Tiago Ribeiro",
+      "position": null,
+      "age": 24,
+      "apps": 31,
+      "goals": 2,
+      "rating": 4.5
+    },
+    {
+      "name": "Luis Airton",
+      "position": "ST",
+      "age": 26,
+      "apps": 18,
+      "goals": 2,
+      "rating": 3.2
+    },
+    {
+      "name": "Miguel",
+      "position": "ST",
+      "age": 21,
+      "apps": 20,
+      "goals": 1,
+      "rating": 3.9
+    },
+    {
+      "name": "Gaston Novero",
+      "position": null,
+      "age": 27,
+      "apps": 10,
+      "goals": 0,
+      "rating": 1.8
+    },
+    {
+      "name": "Pedrinho",
+      "position": "ST",
+      "age": 22,
+      "apps": 25,
+      "goals": 2,
+      "rating": 2.9
+    },
+    {
+      "name": "Desmond Nketia",
+      "position": "ST",
+      "age": 24,
+      "apps": 29,
+      "goals": 3,
+      "rating": 3.4
+    },
+    {
+      "name": "Jonny Arriba",
+      "position": "ST",
+      "age": 24,
+      "apps": 13,
+      "goals": 1,
+      "rating": 3.4
+    },
+    {
+      "name": "Jojo",
+      "position": "ST",
+      "age": 27,
+      "apps": 26,
+      "goals": 1,
+      "rating": 3.7
+    },
+    {
+      "name": "Kirill Klimov",
+      "position": "ST",
+      "age": 25,
+      "apps": 21,
+      "goals": 0,
+      "rating": 3.7
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Hamburger SV II",
+      "rating": 1737.92
+    },
+    {
+      "name": "SV Lichtenberg 47",
+      "rating": 1737.5
+    }
+  ]
+}

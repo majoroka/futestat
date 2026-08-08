@@ -1,0 +1,68 @@
+{
+  "team": {
+    "id": "9192",
+    "name": "Tartu FC Santos",
+    "slug": "tartu-fc-santos",
+    "country": "Estonia",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Tartu-Fc-Santos/9192/",
+    "collectedAtUtc": "2026-08-08T18:26:41.859Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "low",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
+  },
+  "ratings": {
+    "overall": 1127.21,
+    "home": 1189.47,
+    "away": 1064.95
+  },
+  "rankings": {
+    "national": 83,
+    "europe": 9918
+  },
+  "form": {
+    "last3": []
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": null
+  },
+  "oddsMarket": {
+    "opening1X2": null,
+    "fair1X2": null,
+    "movementSummary": null
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Mqabba FC",
+      "rating": 1127.7
+    },
+    {
+      "name": "Brøndby IF II",
+      "rating": 1126.59
+    }
+  ]
+}

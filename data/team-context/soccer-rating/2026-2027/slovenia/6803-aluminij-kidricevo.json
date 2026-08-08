@@ -1,0 +1,338 @@
+{
+  "team": {
+    "id": "6803",
+    "name": "Aluminij Kidricevo",
+    "slug": "aluminij-kidricevo",
+    "country": "Slovenia",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Aluminij-Kidricevo/6803/",
+    "collectedAtUtc": "2026-08-08T18:28:45.496Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1692.74,
+    "home": 1680.86,
+    "away": 1704.63
+  },
+  "rankings": {
+    "national": 10,
+    "europe": 1158
+  },
+  "form": {
+    "last3": [
+      "L",
+      "L",
+      "L"
+    ]
+  },
+  "prediction": {
+    "tip": "away_or_draw",
+    "tipLabel": "Bet on (X2) NK Nafta Lendava (Stake 3/10)",
+    "confidencePct": 30,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 2.35,
+      "draw": 3.4,
+      "away": 2.65
+    },
+    "fair1X2": {
+      "home": 2.57,
+      "draw": 3.92,
+      "away": 2.81
+    },
+    "movementSummary": "home_odds_flat_away_odds_flat"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": 2.3,
+    "players": [
+      {
+        "name": "Florijan Raduha",
+        "position": "GK",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.9
+      },
+      {
+        "name": "Hanus Sørensen",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Matija Boben",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Vid Koderman",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Rok Maher",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.7
+      },
+      {
+        "name": "Matic Vrbanec",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2
+      },
+      {
+        "name": "Tomislav Jagic",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.8
+      },
+      {
+        "name": "Eric Taylor",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.1
+      },
+      {
+        "name": "Bede Osuji",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.1
+      },
+      {
+        "name": "Adriano Bloudek",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Petar Petrisko",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.1
+      },
+      {
+        "name": "Dino Simunic",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Simon Rogina",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.5
+      },
+      {
+        "name": "Bamba Susso",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.9
+      },
+      {
+        "name": "Murat Bajraj",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Vito Tezak",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.3
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Florijan Raduha",
+      "position": "GK",
+      "age": 29,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.9
+    },
+    {
+      "name": "Hanus Sørensen",
+      "position": "DF",
+      "age": 25,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.1
+    },
+    {
+      "name": "Matija Boben",
+      "position": "DF",
+      "age": 32,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.3
+    },
+    {
+      "name": "Vid Koderman",
+      "position": "DF",
+      "age": 23,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.8
+    },
+    {
+      "name": "Dino Simunic",
+      "position": "DF",
+      "age": 22,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Vito Tezak",
+      "position": "DF",
+      "age": 21,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Tomislav Jagic",
+      "position": "MF",
+      "age": 29,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.8
+    },
+    {
+      "name": "Rok Maher",
+      "position": "MF",
+      "age": 21,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.7
+    },
+    {
+      "name": "Matic Vrbanec",
+      "position": "MF",
+      "age": 29,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2
+    },
+    {
+      "name": "Eric Taylor",
+      "position": "MF",
+      "age": 25,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.1
+    },
+    {
+      "name": "Simon Rogina",
+      "position": "MF",
+      "age": 25,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.5
+    },
+    {
+      "name": "Adriano Bloudek",
+      "position": "ST",
+      "age": 22,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.8
+    },
+    {
+      "name": "Petar Petrisko",
+      "position": "ST",
+      "age": 24,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.1
+    },
+    {
+      "name": "Murat Bajraj",
+      "position": "ST",
+      "age": 26,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Bede Osuji",
+      "position": "ST",
+      "age": 30,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.1
+    },
+    {
+      "name": "Bamba Susso",
+      "position": "ST",
+      "age": 23,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.9
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "FK Ventspils II",
+      "rating": 1693.69
+    },
+    {
+      "name": "Solihull Moors FC",
+      "rating": 1693.51
+    }
+  ]
+}

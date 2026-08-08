@@ -1,0 +1,80 @@
+{
+  "team": {
+    "id": "2975",
+    "name": "Caldas SC",
+    "slug": "caldas-sc",
+    "country": "Portugal",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Caldas-Sc/2975/",
+    "collectedAtUtc": "2026-08-08T18:27:34.956Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "medium",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
+  },
+  "ratings": {
+    "overall": 1578.01,
+    "home": 1589.3,
+    "away": 1566.73
+  },
+  "rankings": {
+    "national": 73,
+    "europe": 2073
+  },
+  "form": {
+    "last3": [
+      "D",
+      "L",
+      "W"
+    ]
+  },
+  "prediction": {
+    "tip": "home_win",
+    "tipLabel": "Bet on (1) CF Os Belenenses (Stake 5/10)",
+    "confidencePct": 50,
+    "strengthComparison": "underdog"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.66,
+      "draw": 3.4,
+      "away": 4.5
+    },
+    "fair1X2": {
+      "home": 1.78,
+      "draw": 4,
+      "away": 5.31
+    },
+    "movementSummary": "home_odds_down_away_odds_up"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": []
+  },
+  "squad": [],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Victoria Mykolaivka",
+      "rating": 1584.85
+    },
+    {
+      "name": "Lamia FC",
+      "rating": 1582.09
+    }
+  ]
+}

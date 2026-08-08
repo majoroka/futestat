@@ -1,0 +1,65 @@
+{
+  "team": {
+    "id": "1439771",
+    "name": "IK Start (W)",
+    "slug": "ik-start-w",
+    "country": "NOR",
+    "logoUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/1439771.png"
+  },
+  "competition": {
+    "id": "20",
+    "name": "1. Division Kvinner"
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": false
+  },
+  "source": {
+    "provider": "fotmob",
+    "url": "https://www.fotmob.com/teams/1439771/stats/ik-start-w/teams",
+    "collectedAtUtc": "2026-08-08T18:23:53.283Z"
+  },
+  "availability": {
+    "status": "unavailable",
+    "coverage": "low",
+    "notes": "HTML capturado sem blocos estatisticos agregados extraiveis."
+  },
+  "overview": {
+    "teamRating": null,
+    "goalsPerMatch": null,
+    "goalsConcededPerMatch": null,
+    "averagePossessionPct": null,
+    "cleanSheets": null,
+    "attendanceAverage": null
+  },
+  "attack": {
+    "xg": null,
+    "xgDiff": null,
+    "shotsOnTargetPerMatch": null,
+    "bigChances": null,
+    "bigChancesMissed": null,
+    "accuratePassesPerMatch": null,
+    "accurateLongBallsPerMatch": null,
+    "accurateCrossesPerMatch": null,
+    "penaltiesAwarded": null,
+    "touchesInOppBoxPerMatch": null,
+    "cornersPerMatch": null,
+    "setPieceGoals": null
+  },
+  "defense": {
+    "xgConceded": null,
+    "interceptionsPerMatch": null,
+    "tacklesPerMatch": null,
+    "clearancesPerMatch": null,
+    "finalThirdRecoveriesPerMatch": null,
+    "setPieceGoalsConceded": null,
+    "penaltiesConceded": null,
+    "savesPerMatch": null
+  },
+  "discipline": {
+    "foulsPerMatch": null,
+    "yellowCardsPerMatch": null,
+    "redCardsPerMatch": null
+  }
+}

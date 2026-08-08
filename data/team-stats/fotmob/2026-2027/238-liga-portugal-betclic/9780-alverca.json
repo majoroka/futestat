@@ -1,0 +1,65 @@
+{
+  "team": {
+    "id": "9780",
+    "name": "Alverca",
+    "slug": "alverca",
+    "country": "Portugal",
+    "logoUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9780.png"
+  },
+  "competition": {
+    "id": "238",
+    "name": "Liga Portugal"
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "fotmob",
+    "url": "https://www.fotmob.com/teams/9780/stats/alverca/teams",
+    "collectedAtUtc": "2026-08-08T18:24:58.221Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "low",
+    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+  },
+  "overview": {
+    "teamRating": 6.6,
+    "goalsPerMatch": null,
+    "goalsConcededPerMatch": null,
+    "averagePossessionPct": null,
+    "cleanSheets": null,
+    "attendanceAverage": null
+  },
+  "attack": {
+    "xg": 1.6548000574111938,
+    "xgDiff": -1.6548000574111938,
+    "shotsOnTargetPerMatch": null,
+    "bigChances": null,
+    "bigChancesMissed": null,
+    "accuratePassesPerMatch": null,
+    "accurateLongBallsPerMatch": null,
+    "accurateCrossesPerMatch": null,
+    "penaltiesAwarded": null,
+    "touchesInOppBoxPerMatch": null,
+    "cornersPerMatch": null,
+    "setPieceGoals": null
+  },
+  "defense": {
+    "xgConceded": 0.44589999318122864,
+    "interceptionsPerMatch": null,
+    "tacklesPerMatch": null,
+    "clearancesPerMatch": null,
+    "finalThirdRecoveriesPerMatch": null,
+    "setPieceGoalsConceded": null,
+    "penaltiesConceded": null,
+    "savesPerMatch": null
+  },
+  "discipline": {
+    "foulsPerMatch": null,
+    "yellowCardsPerMatch": null,
+    "redCardsPerMatch": null
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "team": {
+    "id": "1089",
+    "name": "Vitoria Guimaraes",
+    "slug": "vitoria-guimaraes",
+    "country": "Portugal",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Vitoria-Guimaraes/1089/",
+    "collectedAtUtc": "2026-08-08T18:26:43.349Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1981.6,
+    "home": 2021.43,
+    "away": 1941.76
+  },
+  "rankings": {
+    "national": 9,
+    "europe": 272
+  },
+  "form": {
+    "last3": [
+      "L",
+      "L",
+      "L"
+    ]
+  },
+  "prediction": {
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
+    "strengthComparison": "favorite"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 1.88,
+      "draw": 3.5,
+      "away": 3.9
+    },
+    "fair1X2": {
+      "home": 1.89,
+      "draw": 3.93,
+      "away": 4.63
+    },
+    "movementSummary": "home_odds_up_away_odds_down"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": null,
+    "players": [
+      {
+        "name": "Oliwier Zych",
+        "position": "GK",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 5.3
+      },
+      {
+        "name": "Joao Mendes II.",
+        "position": "DF",
+        "age": null,
+        "apps": 29,
+        "goals": 1,
+        "rating": 6.5
+      },
+      {
+        "name": "Maga",
+        "position": "DF",
+        "age": null,
+        "apps": 22,
+        "goals": 0,
+        "rating": 5.9
+      },
+      {
+        "name": "Oscar Rivas Viondi",
+        "position": "DF",
+        "age": null,
+        "apps": 18,
+        "goals": 1,
+        "rating": 5.6
+      },
+      {
+        "name": "Thiago Balieiro",
+        "position": "DF",
+        "age": null,
+        "apps": 13,
+        "goals": 1,
+        "rating": 5
+      },
+      {
+        "name": "Goncalo Nogueira",
+        "position": "MF",
+        "age": null,
+        "apps": 23,
+        "goals": 0,
+        "rating": 6
+      },
+      {
+        "name": "Samu",
+        "position": "MF",
+        "age": null,
+        "apps": 29,
+        "goals": 7,
+        "rating": 7.1
+      },
+      {
+        "name": "Beni",
+        "position": "MF",
+        "age": null,
+        "apps": 29,
+        "goals": 1,
+        "rating": 7
+      },
+      {
+        "name": "Oumar Camara",
+        "position": "ST",
+        "age": null,
+        "apps": 30,
+        "goals": 5,
+        "rating": 7.2
+      },
+      {
+        "name": "Alioune Ndoye",
+        "position": "ST",
+        "age": null,
+        "apps": 24,
+        "goals": 2,
+        "rating": 6.7
+      },
+      {
+        "name": "Gustavo",
+        "position": "ST",
+        "age": null,
+        "apps": 23,
+        "goals": 5,
+        "rating": 6.2
+      },
+      {
+        "name": "D. C. Reyes Juan",
+        "position": "GK",
+        "age": null,
+        "apps": 15,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Tony Strata",
+        "position": "DF",
+        "age": null,
+        "apps": 21,
+        "goals": 1,
+        "rating": 5.8
+      },
+      {
+        "name": "Telmo Arcanjo",
+        "position": "ST",
+        "age": null,
+        "apps": 29,
+        "goals": 1,
+        "rating": 6.8
+      },
+      {
+        "name": "Miguel Nogueira",
+        "position": "ST",
+        "age": null,
+        "apps": 16,
+        "goals": 1,
+        "rating": 5.3
+      },
+      {
+        "name": "Francisco Dias",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.8
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "Silva Charles",
+      "position": null,
+      "age": 32,
+      "apps": 19,
+      "goals": 0,
+      "rating": 3.6
+    },
+    {
+      "name": "Oliwier Zych",
+      "position": "GK",
+      "age": 21,
+      "apps": 0,
+      "goals": 0,
+      "rating": 5.3
+    },
+    {
+      "name": "D. C. Reyes Juan",
+      "position": "GK",
+      "age": 23,
+      "apps": 15,
+      "goals": 0,
+      "rating": 4.5
+    },
+    {
+      "name": "Orest Lebedenko",
+      "position": null,
+      "age": 27,
+      "apps": 14,
+      "goals": 0,
+      "rating": 4.5
+    },
+    {
+      "name": "Miguel Nobrega",
+      "position": null,
+      "age": 26,
+      "apps": 13,
+      "goals": 1,
+      "rating": 3.6
+    },
+    {
+      "name": "R. Abascal Barros",
+      "position": null,
+      "age": 32,
+      "apps": 27,
+      "goals": 1,
+      "rating": 5.4
+    },
+    {
+      "name": "Joao Mendes II.",
+      "position": "DF",
+      "age": 26,
+      "apps": 29,
+      "goals": 1,
+      "rating": 6.5
+    },
+    {
+      "name": "Maga",
+      "position": "DF",
+      "age": 23,
+      "apps": 22,
+      "goals": 0,
+      "rating": 5.9
+    },
+    {
+      "name": "Oscar Rivas Viondi",
+      "position": "DF",
+      "age": 26,
+      "apps": 18,
+      "goals": 1,
+      "rating": 5.6
+    },
+    {
+      "name": "Thiago Balieiro",
+      "position": "DF",
+      "age": 23,
+      "apps": 13,
+      "goals": 1,
+      "rating": 5
+    },
+    {
+      "name": "Tony Strata",
+      "position": "DF",
+      "age": 21,
+      "apps": 21,
+      "goals": 1,
+      "rating": 5.8
+    },
+    {
+      "name": "Francisco Dias",
+      "position": "DF",
+      "age": 23,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.8
+    },
+    {
+      "name": "Rica Rocha",
+      "position": null,
+      "age": 22,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.5
+    },
+    {
+      "name": "Goncalo Nogueira",
+      "position": "MF",
+      "age": 22,
+      "apps": 23,
+      "goals": 0,
+      "rating": 6
+    },
+    {
+      "name": "Beni",
+      "position": "MF",
+      "age": 23,
+      "apps": 29,
+      "goals": 1,
+      "rating": 7
+    },
+    {
+      "name": "Diogo Sousa",
+      "position": null,
+      "age": 20,
+      "apps": 22,
+      "goals": 1,
+      "rating": 5.7
+    },
+    {
+      "name": "Samu",
+      "position": "MF",
+      "age": 30,
+      "apps": 29,
+      "goals": 7,
+      "rating": 7.1
+    },
+    {
+      "name": "Nelson Oliveira",
+      "position": null,
+      "age": 34,
+      "apps": 26,
+      "goals": 3,
+      "rating": 4.6
+    },
+    {
+      "name": "Zeega",
+      "position": null,
+      "age": 17,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.7
+    },
+    {
+      "name": "Oumar Camara",
+      "position": "ST",
+      "age": 19,
+      "apps": 30,
+      "goals": 5,
+      "rating": 7.2
+    },
+    {
+      "name": "Gustavo",
+      "position": "ST",
+      "age": 26,
+      "apps": 23,
+      "goals": 5,
+      "rating": 6.2
+    },
+    {
+      "name": "Telmo Arcanjo",
+      "position": "ST",
+      "age": 24,
+      "apps": 29,
+      "goals": 1,
+      "rating": 6.8
+    },
+    {
+      "name": "Miguel Nogueira",
+      "position": "ST",
+      "age": 21,
+      "apps": 16,
+      "goals": 1,
+      "rating": 5.3
+    },
+    {
+      "name": "Noah Saviolo",
+      "position": null,
+      "age": 22,
+      "apps": 30,
+      "goals": 2,
+      "rating": 6.5
+    },
+    {
+      "name": "Fabio Blanco",
+      "position": null,
+      "age": 22,
+      "apps": 15,
+      "goals": 0,
+      "rating": 5.6
+    },
+    {
+      "name": "Ejike Opara",
+      "position": null,
+      "age": 20,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4.8
+    },
+    {
+      "name": "Alioune Ndoye",
+      "position": "ST",
+      "age": 24,
+      "apps": 24,
+      "goals": 2,
+      "rating": 6.7
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "Vasteras SK FK",
+      "rating": 1981.66
+    },
+    {
+      "name": "Corum FK",
+      "rating": 1981.35
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "team": {
+    "id": "188163",
+    "name": "Tondela",
+    "slug": "tondela",
+    "country": "Portugal",
+    "logoUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/188163.png"
+  },
+  "competition": {
+    "id": "239",
+    "name": "Liga Portugal 2"
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "fotmob",
+    "url": "https://www.fotmob.com/teams/188163/stats/tondela/teams",
+    "collectedAtUtc": "2026-08-08T18:24:50.170Z"
+  },
+  "availability": {
+    "status": "partial",
+    "coverage": "low",
+    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+  },
+  "overview": {
+    "teamRating": 6.3,
+    "goalsPerMatch": null,
+    "goalsConcededPerMatch": null,
+    "averagePossessionPct": null,
+    "cleanSheets": null,
+    "attendanceAverage": null
+  },
+  "attack": {
+    "xg": null,
+    "xgDiff": null,
+    "shotsOnTargetPerMatch": null,
+    "bigChances": null,
+    "bigChancesMissed": null,
+    "accuratePassesPerMatch": null,
+    "accurateLongBallsPerMatch": null,
+    "accurateCrossesPerMatch": null,
+    "penaltiesAwarded": null,
+    "touchesInOppBoxPerMatch": null,
+    "cornersPerMatch": null,
+    "setPieceGoals": null
+  },
+  "defense": {
+    "xgConceded": null,
+    "interceptionsPerMatch": null,
+    "tacklesPerMatch": null,
+    "clearancesPerMatch": null,
+    "finalThirdRecoveriesPerMatch": null,
+    "setPieceGoalsConceded": null,
+    "penaltiesConceded": null,
+    "savesPerMatch": null
+  },
+  "discipline": {
+    "foulsPerMatch": null,
+    "yellowCardsPerMatch": null,
+    "redCardsPerMatch": null
+  }
+}
