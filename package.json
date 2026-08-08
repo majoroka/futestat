@@ -21,6 +21,7 @@
     "refresh:fixtures-local": "node scripts/refresh-fixtures-local.mjs",
     "report:team-coverage": "node --import tsx src/manual/report-team-coverage.ts",
     "scrape:fixtures": "node --import tsx src/cli.ts",
+    "sync:team-source-registry": "node --import tsx src/manual/sync-team-source-registry.ts",
     "test": "node --import tsx --test test/**/*.test.ts",
     "validate:team-data": "node --import tsx src/manual/validate-team-data.ts"
   },

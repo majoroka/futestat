@@ -19,6 +19,7 @@ Estado atual:
 - `parse:all-team-pages` operacional
 - `validate:team-data` operacional
 - `report:team-coverage` operacional
+- `sync:team-source-registry` operacional
 - `build:match-view` operacional
 
 Os contratos finais de argumentos, manifestos e codigos de saida ficam definidos em:
@@ -264,6 +265,24 @@ Este comando:
 - lê `data/fixtures/latest.json`
 - cruza as equipas da janela atual com os índices `FotMob` e `Soccer-Rating`
 - mostra que equipas já têm dados manuais e quais ainda precisam de captura por fonte
+
+### 7. Sincronizacao do registo canonico de equipas/fontes
+
+```bash
+npm run sync:team-source-registry
+```
+
+Saida esperada:
+
+```text
+data/team-source-registry.json
+```
+
+Este comando:
+- lê `data/fixtures/latest.json`
+- gera ou atualiza um registo único por equipa do `Sofascore`
+- preserva mapeamentos manuais já preenchidos para `FotMob` e `Soccer-Rating`
+- acrescenta equipas novas da janela atual com estado `pending`
 
 ## Ordem manual recomendada
 

@@ -13,6 +13,7 @@ Para a futura camada de estatísticas de equipa, a arquitetura prevista é delib
 - captura manual de HTML
 - parse local para JSON
 - relatório de cobertura por equipa a partir do snapshot atual
+- registo canónico de equipas/fontes mantido a partir do snapshot atual
 - composição opcional de um `match_view` derivado
 
 Na operação em GitHub, a persistência fica também separada por ramo:
@@ -79,6 +80,7 @@ Persistência local em JSON:
 - `data/fixtures/runs/fixtures-metrics-<timestamp>.json`
 - `data/fixtures/diagnostics/<run>/<date>/attempt-<n>.{html,png}`
 - `data/team-coverage/latest.json`
+- `data/team-source-registry.json`
 
 Persistência remota automatizada:
 - ramo `fixtures-data`
@@ -197,6 +199,7 @@ Padrão previsto:
 - persistência do HTML bruto em disco
 - parser local por fonte
 - relatório local de cobertura por equipa, cruzando snapshot público com índices manuais
+- registo local de mapeamento entre `Sofascore` e fontes manuais, preservado entre janelas
 - JSON normalizado por equipa/época
 - composição opcional de um `match_view` para a interface
 

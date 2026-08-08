@@ -139,6 +139,8 @@ Entregáveis já introduzidos:
 - deteção inicial de estados `not_started`, `partial`, `available`, `unavailable` e `archived`
 - composição derivada `match_view.json` a partir de fixture, detalhe, classificação e dados manuais de equipa
 - ligação opcional por `sofascoreTeamId` nos dados manuais para resolver equipas no `match_view` com menos dependência de slugs aproximados
+- relatório `team-coverage` para medir a cobertura real das equipas do snapshot por fonte manual
+- registo `team-source-registry.json` para preservar o mapeamento canónico das equipas entre `Sofascore`, `FotMob` e `Soccer-Rating`
 
 ## Critérios de qualidade antes de avançar
 

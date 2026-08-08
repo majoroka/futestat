@@ -371,6 +371,7 @@ Comandos agregadores já operacionais:
 npm run parse:all-team-pages
 npm run validate:team-data
 npm run report:team-coverage
+npm run sync:team-source-registry
 ```
 
 Estes comandos:
@@ -378,6 +379,7 @@ Estes comandos:
 - reconstroem os JSON normalizados das duas fontes
 - validam manifestos, paths e campos mínimos antes de build/deploy
 - medem a cobertura das equipas presentes no snapshot atual e mostram o que ainda falta captar por fonte
+- sincronizam um registo canónico de equipas/fontes em `data/team-source-registry.json`, preservando mapeamentos manuais já preenchidos
 
 Nota técnica:
 - `data/fixtures/` fica ignorado no `main`
