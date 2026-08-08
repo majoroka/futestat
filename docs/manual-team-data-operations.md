@@ -18,6 +18,7 @@ Estado atual:
 - `parse:soccer-rating-team-context` operacional
 - `parse:all-team-pages` operacional
 - `validate:team-data` operacional
+- `report:team-coverage` operacional
 - `build:match-view` operacional
 
 Os contratos finais de argumentos, manifestos e codigos de saida ficam definidos em:
@@ -246,6 +247,23 @@ Saida esperada:
 ```text
 data/match-view/2026-08-15/16350227.json
 ```
+
+### 6. Relatorio de cobertura das equipas da janela atual
+
+```bash
+npm run report:team-coverage
+```
+
+Saida esperada:
+
+```text
+data/team-coverage/latest.json
+```
+
+Este comando:
+- lê `data/fixtures/latest.json`
+- cruza as equipas da janela atual com os índices `FotMob` e `Soccer-Rating`
+- mostra que equipas já têm dados manuais e quais ainda precisam de captura por fonte
 
 ## Ordem manual recomendada
 

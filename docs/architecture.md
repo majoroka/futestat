@@ -12,6 +12,7 @@ Para a futura camada de estatísticas de equipa, a arquitetura prevista é delib
 - `FotMob` e `Soccer-Rating` fora do pipeline principal
 - captura manual de HTML
 - parse local para JSON
+- relatório de cobertura por equipa a partir do snapshot atual
 - composição opcional de um `match_view` derivado
 
 Na operação em GitHub, a persistência fica também separada por ramo:
@@ -77,6 +78,7 @@ Persistência local em JSON:
 - `data/fixtures/runs/fixtures-window-<timestamp>.json`
 - `data/fixtures/runs/fixtures-metrics-<timestamp>.json`
 - `data/fixtures/diagnostics/<run>/<date>/attempt-<n>.{html,png}`
+- `data/team-coverage/latest.json`
 
 Persistência remota automatizada:
 - ramo `fixtures-data`
@@ -194,6 +196,7 @@ Padrão previsto:
 - captura manual da página no browser
 - persistência do HTML bruto em disco
 - parser local por fonte
+- relatório local de cobertura por equipa, cruzando snapshot público com índices manuais
 - JSON normalizado por equipa/época
 - composição opcional de um `match_view` para a interface
 

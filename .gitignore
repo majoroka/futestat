@@ -4,6 +4,7 @@ coverage/
 .DS_Store
 .env
 data/fixtures/
+data/team-coverage/
 data/match-view/
 playwright-report/
 test-results/

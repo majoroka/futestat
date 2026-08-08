@@ -370,12 +370,14 @@ Comandos agregadores já operacionais:
 ```bash
 npm run parse:all-team-pages
 npm run validate:team-data
+npm run report:team-coverage
 ```
 
 Estes comandos:
 - processam em lote as capturas registadas em `raw/team-pages/manifest.json`
 - reconstroem os JSON normalizados das duas fontes
 - validam manifestos, paths e campos mínimos antes de build/deploy
+- medem a cobertura das equipas presentes no snapshot atual e mostram o que ainda falta captar por fonte
 
 Nota técnica:
 - `data/fixtures/` fica ignorado no `main`

@@ -19,6 +19,7 @@
     "parse:soccer-rating-team-context": "node --import tsx src/manual/parse-soccer-rating-team-context.ts",
     "publish:fixtures-data": "node scripts/publish-fixtures-data.mjs",
     "refresh:fixtures-local": "node scripts/refresh-fixtures-local.mjs",
+    "report:team-coverage": "node --import tsx src/manual/report-team-coverage.ts",
     "scrape:fixtures": "node --import tsx src/cli.ts",
     "test": "node --import tsx --test test/**/*.test.ts",
     "validate:team-data": "node --import tsx src/manual/validate-team-data.ts"
