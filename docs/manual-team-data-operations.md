@@ -13,6 +13,7 @@ Este documento fecha as decisoes de:
 - comandos previstos
 
 Estado atual:
+- `autofill:team-source-registry` operacional
 - `capture:team-page` operacional
 - `parse:fotmob-team-stats` operacional
 - `parse:soccer-rating-team-context` operacional
@@ -284,6 +285,30 @@ Este comando:
 - preserva mapeamentos manuais já preenchidos para `FotMob` e `Soccer-Rating`
 - acrescenta equipas novas da janela atual com estado `pending`
 
+### 8. Autofill conservador do registo de equipas/fontes
+
+```bash
+npm run autofill:team-source-registry
+```
+
+Exemplos:
+
+```bash
+npm run autofill:team-source-registry -- --source=fotmob --limit=25
+npm run autofill:team-source-registry -- --team-id=3006 --dry-run=true
+```
+
+Este comando:
+- lê `data/team-source-registry.json`
+- tenta mapear equipas pendentes por pesquisa remota no `FotMob` e no `Soccer-Rating`
+- grava apenas mapeamentos com confiança suficiente
+- mantém pendentes os casos ambíguos para revisão manual posterior
+
+Notas operacionais:
+- continua a ser um script manual
+- usa atrasos entre pedidos para reduzir risco de bloqueio
+- se um domínio devolver `403`, a execução falha logo para evitar insistência
+
 ## Ordem manual recomendada
 
 ### Fluxo normal
@@ -293,11 +318,15 @@ Este comando:
 3. atualizar classificacoes, quando aplicavel
 4. capturar paginas `FotMob`
 5. capturar paginas `Soccer-Rating`
-6. correr `parse:fotmob-team-stats`
-7. correr `parse:soccer-rating-team-context`
-8. correr `build:match-view` ou `build:match-views-window` quando houver novo HTML/manual data relevante
-9. validar localmente
-10. fazer deploy quando necessario
+6. correr `sync:team-source-registry`
+7. correr `autofill:team-source-registry`
+8. capturar paginas `FotMob`
+9. capturar paginas `Soccer-Rating`
+10. correr `parse:fotmob-team-stats`
+11. correr `parse:soccer-rating-team-context`
+12. correr `build:match-view` ou `build:match-views-window` quando houver novo HTML/manual data relevante
+13. validar localmente
+14. fazer deploy quando necessario
 
 ## Regras de atualizacao
 

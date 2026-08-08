@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-08-08T17:01:32.310Z",
+  "generatedAtUtc": "2026-08-08T17:57:57.491Z",
   "referenceDate": "2026-08-08",
   "snapshotPath": "data/fixtures/latest.json",
   "entries": [
@@ -15,12 +15,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "161728",
           "teamSlug": "aldosivi",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/161728/stats/aldosivi/teams",
           "notes": null
         },
         "soccerRating": {
@@ -29,7 +29,7 @@
           "teamSlug": "aldosivi",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -45,12 +45,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "argentinos-jrs",
+          "status": "mapped",
+          "sourceTeamId": "10086",
+          "teamSlug": "argentinos-juniors",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10086/stats/argentinos-juniors/teams",
           "notes": null
         },
         "soccerRating": {
@@ -59,7 +59,7 @@
           "teamSlug": "argentinos-jrs",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -75,12 +75,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "161727",
           "teamSlug": "atletico-tucuman",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/161727/stats/atletico-tucuman/teams",
           "notes": null
         },
         "soccerRating": {
@@ -89,7 +89,7 @@
           "teamSlug": "atletico-tucuman",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -105,12 +105,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "barracas",
+          "status": "mapped",
+          "sourceTeamId": "213534",
+          "teamSlug": "barracas-central",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/213534/stats/barracas-central/teams",
           "notes": null
         },
         "soccerRating": {
@@ -119,7 +119,7 @@
           "teamSlug": "barracas",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -135,12 +135,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10077",
           "teamSlug": "boca-juniors",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10077/stats/boca-juniors/teams",
           "notes": null
         },
         "soccerRating": {
@@ -149,7 +149,7 @@
           "teamSlug": "boca-juniors",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -165,12 +165,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "def-y-justicia",
+          "status": "mapped",
+          "sourceTeamId": "161730",
+          "teamSlug": "defensa-y-justicia",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/161730/stats/defensa-y-justicia/teams",
           "notes": null
         },
         "soccerRating": {
@@ -179,7 +179,7 @@
           "teamSlug": "def-y-justicia",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -195,12 +195,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dep-riestra",
+          "status": "mapped",
+          "sourceTeamId": "298629",
+          "teamSlug": "deportivo-riestra",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/298629/stats/deportivo-riestra/teams",
           "notes": null
         },
         "soccerRating": {
@@ -209,7 +209,7 @@
           "teamSlug": "dep-riestra",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -225,12 +225,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10094",
           "teamSlug": "estudiantes",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10094/stats/estudiantes/teams",
           "notes": null
         },
         "soccerRating": {
@@ -239,7 +239,7 @@
           "teamSlug": "estudiantes",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -261,7 +261,7 @@
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -269,7 +269,7 @@
           "teamSlug": "estudiantes-r-c",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -285,12 +285,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "gimnasia",
+          "status": "mapped",
+          "sourceTeamId": "10103",
+          "teamSlug": "gimnasia-lp",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10103/stats/gimnasia-lp/teams",
           "notes": null
         },
         "soccerRating": {
@@ -299,7 +299,7 @@
           "teamSlug": "gimnasia",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -315,12 +315,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "568727",
           "teamSlug": "gimnasia-mendoza",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/568727/stats/gimnasia-mendoza/teams",
           "notes": null
         },
         "soccerRating": {
@@ -329,7 +329,7 @@
           "teamSlug": "gimnasia-mendoza",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -345,20 +345,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10081",
           "teamSlug": "huracan",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10081/stats/huracan/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "huracan",
+          "status": "mapped",
+          "sourceTeamId": "7400",
+          "teamSlug": "huracan-valencia",
           "countrySlug": "argentina",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Huracan-Valencia/7400/",
           "notes": null
         }
       }
@@ -381,7 +381,7 @@
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -389,7 +389,7 @@
           "teamSlug": "ind-rivadavia",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -405,12 +405,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10078",
           "teamSlug": "independiente",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10078/stats/independiente/teams",
           "notes": null
         },
         "soccerRating": {
@@ -419,7 +419,7 @@
           "teamSlug": "independiente",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -435,12 +435,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10090",
           "teamSlug": "instituto",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10090/stats/instituto/teams",
           "notes": null
         },
         "soccerRating": {
@@ -449,7 +449,7 @@
           "teamSlug": "instituto",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -471,7 +471,7 @@
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -479,7 +479,7 @@
           "teamSlug": "newell-s",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -495,12 +495,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "platense",
+          "status": "mapped",
+          "sourceTeamId": "10089",
+          "teamSlug": "club-atletico-platense",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10089/stats/club-atletico-platense/teams",
           "notes": null
         },
         "soccerRating": {
@@ -509,7 +509,7 @@
           "teamSlug": "platense",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -525,20 +525,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "racing",
+          "status": "mapped",
+          "sourceTeamId": "10080",
+          "teamSlug": "racing-club",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10080/stats/racing-club/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "racing",
+          "status": "mapped",
+          "sourceTeamId": "1438",
+          "teamSlug": "racing-92-fc",
           "countrySlug": "argentina",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Racing-92-FC/1438/",
           "notes": null
         }
       }
@@ -555,12 +555,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10076",
           "teamSlug": "river-plate",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10076/stats/river-plate/teams",
           "notes": null
         },
         "soccerRating": {
@@ -569,7 +569,7 @@
           "teamSlug": "river-plate",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -585,12 +585,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10084",
           "teamSlug": "rosario-central",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10084/stats/rosario-central/teams",
           "notes": null
         },
         "soccerRating": {
@@ -599,7 +599,7 @@
           "teamSlug": "rosario-central",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -615,12 +615,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10083",
           "teamSlug": "san-lorenzo",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10083/stats/san-lorenzo/teams",
           "notes": null
         },
         "soccerRating": {
@@ -629,7 +629,7 @@
           "teamSlug": "san-lorenzo",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -645,12 +645,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "202757",
           "teamSlug": "sarmiento",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/202757/stats/sarmiento/teams",
           "notes": null
         },
         "soccerRating": {
@@ -659,7 +659,7 @@
           "teamSlug": "sarmiento",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -675,12 +675,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "89396",
           "teamSlug": "tigre",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/89396/stats/tigre/teams",
           "notes": null
         },
         "soccerRating": {
@@ -689,7 +689,7 @@
           "teamSlug": "tigre",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -705,12 +705,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10079",
           "teamSlug": "velez-sarsfield",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10079/stats/velez-sarsfield/teams",
           "notes": null
         },
         "soccerRating": {
@@ -719,7 +719,7 @@
           "teamSlug": "velez-sarsfield",
           "countrySlug": "argentina",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -735,20 +735,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "athletico",
+          "status": "mapped",
+          "sourceTeamId": "10273",
+          "teamSlug": "athletico-paranaense",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10273/stats/athletico-paranaense/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "athletico",
+          "status": "mapped",
+          "sourceTeamId": "8058",
+          "teamSlug": "athletico-marseille",
           "countrySlug": "brazil",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Athletico-Marseille/8058/",
           "notes": null
         }
       }
@@ -765,12 +765,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10272",
           "teamSlug": "atletico-mg",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10272/stats/atletico-mg/teams",
           "notes": null
         },
         "soccerRating": {
@@ -779,7 +779,7 @@
           "teamSlug": "atletico-mg",
           "countrySlug": "brazil",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -795,12 +795,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "7877",
           "teamSlug": "bahia",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/7877/stats/bahia/teams",
           "notes": null
         },
         "soccerRating": {
@@ -809,7 +809,7 @@
           "teamSlug": "bahia",
           "countrySlug": "brazil",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -831,7 +831,7 @@
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -839,7 +839,7 @@
           "teamSlug": "botafogo",
           "countrySlug": "brazil",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -855,12 +855,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "chapecoense",
+          "status": "mapped",
+          "sourceTeamId": "197693",
+          "teamSlug": "chapecoense-af",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/197693/stats/chapecoense-af/teams",
           "notes": null
         },
         "soccerRating": {
@@ -869,7 +869,7 @@
           "teamSlug": "chapecoense",
           "countrySlug": "brazil",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -885,20 +885,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9808",
           "teamSlug": "corinthians",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9808/stats/corinthians/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "corinthians",
+          "status": "mapped",
+          "sourceTeamId": "8624",
+          "teamSlug": "college-corinthians",
           "countrySlug": "brazil",
-          "url": null,
+          "url": "https://www.soccer-rating.com/College-Corinthians/8624/",
           "notes": null
         }
       }
@@ -915,12 +915,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9767",
           "teamSlug": "coritiba",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9767/stats/coritiba/teams",
           "notes": null
         },
         "soccerRating": {
@@ -929,7 +929,7 @@
           "teamSlug": "coritiba",
           "countrySlug": "brazil",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -945,12 +945,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9781",
           "teamSlug": "cruzeiro",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9781/stats/cruzeiro/teams",
           "notes": null
         },
         "soccerRating": {
@@ -959,7 +959,7 @@
           "teamSlug": "cruzeiro",
           "countrySlug": "brazil",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -975,12 +975,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9770",
           "teamSlug": "flamengo",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9770/stats/flamengo/teams",
           "notes": null
         },
         "soccerRating": {
@@ -989,7 +989,7 @@
           "teamSlug": "flamengo",
           "countrySlug": "brazil",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -1005,12 +1005,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9863",
           "teamSlug": "fluminense",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9863/stats/fluminense/teams",
           "notes": null
         },
         "soccerRating": {
@@ -1019,7 +1019,7 @@
           "teamSlug": "fluminense",
           "countrySlug": "brazil",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -1035,12 +1035,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9769",
           "teamSlug": "gremio",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9769/stats/gremio/teams",
           "notes": null
         },
         "soccerRating": {
@@ -1049,7 +1049,7 @@
           "teamSlug": "gremio",
           "countrySlug": "brazil",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -1065,20 +1065,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8702",
           "teamSlug": "internacional",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8702/stats/internacional/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "internacional",
+          "status": "mapped",
+          "sourceTeamId": "13490",
+          "teamSlug": "cf-internacional-de-madrid",
           "countrySlug": "brazil",
-          "url": null,
+          "url": "https://www.soccer-rating.com/CF-Internacional-de-Madrid/13490/",
           "notes": null
         }
       }
@@ -1095,12 +1095,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "163782",
           "teamSlug": "mirassol",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/163782/stats/mirassol/teams",
           "notes": null
         },
         "soccerRating": {
@@ -1109,7 +1109,7 @@
           "teamSlug": "mirassol",
           "countrySlug": "brazil",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -1125,12 +1125,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10283",
           "teamSlug": "palmeiras",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10283/stats/palmeiras/teams",
           "notes": null
         },
         "soccerRating": {
@@ -1139,7 +1139,7 @@
           "teamSlug": "palmeiras",
           "countrySlug": "brazil",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -1161,7 +1161,7 @@
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -1169,7 +1169,7 @@
           "teamSlug": "rb-bragantino",
           "countrySlug": "brazil",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -1185,12 +1185,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1626",
           "teamSlug": "remo",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1626/stats/remo/teams",
           "notes": null
         },
         "soccerRating": {
@@ -1199,7 +1199,7 @@
           "teamSlug": "remo",
           "countrySlug": "brazil",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -1215,20 +1215,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "santos",
+          "status": "mapped",
+          "sourceTeamId": "8514",
+          "teamSlug": "santos-fc",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8514/stats/santos-fc/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "santos",
+          "status": "mapped",
+          "sourceTeamId": "9192",
+          "teamSlug": "tartu-fc-santos",
           "countrySlug": "brazil",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Tartu-FC-Santos/9192/",
           "notes": null
         }
       }
@@ -1245,12 +1245,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10277",
           "teamSlug": "sao-paulo",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10277/stats/sao-paulo/teams",
           "notes": null
         },
         "soccerRating": {
@@ -1259,7 +1259,7 @@
           "teamSlug": "sao-paulo",
           "countrySlug": "brazil",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -1281,7 +1281,7 @@
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -1289,7 +1289,7 @@
           "teamSlug": "vasco",
           "countrySlug": "brazil",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -1305,20 +1305,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "7733",
           "teamSlug": "vitoria",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/7733/stats/vitoria/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "vitoria",
+          "status": "mapped",
+          "sourceTeamId": "1089",
+          "teamSlug": "vitoria-guimaraes",
           "countrySlug": "brazil",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Vitoria-Guimaraes/1089/",
           "notes": null
         }
       }
@@ -1341,7 +1341,7 @@
           "competitionId": "247",
           "competitionSlug": "parva-liga",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -1349,7 +1349,7 @@
           "teamSlug": "arda",
           "countrySlug": "bulgaria",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -1371,14 +1371,14 @@
           "competitionId": "247",
           "competitionSlug": "parva-liga",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "cherno-more",
+          "status": "mapped",
+          "sourceTeamId": "644",
+          "teamSlug": "cherno-more-varna",
           "countrySlug": "bulgaria",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Cherno-More-Varna/644/",
           "notes": null
         }
       }
@@ -1401,14 +1401,14 @@
           "competitionId": "247",
           "competitionSlug": "parva-liga",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "13235",
           "teamSlug": "cska-1948-sofia",
           "countrySlug": "bulgaria",
-          "url": null,
+          "url": "https://www.soccer-rating.com/CSKA-1948-Sofia/13235/",
           "notes": null
         }
       }
@@ -1425,20 +1425,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10144",
           "teamSlug": "cska-sofia",
           "competitionId": "247",
           "competitionSlug": "parva-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10144/stats/cska-sofia/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1456",
           "teamSlug": "cska-sofia",
           "countrySlug": "bulgaria",
-          "url": null,
+          "url": "https://www.soccer-rating.com/CSKA-Sofia/1456/",
           "notes": null
         }
       }
@@ -1461,7 +1461,7 @@
           "competitionId": "247",
           "competitionSlug": "parva-liga",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -1469,7 +1469,7 @@
           "teamSlug": "dunav",
           "countrySlug": "bulgaria",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -1485,20 +1485,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8632",
           "teamSlug": "levski-sofia",
           "competitionId": "247",
           "competitionSlug": "parva-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8632/stats/levski-sofia/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1295",
           "teamSlug": "levski-sofia",
           "countrySlug": "bulgaria",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Levski-Sofia/1295/",
           "notes": null
         }
       }
@@ -1515,20 +1515,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10129",
           "teamSlug": "lokomotiv-plovdiv",
           "competitionId": "247",
           "competitionSlug": "parva-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10129/stats/lokomotiv-plovdiv/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1458",
           "teamSlug": "lokomotiv-plovdiv",
           "countrySlug": "bulgaria",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Lokomotiv-Plovdiv/1458/",
           "notes": null
         }
       }
@@ -1551,14 +1551,14 @@
           "competitionId": "247",
           "competitionSlug": "parva-liga",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1457",
           "teamSlug": "lokomotiv-sofia",
           "countrySlug": "bulgaria",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Lokomotiv-Sofia/1457/",
           "notes": null
         }
       }
@@ -1575,20 +1575,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "ludogorets",
+          "status": "mapped",
+          "sourceTeamId": "210173",
+          "teamSlug": "ludogorets-razgrad",
           "competitionId": "247",
           "competitionSlug": "parva-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/210173/stats/ludogorets-razgrad/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "ludogorets",
+          "status": "mapped",
+          "sourceTeamId": "7254",
+          "teamSlug": "ludogorets-razgrad",
           "countrySlug": "bulgaria",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Ludogorets-Razgrad/7254/",
           "notes": null
         }
       }
@@ -1605,20 +1605,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "septemvri",
+          "status": "mapped",
+          "sourceTeamId": "312976",
+          "teamSlug": "septemvri-sofia",
           "competitionId": "247",
           "competitionSlug": "parva-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/312976/stats/septemvri-sofia/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "septemvri",
+          "status": "mapped",
+          "sourceTeamId": "11755",
+          "teamSlug": "fk-septemvri-sofia",
           "countrySlug": "bulgaria",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FK-Septemvri-Sofia/11755/",
           "notes": null
         }
       }
@@ -1635,20 +1635,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dinamo",
+          "status": "mapped",
+          "sourceTeamId": "10156",
+          "teamSlug": "dinamo-zagreb",
           "competitionId": "170",
           "competitionSlug": "hnl",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10156/stats/dinamo-zagreb/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dinamo",
+          "status": "mapped",
+          "sourceTeamId": "484",
+          "teamSlug": "dinamo-zagreb",
           "countrySlug": "croatia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Dinamo-Zagreb/484/",
           "notes": null
         }
       }
@@ -1665,20 +1665,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "7972",
           "teamSlug": "gorica",
           "competitionId": "170",
           "competitionSlug": "hnl",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/7972/stats/gorica/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "gorica",
+          "status": "mapped",
+          "sourceTeamId": "520",
+          "teamSlug": "nd-gorica",
           "countrySlug": "croatia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/ND-Gorica/520/",
           "notes": null
         }
       }
@@ -1695,20 +1695,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "hajduk",
+          "status": "mapped",
+          "sourceTeamId": "10154",
+          "teamSlug": "hajduk-split",
           "competitionId": "170",
           "competitionSlug": "hnl",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10154/stats/hajduk-split/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "hajduk",
+          "status": "mapped",
+          "sourceTeamId": "645",
+          "teamSlug": "fk-hajduk-kula",
           "countrySlug": "croatia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FK-Hajduk-Kula/645/",
           "notes": null
         }
       }
@@ -1731,14 +1731,14 @@
           "competitionId": "170",
           "competitionSlug": "hnl",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "istra",
+          "status": "mapped",
+          "sourceTeamId": "3439",
+          "teamSlug": "fk-istra",
           "countrySlug": "croatia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FK-Istra/3439/",
           "notes": null
         }
       }
@@ -1755,20 +1755,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "lokomotiva",
+          "status": "mapped",
+          "sourceTeamId": "175388",
+          "teamSlug": "nk-lokomotiva",
           "competitionId": "170",
           "competitionSlug": "hnl",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/175388/stats/nk-lokomotiva/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "lokomotiva",
+          "status": "mapped",
+          "sourceTeamId": "8329",
+          "teamSlug": "nk-lokomotiva",
           "countrySlug": "croatia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/NK-Lokomotiva/8329/",
           "notes": null
         }
       }
@@ -1785,20 +1785,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10157",
           "teamSlug": "osijek",
           "competitionId": "170",
           "competitionSlug": "hnl",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10157/stats/osijek/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "osijek",
+          "status": "mapped",
+          "sourceTeamId": "638",
+          "teamSlug": "nk-osijek",
           "countrySlug": "croatia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/NK-Osijek/638/",
           "notes": null
         }
       }
@@ -1815,20 +1815,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10162",
           "teamSlug": "rijeka",
           "competitionId": "170",
           "competitionSlug": "hnl",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10162/stats/rijeka/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "rijeka",
+          "status": "mapped",
+          "sourceTeamId": "636",
+          "teamSlug": "nk-rijeka",
           "countrySlug": "croatia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/NK-Rijeka/636/",
           "notes": null
         }
       }
@@ -1845,20 +1845,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "187866",
           "teamSlug": "rudes",
           "competitionId": "170",
           "competitionSlug": "hnl",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/187866/stats/rudes/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "rudes",
+          "status": "mapped",
+          "sourceTeamId": "5711",
+          "teamSlug": "nk-rudes",
           "countrySlug": "croatia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/NK-Rudes/5711/",
           "notes": null
         }
       }
@@ -1875,12 +1875,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1581",
           "teamSlug": "slaven",
           "competitionId": "170",
           "competitionSlug": "hnl",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1581/stats/slaven/teams",
           "notes": null
         },
         "soccerRating": {
@@ -1889,7 +1889,7 @@
           "teamSlug": "slaven",
           "countrySlug": "croatia",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -1905,12 +1905,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "varazdin",
+          "status": "mapped",
+          "sourceTeamId": "10165",
+          "teamSlug": "nk-varazdin",
           "competitionId": "170",
           "competitionSlug": "hnl",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10165/stats/nk-varazdin/teams",
           "notes": null
         },
         "soccerRating": {
@@ -1919,7 +1919,7 @@
           "teamSlug": "varazdin",
           "countrySlug": "croatia",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -1935,12 +1935,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8404",
           "teamSlug": "aalesund",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8404/stats/aalesund/teams",
           "notes": null
         },
         "soccerRating": {
@@ -1949,7 +1949,7 @@
           "teamSlug": "aalesund",
           "countrySlug": "norway",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -1965,12 +1965,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8402",
           "teamSlug": "bod-glimt",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8402/stats/bod-glimt/teams",
           "notes": null
         },
         "soccerRating": {
@@ -1979,7 +1979,7 @@
           "teamSlug": "bod-glimt",
           "countrySlug": "norway",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -1995,20 +1995,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8417",
           "teamSlug": "fredrikstad",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8417/stats/fredrikstad/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "fredrikstad",
+          "status": "mapped",
+          "sourceTeamId": "73",
+          "teamSlug": "fredrikstad-fk",
           "countrySlug": "norway",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Fredrikstad-FK/73/",
           "notes": null
         }
       }
@@ -2025,20 +2025,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "hamkam",
+          "status": "mapped",
+          "sourceTeamId": "1439770",
+          "teamSlug": "hamkam-w",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1439770/stats/hamkam-w/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "hamkam",
+          "status": "mapped",
+          "sourceTeamId": "112",
+          "teamSlug": "ham-kam",
           "countrySlug": "norway",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Ham-Kam/112/",
           "notes": null
         }
       }
@@ -2055,12 +2055,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "ik-start",
+          "status": "mapped",
+          "sourceTeamId": "1439771",
+          "teamSlug": "ik-start-w",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1439771/stats/ik-start-w/teams",
           "notes": null
         },
         "soccerRating": {
@@ -2069,7 +2069,7 @@
           "teamSlug": "ik-start",
           "countrySlug": "norway",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -2091,14 +2091,14 @@
           "competitionId": "20",
           "competitionSlug": "eliteserien",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "kfum-oslo",
+          "status": "mapped",
+          "sourceTeamId": "3243",
+          "teamSlug": "kfum-kam-oslo",
           "countrySlug": "norway",
-          "url": null,
+          "url": "https://www.soccer-rating.com/KFUM-Kam-Oslo/3243/",
           "notes": null
         }
       }
@@ -2115,20 +2115,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8605",
           "teamSlug": "kristiansund",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8605/stats/kristiansund/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "kristiansund",
+          "status": "mapped",
+          "sourceTeamId": "402",
+          "teamSlug": "kristiansund-bk",
           "countrySlug": "norway",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Kristiansund-BK/402/",
           "notes": null
         }
       }
@@ -2145,12 +2145,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8476",
           "teamSlug": "lillestr-m",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8476/stats/lillestr-m/teams",
           "notes": null
         },
         "soccerRating": {
@@ -2159,7 +2159,7 @@
           "teamSlug": "lillestr-m",
           "countrySlug": "norway",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -2175,20 +2175,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9917",
           "teamSlug": "molde",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9917/stats/molde/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "molde",
+          "status": "mapped",
+          "sourceTeamId": "118",
+          "teamSlug": "molde-fk",
           "countrySlug": "norway",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Molde-FK/118/",
           "notes": null
         }
       }
@@ -2205,20 +2205,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8422",
           "teamSlug": "rosenborg",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8422/stats/rosenborg/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "rosenborg",
+          "status": "mapped",
+          "sourceTeamId": "422",
+          "teamSlug": "rosenborg-bk-ii",
           "countrySlug": "norway",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Rosenborg-BK-II/422/",
           "notes": null
         }
       }
@@ -2235,20 +2235,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8609",
           "teamSlug": "sandefjord",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8609/stats/sandefjord/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "sandefjord",
+          "status": "mapped",
+          "sourceTeamId": "7755",
+          "teamSlug": "sandefjord-bk",
           "countrySlug": "norway",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Sandefjord-BK/7755/",
           "notes": null
         }
       }
@@ -2265,20 +2265,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8509",
           "teamSlug": "sarpsborg-08",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8509/stats/sarpsborg-08/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "sarpsborg-08",
+          "status": "mapped",
+          "sourceTeamId": "121",
+          "teamSlug": "sarpsborg-08-ff",
           "countrySlug": "norway",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Sarpsborg-08-FF/121/",
           "notes": null
         }
       }
@@ -2295,20 +2295,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8007",
           "teamSlug": "valerenga",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8007/stats/valerenga/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "valerenga",
+          "status": "mapped",
+          "sourceTeamId": "71",
+          "teamSlug": "valerenga-oslo",
           "countrySlug": "norway",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Valerenga-Oslo/71/",
           "notes": null
         }
       }
@@ -2325,20 +2325,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8478",
           "teamSlug": "viking",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8478/stats/viking/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "viking",
+          "status": "mapped",
+          "sourceTeamId": "72",
+          "teamSlug": "viking-stavanger",
           "countrySlug": "norway",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Viking-Stavanger/72/",
           "notes": null
         }
       }
@@ -2355,20 +2355,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "212796",
           "teamSlug": "ad-fafe",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-a",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/212796/stats/ad-fafe/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "3040",
           "teamSlug": "ad-fafe",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/AD-Fafe/3040/",
           "notes": null
         }
       }
@@ -2385,12 +2385,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "6008",
           "teamSlug": "leca",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-a",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/6008/stats/leca/teams",
           "notes": null
         },
         "soccerRating": {
@@ -2399,7 +2399,7 @@
           "teamSlug": "leca",
           "countrySlug": "portugal",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -2415,20 +2415,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "marco-09",
+          "status": "mapped",
+          "sourceTeamId": "1530180",
+          "teamSlug": "ad-marco-09",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-a",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1530180/stats/ad-marco-09/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "marco-09",
+          "status": "mapped",
+          "sourceTeamId": "18196",
+          "teamSlug": "ad-marco-09",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/AD-Marco-09/18196/",
           "notes": null
         }
       }
@@ -2445,20 +2445,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "6403",
           "teamSlug": "pacos-de-ferreira",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-a",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/6403/stats/pacos-de-ferreira/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "pacos-de-ferreira",
+          "status": "mapped",
+          "sourceTeamId": "1078",
+          "teamSlug": "pacos-ferreira",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Pacos-Ferreira/1078/",
           "notes": null
         }
       }
@@ -2475,20 +2475,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "2503",
           "teamSlug": "paredes",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-a",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/2503/stats/paredes/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "paredes",
+          "status": "mapped",
+          "sourceTeamId": "5839",
+          "teamSlug": "usc-paredes",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/USC-Paredes/5839/",
           "notes": null
         }
       }
@@ -2511,7 +2511,7 @@
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-a",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -2519,7 +2519,7 @@
           "teamSlug": "sao-joao-ver",
           "countrySlug": "portugal",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -2535,20 +2535,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "7992",
           "teamSlug": "trofense",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-a",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/7992/stats/trofense/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "trofense",
+          "status": "mapped",
+          "sourceTeamId": "1094",
+          "teamSlug": "cd-trofense",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/CD-Trofense/1094/",
           "notes": null
         }
       }
@@ -2565,20 +2565,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1722",
           "teamSlug": "varzim",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-a",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1722/stats/varzim/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "varzim",
+          "status": "mapped",
+          "sourceTeamId": "1102",
+          "teamSlug": "varzim-sc",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Varzim-SC/1102/",
           "notes": null
         }
       }
@@ -2595,20 +2595,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "2278",
           "teamSlug": "vianense",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-a",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/2278/stats/vianense/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "vianense",
+          "status": "mapped",
+          "sourceTeamId": "4196",
+          "teamSlug": "sc-vianense",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/SC-Vianense/4196/",
           "notes": null
         }
       }
@@ -2625,20 +2625,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "vitoria-b",
+          "status": "mapped",
+          "sourceTeamId": "7733",
+          "teamSlug": "vitoria",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-a",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/7733/stats/vitoria/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "vitoria-b",
+          "status": "mapped",
+          "sourceTeamId": "1089",
+          "teamSlug": "vitoria-guimaraes",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Vitoria-Guimaraes/1089/",
           "notes": null
         }
       }
@@ -2661,7 +2661,7 @@
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-b",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -2669,7 +2669,7 @@
           "teamSlug": "atletico",
           "countrySlug": "portugal",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -2685,12 +2685,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "belenenses",
+          "status": "mapped",
+          "sourceTeamId": "1296841",
+          "teamSlug": "cf-os-belenenses",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-b",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1296841/stats/cf-os-belenenses/teams",
           "notes": null
         },
         "soccerRating": {
@@ -2699,7 +2699,7 @@
           "teamSlug": "belenenses",
           "countrySlug": "portugal",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -2715,20 +2715,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1800",
           "teamSlug": "caldas",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-b",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1800/stats/caldas/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "caldas",
+          "status": "mapped",
+          "sourceTeamId": "2975",
+          "teamSlug": "caldas-sc",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Caldas-SC/2975/",
           "notes": null
         }
       }
@@ -2745,20 +2745,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "covilha",
+          "status": "mapped",
+          "sourceTeamId": "1940",
+          "teamSlug": "sporting-covilha",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-b",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1940/stats/sporting-covilha/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "covilha",
+          "status": "mapped",
+          "sourceTeamId": "2978",
+          "teamSlug": "sc-covilha",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/SC-Covilha/2978/",
           "notes": null
         }
       }
@@ -2775,12 +2775,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "lusitano",
+          "status": "mapped",
+          "sourceTeamId": "888452",
+          "teamSlug": "lusitano-de-evora",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-b",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/888452/stats/lusitano-de-evora/teams",
           "notes": null
         },
         "soccerRating": {
@@ -2789,7 +2789,7 @@
           "teamSlug": "lusitano",
           "countrySlug": "portugal",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -2805,20 +2805,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "47535",
           "teamSlug": "mafra",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-b",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/47535/stats/mafra/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "mafra",
+          "status": "mapped",
+          "sourceTeamId": "2988",
+          "teamSlug": "cd-mafra",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/CD-Mafra/2988/",
           "notes": null
         }
       }
@@ -2841,7 +2841,7 @@
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-b",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -2849,7 +2849,7 @@
           "teamSlug": "uniao-santarem",
           "countrySlug": "portugal",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -2865,12 +2865,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "vitoria-sernache",
+          "status": "mapped",
+          "sourceTeamId": "560912",
+          "teamSlug": "vitoria-de-sernache",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-b",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/560912/stats/vitoria-de-sernache/teams",
           "notes": null
         },
         "soccerRating": {
@@ -2879,7 +2879,7 @@
           "teamSlug": "vitoria-sernache",
           "countrySlug": "portugal",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -2895,20 +2895,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "amarante",
+          "status": "mapped",
+          "sourceTeamId": "280216",
+          "teamSlug": "amarante-fc",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/280216/stats/amarante-fc/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "amarante",
+          "status": "mapped",
+          "sourceTeamId": "4203",
+          "teamSlug": "amarante-fc",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Amarante-FC/4203/",
           "notes": null
         }
       }
@@ -2931,14 +2931,14 @@
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "avs",
+          "status": "mapped",
+          "sourceTeamId": "1091",
+          "teamSlug": "avs-futebol",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/AVS-Futebol/1091/",
           "notes": null
         }
       }
@@ -2955,20 +2955,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "6004",
           "teamSlug": "farense",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/6004/stats/farense/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "farense",
+          "status": "mapped",
+          "sourceTeamId": "6781",
+          "teamSlug": "sc-farense",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/SC-Farense/6781/",
           "notes": null
         }
       }
@@ -2985,20 +2985,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "4064",
           "teamSlug": "feirense",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/4064/stats/feirense/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "feirense",
+          "status": "mapped",
+          "sourceTeamId": "1104",
+          "teamSlug": "cd-feirense",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/CD-Feirense/1104/",
           "notes": null
         }
       }
@@ -3015,20 +3015,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "felgueiras",
+          "status": "mapped",
+          "sourceTeamId": "474326",
+          "teamSlug": "felgueiras-1932",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/474326/stats/felgueiras-1932/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "felgueiras",
+          "status": "mapped",
+          "sourceTeamId": "9032",
+          "teamSlug": "fc-felgueiras",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Felgueiras/9032/",
           "notes": null
         }
       }
@@ -3045,20 +3045,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "leiria",
+          "status": "mapped",
+          "sourceTeamId": "9771",
+          "teamSlug": "uniao-de-leiria",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9771/stats/uniao-de-leiria/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "leiria",
+          "status": "mapped",
+          "sourceTeamId": "1087",
+          "teamSlug": "uniao-leiria",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Uniao-Leiria/1087/",
           "notes": null
         }
       }
@@ -3075,20 +3075,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "6547",
           "teamSlug": "penafiel",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/6547/stats/penafiel/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "penafiel",
+          "status": "mapped",
+          "sourceTeamId": "1096",
+          "teamSlug": "fc-penafiel",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Penafiel/1096/",
           "notes": null
         }
       }
@@ -3105,20 +3105,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9765",
           "teamSlug": "portimonense",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9765/stats/portimonense/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "portimonense",
+          "status": "mapped",
+          "sourceTeamId": "1101",
+          "teamSlug": "portimonense-sc",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Portimonense-SC/1101/",
           "notes": null
         }
       }
@@ -3135,20 +3135,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "sporting-b-u21",
+          "status": "mapped",
+          "sourceTeamId": "9768",
+          "teamSlug": "sporting-cp",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9768/stats/sporting-cp/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "sporting-b-u21",
+          "status": "mapped",
+          "sourceTeamId": "1083",
+          "teamSlug": "sporting-braga",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Sporting-Braga/1083/",
           "notes": null
         }
       }
@@ -3165,20 +3165,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "188163",
           "teamSlug": "tondela",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/188163/stats/tondela/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "tondela",
+          "status": "mapped",
+          "sourceTeamId": "6014",
+          "teamSlug": "cd-tondela",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/CD-Tondela/6014/",
           "notes": null
         }
       }
@@ -3195,20 +3195,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "212820",
           "teamSlug": "torreense",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/212820/stats/torreense/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "torreense",
+          "status": "mapped",
+          "sourceTeamId": "2984",
+          "teamSlug": "scu-torreense",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/SCU-Torreense/2984/",
           "notes": null
         }
       }
@@ -3225,20 +3225,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "4531",
           "teamSlug": "vizela",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/4531/stats/vizela/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "vizela",
+          "status": "mapped",
+          "sourceTeamId": "1105",
+          "teamSlug": "fc-vizela",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Vizela/1105/",
           "notes": null
         }
       }
@@ -3255,20 +3255,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1786",
           "teamSlug": "academico-viseu",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1786/stats/academico-viseu/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "6047",
           "teamSlug": "academico-viseu",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Academico-Viseu/6047/",
           "notes": null
         }
       }
@@ -3285,20 +3285,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9780",
           "teamSlug": "alverca",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9780/stats/alverca/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "alverca",
+          "status": "mapped",
+          "sourceTeamId": "13720",
+          "teamSlug": "fc-alverca",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Alverca/13720/",
           "notes": null
         }
       }
@@ -3315,20 +3315,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "158085",
           "teamSlug": "arouca",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/158085/stats/arouca/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "arouca",
+          "status": "mapped",
+          "sourceTeamId": "4202",
+          "teamSlug": "fc-arouca",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Arouca/4202/",
           "notes": null
         }
       }
@@ -3345,20 +3345,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
+          "status": "mapped",
           "sourceTeamId": "9772",
           "teamSlug": "benfica",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": "https://www.fotmob.com/pt-PT/teams/9772/stats/benfica/teams",
+          "url": "https://www.fotmob.com/teams/9772/stats/benfica/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId":"1076",
-          "teamSlug": "benfica",
+          "status": "mapped",
+          "sourceTeamId": "1076",
+          "teamSlug": "benfica-lisboa",
           "countrySlug": "portugal",
-          "url":"https://www.soccer-rating.com/Benfica-Lisboa/1076/",
+          "url": "https://www.soccer-rating.com/Benfica-Lisboa/1076/",
           "notes": null
         }
       }
@@ -3375,12 +3375,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10264",
           "teamSlug": "braga",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10264/stats/braga/teams",
           "notes": null
         },
         "soccerRating": {
@@ -3389,7 +3389,7 @@
           "teamSlug": "braga",
           "countrySlug": "portugal",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -3405,20 +3405,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "casa-pia",
+          "status": "mapped",
+          "sourceTeamId": "212821",
+          "teamSlug": "casa-pia-ac",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/212821/stats/casa-pia-ac/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "casa-pia",
+          "status": "mapped",
+          "sourceTeamId": "6011",
+          "teamSlug": "casa-pia-ac",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Casa-Pia-AC/6011/",
           "notes": null
         }
       }
@@ -3435,20 +3435,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "7842",
           "teamSlug": "estoril",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/7842/stats/estoril/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "estoril",
+          "status": "mapped",
+          "sourceTeamId": "1098",
+          "teamSlug": "estoril-praia",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Estoril-Praia/1098/",
           "notes": null
         }
       }
@@ -3465,12 +3465,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "estrela-amadora",
+          "status": "mapped",
+          "sourceTeamId": "1074320",
+          "teamSlug": "estrela-da-amadora",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1074320/stats/estrela-da-amadora/teams",
           "notes": null
         },
         "soccerRating": {
@@ -3479,7 +3479,7 @@
           "teamSlug": "estrela-amadora",
           "countrySlug": "portugal",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -3495,12 +3495,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1634",
           "teamSlug": "famalicao",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1634/stats/famalicao/teams",
           "notes": null
         },
         "soccerRating": {
@@ -3509,7 +3509,7 @@
           "teamSlug": "famalicao",
           "countrySlug": "portugal",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -3525,20 +3525,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9764",
           "teamSlug": "gil-vicente",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9764/stats/gil-vicente/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1097",
           "teamSlug": "gil-vicente",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Gil-Vicente/1097/",
           "notes": null
         }
       }
@@ -3555,20 +3555,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10212",
           "teamSlug": "maritimo",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10212/stats/maritimo/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "maritimo",
+          "status": "mapped",
+          "sourceTeamId": "1077",
+          "teamSlug": "maritimo-funchal",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Maritimo-Funchal/1077/",
           "notes": null
         }
       }
@@ -3585,20 +3585,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8348",
           "teamSlug": "moreirense",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8348/stats/moreirense/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "moreirense",
+          "status": "mapped",
+          "sourceTeamId": "2872",
+          "teamSlug": "moreirense-fc",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Moreirense-FC/2872/",
           "notes": null
         }
       }
@@ -3615,20 +3615,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "porto",
+          "status": "mapped",
+          "sourceTeamId": "9773",
+          "teamSlug": "fc-porto",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9773/stats/fc-porto/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "porto",
+          "status": "mapped",
+          "sourceTeamId": "1084",
+          "teamSlug": "fc-porto",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Porto/1084/",
           "notes": null
         }
       }
@@ -3645,20 +3645,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "7841",
           "teamSlug": "rio-ave",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/7841/stats/rio-ave/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1100",
           "teamSlug": "rio-ave",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Rio-Ave/1100/",
           "notes": null
         }
       }
@@ -3675,20 +3675,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "sporting",
+          "status": "mapped",
+          "sourceTeamId": "9768",
+          "teamSlug": "sporting-cp",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9768/stats/sporting-cp/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "sporting",
+          "status": "mapped",
+          "sourceTeamId": "1085",
+          "teamSlug": "sporting-lisboa",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Sporting-Lisboa/1085/",
           "notes": null
         }
       }
@@ -3705,20 +3705,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "7733",
           "teamSlug": "vitoria",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/7733/stats/vitoria/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "vitoria",
+          "status": "mapped",
+          "sourceTeamId": "1089",
+          "teamSlug": "vitoria-guimaraes",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Vitoria-Guimaraes/1089/",
           "notes": null
         }
       }
@@ -3735,12 +3735,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "arges-pitesti",
+          "status": "mapped",
+          "sourceTeamId": "9732",
+          "teamSlug": "fc-arges-pitesti",
           "competitionId": "152",
           "competitionSlug": "superliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9732/stats/fc-arges-pitesti/teams",
           "notes": null
         },
         "soccerRating": {
@@ -3749,7 +3749,7 @@
           "teamSlug": "arges-pitesti",
           "countrySlug": "romania",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -3771,7 +3771,7 @@
           "competitionId": "152",
           "competitionSlug": "superliga",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -3779,7 +3779,7 @@
           "teamSlug": "csikszereda",
           "countrySlug": "romania",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -3795,12 +3795,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10271",
           "teamSlug": "dinamo-bucuresti",
           "competitionId": "152",
           "competitionSlug": "superliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10271/stats/dinamo-bucuresti/teams",
           "notes": null
         },
         "soccerRating": {
@@ -3809,7 +3809,7 @@
           "teamSlug": "dinamo-bucuresti",
           "countrySlug": "romania",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -3825,20 +3825,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "farul-constanta",
+          "status": "mapped",
+          "sourceTeamId": "1658600",
+          "teamSlug": "farul-constanta-w",
           "competitionId": "152",
           "competitionSlug": "superliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1658600/stats/farul-constanta-w/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1018",
           "teamSlug": "farul-constanta",
           "countrySlug": "romania",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Farul-Constanta/1018/",
           "notes": null
         }
       }
@@ -3855,12 +3855,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9736",
           "teamSlug": "otelul-galati",
           "competitionId": "152",
           "competitionSlug": "superliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9736/stats/otelul-galati/teams",
           "notes": null
         },
         "soccerRating": {
@@ -3869,7 +3869,7 @@
           "teamSlug": "otelul-galati",
           "countrySlug": "romania",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -3885,20 +3885,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "188187",
           "teamSlug": "petrolul-ploiesti",
           "competitionId": "152",
           "competitionSlug": "superliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/188187/stats/petrolul-ploiesti/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "2475",
           "teamSlug": "petrolul-ploiesti",
           "countrySlug": "romania",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Petrolul-Ploiesti/2475/",
           "notes": null
         }
       }
@@ -3915,20 +3915,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9738",
           "teamSlug": "rapid-bucuresti",
           "competitionId": "152",
           "competitionSlug": "superliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9738/stats/rapid-bucuresti/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1008",
           "teamSlug": "rapid-bucuresti",
           "countrySlug": "romania",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Rapid-Bucuresti/1008/",
           "notes": null
         }
       }
@@ -3951,7 +3951,7 @@
           "competitionId": "152",
           "competitionSlug": "superliga",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -3959,7 +3959,7 @@
           "teamSlug": "u-craiova",
           "countrySlug": "romania",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -3981,7 +3981,7 @@
           "competitionId": "152",
           "competitionSlug": "superliga",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -3989,7 +3989,7 @@
           "teamSlug": "uta",
           "countrySlug": "romania",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -4005,12 +4005,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "voluntari",
+          "status": "mapped",
+          "sourceTeamId": "405332",
+          "teamSlug": "fc-voluntari",
           "competitionId": "152",
           "competitionSlug": "superliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/405332/stats/fc-voluntari/teams",
           "notes": null
         },
         "soccerRating": {
@@ -4019,7 +4019,7 @@
           "teamSlug": "voluntari",
           "countrySlug": "romania",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -4041,7 +4041,7 @@
           "competitionId": "203",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -4049,7 +4049,7 @@
           "teamSlug": "akron",
           "countrySlug": "russia",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -4065,20 +4065,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "49694",
           "teamSlug": "baltika",
           "competitionId": "203",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/49694/stats/baltika/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "baltika",
+          "status": "mapped",
+          "sourceTeamId": "357",
+          "teamSlug": "baltika-kaliningrad",
           "countrySlug": "russia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Baltika-Kaliningrad/357/",
           "notes": null
         }
       }
@@ -4101,7 +4101,7 @@
           "competitionId": "203",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -4109,7 +4109,7 @@
           "teamSlug": "cska",
           "countrySlug": "russia",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -4131,14 +4131,14 @@
           "competitionId": "203",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "13992",
           "teamSlug": "dinamo-makhachkala",
           "countrySlug": "russia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Dinamo-Makhachkala/13992/",
           "notes": null
         }
       }
@@ -4155,20 +4155,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dynamo",
+          "status": "mapped",
+          "sourceTeamId": "8688",
+          "teamSlug": "dynamo-kyiv",
           "competitionId": "203",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8688/stats/dynamo-kyiv/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dynamo",
+          "status": "mapped",
+          "sourceTeamId": "11075",
+          "teamSlug": "fk-legion-dynamo",
           "countrySlug": "russia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FK-Legion-Dynamo/11075/",
           "notes": null
         }
       }
@@ -4185,20 +4185,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "krasnodar",
+          "status": "mapped",
+          "sourceTeamId": "168719",
+          "teamSlug": "fc-krasnodar",
           "competitionId": "203",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/168719/stats/fc-krasnodar/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "krasnodar",
+          "status": "mapped",
+          "sourceTeamId": "3300",
+          "teamSlug": "fk-krasnodar",
           "countrySlug": "russia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FK-Krasnodar/3300/",
           "notes": null
         }
       }
@@ -4215,20 +4215,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "krylya-sovetov",
+          "status": "mapped",
+          "sourceTeamId": "8709",
+          "teamSlug": "krylya-sovetov-samara",
           "competitionId": "203",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8709/stats/krylya-sovetov-samara/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "krylya-sovetov",
+          "status": "mapped",
+          "sourceTeamId": "128",
+          "teamSlug": "krylya-sovetov-samara",
           "countrySlug": "russia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Krylya-Sovetov-Samara/128/",
           "notes": null
         }
       }
@@ -4251,14 +4251,14 @@
           "competitionId": "203",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "lokomotiv",
+          "status": "mapped",
+          "sourceTeamId": "127",
+          "teamSlug": "lokomotiv-moskva",
           "countrySlug": "russia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Lokomotiv-Moskva/127/",
           "notes": null
         }
       }
@@ -4275,20 +4275,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "orenburg",
+          "status": "mapped",
+          "sourceTeamId": "132286",
+          "teamSlug": "fc-orenburg",
           "competitionId": "203",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/132286/stats/fc-orenburg/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "orenburg",
+          "status": "mapped",
+          "sourceTeamId": "582",
+          "teamSlug": "fk-orenburg",
           "countrySlug": "russia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FK-Orenburg/582/",
           "notes": null
         }
       }
@@ -4305,20 +4305,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1066681",
           "teamSlug": "rodina",
           "competitionId": "203",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1066681/stats/rodina/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "rodina",
+          "status": "mapped",
+          "sourceTeamId": "13990",
+          "teamSlug": "rodina-moscow",
           "countrySlug": "russia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Rodina-Moscow/13990/",
           "notes": null
         }
       }
@@ -4335,20 +4335,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "rostov",
+          "status": "mapped",
+          "sourceTeamId": "8705",
+          "teamSlug": "fc-rostov",
           "competitionId": "203",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8705/stats/fc-rostov/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "rostov",
+          "status": "mapped",
+          "sourceTeamId": "139",
+          "teamSlug": "fk-rostov",
           "countrySlug": "russia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FK-Rostov/139/",
           "notes": null
         }
       }
@@ -4371,7 +4371,7 @@
           "competitionId": "203",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -4379,7 +4379,7 @@
           "teamSlug": "rubin",
           "countrySlug": "russia",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -4395,20 +4395,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "spartak",
+          "status": "mapped",
+          "sourceTeamId": "8643",
+          "teamSlug": "spartak-moscow",
           "competitionId": "203",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8643/stats/spartak-moscow/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "spartak",
+          "status": "mapped",
+          "sourceTeamId": "140",
+          "teamSlug": "spartak-moskva",
           "countrySlug": "russia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Spartak-Moskva/140/",
           "notes": null
         }
       }
@@ -4431,7 +4431,7 @@
           "competitionId": "203",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -4439,7 +4439,7 @@
           "teamSlug": "zenit",
           "countrySlug": "russia",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -4461,14 +4461,14 @@
           "competitionId": "211",
           "competitionSlug": "nike-liga",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "banska-bystrica",
+          "status": "mapped",
+          "sourceTeamId": "160",
+          "teamSlug": "dukla-banska-bystrica",
           "countrySlug": "slovakia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Dukla-Banska-Bystrica/160/",
           "notes": null
         }
       }
@@ -4491,7 +4491,7 @@
           "competitionId": "211",
           "competitionSlug": "nike-liga",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -4499,7 +4499,7 @@
           "teamSlug": "dac-1904",
           "countrySlug": "slovakia",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -4515,20 +4515,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "fc-spartak-trnava",
+          "status": "mapped",
+          "sourceTeamId": "4662",
+          "teamSlug": "spartak-trnava",
           "competitionId": "211",
           "competitionSlug": "nike-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/4662/stats/spartak-trnava/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "164",
           "teamSlug": "fc-spartak-trnava",
           "countrySlug": "slovakia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Spartak-Trnava/164/",
           "notes": null
         }
       }
@@ -4545,12 +4545,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "611956",
           "teamSlug": "komarno",
           "competitionId": "211",
           "competitionSlug": "nike-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/611956/stats/komarno/teams",
           "notes": null
         },
         "soccerRating": {
@@ -4559,7 +4559,7 @@
           "teamSlug": "komarno",
           "countrySlug": "slovakia",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -4575,12 +4575,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "kosice",
+          "status": "mapped",
+          "sourceTeamId": "969268",
+          "teamSlug": "fc-kosice",
           "competitionId": "211",
           "competitionSlug": "nike-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/969268/stats/fc-kosice/teams",
           "notes": null
         },
         "soccerRating": {
@@ -4589,7 +4589,7 @@
           "teamSlug": "kosice",
           "countrySlug": "slovakia",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -4605,12 +4605,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "michalovce",
+          "status": "mapped",
+          "sourceTeamId": "9899",
+          "teamSlug": "zemplin-michalovce",
           "competitionId": "211",
           "competitionSlug": "nike-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9899/stats/zemplin-michalovce/teams",
           "notes": null
         },
         "soccerRating": {
@@ -4619,7 +4619,7 @@
           "teamSlug": "michalovce",
           "countrySlug": "slovakia",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -4635,12 +4635,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "podbrezova",
+          "status": "mapped",
+          "sourceTeamId": "2437",
+          "teamSlug": "zeleziarne-podbrezova",
           "competitionId": "211",
           "competitionSlug": "nike-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/2437/stats/zeleziarne-podbrezova/teams",
           "notes": null
         },
         "soccerRating": {
@@ -4649,7 +4649,7 @@
           "teamSlug": "podbrezova",
           "countrySlug": "slovakia",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -4665,20 +4665,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10186",
           "teamSlug": "ruzomberok",
           "competitionId": "211",
           "competitionSlug": "nike-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10186/stats/ruzomberok/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "ruzomberok",
+          "status": "mapped",
+          "sourceTeamId": "163",
+          "teamSlug": "mfk-ruzomberok",
           "countrySlug": "slovakia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/MFK-Ruzomberok/163/",
           "notes": null
         }
       }
@@ -4695,20 +4695,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "555292",
           "teamSlug": "skalica",
           "competitionId": "211",
           "competitionSlug": "nike-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/555292/stats/skalica/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "skalica",
+          "status": "mapped",
+          "sourceTeamId": "8750",
+          "teamSlug": "mfk-skalica",
           "countrySlug": "slovakia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/MFK-Skalica/8750/",
           "notes": null
         }
       }
@@ -4731,7 +4731,7 @@
           "competitionId": "211",
           "competitionSlug": "nike-liga",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -4739,7 +4739,7 @@
           "teamSlug": "slovan",
           "countrySlug": "slovakia",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -4755,20 +4755,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "6496",
           "teamSlug": "trencin",
           "competitionId": "211",
           "competitionSlug": "nike-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/6496/stats/trencin/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "trencin",
+          "status": "mapped",
+          "sourceTeamId": "166",
+          "teamSlug": "as-trencin",
           "countrySlug": "slovakia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/AS-Trencin/166/",
           "notes": null
         }
       }
@@ -4785,20 +4785,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "6022",
           "teamSlug": "zilina",
           "competitionId": "211",
           "competitionSlug": "nike-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/6022/stats/zilina/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "zilina",
+          "status": "mapped",
+          "sourceTeamId": "165",
+          "teamSlug": "msk-zilina",
           "countrySlug": "slovakia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/MSK-Zilina/165/",
           "notes": null
         }
       }
@@ -4815,20 +4815,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1862",
           "teamSlug": "aluminij",
           "competitionId": "212",
           "competitionSlug": "prvaliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1862/stats/aluminij/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "aluminij",
+          "status": "mapped",
+          "sourceTeamId": "6803",
+          "teamSlug": "aluminij-kidricevo",
           "countrySlug": "slovenia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Aluminij-Kidricevo/6803/",
           "notes": null
         }
       }
@@ -4851,14 +4851,14 @@
           "competitionId": "212",
           "competitionSlug": "prvaliga",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "bravo",
+          "status": "mapped",
+          "sourceTeamId": "13621",
+          "teamSlug": "nk-bravo",
           "countrySlug": "slovenia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/NK-Bravo/13621/",
           "notes": null
         }
       }
@@ -4875,20 +4875,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "brinje-grosuplje",
+          "status": "mapped",
+          "sourceTeamId": "1153473",
+          "teamSlug": "nk-brinje-grosuplje",
           "competitionId": "212",
           "competitionSlug": "prvaliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1153473/stats/nk-brinje-grosuplje/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "16993",
           "teamSlug": "brinje-grosuplje",
           "countrySlug": "slovenia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Brinje-Grosuplje/16993/",
           "notes": null
         }
       }
@@ -4911,14 +4911,14 @@
           "competitionId": "212",
           "competitionSlug": "prvaliga",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "celje",
+          "status": "mapped",
+          "sourceTeamId": "1131",
+          "teamSlug": "nk-celje",
           "countrySlug": "slovenia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/NK-Celje/1131/",
           "notes": null
         }
       }
@@ -4935,20 +4935,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "5772",
           "teamSlug": "koper",
           "competitionId": "212",
           "competitionSlug": "prvaliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/5772/stats/koper/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "koper",
+          "status": "mapped",
+          "sourceTeamId": "538",
+          "teamSlug": "nk-koper",
           "countrySlug": "slovenia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/NK-Koper/538/",
           "notes": null
         }
       }
@@ -4965,20 +4965,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8340",
           "teamSlug": "maribor",
           "competitionId": "212",
           "competitionSlug": "prvaliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8340/stats/maribor/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "maribor",
+          "status": "mapped",
+          "sourceTeamId": "25",
+          "teamSlug": "nk-maribor",
           "countrySlug": "slovenia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/NK-Maribor/25/",
           "notes": null
         }
       }
@@ -5001,7 +5001,7 @@
           "competitionId": "212",
           "competitionSlug": "prvaliga",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -5009,7 +5009,7 @@
           "teamSlug": "nafta-1903",
           "countrySlug": "slovenia",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -5025,12 +5025,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "olimpija",
+          "status": "mapped",
+          "sourceTeamId": "7872",
+          "teamSlug": "olimpija-ljubljana",
           "competitionId": "212",
           "competitionSlug": "prvaliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/7872/stats/olimpija-ljubljana/teams",
           "notes": null
         },
         "soccerRating": {
@@ -5039,7 +5039,7 @@
           "teamSlug": "olimpija",
           "countrySlug": "slovenia",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -5055,12 +5055,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "bukovyna",
+          "status": "mapped",
+          "sourceTeamId": "205684",
+          "teamSlug": "bukovyna-chernivtsi",
           "competitionId": "218",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/205684/stats/bukovyna-chernivtsi/teams",
           "notes": null
         },
         "soccerRating": {
@@ -5069,7 +5069,7 @@
           "teamSlug": "bukovyna",
           "countrySlug": "ukraine",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -5085,12 +5085,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "chornomorets",
+          "status": "mapped",
+          "sourceTeamId": "8666",
+          "teamSlug": "chornomorets-odesa",
           "competitionId": "218",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8666/stats/chornomorets-odesa/teams",
           "notes": null
         },
         "soccerRating": {
@@ -5099,7 +5099,7 @@
           "teamSlug": "chornomorets",
           "countrySlug": "ukraine",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -5115,12 +5115,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8688",
           "teamSlug": "dynamo-kyiv",
           "competitionId": "218",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8688/stats/dynamo-kyiv/teams",
           "notes": null
         },
         "soccerRating": {
@@ -5129,7 +5129,7 @@
           "teamSlug": "dynamo-kyiv",
           "countrySlug": "ukraine",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -5151,7 +5151,7 @@
           "competitionId": "218",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos FotMob"
         },
         "soccerRating": {
           "status": "pending",
@@ -5159,7 +5159,7 @@
           "teamSlug": "epicentr",
           "countrySlug": "ukraine",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     },
@@ -5181,7 +5181,7 @@
           "competitionId": "218",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -5189,7 +5189,7 @@
           "teamSlug": "fc-livyi-bereh",
           "countrySlug": "ukraine",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -5211,7 +5211,7 @@
           "competitionId": "218",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -5219,7 +5219,7 @@
           "teamSlug": "kolos",
           "countrySlug": "ukraine",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -5235,12 +5235,12 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "558259",
           "teamSlug": "kryvbas",
           "competitionId": "218",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/558259/stats/kryvbas/teams",
           "notes": null
         },
         "soccerRating": {
@@ -5249,7 +5249,7 @@
           "teamSlug": "kryvbas",
           "countrySlug": "ukraine",
           "url": null,
-          "notes": null
+          "notes": "autofill: match Soccer-Rating inconclusivo"
         }
       }
     },
@@ -5265,20 +5265,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1763072",
           "teamSlug": "kudrivka",
           "competitionId": "218",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1763072/stats/kudrivka/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "kudrivka",
+          "status": "mapped",
+          "sourceTeamId": "17770",
+          "teamSlug": "fk-kudrivka",
           "countrySlug": "ukraine",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FK-Kudrivka/17770/",
           "notes": null
         }
       }
@@ -5295,20 +5295,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "obolon",
+          "status": "mapped",
+          "sourceTeamId": "583129",
+          "teamSlug": "obolon-kyiv",
           "competitionId": "218",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/583129/stats/obolon-kyiv/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "obolon",
+          "status": "mapped",
+          "sourceTeamId": "1192",
+          "teamSlug": "obolon-kiev",
           "countrySlug": "ukraine",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Obolon-Kiev/1192/",
           "notes": null
         }
       }
@@ -5325,20 +5325,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "shakhtar",
+          "status": "mapped",
+          "sourceTeamId": "9728",
+          "teamSlug": "shakhtar-donetsk",
           "competitionId": "218",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9728/stats/shakhtar-donetsk/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "shakhtar",
+          "status": "mapped",
+          "sourceTeamId": "299",
+          "teamSlug": "shakhtar-donezk",
           "countrySlug": "ukraine",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Shakhtar-Donezk/299/",
           "notes": null
         }
       }
@@ -5355,20 +5355,20 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1175395",
           "teamSlug": "veres-rivne",
           "competitionId": "218",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1175395/stats/veres-rivne/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1214",
           "teamSlug": "veres-rivne",
           "countrySlug": "ukraine",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Veres-Rivne/1214/",
           "notes": null
         }
       }
@@ -5391,7 +5391,7 @@
           "competitionId": "218",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": null
+          "notes": "autofill: match FotMob inconclusivo"
         },
         "soccerRating": {
           "status": "pending",
@@ -5399,7 +5399,7 @@
           "teamSlug": "zoria",
           "countrySlug": "ukraine",
           "url": null,
-          "notes": null
+          "notes": "autofill: sem candidatos Soccer-Rating"
         }
       }
     }

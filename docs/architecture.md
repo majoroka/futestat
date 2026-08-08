@@ -82,6 +82,11 @@ Persistência local em JSON:
 - `data/team-coverage/latest.json`
 - `data/team-source-registry.json`
 
+Persistência manual auxiliar:
+- `data/team-source-registry.json` como registo canónico vivo
+- enriquecido por `sync:team-source-registry`
+- refinado por `autofill:team-source-registry`
+
 Persistência remota automatizada:
 - ramo `fixtures-data`
 - mesmo esquema `data/fixtures/...`

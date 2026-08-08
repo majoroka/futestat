@@ -141,6 +141,7 @@ Entregáveis já introduzidos:
 - ligação opcional por `sofascoreTeamId` nos dados manuais para resolver equipas no `match_view` com menos dependência de slugs aproximados
 - relatório `team-coverage` para medir a cobertura real das equipas do snapshot por fonte manual
 - registo `team-source-registry.json` para preservar o mapeamento canónico das equipas entre `Sofascore`, `FotMob` e `Soccer-Rating`
+- autofill conservador desse registo por pesquisa remota, mantendo revisão manual apenas para casos ambíguos
 
 ## Critérios de qualidade antes de avançar
 
