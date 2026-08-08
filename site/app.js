@@ -564,7 +564,7 @@ function renderBasicFixtureDetails(fixture, note = null) {
             value: formatScoreline(fixture),
           },
         ])}
-        </section>
+      </section>
       <section class="fixture-detail__subsection">
         <h4>Contexto disponível</h4>
         <div class="fixture-detail__summary-grid">
@@ -791,7 +791,7 @@ function renderFixtureSquadTab(fixture, matchViewState) {
             ],
           })}
           <section class="fixture-detail__subsection">
-            <h4>Resumo do plantel</h4>
+            <h4>Leitura rápida</h4>
             <div class="fixture-detail__highlights">
               ${renderDetailHighlight("Casa", `${countAvailablePlayers(view.homeTeam.squad)} jogadores`, "accent")}
               ${renderDetailHighlight("Fora", `${countAvailablePlayers(view.awayTeam.squad)} jogadores`)}
@@ -800,7 +800,7 @@ function renderFixtureSquadTab(fixture, matchViewState) {
             </div>
           </section>
           <section class="fixture-detail__subsection">
-            <h4>Elencos</h4>
+            <h4>Elencos por equipa</h4>
             <div class="fixture-detail__squad-panels">
               ${renderSquadPanel("Casa", view.homeTeam, "home")}
               ${renderSquadPanel("Fora", view.awayTeam, "away")}
@@ -887,7 +887,7 @@ function renderFixtureHistoryTab(fixture, matchViewState) {
             ],
           })}
           <section class="fixture-detail__subsection">
-            <h4>Resumo do histórico</h4>
+            <h4>Leitura rápida</h4>
             <div class="fixture-detail__highlights">
               ${renderDetailHighlight("Últimos jogos casa", `${countHistoryMatches(view.homeTeam.history)} entradas`, "accent")}
               ${renderDetailHighlight("Últimos jogos fora", `${countHistoryMatches(view.awayTeam.history)} entradas`)}
@@ -896,7 +896,7 @@ function renderFixtureHistoryTab(fixture, matchViewState) {
             </div>
           </section>
           <section class="fixture-detail__subsection">
-            <h4>Últimos jogos</h4>
+            <h4>Últimos jogos por equipa</h4>
             <div class="fixture-detail__history-panels">
               ${renderHistoryPanel("Casa", view.homeTeam, "home")}
               ${renderHistoryPanel("Fora", view.awayTeam, "away")}

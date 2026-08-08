@@ -424,10 +424,20 @@ a {
 
 .fixture-detail__subsection h4 {
   margin: 0 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   color: var(--muted);
   font-size: 0.78rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.fixture-detail__subsection h4::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(23, 32, 51, 0.12), rgba(23, 32, 51, 0));
 }
 
 .fixture-detail__stack {
@@ -1177,11 +1187,21 @@ a {
 
 .fixture-detail__standings-section-title {
   margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   color: #22314d;
   font-size: 0.76rem;
   line-height: 1.2;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.fixture-detail__standings-section-title::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(23, 32, 51, 0.12), rgba(23, 32, 51, 0));
 }
 
 .fixture-detail__standings-notes {

@@ -83,6 +83,7 @@ Entregáveis já introduzidos:
 - separadores `Estatísticas`, `Plantel` e `Histórico` alinhados visualmente com cabeçalhos, listas e leitura mobile mais consistentes
 - estados de loading, indisponibilidade e links externos unificados no painel direito, com micro-UX mais consistente entre separadores
 - separador `Classificação` refinado com meta em chips, legenda/notas tituladas e acordeão de tabelas secundárias mais claro
+- revisão transversal de consistência dos subtítulos e headings internos do painel, aproximando todos os separadores da mesma linguagem visual
 
 Pendências desta fase:
 - seletor UX dedicado para `passado / hoje / futuro`
