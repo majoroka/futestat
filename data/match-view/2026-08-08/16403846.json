@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-07T08:37:35.248Z",
+  "builtAtUtc": "2026-08-08T09:05:31.995Z",
   "match": {
     "id": "16403846",
     "date": "2026-08-08",
@@ -123,6 +123,20 @@
     "rows": [
       {
         "position": 1,
+        "teamName": "Rapid Bucuresti",
+        "teamUrl": "https://www.zerozero.pt/equipa/rapid-bucuresti?epoca_id=156",
+        "points": 8,
+        "matches": 4,
+        "wins": 2,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 2,
+        "goalDifference": "+3",
+        "highlight": null
+      },
+      {
+        "position": 2,
         "teamName": "FCSB",
         "teamUrl": "https://www.zerozero.pt/equipa/steaua-bucareste-?epoca_id=156",
         "points": 7,
@@ -133,20 +147,6 @@
         "goalsFor": 6,
         "goalsAgainst": 2,
         "goalDifference": "+4",
-        "highlight": null
-      },
-      {
-        "position": 2,
-        "teamName": "Rapid Bucuresti",
-        "teamUrl": "https://www.zerozero.pt/equipa/rapid-bucuresti?epoca_id=156",
-        "points": 7,
-        "matches": 3,
-        "wins": 2,
-        "draws": 1,
-        "losses": 0,
-        "goalsFor": 5,
-        "goalsAgainst": 2,
-        "goalDifference": "+3",
         "highlight": null
       },
       {
@@ -321,10 +321,10 @@
         "position": 15,
         "teamName": "UTA Arad",
         "teamUrl": "https://www.zerozero.pt/equipa/uta-arad/7883?epoca_id=156",
-        "points": 1,
-        "matches": 3,
+        "points": 2,
+        "matches": 4,
         "wins": 0,
-        "draws": 1,
+        "draws": 2,
         "losses": 2,
         "goalsFor": 2,
         "goalsAgainst": 7,

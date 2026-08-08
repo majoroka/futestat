@@ -1,0 +1,411 @@
+{
+  "builtAtUtc": "2026-08-08T09:05:32.028Z",
+  "match": {
+    "id": "16450737",
+    "date": "2026-08-09",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/rio-ave-gil-vicente/kkbsLkb#id:16450737",
+    "kickoffAtUtc": "2026-08-09T19:30:00.000Z",
+    "competition": {
+      "id": "238",
+      "name": "Liga Portugal Betclic",
+      "country": "Portugal",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/238/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "3010",
+      "name": "Gil Vicente",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3010/image/small",
+      "sourceIds": {
+        "sofascore": "3010",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "3036",
+      "name": "Rio Ave",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3036/image/small",
+      "sourceIds": {
+        "sofascore": "3036",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "238",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "FC Famalicão",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-famalicao/2175?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Estoril Praia",
+        "teamUrl": "https://www.zerozero.pt/equipa/estoril-praia/1734?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Benfica",
+        "teamUrl": "https://www.zerozero.pt/equipa/benfica?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "FC Porto",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-porto?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Sporting",
+        "teamUrl": "https://www.zerozero.pt/equipa/sporting?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "SC Braga",
+        "teamUrl": "https://www.zerozero.pt/equipa/sc-braga?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "Gil Vicente",
+        "teamUrl": "https://www.zerozero.pt/equipa/gil-vicente?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": "home"
+      },
+      {
+        "position": 8,
+        "teamName": "Moreirense",
+        "teamUrl": "https://www.zerozero.pt/equipa/moreirense/6?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Vitória SC",
+        "teamUrl": "https://www.zerozero.pt/equipa/vitoria-sc?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "FC Alverca",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-alverca/1?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "FC Arouca",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-arouca/3555?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "Rio Ave",
+        "teamUrl": "https://www.zerozero.pt/equipa/rio-ave/31?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": "away"
+      },
+      {
+        "position": 13,
+        "teamName": "Santa Clara",
+        "teamUrl": "https://www.zerozero.pt/equipa/santa-clara/32?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 14,
+        "teamName": "Marítimo",
+        "teamUrl": "https://www.zerozero.pt/equipa/maritimo?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "Nacional",
+        "teamUrl": "https://www.zerozero.pt/equipa/nacional/27?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 16,
+        "teamName": "Est. Amadora",
+        "teamUrl": "https://www.zerozero.pt/equipa/est-amadora/253884?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 17,
+        "teamName": "Académico",
+        "teamUrl": "https://www.zerozero.pt/equipa/academico/2181?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 18,
+        "teamName": "Casa Pia AC",
+        "teamUrl": "https://www.zerozero.pt/equipa/casa-pia-ac/2412?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-09.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/238.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

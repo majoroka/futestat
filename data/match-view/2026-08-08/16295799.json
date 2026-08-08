@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-07T08:37:35.253Z",
+  "builtAtUtc": "2026-08-08T09:05:32.002Z",
   "match": {
     "id": "16295799",
     "date": "2026-08-08",
@@ -125,14 +125,14 @@
         "position": 1,
         "teamName": "Levski Sofia",
         "teamUrl": "https://www.zerozero.pt/equipa/levski-sofia/1040?epoca_id=156",
-        "points": 9,
-        "matches": 3,
-        "wins": 3,
+        "points": 12,
+        "matches": 4,
+        "wins": 4,
         "draws": 0,
         "losses": 0,
-        "goalsFor": 7,
+        "goalsFor": 9,
         "goalsAgainst": 2,
-        "goalDifference": "+5",
+        "goalDifference": "+7",
         "highlight": null
       },
       {
@@ -224,13 +224,13 @@
         "teamName": "Lokomotiv Plovdiv",
         "teamUrl": "https://www.zerozero.pt/equipa/lokomotiv-plovdiv/1815?epoca_id=156",
         "points": 3,
-        "matches": 3,
+        "matches": 4,
         "wins": 1,
         "draws": 0,
-        "losses": 2,
+        "losses": 3,
         "goalsFor": 2,
-        "goalsAgainst": 3,
-        "goalDifference": "-1",
+        "goalsAgainst": 5,
+        "goalDifference": "-3",
         "highlight": null
       },
       {

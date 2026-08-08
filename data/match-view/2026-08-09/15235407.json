@@ -1,0 +1,441 @@
+{
+  "builtAtUtc": "2026-08-08T09:05:32.031Z",
+  "match": {
+    "id": "15235407",
+    "date": "2026-08-09",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/red-bull-bragantino-corinthians/hOsZO#id:15235407",
+    "kickoffAtUtc": "2026-08-09T21:30:00.000Z",
+    "competition": {
+      "id": "325",
+      "name": "Brasileirão Betano",
+      "country": "Brazil",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/325/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "1999",
+      "name": "RB Bragantino",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/1999/image/small",
+      "sourceIds": {
+        "sofascore": "1999",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "1957",
+      "name": "Corinthians",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/1957/image/small",
+      "sourceIds": {
+        "sofascore": "1957",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "325",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [
+      "Tabela corrida ao longo de toda a época."
+    ],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Palmeiras",
+        "teamUrl": "https://www.zerozero.pt/equipa/palmeiras?epoca_id=155",
+        "points": 47,
+        "matches": 21,
+        "wins": 14,
+        "draws": 5,
+        "losses": 2,
+        "goalsFor": 38,
+        "goalsAgainst": 16,
+        "goalDifference": "+22",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Flamengo",
+        "teamUrl": "https://www.zerozero.pt/equipa/flamengo?epoca_id=155",
+        "points": 39,
+        "matches": 20,
+        "wins": 11,
+        "draws": 6,
+        "losses": 3,
+        "goalsFor": 37,
+        "goalsAgainst": 18,
+        "goalDifference": "+19",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Athletico Paranaense",
+        "teamUrl": "https://www.zerozero.pt/equipa/athletico-paranaense?epoca_id=155",
+        "points": 37,
+        "matches": 21,
+        "wins": 11,
+        "draws": 4,
+        "losses": 6,
+        "goalsFor": 28,
+        "goalsAgainst": 19,
+        "goalDifference": "+9",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "Fluminense",
+        "teamUrl": "https://www.zerozero.pt/equipa/fluminense?epoca_id=155",
+        "points": 34,
+        "matches": 21,
+        "wins": 9,
+        "draws": 7,
+        "losses": 5,
+        "goalsFor": 30,
+        "goalsAgainst": 25,
+        "goalDifference": "+5",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Bahia",
+        "teamUrl": "https://www.zerozero.pt/equipa/bahia/2231?epoca_id=155",
+        "points": 32,
+        "matches": 21,
+        "wins": 8,
+        "draws": 8,
+        "losses": 5,
+        "goalsFor": 29,
+        "goalsAgainst": 25,
+        "goalDifference": "+4",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Red Bull Bragantino",
+        "teamUrl": "https://www.zerozero.pt/equipa/red-bull-bragantino?epoca_id=155",
+        "points": 31,
+        "matches": 20,
+        "wins": 9,
+        "draws": 4,
+        "losses": 7,
+        "goalsFor": 26,
+        "goalsAgainst": 20,
+        "goalDifference": "+6",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "Cruzeiro",
+        "teamUrl": "https://www.zerozero.pt/equipa/cruzeiro?epoca_id=155",
+        "points": 30,
+        "matches": 21,
+        "wins": 8,
+        "draws": 6,
+        "losses": 7,
+        "goalsFor": 27,
+        "goalsAgainst": 30,
+        "goalDifference": "-3",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "Botafogo",
+        "teamUrl": "https://www.zerozero.pt/equipa/botafogo?epoca_id=155",
+        "points": 29,
+        "matches": 20,
+        "wins": 8,
+        "draws": 5,
+        "losses": 7,
+        "goalsFor": 34,
+        "goalsAgainst": 32,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Corinthians",
+        "teamUrl": "https://www.zerozero.pt/equipa/corinthians?epoca_id=155",
+        "points": 29,
+        "matches": 21,
+        "wins": 7,
+        "draws": 8,
+        "losses": 6,
+        "goalsFor": 22,
+        "goalsAgainst": 20,
+        "goalDifference": "+2",
+        "highlight": "away"
+      },
+      {
+        "position": 10,
+        "teamName": "Atlético Mineiro",
+        "teamUrl": "https://www.zerozero.pt/equipa/atletico-mineiro?epoca_id=155",
+        "points": 28,
+        "matches": 20,
+        "wins": 8,
+        "draws": 4,
+        "losses": 8,
+        "goalsFor": 25,
+        "goalsAgainst": 25,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Coritiba",
+        "teamUrl": "https://www.zerozero.pt/equipa/coritiba/2235?epoca_id=155",
+        "points": 27,
+        "matches": 21,
+        "wins": 7,
+        "draws": 6,
+        "losses": 8,
+        "goalsFor": 25,
+        "goalsAgainst": 28,
+        "goalDifference": "-3",
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "São Paulo",
+        "teamUrl": "https://www.zerozero.pt/equipa/sao-paulo?epoca_id=155",
+        "points": 26,
+        "matches": 20,
+        "wins": 7,
+        "draws": 5,
+        "losses": 8,
+        "goalsFor": 25,
+        "goalsAgainst": 23,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 13,
+        "teamName": "Vitória",
+        "teamUrl": "https://www.zerozero.pt/equipa/vitoria/2259?epoca_id=155",
+        "points": 26,
+        "matches": 21,
+        "wins": 7,
+        "draws": 5,
+        "losses": 9,
+        "goalsFor": 22,
+        "goalsAgainst": 31,
+        "goalDifference": "-9",
+        "highlight": null
+      },
+      {
+        "position": 14,
+        "teamName": "Mirassol",
+        "teamUrl": "https://www.zerozero.pt/equipa/mirassol/3348?epoca_id=155",
+        "points": 23,
+        "matches": 20,
+        "wins": 6,
+        "draws": 5,
+        "losses": 9,
+        "goalsFor": 23,
+        "goalsAgainst": 27,
+        "goalDifference": "-4",
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "Santos",
+        "teamUrl": "https://www.zerozero.pt/equipa/santos?epoca_id=155",
+        "points": 22,
+        "matches": 20,
+        "wins": 5,
+        "draws": 7,
+        "losses": 8,
+        "goalsFor": 29,
+        "goalsAgainst": 33,
+        "goalDifference": "-4",
+        "highlight": null
+      },
+      {
+        "position": 16,
+        "teamName": "Internacional",
+        "teamUrl": "https://www.zerozero.pt/equipa/internacional?epoca_id=155",
+        "points": 22,
+        "matches": 21,
+        "wins": 5,
+        "draws": 7,
+        "losses": 9,
+        "goalsFor": 23,
+        "goalsAgainst": 27,
+        "goalDifference": "-4",
+        "highlight": null
+      },
+      {
+        "position": 17,
+        "teamName": "Grêmio",
+        "teamUrl": "https://www.zerozero.pt/equipa/gremio?epoca_id=155",
+        "points": 22,
+        "matches": 20,
+        "wins": 5,
+        "draws": 7,
+        "losses": 8,
+        "goalsFor": 22,
+        "goalsAgainst": 26,
+        "goalDifference": "-4",
+        "highlight": null
+      },
+      {
+        "position": 18,
+        "teamName": "Vasco",
+        "teamUrl": "https://www.zerozero.pt/equipa/vasco?epoca_id=155",
+        "points": 21,
+        "matches": 20,
+        "wins": 5,
+        "draws": 6,
+        "losses": 9,
+        "goalsFor": 23,
+        "goalsAgainst": 31,
+        "goalDifference": "-8",
+        "highlight": null
+      },
+      {
+        "position": 19,
+        "teamName": "Remo",
+        "teamUrl": "https://www.zerozero.pt/equipa/remo/3423?epoca_id=155",
+        "points": 21,
+        "matches": 21,
+        "wins": 5,
+        "draws": 6,
+        "losses": 10,
+        "goalsFor": 24,
+        "goalsAgainst": 34,
+        "goalDifference": "-10",
+        "highlight": null
+      },
+      {
+        "position": 20,
+        "teamName": "Chapecoense",
+        "teamUrl": "https://www.zerozero.pt/equipa/chapecoense/3195?epoca_id=155",
+        "points": 10,
+        "matches": 20,
+        "wins": 1,
+        "draws": 7,
+        "losses": 12,
+        "goalsFor": 19,
+        "goalsAgainst": 41,
+        "goalDifference": "-22",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-09.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/325.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

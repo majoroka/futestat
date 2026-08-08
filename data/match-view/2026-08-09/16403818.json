@@ -1,0 +1,387 @@
+{
+  "builtAtUtc": "2026-08-08T09:05:32.018Z",
+  "match": {
+    "id": "16403818",
+    "date": "2026-08-09",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/fc-petrolul-ploiesti-sc-otelul-galati/Qpbsgrk#id:16403818",
+    "kickoffAtUtc": "2026-08-09T15:30:00.000Z",
+    "competition": {
+      "id": "152",
+      "name": "Superliga",
+      "country": "Romania",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/152/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "25856",
+      "name": "Petrolul Ploiești",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/25856/image/small",
+      "sourceIds": {
+        "sofascore": "25856",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "3291",
+      "name": "Oțelul Galați",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3291/image/small",
+      "sourceIds": {
+        "sofascore": "3291",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "152",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [
+      "Competição com fase regular seguida de playoff campeão e manutenção.",
+      "Tabela da fase regular.",
+      "Quando a competição dividir em grupos ou playoffs, as zonas finais podem mudar."
+    ],
+    "ruleProfileId": "regular-season-before-split",
+    "tableName": "Campeonato",
+    "tableType": "regular_plus_playoffs",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Rapid Bucuresti",
+        "teamUrl": "https://www.zerozero.pt/equipa/rapid-bucuresti?epoca_id=156",
+        "points": 8,
+        "matches": 4,
+        "wins": 2,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 2,
+        "goalDifference": "+3",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "FCSB",
+        "teamUrl": "https://www.zerozero.pt/equipa/steaua-bucareste-?epoca_id=156",
+        "points": 7,
+        "matches": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 2,
+        "goalDifference": "+4",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Universitatea Craiova",
+        "teamUrl": "https://www.zerozero.pt/equipa/universitatea-craiova/85585?epoca_id=156",
+        "points": 6,
+        "matches": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 9,
+        "goalsAgainst": 5,
+        "goalDifference": "+4",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "Universitatea Cluj",
+        "teamUrl": "https://www.zerozero.pt/equipa/universitatea-cluj/9592?epoca_id=156",
+        "points": 6,
+        "matches": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 3,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Arges Pitesti",
+        "teamUrl": "https://www.zerozero.pt/equipa/arges-pitesti/2086?epoca_id=156",
+        "points": 6,
+        "matches": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "FC Otelul",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-otelul/2079?epoca_id=156",
+        "points": 5,
+        "matches": 3,
+        "wins": 1,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 4,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "Farul",
+        "teamUrl": "https://www.zerozero.pt/equipa/farul/2082?epoca_id=156",
+        "points": 4,
+        "matches": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 4,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "Corvinul Hunedoara",
+        "teamUrl": "https://www.zerozero.pt/equipa/corvinul-hunedoara/9767?epoca_id=156",
+        "points": 4,
+        "matches": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 3,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Sepsi OSK",
+        "teamUrl": "https://www.zerozero.pt/equipa/sepsi-osk?epoca_id=156",
+        "points": 4,
+        "matches": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Dinamo Bucuresti",
+        "teamUrl": "https://www.zerozero.pt/equipa/dinamo-bucuresti/1093?epoca_id=156",
+        "points": 4,
+        "matches": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 6,
+        "goalsAgainst": 3,
+        "goalDifference": "+3",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Voluntari",
+        "teamUrl": "https://www.zerozero.pt/equipa/voluntari?epoca_id=156",
+        "points": 4,
+        "matches": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 7,
+        "goalDifference": "-4",
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "CFR Cluj",
+        "teamUrl": "https://www.zerozero.pt/equipa/cfr-cluj?epoca_id=156",
+        "points": 3,
+        "matches": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 7,
+        "goalsAgainst": 5,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 13,
+        "teamName": "FC Petrolul Ploiesti",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-petrolul-ploiesti/2089?epoca_id=156",
+        "points": 3,
+        "matches": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 5,
+        "goalDifference": "-4",
+        "highlight": "home"
+      },
+      {
+        "position": 14,
+        "teamName": "FC Botosani",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-botosani?epoca_id=156",
+        "points": 2,
+        "matches": 3,
+        "wins": 0,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 5,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "UTA Arad",
+        "teamUrl": "https://www.zerozero.pt/equipa/uta-arad/7883?epoca_id=156",
+        "points": 2,
+        "matches": 4,
+        "wins": 0,
+        "draws": 2,
+        "losses": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 7,
+        "goalDifference": "-5",
+        "highlight": null
+      },
+      {
+        "position": 16,
+        "teamName": "Csikszereda M. Ciuc",
+        "teamUrl": "https://www.zerozero.pt/equipa/csikszereda-m-ciuc/105571?epoca_id=156",
+        "points": 0,
+        "matches": 3,
+        "wins": 0,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 0,
+        "goalsAgainst": 6,
+        "goalDifference": "-6",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-09.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/152.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-07T08:37:35.240Z",
+  "builtAtUtc": "2026-08-08T09:05:31.983Z",
   "match": {
     "id": "16403842",
     "date": "2026-08-07",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 0,
+    "awayScore": 0,
     "matchUrl": "https://www.sofascore.com/football/match/fc-rapid-bucuresti-uta-arad/hTGbsditc#id:16403842",
     "kickoffAtUtc": "2026-08-07T18:00:00.000Z",
     "competition": {
@@ -123,6 +123,20 @@
     "rows": [
       {
         "position": 1,
+        "teamName": "Rapid Bucuresti",
+        "teamUrl": "https://www.zerozero.pt/equipa/rapid-bucuresti?epoca_id=156",
+        "points": 8,
+        "matches": 4,
+        "wins": 2,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 2,
+        "goalDifference": "+3",
+        "highlight": "away"
+      },
+      {
+        "position": 2,
         "teamName": "FCSB",
         "teamUrl": "https://www.zerozero.pt/equipa/steaua-bucareste-?epoca_id=156",
         "points": 7,
@@ -134,20 +148,6 @@
         "goalsAgainst": 2,
         "goalDifference": "+4",
         "highlight": null
-      },
-      {
-        "position": 2,
-        "teamName": "Rapid Bucuresti",
-        "teamUrl": "https://www.zerozero.pt/equipa/rapid-bucuresti?epoca_id=156",
-        "points": 7,
-        "matches": 3,
-        "wins": 2,
-        "draws": 1,
-        "losses": 0,
-        "goalsFor": 5,
-        "goalsAgainst": 2,
-        "goalDifference": "+3",
-        "highlight": "away"
       },
       {
         "position": 3,
@@ -321,10 +321,10 @@
         "position": 15,
         "teamName": "UTA Arad",
         "teamUrl": "https://www.zerozero.pt/equipa/uta-arad/7883?epoca_id=156",
-        "points": 1,
-        "matches": 3,
+        "points": 2,
+        "matches": 4,
         "wins": 0,
-        "draws": 1,
+        "draws": 2,
         "losses": 2,
         "goalsFor": 2,
         "goalsAgainst": 7,
