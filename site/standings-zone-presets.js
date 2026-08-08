@@ -169,7 +169,12 @@ export const STANDINGS_ZONE_PRESETS = {
   "218": preset([
     { from: 1, to: 1, tone: "ucl", label: "Liga dos Campeões" },
     { from: 2, to: 4, tone: "uecl", label: "Competições europeias" },
-    { from: 13, to: 14, tone: "relegation", label: "Despromoção" },
+    { from: 13, to: 14, tone: "playoff", label: "Play-off manutenção" },
+    { from: 15, to: 16, tone: "relegation", label: "Despromoção" },
+  ]),
+  "203": preset([
+    { from: 13, to: 14, tone: "playoff", label: "Play-off manutenção" },
+    { from: 15, to: 16, tone: "relegation", label: "Despromoção" },
   ]),
   "238": preset([
     { from: 1, to: 2, tone: "ucl", label: "Liga dos Campeões" },
