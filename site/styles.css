@@ -1503,8 +1503,8 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 16px 18px;
-  background: linear-gradient(90deg, rgba(17, 34, 84, 0.98), rgba(31, 94, 255, 0.92));
-  color: white;
+  background: linear-gradient(180deg, rgba(248, 250, 253, 0.98), rgba(239, 243, 248, 0.98));
+  color: var(--ink);
   cursor: pointer;
 }
 
@@ -1514,14 +1514,28 @@ a {
 
 .competition-group__summary-copy {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 10px;
   min-width: 0;
   flex: 1;
 }
 
+.competition-group__flag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  flex: 0 0 22px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid rgba(23, 32, 51, 0.08);
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
 .competition-group__country {
-  opacity: 0.75;
+  color: #67748b;
   font-size: 0.84rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -1529,7 +1543,7 @@ a {
 }
 
 .competition-group__separator {
-  opacity: 0.6;
+  opacity: 0.45;
   font-size: 0.9rem;
 }
 
@@ -1546,8 +1560,8 @@ a {
 .competition-group__arrow {
   width: 12px;
   height: 12px;
-  border-right: 2px solid rgba(255, 255, 255, 0.9);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.9);
+  border-right: 2px solid rgba(23, 32, 51, 0.6);
+  border-bottom: 2px solid rgba(23, 32, 51, 0.6);
   transform: rotate(45deg);
   transition: transform 180ms ease;
 }

@@ -200,11 +200,13 @@ function renderCompetitionGroup(group) {
     .sort(compareFixtures)
     .map((fixture) => renderFixtureCard(fixture))
     .join("");
+  const countryFlag = renderCompetitionCountryFlag(group.countryName);
 
   return `
     <details class="competition-group" open>
       <summary class="competition-group__summary">
         <span class="competition-group__summary-copy">
+          <span class="competition-group__flag" aria-hidden="true">${countryFlag}</span>
           <span class="competition-group__country">${escapeHtml(group.countryName)}</span>
           <span class="competition-group__separator" aria-hidden="true">·</span>
           <span class="competition-group__title">${escapeHtml(group.competitionName)}</span>
@@ -217,6 +219,48 @@ function renderCompetitionGroup(group) {
     </details>
   `;
 }
+
+function renderCompetitionCountryFlag(countryName) {
+  const flag = competitionCountryFlags.get(String(countryName ?? "").trim()) ?? null;
+  return flag ?? "🌐";
+}
+
+const competitionCountryFlags = new Map([
+  ["Argentina", "🇦🇷"],
+  ["Austria", "🇦🇹"],
+  ["Belgium", "🇧🇪"],
+  ["Brazil", "🇧🇷"],
+  ["Bulgaria", "🇧🇬"],
+  ["Croatia", "🇭🇷"],
+  ["Czech Republic", "🇨🇿"],
+  ["Denmark", "🇩🇰"],
+  ["England", "🏴"],
+  ["Europe", "🌐"],
+  ["Finland", "🇫🇮"],
+  ["France", "🇫🇷"],
+  ["Germany", "🇩🇪"],
+  ["Greece", "🇬🇷"],
+  ["Hungary", "🇭🇺"],
+  ["International", "🌐"],
+  ["Israel", "🇮🇱"],
+  ["Italy", "🇮🇹"],
+  ["Netherlands", "🇳🇱"],
+  ["Norway", "🇳🇴"],
+  ["Poland", "🇵🇱"],
+  ["Portugal", "🇵🇹"],
+  ["Romania", "🇷🇴"],
+  ["Russia", "🇷🇺"],
+  ["Scotland", "🏴"],
+  ["Serbia", "🇷🇸"],
+  ["Slovakia", "🇸🇰"],
+  ["Slovenia", "🇸🇮"],
+  ["Spain", "🇪🇸"],
+  ["Sweden", "🇸🇪"],
+  ["Switzerland", "🇨🇭"],
+  ["Turkey", "🇹🇷"],
+  ["Ukraine", "🇺🇦"],
+  ["World", "🌐"],
+]);
 
 function renderFixtureCard(fixture) {
   const matchViewState = state.matchViewCache.get(fixture.sourceEventId) ?? null;
