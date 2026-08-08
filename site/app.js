@@ -27,6 +27,7 @@ const state = {
   selectedDate: null,
   selectedFixtureId: null,
   selectedDetailTab: "details",
+  expandedCompetitionKeys: new Set(),
   matchViewCache: new Map(),
   standingsCache: new Map(),
 };
@@ -177,8 +178,9 @@ function renderFixtures() {
 
   const byCompetition = new Map();
   for (const fixture of fixtures) {
-    const key = `${fixture.countryName ?? "Desconhecido"}__${fixture.competitionName ?? "Competição desconhecida"}`;
+    const key = buildCompetitionGroupKey(state.selectedDate, fixture);
     const group = byCompetition.get(key) ?? {
+      key,
       countryName: fixture.countryName ?? "Desconhecido",
       competitionName: fixture.competitionName ?? "Competição desconhecida",
       fixtures: [],
@@ -192,6 +194,7 @@ function renderFixtures() {
     .join("");
 
   bindFixtureInteractions();
+  bindCompetitionGroupInteractions();
   preloadVisibleMatchViews(fixtures);
 }
 
@@ -202,9 +205,10 @@ function renderCompetitionGroup(group) {
     .join("");
   const countryFlag = renderCompetitionCountryFlag(group.countryName);
   const fixtureCount = group.fixtures.length;
+  const isExpanded = state.expandedCompetitionKeys.has(group.key);
 
   return `
-    <details class="competition-group">
+    <details class="competition-group" data-competition-key="${escapeAttribute(group.key)}" ${isExpanded ? "open" : ""}>
       <summary class="competition-group__summary">
         <span class="competition-group__summary-copy">
           <span class="competition-group__flag" aria-hidden="true">${countryFlag}</span>
@@ -222,6 +226,24 @@ function renderCompetitionGroup(group) {
       </div>
     </details>
   `;
+}
+
+function bindCompetitionGroupInteractions() {
+  for (const groupEl of groupsEl?.querySelectorAll("[data-competition-key]") ?? []) {
+    groupEl.addEventListener("toggle", () => {
+      const groupKey = groupEl.getAttribute("data-competition-key");
+      if (!groupKey) {
+        return;
+      }
+
+      if (groupEl.open) {
+        state.expandedCompetitionKeys.add(groupKey);
+        return;
+      }
+
+      state.expandedCompetitionKeys.delete(groupKey);
+    });
+  }
 }
 
 function renderCompetitionCountryFlag(countryName) {
@@ -1780,6 +1802,14 @@ function selectDate(date) {
 
 function buildFixtureStateCopy(count, date) {
   return `${count} jogos visíveis para ${date} - Hora de Lisboa`;
+}
+
+function buildCompetitionGroupKey(selectedDate, fixture) {
+  return [
+    selectedDate ?? fixture.matchDate ?? "sem-data",
+    fixture.countryName ?? "Desconhecido",
+    fixture.competitionName ?? "Competição desconhecida",
+  ].join("__");
 }
 
 function formatDateOptionLabel(date) {
