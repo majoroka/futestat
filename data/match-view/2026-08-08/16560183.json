@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-08T18:29:00.256Z",
+  "builtAtUtc": "2026-08-09T16:08:44.548Z",
   "match": {
     "id": "16560183",
     "date": "2026-08-08",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 5,
+    "awayScore": 0,
     "matchUrl": "https://www.sofascore.com/football/match/gd-vitoria-sernache-cd-mafra/Uzpsmqwb#id:16560183",
     "kickoffAtUtc": "2026-08-08T19:00:00.000Z",
     "competition": {

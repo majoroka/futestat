@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-08T18:29:00.238Z",
+  "builtAtUtc": "2026-08-09T16:08:44.523Z",
   "match": {
     "id": "16560191",
     "date": "2026-08-08",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 2,
+    "awayScore": 0,
     "matchUrl": "https://www.sofascore.com/football/match/ud-santarem-sc-covilha/MkbsCMEc#id:16560191",
     "kickoffAtUtc": "2026-08-08T16:00:00.000Z",
     "competition": {

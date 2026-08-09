@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-08T18:29:00.297Z",
+  "builtAtUtc": "2026-08-09T16:08:44.592Z",
   "match": {
     "id": "16275177",
     "date": "2026-08-09",
@@ -203,18 +203,32 @@
         "position": 1,
         "teamName": "NK Osijek",
         "teamUrl": "https://www.zerozero.pt/equipa/nk-osijek?epoca_id=156",
-        "points": 3,
-        "matches": 1,
-        "wins": 1,
+        "points": 6,
+        "matches": 2,
+        "wins": 2,
         "draws": 0,
         "losses": 0,
-        "goalsFor": 2,
-        "goalsAgainst": 0,
-        "goalDifference": "+2",
+        "goalsFor": 8,
+        "goalsAgainst": 1,
+        "goalDifference": "+7",
         "highlight": null
       },
       {
         "position": 2,
+        "teamName": "NK Lokomotiva",
+        "teamUrl": "https://www.zerozero.pt/equipa/nk-lokomotiva/25230?epoca_id=156",
+        "points": 6,
+        "matches": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 3,
+        "goalDifference": "+3",
+        "highlight": null
+      },
+      {
+        "position": 3,
         "teamName": "Dinamo Zagreb",
         "teamUrl": "https://www.zerozero.pt/equipa/dinamo-zagreb?epoca_id=156",
         "points": 3,
@@ -225,20 +239,6 @@
         "goalsFor": 2,
         "goalsAgainst": 0,
         "goalDifference": "+2",
-        "highlight": null
-      },
-      {
-        "position": 3,
-        "teamName": "NK Lokomotiva",
-        "teamUrl": "https://www.zerozero.pt/equipa/nk-lokomotiva/25230?epoca_id=156",
-        "points": 3,
-        "matches": 1,
-        "wins": 1,
-        "draws": 0,
-        "losses": 0,
-        "goalsFor": 3,
-        "goalsAgainst": 2,
-        "goalDifference": "+1",
         "highlight": null
       },
       {
@@ -299,34 +299,6 @@
       },
       {
         "position": 8,
-        "teamName": "NK Rudes",
-        "teamUrl": "https://www.zerozero.pt/equipa/nk-rudes/28896?epoca_id=156",
-        "points": 0,
-        "matches": 1,
-        "wins": 0,
-        "draws": 0,
-        "losses": 1,
-        "goalsFor": 1,
-        "goalsAgainst": 2,
-        "goalDifference": "-1",
-        "highlight": null
-      },
-      {
-        "position": 9,
-        "teamName": "HNK Gorica",
-        "teamUrl": "https://www.zerozero.pt/equipa/hnk-gorica/39885?epoca_id=156",
-        "points": 0,
-        "matches": 1,
-        "wins": 0,
-        "draws": 0,
-        "losses": 1,
-        "goalsFor": 0,
-        "goalsAgainst": 2,
-        "goalDifference": "-2",
-        "highlight": null
-      },
-      {
-        "position": 10,
         "teamName": "Slaven",
         "teamUrl": "https://www.zerozero.pt/equipa/slaven/1857?epoca_id=156",
         "points": 0,
@@ -337,6 +309,34 @@
         "goalsFor": 0,
         "goalsAgainst": 2,
         "goalDifference": "-2",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "HNK Gorica",
+        "teamUrl": "https://www.zerozero.pt/equipa/hnk-gorica/39885?epoca_id=156",
+        "points": 0,
+        "matches": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 5,
+        "goalDifference": "-4",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "NK Rudes",
+        "teamUrl": "https://www.zerozero.pt/equipa/nk-rudes/28896?epoca_id=156",
+        "points": 0,
+        "matches": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 8,
+        "goalDifference": "-6",
         "highlight": null
       }
     ]

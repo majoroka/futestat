@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-08T18:29:00.249Z",
+  "builtAtUtc": "2026-08-09T16:08:44.538Z",
   "match": {
     "id": "16295799",
     "date": "2026-08-08",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 0,
+    "awayScore": 2,
     "matchUrl": "https://www.sofascore.com/football/match/arda-kardzhali-fk-dunav-ruse/LpbswZjc#id:16295799",
     "kickoffAtUtc": "2026-08-08T18:15:00.000Z",
     "competition": {
@@ -137,6 +137,20 @@
       },
       {
         "position": 2,
+        "teamName": "CSKA 1948",
+        "teamUrl": "https://www.zerozero.pt/equipa/cska-1948/216100?epoca_id=156",
+        "points": 10,
+        "matches": 4,
+        "wins": 3,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 9,
+        "goalsAgainst": 5,
+        "goalDifference": "+4",
+        "highlight": null
+      },
+      {
+        "position": 3,
         "teamName": "Ludogorets Razgrad",
         "teamUrl": "https://www.zerozero.pt/equipa/ludogorets-razgrad?epoca_id=156",
         "points": 9,
@@ -150,7 +164,7 @@
         "highlight": null
       },
       {
-        "position": 3,
+        "position": 4,
         "teamName": "Spartak Varna",
         "teamUrl": "https://www.zerozero.pt/equipa/spartak-varna/1821?epoca_id=156",
         "points": 7,
@@ -161,20 +175,6 @@
         "goalsFor": 6,
         "goalsAgainst": 2,
         "goalDifference": "+4",
-        "highlight": null
-      },
-      {
-        "position": 4,
-        "teamName": "CSKA 1948",
-        "teamUrl": "https://www.zerozero.pt/equipa/cska-1948/216100?epoca_id=156",
-        "points": 7,
-        "matches": 3,
-        "wins": 2,
-        "draws": 1,
-        "losses": 0,
-        "goalsFor": 6,
-        "goalsAgainst": 4,
-        "goalDifference": "+2",
         "highlight": null
       },
       {
@@ -193,6 +193,20 @@
       },
       {
         "position": 6,
+        "teamName": "Arda Kardzhali",
+        "teamUrl": "https://www.zerozero.pt/equipa/arda-kardzhali/209666?epoca_id=156",
+        "points": 7,
+        "matches": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 3,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 7,
         "teamName": "Botev Plovdiv",
         "teamUrl": "https://www.zerozero.pt/equipa/botev-plovdiv/1827?epoca_id=156",
         "points": 4,
@@ -202,20 +216,6 @@
         "losses": 1,
         "goalsFor": 4,
         "goalsAgainst": 4,
-        "goalDifference": "0",
-        "highlight": null
-      },
-      {
-        "position": 7,
-        "teamName": "Arda Kardzhali",
-        "teamUrl": "https://www.zerozero.pt/equipa/arda-kardzhali/209666?epoca_id=156",
-        "points": 4,
-        "matches": 3,
-        "wins": 1,
-        "draws": 1,
-        "losses": 1,
-        "goalsFor": 3,
-        "goalsAgainst": 3,
         "goalDifference": "0",
         "highlight": null
       },
@@ -235,20 +235,6 @@
       },
       {
         "position": 9,
-        "teamName": "Lokomotiv Sofia",
-        "teamUrl": "https://www.zerozero.pt/equipa/lokomotiv-sofia/1818?epoca_id=156",
-        "points": 2,
-        "matches": 3,
-        "wins": 0,
-        "draws": 2,
-        "losses": 1,
-        "goalsFor": 3,
-        "goalsAgainst": 4,
-        "goalDifference": "-1",
-        "highlight": null
-      },
-      {
-        "position": 10,
         "teamName": "Slavia",
         "teamUrl": "https://www.zerozero.pt/equipa/slavia/1816?epoca_id=156",
         "points": 2,
@@ -259,6 +245,20 @@
         "goalsFor": 1,
         "goalsAgainst": 2,
         "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Lokomotiv Sofia",
+        "teamUrl": "https://www.zerozero.pt/equipa/lokomotiv-sofia/1818?epoca_id=156",
+        "points": 2,
+        "matches": 4,
+        "wins": 0,
+        "draws": 2,
+        "losses": 2,
+        "goalsFor": 4,
+        "goalsAgainst": 7,
+        "goalDifference": "-3",
         "highlight": null
       },
       {
@@ -308,13 +308,13 @@
         "teamName": "FC Dunav",
         "teamUrl": "https://www.zerozero.pt/equipa/fc-dunav/10828?epoca_id=156",
         "points": 0,
-        "matches": 3,
+        "matches": 4,
         "wins": 0,
         "draws": 0,
-        "losses": 3,
+        "losses": 4,
         "goalsFor": 2,
-        "goalsAgainst": 6,
-        "goalDifference": "-4",
+        "goalsAgainst": 8,
+        "goalDifference": "-6",
         "highlight": null
       }
     ]

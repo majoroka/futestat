@@ -1,0 +1,383 @@
+{
+  "builtAtUtc": "2026-08-09T16:08:44.611Z",
+  "match": {
+    "id": "16390271",
+    "date": "2026-08-10",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/akhmat-grozny-fakel-voronezh/rWsGcc#id:16390271",
+    "kickoffAtUtc": "2026-08-10T16:30:00.000Z",
+    "competition": {
+      "id": "203",
+      "name": "Premier League",
+      "country": "Russia",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/203/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "2317",
+      "name": "Fakel",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2317/image/small",
+      "sourceIds": {
+        "sofascore": "2317",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "5131",
+      "name": "Akhmat",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/5131/image/small",
+      "sourceIds": {
+        "sofascore": "5131",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "203",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Dynamo Makhachkala",
+        "teamUrl": "https://www.zerozero.pt/equipa/dynamo-makhachkala/13671?epoca_id=156",
+        "points": 6,
+        "matches": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 5,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Spartak Moskva",
+        "teamUrl": "https://www.zerozero.pt/equipa/spartak-moskva?epoca_id=156",
+        "points": 6,
+        "matches": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 1,
+        "goalDifference": "+4",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Zenit",
+        "teamUrl": "https://www.zerozero.pt/equipa/zenit?epoca_id=156",
+        "points": 6,
+        "matches": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 9,
+        "goalsAgainst": 2,
+        "goalDifference": "+7",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "FK Krasnodar",
+        "teamUrl": "https://www.zerozero.pt/equipa/fk-krasnodar/25480?epoca_id=156",
+        "points": 6,
+        "matches": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 3,
+        "goalDifference": "+3",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Baltika Kaliningrad",
+        "teamUrl": "https://www.zerozero.pt/equipa/baltika-kaliningrad/11441?epoca_id=156",
+        "points": 6,
+        "matches": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 3,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "CSKA Moskva",
+        "teamUrl": "https://www.zerozero.pt/equipa/cska-moskva?epoca_id=156",
+        "points": 5,
+        "matches": 3,
+        "wins": 1,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "FK Rostov",
+        "teamUrl": "https://www.zerozero.pt/equipa/fk-rostov/2096?epoca_id=156",
+        "points": 4,
+        "matches": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 4,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "Dynamo Moskva",
+        "teamUrl": "https://www.zerozero.pt/equipa/dynamo-moskva?epoca_id=156",
+        "points": 4,
+        "matches": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 3,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "FK Orenburg",
+        "teamUrl": "https://www.zerozero.pt/equipa/fk-orenburg/31959?epoca_id=156",
+        "points": 3,
+        "matches": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 4,
+        "goalDifference": "-2",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Rubin Kazan",
+        "teamUrl": "https://www.zerozero.pt/equipa/rubin-kazan/2091?epoca_id=156",
+        "points": 3,
+        "matches": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 4,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Rodina Moskva",
+        "teamUrl": "https://www.zerozero.pt/equipa/rodina-moskva/242704?epoca_id=156",
+        "points": 3,
+        "matches": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 4,
+        "goalsAgainst": 8,
+        "goalDifference": "-4",
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "Krylya Sovetov",
+        "teamUrl": "https://www.zerozero.pt/equipa/krylya-sovetov/2095?epoca_id=156",
+        "points": 2,
+        "matches": 3,
+        "wins": 0,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 3,
+        "goalDifference": "-2",
+        "highlight": null
+      },
+      {
+        "position": 13,
+        "teamName": "Lokomotiv",
+        "teamUrl": "https://www.zerozero.pt/equipa/lokomotiv/142?epoca_id=156",
+        "points": 2,
+        "matches": 3,
+        "wins": 0,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 14,
+        "teamName": "Akhmat Grozny",
+        "teamUrl": "https://www.zerozero.pt/equipa/akhmat-grozny/4253?epoca_id=156",
+        "points": 1,
+        "matches": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
+        "goalDifference": "-1",
+        "highlight": "away"
+      },
+      {
+        "position": 15,
+        "teamName": "Akron Togliatti",
+        "teamUrl": "https://www.zerozero.pt/equipa/akron-togliatti/242343?epoca_id=156",
+        "points": 1,
+        "matches": 3,
+        "wins": 0,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 7,
+        "goalDifference": "-6",
+        "highlight": null
+      },
+      {
+        "position": 16,
+        "teamName": "Fakel Voronezh",
+        "teamUrl": "https://www.zerozero.pt/equipa/fakel-voronezh/8597?epoca_id=156",
+        "points": 0,
+        "matches": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 3,
+        "goalsAgainst": 5,
+        "goalDifference": "-2",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-10.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/203.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "builtAtUtc": "2026-08-09T16:08:44.611Z",
+  "match": {
+    "id": "16436375",
+    "date": "2026-08-10",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/sl-benficau21-leixoes-sc/tkbspOE#id:16436375",
+    "kickoffAtUtc": "2026-08-10T17:00:00.000Z",
+    "competition": {
+      "id": "239",
+      "name": "Liga Portugal 2",
+      "country": "Portugal",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/239/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "74465",
+      "name": "Benfica B",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/74465/image/small",
+      "sourceIds": {
+        "sofascore": "74465",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "3018",
+      "name": "Leixões",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3018/image/small",
+      "sourceIds": {
+        "sofascore": "3018",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "239",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [
+      "Tabela corrida da II Liga portuguesa."
+    ],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Académica OAF",
+        "teamUrl": "https://www.zerozero.pt/equipa/academica-oaf/19?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 1,
+        "goalDifference": "+3",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Portimonense",
+        "teamUrl": "https://www.zerozero.pt/equipa/portimonense/33?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 0,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "FC Vizela",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-vizela/2197?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 0,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "CD Tondela",
+        "teamUrl": "https://www.zerozero.pt/equipa/cd-tondela/4336?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Farense",
+        "teamUrl": "https://www.zerozero.pt/equipa/farense/10?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Feirense",
+        "teamUrl": "https://www.zerozero.pt/equipa/feirense/1728?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "FC Porto B",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-porto/3584?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "Benfica B",
+        "teamUrl": "https://www.zerozero.pt/equipa/benfica/3563?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": "home"
+      },
+      {
+        "position": 9,
+        "teamName": "Leixões",
+        "teamUrl": "https://www.zerozero.pt/equipa/leixoes/1727?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": "away"
+      },
+      {
+        "position": 10,
+        "teamName": "Lusitânia de Lourosa",
+        "teamUrl": "https://www.zerozero.pt/equipa/lusitania-de-lourosa/3599?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "AFS",
+        "teamUrl": "https://www.zerozero.pt/equipa/afs/296012?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "FC Penafiel",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-penafiel/30?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 1,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 13,
+        "teamName": "Sporting B",
+        "teamUrl": "https://www.zerozero.pt/equipa/sporting/3660?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 14,
+        "teamName": "FC Felgueiras",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-felgueiras/11129?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "GD Chaves",
+        "teamUrl": "https://www.zerozero.pt/equipa/gd-chaves/20?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 4,
+        "goalDifference": "-3",
+        "highlight": null
+      },
+      {
+        "position": 16,
+        "teamName": "UD Leiria",
+        "teamUrl": "https://www.zerozero.pt/equipa/ud-leiria/17?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 1,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 17,
+        "teamName": "Amarante FC",
+        "teamUrl": "https://www.zerozero.pt/equipa/amarante-fc/4330?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 18,
+        "teamName": "Torreense",
+        "teamUrl": "https://www.zerozero.pt/equipa/torreense/2178?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "goalDifference": "-1",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-10.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/239.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

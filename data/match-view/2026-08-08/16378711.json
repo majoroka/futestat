@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-08T18:29:00.250Z",
+  "builtAtUtc": "2026-08-09T16:08:44.540Z",
   "match": {
     "id": "16378711",
     "date": "2026-08-08",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 1,
+    "awayScore": 0,
     "matchUrl": "https://www.sofascore.com/football/match/nk-olimpija-ljubljana-nk-celje/nYsqY#id:16378711",
     "kickoffAtUtc": "2026-08-08T18:15:00.000Z",
     "competition": {
@@ -528,20 +528,6 @@
       },
       {
         "position": 3,
-        "teamName": "FC Koper",
-        "teamUrl": "https://www.zerozero.pt/equipa/fc-koper/1884?epoca_id=156",
-        "points": 5,
-        "matches": 3,
-        "wins": 1,
-        "draws": 2,
-        "losses": 0,
-        "goalsFor": 5,
-        "goalsAgainst": 3,
-        "goalDifference": "+2",
-        "highlight": null
-      },
-      {
-        "position": 4,
         "teamName": "Maribor",
         "teamUrl": "https://www.zerozero.pt/equipa/maribor/170?epoca_id=156",
         "points": 5,
@@ -555,7 +541,35 @@
         "highlight": null
       },
       {
+        "position": 4,
+        "teamName": "NK Celje",
+        "teamUrl": "https://www.zerozero.pt/equipa/nk-celje/1055?epoca_id=156",
+        "points": 5,
+        "matches": 3,
+        "wins": 1,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 3,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
         "position": 5,
+        "teamName": "FC Koper",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-koper/1884?epoca_id=156",
+        "points": 5,
+        "matches": 3,
+        "wins": 1,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 3,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 6,
         "teamName": "NS Mura",
         "teamUrl": "https://www.zerozero.pt/equipa/ns-mura?epoca_id=156",
         "points": 4,
@@ -569,7 +583,7 @@
         "highlight": null
       },
       {
-        "position": 6,
+        "position": 7,
         "teamName": "Brinje Grosuplje",
         "teamUrl": "https://www.zerozero.pt/equipa/brinje-grosuplje/111981?epoca_id=156",
         "points": 4,
@@ -583,32 +597,18 @@
         "highlight": null
       },
       {
-        "position": 7,
+        "position": 8,
         "teamName": "Olimpija Ljubljana",
         "teamUrl": "https://www.zerozero.pt/equipa/olimpija-ljubljana/1890?epoca_id=156",
         "points": 3,
-        "matches": 3,
+        "matches": 4,
         "wins": 1,
         "draws": 0,
-        "losses": 2,
+        "losses": 3,
         "goalsFor": 1,
-        "goalsAgainst": 3,
-        "goalDifference": "-2",
+        "goalsAgainst": 4,
+        "goalDifference": "-3",
         "highlight": "away"
-      },
-      {
-        "position": 8,
-        "teamName": "NK Celje",
-        "teamUrl": "https://www.zerozero.pt/equipa/nk-celje/1055?epoca_id=156",
-        "points": 2,
-        "matches": 2,
-        "wins": 0,
-        "draws": 2,
-        "losses": 0,
-        "goalsFor": 3,
-        "goalsAgainst": 3,
-        "goalDifference": "0",
-        "highlight": null
       },
       {
         "position": 9,

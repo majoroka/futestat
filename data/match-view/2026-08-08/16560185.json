@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-08T18:29:00.239Z",
+  "builtAtUtc": "2026-08-09T16:08:44.525Z",
   "match": {
     "id": "16560185",
     "date": "2026-08-08",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 0,
+    "awayScore": 1,
     "matchUrl": "https://www.sofascore.com/football/match/lusitano-ginasio-clube-atletico-cp/CdosrgTb#id:16560185",
     "kickoffAtUtc": "2026-08-08T16:00:00.000Z",
     "competition": {

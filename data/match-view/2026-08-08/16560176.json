@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-08T18:29:00.243Z",
+  "builtAtUtc": "2026-08-09T16:08:44.530Z",
   "match": {
     "id": "16560176",
     "date": "2026-08-08",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 1,
+    "awayScore": 0,
     "matchUrl": "https://www.sofascore.com/football/match/cf-os-belenenses-caldas-sc/GXrsWiYc#id:16560176",
     "kickoffAtUtc": "2026-08-08T16:30:00.000Z",
     "competition": {
