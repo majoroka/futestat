@@ -18,47 +18,47 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/9863/stats/fluminense/teams",
-    "collectedAtUtc": "2026-08-08T18:23:00.955Z"
+    "collectedAtUtc": "2026-08-09T16:21:33.800Z"
   },
   "availability": {
     "status": "archived",
-    "coverage": "low",
+    "coverage": "high",
     "notes": "Epoca anterior capturada para referencia estrutural."
   },
   "overview": {
-    "teamRating": 7,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 6.94,
+    "goalsPerMatch": 1.4,
+    "goalsConcededPerMatch": 1.2,
+    "averagePossessionPct": 59,
+    "cleanSheets": 4,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": 31.592900000000004,
-    "xgDiff": 5.407099999999996,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 32.1,
+    "xgDiff": 7.3,
+    "shotsOnTargetPerMatch": 5.7,
+    "bigChances": 55,
+    "bigChancesMissed": 31,
+    "accuratePassesPerMatch": 465.6,
+    "accurateLongBallsPerMatch": 21,
+    "accurateCrossesPerMatch": 4.3,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 552,
+    "cornersPerMatch": 127,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": 20.174400000000002,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
+    "xgConceded": 24.8,
+    "interceptionsPerMatch": 6.7,
+    "tacklesPerMatch": 14.6,
+    "clearancesPerMatch": 21.9,
     "finalThirdRecoveriesPerMatch": null,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 3.4
   },
   "discipline": {
-    "foulsPerMatch": null,
+    "foulsPerMatch": 13.1,
     "yellowCardsPerMatch": null,
     "redCardsPerMatch": null
   }

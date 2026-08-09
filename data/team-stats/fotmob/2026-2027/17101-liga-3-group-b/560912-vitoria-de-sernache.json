@@ -8,7 +8,7 @@
   },
   "competition": {
     "id": "17101",
-    "name": "Liga 3 Zona B"
+    "name": "Liga 3"
   },
   "season": {
     "id": "2026/2027",
@@ -18,17 +18,17 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/560912/stats/vitoria-de-sernache/teams",
-    "collectedAtUtc": "2026-08-08T18:24:34.699Z"
+    "collectedAtUtc": "2026-08-09T16:22:46.627Z"
   },
   "availability": {
-    "status": "not_started",
+    "status": "partial",
     "coverage": "low",
-    "notes": "Epoca atual ainda sem estatisticas agregadas disponiveis no HTML capturado."
+    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
   },
   "overview": {
     "teamRating": null,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
+    "goalsPerMatch": 0,
+    "goalsConcededPerMatch": 5,
     "averagePossessionPct": null,
     "cleanSheets": null,
     "attendanceAverage": null
@@ -59,7 +59,7 @@
   },
   "discipline": {
     "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "yellowCardsPerMatch": 1,
     "redCardsPerMatch": null
   }
 }

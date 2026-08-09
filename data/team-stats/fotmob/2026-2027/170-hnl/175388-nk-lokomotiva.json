@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/175388/stats/nk-lokomotiva/teams",
-    "collectedAtUtc": "2026-08-08T18:23:34.384Z"
+    "collectedAtUtc": "2026-08-09T16:22:02.409Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 7,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
+    "teamRating": 6.96,
+    "goalsPerMatch": 3,
+    "goalsConcededPerMatch": 1.5,
+    "averagePossessionPct": 45.5,
     "cleanSheets": null,
     "attendanceAverage": null
   },
   "attack": {
     "xg": null,
     "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "shotsOnTargetPerMatch": 4,
+    "bigChances": 5,
+    "bigChancesMissed": 4,
+    "accuratePassesPerMatch": 292.5,
+    "accurateLongBallsPerMatch": 21.5,
+    "accurateCrossesPerMatch": 5,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 30,
+    "cornersPerMatch": 13,
     "setPieceGoals": null
   },
   "defense": {
     "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "interceptionsPerMatch": 10,
+    "tacklesPerMatch": 11,
+    "clearancesPerMatch": 28.5,
+    "finalThirdRecoveriesPerMatch": 2,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 4.5
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 11.5,
+    "yellowCardsPerMatch": 9,
     "redCardsPerMatch": null
   }
 }

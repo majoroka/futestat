@@ -18,19 +18,19 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/1153473/stats/nk-brinje-grosuplje/teams",
-    "collectedAtUtc": "2026-08-08T18:26:13.813Z"
+    "collectedAtUtc": "2026-08-09T16:24:07.585Z"
   },
   "availability": {
-    "status": "not_started",
+    "status": "partial",
     "coverage": "low",
-    "notes": "Epoca atual ainda sem estatisticas agregadas disponiveis no HTML capturado."
+    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
   },
   "overview": {
     "teamRating": null,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
+    "goalsPerMatch": 1,
+    "goalsConcededPerMatch": 1.3,
     "averagePossessionPct": null,
-    "cleanSheets": null,
+    "cleanSheets": 1,
     "attendanceAverage": null
   },
   "attack": {

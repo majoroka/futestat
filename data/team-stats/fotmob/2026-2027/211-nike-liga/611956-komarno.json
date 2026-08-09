@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/611956/stats/komarno/teams",
-    "collectedAtUtc": "2026-08-08T18:25:57.038Z"
+    "collectedAtUtc": "2026-08-09T16:23:55.670Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 6.5,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
+    "teamRating": 6.66,
+    "goalsPerMatch": 1,
+    "goalsConcededPerMatch": 1.3,
+    "averagePossessionPct": 52.6,
     "cleanSheets": null,
     "attendanceAverage": null
   },
   "attack": {
     "xg": null,
     "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "shotsOnTargetPerMatch": 5.3,
+    "bigChances": 6,
+    "bigChancesMissed": 4,
+    "accuratePassesPerMatch": 361.7,
+    "accurateLongBallsPerMatch": 28.7,
+    "accurateCrossesPerMatch": 6.3,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 83,
+    "cornersPerMatch": 17,
     "setPieceGoals": null
   },
   "defense": {
     "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "interceptionsPerMatch": 6.7,
+    "tacklesPerMatch": 13.3,
+    "clearancesPerMatch": 29,
+    "finalThirdRecoveriesPerMatch": 3.7,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 3.3
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 16.7,
+    "yellowCardsPerMatch": 8,
     "redCardsPerMatch": null
   }
 }

@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Vitoria-Guimaraes/1089/",
-    "collectedAtUtc": "2026-08-08T18:27:33.489Z"
+    "collectedAtUtc": "2026-08-09T16:25:39.074Z"
   },
   "availability": {
     "status": "available",
@@ -22,39 +22,39 @@
     "notes": null
   },
   "ratings": {
-    "overall": 1981.6,
+    "overall": 1988.04,
     "home": 2021.43,
-    "away": 1941.76
+    "away": 1954.65
   },
   "rankings": {
     "national": 9,
-    "europe": 272
+    "europe": 274
   },
   "form": {
     "last3": [
-      "L",
-      "L",
-      "L"
+      "D",
+      "D",
+      "W"
     ]
   },
   "prediction": {
-    "tip": null,
-    "tipLabel": null,
-    "confidencePct": null,
-    "strengthComparison": "favorite"
+    "tip": "home_win",
+    "tipLabel": "Bet on (1) Sporting Lisboa (Stake 3/10)",
+    "confidencePct": 30,
+    "strengthComparison": "underdog"
   },
   "oddsMarket": {
     "opening1X2": {
-      "home": 1.88,
-      "draw": 3.5,
-      "away": 3.9
+      "home": 1.2,
+      "draw": 7,
+      "away": 12
     },
     "fair1X2": {
-      "home": 1.89,
-      "draw": 3.93,
-      "away": 4.63
+      "home": 1.25,
+      "draw": 7.79,
+      "away": 14.46
     },
-    "movementSummary": "home_odds_up_away_odds_down"
+    "movementSummary": "home_odds_flat_away_odds_flat"
   },
   "squadHealth": {
     "injuries": [],
@@ -62,7 +62,7 @@
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": null,
+    "averageRating": 6.2,
     "players": [
       {
         "name": "Oliwier Zych",
@@ -415,8 +415,8 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Vasteras SK FK",
-      "rating": 1981.66
+      "name": "Heart of Midlothian",
+      "rating": 1977.79
     },
     {
       "name": "Corum FK",

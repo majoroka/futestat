@@ -57,346 +57,287 @@
     "movementSummary": "home_odds_up_away_odds_down"
   },
   "squadHealth": {
-    "injuries": [
-      {
-        "player": "Christian Makoun",
-        "status": "injury_or_suspension",
-        "description": null
-      },
-      {
-        "player": "Akram Bouras",
-        "status": "injury_or_suspension",
-        "description": null
-      }
-    ],
+    "injuries": [],
     "suspensions": []
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": null,
+    "averageRating": 3.7,
     "players": [
       {
-        "name": "Svetoslav Vutsov",
+        "name": "Bojan Milosavljevic",
         "position": "GK",
         "age": null,
-        "apps": 2,
-        "goals": 0,
-        "rating": 5.2
-      },
-      {
-        "name": "Maicon",
-        "position": "DF",
-        "age": null,
-        "apps": 2,
-        "goals": 0,
-        "rating": 5.3
-      },
-      {
-        "name": "Hevertton",
-        "position": "DF",
-        "age": null,
-        "apps": 1,
-        "goals": 0,
-        "rating": 4.8
-      },
-      {
-        "name": "Kristian Dimitrov",
-        "position": "DF",
-        "age": null,
-        "apps": 1,
-        "goals": 1,
-        "rating": 5.2
-      },
-      {
-        "name": "David Kusso",
-        "position": "DF",
-        "age": null,
         "apps": 3,
-        "goals": 0,
-        "rating": 3.6
-      },
-      {
-        "name": "Asen Mitkov",
-        "position": "MF",
-        "age": null,
-        "apps": 1,
         "goals": 0,
         "rating": 4.3
       },
       {
-        "name": "Mehdi Moubarik",
-        "position": "MF",
+        "name": "Adrian Cova",
+        "position": "DF",
         "age": null,
-        "apps": 2,
+        "apps": 3,
         "goals": 0,
         "rating": 4.4
       },
       {
-        "name": "Mazire Soula",
+        "name": "Ivaylo Ivanov",
+        "position": "DF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Ryan Lucas",
+        "position": "DF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Andrei Chindris",
+        "position": "DF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Miha Trdan",
         "position": "MF",
         "age": null,
         "apps": 3,
         "goals": 0,
-        "rating": 5
+        "rating": 1.9
       },
       {
-        "name": "Armstrong Oko-Flex",
-        "position": "ST",
-        "age": null,
-        "apps": 3,
-        "goals": 1,
-        "rating": 4.2
-      },
-      {
-        "name": "Juan Perea",
-        "position": "ST",
-        "age": null,
-        "apps": 1,
-        "goals": 0,
-        "rating": 3.8
-      },
-      {
-        "name": "Everton Bala",
-        "position": "ST",
+        "name": "Sevi Idriz",
+        "position": "MF",
         "age": null,
         "apps": 3,
         "goals": 0,
-        "rating": 5.2
+        "rating": 3.5
       },
       {
-        "name": "Ognyan Vladimirov",
+        "name": "Efe Ali",
+        "position": "MF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Todor Pavlov",
+        "position": "MF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Catalin Itu",
+        "position": "MF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.6
+      },
+      {
+        "name": "Axel Velev",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.5
+      },
+      {
+        "name": "Petar Zovko",
         "position": "GK",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 1.2
+      },
+      {
+        "name": "A. Aleksandrov",
+        "position": "MF",
         "age": null,
         "apps": 1,
         "goals": 0,
         "rating": 1.3
       },
       {
-        "name": "Aldair",
-        "position": "DF",
-        "age": null,
-        "apps": 3,
-        "goals": 0,
-        "rating": 4.9
-      },
-      {
-        "name": "Serginho",
-        "position": "MF",
-        "age": null,
-        "apps": 3,
-        "goals": 2,
-        "rating": 5
-      },
-      {
-        "name": "Reinaldo",
+        "name": "Julien Lamy",
         "position": "ST",
         "age": null,
         "apps": 3,
         "goals": 1,
-        "rating": 4.1
+        "rating": 4.9
       },
       {
-        "name": "Gasper Trdin",
+        "name": "Christ Longville",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 1.7
+      },
+      {
+        "name": "Denis Kirashki",
         "position": "MF",
         "age": null,
-        "apps": 2,
+        "apps": 0,
         "goals": 0,
-        "rating": 4.4
-      },
-      {
-        "name": "Nikola Serafimov",
-        "position": "DF",
-        "age": null,
-        "apps": 2,
-        "goals": 0,
-        "rating": 4.2
+        "rating": 1.2
       }
     ]
   },
   "squad": [
     {
-      "name": "Martin Lukov",
-      "position": null,
-      "age": 32,
-      "apps": 0,
+      "name": "Bojan Milosavljevic",
+      "position": "GK",
+      "age": 28,
+      "apps": 3,
       "goals": 0,
-      "rating": 2
+      "rating": 4.3
     },
     {
-      "name": "Svetoslav Vutsov",
+      "name": "Petar Zovko",
       "position": "GK",
       "age": 24,
-      "apps": 2,
+      "apps": 0,
       "goals": 0,
-      "rating": 5.2
+      "rating": 1.2
     },
     {
-      "name": "Ognyan Vladimirov",
-      "position": "GK",
-      "age": 18,
+      "name": "Adrian Cova",
+      "position": "DF",
+      "age": 25,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.4
+    },
+    {
+      "name": "Ivaylo Ivanov",
+      "position": "DF",
+      "age": 23,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.3
+    },
+    {
+      "name": "Ryan Lucas",
+      "position": "DF",
+      "age": 24,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4
+    },
+    {
+      "name": "Andrei Chindris",
+      "position": "DF",
+      "age": 27,
+      "apps": 3,
+      "goals": 0,
+      "rating": 2.6
+    },
+    {
+      "name": "A. Aleksandrov",
+      "position": "MF",
+      "age": 19,
       "apps": 1,
       "goals": 0,
       "rating": 1.3
     },
     {
-      "name": "Alex Centelles",
+      "name": "Denis Kirashki",
+      "position": "MF",
+      "age": 25,
+      "apps": 0,
+      "goals": 0,
+      "rating": 1.2
+    },
+    {
+      "name": "P. Umarbaev",
       "position": null,
+      "age": 31,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.7
+    },
+    {
+      "name": "Miha Trdan",
+      "position": "MF",
+      "age": 21,
+      "apps": 3,
+      "goals": 0,
+      "rating": 1.9
+    },
+    {
+      "name": "Sevi Idriz",
+      "position": "MF",
+      "age": 18,
+      "apps": 3,
+      "goals": 0,
+      "rating": 3.5
+    },
+    {
+      "name": "Catalin Itu",
+      "position": "MF",
       "age": 26,
       "apps": 3,
       "goals": 0,
       "rating": 4.6
     },
     {
-      "name": "Maicon",
-      "position": "DF",
-      "age": 26,
-      "apps": 2,
+      "name": "Efe Ali",
+      "position": "MF",
+      "age": 23,
+      "apps": 3,
       "goals": 0,
-      "rating": 5.3
+      "rating": 3.9
     },
     {
-      "name": "Hevertton",
-      "position": "DF",
-      "age": 25,
-      "apps": 1,
-      "goals": 0,
-      "rating": 4.8
-    },
-    {
-      "name": "Kristian Dimitrov",
-      "position": "DF",
-      "age": 29,
-      "apps": 1,
-      "goals": 1,
-      "rating": 5.2
-    },
-    {
-      "name": "David Kusso",
-      "position": "DF",
+      "name": "Todor Pavlov",
+      "position": "MF",
       "age": 22,
       "apps": 3,
-      "goals": 0,
-      "rating": 3.6
-    },
-    {
-      "name": "Aldair",
-      "position": "DF",
-      "age": 26,
-      "apps": 3,
-      "goals": 0,
-      "rating": 4.9
-    },
-    {
-      "name": "Nikola Serafimov",
-      "position": "DF",
-      "age": 26,
-      "apps": 2,
-      "goals": 0,
-      "rating": 4.2
-    },
-    {
-      "name": "Christian Makoun",
-      "position": null,
-      "age": 26,
-      "apps": 3,
-      "goals": 0,
-      "rating": 5.3
-    },
-    {
-      "name": "Asen Mitkov",
-      "position": "MF",
-      "age": 21,
-      "apps": 1,
       "goals": 0,
       "rating": 4.3
     },
     {
-      "name": "Mehdi Moubarik",
-      "position": "MF",
-      "age": 25,
-      "apps": 2,
-      "goals": 0,
-      "rating": 4.4
-    },
-    {
-      "name": "Serginho",
-      "position": "MF",
-      "age": 26,
-      "apps": 3,
-      "goals": 2,
-      "rating": 5
-    },
-    {
-      "name": "Gasper Trdin",
-      "position": "MF",
-      "age": 28,
-      "apps": 2,
-      "goals": 0,
-      "rating": 4.4
-    },
-    {
-      "name": "Mazire Soula",
-      "position": "MF",
-      "age": 28,
-      "apps": 3,
-      "goals": 0,
-      "rating": 5
-    },
-    {
-      "name": "Akram Bouras",
+      "name": "Z. G. Dinev",
       "position": null,
-      "age": 24,
-      "apps": 3,
-      "goals": 2,
-      "rating": 4.8
-    },
-    {
-      "name": "Armstrong Oko-Flex",
-      "position": "ST",
-      "age": 24,
-      "apps": 3,
-      "goals": 1,
-      "rating": 4.2
-    },
-    {
-      "name": "Everton Bala",
-      "position": "ST",
-      "age": 27,
-      "apps": 3,
-      "goals": 0,
-      "rating": 5.2
-    },
-    {
-      "name": "Reinaldo",
-      "position": "ST",
-      "age": 25,
-      "apps": 3,
-      "goals": 1,
-      "rating": 4.1
-    },
-    {
-      "name": "Steven Stoyanchov",
-      "position": null,
-      "age": 18,
-      "apps": 2,
-      "goals": 0,
-      "rating": 1.4
-    },
-    {
-      "name": "Mustapha Sangaré",
-      "position": null,
-      "age": 27,
-      "apps": 1,
-      "goals": 0,
-      "rating": 4.8
-    },
-    {
-      "name": "Juan Perea",
-      "position": "ST",
       "age": 26,
       "apps": 1,
       "goals": 0,
-      "rating": 3.8
+      "rating": 3
+    },
+    {
+      "name": "Christ Longville",
+      "position": "ST",
+      "age": 20,
+      "apps": 3,
+      "goals": 0,
+      "rating": 1.7
+    },
+    {
+      "name": "Axel Velev",
+      "position": "ST",
+      "age": 19,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.5
+    },
+    {
+      "name": "Julien Lamy",
+      "position": "ST",
+      "age": 26,
+      "apps": 3,
+      "goals": 1,
+      "rating": 4.9
     }
   ],
   "recentMatches": [],

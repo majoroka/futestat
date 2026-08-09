@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/10186/stats/ruzomberok/teams",
-    "collectedAtUtc": "2026-08-08T18:26:04.752Z"
+    "collectedAtUtc": "2026-08-09T16:24:04.012Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 6.4,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
+    "teamRating": 6.35,
+    "goalsPerMatch": 1,
+    "goalsConcededPerMatch": 2.3,
+    "averagePossessionPct": 39.5,
     "cleanSheets": null,
     "attendanceAverage": null
   },
   "attack": {
     "xg": null,
     "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "shotsOnTargetPerMatch": 3.3,
+    "bigChances": 5,
+    "bigChancesMissed": 3,
+    "accuratePassesPerMatch": 166.7,
+    "accurateLongBallsPerMatch": 24,
+    "accurateCrossesPerMatch": 6,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 81,
+    "cornersPerMatch": 19,
     "setPieceGoals": null
   },
   "defense": {
     "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "interceptionsPerMatch": 8.7,
+    "tacklesPerMatch": 15.7,
+    "clearancesPerMatch": 19,
+    "finalThirdRecoveriesPerMatch": 2,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 4
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 13.3,
+    "yellowCardsPerMatch": 9,
     "redCardsPerMatch": null
   }
 }

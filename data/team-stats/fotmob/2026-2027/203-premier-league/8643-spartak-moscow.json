@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/8643/stats/spartak-moscow/teams",
-    "collectedAtUtc": "2026-08-08T18:25:53.329Z"
+    "collectedAtUtc": "2026-08-09T16:23:52.033Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 7.2,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 7.4,
+    "goalsPerMatch": 2.5,
+    "goalsConcededPerMatch": 0.5,
+    "averagePossessionPct": 66.6,
+    "cleanSheets": 1,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": 4.317200064659119,
-    "xgDiff": -1.3172000646591187,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 3.4,
+    "xgDiff": 2,
+    "shotsOnTargetPerMatch": 7,
+    "bigChances": 6,
+    "bigChancesMissed": 3,
+    "accuratePassesPerMatch": 475,
+    "accurateLongBallsPerMatch": 21,
+    "accurateCrossesPerMatch": 4,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 72,
+    "cornersPerMatch": 17,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": 2.6242999732494354,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "xgConceded": 1.4,
+    "interceptionsPerMatch": 11,
+    "tacklesPerMatch": 18,
+    "clearancesPerMatch": 14,
+    "finalThirdRecoveriesPerMatch": 5,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 2.5
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 13,
+    "yellowCardsPerMatch": 2,
     "redCardsPerMatch": null
   }
 }

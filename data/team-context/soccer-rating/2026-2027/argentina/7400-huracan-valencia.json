@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Huracan-Valencia/7400/",
-    "collectedAtUtc": "2026-08-08T18:26:34.589Z"
+    "collectedAtUtc": "2026-08-09T16:24:24.172Z"
   },
   "availability": {
     "status": "partial",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 119,
-    "europe": 1562
+    "europe": 1571
   },
   "form": {
     "last3": []

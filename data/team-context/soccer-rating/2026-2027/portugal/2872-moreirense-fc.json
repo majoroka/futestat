@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Moreirense-Fc/2872/",
-    "collectedAtUtc": "2026-08-08T18:28:09.085Z"
+    "collectedAtUtc": "2026-08-09T16:25:33.098Z"
   },
   "availability": {
     "status": "available",
@@ -22,13 +22,13 @@
     "notes": null
   },
   "ratings": {
-    "overall": 1858.91,
-    "home": 1902.19,
+    "overall": 1847.43,
+    "home": 1879.23,
     "away": 1815.63
   },
   "rankings": {
     "national": 20,
-    "europe": 544
+    "europe": 548
   },
   "form": {
     "last3": [
@@ -39,8 +39,8 @@
   },
   "prediction": {
     "tip": "away_win",
-    "tipLabel": "Bet on (2) Sporting Braga (Stake 2/10)",
-    "confidencePct": 20,
+    "tipLabel": "Bet on (2) Sporting Braga (Stake 5/10)",
+    "confidencePct": 50,
     "strengthComparison": "underdog"
   },
   "oddsMarket": {
@@ -50,11 +50,11 @@
       "away": 1.63
     },
     "fair1X2": {
-      "home": 8.97,
-      "draw": 4.07,
-      "away": 1.56
+      "home": 8.83,
+      "draw": 4.27,
+      "away": 1.53
     },
-    "movementSummary": "home_odds_down_away_odds_up"
+    "movementSummary": "home_odds_up_away_odds_down"
   },
   "squadHealth": {
     "injuries": [
@@ -405,8 +405,8 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Farul Constanta",
-      "rating": 1862.93
+      "name": "Aarhus Fremad",
+      "rating": 1859.85
     },
     {
       "name": "UTA Batrana Doamna",

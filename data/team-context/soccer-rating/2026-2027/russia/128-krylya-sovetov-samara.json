@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Krylya-Sovetov-Samara/128/",
-    "collectedAtUtc": "2026-08-08T18:28:26.664Z"
+    "collectedAtUtc": "2026-08-09T16:25:48.014Z"
   },
   "availability": {
     "status": "available",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 20,
-    "europe": 632
+    "europe": 633
   },
   "form": {
     "last3": [
@@ -62,365 +62,349 @@
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": 6.2,
+    "averageRating": 5.6,
     "players": [
       {
-        "name": "Maksim Borisko",
+        "name": "Sergey Pesjakov",
         "position": "GK",
-        "age": null,
-        "apps": 23,
-        "goals": 0,
-        "rating": 5.7
-      },
-      {
-        "name": "Kevin Andrade",
-        "position": "DF",
-        "age": null,
-        "apps": 25,
-        "goals": 1,
-        "rating": 6.9
-      },
-      {
-        "name": "Sergey Varatynov",
-        "position": "DF",
-        "age": null,
-        "apps": 28,
-        "goals": 1,
-        "rating": 6.6
-      },
-      {
-        "name": "Mingiyan Beveev",
-        "position": "DF",
-        "age": null,
-        "apps": 26,
-        "goals": 2,
-        "rating": 6
-      },
-      {
-        "name": "Aleksandr Filin",
-        "position": "DF",
-        "age": null,
-        "apps": 22,
-        "goals": 1,
-        "rating": 5.7
-      },
-      {
-        "name": "Maksim Petrov",
-        "position": "MF",
-        "age": null,
-        "apps": 24,
-        "goals": 7,
-        "rating": 5.9
-      },
-      {
-        "name": "Ilya Petrov",
-        "position": "MF",
-        "age": null,
-        "apps": 26,
-        "goals": 1,
-        "rating": 6.3
-      },
-      {
-        "name": "Stefan Kovac",
-        "position": "MF",
-        "age": null,
-        "apps": 6,
-        "goals": 0,
-        "rating": 5.9
-      },
-      {
-        "name": "Brayan Gil",
-        "position": "ST",
-        "age": null,
-        "apps": 24,
-        "goals": 13,
-        "rating": 7.5
-      },
-      {
-        "name": "Chinonso Offor",
-        "position": "ST",
-        "age": null,
-        "apps": 22,
-        "goals": 3,
-        "rating": 6.3
-      },
-      {
-        "name": "Tenton Yenne",
-        "position": "ST",
-        "age": null,
-        "apps": 17,
-        "goals": 0,
-        "rating": 5.5
-      },
-      {
-        "name": "Egor Lyubakov",
-        "position": "GK",
-        "age": null,
-        "apps": 1,
-        "goals": 0,
-        "rating": 3.3
-      },
-      {
-        "name": "Eldar Civic",
-        "position": "DF",
-        "age": null,
-        "apps": 17,
-        "goals": 1,
-        "rating": 5.3
-      },
-      {
-        "name": "Yuriy Kovalev",
-        "position": "MF",
         "age": null,
         "apps": 15,
         "goals": 0,
-        "rating": 4.8
+        "rating": 4.9
       },
       {
-        "name": "Irakliy Manelov",
+        "name": "Nikolay Rasskazov",
+        "position": "DF",
+        "age": null,
+        "apps": 13,
+        "goals": 0,
+        "rating": 5.7
+      },
+      {
+        "name": "Sergey Bozhin",
+        "position": "DF",
+        "age": null,
+        "apps": 10,
+        "goals": 1,
+        "rating": 5.4
+      },
+      {
+        "name": "Nikita Chernov",
+        "position": "DF",
+        "age": null,
+        "apps": 6,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Maksim Vityugov",
+        "position": "MF",
+        "age": null,
+        "apps": 7,
+        "goals": 1,
+        "rating": 4.9
+      },
+      {
+        "name": "Amar Rahmanovic",
+        "position": "MF",
+        "age": null,
+        "apps": 14,
+        "goals": 2,
+        "rating": 5.8
+      },
+      {
+        "name": "Mihajlo Banjac",
+        "position": "MF",
+        "age": null,
+        "apps": 13,
+        "goals": 0,
+        "rating": 5.6
+      },
+      {
+        "name": "Sergey Babkin",
+        "position": "MF",
+        "age": null,
+        "apps": 11,
+        "goals": 0,
+        "rating": 5.7
+      },
+      {
+        "name": "Ilzat Akhmetov",
+        "position": "MF",
+        "age": null,
+        "apps": 10,
+        "goals": 1,
+        "rating": 6.2
+      },
+      {
+        "name": "Ivan Oleynikov",
         "position": "ST",
         "age": null,
-        "apps": 16,
+        "apps": 11,
+        "goals": 1,
+        "rating": 6.4
+      },
+      {
+        "name": "Jimmy Marin",
+        "position": "ST",
+        "age": null,
+        "apps": 13,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Nikita Kokarev",
+        "position": "GK",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Roman Evgenjev",
+        "position": "DF",
+        "age": null,
+        "apps": 4,
         "goals": 0,
         "rating": 5.1
       },
       {
-        "name": "Nikolay Titkov",
+        "name": "Danila Saveljev",
         "position": "MF",
         "age": null,
-        "apps": 27,
-        "goals": 2,
-        "rating": 5.4
+        "apps": 0,
+        "goals": 0,
+        "rating": 1.2
       },
       {
-        "name": "Derik Lacerda",
+        "name": "Vladimir Ignatenko",
         "position": "ST",
         "age": null,
-        "apps": 5,
-        "goals": 1,
+        "apps": 11,
+        "goals": 4,
+        "rating": 4
+      },
+      {
+        "name": "Ivan Lepskiy",
+        "position": "DF",
+        "age": null,
+        "apps": 12,
+        "goals": 0,
         "rating": 5.1
+      },
+      {
+        "name": "Vladimir Khubulov",
+        "position": "ST",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.7
       }
     ]
   },
   "squad": [
     {
-      "name": "Egor Lyubakov",
+      "name": "Sergey Pesjakov",
       "position": "GK",
-      "age": 26,
-      "apps": 1,
+      "age": 36,
+      "apps": 15,
       "goals": 0,
-      "rating": 3.3
+      "rating": 4.9
     },
     {
-      "name": "Ivan Kukushkin",
-      "position": null,
-      "age": 23,
-      "apps": 4,
-      "goals": 0,
-      "rating": 1.6
-    },
-    {
-      "name": "Maksim Borisko",
+      "name": "Nikita Kokarev",
       "position": "GK",
-      "age": 26,
-      "apps": 23,
-      "goals": 0,
-      "rating": 5.7
-    },
-    {
-      "name": "Nathan Gassama",
-      "position": null,
-      "age": 25,
-      "apps": 22,
-      "goals": 0,
-      "rating": 4.3
-    },
-    {
-      "name": "Mikhail Ryadno",
-      "position": null,
-      "age": 20,
-      "apps": 9,
-      "goals": 1,
-      "rating": 4.6
-    },
-    {
-      "name": "Eduardo Anderson",
-      "position": null,
-      "age": 25,
-      "apps": 5,
-      "goals": 0,
-      "rating": 2.9
-    },
-    {
-      "name": "Kevin Andrade",
-      "position": "DF",
-      "age": 26,
-      "apps": 25,
-      "goals": 1,
-      "rating": 6.9
-    },
-    {
-      "name": "Sergey Varatynov",
-      "position": "DF",
       "age": 22,
-      "apps": 28,
-      "goals": 1,
-      "rating": 6.6
-    },
-    {
-      "name": "Mingiyan Beveev",
-      "position": "DF",
-      "age": 30,
-      "apps": 26,
-      "goals": 2,
-      "rating": 6
-    },
-    {
-      "name": "Aleksandr Filin",
-      "position": "DF",
-      "age": 29,
-      "apps": 22,
-      "goals": 1,
-      "rating": 5.7
-    },
-    {
-      "name": "Eldar Civic",
-      "position": "DF",
-      "age": 29,
-      "apps": 17,
-      "goals": 1,
-      "rating": 5.3
-    },
-    {
-      "name": "Ivan Belikov",
-      "position": null,
-      "age": 21,
-      "apps": 17,
+      "apps": 0,
       "goals": 0,
-      "rating": 2.5
+      "rating": 4.9
     },
     {
-      "name": "Andrey Mendel",
-      "position": null,
-      "age": 31,
-      "apps": 13,
-      "goals": 0,
-      "rating": 5.3
-    },
-    {
-      "name": "Aymane Mourid",
+      "name": "Dominik Oroz",
       "position": null,
       "age": 25,
       "apps": 11,
       "goals": 0,
-      "rating": 4.8
-    },
-    {
-      "name": "Maksim Petrov",
-      "position": "MF",
-      "age": 25,
-      "apps": 24,
-      "goals": 7,
-      "rating": 5.9
-    },
-    {
-      "name": "Ilya Petrov",
-      "position": "MF",
-      "age": 30,
-      "apps": 26,
-      "goals": 1,
-      "rating": 6.3
-    },
-    {
-      "name": "Stefan Kovac",
-      "position": "MF",
-      "age": 27,
-      "apps": 6,
-      "goals": 0,
-      "rating": 5.9
-    },
-    {
-      "name": "Yuriy Kovalev",
-      "position": "MF",
-      "age": 33,
-      "apps": 15,
-      "goals": 0,
-      "rating": 4.8
-    },
-    {
-      "name": "Nikolay Titkov",
-      "position": "MF",
-      "age": 25,
-      "apps": 27,
-      "goals": 2,
       "rating": 5.4
     },
     {
-      "name": "Kirill Stepanov",
+      "name": "Thomas Galdames",
       "position": null,
-      "age": 19,
-      "apps": 3,
-      "goals": 0,
-      "rating": 1.5
+      "age": 26,
+      "apps": 7,
+      "goals": 1,
+      "rating": 5.4
     },
     {
-      "name": "Vladislav Pospelov",
-      "position": null,
-      "age": 19,
-      "apps": 2,
+      "name": "Nikolay Rasskazov",
+      "position": "DF",
+      "age": 27,
+      "apps": 13,
       "goals": 0,
-      "rating": 1.3
+      "rating": 5.7
     },
     {
-      "name": "Chinonso Offor",
-      "position": "ST",
-      "age": 25,
-      "apps": 22,
-      "goals": 3,
+      "name": "Sergey Bozhin",
+      "position": "DF",
+      "age": 31,
+      "apps": 10,
+      "goals": 1,
+      "rating": 5.4
+    },
+    {
+      "name": "Nikita Chernov",
+      "position": "DF",
+      "age": 29,
+      "apps": 6,
+      "goals": 0,
+      "rating": 5.4
+    },
+    {
+      "name": "Roman Evgenjev",
+      "position": "DF",
+      "age": 26,
+      "apps": 4,
+      "goals": 0,
+      "rating": 5.1
+    },
+    {
+      "name": "Ivan Lepskiy",
+      "position": "DF",
+      "age": 20,
+      "apps": 12,
+      "goals": 0,
+      "rating": 5.1
+    },
+    {
+      "name": "Kirill Pechenin",
+      "position": null,
+      "age": 28,
+      "apps": 15,
+      "goals": 0,
+      "rating": 5.3
+    },
+    {
+      "name": "Danila Saveljev",
+      "position": "MF",
+      "age": 17,
+      "apps": 0,
+      "goals": 0,
+      "rating": 1.2
+    },
+    {
+      "name": "Maksim Vityugov",
+      "position": "MF",
+      "age": 27,
+      "apps": 7,
+      "goals": 1,
+      "rating": 4.9
+    },
+    {
+      "name": "Sergey Babkin",
+      "position": "MF",
+      "age": 23,
+      "apps": 11,
+      "goals": 0,
+      "rating": 5.7
+    },
+    {
+      "name": "Amar Rahmanovic",
+      "position": "MF",
+      "age": 31,
+      "apps": 14,
+      "goals": 2,
+      "rating": 5.8
+    },
+    {
+      "name": "Mihajlo Banjac",
+      "position": "MF",
+      "age": 26,
+      "apps": 13,
+      "goals": 0,
+      "rating": 5.6
+    },
+    {
+      "name": "Fernando Costanza",
+      "position": null,
+      "age": 26,
+      "apps": 14,
+      "goals": 2,
       "rating": 6.3
     },
     {
-      "name": "Tenton Yenne",
-      "position": "ST",
-      "age": 25,
-      "apps": 17,
+      "name": "Dmytro Ivanisenya",
+      "position": null,
+      "age": 31,
+      "apps": 3,
       "goals": 0,
-      "rating": 5.5
+      "rating": 4
     },
     {
-      "name": "Brayan Gil",
+      "name": "Ilzat Akhmetov",
+      "position": "MF",
+      "age": 27,
+      "apps": 10,
+      "goals": 1,
+      "rating": 6.2
+    },
+    {
+      "name": "Aleksey Sutormin",
+      "position": null,
+      "age": 31,
+      "apps": 14,
+      "goals": 0,
+      "rating": 5.3
+    },
+    {
+      "name": "Vadim Rakov",
+      "position": null,
+      "age": 20,
+      "apps": 10,
+      "goals": 5,
+      "rating": 5.7
+    },
+    {
+      "name": "Ivan Oleynikov",
+      "position": "ST",
+      "age": 27,
+      "apps": 11,
+      "goals": 1,
+      "rating": 6.4
+    },
+    {
+      "name": "Jimmy Marin",
+      "position": "ST",
+      "age": 28,
+      "apps": 13,
+      "goals": 0,
+      "rating": 5.4
+    },
+    {
+      "name": "Vladimir Ignatenko",
+      "position": "ST",
+      "age": 19,
+      "apps": 11,
+      "goals": 4,
+      "rating": 4
+    },
+    {
+      "name": "Vladimir Khubulov",
       "position": "ST",
       "age": 24,
-      "apps": 24,
-      "goals": 13,
-      "rating": 7.5
-    },
-    {
-      "name": "Irakliy Manelov",
-      "position": "ST",
-      "age": 23,
-      "apps": 16,
+      "apps": 1,
       "goals": 0,
-      "rating": 5.1
-    },
-    {
-      "name": "Derik Lacerda",
-      "position": "ST",
-      "age": 26,
-      "apps": 5,
-      "goals": 1,
-      "rating": 5.1
+      "rating": 3.7
     }
   ],
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "AE Larisa",
-      "rating": 1827.89
+      "name": "Bandirmaspor",
+      "rating": 1827.88
     },
     {
-      "name": "Skendija 79 Tetovo",
-      "rating": 1827.32
+      "name": "FC Gomel",
+      "rating": 1815.08
     }
   ]
 }

@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Obolon-Kiev/1192/",
-    "collectedAtUtc": "2026-08-08T18:28:55.907Z"
+    "collectedAtUtc": "2026-08-09T16:26:12.023Z"
   },
   "availability": {
     "status": "available",
@@ -27,8 +27,8 @@
     "away": 1697.89
   },
   "rankings": {
-    "national": 18,
-    "europe": 1045
+    "national": 19,
+    "europe": 1056
   },
   "form": {
     "last3": [
@@ -57,24 +57,277 @@
     "movementSummary": "home_odds_down_away_odds_up"
   },
   "squadHealth": {
-    "injuries": [],
+    "injuries": [
+      {
+        "player": "Yevgeniy Shevchenko",
+        "status": "injury_or_suspension",
+        "description": null
+      },
+      {
+        "player": "Denys Ustymenko",
+        "status": "injury_or_suspension",
+        "description": null
+      }
+    ],
     "suspensions": []
   },
   "expectedLineup": {
     "formation": null,
     "averageRating": 3.2,
-    "players": []
+    "players": [
+      {
+        "name": "Nazariy Fedorivskyi",
+        "position": "GK",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Vitaliy Yermakov",
+        "position": "DF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Yevgeniy Morozko",
+        "position": "DF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Dmytro Kapinus",
+        "position": "DF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Taras Lyakh",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Artem Kulakovskyi",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Roman Volokhatyi",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Dmytro Myshnyov",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Maksym Chekh",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Sergiy Sukhanov",
+        "position": "ST",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Denys Teslyuk",
+        "position": "ST",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "Paul Polehenko",
+        "position": "DF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.7
+      },
+      {
+        "name": "Taras Moroz",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Kyrylo Prokopchuk",
+        "position": "DF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.3
+      }
+    ]
   },
-  "squad": [],
+  "squad": [
+    {
+      "name": "Nazariy Fedorivskyi",
+      "position": "GK",
+      "age": 30,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3.3
+    },
+    {
+      "name": "Vitaliy Yermakov",
+      "position": "DF",
+      "age": 34,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.9
+    },
+    {
+      "name": "Yevgeniy Morozko",
+      "position": "DF",
+      "age": 33,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.6
+    },
+    {
+      "name": "Dmytro Kapinus",
+      "position": "DF",
+      "age": 23,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.9
+    },
+    {
+      "name": "Paul Polehenko",
+      "position": "DF",
+      "age": 31,
+      "apps": 1,
+      "goals": 0,
+      "rating": 1.7
+    },
+    {
+      "name": "Kyrylo Prokopchuk",
+      "position": "DF",
+      "age": 28,
+      "apps": 1,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Yevgeniy Shevchenko",
+      "position": null,
+      "age": 30,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4
+    },
+    {
+      "name": "Taras Lyakh",
+      "position": "MF",
+      "age": 21,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.8
+    },
+    {
+      "name": "Maksym Chekh",
+      "position": "MF",
+      "age": 27,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3.9
+    },
+    {
+      "name": "Taras Moroz",
+      "position": "MF",
+      "age": 30,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.8
+    },
+    {
+      "name": "Roman Volokhatyi",
+      "position": "MF",
+      "age": 25,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3.3
+    },
+    {
+      "name": "Dmytro Myshnyov",
+      "position": "MF",
+      "age": 32,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4
+    },
+    {
+      "name": "Artem Kulakovskyi",
+      "position": "MF",
+      "age": 24,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.9
+    },
+    {
+      "name": "Sergiy Sukhanov",
+      "position": "ST",
+      "age": 31,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3.9
+    },
+    {
+      "name": "Denys Teslyuk",
+      "position": "ST",
+      "age": 23,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.7
+    },
+    {
+      "name": "Denys Ustymenko",
+      "position": null,
+      "age": 27,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4
+    }
+  ],
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Stal Mielec",
-      "rating": 1725.28
+      "name": "CS Petrocub",
+      "rating": 1714.39
     },
     {
-      "name": "Velez Mostar",
-      "rating": 1724.95
+      "name": "FC Minsk",
+      "rating": 1726.8
     }
   ]
 }

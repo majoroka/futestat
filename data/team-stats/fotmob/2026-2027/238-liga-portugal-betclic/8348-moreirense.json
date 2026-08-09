@@ -18,15 +18,15 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/8348/stats/moreirense/teams",
-    "collectedAtUtc": "2026-08-08T18:25:17.000Z"
+    "collectedAtUtc": "2026-08-09T16:23:21.835Z"
   },
   "availability": {
-    "status": "partial",
+    "status": "not_started",
     "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "notes": "Epoca atual ainda sem estatisticas agregadas disponiveis no HTML capturado."
   },
   "overview": {
-    "teamRating": 6.8,
+    "teamRating": null,
     "goalsPerMatch": null,
     "goalsConcededPerMatch": null,
     "averagePossessionPct": null,
@@ -34,8 +34,8 @@
     "attendanceAverage": null
   },
   "attack": {
-    "xg": 1.6548000574111938,
-    "xgDiff": -1.6548000574111938,
+    "xg": null,
+    "xgDiff": null,
     "shotsOnTargetPerMatch": null,
     "bigChances": null,
     "bigChancesMissed": null,
@@ -48,7 +48,7 @@
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": 0.44589999318122864,
+    "xgConceded": null,
     "interceptionsPerMatch": null,
     "tacklesPerMatch": null,
     "clearancesPerMatch": null,

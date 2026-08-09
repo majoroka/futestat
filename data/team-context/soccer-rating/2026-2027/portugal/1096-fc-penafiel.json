@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Fc-Penafiel/1096/",
-    "collectedAtUtc": "2026-08-08T18:27:48.406Z"
+    "collectedAtUtc": "2026-08-09T16:25:15.042Z"
   },
   "availability": {
     "status": "available",
@@ -27,8 +27,8 @@
     "away": 1665.63
   },
   "rankings": {
-    "national": 33,
-    "europe": 900
+    "national": 32,
+    "europe": 893
   },
   "form": {
     "last3": [
@@ -62,7 +62,7 @@
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": null,
+    "averageRating": 4.3,
     "players": [
       {
         "name": "Miguel Oliveira",
@@ -70,7 +70,7 @@
         "age": null,
         "apps": 1,
         "goals": 0,
-        "rating": 2.6
+        "rating": 2.7
       },
       {
         "name": "C. Moreira Silva",
@@ -78,7 +78,7 @@
         "age": null,
         "apps": 27,
         "goals": 1,
-        "rating": 4.5
+        "rating": 4.8
       },
       {
         "name": "Gonçalo Negrao",
@@ -86,7 +86,7 @@
         "age": null,
         "apps": 27,
         "goals": 1,
-        "rating": 4.2
+        "rating": 4.5
       },
       {
         "name": "Jaime Sanchez",
@@ -94,7 +94,7 @@
         "age": null,
         "apps": 20,
         "goals": 0,
-        "rating": 3.4
+        "rating": 3.6
       },
       {
         "name": "Teddy Alloh",
@@ -102,7 +102,7 @@
         "age": null,
         "apps": 13,
         "goals": 0,
-        "rating": 3
+        "rating": 3.1
       },
       {
         "name": "Nuno Martins",
@@ -110,7 +110,7 @@
         "age": null,
         "apps": 0,
         "goals": 0,
-        "rating": 2.7
+        "rating": 2.9
       },
       {
         "name": "Pedro Sa",
@@ -118,7 +118,7 @@
         "age": null,
         "apps": 27,
         "goals": 0,
-        "rating": 4.5
+        "rating": 4.8
       },
       {
         "name": "Alex Carbonell",
@@ -126,7 +126,7 @@
         "age": null,
         "apps": 10,
         "goals": 0,
-        "rating": 4.5
+        "rating": 4.7
       },
       {
         "name": "Davo",
@@ -134,7 +134,7 @@
         "age": null,
         "apps": 33,
         "goals": 5,
-        "rating": 5.6
+        "rating": 6.1
       },
       {
         "name": "Ricardo Schutte",
@@ -142,7 +142,7 @@
         "age": null,
         "apps": 13,
         "goals": 0,
-        "rating": 3.3
+        "rating": 3.5
       },
       {
         "name": "Alvaro Santos",
@@ -150,7 +150,7 @@
         "age": null,
         "apps": 28,
         "goals": 4,
-        "rating": 5.9
+        "rating": 6.3
       },
       {
         "name": "Joan Femenias",
@@ -158,7 +158,7 @@
         "age": null,
         "apps": 32,
         "goals": 0,
-        "rating": 5
+        "rating": 5.3
       },
       {
         "name": "Joao Miguel",
@@ -166,7 +166,7 @@
         "age": null,
         "apps": 25,
         "goals": 0,
-        "rating": 4.2
+        "rating": 4.5
       },
       {
         "name": "Soma Anzai",
@@ -174,7 +174,7 @@
         "age": null,
         "apps": 14,
         "goals": 1,
-        "rating": 5.3
+        "rating": 5.5
       },
       {
         "name": "Zé Leite",
@@ -182,7 +182,7 @@
         "age": null,
         "apps": 13,
         "goals": 3,
-        "rating": 5.2
+        "rating": 5.5
       },
       {
         "name": "Iano Simao",
@@ -190,7 +190,7 @@
         "age": null,
         "apps": 25,
         "goals": 1,
-        "rating": 3.8
+        "rating": 4
       },
       {
         "name": "Reko",
@@ -198,7 +198,7 @@
         "age": null,
         "apps": 31,
         "goals": 8,
-        "rating": 5.3
+        "rating": 5.7
       }
     ]
   },
@@ -209,7 +209,7 @@
       "age": 23,
       "apps": 1,
       "goals": 0,
-      "rating": 3.9
+      "rating": 4
     },
     {
       "name": "Miguel Oliveira",
@@ -217,7 +217,7 @@
       "age": 31,
       "apps": 1,
       "goals": 0,
-      "rating": 2.6
+      "rating": 2.7
     },
     {
       "name": "Joan Femenias",
@@ -225,7 +225,7 @@
       "age": 29,
       "apps": 32,
       "goals": 0,
-      "rating": 5
+      "rating": 5.3
     },
     {
       "name": "Jorge Meré",
@@ -233,7 +233,7 @@
       "age": 29,
       "apps": 10,
       "goals": 1,
-      "rating": 5.2
+      "rating": 5.3
     },
     {
       "name": "Meireles Injai",
@@ -241,7 +241,7 @@
       "age": 23,
       "apps": 6,
       "goals": 0,
-      "rating": 1.8
+      "rating": 1.9
     },
     {
       "name": "C. Moreira Silva",
@@ -249,7 +249,7 @@
       "age": 25,
       "apps": 27,
       "goals": 1,
-      "rating": 4.5
+      "rating": 4.8
     },
     {
       "name": "Gonçalo Negrao",
@@ -257,7 +257,7 @@
       "age": 23,
       "apps": 27,
       "goals": 1,
-      "rating": 4.2
+      "rating": 4.5
     },
     {
       "name": "Jaime Sanchez",
@@ -265,7 +265,7 @@
       "age": 31,
       "apps": 20,
       "goals": 0,
-      "rating": 3.4
+      "rating": 3.6
     },
     {
       "name": "Teddy Alloh",
@@ -273,7 +273,7 @@
       "age": 24,
       "apps": 13,
       "goals": 0,
-      "rating": 3
+      "rating": 3.1
     },
     {
       "name": "Joao Miguel",
@@ -281,7 +281,7 @@
       "age": 32,
       "apps": 25,
       "goals": 0,
-      "rating": 4.2
+      "rating": 4.5
     },
     {
       "name": "Iano Simao",
@@ -289,7 +289,7 @@
       "age": 27,
       "apps": 25,
       "goals": 1,
-      "rating": 3.8
+      "rating": 4
     },
     {
       "name": "Jaime Escario",
@@ -305,7 +305,7 @@
       "age": 31,
       "apps": 27,
       "goals": 0,
-      "rating": 4.3
+      "rating": 4.6
     },
     {
       "name": "Pedro Sa",
@@ -313,7 +313,7 @@
       "age": 32,
       "apps": 27,
       "goals": 0,
-      "rating": 4.5
+      "rating": 4.8
     },
     {
       "name": "Nuno Martins",
@@ -321,7 +321,7 @@
       "age": 21,
       "apps": 0,
       "goals": 0,
-      "rating": 2.7
+      "rating": 2.9
     },
     {
       "name": "Alex Carbonell",
@@ -329,7 +329,7 @@
       "age": 28,
       "apps": 10,
       "goals": 0,
-      "rating": 4.5
+      "rating": 4.7
     },
     {
       "name": "Ibrahima Kébé",
@@ -337,7 +337,7 @@
       "age": 25,
       "apps": 19,
       "goals": 1,
-      "rating": 4.4
+      "rating": 4.7
     },
     {
       "name": "Soma Anzai",
@@ -345,7 +345,7 @@
       "age": 23,
       "apps": 14,
       "goals": 1,
-      "rating": 5.3
+      "rating": 5.5
     },
     {
       "name": "Reko",
@@ -353,7 +353,7 @@
       "age": 30,
       "apps": 31,
       "goals": 8,
-      "rating": 5.3
+      "rating": 5.7
     },
     {
       "name": "Dinis Rodrigues",
@@ -369,7 +369,7 @@
       "age": 31,
       "apps": 33,
       "goals": 5,
-      "rating": 5.6
+      "rating": 6.1
     },
     {
       "name": "Alvaro Santos",
@@ -377,7 +377,7 @@
       "age": 20,
       "apps": 28,
       "goals": 4,
-      "rating": 5.9
+      "rating": 6.3
     },
     {
       "name": "Zé Leite",
@@ -385,7 +385,7 @@
       "age": 26,
       "apps": 13,
       "goals": 3,
-      "rating": 5.2
+      "rating": 5.5
     },
     {
       "name": "Joseph Séry",
@@ -393,7 +393,7 @@
       "age": 25,
       "apps": 27,
       "goals": 4,
-      "rating": 3.8
+      "rating": 4.1
     },
     {
       "name": "Raul Alcaina",
@@ -401,7 +401,7 @@
       "age": 25,
       "apps": 24,
       "goals": 2,
-      "rating": 4.1
+      "rating": 4.4
     },
     {
       "name": "Ricardo Schutte",
@@ -409,18 +409,18 @@
       "age": 27,
       "apps": 13,
       "goals": 0,
-      "rating": 3.3
+      "rating": 3.5
     }
   ],
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Academica Coimbra",
-      "rating": 1751.22
+      "name": "AC Ajaccio",
+      "rating": 1753.32
     },
     {
-      "name": "CE Europa",
-      "rating": 1750.28
+      "name": "AF Elbasani",
+      "rating": 1752.99
     }
   ]
 }

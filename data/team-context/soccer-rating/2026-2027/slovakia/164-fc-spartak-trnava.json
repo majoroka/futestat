@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Fc-Spartak-Trnava/164/",
-    "collectedAtUtc": "2026-08-08T18:28:37.130Z"
+    "collectedAtUtc": "2026-08-09T16:25:58.477Z"
   },
   "availability": {
     "status": "available",
@@ -22,13 +22,13 @@
     "notes": null
   },
   "ratings": {
-    "overall": 1923.07,
-    "home": 2001.86,
+    "overall": 1914.89,
+    "home": 1985.52,
     "away": 1844.27
   },
   "rankings": {
     "national": 2,
-    "europe": 387
+    "europe": 400
   },
   "form": {
     "last3": [
@@ -50,11 +50,11 @@
       "away": 7.75
     },
     "fair1X2": {
-      "home": 1.41,
-      "draw": 6.24,
-      "away": 7.59
+      "home": 1.44,
+      "draw": 5.7,
+      "away": 7.73
     },
-    "movementSummary": "home_odds_down_away_odds_up"
+    "movementSummary": "home_odds_down_away_odds_flat"
   },
   "squadHealth": {
     "injuries": [],
@@ -62,7 +62,7 @@
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": null,
+    "averageRating": 2.4,
     "players": [
       {
         "name": "Martin Vantruba",
@@ -348,6 +348,14 @@
       "rating": 2.5
     },
     {
+      "name": "David Bukovsky",
+      "position": null,
+      "age": 17,
+      "apps": 0,
+      "goals": 0,
+      "rating": 2
+    },
+    {
       "name": "Philip Azango",
       "position": null,
       "age": 29,
@@ -399,12 +407,12 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Red Star 93",
-      "rating": 1915.3
+      "name": "Sandefjord Fotball",
+      "rating": 1914.92
     },
     {
-      "name": "Strømsgodset",
-      "rating": 1921.05
+      "name": "St. Patricks Athletic",
+      "rating": 1921.62
     }
   ]
 }

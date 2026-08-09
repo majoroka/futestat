@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/10086/stats/argentinos-juniors/teams",
-    "collectedAtUtc": "2026-08-08T18:22:00.242Z"
+    "collectedAtUtc": "2026-08-09T16:20:32.534Z"
   },
   "availability": {
     "status": "archived",
-    "coverage": "low",
+    "coverage": "high",
     "notes": "Epoca anterior capturada para referencia estrutural."
   },
   "overview": {
-    "teamRating": 7.1,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 7.03,
+    "goalsPerMatch": 1.3,
+    "goalsConcededPerMatch": 0.7,
+    "averagePossessionPct": 62.2,
+    "cleanSheets": 12,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": null,
-    "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 29.8,
+    "xgDiff": 12.8,
+    "shotsOnTargetPerMatch": 5.1,
+    "bigChances": 41,
+    "bigChancesMissed": 24,
+    "accuratePassesPerMatch": 438.7,
+    "accurateLongBallsPerMatch": 34.2,
+    "accurateCrossesPerMatch": 5.3,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 474,
+    "cornersPerMatch": 122,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "xgConceded": 17,
+    "interceptionsPerMatch": 10.6,
+    "tacklesPerMatch": 16.6,
+    "clearancesPerMatch": 26,
+    "finalThirdRecoveriesPerMatch": 3.9,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 2
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 11.4,
+    "yellowCardsPerMatch": 47,
     "redCardsPerMatch": null
   }
 }

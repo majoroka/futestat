@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/6496/stats/trencin/teams",
-    "collectedAtUtc": "2026-08-08T18:26:08.482Z"
+    "collectedAtUtc": "2026-08-09T16:24:05.919Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 6.9,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
+    "teamRating": 6.86,
+    "goalsPerMatch": 2,
+    "goalsConcededPerMatch": 2,
+    "averagePossessionPct": 44.5,
     "cleanSheets": null,
     "attendanceAverage": null
   },
   "attack": {
     "xg": null,
     "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "shotsOnTargetPerMatch": 3,
+    "bigChances": 3,
+    "bigChancesMissed": 1,
+    "accuratePassesPerMatch": 304.5,
+    "accurateLongBallsPerMatch": 23.5,
+    "accurateCrossesPerMatch": 2.5,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 26,
+    "cornersPerMatch": 7,
     "setPieceGoals": null
   },
   "defense": {
     "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "interceptionsPerMatch": 9.5,
+    "tacklesPerMatch": 18.5,
+    "clearancesPerMatch": 27,
+    "finalThirdRecoveriesPerMatch": 2.5,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 4
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 10,
+    "yellowCardsPerMatch": 2,
     "redCardsPerMatch": null
   }
 }

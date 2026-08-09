@@ -21,45 +21,45 @@
     "collectedAtUtc": "2026-08-08T18:26:10.301Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 7,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 6.91,
+    "goalsPerMatch": 2.5,
+    "goalsConcededPerMatch": 2,
+    "averagePossessionPct": 53.3,
+    "cleanSheets": 1,
     "attendanceAverage": null
   },
   "attack": {
     "xg": null,
     "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "shotsOnTargetPerMatch": 6.5,
+    "bigChances": 5,
+    "bigChancesMissed": 2,
+    "accuratePassesPerMatch": 335,
+    "accurateLongBallsPerMatch": 18.5,
+    "accurateCrossesPerMatch": 2.5,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 32,
+    "cornersPerMatch": 13,
     "setPieceGoals": null
   },
   "defense": {
     "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "interceptionsPerMatch": 13,
+    "tacklesPerMatch": 16,
+    "clearancesPerMatch": 26.5,
+    "finalThirdRecoveriesPerMatch": 1.5,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 4.5
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 9,
+    "yellowCardsPerMatch": 2,
     "redCardsPerMatch": null
   }
 }

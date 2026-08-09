@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/9732/stats/fc-arges-pitesti/teams",
-    "collectedAtUtc": "2026-08-08T18:25:25.387Z"
+    "collectedAtUtc": "2026-08-09T16:23:30.858Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 7.2,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 6.82,
+    "goalsPerMatch": 0.7,
+    "goalsConcededPerMatch": 0.7,
+    "averagePossessionPct": 47.2,
+    "cleanSheets": 2,
     "attendanceAverage": null
   },
   "attack": {
     "xg": null,
     "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "shotsOnTargetPerMatch": 5,
+    "bigChances": 7,
+    "bigChancesMissed": 5,
+    "accuratePassesPerMatch": 257.7,
+    "accurateLongBallsPerMatch": 28.3,
+    "accurateCrossesPerMatch": 3.7,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 83,
+    "cornersPerMatch": 12,
     "setPieceGoals": null
   },
   "defense": {
     "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "interceptionsPerMatch": 10.3,
+    "tacklesPerMatch": 16.3,
+    "clearancesPerMatch": 25.3,
+    "finalThirdRecoveriesPerMatch": 4,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 2.3
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 16.3,
+    "yellowCardsPerMatch": 7,
     "redCardsPerMatch": null
   }
 }

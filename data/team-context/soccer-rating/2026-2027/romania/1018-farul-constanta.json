@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Farul-Constanta/1018/",
-    "collectedAtUtc": "2026-08-08T18:28:16.213Z"
+    "collectedAtUtc": "2026-08-09T16:25:40.556Z"
   },
   "availability": {
     "status": "available",
@@ -27,8 +27,8 @@
     "away": 1832.35
   },
   "rankings": {
-    "national": 8,
-    "europe": 543
+    "national": 7,
+    "europe": 533
   },
   "form": {
     "last3": [
@@ -62,7 +62,7 @@
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": null,
+    "averageRating": 4.1,
     "players": [
       {
         "name": "Rafael Munteanu",
@@ -212,6 +212,22 @@
       "rating": 3.9
     },
     {
+      "name": "Joao Ferreira",
+      "position": null,
+      "age": 19,
+      "apps": 0,
+      "goals": 0,
+      "rating": 1.2
+    },
+    {
+      "name": "Ionut Cercel",
+      "position": null,
+      "age": 19,
+      "apps": 0,
+      "goals": 0,
+      "rating": 3.4
+    },
+    {
       "name": "Dan Sîrbu",
       "position": "DF",
       "age": 23,
@@ -324,6 +340,14 @@
       "rating": 5.8
     },
     {
+      "name": "Razvan Marincean",
+      "position": null,
+      "age": 17,
+      "apps": 0,
+      "goals": 0,
+      "rating": 1.2
+    },
+    {
       "name": "Narek Grigoryan",
       "position": null,
       "age": 25,
@@ -375,12 +399,12 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "South Shields",
-      "rating": 1857.84
+      "name": "Barnsley FC",
+      "rating": 1859.12
     },
     {
-      "name": "Moreirense FC",
-      "rating": 1858.91
+      "name": "AFC Wimbledon",
+      "rating": 1862.74
     }
   ]
 }

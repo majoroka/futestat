@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Cd-Mafra/2988/",
-    "collectedAtUtc": "2026-08-08T18:27:37.994Z"
+    "collectedAtUtc": "2026-08-09T16:25:08.969Z"
   },
   "availability": {
     "status": "partial",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 49,
-    "europe": 1452
+    "europe": 1461
   },
   "form": {
     "last3": [
@@ -69,8 +69,8 @@
       "rating": 1645.37
     },
     {
-      "name": "Truro City FC",
-      "rating": 1666.7
+      "name": "SC Espinho",
+      "rating": 1645.16
     }
   ]
 }

@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/10103/stats/gimnasia-lp/teams",
-    "collectedAtUtc": "2026-08-08T18:22:15.287Z"
+    "collectedAtUtc": "2026-08-09T16:20:48.155Z"
   },
   "availability": {
     "status": "archived",
-    "coverage": "low",
+    "coverage": "high",
     "notes": "Epoca anterior capturada para referencia estrutural."
   },
   "overview": {
-    "teamRating": 7.2,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 6.86,
+    "goalsPerMatch": 1.1,
+    "goalsConcededPerMatch": 1.1,
+    "averagePossessionPct": 45.4,
+    "cleanSheets": 7,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": null,
-    "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 25.5,
+    "xgDiff": -1.5,
+    "shotsOnTargetPerMatch": 3.8,
+    "bigChances": 45,
+    "bigChancesMissed": 29,
+    "accuratePassesPerMatch": 266.8,
+    "accurateLongBallsPerMatch": 25.7,
+    "accurateCrossesPerMatch": 4.6,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 344,
+    "cornersPerMatch": 83,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "xgConceded": 27,
+    "interceptionsPerMatch": 10.6,
+    "tacklesPerMatch": 17.8,
+    "clearancesPerMatch": 33.6,
+    "finalThirdRecoveriesPerMatch": 2.6,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 3
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 12.1,
+    "yellowCardsPerMatch": 64,
     "redCardsPerMatch": null
   }
 }

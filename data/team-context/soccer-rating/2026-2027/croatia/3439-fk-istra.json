@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Fk-Istra/3439/",
-    "collectedAtUtc": "2026-08-08T18:27:01.068Z"
+    "collectedAtUtc": "2026-08-09T16:24:44.803Z"
   },
   "availability": {
     "status": "partial",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 134,
-    "europe": 5054
+    "europe": 5064
   },
   "form": {
     "last3": []

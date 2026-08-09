@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/College-Corinthians/8624/",
-    "collectedAtUtc": "2026-08-08T18:26:38.932Z"
+    "collectedAtUtc": "2026-08-09T16:24:28.566Z"
   },
   "availability": {
     "status": "partial",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 31,
-    "europe": 3909
+    "europe": 3914
   },
   "form": {
     "last3": [

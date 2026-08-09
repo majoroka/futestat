@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Rosenborg-Bk-Ii/422/",
-    "collectedAtUtc": "2026-08-08T18:27:15.803Z"
+    "collectedAtUtc": "2026-08-09T16:24:56.668Z"
   },
   "availability": {
     "status": "partial",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 387,
-    "europe": 9647
+    "europe": 9650
   },
   "form": {
     "last3": []

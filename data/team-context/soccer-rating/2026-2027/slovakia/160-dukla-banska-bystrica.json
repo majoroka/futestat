@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Dukla-Banska-Bystrica/160/",
-    "collectedAtUtc": "2026-08-08T18:28:35.650Z"
+    "collectedAtUtc": "2026-08-09T16:25:56.976Z"
   },
   "availability": {
     "status": "available",
@@ -22,13 +22,13 @@
     "notes": null
   },
   "ratings": {
-    "overall": 1701.62,
+    "overall": 1709.8,
     "home": 1741.57,
-    "away": 1661.68
+    "away": 1678.02
   },
   "rankings": {
     "national": 12,
-    "europe": 1114
+    "europe": 1078
   },
   "form": {
     "last3": [
@@ -50,11 +50,11 @@
       "away": 7.75
     },
     "fair1X2": {
-      "home": 1.41,
-      "draw": 6.24,
-      "away": 7.59
+      "home": 1.44,
+      "draw": 5.7,
+      "away": 7.73
     },
-    "movementSummary": "home_odds_down_away_odds_up"
+    "movementSummary": "home_odds_down_away_odds_flat"
   },
   "squadHealth": {
     "injuries": [],
@@ -62,58 +62,66 @@
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": null,
+    "averageRating": 2.6,
     "players": [
       {
-        "name": "Martin Vantruba",
+        "name": "Jakub Trefil",
         "position": "GK",
         "age": null,
         "apps": 2,
         "goals": 0,
-        "rating": 1.5
+        "rating": 1.9
       },
       {
-        "name": "Marek Ujlaky",
+        "name": "Nicolas Sikula",
         "position": "DF",
         "age": null,
-        "apps": 1,
+        "apps": 2,
         "goals": 0,
-        "rating": 2.6
+        "rating": 3
       },
       {
-        "name": "Kristian Kostrna",
+        "name": "Lubomir Willweber",
         "position": "DF",
-        "age": null,
-        "apps": 1,
-        "goals": 0,
-        "rating": 2.7
-      },
-      {
-        "name": "Martin Mikovic",
-        "position": "DF",
-        "age": null,
-        "apps": 1,
-        "goals": 0,
-        "rating": 1.8
-      },
-      {
-        "name": "Erik Sabo",
-        "position": "MF",
         "age": null,
         "apps": 2,
         "goals": 0,
         "rating": 2.7
       },
       {
-        "name": "Filip Trello",
+        "name": "Alabi Adewale",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.3
+      },
+      {
+        "name": "Viktor Toth",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.6
+      },
+      {
+        "name": "Mikulas Bakala",
         "position": "MF",
         "age": null,
         "apps": 2,
-        "goals": 1,
-        "rating": 2.1
+        "goals": 0,
+        "rating": 2.3
       },
       {
-        "name": "Timotej Kudlicka",
+        "name": "Jakub Povazanec",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Adam Hanes",
         "position": "MF",
         "age": null,
         "apps": 2,
@@ -121,290 +129,250 @@
         "rating": 2.5
       },
       {
-        "name": "Marin Lausic",
-        "position": "MF",
+        "name": "Robert Polievka",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Rego Szantho",
+        "position": "ST",
         "age": null,
         "apps": 2,
         "goals": 0,
         "rating": 2.7
       },
       {
-        "name": "Luka Khorkheli",
-        "position": "MF",
-        "age": null,
-        "apps": 2,
-        "goals": 0,
-        "rating": 2.7
-      },
-      {
-        "name": "Roman Begala",
-        "position": "MF",
-        "age": null,
-        "apps": 2,
-        "goals": 0,
-        "rating": 3.1
-      },
-      {
-        "name": "David Poltak",
+        "name": "Enzo Arevalo",
         "position": "ST",
         "age": null,
         "apps": 1,
         "goals": 0,
-        "rating": 2.1
+        "rating": 2.4
       },
       {
-        "name": "Martin Janacek",
+        "name": "Lukas Hrosso",
         "position": "GK",
         "age": null,
         "apps": 0,
         "goals": 0,
-        "rating": 2.1
+        "rating": 1.3
       },
       {
-        "name": "Melos Bajrami",
+        "name": "Adam Balaz",
         "position": "DF",
         "age": null,
         "apps": 1,
         "goals": 0,
-        "rating": 2.8
+        "rating": 1.3
       },
       {
-        "name": "Roman Prochazka",
+        "name": "Tibor Slebodnik",
         "position": "MF",
-        "age": null,
-        "apps": 1,
-        "goals": 0,
-        "rating": 2.8
-      },
-      {
-        "name": "Stefan Skrbo",
-        "position": "ST",
-        "age": null,
-        "apps": 1,
-        "goals": 0,
-        "rating": 4
-      },
-      {
-        "name": "Tijmen Wildeboer",
-        "position": "ST",
         "age": null,
         "apps": 2,
         "goals": 0,
-        "rating": 3.7
+        "rating": 2.9
       },
       {
-        "name": "Libor Holik",
-        "position": "DF",
+        "name": "Dominik Veselovsky",
+        "position": "MF",
         "age": null,
-        "apps": 0,
+        "apps": 2,
         "goals": 0,
         "rating": 3.1
+      },
+      {
+        "name": "David Richtarech",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Adrian Sivicek",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.6
       }
     ]
   },
   "squad": [
     {
-      "name": "Martin Vantruba",
-      "position": "GK",
-      "age": 28,
-      "apps": 2,
-      "goals": 0,
-      "rating": 1.5
-    },
-    {
-      "name": "Martin Janacek",
+      "name": "Jakub Trefil",
       "position": "GK",
       "age": 25,
-      "apps": 0,
-      "goals": 0,
-      "rating": 2.1
-    },
-    {
-      "name": "Juanmi Carrion",
-      "position": null,
-      "age": 28,
       "apps": 2,
       "goals": 0,
-      "rating": 2.8
+      "rating": 1.9
     },
     {
-      "name": "Michal Tomic",
-      "position": null,
-      "age": 27,
-      "apps": 1,
-      "goals": 0,
-      "rating": 3.1
-    },
-    {
-      "name": "Ivan Mensah",
-      "position": null,
-      "age": 22,
-      "apps": 1,
-      "goals": 0,
-      "rating": 3.3
-    },
-    {
-      "name": "Marek Ujlaky",
-      "position": "DF",
-      "age": 22,
-      "apps": 1,
-      "goals": 0,
-      "rating": 2.6
-    },
-    {
-      "name": "Kristian Kostrna",
-      "position": "DF",
-      "age": 32,
-      "apps": 1,
-      "goals": 0,
-      "rating": 2.7
-    },
-    {
-      "name": "Martin Mikovic",
-      "position": "DF",
-      "age": 35,
-      "apps": 1,
-      "goals": 0,
-      "rating": 1.8
-    },
-    {
-      "name": "Melos Bajrami",
-      "position": "DF",
-      "age": 24,
-      "apps": 1,
-      "goals": 0,
-      "rating": 2.8
-    },
-    {
-      "name": "Libor Holik",
-      "position": "DF",
-      "age": 28,
+      "name": "Lukas Hrosso",
+      "position": "GK",
+      "age": 38,
       "apps": 0,
       "goals": 0,
-      "rating": 3.1
+      "rating": 1.3
     },
     {
-      "name": "Kristian Strucka",
-      "position": null,
-      "age": 19,
+      "name": "Adam Balaz",
+      "position": "DF",
+      "age": 20,
       "apps": 1,
       "goals": 0,
       "rating": 1.3
     },
     {
-      "name": "Filip Trello",
+      "name": "Kazeem Bolaji",
+      "position": null,
+      "age": 23,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2
+    },
+    {
+      "name": "Nicolas Sikula",
+      "position": "DF",
+      "age": 23,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3
+    },
+    {
+      "name": "Lubomir Willweber",
+      "position": "DF",
+      "age": 33,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.7
+    },
+    {
+      "name": "Alabi Adewale",
+      "position": "DF",
+      "age": 25,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.3
+    },
+    {
+      "name": "Viktor Toth",
+      "position": "MF",
+      "age": 28,
+      "apps": 1,
+      "goals": 0,
+      "rating": 1.6
+    },
+    {
+      "name": "Adrian Sivicek",
       "position": "MF",
       "age": 19,
       "apps": 2,
-      "goals": 1,
-      "rating": 2.1
+      "goals": 0,
+      "rating": 1.6
     },
     {
-      "name": "Roman Prochazka",
-      "position": "MF",
-      "age": 37,
-      "apps": 1,
+      "name": "Branislav Luptak",
+      "position": null,
+      "age": 33,
+      "apps": 21,
       "goals": 0,
       "rating": 2.8
     },
     {
-      "name": "Roman Begala",
-      "position": "MF",
-      "age": 27,
-      "apps": 2,
-      "goals": 0,
-      "rating": 3.1
-    },
-    {
-      "name": "Erik Sabo",
-      "position": "MF",
-      "age": 34,
-      "apps": 2,
-      "goals": 0,
-      "rating": 2.7
-    },
-    {
-      "name": "Marin Lausic",
+      "name": "Mikulas Bakala",
       "position": "MF",
       "age": 25,
       "apps": 2,
       "goals": 0,
-      "rating": 2.7
+      "rating": 2.3
     },
     {
-      "name": "Luka Khorkheli",
+      "name": "David Richtarech",
       "position": "MF",
-      "age": 26,
+      "age": 30,
       "apps": 2,
       "goals": 0,
-      "rating": 2.7
+      "rating": 2.8
     },
     {
-      "name": "Timotej Kudlicka",
+      "name": "Jakub Povazanec",
       "position": "MF",
-      "age": 22,
+      "age": 35,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.2
+    },
+    {
+      "name": "Adam Hanes",
+      "position": "MF",
+      "age": 24,
       "apps": 2,
       "goals": 0,
       "rating": 2.5
     },
     {
-      "name": "Philip Azango",
-      "position": null,
-      "age": 29,
-      "apps": 1,
-      "goals": 0,
-      "rating": 3
-    },
-    {
-      "name": "Hilary Gong",
-      "position": null,
-      "age": 27,
-      "apps": 1,
-      "goals": 0,
-      "rating": 2.2
-    },
-    {
-      "name": "Stefan Skrbo",
-      "position": "ST",
+      "name": "Tibor Slebodnik",
+      "position": "MF",
       "age": 25,
-      "apps": 1,
-      "goals": 0,
-      "rating": 4
-    },
-    {
-      "name": "Lorent Mehmeti",
-      "position": null,
-      "age": 22,
       "apps": 2,
       "goals": 0,
-      "rating": 1.4
+      "rating": 2.9
     },
     {
-      "name": "David Poltak",
-      "position": "ST",
-      "age": 17,
-      "apps": 1,
-      "goals": 0,
-      "rating": 2.1
-    },
-    {
-      "name": "Tijmen Wildeboer",
-      "position": "ST",
+      "name": "Dominik Veselovsky",
+      "position": "MF",
       "age": 24,
       "apps": 2,
       "goals": 0,
-      "rating": 3.7
+      "rating": 3.1
+    },
+    {
+      "name": "Michal Duris",
+      "position": null,
+      "age": 38,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3.4
+    },
+    {
+      "name": "Rego Szantho",
+      "position": "ST",
+      "age": 25,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.7
+    },
+    {
+      "name": "Enzo Arevalo",
+      "position": "ST",
+      "age": 29,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.4
+    },
+    {
+      "name": "Robert Polievka",
+      "position": "ST",
+      "age": 30,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.9
     }
   ],
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "CF Salamanca",
-      "rating": 1703.49
+      "name": "FK Tyumen",
+      "rating": 1709.84
     },
     {
-      "name": "FC Vlasim",
-      "rating": 1702.59
+      "name": "FC Dordrecht",
+      "rating": 1709.36
     }
   ]
 }

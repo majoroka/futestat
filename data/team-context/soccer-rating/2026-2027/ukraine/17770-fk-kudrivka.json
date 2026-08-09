@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Fk-Kudrivka/17770/",
-    "collectedAtUtc": "2026-08-08T18:28:54.430Z"
+    "collectedAtUtc": "2026-08-09T16:26:10.547Z"
   },
   "availability": {
     "status": "available",
@@ -27,8 +27,8 @@
     "away": 1631.18
   },
   "rankings": {
-    "national": 23,
-    "europe": 1253
+    "national": 25,
+    "europe": 1312
   },
   "form": {
     "last3": [
@@ -62,381 +62,301 @@
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": null,
+    "averageRating": 3,
     "players": [
       {
-        "name": "Roman Zhmurko",
+        "name": "Anton Yashkov",
         "position": "GK",
         "age": null,
-        "apps": 26,
+        "apps": 1,
         "goals": 0,
-        "rating": 2.8
+        "rating": 2.3
       },
       {
-        "name": "Andriy Yakymiv",
+        "name": "Dmytro Semenov",
         "position": "DF",
         "age": null,
-        "apps": 24,
-        "goals": 1,
-        "rating": 5.2
-      },
-      {
-        "name": "Sidnney",
-        "position": "DF",
-        "age": null,
-        "apps": 30,
-        "goals": 5,
-        "rating": 4.7
-      },
-      {
-        "name": "Valeriy Bondarenko",
-        "position": "DF",
-        "age": null,
-        "apps": 0,
+        "apps": 1,
         "goals": 0,
-        "rating": 3.5
+        "rating": 4
       },
       {
-        "name": "Illia Kovalenko",
+        "name": "Yevgeniy Pasich",
         "position": "DF",
         "age": null,
-        "apps": 8,
+        "apps": 1,
         "goals": 0,
         "rating": 2.6
       },
       {
-        "name": "Artem Chelyadin",
-        "position": "MF",
+        "name": "Bogdan Veklyak",
+        "position": "DF",
         "age": null,
-        "apps": 0,
+        "apps": 1,
         "goals": 0,
-        "rating": 3.3
+        "rating": 2.6
       },
       {
-        "name": "Vikentiy Voloshyn",
+        "name": "Myroslav Serdyuk",
+        "position": "DF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.7
+      },
+      {
+        "name": "Yevgeniy Smyrnyi",
         "position": "MF",
         "age": null,
-        "apps": 14,
-        "goals": 5,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Oleksandr Belyaev",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Artur Dumanyuk",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 1,
         "rating": 3.6
       },
       {
-        "name": "Evgen Banada",
-        "position": "MF",
-        "age": null,
-        "apps": 22,
-        "goals": 4,
-        "rating": 3.4
-      },
-      {
-        "name": "Nazariy Vorobchak",
-        "position": "MF",
-        "age": null,
-        "apps": 31,
-        "goals": 5,
-        "rating": 3.5
-      },
-      {
-        "name": "Dmytro Shastal",
-        "position": "ST",
-        "age": null,
-        "apps": 31,
-        "goals": 7,
-        "rating": 4.9
-      },
-      {
-        "name": "Wendell Brito",
-        "position": "ST",
-        "age": null,
-        "apps": 28,
-        "goals": 5,
-        "rating": 3.3
-      },
-      {
-        "name": "Aleksandr Domolega",
-        "position": "GK",
-        "age": null,
-        "apps": 2,
-        "goals": 0,
-        "rating": 1.6
-      },
-      {
-        "name": "Valeriy Samar",
-        "position": "DF",
-        "age": null,
-        "apps": 30,
-        "goals": 2,
-        "rating": 5
-      },
-      {
-        "name": "Diego",
-        "position": "MF",
-        "age": null,
-        "apps": 22,
-        "goals": 3,
-        "rating": 3.1
-      },
-      {
-        "name": "Ilya Kvasnytsya",
+        "name": "Raymond Owusu",
         "position": "ST",
         "age": null,
         "apps": 0,
         "goals": 0,
-        "rating": 4.8
+        "rating": 2.8
       },
       {
-        "name": "Oleg Sokolov",
-        "position": "DF",
+        "name": "Denys Svityukha",
+        "position": "ST",
         "age": null,
-        "apps": 30,
+        "apps": 1,
         "goals": 0,
-        "rating": 4.7
+        "rating": 2.5
       },
       {
-        "name": "Nicholas Bonsu",
+        "name": "Ivan Petryak",
+        "position": "ST",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Maksym Melnychuk",
         "position": "DF",
         "age": null,
-        "apps": 11,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Kaya Makosso",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.4
+      },
+      {
+        "name": "Kostyantyn Bychek",
+        "position": "ST",
+        "age": null,
+        "apps": 1,
         "goals": 0,
         "rating": 3.1
+      },
+      {
+        "name": "Sergiy Sten",
+        "position": "ST",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 2.2
+      },
+      {
+        "name": "Reynaldiño Verley",
+        "position": "ST",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.3
+      },
+      {
+        "name": "Yurii Potimkov",
+        "position": "DF",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 1.9
       }
     ]
   },
   "squad": [
     {
-      "name": "Maksym Mekhaniv",
-      "position": null,
-      "age": 29,
-      "apps": 6,
-      "goals": 0,
-      "rating": 3.2
-    },
-    {
-      "name": "Roman Zhmurko",
+      "name": "Anton Yashkov",
       "position": "GK",
-      "age": 28,
-      "apps": 26,
+      "age": 34,
+      "apps": 1,
       "goals": 0,
-      "rating": 2.8
+      "rating": 2.3
     },
     {
-      "name": "Aleksandr Domolega",
-      "position": "GK",
-      "age": 21,
-      "apps": 2,
-      "goals": 0,
-      "rating": 1.6
-    },
-    {
-      "name": "Ernest Astakhov",
-      "position": null,
-      "age": 27,
-      "apps": 9,
-      "goals": 0,
-      "rating": 3.3
-    },
-    {
-      "name": "Andriy Yakymiv",
-      "position": "DF",
-      "age": 28,
-      "apps": 24,
-      "goals": 1,
-      "rating": 5.2
-    },
-    {
-      "name": "Sidnney",
+      "name": "Dmytro Semenov",
       "position": "DF",
       "age": 26,
-      "apps": 30,
-      "goals": 5,
-      "rating": 4.7
-    },
-    {
-      "name": "Valeriy Bondarenko",
-      "position": "DF",
-      "age": 32,
-      "apps": 0,
+      "apps": 1,
       "goals": 0,
-      "rating": 3.5
+      "rating": 4
     },
     {
-      "name": "Illia Kovalenko",
+      "name": "Yevgeniy Pasich",
       "position": "DF",
-      "age": 24,
-      "apps": 8,
+      "age": 33,
+      "apps": 1,
       "goals": 0,
       "rating": 2.6
     },
     {
-      "name": "Valeriy Samar",
-      "position": "DF",
-      "age": 24,
-      "apps": 30,
-      "goals": 2,
-      "rating": 5
-    },
-    {
-      "name": "Oleg Sokolov",
+      "name": "Bogdan Veklyak",
       "position": "DF",
       "age": 26,
-      "apps": 30,
+      "apps": 1,
       "goals": 0,
-      "rating": 4.7
+      "rating": 2.6
     },
     {
-      "name": "Nicholas Bonsu",
+      "name": "Myroslav Serdyuk",
       "position": "DF",
-      "age": 25,
-      "apps": 11,
+      "age": 27,
+      "apps": 1,
       "goals": 0,
-      "rating": 3.1
+      "rating": 3.7
     },
     {
-      "name": "Simon Galoyan",
-      "position": null,
-      "age": 23,
-      "apps": 22,
-      "goals": 3,
-      "rating": 2.8
+      "name": "Maksym Melnychuk",
+      "position": "DF",
+      "age": 26,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3.6
     },
     {
-      "name": "Oleksandr Kalinin",
-      "position": null,
+      "name": "Yurii Potimkov",
+      "position": "DF",
       "age": 23,
-      "apps": 3,
+      "apps": 0,
+      "goals": 0,
+      "rating": 1.9
+    },
+    {
+      "name": "Victor Adeoye",
+      "position": null,
+      "age": 20,
+      "apps": 1,
       "goals": 0,
       "rating": 1.4
     },
     {
-      "name": "Andriy Chepurnyi",
-      "position": null,
-      "age": 23,
-      "apps": 2,
-      "goals": 0,
-      "rating": 1.3
-    },
-    {
-      "name": "Ivan Kotukha",
-      "position": null,
-      "age": 21,
+      "name": "Artur Dumanyuk",
+      "position": "MF",
+      "age": 29,
       "apps": 1,
-      "goals": 0,
-      "rating": 1.3
-    },
-    {
-      "name": "Diego",
-      "position": "MF",
-      "age": 22,
-      "apps": 22,
-      "goals": 3,
-      "rating": 3.1
-    },
-    {
-      "name": "Sergiy Kosovskyi",
-      "position": null,
-      "age": 28,
-      "apps": 25,
       "goals": 1,
-      "rating": 4.2
-    },
-    {
-      "name": "Artem Chelyadin",
-      "position": "MF",
-      "age": 26,
-      "apps": 0,
-      "goals": 0,
-      "rating": 3.3
-    },
-    {
-      "name": "Ruslan Dedukh",
-      "position": null,
-      "age": 28,
-      "apps": 7,
-      "goals": 0,
-      "rating": 4.4
-    },
-    {
-      "name": "Evgen Banada",
-      "position": "MF",
-      "age": 34,
-      "apps": 22,
-      "goals": 4,
-      "rating": 3.4
-    },
-    {
-      "name": "Nazariy Vorobchak",
-      "position": "MF",
-      "age": 26,
-      "apps": 31,
-      "goals": 5,
-      "rating": 3.5
-    },
-    {
-      "name": "Vikentiy Voloshyn",
-      "position": "MF",
-      "age": 25,
-      "apps": 14,
-      "goals": 5,
       "rating": 3.6
     },
     {
-      "name": "Yegor Gunichev",
-      "position": null,
-      "age": 22,
-      "apps": 17,
-      "goals": 2,
+      "name": "Kaya Makosso",
+      "position": "MF",
+      "age": 27,
+      "apps": 1,
+      "goals": 0,
       "rating": 2.4
     },
     {
-      "name": "Nazar Voloshyn",
-      "position": null,
-      "age": 25,
-      "apps": 14,
-      "goals": 4,
-      "rating": 2.3
-    },
-    {
-      "name": "Roman Heresh",
-      "position": null,
-      "age": 20,
-      "apps": 4,
+      "name": "Yevgeniy Smyrnyi",
+      "position": "MF",
+      "age": 27,
+      "apps": 1,
       "goals": 0,
-      "rating": 1.5
+      "rating": 2.9
     },
     {
-      "name": "Ilya Kvasnytsya",
+      "name": "Oleksandr Belyaev",
+      "position": "MF",
+      "age": 26,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3.2
+    },
+    {
+      "name": "Denys Svityukha",
       "position": "ST",
-      "age": 23,
+      "age": 24,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.5
+    },
+    {
+      "name": "Ivan Petryak",
+      "position": "ST",
+      "age": 31,
       "apps": 0,
       "goals": 0,
-      "rating": 4.8
+      "rating": 2.9
     },
     {
-      "name": "Dmytro Shastal",
+      "name": "Kostyantyn Bychek",
       "position": "ST",
-      "age": 30,
-      "apps": 31,
-      "goals": 7,
-      "rating": 4.9
+      "age": 26,
+      "apps": 1,
+      "goals": 0,
+      "rating": 3.1
     },
     {
-      "name": "Wendell Brito",
+      "name": "Raymond Owusu",
       "position": "ST",
-      "age": 19,
-      "apps": 28,
-      "goals": 5,
-      "rating": 3.3
+      "age": 24,
+      "apps": 0,
+      "goals": 0,
+      "rating": 2.8
+    },
+    {
+      "name": "Sergiy Sten",
+      "position": "ST",
+      "age": 24,
+      "apps": 0,
+      "goals": 0,
+      "rating": 2.2
+    },
+    {
+      "name": "Reynaldiño Verley",
+      "position": "ST",
+      "age": 23,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.3
     }
   ],
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "FC Rapperswil-Jona",
-      "rating": 1677.07
+      "name": "Karlbergs BK",
+      "rating": 1666.88
     },
     {
-      "name": "US Luzenac",
-      "rating": 1676.11
+      "name": "Truro City FC",
+      "rating": 1666.7
     }
   ]
 }

@@ -18,17 +18,17 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/9771/stats/uniao-de-leiria/teams",
-    "collectedAtUtc": "2026-08-08T18:24:43.122Z"
+    "collectedAtUtc": "2026-08-09T16:22:51.900Z"
   },
   "availability": {
-    "status": "not_started",
+    "status": "partial",
     "coverage": "low",
-    "notes": "Epoca atual ainda sem estatisticas agregadas disponiveis no HTML capturado."
+    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
   },
   "overview": {
     "teamRating": null,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
+    "goalsPerMatch": 0,
+    "goalsConcededPerMatch": 1,
     "averagePossessionPct": null,
     "cleanSheets": null,
     "attendanceAverage": null

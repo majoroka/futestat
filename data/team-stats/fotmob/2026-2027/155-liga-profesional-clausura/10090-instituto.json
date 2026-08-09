@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/10090/stats/instituto/teams",
-    "collectedAtUtc": "2026-08-08T18:22:23.747Z"
+    "collectedAtUtc": "2026-08-09T16:20:56.890Z"
   },
   "availability": {
     "status": "archived",
-    "coverage": "low",
+    "coverage": "high",
     "notes": "Epoca anterior capturada para referencia estrutural."
   },
   "overview": {
-    "teamRating": 7.2,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 6.84,
+    "goalsPerMatch": 1.1,
+    "goalsConcededPerMatch": 1,
+    "averagePossessionPct": 48.7,
+    "cleanSheets": 6,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": null,
-    "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 29.8,
+    "xgDiff": 13.2,
+    "shotsOnTargetPerMatch": 4.5,
+    "bigChances": 46,
+    "bigChancesMissed": 30,
+    "accuratePassesPerMatch": 262.1,
+    "accurateLongBallsPerMatch": 27.7,
+    "accurateCrossesPerMatch": 6.9,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 453,
+    "cornersPerMatch": 101,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "xgConceded": 16.5,
+    "interceptionsPerMatch": 8.8,
+    "tacklesPerMatch": 16.1,
+    "clearancesPerMatch": 26.1,
+    "finalThirdRecoveriesPerMatch": 3.5,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 2.3
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 13.9,
+    "yellowCardsPerMatch": 53,
     "redCardsPerMatch": null
   }
 }

@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Fk-Rostov/139/",
-    "collectedAtUtc": "2026-08-08T18:28:32.636Z"
+    "collectedAtUtc": "2026-08-09T16:25:54.002Z"
   },
   "availability": {
     "status": "available",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 9,
-    "europe": 369
+    "europe": 370
   },
   "form": {
     "last3": [
@@ -399,8 +399,8 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Empoli FC",
-      "rating": 1934.33
+      "name": "IFK Norrköping FK",
+      "rating": 1934.11
     },
     {
       "name": "Rubin Kazan",

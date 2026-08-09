@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Shakhtar-Donezk/299/",
-    "collectedAtUtc": "2026-08-08T18:28:57.381Z"
+    "collectedAtUtc": "2026-08-09T16:26:13.495Z"
   },
   "availability": {
     "status": "available",
@@ -22,13 +22,13 @@
     "notes": null
   },
   "ratings": {
-    "overall": 2074.09,
+    "overall": 2127.57,
     "home": 2144.6,
-    "away": 2003.57
+    "away": 2110.53
   },
   "rankings": {
     "national": 1,
-    "europe": 114
+    "europe": 115
   },
   "form": {
     "last3": [
@@ -39,21 +39,42 @@
   },
   "prediction": {
     "tip": "away_win",
-    "tipLabel": "Bet on (2) Shakhtar Donezk (Stake 4/10)",
-    "confidencePct": 40,
+    "tipLabel": "Bet on (2) Shakhtar Donezk (Stake 6/10)",
+    "confidencePct": 60,
     "strengthComparison": "favorite"
   },
   "oddsMarket": {
     "opening1X2": {
-      "home": 7.5,
-      "draw": 5,
+      "home": 8,
+      "draw": 4.8,
       "away": 1.36
     },
     "fair1X2": null,
-    "movementSummary": "home_odds_flat_away_odds_flat"
+    "movementSummary": "home_odds_up_away_odds_down"
   },
   "squadHealth": {
-    "injuries": [],
+    "injuries": [
+      {
+        "player": "Pedrinho",
+        "status": "injury_or_suspension",
+        "description": null
+      },
+      {
+        "player": "Dmytro Riznyk",
+        "status": "injury_or_suspension",
+        "description": null
+      },
+      {
+        "player": "Oleg Ocheretko",
+        "status": "injury_or_suspension",
+        "description": null
+      },
+      {
+        "player": "Aleksandr Karavaev",
+        "status": "injury_or_suspension",
+        "description": null
+      }
+    ],
     "suspensions": []
   },
   "expectedLineup": {
@@ -65,12 +86,12 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "FK Krasnodar",
-      "rating": 2130.84
+      "name": "Aarhus GF",
+      "rating": 2129.12
     },
     {
-      "name": "Wolverhampton Wanderers",
-      "rating": 2132.62
+      "name": "Sparta Praha",
+      "rating": 2122.62
     }
   ]
 }

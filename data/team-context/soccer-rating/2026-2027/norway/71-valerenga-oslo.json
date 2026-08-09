@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Valerenga-Oslo/71/",
-    "collectedAtUtc": "2026-08-08T18:27:20.198Z"
+    "collectedAtUtc": "2026-08-09T16:24:59.716Z"
   },
   "availability": {
     "status": "available",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 8,
-    "europe": 322
+    "europe": 311
   },
   "form": {
     "last3": [
@@ -62,7 +62,7 @@
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": null,
+    "averageRating": 5.5,
     "players": [
       {
         "name": "Oscar Hedvall",
@@ -340,6 +340,14 @@
       "rating": 6.5
     },
     {
+      "name": "Promise Meliga Jr.",
+      "position": null,
+      "age": 18,
+      "apps": 0,
+      "goals": 0,
+      "rating": 3.3
+    },
+    {
       "name": "Lucas Haren",
       "position": "ST",
       "age": 28,
@@ -375,12 +383,12 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "SCR Altach",
-      "rating": 1959.86
+      "name": "Stevenage FC",
+      "rating": 1965.3
     },
     {
-      "name": "Fatih Karagümrük",
-      "rating": 1936.09
+      "name": "SK Sigma Olomouc",
+      "rating": 1962.12
     }
   ]
 }

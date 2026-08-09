@@ -18,19 +18,19 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/1763072/stats/kudrivka/teams",
-    "collectedAtUtc": "2026-08-08T18:26:28.053Z"
+    "collectedAtUtc": "2026-08-09T16:24:19.867Z"
   },
   "availability": {
-    "status": "not_started",
+    "status": "partial",
     "coverage": "low",
-    "notes": "Epoca atual ainda sem estatisticas agregadas disponiveis no HTML capturado."
+    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
   },
   "overview": {
     "teamRating": null,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
+    "goalsPerMatch": 0.5,
+    "goalsConcededPerMatch": 2.5,
     "averagePossessionPct": null,
-    "cleanSheets": null,
+    "cleanSheets": 1,
     "attendanceAverage": null
   },
   "attack": {
@@ -59,7 +59,7 @@
   },
   "discipline": {
     "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "yellowCardsPerMatch": 6,
     "redCardsPerMatch": null
   }
 }

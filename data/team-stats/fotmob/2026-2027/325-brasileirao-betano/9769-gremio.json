@@ -18,47 +18,47 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/9769/stats/gremio/teams",
-    "collectedAtUtc": "2026-08-08T18:23:03.001Z"
+    "collectedAtUtc": "2026-08-09T16:21:36.006Z"
   },
   "availability": {
     "status": "archived",
-    "coverage": "low",
+    "coverage": "high",
     "notes": "Epoca anterior capturada para referencia estrutural."
   },
   "overview": {
-    "teamRating": 6.9,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 6.72,
+    "goalsPerMatch": 1.1,
+    "goalsConcededPerMatch": 1.3,
+    "averagePossessionPct": 49.7,
+    "cleanSheets": 5,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": 31.592900000000004,
-    "xgDiff": 5.407099999999996,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 21.8,
+    "xgDiff": -10.3,
+    "shotsOnTargetPerMatch": 3.7,
+    "bigChances": 38,
+    "bigChancesMissed": 22,
+    "accuratePassesPerMatch": 345.2,
+    "accurateLongBallsPerMatch": 27.7,
+    "accurateCrossesPerMatch": 4.7,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 362,
+    "cornersPerMatch": 90,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": 20.174400000000002,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
+    "xgConceded": 32,
+    "interceptionsPerMatch": 9.3,
+    "tacklesPerMatch": 14.5,
+    "clearancesPerMatch": 23.4,
     "finalThirdRecoveriesPerMatch": null,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 3
   },
   "discipline": {
-    "foulsPerMatch": null,
+    "foulsPerMatch": 13.3,
     "yellowCardsPerMatch": null,
     "redCardsPerMatch": null
   }

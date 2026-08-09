@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/1074320/stats/estrela-da-amadora/teams",
-    "collectedAtUtc": "2026-08-08T18:25:09.574Z"
+    "collectedAtUtc": "2026-08-09T16:23:16.022Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 6.8,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
+    "teamRating": 6.86,
+    "goalsPerMatch": 2,
+    "goalsConcededPerMatch": 2,
+    "averagePossessionPct": 43.9,
     "cleanSheets": null,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": 1.6548000574111938,
-    "xgDiff": -1.6548000574111938,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 1,
+    "xgDiff": -1.6,
+    "shotsOnTargetPerMatch": 4,
+    "bigChances": 1,
+    "bigChancesMissed": 1,
+    "accuratePassesPerMatch": 278,
+    "accurateLongBallsPerMatch": 27,
+    "accurateCrossesPerMatch": 2,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 9,
+    "cornersPerMatch": 5,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": 0.44589999318122864,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "xgConceded": 2.6,
+    "interceptionsPerMatch": 6,
+    "tacklesPerMatch": 19,
+    "clearancesPerMatch": 18,
+    "finalThirdRecoveriesPerMatch": 2,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 6
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 13,
+    "yellowCardsPerMatch": 2,
     "redCardsPerMatch": null
   }
 }

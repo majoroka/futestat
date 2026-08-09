@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/10089/stats/club-atletico-platense/teams",
-    "collectedAtUtc": "2026-08-08T18:22:25.877Z"
+    "collectedAtUtc": "2026-08-09T16:20:59.247Z"
   },
   "availability": {
     "status": "archived",
-    "coverage": "low",
+    "coverage": "high",
     "notes": "Epoca anterior capturada para referencia estrutural."
   },
   "overview": {
-    "teamRating": 6.3,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 6.74,
+    "goalsPerMatch": 0.7,
+    "goalsConcededPerMatch": 1.2,
+    "averagePossessionPct": 50.2,
+    "cleanSheets": 7,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": null,
-    "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 18.8,
+    "xgDiff": -5.6,
+    "shotsOnTargetPerMatch": 4,
+    "bigChances": 25,
+    "bigChancesMissed": 17,
+    "accuratePassesPerMatch": 285.7,
+    "accurateLongBallsPerMatch": 28.8,
+    "accurateCrossesPerMatch": 4.7,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 337,
+    "cornersPerMatch": 84,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "xgConceded": 24.4,
+    "interceptionsPerMatch": 10.8,
+    "tacklesPerMatch": 18.2,
+    "clearancesPerMatch": 26.9,
+    "finalThirdRecoveriesPerMatch": 3.5,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 3.2
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 11.9,
+    "yellowCardsPerMatch": 43,
     "redCardsPerMatch": null
   }
 }

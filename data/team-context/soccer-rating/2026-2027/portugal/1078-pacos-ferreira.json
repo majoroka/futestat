@@ -14,17 +14,17 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Pacos-Ferreira/1078/",
-    "collectedAtUtc": "2026-08-08T18:27:26.080Z"
+    "collectedAtUtc": "2026-08-09T16:25:04.473Z"
   },
   "availability": {
-    "status": "available",
-    "coverage": "high",
-    "notes": null
+    "status": "partial",
+    "coverage": "medium",
+    "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
   },
   "ratings": {
-    "overall": 1760.12,
+    "overall": 1754.42,
     "home": 1813.25,
-    "away": 1706.99
+    "away": 1695.6
   },
   "rankings": {
     "national": 31,
@@ -33,28 +33,28 @@
   "form": {
     "last3": [
       "D",
-      "L",
-      "L"
+      "W",
+      "W"
     ]
   },
   "prediction": {
-    "tip": "away_or_draw",
-    "tipLabel": "Bet on (X2) FC Penafiel (Stake 4/10)",
-    "confidencePct": 40,
+    "tip": "home_or_draw",
+    "tipLabel": "Bet on (1X) AD Marco 09 (Stake 2/10)",
+    "confidencePct": 20,
     "strengthComparison": "favorite"
   },
   "oddsMarket": {
     "opening1X2": {
-      "home": 1.72,
-      "draw": 3.4,
-      "away": 4.1
+      "home": 2.95,
+      "draw": 3.1,
+      "away": 2.1
     },
     "fair1X2": {
-      "home": 2.21,
-      "draw": 4.12,
-      "away": 3.28
+      "home": 3.26,
+      "draw": 3.65,
+      "away": 2.39
     },
-    "movementSummary": "home_odds_down_away_odds_down"
+    "movementSummary": "home_odds_down_away_odds_up"
   },
   "squadHealth": {
     "injuries": [],
@@ -62,341 +62,19 @@
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": 4.1,
-    "players": [
-      {
-        "name": "Martim Silva",
-        "position": "GK",
-        "age": null,
-        "apps": 26,
-        "goals": 1,
-        "rating": 2.7
-      },
-      {
-        "name": "Anilson",
-        "position": "DF",
-        "age": null,
-        "apps": 30,
-        "goals": 2,
-        "rating": 4.9
-      },
-      {
-        "name": "André Sousa",
-        "position": "DF",
-        "age": null,
-        "apps": 24,
-        "goals": 1,
-        "rating": 4.3
-      },
-      {
-        "name": "Kauan",
-        "position": "DF",
-        "age": null,
-        "apps": 17,
-        "goals": 0,
-        "rating": 3.8
-      },
-      {
-        "name": "Leandro Dias",
-        "position": "DF",
-        "age": null,
-        "apps": 21,
-        "goals": 0,
-        "rating": 3.6
-      },
-      {
-        "name": "Francisco Ramos",
-        "position": "MF",
-        "age": null,
-        "apps": 32,
-        "goals": 0,
-        "rating": 4.2
-      },
-      {
-        "name": "Nuno Cunha",
-        "position": "MF",
-        "age": null,
-        "apps": 28,
-        "goals": 3,
-        "rating": 4
-      },
-      {
-        "name": "David Costa",
-        "position": "MF",
-        "age": null,
-        "apps": 14,
-        "goals": 4,
-        "rating": 4
-      },
-      {
-        "name": "Ronaldo Lumungo",
-        "position": "ST",
-        "age": null,
-        "apps": 31,
-        "goals": 4,
-        "rating": 5.3
-      },
-      {
-        "name": "Joao Pinto",
-        "position": "ST",
-        "age": null,
-        "apps": 26,
-        "goals": 1,
-        "rating": 3.3
-      },
-      {
-        "name": "Joao Victor",
-        "position": "ST",
-        "age": null,
-        "apps": 32,
-        "goals": 8,
-        "rating": 4.6
-      },
-      {
-        "name": "Marafona",
-        "position": "GK",
-        "age": null,
-        "apps": 12,
-        "goals": 0,
-        "rating": 3.5
-      },
-      {
-        "name": "Tiago Ferreira",
-        "position": "DF",
-        "age": null,
-        "apps": 31,
-        "goals": 0,
-        "rating": 3.6
-      },
-      {
-        "name": "Nito",
-        "position": "MF",
-        "age": null,
-        "apps": 22,
-        "goals": 0,
-        "rating": 3.2
-      },
-      {
-        "name": "Miguel Falé",
-        "position": "ST",
-        "age": null,
-        "apps": 14,
-        "goals": 1,
-        "rating": 4
-      },
-      {
-        "name": "Diego Fernandes",
-        "position": "ST",
-        "age": null,
-        "apps": 26,
-        "goals": 1,
-        "rating": 3.4
-      },
-      {
-        "name": "Gonçalo Cardoso",
-        "position": "DF",
-        "age": null,
-        "apps": 10,
-        "goals": 0,
-        "rating": 3.9
-      }
-    ]
+    "averageRating": null,
+    "players": []
   },
-  "squad": [
-    {
-      "name": "Rafa",
-      "position": null,
-      "age": 22,
-      "apps": 19,
-      "goals": 0,
-      "rating": 2.1
-    },
-    {
-      "name": "Jeimes",
-      "position": null,
-      "age": 25,
-      "apps": 4,
-      "goals": 0,
-      "rating": 2.3
-    },
-    {
-      "name": "Martim Silva",
-      "position": "GK",
-      "age": 17,
-      "apps": 26,
-      "goals": 1,
-      "rating": 2.7
-    },
-    {
-      "name": "Marafona",
-      "position": "GK",
-      "age": 39,
-      "apps": 12,
-      "goals": 0,
-      "rating": 3.5
-    },
-    {
-      "name": "Rodrigo Silva",
-      "position": null,
-      "age": 20,
-      "apps": 3,
-      "goals": 0,
-      "rating": 1.4
-    },
-    {
-      "name": "Rafa Vieira",
-      "position": null,
-      "age": 33,
-      "apps": 26,
-      "goals": 0,
-      "rating": 2.8
-    },
-    {
-      "name": "Diegao",
-      "position": null,
-      "age": 22,
-      "apps": 8,
-      "goals": 0,
-      "rating": 2.9
-    },
-    {
-      "name": "Anilson",
-      "position": "DF",
-      "age": 24,
-      "apps": 30,
-      "goals": 2,
-      "rating": 4.9
-    },
-    {
-      "name": "André Sousa",
-      "position": "DF",
-      "age": 28,
-      "apps": 24,
-      "goals": 1,
-      "rating": 4.3
-    },
-    {
-      "name": "Kauan",
-      "position": "DF",
-      "age": 23,
-      "apps": 17,
-      "goals": 0,
-      "rating": 3.8
-    },
-    {
-      "name": "Leandro Dias",
-      "position": "DF",
-      "age": 23,
-      "apps": 21,
-      "goals": 0,
-      "rating": 3.6
-    },
-    {
-      "name": "Tiago Ferreira",
-      "position": "DF",
-      "age": 32,
-      "apps": 31,
-      "goals": 0,
-      "rating": 3.6
-    },
-    {
-      "name": "Gonçalo Cardoso",
-      "position": "DF",
-      "age": 25,
-      "apps": 10,
-      "goals": 0,
-      "rating": 3.9
-    },
-    {
-      "name": "Francisco Ramos",
-      "position": "MF",
-      "age": 31,
-      "apps": 32,
-      "goals": 0,
-      "rating": 4.2
-    },
-    {
-      "name": "Nuno Cunha",
-      "position": "MF",
-      "age": 25,
-      "apps": 28,
-      "goals": 3,
-      "rating": 4
-    },
-    {
-      "name": "Nito",
-      "position": "MF",
-      "age": 24,
-      "apps": 22,
-      "goals": 0,
-      "rating": 3.2
-    },
-    {
-      "name": "David Costa",
-      "position": "MF",
-      "age": 22,
-      "apps": 14,
-      "goals": 4,
-      "rating": 4
-    },
-    {
-      "name": "Iuri Moreira",
-      "position": null,
-      "age": 22,
-      "apps": 13,
-      "goals": 0,
-      "rating": 1.9
-    },
-    {
-      "name": "Joao Pinto",
-      "position": "ST",
-      "age": 23,
-      "apps": 26,
-      "goals": 1,
-      "rating": 3.3
-    },
-    {
-      "name": "Joao Victor",
-      "position": "ST",
-      "age": 26,
-      "apps": 32,
-      "goals": 8,
-      "rating": 4.6
-    },
-    {
-      "name": "Miguel Falé",
-      "position": "ST",
-      "age": 22,
-      "apps": 14,
-      "goals": 1,
-      "rating": 4
-    },
-    {
-      "name": "Ronaldo Lumungo",
-      "position": "ST",
-      "age": 24,
-      "apps": 31,
-      "goals": 4,
-      "rating": 5.3
-    },
-    {
-      "name": "Diego Fernandes",
-      "position": "ST",
-      "age": 24,
-      "apps": 26,
-      "goals": 1,
-      "rating": 3.4
-    }
-  ],
+  "squad": [],
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Lusitanos Saint-Maur",
-      "rating": 1760.39
+      "name": "Hapoel Ironi Kiryat Shmona",
+      "rating": 1761.74
     },
     {
-      "name": "FK Kyzylzhar Petropavlovsk",
-      "rating": 1769.7
+      "name": "CD San Fernando",
+      "rating": 1760.99
     }
   ]
 }

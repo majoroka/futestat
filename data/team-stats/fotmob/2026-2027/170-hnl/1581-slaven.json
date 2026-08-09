@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/1581/stats/slaven/teams",
-    "collectedAtUtc": "2026-08-08T18:23:42.167Z"
+    "collectedAtUtc": "2026-08-09T16:22:10.121Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 6.3,
+    "teamRating": 3.15,
     "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
+    "goalsConcededPerMatch": 1,
+    "averagePossessionPct": 17.2,
     "cleanSheets": null,
     "attendanceAverage": null
   },
   "attack": {
     "xg": null,
     "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
+    "shotsOnTargetPerMatch": 1,
+    "bigChances": 2,
+    "bigChancesMissed": 2,
+    "accuratePassesPerMatch": 111.5,
+    "accurateLongBallsPerMatch": 7.5,
     "accurateCrossesPerMatch": null,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 6,
+    "cornersPerMatch": 1,
     "setPieceGoals": null
   },
   "defense": {
     "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "interceptionsPerMatch": 4,
+    "tacklesPerMatch": 10.5,
+    "clearancesPerMatch": 15.5,
+    "finalThirdRecoveriesPerMatch": 1,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 2.5
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 5,
+    "yellowCardsPerMatch": 1,
     "redCardsPerMatch": null
   }
 }

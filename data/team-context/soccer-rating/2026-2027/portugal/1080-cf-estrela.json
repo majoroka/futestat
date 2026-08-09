@@ -1,0 +1,434 @@
+{
+  "team": {
+    "id": "1080",
+    "name": "CF Estrela",
+    "slug": "cf-estrela",
+    "country": "Portugal",
+    "logoUrl": null
+  },
+  "season": {
+    "id": "2026/2027",
+    "label": "2026/2027",
+    "isCurrent": true
+  },
+  "source": {
+    "provider": "soccer-rating",
+    "url": "https://www.soccer-rating.com/Cf-Estrela/1080/",
+    "collectedAtUtc": "2026-08-09T16:51:21.823Z"
+  },
+  "availability": {
+    "status": "available",
+    "coverage": "high",
+    "notes": null
+  },
+  "ratings": {
+    "overall": 1947.51,
+    "home": 1941.36,
+    "away": 1953.67
+  },
+  "rankings": {
+    "national": 11,
+    "europe": 338
+  },
+  "form": {
+    "last3": [
+      "D",
+      "D",
+      "L"
+    ]
+  },
+  "prediction": {
+    "tip": "home_or_draw",
+    "tipLabel": "Bet on (1X) CF Estrela (Stake 2/10)",
+    "confidencePct": 20,
+    "strengthComparison": "underdog"
+  },
+  "oddsMarket": {
+    "opening1X2": {
+      "home": 10,
+      "draw": 6,
+      "away": 1.26
+    },
+    "fair1X2": {
+      "home": 7.25,
+      "draw": 5.6,
+      "away": 1.46
+    },
+    "movementSummary": "home_odds_down_away_odds_up"
+  },
+  "squadHealth": {
+    "injuries": [],
+    "suspensions": []
+  },
+  "expectedLineup": {
+    "formation": null,
+    "averageRating": 4.3,
+    "players": [
+      {
+        "name": "Luan Patrick",
+        "position": "DF",
+        "age": null,
+        "apps": 31,
+        "goals": 0,
+        "rating": 6.6
+      },
+      {
+        "name": "Bernardo Schappo",
+        "position": "DF",
+        "age": null,
+        "apps": 26,
+        "goals": 0,
+        "rating": 5.5
+      },
+      {
+        "name": "Max Scholze",
+        "position": "DF",
+        "age": null,
+        "apps": 11,
+        "goals": 0,
+        "rating": 3.7
+      },
+      {
+        "name": "Jefferson Encada",
+        "position": "DF",
+        "age": null,
+        "apps": 26,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Santiago Serra",
+        "position": "MF",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 2.4
+      },
+      {
+        "name": "Gueladan Doue",
+        "position": "MF",
+        "age": null,
+        "apps": 14,
+        "goals": 1,
+        "rating": 3.4
+      },
+      {
+        "name": "Lovro Zvonarek",
+        "position": "MF",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 5.5
+      },
+      {
+        "name": "Ianis Stoica",
+        "position": "ST",
+        "age": null,
+        "apps": 33,
+        "goals": 3,
+        "rating": 6.7
+      },
+      {
+        "name": "Abraham Marcus",
+        "position": "ST",
+        "age": null,
+        "apps": 31,
+        "goals": 5,
+        "rating": 6.2
+      },
+      {
+        "name": "Leandro Antonetti",
+        "position": "ST",
+        "age": null,
+        "apps": 12,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "David Grilo",
+        "position": "GK",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.8
+      },
+      {
+        "name": "Otavio",
+        "position": "DF",
+        "age": null,
+        "apps": 22,
+        "goals": 0,
+        "rating": 5.8
+      },
+      {
+        "name": "Robinho",
+        "position": "MF",
+        "age": null,
+        "apps": 23,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Alisson Souza",
+        "position": "ST",
+        "age": null,
+        "apps": 5,
+        "goals": 0,
+        "rating": 1.6
+      },
+      {
+        "name": "Tom Moustier",
+        "position": "MF",
+        "age": null,
+        "apps": 9,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Diogo Pinto",
+        "position": "GK",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 2.8
+      }
+    ]
+  },
+  "squad": [
+    {
+      "name": "David Grilo",
+      "position": "GK",
+      "age": 29,
+      "apps": 1,
+      "goals": 0,
+      "rating": 1.8
+    },
+    {
+      "name": "Renan Ribeiro",
+      "position": null,
+      "age": 36,
+      "apps": 33,
+      "goals": 0,
+      "rating": 5.6
+    },
+    {
+      "name": "Diogo Pinto",
+      "position": "GK",
+      "age": 21,
+      "apps": 0,
+      "goals": 0,
+      "rating": 2.8
+    },
+    {
+      "name": "Bruno Langa",
+      "position": null,
+      "age": 28,
+      "apps": 11,
+      "goals": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "Stefan Lekovic",
+      "position": null,
+      "age": 22,
+      "apps": 9,
+      "goals": 2,
+      "rating": 5.6
+    },
+    {
+      "name": "Yahya Kalley",
+      "position": null,
+      "age": 25,
+      "apps": 3,
+      "goals": 0,
+      "rating": 3.1
+    },
+    {
+      "name": "Luan Patrick",
+      "position": "DF",
+      "age": 24,
+      "apps": 31,
+      "goals": 0,
+      "rating": 6.6
+    },
+    {
+      "name": "Bernardo Schappo",
+      "position": "DF",
+      "age": 27,
+      "apps": 26,
+      "goals": 0,
+      "rating": 5.5
+    },
+    {
+      "name": "Max Scholze",
+      "position": "DF",
+      "age": 21,
+      "apps": 11,
+      "goals": 0,
+      "rating": 3.7
+    },
+    {
+      "name": "Jefferson Encada",
+      "position": "DF",
+      "age": 28,
+      "apps": 26,
+      "goals": 0,
+      "rating": 4.5
+    },
+    {
+      "name": "Otavio",
+      "position": "DF",
+      "age": 20,
+      "apps": 22,
+      "goals": 0,
+      "rating": 5.8
+    },
+    {
+      "name": "Paulo Moreira",
+      "position": null,
+      "age": 26,
+      "apps": 29,
+      "goals": 3,
+      "rating": 6.4
+    },
+    {
+      "name": "K. H. Jansson",
+      "position": null,
+      "age": 25,
+      "apps": 13,
+      "goals": 0,
+      "rating": 3.7
+    },
+    {
+      "name": "Santiago Serra",
+      "position": "MF",
+      "age": 18,
+      "apps": 0,
+      "goals": 0,
+      "rating": 2.4
+    },
+    {
+      "name": "Gueladan Doue",
+      "position": "MF",
+      "age": 20,
+      "apps": 14,
+      "goals": 1,
+      "rating": 3.4
+    },
+    {
+      "name": "Alex Sola",
+      "position": null,
+      "age": 22,
+      "apps": 16,
+      "goals": 0,
+      "rating": 3.5
+    },
+    {
+      "name": "Beni Souza",
+      "position": null,
+      "age": 22,
+      "apps": 0,
+      "goals": 0,
+      "rating": 1.7
+    },
+    {
+      "name": "Lovro Zvonarek",
+      "position": "MF",
+      "age": 21,
+      "apps": 0,
+      "goals": 0,
+      "rating": 5.5
+    },
+    {
+      "name": "Robinho",
+      "position": "MF",
+      "age": 23,
+      "apps": 23,
+      "goals": 0,
+      "rating": 4.7
+    },
+    {
+      "name": "Tom Moustier",
+      "position": "MF",
+      "age": 24,
+      "apps": 9,
+      "goals": 0,
+      "rating": 3.5
+    },
+    {
+      "name": "Alisson Souza",
+      "position": "ST",
+      "age": 21,
+      "apps": 5,
+      "goals": 0,
+      "rating": 1.6
+    },
+    {
+      "name": "Jorge Meireles",
+      "position": null,
+      "age": 22,
+      "apps": 22,
+      "goals": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "Ianis Stoica",
+      "position": "ST",
+      "age": 23,
+      "apps": 33,
+      "goals": 3,
+      "rating": 6.7
+    },
+    {
+      "name": "Abraham Marcus",
+      "position": "ST",
+      "age": 26,
+      "apps": 31,
+      "goals": 5,
+      "rating": 6.2
+    },
+    {
+      "name": "Rodrigo Pinho",
+      "position": null,
+      "age": 34,
+      "apps": 29,
+      "goals": 4,
+      "rating": 5.4
+    },
+    {
+      "name": "S. van Hooijdonk",
+      "position": null,
+      "age": 26,
+      "apps": 10,
+      "goals": 1,
+      "rating": 5.3
+    },
+    {
+      "name": "Billal Brahimi",
+      "position": null,
+      "age": 26,
+      "apps": 5,
+      "goals": 0,
+      "rating": 5.2
+    },
+    {
+      "name": "Leandro Antonetti",
+      "position": "ST",
+      "age": 23,
+      "apps": 12,
+      "goals": 0,
+      "rating": 2.7
+    }
+  ],
+  "recentMatches": [],
+  "similarTeams": [
+    {
+      "name": "SV Meppen",
+      "rating": 1948.22
+    },
+    {
+      "name": "Wisla Krakow",
+      "rating": 1946.77
+    }
+  ]
+}

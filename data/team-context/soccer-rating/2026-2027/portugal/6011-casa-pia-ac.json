@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Casa-Pia-Ac/6011/",
-    "collectedAtUtc": "2026-08-08T18:28:03.189Z"
+    "collectedAtUtc": "2026-08-09T16:25:28.538Z"
   },
   "availability": {
     "status": "available",
@@ -27,8 +27,8 @@
     "away": 1815.54
   },
   "rankings": {
-    "national": 17,
-    "europe": 485
+    "national": 18,
+    "europe": 523
   },
   "form": {
     "last3": [
@@ -463,12 +463,12 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "AC Oulu",
-      "rating": 1883.96
+      "name": "Vojvodina Novi Sad",
+      "rating": 1881.65
     },
     {
-      "name": "Bodrumspor",
-      "rating": 1830.62
+      "name": "FK Teplice",
+      "rating": 1864.8
     }
   ]
 }

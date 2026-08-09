@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/168719/stats/fc-krasnodar/teams",
-    "collectedAtUtc": "2026-08-08T18:25:43.068Z"
+    "collectedAtUtc": "2026-08-09T16:23:42.310Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 7.1,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
+    "teamRating": 7.17,
+    "goalsPerMatch": 3,
+    "goalsConcededPerMatch": 1.5,
+    "averagePossessionPct": 63.5,
     "cleanSheets": null,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": 4.317200064659119,
-    "xgDiff": -1.3172000646591187,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 4.1,
+    "xgDiff": 1.2,
+    "shotsOnTargetPerMatch": 6.5,
+    "bigChances": 9,
+    "bigChancesMissed": 5,
+    "accuratePassesPerMatch": 404.5,
+    "accurateLongBallsPerMatch": 28,
+    "accurateCrossesPerMatch": 4,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 47,
+    "cornersPerMatch": 6,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": 2.6242999732494354,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "xgConceded": 2.9,
+    "interceptionsPerMatch": 6,
+    "tacklesPerMatch": 8.5,
+    "clearancesPerMatch": 23,
+    "finalThirdRecoveriesPerMatch": 1,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 2
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 12,
+    "yellowCardsPerMatch": 7,
     "redCardsPerMatch": null
   }
 }

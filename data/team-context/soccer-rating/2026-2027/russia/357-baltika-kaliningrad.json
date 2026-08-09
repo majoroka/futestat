@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Baltika-Kaliningrad/357/",
-    "collectedAtUtc": "2026-08-08T18:28:20.724Z"
+    "collectedAtUtc": "2026-08-09T16:25:42.051Z"
   },
   "availability": {
     "status": "available",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 8,
-    "europe": 296
+    "europe": 295
   },
   "form": {
     "last3": [
@@ -415,8 +415,8 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Västeras SK FK",
-      "rating": 1972.95
+      "name": "Stade Reims",
+      "rating": 1972.86
     },
     {
       "name": "FK Slovan Liberec",

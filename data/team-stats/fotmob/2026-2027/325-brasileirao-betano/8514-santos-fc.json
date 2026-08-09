@@ -18,47 +18,47 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/8514/stats/santos-fc/teams",
-    "collectedAtUtc": "2026-08-08T18:23:13.089Z"
+    "collectedAtUtc": "2026-08-09T16:21:47.125Z"
   },
   "availability": {
     "status": "archived",
-    "coverage": "low",
+    "coverage": "high",
     "notes": "Epoca anterior capturada para referencia estrutural."
   },
   "overview": {
-    "teamRating": 6.9,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 6.79,
+    "goalsPerMatch": 1.5,
+    "goalsConcededPerMatch": 1.7,
+    "averagePossessionPct": 49.3,
+    "cleanSheets": 4,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": 31.592900000000004,
-    "xgDiff": 5.407099999999996,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 26.2,
+    "xgDiff": -1.7,
+    "shotsOnTargetPerMatch": 3.7,
+    "bigChances": 39,
+    "bigChancesMissed": 21,
+    "accuratePassesPerMatch": 331.3,
+    "accurateLongBallsPerMatch": 19,
+    "accurateCrossesPerMatch": 3.7,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 429,
+    "cornersPerMatch": 108,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": 20.174400000000002,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
+    "xgConceded": 27.9,
+    "interceptionsPerMatch": 9.2,
+    "tacklesPerMatch": 18.3,
+    "clearancesPerMatch": 26.5,
     "finalThirdRecoveriesPerMatch": null,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 2.9
   },
   "discipline": {
-    "foulsPerMatch": null,
+    "foulsPerMatch": 12.8,
     "yellowCardsPerMatch": null,
     "redCardsPerMatch": null
   }

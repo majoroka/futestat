@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/969268/stats/fc-kosice/teams",
-    "collectedAtUtc": "2026-08-08T18:25:59.037Z"
+    "collectedAtUtc": "2026-08-09T16:23:57.646Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 7.2,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
+    "teamRating": 7.02,
+    "goalsPerMatch": 3.5,
+    "goalsConcededPerMatch": 3.5,
+    "averagePossessionPct": 48.5,
     "cleanSheets": null,
     "attendanceAverage": null
   },
   "attack": {
     "xg": null,
     "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "shotsOnTargetPerMatch": 7.5,
+    "bigChances": 7,
+    "bigChancesMissed": 2,
+    "accuratePassesPerMatch": 296.5,
+    "accurateLongBallsPerMatch": 19.5,
+    "accurateCrossesPerMatch": 5,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 68,
+    "cornersPerMatch": 15,
     "setPieceGoals": null
   },
   "defense": {
     "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "interceptionsPerMatch": 11.5,
+    "tacklesPerMatch": 19.5,
+    "clearancesPerMatch": 25,
+    "finalThirdRecoveriesPerMatch": 8.5,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 3
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 13.5,
+    "yellowCardsPerMatch": 4,
     "redCardsPerMatch": null
   }
 }

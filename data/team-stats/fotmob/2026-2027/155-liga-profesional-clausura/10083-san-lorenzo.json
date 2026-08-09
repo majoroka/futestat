@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/10083/stats/san-lorenzo/teams",
-    "collectedAtUtc": "2026-08-08T18:22:34.490Z"
+    "collectedAtUtc": "2026-08-09T16:21:06.957Z"
   },
   "availability": {
     "status": "archived",
-    "coverage": "low",
+    "coverage": "high",
     "notes": "Epoca anterior capturada para referencia estrutural."
   },
   "overview": {
-    "teamRating": 6.6,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 6.83,
+    "goalsPerMatch": 0.9,
+    "goalsConcededPerMatch": 0.9,
+    "averagePossessionPct": 49.5,
+    "cleanSheets": 10,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": null,
-    "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 18.5,
+    "xgDiff": -6.5,
+    "shotsOnTargetPerMatch": 3.7,
+    "bigChances": 29,
+    "bigChancesMissed": 18,
+    "accuratePassesPerMatch": 273.1,
+    "accurateLongBallsPerMatch": 21.2,
+    "accurateCrossesPerMatch": 3.9,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 337,
+    "cornersPerMatch": 77,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "xgConceded": 25,
+    "interceptionsPerMatch": 10.9,
+    "tacklesPerMatch": 18.8,
+    "clearancesPerMatch": 27.3,
+    "finalThirdRecoveriesPerMatch": 3,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 4.1
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 12.8,
+    "yellowCardsPerMatch": 50,
     "redCardsPerMatch": null
   }
 }

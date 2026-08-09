@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Lokomotiv-Sofia/1457/",
-    "collectedAtUtc": "2026-08-08T18:26:52.283Z"
+    "collectedAtUtc": "2026-08-09T16:24:37.495Z"
   },
   "availability": {
     "status": "available",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 10,
-    "europe": 884
+    "europe": 849
   },
   "form": {
     "last3": [
@@ -62,7 +62,7 @@
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": null,
+    "averageRating": 4.1,
     "players": [
       {
         "name": "Martin Velichkov",
@@ -228,6 +228,14 @@
       "rating": 1.8
     },
     {
+      "name": "Nikola Neychev",
+      "position": null,
+      "age": 21,
+      "apps": 0,
+      "goals": 0,
+      "rating": 1.7
+    },
+    {
       "name": "Angel Lyaskov",
       "position": "DF",
       "age": 28,
@@ -356,6 +364,14 @@
       "rating": 3.5
     },
     {
+      "name": "Mitko Mitkov",
+      "position": null,
+      "age": 25,
+      "apps": 0,
+      "goals": 0,
+      "rating": 3.1
+    },
+    {
       "name": "Georgi Minchev",
       "position": "ST",
       "age": 31,
@@ -367,12 +383,12 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "FC Augsburg II",
-      "rating": 1754.58
+      "name": "Ethnikos Achnas",
+      "rating": 1764.91
     },
     {
-      "name": "KFC Komarno",
-      "rating": 1749.81
+      "name": "Akropolis IF",
+      "rating": 1764.6
     }
   ]
 }

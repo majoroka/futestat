@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Cf-Internacional-De-Madrid/13490/",
-    "collectedAtUtc": "2026-08-08T18:26:40.400Z"
+    "collectedAtUtc": "2026-08-09T16:24:30.053Z"
   },
   "availability": {
     "status": "partial",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 82,
-    "europe": 1219
+    "europe": 1221
   },
   "form": {
     "last3": []
@@ -58,7 +58,7 @@
   "similarTeams": [
     {
       "name": "Strommen IF",
-      "rating": 1682.24
+      "rating": 1690.41
     },
     {
       "name": "FK Volgograd",

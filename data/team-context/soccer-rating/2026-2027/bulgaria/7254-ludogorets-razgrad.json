@@ -59,22 +59,7 @@
   "squadHealth": {
     "injuries": [
       {
-        "player": "Ventsislav Kerchev",
-        "status": "injury_or_suspension",
-        "description": null
-      },
-      {
-        "player": "Zhivko Atanasov",
-        "status": "injury_or_suspension",
-        "description": null
-      },
-      {
-        "player": "Celso Sidney",
-        "status": "injury_or_suspension",
-        "description": null
-      },
-      {
-        "player": "Mohamed Achi",
+        "player": "Deroy Duarte",
         "status": "injury_or_suspension",
         "description": null
       }
@@ -83,298 +68,314 @@
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": 3.7,
+    "averageRating": 5.9,
     "players": [
       {
-        "name": "Kristian Tomov",
+        "name": "Hendrik Bonmann",
         "position": "GK",
         "age": null,
         "apps": 3,
         "goals": 0,
-        "rating": 3.3
+        "rating": 5
       },
       {
-        "name": "Luciano Squadrone",
-        "position": "DF",
-        "age": null,
-        "apps": 3,
-        "goals": 0,
-        "rating": 3.8
-      },
-      {
-        "name": "Ertan Tombak",
+        "name": "Edvin Kurtulus",
         "position": "DF",
         "age": null,
         "apps": 2,
         "goals": 0,
-        "rating": 3.5
+        "rating": 5.5
       },
       {
-        "name": "Bandaro Joao",
+        "name": "Son",
         "position": "DF",
-        "age": null,
-        "apps": 1,
-        "goals": 0,
-        "rating": 1.5
-      },
-      {
-        "name": "Vasil Panayotov",
-        "position": "MF",
-        "age": null,
-        "apps": 3,
-        "goals": 1,
-        "rating": 3
-      },
-      {
-        "name": "Berk Beyhan",
-        "position": "MF",
         "age": null,
         "apps": 2,
         "goals": 0,
-        "rating": 3.6
+        "rating": 5.9
       },
       {
-        "name": "Aleksandar Todorov",
-        "position": "MF",
+        "name": "Olivier Verdon",
+        "position": "DF",
         "age": null,
-        "apps": 1,
+        "apps": 2,
         "goals": 0,
-        "rating": 3.7
+        "rating": 5.6
       },
       {
-        "name": "David Teles",
-        "position": "MF",
-        "age": null,
-        "apps": 3,
-        "goals": 0,
-        "rating": 3.7
-      },
-      {
-        "name": "Aleksandar Kolev",
-        "position": "ST",
+        "name": "Joel Andersson",
+        "position": "DF",
         "age": null,
         "apps": 3,
         "goals": 0,
         "rating": 5.3
       },
       {
-        "name": "Georgi Lazarov",
+        "name": "Filip Kaloc",
+        "position": "MF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5.8
+      },
+      {
+        "name": "Ivaylo Chochev",
+        "position": "MF",
+        "age": null,
+        "apps": 3,
+        "goals": 1,
+        "rating": 7
+      },
+      {
+        "name": "Petar Stanic",
+        "position": "MF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 6.5
+      },
+      {
+        "name": "Bernard Tekpetey",
         "position": "ST",
         "age": null,
         "apps": 3,
+        "goals": 2,
+        "rating": 6.2
+      },
+      {
+        "name": "Rwan Cruz",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 2,
+        "rating": 5.7
+      },
+      {
+        "name": "Kwadwo Duah",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 5.9
+      },
+      {
+        "name": "Vinicius Nogueira",
+        "position": "DF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Aguibou Camara",
+        "position": "MF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Stanislav Ivanov",
+        "position": "ST",
+        "age": null,
+        "apps": 1,
         "goals": 0,
         "rating": 4.8
       },
       {
-        "name": "Asen Donchev",
-        "position": "ST",
-        "age": null,
-        "apps": 1,
-        "goals": 0,
-        "rating": 4.1
-      },
-      {
-        "name": "Emmanuel Nyagolov",
+        "name": "Idan Nachmias",
         "position": "DF",
         "age": null,
         "apps": 3,
         "goals": 0,
-        "rating": 1.5
+        "rating": 4.9
       },
       {
-        "name": "Nikolaj Zlatev",
-        "position": "MF",
-        "age": null,
-        "apps": 2,
-        "goals": 0,
-        "rating": 2.4
-      },
-      {
-        "name": "Petar Andreev",
+        "name": "A. Salido Tajero",
         "position": "ST",
         "age": null,
         "apps": 3,
         "goals": 0,
-        "rating": 2.3
+        "rating": 4.6
       },
       {
-        "name": "Idris Bounaas",
-        "position": "MF",
+        "name": "Anton Nedyalkov",
+        "position": "DF",
         "age": null,
         "apps": 1,
         "goals": 0,
-        "rating": 2.4
-      },
-      {
-        "name": "Miguel Barandas",
-        "position": "ST",
-        "age": null,
-        "apps": 3,
-        "goals": 0,
-        "rating": 1.4
+        "rating": 5.3
       }
     ]
   },
   "squad": [
     {
-      "name": "Kristian Tomov",
+      "name": "Hendrik Bonmann",
       "position": "GK",
-      "age": 23,
+      "age": 32,
       "apps": 3,
       "goals": 0,
-      "rating": 3.3
+      "rating": 5
     },
     {
-      "name": "Luciano Squadrone",
-      "position": "DF",
-      "age": 26,
-      "apps": 3,
-      "goals": 0,
-      "rating": 3.8
-    },
-    {
-      "name": "Ertan Tombak",
-      "position": "DF",
-      "age": 27,
-      "apps": 2,
-      "goals": 0,
-      "rating": 3.5
-    },
-    {
-      "name": "Bandaro Joao",
-      "position": "DF",
-      "age": 22,
-      "apps": 1,
-      "goals": 0,
-      "rating": 1.5
-    },
-    {
-      "name": "Emmanuel Nyagolov",
-      "position": "DF",
-      "age": 17,
-      "apps": 3,
-      "goals": 0,
-      "rating": 1.5
-    },
-    {
-      "name": "Ventsislav Kerchev",
+      "name": "Otavio Nathan",
       "position": null,
-      "age": 29,
-      "apps": 3,
-      "goals": 0,
-      "rating": 4.5
-    },
-    {
-      "name": "Zhivko Atanasov",
-      "position": null,
-      "age": 35,
-      "apps": 3,
-      "goals": 0,
-      "rating": 2.9
-    },
-    {
-      "name": "Idris Bounaas",
-      "position": "MF",
-      "age": 23,
-      "apps": 1,
-      "goals": 0,
-      "rating": 2.4
-    },
-    {
-      "name": "Vasil Panayotov",
-      "position": "MF",
       "age": 36,
+      "apps": 1,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Simeon Shishkov",
+      "position": null,
+      "age": 20,
       "apps": 3,
-      "goals": 1,
+      "goals": 0,
       "rating": 3
     },
     {
-      "name": "Berk Beyhan",
-      "position": "MF",
-      "age": 21,
-      "apps": 2,
-      "goals": 0,
-      "rating": 3.6
-    },
-    {
-      "name": "Aleksandar Todorov",
-      "position": "MF",
-      "age": 25,
-      "apps": 1,
-      "goals": 0,
-      "rating": 3.7
-    },
-    {
-      "name": "David Teles",
-      "position": "MF",
-      "age": 28,
-      "apps": 3,
-      "goals": 0,
-      "rating": 3.7
-    },
-    {
-      "name": "Nikolaj Zlatev",
-      "position": "MF",
-      "age": 21,
-      "apps": 2,
-      "goals": 0,
-      "rating": 2.4
-    },
-    {
-      "name": "Mohamed Achi",
-      "position": null,
-      "age": 24,
-      "apps": 2,
-      "goals": 0,
-      "rating": 1.9
-    },
-    {
-      "name": "Georgi Lazarov",
-      "position": "ST",
-      "age": 21,
-      "apps": 3,
-      "goals": 0,
-      "rating": 4.8
-    },
-    {
-      "name": "Asen Donchev",
-      "position": "ST",
-      "age": 24,
-      "apps": 1,
-      "goals": 0,
-      "rating": 4.1
-    },
-    {
-      "name": "Miguel Barandas",
-      "position": "ST",
+      "name": "Edvin Kurtulus",
+      "position": "DF",
       "age": 26,
-      "apps": 3,
+      "apps": 2,
       "goals": 0,
-      "rating": 1.4
+      "rating": 5.5
     },
     {
-      "name": "Aleksandar Kolev",
-      "position": "ST",
-      "age": 33,
+      "name": "Son",
+      "position": "DF",
+      "age": 32,
+      "apps": 2,
+      "goals": 0,
+      "rating": 5.9
+    },
+    {
+      "name": "Olivier Verdon",
+      "position": "DF",
+      "age": 30,
+      "apps": 2,
+      "goals": 0,
+      "rating": 5.6
+    },
+    {
+      "name": "Joel Andersson",
+      "position": "DF",
+      "age": 29,
       "apps": 3,
       "goals": 0,
       "rating": 5.3
     },
     {
-      "name": "Petar Andreev",
-      "position": "ST",
-      "age": 22,
-      "apps": 3,
+      "name": "Vinicius Nogueira",
+      "position": "DF",
+      "age": 24,
+      "apps": 1,
       "goals": 0,
-      "rating": 2.3
+      "rating": 5.2
     },
     {
-      "name": "Celso Sidney",
+      "name": "Idan Nachmias",
+      "position": "DF",
+      "age": 29,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "Anton Nedyalkov",
+      "position": "DF",
+      "age": 33,
+      "apps": 1,
+      "goals": 0,
+      "rating": 5.3
+    },
+    {
+      "name": "Filip Kaloc",
+      "position": "MF",
+      "age": 26,
+      "apps": 3,
+      "goals": 0,
+      "rating": 5.8
+    },
+    {
+      "name": "Ivaylo Chochev",
+      "position": "MF",
+      "age": 33,
+      "apps": 3,
+      "goals": 1,
+      "rating": 7
+    },
+    {
+      "name": "Aguibou Camara",
+      "position": "MF",
+      "age": 25,
+      "apps": 3,
+      "goals": 0,
+      "rating": 5.2
+    },
+    {
+      "name": "Petar Stanic",
+      "position": "MF",
+      "age": 24,
+      "apps": 3,
+      "goals": 0,
+      "rating": 6.5
+    },
+    {
+      "name": "Deroy Duarte",
+      "position": null,
+      "age": 27,
+      "apps": 1,
+      "goals": 0,
+      "rating": 5.8
+    },
+    {
+      "name": "Stanislav Ivanov",
+      "position": "ST",
+      "age": 27,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4.8
+    },
+    {
+      "name": "Emerson Rodriguez",
       "position": null,
       "age": 25,
       "apps": 2,
       "goals": 0,
-      "rating": 3.7
+      "rating": 4.7
+    },
+    {
+      "name": "Bernard Tekpetey",
+      "position": "ST",
+      "age": 28,
+      "apps": 3,
+      "goals": 2,
+      "rating": 6.2
+    },
+    {
+      "name": "Kwadwo Duah",
+      "position": "ST",
+      "age": 29,
+      "apps": 2,
+      "goals": 0,
+      "rating": 5.9
+    },
+    {
+      "name": "A. Salido Tajero",
+      "position": "ST",
+      "age": 26,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.6
+    },
+    {
+      "name": "Rwan Cruz",
+      "position": "ST",
+      "age": 25,
+      "apps": 3,
+      "goals": 2,
+      "rating": 5.7
     }
   ],
   "recentMatches": [],

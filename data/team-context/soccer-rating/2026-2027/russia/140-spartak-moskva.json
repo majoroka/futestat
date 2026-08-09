@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Spartak-Moskva/140/",
-    "collectedAtUtc": "2026-08-08T18:28:34.176Z"
+    "collectedAtUtc": "2026-08-09T16:25:55.498Z"
   },
   "availability": {
     "status": "available",
@@ -375,12 +375,12 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "FK Viktoria Plzen",
-      "rating": 2087.45
+      "name": "Dynamo Dresden",
+      "rating": 2067.27
     },
     {
-      "name": "Birmingham City",
-      "rating": 2087.62
+      "name": "Viborg FF",
+      "rating": 2087.64
     }
   ]
 }

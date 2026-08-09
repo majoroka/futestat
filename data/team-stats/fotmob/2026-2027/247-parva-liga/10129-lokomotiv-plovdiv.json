@@ -21,14 +21,14 @@
     "collectedAtUtc": "2026-08-08T18:23:23.212Z"
   },
   "availability": {
-    "status": "not_started",
+    "status": "partial",
     "coverage": "low",
-    "notes": "Epoca atual ainda sem estatisticas agregadas disponiveis no HTML capturado."
+    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
   },
   "overview": {
     "teamRating": null,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
+    "goalsPerMatch": 0.5,
+    "goalsConcededPerMatch": 1.3,
     "averagePossessionPct": null,
     "cleanSheets": null,
     "attendanceAverage": null
@@ -59,7 +59,7 @@
   },
   "discipline": {
     "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "yellowCardsPerMatch": 12,
     "redCardsPerMatch": null
   }
 }

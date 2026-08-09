@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Viking-Stavanger/72/",
-    "collectedAtUtc": "2026-08-08T18:27:21.668Z"
+    "collectedAtUtc": "2026-08-09T16:25:01.203Z"
   },
   "availability": {
     "status": "available",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 2,
-    "europe": 102
+    "europe": 103
   },
   "form": {
     "last3": [
@@ -68,7 +68,7 @@
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": null,
+    "averageRating": 5.9,
     "players": [
       {
         "name": "Arild Ostbo",
@@ -397,12 +397,12 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "SV Elversberg 07",
-      "rating": 2150.24
+      "name": "Real Sociedad",
+      "rating": 2146.66
     },
     {
-      "name": "Real Sociedad",
-      "rating": 2148.51
+      "name": "Sporting Braga",
+      "rating": 2165.57
     }
   ]
 }

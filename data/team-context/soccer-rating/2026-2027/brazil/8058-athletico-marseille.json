@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Athletico-Marseille/8058/",
-    "collectedAtUtc": "2026-08-08T18:26:37.477Z"
+    "collectedAtUtc": "2026-08-09T16:24:27.103Z"
   },
   "availability": {
     "status": "partial",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 101,
-    "europe": 1996
+    "europe": 1998
   },
   "form": {
     "last3": []

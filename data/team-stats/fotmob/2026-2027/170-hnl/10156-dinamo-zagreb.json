@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/10156/stats/dinamo-zagreb/teams",
-    "collectedAtUtc": "2026-08-08T18:23:28.827Z"
+    "collectedAtUtc": "2026-08-09T16:21:56.914Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 7.4,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 7.47,
+    "goalsPerMatch": 2,
+    "goalsConcededPerMatch": 0,
+    "averagePossessionPct": 65.6,
+    "cleanSheets": 1,
     "attendanceAverage": null
   },
   "attack": {
     "xg": null,
     "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "shotsOnTargetPerMatch": 7,
+    "bigChances": 6,
+    "bigChancesMissed": 5,
+    "accuratePassesPerMatch": 477,
+    "accurateLongBallsPerMatch": 27,
+    "accurateCrossesPerMatch": 10,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 43,
+    "cornersPerMatch": 10,
     "setPieceGoals": null
   },
   "defense": {
     "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "interceptionsPerMatch": 8,
+    "tacklesPerMatch": 11,
+    "clearancesPerMatch": 8,
+    "finalThirdRecoveriesPerMatch": 4,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 2
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 11,
+    "yellowCardsPerMatch": 1,
     "redCardsPerMatch": null
   }
 }

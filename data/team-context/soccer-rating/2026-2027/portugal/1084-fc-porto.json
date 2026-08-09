@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Fc-Porto/1084/",
-    "collectedAtUtc": "2026-08-08T18:28:10.563Z"
+    "collectedAtUtc": "2026-08-09T16:25:34.605Z"
   },
   "availability": {
     "status": "available",
@@ -22,8 +22,8 @@
     "notes": null
   },
   "ratings": {
-    "overall": 2257.55,
-    "home": 2308.18,
+    "overall": 2258.82,
+    "home": 2310.74,
     "away": 2206.91
   },
   "rankings": {
@@ -39,8 +39,8 @@
   },
   "prediction": {
     "tip": "home_win",
-    "tipLabel": "Bet on (1) FC Porto (Stake 6/10)",
-    "confidencePct": 60,
+    "tipLabel": "Bet on (1) FC Porto (Stake 5/10)",
+    "confidencePct": 50,
     "strengthComparison": "favorite"
   },
   "oddsMarket": {
@@ -50,25 +50,19 @@
       "away": 12
     },
     "fair1X2": {
-      "home": 1.26,
-      "draw": 7.26,
-      "away": 14.21
+      "home": 1.27,
+      "draw": 6.96,
+      "away": 14.31
     },
-    "movementSummary": "home_odds_down_away_odds_up"
+    "movementSummary": "home_odds_flat_away_odds_up"
   },
   "squadHealth": {
-    "injuries": [
-      {
-        "player": "Alan Varela",
-        "status": "injury_or_suspension",
-        "description": null
-      }
-    ],
+    "injuries": [],
     "suspensions": []
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": 8,
+    "averageRating": 7.8,
     "players": [
       {
         "name": "Diogo Costa",
@@ -95,12 +89,20 @@
         "rating": 8
       },
       {
-        "name": "Alberto Costa",
+        "name": "Martim Fernandes",
         "position": "DF",
         "age": null,
-        "apps": 29,
+        "apps": 20,
         "goals": 1,
-        "rating": 7.8
+        "rating": 7.2
+      },
+      {
+        "name": "Zaidu Sanusi",
+        "position": "DF",
+        "age": null,
+        "apps": 17,
+        "goals": 1,
+        "rating": 6.2
       },
       {
         "name": "Gabri Veiga",
@@ -111,12 +113,12 @@
         "rating": 8.1
       },
       {
-        "name": "Rodrigo Mora",
+        "name": "Alan Varela",
         "position": "MF",
         "age": null,
-        "apps": 28,
-        "goals": 1,
-        "rating": 7.8
+        "apps": 30,
+        "goals": 2,
+        "rating": 8
       },
       {
         "name": "Victor Froholdt",
@@ -125,22 +127,6 @@
         "apps": 34,
         "goals": 6,
         "rating": 8.5
-      },
-      {
-        "name": "Samu Aghehowa",
-        "position": "ST",
-        "age": null,
-        "apps": 20,
-        "goals": 13,
-        "rating": 8.2
-      },
-      {
-        "name": "Borja Sainz",
-        "position": "ST",
-        "age": null,
-        "apps": 30,
-        "goals": 5,
-        "rating": 8.1
       },
       {
         "name": "William Gomes",
@@ -159,6 +145,14 @@
         "rating": 7.5
       },
       {
+        "name": "Samu Aghehowa",
+        "position": "ST",
+        "age": null,
+        "apps": 20,
+        "goals": 13,
+        "rating": 8.2
+      },
+      {
         "name": "Ramos Claudio",
         "position": "GK",
         "age": null,
@@ -167,20 +161,28 @@
         "rating": 5.2
       },
       {
-        "name": "Francisco Moura",
+        "name": "Alberto Costa",
         "position": "DF",
         "age": null,
-        "apps": 21,
-        "goals": 2,
-        "rating": 7.3
+        "apps": 29,
+        "goals": 1,
+        "rating": 7.8
       },
       {
-        "name": "Pablo Rosario",
+        "name": "Rodrigo Mora",
         "position": "MF",
         "age": null,
-        "apps": 22,
-        "goals": 2,
-        "rating": 7.2
+        "apps": 28,
+        "goals": 1,
+        "rating": 7.8
+      },
+      {
+        "name": "Borja Sainz",
+        "position": "ST",
+        "age": null,
+        "apps": 30,
+        "goals": 5,
+        "rating": 8.1
       },
       {
         "name": "Deniz Gül",
@@ -196,14 +198,6 @@
         "age": null,
         "apps": 16,
         "goals": 3,
-        "rating": 7.2
-      },
-      {
-        "name": "Martim Fernandes",
-        "position": "DF",
-        "age": null,
-        "apps": 20,
-        "goals": 1,
         "rating": 7.2
       }
     ]
@@ -234,12 +228,12 @@
       "rating": 6.8
     },
     {
-      "name": "Zaidu Sanusi",
+      "name": "Francisco Moura",
       "position": null,
-      "age": 28,
-      "apps": 17,
-      "goals": 1,
-      "rating": 6.2
+      "age": 26,
+      "apps": 21,
+      "goals": 2,
+      "rating": 7.3
     },
     {
       "name": "Dominik Prpic",
@@ -266,6 +260,22 @@
       "rating": 8
     },
     {
+      "name": "Martim Fernandes",
+      "position": "DF",
+      "age": 20,
+      "apps": 20,
+      "goals": 1,
+      "rating": 7.2
+    },
+    {
+      "name": "Zaidu Sanusi",
+      "position": "DF",
+      "age": 28,
+      "apps": 17,
+      "goals": 1,
+      "rating": 6.2
+    },
+    {
       "name": "Alberto Costa",
       "position": "DF",
       "age": 22,
@@ -274,19 +284,11 @@
       "rating": 7.8
     },
     {
-      "name": "Francisco Moura",
-      "position": "DF",
-      "age": 26,
-      "apps": 21,
+      "name": "Pablo Rosario",
+      "position": null,
+      "age": 29,
+      "apps": 22,
       "goals": 2,
-      "rating": 7.3
-    },
-    {
-      "name": "Martim Fernandes",
-      "position": "DF",
-      "age": 20,
-      "apps": 20,
-      "goals": 1,
       "rating": 7.2
     },
     {
@@ -298,28 +300,12 @@
       "rating": 6.8
     },
     {
-      "name": "Gabri Veiga",
+      "name": "Alan Varela",
       "position": "MF",
-      "age": 23,
-      "apps": 31,
-      "goals": 3,
-      "rating": 8.1
-    },
-    {
-      "name": "Rodrigo Mora",
-      "position": "MF",
-      "age": 19,
-      "apps": 28,
-      "goals": 1,
-      "rating": 7.8
-    },
-    {
-      "name": "Pablo Rosario",
-      "position": "MF",
-      "age": 29,
-      "apps": 22,
+      "age": 24,
+      "apps": 30,
       "goals": 2,
-      "rating": 7.2
+      "rating": 8
     },
     {
       "name": "Victor Froholdt",
@@ -330,12 +316,20 @@
       "rating": 8.5
     },
     {
-      "name": "Alan Varela",
-      "position": null,
-      "age": 24,
-      "apps": 30,
-      "goals": 2,
-      "rating": 8
+      "name": "Rodrigo Mora",
+      "position": "MF",
+      "age": 19,
+      "apps": 28,
+      "goals": 1,
+      "rating": 7.8
+    },
+    {
+      "name": "Gabri Veiga",
+      "position": "MF",
+      "age": 23,
+      "apps": 31,
+      "goals": 3,
+      "rating": 8.1
     },
     {
       "name": "Luuk de Jong",
@@ -344,14 +338,6 @@
       "apps": 5,
       "goals": 1,
       "rating": 6.5
-    },
-    {
-      "name": "Borja Sainz",
-      "position": "ST",
-      "age": 25,
-      "apps": 30,
-      "goals": 5,
-      "rating": 8.1
     },
     {
       "name": "William Gomes",
@@ -368,6 +354,14 @@
       "apps": 30,
       "goals": 3,
       "rating": 7.5
+    },
+    {
+      "name": "Borja Sainz",
+      "position": "ST",
+      "age": 25,
+      "apps": 30,
+      "goals": 5,
+      "rating": 8.1
     },
     {
       "name": "Oskar Pietuszewski",

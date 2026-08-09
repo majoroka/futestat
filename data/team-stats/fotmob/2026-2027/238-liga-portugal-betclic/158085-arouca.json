@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/158085/stats/arouca/teams",
-    "collectedAtUtc": "2026-08-08T18:24:59.970Z"
+    "collectedAtUtc": "2026-08-09T16:23:08.416Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 7.2,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 6.76,
+    "goalsPerMatch": 1,
+    "goalsConcededPerMatch": 0,
+    "averagePossessionPct": 42,
+    "cleanSheets": 1,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": 1.6548000574111938,
-    "xgDiff": -1.6548000574111938,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
+    "xg": 0.5,
+    "xgDiff": -1.7,
+    "shotsOnTargetPerMatch": 2,
+    "bigChances": 1,
     "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "accuratePassesPerMatch": 298,
+    "accurateLongBallsPerMatch": 28,
+    "accurateCrossesPerMatch": 2,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 6,
+    "cornersPerMatch": 2,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": 0.44589999318122864,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "xgConceded": 2.2,
+    "interceptionsPerMatch": 9,
+    "tacklesPerMatch": 18,
+    "clearancesPerMatch": 39,
+    "finalThirdRecoveriesPerMatch": 3,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 3
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 7,
+    "yellowCardsPerMatch": 3,
     "redCardsPerMatch": null
   }
 }

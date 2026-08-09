@@ -18,19 +18,19 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/1439771/stats/ik-start-w/teams",
-    "collectedAtUtc": "2026-08-08T18:23:53.283Z"
+    "collectedAtUtc": "2026-08-09T16:22:17.662Z"
   },
   "availability": {
-    "status": "unavailable",
+    "status": "archived",
     "coverage": "low",
-    "notes": "HTML capturado sem blocos estatisticos agregados extraiveis."
+    "notes": "Epoca anterior capturada para referencia estrutural."
   },
   "overview": {
     "teamRating": null,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
+    "goalsPerMatch": 2.5,
+    "goalsConcededPerMatch": 0.9,
     "averagePossessionPct": null,
-    "cleanSheets": null,
+    "cleanSheets": 5,
     "attendanceAverage": null
   },
   "attack": {

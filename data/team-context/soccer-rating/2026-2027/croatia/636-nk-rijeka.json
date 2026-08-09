@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Nk-Rijeka/636/",
-    "collectedAtUtc": "2026-08-08T18:27:05.503Z"
+    "collectedAtUtc": "2026-08-09T16:24:49.205Z"
   },
   "availability": {
     "status": "available",
@@ -22,18 +22,18 @@
     "notes": null
   },
   "ratings": {
-    "overall": 2098.56,
+    "overall": 2122.96,
     "home": 2157.19,
-    "away": 2039.93
+    "away": 2088.73
   },
   "rankings": {
     "national": 2,
-    "europe": 133
+    "europe": 135
   },
   "form": {
     "last3": [
-      "W",
-      "W",
+      "L",
+      "L",
       "W"
     ]
   },
@@ -45,16 +45,16 @@
   },
   "oddsMarket": {
     "opening1X2": {
-      "home": 1.18,
-      "draw": 6.5,
-      "away": 13
+      "home": 5,
+      "draw": 3.7,
+      "away": 1.61
     },
     "fair1X2": {
-      "home": 1.54,
-      "draw": 6.22,
-      "away": 5.26
+      "home": 3.63,
+      "draw": 4.24,
+      "away": 2.05
     },
-    "movementSummary": "home_odds_up_away_odds_down"
+    "movementSummary": "home_odds_flat_away_odds_flat"
   },
   "squadHealth": {
     "injuries": [],

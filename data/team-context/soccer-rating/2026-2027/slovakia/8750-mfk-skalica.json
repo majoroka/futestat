@@ -57,298 +57,295 @@
     "movementSummary": "home_odds_down_away_odds_up"
   },
   "squadHealth": {
-    "injuries": [
-      {
-        "player": "Filip Kasa",
-        "status": "injury_or_suspension",
-        "description": null
-      },
-      {
-        "player": "Daniel Homet Ruiz",
-        "status": "injury_or_suspension",
-        "description": null
-      }
-    ],
+    "injuries": [],
     "suspensions": []
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": 3.2,
+    "averageRating": 2.7,
     "players": [
       {
-        "name": "David Sipos",
+        "name": "Martin Junas",
         "position": "GK",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Samuel Sula",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Lukas Simko",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.4
+      },
+      {
+        "name": "Martin Cernek",
+        "position": "DF",
         "age": null,
         "apps": 2,
         "goals": 0,
         "rating": 2.3
       },
       {
-        "name": "Tobias Paliscak",
+        "name": "Patrick Karhan",
         "position": "DF",
         "age": null,
         "apps": 2,
         "goals": 0,
-        "rating": 4.7
+        "rating": 2.3
       },
       {
-        "name": "Timotej Hranica",
-        "position": "DF",
-        "age": null,
-        "apps": 2,
-        "goals": 1,
-        "rating": 3.1
-      },
-      {
-        "name": "Kristian Bari",
-        "position": "DF",
-        "age": null,
-        "apps": 2,
-        "goals": 0,
-        "rating": 3.2
-      },
-      {
-        "name": "A. Narimanidze",
-        "position": "DF",
-        "age": null,
-        "apps": 1,
-        "goals": 0,
-        "rating": 3.9
-      },
-      {
-        "name": "Samuel Datko",
+        "name": "Martin Masik",
         "position": "MF",
-        "age": null,
-        "apps": 2,
-        "goals": 0,
-        "rating": 2.9
-      },
-      {
-        "name": "Michal Fasko",
-        "position": "MF",
-        "age": null,
-        "apps": 2,
-        "goals": 0,
-        "rating": 3.1
-      },
-      {
-        "name": "Andrei Florea",
-        "position": "MF",
-        "age": null,
-        "apps": 2,
-        "goals": 1,
-        "rating": 1.8
-      },
-      {
-        "name": "Xavier Adang",
-        "position": "MF",
-        "age": null,
-        "apps": 2,
-        "goals": 0,
-        "rating": 3.4
-      },
-      {
-        "name": "Fabian Bzdyl",
-        "position": "MF",
-        "age": null,
-        "apps": 2,
-        "goals": 1,
-        "rating": 3.6
-      },
-      {
-        "name": "Marko Roginic",
-        "position": "ST",
-        "age": null,
-        "apps": 2,
-        "goals": 0,
-        "rating": 2.8
-      },
-      {
-        "name": "Marek Okal",
-        "position": "DF",
-        "age": null,
-        "apps": 2,
-        "goals": 0,
-        "rating": 3.1
-      },
-      {
-        "name": "Frantisek Kosa",
-        "position": "ST",
-        "age": null,
-        "apps": 2,
-        "goals": 0,
-        "rating": 2.2
-      },
-      {
-        "name": "Ján Minarik",
-        "position": "DF",
         "age": null,
         "apps": 2,
         "goals": 0,
         "rating": 2.7
       },
       {
-        "name": "Patrik Baleja",
+        "name": "Damian Baris",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "Petr Pudhorocky",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Erik Daniel",
         "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Adam Morong",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.5
+      },
+      {
+        "name": "Roman Potocny",
+        "position": "ST",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Erik Riska",
+        "position": "GK",
         "age": null,
         "apps": 2,
         "goals": 0,
         "rating": 1.3
       },
       {
-        "name": "Patrik Ilko",
-        "position": "ST",
+        "name": "Peter Guinari",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 1,
+        "rating": 1.5
+      },
+      {
+        "name": "Martin Nagy",
+        "position": "MF",
         "age": null,
         "apps": 1,
         "goals": 0,
-        "rating": 2.7
+        "rating": 2.8
+      },
+      {
+        "name": "Philip Onyedika",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 2,
+        "rating": 1.8
+      },
+      {
+        "name": "Adam Ravas",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.2
+      },
+      {
+        "name": "Levan Nonikashvili",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.3
       }
     ]
   },
   "squad": [
     {
-      "name": "David Sipos",
+      "name": "Martin Junas",
       "position": "GK",
-      "age": 27,
-      "apps": 2,
-      "goals": 0,
-      "rating": 2.3
-    },
-    {
-      "name": "Tobias Paliscak",
-      "position": "DF",
-      "age": 18,
-      "apps": 2,
-      "goals": 0,
-      "rating": 4.7
-    },
-    {
-      "name": "Timotej Hranica",
-      "position": "DF",
-      "age": 21,
-      "apps": 2,
-      "goals": 1,
-      "rating": 3.1
-    },
-    {
-      "name": "Kristian Bari",
-      "position": "DF",
-      "age": 25,
-      "apps": 2,
-      "goals": 0,
-      "rating": 3.2
-    },
-    {
-      "name": "A. Narimanidze",
-      "position": "DF",
-      "age": 21,
-      "apps": 1,
-      "goals": 0,
-      "rating": 3.9
-    },
-    {
-      "name": "Marek Okal",
-      "position": "DF",
-      "age": 17,
-      "apps": 2,
-      "goals": 0,
-      "rating": 3.1
-    },
-    {
-      "name": "Ján Minarik",
-      "position": "DF",
-      "age": 29,
-      "apps": 2,
-      "goals": 0,
-      "rating": 2.7
-    },
-    {
-      "name": "Filip Kasa",
-      "position": null,
-      "age": 32,
-      "apps": 1,
-      "goals": 0,
-      "rating": 2.1
-    },
-    {
-      "name": "Samuel Datko",
-      "position": "MF",
-      "age": 25,
-      "apps": 2,
-      "goals": 0,
-      "rating": 2.9
-    },
-    {
-      "name": "Michal Fasko",
-      "position": "MF",
-      "age": 31,
-      "apps": 2,
-      "goals": 0,
-      "rating": 3.1
-    },
-    {
-      "name": "Fabian Bzdyl",
-      "position": "MF",
-      "age": 18,
-      "apps": 2,
-      "goals": 1,
-      "rating": 3.6
-    },
-    {
-      "name": "Andrei Florea",
-      "position": "MF",
-      "age": 21,
-      "apps": 2,
-      "goals": 1,
-      "rating": 1.8
-    },
-    {
-      "name": "Xavier Adang",
-      "position": "MF",
-      "age": 22,
-      "apps": 2,
-      "goals": 0,
-      "rating": 3.4
-    },
-    {
-      "name": "Frantisek Kosa",
-      "position": "ST",
-      "age": 20,
-      "apps": 2,
-      "goals": 0,
-      "rating": 2.2
-    },
-    {
-      "name": "Patrik Ilko",
-      "position": "ST",
-      "age": 25,
-      "apps": 1,
-      "goals": 0,
-      "rating": 2.7
-    },
-    {
-      "name": "Marko Roginic",
-      "position": "ST",
       "age": 30,
-      "apps": 2,
+      "apps": 1,
       "goals": 0,
-      "rating": 2.8
+      "rating": 3
     },
     {
-      "name": "Patrik Baleja",
-      "position": "ST",
-      "age": 19,
+      "name": "Erik Riska",
+      "position": "GK",
+      "age": 24,
       "apps": 2,
       "goals": 0,
       "rating": 1.3
     },
     {
-      "name": "Daniel Homet Ruiz",
-      "position": null,
+      "name": "Samuel Sula",
+      "position": "DF",
+      "age": 26,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.6
+    },
+    {
+      "name": "Lukas Simko",
+      "position": "DF",
       "age": 27,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.4
+    },
+    {
+      "name": "Martin Cernek",
+      "position": "DF",
+      "age": 31,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.3
+    },
+    {
+      "name": "Patrick Karhan",
+      "position": "DF",
+      "age": 23,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.3
+    },
+    {
+      "name": "Peter Guinari",
+      "position": "DF",
+      "age": 25,
+      "apps": 2,
+      "goals": 1,
+      "rating": 1.5
+    },
+    {
+      "name": "Adam Krizan",
+      "position": null,
+      "age": 0,
       "apps": 1,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Levan Nonikashvili",
+      "position": "MF",
+      "age": 31,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Damian Baris",
+      "position": "MF",
+      "age": 31,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.7
+    },
+    {
+      "name": "Martin Nagy",
+      "position": "MF",
+      "age": 35,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.8
+    },
+    {
+      "name": "Adam Ravas",
+      "position": "MF",
+      "age": 18,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.2
+    },
+    {
+      "name": "Martin Masik",
+      "position": "MF",
+      "age": 27,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.7
+    },
+    {
+      "name": "Petr Pudhorocky",
+      "position": "MF",
+      "age": 25,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.3
+    },
+    {
+      "name": "Erik Daniel",
+      "position": "ST",
+      "age": 34,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3
+    },
+    {
+      "name": "Adam Morong",
+      "position": "ST",
+      "age": 33,
+      "apps": 2,
+      "goals": 0,
+      "rating": 2.5
+    },
+    {
+      "name": "Roman Potocny",
+      "position": "ST",
+      "age": 35,
+      "apps": 1,
+      "goals": 0,
+      "rating": 2.6
+    },
+    {
+      "name": "Philip Onyedika",
+      "position": "ST",
+      "age": 20,
+      "apps": 2,
       "goals": 2,
-      "rating": 1.4
+      "rating": 1.8
     }
   ],
   "recentMatches": [],

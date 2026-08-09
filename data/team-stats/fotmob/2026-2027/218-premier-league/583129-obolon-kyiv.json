@@ -18,19 +18,19 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/583129/stats/obolon-kyiv/teams",
-    "collectedAtUtc": "2026-08-08T18:26:29.672Z"
+    "collectedAtUtc": "2026-08-09T16:24:21.489Z"
   },
   "availability": {
-    "status": "not_started",
+    "status": "partial",
     "coverage": "low",
-    "notes": "Epoca atual ainda sem estatisticas agregadas disponiveis no HTML capturado."
+    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
   },
   "overview": {
     "teamRating": null,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
+    "goalsPerMatch": 0,
+    "goalsConcededPerMatch": 1.5,
     "averagePossessionPct": null,
-    "cleanSheets": null,
+    "cleanSheets": 1,
     "attendanceAverage": null
   },
   "attack": {
@@ -59,7 +59,7 @@
   },
   "discipline": {
     "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "yellowCardsPerMatch": 3,
     "redCardsPerMatch": null
   }
 }

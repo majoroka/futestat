@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Nk-Maribor/25/",
-    "collectedAtUtc": "2026-08-08T18:28:52.955Z"
+    "collectedAtUtc": "2026-08-09T16:26:09.030Z"
   },
   "availability": {
     "status": "available",
@@ -22,13 +22,13 @@
     "notes": null
   },
   "ratings": {
-    "overall": 1937.22,
-    "home": 1947.76,
+    "overall": 1944.03,
+    "home": 1961.38,
     "away": 1926.68
   },
   "rankings": {
     "national": 2,
-    "europe": 362
+    "europe": 360
   },
   "form": {
     "last3": [
@@ -38,23 +38,23 @@
     ]
   },
   "prediction": {
-    "tip": "away_win",
-    "tipLabel": "Bet on (2) NK Koper (Stake 2/10)",
-    "confidencePct": 20,
+    "tip": null,
+    "tipLabel": null,
+    "confidencePct": null,
     "strengthComparison": "underdog"
   },
   "oddsMarket": {
     "opening1X2": {
-      "home": 1.93,
+      "home": 1.95,
       "draw": 3.5,
-      "away": 3.3
+      "away": 3.4
     },
     "fair1X2": {
       "home": 2.73,
-      "draw": 4.07,
-      "away": 2.58
+      "draw": 4.03,
+      "away": 2.59
     },
-    "movementSummary": "home_odds_flat_away_odds_flat"
+    "movementSummary": "home_odds_down_away_odds_up"
   },
   "squadHealth": {
     "injuries": [
@@ -212,12 +212,12 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Maccabi Haifa",
-      "rating": 1935.01
+      "name": "CD Tondela",
+      "rating": 1937.47
     },
     {
-      "name": "Antalyaspor",
-      "rating": 1936.34
+      "name": "Zira IK",
+      "rating": 1936.94
     }
   ]
 }

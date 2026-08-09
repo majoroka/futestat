@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/8705/stats/fc-rostov/teams",
-    "collectedAtUtc": "2026-08-08T18:25:51.406Z"
+    "collectedAtUtc": "2026-08-09T16:23:50.098Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 7.3,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 6.94,
+    "goalsPerMatch": 1.7,
+    "goalsConcededPerMatch": 1.3,
+    "averagePossessionPct": 51.3,
+    "cleanSheets": 1,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": 4.317200064659119,
-    "xgDiff": -1.3172000646591187,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 3.4,
+    "xgDiff": 1.2,
+    "shotsOnTargetPerMatch": 6.3,
+    "bigChances": 2,
+    "bigChancesMissed": 1,
+    "accuratePassesPerMatch": 260.7,
+    "accurateLongBallsPerMatch": 35.3,
+    "accurateCrossesPerMatch": 5.7,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 84,
+    "cornersPerMatch": 18,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": 2.6242999732494354,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "xgConceded": 2.3,
+    "interceptionsPerMatch": 8.7,
+    "tacklesPerMatch": 17.7,
+    "clearancesPerMatch": 38,
+    "finalThirdRecoveriesPerMatch": 1.7,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 1.7
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 14.7,
+    "yellowCardsPerMatch": 9,
     "redCardsPerMatch": null
   }
 }

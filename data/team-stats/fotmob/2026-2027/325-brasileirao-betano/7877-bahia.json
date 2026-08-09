@@ -18,47 +18,47 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/7877/stats/bahia/teams",
-    "collectedAtUtc": "2026-08-08T18:22:47.607Z"
+    "collectedAtUtc": "2026-08-09T16:21:20.133Z"
   },
   "availability": {
     "status": "archived",
-    "coverage": "low",
+    "coverage": "high",
     "notes": "Epoca anterior capturada para referencia estrutural."
   },
   "overview": {
-    "teamRating": 6.9,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 6.91,
+    "goalsPerMatch": 1.4,
+    "goalsConcededPerMatch": 1.2,
+    "averagePossessionPct": 54.3,
+    "cleanSheets": 6,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": 31.592900000000004,
-    "xgDiff": 5.407099999999996,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 27.9,
+    "xgDiff": -0.4,
+    "shotsOnTargetPerMatch": 4.9,
+    "bigChances": 40,
+    "bigChancesMissed": 23,
+    "accuratePassesPerMatch": 377.8,
+    "accurateLongBallsPerMatch": 16.9,
+    "accurateCrossesPerMatch": 4.8,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 478,
+    "cornersPerMatch": 121,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": 20.174400000000002,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
+    "xgConceded": 28.3,
+    "interceptionsPerMatch": 9.2,
+    "tacklesPerMatch": 15.7,
+    "clearancesPerMatch": 24.1,
     "finalThirdRecoveriesPerMatch": null,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 3.9
   },
   "discipline": {
-    "foulsPerMatch": null,
+    "foulsPerMatch": 14.4,
     "yellowCardsPerMatch": null,
     "redCardsPerMatch": null
   }

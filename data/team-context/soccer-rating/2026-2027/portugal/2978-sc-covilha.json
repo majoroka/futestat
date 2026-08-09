@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Sc-Covilha/2978/",
-    "collectedAtUtc": "2026-08-08T18:27:36.525Z"
+    "collectedAtUtc": "2026-08-09T16:25:07.459Z"
   },
   "availability": {
     "status": "partial",
@@ -27,8 +27,8 @@
     "away": 1548.23
   },
   "rankings": {
-    "national": 116,
-    "europe": 3173
+    "national": 127,
+    "europe": 3346
   },
   "form": {
     "last3": [
@@ -69,12 +69,12 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "WSG Tirol II",
-      "rating": 1527.01
+      "name": "Bursa Yildirimspor",
+      "rating": 1519.39
     },
     {
-      "name": "Shahdag",
-      "rating": 1526.95
+      "name": "FC Eddersheim",
+      "rating": 1519.35
     }
   ]
 }

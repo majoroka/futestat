@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Cd-Tondela/6014/",
-    "collectedAtUtc": "2026-08-08T18:27:52.848Z"
+    "collectedAtUtc": "2026-08-09T16:25:18.102Z"
   },
   "availability": {
     "status": "available",
@@ -27,8 +27,8 @@
     "away": 1955.86
   },
   "rankings": {
-    "national": 13,
-    "europe": 377
+    "national": 12,
+    "europe": 359
   },
   "form": {
     "last3": [
@@ -62,7 +62,7 @@
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": 5.8,
+    "averageRating": 6.1,
     "players": [
       {
         "name": "Bernardo",
@@ -70,7 +70,7 @@
         "age": null,
         "apps": 34,
         "goals": 0,
-        "rating": 7.3
+        "rating": 7.7
       },
       {
         "name": "Brayan Medina",
@@ -78,7 +78,7 @@
         "age": null,
         "apps": 25,
         "goals": 0,
-        "rating": 6.8
+        "rating": 7
       },
       {
         "name": "Christian Marques",
@@ -86,7 +86,7 @@
         "age": null,
         "apps": 31,
         "goals": 0,
-        "rating": 6.7
+        "rating": 7.1
       },
       {
         "name": "Tiago Manso",
@@ -94,7 +94,7 @@
         "age": null,
         "apps": 28,
         "goals": 1,
-        "rating": 5.5
+        "rating": 5.8
       },
       {
         "name": "Bebeto",
@@ -102,7 +102,7 @@
         "age": null,
         "apps": 24,
         "goals": 3,
-        "rating": 3.8
+        "rating": 4.1
       },
       {
         "name": "Nor Maviram",
@@ -110,7 +110,7 @@
         "age": null,
         "apps": 20,
         "goals": 2,
-        "rating": 4.7
+        "rating": 5
       },
       {
         "name": "Yaya Sithole",
@@ -118,7 +118,7 @@
         "age": null,
         "apps": 26,
         "goals": 1,
-        "rating": 4.7
+        "rating": 5
       },
       {
         "name": "Hugo Félix",
@@ -126,7 +126,7 @@
         "age": null,
         "apps": 26,
         "goals": 0,
-        "rating": 5.8
+        "rating": 6.1
       },
       {
         "name": "Joe Hodge",
@@ -134,7 +134,7 @@
         "age": null,
         "apps": 26,
         "goals": 1,
-        "rating": 5.6
+        "rating": 5.9
       },
       {
         "name": "Jordan",
@@ -142,7 +142,7 @@
         "age": null,
         "apps": 22,
         "goals": 1,
-        "rating": 6.6
+        "rating": 6.8
       },
       {
         "name": "Rony Lopes",
@@ -150,7 +150,7 @@
         "age": null,
         "apps": 16,
         "goals": 4,
-        "rating": 6.3
+        "rating": 6.5
       },
       {
         "name": "Lucas Cañizares",
@@ -166,7 +166,7 @@
         "age": null,
         "apps": 12,
         "goals": 1,
-        "rating": 5.4
+        "rating": 5.5
       },
       {
         "name": "Cicero",
@@ -174,7 +174,7 @@
         "age": null,
         "apps": 18,
         "goals": 1,
-        "rating": 4.5
+        "rating": 4.7
       },
       {
         "name": "Benjamin Kimpioka",
@@ -182,7 +182,7 @@
         "age": null,
         "apps": 10,
         "goals": 0,
-        "rating": 3.9
+        "rating": 4
       },
       {
         "name": "Hélder Tavares",
@@ -190,7 +190,7 @@
         "age": null,
         "apps": 20,
         "goals": 0,
-        "rating": 2.9
+        "rating": 3.1
       },
       {
         "name": "Joao Afonso",
@@ -198,7 +198,7 @@
         "age": null,
         "apps": 13,
         "goals": 0,
-        "rating": 2.6
+        "rating": 2.7
       }
     ]
   },
@@ -209,7 +209,7 @@
       "age": 23,
       "apps": 34,
       "goals": 0,
-      "rating": 7.3
+      "rating": 7.7
     },
     {
       "name": "Lucas Cañizares",
@@ -225,7 +225,7 @@
       "age": 24,
       "apps": 25,
       "goals": 0,
-      "rating": 6.8
+      "rating": 7
     },
     {
       "name": "Christian Marques",
@@ -233,7 +233,7 @@
       "age": 23,
       "apps": 31,
       "goals": 0,
-      "rating": 6.7
+      "rating": 7.1
     },
     {
       "name": "Nor Maviram",
@@ -241,7 +241,7 @@
       "age": 25,
       "apps": 20,
       "goals": 2,
-      "rating": 4.7
+      "rating": 5
     },
     {
       "name": "Joao Silva",
@@ -249,7 +249,7 @@
       "age": 27,
       "apps": 12,
       "goals": 1,
-      "rating": 5.4
+      "rating": 5.5
     },
     {
       "name": "Joao Afonso",
@@ -257,7 +257,7 @@
       "age": 35,
       "apps": 13,
       "goals": 0,
-      "rating": 2.6
+      "rating": 2.7
     },
     {
       "name": "Rémy Vita",
@@ -273,7 +273,7 @@
       "age": 26,
       "apps": 28,
       "goals": 1,
-      "rating": 5.5
+      "rating": 5.8
     },
     {
       "name": "Bebeto",
@@ -281,7 +281,7 @@
       "age": 36,
       "apps": 24,
       "goals": 3,
-      "rating": 3.8
+      "rating": 4.1
     },
     {
       "name": "Cicero",
@@ -289,7 +289,7 @@
       "age": 29,
       "apps": 18,
       "goals": 1,
-      "rating": 4.5
+      "rating": 4.7
     },
     {
       "name": "Xabi Huarte",
@@ -297,7 +297,7 @@
       "age": 25,
       "apps": 5,
       "goals": 0,
-      "rating": 2.4
+      "rating": 2.5
     },
     {
       "name": "Hugo Félix",
@@ -305,7 +305,7 @@
       "age": 22,
       "apps": 26,
       "goals": 0,
-      "rating": 5.8
+      "rating": 6.1
     },
     {
       "name": "Hélder Tavares",
@@ -313,7 +313,7 @@
       "age": 36,
       "apps": 20,
       "goals": 0,
-      "rating": 2.9
+      "rating": 3.1
     },
     {
       "name": "Yaya Sithole",
@@ -321,7 +321,7 @@
       "age": 27,
       "apps": 26,
       "goals": 1,
-      "rating": 4.7
+      "rating": 5
     },
     {
       "name": "Joe Hodge",
@@ -329,7 +329,7 @@
       "age": 23,
       "apps": 26,
       "goals": 1,
-      "rating": 5.6
+      "rating": 5.9
     },
     {
       "name": "Moudja Ouattara",
@@ -337,7 +337,7 @@
       "age": 23,
       "apps": 16,
       "goals": 0,
-      "rating": 1.9
+      "rating": 2
     },
     {
       "name": "Arjen van der Heide",
@@ -345,7 +345,7 @@
       "age": 24,
       "apps": 10,
       "goals": 0,
-      "rating": 3.4
+      "rating": 3.5
     },
     {
       "name": "Benjamin Kimpioka",
@@ -353,7 +353,7 @@
       "age": 26,
       "apps": 10,
       "goals": 0,
-      "rating": 3.9
+      "rating": 4
     },
     {
       "name": "Jordan",
@@ -361,7 +361,7 @@
       "age": 30,
       "apps": 22,
       "goals": 1,
-      "rating": 6.6
+      "rating": 6.8
     },
     {
       "name": "Rony Lopes",
@@ -369,18 +369,18 @@
       "age": 30,
       "apps": 16,
       "goals": 4,
-      "rating": 6.3
+      "rating": 6.5
     }
   ],
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Le Mans UC 72",
-      "rating": 1929.62
+      "name": "AC Troyes",
+      "rating": 1938.56
     },
     {
-      "name": "GKS Katowice",
-      "rating": 1929.47
+      "name": "NK Maribor",
+      "rating": 1944.03
     }
   ]
 }

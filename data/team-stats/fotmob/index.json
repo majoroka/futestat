@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-08-09T16:01:20.590Z",
+  "generatedAtUtc": "2026-08-09T16:26:14.150Z",
   "entries": [
     {
       "season": "2026-2027",
@@ -10,8 +10,8 @@
       "teamSlug": "dinamo-bucuresti",
       "jsonPath": "data/team-stats/fotmob/2026-2027/152-superliga/10271-dinamo-bucuresti.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/152-superliga/10271-dinamo-bucuresti.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.168Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.800Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -22,8 +22,8 @@
       "teamSlug": "petrolul-ploiesti",
       "jsonPath": "data/team-stats/fotmob/2026-2027/152-superliga/188187-petrolul-ploiesti.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/152-superliga/188187-petrolul-ploiesti.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.173Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.810Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -34,8 +34,8 @@
       "teamSlug": "fc-voluntari",
       "jsonPath": "data/team-stats/fotmob/2026-2027/152-superliga/405332-fc-voluntari.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/152-superliga/405332-fc-voluntari.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.184Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.813Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -46,8 +46,8 @@
       "teamSlug": "fc-arges-pitesti",
       "jsonPath": "data/team-stats/fotmob/2026-2027/152-superliga/9732-fc-arges-pitesti.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/152-superliga/9732-fc-arges-pitesti.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.187Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.816Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -58,8 +58,8 @@
       "teamSlug": "otelul-galati",
       "jsonPath": "data/team-stats/fotmob/2026-2027/152-superliga/9736-otelul-galati.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/152-superliga/9736-otelul-galati.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.190Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.819Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -70,8 +70,8 @@
       "teamSlug": "rapid-bucuresti",
       "jsonPath": "data/team-stats/fotmob/2026-2027/152-superliga/9738-rapid-bucuresti.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/152-superliga/9738-rapid-bucuresti.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.194Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.823Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -82,7 +82,7 @@
       "teamSlug": "river-plate",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/10076-river-plate.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/10076-river-plate.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.199Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.827Z",
       "availabilityStatus": "archived"
     },
     {
@@ -94,7 +94,7 @@
       "teamSlug": "boca-juniors",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/10077-boca-juniors.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/10077-boca-juniors.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.204Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.832Z",
       "availabilityStatus": "archived"
     },
     {
@@ -106,7 +106,7 @@
       "teamSlug": "independiente",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/10078-independiente.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/10078-independiente.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.209Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.835Z",
       "availabilityStatus": "archived"
     },
     {
@@ -118,7 +118,7 @@
       "teamSlug": "velez-sarsfield",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/10079-velez-sarsfield.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/10079-velez-sarsfield.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.214Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.839Z",
       "availabilityStatus": "archived"
     },
     {
@@ -130,7 +130,7 @@
       "teamSlug": "racing-club",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/10080-racing-club.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/10080-racing-club.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.219Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.842Z",
       "availabilityStatus": "archived"
     },
     {
@@ -142,7 +142,7 @@
       "teamSlug": "huracan",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/10081-huracan.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/10081-huracan.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.224Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.845Z",
       "availabilityStatus": "archived"
     },
     {
@@ -154,7 +154,7 @@
       "teamSlug": "san-lorenzo",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/10083-san-lorenzo.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/10083-san-lorenzo.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.229Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.848Z",
       "availabilityStatus": "archived"
     },
     {
@@ -166,7 +166,7 @@
       "teamSlug": "rosario-central",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/10084-rosario-central.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/10084-rosario-central.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.233Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.852Z",
       "availabilityStatus": "archived"
     },
     {
@@ -178,7 +178,7 @@
       "teamSlug": "argentinos-juniors",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/10086-argentinos-juniors.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/10086-argentinos-juniors.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.239Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.855Z",
       "availabilityStatus": "archived"
     },
     {
@@ -190,7 +190,7 @@
       "teamSlug": "club-atletico-platense",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/10089-club-atletico-platense.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/10089-club-atletico-platense.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.244Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.858Z",
       "availabilityStatus": "archived"
     },
     {
@@ -202,7 +202,7 @@
       "teamSlug": "instituto",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/10090-instituto.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/10090-instituto.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.248Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.861Z",
       "availabilityStatus": "archived"
     },
     {
@@ -214,7 +214,7 @@
       "teamSlug": "estudiantes",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/10094-estudiantes.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/10094-estudiantes.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.255Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.864Z",
       "availabilityStatus": "archived"
     },
     {
@@ -226,7 +226,7 @@
       "teamSlug": "gimnasia-lp",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/10103-gimnasia-lp.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/10103-gimnasia-lp.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.260Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.867Z",
       "availabilityStatus": "archived"
     },
     {
@@ -238,7 +238,7 @@
       "teamSlug": "atletico-tucuman",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/161727-atletico-tucuman.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/161727-atletico-tucuman.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.265Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.870Z",
       "availabilityStatus": "archived"
     },
     {
@@ -250,7 +250,7 @@
       "teamSlug": "aldosivi",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/161728-aldosivi.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/161728-aldosivi.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.269Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.873Z",
       "availabilityStatus": "archived"
     },
     {
@@ -262,7 +262,7 @@
       "teamSlug": "defensa-y-justicia",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/161730-defensa-y-justicia.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/161730-defensa-y-justicia.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.275Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.876Z",
       "availabilityStatus": "archived"
     },
     {
@@ -274,7 +274,7 @@
       "teamSlug": "sarmiento",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/202757-sarmiento.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/202757-sarmiento.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.279Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.879Z",
       "availabilityStatus": "archived"
     },
     {
@@ -286,7 +286,7 @@
       "teamSlug": "barracas-central",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/213534-barracas-central.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/213534-barracas-central.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.284Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.882Z",
       "availabilityStatus": "archived"
     },
     {
@@ -298,7 +298,7 @@
       "teamSlug": "deportivo-riestra",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/298629-deportivo-riestra.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/298629-deportivo-riestra.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.288Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.885Z",
       "availabilityStatus": "archived"
     },
     {
@@ -310,7 +310,7 @@
       "teamSlug": "gimnasia-mendoza",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/568727-gimnasia-mendoza.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/568727-gimnasia-mendoza.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.293Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.888Z",
       "availabilityStatus": "archived"
     },
     {
@@ -322,7 +322,7 @@
       "teamSlug": "tigre",
       "jsonPath": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/89396-tigre.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/155-liga-profesional-clausura/89396-tigre.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.298Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.891Z",
       "availabilityStatus": "archived"
     },
     {
@@ -334,8 +334,8 @@
       "teamSlug": "hajduk-split",
       "jsonPath": "data/team-stats/fotmob/2026-2027/170-hnl/10154-hajduk-split.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/170-hnl/10154-hajduk-split.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.301Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.894Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -346,8 +346,8 @@
       "teamSlug": "dinamo-zagreb",
       "jsonPath": "data/team-stats/fotmob/2026-2027/170-hnl/10156-dinamo-zagreb.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/170-hnl/10156-dinamo-zagreb.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.304Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.896Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -358,8 +358,8 @@
       "teamSlug": "osijek",
       "jsonPath": "data/team-stats/fotmob/2026-2027/170-hnl/10157-osijek.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/170-hnl/10157-osijek.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.306Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.898Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -370,8 +370,8 @@
       "teamSlug": "rijeka",
       "jsonPath": "data/team-stats/fotmob/2026-2027/170-hnl/10162-rijeka.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/170-hnl/10162-rijeka.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.309Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.901Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -382,8 +382,8 @@
       "teamSlug": "nk-varazdin",
       "jsonPath": "data/team-stats/fotmob/2026-2027/170-hnl/10165-nk-varazdin.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/170-hnl/10165-nk-varazdin.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.312Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.903Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -394,8 +394,8 @@
       "teamSlug": "slaven",
       "jsonPath": "data/team-stats/fotmob/2026-2027/170-hnl/1581-slaven.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/170-hnl/1581-slaven.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.315Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.905Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -406,8 +406,8 @@
       "teamSlug": "nk-lokomotiva",
       "jsonPath": "data/team-stats/fotmob/2026-2027/170-hnl/175388-nk-lokomotiva.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/170-hnl/175388-nk-lokomotiva.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.317Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.907Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -418,8 +418,8 @@
       "teamSlug": "rudes",
       "jsonPath": "data/team-stats/fotmob/2026-2027/170-hnl/187866-rudes.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/170-hnl/187866-rudes.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.320Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.909Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -430,7 +430,7 @@
       "teamSlug": "gorica",
       "jsonPath": "data/team-stats/fotmob/2026-2027/170-hnl/7972-gorica.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/170-hnl/7972-gorica.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.322Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.910Z",
       "availabilityStatus": "unavailable"
     },
     {
@@ -442,8 +442,8 @@
       "teamSlug": "cf-os-belenenses",
       "jsonPath": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-b/1296841-cf-os-belenenses.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/17101-liga-3-group-b/1296841-cf-os-belenenses.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.323Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:13.912Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -454,8 +454,8 @@
       "teamSlug": "ad-marco-09",
       "jsonPath": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-a/1530180-ad-marco-09.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/17101-liga-3-group-a/1530180-ad-marco-09.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.325Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:13.914Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -466,7 +466,7 @@
       "teamSlug": "varzim",
       "jsonPath": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-a/1722-varzim.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/17101-liga-3-group-a/1722-varzim.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.327Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.915Z",
       "availabilityStatus": "not_started"
     },
     {
@@ -478,8 +478,8 @@
       "teamSlug": "caldas",
       "jsonPath": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-b/1800-caldas.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/17101-liga-3-group-b/1800-caldas.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.328Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:13.917Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -490,8 +490,8 @@
       "teamSlug": "sporting-covilha",
       "jsonPath": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-b/1940-sporting-covilha.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/17101-liga-3-group-b/1940-sporting-covilha.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.330Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:13.919Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -502,7 +502,7 @@
       "teamSlug": "ad-fafe",
       "jsonPath": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-a/212796-ad-fafe.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/17101-liga-3-group-a/212796-ad-fafe.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.332Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.920Z",
       "availabilityStatus": "not_started"
     },
     {
@@ -514,7 +514,7 @@
       "teamSlug": "vianense",
       "jsonPath": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-a/2278-vianense.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/17101-liga-3-group-a/2278-vianense.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.333Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.924Z",
       "availabilityStatus": "not_started"
     },
     {
@@ -526,7 +526,7 @@
       "teamSlug": "paredes",
       "jsonPath": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-a/2503-paredes.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/17101-liga-3-group-a/2503-paredes.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.335Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.926Z",
       "availabilityStatus": "not_started"
     },
     {
@@ -538,8 +538,8 @@
       "teamSlug": "mafra",
       "jsonPath": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-b/47535-mafra.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/17101-liga-3-group-b/47535-mafra.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.337Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:13.928Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -550,8 +550,8 @@
       "teamSlug": "vitoria-de-sernache",
       "jsonPath": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-b/560912-vitoria-de-sernache.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/17101-liga-3-group-b/560912-vitoria-de-sernache.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.338Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:13.929Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -562,7 +562,7 @@
       "teamSlug": "leca",
       "jsonPath": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-a/6008-leca.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/17101-liga-3-group-a/6008-leca.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.340Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.931Z",
       "availabilityStatus": "not_started"
     },
     {
@@ -574,8 +574,8 @@
       "teamSlug": "pacos-de-ferreira",
       "jsonPath": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-a/6403-pacos-de-ferreira.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/17101-liga-3-group-a/6403-pacos-de-ferreira.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.342Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:13.933Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -586,7 +586,7 @@
       "teamSlug": "vitoria",
       "jsonPath": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-a/7733-vitoria.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/17101-liga-3-group-a/7733-vitoria.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.346Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.936Z",
       "availabilityStatus": "archived"
     },
     {
@@ -598,7 +598,7 @@
       "teamSlug": "trofense",
       "jsonPath": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-a/7992-trofense.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/17101-liga-3-group-a/7992-trofense.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.348Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.938Z",
       "availabilityStatus": "not_started"
     },
     {
@@ -610,8 +610,8 @@
       "teamSlug": "lusitano-de-evora",
       "jsonPath": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-b/888452-lusitano-de-evora.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/17101-liga-3-group-b/888452-lusitano-de-evora.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.350Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:13.940Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -622,7 +622,7 @@
       "teamSlug": "hamkam-w",
       "jsonPath": "data/team-stats/fotmob/2026-2027/20-eliteserien/1439770-hamkam-w.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/20-eliteserien/1439770-hamkam-w.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.352Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.942Z",
       "availabilityStatus": "unavailable"
     },
     {
@@ -634,8 +634,8 @@
       "teamSlug": "ik-start-w",
       "jsonPath": "data/team-stats/fotmob/2026-2027/20-eliteserien/1439771-ik-start-w.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/20-eliteserien/1439771-ik-start-w.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.354Z",
-      "availabilityStatus": "unavailable"
+      "parsedAtUtc": "2026-08-09T16:26:13.944Z",
+      "availabilityStatus": "archived"
     },
     {
       "season": "2026-2027",
@@ -646,7 +646,7 @@
       "teamSlug": "valerenga",
       "jsonPath": "data/team-stats/fotmob/2026-2027/20-eliteserien/8007-valerenga.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/20-eliteserien/8007-valerenga.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.358Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.946Z",
       "availabilityStatus": "archived"
     },
     {
@@ -658,7 +658,7 @@
       "teamSlug": "bod-glimt",
       "jsonPath": "data/team-stats/fotmob/2026-2027/20-eliteserien/8402-bod-glimt.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/20-eliteserien/8402-bod-glimt.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.361Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.949Z",
       "availabilityStatus": "archived"
     },
     {
@@ -670,7 +670,7 @@
       "teamSlug": "aalesund",
       "jsonPath": "data/team-stats/fotmob/2026-2027/20-eliteserien/8404-aalesund.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/20-eliteserien/8404-aalesund.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.365Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.952Z",
       "availabilityStatus": "archived"
     },
     {
@@ -682,7 +682,7 @@
       "teamSlug": "fredrikstad",
       "jsonPath": "data/team-stats/fotmob/2026-2027/20-eliteserien/8417-fredrikstad.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/20-eliteserien/8417-fredrikstad.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.368Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.955Z",
       "availabilityStatus": "archived"
     },
     {
@@ -694,7 +694,7 @@
       "teamSlug": "rosenborg",
       "jsonPath": "data/team-stats/fotmob/2026-2027/20-eliteserien/8422-rosenborg.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/20-eliteserien/8422-rosenborg.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.372Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.957Z",
       "availabilityStatus": "archived"
     },
     {
@@ -706,7 +706,7 @@
       "teamSlug": "lillestr-m",
       "jsonPath": "data/team-stats/fotmob/2026-2027/20-eliteserien/8476-lillestr-m.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/20-eliteserien/8476-lillestr-m.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.376Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.960Z",
       "availabilityStatus": "archived"
     },
     {
@@ -718,7 +718,7 @@
       "teamSlug": "viking",
       "jsonPath": "data/team-stats/fotmob/2026-2027/20-eliteserien/8478-viking.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/20-eliteserien/8478-viking.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.380Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.963Z",
       "availabilityStatus": "archived"
     },
     {
@@ -730,7 +730,7 @@
       "teamSlug": "sarpsborg-08",
       "jsonPath": "data/team-stats/fotmob/2026-2027/20-eliteserien/8509-sarpsborg-08.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/20-eliteserien/8509-sarpsborg-08.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.384Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.965Z",
       "availabilityStatus": "archived"
     },
     {
@@ -742,7 +742,7 @@
       "teamSlug": "kristiansund",
       "jsonPath": "data/team-stats/fotmob/2026-2027/20-eliteserien/8605-kristiansund.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/20-eliteserien/8605-kristiansund.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.387Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.968Z",
       "availabilityStatus": "archived"
     },
     {
@@ -754,7 +754,7 @@
       "teamSlug": "sandefjord",
       "jsonPath": "data/team-stats/fotmob/2026-2027/20-eliteserien/8609-sandefjord.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/20-eliteserien/8609-sandefjord.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.391Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.971Z",
       "availabilityStatus": "archived"
     },
     {
@@ -766,7 +766,7 @@
       "teamSlug": "molde",
       "jsonPath": "data/team-stats/fotmob/2026-2027/20-eliteserien/9917-molde.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/20-eliteserien/9917-molde.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.395Z",
+      "parsedAtUtc": "2026-08-09T16:26:13.974Z",
       "availabilityStatus": "archived"
     },
     {
@@ -778,8 +778,8 @@
       "teamSlug": "rodina",
       "jsonPath": "data/team-stats/fotmob/2026-2027/203-premier-league/1066681-rodina.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/203-premier-league/1066681-rodina.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.398Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.976Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -790,8 +790,8 @@
       "teamSlug": "fc-orenburg",
       "jsonPath": "data/team-stats/fotmob/2026-2027/203-premier-league/132286-fc-orenburg.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/203-premier-league/132286-fc-orenburg.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.402Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.978Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -802,8 +802,8 @@
       "teamSlug": "fc-krasnodar",
       "jsonPath": "data/team-stats/fotmob/2026-2027/203-premier-league/168719-fc-krasnodar.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/203-premier-league/168719-fc-krasnodar.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.405Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.981Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -814,8 +814,8 @@
       "teamSlug": "baltika",
       "jsonPath": "data/team-stats/fotmob/2026-2027/203-premier-league/49694-baltika.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/203-premier-league/49694-baltika.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.409Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.983Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -826,8 +826,8 @@
       "teamSlug": "spartak-moscow",
       "jsonPath": "data/team-stats/fotmob/2026-2027/203-premier-league/8643-spartak-moscow.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/203-premier-league/8643-spartak-moscow.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.412Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.986Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -838,8 +838,8 @@
       "teamSlug": "dynamo-kyiv",
       "jsonPath": "data/team-stats/fotmob/2026-2027/203-premier-league/8688-dynamo-kyiv.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/203-premier-league/8688-dynamo-kyiv.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.414Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:13.987Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -850,8 +850,8 @@
       "teamSlug": "fc-rostov",
       "jsonPath": "data/team-stats/fotmob/2026-2027/203-premier-league/8705-fc-rostov.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/203-premier-league/8705-fc-rostov.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.418Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.990Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -862,8 +862,8 @@
       "teamSlug": "krylya-sovetov-samara",
       "jsonPath": "data/team-stats/fotmob/2026-2027/203-premier-league/8709-krylya-sovetov-samara.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/203-premier-league/8709-krylya-sovetov-samara.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.421Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.992Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -874,8 +874,8 @@
       "teamSlug": "ruzomberok",
       "jsonPath": "data/team-stats/fotmob/2026-2027/211-nike-liga/10186-ruzomberok.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/211-nike-liga/10186-ruzomberok.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.424Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.994Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -886,8 +886,8 @@
       "teamSlug": "zeleziarne-podbrezova",
       "jsonPath": "data/team-stats/fotmob/2026-2027/211-nike-liga/2437-zeleziarne-podbrezova.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/211-nike-liga/2437-zeleziarne-podbrezova.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.426Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.996Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -898,8 +898,8 @@
       "teamSlug": "spartak-trnava",
       "jsonPath": "data/team-stats/fotmob/2026-2027/211-nike-liga/4662-spartak-trnava.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/211-nike-liga/4662-spartak-trnava.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.429Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:13.998Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -910,8 +910,8 @@
       "teamSlug": "skalica",
       "jsonPath": "data/team-stats/fotmob/2026-2027/211-nike-liga/555292-skalica.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/211-nike-liga/555292-skalica.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.432Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.001Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -922,8 +922,8 @@
       "teamSlug": "zilina",
       "jsonPath": "data/team-stats/fotmob/2026-2027/211-nike-liga/6022-zilina.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/211-nike-liga/6022-zilina.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.434Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.003Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -934,8 +934,8 @@
       "teamSlug": "komarno",
       "jsonPath": "data/team-stats/fotmob/2026-2027/211-nike-liga/611956-komarno.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/211-nike-liga/611956-komarno.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.437Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.005Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -946,8 +946,8 @@
       "teamSlug": "trencin",
       "jsonPath": "data/team-stats/fotmob/2026-2027/211-nike-liga/6496-trencin.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/211-nike-liga/6496-trencin.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.439Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.007Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -958,8 +958,8 @@
       "teamSlug": "fc-kosice",
       "jsonPath": "data/team-stats/fotmob/2026-2027/211-nike-liga/969268-fc-kosice.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/211-nike-liga/969268-fc-kosice.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.442Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.009Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -970,8 +970,8 @@
       "teamSlug": "zemplin-michalovce",
       "jsonPath": "data/team-stats/fotmob/2026-2027/211-nike-liga/9899-zemplin-michalovce.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/211-nike-liga/9899-zemplin-michalovce.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.445Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.011Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -982,8 +982,8 @@
       "teamSlug": "nk-brinje-grosuplje",
       "jsonPath": "data/team-stats/fotmob/2026-2027/212-prvaliga/1153473-nk-brinje-grosuplje.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/212-prvaliga/1153473-nk-brinje-grosuplje.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.447Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.014Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -994,8 +994,8 @@
       "teamSlug": "aluminij",
       "jsonPath": "data/team-stats/fotmob/2026-2027/212-prvaliga/1862-aluminij.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/212-prvaliga/1862-aluminij.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.449Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.015Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1006,8 +1006,8 @@
       "teamSlug": "koper",
       "jsonPath": "data/team-stats/fotmob/2026-2027/212-prvaliga/5772-koper.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/212-prvaliga/5772-koper.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.451Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.017Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1018,8 +1018,8 @@
       "teamSlug": "olimpija-ljubljana",
       "jsonPath": "data/team-stats/fotmob/2026-2027/212-prvaliga/7872-olimpija-ljubljana.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/212-prvaliga/7872-olimpija-ljubljana.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.453Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.019Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1030,8 +1030,8 @@
       "teamSlug": "maribor",
       "jsonPath": "data/team-stats/fotmob/2026-2027/212-prvaliga/8340-maribor.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/212-prvaliga/8340-maribor.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.455Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.020Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1042,8 +1042,8 @@
       "teamSlug": "veres-rivne",
       "jsonPath": "data/team-stats/fotmob/2026-2027/218-premier-league/1175395-veres-rivne.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/218-premier-league/1175395-veres-rivne.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.457Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.022Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1054,8 +1054,8 @@
       "teamSlug": "kudrivka",
       "jsonPath": "data/team-stats/fotmob/2026-2027/218-premier-league/1763072-kudrivka.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/218-premier-league/1763072-kudrivka.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.459Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.024Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1066,8 +1066,8 @@
       "teamSlug": "bukovyna-chernivtsi",
       "jsonPath": "data/team-stats/fotmob/2026-2027/218-premier-league/205684-bukovyna-chernivtsi.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/218-premier-league/205684-bukovyna-chernivtsi.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.461Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.025Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1078,8 +1078,8 @@
       "teamSlug": "kryvbas",
       "jsonPath": "data/team-stats/fotmob/2026-2027/218-premier-league/558259-kryvbas.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/218-premier-league/558259-kryvbas.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.464Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.027Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1090,8 +1090,8 @@
       "teamSlug": "obolon-kyiv",
       "jsonPath": "data/team-stats/fotmob/2026-2027/218-premier-league/583129-obolon-kyiv.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/218-premier-league/583129-obolon-kyiv.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.466Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.028Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1102,8 +1102,8 @@
       "teamSlug": "chornomorets-odesa",
       "jsonPath": "data/team-stats/fotmob/2026-2027/218-premier-league/8666-chornomorets-odesa.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/218-premier-league/8666-chornomorets-odesa.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.468Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.030Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1114,7 +1114,7 @@
       "teamSlug": "dynamo-kyiv",
       "jsonPath": "data/team-stats/fotmob/2026-2027/218-premier-league/8688-dynamo-kyiv.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/218-premier-league/8688-dynamo-kyiv.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.470Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.033Z",
       "availabilityStatus": "not_started"
     },
     {
@@ -1126,19 +1126,19 @@
       "teamSlug": "shakhtar-donetsk",
       "jsonPath": "data/team-stats/fotmob/2026-2027/218-premier-league/9728-shakhtar-donetsk.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/218-premier-league/9728-shakhtar-donetsk.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.473Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.034Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
       "competitionId": "238",
       "competitionSlug": "liga-portugal-betclic",
-      "sofascoreTeamId": null,
+      "sofascoreTeamId": "3007",
       "teamId": "10212",
       "teamSlug": "maritimo",
       "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/10212-maritimo.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/10212-maritimo.html",
-      "parsedAtUtc": "2026-08-09T16:01:20.508Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.037Z",
       "availabilityStatus": "available"
     },
     {
@@ -1150,8 +1150,8 @@
       "teamSlug": "braga",
       "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/10264-braga.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/10264-braga.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.479Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.039Z",
+      "availabilityStatus": "not_started"
     },
     {
       "season": "2026-2027",
@@ -1162,8 +1162,8 @@
       "teamSlug": "estrela-da-amadora",
       "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/1074320-estrela-da-amadora.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/1074320-estrela-da-amadora.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.481Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.041Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -1174,8 +1174,8 @@
       "teamSlug": "arouca",
       "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/158085-arouca.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/158085-arouca.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.484Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.044Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -1186,8 +1186,8 @@
       "teamSlug": "famalicao",
       "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/1634-famalicao.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/1634-famalicao.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.487Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.046Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -1198,19 +1198,19 @@
       "teamSlug": "academico-viseu",
       "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/1786-academico-viseu.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/1786-academico-viseu.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.490Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.048Z",
+      "availabilityStatus": "not_started"
     },
     {
       "season": "2026-2027",
       "competitionId": "238",
       "competitionSlug": "liga-portugal-betclic",
-      "sofascoreTeamId": null,
+      "sofascoreTeamId": "36365",
       "teamId": "212821",
       "teamSlug": "casa-pia-ac",
       "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/212821-casa-pia-ac.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/212821-casa-pia-ac.html",
-      "parsedAtUtc": "2026-08-09T16:01:20.590Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.050Z",
       "availabilityStatus": "available"
     },
     {
@@ -1222,7 +1222,7 @@
       "teamSlug": "vitoria",
       "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/7733-vitoria.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/7733-vitoria.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.497Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.053Z",
       "availabilityStatus": "archived"
     },
     {
@@ -1234,8 +1234,8 @@
       "teamSlug": "rio-ave",
       "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/7841-rio-ave.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/7841-rio-ave.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.500Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.055Z",
+      "availabilityStatus": "not_started"
     },
     {
       "season": "2026-2027",
@@ -1246,8 +1246,8 @@
       "teamSlug": "estoril",
       "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/7842-estoril.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/7842-estoril.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.503Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.058Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -1258,8 +1258,8 @@
       "teamSlug": "moreirense",
       "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/8348-moreirense.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/8348-moreirense.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.505Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.060Z",
+      "availabilityStatus": "not_started"
     },
     {
       "season": "2026-2027",
@@ -1270,8 +1270,8 @@
       "teamSlug": "gil-vicente",
       "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/9764-gil-vicente.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/9764-gil-vicente.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.508Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.062Z",
+      "availabilityStatus": "not_started"
     },
     {
       "season": "2026-2027",
@@ -1282,8 +1282,8 @@
       "teamSlug": "sporting-cp",
       "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/9768-sporting-cp.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/9768-sporting-cp.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.511Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.064Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -1294,8 +1294,8 @@
       "teamSlug": "benfica",
       "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/9772-benfica.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/9772-benfica.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.514Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.066Z",
+      "availabilityStatus": "not_started"
     },
     {
       "season": "2026-2027",
@@ -1306,8 +1306,8 @@
       "teamSlug": "fc-porto",
       "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/9773-fc-porto.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/9773-fc-porto.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.517Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.069Z",
+      "availabilityStatus": "not_started"
     },
     {
       "season": "2026-2027",
@@ -1318,8 +1318,8 @@
       "teamSlug": "alverca",
       "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/9780-alverca.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/9780-alverca.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.519Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.070Z",
+      "availabilityStatus": "not_started"
     },
     {
       "season": "2026-2027",
@@ -1330,7 +1330,7 @@
       "teamSlug": "tondela",
       "jsonPath": "data/team-stats/fotmob/2026-2027/239-liga-portugal-2/188163-tondela.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/239-liga-portugal-2/188163-tondela.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.522Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.072Z",
       "availabilityStatus": "partial"
     },
     {
@@ -1342,8 +1342,8 @@
       "teamSlug": "torreense",
       "jsonPath": "data/team-stats/fotmob/2026-2027/239-liga-portugal-2/212820-torreense.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/239-liga-portugal-2/212820-torreense.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.525Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.074Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1354,8 +1354,8 @@
       "teamSlug": "amarante-fc",
       "jsonPath": "data/team-stats/fotmob/2026-2027/239-liga-portugal-2/280216-amarante-fc.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/239-liga-portugal-2/280216-amarante-fc.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.527Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.076Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1366,8 +1366,8 @@
       "teamSlug": "feirense",
       "jsonPath": "data/team-stats/fotmob/2026-2027/239-liga-portugal-2/4064-feirense.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/239-liga-portugal-2/4064-feirense.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.529Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.078Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1378,8 +1378,8 @@
       "teamSlug": "vizela",
       "jsonPath": "data/team-stats/fotmob/2026-2027/239-liga-portugal-2/4531-vizela.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/239-liga-portugal-2/4531-vizela.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.532Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.079Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1390,8 +1390,8 @@
       "teamSlug": "felgueiras-1932",
       "jsonPath": "data/team-stats/fotmob/2026-2027/239-liga-portugal-2/474326-felgueiras-1932.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/239-liga-portugal-2/474326-felgueiras-1932.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.534Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.081Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1402,8 +1402,8 @@
       "teamSlug": "farense",
       "jsonPath": "data/team-stats/fotmob/2026-2027/239-liga-portugal-2/6004-farense.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/239-liga-portugal-2/6004-farense.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.536Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.083Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1414,8 +1414,8 @@
       "teamSlug": "penafiel",
       "jsonPath": "data/team-stats/fotmob/2026-2027/239-liga-portugal-2/6547-penafiel.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/239-liga-portugal-2/6547-penafiel.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.538Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.085Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1426,8 +1426,8 @@
       "teamSlug": "portimonense",
       "jsonPath": "data/team-stats/fotmob/2026-2027/239-liga-portugal-2/9765-portimonense.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/239-liga-portugal-2/9765-portimonense.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.541Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.087Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1438,8 +1438,8 @@
       "teamSlug": "sporting-cp",
       "jsonPath": "data/team-stats/fotmob/2026-2027/239-liga-portugal-2/9768-sporting-cp.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/239-liga-portugal-2/9768-sporting-cp.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.544Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.090Z",
+      "availabilityStatus": "not_started"
     },
     {
       "season": "2026-2027",
@@ -1450,8 +1450,8 @@
       "teamSlug": "uniao-de-leiria",
       "jsonPath": "data/team-stats/fotmob/2026-2027/239-liga-portugal-2/9771-uniao-de-leiria.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/239-liga-portugal-2/9771-uniao-de-leiria.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.546Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.091Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1462,8 +1462,8 @@
       "teamSlug": "lokomotiv-plovdiv",
       "jsonPath": "data/team-stats/fotmob/2026-2027/247-parva-liga/10129-lokomotiv-plovdiv.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/247-parva-liga/10129-lokomotiv-plovdiv.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.548Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.093Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1474,8 +1474,8 @@
       "teamSlug": "cska-sofia",
       "jsonPath": "data/team-stats/fotmob/2026-2027/247-parva-liga/10144-cska-sofia.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/247-parva-liga/10144-cska-sofia.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.551Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.095Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1486,8 +1486,8 @@
       "teamSlug": "ludogorets-razgrad",
       "jsonPath": "data/team-stats/fotmob/2026-2027/247-parva-liga/210173-ludogorets-razgrad.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/247-parva-liga/210173-ludogorets-razgrad.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.554Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.097Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1498,8 +1498,8 @@
       "teamSlug": "septemvri-sofia",
       "jsonPath": "data/team-stats/fotmob/2026-2027/247-parva-liga/312976-septemvri-sofia.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/247-parva-liga/312976-septemvri-sofia.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.556Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.099Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1510,8 +1510,8 @@
       "teamSlug": "levski-sofia",
       "jsonPath": "data/team-stats/fotmob/2026-2027/247-parva-liga/8632-levski-sofia.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/247-parva-liga/8632-levski-sofia.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.559Z",
-      "availabilityStatus": "not_started"
+      "parsedAtUtc": "2026-08-09T16:26:14.102Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -1522,7 +1522,7 @@
       "teamSlug": "atletico-mg",
       "jsonPath": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/10272-atletico-mg.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/325-brasileirao-betano/10272-atletico-mg.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.564Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.105Z",
       "availabilityStatus": "archived"
     },
     {
@@ -1534,7 +1534,7 @@
       "teamSlug": "athletico-paranaense",
       "jsonPath": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/10273-athletico-paranaense.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/325-brasileirao-betano/10273-athletico-paranaense.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.568Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.108Z",
       "availabilityStatus": "archived"
     },
     {
@@ -1546,7 +1546,7 @@
       "teamSlug": "sao-paulo",
       "jsonPath": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/10277-sao-paulo.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/325-brasileirao-betano/10277-sao-paulo.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.572Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.111Z",
       "availabilityStatus": "archived"
     },
     {
@@ -1558,7 +1558,7 @@
       "teamSlug": "palmeiras",
       "jsonPath": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/10283-palmeiras.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/325-brasileirao-betano/10283-palmeiras.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.577Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.114Z",
       "availabilityStatus": "archived"
     },
     {
@@ -1570,7 +1570,7 @@
       "teamSlug": "remo",
       "jsonPath": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/1626-remo.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/325-brasileirao-betano/1626-remo.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.581Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.117Z",
       "availabilityStatus": "archived"
     },
     {
@@ -1582,7 +1582,7 @@
       "teamSlug": "mirassol",
       "jsonPath": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/163782-mirassol.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/325-brasileirao-betano/163782-mirassol.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.586Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.120Z",
       "availabilityStatus": "archived"
     },
     {
@@ -1594,7 +1594,7 @@
       "teamSlug": "chapecoense-af",
       "jsonPath": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/197693-chapecoense-af.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/325-brasileirao-betano/197693-chapecoense-af.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.590Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.122Z",
       "availabilityStatus": "archived"
     },
     {
@@ -1606,7 +1606,7 @@
       "teamSlug": "vitoria",
       "jsonPath": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/7733-vitoria.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/325-brasileirao-betano/7733-vitoria.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.594Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.125Z",
       "availabilityStatus": "archived"
     },
     {
@@ -1618,7 +1618,7 @@
       "teamSlug": "bahia",
       "jsonPath": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/7877-bahia.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/325-brasileirao-betano/7877-bahia.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.599Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.127Z",
       "availabilityStatus": "archived"
     },
     {
@@ -1630,7 +1630,7 @@
       "teamSlug": "santos-fc",
       "jsonPath": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/8514-santos-fc.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/325-brasileirao-betano/8514-santos-fc.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.603Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.130Z",
       "availabilityStatus": "archived"
     },
     {
@@ -1642,7 +1642,7 @@
       "teamSlug": "internacional",
       "jsonPath": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/8702-internacional.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/325-brasileirao-betano/8702-internacional.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.608Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.133Z",
       "availabilityStatus": "archived"
     },
     {
@@ -1654,7 +1654,7 @@
       "teamSlug": "coritiba",
       "jsonPath": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/9767-coritiba.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/325-brasileirao-betano/9767-coritiba.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.612Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.136Z",
       "availabilityStatus": "archived"
     },
     {
@@ -1666,7 +1666,7 @@
       "teamSlug": "gremio",
       "jsonPath": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/9769-gremio.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/325-brasileirao-betano/9769-gremio.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.616Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.139Z",
       "availabilityStatus": "archived"
     },
     {
@@ -1678,7 +1678,7 @@
       "teamSlug": "flamengo",
       "jsonPath": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/9770-flamengo.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/325-brasileirao-betano/9770-flamengo.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.621Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.142Z",
       "availabilityStatus": "archived"
     },
     {
@@ -1690,7 +1690,7 @@
       "teamSlug": "cruzeiro",
       "jsonPath": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/9781-cruzeiro.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/325-brasileirao-betano/9781-cruzeiro.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.625Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.145Z",
       "availabilityStatus": "archived"
     },
     {
@@ -1702,7 +1702,7 @@
       "teamSlug": "corinthians",
       "jsonPath": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/9808-corinthians.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/325-brasileirao-betano/9808-corinthians.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.630Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.147Z",
       "availabilityStatus": "archived"
     },
     {
@@ -1714,7 +1714,7 @@
       "teamSlug": "fluminense",
       "jsonPath": "data/team-stats/fotmob/2026-2027/325-brasileirao-betano/9863-fluminense.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/325-brasileirao-betano/9863-fluminense.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.634Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.150Z",
       "availabilityStatus": "archived"
     }
   ]

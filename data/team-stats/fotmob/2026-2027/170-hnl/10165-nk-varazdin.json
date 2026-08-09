@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/10165/stats/nk-varazdin/teams",
-    "collectedAtUtc": "2026-08-08T18:23:44.094Z"
+    "collectedAtUtc": "2026-08-09T16:22:11.886Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 7.2,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
+    "teamRating": 3.58,
+    "goalsPerMatch": 1,
+    "goalsConcededPerMatch": 0.5,
+    "averagePossessionPct": 22.9,
     "cleanSheets": null,
     "attendanceAverage": null
   },
   "attack": {
     "xg": null,
     "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "shotsOnTargetPerMatch": 1.5,
+    "bigChances": 3,
+    "bigChancesMissed": 1,
+    "accuratePassesPerMatch": 146.5,
+    "accurateLongBallsPerMatch": 14,
+    "accurateCrossesPerMatch": 1,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 16,
+    "cornersPerMatch": 1,
     "setPieceGoals": null
   },
   "defense": {
     "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "interceptionsPerMatch": 2.5,
+    "tacklesPerMatch": 6.5,
+    "clearancesPerMatch": 11.5,
+    "finalThirdRecoveriesPerMatch": 2,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 2
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 6,
+    "yellowCardsPerMatch": 2,
     "redCardsPerMatch": null
   }
 }

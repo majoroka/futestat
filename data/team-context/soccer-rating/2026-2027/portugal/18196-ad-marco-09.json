@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Ad-Marco-09/18196/",
-    "collectedAtUtc": "2026-08-08T18:27:24.607Z"
+    "collectedAtUtc": "2026-08-09T16:25:02.993Z"
   },
   "availability": {
     "status": "partial",
@@ -22,37 +22,37 @@
     "notes": "Pagina capturada com cobertura parcial do contexto de equipa."
   },
   "ratings": {
-    "overall": 1657.32,
-    "home": 1653.16,
+    "overall": 1663.01,
+    "home": 1664.55,
     "away": 1661.47
   },
   "rankings": {
     "national": 46,
-    "europe": 1375
+    "europe": 1390
   },
   "form": {
     "last3": [
-      "L",
       "D",
+      "W",
       "W"
     ]
   },
   "prediction": {
-    "tip": "home_win",
-    "tipLabel": "Bet on (1) USC Paredes (Stake 3/10)",
-    "confidencePct": 30,
+    "tip": "home_or_draw",
+    "tipLabel": "Bet on (1X) AD Marco 09 (Stake 2/10)",
+    "confidencePct": 20,
     "strengthComparison": "underdog"
   },
   "oddsMarket": {
     "opening1X2": {
-      "home": 2.87,
-      "draw": 3,
-      "away": 2.25
+      "home": 2.95,
+      "draw": 3.1,
+      "away": 2.1
     },
     "fair1X2": {
-      "home": 2.15,
-      "draw": 3.55,
-      "away": 3.94
+      "home": 3.26,
+      "draw": 3.65,
+      "away": 2.39
     },
     "movementSummary": "home_odds_down_away_odds_up"
   },
@@ -69,12 +69,12 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Levski Krumovgrad",
-      "rating": 1657.32
+      "name": "Hönefoss BK",
+      "rating": 1656.01
     },
     {
-      "name": "Vendee Fontenay",
-      "rating": 1657.28
+      "name": "Eintracht Hohkeppel",
+      "rating": 1655.53
     }
   ]
 }

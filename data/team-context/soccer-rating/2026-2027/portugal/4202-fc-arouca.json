@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Fc-Arouca/4202/",
-    "collectedAtUtc": "2026-08-08T18:28:00.214Z"
+    "collectedAtUtc": "2026-08-09T16:25:25.552Z"
   },
   "availability": {
     "status": "available",
@@ -27,8 +27,8 @@
     "away": 1906.05
   },
   "rankings": {
-    "national": 15,
-    "europe": 431
+    "national": 14,
+    "europe": 433
   },
   "form": {
     "last3": [
@@ -62,365 +62,373 @@
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": null,
+    "averageRating": 6.1,
     "players": [
       {
-        "name": "Oliwier Zych",
+        "name": "I. de Arruabarrena",
         "position": "GK",
         "age": null,
-        "apps": 0,
+        "apps": 16,
         "goals": 0,
         "rating": 5.3
       },
       {
-        "name": "Joao Mendes II.",
+        "name": "José Fontan",
         "position": "DF",
         "age": null,
-        "apps": 29,
-        "goals": 1,
+        "apps": 30,
+        "goals": 2,
         "rating": 6.5
       },
       {
-        "name": "Maga",
+        "name": "Tiago Esgaio",
         "position": "DF",
         "age": null,
-        "apps": 22,
+        "apps": 29,
+        "goals": 3,
+        "rating": 6.1
+      },
+      {
+        "name": "Javi Sanchez",
+        "position": "DF",
+        "age": null,
+        "apps": 15,
         "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Mateo Flores",
+        "position": "MF",
+        "age": null,
+        "apps": 12,
+        "goals": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Espen van Ee",
+        "position": "MF",
+        "age": null,
+        "apps": 26,
+        "goals": 2,
         "rating": 5.9
       },
       {
-        "name": "Oscar Rivas Viondi",
+        "name": "Hyun-Ju Lee",
+        "position": "MF",
+        "age": null,
+        "apps": 30,
+        "goals": 7,
+        "rating": 6.7
+      },
+      {
+        "name": "Taichi Fukui",
+        "position": "MF",
+        "age": null,
+        "apps": 33,
+        "goals": 4,
+        "rating": 6.9
+      },
+      {
+        "name": "Nais Djouahra",
+        "position": "ST",
+        "age": null,
+        "apps": 34,
+        "goals": 6,
+        "rating": 6.9
+      },
+      {
+        "name": "Alfonso Trezza",
+        "position": "ST",
+        "age": null,
+        "apps": 32,
+        "goals": 9,
+        "rating": 6.6
+      },
+      {
+        "name": "Ivan Barbero",
+        "position": "ST",
+        "age": null,
+        "apps": 31,
+        "goals": 8,
+        "rating": 6.2
+      },
+      {
+        "name": "Boris Popovic",
         "position": "DF",
         "age": null,
-        "apps": 18,
+        "apps": 17,
         "goals": 1,
         "rating": 5.6
       },
       {
-        "name": "Thiago Balieiro",
-        "position": "DF",
+        "name": "Pablo Gozalbez",
+        "position": "MF",
         "age": null,
-        "apps": 13,
+        "apps": 28,
         "goals": 1,
         "rating": 5
       },
       {
-        "name": "Goncalo Nogueira",
-        "position": "MF",
-        "age": null,
-        "apps": 23,
-        "goals": 0,
-        "rating": 6
-      },
-      {
-        "name": "Samu",
-        "position": "MF",
-        "age": null,
-        "apps": 29,
-        "goals": 7,
-        "rating": 7.1
-      },
-      {
-        "name": "Beni",
-        "position": "MF",
-        "age": null,
-        "apps": 29,
-        "goals": 1,
-        "rating": 7
-      },
-      {
-        "name": "Oumar Camara",
+        "name": "Dylan Nandin",
         "position": "ST",
-        "age": null,
-        "apps": 30,
-        "goals": 5,
-        "rating": 7.2
-      },
-      {
-        "name": "Alioune Ndoye",
-        "position": "ST",
-        "age": null,
-        "apps": 24,
-        "goals": 2,
-        "rating": 6.7
-      },
-      {
-        "name": "Gustavo",
-        "position": "ST",
-        "age": null,
-        "apps": 23,
-        "goals": 5,
-        "rating": 6.2
-      },
-      {
-        "name": "D. C. Reyes Juan",
-        "position": "GK",
-        "age": null,
-        "apps": 15,
-        "goals": 0,
-        "rating": 4.5
-      },
-      {
-        "name": "Tony Strata",
-        "position": "DF",
         "age": null,
         "apps": 21,
         "goals": 1,
-        "rating": 5.8
+        "rating": 5.5
       },
       {
-        "name": "Telmo Arcanjo",
+        "name": "Fally Mayulu",
         "position": "ST",
         "age": null,
-        "apps": 29,
-        "goals": 1,
-        "rating": 6.8
+        "apps": 3,
+        "goals": 0,
+        "rating": 5
       },
       {
-        "name": "Miguel Nogueira",
+        "name": "Brian Mansilla",
         "position": "ST",
+        "age": null,
+        "apps": 20,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Pedro Santos",
+        "position": "MF",
         "age": null,
         "apps": 16,
-        "goals": 1,
-        "rating": 5.3
-      },
-      {
-        "name": "Francisco Dias",
-        "position": "DF",
-        "age": null,
-        "apps": 2,
         "goals": 0,
-        "rating": 1.8
+        "rating": 4.8
       }
     ]
   },
   "squad": [
     {
-      "name": "Silva Charles",
-      "position": null,
-      "age": 32,
-      "apps": 19,
-      "goals": 0,
-      "rating": 3.6
-    },
-    {
-      "name": "Oliwier Zych",
-      "position": "GK",
-      "age": 21,
-      "apps": 0,
-      "goals": 0,
-      "rating": 5.3
-    },
-    {
-      "name": "D. C. Reyes Juan",
-      "position": "GK",
-      "age": 23,
-      "apps": 15,
-      "goals": 0,
-      "rating": 4.5
-    },
-    {
-      "name": "Orest Lebedenko",
-      "position": null,
-      "age": 27,
-      "apps": 14,
-      "goals": 0,
-      "rating": 4.5
-    },
-    {
-      "name": "Miguel Nobrega",
+      "name": "Joao Valido",
       "position": null,
       "age": 26,
-      "apps": 13,
-      "goals": 1,
-      "rating": 3.6
-    },
-    {
-      "name": "R. Abascal Barros",
-      "position": null,
-      "age": 32,
-      "apps": 27,
-      "goals": 1,
-      "rating": 5.4
-    },
-    {
-      "name": "Joao Mendes II.",
-      "position": "DF",
-      "age": 26,
-      "apps": 29,
-      "goals": 1,
-      "rating": 6.5
-    },
-    {
-      "name": "Maga",
-      "position": "DF",
-      "age": 23,
-      "apps": 22,
+      "apps": 9,
       "goals": 0,
-      "rating": 5.9
+      "rating": 3.9
     },
     {
-      "name": "Oscar Rivas Viondi",
-      "position": "DF",
-      "age": 26,
-      "apps": 18,
-      "goals": 1,
-      "rating": 5.6
-    },
-    {
-      "name": "Thiago Balieiro",
-      "position": "DF",
-      "age": 23,
-      "apps": 13,
-      "goals": 1,
-      "rating": 5
-    },
-    {
-      "name": "Tony Strata",
-      "position": "DF",
-      "age": 21,
-      "apps": 21,
-      "goals": 1,
-      "rating": 5.8
-    },
-    {
-      "name": "Francisco Dias",
-      "position": "DF",
-      "age": 23,
-      "apps": 2,
-      "goals": 0,
-      "rating": 1.8
-    },
-    {
-      "name": "Rica Rocha",
-      "position": null,
-      "age": 22,
-      "apps": 2,
-      "goals": 0,
-      "rating": 1.5
-    },
-    {
-      "name": "Goncalo Nogueira",
-      "position": "MF",
-      "age": 22,
-      "apps": 23,
-      "goals": 0,
-      "rating": 6
-    },
-    {
-      "name": "Beni",
-      "position": "MF",
-      "age": 23,
-      "apps": 29,
-      "goals": 1,
-      "rating": 7
-    },
-    {
-      "name": "Diogo Sousa",
-      "position": null,
-      "age": 20,
-      "apps": 22,
-      "goals": 1,
-      "rating": 5.7
-    },
-    {
-      "name": "Samu",
-      "position": "MF",
-      "age": 30,
-      "apps": 29,
-      "goals": 7,
-      "rating": 7.1
-    },
-    {
-      "name": "Nelson Oliveira",
-      "position": null,
-      "age": 34,
-      "apps": 26,
-      "goals": 3,
-      "rating": 4.6
-    },
-    {
-      "name": "Zeega",
-      "position": null,
-      "age": 17,
-      "apps": 2,
-      "goals": 0,
-      "rating": 1.7
-    },
-    {
-      "name": "Oumar Camara",
-      "position": "ST",
-      "age": 19,
-      "apps": 30,
-      "goals": 5,
-      "rating": 7.2
-    },
-    {
-      "name": "Gustavo",
-      "position": "ST",
-      "age": 26,
-      "apps": 23,
-      "goals": 5,
-      "rating": 6.2
-    },
-    {
-      "name": "Telmo Arcanjo",
-      "position": "ST",
-      "age": 24,
-      "apps": 29,
-      "goals": 1,
-      "rating": 6.8
-    },
-    {
-      "name": "Miguel Nogueira",
-      "position": "ST",
-      "age": 21,
-      "apps": 16,
-      "goals": 1,
-      "rating": 5.3
-    },
-    {
-      "name": "Noah Saviolo",
-      "position": null,
-      "age": 22,
-      "apps": 30,
-      "goals": 2,
-      "rating": 6.5
-    },
-    {
-      "name": "Fabio Blanco",
-      "position": null,
-      "age": 22,
-      "apps": 15,
-      "goals": 0,
-      "rating": 5.6
-    },
-    {
-      "name": "Ejike Opara",
+      "name": "Jakub Vinarcik",
       "position": null,
       "age": 20,
       "apps": 1,
       "goals": 0,
+      "rating": 2.7
+    },
+    {
+      "name": "I. de Arruabarrena",
+      "position": "GK",
+      "age": 29,
+      "apps": 16,
+      "goals": 0,
+      "rating": 5.3
+    },
+    {
+      "name": "Diogo Monteiro",
+      "position": null,
+      "age": 21,
+      "apps": 8,
+      "goals": 0,
+      "rating": 3.2
+    },
+    {
+      "name": "José Silva",
+      "position": null,
+      "age": 20,
+      "apps": 4,
+      "goals": 0,
+      "rating": 3.7
+    },
+    {
+      "name": "Bas Kuipers",
+      "position": null,
+      "age": 31,
+      "apps": 17,
+      "goals": 1,
+      "rating": 5.2
+    },
+    {
+      "name": "Matias Rocha",
+      "position": null,
+      "age": 25,
+      "apps": 11,
+      "goals": 0,
+      "rating": 3.5
+    },
+    {
+      "name": "Omar Fayed",
+      "position": null,
+      "age": 22,
+      "apps": 8,
+      "goals": 0,
+      "rating": 4.7
+    },
+    {
+      "name": "José Fontan",
+      "position": "DF",
+      "age": 26,
+      "apps": 30,
+      "goals": 2,
+      "rating": 6.5
+    },
+    {
+      "name": "Tiago Esgaio",
+      "position": "DF",
+      "age": 30,
+      "apps": 29,
+      "goals": 3,
+      "rating": 6.1
+    },
+    {
+      "name": "Javi Sanchez",
+      "position": "DF",
+      "age": 29,
+      "apps": 15,
+      "goals": 0,
+      "rating": 5.2
+    },
+    {
+      "name": "Boris Popovic",
+      "position": "DF",
+      "age": 26,
+      "apps": 17,
+      "goals": 1,
+      "rating": 5.6
+    },
+    {
+      "name": "David Simao",
+      "position": null,
+      "age": 36,
+      "apps": 12,
+      "goals": 0,
+      "rating": 3.1
+    },
+    {
+      "name": "Mateo Flores",
+      "position": "MF",
+      "age": 22,
+      "apps": 12,
+      "goals": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "Espen van Ee",
+      "position": "MF",
+      "age": 22,
+      "apps": 26,
+      "goals": 2,
+      "rating": 5.9
+    },
+    {
+      "name": "Pedro Santos",
+      "position": "MF",
+      "age": 25,
+      "apps": 16,
+      "goals": 0,
       "rating": 4.8
     },
     {
-      "name": "Alioune Ndoye",
+      "name": "Yellu Santiago",
+      "position": null,
+      "age": 21,
+      "apps": 5,
+      "goals": 0,
+      "rating": 4.5
+    },
+    {
+      "name": "Pablo Gozalbez",
+      "position": "MF",
+      "age": 25,
+      "apps": 28,
+      "goals": 1,
+      "rating": 5
+    },
+    {
+      "name": "Hyun-Ju Lee",
+      "position": "MF",
+      "age": 23,
+      "apps": 30,
+      "goals": 7,
+      "rating": 6.7
+    },
+    {
+      "name": "Taichi Fukui",
+      "position": "MF",
+      "age": 21,
+      "apps": 33,
+      "goals": 4,
+      "rating": 6.9
+    },
+    {
+      "name": "Miguel Puche",
+      "position": null,
+      "age": 25,
+      "apps": 27,
+      "goals": 1,
+      "rating": 4.7
+    },
+    {
+      "name": "Nais Djouahra",
+      "position": "ST",
+      "age": 26,
+      "apps": 34,
+      "goals": 6,
+      "rating": 6.9
+    },
+    {
+      "name": "Alfonso Trezza",
+      "position": "ST",
+      "age": 26,
+      "apps": 32,
+      "goals": 9,
+      "rating": 6.6
+    },
+    {
+      "name": "Dylan Nandin",
       "position": "ST",
       "age": 24,
-      "apps": 24,
-      "goals": 2,
-      "rating": 6.7
+      "apps": 21,
+      "goals": 1,
+      "rating": 5.5
+    },
+    {
+      "name": "Ivan Barbero",
+      "position": "ST",
+      "age": 27,
+      "apps": 31,
+      "goals": 8,
+      "rating": 6.2
+    },
+    {
+      "name": "Fally Mayulu",
+      "position": "ST",
+      "age": 23,
+      "apps": 3,
+      "goals": 0,
+      "rating": 5
+    },
+    {
+      "name": "Brian Mansilla",
+      "position": "ST",
+      "age": 24,
+      "apps": 20,
+      "goals": 0,
+      "rating": 5.4
     }
   ],
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Mlada Boleslav",
-      "rating": 1909.35
+      "name": "Reading FC",
+      "rating": 1895.99
     },
     {
-      "name": "SK Beveren",
-      "rating": 1904.3
+      "name": "Wieczysta Krakow",
+      "rating": 1898.41
     }
   ]
 }

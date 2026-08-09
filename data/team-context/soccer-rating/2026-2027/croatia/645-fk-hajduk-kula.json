@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Fk-Hajduk-Kula/645/",
-    "collectedAtUtc": "2026-08-08T18:26:59.639Z"
+    "collectedAtUtc": "2026-08-09T16:24:43.371Z"
   },
   "availability": {
     "status": "partial",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 24,
-    "europe": 3340
+    "europe": 3336
   },
   "form": {
     "last3": []
@@ -57,8 +57,8 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "VPS Vaasa II",
-      "rating": 1521.12
+      "name": "Arsenal Kharkiv",
+      "rating": 1519.76
     },
     {
       "name": "Parla",

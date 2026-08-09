@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Caldas-Sc/2975/",
-    "collectedAtUtc": "2026-08-08T18:27:34.956Z"
+    "collectedAtUtc": "2026-08-09T16:25:05.934Z"
   },
   "availability": {
     "status": "partial",
@@ -27,8 +27,8 @@
     "away": 1566.73
   },
   "rankings": {
-    "national": 73,
-    "europe": 2073
+    "national": 75,
+    "europe": 2133
   },
   "form": {
     "last3": [
@@ -69,12 +69,12 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Victoria Mykolaivka",
-      "rating": 1584.85
+      "name": "BVSC Zuglo",
+      "rating": 1578.05
     },
     {
-      "name": "Lamia FC",
-      "rating": 1582.09
+      "name": "Hapoel Kiryat Shalom",
+      "rating": 1578
     }
   ]
 }

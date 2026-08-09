@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Sc-Farense/6781/",
-    "collectedAtUtc": "2026-08-08T18:27:42.491Z"
+    "collectedAtUtc": "2026-08-09T16:25:11.929Z"
   },
   "availability": {
     "status": "available",
@@ -22,13 +22,13 @@
     "notes": null
   },
   "ratings": {
-    "overall": 1796.49,
-    "home": 1822.88,
+    "overall": 1791.3,
+    "home": 1812.51,
     "away": 1770.09
   },
   "rankings": {
-    "national": 24,
-    "europe": 689
+    "national": 27,
+    "europe": 728
   },
   "form": {
     "last3": [
@@ -50,27 +50,38 @@
       "away": 2.55
     },
     "fair1X2": {
-      "home": 2.89,
-      "draw": 3.69,
-      "away": 2.61
+      "home": 2.93,
+      "draw": 3.54,
+      "away": 2.65
     },
     "movementSummary": "home_odds_up_away_odds_down"
   },
   "squadHealth": {
-    "injuries": [],
+    "injuries": [
+      {
+        "player": "Brian Araujo",
+        "status": "injury_or_suspension",
+        "description": null
+      },
+      {
+        "player": "Ruben Fernandes",
+        "status": "injury_or_suspension",
+        "description": null
+      }
+    ],
     "suspensions": []
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": 5,
+    "averageRating": 4.5,
     "players": [
       {
-        "name": "Brian Araujo",
+        "name": "Fabijan Buntic",
         "position": "GK",
         "age": null,
-        "apps": 32,
+        "apps": 0,
         "goals": 0,
-        "rating": 5.2
+        "rating": 3.6
       },
       {
         "name": "Toni Herrero",
@@ -78,31 +89,47 @@
         "age": null,
         "apps": 29,
         "goals": 1,
-        "rating": 4.7
+        "rating": 5
       },
       {
-        "name": "Derick Poloni",
+        "name": "Alex Pinto",
         "position": "DF",
         "age": null,
-        "apps": 32,
-        "goals": 4,
-        "rating": 4.1
-      },
-      {
-        "name": "Lucas D'Agrella",
-        "position": "DF",
-        "age": null,
-        "apps": 18,
+        "apps": 14,
         "goals": 0,
-        "rating": 4.4
+        "rating": 4.2
       },
       {
-        "name": "Yannick Semedo",
+        "name": "Nermin Zolotic",
+        "position": "DF",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Joseph Nduquidi",
         "position": "MF",
         "age": null,
-        "apps": 31,
+        "apps": 0,
         "goals": 0,
-        "rating": 4.6
+        "rating": 3.5
+      },
+      {
+        "name": "Rafinha",
+        "position": "MF",
+        "age": null,
+        "apps": 16,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Mattheus",
+        "position": "MF",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 5.7
       },
       {
         "name": "Miguel Menino",
@@ -110,7 +137,7 @@
         "age": null,
         "apps": 26,
         "goals": 1,
-        "rating": 5.6
+        "rating": 5.9
       },
       {
         "name": "Claudio Falcao",
@@ -118,7 +145,7 @@
         "age": null,
         "apps": 30,
         "goals": 5,
-        "rating": 6
+        "rating": 6.4
       },
       {
         "name": "André Candeias",
@@ -126,31 +153,15 @@
         "age": null,
         "apps": 31,
         "goals": 3,
-        "rating": 5.6
+        "rating": 6
       },
       {
-        "name": "Rui Costa",
+        "name": "Cuba",
         "position": "ST",
         "age": null,
-        "apps": 25,
-        "goals": 3,
-        "rating": 5.2
-      },
-      {
-        "name": "Balla Sangaré",
-        "position": "ST",
-        "age": null,
-        "apps": 26,
-        "goals": 2,
-        "rating": 4.5
-      },
-      {
-        "name": "Bruno Almeida",
-        "position": "ST",
-        "age": null,
-        "apps": 22,
+        "apps": 0,
         "goals": 0,
-        "rating": 4.9
+        "rating": 2.4
       },
       {
         "name": "Jakob Tånnander",
@@ -158,58 +169,58 @@
         "age": null,
         "apps": 1,
         "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Gonçalo Silva",
+        "position": "DF",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
         "rating": 3.5
       },
       {
-        "name": "Alysson",
-        "position": "DF",
-        "age": null,
-        "apps": 14,
-        "goals": 0,
-        "rating": 3.9
-      },
-      {
-        "name": "Assane Ndiaye",
+        "name": "Yannick Semedo",
         "position": "MF",
         "age": null,
-        "apps": 22,
+        "apps": 31,
         "goals": 0,
-        "rating": 3.7
+        "rating": 4.9
       },
       {
-        "name": "Jaiminho",
+        "name": "Joao Gastao",
         "position": "ST",
         "age": null,
-        "apps": 28,
-        "goals": 1,
-        "rating": 3.9
+        "apps": 11,
+        "goals": 2,
+        "rating": 2.8
       },
       {
-        "name": "Dario Poveda",
-        "position": "ST",
-        "age": null,
-        "apps": 17,
-        "goals": 1,
-        "rating": 4
-      },
-      {
-        "name": "Ruben Fernandes",
+        "name": "Derick Poloni",
         "position": "DF",
         "age": null,
-        "apps": 29,
-        "goals": 0,
-        "rating": 3.4
+        "apps": 32,
+        "goals": 4,
+        "rating": 4.5
+      },
+      {
+        "name": "Leonardo Oliveira",
+        "position": "ST",
+        "age": null,
+        "apps": 7,
+        "goals": 2,
+        "rating": 1.9
       }
     ]
   },
   "squad": [
     {
-      "name": "Brian Araujo",
+      "name": "Fabijan Buntic",
       "position": "GK",
-      "age": 26,
-      "apps": 32,
+      "age": 29,
+      "apps": 0,
       "goals": 0,
-      "rating": 5.2
+      "rating": 3.6
     },
     {
       "name": "Jakob Tånnander",
@@ -217,7 +228,23 @@
       "age": 25,
       "apps": 1,
       "goals": 0,
-      "rating": 3.5
+      "rating": 3.6
+    },
+    {
+      "name": "Brian Araujo",
+      "position": null,
+      "age": 26,
+      "apps": 32,
+      "goals": 0,
+      "rating": 5.6
+    },
+    {
+      "name": "Lucas D'Agrella",
+      "position": null,
+      "age": 21,
+      "apps": 18,
+      "goals": 0,
+      "rating": 4.6
     },
     {
       "name": "Dario Miranda",
@@ -225,12 +252,12 @@
       "age": 23,
       "apps": 16,
       "goals": 0,
-      "rating": 2.5
+      "rating": 2.7
     },
     {
-      "name": "Alex Pinto",
+      "name": "Alysson",
       "position": null,
-      "age": 27,
+      "age": 23,
       "apps": 14,
       "goals": 0,
       "rating": 4.1
@@ -241,7 +268,7 @@
       "age": 24,
       "apps": 6,
       "goals": 1,
-      "rating": 2.7
+      "rating": 2.8
     },
     {
       "name": "Rivaldo",
@@ -265,7 +292,31 @@
       "age": 25,
       "apps": 29,
       "goals": 1,
-      "rating": 4.7
+      "rating": 5
+    },
+    {
+      "name": "Alex Pinto",
+      "position": "DF",
+      "age": 27,
+      "apps": 14,
+      "goals": 0,
+      "rating": 4.2
+    },
+    {
+      "name": "Nermin Zolotic",
+      "position": "DF",
+      "age": 32,
+      "apps": 0,
+      "goals": 0,
+      "rating": 3.6
+    },
+    {
+      "name": "Gonçalo Silva",
+      "position": "DF",
+      "age": 34,
+      "apps": 0,
+      "goals": 0,
+      "rating": 3.5
     },
     {
       "name": "Derick Poloni",
@@ -273,31 +324,15 @@
       "age": 32,
       "apps": 32,
       "goals": 4,
-      "rating": 4.1
-    },
-    {
-      "name": "Lucas D'Agrella",
-      "position": "DF",
-      "age": 21,
-      "apps": 18,
-      "goals": 0,
-      "rating": 4.4
-    },
-    {
-      "name": "Alysson",
-      "position": "DF",
-      "age": 23,
-      "apps": 14,
-      "goals": 0,
-      "rating": 3.9
+      "rating": 4.5
     },
     {
       "name": "Ruben Fernandes",
-      "position": "DF",
+      "position": null,
       "age": 40,
       "apps": 29,
       "goals": 0,
-      "rating": 3.4
+      "rating": 3.7
     },
     {
       "name": "Claudio Falcao",
@@ -305,7 +340,15 @@
       "age": 31,
       "apps": 30,
       "goals": 5,
-      "rating": 6
+      "rating": 6.4
+    },
+    {
+      "name": "Assane Ndiaye",
+      "position": null,
+      "age": 26,
+      "apps": 22,
+      "goals": 0,
+      "rating": 3.9
     },
     {
       "name": "Miguel Menino",
@@ -313,23 +356,23 @@
       "age": 23,
       "apps": 26,
       "goals": 1,
-      "rating": 5.6
+      "rating": 5.9
     },
     {
-      "name": "Assane Ndiaye",
+      "name": "Joseph Nduquidi",
       "position": "MF",
-      "age": 26,
-      "apps": 22,
+      "age": 21,
+      "apps": 0,
       "goals": 0,
-      "rating": 3.7
+      "rating": 3.5
     },
     {
-      "name": "Rafinha",
-      "position": null,
-      "age": 20,
-      "apps": 16,
+      "name": "Mattheus",
+      "position": "MF",
+      "age": 30,
+      "apps": 0,
       "goals": 0,
-      "rating": 3.4
+      "rating": 5.7
     },
     {
       "name": "Yannick Semedo",
@@ -337,15 +380,47 @@
       "age": 30,
       "apps": 31,
       "goals": 0,
-      "rating": 4.6
+      "rating": 4.9
     },
     {
-      "name": "André Candeias",
+      "name": "Rafinha",
+      "position": "MF",
+      "age": 20,
+      "apps": 16,
+      "goals": 0,
+      "rating": 3.5
+    },
+    {
+      "name": "Joao Gastao",
       "position": "ST",
-      "age": 23,
-      "apps": 31,
-      "goals": 3,
-      "rating": 5.6
+      "age": 19,
+      "apps": 11,
+      "goals": 2,
+      "rating": 2.8
+    },
+    {
+      "name": "Jaiminho",
+      "position": null,
+      "age": 28,
+      "apps": 28,
+      "goals": 1,
+      "rating": 4.2
+    },
+    {
+      "name": "Balla Sangaré",
+      "position": null,
+      "age": 26,
+      "apps": 26,
+      "goals": 2,
+      "rating": 4.8
+    },
+    {
+      "name": "Bruno Almeida",
+      "position": null,
+      "age": 29,
+      "apps": 22,
+      "goals": 0,
+      "rating": 5.1
     },
     {
       "name": "Marco Matias",
@@ -353,7 +428,15 @@
       "age": 37,
       "apps": 22,
       "goals": 1,
-      "rating": 3.6
+      "rating": 3.8
+    },
+    {
+      "name": "Dario Poveda",
+      "position": null,
+      "age": 29,
+      "apps": 17,
+      "goals": 1,
+      "rating": 4.1
     },
     {
       "name": "Anthony Carter",
@@ -361,7 +444,7 @@
       "age": 31,
       "apps": 16,
       "goals": 2,
-      "rating": 3.6
+      "rating": 3.7
     },
     {
       "name": "Nikola Gjorgjev",
@@ -369,66 +452,50 @@
       "age": 28,
       "apps": 6,
       "goals": 0,
-      "rating": 2.6
+      "rating": 2.7
     },
     {
-      "name": "Balla Sangaré",
-      "position": "ST",
-      "age": 26,
-      "apps": 26,
-      "goals": 2,
-      "rating": 4.5
+      "name": "Rui Costa",
+      "position": null,
+      "age": 30,
+      "apps": 25,
+      "goals": 3,
+      "rating": 5.5
     },
     {
-      "name": "Bruno Almeida",
+      "name": "André Candeias",
       "position": "ST",
-      "age": 29,
-      "apps": 22,
+      "age": 23,
+      "apps": 31,
+      "goals": 3,
+      "rating": 6
+    },
+    {
+      "name": "Cuba",
+      "position": "ST",
+      "age": 22,
+      "apps": 0,
       "goals": 0,
-      "rating": 4.9
-    },
-    {
-      "name": "Jaiminho",
-      "position": "ST",
-      "age": 28,
-      "apps": 28,
-      "goals": 1,
-      "rating": 3.9
-    },
-    {
-      "name": "Dario Poveda",
-      "position": "ST",
-      "age": 29,
-      "apps": 17,
-      "goals": 1,
-      "rating": 4
+      "rating": 2.4
     },
     {
       "name": "Leonardo Oliveira",
-      "position": null,
+      "position": "ST",
       "age": 21,
       "apps": 7,
       "goals": 2,
       "rating": 1.9
-    },
-    {
-      "name": "Rui Costa",
-      "position": "ST",
-      "age": 30,
-      "apps": 25,
-      "goals": 3,
-      "rating": 5.2
     }
   ],
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Torpedo Kutaisi",
-      "rating": 1806.57
+      "name": "Bukovina Chernovtsy",
+      "rating": 1797.21
     },
     {
-      "name": "SV Sandhausen",
-      "rating": 1809.84
+      "name": "Differdange FC 03",
+      "rating": 1755.35
     }
   ]
 }

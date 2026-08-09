@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Kristiansund-Bk/402/",
-    "collectedAtUtc": "2026-08-08T18:27:12.900Z"
+    "collectedAtUtc": "2026-08-09T16:24:53.745Z"
   },
   "availability": {
     "status": "available",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 20,
-    "europe": 590
+    "europe": 593
   },
   "form": {
     "last3": [
@@ -365,12 +365,12 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Landskrona BoIS",
-      "rating": 1845.85
+      "name": "FC Sheriff Tiraspol",
+      "rating": 1841.06
     },
     {
-      "name": "Annecy FC",
-      "rating": 1845.26
+      "name": "Vendsyssel FF",
+      "rating": 1840.59
     }
   ]
 }

@@ -62,322 +62,314 @@
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": null,
+    "averageRating": 4.6,
     "players": [
       {
-        "name": "Elias Hadaya",
+        "name": "Håvar Jenssen",
         "position": "GK",
         "age": null,
-        "apps": 15,
+        "apps": 5,
         "goals": 0,
-        "rating": 5.3
+        "rating": 2.9
       },
       {
-        "name": "Walle Egeli Vetle",
+        "name": "Fredrik Berglie",
+        "position": "DF",
+        "age": null,
+        "apps": 11,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Daniel Schneider",
         "position": "DF",
         "age": null,
         "apps": 15,
-        "goals": 0,
-        "rating": 5.9
+        "goals": 1,
+        "rating": 4.6
       },
       {
-        "name": "F. Carson Pedersen",
+        "name": "Jonas Lange Hjorth",
         "position": "DF",
         "age": null,
-        "apps": 15,
-        "goals": 0,
-        "rating": 5.6
-      },
-      {
-        "name": "Xander Lambrix",
-        "position": "DF",
-        "age": null,
-        "apps": 15,
+        "apps": 10,
         "goals": 0,
         "rating": 4.6
       },
       {
-        "name": "Rasmus Holten",
+        "name": "Brage Skaret",
         "position": "DF",
         "age": null,
-        "apps": 3,
+        "apps": 7,
         "goals": 0,
-        "rating": 3.3
+        "rating": 4.3
       },
       {
-        "name": "Jakob Vester",
+        "name": "Tore André Sørås",
         "position": "MF",
         "age": null,
-        "apps": 10,
-        "goals": 1,
-        "rating": 2.6
+        "apps": 8,
+        "goals": 0,
+        "rating": 4.4
       },
       {
-        "name": "Sander Risan Mørk",
+        "name": "Robin Rasch",
         "position": "MF",
         "age": null,
         "apps": 15,
-        "goals": 1,
-        "rating": 4.9
+        "goals": 0,
+        "rating": 4.7
       },
       {
-        "name": "E. S. Pettersen",
+        "name": "H. H. Hoseth",
         "position": "MF",
-        "age": null,
-        "apps": 13,
-        "goals": 1,
-        "rating": 5
-      },
-      {
-        "name": "E. Patoulidis",
-        "position": "ST",
-        "age": null,
-        "apps": 15,
-        "goals": 3,
-        "rating": 6.9
-      },
-      {
-        "name": "Bendik Berntsen",
-        "position": "ST",
         "age": null,
         "apps": 13,
         "goals": 1,
         "rating": 4.7
       },
       {
-        "name": "S. Holm Mathisen",
+        "name": "Rasmus Eggen Vinge",
         "position": "ST",
         "age": null,
-        "apps": 14,
+        "apps": 13,
+        "goals": 3,
+        "rating": 5.8
+      },
+      {
+        "name": "Magnus Wolff Eikrem",
+        "position": "ST",
+        "age": null,
+        "apps": 11,
         "goals": 2,
-        "rating": 4.5
+        "rating": 5.6
       },
       {
-        "name": "A. L. Grønneberg",
-        "position": "GK",
-        "age": null,
-        "apps": 0,
-        "goals": 0,
-        "rating": 1.3
-      },
-      {
-        "name": "Martin Hellan",
-        "position": "DF",
-        "age": null,
-        "apps": 1,
-        "goals": 0,
-        "rating": 2.5
-      },
-      {
-        "name": "Jakob Dunsby",
+        "name": "Bilal Njie",
         "position": "ST",
         "age": null,
         "apps": 10,
-        "goals": 0,
-        "rating": 6
+        "goals": 3,
+        "rating": 4.2
       },
       {
-        "name": "Mathias Sauer",
+        "name": "Eirik Saunes",
+        "position": "DF",
+        "age": null,
+        "apps": 14,
+        "goals": 0,
+        "rating": 5
+      },
+      {
+        "name": "Sander Sjøkvist",
+        "position": "MF",
+        "age": null,
+        "apps": 14,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Martin Vinjor",
         "position": "ST",
         "age": null,
-        "apps": 1,
+        "apps": 14,
         "goals": 0,
-        "rating": 3.2
+        "rating": 4.9
       },
       {
-        "name": "Foster Apetorgbor",
+        "name": "Bjorn Kristensen",
         "position": "ST",
+        "age": null,
+        "apps": 15,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "David Hickson",
+        "position": "ST",
+        "age": null,
+        "apps": 8,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Momodou Lion Njie",
+        "position": "DF",
         "age": null,
         "apps": 4,
         "goals": 0,
-        "rating": 1.7
-      },
-      {
-        "name": "Daniel Skaarud",
-        "position": "ST",
-        "age": null,
-        "apps": 2,
-        "goals": 0,
-        "rating": 1.4
+        "rating": 4.3
       }
     ]
   },
   "squad": [
     {
-      "name": "Elias Hadaya",
-      "position": "GK",
+      "name": "Emil Ødegaard",
+      "position": null,
       "age": 27,
-      "apps": 15,
+      "apps": 8,
       "goals": 0,
-      "rating": 5.3
+      "rating": 4.3
     },
     {
-      "name": "A. L. Grønneberg",
+      "name": "Håvar Jenssen",
       "position": "GK",
-      "age": 19,
-      "apps": 0,
+      "age": 30,
+      "apps": 5,
+      "goals": 0,
+      "rating": 2.9
+    },
+    {
+      "name": "Amin Nouri",
+      "position": null,
+      "age": 36,
+      "apps": 6,
+      "goals": 0,
+      "rating": 3.2
+    },
+    {
+      "name": "Fredrik Berglie",
+      "position": "DF",
+      "age": 29,
+      "apps": 11,
+      "goals": 0,
+      "rating": 4.7
+    },
+    {
+      "name": "Daniel Schneider",
+      "position": "DF",
+      "age": 24,
+      "apps": 15,
+      "goals": 1,
+      "rating": 4.6
+    },
+    {
+      "name": "Jonas Lange Hjorth",
+      "position": "DF",
+      "age": 25,
+      "apps": 10,
+      "goals": 0,
+      "rating": 4.6
+    },
+    {
+      "name": "Brage Skaret",
+      "position": "DF",
+      "age": 24,
+      "apps": 7,
+      "goals": 0,
+      "rating": 4.3
+    },
+    {
+      "name": "Eirik Saunes",
+      "position": "DF",
+      "age": 27,
+      "apps": 14,
+      "goals": 0,
+      "rating": 5
+    },
+    {
+      "name": "Momodou Lion Njie",
+      "position": "DF",
+      "age": 24,
+      "apps": 4,
+      "goals": 0,
+      "rating": 4.3
+    },
+    {
+      "name": "Mostafa Najafzadeh",
+      "position": null,
+      "age": 18,
+      "apps": 1,
       "goals": 0,
       "rating": 1.3
     },
     {
-      "name": "Gustav Højbjerg",
-      "position": null,
-      "age": 22,
-      "apps": 2,
-      "goals": 0,
-      "rating": 1.6
-    },
-    {
-      "name": "Hakon Krogelien",
-      "position": null,
-      "age": 22,
-      "apps": 2,
-      "goals": 0,
-      "rating": 1.4
-    },
-    {
-      "name": "F. Loftesnes-Bjune",
-      "position": null,
-      "age": 21,
-      "apps": 3,
-      "goals": 0,
-      "rating": 4.1
-    },
-    {
-      "name": "Walle Egeli Vetle",
-      "position": "DF",
-      "age": 22,
-      "apps": 15,
-      "goals": 0,
-      "rating": 5.9
-    },
-    {
-      "name": "F. Carson Pedersen",
-      "position": "DF",
-      "age": 23,
-      "apps": 15,
-      "goals": 0,
-      "rating": 5.6
-    },
-    {
-      "name": "Xander Lambrix",
-      "position": "DF",
-      "age": 26,
-      "apps": 15,
-      "goals": 0,
-      "rating": 4.6
-    },
-    {
-      "name": "Rasmus Holten",
-      "position": "DF",
-      "age": 21,
-      "apps": 3,
-      "goals": 0,
-      "rating": 3.3
-    },
-    {
-      "name": "Martin Hellan",
-      "position": "DF",
-      "age": 22,
-      "apps": 1,
-      "goals": 0,
-      "rating": 2.5
-    },
-    {
-      "name": "Sander Risan Mørk",
+      "name": "Robin Rasch",
       "position": "MF",
-      "age": 25,
+      "age": 32,
       "apps": 15,
-      "goals": 1,
-      "rating": 4.9
-    },
-    {
-      "name": "Marcus Melchior",
-      "position": null,
-      "age": 25,
-      "apps": 11,
       "goals": 0,
-      "rating": 4.6
+      "rating": 4.7
     },
     {
-      "name": "Jakob Vester",
+      "name": "Sander Sjøkvist",
       "position": "MF",
-      "age": 21,
-      "apps": 10,
-      "goals": 1,
-      "rating": 2.6
+      "age": 27,
+      "apps": 14,
+      "goals": 0,
+      "rating": 4.5
     },
     {
-      "name": "E. S. Pettersen",
+      "name": "Tore André Sørås",
       "position": "MF",
-      "age": 20,
-      "apps": 13,
-      "goals": 1,
-      "rating": 5
-    },
-    {
-      "name": "Foster Apetorgbor",
-      "position": "ST",
-      "age": 18,
-      "apps": 4,
+      "age": 28,
+      "apps": 8,
       "goals": 0,
-      "rating": 1.7
+      "rating": 4.4
     },
     {
-      "name": "Daniel Skaarud",
-      "position": "ST",
-      "age": 18,
-      "apps": 2,
-      "goals": 0,
-      "rating": 1.4
-    },
-    {
-      "name": "E. Patoulidis",
-      "position": "ST",
-      "age": 24,
-      "apps": 15,
-      "goals": 3,
-      "rating": 6.9
-    },
-    {
-      "name": "Bendik Berntsen",
-      "position": "ST",
-      "age": 19,
+      "name": "H. H. Hoseth",
+      "position": "MF",
+      "age": 27,
       "apps": 13,
       "goals": 1,
       "rating": 4.7
     },
     {
-      "name": "Jakob Dunsby",
+      "name": "David Hickson",
+      "position": "ST",
+      "age": 29,
+      "apps": 8,
+      "goals": 0,
+      "rating": 4.5
+    },
+    {
+      "name": "Rasmus Eggen Vinge",
+      "position": "ST",
+      "age": 25,
+      "apps": 13,
+      "goals": 3,
+      "rating": 5.8
+    },
+    {
+      "name": "Bilal Njie",
+      "position": "ST",
+      "age": 28,
+      "apps": 10,
+      "goals": 3,
+      "rating": 4.2
+    },
+    {
+      "name": "Bjorn Kristensen",
+      "position": "ST",
+      "age": 24,
+      "apps": 15,
+      "goals": 0,
+      "rating": 4.8
+    },
+    {
+      "name": "R. Grødem Magnus",
+      "position": null,
+      "age": 27,
+      "apps": 13,
+      "goals": 2,
+      "rating": 4.1
+    },
+    {
+      "name": "Magnus Wolff Eikrem",
+      "position": "ST",
+      "age": 35,
+      "apps": 11,
+      "goals": 2,
+      "rating": 5.6
+    },
+    {
+      "name": "Martin Vinjor",
       "position": "ST",
       "age": 26,
-      "apps": 10,
-      "goals": 0,
-      "rating": 6
-    },
-    {
-      "name": "Mathias Sauer",
-      "position": "ST",
-      "age": 22,
-      "apps": 1,
-      "goals": 0,
-      "rating": 3.2
-    },
-    {
-      "name": "Nikolaj Möller",
-      "position": null,
-      "age": 24,
       "apps": 14,
-      "goals": 3,
-      "rating": 5.1
-    },
-    {
-      "name": "S. Holm Mathisen",
-      "position": "ST",
-      "age": 21,
-      "apps": 14,
-      "goals": 2,
-      "rating": 4.5
+      "goals": 0,
+      "rating": 4.9
     }
   ],
   "recentMatches": [],

@@ -22,44 +22,44 @@
   },
   "availability": {
     "status": "archived",
-    "coverage": "low",
+    "coverage": "high",
     "notes": "Epoca anterior capturada para referencia estrutural."
   },
   "overview": {
-    "teamRating": 6.2,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
+    "teamRating": 6.77,
+    "goalsPerMatch": 1.4,
+    "goalsConcededPerMatch": 2.3,
+    "averagePossessionPct": 44.3,
     "cleanSheets": null,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": 48.077599823474884,
-    "xgDiff": -5.077599823474884,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 23,
+    "xgDiff": -10.4,
+    "shotsOnTargetPerMatch": 4.9,
+    "bigChances": 25,
+    "bigChancesMissed": 15,
+    "accuratePassesPerMatch": 300.1,
+    "accurateLongBallsPerMatch": 18.9,
+    "accurateCrossesPerMatch": 4.7,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 418,
+    "cornersPerMatch": 72,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": 17.47010011970997,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "xgConceded": 33.5,
+    "interceptionsPerMatch": 9,
+    "tacklesPerMatch": 16.1,
+    "clearancesPerMatch": 30.4,
+    "finalThirdRecoveriesPerMatch": 3.5,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 4.1
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 13.1,
+    "yellowCardsPerMatch": 30,
     "redCardsPerMatch": null
   }
 }

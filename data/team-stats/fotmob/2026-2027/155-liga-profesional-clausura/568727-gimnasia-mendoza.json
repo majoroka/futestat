@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/568727/stats/gimnasia-mendoza/teams",
-    "collectedAtUtc": "2026-08-08T18:22:17.267Z"
+    "collectedAtUtc": "2026-08-09T16:20:50.059Z"
   },
   "availability": {
     "status": "archived",
-    "coverage": "low",
+    "coverage": "high",
     "notes": "Epoca anterior capturada para referencia estrutural."
   },
   "overview": {
-    "teamRating": 7.3,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 6.72,
+    "goalsPerMatch": 0.9,
+    "goalsConcededPerMatch": 1.2,
+    "averagePossessionPct": 45.5,
+    "cleanSheets": 6,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": null,
-    "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 17.5,
+    "xgDiff": -9.1,
+    "shotsOnTargetPerMatch": 4,
+    "bigChances": 27,
+    "bigChancesMissed": 16,
+    "accuratePassesPerMatch": 246.5,
+    "accurateLongBallsPerMatch": 27.1,
+    "accurateCrossesPerMatch": 3.3,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 282,
+    "cornersPerMatch": 75,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "xgConceded": 26.6,
+    "interceptionsPerMatch": 10.1,
+    "tacklesPerMatch": 17.9,
+    "clearancesPerMatch": 31.2,
+    "finalThirdRecoveriesPerMatch": 2.6,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 3.4
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 12.6,
+    "yellowCardsPerMatch": 48,
     "redCardsPerMatch": null
   }
 }

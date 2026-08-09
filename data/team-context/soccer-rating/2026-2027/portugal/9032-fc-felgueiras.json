@@ -59,12 +59,7 @@
   "squadHealth": {
     "injuries": [
       {
-        "player": "Emanuel Fernandes",
-        "status": "injury_or_suspension",
-        "description": null
-      },
-      {
-        "player": "Tiago Ribeiro",
+        "player": "Afonso Silva",
         "status": "injury_or_suspension",
         "description": null
       }
@@ -73,330 +68,330 @@
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": 3.8,
+    "averageRating": 4.2,
     "players": [
       {
-        "name": "Francisco Meixedo",
+        "name": "Felipe Scheibig",
         "position": "GK",
         "age": null,
-        "apps": 19,
+        "apps": 13,
         "goals": 0,
-        "rating": 4.4
+        "rating": 3
       },
       {
-        "name": "Antonio Leal",
+        "name": "Tiago Parente",
         "position": "DF",
         "age": null,
-        "apps": 32,
-        "goals": 1,
-        "rating": 5
-      },
-      {
-        "name": "Luiz Gustavo",
-        "position": "DF",
-        "age": null,
-        "apps": 29,
+        "apps": 12,
         "goals": 0,
-        "rating": 4.5
+        "rating": 4.2
       },
       {
-        "name": "Ricardo Ze",
+        "name": "Dario",
         "position": "DF",
         "age": null,
-        "apps": 27,
-        "goals": 1,
-        "rating": 4.3
+        "apps": 26,
+        "goals": 0,
+        "rating": 3.3
       },
       {
-        "name": "Lima Joao",
+        "name": "Joao Pinto",
         "position": "DF",
         "age": null,
-        "apps": 10,
-        "goals": 1,
-        "rating": 3.6
+        "apps": 17,
+        "goals": 0,
+        "rating": 3.7
       },
       {
-        "name": "Samad Popoola",
+        "name": "Landinho",
         "position": "MF",
         "age": null,
+        "apps": 21,
+        "goals": 2,
+        "rating": 3.2
+      },
+      {
+        "name": "Michel Costa",
+        "position": "MF",
+        "age": null,
+        "apps": 27,
+        "goals": 0,
+        "rating": 4.6
+      },
+      {
+        "name": "Henrique Martins",
+        "position": "MF",
+        "age": null,
+        "apps": 30,
+        "goals": 1,
+        "rating": 4.9
+      },
+      {
+        "name": "Gabi",
+        "position": "MF",
+        "age": null,
+        "apps": 33,
+        "goals": 1,
+        "rating": 5.2
+      },
+      {
+        "name": "Lucas Duarte",
+        "position": "ST",
+        "age": null,
+        "apps": 31,
+        "goals": 10,
+        "rating": 5.4
+      },
+      {
+        "name": "Mario Rivas",
+        "position": "ST",
+        "age": null,
+        "apps": 33,
+        "goals": 10,
+        "rating": 4.9
+      },
+      {
+        "name": "Berna",
+        "position": "ST",
+        "age": null,
         "apps": 20,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Mateus Pasinato",
+        "position": "GK",
+        "age": null,
+        "apps": 12,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Mario Junior",
+        "position": "DF",
+        "age": null,
+        "apps": 6,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Beni Jetour",
+        "position": "MF",
+        "age": null,
+        "apps": 12,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Mathys Jean-Marie",
+        "position": "ST",
+        "age": null,
+        "apps": 14,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Filipe Cruz",
+        "position": "DF",
+        "age": null,
+        "apps": 17,
         "goals": 0,
         "rating": 2.8
       },
       {
-        "name": "Gui Meira",
-        "position": "MF",
-        "age": null,
-        "apps": 31,
-        "goals": 4,
-        "rating": 3.2
-      },
-      {
-        "name": "Jojo",
-        "position": "ST",
-        "age": null,
-        "apps": 26,
-        "goals": 1,
-        "rating": 3.7
-      },
-      {
-        "name": "Miguel",
-        "position": "ST",
-        "age": null,
-        "apps": 20,
-        "goals": 1,
-        "rating": 3.9
-      },
-      {
-        "name": "Pedrinho",
-        "position": "ST",
-        "age": null,
-        "apps": 25,
-        "goals": 2,
-        "rating": 2.9
-      },
-      {
-        "name": "Desmond Nketia",
-        "position": "ST",
-        "age": null,
-        "apps": 29,
-        "goals": 3,
-        "rating": 3.4
-      },
-      {
-        "name": "Diego Altube",
-        "position": "GK",
-        "age": null,
-        "apps": 15,
-        "goals": 0,
-        "rating": 3.2
-      },
-      {
-        "name": "Pedro Mendes",
-        "position": "DF",
-        "age": null,
-        "apps": 5,
-        "goals": 0,
-        "rating": 5.7
-      },
-      {
-        "name": "André Lopes",
-        "position": "MF",
-        "age": null,
-        "apps": 16,
-        "goals": 0,
-        "rating": 2.5
-      },
-      {
-        "name": "Luis Airton",
+        "name": "Tiago Leite",
         "position": "ST",
         "age": null,
         "apps": 18,
         "goals": 2,
-        "rating": 3.2
-      },
-      {
-        "name": "Kirill Klimov",
-        "position": "ST",
-        "age": null,
-        "apps": 21,
-        "goals": 0,
-        "rating": 3.7
-      },
-      {
-        "name": "Jonny Arriba",
-        "position": "ST",
-        "age": null,
-        "apps": 13,
-        "goals": 1,
-        "rating": 3.4
+        "rating": 2.5
       }
     ]
   },
   "squad": [
     {
-      "name": "Francisco Meixedo",
-      "position": "GK",
-      "age": 25,
-      "apps": 19,
-      "goals": 0,
-      "rating": 4.4
-    },
-    {
-      "name": "Diego Altube",
-      "position": "GK",
-      "age": 26,
-      "apps": 15,
-      "goals": 0,
-      "rating": 3.2
-    },
-    {
-      "name": "Robinho",
+      "name": "C. Figueiredo",
       "position": null,
-      "age": 22,
+      "age": 35,
       "apps": 6,
       "goals": 0,
-      "rating": 1.6
+      "rating": 1.7
     },
     {
-      "name": "Bruno Silva",
-      "position": null,
+      "name": "Felipe Scheibig",
+      "position": "GK",
+      "age": 26,
+      "apps": 13,
+      "goals": 0,
+      "rating": 3
+    },
+    {
+      "name": "Mateus Pasinato",
+      "position": "GK",
       "age": 33,
-      "apps": 14,
+      "apps": 12,
       "goals": 0,
-      "rating": 2.7
+      "rating": 3.4
     },
     {
-      "name": "Edgar Ié",
+      "name": "Mohamed Aidara",
       "position": null,
-      "age": 32,
-      "apps": 3,
-      "goals": 1,
-      "rating": 4.8
-    },
-    {
-      "name": "Antonio Leal",
-      "position": "DF",
-      "age": 27,
-      "apps": 32,
-      "goals": 1,
-      "rating": 5
-    },
-    {
-      "name": "Luiz Gustavo",
-      "position": "DF",
-      "age": 26,
-      "apps": 29,
-      "goals": 0,
-      "rating": 4.5
-    },
-    {
-      "name": "Ricardo Ze",
-      "position": "DF",
-      "age": 27,
-      "apps": 27,
-      "goals": 1,
-      "rating": 4.3
-    },
-    {
-      "name": "Lima Joao",
-      "position": "DF",
-      "age": 26,
-      "apps": 10,
-      "goals": 1,
-      "rating": 3.6
-    },
-    {
-      "name": "Pedro Mendes",
-      "position": "DF",
-      "age": 35,
-      "apps": 5,
-      "goals": 0,
-      "rating": 5.7
-    },
-    {
-      "name": "Emanuel Fernandes",
-      "position": null,
-      "age": 23,
-      "apps": 31,
-      "goals": 3,
-      "rating": 5.5
-    },
-    {
-      "name": "Samad Popoola",
-      "position": "MF",
-      "age": 20,
-      "apps": 20,
-      "goals": 0,
-      "rating": 2.8
-    },
-    {
-      "name": "Gui Meira",
-      "position": "MF",
-      "age": 21,
-      "apps": 31,
-      "goals": 4,
-      "rating": 3.2
-    },
-    {
-      "name": "André Lopes",
-      "position": "MF",
-      "age": 24,
-      "apps": 16,
-      "goals": 0,
-      "rating": 2.5
-    },
-    {
-      "name": "Tiago Ribeiro",
-      "position": null,
-      "age": 24,
-      "apps": 31,
-      "goals": 2,
-      "rating": 4.5
-    },
-    {
-      "name": "Luis Airton",
-      "position": "ST",
-      "age": 26,
-      "apps": 18,
-      "goals": 2,
-      "rating": 3.2
-    },
-    {
-      "name": "Miguel",
-      "position": "ST",
-      "age": 21,
-      "apps": 20,
-      "goals": 1,
-      "rating": 3.9
-    },
-    {
-      "name": "Gaston Novero",
-      "position": null,
-      "age": 27,
-      "apps": 10,
+      "age": 29,
+      "apps": 1,
       "goals": 0,
       "rating": 1.8
     },
     {
-      "name": "Pedrinho",
-      "position": "ST",
-      "age": 22,
-      "apps": 25,
-      "goals": 2,
-      "rating": 2.9
+      "name": "Dudu Cruz",
+      "position": null,
+      "age": 21,
+      "apps": 6,
+      "goals": 0,
+      "rating": 1.5
     },
     {
-      "name": "Desmond Nketia",
-      "position": "ST",
-      "age": 24,
-      "apps": 29,
-      "goals": 3,
-      "rating": 3.4
-    },
-    {
-      "name": "Jonny Arriba",
-      "position": "ST",
-      "age": 24,
-      "apps": 13,
-      "goals": 1,
-      "rating": 3.4
-    },
-    {
-      "name": "Jojo",
-      "position": "ST",
+      "name": "Casimiro",
+      "position": null,
       "age": 27,
-      "apps": 26,
-      "goals": 1,
-      "rating": 3.7
+      "apps": 4,
+      "goals": 0,
+      "rating": 2.4
     },
     {
-      "name": "Kirill Klimov",
-      "position": "ST",
+      "name": "Tiago Parente",
+      "position": "DF",
+      "age": 22,
+      "apps": 12,
+      "goals": 0,
+      "rating": 4.2
+    },
+    {
+      "name": "Dario",
+      "position": "DF",
+      "age": 22,
+      "apps": 26,
+      "goals": 0,
+      "rating": 3.3
+    },
+    {
+      "name": "Joao Pinto",
+      "position": "DF",
       "age": 25,
-      "apps": 21,
+      "apps": 17,
       "goals": 0,
       "rating": 3.7
+    },
+    {
+      "name": "Mario Junior",
+      "position": "DF",
+      "age": 23,
+      "apps": 6,
+      "goals": 0,
+      "rating": 3.1
+    },
+    {
+      "name": "Filipe Cruz",
+      "position": "DF",
+      "age": 24,
+      "apps": 17,
+      "goals": 0,
+      "rating": 2.8
+    },
+    {
+      "name": "Afonso Silva",
+      "position": null,
+      "age": 22,
+      "apps": 33,
+      "goals": 0,
+      "rating": 5.5
+    },
+    {
+      "name": "Henrique Martins",
+      "position": "MF",
+      "age": 28,
+      "apps": 30,
+      "goals": 1,
+      "rating": 4.9
+    },
+    {
+      "name": "Landinho",
+      "position": "MF",
+      "age": 33,
+      "apps": 21,
+      "goals": 2,
+      "rating": 3.2
+    },
+    {
+      "name": "Michel Costa",
+      "position": "MF",
+      "age": 24,
+      "apps": 27,
+      "goals": 0,
+      "rating": 4.6
+    },
+    {
+      "name": "Gabi",
+      "position": "MF",
+      "age": 26,
+      "apps": 33,
+      "goals": 1,
+      "rating": 5.2
+    },
+    {
+      "name": "Beni Jetour",
+      "position": "MF",
+      "age": 21,
+      "apps": 12,
+      "goals": 0,
+      "rating": 3.2
+    },
+    {
+      "name": "Joao Rafael",
+      "position": null,
+      "age": 21,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.5
+    },
+    {
+      "name": "Mario Rivas",
+      "position": "ST",
+      "age": 26,
+      "apps": 33,
+      "goals": 10,
+      "rating": 4.9
+    },
+    {
+      "name": "Berna",
+      "position": "ST",
+      "age": 22,
+      "apps": 20,
+      "goals": 0,
+      "rating": 3.3
+    },
+    {
+      "name": "Tiago Leite",
+      "position": "ST",
+      "age": 25,
+      "apps": 18,
+      "goals": 2,
+      "rating": 2.5
+    },
+    {
+      "name": "Lucas Duarte",
+      "position": "ST",
+      "age": 25,
+      "apps": 31,
+      "goals": 10,
+      "rating": 5.4
+    },
+    {
+      "name": "Mathys Jean-Marie",
+      "position": "ST",
+      "age": 24,
+      "apps": 14,
+      "goals": 0,
+      "rating": 3.4
     }
   ],
   "recentMatches": [],

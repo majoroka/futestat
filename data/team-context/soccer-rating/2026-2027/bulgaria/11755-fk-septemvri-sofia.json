@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Fk-Septemvri-Sofia/11755/",
-    "collectedAtUtc": "2026-08-08T18:26:55.266Z"
+    "collectedAtUtc": "2026-08-09T16:24:38.974Z"
   },
   "availability": {
     "status": "available",
@@ -22,13 +22,13 @@
     "notes": null
   },
   "ratings": {
-    "overall": 1727.39,
-    "home": 1722.32,
+    "overall": 1724.95,
+    "home": 1717.45,
     "away": 1732.46
   },
   "rankings": {
     "national": 12,
-    "europe": 992
+    "europe": 983
   },
   "form": {
     "last3": [
@@ -51,7 +51,7 @@
     },
     "fair1X2": {
       "home": 4.64,
-      "draw": 4.6,
+      "draw": 4.61,
       "away": 1.76
     },
     "movementSummary": "home_odds_up_away_odds_down"
@@ -220,12 +220,12 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "KSC Lokeren",
-      "rating": 1725.81
+      "name": "KF Llapi",
+      "rating": 1727.52
     },
     {
-      "name": "FK Austria Wien II",
-      "rating": 1725.38
+      "name": "1. FC Köln II",
+      "rating": 1727.19
     }
   ]
 }

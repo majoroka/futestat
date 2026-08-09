@@ -26,16 +26,16 @@
     "notes": "Epoca anterior capturada para referencia estrutural."
   },
   "overview": {
-    "teamRating": 6,
-    "goalsPerMatch": null,
+    "teamRating": null,
+    "goalsPerMatch": 2.9,
     "goalsConcededPerMatch": null,
     "averagePossessionPct": null,
     "cleanSheets": null,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": 31.592900000000004,
-    "xgDiff": 5.407099999999996,
+    "xg": null,
+    "xgDiff": null,
     "shotsOnTargetPerMatch": null,
     "bigChances": null,
     "bigChancesMissed": null,
@@ -48,7 +48,7 @@
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": 20.174400000000002,
+    "xgConceded": null,
     "interceptionsPerMatch": null,
     "tacklesPerMatch": null,
     "clearancesPerMatch": null,

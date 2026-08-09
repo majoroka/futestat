@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Nk-Lokomotiva/8329/",
-    "collectedAtUtc": "2026-08-08T18:27:02.517Z"
+    "collectedAtUtc": "2026-08-09T16:24:46.252Z"
   },
   "availability": {
     "status": "partial",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 39,
-    "europe": 7594
+    "europe": 7597
   },
   "form": {
     "last3": []

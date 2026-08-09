@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/10077/stats/boca-juniors/teams",
-    "collectedAtUtc": "2026-08-08T18:22:06.930Z"
+    "collectedAtUtc": "2026-08-09T16:20:38.870Z"
   },
   "availability": {
     "status": "archived",
-    "coverage": "low",
+    "coverage": "high",
     "notes": "Epoca anterior capturada para referencia estrutural."
   },
   "overview": {
-    "teamRating": 7.3,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 7.1,
+    "goalsPerMatch": 1.3,
+    "goalsConcededPerMatch": 0.9,
+    "averagePossessionPct": 60.7,
+    "cleanSheets": 10,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": null,
-    "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 31,
+    "xgDiff": 13.2,
+    "shotsOnTargetPerMatch": 4.6,
+    "bigChances": 54,
+    "bigChancesMissed": 36,
+    "accuratePassesPerMatch": 426.9,
+    "accurateLongBallsPerMatch": 27.8,
+    "accurateCrossesPerMatch": 5.2,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 493,
+    "cornersPerMatch": 112,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "xgConceded": 17.8,
+    "interceptionsPerMatch": 9.5,
+    "tacklesPerMatch": 19.7,
+    "clearancesPerMatch": 23.2,
+    "finalThirdRecoveriesPerMatch": 3.9,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 2
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 10,
+    "yellowCardsPerMatch": 40,
     "redCardsPerMatch": null
   }
 }

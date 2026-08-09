@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/10079/stats/velez-sarsfield/teams",
-    "collectedAtUtc": "2026-08-08T18:22:41.035Z"
+    "collectedAtUtc": "2026-08-09T16:21:14.021Z"
   },
   "availability": {
     "status": "archived",
-    "coverage": "low",
+    "coverage": "high",
     "notes": "Epoca anterior capturada para referencia estrutural."
   },
   "overview": {
-    "teamRating": 7.1,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 7.06,
+    "goalsPerMatch": 1.1,
+    "goalsConcededPerMatch": 0.7,
+    "averagePossessionPct": 53.6,
+    "cleanSheets": 9,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": null,
-    "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 25.2,
+    "xgDiff": 2.1,
+    "shotsOnTargetPerMatch": 4.2,
+    "bigChances": 43,
+    "bigChancesMissed": 29,
+    "accuratePassesPerMatch": 335.1,
+    "accurateLongBallsPerMatch": 26.4,
+    "accurateCrossesPerMatch": 4.4,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 405,
+    "cornersPerMatch": 89,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "xgConceded": 23.1,
+    "interceptionsPerMatch": 8.8,
+    "tacklesPerMatch": 18.7,
+    "clearancesPerMatch": 29.1,
+    "finalThirdRecoveriesPerMatch": 4.1,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 4
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 11,
+    "yellowCardsPerMatch": 49,
     "redCardsPerMatch": null
   }
 }

@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/2437/stats/zeleziarne-podbrezova/teams",
-    "collectedAtUtc": "2026-08-08T18:26:02.870Z"
+    "collectedAtUtc": "2026-08-09T16:24:02.089Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 6.3,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 6.95,
+    "goalsPerMatch": 2,
+    "goalsConcededPerMatch": 1.3,
+    "averagePossessionPct": 48.8,
+    "cleanSheets": 1,
     "attendanceAverage": null
   },
   "attack": {
     "xg": null,
     "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "shotsOnTargetPerMatch": 6,
+    "bigChances": 6,
+    "bigChancesMissed": 2,
+    "accuratePassesPerMatch": 310,
+    "accurateLongBallsPerMatch": 19,
+    "accurateCrossesPerMatch": 7.3,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 82,
+    "cornersPerMatch": 20,
     "setPieceGoals": null
   },
   "defense": {
     "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "interceptionsPerMatch": 10.3,
+    "tacklesPerMatch": 16,
+    "clearancesPerMatch": 22.7,
+    "finalThirdRecoveriesPerMatch": 4,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 1.7
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 11.3,
+    "yellowCardsPerMatch": 5,
     "redCardsPerMatch": null
   }
 }

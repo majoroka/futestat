@@ -18,19 +18,19 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/8688/stats/dynamo-kyiv/teams",
-    "collectedAtUtc": "2026-08-08T18:25:41.195Z"
+    "collectedAtUtc": "2026-08-09T16:23:40.346Z"
   },
   "availability": {
-    "status": "not_started",
+    "status": "partial",
     "coverage": "low",
-    "notes": "Epoca atual ainda sem estatisticas agregadas disponiveis no HTML capturado."
+    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
   },
   "overview": {
     "teamRating": null,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
+    "goalsPerMatch": 0,
+    "goalsConcededPerMatch": 0,
     "averagePossessionPct": null,
-    "cleanSheets": null,
+    "cleanSheets": 1,
     "attendanceAverage": null
   },
   "attack": {
@@ -59,7 +59,7 @@
   },
   "discipline": {
     "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "yellowCardsPerMatch": 1,
     "redCardsPerMatch": null
   }
 }

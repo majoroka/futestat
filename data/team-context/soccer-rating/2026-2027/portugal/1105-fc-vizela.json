@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Fc-Vizela/1105/",
-    "collectedAtUtc": "2026-08-08T18:27:55.813Z"
+    "collectedAtUtc": "2026-08-09T16:25:21.055Z"
   },
   "availability": {
     "status": "available",
@@ -22,13 +22,13 @@
     "notes": null
   },
   "ratings": {
-    "overall": 1823.1,
-    "home": 1875.21,
+    "overall": 1821.33,
+    "home": 1871.68,
     "away": 1770.98
   },
   "rankings": {
     "national": 23,
-    "europe": 650
+    "europe": 648
   },
   "form": {
     "last3": [
@@ -50,41 +50,27 @@
       "away": 2.6
     },
     "fair1X2": {
-      "home": 2.41,
-      "draw": 3.79,
-      "away": 3.12
+      "home": 2.43,
+      "draw": 3.69,
+      "away": 3.15
     },
     "movementSummary": "home_odds_down_away_odds_up"
   },
   "squadHealth": {
-    "injuries": [
-      {
-        "player": "Antonio Gomis",
-        "status": "injury_or_suspension",
-        "description": null
-      }
-    ],
+    "injuries": [],
     "suspensions": []
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": 4.7,
+    "averageRating": 4.9,
     "players": [
       {
-        "name": "Ruly",
+        "name": "Antonio Gomis",
         "position": "GK",
         "age": null,
-        "apps": 1,
+        "apps": 33,
         "goals": 0,
-        "rating": 3.3
-      },
-      {
-        "name": "José Sampaio",
-        "position": "DF",
-        "age": null,
-        "apps": 20,
-        "goals": 3,
-        "rating": 5
+        "rating": 5.7
       },
       {
         "name": "Bright Godwin",
@@ -92,15 +78,7 @@
         "age": null,
         "apps": 27,
         "goals": 0,
-        "rating": 4.3
-      },
-      {
-        "name": "Italo",
-        "position": "DF",
-        "age": null,
-        "apps": 23,
-        "goals": 2,
-        "rating": 4.2
+        "rating": 4.6
       },
       {
         "name": "Jean-Pierre Rhyner",
@@ -108,7 +86,23 @@
         "age": null,
         "apps": 23,
         "goals": 0,
-        "rating": 4.4
+        "rating": 4.6
+      },
+      {
+        "name": "Luis Rocha",
+        "position": "DF",
+        "age": null,
+        "apps": 13,
+        "goals": 1,
+        "rating": 3.2
+      },
+      {
+        "name": "José Sampaio",
+        "position": "DF",
+        "age": null,
+        "apps": 20,
+        "goals": 3,
+        "rating": 5.2
       },
       {
         "name": "Hristo Ivanov",
@@ -116,15 +110,7 @@
         "age": null,
         "apps": 8,
         "goals": 0,
-        "rating": 4.5
-      },
-      {
-        "name": "Angel Bastunov",
-        "position": "MF",
-        "age": null,
-        "apps": 28,
-        "goals": 1,
-        "rating": 4.8
+        "rating": 4.6
       },
       {
         "name": "Heinz Mörschel",
@@ -132,47 +118,15 @@
         "age": null,
         "apps": 31,
         "goals": 13,
-        "rating": 6.7
+        "rating": 7.2
       },
       {
-        "name": "Thio",
-        "position": "ST",
-        "age": null,
-        "apps": 30,
-        "goals": 3,
-        "rating": 5.6
-      },
-      {
-        "name": "Miguel Tavares",
-        "position": "ST",
-        "age": null,
-        "apps": 19,
-        "goals": 2,
-        "rating": 4.5
-      },
-      {
-        "name": "Damien Loppy",
-        "position": "ST",
-        "age": null,
-        "apps": 31,
-        "goals": 1,
-        "rating": 4.4
-      },
-      {
-        "name": "Jota",
-        "position": "DF",
-        "age": null,
-        "apps": 16,
-        "goals": 0,
-        "rating": 4.3
-      },
-      {
-        "name": "Aleksandar Busnic",
+        "name": "Angel Bastunov",
         "position": "MF",
         "age": null,
-        "apps": 29,
+        "apps": 28,
         "goals": 1,
-        "rating": 4.8
+        "rating": 5.1
       },
       {
         "name": "Matias Lacava",
@@ -180,23 +134,7 @@
         "age": null,
         "apps": 13,
         "goals": 1,
-        "rating": 4.3
-      },
-      {
-        "name": "Rodrigo Ramos",
-        "position": "ST",
-        "age": null,
-        "apps": 22,
-        "goals": 1,
-        "rating": 4.1
-      },
-      {
-        "name": "Jojo",
-        "position": "DF",
-        "age": null,
-        "apps": 17,
-        "goals": 0,
-        "rating": 4.1
+        "rating": 4.4
       },
       {
         "name": "Yassin Fortuné",
@@ -204,26 +142,90 @@
         "age": null,
         "apps": 23,
         "goals": 3,
-        "rating": 3.8
+        "rating": 4
+      },
+      {
+        "name": "Miguel Tavares",
+        "position": "ST",
+        "age": null,
+        "apps": 19,
+        "goals": 2,
+        "rating": 4.8
+      },
+      {
+        "name": "Pedro Souza",
+        "position": "GK",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Jojo",
+        "position": "DF",
+        "age": null,
+        "apps": 17,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Leverton Pierre",
+        "position": "MF",
+        "age": null,
+        "apps": 11,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Damien Loppy",
+        "position": "ST",
+        "age": null,
+        "apps": 31,
+        "goals": 1,
+        "rating": 4.7
+      },
+      {
+        "name": "Rodrigo Ramos",
+        "position": "ST",
+        "age": null,
+        "apps": 22,
+        "goals": 1,
+        "rating": 4.4
+      },
+      {
+        "name": "Andrea Hristov",
+        "position": "DF",
+        "age": null,
+        "apps": 17,
+        "goals": 0,
+        "rating": 3.2
       }
     ]
   },
   "squad": [
     {
       "name": "Ruly",
-      "position": "GK",
+      "position": null,
       "age": 26,
       "apps": 1,
       "goals": 0,
-      "rating": 3.3
+      "rating": 3.4
     },
     {
       "name": "Antonio Gomis",
-      "position": null,
+      "position": "GK",
       "age": 22,
       "apps": 33,
       "goals": 0,
-      "rating": 5.4
+      "rating": 5.7
+    },
+    {
+      "name": "Pedro Souza",
+      "position": "GK",
+      "age": 23,
+      "apps": 0,
+      "goals": 0,
+      "rating": 1.4
     },
     {
       "name": "Rodrigo Beirao",
@@ -234,28 +236,20 @@
       "rating": 1.4
     },
     {
-      "name": "Andrea Hristov",
+      "name": "Italo",
       "position": null,
-      "age": 27,
-      "apps": 17,
+      "age": 23,
+      "apps": 23,
+      "goals": 2,
+      "rating": 4.5
+    },
+    {
+      "name": "Jota",
+      "position": null,
+      "age": 25,
+      "apps": 16,
       "goals": 0,
-      "rating": 3
-    },
-    {
-      "name": "Luis Rocha",
-      "position": null,
-      "age": 39,
-      "apps": 13,
-      "goals": 1,
-      "rating": 3
-    },
-    {
-      "name": "José Sampaio",
-      "position": "DF",
-      "age": 21,
-      "apps": 20,
-      "goals": 3,
-      "rating": 5
+      "rating": 4.4
     },
     {
       "name": "Bright Godwin",
@@ -263,15 +257,7 @@
       "age": 24,
       "apps": 27,
       "goals": 0,
-      "rating": 4.3
-    },
-    {
-      "name": "Italo",
-      "position": "DF",
-      "age": 23,
-      "apps": 23,
-      "goals": 2,
-      "rating": 4.2
+      "rating": 4.6
     },
     {
       "name": "Jean-Pierre Rhyner",
@@ -279,15 +265,23 @@
       "age": 30,
       "apps": 23,
       "goals": 0,
-      "rating": 4.4
+      "rating": 4.6
     },
     {
-      "name": "Jota",
+      "name": "Luis Rocha",
       "position": "DF",
-      "age": 25,
-      "apps": 16,
-      "goals": 0,
-      "rating": 4.3
+      "age": 39,
+      "apps": 13,
+      "goals": 1,
+      "rating": 3.2
+    },
+    {
+      "name": "José Sampaio",
+      "position": "DF",
+      "age": 21,
+      "apps": 20,
+      "goals": 3,
+      "rating": 5.2
     },
     {
       "name": "Jojo",
@@ -295,15 +289,31 @@
       "age": 24,
       "apps": 17,
       "goals": 0,
-      "rating": 4.1
+      "rating": 4.2
+    },
+    {
+      "name": "Andrea Hristov",
+      "position": "DF",
+      "age": 27,
+      "apps": 17,
+      "goals": 0,
+      "rating": 3.2
     },
     {
       "name": "Leverton Pierre",
-      "position": null,
+      "position": "MF",
       "age": 28,
       "apps": 11,
       "goals": 0,
-      "rating": 2.9
+      "rating": 3
+    },
+    {
+      "name": "Aleksandar Busnic",
+      "position": null,
+      "age": 28,
+      "apps": 29,
+      "goals": 1,
+      "rating": 5.1
     },
     {
       "name": "Hristo Ivanov",
@@ -311,23 +321,15 @@
       "age": 25,
       "apps": 8,
       "goals": 0,
-      "rating": 4.5
+      "rating": 4.6
     },
     {
-      "name": "Angel Bastunov",
-      "position": "MF",
-      "age": 27,
-      "apps": 28,
-      "goals": 1,
-      "rating": 4.8
-    },
-    {
-      "name": "Aleksandar Busnic",
+      "name": "Heinz Mörschel",
       "position": "MF",
       "age": 28,
-      "apps": 29,
-      "goals": 1,
-      "rating": 4.8
+      "apps": 31,
+      "goals": 13,
+      "rating": 7.2
     },
     {
       "name": "Nikita Demchenko",
@@ -338,28 +340,20 @@
       "rating": 3.5
     },
     {
-      "name": "Heinz Mörschel",
+      "name": "Angel Bastunov",
       "position": "MF",
-      "age": 28,
-      "apps": 31,
-      "goals": 13,
-      "rating": 6.7
+      "age": 27,
+      "apps": 28,
+      "goals": 1,
+      "rating": 5.1
     },
     {
       "name": "Thio",
-      "position": "ST",
+      "position": null,
       "age": 26,
       "apps": 30,
       "goals": 3,
-      "rating": 5.6
-    },
-    {
-      "name": "Miguel Tavares",
-      "position": "ST",
-      "age": 27,
-      "apps": 19,
-      "goals": 2,
-      "rating": 4.5
+      "rating": 6
     },
     {
       "name": "Matias Lacava",
@@ -367,7 +361,15 @@
       "age": 23,
       "apps": 13,
       "goals": 1,
-      "rating": 4.3
+      "rating": 4.4
+    },
+    {
+      "name": "Miguel Tavares",
+      "position": "ST",
+      "age": 27,
+      "apps": 19,
+      "goals": 2,
+      "rating": 4.8
     },
     {
       "name": "Rodrigo Ramos",
@@ -375,7 +377,7 @@
       "age": 22,
       "apps": 22,
       "goals": 1,
-      "rating": 4.1
+      "rating": 4.4
     },
     {
       "name": "Yann Kitala",
@@ -383,7 +385,7 @@
       "age": 28,
       "apps": 22,
       "goals": 1,
-      "rating": 3.8
+      "rating": 4
     },
     {
       "name": "Manu Garrido",
@@ -391,15 +393,7 @@
       "age": 25,
       "apps": 16,
       "goals": 2,
-      "rating": 3.5
-    },
-    {
-      "name": "Damien Loppy",
-      "position": "ST",
-      "age": 28,
-      "apps": 31,
-      "goals": 1,
-      "rating": 4.4
+      "rating": 3.7
     },
     {
       "name": "Yassin Fortuné",
@@ -407,14 +401,22 @@
       "age": 27,
       "apps": 23,
       "goals": 3,
-      "rating": 3.8
+      "rating": 4
+    },
+    {
+      "name": "Damien Loppy",
+      "position": "ST",
+      "age": 28,
+      "apps": 31,
+      "goals": 1,
+      "rating": 4.7
     }
   ],
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Maritimo Funchal",
-      "rating": 1837.78
+      "name": "Port Vale",
+      "rating": 1824.22
     },
     {
       "name": "Real Zaragoza",

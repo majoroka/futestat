@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/298629/stats/deportivo-riestra/teams",
-    "collectedAtUtc": "2026-08-08T18:22:11.132Z"
+    "collectedAtUtc": "2026-08-09T16:20:42.947Z"
   },
   "availability": {
     "status": "archived",
-    "coverage": "low",
+    "coverage": "high",
     "notes": "Epoca anterior capturada para referencia estrutural."
   },
   "overview": {
-    "teamRating": 6.6,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 6.68,
+    "goalsPerMatch": 0.6,
+    "goalsConcededPerMatch": 0.8,
+    "averagePossessionPct": 37.1,
+    "cleanSheets": 8,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": null,
-    "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 18.7,
+    "xgDiff": 0.6,
+    "shotsOnTargetPerMatch": 3.5,
+    "bigChances": 33,
+    "bigChancesMissed": 23,
+    "accuratePassesPerMatch": 142.6,
+    "accurateLongBallsPerMatch": 26.5,
+    "accurateCrossesPerMatch": 3.7,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 363,
+    "cornersPerMatch": 81,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "xgConceded": 18.2,
+    "interceptionsPerMatch": 10.5,
+    "tacklesPerMatch": 17.7,
+    "clearancesPerMatch": 29.4,
+    "finalThirdRecoveriesPerMatch": 2.8,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 3.3
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 16.9,
+    "yellowCardsPerMatch": 69,
     "redCardsPerMatch": null
   }
 }

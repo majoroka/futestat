@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Racing-92-Fc/1438/",
-    "collectedAtUtc": "2026-08-08T18:26:36.034Z"
+    "collectedAtUtc": "2026-08-09T16:24:25.662Z"
   },
   "availability": {
     "status": "partial",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 263,
-    "europe": 4215
+    "europe": 4223
   },
   "form": {
     "last3": []

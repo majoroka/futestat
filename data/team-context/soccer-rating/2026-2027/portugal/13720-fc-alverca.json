@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Fc-Alverca/13720/",
-    "collectedAtUtc": "2026-08-08T18:27:58.751Z"
+    "collectedAtUtc": "2026-08-09T16:25:24.023Z"
   },
   "availability": {
     "status": "available",
@@ -22,13 +22,13 @@
     "notes": null
   },
   "ratings": {
-    "overall": 1932.01,
+    "overall": 1930.73,
     "home": 1969.74,
-    "away": 1894.28
+    "away": 1891.72
   },
   "rankings": {
-    "national": 12,
-    "europe": 374
+    "national": 13,
+    "europe": 373
   },
   "form": {
     "last3": [
@@ -39,8 +39,8 @@
   },
   "prediction": {
     "tip": "home_win",
-    "tipLabel": "Bet on (1) FC Porto (Stake 6/10)",
-    "confidencePct": 60,
+    "tipLabel": "Bet on (1) FC Porto (Stake 5/10)",
+    "confidencePct": 50,
     "strengthComparison": "underdog"
   },
   "oddsMarket": {
@@ -50,356 +50,374 @@
       "away": 12
     },
     "fair1X2": {
-      "home": 1.26,
-      "draw": 7.26,
-      "away": 14.21
+      "home": 1.27,
+      "draw": 6.96,
+      "away": 14.31
     },
-    "movementSummary": "home_odds_down_away_odds_up"
+    "movementSummary": "home_odds_flat_away_odds_up"
   },
   "squadHealth": {
-    "injuries": [
-      {
-        "player": "Alan Varela",
-        "status": "injury_or_suspension",
-        "description": null
-      }
-    ],
+    "injuries": [],
     "suspensions": []
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": 8,
+    "averageRating": 4.7,
     "players": [
       {
-        "name": "Diogo Costa",
+        "name": "Mendes Matheus",
         "position": "GK",
         "age": null,
-        "apps": 33,
+        "apps": 9,
         "goals": 0,
-        "rating": 8.2
+        "rating": 3.4
       },
       {
-        "name": "Jakub Kiwior",
+        "name": "Bastien Meupiyou",
         "position": "DF",
         "age": null,
-        "apps": 26,
+        "apps": 30,
         "goals": 0,
-        "rating": 7.6
+        "rating": 6.4
       },
       {
-        "name": "Jan Bednarek",
+        "name": "Steven Baseya",
+        "position": "DF",
+        "age": null,
+        "apps": 12,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Isaac James",
+        "position": "DF",
+        "age": null,
+        "apps": 19,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Yaya Bojang",
+        "position": "DF",
+        "age": null,
+        "apps": 0,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Chissumba",
+        "position": "DF",
+        "age": null,
+        "apps": 19,
+        "goals": 0,
+        "rating": 6.5
+      },
+      {
+        "name": "Davy Gui",
+        "position": "MF",
+        "age": null,
+        "apps": 28,
+        "goals": 1,
+        "rating": 5
+      },
+      {
+        "name": "Nabil Touaizi",
+        "position": "MF",
+        "age": null,
+        "apps": 33,
+        "goals": 1,
+        "rating": 5.4
+      },
+      {
+        "name": "Figueiredo",
+        "position": "ST",
+        "age": null,
+        "apps": 27,
+        "goals": 6,
+        "rating": 6.4
+      },
+      {
+        "name": "Chiquinho",
+        "position": "ST",
+        "age": null,
+        "apps": 20,
+        "goals": 2,
+        "rating": 6.4
+      },
+      {
+        "name": "André Gomes",
+        "position": "GK",
+        "age": null,
+        "apps": 25,
+        "goals": 0,
+        "rating": 6.7
+      },
+      {
+        "name": "Naves",
         "position": "DF",
         "age": null,
         "apps": 32,
         "goals": 2,
-        "rating": 8
+        "rating": 6.6
       },
       {
-        "name": "Alberto Costa",
-        "position": "DF",
-        "age": null,
-        "apps": 29,
-        "goals": 1,
-        "rating": 7.8
-      },
-      {
-        "name": "Gabri Veiga",
+        "name": "Lincoln",
         "position": "MF",
+        "age": null,
+        "apps": 30,
+        "goals": 2,
+        "rating": 7
+      },
+      {
+        "name": "Marezi",
+        "position": "ST",
         "age": null,
         "apps": 31,
-        "goals": 3,
-        "rating": 8.1
+        "goals": 9,
+        "rating": 6.8
       },
       {
-        "name": "Rodrigo Mora",
-        "position": "MF",
-        "age": null,
-        "apps": 28,
-        "goals": 1,
-        "rating": 7.8
-      },
-      {
-        "name": "Victor Froholdt",
-        "position": "MF",
-        "age": null,
-        "apps": 34,
-        "goals": 6,
-        "rating": 8.5
-      },
-      {
-        "name": "Samu Aghehowa",
-        "position": "ST",
-        "age": null,
-        "apps": 20,
-        "goals": 13,
-        "rating": 8.2
-      },
-      {
-        "name": "Borja Sainz",
-        "position": "ST",
-        "age": null,
-        "apps": 30,
-        "goals": 5,
-        "rating": 8.1
-      },
-      {
-        "name": "William Gomes",
-        "position": "ST",
-        "age": null,
-        "apps": 28,
-        "goals": 8,
-        "rating": 8.2
-      },
-      {
-        "name": "Pepê",
-        "position": "ST",
-        "age": null,
-        "apps": 30,
-        "goals": 3,
-        "rating": 7.5
-      },
-      {
-        "name": "Ramos Claudio",
-        "position": "GK",
-        "age": null,
-        "apps": 2,
-        "goals": 0,
-        "rating": 5.2
-      },
-      {
-        "name": "Francisco Moura",
+        "name": "Sergi Gomez",
         "position": "DF",
-        "age": null,
-        "apps": 21,
-        "goals": 2,
-        "rating": 7.3
-      },
-      {
-        "name": "Pablo Rosario",
-        "position": "MF",
-        "age": null,
-        "apps": 22,
-        "goals": 2,
-        "rating": 7.2
-      },
-      {
-        "name": "Deniz Gül",
-        "position": "ST",
         "age": null,
         "apps": 29,
-        "goals": 5,
-        "rating": 7.3
+        "goals": 0,
+        "rating": 7.2
       },
       {
-        "name": "Oskar Pietuszewski",
-        "position": "ST",
+        "name": "Vasco Moreira",
+        "position": "MF",
         "age": null,
         "apps": 16,
-        "goals": 3,
-        "rating": 7.2
-      },
-      {
-        "name": "Martim Fernandes",
-        "position": "DF",
-        "age": null,
-        "apps": 20,
-        "goals": 1,
-        "rating": 7.2
+        "goals": 0,
+        "rating": 5.8
       }
     ]
   },
   "squad": [
     {
-      "name": "Ramos Claudio",
-      "position": "GK",
-      "age": 34,
-      "apps": 2,
-      "goals": 0,
-      "rating": 5.2
-    },
-    {
-      "name": "Diogo Costa",
-      "position": "GK",
-      "age": 26,
-      "apps": 33,
-      "goals": 0,
-      "rating": 8.2
-    },
-    {
-      "name": "Nehuen Perez",
+      "name": "Mateus",
       "position": null,
-      "age": 25,
-      "apps": 6,
-      "goals": 1,
-      "rating": 6.8
+      "age": 24,
+      "apps": 1,
+      "goals": 0,
+      "rating": 1.3
     },
     {
-      "name": "Zaidu Sanusi",
-      "position": null,
-      "age": 28,
-      "apps": 17,
-      "goals": 1,
-      "rating": 6.2
+      "name": "Mendes Matheus",
+      "position": "GK",
+      "age": 27,
+      "apps": 9,
+      "goals": 0,
+      "rating": 3.4
     },
     {
-      "name": "Dominik Prpic",
+      "name": "André Gomes",
+      "position": "GK",
+      "age": 21,
+      "apps": 25,
+      "goals": 0,
+      "rating": 6.7
+    },
+    {
+      "name": "Kauan",
       "position": null,
       "age": 21,
-      "apps": 6,
+      "apps": 4,
       "goals": 0,
-      "rating": 5.7
+      "rating": 1.4
     },
     {
-      "name": "Jakub Kiwior",
-      "position": "DF",
-      "age": 26,
-      "apps": 26,
-      "goals": 0,
-      "rating": 7.6
-    },
-    {
-      "name": "Jan Bednarek",
-      "position": "DF",
-      "age": 30,
-      "apps": 32,
-      "goals": 2,
-      "rating": 8
-    },
-    {
-      "name": "Alberto Costa",
-      "position": "DF",
+      "name": "Julian Martinez",
+      "position": null,
       "age": 22,
-      "apps": 29,
-      "goals": 1,
-      "rating": 7.8
+      "apps": 11,
+      "goals": 0,
+      "rating": 3.8
     },
     {
-      "name": "Francisco Moura",
-      "position": "DF",
-      "age": 26,
-      "apps": 21,
-      "goals": 2,
-      "rating": 7.3
+      "name": "Diogo Spencer",
+      "position": null,
+      "age": 22,
+      "apps": 7,
+      "goals": 0,
+      "rating": 5
     },
     {
-      "name": "Martim Fernandes",
+      "name": "Ikker Julian",
+      "position": null,
+      "age": 20,
+      "apps": 2,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Bastien Meupiyou",
       "position": "DF",
       "age": 20,
-      "apps": 20,
-      "goals": 1,
+      "apps": 30,
+      "goals": 0,
+      "rating": 6.4
+    },
+    {
+      "name": "Steven Baseya",
+      "position": "DF",
+      "age": 21,
+      "apps": 12,
+      "goals": 0,
+      "rating": 4
+    },
+    {
+      "name": "Yaya Bojang",
+      "position": "DF",
+      "age": 21,
+      "apps": 0,
+      "goals": 0,
+      "rating": 4.7
+    },
+    {
+      "name": "Naves",
+      "position": "DF",
+      "age": 24,
+      "apps": 32,
+      "goals": 2,
+      "rating": 6.6
+    },
+    {
+      "name": "Sergi Gomez",
+      "position": "DF",
+      "age": 34,
+      "apps": 29,
+      "goals": 0,
       "rating": 7.2
     },
     {
-      "name": "Seko Fofana",
+      "name": "Isaac James",
+      "position": "DF",
+      "age": 21,
+      "apps": 19,
+      "goals": 0,
+      "rating": 3.8
+    },
+    {
+      "name": "Chissumba",
+      "position": "DF",
+      "age": 20,
+      "apps": 19,
+      "goals": 0,
+      "rating": 6.5
+    },
+    {
+      "name": "Sabit Abdulai",
       "position": null,
-      "age": 31,
-      "apps": 12,
-      "goals": 3,
-      "rating": 6.8
+      "age": 27,
+      "apps": 17,
+      "goals": 0,
+      "rating": 4.8
     },
     {
-      "name": "Gabri Veiga",
+      "name": "Rhaldney",
+      "position": null,
+      "age": 27,
+      "apps": 14,
+      "goals": 1,
+      "rating": 5.5
+    },
+    {
+      "name": "Vasco Moreira",
       "position": "MF",
-      "age": 23,
-      "apps": 31,
-      "goals": 3,
-      "rating": 8.1
+      "age": 25,
+      "apps": 16,
+      "goals": 0,
+      "rating": 5.8
     },
     {
-      "name": "Rodrigo Mora",
+      "name": "Davy Gui",
       "position": "MF",
       "age": 19,
       "apps": 28,
       "goals": 1,
-      "rating": 7.8
+      "rating": 5
     },
     {
-      "name": "Pablo Rosario",
+      "name": "Lincoln",
       "position": "MF",
-      "age": 29,
-      "apps": 22,
-      "goals": 2,
-      "rating": 7.2
-    },
-    {
-      "name": "Victor Froholdt",
-      "position": "MF",
-      "age": 20,
-      "apps": 34,
-      "goals": 6,
-      "rating": 8.5
-    },
-    {
-      "name": "Alan Varela",
-      "position": null,
-      "age": 24,
+      "age": 27,
       "apps": 30,
       "goals": 2,
-      "rating": 8
+      "rating": 7
     },
     {
-      "name": "Luuk de Jong",
+      "name": "Zakaria Kassary",
       "position": null,
-      "age": 35,
-      "apps": 5,
-      "goals": 1,
-      "rating": 6.5
+      "age": 20,
+      "apps": 3,
+      "goals": 0,
+      "rating": 2.9
     },
     {
-      "name": "Borja Sainz",
-      "position": "ST",
+      "name": "Nabil Touaizi",
+      "position": "MF",
       "age": 25,
-      "apps": 30,
-      "goals": 5,
-      "rating": 8.1
-    },
-    {
-      "name": "William Gomes",
-      "position": "ST",
-      "age": 20,
-      "apps": 28,
-      "goals": 8,
-      "rating": 8.2
-    },
-    {
-      "name": "Pepê",
-      "position": "ST",
-      "age": 29,
-      "apps": 30,
-      "goals": 3,
-      "rating": 7.5
-    },
-    {
-      "name": "Oskar Pietuszewski",
-      "position": "ST",
-      "age": 17,
-      "apps": 16,
-      "goals": 3,
-      "rating": 7.2
-    },
-    {
-      "name": "Terem Moffi",
-      "position": null,
-      "age": 26,
-      "apps": 9,
+      "apps": 33,
       "goals": 1,
-      "rating": 6.5
+      "rating": 5.4
     },
     {
-      "name": "Samu Aghehowa",
+      "name": "Felipe Lima",
+      "position": null,
+      "age": 20,
+      "apps": 6,
+      "goals": 0,
+      "rating": 2.3
+    },
+    {
+      "name": "Stephane Diarra",
+      "position": null,
+      "age": 27,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.6
+    },
+    {
+      "name": "Cédric Nuozzi",
+      "position": null,
+      "age": 20,
+      "apps": 25,
+      "goals": 1,
+      "rating": 5.4
+    },
+    {
+      "name": "Mathis Clairicia",
+      "position": null,
+      "age": 23,
+      "apps": 9,
+      "goals": 0,
+      "rating": 4.2
+    },
+    {
+      "name": "Figueiredo",
+      "position": "ST",
+      "age": 24,
+      "apps": 27,
+      "goals": 6,
+      "rating": 6.4
+    },
+    {
+      "name": "Chiquinho",
+      "position": "ST",
+      "age": 26,
+      "apps": 20,
+      "goals": 2,
+      "rating": 6.4
+    },
+    {
+      "name": "Marezi",
       "position": "ST",
       "age": 22,
-      "apps": 20,
-      "goals": 13,
-      "rating": 8.2
-    },
-    {
-      "name": "Deniz Gül",
-      "position": "ST",
-      "age": 21,
-      "apps": 29,
-      "goals": 5,
-      "rating": 7.3
+      "apps": 31,
+      "goals": 9,
+      "rating": 6.8
     }
   ],
   "recentMatches": [],
@@ -409,8 +427,8 @@
       "rating": 1932.03
     },
     {
-      "name": "FK Neftchi Baku",
-      "rating": 1930.32
+      "name": "Banik Ostrava",
+      "rating": 1929.59
     }
   ]
 }

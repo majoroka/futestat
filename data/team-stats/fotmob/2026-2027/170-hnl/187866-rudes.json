@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/187866/stats/rudes/teams",
-    "collectedAtUtc": "2026-08-08T18:23:40.228Z"
+    "collectedAtUtc": "2026-08-09T16:22:08.277Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 6.5,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
+    "teamRating": 6.23,
+    "goalsPerMatch": 1,
+    "goalsConcededPerMatch": 4,
+    "averagePossessionPct": 40.2,
     "cleanSheets": null,
     "attendanceAverage": null
   },
   "attack": {
     "xg": null,
     "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
+    "shotsOnTargetPerMatch": 2.5,
     "bigChances": null,
     "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "accuratePassesPerMatch": 258,
+    "accurateLongBallsPerMatch": 30.5,
+    "accurateCrossesPerMatch": 4,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 26,
+    "cornersPerMatch": 5,
     "setPieceGoals": null
   },
   "defense": {
     "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
+    "interceptionsPerMatch": 7.5,
+    "tacklesPerMatch": 14,
+    "clearancesPerMatch": 23,
     "finalThirdRecoveriesPerMatch": null,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 6
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 12.5,
+    "yellowCardsPerMatch": 2,
     "redCardsPerMatch": null
   }
 }

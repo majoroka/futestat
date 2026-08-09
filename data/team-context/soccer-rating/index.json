@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-08-09T16:01:20.507Z",
+  "generatedAtUtc": "2026-08-09T16:51:36.322Z",
   "entries": [
     {
       "season": "2026-2027",
@@ -9,7 +9,7 @@
       "teamSlug": "racing-92-fc",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/argentina/1438-racing-92-fc.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/argentina/1438-racing-92-fc.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.637Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.153Z",
       "availabilityStatus": "partial"
     },
     {
@@ -20,7 +20,7 @@
       "teamSlug": "huracan-valencia",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/argentina/7400-huracan-valencia.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/argentina/7400-huracan-valencia.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.639Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.156Z",
       "availabilityStatus": "partial"
     },
     {
@@ -31,7 +31,7 @@
       "teamSlug": "vitoria-guimaraes",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/brazil/1089-vitoria-guimaraes.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/brazil/1089-vitoria-guimaraes.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.640Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.159Z",
       "availabilityStatus": "available"
     },
     {
@@ -42,7 +42,7 @@
       "teamSlug": "cf-internacional-de-madrid",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/brazil/13490-cf-internacional-de-madrid.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/brazil/13490-cf-internacional-de-madrid.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.641Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.160Z",
       "availabilityStatus": "partial"
     },
     {
@@ -53,7 +53,7 @@
       "teamSlug": "athletico-marseille",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/brazil/8058-athletico-marseille.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/brazil/8058-athletico-marseille.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.641Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.160Z",
       "availabilityStatus": "partial"
     },
     {
@@ -64,7 +64,7 @@
       "teamSlug": "college-corinthians",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/brazil/8624-college-corinthians.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/brazil/8624-college-corinthians.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.642Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.161Z",
       "availabilityStatus": "partial"
     },
     {
@@ -75,7 +75,7 @@
       "teamSlug": "tartu-fc-santos",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/brazil/9192-tartu-fc-santos.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/brazil/9192-tartu-fc-santos.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.642Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.162Z",
       "availabilityStatus": "partial"
     },
     {
@@ -86,7 +86,7 @@
       "teamSlug": "fk-septemvri-sofia",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/bulgaria/11755-fk-septemvri-sofia.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/bulgaria/11755-fk-septemvri-sofia.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.643Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.163Z",
       "availabilityStatus": "available"
     },
     {
@@ -97,7 +97,7 @@
       "teamSlug": "levski-sofia",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/bulgaria/1295-levski-sofia.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/bulgaria/1295-levski-sofia.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.644Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.164Z",
       "availabilityStatus": "available"
     },
     {
@@ -108,7 +108,7 @@
       "teamSlug": "cska-1948-sofia",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/bulgaria/13235-cska-1948-sofia.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/bulgaria/13235-cska-1948-sofia.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.645Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.165Z",
       "availabilityStatus": "available"
     },
     {
@@ -119,7 +119,7 @@
       "teamSlug": "cska-sofia",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/bulgaria/1456-cska-sofia.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/bulgaria/1456-cska-sofia.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.646Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.166Z",
       "availabilityStatus": "available"
     },
     {
@@ -130,7 +130,7 @@
       "teamSlug": "lokomotiv-sofia",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/bulgaria/1457-lokomotiv-sofia.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/bulgaria/1457-lokomotiv-sofia.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.647Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.167Z",
       "availabilityStatus": "available"
     },
     {
@@ -141,7 +141,7 @@
       "teamSlug": "lokomotiv-plovdiv",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/bulgaria/1458-lokomotiv-plovdiv.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/bulgaria/1458-lokomotiv-plovdiv.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.647Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.168Z",
       "availabilityStatus": "available"
     },
     {
@@ -152,7 +152,7 @@
       "teamSlug": "cherno-more-varna",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/bulgaria/644-cherno-more-varna.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/bulgaria/644-cherno-more-varna.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.648Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.169Z",
       "availabilityStatus": "available"
     },
     {
@@ -163,7 +163,7 @@
       "teamSlug": "ludogorets-razgrad",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/bulgaria/7254-ludogorets-razgrad.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/bulgaria/7254-ludogorets-razgrad.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.649Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.170Z",
       "availabilityStatus": "available"
     },
     {
@@ -174,7 +174,7 @@
       "teamSlug": "fk-istra",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/croatia/3439-fk-istra.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/croatia/3439-fk-istra.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.649Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.171Z",
       "availabilityStatus": "partial"
     },
     {
@@ -185,7 +185,7 @@
       "teamSlug": "dinamo-zagreb",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/croatia/484-dinamo-zagreb.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/croatia/484-dinamo-zagreb.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.650Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.172Z",
       "availabilityStatus": "available"
     },
     {
@@ -196,7 +196,7 @@
       "teamSlug": "nd-gorica",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/croatia/520-nd-gorica.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/croatia/520-nd-gorica.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.651Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.172Z",
       "availabilityStatus": "partial"
     },
     {
@@ -207,7 +207,7 @@
       "teamSlug": "nk-rudes",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/croatia/5711-nk-rudes.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/croatia/5711-nk-rudes.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.651Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.173Z",
       "availabilityStatus": "available"
     },
     {
@@ -218,7 +218,7 @@
       "teamSlug": "nk-rijeka",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/croatia/636-nk-rijeka.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/croatia/636-nk-rijeka.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.652Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.174Z",
       "availabilityStatus": "available"
     },
     {
@@ -229,7 +229,7 @@
       "teamSlug": "nk-osijek",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/croatia/638-nk-osijek.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/croatia/638-nk-osijek.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.653Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.175Z",
       "availabilityStatus": "available"
     },
     {
@@ -240,7 +240,7 @@
       "teamSlug": "fk-hajduk-kula",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/croatia/645-fk-hajduk-kula.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/croatia/645-fk-hajduk-kula.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.654Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.175Z",
       "availabilityStatus": "partial"
     },
     {
@@ -251,7 +251,7 @@
       "teamSlug": "nk-lokomotiva",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/croatia/8329-nk-lokomotiva.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/croatia/8329-nk-lokomotiva.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.656Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.176Z",
       "availabilityStatus": "partial"
     },
     {
@@ -262,7 +262,7 @@
       "teamSlug": "ham-kam",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/norway/112-ham-kam.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/norway/112-ham-kam.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.656Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.177Z",
       "availabilityStatus": "available"
     },
     {
@@ -273,7 +273,7 @@
       "teamSlug": "molde-fk",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/norway/118-molde-fk.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/norway/118-molde-fk.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.657Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.178Z",
       "availabilityStatus": "available"
     },
     {
@@ -284,7 +284,7 @@
       "teamSlug": "sarpsborg-08-ff",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/norway/121-sarpsborg-08-ff.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/norway/121-sarpsborg-08-ff.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.658Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.178Z",
       "availabilityStatus": "available"
     },
     {
@@ -295,7 +295,7 @@
       "teamSlug": "kfum-kam-oslo",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/norway/3243-kfum-kam-oslo.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/norway/3243-kfum-kam-oslo.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.659Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.179Z",
       "availabilityStatus": "available"
     },
     {
@@ -306,7 +306,7 @@
       "teamSlug": "kristiansund-bk",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/norway/402-kristiansund-bk.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/norway/402-kristiansund-bk.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.659Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.180Z",
       "availabilityStatus": "available"
     },
     {
@@ -317,7 +317,7 @@
       "teamSlug": "rosenborg-bk-ii",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/norway/422-rosenborg-bk-ii.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/norway/422-rosenborg-bk-ii.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.660Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.181Z",
       "availabilityStatus": "partial"
     },
     {
@@ -328,7 +328,7 @@
       "teamSlug": "valerenga-oslo",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/norway/71-valerenga-oslo.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/norway/71-valerenga-oslo.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.660Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.182Z",
       "availabilityStatus": "available"
     },
     {
@@ -339,7 +339,7 @@
       "teamSlug": "viking-stavanger",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/norway/72-viking-stavanger.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/norway/72-viking-stavanger.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.661Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.183Z",
       "availabilityStatus": "available"
     },
     {
@@ -350,7 +350,7 @@
       "teamSlug": "fredrikstad-fk",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/norway/73-fredrikstad-fk.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/norway/73-fredrikstad-fk.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.662Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.183Z",
       "availabilityStatus": "available"
     },
     {
@@ -361,7 +361,7 @@
       "teamSlug": "sandefjord-bk",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/norway/7755-sandefjord-bk.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/norway/7755-sandefjord-bk.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.662Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.184Z",
       "availabilityStatus": "partial"
     },
     {
@@ -372,18 +372,18 @@
       "teamSlug": "benfica-lisboa",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1076-benfica-lisboa.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1076-benfica-lisboa.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.663Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.185Z",
       "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
       "countrySlug": "portugal",
-      "sofascoreTeamId": null,
+      "sofascoreTeamId": "3007",
       "teamId": "1077",
       "teamSlug": "maritimo-funchal",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1077-maritimo-funchal.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1077-maritimo-funchal.html",
-      "parsedAtUtc": "2026-08-09T16:01:20.507Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.186Z",
       "availabilityStatus": "available"
     },
     {
@@ -394,7 +394,18 @@
       "teamSlug": "pacos-ferreira",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1078-pacos-ferreira.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1078-pacos-ferreira.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.664Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.187Z",
+      "availabilityStatus": "partial"
+    },
+    {
+      "season": "2026-2027",
+      "countrySlug": "portugal",
+      "sofascoreTeamId": "3035",
+      "teamId": "1080",
+      "teamSlug": "cf-estrela",
+      "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1080-cf-estrela.json",
+      "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1080-cf-estrela.html",
+      "parsedAtUtc": "2026-08-09T16:51:36.322Z",
       "availabilityStatus": "available"
     },
     {
@@ -405,7 +416,7 @@
       "teamSlug": "sporting-braga",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1083-sporting-braga.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1083-sporting-braga.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.665Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.188Z",
       "availabilityStatus": "available"
     },
     {
@@ -416,7 +427,7 @@
       "teamSlug": "fc-porto",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1084-fc-porto.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1084-fc-porto.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.666Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.188Z",
       "availabilityStatus": "available"
     },
     {
@@ -427,7 +438,7 @@
       "teamSlug": "sporting-lisboa",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1085-sporting-lisboa.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1085-sporting-lisboa.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.666Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.189Z",
       "availabilityStatus": "available"
     },
     {
@@ -438,18 +449,18 @@
       "teamSlug": "uniao-leiria",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1087-uniao-leiria.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1087-uniao-leiria.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.667Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.191Z",
       "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
       "countrySlug": "portugal",
-      "sofascoreTeamId": "74475",
+      "sofascoreTeamId": "3009",
       "teamId": "1089",
       "teamSlug": "vitoria-guimaraes",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1089-vitoria-guimaraes.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1089-vitoria-guimaraes.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.668Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.192Z",
       "availabilityStatus": "available"
     },
     {
@@ -460,7 +471,7 @@
       "teamSlug": "avs-futebol",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1091-avs-futebol.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1091-avs-futebol.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.668Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.193Z",
       "availabilityStatus": "available"
     },
     {
@@ -471,7 +482,7 @@
       "teamSlug": "cd-trofense",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1094-cd-trofense.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1094-cd-trofense.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.669Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.194Z",
       "availabilityStatus": "partial"
     },
     {
@@ -482,7 +493,7 @@
       "teamSlug": "fc-penafiel",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1096-fc-penafiel.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1096-fc-penafiel.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.670Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.195Z",
       "availabilityStatus": "available"
     },
     {
@@ -493,7 +504,7 @@
       "teamSlug": "gil-vicente",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1097-gil-vicente.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1097-gil-vicente.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.670Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.196Z",
       "availabilityStatus": "available"
     },
     {
@@ -504,7 +515,7 @@
       "teamSlug": "estoril-praia",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1098-estoril-praia.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1098-estoril-praia.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.671Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.197Z",
       "availabilityStatus": "available"
     },
     {
@@ -515,7 +526,7 @@
       "teamSlug": "rio-ave",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1100-rio-ave.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1100-rio-ave.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.672Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.198Z",
       "availabilityStatus": "available"
     },
     {
@@ -526,7 +537,7 @@
       "teamSlug": "portimonense-sc",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1101-portimonense-sc.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1101-portimonense-sc.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.673Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.199Z",
       "availabilityStatus": "available"
     },
     {
@@ -537,7 +548,7 @@
       "teamSlug": "varzim-sc",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1102-varzim-sc.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1102-varzim-sc.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.673Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.200Z",
       "availabilityStatus": "partial"
     },
     {
@@ -548,7 +559,7 @@
       "teamSlug": "cd-feirense",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1104-cd-feirense.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1104-cd-feirense.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.674Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.201Z",
       "availabilityStatus": "available"
     },
     {
@@ -559,7 +570,7 @@
       "teamSlug": "fc-vizela",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1105-fc-vizela.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1105-fc-vizela.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.674Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.202Z",
       "availabilityStatus": "available"
     },
     {
@@ -570,7 +581,7 @@
       "teamSlug": "fc-alverca",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/13720-fc-alverca.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/13720-fc-alverca.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.675Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.202Z",
       "availabilityStatus": "available"
     },
     {
@@ -581,7 +592,7 @@
       "teamSlug": "ad-marco-09",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/18196-ad-marco-09.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/18196-ad-marco-09.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.676Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.203Z",
       "availabilityStatus": "partial"
     },
     {
@@ -592,7 +603,7 @@
       "teamSlug": "moreirense-fc",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/2872-moreirense-fc.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/2872-moreirense-fc.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.676Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.204Z",
       "availabilityStatus": "available"
     },
     {
@@ -603,7 +614,7 @@
       "teamSlug": "caldas-sc",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/2975-caldas-sc.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/2975-caldas-sc.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.677Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.205Z",
       "availabilityStatus": "partial"
     },
     {
@@ -614,7 +625,7 @@
       "teamSlug": "sc-covilha",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/2978-sc-covilha.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/2978-sc-covilha.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.678Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.206Z",
       "availabilityStatus": "partial"
     },
     {
@@ -625,7 +636,7 @@
       "teamSlug": "scu-torreense",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/2984-scu-torreense.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/2984-scu-torreense.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.678Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.207Z",
       "availabilityStatus": "available"
     },
     {
@@ -636,7 +647,7 @@
       "teamSlug": "cd-mafra",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/2988-cd-mafra.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/2988-cd-mafra.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.679Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.207Z",
       "availabilityStatus": "partial"
     },
     {
@@ -647,7 +658,7 @@
       "teamSlug": "ad-fafe",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/3040-ad-fafe.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/3040-ad-fafe.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.679Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.208Z",
       "availabilityStatus": "partial"
     },
     {
@@ -658,7 +669,7 @@
       "teamSlug": "sc-vianense",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/4196-sc-vianense.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/4196-sc-vianense.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.680Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.209Z",
       "availabilityStatus": "partial"
     },
     {
@@ -669,7 +680,7 @@
       "teamSlug": "fc-arouca",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/4202-fc-arouca.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/4202-fc-arouca.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.681Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.210Z",
       "availabilityStatus": "available"
     },
     {
@@ -680,7 +691,7 @@
       "teamSlug": "amarante-fc",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/4203-amarante-fc.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/4203-amarante-fc.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.681Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.211Z",
       "availabilityStatus": "available"
     },
     {
@@ -691,7 +702,7 @@
       "teamSlug": "usc-paredes",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/5839-usc-paredes.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/5839-usc-paredes.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.682Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.211Z",
       "availabilityStatus": "partial"
     },
     {
@@ -702,7 +713,7 @@
       "teamSlug": "casa-pia-ac",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/6011-casa-pia-ac.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/6011-casa-pia-ac.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.682Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.212Z",
       "availabilityStatus": "available"
     },
     {
@@ -713,7 +724,7 @@
       "teamSlug": "cd-tondela",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/6014-cd-tondela.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/6014-cd-tondela.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.683Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.213Z",
       "availabilityStatus": "available"
     },
     {
@@ -724,8 +735,8 @@
       "teamSlug": "academico-viseu",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/6047-academico-viseu.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/6047-academico-viseu.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.684Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:26:14.214Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -735,7 +746,7 @@
       "teamSlug": "sc-farense",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/6781-sc-farense.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/6781-sc-farense.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.684Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.215Z",
       "availabilityStatus": "available"
     },
     {
@@ -746,7 +757,7 @@
       "teamSlug": "fc-felgueiras",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/9032-fc-felgueiras.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/9032-fc-felgueiras.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.685Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.216Z",
       "availabilityStatus": "available"
     },
     {
@@ -757,7 +768,7 @@
       "teamSlug": "rapid-bucuresti",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/romania/1008-rapid-bucuresti.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/romania/1008-rapid-bucuresti.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.686Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.217Z",
       "availabilityStatus": "available"
     },
     {
@@ -768,7 +779,7 @@
       "teamSlug": "farul-constanta",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/romania/1018-farul-constanta.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/romania/1018-farul-constanta.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.687Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.218Z",
       "availabilityStatus": "available"
     },
     {
@@ -779,7 +790,7 @@
       "teamSlug": "petrolul-ploiesti",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/romania/2475-petrolul-ploiesti.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/romania/2475-petrolul-ploiesti.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.687Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.219Z",
       "availabilityStatus": "available"
     },
     {
@@ -790,7 +801,7 @@
       "teamSlug": "fk-legion-dynamo",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/russia/11075-fk-legion-dynamo.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/russia/11075-fk-legion-dynamo.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.688Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.220Z",
       "availabilityStatus": "partial"
     },
     {
@@ -801,7 +812,7 @@
       "teamSlug": "lokomotiv-moskva",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/russia/127-lokomotiv-moskva.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/russia/127-lokomotiv-moskva.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.689Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.221Z",
       "availabilityStatus": "available"
     },
     {
@@ -812,7 +823,7 @@
       "teamSlug": "krylya-sovetov-samara",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/russia/128-krylya-sovetov-samara.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/russia/128-krylya-sovetov-samara.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.689Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.221Z",
       "availabilityStatus": "available"
     },
     {
@@ -823,7 +834,7 @@
       "teamSlug": "fk-rostov",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/russia/139-fk-rostov.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/russia/139-fk-rostov.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.690Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.222Z",
       "availabilityStatus": "available"
     },
     {
@@ -834,7 +845,7 @@
       "teamSlug": "rodina-moscow",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/russia/13990-rodina-moscow.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/russia/13990-rodina-moscow.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.691Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.223Z",
       "availabilityStatus": "available"
     },
     {
@@ -845,7 +856,7 @@
       "teamSlug": "dinamo-makhachkala",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/russia/13992-dinamo-makhachkala.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/russia/13992-dinamo-makhachkala.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.692Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.224Z",
       "availabilityStatus": "available"
     },
     {
@@ -856,7 +867,7 @@
       "teamSlug": "spartak-moskva",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/russia/140-spartak-moskva.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/russia/140-spartak-moskva.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.692Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.225Z",
       "availabilityStatus": "available"
     },
     {
@@ -867,7 +878,7 @@
       "teamSlug": "fk-krasnodar",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/russia/3300-fk-krasnodar.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/russia/3300-fk-krasnodar.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.693Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.225Z",
       "availabilityStatus": "available"
     },
     {
@@ -878,7 +889,7 @@
       "teamSlug": "baltika-kaliningrad",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/russia/357-baltika-kaliningrad.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/russia/357-baltika-kaliningrad.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.694Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.226Z",
       "availabilityStatus": "available"
     },
     {
@@ -889,7 +900,7 @@
       "teamSlug": "fk-orenburg",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/russia/582-fk-orenburg.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/russia/582-fk-orenburg.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.695Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.227Z",
       "availabilityStatus": "available"
     },
     {
@@ -900,7 +911,7 @@
       "teamSlug": "dukla-banska-bystrica",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/slovakia/160-dukla-banska-bystrica.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/slovakia/160-dukla-banska-bystrica.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.695Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.228Z",
       "availabilityStatus": "available"
     },
     {
@@ -911,7 +922,7 @@
       "teamSlug": "mfk-ruzomberok",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/slovakia/163-mfk-ruzomberok.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/slovakia/163-mfk-ruzomberok.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.696Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.228Z",
       "availabilityStatus": "available"
     },
     {
@@ -922,7 +933,7 @@
       "teamSlug": "fc-spartak-trnava",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/slovakia/164-fc-spartak-trnava.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/slovakia/164-fc-spartak-trnava.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.697Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.229Z",
       "availabilityStatus": "available"
     },
     {
@@ -933,7 +944,7 @@
       "teamSlug": "msk-zilina",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/slovakia/165-msk-zilina.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/slovakia/165-msk-zilina.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.697Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.230Z",
       "availabilityStatus": "available"
     },
     {
@@ -944,7 +955,7 @@
       "teamSlug": "as-trencin",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/slovakia/166-as-trencin.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/slovakia/166-as-trencin.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.698Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.231Z",
       "availabilityStatus": "available"
     },
     {
@@ -955,7 +966,7 @@
       "teamSlug": "mfk-skalica",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/slovakia/8750-mfk-skalica.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/slovakia/8750-mfk-skalica.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.699Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.233Z",
       "availabilityStatus": "available"
     },
     {
@@ -966,7 +977,7 @@
       "teamSlug": "nk-celje",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/slovenia/1131-nk-celje.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/slovenia/1131-nk-celje.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.700Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.233Z",
       "availabilityStatus": "available"
     },
     {
@@ -977,7 +988,7 @@
       "teamSlug": "nk-bravo",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/slovenia/13621-nk-bravo.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/slovenia/13621-nk-bravo.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.700Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.234Z",
       "availabilityStatus": "available"
     },
     {
@@ -988,8 +999,8 @@
       "teamSlug": "brinje-grosuplje",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/slovenia/16993-brinje-grosuplje.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/slovenia/16993-brinje-grosuplje.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.701Z",
-      "availabilityStatus": "available"
+      "parsedAtUtc": "2026-08-09T16:26:14.235Z",
+      "availabilityStatus": "partial"
     },
     {
       "season": "2026-2027",
@@ -999,7 +1010,7 @@
       "teamSlug": "nk-maribor",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/slovenia/25-nk-maribor.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/slovenia/25-nk-maribor.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.702Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.236Z",
       "availabilityStatus": "available"
     },
     {
@@ -1010,7 +1021,7 @@
       "teamSlug": "nk-koper",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/slovenia/538-nk-koper.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/slovenia/538-nk-koper.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.703Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.237Z",
       "availabilityStatus": "available"
     },
     {
@@ -1021,7 +1032,7 @@
       "teamSlug": "aluminij-kidricevo",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/slovenia/6803-aluminij-kidricevo.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/slovenia/6803-aluminij-kidricevo.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.703Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.239Z",
       "availabilityStatus": "available"
     },
     {
@@ -1032,7 +1043,7 @@
       "teamSlug": "obolon-kiev",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/ukraine/1192-obolon-kiev.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/ukraine/1192-obolon-kiev.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.704Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.239Z",
       "availabilityStatus": "available"
     },
     {
@@ -1043,7 +1054,7 @@
       "teamSlug": "veres-rivne",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/ukraine/1214-veres-rivne.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/ukraine/1214-veres-rivne.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.705Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.240Z",
       "availabilityStatus": "available"
     },
     {
@@ -1054,7 +1065,7 @@
       "teamSlug": "fk-kudrivka",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/ukraine/17770-fk-kudrivka.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/ukraine/17770-fk-kudrivka.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.706Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.241Z",
       "availabilityStatus": "available"
     },
     {
@@ -1065,7 +1076,7 @@
       "teamSlug": "shakhtar-donezk",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/ukraine/299-shakhtar-donezk.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/ukraine/299-shakhtar-donezk.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.706Z",
+      "parsedAtUtc": "2026-08-09T16:26:14.242Z",
       "availabilityStatus": "available"
     }
   ]

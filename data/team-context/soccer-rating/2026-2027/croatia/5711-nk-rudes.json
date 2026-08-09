@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Nk-Rudes/5711/",
-    "collectedAtUtc": "2026-08-08T18:27:06.975Z"
+    "collectedAtUtc": "2026-08-09T16:24:50.792Z"
   },
   "availability": {
     "status": "available",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 12,
-    "europe": 1233
+    "europe": 1240
   },
   "form": {
     "last3": [
@@ -62,7 +62,7 @@
   },
   "expectedLineup": {
     "formation": null,
-    "averageRating": null,
+    "averageRating": 2.8,
     "players": [
       {
         "name": "Lovre Rogic",
@@ -335,12 +335,12 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "2DROTS",
-      "rating": 1680.35
+      "name": "Epicentre Kamianets-Podilskyi",
+      "rating": 1657.51
     },
     {
-      "name": "Sportfreunde Lotte",
-      "rating": 1647.03
+      "name": "SC Imst",
+      "rating": 1678.88
     }
   ]
 }

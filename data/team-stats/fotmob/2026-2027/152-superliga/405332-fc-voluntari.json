@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/405332/stats/fc-voluntari/teams",
-    "collectedAtUtc": "2026-08-08T18:25:37.473Z"
+    "collectedAtUtc": "2026-08-09T16:23:36.286Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 7.2,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 6.4,
+    "goalsPerMatch": 0.8,
+    "goalsConcededPerMatch": 2.8,
+    "averagePossessionPct": 39,
+    "cleanSheets": 1,
     "attendanceAverage": null
   },
   "attack": {
     "xg": null,
     "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "shotsOnTargetPerMatch": 3,
+    "bigChances": 7,
+    "bigChancesMissed": 6,
+    "accuratePassesPerMatch": 252.3,
+    "accurateLongBallsPerMatch": 23.3,
+    "accurateCrossesPerMatch": 1.8,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 67,
+    "cornersPerMatch": 10,
     "setPieceGoals": null
   },
   "defense": {
     "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "interceptionsPerMatch": 9.5,
+    "tacklesPerMatch": 14.3,
+    "clearancesPerMatch": 22.5,
+    "finalThirdRecoveriesPerMatch": 3.3,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 1.8
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 8,
+    "yellowCardsPerMatch": 4,
     "redCardsPerMatch": null
   }
 }

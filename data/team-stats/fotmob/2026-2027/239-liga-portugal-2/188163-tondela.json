@@ -18,7 +18,7 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/188163/stats/tondela/teams",
-    "collectedAtUtc": "2026-08-08T18:24:50.170Z"
+    "collectedAtUtc": "2026-08-09T16:22:57.281Z"
   },
   "availability": {
     "status": "partial",
@@ -26,9 +26,9 @@
     "notes": "HTML capturado com cobertura parcial de metricas agregadas."
   },
   "overview": {
-    "teamRating": 6.3,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
+    "teamRating": null,
+    "goalsPerMatch": 2,
+    "goalsConcededPerMatch": 1,
     "averagePossessionPct": null,
     "cleanSheets": null,
     "attendanceAverage": null

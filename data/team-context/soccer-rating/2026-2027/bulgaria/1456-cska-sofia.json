@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Cska-Sofia/1456/",
-    "collectedAtUtc": "2026-08-08T18:26:47.782Z"
+    "collectedAtUtc": "2026-08-09T16:24:35.948Z"
   },
   "availability": {
     "status": "available",
@@ -22,13 +22,13 @@
     "notes": null
   },
   "ratings": {
-    "overall": 2016.47,
+    "overall": 2018.9,
     "home": 2076.01,
-    "away": 1956.92
+    "away": 1961.79
   },
   "rankings": {
     "national": 3,
-    "europe": 253
+    "europe": 233
   },
   "form": {
     "last3": [
@@ -51,7 +51,7 @@
     },
     "fair1X2": {
       "home": 4.64,
-      "draw": 4.6,
+      "draw": 4.61,
       "away": 1.76
     },
     "movementSummary": "home_odds_up_away_odds_down"
@@ -59,7 +59,12 @@
   "squadHealth": {
     "injuries": [
       {
-        "player": "Martín Hristov",
+        "player": "J. Gbamin",
+        "status": "injury_or_suspension",
+        "description": null
+      },
+      {
+        "player": "Joël Zwarts",
         "status": "injury_or_suspension",
         "description": null
       }
@@ -69,163 +74,324 @@
   "expectedLineup": {
     "formation": null,
     "averageRating": 4.8,
-    "players": []
+    "players": [
+      {
+        "name": "Fedor Lapoukhov",
+        "position": "GK",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5.6
+      },
+      {
+        "name": "Pastor",
+        "position": "DF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Facundo Rodriguez",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 1,
+        "rating": 4.2
+      },
+      {
+        "name": "Angelo Martino",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Teodor Ivanov",
+        "position": "DF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Bruno Jordao",
+        "position": "MF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Maks Ebong",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Stefano Sensi",
+        "position": "MF",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 6.4
+      },
+      {
+        "name": "Ioannis Pittas",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 1,
+        "rating": 5.4
+      },
+      {
+        "name": "Leandro Godoy",
+        "position": "ST",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 5.1
+      },
+      {
+        "name": "Léo Pereira",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Andrey Yordanov",
+        "position": "DF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "James Eto'o",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Mohamed Brahimi",
+        "position": "ST",
+        "age": null,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "A. Piedrahita",
+        "position": "ST",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Isaac Solet",
+        "position": "MF",
+        "age": null,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Petko Panayotov",
+        "position": "MF",
+        "age": null,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.5
+      }
+    ]
   },
   "squad": [
     {
-      "name": "Vladimir Ivanov",
-      "position": null,
-      "age": 21,
-      "apps": 3,
-      "goals": 0,
-      "rating": 1.4
-    },
-    {
-      "name": "Sebas Wade",
-      "position": null,
+      "name": "Fedor Lapoukhov",
+      "position": "GK",
       "age": 23,
       "apps": 3,
-      "goals": 1,
-      "rating": 2.1
-    },
-    {
-      "name": "Martín Hristov",
-      "position": null,
-      "age": 22,
-      "apps": 3,
       "goals": 0,
-      "rating": 4.5
+      "rating": 5.6
     },
     {
-      "name": "A. Atanasov Zahari",
+      "name": "Tamimou Ouorou",
       "position": null,
-      "age": 21,
-      "apps": 3,
-      "goals": 0,
-      "rating": 2
-    },
-    {
-      "name": "Venislav Mihajlov",
-      "position": null,
-      "age": 18,
+      "age": 23,
       "apps": 1,
       "goals": 0,
-      "rating": 1.3
+      "rating": 3.1
     },
     {
-      "name": "Viktor Dobrev",
-      "position": null,
-      "age": 17,
-      "apps": 1,
-      "goals": 0,
-      "rating": 1.3
-    },
-    {
-      "name": "Bozhidar Penchev",
-      "position": null,
-      "age": 24,
-      "apps": 3,
-      "goals": 0,
-      "rating": 1.8
-    },
-    {
-      "name": "P. T. Ferreira",
-      "position": null,
+      "name": "Pastor",
+      "position": "DF",
       "age": 26,
-      "apps": 3,
-      "goals": 0,
-      "rating": 1.4
-    },
-    {
-      "name": "Kubrat Onasci",
-      "position": null,
-      "age": 20,
       "apps": 3,
       "goals": 0,
       "rating": 4.4
     },
     {
-      "name": "Yoan Baurenski",
-      "position": null,
-      "age": 24,
-      "apps": 3,
-      "goals": 0,
-      "rating": 4.1
-    },
-    {
-      "name": "Galin Ivanov",
-      "position": null,
-      "age": 38,
-      "apps": 2,
-      "goals": 0,
-      "rating": 2.2
-    },
-    {
-      "name": "Preslav Georgiev",
-      "position": null,
-      "age": 20,
-      "apps": 1,
-      "goals": 0,
-      "rating": 2
-    },
-    {
-      "name": "Stoyan Stoichkov",
-      "position": null,
-      "age": 23,
-      "apps": 3,
-      "goals": 0,
-      "rating": 2.5
-    },
-    {
-      "name": "Aleksandar Dzhamov",
-      "position": null,
-      "age": 18,
-      "apps": 3,
-      "goals": 1,
-      "rating": 1.5
-    },
-    {
-      "name": "Frantzety Herard",
-      "position": null,
-      "age": 24,
-      "apps": 3,
-      "goals": 0,
-      "rating": 1.5
-    },
-    {
-      "name": "Andre Liberal",
-      "position": null,
-      "age": 24,
-      "apps": 3,
-      "goals": 0,
-      "rating": 2
-    },
-    {
-      "name": "Nicolas Fontaine",
-      "position": null,
+      "name": "Facundo Rodriguez",
+      "position": "DF",
       "age": 26,
       "apps": 2,
-      "goals": 0,
-      "rating": 3.6
+      "goals": 1,
+      "rating": 4.2
     },
     {
-      "name": "Edney Ribeiro",
+      "name": "Angelo Martino",
+      "position": "DF",
+      "age": 28,
+      "apps": 2,
+      "goals": 0,
+      "rating": 4.5
+    },
+    {
+      "name": "Teodor Ivanov",
+      "position": "DF",
+      "age": 22,
+      "apps": 3,
+      "goals": 0,
+      "rating": 3.5
+    },
+    {
+      "name": "Andrey Yordanov",
+      "position": "DF",
+      "age": 24,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.5
+    },
+    {
+      "name": "J. Gbamin",
       "position": null,
+      "age": 30,
+      "apps": 3,
+      "goals": 0,
+      "rating": 6.4
+    },
+    {
+      "name": "Vasil Kaymakanov",
+      "position": null,
+      "age": 19,
+      "apps": 1,
+      "goals": 0,
+      "rating": 1.3
+    },
+    {
+      "name": "Bruno Jordao",
+      "position": "MF",
+      "age": 27,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4
+    },
+    {
+      "name": "James Eto'o",
+      "position": "MF",
       "age": 25,
       "apps": 2,
       "goals": 0,
-      "rating": 1.8
+      "rating": 4.7
+    },
+    {
+      "name": "Isaac Solet",
+      "position": "MF",
+      "age": 25,
+      "apps": 1,
+      "goals": 0,
+      "rating": 4
+    },
+    {
+      "name": "Petko Panayotov",
+      "position": "MF",
+      "age": 21,
+      "apps": 2,
+      "goals": 0,
+      "rating": 3.5
+    },
+    {
+      "name": "Maks Ebong",
+      "position": "MF",
+      "age": 26,
+      "apps": 2,
+      "goals": 0,
+      "rating": 4.7
+    },
+    {
+      "name": "Stefano Sensi",
+      "position": "MF",
+      "age": 31,
+      "apps": 3,
+      "goals": 0,
+      "rating": 6.4
+    },
+    {
+      "name": "Leandro Godoy",
+      "position": "ST",
+      "age": 25,
+      "apps": 1,
+      "goals": 0,
+      "rating": 5.1
+    },
+    {
+      "name": "Léo Pereira",
+      "position": "ST",
+      "age": 26,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.8
+    },
+    {
+      "name": "Mohamed Brahimi",
+      "position": "ST",
+      "age": 27,
+      "apps": 3,
+      "goals": 0,
+      "rating": 4.2
+    },
+    {
+      "name": "Ioannis Pittas",
+      "position": "ST",
+      "age": 30,
+      "apps": 3,
+      "goals": 1,
+      "rating": 5.4
+    },
+    {
+      "name": "A. Piedrahita",
+      "position": "ST",
+      "age": 23,
+      "apps": 2,
+      "goals": 0,
+      "rating": 4.2
+    },
+    {
+      "name": "Joël Zwarts",
+      "position": null,
+      "age": 27,
+      "apps": 3,
+      "goals": 3,
+      "rating": 3.6
     }
   ],
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Bolton Wanderers",
-      "rating": 1998.87
+      "name": "Holstein Kiel",
+      "rating": 2016.76
     },
     {
-      "name": "Swansea City",
-      "rating": 1995.63
+      "name": "VfL Osnabrück",
+      "rating": 2015.76
     }
   ]
 }

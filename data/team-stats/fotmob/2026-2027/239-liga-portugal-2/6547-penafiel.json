@@ -18,17 +18,17 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/6547/stats/penafiel/teams",
-    "collectedAtUtc": "2026-08-08T18:24:44.759Z"
+    "collectedAtUtc": "2026-08-09T16:22:53.675Z"
   },
   "availability": {
-    "status": "not_started",
+    "status": "partial",
     "coverage": "low",
-    "notes": "Epoca atual ainda sem estatisticas agregadas disponiveis no HTML capturado."
+    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
   },
   "overview": {
     "teamRating": null,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
+    "goalsPerMatch": 0,
+    "goalsConcededPerMatch": 1,
     "averagePossessionPct": null,
     "cleanSheets": null,
     "attendanceAverage": null

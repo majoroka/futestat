@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/10094/stats/estudiantes/teams",
-    "collectedAtUtc": "2026-08-08T18:22:13.263Z"
+    "collectedAtUtc": "2026-08-09T16:20:46.086Z"
   },
   "availability": {
     "status": "archived",
-    "coverage": "low",
+    "coverage": "high",
     "notes": "Epoca anterior capturada para referencia estrutural."
   },
   "overview": {
-    "teamRating": 6.6,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 6.96,
+    "goalsPerMatch": 1,
+    "goalsConcededPerMatch": 0.6,
+    "averagePossessionPct": 53.1,
+    "cleanSheets": 10,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": null,
-    "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 26.4,
+    "xgDiff": 6.7,
+    "shotsOnTargetPerMatch": 4.8,
+    "bigChances": 48,
+    "bigChancesMissed": 33,
+    "accuratePassesPerMatch": 327.3,
+    "accurateLongBallsPerMatch": 28.4,
+    "accurateCrossesPerMatch": 6,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 397,
+    "cornersPerMatch": 84,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "xgConceded": 19.6,
+    "interceptionsPerMatch": 8.3,
+    "tacklesPerMatch": 16.9,
+    "clearancesPerMatch": 27.9,
+    "finalThirdRecoveriesPerMatch": 2.8,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 2.6
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 11.8,
+    "yellowCardsPerMatch": 56,
     "redCardsPerMatch": null
   }
 }

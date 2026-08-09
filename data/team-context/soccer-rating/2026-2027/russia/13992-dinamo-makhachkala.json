@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Dinamo-Makhachkala/13992/",
-    "collectedAtUtc": "2026-08-08T18:28:22.257Z"
+    "collectedAtUtc": "2026-08-09T16:25:43.525Z"
   },
   "availability": {
     "status": "available",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 12,
-    "europe": 416
+    "europe": 417
   },
   "form": {
     "last3": [
@@ -399,8 +399,8 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Excelsior Rotterdam",
-      "rating": 1905.76
+      "name": "WSG Tirol",
+      "rating": 1905.89
     },
     {
       "name": "1. FC Brno",

@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Fk-Krasnodar/3300/",
-    "collectedAtUtc": "2026-08-08T18:28:25.191Z"
+    "collectedAtUtc": "2026-08-09T16:25:46.451Z"
   },
   "availability": {
     "status": "available",
@@ -343,12 +343,12 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Sparta Praha",
-      "rating": 2127.42
+      "name": "Wolverhampton Wanderers",
+      "rating": 2132.62
     },
     {
-      "name": "Shakhtar Donezk",
-      "rating": 2074.09
+      "name": "Aarhus GF",
+      "rating": 2129.12
     }
   ]
 }

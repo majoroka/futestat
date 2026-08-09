@@ -18,19 +18,19 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/5772/stats/koper/teams",
-    "collectedAtUtc": "2026-08-08T18:26:15.468Z"
+    "collectedAtUtc": "2026-08-09T16:24:09.322Z"
   },
   "availability": {
-    "status": "not_started",
+    "status": "partial",
     "coverage": "low",
-    "notes": "Epoca atual ainda sem estatisticas agregadas disponiveis no HTML capturado."
+    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
   },
   "overview": {
     "teamRating": null,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
+    "goalsPerMatch": 1.7,
+    "goalsConcededPerMatch": 1,
     "averagePossessionPct": null,
-    "cleanSheets": null,
+    "cleanSheets": 1,
     "attendanceAverage": null
   },
   "attack": {

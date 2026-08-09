@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Nk-Bravo/13621/",
-    "collectedAtUtc": "2026-08-08T18:28:46.978Z"
+    "collectedAtUtc": "2026-08-09T16:26:02.948Z"
   },
   "availability": {
     "status": "available",
@@ -22,13 +22,13 @@
     "notes": null
   },
   "ratings": {
-    "overall": 1770.11,
-    "home": 1803.53,
+    "overall": 1771.47,
+    "home": 1806.26,
     "away": 1736.69
   },
   "rankings": {
     "national": 6,
-    "europe": 817
+    "europe": 823
   },
   "form": {
     "last3": [
@@ -51,8 +51,8 @@
     },
     "fair1X2": {
       "home": 1.81,
-      "draw": 4.03,
-      "away": 5.04
+      "draw": 4.01,
+      "away": 5.05
     },
     "movementSummary": "home_odds_up_away_odds_down"
   },
@@ -343,12 +343,12 @@
   "recentMatches": [],
   "similarTeams": [
     {
-      "name": "Niki Volou",
-      "rating": 1773.65
+      "name": "KS Vllaznia Shkoder",
+      "rating": 1770.18
     },
     {
-      "name": "NSI Runavik",
-      "rating": 1772.34
+      "name": "PK-35 Helsinki",
+      "rating": 1770.05
     }
   ]
 }

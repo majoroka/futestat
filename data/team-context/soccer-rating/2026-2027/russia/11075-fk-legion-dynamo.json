@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Fk-Legion-Dynamo/11075/",
-    "collectedAtUtc": "2026-08-08T18:28:23.704Z"
+    "collectedAtUtc": "2026-08-09T16:25:44.980Z"
   },
   "availability": {
     "status": "partial",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 211,
-    "europe": 7847
+    "europe": 7850
   },
   "form": {
     "last3": []

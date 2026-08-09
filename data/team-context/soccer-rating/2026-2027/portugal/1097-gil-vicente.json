@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Gil-Vicente/1097/",
-    "collectedAtUtc": "2026-08-08T18:28:06.137Z"
+    "collectedAtUtc": "2026-08-09T16:25:30.066Z"
   },
   "availability": {
     "status": "available",
@@ -22,8 +22,8 @@
     "notes": null
   },
   "ratings": {
-    "overall": 2009.87,
-    "home": 2011.82,
+    "overall": 2010.62,
+    "home": 2013.32,
     "away": 2007.91
   },
   "rankings": {
@@ -50,9 +50,9 @@
       "away": 4.6
     },
     "fair1X2": {
-      "home": 1.64,
-      "draw": 3.84,
-      "away": 7.72
+      "home": 1.66,
+      "draw": 3.72,
+      "away": 7.81
     },
     "movementSummary": "home_odds_up_away_odds_down"
   },
@@ -400,11 +400,11 @@
   "similarTeams": [
     {
       "name": "Lilleström SK",
-      "rating": 2010.67
+      "rating": 2005.66
     },
     {
-      "name": "Amedspor",
-      "rating": 2008.57
+      "name": "Eintracht Braunschweig",
+      "rating": 2009.26
     }
   ]
 }

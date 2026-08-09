@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/8478/stats/viking/teams",
-    "collectedAtUtc": "2026-08-08T18:24:10.465Z"
+    "collectedAtUtc": "2026-08-09T16:22:31.836Z"
   },
   "availability": {
     "status": "archived",
-    "coverage": "low",
+    "coverage": "high",
     "notes": "Epoca anterior capturada para referencia estrutural."
   },
   "overview": {
-    "teamRating": 7.4,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
-    "cleanSheets": null,
+    "teamRating": 7.18,
+    "goalsPerMatch": 2.4,
+    "goalsConcededPerMatch": 0.9,
+    "averagePossessionPct": 51.4,
+    "cleanSheets": 5,
     "attendanceAverage": null
   },
   "attack": {
-    "xg": 48.077599823474884,
-    "xgDiff": -5.077599823474884,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "xg": 35.4,
+    "xgDiff": 15.2,
+    "shotsOnTargetPerMatch": 5.9,
+    "bigChances": 62,
+    "bigChancesMissed": 33,
+    "accuratePassesPerMatch": 364.3,
+    "accurateLongBallsPerMatch": 25.6,
+    "accurateCrossesPerMatch": 7.4,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 552,
+    "cornersPerMatch": 108,
     "setPieceGoals": null
   },
   "defense": {
-    "xgConceded": 17.47010011970997,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "xgConceded": 20.2,
+    "interceptionsPerMatch": 7.9,
+    "tacklesPerMatch": 16.1,
+    "clearancesPerMatch": 27.1,
+    "finalThirdRecoveriesPerMatch": 4.8,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 2.5
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 12.6,
+    "yellowCardsPerMatch": 40,
     "redCardsPerMatch": null
   }
 }

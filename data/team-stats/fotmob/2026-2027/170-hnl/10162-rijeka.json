@@ -18,48 +18,48 @@
   "source": {
     "provider": "fotmob",
     "url": "https://www.fotmob.com/teams/10162/stats/rijeka/teams",
-    "collectedAtUtc": "2026-08-08T18:23:38.375Z"
+    "collectedAtUtc": "2026-08-09T16:22:06.243Z"
   },
   "availability": {
-    "status": "partial",
-    "coverage": "low",
-    "notes": "HTML capturado com cobertura parcial de metricas agregadas."
+    "status": "available",
+    "coverage": "high",
+    "notes": null
   },
   "overview": {
-    "teamRating": 7.5,
-    "goalsPerMatch": null,
-    "goalsConcededPerMatch": null,
-    "averagePossessionPct": null,
+    "teamRating": 7.53,
+    "goalsPerMatch": 2,
+    "goalsConcededPerMatch": 1,
+    "averagePossessionPct": 68.1,
     "cleanSheets": null,
     "attendanceAverage": null
   },
   "attack": {
     "xg": null,
     "xgDiff": null,
-    "shotsOnTargetPerMatch": null,
-    "bigChances": null,
-    "bigChancesMissed": null,
-    "accuratePassesPerMatch": null,
-    "accurateLongBallsPerMatch": null,
-    "accurateCrossesPerMatch": null,
+    "shotsOnTargetPerMatch": 10,
+    "bigChances": 3,
+    "bigChancesMissed": 2,
+    "accuratePassesPerMatch": 558,
+    "accurateLongBallsPerMatch": 13,
+    "accurateCrossesPerMatch": 11,
     "penaltiesAwarded": null,
-    "touchesInOppBoxPerMatch": null,
-    "cornersPerMatch": null,
+    "touchesInOppBoxPerMatch": 47,
+    "cornersPerMatch": 7,
     "setPieceGoals": null
   },
   "defense": {
     "xgConceded": null,
-    "interceptionsPerMatch": null,
-    "tacklesPerMatch": null,
-    "clearancesPerMatch": null,
-    "finalThirdRecoveriesPerMatch": null,
+    "interceptionsPerMatch": 8,
+    "tacklesPerMatch": 16,
+    "clearancesPerMatch": 9,
+    "finalThirdRecoveriesPerMatch": 5,
     "setPieceGoalsConceded": null,
     "penaltiesConceded": null,
-    "savesPerMatch": null
+    "savesPerMatch": 2
   },
   "discipline": {
-    "foulsPerMatch": null,
-    "yellowCardsPerMatch": null,
+    "foulsPerMatch": 10,
+    "yellowCardsPerMatch": 1,
     "redCardsPerMatch": null
   }
 }

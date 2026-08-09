@@ -14,7 +14,7 @@
   "source": {
     "provider": "soccer-rating",
     "url": "https://www.soccer-rating.com/Tartu-Fc-Santos/9192/",
-    "collectedAtUtc": "2026-08-08T18:26:41.859Z"
+    "collectedAtUtc": "2026-08-09T16:24:31.497Z"
   },
   "availability": {
     "status": "partial",
@@ -28,7 +28,7 @@
   },
   "rankings": {
     "national": 83,
-    "europe": 9918
+    "europe": 9920
   },
   "form": {
     "last3": []
