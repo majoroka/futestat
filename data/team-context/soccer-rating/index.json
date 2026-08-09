@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-08-08T18:28:59.706Z",
+  "generatedAtUtc": "2026-08-09T16:01:20.507Z",
   "entries": [
     {
       "season": "2026-2027",
@@ -378,12 +378,12 @@
     {
       "season": "2026-2027",
       "countrySlug": "portugal",
-      "sofascoreTeamId": "3007",
+      "sofascoreTeamId": null,
       "teamId": "1077",
       "teamSlug": "maritimo-funchal",
       "jsonPath": "data/team-context/soccer-rating/2026-2027/portugal/1077-maritimo-funchal.json",
       "sourceHtmlPath": "raw/team-pages/soccer-rating/2026-2027/portugal/1077-maritimo-funchal.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.664Z",
+      "parsedAtUtc": "2026-08-09T16:01:20.507Z",
       "availabilityStatus": "available"
     },
     {

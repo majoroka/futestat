@@ -123,69 +123,83 @@ export function parseFotmobTeamStatsHtml(
     throw new Error("Unable to determine the FotMob competition name.");
   }
 
-  const metricsIndex = collectMetricLeaves(teamEntry);
+  const teamMetricsIndex = collectTeamMetricsIndex(stats.teams);
+  const fallbackMetricsIndex = collectMetricLeaves(asRecord(teamEntry.statsMetrics));
+  const metricsIndex = mergeMetricIndexes(teamMetricsIndex, fallbackMetricsIndex);
   const overviewMetrics: TeamStatsOverview = {
-    teamRating: pickMetric(metricsIndex, ["teamRating", "rating", "averageRating"]),
-    goalsPerMatch: pickMetric(metricsIndex, ["goalsPerMatch", "goals_avg"]),
+    teamRating: pickMetric(metricsIndex, ["rating_team", "teamRating", "rating", "averageRating"]),
+    goalsPerMatch: pickMetric(metricsIndex, ["goals_team_match", "goalsPerMatch", "goals_avg"]),
     goalsConcededPerMatch: pickMetric(metricsIndex, [
+      "goals_conceded_team_match",
       "goalsConcededPerMatch",
       "goalsAgainstPerMatch",
       "concededPerMatch",
     ]),
     averagePossessionPct: pickMetric(metricsIndex, [
+      "possession_percentage_team",
       "averagePossessionPct",
       "averagePossession",
       "possessionPct",
       "possessionPercentage",
     ]),
-    cleanSheets: pickMetric(metricsIndex, ["cleanSheets", "cleanSheetCount"]),
+    cleanSheets: pickMetric(metricsIndex, ["clean_sheet_team", "cleanSheets", "cleanSheetCount"]),
     attendanceAverage: pickMetric(metricsIndex, ["attendanceAverage", "avgAttendance"]),
   };
   const attackMetrics: TeamStatsAttack = {
-    xg: pickMetric(metricsIndex, ["xg", "expectedGoals"]),
-    xgDiff: pickMetric(metricsIndex, ["xgDiff", "expectedGoalsDiff"]),
+    xg: pickMetric(metricsIndex, ["expected_goals_team", "xg", "expectedGoals"]),
+    xgDiff: pickMetric(metricsIndex, ["_xg_diff_team", "xgDiff", "expectedGoalsDiff"]),
     shotsOnTargetPerMatch: pickMetric(metricsIndex, [
+      "ontarget_scoring_att_team",
       "shotsOnTargetPerMatch",
       "shotsOnTargetAvg",
     ]),
-    bigChances: pickMetric(metricsIndex, ["bigChances", "bigChancesCreated"]),
-    bigChancesMissed: pickMetric(metricsIndex, ["bigChancesMissed"]),
+    bigChances: pickMetric(metricsIndex, ["big_chance_team", "bigChances", "bigChancesCreated"]),
+    bigChancesMissed: pickMetric(metricsIndex, ["big_chance_missed_team", "bigChancesMissed"]),
     accuratePassesPerMatch: pickMetric(metricsIndex, [
+      "accurate_pass_team",
       "accuratePassesPerMatch",
       "passesAccuratePerMatch",
     ]),
     accurateLongBallsPerMatch: pickMetric(metricsIndex, [
+      "accurate_long_balls_team",
       "accurateLongBallsPerMatch",
       "longBallsAccuratePerMatch",
     ]),
     accurateCrossesPerMatch: pickMetric(metricsIndex, [
+      "accurate_cross_team",
       "accurateCrossesPerMatch",
       "crossesAccuratePerMatch",
     ]),
     penaltiesAwarded: pickMetric(metricsIndex, ["penaltiesAwarded", "penaltyGoalsAwarded"]),
     touchesInOppBoxPerMatch: pickMetric(metricsIndex, [
+      "touches_in_opp_box_team",
       "touchesInOppBoxPerMatch",
       "touchesInOppositionBoxPerMatch",
     ]),
-    cornersPerMatch: pickMetric(metricsIndex, ["cornersPerMatch"]),
+    cornersPerMatch: pickMetric(metricsIndex, ["corner_taken_team", "cornersPerMatch"]),
     setPieceGoals: pickMetric(metricsIndex, ["setPieceGoals"]),
   };
   const defenseMetrics: TeamStatsDefense = {
-    xgConceded: pickMetric(metricsIndex, ["xgConceded", "expectedGoalsConceded"]),
-    interceptionsPerMatch: pickMetric(metricsIndex, ["interceptionsPerMatch"]),
-    tacklesPerMatch: pickMetric(metricsIndex, ["tacklesPerMatch"]),
-    clearancesPerMatch: pickMetric(metricsIndex, ["clearancesPerMatch"]),
+    xgConceded: pickMetric(metricsIndex, [
+      "expected_goals_conceded_team",
+      "xgConceded",
+      "expectedGoalsConceded",
+    ]),
+    interceptionsPerMatch: pickMetric(metricsIndex, ["interception_team", "interceptionsPerMatch"]),
+    tacklesPerMatch: pickMetric(metricsIndex, ["total_tackle_team", "tacklesPerMatch"]),
+    clearancesPerMatch: pickMetric(metricsIndex, ["effective_clearance_team", "clearancesPerMatch"]),
     finalThirdRecoveriesPerMatch: pickMetric(metricsIndex, [
+      "poss_won_att_3rd_team",
       "finalThirdRecoveriesPerMatch",
       "finalThirdRecoveriesAvg",
     ]),
     setPieceGoalsConceded: pickMetric(metricsIndex, ["setPieceGoalsConceded"]),
     penaltiesConceded: pickMetric(metricsIndex, ["penaltiesConceded"]),
-    savesPerMatch: pickMetric(metricsIndex, ["savesPerMatch"]),
+    savesPerMatch: pickMetric(metricsIndex, ["saves_team", "savesPerMatch"]),
   };
   const disciplineMetrics: TeamStatsDiscipline = {
-    foulsPerMatch: pickMetric(metricsIndex, ["foulsPerMatch"]),
-    yellowCardsPerMatch: pickMetric(metricsIndex, ["yellowCardsPerMatch"]),
+    foulsPerMatch: pickMetric(metricsIndex, ["fk_foul_lost_team", "foulsPerMatch"]),
+    yellowCardsPerMatch: pickMetric(metricsIndex, ["total_yel_card_team", "yellowCardsPerMatch"]),
     redCardsPerMatch: pickMetric(metricsIndex, ["redCardsPerMatch"]),
   };
 
@@ -333,10 +347,55 @@ function emptyPathMetadata(): TeamPathMetadata {
   };
 }
 
+function collectTeamMetricsIndex(value: unknown): MetricLeafIndex {
+  const index = new Map<string, unknown[]>();
+
+  if (!Array.isArray(value)) {
+    return index;
+  }
+
+  for (const item of value) {
+    const record = asRecord(item);
+    const participant = asRecord(record.participant);
+    const stat = asRecord(participant.stat);
+    const metricName =
+      stringifyOrNull(stat.name) ??
+      stringifyOrNull(record.stat) ??
+      stringifyOrNull(record.name) ??
+      stringifyOrNull(record.localizedTitleId);
+    const metricValue = stat.value ?? participant.value ?? null;
+
+    if (!metricName || metricValue === null || metricValue === undefined) {
+      continue;
+    }
+
+    const normalizedKey = normalizeMetricKey(metricName);
+    const existing = index.get(normalizedKey) ?? [];
+    existing.push(metricValue);
+    index.set(normalizedKey, existing);
+  }
+
+  return index;
+}
+
 function collectMetricLeaves(value: unknown): MetricLeafIndex {
   const index = new Map<string, unknown[]>();
   visitLeaves(value, index);
   return index;
+}
+
+function mergeMetricIndexes(...indexes: MetricLeafIndex[]): MetricLeafIndex {
+  const merged = new Map<string, unknown[]>();
+
+  for (const index of indexes) {
+    for (const [key, values] of index.entries()) {
+      const existing = merged.get(key) ?? [];
+      existing.push(...values);
+      merged.set(key, existing);
+    }
+  }
+
+  return merged;
 }
 
 function visitLeaves(value: unknown, index: MetricLeafIndex, parentKey?: string): void {

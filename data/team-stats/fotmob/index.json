@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-08-08T18:28:59.634Z",
+  "generatedAtUtc": "2026-08-09T16:01:20.590Z",
   "entries": [
     {
       "season": "2026-2027",
@@ -1133,13 +1133,13 @@
       "season": "2026-2027",
       "competitionId": "238",
       "competitionSlug": "liga-portugal-betclic",
-      "sofascoreTeamId": "3007",
+      "sofascoreTeamId": null,
       "teamId": "10212",
       "teamSlug": "maritimo",
       "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/10212-maritimo.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/10212-maritimo.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.476Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:01:20.508Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",
@@ -1205,13 +1205,13 @@
       "season": "2026-2027",
       "competitionId": "238",
       "competitionSlug": "liga-portugal-betclic",
-      "sofascoreTeamId": "36365",
+      "sofascoreTeamId": null,
       "teamId": "212821",
       "teamSlug": "casa-pia-ac",
       "jsonPath": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/212821-casa-pia-ac.json",
       "sourceHtmlPath": "raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/212821-casa-pia-ac.html",
-      "parsedAtUtc": "2026-08-08T18:28:59.493Z",
-      "availabilityStatus": "partial"
+      "parsedAtUtc": "2026-08-09T16:01:20.590Z",
+      "availabilityStatus": "available"
     },
     {
       "season": "2026-2027",

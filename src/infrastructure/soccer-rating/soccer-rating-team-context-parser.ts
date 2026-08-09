@@ -84,21 +84,17 @@ export function parseSoccerRatingTeamContextHtml(
     stripTags(predictionBlock),
     /is\s+([a-z ]+?)\s+against/i,
   );
+  const teamColumnIndex = detectTeamColumnIndex(options.html, teamName);
 
-  const injuriesSection = extractTableById(options.html, "inj1");
+  const injuriesSection = extractTableById(options.html, `inj${teamColumnIndex}`);
   const injuries = extractHealthEntries(injuriesSection);
-  const lineupPlayers = extractLineupPlayers(extractTableById(options.html, "line1"));
+  const lineupPlayers = extractLineupPlayers(extractTableById(options.html, `line${teamColumnIndex}`));
   const lineupPlayerMap = new Map(lineupPlayers.map((player) => [slugify(player.name), player]));
   const squadPlayers = extractSquadPlayers(
-    extractTableById(options.html, "squad1"),
+    extractTableById(options.html, `squad${teamColumnIndex}`),
     lineupPlayerMap,
   );
-  const averageLineupRating = parseScaledRating(
-    matchSingle(
-      options.html,
-      /Expected Lineup[\s\S]*?<a href="javascript:showLine\(\)">\s*[^<]+<\/a><br>[^<]*?(?:&empty;|∅)\s*([0-9]+)\s*Rating/i,
-    )?.[1] ?? null,
-  );
+  const averageLineupRating = extractAverageLineupRating(options.html, teamColumnIndex);
 
   const fieldCount = countFields({
     overallRating,
@@ -300,6 +296,103 @@ function extractSquadPlayers(
       rating: parseScaledRating(match[5]),
     };
   });
+}
+
+function detectTeamColumnIndex(html: string, teamName: string): 1 | 2 {
+  const normalizedTeamName = slugify(teamName);
+  const candidatePairs = [
+    extractPredictionTeamPair(html),
+    extractToggleTeamPair(html, "showInj"),
+    extractToggleTeamPair(html, "showLine"),
+    extractToggleTeamPair(html, "showSquad"),
+  ];
+
+  for (const pair of candidatePairs) {
+    if (!pair) {
+      continue;
+    }
+
+    if (slugify(pair[0]) === normalizedTeamName) {
+      return 1;
+    }
+
+    if (slugify(pair[1]) === normalizedTeamName) {
+      return 2;
+    }
+  }
+
+  return 1;
+}
+
+function extractPredictionTeamPair(html: string): [string, string] | null {
+  const match = matchSingle(
+    html,
+    /Prediction &amp; Betting Advice[\s\S]*?<table[^>]*class="bigtable"[^>]*>[\s\S]*?<tr><td[^>]*>[\s\S]*?<\/td><td[^>]*>([\s\S]*?)<\/td><td[^>]*>([\s\S]*?)<\/td><\/tr>/i,
+  );
+
+  if (!match) {
+    return null;
+  }
+
+  const first = collapseWhitespace(stripTags(match[1]));
+  const second = collapseWhitespace(stripTags(match[2]));
+
+  if (!first || !second) {
+    return null;
+  }
+
+  return [first, second];
+}
+
+function extractToggleTeamPair(html: string, toggleName: "showInj" | "showLine" | "showSquad"): [string, string] | null {
+  const match = matchSingle(
+    html,
+    new RegExp(
+      `<a href="javascript:${toggleName}\\(\\)">\\s*([\\s\\S]*?)<\\/a>[\\s\\S]*?<a href="javascript:${toggleName}\\(\\)">\\s*([\\s\\S]*?)<\\/a>`,
+      "i",
+    ),
+  );
+
+  if (!match) {
+    return null;
+  }
+
+  const first = normalizeSectionTeamLabel(match[1]);
+  const second = normalizeSectionTeamLabel(match[2]);
+
+  if (!first || !second) {
+    return null;
+  }
+
+  return [first, second];
+}
+
+function normalizeSectionTeamLabel(value: string): string {
+  const withoutTags = collapseWhitespace(stripTags(value));
+  const withoutCounts = withoutTags
+    .replace(/\s+\(#?\d+\)\s*$/i, "")
+    .replace(/\s+\(\d+\)\s*$/i, "")
+    .trim();
+
+  return withoutCounts;
+}
+
+function extractAverageLineupRating(html: string, teamColumnIndex: 1 | 2): number | null {
+  const pairedMatch = matchSingle(
+    html,
+    /<a href="javascript:showLine\(\)">\s*[\s\S]*?<\/a><br>[^<]*?(?:&empty;|∅)\s*([0-9]+)\s*Rating[\s\S]*?<a href="javascript:showLine\(\)">\s*[\s\S]*?<\/a><br>[^<]*?(?:&empty;|∅)\s*([0-9]+)\s*Rating/i,
+  );
+
+  if (pairedMatch) {
+    return parseScaledRating(pairedMatch[teamColumnIndex] ?? null);
+  }
+
+  return parseScaledRating(
+    matchSingle(
+      html,
+      /Expected Lineup[\s\S]*?<a href="javascript:showLine\(\)">\s*[^<]+<\/a><br>[^<]*?(?:&empty;|∅)\s*([0-9]+)\s*Rating/i,
+    )?.[1] ?? null,
+  );
 }
 
 function extractTableById(html: string, id: string): string {

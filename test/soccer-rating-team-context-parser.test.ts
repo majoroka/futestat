@@ -109,3 +109,54 @@ test("parseSoccerRatingTeamContextHtml marks empty current season as not_started
   assert.equal(result.snapshot.availability.status, "not_started");
   assert.equal(result.fieldCount, 0);
 });
+
+test("parseSoccerRatingTeamContextHtml uses the right-side squad when the page team is away", () => {
+  const html = `
+    <html><head><title>Casa Pia AC: Prediction (1x2), Betting Advice & FAIR ODDS</title></head><body>
+      <table><tr><th><font><b>Casa Pia AC</b></font></th></tr></table>
+      <table class="bigtable">
+        <tr><th><font><b>Casa Pia AC Prediction &amp; Betting Advice</b></font></th></tr>
+        <tr><td><font>
+          <table class="bigtable" width="100%">
+            <tr><td width="33%">09/08 PT1</td><td width="33%"><a href="/Maritimo-Funchal/1077/"><u>Maritimo Funchal</u></a></td><td width="33%"> Casa Pia AC</td></tr>
+          </table>
+        </font></td></tr>
+      </table>
+      <table class="bigtable" style="margin-top:7px;">
+        <tr><th><font><b>&#9660; Injuries &amp; Suspensions</b></font></th></tr>
+        <tr><td width="50%"><a href="javascript:showInj()"> Maritimo Funchal (1)</a></td><td width="50%"><a href="javascript:showInj()">Casa Pia AC (1)</a></td></tr>
+        <tr>
+          <td valign="top"><table style="display:block" id="inj1" width="100%"><tr><td><i>None</i></td></tr></table></td>
+          <td valign="top"><table style="display:block" id="inj2" width="100%"><tr><td></td><td><div class="nomobil"> Ricardo Batista (GK)</div></td></tr></table></td>
+        </tr>
+        <tr><th><font><b>Expected Lineup</b></font></th></tr>
+        <tr><td width="50%"><a href="javascript:showLine()"> Maritimo Funchal (#11)</a><br>243/30 Games/Goals, &empty; 45 Rating</td><td width="50%"><a href="javascript:showLine()">Casa Pia AC (#11)</a><br>191/6 Games/Goals, &empty; 61 Rating</td></tr>
+        <tr>
+          <td valign="top"><table style="display:block" id="line1" width="100%"><tr><td>#1</td><td><div class="nomobil"> Alfonso Pastor (GK)</div></td><td> 1/0</td><td class="cr1">20</td></tr></table></td>
+          <td valign="top"><table style="display:block" id="line2" width="100%"><tr><td>#1</td><td><div class="nomobil"> Ricardo Batista (GK)</div></td><td> 3/0</td><td class="cr2">61</td></tr></table></td>
+        </tr>
+        <tr><th><font><b>Squad</b></font></th></tr>
+        <tr><td width="50%"><a href="javascript:showSquad()"> Maritimo Funchal</a></td><td width="50%"><a href="javascript:showSquad()">Casa Pia AC</a></td></tr>
+        <tr>
+          <td valign="top"><table style="display:block" id="squad1" width="100%"><tr><td><div class="nomobil"> Alfonso Pastor (25)</div></td><td> 1/0</td><td class="cr1">20</td></tr></table></td>
+          <td valign="top"><table style="display:block" id="squad2" width="100%"><tr><td><div class="nomobil"> Ricardo Batista (38)</div></td><td> 3/0</td><td class="cr2">61</td></tr></table></td>
+        </tr>
+      </table>
+    </body></html>
+  `;
+
+  const result = parseSoccerRatingTeamContextHtml({
+    html,
+    inputPath:
+      "/Users/mariocabano/Documents/Futestat/raw/team-pages/soccer-rating/2026-2027/portugal/6011-casa-pia-ac.html",
+    collectedAtUtc: "2026-08-09T15:00:00.000Z",
+  });
+
+  assert.equal(result.snapshot.team.slug, "casa-pia-ac");
+  assert.equal(result.snapshot.expectedLineup.averageRating, 6.1);
+  assert.equal(result.snapshot.expectedLineup.players[0]?.name, "Ricardo Batista");
+  assert.equal(result.snapshot.squad[0]?.name, "Ricardo Batista");
+  assert.equal(result.snapshot.squad[0]?.age, 38);
+  assert.equal(result.snapshot.squad[0]?.position, "GK");
+  assert.equal(result.snapshot.squadHealth.injuries[0]?.player, "Ricardo Batista");
+});

@@ -154,6 +154,97 @@ test("parseFotmobTeamStatsHtml marks current empty season as not_started", () =>
   assert.equal(result.metricsExtractedCount, 0);
 });
 
+test("parseFotmobTeamStatsHtml prefers team participant metrics over unrelated league leaves", () => {
+  const html = buildHtml({
+    props: {
+      url: "/pt-PT/teams/212821/stats/casa-pia-ac/teams",
+      pageProps: {
+        fallback: {
+          "team-212821": {
+            details: {
+              id: 212821,
+              name: "Casa Pia AC",
+              latestSeason: "2026/2027",
+              primaryLeagueId: 238,
+              primaryLeagueName: "Liga Portugal Betclic",
+              sportsTeamJSONLD: {
+                location: {
+                  address: {
+                    addressCountry: "Portugal",
+                  },
+                },
+              },
+            },
+            overview: {
+              season: "2026/2027",
+              selectedSeason: "2026/2027",
+            },
+            stats: {
+              tournamentId: "40067",
+              tournamentSeasons: [
+                {
+                  season: "2026/2027",
+                  leagueName: "Liga Portugal Betclic",
+                  tournamentId: "40067",
+                  parentLeagueId: "238",
+                },
+              ],
+              teams: [
+                {
+                  header: "Expected goals",
+                  participant: {
+                    name: "Casa Pia AC",
+                    teamId: 212821,
+                    value: 0.6,
+                    stat: { name: "expected_goals_team", value: 0.6 },
+                  },
+                  topThree: [{ name: "Vitoria Guimaraes", teamId: 1089, value: 1.7 }],
+                },
+                {
+                  header: "xG conceded",
+                  participant: {
+                    name: "Casa Pia AC",
+                    teamId: 212821,
+                    value: 1.3,
+                    stat: { name: "expected_goals_conceded_team", value: 1.3 },
+                  },
+                  topThree: [{ name: "Vitoria Guimaraes", teamId: 1089, value: 0.4 }],
+                },
+                {
+                  header: "Average possession",
+                  participant: {
+                    name: "Casa Pia AC",
+                    teamId: 212821,
+                    value: 60.6,
+                    stat: { name: "possession_percentage_team", value: 60.6 },
+                  },
+                },
+              ],
+            },
+            statsMetrics: {
+              expectedGoals: 9.9,
+              expectedGoalsConceded: 0.1,
+              averagePossessionPct: 12,
+            },
+          },
+        },
+      },
+    },
+  });
+
+  const result = parseFotmobTeamStatsHtml({
+    html,
+    inputPath:
+      "/Users/mariocabano/Documents/Futestat/raw/team-pages/fotmob/2026-2027/238-liga-portugal-betclic/212821-casa-pia-ac.html",
+    collectedAtUtc: "2026-08-09T15:00:00.000Z",
+  });
+
+  assert.equal(result.snapshot.team.slug, "casa-pia-ac");
+  assert.equal(result.snapshot.attack.xg, 0.6);
+  assert.equal(result.snapshot.defense.xgConceded, 1.3);
+  assert.equal(result.snapshot.overview.averagePossessionPct, 60.6);
+});
+
 function buildHtml(nextData: unknown): string {
   return `<!doctype html><html><body><script id="__NEXT_DATA__" type="application/json">${JSON.stringify(
     nextData,
