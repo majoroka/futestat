@@ -234,6 +234,76 @@ test("generateTeamInventoryReport matches common abbreviated team names inside t
   assertTeamMatch(ligaProfesional.teams, "Unión", "Unión de Santa Fe", "heuristic_name");
 });
 
+test("generateTeamInventoryReport matches common Brasileirao naming variants", async () => {
+  const repoRoot = await mkdtemp(path.join(os.tmpdir(), "futestat-team-inventory-brazil-"));
+  await mkdir(path.join(repoRoot, "data", "fixtures", "standings"), { recursive: true });
+  await mkdir(path.join(repoRoot, "data"), { recursive: true });
+
+  await writeFile(
+    path.join(repoRoot, "data", "team-source-registry.json"),
+    JSON.stringify(
+      {
+        generatedAtUtc: "2026-08-10T10:00:00Z",
+        referenceDate: "2026-08-10",
+        snapshotPath: "data/fixtures/latest.json",
+        entries: [
+          createBrazilRegistryEntry("1967", "Athletico"),
+          createBrazilRegistryEntry("1977", "Atlético-MG"),
+          createBrazilRegistryEntry("1999", "RB Bragantino"),
+        ],
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  await writeFile(
+    path.join(repoRoot, "data", "fixtures", "standings", "325.json"),
+    JSON.stringify(
+      {
+        source: "zerozero",
+        competitionId: "325",
+        competitionName: "Brasileirao Serie A",
+        countryName: "Brazil",
+        zerozeroUrl: "https://example.com/325",
+        mode: "single_table",
+        status: "ready",
+        scrapedAtUtc: "2026-08-10T09:00:00Z",
+        editionId: "1",
+        phaseId: "2",
+        phaseName: "Serie A",
+        phaseNotes: [],
+        ruleProfileId: null,
+        tables: [
+          {
+            name: "Serie A",
+            type: "single_table",
+            rows: [
+              createStandingRow(1, "Athletico Paranaense"),
+              createStandingRow(2, "Atlético Mineiro"),
+              createStandingRow(3, "Red Bull Bragantino"),
+            ],
+          },
+        ],
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  const result = await generateTeamInventoryReport(repoRoot, { write: false });
+  const brasileirao = result.report.competitions.find((competition) => competition.competitionId === "325");
+  assert.ok(brasileirao);
+  assert.equal(brasileirao.teamCount, 3);
+  assert.equal(brasileirao.matchedRegistryTeams, 3);
+
+  assertTeamMatch(brasileirao.teams, "Athletico Paranaense", "Athletico", "heuristic_name");
+  assertTeamMatch(brasileirao.teams, "Atlético Mineiro", "Atlético-MG", "heuristic_name");
+  assertTeamMatch(brasileirao.teams, "Red Bull Bragantino", "RB Bragantino", "heuristic_name");
+});
+
 function createRegistryEntry(sofascoreTeamId: string, teamName: string) {
   return {
     sofascoreTeamId,
@@ -241,6 +311,39 @@ function createRegistryEntry(sofascoreTeamId: string, teamName: string) {
     countryName: "Argentina",
     competitionId: "155",
     competitionName: "Liga Profesional",
+    activeInCurrentWindow: true,
+    fixtureAppearancesInCurrentWindow: 1,
+    firstSeenReferenceDate: "2026-08-08",
+    lastSeenReferenceDate: "2026-08-10",
+    sources: {
+      fotmob: {
+        status: "pending",
+        sourceTeamId: null,
+        teamSlug: null,
+        competitionId: null,
+        competitionSlug: null,
+        url: null,
+        notes: null,
+      },
+      soccerRating: {
+        status: "pending",
+        sourceTeamId: null,
+        teamSlug: null,
+        countrySlug: null,
+        url: null,
+        notes: null,
+      },
+    },
+  };
+}
+
+function createBrazilRegistryEntry(sofascoreTeamId: string, teamName: string) {
+  return {
+    sofascoreTeamId,
+    teamName,
+    countryName: "Brazil",
+    competitionId: "325",
+    competitionName: "Brasileirao Serie A",
     activeInCurrentWindow: true,
     fixtureAppearancesInCurrentWindow: 1,
     firstSeenReferenceDate: "2026-08-08",

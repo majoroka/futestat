@@ -864,12 +864,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "mapped",
-          "sourceTeamId": "8058",
-          "teamSlug": "athletico-marseille",
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "athletico-pr",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Athletico-Marseille/8058/",
-          "notes": null
+          "url": null,
+          "notes": "manual match name: Soccer-Rating = Athletico PR"
         }
       }
     },
@@ -899,7 +899,7 @@
           "teamSlug": "atletico-mg",
           "countrySlug": "brazil",
           "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "notes": "manual match name: Soccer-Rating = Atletico-MG"
         }
       }
     },
@@ -1277,19 +1277,19 @@
         "fotmob": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "rb-bragantino",
+          "teamSlug": "red-bull-bragantino",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
           "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "notes": "manual match name: FotMob = Red Bull Bragantino"
         },
         "soccerRating": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "rb-bragantino",
+          "teamSlug": "ca-bragantino",
           "countrySlug": "brazil",
           "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "notes": "manual match name: Soccer-Rating = CA Bragantino"
         }
       }
     },

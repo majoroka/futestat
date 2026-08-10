@@ -1,6 +1,6 @@
 {
   "source": "whitelist-plus-standings",
-  "generatedAtUtc": "2026-08-10T19:35:57.950Z",
+  "generatedAtUtc": "2026-08-10T19:58:21.484Z",
   "referenceDate": "2026-08-09",
   "registryPath": "data/team-source-registry.json",
   "standingsDir": "data/fixtures/standings",
@@ -9,8 +9,8 @@
     "competitionsWithStandings": 12,
     "competitionsWithoutStandings": 24,
     "teams": 216,
-    "matchedRegistryTeams": 174,
-    "missingRegistryTeams": 42
+    "matchedRegistryTeams": 186,
+    "missingRegistryTeams": 30
   },
   "competitions": [
     {
@@ -20,8 +20,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/155.json",
       "teamCount": 30,
-      "matchedRegistryTeams": 25,
-      "missingRegistryTeams": 5,
+      "matchedRegistryTeams": 30,
+      "missingRegistryTeams": 0,
       "teams": [
         {
           "inventoryTeamName": "Aldosivi",
@@ -164,6 +164,26 @@
           }
         },
         {
+          "inventoryTeamName": "Central Córdoba S.Estero",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "65676",
+          "registryTeamName": "Central Córdoba",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
           "inventoryTeamName": "Defensa y Justicia",
           "source": "standings",
           "matchedRegistry": true,
@@ -227,9 +247,9 @@
           "inventoryTeamName": "Estudiantes Río Cuarto",
           "source": "standings",
           "matchedRegistry": true,
-          "matchMethod": "heuristic_name",
+          "matchMethod": "normalized_name",
           "sofascoreTeamId": "266694",
-          "registryTeamName": "Estudiantes R.C.",
+          "registryTeamName": "Estudiantes Río Cuarto",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -364,6 +384,46 @@
           }
         },
         {
+          "inventoryTeamName": "Lanús",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "3218",
+          "registryTeamName": "Lanús",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Newell´s Old Boys",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "3212",
+          "registryTeamName": "Newell's Old Boys",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
           "inventoryTeamName": "Platense",
           "source": "standings",
           "matchedRegistry": true,
@@ -484,6 +544,26 @@
           }
         },
         {
+          "inventoryTeamName": "Talleres",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "3210",
+          "registryTeamName": "Talleres",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
           "inventoryTeamName": "Tigre",
           "source": "standings",
           "matchedRegistry": true,
@@ -495,6 +575,26 @@
               "status": "mapped",
               "sourceTeamId": "89396",
               "url": "https://www.fotmob.com/teams/89396/stats/tigre/teams"
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Unión",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "3204",
+          "registryTeamName": "Unión de Santa Fe",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
             },
             "soccerRating": {
               "status": "pending",
@@ -518,106 +618,6 @@
             },
             "soccerRating": {
               "status": "pending",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Central Córdoba S.Estero",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Lanús",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Newell´s Old Boys",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Talleres",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Unión",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
               "sourceTeamId": null,
               "url": null
             }
@@ -1336,8 +1336,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/170.json",
       "teamCount": 10,
-      "matchedRegistryTeams": 8,
-      "missingRegistryTeams": 2,
+      "matchedRegistryTeams": 9,
+      "missingRegistryTeams": 1,
       "teams": [
         {
           "inventoryTeamName": "Dinamo Zagreb",
@@ -1460,6 +1460,26 @@
           }
         },
         {
+          "inventoryTeamName": "NK Rudes",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "35226",
+          "registryTeamName": "Rudeš",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "187866",
+              "url": "https://www.fotmob.com/teams/187866/stats/rudes/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "5711",
+              "url": "https://www.soccer-rating.com/NK-Rudes/5711/"
+            }
+          }
+        },
+        {
           "inventoryTeamName": "NK Varazdin",
           "source": "standings",
           "matchedRegistry": true,
@@ -1501,26 +1521,6 @@
         },
         {
           "inventoryTeamName": "NK Istra 1961",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "NK Rudes",
           "source": "standings",
           "matchedRegistry": false,
           "matchMethod": null,
@@ -2624,8 +2624,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/152.json",
       "teamCount": 16,
-      "matchedRegistryTeams": 10,
-      "missingRegistryTeams": 6,
+      "matchedRegistryTeams": 12,
+      "missingRegistryTeams": 4,
       "teams": [
         {
           "inventoryTeamName": "Arges Pitesti",
@@ -2668,6 +2668,26 @@
           }
         },
         {
+          "inventoryTeamName": "Csikszereda M. Ciuc",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "283972",
+          "registryTeamName": "Csíkszereda",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
           "inventoryTeamName": "Dinamo Bucuresti",
           "source": "standings",
           "matchedRegistry": true,
@@ -2684,6 +2704,26 @@
               "status": "pending",
               "sourceTeamId": null,
               "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Farul",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "3294",
+          "registryTeamName": "Farul Constanța",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1658600",
+              "url": "https://www.fotmob.com/teams/1658600/stats/farul-constanta-w/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1018",
+              "url": "https://www.soccer-rating.com/Farul-Constanta/1018/"
             }
           }
         },
@@ -2848,46 +2888,6 @@
           }
         },
         {
-          "inventoryTeamName": "Csikszereda M. Ciuc",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Farul",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
           "inventoryTeamName": "Universitatea Cluj",
           "source": "standings",
           "matchedRegistry": false,
@@ -2956,8 +2956,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/203.json",
       "teamCount": 16,
-      "matchedRegistryTeams": 10,
-      "missingRegistryTeams": 6,
+      "matchedRegistryTeams": 11,
+      "missingRegistryTeams": 5,
       "teams": [
         {
           "inventoryTeamName": "Akhmat Grozny",
@@ -3120,6 +3120,26 @@
           }
         },
         {
+          "inventoryTeamName": "Rubin Kazan",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "2333",
+          "registryTeamName": "Rubin",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
           "inventoryTeamName": "Spartak Moskva",
           "source": "standings",
           "matchedRegistry": true,
@@ -3241,26 +3261,6 @@
         },
         {
           "inventoryTeamName": "Fakel Voronezh",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Rubin Kazan",
           "source": "standings",
           "matchedRegistry": false,
           "matchMethod": null,
@@ -3540,8 +3540,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/212.json",
       "teamCount": 10,
-      "matchedRegistryTeams": 5,
-      "missingRegistryTeams": 5,
+      "matchedRegistryTeams": 7,
+      "missingRegistryTeams": 3,
       "teams": [
         {
           "inventoryTeamName": "Brinje Grosuplje",
@@ -3646,40 +3646,40 @@
         {
           "inventoryTeamName": "NK Bravo",
           "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "261800",
+          "registryTeamName": "Bravo",
           "sources": {
             "fotmob": {
-              "status": "unknown",
+              "status": "pending",
               "sourceTeamId": null,
               "url": null
             },
             "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "13621",
+              "url": "https://www.soccer-rating.com/NK-Bravo/13621/"
             }
           }
         },
         {
           "inventoryTeamName": "NK Celje",
           "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "2413",
+          "registryTeamName": "Celje",
           "sources": {
             "fotmob": {
-              "status": "unknown",
+              "status": "pending",
               "sourceTeamId": null,
               "url": null
             },
             "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1131",
+              "url": "https://www.soccer-rating.com/NK-Celje/1131/"
             }
           }
         },
@@ -3752,8 +3752,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/218.json",
       "teamCount": 16,
-      "matchedRegistryTeams": 11,
-      "missingRegistryTeams": 5,
+      "matchedRegistryTeams": 12,
+      "missingRegistryTeams": 4,
       "teams": [
         {
           "inventoryTeamName": "Bukovyna",
@@ -3812,6 +3812,26 @@
               "status": "pending",
               "sourceTeamId": null,
               "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "FC Veres",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "200773",
+          "registryTeamName": "Veres Rivne",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1175395",
+              "url": "https://www.fotmob.com/teams/1175395/stats/veres-rivne/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1214",
+              "url": "https://www.soccer-rating.com/Veres-Rivne/1214/"
             }
           }
         },
@@ -3977,26 +3997,6 @@
         },
         {
           "inventoryTeamName": "Epitsentr Dunaivtsi",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "FC Veres",
           "source": "standings",
           "matchedRegistry": false,
           "matchMethod": null,

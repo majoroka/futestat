@@ -64,6 +64,8 @@ const TOKEN_ALIASES = new Map<string, string>([
   ["int", "internacional"],
   ["jr", "juniors"],
   ["jrs", "juniors"],
+  ["mg", "mineiro"],
+  ["rb", "redbull"],
   ["st", "saint"],
   ["utd", "united"],
 ]);
@@ -102,10 +104,12 @@ export function normalizeTeamName(value: string | null | undefined): string {
 
 export function buildTeamNameProfile(value: string): TeamNameProfile {
   const strict = normalizeTeamName(value);
-  const canonicalTokens = strict
+  const canonicalTokens = mergeCompoundTokens(
+    strict
     .split(/\s+/)
     .filter(Boolean)
-    .map((token) => TOKEN_ALIASES.get(token) ?? token);
+    .map((token) => TOKEN_ALIASES.get(token) ?? token),
+  );
   const structuralTokens = canonicalTokens.filter((token) => STRUCTURAL_TOKENS.has(token));
   const distinctiveTokens = canonicalTokens.filter(
     (token) => !NON_DISTINCTIVE_TOKENS.has(token) && !STRUCTURAL_TOKENS.has(token),
@@ -206,7 +210,7 @@ function scoreTeamNameProfiles(
   }
 
   if (hasSingleTokenClubMatch(target.distinctiveTokens, candidate.distinctiveTokens)) {
-    score += 0.22;
+    score += 0.28;
     reasons.push("single-token-club-match");
   }
 
@@ -255,6 +259,27 @@ function hasSingleTokenClubMatch(left: string[], right: string[]): boolean {
   }
 
   return longer.includes(token);
+}
+
+function mergeCompoundTokens(tokens: string[]): string[] {
+  const merged: string[] = [];
+
+  for (let index = 0; index < tokens.length; index += 1) {
+    const token = tokens[index];
+    const nextToken = tokens[index + 1];
+
+    if (token === "red" && nextToken === "bull") {
+      merged.push("redbull");
+      index += 1;
+      continue;
+    }
+
+    if (token) {
+      merged.push(token);
+    }
+  }
+
+  return merged;
 }
 
 function hasOrderedPrefixMatch(left: string[], right: string[]): boolean {
