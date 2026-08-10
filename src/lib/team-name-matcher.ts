@@ -156,7 +156,13 @@ export function findBestTeamNameMatch<TCandidate>(
   const threshold = 0.9;
   const gap = second ? best.score - second.score : best.score;
   if (best.score < threshold || gap < 0.08) {
-    return null;
+    if (!second || second.score < 0.84 || best.score < threshold) {
+      if (best.score < threshold) {
+        return null;
+      }
+    } else {
+      return null;
+    }
   }
 
   return {
@@ -204,6 +210,11 @@ function scoreTeamNameProfiles(
     reasons.push("single-token-club-match");
   }
 
+  if (hasOrderedPrefixMatch(target.distinctiveTokens, candidate.distinctiveTokens)) {
+    score += 0.18;
+    reasons.push("ordered-prefix-match");
+  }
+
   if (isTokenSubsetMatch(target.distinctiveTokens, candidate.distinctiveTokens)) {
     score += 0.15;
     reasons.push("subset-match");
@@ -239,11 +250,20 @@ function hasSingleTokenClubMatch(left: string[], right: string[]): boolean {
   }
 
   const token = shorter[0];
-  if (!token || token.length < 6 || longer.length > 2) {
+  if (!token || token.length < 5 || longer.length > 3) {
     return false;
   }
 
   return longer.includes(token);
+}
+
+function hasOrderedPrefixMatch(left: string[], right: string[]): boolean {
+  const [shorter, longer] = left.length <= right.length ? [left, right] : [right, left];
+  if (shorter.length < 2 || shorter.length === longer.length) {
+    return false;
+  }
+
+  return shorter.every((token, index) => longer[index] === token);
 }
 
 function isTokenSubsetMatch(left: string[], right: string[]): boolean {

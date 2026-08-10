@@ -160,11 +160,14 @@ test("generateTeamInventoryReport matches common abbreviated team names inside t
         snapshotPath: "data/fixtures/latest.json",
         entries: [
           createRegistryEntry("1", "Argentinos Juniors"),
+          createRegistryEntry("7", "Central Córdoba"),
           createRegistryEntry("2", "Barracas Central"),
           createRegistryEntry("3", "Defensa y Justicia"),
           createRegistryEntry("4", "Deportivo Riestra"),
           createRegistryEntry("5", "Estudiantes Río Cuarto"),
           createRegistryEntry("6", "Independiente Rivadavia"),
+          createRegistryEntry("8", "Talleres"),
+          createRegistryEntry("9", "Unión de Santa Fe"),
         ],
       },
       null,
@@ -196,11 +199,14 @@ test("generateTeamInventoryReport matches common abbreviated team names inside t
             type: "single_table",
             rows: [
               createStandingRow(1, "Argentinos Jrs."),
+              createStandingRow(7, "Central Córdoba S.Estero"),
               createStandingRow(2, "Barracas"),
               createStandingRow(3, "Def y Justicia"),
               createStandingRow(4, "Dep. Riestra"),
               createStandingRow(5, "Estudiantes R.C."),
               createStandingRow(6, "Ind. Rivadavia"),
+              createStandingRow(8, "Talleres"),
+              createStandingRow(9, "Unión"),
             ],
           },
         ],
@@ -214,15 +220,18 @@ test("generateTeamInventoryReport matches common abbreviated team names inside t
   const result = await generateTeamInventoryReport(repoRoot, { write: false });
   const ligaProfesional = result.report.competitions.find((competition) => competition.competitionId === "155");
   assert.ok(ligaProfesional);
-  assert.equal(ligaProfesional.teamCount, 6);
-  assert.equal(ligaProfesional.matchedRegistryTeams, 6);
+  assert.equal(ligaProfesional.teamCount, 9);
+  assert.equal(ligaProfesional.matchedRegistryTeams, 9);
 
-  assertTeamMatch(ligaProfesional.teams, "Argentinos Jrs.", "Argentinos Juniors");
-  assertTeamMatch(ligaProfesional.teams, "Barracas", "Barracas Central");
-  assertTeamMatch(ligaProfesional.teams, "Def y Justicia", "Defensa y Justicia");
-  assertTeamMatch(ligaProfesional.teams, "Dep. Riestra", "Deportivo Riestra");
-  assertTeamMatch(ligaProfesional.teams, "Estudiantes R.C.", "Estudiantes Río Cuarto");
-  assertTeamMatch(ligaProfesional.teams, "Ind. Rivadavia", "Independiente Rivadavia");
+  assertTeamMatch(ligaProfesional.teams, "Argentinos Jrs.", "Argentinos Juniors", "heuristic_name");
+  assertTeamMatch(ligaProfesional.teams, "Central Córdoba S.Estero", "Central Córdoba", "heuristic_name");
+  assertTeamMatch(ligaProfesional.teams, "Barracas", "Barracas Central", "heuristic_name");
+  assertTeamMatch(ligaProfesional.teams, "Def y Justicia", "Defensa y Justicia", "heuristic_name");
+  assertTeamMatch(ligaProfesional.teams, "Dep. Riestra", "Deportivo Riestra", "heuristic_name");
+  assertTeamMatch(ligaProfesional.teams, "Estudiantes R.C.", "Estudiantes Río Cuarto", "heuristic_name");
+  assertTeamMatch(ligaProfesional.teams, "Ind. Rivadavia", "Independiente Rivadavia", "heuristic_name");
+  assertTeamMatch(ligaProfesional.teams, "Talleres", "Talleres", "normalized_name");
+  assertTeamMatch(ligaProfesional.teams, "Unión", "Unión de Santa Fe", "heuristic_name");
 });
 
 function createRegistryEntry(sofascoreTeamId: string, teamName: string) {
@@ -283,10 +292,11 @@ function assertTeamMatch(
   }>,
   inventoryTeamName: string,
   registryTeamName: string,
+  matchMethod: string,
 ) {
   const team = teams.find((entry) => entry.inventoryTeamName === inventoryTeamName);
   assert.ok(team);
   assert.equal(team.matchedRegistry, true);
-  assert.equal(team.matchMethod, "heuristic_name");
+  assert.equal(team.matchMethod, matchMethod);
   assert.equal(team.registryTeamName, registryTeamName);
 }

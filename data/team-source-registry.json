@@ -184,6 +184,36 @@
       }
     },
     {
+      "sofascoreTeamId": "65676",
+      "teamName": "Central Córdoba",
+      "countryName": "Argentina",
+      "competitionId": "155",
+      "competitionName": "Liga Profesional, Clausura",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-04",
+      "lastSeenReferenceDate": "2026-08-04",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "central-cordoba-de-santiago",
+          "competitionId": "155",
+          "competitionSlug": "liga-profesional-clausura",
+          "url": null,
+          "notes": "manual match name: FotMob = Central Cordoba de Santiago"
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "central-cordoba",
+          "countrySlug": "argentina",
+          "url": null,
+          "notes": "manual match name: Soccer-Rating = Central Cordoba"
+        }
+      }
+    },
+    {
       "sofascoreTeamId": "36839",
       "teamName": "Def y Justicia",
       "countryName": "Argentina",
@@ -275,7 +305,7 @@
     },
     {
       "sofascoreTeamId": "266694",
-      "teamName": "Estudiantes R.C.",
+      "teamName": "Estudiantes Río Cuarto",
       "countryName": "Argentina",
       "competitionId": "155",
       "competitionName": "Liga Profesional, Clausura",
@@ -484,8 +514,38 @@
       }
     },
     {
+      "sofascoreTeamId": "3218",
+      "teamName": "Lanús",
+      "countryName": "Argentina",
+      "competitionId": "155",
+      "competitionName": "Liga Profesional, Clausura",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-07-23",
+      "lastSeenReferenceDate": "2026-08-06",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "lanus",
+          "competitionId": "155",
+          "competitionSlug": "liga-profesional-clausura",
+          "url": null,
+          "notes": "manual match name: FotMob = Lanus"
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "atletico-lanus",
+          "countrySlug": "argentina",
+          "url": null,
+          "notes": "manual match name: Soccer-Rating = Atletico Lanus"
+        }
+      }
+    },
+    {
       "sofascoreTeamId": "3212",
-      "teamName": "Newell's",
+      "teamName": "Newell's Old Boys",
       "countryName": "Argentina",
       "competitionId": "155",
       "competitionName": "Liga Profesional, Clausura",
@@ -497,19 +557,19 @@
         "fotmob": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "newell-s",
+          "teamSlug": "newell-s-old-boys",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
           "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "notes": "manual match name: FotMob = Newell´s Old Boys"
         },
         "soccerRating": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "newell-s",
+          "teamSlug": "newell-s-old-boys",
           "countrySlug": "argentina",
           "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "notes": "manual match name: Soccer-Rating = Newell`s Old Boys"
         }
       }
     },
@@ -664,6 +724,36 @@
       }
     },
     {
+      "sofascoreTeamId": "3210",
+      "teamName": "Talleres",
+      "countryName": "Argentina",
+      "competitionId": "155",
+      "competitionName": "Liga Profesional, Clausura",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-07-25",
+      "lastSeenReferenceDate": "2026-08-03",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "talleres",
+          "competitionId": "155",
+          "competitionSlug": "liga-profesional-clausura",
+          "url": null,
+          "notes": "manual match name: FotMob = Talleres"
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "talleres-cordoba",
+          "countrySlug": "argentina",
+          "url": null,
+          "notes": "manual match name: Soccer-Rating = Talleres Cordoba"
+        }
+      }
+    },
+    {
       "sofascoreTeamId": "7628",
       "teamName": "Tigre",
       "countryName": "Argentina",
@@ -690,6 +780,36 @@
           "countrySlug": "argentina",
           "url": null,
           "notes": "autofill: sem candidatos Soccer-Rating"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "3204",
+      "teamName": "Unión de Santa Fe",
+      "countryName": "Argentina",
+      "competitionId": "155",
+      "competitionName": "Liga Profesional, Clausura",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-07-25",
+      "lastSeenReferenceDate": "2026-08-06",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "union",
+          "competitionId": "155",
+          "competitionSlug": "liga-profesional-clausura",
+          "url": null,
+          "notes": "manual match name: FotMob = Union"
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "ca-union-santa-fe",
+          "countrySlug": "argentina",
+          "url": null,
+          "notes": "manual match name: Soccer-Rating = CA Union Santa Fe"
         }
       }
     },
