@@ -22,7 +22,8 @@ Ficam explicitamente fora desta fase:
 - estatísticas de equipa
 
 Nota de roadmap:
-- a futura camada de estatísticas de equipa será tratada como fluxo manual separado, fora do pipeline principal de `Sofascore + Zerozero`
+- a camada de estatísticas de equipa continua separada do pipeline principal
+- antes de a escalar, o projeto passa por uma fase explícita de inventário e mapeamento de equipas
 
 ## Escolhas principais
 
@@ -59,6 +60,12 @@ test/
 docs/
 site/
 ```
+
+Documentação principal:
+- [Roadmap](./docs/roadmap.md)
+- [Arquitetura](./docs/architecture.md)
+- [Fluxo Manual de Dados de Equipa](./docs/manual-team-data-pipeline.md)
+- [Mapeamento de Equipas](./docs/team-mapping.md)
 
 ## Instalação
 
@@ -103,6 +110,14 @@ Notas:
 
 ## Fluxo manual de equipa
 
+Antes de capturar ou parsear dados de equipa, o passo recomendado passa a ser:
+- sincronizar o registo canónico de equipas
+- medir cobertura e gaps de mapeamento
+
+Comandos de base:
+- `npm run sync:team-source-registry`
+- `npm run report:team-mapping`
+
 Os dados de equipa continuam separados do pipeline principal.
 
 Comandos já operacionais:
@@ -124,6 +139,11 @@ No site estático:
 - o painel direito tenta carregar `./match-view/<data>/<fixtureId>.json`
 - se o ficheiro existir, usa-o para enriquecer `Detalhes` e `Classificação`
 - se não existir, mantém fallback para fixture base e classificação por competição
+
+Regra operacional nova:
+- o `match_view` continua útil para UI e testes
+- mas a prioridade da fase atual deixa de ser enriquecer `match_view`
+- a prioridade passa a ser fechar o inventário e o mapeamento de equipas
 
 ## Output local
 

@@ -106,10 +106,32 @@ Itens:
 ## Fase 5
 
 Objetivo:
-- estatísticas de equipa
+- fechar a base de equipas antes de escalar estatísticas
 
 Estado:
-- Sprint 8 com match view derivada operacional
+- em reorientação arquitetural
+
+### Fase 5A
+
+Objetivo:
+- inventário canónico de equipas por competição
+- mapeamento estável entre `Sofascore`, `FotMob` e `Soccer-Rating`
+
+Entregáveis desta subfase:
+- `team-source-registry.json` como registo mestre
+- relatório `team-mapping` por competição
+- workflow documental claro para revisão manual dos casos pendentes
+- definição formal de `complete`, `partial` e `missing`
+
+Pendências desta subfase:
+- garantir cobertura por competição para além da janela atual de fixtures
+- introduzir semeadura do inventário com classificações e páginas de competição
+- reduzir aliases ambíguos antes de ampliar capturas
+
+### Fase 5B
+
+Objetivo:
+- estatísticas de equipa em cima do mapeamento estável
 
 Itens:
 - modelação baseada em `2025/2026` para cobrir o caso completo
@@ -143,6 +165,12 @@ Entregáveis já introduzidos:
 - registo `team-source-registry.json` para preservar o mapeamento canónico das equipas entre `Sofascore`, `FotMob` e `Soccer-Rating`
 - autofill conservador desse registo por pesquisa remota, mantendo revisão manual apenas para casos ambíguos
 - captura manual em lote de HTML por fonte a partir do registo canónico, para escalar a recolha sem captura equipa a equipa
+- relatório `team-mapping` para acompanhar o fecho do mapeamento antes de crescer a camada estatística
+
+Decisão atual:
+- não avançar primeiro pelo enriquecimento visual ou estatístico
+- priorizar o fecho do mapeamento das equipas
+- só depois consolidar a camada pública de estatísticas
 
 ## Critérios de qualidade antes de avançar
 

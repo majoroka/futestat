@@ -21,6 +21,7 @@ Estado atual:
 - `parse:all-team-pages` operacional
 - `validate:team-data` operacional
 - `report:team-coverage` operacional
+- `report:team-mapping` operacional
 - `sync:team-source-registry` operacional
 - `build:match-view` operacional
 
@@ -34,6 +35,10 @@ Cada dominio continua isolado:
 - `Zerozero` -> classificacoes
 - `FotMob` -> team stats
 - `Soccer-Rating` -> team context
+
+Antes de qualquer captura manual de equipa, a ordem recomendada passa a ser:
+- `sync:team-source-registry`
+- `report:team-mapping`
 
 Nao misturar capturas nem outputs entre dominios.
 
@@ -258,6 +263,20 @@ npm run report:team-coverage
 ```
 
 Saida esperada:
+```text
+data/team-coverage/latest.json
+```
+
+### 7. Relatorio de mapeamento das equipas
+
+```bash
+npm run report:team-mapping
+```
+
+Saida esperada:
+```text
+data/team-mapping/latest.json
+```
 
 ```text
 data/team-coverage/latest.json

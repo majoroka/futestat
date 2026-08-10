@@ -15,6 +15,10 @@ Regra principal:
 - usar `2025/2026` para desenhar o schema
 - usar `2026/2027` para validar estados `partial` ou `not_started`
 
+Pré-requisito arquitetural:
+- o schema só deve ser promovido para uso operacional depois de o mapeamento canónico de equipas estar estável
+- a chave de referência do projeto continua a ser `sofascoreTeamId`
+
 ## Fontes e responsabilidades
 
 ### `Sofascore`

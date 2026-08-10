@@ -8,15 +8,20 @@ Este fluxo é separado do pipeline existente de:
 - `Sofascore` para fixtures
 - `Zerozero` para classificações
 
+E passa agora a assumir explicitamente um pré-requisito:
+- mapeamento canónico das equipas antes da captura estatística
+
 ## Princípio operacional
 
 Para reduzir risco de bloqueio e de `403`, o fluxo de estatísticas de equipa deve ser separado em camadas:
 
-1. captura manual do HTML
-2. parse local para JSON
-3. composição opcional para `match_view`
+1. inventário e mapeamento de equipas
+2. captura manual do HTML
+3. parse local para JSON
+4. composição opcional para `match_view`
 
 Ou seja:
+- o projeto fecha primeiro `sofascoreTeamId -> fonte secundária`
 - o browser humano recolhe a página
 - os scripts locais transformam o HTML já guardado em disco
 - a UI nunca depende da página remota em tempo real
@@ -165,10 +170,12 @@ Este script é útil, mas não é obrigatório na primeira fase.
 
 1. atualizar fixtures via `Sofascore`
 2. atualizar classificações via `Zerozero`
-3. capturar manualmente HTML necessário de `FotMob` e `Soccer-Rating`
-4. correr parse local dessas capturas
-5. opcionalmente gerar `match_view`
-6. validar no site local
+3. sincronizar o registo de equipas
+4. rever o relatório de mapeamento
+5. capturar manualmente HTML necessário de `FotMob` e `Soccer-Rating`
+6. correr parse local dessas capturas
+7. opcionalmente gerar `match_view`
+8. validar no site local
 
 ## Política por época
 
