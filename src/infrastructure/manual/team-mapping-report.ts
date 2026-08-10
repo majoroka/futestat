@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
+import { DEFAULT_ALLOWED_COMPETITIONS } from "../../config/competition-whitelist.js";
 import type {
   TeamMappingCompetitionReport,
   TeamMappingReport,
@@ -33,6 +34,7 @@ export async function generateTeamMappingReport(
   );
 
   const competitionMap = new Map<string, TeamMappingCompetitionReport>();
+  seedWhitelistCompetitions(competitionMap);
 
   for (const entry of registry.entries) {
     const competitionKey = buildCompetitionKey(
@@ -47,6 +49,8 @@ export async function generateTeamMappingReport(
         competitionId: entry.competitionId,
         competitionName: entry.competitionName,
         countryName: entry.countryName,
+        seededFromWhitelist: false,
+        hasRegistryEntries: false,
         teamCount: 0,
         activeTeams: 0,
         coverage: {
@@ -61,6 +65,13 @@ export async function generateTeamMappingReport(
       competitionMap.set(competitionKey, competition);
     }
 
+    competition.hasRegistryEntries = true;
+    if (!competition.competitionName && entry.competitionName) {
+      competition.competitionName = entry.competitionName;
+    }
+    if (!competition.countryName && entry.countryName) {
+      competition.countryName = entry.countryName;
+    }
     competition.teams.push(entryToTeamReport(entry));
   }
 
@@ -75,6 +86,9 @@ export async function generateTeamMappingReport(
     registryPath: toProjectRelativePath(repoRoot, registryPath),
     summary: {
       competitions: competitions.length,
+      whitelistCompetitions: competitions.filter((competition) => competition.seededFromWhitelist).length,
+      competitionsWithRegistryEntries: competitions.filter((competition) => competition.hasRegistryEntries).length,
+      competitionsWithoutRegistryEntries: competitions.filter((competition) => !competition.hasRegistryEntries).length,
       teams: competitions.reduce((total, competition) => total + competition.teamCount, 0),
       activeTeams: competitions.reduce((total, competition) => total + competition.activeTeams, 0),
       complete: competitions.reduce((total, competition) => total + competition.coverage.complete, 0),
@@ -191,11 +205,46 @@ function finalizeCompetition(competition: TeamMappingCompetitionReport): TeamMap
   return competition;
 }
 
+function seedWhitelistCompetitions(
+  competitionMap: Map<string, TeamMappingCompetitionReport>,
+): void {
+  for (const competition of DEFAULT_ALLOWED_COMPETITIONS) {
+    const key = buildCompetitionKey(
+      competition.competitionId,
+      competition.competitionName,
+      competition.countryName,
+    );
+
+    if (competitionMap.has(key)) {
+      continue;
+    }
+
+    competitionMap.set(key, {
+      competitionId: competition.competitionId,
+      competitionName: competition.competitionName,
+      countryName: competition.countryName,
+      seededFromWhitelist: true,
+      hasRegistryEntries: false,
+      teamCount: 0,
+      activeTeams: 0,
+      coverage: {
+        complete: 0,
+        partial: 0,
+        missing: 0,
+        fotmobMapped: 0,
+        soccerRatingMapped: 0,
+      },
+      teams: [],
+    });
+  }
+}
+
 function compareCompetitions(
   left: TeamMappingCompetitionReport,
   right: TeamMappingCompetitionReport,
 ): number {
   return (
+    Number(right.hasRegistryEntries) - Number(left.hasRegistryEntries) ||
     String(left.countryName ?? "").localeCompare(String(right.countryName ?? "")) ||
     String(left.competitionName ?? "").localeCompare(String(right.competitionName ?? "")) ||
     String(left.competitionId ?? "").localeCompare(String(right.competitionId ?? ""))
@@ -233,6 +282,10 @@ function buildCompetitionKey(
   competitionName: string | null,
   countryName: string | null,
 ): string {
+  if (competitionId) {
+    return `id::${competitionId}`;
+  }
+
   return [competitionId ?? "", competitionName ?? "", countryName ?? ""].join("::");
 }
 

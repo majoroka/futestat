@@ -117,7 +117,10 @@ test("generateTeamMappingReport summarizes mapping progress by competition", asy
   );
 
   const result = await generateTeamMappingReport(repoRoot, { write: true });
-  assert.equal(result.report.summary.competitions, 2);
+  assert.equal(result.report.summary.competitions, 36);
+  assert.equal(result.report.summary.whitelistCompetitions, 36);
+  assert.equal(result.report.summary.competitionsWithRegistryEntries, 2);
+  assert.equal(result.report.summary.competitionsWithoutRegistryEntries, 34);
   assert.equal(result.report.summary.teams, 3);
   assert.equal(result.report.summary.activeTeams, 2);
   assert.equal(result.report.summary.complete, 1);
@@ -126,6 +129,8 @@ test("generateTeamMappingReport summarizes mapping progress by competition", asy
 
   const ligaPortugal = result.report.competitions.find((competition) => competition.competitionId === "238");
   assert.ok(ligaPortugal);
+  assert.equal(ligaPortugal.seededFromWhitelist, true);
+  assert.equal(ligaPortugal.hasRegistryEntries, true);
   assert.equal(ligaPortugal.teamCount, 2);
   assert.equal(ligaPortugal.coverage.complete, 1);
   assert.equal(ligaPortugal.coverage.partial, 1);
@@ -135,7 +140,13 @@ test("generateTeamMappingReport summarizes mapping progress by competition", asy
   assert.equal(sporting.mappingState, "partial");
   assert.deepEqual(sporting.recommendedNextSteps, ["map_soccer_rating"]);
 
+  const premierLeague = result.report.competitions.find((competition) => competition.competitionId === "17");
+  assert.ok(premierLeague);
+  assert.equal(premierLeague.hasRegistryEntries, false);
+  assert.equal(premierLeague.teamCount, 0);
+
   const reportPath = path.join(repoRoot, "data", "team-mapping", "latest.json");
   const savedReport = JSON.parse(await readFile(reportPath, "utf8"));
   assert.equal(savedReport.summary.teams, 3);
+  assert.equal(savedReport.summary.competitionsWithoutRegistryEntries, 34);
 });

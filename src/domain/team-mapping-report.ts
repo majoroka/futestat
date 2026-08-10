@@ -27,6 +27,8 @@ export interface TeamMappingCompetitionReport {
   competitionId: string | null;
   competitionName: string | null;
   countryName: string | null;
+  seededFromWhitelist: boolean;
+  hasRegistryEntries: boolean;
   teamCount: number;
   activeTeams: number;
   coverage: {
@@ -46,6 +48,9 @@ export interface TeamMappingReport {
   registryPath: string;
   summary: {
     competitions: number;
+    whitelistCompetitions: number;
+    competitionsWithRegistryEntries: number;
+    competitionsWithoutRegistryEntries: number;
     teams: number;
     activeTeams: number;
     complete: number;
