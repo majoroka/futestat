@@ -22,6 +22,7 @@
     "publish:fixtures-data": "node scripts/publish-fixtures-data.mjs",
     "refresh:fixtures-local": "node scripts/refresh-fixtures-local.mjs",
     "report:team-coverage": "node --import tsx src/manual/report-team-coverage.ts",
+    "report:team-inventory": "node --import tsx src/manual/report-team-inventory.ts",
     "report:team-mapping": "node --import tsx src/manual/report-team-mapping.ts",
     "scrape:fixtures": "node --import tsx src/cli.ts",
     "sync:team-source-registry": "node --import tsx src/manual/sync-team-source-registry.ts",

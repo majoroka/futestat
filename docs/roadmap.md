@@ -119,6 +119,7 @@ Objetivo:
 
 Entregáveis desta subfase:
 - `team-source-registry.json` como registo mestre
+- relatório `team-inventory` por competição a partir da whitelist e das standings locais
 - relatório `team-mapping` por competição
 - workflow documental claro para revisão manual dos casos pendentes
 - definição formal de `complete`, `partial` e `missing`

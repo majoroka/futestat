@@ -116,6 +116,7 @@ Antes de capturar ou parsear dados de equipa, o passo recomendado passa a ser:
 
 Comandos de base:
 - `npm run sync:team-source-registry`
+- `npm run report:team-inventory`
 - `npm run report:team-mapping`
 
 Os dados de equipa continuam separados do pipeline principal.
