@@ -12,6 +12,10 @@ import type {
   TeamSourceRegistry,
   TeamSourceRegistryEntry,
 } from "../../domain/team-source-registry.js";
+import {
+  findBestTeamNameMatch,
+  type TeamNameMatchMethod,
+} from "../../lib/team-name-matcher.js";
 
 export interface GenerateTeamInventoryReportOptions {
   registryPath?: string;
@@ -171,21 +175,25 @@ function findRegistryEntry(
   registry: TeamSourceRegistry | null,
   competitionId: string,
   inventoryTeamName: string,
-): { entry: TeamSourceRegistryEntry; matchMethod: "sofascoreTeamId" | "normalized_name" } | null {
+): { entry: TeamSourceRegistryEntry; matchMethod: TeamNameMatchMethod } | null {
   if (!registry) {
     return null;
   }
 
-  const exactByCompetition = registry.entries.find(
-    (entry) =>
-      entry.competitionId === competitionId &&
-      normalizeToken(entry.teamName) === normalizeToken(inventoryTeamName),
+  const bestMatch = findBestTeamNameMatch(
+    inventoryTeamName,
+    registry.entries
+      .filter((entry) => entry.competitionId === competitionId)
+      .map((entry) => ({
+        candidate: entry,
+        name: entry.teamName,
+      })),
   );
 
-  if (exactByCompetition) {
+  if (bestMatch) {
     return {
-      entry: exactByCompetition,
-      matchMethod: "normalized_name",
+      entry: bestMatch.candidate,
+      matchMethod: bestMatch.matchMethod,
     };
   }
 
@@ -263,14 +271,6 @@ function compareTeams(left: TeamInventoryTeamReport, right: TeamInventoryTeamRep
     Number(right.matchedRegistry) - Number(left.matchedRegistry) ||
     left.inventoryTeamName.localeCompare(right.inventoryTeamName, "pt")
   );
-}
-
-function normalizeToken(value: string | null | undefined): string {
-  return String(value ?? "")
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-zA-Z0-9]+/g, "")
-    .toLowerCase();
 }
 
 function emptyToNull(value: string | null | undefined): string | null {

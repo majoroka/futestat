@@ -10,7 +10,7 @@ export interface TeamInventoryTeamReport {
   inventoryTeamName: string;
   source: "standings" | "registry";
   matchedRegistry: boolean;
-  matchMethod: "sofascoreTeamId" | "normalized_name" | null;
+  matchMethod: "sofascoreTeamId" | "normalized_name" | "heuristic_name" | null;
   sofascoreTeamId: string | null;
   registryTeamName: string | null;
   sources: {
