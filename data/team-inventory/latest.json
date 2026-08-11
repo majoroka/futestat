@@ -1,6 +1,6 @@
 {
   "source": "whitelist-plus-standings",
-  "generatedAtUtc": "2026-08-10T19:58:21.484Z",
+  "generatedAtUtc": "2026-08-10T20:07:51.205Z",
   "referenceDate": "2026-08-09",
   "registryPath": "data/team-source-registry.json",
   "standingsDir": "data/fixtures/standings",
@@ -9,8 +9,8 @@
     "competitionsWithStandings": 12,
     "competitionsWithoutStandings": 24,
     "teams": 216,
-    "matchedRegistryTeams": 186,
-    "missingRegistryTeams": 30
+    "matchedRegistryTeams": 193,
+    "missingRegistryTeams": 23
   },
   "competitions": [
     {
@@ -632,9 +632,49 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/325.json",
       "teamCount": 20,
-      "matchedRegistryTeams": 17,
-      "missingRegistryTeams": 3,
+      "matchedRegistryTeams": 20,
+      "missingRegistryTeams": 0,
       "teams": [
+        {
+          "inventoryTeamName": "Athletico Paranaense",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "1967",
+          "registryTeamName": "Athletico",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10273",
+              "url": "https://www.fotmob.com/teams/10273/stats/athletico-paranaense/teams"
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Atlético Mineiro",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "1977",
+          "registryTeamName": "Atlético-MG",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10272",
+              "url": "https://www.fotmob.com/teams/10272/stats/atletico-mg/teams"
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
         {
           "inventoryTeamName": "Bahia",
           "source": "standings",
@@ -876,6 +916,26 @@
           }
         },
         {
+          "inventoryTeamName": "Red Bull Bragantino",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "1999",
+          "registryTeamName": "RB Bragantino",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
           "inventoryTeamName": "Remo",
           "source": "standings",
           "matchedRegistry": true,
@@ -972,66 +1032,6 @@
               "status": "mapped",
               "sourceTeamId": "1089",
               "url": "https://www.soccer-rating.com/Vitoria-Guimaraes/1089/"
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Athletico Paranaense",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Atlético Mineiro",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Red Bull Bragantino",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
             }
           }
         }
@@ -2624,8 +2624,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/152.json",
       "teamCount": 16,
-      "matchedRegistryTeams": 12,
-      "missingRegistryTeams": 4,
+      "matchedRegistryTeams": 13,
+      "missingRegistryTeams": 3,
       "teams": [
         {
           "inventoryTeamName": "Arges Pitesti",
@@ -2654,6 +2654,26 @@
           "matchMethod": "normalized_name",
           "sofascoreTeamId": "5287",
           "registryTeamName": "CFR Cluj",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Corvinul Hunedoara",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "148278",
+          "registryTeamName": "Corvinul",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -2868,26 +2888,6 @@
           }
         },
         {
-          "inventoryTeamName": "Corvinul Hunedoara",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
           "inventoryTeamName": "Universitatea Cluj",
           "source": "standings",
           "matchedRegistry": false,
@@ -2956,8 +2956,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/203.json",
       "teamCount": 16,
-      "matchedRegistryTeams": 11,
-      "missingRegistryTeams": 5,
+      "matchedRegistryTeams": 13,
+      "missingRegistryTeams": 3,
       "teams": [
         {
           "inventoryTeamName": "Akhmat Grozny",
@@ -2980,6 +2980,26 @@
           }
         },
         {
+          "inventoryTeamName": "Baltika Kaliningrad",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "7517",
+          "registryTeamName": "Baltika",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "49694",
+              "url": "https://www.fotmob.com/teams/49694/stats/baltika/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "357",
+              "url": "https://www.soccer-rating.com/Baltika-Kaliningrad/357/"
+            }
+          }
+        },
+        {
           "inventoryTeamName": "Dynamo Moskva",
           "source": "standings",
           "matchedRegistry": true,
@@ -2996,6 +3016,26 @@
               "status": "mapped",
               "sourceTeamId": "11075",
               "url": "https://www.soccer-rating.com/FK-Legion-Dynamo/11075/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Fakel Voronezh",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "2317",
+          "registryTeamName": "Fakel",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
             }
           }
         },
@@ -3200,26 +3240,6 @@
           }
         },
         {
-          "inventoryTeamName": "Baltika Kaliningrad",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
           "inventoryTeamName": "CSKA Moskva",
           "source": "standings",
           "matchedRegistry": false,
@@ -3241,26 +3261,6 @@
         },
         {
           "inventoryTeamName": "Dynamo Makhachkala",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Fakel Voronezh",
           "source": "standings",
           "matchedRegistry": false,
           "matchMethod": null,
@@ -3540,8 +3540,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/212.json",
       "teamCount": 10,
-      "matchedRegistryTeams": 7,
-      "missingRegistryTeams": 3,
+      "matchedRegistryTeams": 8,
+      "missingRegistryTeams": 2,
       "teams": [
         {
           "inventoryTeamName": "Brinje Grosuplje",
@@ -3684,6 +3684,26 @@
           }
         },
         {
+          "inventoryTeamName": "Olimpija Ljubljana",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "2416",
+          "registryTeamName": "Olimpija",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "7872",
+              "url": "https://www.fotmob.com/teams/7872/stats/olimpija-ljubljana/teams"
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
           "inventoryTeamName": "NK Radomlje",
           "source": "standings",
           "matchedRegistry": false,
@@ -3705,26 +3725,6 @@
         },
         {
           "inventoryTeamName": "NS Mura",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Olimpija Ljubljana",
           "source": "standings",
           "matchedRegistry": false,
           "matchMethod": null,
