@@ -4695,13 +4695,13 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "856680",
           "teamSlug": "nk-bravo",
           "competitionId": "212",
           "competitionSlug": "prvaliga",
-          "url": null,
-          "notes": "manual match name: FotMob = NK Bravo"
+          "url": "https://www.fotmob.com/teams/856680/stats/nk-bravo/teams",
+          "notes": null
         },
         "soccerRating": {
           "status": "mapped",
@@ -4755,13 +4755,13 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "4622",
           "teamSlug": "nk-celje",
           "competitionId": "212",
           "competitionSlug": "prvaliga",
-          "url": null,
-          "notes": "manual match name: FotMob = NK Celje"
+          "url": "https://www.fotmob.com/teams/4622/stats/nk-celje/teams",
+          "notes": null
         },
         "soccerRating": {
           "status": "mapped",
@@ -4785,21 +4785,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "272871",
           "teamSlug": "radomlje",
           "competitionId": "212",
           "competitionSlug": "prvaliga",
-          "url": null,
-          "notes": "manual match name: FotMob = Radomlje"
+          "url": "https://www.fotmob.com/teams/272871/stats/radomlje/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9068",
           "teamSlug": "nk-radomlje",
           "countrySlug": "slovenia",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = NK Radomlje"
+          "url": "https://www.soccer-rating.com/NK-Radomlje/9068/",
+          "notes": null
         }
       }
     },
@@ -4875,21 +4875,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "2172",
           "teamSlug": "mura",
           "competitionId": "212",
           "competitionSlug": "prvaliga",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/2172/stats/mura/teams",
+          "notes": "manual match name: FotMob = Mura"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "4542",
           "teamSlug": "ns-mura",
           "countrySlug": "slovenia",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = NS Mura"
+          "url": "https://www.soccer-rating.com/NS-Mura/4542/",
+          "notes": null
         }
       }
     },
@@ -4914,12 +4914,12 @@
           "notes": "manual match name: FotMob = Olimpija Ljubljana"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "4540",
           "teamSlug": "nk-olimpija-ljubljana",
           "countrySlug": "slovenia",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = NK Olimpija Ljubljana"
+          "url": "https://www.soccer-rating.com/NK-Olimpija-Ljubljana/4540/",
+          "notes": null
         }
       }
     },
@@ -7635,21 +7635,21 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "nafta-1903",
+          "status": "mapped",
+          "sourceTeamId": "2420",
+          "teamSlug": "nafta",
           "competitionId": "212",
           "competitionSlug": "prvaliga",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/2420/stats/nafta/teams",
+          "notes": "manual match name: FotMob = Nafta"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "nafta-1903",
+          "status": "mapped",
+          "sourceTeamId": "1114",
+          "teamSlug": "nk-nafta-lendava",
           "countrySlug": "slovenia",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/NK-Nafta-Lendava/1114/",
+          "notes": null
         }
       }
     },
