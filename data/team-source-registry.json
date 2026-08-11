@@ -5364,12 +5364,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "aldosivi",
+          "status": "mapped",
+          "sourceTeamId": "44",
+          "teamSlug": "ca-aldosivi",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/CA-Aldosivi/44/",
+          "notes": null
         }
       }
     },
@@ -5385,21 +5385,21 @@
       "lastSeenReferenceDate": "2026-08-04",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "213596",
           "teamSlug": "central-cordoba-de-santiago",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
-          "notes": "manual match name: FotMob = Central Cordoba de Santiago"
+          "url": "https://www.fotmob.com/teams/213596/stats/central-cordoba-de-santiago/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "2454",
           "teamSlug": "central-cordoba",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Central Cordoba"
+          "url": "https://www.soccer-rating.com/Central-Cordoba/2454/",
+          "notes": null
         }
       }
     },
@@ -5415,21 +5415,21 @@
       "lastSeenReferenceDate": "2026-08-06",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10082",
           "teamSlug": "lanus",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
-          "notes": "manual match name: FotMob = Lanus"
+          "url": "https://www.fotmob.com/teams/10082/stats/lanus/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "12",
           "teamSlug": "atletico-lanus",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Atletico Lanus"
+          "url": "https://www.soccer-rating.com/Atletico-Lanus/12/",
+          "notes": null
         }
       }
     },
@@ -5445,21 +5445,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10201",
           "teamSlug": "newell-s-old-boys",
           "competitionId": "155",
           "competitionSlug": "liga-profesional",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/10201/stats/newell-s-old-boys/teams",
+          "notes": "alias: mesma entidade que Newell's / Newell`s Old Boys"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "14",
           "teamSlug": "newell-s-old-boys",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": null
+          "url": "https://www.soccer-rating.com/Newell-s-Old-Boys/14/",
+          "notes": "alias: mesma entidade que Newell's / Newell`s Old Boys"
         }
       }
     },
@@ -5484,12 +5484,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "229",
           "teamSlug": "rosario-central",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Rosario-Central/229/",
+          "notes": null
         }
       }
     },
@@ -5505,21 +5505,21 @@
       "lastSeenReferenceDate": "2026-08-03",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10101",
           "teamSlug": "talleres",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
-          "notes": "manual match name: FotMob = Talleres"
+          "url": "https://www.fotmob.com/teams/10101/stats/talleres/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "2432",
           "teamSlug": "talleres-cordoba",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Talleres Cordoba"
+          "url": "https://www.soccer-rating.com/Talleres-Cordoba/2432/",
+          "notes": null
         }
       }
     },
@@ -5535,21 +5535,21 @@
       "lastSeenReferenceDate": "2026-08-06",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10096",
           "teamSlug": "union",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
-          "notes": "manual match name: FotMob = Union"
+          "url": "https://www.fotmob.com/teams/10096/stats/union/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "123",
           "teamSlug": "ca-union-santa-fe",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = CA Union Santa Fe"
+          "url": "https://www.soccer-rating.com/CA-Union-Santa-Fe/123/",
+          "notes": null
         }
       }
     },
