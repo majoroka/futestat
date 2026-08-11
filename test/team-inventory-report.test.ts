@@ -457,6 +457,157 @@ test("generateTeamInventoryReport matches naming variants from Bulgaria, Croatia
   assertTeamMatch(norway.teams, "Tromso", "Tromsø", "normalized_name");
 });
 
+test("generateTeamInventoryReport matches naming variants from Portugal and Romania", async () => {
+  const repoRoot = await mkdtemp(path.join(os.tmpdir(), "futestat-team-inventory-pt-ro-"));
+  await mkdir(path.join(repoRoot, "data", "fixtures", "standings"), { recursive: true });
+  await mkdir(path.join(repoRoot, "data"), { recursive: true });
+
+  await writeFile(
+    path.join(repoRoot, "data", "team-source-registry.json"),
+    JSON.stringify(
+      {
+        generatedAtUtc: "2026-08-11T10:00:00Z",
+        referenceDate: "2026-08-11",
+        snapshotPath: "data/fixtures/latest.json",
+        entries: [
+          createEuropeanRegistryEntry("3035", "Estrela Amadora", "238", "Liga Portugal", "Portugal"),
+          createEuropeanRegistryEntry("483088", "AVS", "239", "Liga Portugal 2", "Portugal"),
+          createEuropeanRegistryEntry("148278", "Corvinul", "152", "SuperLiga", "Romania"),
+          createEuropeanRegistryEntry("283972", "Csíkszereda", "152", "SuperLiga", "Romania"),
+          createEuropeanRegistryEntry("3294", "Farul Constanța", "152", "SuperLiga", "Romania"),
+          createEuropeanRegistryEntry("7734", "U. Cluj", "152", "SuperLiga", "Romania"),
+          createEuropeanRegistryEntry("116223", "U. Craiova", "152", "SuperLiga", "Romania"),
+          createEuropeanRegistryEntry("204657", "UTA", "152", "SuperLiga", "Romania"),
+        ],
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  await writeFile(
+    path.join(repoRoot, "data", "fixtures", "standings", "238.json"),
+    JSON.stringify(
+      {
+        source: "zerozero",
+        competitionId: "238",
+        competitionName: "Liga Portugal",
+        countryName: "Portugal",
+        zerozeroUrl: "https://example.com/238",
+        mode: "single_table",
+        status: "ready",
+        scrapedAtUtc: "2026-08-11T09:00:00Z",
+        editionId: "1",
+        phaseId: "2",
+        phaseName: "Liga Portugal",
+        phaseNotes: [],
+        ruleProfileId: null,
+        tables: [
+          {
+            name: "Liga Portugal",
+            type: "single_table",
+            rows: [createStandingRow(1, "Est. Amadora")],
+          },
+        ],
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  await writeFile(
+    path.join(repoRoot, "data", "fixtures", "standings", "239.json"),
+    JSON.stringify(
+      {
+        source: "zerozero",
+        competitionId: "239",
+        competitionName: "Liga Portugal 2",
+        countryName: "Portugal",
+        zerozeroUrl: "https://example.com/239",
+        mode: "single_table",
+        status: "ready",
+        scrapedAtUtc: "2026-08-11T09:00:00Z",
+        editionId: "1",
+        phaseId: "2",
+        phaseName: "Liga Portugal 2",
+        phaseNotes: [],
+        ruleProfileId: null,
+        tables: [
+          {
+            name: "Liga Portugal 2",
+            type: "single_table",
+            rows: [createStandingRow(1, "AFS")],
+          },
+        ],
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  await writeFile(
+    path.join(repoRoot, "data", "fixtures", "standings", "152.json"),
+    JSON.stringify(
+      {
+        source: "zerozero",
+        competitionId: "152",
+        competitionName: "SuperLiga",
+        countryName: "Romania",
+        zerozeroUrl: "https://example.com/152",
+        mode: "single_table",
+        status: "ready",
+        scrapedAtUtc: "2026-08-11T09:00:00Z",
+        editionId: "1",
+        phaseId: "2",
+        phaseName: "SuperLiga",
+        phaseNotes: [],
+        ruleProfileId: null,
+        tables: [
+          {
+            name: "SuperLiga",
+            type: "single_table",
+            rows: [
+              createStandingRow(1, "Corvinul Hunedoara"),
+              createStandingRow(2, "Csikszereda M. Ciuc"),
+              createStandingRow(3, "Farul"),
+              createStandingRow(4, "Universitatea Cluj"),
+              createStandingRow(5, "Universitatea Craiova"),
+              createStandingRow(6, "UTA Arad"),
+            ],
+          },
+        ],
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  const result = await generateTeamInventoryReport(repoRoot, { write: false });
+  const ligaPortugal = result.report.competitions.find((competition) => competition.competitionId === "238");
+  const ligaPortugal2 = result.report.competitions.find((competition) => competition.competitionId === "239");
+  const romania = result.report.competitions.find((competition) => competition.competitionId === "152");
+
+  assert.ok(ligaPortugal);
+  assert.ok(ligaPortugal2);
+  assert.ok(romania);
+  assert.equal(ligaPortugal.matchedRegistryTeams, 1);
+  assert.equal(ligaPortugal2.matchedRegistryTeams, 1);
+  assert.equal(romania.matchedRegistryTeams, 6);
+
+  assertTeamMatch(ligaPortugal.teams, "Est. Amadora", "Estrela Amadora", "heuristic_name");
+  assertTeamMatch(ligaPortugal2.teams, "AFS", "AVS", "heuristic_name");
+  assertTeamMatch(romania.teams, "Corvinul Hunedoara", "Corvinul", "heuristic_name");
+  assertTeamMatch(romania.teams, "Csikszereda M. Ciuc", "Csíkszereda", "heuristic_name");
+  assertTeamMatch(romania.teams, "Farul", "Farul Constanța", "heuristic_name");
+  assertTeamMatch(romania.teams, "Universitatea Cluj", "U. Cluj", "heuristic_name");
+  assertTeamMatch(romania.teams, "Universitatea Craiova", "U. Craiova", "heuristic_name");
+  assertTeamMatch(romania.teams, "UTA Arad", "UTA", "heuristic_name");
+});
+
 function createRegistryEntry(sofascoreTeamId: string, teamName: string) {
   return {
     sofascoreTeamId,

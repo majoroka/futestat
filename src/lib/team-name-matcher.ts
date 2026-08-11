@@ -61,8 +61,10 @@ const STRUCTURAL_TOKENS = new Set([
 ]);
 
 const TOKEN_ALIASES = new Map<string, string>([
+  ["afs", "avs"],
   ["def", "defensa"],
   ["dep", "deportivo"],
+  ["est", "estrela"],
   ["ind", "independiente"],
   ["int", "internacional"],
   ["jr", "juniors"],
@@ -70,6 +72,7 @@ const TOKEN_ALIASES = new Map<string, string>([
   ["mg", "mineiro"],
   ["rb", "redbull"],
   ["st", "saint"],
+  ["u", "universitatea"],
   ["utd", "united"],
 ]);
 
@@ -275,7 +278,7 @@ function hasSingleTokenClubMatch(left: string[], right: string[]): boolean {
   }
 
   const token = shorter[0];
-  if (!token || token.length < 4 || longer.length > 3) {
+  if (!token || token.length < 3 || longer.length > 3) {
     return false;
   }
 
@@ -289,7 +292,7 @@ function hasLeadingSingleTokenMatch(left: string[], right: string[]): boolean {
   }
 
   const token = shorter[0];
-  if (!token || token.length < 4 || longer.length > 3) {
+  if (!token || token.length < 3 || longer.length > 3) {
     return false;
   }
 
