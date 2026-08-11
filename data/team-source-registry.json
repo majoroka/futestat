@@ -24,12 +24,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "argentinos-jrs",
+          "status": "mapped",
+          "sourceTeamId": "16",
+          "teamSlug": "argentinos-juniors",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Argentinos-Juniors/16/",
+          "notes": null
         }
       }
     },
@@ -54,12 +54,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "231",
           "teamSlug": "atletico-tucuman",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Atletico-Tucuman/231/",
+          "notes": null
         }
       }
     },
@@ -75,20 +75,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10087",
           "teamSlug": "banfield",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10087/stats/banfield/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "banfield",
+          "status": "mapped",
+          "sourceTeamId": "9",
+          "teamSlug": "ca-banfield",
           "countrySlug": "argentina",
-          "url": null,
+          "url": "https://www.soccer-rating.com/CA-Banfield/9/",
           "notes": null
         }
       }
@@ -114,12 +114,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "barracas",
+          "status": "mapped",
+          "sourceTeamId": "2614",
+          "teamSlug": "barracas-central",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Barracas-Central/2614/",
+          "notes": null
         }
       }
     },
@@ -135,20 +135,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10092",
           "teamSlug": "belgrano",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10092/stats/belgrano/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "belgrano",
+          "status": "mapped",
+          "sourceTeamId": "49",
+          "teamSlug": "ca-belgrano",
           "countrySlug": "argentina",
-          "url": null,
+          "url": "https://www.soccer-rating.com/CA-Belgrano/49/",
           "notes": null
         }
       }
@@ -174,12 +174,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "6",
           "teamSlug": "boca-juniors",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Boca-Juniors/6/",
+          "notes": null
         }
       }
     },
@@ -204,12 +204,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "def-y-justicia",
+          "status": "mapped",
+          "sourceTeamId": "47",
+          "teamSlug": "csd-defensa-y-justicia",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/CSD-Defensa-y-Justicia/47/",
+          "notes": null
         }
       }
     },
@@ -234,12 +234,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dep-riestra",
+          "status": "mapped",
+          "sourceTeamId": "2458",
+          "teamSlug": "deportivo-riestra",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Deportivo-Riestra/2458/",
+          "notes": null
         }
       }
     },
@@ -264,12 +264,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "estudiantes",
+          "status": "mapped",
+          "sourceTeamId": "4",
+          "teamSlug": "estudiantes-la-plata",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Estudiantes-La-Plata/4/",
+          "notes": null
         }
       }
     },
@@ -285,21 +285,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "estudiantes-r-c",
+          "status": "mapped",
+          "sourceTeamId": "213591",
+          "teamSlug": "estudiantes-de-rio-cuarto",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/213591/stats/estudiantes-de-rio-cuarto/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "estudiantes-r-c",
+          "status": "mapped",
+          "sourceTeamId": "6169",
+          "teamSlug": "estudiantes-rio-cuarto",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Estudiantes-Rio-Cuarto/6169/",
+          "notes": null
         }
       }
     },
@@ -324,12 +324,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "gimnasia",
+          "status": "mapped",
+          "sourceTeamId": "15",
+          "teamSlug": "gimnasia-la-plata",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Gimnasia-La-Plata/15/",
+          "notes": null
         }
       }
     },
@@ -354,12 +354,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "4386",
           "teamSlug": "gimnasia-mendoza",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Gimnasia-Mendoza/4386/",
+          "notes": null
         }
       }
     },
@@ -385,10 +385,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "7400",
-          "teamSlug": "huracan-valencia",
+          "sourceTeamId": "230",
+          "teamSlug": "ca-huracan",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Huracan-Valencia/7400/",
+          "url": "https://www.soccer-rating.com/CA-Huracan/230/",
           "notes": null
         }
       }
@@ -405,21 +405,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "ind-rivadavia",
+          "status": "mapped",
+          "sourceTeamId": "161729",
+          "teamSlug": "independiente-rivadavia",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/161729/stats/independiente-rivadavia/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "ind-rivadavia",
+          "status": "mapped",
+          "sourceTeamId": "125",
+          "teamSlug": "independiente-rivadavia",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Independiente-Rivadavia/125/",
+          "notes": null
         }
       }
     },
@@ -444,12 +444,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "independiente",
+          "status": "mapped",
+          "sourceTeamId": "232",
+          "teamSlug": "ca-independiente",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/CA-Independiente/232/",
+          "notes": null
         }
       }
     },
@@ -474,12 +474,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "instituto",
+          "status": "mapped",
+          "sourceTeamId": "48",
+          "teamSlug": "instituto-ac-cordoba",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Instituto-AC-Cordoba/48/",
+          "notes": null
         }
       }
     },
@@ -495,21 +495,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10201",
           "teamSlug": "newell-s-old-boys",
           "competitionId": "155",
           "competitionSlug": "liga-profesional-clausura",
-          "url": null,
-          "notes": "manual match name: FotMob = Newell´s Old Boys"
+          "url": "https://www.fotmob.com/teams/10201/stats/newell-s-old-boys/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "14",
           "teamSlug": "newell-s-old-boys",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Newell`s Old Boys"
+          "url": "https://www.soccer-rating.com/Newell-s-Old-Boys/14/",
+          "notes": null
         }
       }
     },
@@ -534,12 +534,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "platense",
+          "status": "mapped",
+          "sourceTeamId": "43",
+          "teamSlug": "ca-platense",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/CA-Platense/43/",
+          "notes": null
         }
       }
     },
@@ -565,10 +565,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "1438",
-          "teamSlug": "racing-92-fc",
+          "sourceTeamId": "10",
+          "teamSlug": "racing-club",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Racing-92-FC/1438/",
+          "url": "https://www.soccer-rating.com/Racing-Club/10/",
           "notes": null
         }
       }
@@ -594,12 +594,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "3",
           "teamSlug": "river-plate",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/River-Plate/3/",
+          "notes": null
         }
       }
     },
@@ -624,12 +624,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "5",
           "teamSlug": "san-lorenzo",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/San-Lorenzo/5/",
+          "notes": null
         }
       }
     },
@@ -654,12 +654,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "sarmiento",
+          "status": "mapped",
+          "sourceTeamId": "2708",
+          "teamSlug": "club-atletico-sarmiento",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Club-Atletico-Sarmiento/2708/",
+          "notes": null
         }
       }
     },
@@ -684,12 +684,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "tigre",
+          "status": "mapped",
+          "sourceTeamId": "7",
+          "teamSlug": "ca-tigre",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/CA-Tigre/7/",
+          "notes": null
         }
       }
     },
@@ -714,12 +714,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8",
           "teamSlug": "velez-sarsfield",
           "countrySlug": "argentina",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Velez-Sarsfield/8/",
+          "notes": null
         }
       }
     },
