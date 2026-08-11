@@ -744,12 +744,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "85",
           "teamSlug": "athletico-pr",
           "countrySlug": "brazil",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Athletico PR"
+          "url": "https://www.soccer-rating.com/Athletico-PR/85/",
+          "notes": null
         }
       }
     },
@@ -774,12 +774,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "100",
           "teamSlug": "atletico-mg",
           "countrySlug": "brazil",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Atletico-MG"
+          "url": "https://www.soccer-rating.com/Atletico-MG/100/",
+          "notes": null
         }
       }
     },
@@ -804,12 +804,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "bahia",
+          "status": "mapped",
+          "sourceTeamId": "1151",
+          "teamSlug": "ec-bahia",
           "countrySlug": "brazil",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/EC-Bahia/1151/",
+          "notes": null
         }
       }
     },
@@ -825,21 +825,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "botafogo",
+          "status": "mapped",
+          "sourceTeamId": "8517",
+          "teamSlug": "botafogo-rj",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/8517/stats/botafogo-rj/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "botafogo",
+          "status": "mapped",
+          "sourceTeamId": "86",
+          "teamSlug": "botafogo-rj",
           "countrySlug": "brazil",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Botafogo-RJ/86/",
+          "notes": null
         }
       }
     },
@@ -864,12 +864,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1491",
           "teamSlug": "chapecoense",
           "countrySlug": "brazil",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Chapecoense/1491/",
+          "notes": null
         }
       }
     },
@@ -895,10 +895,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "8624",
-          "teamSlug": "college-corinthians",
+          "sourceTeamId": "89",
+          "teamSlug": "corinthians",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/College-Corinthians/8624/",
+          "url": "https://www.soccer-rating.com/Corinthians/89/",
           "notes": null
         }
       }
@@ -924,12 +924,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "92",
           "teamSlug": "coritiba",
           "countrySlug": "brazil",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Coritiba/92/",
+          "notes": null
         }
       }
     },
@@ -954,12 +954,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "91",
           "teamSlug": "cruzeiro",
           "countrySlug": "brazil",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Cruzeiro/91/",
+          "notes": null
         }
       }
     },
@@ -984,12 +984,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "90",
           "teamSlug": "flamengo",
           "countrySlug": "brazil",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Flamengo/90/",
+          "notes": null
         }
       }
     },
@@ -1014,12 +1014,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "93",
           "teamSlug": "fluminense",
           "countrySlug": "brazil",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Fluminense/93/",
+          "notes": null
         }
       }
     },
@@ -1044,12 +1044,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "gremio",
+          "status": "mapped",
+          "sourceTeamId": "97",
+          "teamSlug": "gremio-porto-alegre",
           "countrySlug": "brazil",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Gremio-Porto-Alegre/97/",
+          "notes": null
         }
       }
     },
@@ -1075,10 +1075,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "13490",
-          "teamSlug": "cf-internacional-de-madrid",
+          "sourceTeamId": "104",
+          "teamSlug": "internacional",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/CF-Internacional-de-Madrid/13490/",
+          "url": "https://www.soccer-rating.com/Internacional/104/",
           "notes": null
         }
       }
@@ -1104,12 +1104,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "649",
           "teamSlug": "mirassol",
           "countrySlug": "brazil",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Mirassol/649/",
+          "notes": null
         }
       }
     },
@@ -1134,12 +1134,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "99",
           "teamSlug": "palmeiras",
           "countrySlug": "brazil",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Palmeiras/99/",
+          "notes": null
         }
       }
     },
@@ -1155,21 +1155,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "109705",
           "teamSlug": "red-bull-bragantino",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
-          "notes": "manual match name: FotMob = Red Bull Bragantino"
+          "url": "https://www.fotmob.com/teams/109705/stats/red-bull-bragantino/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "646",
           "teamSlug": "ca-bragantino",
           "countrySlug": "brazil",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = CA Bragantino"
+          "url": "https://www.soccer-rating.com/CA-Bragantino/646/",
+          "notes": null
         }
       }
     },
@@ -1194,12 +1194,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "remo",
+          "status": "mapped",
+          "sourceTeamId": "2645",
+          "teamSlug": "clube-do-remo",
           "countrySlug": "brazil",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Clube-Do-Remo/2645/",
+          "notes": null
         }
       }
     },
@@ -1225,10 +1225,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "9192",
-          "teamSlug": "tartu-fc-santos",
+          "sourceTeamId": "88",
+          "teamSlug": "santos-fc",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Tartu-FC-Santos/9192/",
+          "url": "https://www.soccer-rating.com/Santos-FC/88/",
           "notes": null
         }
       }
@@ -1254,12 +1254,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "96",
           "teamSlug": "sao-paulo",
           "countrySlug": "brazil",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Sao-Paulo/96/",
+          "notes": null
         }
       }
     },
@@ -1275,21 +1275,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "vasco",
+          "status": "mapped",
+          "sourceTeamId": "10276",
+          "teamSlug": "vasco-da-gama",
           "competitionId": "325",
           "competitionSlug": "brasileirao-betano",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/10276/stats/vasco-da-gama/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "vasco",
+          "status": "mapped",
+          "sourceTeamId": "42",
+          "teamSlug": "vasco-da-gama",
           "countrySlug": "brazil",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Vasco-da-Gama/42/",
+          "notes": null
         }
       }
     },
@@ -1315,10 +1315,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "1089",
-          "teamSlug": "vitoria-guimaraes",
+          "sourceTeamId": "94",
+          "teamSlug": "ec-vitoria-salvador",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Vitoria-Guimaraes/1089/",
+          "url": "https://www.soccer-rating.com/EC-Vitoria-Salvador/94/",
           "notes": null
         }
       }
