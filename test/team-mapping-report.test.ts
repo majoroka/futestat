@@ -117,10 +117,10 @@ test("generateTeamMappingReport summarizes mapping progress by competition", asy
   );
 
   const result = await generateTeamMappingReport(repoRoot, { write: true });
-  assert.equal(result.report.summary.competitions, 36);
-  assert.equal(result.report.summary.whitelistCompetitions, 36);
+  assert.equal(result.report.summary.competitions, 42);
+  assert.equal(result.report.summary.whitelistCompetitions, 42);
   assert.equal(result.report.summary.competitionsWithRegistryEntries, 2);
-  assert.equal(result.report.summary.competitionsWithoutRegistryEntries, 34);
+  assert.equal(result.report.summary.competitionsWithoutRegistryEntries, 40);
   assert.equal(result.report.summary.teams, 3);
   assert.equal(result.report.summary.activeTeams, 2);
   assert.equal(result.report.summary.complete, 1);
@@ -148,5 +148,5 @@ test("generateTeamMappingReport summarizes mapping progress by competition", asy
   const reportPath = path.join(repoRoot, "data", "team-mapping", "latest.json");
   const savedReport = JSON.parse(await readFile(reportPath, "utf8"));
   assert.equal(savedReport.summary.teams, 3);
-  assert.equal(savedReport.summary.competitionsWithoutRegistryEntries, 34);
+  assert.equal(savedReport.summary.competitionsWithoutRegistryEntries, 40);
 });

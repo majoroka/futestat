@@ -116,9 +116,9 @@ test("generateTeamInventoryReport lists whitelist competitions and seeds teams f
   );
 
   const result = await generateTeamInventoryReport(repoRoot, { write: true });
-  assert.equal(result.report.summary.competitions, 36);
+  assert.equal(result.report.summary.competitions, 42);
   assert.equal(result.report.summary.competitionsWithStandings, 1);
-  assert.equal(result.report.summary.competitionsWithoutStandings, 35);
+  assert.equal(result.report.summary.competitionsWithoutStandings, 41);
   assert.equal(result.report.summary.teams, 2);
   assert.equal(result.report.summary.matchedRegistryTeams, 1);
   assert.equal(result.report.summary.missingRegistryTeams, 1);
