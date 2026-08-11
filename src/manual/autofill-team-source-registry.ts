@@ -51,6 +51,9 @@ function parseCliOptions(argv: string[]): AutofillTeamSourceRegistryOptions {
       case "--only-pending":
         options.onlyPending = parseBoolean(rawValue, flag);
         break;
+      case "--competition-ids":
+        options.competitionIds = parseCompetitionIds(rawValue, flag);
+        break;
       case "--team-id":
         options.teamId = requireValue(rawValue, flag);
         break;
@@ -108,6 +111,23 @@ function parseInteger(value: string | undefined, flag: string): number {
   return parsed;
 }
 
+function parseCompetitionIds(value: string | undefined, flag: string): Set<string> {
+  if (!value) {
+    throw new Error(`Missing value for ${flag}.`);
+  }
+
+  const ids = value
+    .split(",")
+    .map((item) => item.trim())
+    .filter(Boolean);
+
+  if (ids.length === 0) {
+    throw new Error(`Missing value for ${flag}.`);
+  }
+
+  return new Set(ids);
+}
+
 function printHelp(): void {
   console.log(`
 Usage:
@@ -118,12 +138,14 @@ Options:
   --source=all|fotmob|soccer-rating
   --dry-run=true|false
   --only-pending=true|false
+  --competition-ids=17,18
   --team-id=<sofascore-team-id>
   --limit=<n>
   --delay-ms=<ms>
 
 Examples:
   npm run autofill:team-source-registry
+  npm run autofill:team-source-registry -- --competition-ids=17,18
   npm run autofill:team-source-registry -- --source=fotmob --limit=25
   npm run autofill:team-source-registry -- --team-id=3006 --dry-run=true
 `);

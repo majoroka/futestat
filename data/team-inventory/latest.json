@@ -1,16 +1,16 @@
 {
   "source": "whitelist-plus-standings",
-  "generatedAtUtc": "2026-08-11T19:41:29.985Z",
-  "referenceDate": "2026-08-09",
+  "generatedAtUtc": "2026-08-11T20:06:03.321Z",
+  "referenceDate": "2026-08-11",
   "registryPath": "data/team-source-registry.json",
   "standingsDir": "data/fixtures/standings",
   "summary": {
     "competitions": 42,
-    "competitionsWithStandings": 15,
-    "competitionsWithoutStandings": 27,
-    "teams": 337,
-    "matchedRegistryTeams": 337,
-    "missingRegistryTeams": 0
+    "competitionsWithStandings": 17,
+    "competitionsWithoutStandings": 25,
+    "teams": 406,
+    "matchedRegistryTeams": 401,
+    "missingRegistryTeams": 5
   },
   "competitions": [
     {
@@ -1132,18 +1132,18 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "heuristic_name",
-          "sofascoreTeamId": "252080",
-          "registryTeamName": "CSKA 1948 Sofia",
+          "sofascoreTeamId": "3275",
+          "registryTeamName": "CSKA Sofia",
           "sources": {
             "fotmob": {
               "status": "mapped",
-              "sourceTeamId": "944215",
-              "url": "https://www.fotmob.com/teams/944215/overview/cska-1948"
+              "sourceTeamId": "10144",
+              "url": "https://www.fotmob.com/teams/10144/stats/cska-sofia/teams"
             },
             "soccerRating": {
               "status": "mapped",
-              "sourceTeamId": "13235",
-              "url": "https://www.soccer-rating.com/CSKA-1948-Sofia/13235/"
+              "sourceTeamId": "1456",
+              "url": "https://www.soccer-rating.com/CSKA-Sofia/1456/"
             }
           }
         },
@@ -1336,29 +1336,9 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/170.json",
       "teamCount": 10,
-      "matchedRegistryTeams": 10,
-      "missingRegistryTeams": 0,
+      "matchedRegistryTeams": 9,
+      "missingRegistryTeams": 1,
       "teams": [
-        {
-          "inventoryTeamName": "Dinamo Zagreb",
-          "source": "standings",
-          "matchedRegistry": true,
-          "matchMethod": "heuristic_name",
-          "sofascoreTeamId": "2032",
-          "registryTeamName": "Dinamo",
-          "sources": {
-            "fotmob": {
-              "status": "mapped",
-              "sourceTeamId": "10156",
-              "url": "https://www.fotmob.com/teams/10156/stats/dinamo-zagreb/teams"
-            },
-            "soccerRating": {
-              "status": "mapped",
-              "sourceTeamId": "484",
-              "url": "https://www.soccer-rating.com/Dinamo-Zagreb/484/"
-            }
-          }
-        },
         {
           "inventoryTeamName": "Hajduk Split",
           "source": "standings",
@@ -1536,6 +1516,930 @@
               "status": "mapped",
               "sourceTeamId": "541",
               "url": "https://www.soccer-rating.com/NK-Slaven-Koprivnica/541/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Dinamo Zagreb",
+          "source": "standings",
+          "matchedRegistry": false,
+          "matchMethod": null,
+          "sofascoreTeamId": null,
+          "registryTeamName": null,
+          "sources": {
+            "fotmob": {
+              "status": "unknown",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "unknown",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "competitionId": "18",
+      "competitionName": "Championship",
+      "countryName": "England",
+      "hasStandingsSnapshot": true,
+      "standingsPath": "data/fixtures/standings/18.json",
+      "teamCount": 24,
+      "matchedRegistryTeams": 24,
+      "missingRegistryTeams": 0,
+      "teams": [
+        {
+          "inventoryTeamName": "Birmingham City",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Birmingham City",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8658",
+              "url": "https://www.fotmob.com/teams/8658/stats/birmingham-city/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "208",
+              "url": "https://www.soccer-rating.com/Birmingham-City/208/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Blackburn Rovers",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Blackburn Rovers",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8655",
+              "url": "https://www.fotmob.com/teams/8655/stats/blackburn-rovers/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "216",
+              "url": "https://www.soccer-rating.com/Blackburn-Rovers/216/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Bolton Wanderers",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Bolton Wanderers",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8559",
+              "url": "https://www.fotmob.com/teams/8559/stats/bolton-wanderers/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "205",
+              "url": "https://www.soccer-rating.com/Bolton-Wanderers/205/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Bristol City",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Bristol City",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8427",
+              "url": "https://www.fotmob.com/teams/8427/stats/bristol-city/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "223",
+              "url": "https://www.soccer-rating.com/Bristol-City/223/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Burnley",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Burnley",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8191",
+              "url": "https://www.fotmob.com/teams/8191/stats/burnley/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "225",
+              "url": "https://www.soccer-rating.com/Burnley-FC/225/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Cardiff City",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Cardiff City",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8344",
+              "url": "https://www.fotmob.com/teams/8344/stats/cardiff-city/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "227",
+              "url": "https://www.soccer-rating.com/Cardiff-City/227/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Charlton Athletic",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Charlton Athletic",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8451",
+              "url": "https://www.fotmob.com/teams/8451/stats/charlton-athletic/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "229",
+              "url": "https://www.soccer-rating.com/Charlton-Athletic/229/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Derby County",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Derby County",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10170",
+              "url": "https://www.fotmob.com/teams/10170/stats/derby-county/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "209",
+              "url": "https://www.soccer-rating.com/Derby-County/209/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Lincoln City",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Lincoln City",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8430",
+              "url": "https://www.fotmob.com/teams/8430/stats/lincoln-city/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "872",
+              "url": "https://www.soccer-rating.com/Lincoln-City/872/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Middlesbrough",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Middlesbrough",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8549",
+              "url": "https://www.fotmob.com/teams/8549/stats/middlesbrough/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "215",
+              "url": "https://www.soccer-rating.com/Middlesbrough-FC/215/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Millwall",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Millwall",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10004",
+              "url": "https://www.fotmob.com/teams/10004/stats/millwall/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "841",
+              "url": "https://www.soccer-rating.com/Millwall-FC/841/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Norwich City",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Norwich City",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9850",
+              "url": "https://www.fotmob.com/teams/9850/stats/norwich-city/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "238",
+              "url": "https://www.soccer-rating.com/Norwich-City/238/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Portsmouth",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Portsmouth",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8462",
+              "url": "https://www.fotmob.com/teams/8462/stats/portsmouth/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "210",
+              "url": "https://www.soccer-rating.com/Portsmouth-FC/210/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Preston North End",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Preston North End",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8411",
+              "url": "https://www.fotmob.com/teams/8411/stats/preston-north-end/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "237",
+              "url": "https://www.soccer-rating.com/Preston-North-End/237/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "QPR",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "QPR",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10172",
+              "url": "https://www.fotmob.com/teams/10172/overview/queens-park-rangers"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "224",
+              "url": "https://www.soccer-rating.com/Queens-Park-Rangers/224/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Sheffield United",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Sheffield United",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8657",
+              "url": "https://www.fotmob.com/teams/8657/stats/sheffield-united/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "239",
+              "url": "https://www.soccer-rating.com/Sheffield-United/239/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Southampton",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Southampton",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8466",
+              "url": "https://www.fotmob.com/teams/8466/stats/southampton/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "241",
+              "url": "https://www.soccer-rating.com/Southampton-FC/241/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Stoke City",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Stoke City",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10194",
+              "url": "https://www.fotmob.com/teams/10194/stats/stoke-city/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "228",
+              "url": "https://www.soccer-rating.com/Stoke-City/228/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Swansea City",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Swansea City",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10003",
+              "url": "https://www.fotmob.com/teams/10003/stats/swansea-city/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "851",
+              "url": "https://www.soccer-rating.com/Swansea-City/851/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Watford",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Watford",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9817",
+              "url": "https://www.fotmob.com/teams/9817/stats/watford/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "244",
+              "url": "https://www.soccer-rating.com/Watford-FC/244/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "West Bromwich",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "West Bromwich",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8659",
+              "url": "https://www.fotmob.com/teams/8659/stats/west-bromwich-albion/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "226",
+              "url": "https://www.soccer-rating.com/West-Bromwich-Albion/226/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "West Ham",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "West Ham",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8654",
+              "url": "https://www.fotmob.com/teams/8654/overview/west-ham-united"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "219",
+              "url": "https://www.soccer-rating.com/West-Ham-United/219/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Wolverhampton",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Wolverhampton",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8602",
+              "url": "https://www.fotmob.com/teams/8602/stats/wolverhampton-wanderers/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "243",
+              "url": "https://www.soccer-rating.com/Wolverhampton-Wanderers/243/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Wrexham",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Wrexham",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9841",
+              "url": "https://www.fotmob.com/teams/9841/stats/wrexham/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "867",
+              "url": "https://www.soccer-rating.com/Wrexham-FC/867/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "competitionId": "17",
+      "competitionName": "Premier League",
+      "countryName": "England",
+      "hasStandingsSnapshot": true,
+      "standingsPath": "data/fixtures/standings/17.json",
+      "teamCount": 20,
+      "matchedRegistryTeams": 20,
+      "missingRegistryTeams": 0,
+      "teams": [
+        {
+          "inventoryTeamName": "Arsenal",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Arsenal",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9825",
+              "url": "https://www.fotmob.com/teams/9825/stats/arsenal/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "201",
+              "url": "https://www.soccer-rating.com/Arsenal-FC/201/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Aston Villa",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Aston Villa",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10252",
+              "url": "https://www.fotmob.com/teams/10252/stats/aston-villa/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "203",
+              "url": "https://www.soccer-rating.com/Aston-Villa/203/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Bournemouth",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Bournemouth",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8678",
+              "url": "https://www.fotmob.com/teams/8678/stats/afc-bournemouth/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "849",
+              "url": "https://www.soccer-rating.com/AFC-Bournemouth/849/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Brentford",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Brentford",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9937",
+              "url": "https://www.fotmob.com/teams/9937/stats/brentford/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "862",
+              "url": "https://www.soccer-rating.com/Brentford-FC/862/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Brighton & Hove Albion",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Brighton & Hove Albion",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10204",
+              "url": "https://www.fotmob.com/teams/10204/stats/brighton-hove-albion/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "839",
+              "url": "https://www.soccer-rating.com/Brighton-Hove-Albion/839/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Chelsea",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Chelsea",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8455",
+              "url": "https://www.fotmob.com/teams/8455/stats/chelsea/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "207",
+              "url": "https://www.soccer-rating.com/Chelsea-FC/207/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Coventry City",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Coventry City",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8669",
+              "url": "https://www.fotmob.com/teams/8669/stats/coventry-city/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "222",
+              "url": "https://www.soccer-rating.com/Coventry-City/222/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Crystal Palace",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Crystal Palace",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9826",
+              "url": "https://www.fotmob.com/teams/9826/stats/crystal-palace/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "242",
+              "url": "https://www.soccer-rating.com/Crystal-Palace/242/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Everton",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Everton",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8668",
+              "url": "https://www.fotmob.com/teams/8668/stats/everton/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "211",
+              "url": "https://www.soccer-rating.com/Everton-FC/211/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Fulham",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Fulham",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9879",
+              "url": "https://www.fotmob.com/teams/9879/stats/fulham/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "202",
+              "url": "https://www.soccer-rating.com/Fulham-FC/202/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Hull City",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Hull City",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8667",
+              "url": "https://www.fotmob.com/teams/8667/stats/hull-city/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "231",
+              "url": "https://www.soccer-rating.com/Hull-City/231/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Ipswich Town",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Ipswich Town",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9902",
+              "url": "https://www.fotmob.com/teams/9902/stats/ipswich-town/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "233",
+              "url": "https://www.soccer-rating.com/Ipswich-Town/233/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Leeds United",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Leeds United",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8463",
+              "url": "https://www.fotmob.com/teams/8463/stats/leeds-united/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "857",
+              "url": "https://www.soccer-rating.com/Leeds-United/857/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Liverpool",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Liverpool",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8650",
+              "url": "https://www.fotmob.com/teams/8650/stats/liverpool/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "204",
+              "url": "https://www.soccer-rating.com/Liverpool-FC/204/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Manchester City",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Manchester City",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8456",
+              "url": "https://www.fotmob.com/teams/8456/stats/manchester-city/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "220",
+              "url": "https://www.soccer-rating.com/Manchester-City/220/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Manchester United",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Manchester United",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10260",
+              "url": "https://www.fotmob.com/teams/10260/stats/manchester-united/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "213",
+              "url": "https://www.soccer-rating.com/Manchester-United/213/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Newcastle",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Newcastle",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10261",
+              "url": "https://www.fotmob.com/teams/10261/overview/newcastle-united"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "206",
+              "url": "https://www.soccer-rating.com/Newcastle-United/206/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Nottingham Forest",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Nottingham Forest",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10203",
+              "url": "https://www.fotmob.com/teams/10203/stats/nottingham-forest/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "848",
+              "url": "https://www.soccer-rating.com/Nottingham-Forest/848/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Sunderland",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Sunderland",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8472",
+              "url": "https://www.fotmob.com/teams/8472/stats/sunderland/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "217",
+              "url": "https://www.soccer-rating.com/Sunderland-FC/217/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Tottenham",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Tottenham",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8586",
+              "url": "https://www.fotmob.com/teams/8586/stats/tottenham-hotspur/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "218",
+              "url": "https://www.soccer-rating.com/Tottenham-Hotspur/218/"
             }
           }
         }
@@ -2047,9 +2951,9 @@
           "inventoryTeamName": "FC Eindhoven",
           "source": "standings",
           "matchedRegistry": true,
-          "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
-          "registryTeamName": "FC Eindhoven",
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "2994",
+          "registryTeamName": "Eindhoven",
           "sources": {
             "fotmob": {
               "status": "mapped",
@@ -2107,9 +3011,9 @@
           "inventoryTeamName": "FC Volendam",
           "source": "standings",
           "matchedRegistry": true,
-          "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
-          "registryTeamName": "FC Volendam",
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "2968",
+          "registryTeamName": "Volendam",
           "sources": {
             "fotmob": {
               "status": "mapped",
@@ -2332,8 +3236,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/20.json",
       "teamCount": 16,
-      "matchedRegistryTeams": 16,
-      "missingRegistryTeams": 0,
+      "matchedRegistryTeams": 14,
+      "missingRegistryTeams": 2,
       "teams": [
         {
           "inventoryTeamName": "Aalesund",
@@ -2352,46 +3256,6 @@
               "status": "mapped",
               "sourceTeamId": "84",
               "url": "https://www.soccer-rating.com/Aalesunds-FK/84/"
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Bodo/Glimt",
-          "source": "standings",
-          "matchedRegistry": true,
-          "matchMethod": "normalized_name",
-          "sofascoreTeamId": "656",
-          "registryTeamName": "Bodø/Glimt",
-          "sources": {
-            "fotmob": {
-              "status": "mapped",
-              "sourceTeamId": "8402",
-              "url": "https://www.fotmob.com/teams/8402/stats/bod-glimt/teams"
-            },
-            "soccerRating": {
-              "status": "mapped",
-              "sourceTeamId": "114",
-              "url": "https://www.soccer-rating.com/FK-Bodo-Glimt/114/"
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Brann",
-          "source": "standings",
-          "matchedRegistry": true,
-          "matchMethod": "normalized_name",
-          "sofascoreTeamId": "1159",
-          "registryTeamName": "Brann",
-          "sources": {
-            "fotmob": {
-              "status": "mapped",
-              "sourceTeamId": "8468",
-              "url": "https://www.fotmob.com/teams/8468/stats/brann/teams"
-            },
-            "soccerRating": {
-              "status": "mapped",
-              "sourceTeamId": "81",
-              "url": "https://www.soccer-rating.com/SK-Brann-Bergen/81/"
             }
           }
         },
@@ -2652,6 +3516,46 @@
               "status": "mapped",
               "sourceTeamId": "72",
               "url": "https://www.soccer-rating.com/Viking-Stavanger/72/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Bodo/Glimt",
+          "source": "standings",
+          "matchedRegistry": false,
+          "matchMethod": null,
+          "sofascoreTeamId": null,
+          "registryTeamName": null,
+          "sources": {
+            "fotmob": {
+              "status": "unknown",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "unknown",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Brann",
+          "source": "standings",
+          "matchedRegistry": false,
+          "matchMethod": null,
+          "sofascoreTeamId": null,
+          "registryTeamName": null,
+          "sources": {
+            "fotmob": {
+              "status": "unknown",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "unknown",
+              "sourceTeamId": null,
+              "url": null
             }
           }
         }
@@ -4072,8 +4976,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/211.json",
       "teamCount": 12,
-      "matchedRegistryTeams": 12,
-      "missingRegistryTeams": 0,
+      "matchedRegistryTeams": 11,
+      "missingRegistryTeams": 1,
       "teams": [
         {
           "inventoryTeamName": "AS Trencin",
@@ -4256,26 +5160,6 @@
           }
         },
         {
-          "inventoryTeamName": "Slovan Bratislava",
-          "source": "standings",
-          "matchedRegistry": true,
-          "matchMethod": "heuristic_name",
-          "sofascoreTeamId": "2404",
-          "registryTeamName": "Slovan",
-          "sources": {
-            "fotmob": {
-              "status": "mapped",
-              "sourceTeamId": "6019",
-              "url": "https://www.fotmob.com/teams/6019/stats/slovan-bratislava/teams"
-            },
-            "soccerRating": {
-              "status": "mapped",
-              "sourceTeamId": "37",
-              "url": "https://www.soccer-rating.com/Slovan-Bratislava/37/"
-            }
-          }
-        },
-        {
           "inventoryTeamName": "Spartak Trnava",
           "source": "standings",
           "matchedRegistry": true,
@@ -4314,6 +5198,26 @@
               "url": "https://www.soccer-rating.com/MFK-Zemplin-Michalovce/756/"
             }
           }
+        },
+        {
+          "inventoryTeamName": "Slovan Bratislava",
+          "source": "standings",
+          "matchedRegistry": false,
+          "matchMethod": null,
+          "sofascoreTeamId": null,
+          "registryTeamName": null,
+          "sources": {
+            "fotmob": {
+              "status": "unknown",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "unknown",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
         }
       ]
     },
@@ -4324,8 +5228,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/212.json",
       "teamCount": 10,
-      "matchedRegistryTeams": 10,
-      "missingRegistryTeams": 0,
+      "matchedRegistryTeams": 9,
+      "missingRegistryTeams": 1,
       "teams": [
         {
           "inventoryTeamName": "Brinje Grosuplje",
@@ -4448,26 +5352,6 @@
           }
         },
         {
-          "inventoryTeamName": "NK Celje",
-          "source": "standings",
-          "matchedRegistry": true,
-          "matchMethod": "heuristic_name",
-          "sofascoreTeamId": "2413",
-          "registryTeamName": "Celje",
-          "sources": {
-            "fotmob": {
-              "status": "mapped",
-              "sourceTeamId": "4622",
-              "url": "https://www.fotmob.com/teams/4622/stats/nk-celje/teams"
-            },
-            "soccerRating": {
-              "status": "mapped",
-              "sourceTeamId": "1131",
-              "url": "https://www.soccer-rating.com/NK-Celje/1131/"
-            }
-          }
-        },
-        {
           "inventoryTeamName": "NK Radomlje",
           "source": "standings",
           "matchedRegistry": true,
@@ -4524,6 +5408,26 @@
               "status": "mapped",
               "sourceTeamId": "4540",
               "url": "https://www.soccer-rating.com/NK-Olimpija-Ljubljana/4540/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "NK Celje",
+          "source": "standings",
+          "matchedRegistry": false,
+          "matchMethod": null,
+          "sofascoreTeamId": null,
+          "registryTeamName": null,
+          "sources": {
+            "fotmob": {
+              "status": "unknown",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "unknown",
+              "sourceTeamId": null,
+              "url": null
             }
           }
         }
@@ -5319,8 +6223,8 @@
       "countryName": "Austria",
       "hasStandingsSnapshot": false,
       "standingsPath": null,
-      "teamCount": 12,
-      "matchedRegistryTeams": 12,
+      "teamCount": 10,
+      "matchedRegistryTeams": 10,
       "missingRegistryTeams": 0,
       "teams": [
         {
@@ -5444,26 +6348,6 @@
           }
         },
         {
-          "inventoryTeamName": "Rapid",
-          "source": "standings",
-          "matchedRegistry": true,
-          "matchMethod": "normalized_name",
-          "sofascoreTeamId": "2055",
-          "registryTeamName": "Rapid",
-          "sources": {
-            "fotmob": {
-              "status": "mapped",
-              "sourceTeamId": "10015",
-              "url": "https://www.fotmob.com/teams/10015/stats/rapid-wien/teams"
-            },
-            "soccerRating": {
-              "status": "mapped",
-              "sourceTeamId": "183",
-              "url": "https://www.soccer-rating.com/Rapid-Wien/183/"
-            }
-          }
-        },
-        {
           "inventoryTeamName": "RB Salzburg",
           "source": "standings",
           "matchedRegistry": true,
@@ -5500,26 +6384,6 @@
               "status": "mapped",
               "sourceTeamId": "189",
               "url": "https://www.soccer-rating.com/SV-Ried/189/"
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Sturm",
-          "source": "standings",
-          "matchedRegistry": true,
-          "matchMethod": "normalized_name",
-          "sofascoreTeamId": "2051",
-          "registryTeamName": "Sturm",
-          "sources": {
-            "fotmob": {
-              "status": "mapped",
-              "sourceTeamId": "10014",
-              "url": "https://www.fotmob.com/teams/10014/stats/sturm-graz/teams"
-            },
-            "soccerRating": {
-              "status": "mapped",
-              "sourceTeamId": "187",
-              "url": "https://www.soccer-rating.com/Sturm-Graz/187/"
             }
           }
         },
@@ -5571,8 +6435,8 @@
       "countryName": "Belgium",
       "hasStandingsSnapshot": false,
       "standingsPath": null,
-      "teamCount": 18,
-      "matchedRegistryTeams": 18,
+      "teamCount": 17,
+      "matchedRegistryTeams": 17,
       "missingRegistryTeams": 0,
       "teams": [
         {
@@ -5876,26 +6740,6 @@
           }
         },
         {
-          "inventoryTeamName": "USG",
-          "source": "standings",
-          "matchedRegistry": true,
-          "matchMethod": "normalized_name",
-          "sofascoreTeamId": "4860",
-          "registryTeamName": "USG",
-          "sources": {
-            "fotmob": {
-              "status": "mapped",
-              "sourceTeamId": "7978",
-              "url": "https://www.fotmob.com/teams/7978/stats/union-stgilloise/teams"
-            },
-            "soccerRating": {
-              "status": "mapped",
-              "sourceTeamId": "1508",
-              "url": "https://www.soccer-rating.com/Union-Saint-Gilloise/1508/"
-            }
-          }
-        },
-        {
           "inventoryTeamName": "Westerlo",
           "source": "standings",
           "matchedRegistry": true,
@@ -5975,30 +6819,10 @@
       "countryName": "Denmark",
       "hasStandingsSnapshot": false,
       "standingsPath": null,
-      "teamCount": 12,
-      "matchedRegistryTeams": 12,
+      "teamCount": 10,
+      "matchedRegistryTeams": 10,
       "missingRegistryTeams": 0,
       "teams": [
-        {
-          "inventoryTeamName": "AGF",
-          "source": "standings",
-          "matchedRegistry": true,
-          "matchMethod": "normalized_name",
-          "sofascoreTeamId": "1291",
-          "registryTeamName": "AGF",
-          "sources": {
-            "fotmob": {
-              "status": "mapped",
-              "sourceTeamId": "8071",
-              "url": "https://www.fotmob.com/teams/8071/overview/agf"
-            },
-            "soccerRating": {
-              "status": "mapped",
-              "sourceTeamId": "265",
-              "url": "https://www.soccer-rating.com/Aarhus-GF/265/"
-            }
-          }
-        },
         {
           "inventoryTeamName": "Brøndby",
           "source": "standings",
@@ -6036,26 +6860,6 @@
               "status": "mapped",
               "sourceTeamId": "266",
               "url": "https://www.soccer-rating.com/AC-Horsens/266/"
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "København",
-          "source": "standings",
-          "matchedRegistry": true,
-          "matchMethod": "normalized_name",
-          "sofascoreTeamId": "1284",
-          "registryTeamName": "København",
-          "sources": {
-            "fotmob": {
-              "status": "mapped",
-              "sourceTeamId": "8391",
-              "url": "https://www.fotmob.com/teams/8391/overview/fc-kobenhavn"
-            },
-            "soccerRating": {
-              "status": "mapped",
-              "sourceTeamId": "270",
-              "url": "https://www.soccer-rating.com/FC-Copenhagen/270/"
             }
           }
         },
@@ -6222,37 +7026,376 @@
       ]
     },
     {
-      "competitionId": "18",
-      "competitionName": "Championship",
-      "countryName": "England",
-      "hasStandingsSnapshot": false,
-      "standingsPath": null,
-      "teamCount": 0,
-      "matchedRegistryTeams": 0,
-      "missingRegistryTeams": 0,
-      "teams": []
-    },
-    {
-      "competitionId": "17",
-      "competitionName": "Premier League",
-      "countryName": "England",
-      "hasStandingsSnapshot": false,
-      "standingsPath": null,
-      "teamCount": 0,
-      "matchedRegistryTeams": 0,
-      "missingRegistryTeams": 0,
-      "teams": []
-    },
-    {
       "competitionId": "7",
       "competitionName": "UEFA Champions League",
       "countryName": "Europe",
       "hasStandingsSnapshot": false,
       "standingsPath": null,
-      "teamCount": 0,
-      "matchedRegistryTeams": 0,
+      "teamCount": 18,
+      "matchedRegistryTeams": 18,
       "missingRegistryTeams": 0,
-      "teams": []
+      "teams": [
+        {
+          "inventoryTeamName": "AGF",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1291",
+          "registryTeamName": "AGF",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8071",
+              "url": "https://www.fotmob.com/teams/8071/overview/agf"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "265",
+              "url": "https://www.soccer-rating.com/Aarhus-GF/265/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Ararat-Armenia",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "262229",
+          "registryTeamName": "Ararat-Armenia",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Bodø/Glimt",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "656",
+          "registryTeamName": "Bodø/Glimt",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8402",
+              "url": "https://www.fotmob.com/teams/8402/stats/bod-glimt/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "114",
+              "url": "https://www.soccer-rating.com/FK-Bodo-Glimt/114/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Celje",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2413",
+          "registryTeamName": "Celje",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "4622",
+              "url": "https://www.fotmob.com/teams/4622/stats/nk-celje/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1131",
+              "url": "https://www.soccer-rating.com/NK-Celje/1131/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Crvena zvezda",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "5149",
+          "registryTeamName": "Crvena zvezda",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Dinamo",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2032",
+          "registryTeamName": "Dinamo",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10156",
+              "url": "https://www.fotmob.com/teams/10156/stats/dinamo-zagreb/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "484",
+              "url": "https://www.soccer-rating.com/Dinamo-Zagreb/484/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Fenerbahçe",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "3052",
+          "registryTeamName": "Fenerbahçe",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "H. Be'er Sheva",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "5202",
+          "registryTeamName": "H. Be'er Sheva",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Kauno Žalgiris",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "80741",
+          "registryTeamName": "Kauno Žalgiris",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Lyon",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1649",
+          "registryTeamName": "Lyon",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Mjällby",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1783",
+          "registryTeamName": "Mjällby",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "NEC",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2962",
+          "registryTeamName": "NEC",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Olympiacos",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "3245",
+          "registryTeamName": "Olympiacos",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Sabah",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "267828",
+          "registryTeamName": "Sabah",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Slovan",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2404",
+          "registryTeamName": "Slovan",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6019",
+              "url": "https://www.fotmob.com/teams/6019/stats/slovan-bratislava/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "37",
+              "url": "https://www.soccer-rating.com/Slovan-Bratislava/37/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Sparta Praha",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2218",
+          "registryTeamName": "Sparta Praha",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Sturm",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2051",
+          "registryTeamName": "Sturm",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10014",
+              "url": "https://www.fotmob.com/teams/10014/stats/sturm-graz/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "187",
+              "url": "https://www.soccer-rating.com/Sturm-Graz/187/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "USG",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "4860",
+          "registryTeamName": "USG",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "7978",
+              "url": "https://www.fotmob.com/teams/7978/stats/union-stgilloise/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1508",
+              "url": "https://www.soccer-rating.com/Union-Saint-Gilloise/1508/"
+            }
+          }
+        }
+      ]
     },
     {
       "competitionId": "17015",
@@ -6260,10 +7403,211 @@
       "countryName": "Europe",
       "hasStandingsSnapshot": false,
       "standingsPath": null,
-      "teamCount": 0,
-      "matchedRegistryTeams": 0,
+      "teamCount": 10,
+      "matchedRegistryTeams": 10,
       "missingRegistryTeams": 0,
-      "teams": []
+      "teams": [
+        {
+          "inventoryTeamName": "Apollon",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "3402",
+          "registryTeamName": "Apollon",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Brann",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1159",
+          "registryTeamName": "Brann",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8468",
+              "url": "https://www.fotmob.com/teams/8468/stats/brann/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "81",
+              "url": "https://www.soccer-rating.com/SK-Brann-Bergen/81/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "CSKA 1948 Sofia",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "252080",
+          "registryTeamName": "CSKA 1948 Sofia",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "944215",
+              "url": "https://www.fotmob.com/teams/944215/overview/cska-1948"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "13235",
+              "url": "https://www.soccer-rating.com/CSKA-1948-Sofia/13235/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "DVSC",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1921",
+          "registryTeamName": "DVSC",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "GKS Katowice",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "3112",
+          "registryTeamName": "GKS Katowice",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "H. Tel Aviv",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "5396",
+          "registryTeamName": "H. Tel Aviv",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "København",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1284",
+          "registryTeamName": "København",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8391",
+              "url": "https://www.fotmob.com/teams/8391/overview/fc-kobenhavn"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "270",
+              "url": "https://www.soccer-rating.com/FC-Copenhagen/270/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Paide",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "32476",
+          "registryTeamName": "Paide",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Panathinaikos",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "3248",
+          "registryTeamName": "Panathinaikos",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Rapid",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2055",
+          "registryTeamName": "Rapid",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10015",
+              "url": "https://www.fotmob.com/teams/10015/stats/rapid-wien/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "183",
+              "url": "https://www.soccer-rating.com/Rapid-Wien/183/"
+            }
+          }
+        }
+      ]
     },
     {
       "competitionId": "679",
@@ -6271,10 +7615,51 @@
       "countryName": "Europe",
       "hasStandingsSnapshot": false,
       "standingsPath": null,
-      "teamCount": 0,
-      "matchedRegistryTeams": 0,
+      "teamCount": 2,
+      "matchedRegistryTeams": 2,
       "missingRegistryTeams": 0,
-      "teams": []
+      "teams": [
+        {
+          "inventoryTeamName": "Iberia",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "116312",
+          "registryTeamName": "Iberia",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Larne FC",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "5184",
+          "registryTeamName": "Larne FC",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        }
+      ]
     },
     {
       "competitionId": "67",

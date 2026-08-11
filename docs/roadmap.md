@@ -149,6 +149,8 @@ Regra operacional:
 - `Bélgica | Pro League`
 - `Dinamarca | Superliga`
 - `Alemanha | 2. Bundesliga`
+- `Inglaterra | Premier League`
+- `Inglaterra | Championship`
 - `Noruega | Eliteserien`
 - `Países Baixos | Eerste Divisie`
 - `Portugal | Liga Portugal`
@@ -168,8 +170,6 @@ Regra operacional:
 
 #### Por semear ou mapear
 
-- `Inglaterra | Premier League`
-- `Inglaterra | Championship`
 - `Europa | UEFA Champions League`
 - `Europa | UEFA Europa League`
 - `Europa | UEFA Conference League`

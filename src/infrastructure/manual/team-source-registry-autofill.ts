@@ -139,6 +139,7 @@ export interface AutofillTeamSourceRegistryOptions {
   source?: "all" | "fotmob" | "soccer-rating";
   dryRun?: boolean;
   onlyPending?: boolean;
+  competitionIds?: Set<string> | null;
   teamId?: string;
   limit?: number;
   delayMs?: number;
@@ -232,6 +233,7 @@ export async function autofillTeamSourceRegistry(
   };
   const source = options.source ?? "all";
   const onlyPending = options.onlyPending ?? true;
+  const competitionIds = options.competitionIds ?? null;
   const teamIdFilter = options.teamId?.trim() || null;
   const limit = options.limit && options.limit > 0 ? options.limit : null;
 
@@ -243,6 +245,10 @@ export async function autofillTeamSourceRegistry(
   let processedEntries = 0;
 
   for (const entry of registry.entries) {
+    if (competitionIds && !competitionIds.has(String(entry.competitionId ?? ""))) {
+      continue;
+    }
+
     if (teamIdFilter && entry.sofascoreTeamId !== teamIdFilter) {
       continue;
     }
