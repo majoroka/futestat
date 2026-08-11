@@ -304,6 +304,159 @@ test("generateTeamInventoryReport matches common Brasileirao naming variants", a
   assertTeamMatch(brasileirao.teams, "Red Bull Bragantino", "RB Bragantino", "heuristic_name");
 });
 
+test("generateTeamInventoryReport matches naming variants from Bulgaria, Croatia and Norway", async () => {
+  const repoRoot = await mkdtemp(path.join(os.tmpdir(), "futestat-team-inventory-europe-"));
+  await mkdir(path.join(repoRoot, "data", "fixtures", "standings"), { recursive: true });
+  await mkdir(path.join(repoRoot, "data"), { recursive: true });
+
+  await writeFile(
+    path.join(repoRoot, "data", "team-source-registry.json"),
+    JSON.stringify(
+      {
+        generatedAtUtc: "2026-08-11T10:00:00Z",
+        referenceDate: "2026-08-11",
+        snapshotPath: "data/fixtures/latest.json",
+        entries: [
+          createEuropeanRegistryEntry("274971", "Arda", "247", "Parva Liga", "Bulgaria"),
+          createEuropeanRegistryEntry("25529", "Istra", "170", "HNL", "Croatia"),
+          createEuropeanRegistryEntry("35226", "Rudeš", "170", "HNL", "Croatia"),
+          createEuropeanRegistryEntry("656", "Bodø/Glimt", "20", "Eliteserien", "Norway"),
+          createEuropeanRegistryEntry("1159", "Brann", "20", "Eliteserien", "Norway"),
+          createEuropeanRegistryEntry("786", "KFUM Oslo", "20", "Eliteserien", "Norway"),
+          createEuropeanRegistryEntry("664", "Lillestrøm", "20", "Eliteserien", "Norway"),
+          createEuropeanRegistryEntry("660", "Tromsø", "20", "Eliteserien", "Norway"),
+        ],
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  await writeFile(
+    path.join(repoRoot, "data", "fixtures", "standings", "247.json"),
+    JSON.stringify(
+      {
+        source: "zerozero",
+        competitionId: "247",
+        competitionName: "Parva Liga",
+        countryName: "Bulgaria",
+        zerozeroUrl: "https://example.com/247",
+        mode: "single_table",
+        status: "ready",
+        scrapedAtUtc: "2026-08-11T09:00:00Z",
+        editionId: "1",
+        phaseId: "2",
+        phaseName: "Parva Liga",
+        phaseNotes: [],
+        ruleProfileId: null,
+        tables: [
+          {
+            name: "Parva Liga",
+            type: "single_table",
+            rows: [createStandingRow(1, "Arda Kardzhali")],
+          },
+        ],
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  await writeFile(
+    path.join(repoRoot, "data", "fixtures", "standings", "170.json"),
+    JSON.stringify(
+      {
+        source: "zerozero",
+        competitionId: "170",
+        competitionName: "HNL",
+        countryName: "Croatia",
+        zerozeroUrl: "https://example.com/170",
+        mode: "single_table",
+        status: "ready",
+        scrapedAtUtc: "2026-08-11T09:00:00Z",
+        editionId: "1",
+        phaseId: "2",
+        phaseName: "HNL",
+        phaseNotes: [],
+        ruleProfileId: null,
+        tables: [
+          {
+            name: "HNL",
+            type: "single_table",
+            rows: [
+              createStandingRow(1, "NK Istra 1961"),
+              createStandingRow(2, "NK Rudes"),
+            ],
+          },
+        ],
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  await writeFile(
+    path.join(repoRoot, "data", "fixtures", "standings", "20.json"),
+    JSON.stringify(
+      {
+        source: "zerozero",
+        competitionId: "20",
+        competitionName: "Eliteserien",
+        countryName: "Norway",
+        zerozeroUrl: "https://example.com/20",
+        mode: "single_table",
+        status: "ready",
+        scrapedAtUtc: "2026-08-11T09:00:00Z",
+        editionId: "1",
+        phaseId: "2",
+        phaseName: "Eliteserien",
+        phaseNotes: [],
+        ruleProfileId: null,
+        tables: [
+          {
+            name: "Eliteserien",
+            type: "single_table",
+            rows: [
+              createStandingRow(1, "Bodo/Glimt"),
+              createStandingRow(2, "Brann"),
+              createStandingRow(3, "KFUM Fotball"),
+              createStandingRow(4, "Lillestrom"),
+              createStandingRow(5, "Tromso"),
+            ],
+          },
+        ],
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  const result = await generateTeamInventoryReport(repoRoot, { write: false });
+  const bulgaria = result.report.competitions.find((competition) => competition.competitionId === "247");
+  const croatia = result.report.competitions.find((competition) => competition.competitionId === "170");
+  const norway = result.report.competitions.find((competition) => competition.competitionId === "20");
+
+  assert.ok(bulgaria);
+  assert.ok(croatia);
+  assert.ok(norway);
+  assert.equal(bulgaria.matchedRegistryTeams, 1);
+  assert.equal(croatia.matchedRegistryTeams, 2);
+  assert.equal(norway.matchedRegistryTeams, 5);
+
+  assertTeamMatch(bulgaria.teams, "Arda Kardzhali", "Arda", "heuristic_name");
+  assertTeamMatch(croatia.teams, "NK Istra 1961", "Istra", "heuristic_name");
+  assertTeamMatch(croatia.teams, "NK Rudes", "Rudeš", "heuristic_name");
+  assertTeamMatch(norway.teams, "Bodo/Glimt", "Bodø/Glimt", "normalized_name");
+  assertTeamMatch(norway.teams, "Brann", "Brann", "normalized_name");
+  assertTeamMatch(norway.teams, "KFUM Fotball", "KFUM Oslo", "heuristic_name");
+  assertTeamMatch(norway.teams, "Lillestrom", "Lillestrøm", "normalized_name");
+  assertTeamMatch(norway.teams, "Tromso", "Tromsø", "normalized_name");
+});
+
 function createRegistryEntry(sofascoreTeamId: string, teamName: string) {
   return {
     sofascoreTeamId,
@@ -348,6 +501,45 @@ function createBrazilRegistryEntry(sofascoreTeamId: string, teamName: string) {
     fixtureAppearancesInCurrentWindow: 1,
     firstSeenReferenceDate: "2026-08-08",
     lastSeenReferenceDate: "2026-08-10",
+    sources: {
+      fotmob: {
+        status: "pending",
+        sourceTeamId: null,
+        teamSlug: null,
+        competitionId: null,
+        competitionSlug: null,
+        url: null,
+        notes: null,
+      },
+      soccerRating: {
+        status: "pending",
+        sourceTeamId: null,
+        teamSlug: null,
+        countrySlug: null,
+        url: null,
+        notes: null,
+      },
+    },
+  };
+}
+
+function createEuropeanRegistryEntry(
+  sofascoreTeamId: string,
+  teamName: string,
+  competitionId: string,
+  competitionName: string,
+  countryName: string,
+) {
+  return {
+    sofascoreTeamId,
+    teamName,
+    countryName,
+    competitionId,
+    competitionName,
+    activeInCurrentWindow: true,
+    fixtureAppearancesInCurrentWindow: 1,
+    firstSeenReferenceDate: "2026-08-08",
+    lastSeenReferenceDate: "2026-08-11",
     sources: {
       fotmob: {
         status: "pending",

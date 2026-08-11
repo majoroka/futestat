@@ -1457,19 +1457,19 @@
         "fotmob": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "arda",
+          "teamSlug": "arda-kardzhali",
           "competitionId": "247",
           "competitionSlug": "parva-liga",
           "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "notes": "manual match name: FotMob = Arda Kardzhali"
         },
         "soccerRating": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "arda",
+          "teamSlug": "fk-arda-kardzhali",
           "countrySlug": "bulgaria",
           "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "notes": "manual match name: Soccer-Rating = FK Arda Kardzhali"
         }
       }
     },
@@ -1847,19 +1847,19 @@
         "fotmob": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "istra",
+          "teamSlug": "nk-istra-1961",
           "competitionId": "170",
           "competitionSlug": "hnl",
           "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "notes": "manual match name: FotMob = NK Istra 1961"
         },
         "soccerRating": {
-          "status": "mapped",
-          "sourceTeamId": "3439",
-          "teamSlug": "fk-istra",
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "nk-istra-1961-pula",
           "countrySlug": "croatia",
-          "url": "https://www.soccer-rating.com/FK-Istra/3439/",
-          "notes": null
+          "url": null,
+          "notes": "manual match name: Soccer-Rating = NK Istra 1961 Pula"
         }
       }
     },
@@ -2066,10 +2066,40 @@
         "soccerRating": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "bod-glimt",
+          "teamSlug": "fk-bodo-glimt",
           "countrySlug": "norway",
           "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "notes": "manual match name: Soccer-Rating = FK Bodö/Glimt"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1159",
+      "teamName": "Brann",
+      "countryName": "Norway",
+      "competitionId": "20",
+      "competitionName": "Eliteserien",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-07-18",
+      "lastSeenReferenceDate": "2026-08-02",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "brann",
+          "competitionId": "20",
+          "competitionSlug": "eliteserien",
+          "url": null,
+          "notes": "manual match name: FotMob = Brann"
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "sk-brann-bergen",
+          "countrySlug": "norway",
+          "url": null,
+          "notes": "manual match name: Soccer-Rating = SK Brann Bergen"
         }
       }
     },
@@ -2186,10 +2216,10 @@
         "soccerRating": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "lillestr-m",
+          "teamSlug": "lillestrom-sk",
           "countrySlug": "norway",
           "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "notes": "manual match name: Soccer-Rating = Lilleström SK"
         }
       }
     },
@@ -5717,11 +5747,11 @@
         "fotmob": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "kfum-oslo",
+          "teamSlug": "kfum",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
           "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "notes": "manual match name: FotMob = KFUM"
         },
         "soccerRating": {
           "status": "mapped",
@@ -5730,6 +5760,36 @@
           "countrySlug": "norway",
           "url": "https://www.soccer-rating.com/KFUM-Kam-Oslo/3243/",
           "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "660",
+      "teamName": "Tromsø",
+      "countryName": "Norway",
+      "competitionId": "20",
+      "competitionName": "Eliteserien",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-07-18",
+      "lastSeenReferenceDate": "2026-08-06",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "tromso",
+          "competitionId": "20",
+          "competitionSlug": "eliteserien",
+          "url": null,
+          "notes": "manual match name: FotMob = Tromsø"
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "tromso-il",
+          "countrySlug": "norway",
+          "url": null,
+          "notes": "manual match name: Soccer-Rating = Tromsö IL"
         }
       }
     },

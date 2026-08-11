@@ -20,12 +20,15 @@ const NON_DISTINCTIVE_TOKENS = new Set([
   "fc",
   "fk",
   "football",
+  "fotball",
   "futebol",
   "if",
+  "il",
   "jk",
   "la",
   "las",
   "los",
+  "nk",
   "sc",
   "sd",
   "sk",
@@ -94,6 +97,19 @@ export interface TeamNameMatchResult<TCandidate> {
 
 export function normalizeTeamName(value: string | null | undefined): string {
   return String(value ?? "")
+    .replaceAll("ø", "o")
+    .replaceAll("Ø", "O")
+    .replaceAll("ö", "o")
+    .replaceAll("Ö", "O")
+    .replaceAll("ä", "a")
+    .replaceAll("Ä", "A")
+    .replaceAll("å", "a")
+    .replaceAll("Å", "A")
+    .replaceAll("æ", "ae")
+    .replaceAll("Æ", "AE")
+    .replaceAll("ü", "u")
+    .replaceAll("Ü", "U")
+    .replaceAll("ß", "ss")
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-zA-Z0-9]+/g, " ")
@@ -214,6 +230,11 @@ function scoreTeamNameProfiles(
     reasons.push("single-token-club-match");
   }
 
+  if (hasLeadingSingleTokenMatch(target.distinctiveTokens, candidate.distinctiveTokens)) {
+    score += 0.24;
+    reasons.push("leading-single-token-match");
+  }
+
   if (hasOrderedPrefixMatch(target.distinctiveTokens, candidate.distinctiveTokens)) {
     score += 0.18;
     reasons.push("ordered-prefix-match");
@@ -254,11 +275,25 @@ function hasSingleTokenClubMatch(left: string[], right: string[]): boolean {
   }
 
   const token = shorter[0];
-  if (!token || token.length < 5 || longer.length > 3) {
+  if (!token || token.length < 4 || longer.length > 3) {
     return false;
   }
 
   return longer.includes(token);
+}
+
+function hasLeadingSingleTokenMatch(left: string[], right: string[]): boolean {
+  const [shorter, longer] = left.length <= right.length ? [left, right] : [right, left];
+  if (shorter.length !== 1 || longer.length < 2) {
+    return false;
+  }
+
+  const token = shorter[0];
+  if (!token || token.length < 4 || longer.length > 3) {
+    return false;
+  }
+
+  return longer[0] === token;
 }
 
 function mergeCompoundTokens(tokens: string[]): string[] {
