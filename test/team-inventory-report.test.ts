@@ -318,6 +318,7 @@ test("generateTeamInventoryReport matches naming variants from Bulgaria, Croatia
         snapshotPath: "data/fixtures/latest.json",
         entries: [
           createEuropeanRegistryEntry("274971", "Arda", "247", "Parva Liga", "Bulgaria"),
+          createEuropeanRegistryEntry("252080", "CSKA 1948 Sofia", "247", "Parva Liga", "Bulgaria"),
           createEuropeanRegistryEntry("25529", "Istra", "170", "HNL", "Croatia"),
           createEuropeanRegistryEntry("35226", "Rudeš", "170", "HNL", "Croatia"),
           createEuropeanRegistryEntry("656", "Bodø/Glimt", "20", "Eliteserien", "Norway"),
@@ -354,7 +355,10 @@ test("generateTeamInventoryReport matches naming variants from Bulgaria, Croatia
           {
             name: "Parva Liga",
             type: "single_table",
-            rows: [createStandingRow(1, "Arda Kardzhali")],
+            rows: [
+              createStandingRow(1, "Arda Kardzhali"),
+              createStandingRow(2, "CSKA 1948"),
+            ],
           },
         ],
       },
@@ -443,11 +447,12 @@ test("generateTeamInventoryReport matches naming variants from Bulgaria, Croatia
   assert.ok(bulgaria);
   assert.ok(croatia);
   assert.ok(norway);
-  assert.equal(bulgaria.matchedRegistryTeams, 1);
+  assert.equal(bulgaria.matchedRegistryTeams, 2);
   assert.equal(croatia.matchedRegistryTeams, 2);
   assert.equal(norway.matchedRegistryTeams, 5);
 
   assertTeamMatch(bulgaria.teams, "Arda Kardzhali", "Arda", "heuristic_name");
+  assertTeamMatch(bulgaria.teams, "CSKA 1948", "CSKA 1948 Sofia", "heuristic_name");
   assertTeamMatch(croatia.teams, "NK Istra 1961", "Istra", "heuristic_name");
   assertTeamMatch(croatia.teams, "NK Rudes", "Rudeš", "heuristic_name");
   assertTeamMatch(norway.teams, "Bodo/Glimt", "Bodø/Glimt", "normalized_name");

@@ -234,6 +234,12 @@ function scoreTeamNameProfiles(
     reasons.push("token-coverage");
   }
 
+  const structuralOverlap = measureTokenOverlap(target.structuralTokens, candidate.structuralTokens);
+  if (structuralOverlap.sharedCount > 0) {
+    score += Math.min(0.14, structuralOverlap.coverage * 0.14);
+    reasons.push("structural-token-match");
+  }
+
   if (hasInitialsAlignment(target.distinctiveTokens, candidate.distinctiveTokens)) {
     score += 0.45;
     reasons.push("initials-match");
