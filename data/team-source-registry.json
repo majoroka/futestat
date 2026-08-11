@@ -4395,13 +4395,13 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "2169",
           "teamSlug": "dukla-banska-bystrica",
           "competitionId": "211",
           "competitionSlug": "nike-liga",
-          "url": null,
-          "notes": "manual review: fixtures = Banská Bystrica, standings = Dukla"
+          "url": "https://www.fotmob.com/teams/2169/stats/dukla-banska-bystrica/teams",
+          "notes": null
         },
         "soccerRating": {
           "status": "mapped",
@@ -4425,21 +4425,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dac-1904",
+          "status": "mapped",
+          "sourceTeamId": "103598",
+          "teamSlug": "dac-1904-dunajska-streda",
           "competitionId": "211",
           "competitionSlug": "nike-liga",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/103598/stats/dac-1904-dunajska-streda/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dac-1904",
+          "status": "mapped",
+          "sourceTeamId": "2772",
+          "teamSlug": "dac-dunajska-streda",
           "countrySlug": "slovakia",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/DAC-Dunajska-Streda/2772/",
+          "notes": null
         }
       }
     },
@@ -4494,12 +4494,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "komarno",
+          "status": "mapped",
+          "sourceTeamId": "9994",
+          "teamSlug": "kfc-komarno",
           "countrySlug": "slovakia",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/KFC-Komarno/9994/",
+          "notes": null
         }
       }
     },
@@ -4524,12 +4524,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "kosice",
+          "status": "mapped",
+          "sourceTeamId": "161",
+          "teamSlug": "fk-kosice",
           "countrySlug": "slovakia",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/FK-Kosice/161/",
+          "notes": null
         }
       }
     },
@@ -4554,12 +4554,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "michalovce",
+          "status": "mapped",
+          "sourceTeamId": "756",
+          "teamSlug": "mfk-zemplin-michalovce",
           "countrySlug": "slovakia",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/MFK-Zemplin-Michalovce/756/",
+          "notes": null
         }
       }
     },
@@ -4584,12 +4584,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "podbrezova",
+          "status": "mapped",
+          "sourceTeamId": "753",
+          "teamSlug": "zp-sport-podbrezova",
           "countrySlug": "slovakia",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/ZP-Sport-Podbrezova/753/",
+          "notes": null
         }
       }
     },
@@ -4635,21 +4635,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "6019",
           "teamSlug": "slovan-bratislava",
           "competitionId": "211",
           "competitionSlug": "nike-liga",
-          "url": null,
-          "notes": "manual match name: FotMob = Slovan Bratislava"
+          "url": "https://www.fotmob.com/teams/6019/stats/slovan-bratislava/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "37",
           "teamSlug": "slovan-bratislava",
           "countrySlug": "slovakia",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Slovan Bratislava"
+          "url": "https://www.soccer-rating.com/Slovan-Bratislava/37/",
+          "notes": null
         }
       }
     },
@@ -7504,7 +7504,7 @@
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "4503",
       "teamName": "Dukla",
       "countryName": "Slovakia",
       "competitionId": "211",
@@ -7515,21 +7515,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dukla",
+          "status": "mapped",
+          "sourceTeamId": "2169",
+          "teamSlug": "dukla-banska-bystrica",
           "competitionId": "211",
           "competitionSlug": "nike-liga",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/2169/stats/dukla-banska-bystrica/teams",
+          "notes": "alias: mesma entidade que Banská Bystrica / Dukla Banska Bystrica"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dukla",
+          "status": "mapped",
+          "sourceTeamId": "160",
+          "teamSlug": "dukla-banska-bystrica",
           "countrySlug": "slovakia",
-          "url": null,
-          "notes": null
+          "url": "https://www.soccer-rating.com/Dukla-Banska-Bystrica/160/",
+          "notes": "alias: mesma entidade que Banská Bystrica / Dukla Banska Bystrica"
         }
       }
     },
