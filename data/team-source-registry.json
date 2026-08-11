@@ -8325,20 +8325,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "fc-basel",
+          "status": "mapped",
+          "sourceTeamId": 9931,
+          "teamSlug": "fc-basel-1893",
           "competitionId": "46",
           "competitionSlug": "super-league",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/9931/overview/fc-basel-1893",
+          "notes": "FotMob usa FC Basel 1893."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": 199,
           "teamSlug": "fc-basel",
           "countrySlug": "switzerland",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Basel/199/",
           "notes": null
         }
       }
@@ -8355,21 +8355,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "fc-lugano",
+          "status": "mapped",
+          "sourceTeamId": 7896,
+          "teamSlug": "lugano",
           "competitionId": "46",
           "competitionSlug": "super-league",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/7896/overview/lugano",
+          "notes": "FotMob apresenta o clube como Lugano."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "fc-lugano",
+          "status": "mapped",
+          "sourceTeamId": 1125,
+          "teamSlug": "ac-lugano",
           "countrySlug": "switzerland",
-          "url": null,
-          "notes": null
+          "url": "https://www.soccer-rating.com/AC-Lugano/1125/",
+          "notes": "Soccer-Rating usa AC Lugano."
         }
       }
     },
@@ -8385,20 +8385,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "fc-sion",
+          "status": "mapped",
+          "sourceTeamId": 10179,
+          "teamSlug": "sion",
           "competitionId": "46",
           "competitionSlug": "super-league",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/10179/overview/sion",
+          "notes": "FotMob simplifica para Sion."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": 196,
           "teamSlug": "fc-sion",
           "countrySlug": "switzerland",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Sion/196/",
           "notes": null
         }
       }
@@ -8415,20 +8415,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "fc-st-gallen",
+          "status": "mapped",
+          "sourceTeamId": 10190,
+          "teamSlug": "st-gallen",
           "competitionId": "46",
           "competitionSlug": "super-league",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/10190/overview/st-gallen",
+          "notes": "FotMob usa St. Gallen."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": 192,
           "teamSlug": "fc-st-gallen",
           "countrySlug": "switzerland",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-St-Gallen/192/",
           "notes": null
         }
       }
@@ -8445,20 +8445,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "fc-thun",
+          "status": "mapped",
+          "sourceTeamId": 10191,
+          "teamSlug": "thun",
           "competitionId": "46",
           "competitionSlug": "super-league",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/10191/stats/thun",
+          "notes": "FotMob usa Thun."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": 195,
           "teamSlug": "fc-thun",
           "countrySlug": "switzerland",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Thun/195/",
           "notes": null
         }
       }
@@ -8475,20 +8475,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": 9824,
           "teamSlug": "fc-vaduz",
           "competitionId": "46",
           "competitionSlug": "super-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9824/squad/fc-vaduz/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": 505,
           "teamSlug": "fc-vaduz",
           "countrySlug": "switzerland",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Vaduz/505/",
           "notes": null
         }
       }
@@ -8505,21 +8505,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": 10243,
           "teamSlug": "fc-zurich",
           "competitionId": "46",
           "competitionSlug": "super-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10243/overview/fc-zurich/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": 200,
           "teamSlug": "fc-zurich",
           "countrySlug": "switzerland",
-          "url": null,
-          "notes": null
+          "url": "https://www.soccer-rating.com/FC-Zuerich/200/",
+          "notes": "Soccer-Rating usa Zuerich."
         }
       }
     },
@@ -8535,21 +8535,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "grasshoppers",
+          "status": "mapped",
+          "sourceTeamId": 9956,
+          "teamSlug": "grasshopper",
           "competitionId": "46",
           "competitionSlug": "super-league",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/9956/squad/grasshopper",
+          "notes": "FotMob usa o slug singular grasshopper."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "grasshoppers",
+          "status": "mapped",
+          "sourceTeamId": 191,
+          "teamSlug": "grasshoppers-zuerich",
           "countrySlug": "switzerland",
-          "url": null,
-          "notes": null
+          "url": "https://www.soccer-rating.com/Grasshoppers-Zuerich/191/",
+          "notes": "Soccer-Rating usa Grasshoppers Zuerich."
         }
       }
     },
@@ -8565,20 +8565,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "lausanne-sport",
+          "status": "mapped",
+          "sourceTeamId": 7730,
+          "teamSlug": "fc-lausanne-sport",
           "competitionId": "46",
           "competitionSlug": "super-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/7730/overview/fc-lausanne-sport",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "lausanne-sport",
+          "status": "mapped",
+          "sourceTeamId": 1124,
+          "teamSlug": "fc-lausanne-sport",
           "countrySlug": "switzerland",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Lausanne-Sport/1124/",
           "notes": null
         }
       }
@@ -8595,20 +8595,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": 10199,
           "teamSlug": "luzern",
           "competitionId": "46",
           "competitionSlug": "super-league",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/10199/overview/fc-luzern",
+          "notes": "FotMob expõe FC Luzern."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "luzern",
+          "status": "mapped",
+          "sourceTeamId": 193,
+          "teamSlug": "fc-luzern",
           "countrySlug": "switzerland",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Luzern/193/",
           "notes": null
         }
       }
@@ -8625,20 +8625,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": 9777,
           "teamSlug": "servette",
           "competitionId": "46",
           "competitionSlug": "super-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9777/overview/servette",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "servette",
+          "status": "mapped",
+          "sourceTeamId": 1127,
+          "teamSlug": "servette-fc",
           "countrySlug": "switzerland",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Servette-FC/1127/",
           "notes": null
         }
       }
@@ -8655,20 +8655,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": 10192,
           "teamSlug": "young-boys",
           "competitionId": "46",
           "competitionSlug": "super-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10192/overview/young-boys/players",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "young-boys",
+          "status": "mapped",
+          "sourceTeamId": 198,
+          "teamSlug": "young-boys-bern",
           "countrySlug": "switzerland",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Young-Boys-Bern/198/",
           "notes": null
         }
       }
