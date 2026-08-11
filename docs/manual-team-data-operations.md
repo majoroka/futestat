@@ -38,8 +38,12 @@ Cada dominio continua isolado:
 - `Soccer-Rating` -> team context
 
 Antes de qualquer captura manual de equipa, a ordem recomendada passa a ser:
+- `refresh:competition-standings` para as ligas que queiras sem depender do snapshot atual
 - `sync:team-source-registry`
 - `report:team-inventory`
+
+O `sync:team-source-registry` deixa de depender apenas dos fixtures visíveis da janela curta.
+Quando existirem classificações já gravadas em `data/fixtures/standings`, o comando também faz seed dessas equipas no registo canónico e depois deixa os fixtures posteriores enriquecerem o mesmo registo com `sofascoreTeamId`.
 - `report:team-mapping`
 
 Nao misturar capturas nem outputs entre dominios.

@@ -3,6 +3,8 @@ import { syncTeamSourceRegistry } from "../infrastructure/manual/team-source-reg
 interface CliOptions {
   snapshotPath?: string;
   registryPath?: string;
+  standingsDir?: string;
+  seedFromStandings?: boolean;
 }
 
 async function main(): Promise<void> {
@@ -23,6 +25,12 @@ function parseCliOptions(argv: string[]): CliOptions {
         break;
       case "--registry":
         options.registryPath = requireValue(rawValue, flag);
+        break;
+      case "--standings-dir":
+        options.standingsDir = requireValue(rawValue, flag);
+        break;
+      case "--seed-standings":
+        options.seedFromStandings = parseBoolean(rawValue, flag);
         break;
       case "--help":
         printHelp();
@@ -50,7 +58,22 @@ Usage:
 Options:
   --snapshot=<path-json>
   --registry=<path-json>
+  --standings-dir=<path-dir>
+  --seed-standings=true|false
 `);
+}
+
+function parseBoolean(value: string | undefined, flag: string): boolean {
+  if (!value) {
+    throw new Error(`Missing value for ${flag}. Expected true or false.`);
+  }
+  if (value === "true") {
+    return true;
+  }
+  if (value === "false") {
+    return false;
+  }
+  throw new Error(`Invalid boolean for ${flag}: "${value}". Expected true or false.`);
 }
 
 main().catch((error: unknown) => {

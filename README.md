@@ -115,6 +115,7 @@ Antes de capturar ou parsear dados de equipa, o passo recomendado passa a ser:
 - medir cobertura e gaps de mapeamento
 
 Comandos de base:
+- `npm run refresh:competition-standings -- --competition-ids=18,54,53,44,182,131`
 - `npm run sync:team-source-registry`
 - `npm run report:team-inventory`
 - `npm run report:team-mapping`
@@ -401,6 +402,8 @@ Estes comandos:
 - validam manifestos, paths e campos mínimos antes de build/deploy
 - medem a cobertura das equipas presentes no snapshot atual e mostram o que ainda falta captar por fonte
 - sincronizam um registo canónico de equipas/fontes em `data/team-source-registry.json`, preservando mapeamentos manuais já preenchidos
+- o registo passa a ser alimentado tanto pelos fixtures da janela ativa como pelas classificações já gravadas em `data/fixtures/standings`, para não depender apenas da janela curta do snapshot
+- quando uma liga não entra na janela curta de fixtures, as classificações podem ser refrescadas manualmente por `competitionId` e servir de seed ao registo canónico
 
 Nota técnica:
 - `data/fixtures/` fica ignorado no `main`

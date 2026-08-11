@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-08-09T16:20:30.338Z",
+  "generatedAtUtc": "2026-08-11T15:28:16.598Z",
   "referenceDate": "2026-08-09",
   "snapshotPath": "data/fixtures/latest.json",
   "entries": [
@@ -184,36 +184,6 @@
       }
     },
     {
-      "sofascoreTeamId": "65676",
-      "teamName": "Central Córdoba",
-      "countryName": "Argentina",
-      "competitionId": "155",
-      "competitionName": "Liga Profesional, Clausura",
-      "activeInCurrentWindow": false,
-      "fixtureAppearancesInCurrentWindow": 0,
-      "firstSeenReferenceDate": "2026-08-04",
-      "lastSeenReferenceDate": "2026-08-04",
-      "sources": {
-        "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "central-cordoba-de-santiago",
-          "competitionId": "155",
-          "competitionSlug": "liga-profesional-clausura",
-          "url": null,
-          "notes": "manual match name: FotMob = Central Cordoba de Santiago"
-        },
-        "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "central-cordoba",
-          "countrySlug": "argentina",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Central Cordoba"
-        }
-      }
-    },
-    {
       "sofascoreTeamId": "36839",
       "teamName": "Def y Justicia",
       "countryName": "Argentina",
@@ -305,7 +275,7 @@
     },
     {
       "sofascoreTeamId": "266694",
-      "teamName": "Estudiantes Río Cuarto",
+      "teamName": "Estudiantes R.C.",
       "countryName": "Argentina",
       "competitionId": "155",
       "competitionName": "Liga Profesional, Clausura",
@@ -514,38 +484,8 @@
       }
     },
     {
-      "sofascoreTeamId": "3218",
-      "teamName": "Lanús",
-      "countryName": "Argentina",
-      "competitionId": "155",
-      "competitionName": "Liga Profesional, Clausura",
-      "activeInCurrentWindow": false,
-      "fixtureAppearancesInCurrentWindow": 0,
-      "firstSeenReferenceDate": "2026-07-23",
-      "lastSeenReferenceDate": "2026-08-06",
-      "sources": {
-        "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "lanus",
-          "competitionId": "155",
-          "competitionSlug": "liga-profesional-clausura",
-          "url": null,
-          "notes": "manual match name: FotMob = Lanus"
-        },
-        "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "atletico-lanus",
-          "countrySlug": "argentina",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Atletico Lanus"
-        }
-      }
-    },
-    {
       "sofascoreTeamId": "3212",
-      "teamName": "Newell's Old Boys",
+      "teamName": "Newell's",
       "countryName": "Argentina",
       "competitionId": "155",
       "competitionName": "Liga Profesional, Clausura",
@@ -724,36 +664,6 @@
       }
     },
     {
-      "sofascoreTeamId": "3210",
-      "teamName": "Talleres",
-      "countryName": "Argentina",
-      "competitionId": "155",
-      "competitionName": "Liga Profesional, Clausura",
-      "activeInCurrentWindow": false,
-      "fixtureAppearancesInCurrentWindow": 0,
-      "firstSeenReferenceDate": "2026-07-25",
-      "lastSeenReferenceDate": "2026-08-03",
-      "sources": {
-        "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "talleres",
-          "competitionId": "155",
-          "competitionSlug": "liga-profesional-clausura",
-          "url": null,
-          "notes": "manual match name: FotMob = Talleres"
-        },
-        "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "talleres-cordoba",
-          "countrySlug": "argentina",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Talleres Cordoba"
-        }
-      }
-    },
-    {
       "sofascoreTeamId": "7628",
       "teamName": "Tigre",
       "countryName": "Argentina",
@@ -780,36 +690,6 @@
           "countrySlug": "argentina",
           "url": null,
           "notes": "autofill: sem candidatos Soccer-Rating"
-        }
-      }
-    },
-    {
-      "sofascoreTeamId": "3204",
-      "teamName": "Unión de Santa Fe",
-      "countryName": "Argentina",
-      "competitionId": "155",
-      "competitionName": "Liga Profesional, Clausura",
-      "activeInCurrentWindow": false,
-      "fixtureAppearancesInCurrentWindow": 0,
-      "firstSeenReferenceDate": "2026-07-25",
-      "lastSeenReferenceDate": "2026-08-06",
-      "sources": {
-        "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "union",
-          "competitionId": "155",
-          "competitionSlug": "liga-profesional-clausura",
-          "url": null,
-          "notes": "manual match name: FotMob = Union"
-        },
-        "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "ca-union-santa-fe",
-          "countrySlug": "argentina",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = CA Union Santa Fe"
         }
       }
     },
@@ -2070,36 +1950,6 @@
           "countrySlug": "norway",
           "url": null,
           "notes": "manual match name: Soccer-Rating = FK Bodö/Glimt"
-        }
-      }
-    },
-    {
-      "sofascoreTeamId": "1159",
-      "teamName": "Brann",
-      "countryName": "Norway",
-      "competitionId": "20",
-      "competitionName": "Eliteserien",
-      "activeInCurrentWindow": false,
-      "fixtureAppearancesInCurrentWindow": 0,
-      "firstSeenReferenceDate": "2026-07-18",
-      "lastSeenReferenceDate": "2026-08-02",
-      "sources": {
-        "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "brann",
-          "competitionId": "20",
-          "competitionSlug": "eliteserien",
-          "url": null,
-          "notes": "manual match name: FotMob = Brann"
-        },
-        "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "sk-brann-bergen",
-          "countrySlug": "norway",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = SK Brann Bergen"
         }
       }
     },
@@ -4085,7 +3935,7 @@
     },
     {
       "sofascoreTeamId": "285689",
-      "teamName": "Akron Togliatti",
+      "teamName": "Akron",
       "countryName": "Russia",
       "competitionId": "203",
       "competitionName": "Premier League",
@@ -4115,7 +3965,7 @@
     },
     {
       "sofascoreTeamId": "7517",
-      "teamName": "Baltika Kaliningrad",
+      "teamName": "Baltika",
       "countryName": "Russia",
       "competitionId": "203",
       "competitionName": "Premier League",
@@ -4145,7 +3995,7 @@
     },
     {
       "sofascoreTeamId": "2325",
-      "teamName": "CSKA Moscow",
+      "teamName": "CSKA",
       "countryName": "Russia",
       "competitionId": "203",
       "competitionName": "Premier League",
@@ -4205,7 +4055,7 @@
     },
     {
       "sofascoreTeamId": "2315",
-      "teamName": "Dynamo Moscow",
+      "teamName": "Dynamo",
       "countryName": "Russia",
       "competitionId": "203",
       "competitionName": "Premier League",
@@ -4235,7 +4085,7 @@
     },
     {
       "sofascoreTeamId": "2317",
-      "teamName": "Fakel Voronezh",
+      "teamName": "Fakel",
       "countryName": "Russia",
       "competitionId": "203",
       "competitionName": "Premier League",
@@ -4445,7 +4295,7 @@
     },
     {
       "sofascoreTeamId": "2333",
-      "teamName": "Rubin Kazan",
+      "teamName": "Rubin",
       "countryName": "Russia",
       "competitionId": "203",
       "competitionName": "Premier League",
@@ -4534,38 +4384,8 @@
       }
     },
     {
-      "sofascoreTeamId": "7739",
-      "teamName": "Dukla Praha",
-      "countryName": "Czech Republic",
-      "competitionId": "49",
-      "competitionName": "Chance Liga",
-      "activeInCurrentWindow": false,
-      "fixtureAppearancesInCurrentWindow": 0,
-      "firstSeenReferenceDate": "2026-08-11",
-      "lastSeenReferenceDate": "2026-08-11",
-      "sources": {
-        "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dukla-praha",
-          "competitionId": "49",
-          "competitionSlug": "chance-liga",
-          "url": null,
-          "notes": "manual match name: FotMob = Dukla Praha"
-        },
-        "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "fk-dukla-praha",
-          "countrySlug": "czech-republic",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = FK Dukla Praha"
-        }
-      }
-    },
-    {
       "sofascoreTeamId": "4503",
-      "teamName": "Dukla Banská Bystrica",
+      "teamName": "Banská Bystrica",
       "countryName": "Slovakia",
       "competitionId": "211",
       "competitionName": "Niké Liga",
@@ -4805,7 +4625,7 @@
     },
     {
       "sofascoreTeamId": "2404",
-      "teamName": "Slovan Bratislava",
+      "teamName": "Slovan",
       "countryName": "Slovakia",
       "competitionId": "211",
       "competitionName": "Niké Liga",
@@ -5165,7 +4985,7 @@
     },
     {
       "sofascoreTeamId": "323552",
-      "teamName": "Epicentr Dunaivtsi",
+      "teamName": "Epicentr",
       "countryName": "Ukraine",
       "competitionId": "218",
       "competitionName": "Premier League",
@@ -5195,7 +5015,7 @@
     },
     {
       "sofascoreTeamId": "266889",
-      "teamName": "Metalist Kharkiv",
+      "teamName": "FC Kharkiv",
       "countryName": "Ukraine",
       "competitionId": "218",
       "competitionName": "Premier League",
@@ -5285,7 +5105,7 @@
     },
     {
       "sofascoreTeamId": "200776",
-      "teamName": "Kolos Kovalivka",
+      "teamName": "Kolos",
       "countryName": "Ukraine",
       "competitionId": "218",
       "competitionName": "Premier League",
@@ -5495,7 +5315,7 @@
     },
     {
       "sofascoreTeamId": "312677",
-      "teamName": "Zorya Lugansk",
+      "teamName": "Zoria",
       "countryName": "Ukraine",
       "competitionId": "218",
       "competitionName": "Premier League",
@@ -5528,7 +5348,7 @@
       "teamName": "Aldosivi",
       "countryName": "Argentina",
       "competitionId": "155",
-      "competitionName": "Liga Profesional, Clausura",
+      "competitionName": "Liga Profesional",
       "activeInCurrentWindow": false,
       "fixtureAppearancesInCurrentWindow": 0,
       "firstSeenReferenceDate": "2026-08-08",
@@ -5554,11 +5374,101 @@
       }
     },
     {
+      "sofascoreTeamId": "65676",
+      "teamName": "Central Córdoba",
+      "countryName": "Argentina",
+      "competitionId": "155",
+      "competitionName": "Liga Profesional",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-04",
+      "lastSeenReferenceDate": "2026-08-04",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "central-cordoba-de-santiago",
+          "competitionId": "155",
+          "competitionSlug": "liga-profesional-clausura",
+          "url": null,
+          "notes": "manual match name: FotMob = Central Cordoba de Santiago"
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "central-cordoba",
+          "countrySlug": "argentina",
+          "url": null,
+          "notes": "manual match name: Soccer-Rating = Central Cordoba"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "3218",
+      "teamName": "Lanús",
+      "countryName": "Argentina",
+      "competitionId": "155",
+      "competitionName": "Liga Profesional",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-07-23",
+      "lastSeenReferenceDate": "2026-08-06",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "lanus",
+          "competitionId": "155",
+          "competitionSlug": "liga-profesional-clausura",
+          "url": null,
+          "notes": "manual match name: FotMob = Lanus"
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "atletico-lanus",
+          "countrySlug": "argentina",
+          "url": null,
+          "notes": "manual match name: Soccer-Rating = Atletico Lanus"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Newell´s Old Boys",
+      "countryName": "Argentina",
+      "competitionId": "155",
+      "competitionName": "Liga Profesional",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "newell-s-old-boys",
+          "competitionId": "155",
+          "competitionSlug": "liga-profesional",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "newell-s-old-boys",
+          "countrySlug": "argentina",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
       "sofascoreTeamId": "3217",
       "teamName": "Rosario Central",
       "countryName": "Argentina",
       "competitionId": "155",
-      "competitionName": "Liga Profesional, Clausura",
+      "competitionName": "Liga Profesional",
       "activeInCurrentWindow": false,
       "fixtureAppearancesInCurrentWindow": 0,
       "firstSeenReferenceDate": "2026-08-08",
@@ -5580,6 +5490,66 @@
           "countrySlug": "argentina",
           "url": null,
           "notes": "autofill: match Soccer-Rating inconclusivo"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "3210",
+      "teamName": "Talleres",
+      "countryName": "Argentina",
+      "competitionId": "155",
+      "competitionName": "Liga Profesional",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-07-25",
+      "lastSeenReferenceDate": "2026-08-03",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "talleres",
+          "competitionId": "155",
+          "competitionSlug": "liga-profesional-clausura",
+          "url": null,
+          "notes": "manual match name: FotMob = Talleres"
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "talleres-cordoba",
+          "countrySlug": "argentina",
+          "url": null,
+          "notes": "manual match name: Soccer-Rating = Talleres Cordoba"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "3204",
+      "teamName": "Unión de Santa Fe",
+      "countryName": "Argentina",
+      "competitionId": "155",
+      "competitionName": "Liga Profesional",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-07-25",
+      "lastSeenReferenceDate": "2026-08-06",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "union",
+          "competitionId": "155",
+          "competitionSlug": "liga-profesional-clausura",
+          "url": null,
+          "notes": "manual match name: FotMob = Union"
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "ca-union-santa-fe",
+          "countrySlug": "argentina",
+          "url": null,
+          "notes": "manual match name: Soccer-Rating = CA Union Santa Fe"
         }
       }
     },
@@ -5704,6 +5674,1176 @@
       }
     },
     {
+      "sofascoreTeamId": "7739",
+      "teamName": "Dukla Praha",
+      "countryName": "Czech Republic",
+      "competitionId": "49",
+      "competitionName": "Chance Liga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "dukla-praha",
+          "competitionId": "49",
+          "competitionSlug": "chance-liga",
+          "url": null,
+          "notes": "manual match name: FotMob = Dukla Praha"
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fk-dukla-praha",
+          "countrySlug": "czech-republic",
+          "url": null,
+          "notes": "manual match name: Soccer-Rating = FK Dukla Praha"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "1. FC Heidenheim 1846",
+      "countryName": "Germany",
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "1-fc-heidenheim-1846",
+          "competitionId": "44",
+          "competitionSlug": "2-bundesliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "1-fc-heidenheim-1846",
+          "countrySlug": "germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "1. FC Magdeburg",
+      "countryName": "Germany",
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "1-fc-magdeburg",
+          "competitionId": "44",
+          "competitionSlug": "2-bundesliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "1-fc-magdeburg",
+          "countrySlug": "germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Arminia Bielefeld",
+      "countryName": "Germany",
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "arminia-bielefeld",
+          "competitionId": "44",
+          "competitionSlug": "2-bundesliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "arminia-bielefeld",
+          "countrySlug": "germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Darmstadt 98",
+      "countryName": "Germany",
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "darmstadt-98",
+          "competitionId": "44",
+          "competitionSlug": "2-bundesliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "darmstadt-98",
+          "countrySlug": "germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Dynamo Dresden",
+      "countryName": "Germany",
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "dynamo-dresden",
+          "competitionId": "44",
+          "competitionSlug": "2-bundesliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "dynamo-dresden",
+          "countrySlug": "germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Eintracht Braunschweig",
+      "countryName": "Germany",
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "eintracht-braunschweig",
+          "competitionId": "44",
+          "competitionSlug": "2-bundesliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "eintracht-braunschweig",
+          "countrySlug": "germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Energie Cottbus",
+      "countryName": "Germany",
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "energie-cottbus",
+          "competitionId": "44",
+          "competitionSlug": "2-bundesliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "energie-cottbus",
+          "countrySlug": "germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "FC Nürnberg",
+      "countryName": "Germany",
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-nurnberg",
+          "competitionId": "44",
+          "competitionSlug": "2-bundesliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-nurnberg",
+          "countrySlug": "germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "FC St. Pauli",
+      "countryName": "Germany",
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-st-pauli",
+          "competitionId": "44",
+          "competitionSlug": "2-bundesliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-st-pauli",
+          "countrySlug": "germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Hannover 96",
+      "countryName": "Germany",
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "hannover-96",
+          "competitionId": "44",
+          "competitionSlug": "2-bundesliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "hannover-96",
+          "countrySlug": "germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Hertha BSC",
+      "countryName": "Germany",
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "hertha-bsc",
+          "competitionId": "44",
+          "competitionSlug": "2-bundesliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "hertha-bsc",
+          "countrySlug": "germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Holstein Kiel",
+      "countryName": "Germany",
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "holstein-kiel",
+          "competitionId": "44",
+          "competitionSlug": "2-bundesliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "holstein-kiel",
+          "countrySlug": "germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Kaiserslautern",
+      "countryName": "Germany",
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "kaiserslautern",
+          "competitionId": "44",
+          "competitionSlug": "2-bundesliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "kaiserslautern",
+          "countrySlug": "germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Karlsruher SC",
+      "countryName": "Germany",
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "karlsruher-sc",
+          "competitionId": "44",
+          "competitionSlug": "2-bundesliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "karlsruher-sc",
+          "countrySlug": "germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "SpVgg Greuther Fürth",
+      "countryName": "Germany",
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "spvgg-greuther-furth",
+          "competitionId": "44",
+          "competitionSlug": "2-bundesliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "spvgg-greuther-furth",
+          "countrySlug": "germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "VfL Bochum",
+      "countryName": "Germany",
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "vfl-bochum",
+          "competitionId": "44",
+          "competitionSlug": "2-bundesliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "vfl-bochum",
+          "countrySlug": "germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "VfL Osnabrück",
+      "countryName": "Germany",
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "vfl-osnabruck",
+          "competitionId": "44",
+          "competitionSlug": "2-bundesliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "vfl-osnabruck",
+          "countrySlug": "germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Wolfsburg",
+      "countryName": "Germany",
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "wolfsburg",
+          "competitionId": "44",
+          "competitionSlug": "2-bundesliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "wolfsburg",
+          "countrySlug": "germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Ajax B",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "ajax-b",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "ajax-b",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Almere City FC",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "almere-city-fc",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "almere-city-fc",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "AZ Alkmaar B",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "az-alkmaar-b",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "az-alkmaar-b",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "De Graafschap",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "de-graafschap",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "de-graafschap",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Den Bosch",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "den-bosch",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "den-bosch",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "FC Dordrecht",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-dordrecht",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-dordrecht",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "FC Eindhoven",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-eindhoven",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-eindhoven",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "FC Emmen",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-emmen",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-emmen",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "FC Utrecht B",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-utrecht-b",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-utrecht-b",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "FC Volendam",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-volendam",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-volendam",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Helmond Sport",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "helmond-sport",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "helmond-sport",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Heracles Almelo",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "heracles-almelo",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "heracles-almelo",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "MVV",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "mvv",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "mvv",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "NAC Breda",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "nac-breda",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "nac-breda",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "PSV B",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "psv-b",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "psv-b",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "RKC Waalwijk",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "rkc-waalwijk",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "rkc-waalwijk",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Roda",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "roda",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "roda",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "TOP Oss",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "top-oss",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "top-oss",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Vitesse",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "vitesse",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "vitesse",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "VVV-Venlo",
+      "countryName": "Netherlands",
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "vvv-venlo",
+          "competitionId": "131",
+          "competitionSlug": "eerste-divisie",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "vvv-venlo",
+          "countrySlug": "netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
       "sofascoreTeamId": "677",
       "teamName": "Aalesund",
       "countryName": "Norway",
@@ -5730,6 +6870,36 @@
           "countrySlug": "norway",
           "url": null,
           "notes": "autofill: match Soccer-Rating inconclusivo"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1159",
+      "teamName": "Brann",
+      "countryName": "Norway",
+      "competitionId": "20",
+      "competitionName": "Eliteserien",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-07-18",
+      "lastSeenReferenceDate": "2026-08-02",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "brann",
+          "competitionId": "20",
+          "competitionSlug": "eliteserien",
+          "url": null,
+          "notes": "manual match name: FotMob = Brann"
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "sk-brann-bergen",
+          "countrySlug": "norway",
+          "url": null,
+          "notes": "manual match name: Soccer-Rating = SK Brann Bergen"
         }
       }
     },
@@ -5794,36 +6964,6 @@
       }
     },
     {
-      "sofascoreTeamId": "660",
-      "teamName": "Tromsø",
-      "countryName": "Norway",
-      "competitionId": "20",
-      "competitionName": "Eliteserien",
-      "activeInCurrentWindow": false,
-      "fixtureAppearancesInCurrentWindow": 0,
-      "firstSeenReferenceDate": "2026-07-18",
-      "lastSeenReferenceDate": "2026-08-06",
-      "sources": {
-        "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "tromso",
-          "competitionId": "20",
-          "competitionSlug": "eliteserien",
-          "url": null,
-          "notes": "manual match name: FotMob = Tromsø"
-        },
-        "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "tromso-il",
-          "countrySlug": "norway",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Tromsö IL"
-        }
-      }
-    },
-    {
       "sofascoreTeamId": "676",
       "teamName": "Sandefjord",
       "countryName": "Norway",
@@ -5850,6 +6990,36 @@
           "countrySlug": "norway",
           "url": "https://www.soccer-rating.com/Sandefjord-BK/7755/",
           "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "660",
+      "teamName": "Tromsø",
+      "countryName": "Norway",
+      "competitionId": "20",
+      "competitionName": "Eliteserien",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-07-18",
+      "lastSeenReferenceDate": "2026-08-06",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "tromso",
+          "competitionId": "20",
+          "competitionSlug": "eliteserien",
+          "url": null,
+          "notes": "manual match name: FotMob = Tromsø"
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "tromso-il",
+          "countrySlug": "norway",
+          "url": null,
+          "notes": "manual match name: Soccer-Rating = Tromsö IL"
         }
       }
     },
@@ -6034,6 +7204,66 @@
       }
     },
     {
+      "sofascoreTeamId": "4500",
+      "teamName": "Estoril",
+      "countryName": "Portugal",
+      "competitionId": "238",
+      "competitionName": "Liga Portugal",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-08",
+      "lastSeenReferenceDate": "2026-08-08",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "7842",
+          "teamSlug": "estoril",
+          "competitionId": "238",
+          "competitionSlug": "liga-portugal-betclic",
+          "url": "https://www.fotmob.com/teams/7842/stats/estoril/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1098",
+          "teamSlug": "estoril-praia",
+          "countrySlug": "portugal",
+          "url": "https://www.soccer-rating.com/Estoril-Praia/1098/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "49531",
+      "teamName": "Famalicão",
+      "countryName": "Portugal",
+      "competitionId": "238",
+      "competitionName": "Liga Portugal",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-08",
+      "lastSeenReferenceDate": "2026-08-08",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "1634",
+          "teamSlug": "famalicao",
+          "competitionId": "238",
+          "competitionSlug": "liga-portugal-betclic",
+          "url": "https://www.fotmob.com/teams/1634/stats/famalicao/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "famalicao",
+          "countrySlug": "portugal",
+          "url": null,
+          "notes": "autofill: sem candidatos Soccer-Rating"
+        }
+      }
+    },
+    {
       "sofascoreTeamId": "483088",
       "teamName": "AVS",
       "countryName": "Portugal",
@@ -6154,71 +7384,11 @@
       }
     },
     {
-      "sofascoreTeamId": "4500",
-      "teamName": "Estoril",
-      "countryName": "Portugal",
-      "competitionId": "238",
-      "competitionName": "Liga Portugal Betclic",
-      "activeInCurrentWindow": false,
-      "fixtureAppearancesInCurrentWindow": 0,
-      "firstSeenReferenceDate": "2026-08-08",
-      "lastSeenReferenceDate": "2026-08-08",
-      "sources": {
-        "fotmob": {
-          "status": "mapped",
-          "sourceTeamId": "7842",
-          "teamSlug": "estoril",
-          "competitionId": "238",
-          "competitionSlug": "liga-portugal-betclic",
-          "url": "https://www.fotmob.com/teams/7842/stats/estoril/teams",
-          "notes": null
-        },
-        "soccerRating": {
-          "status": "mapped",
-          "sourceTeamId": "1098",
-          "teamSlug": "estoril-praia",
-          "countrySlug": "portugal",
-          "url": "https://www.soccer-rating.com/Estoril-Praia/1098/",
-          "notes": null
-        }
-      }
-    },
-    {
-      "sofascoreTeamId": "49531",
-      "teamName": "Famalicão",
-      "countryName": "Portugal",
-      "competitionId": "238",
-      "competitionName": "Liga Portugal Betclic",
-      "activeInCurrentWindow": false,
-      "fixtureAppearancesInCurrentWindow": 0,
-      "firstSeenReferenceDate": "2026-08-08",
-      "lastSeenReferenceDate": "2026-08-08",
-      "sources": {
-        "fotmob": {
-          "status": "mapped",
-          "sourceTeamId": "1634",
-          "teamSlug": "famalicao",
-          "competitionId": "238",
-          "competitionSlug": "liga-portugal-betclic",
-          "url": "https://www.fotmob.com/teams/1634/stats/famalicao/teams",
-          "notes": null
-        },
-        "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "famalicao",
-          "countrySlug": "portugal",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
-        }
-      }
-    },
-    {
       "sofascoreTeamId": "3291",
       "teamName": "Oțelul Galați",
       "countryName": "Romania",
       "competitionId": "152",
-      "competitionName": "Superliga",
+      "competitionName": "SuperLiga",
       "activeInCurrentWindow": false,
       "fixtureAppearancesInCurrentWindow": 0,
       "firstSeenReferenceDate": "2026-08-08",
@@ -6248,7 +7418,7 @@
       "teamName": "Petrolul Ploiești",
       "countryName": "Romania",
       "competitionId": "152",
-      "competitionName": "Superliga",
+      "competitionName": "SuperLiga",
       "activeInCurrentWindow": false,
       "fixtureAppearancesInCurrentWindow": 0,
       "firstSeenReferenceDate": "2026-08-08",
@@ -6278,7 +7448,7 @@
       "teamName": "Rapid București",
       "countryName": "Romania",
       "competitionId": "152",
-      "competitionName": "Superliga",
+      "competitionName": "SuperLiga",
       "activeInCurrentWindow": false,
       "fixtureAppearancesInCurrentWindow": 0,
       "firstSeenReferenceDate": "2026-08-08",
@@ -6308,7 +7478,7 @@
       "teamName": "UTA",
       "countryName": "Romania",
       "competitionId": "152",
-      "competitionName": "Superliga",
+      "competitionName": "SuperLiga",
       "activeInCurrentWindow": false,
       "fixtureAppearancesInCurrentWindow": 0,
       "firstSeenReferenceDate": "2026-08-08",
@@ -6334,11 +7504,41 @@
       }
     },
     {
+      "sofascoreTeamId": "",
+      "teamName": "Dukla",
+      "countryName": "Slovakia",
+      "competitionId": "211",
+      "competitionName": "Nike Liga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "dukla",
+          "competitionId": "211",
+          "competitionSlug": "nike-liga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "dukla",
+          "countrySlug": "slovakia",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
       "sofascoreTeamId": "111061",
       "teamName": "Skalica",
       "countryName": "Slovakia",
       "competitionId": "211",
-      "competitionName": "Niké Liga",
+      "competitionName": "Nike Liga",
       "activeInCurrentWindow": false,
       "fixtureAppearancesInCurrentWindow": 0,
       "firstSeenReferenceDate": "2026-08-08",
@@ -6368,7 +7568,7 @@
       "teamName": "Žilina",
       "countryName": "Slovakia",
       "competitionId": "211",
-      "competitionName": "Niké Liga",
+      "competitionName": "Nike Liga",
       "activeInCurrentWindow": false,
       "fixtureAppearancesInCurrentWindow": 0,
       "firstSeenReferenceDate": "2026-08-08",
@@ -6450,6 +7650,1026 @@
           "countrySlug": "slovenia",
           "url": null,
           "notes": "autofill: match Soccer-Rating inconclusivo"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "AD Ceuta",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "ad-ceuta",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "ad-ceuta",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Albacete",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "albacete",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "albacete",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Almería",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "almeria",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "almeria",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Burgos CF",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "burgos-cf",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "burgos-cf",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Cádiz",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "cadiz",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "cadiz",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Castellón",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "castellon",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "castellon",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "CE Sabadell",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "ce-sabadell",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "ce-sabadell",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Celta de Vigo B",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "celta-de-vigo-b",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "celta-de-vigo-b",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Córdoba",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "cordoba",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "cordoba",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Eibar",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "eibar",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "eibar",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Eldense",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "eldense",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "eldense",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "FC Andorra",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-andorra",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-andorra",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Girona",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "girona",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "girona",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Granada",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "granada",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "granada",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Las Palmas",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "las-palmas",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "las-palmas",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Leganés",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "leganes",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "leganes",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Mallorca",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "mallorca",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "mallorca",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Real Oviedo",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "real-oviedo",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "real-oviedo",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Real Sociedad B",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "real-sociedad-b",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "real-sociedad-b",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Sporting Gijón",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "sporting-gijon",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "sporting-gijon",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Tenerife",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "tenerife",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "tenerife",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Valladolid",
+      "countryName": "Spain",
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "valladolid",
+          "competitionId": "54",
+          "competitionSlug": "laliga-2",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "valladolid",
+          "countrySlug": "spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "FC Basel",
+      "countryName": "Switzerland",
+      "competitionId": "46",
+      "competitionName": "Super League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-basel",
+          "competitionId": "46",
+          "competitionSlug": "super-league",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-basel",
+          "countrySlug": "switzerland",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "FC Lugano",
+      "countryName": "Switzerland",
+      "competitionId": "46",
+      "competitionName": "Super League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-lugano",
+          "competitionId": "46",
+          "competitionSlug": "super-league",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-lugano",
+          "countrySlug": "switzerland",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "FC Sion",
+      "countryName": "Switzerland",
+      "competitionId": "46",
+      "competitionName": "Super League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-sion",
+          "competitionId": "46",
+          "competitionSlug": "super-league",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-sion",
+          "countrySlug": "switzerland",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "FC St. Gallen",
+      "countryName": "Switzerland",
+      "competitionId": "46",
+      "competitionName": "Super League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-st-gallen",
+          "competitionId": "46",
+          "competitionSlug": "super-league",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-st-gallen",
+          "countrySlug": "switzerland",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "FC Thun",
+      "countryName": "Switzerland",
+      "competitionId": "46",
+      "competitionName": "Super League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-thun",
+          "competitionId": "46",
+          "competitionSlug": "super-league",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-thun",
+          "countrySlug": "switzerland",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "FC Vaduz",
+      "countryName": "Switzerland",
+      "competitionId": "46",
+      "competitionName": "Super League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-vaduz",
+          "competitionId": "46",
+          "competitionSlug": "super-league",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-vaduz",
+          "countrySlug": "switzerland",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "FC Zurich",
+      "countryName": "Switzerland",
+      "competitionId": "46",
+      "competitionName": "Super League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-zurich",
+          "competitionId": "46",
+          "competitionSlug": "super-league",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fc-zurich",
+          "countrySlug": "switzerland",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Grasshoppers",
+      "countryName": "Switzerland",
+      "competitionId": "46",
+      "competitionName": "Super League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "grasshoppers",
+          "competitionId": "46",
+          "competitionSlug": "super-league",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "grasshoppers",
+          "countrySlug": "switzerland",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Lausanne-Sport",
+      "countryName": "Switzerland",
+      "competitionId": "46",
+      "competitionName": "Super League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "lausanne-sport",
+          "competitionId": "46",
+          "competitionSlug": "super-league",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "lausanne-sport",
+          "countrySlug": "switzerland",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Luzern",
+      "countryName": "Switzerland",
+      "competitionId": "46",
+      "competitionName": "Super League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "luzern",
+          "competitionId": "46",
+          "competitionSlug": "super-league",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "luzern",
+          "countrySlug": "switzerland",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Servette",
+      "countryName": "Switzerland",
+      "competitionId": "46",
+      "competitionName": "Super League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "servette",
+          "competitionId": "46",
+          "competitionSlug": "super-league",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "servette",
+          "countrySlug": "switzerland",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Young Boys",
+      "countryName": "Switzerland",
+      "competitionId": "46",
+      "competitionName": "Super League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "young-boys",
+          "competitionId": "46",
+          "competitionSlug": "super-league",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "young-boys",
+          "countrySlug": "switzerland",
+          "url": null,
+          "notes": null
         }
       }
     },

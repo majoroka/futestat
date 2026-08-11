@@ -295,6 +295,17 @@ export function buildCompetitionStandingsSourceMap(): ReadonlyMap<string, Compet
   );
 }
 
+export function listCompetitionStandingsSources(options?: {
+  competitionIds?: ReadonlySet<string> | null;
+}): CompetitionStandingsSource[] {
+  const competitionIds = options?.competitionIds ?? null;
+
+  return DEFAULT_COMPETITION_STANDINGS_SOURCES
+    .filter((source) => source.enabled)
+    .filter((source) => !competitionIds || competitionIds.has(source.competitionId))
+    .sort((left, right) => left.competitionId.localeCompare(right.competitionId));
+}
+
 export function findCompetitionStandingsSource(
   fixture: FixtureCompetitionIdentity,
 ): CompetitionStandingsSource | null {

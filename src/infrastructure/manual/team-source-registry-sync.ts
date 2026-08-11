@@ -1,15 +1,19 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
+import type { CompetitionStandingsSnapshot } from "../../domain/competition-standings.js";
 import type { MatchFixture, PublicFixtureSnapshot } from "../../domain/fixture.js";
 import type {
   TeamSourceRegistry,
   TeamSourceRegistryEntry,
 } from "../../domain/team-source-registry.js";
+import { findBestTeamNameMatch } from "../../lib/team-name-matcher.js";
 
 export interface SyncTeamSourceRegistryOptions {
   snapshotPath?: string;
   registryPath?: string;
+  standingsDir?: string;
+  seedFromStandings?: boolean;
 }
 
 export interface SyncTeamSourceRegistryResult {
@@ -18,6 +22,8 @@ export interface SyncTeamSourceRegistryResult {
   activeEntries: number;
   addedEntries: number;
   retainedEntries: number;
+  standingsSeededEntries: number;
+  fixtureLinkedSeedEntries: number;
 }
 
 export async function syncTeamSourceRegistry(
@@ -32,6 +38,10 @@ export async function syncTeamSourceRegistry(
     repoRoot,
     options.registryPath ?? path.join("data", "team-source-registry.json"),
   );
+  const standingsDir = path.resolve(
+    repoRoot,
+    options.standingsDir ?? path.join("data", "fixtures", "standings"),
+  );
 
   const snapshot = await readJsonRequired<PublicFixtureSnapshot>(
     snapshotPath,
@@ -41,7 +51,7 @@ export async function syncTeamSourceRegistry(
   const existingMap = new Map<string, TeamSourceRegistryEntry>();
 
   for (const entry of existing?.entries ?? []) {
-    const key = buildTeamKey(entry.sofascoreTeamId, entry.teamName);
+    const key = buildTeamKey(entry.sofascoreTeamId, entry.teamName, entry.competitionId);
     existingMap.set(key, {
       ...entry,
       activeInCurrentWindow: false,
@@ -50,10 +60,27 @@ export async function syncTeamSourceRegistry(
   }
 
   let addedEntries = 0;
+  let standingsSeededEntries = 0;
+  let fixtureLinkedSeedEntries = 0;
+
+  if (options.seedFromStandings !== false) {
+    const standingsSnapshots = await readStandingsSnapshots(standingsDir);
+    for (const standings of standingsSnapshots.values()) {
+      standingsSeededEntries += seedTeamsFromStandings(
+        existingMap,
+        snapshot.referenceDate,
+        standings,
+      );
+    }
+  }
 
   for (const fixture of snapshot.fixtures) {
-    upsertFixtureTeam(existingMap, snapshot.referenceDate, fixture, "home");
-    upsertFixtureTeam(existingMap, snapshot.referenceDate, fixture, "away");
+    fixtureLinkedSeedEntries += Number(
+      upsertFixtureTeam(existingMap, snapshot.referenceDate, fixture, "home"),
+    );
+    fixtureLinkedSeedEntries += Number(
+      upsertFixtureTeam(existingMap, snapshot.referenceDate, fixture, "away"),
+    );
   }
 
   for (const [key, entry] of existingMap) {
@@ -68,6 +95,8 @@ export async function syncTeamSourceRegistry(
       competitionId: entry.competitionId,
       competitionName: entry.competitionName,
       countryName: entry.countryName,
+      activeInCurrentWindow: entry.activeInCurrentWindow,
+      fixtureAppearancesInCurrentWindow: entry.fixtureAppearancesInCurrentWindow,
     });
     existingMap.set(key, {
       ...seeded,
@@ -98,6 +127,8 @@ export async function syncTeamSourceRegistry(
     activeEntries: entries.filter((entry) => entry.activeInCurrentWindow).length,
     addedEntries,
     retainedEntries: entries.length - addedEntries,
+    standingsSeededEntries,
+    fixtureLinkedSeedEntries,
   };
 }
 
@@ -106,22 +137,33 @@ function upsertFixtureTeam(
   referenceDate: string,
   fixture: MatchFixture,
   side: "home" | "away",
-): void {
+): boolean {
   const teamId = side === "home" ? fixture.homeTeamId : fixture.awayTeamId;
   const teamName = side === "home" ? fixture.homeTeamName : fixture.awayTeamName;
-  const key = buildTeamKey(teamId, teamName);
-  const existing = entryMap.get(key);
+  const key = buildTeamKey(teamId, teamName, fixture.competitionId);
+  const existingById = entryMap.get(key);
 
-  if (existing) {
-    existing.activeInCurrentWindow = true;
-    existing.fixtureAppearancesInCurrentWindow += 1;
-    existing.lastSeenReferenceDate = referenceDate;
-    existing.teamName = teamName;
-    existing.countryName = fixture.countryName;
-    existing.competitionId = fixture.competitionId;
-    existing.competitionName = fixture.competitionName;
-    seedDefaultSourceHints(existing, fixture);
-    return;
+  if (existingById) {
+    hydrateFixtureEntry(existingById, referenceDate, fixture, teamName);
+    return false;
+  }
+
+  const seededByStandings = findSeededEntryWithoutTeamId(
+    entryMap,
+    fixture.competitionId,
+    teamName,
+  );
+
+  if (seededByStandings) {
+    entryMap.delete(seededByStandings.key);
+    seededByStandings.entry.sofascoreTeamId = String(teamId ?? "");
+    seededByStandings.entry.teamName = teamName;
+    hydrateFixtureEntry(seededByStandings.entry, referenceDate, fixture, teamName);
+    entryMap.set(
+      buildTeamKey(seededByStandings.entry.sofascoreTeamId, teamName, fixture.competitionId),
+      seededByStandings.entry,
+    );
+    return true;
   }
 
   const created = createRegistryEntry({
@@ -131,9 +173,67 @@ function upsertFixtureTeam(
     competitionId: fixture.competitionId,
     competitionName: fixture.competitionName,
     countryName: fixture.countryName,
+    activeInCurrentWindow: true,
+    fixtureAppearancesInCurrentWindow: 1,
   });
   seedDefaultSourceHints(created, fixture);
   entryMap.set(key, created);
+  return false;
+}
+
+function hydrateFixtureEntry(
+  entry: TeamSourceRegistryEntry,
+  referenceDate: string,
+  fixture: MatchFixture,
+  teamName: string,
+): void {
+  entry.activeInCurrentWindow = true;
+  entry.fixtureAppearancesInCurrentWindow += 1;
+  entry.lastSeenReferenceDate = referenceDate;
+  entry.teamName = teamName;
+  entry.countryName = fixture.countryName;
+  entry.competitionId = fixture.competitionId;
+  entry.competitionName = fixture.competitionName;
+  seedDefaultSourceHints(entry, fixture);
+}
+
+function seedTeamsFromStandings(
+  entryMap: Map<string, TeamSourceRegistryEntry>,
+  referenceDate: string,
+  standings: CompetitionStandingsSnapshot,
+): number {
+  let addedEntries = 0;
+
+  for (const teamName of extractTeamNamesFromStandings(standings)) {
+    const existing = findEntryByCompetitionAndName(
+      entryMap,
+      standings.competitionId,
+      teamName,
+    );
+    if (existing) {
+      existing.entry.countryName = standings.countryName;
+      existing.entry.competitionId = standings.competitionId;
+      existing.entry.competitionName = standings.competitionName;
+      seedDefaultSourceHintsFromStandings(existing.entry, standings);
+      continue;
+    }
+
+    const created = createRegistryEntry({
+      referenceDate,
+      teamId: null,
+      teamName,
+      competitionId: standings.competitionId,
+      competitionName: standings.competitionName,
+      countryName: standings.countryName,
+      activeInCurrentWindow: false,
+      fixtureAppearancesInCurrentWindow: 0,
+    });
+    seedDefaultSourceHintsFromStandings(created, standings);
+    entryMap.set(buildTeamKey(null, teamName, standings.competitionId), created);
+    addedEntries += 1;
+  }
+
+  return addedEntries;
 }
 
 function createRegistryEntry(params: {
@@ -143,6 +243,8 @@ function createRegistryEntry(params: {
   competitionId: string | null;
   competitionName: string | null;
   countryName: string | null;
+  activeInCurrentWindow: boolean;
+  fixtureAppearancesInCurrentWindow: number;
 }): TeamSourceRegistryEntry {
   const teamSlug = slugify(params.teamName);
   const competitionSlug = slugify(params.competitionName);
@@ -154,8 +256,8 @@ function createRegistryEntry(params: {
     countryName: params.countryName,
     competitionId: params.competitionId,
     competitionName: params.competitionName,
-    activeInCurrentWindow: true,
-    fixtureAppearancesInCurrentWindow: 1,
+    activeInCurrentWindow: params.activeInCurrentWindow,
+    fixtureAppearancesInCurrentWindow: params.fixtureAppearancesInCurrentWindow,
     firstSeenReferenceDate: params.referenceDate,
     lastSeenReferenceDate: params.referenceDate,
     sources: {
@@ -198,12 +300,84 @@ function seedDefaultSourceHints(entry: TeamSourceRegistryEntry, fixture: MatchFi
   }
 }
 
-function buildTeamKey(teamId: string | null, teamName: string): string {
+function seedDefaultSourceHintsFromStandings(
+  entry: TeamSourceRegistryEntry,
+  standings: CompetitionStandingsSnapshot,
+): void {
+  if (!entry.sources.fotmob.teamSlug) {
+    entry.sources.fotmob.teamSlug = slugify(entry.teamName) || null;
+  }
+  if (!entry.sources.fotmob.competitionId) {
+    entry.sources.fotmob.competitionId = standings.competitionId;
+  }
+  if (!entry.sources.fotmob.competitionSlug) {
+    entry.sources.fotmob.competitionSlug = slugify(standings.competitionName) || null;
+  }
+  if (!entry.sources.soccerRating.teamSlug) {
+    entry.sources.soccerRating.teamSlug = slugify(entry.teamName) || null;
+  }
+  if (!entry.sources.soccerRating.countrySlug) {
+    entry.sources.soccerRating.countrySlug = slugify(standings.countryName) || null;
+  }
+}
+
+function buildTeamKey(
+  teamId: string | null,
+  teamName: string,
+  competitionId: string | null,
+): string {
   if (teamId) {
     return `id:${teamId}`;
   }
 
-  return `name:${normalizeToken(teamName)}`;
+  return `name:${competitionId ?? ""}:${normalizeToken(teamName)}`;
+}
+
+function findSeededEntryWithoutTeamId(
+  entryMap: Map<string, TeamSourceRegistryEntry>,
+  competitionId: string | null,
+  teamName: string,
+): { key: string; entry: TeamSourceRegistryEntry } | null {
+  const candidates = Array.from(entryMap.entries())
+    .filter(([, entry]) => !entry.sofascoreTeamId && entry.competitionId === competitionId)
+    .map(([key, entry]) => ({
+      candidate: { key, entry },
+      name: entry.teamName,
+    }));
+
+  const bestMatch = findBestTeamNameMatch(teamName, candidates);
+  return bestMatch?.candidate ?? null;
+}
+
+function findEntryByCompetitionAndName(
+  entryMap: Map<string, TeamSourceRegistryEntry>,
+  competitionId: string | null,
+  teamName: string,
+): { key: string; entry: TeamSourceRegistryEntry } | null {
+  const candidates = Array.from(entryMap.entries())
+    .filter(([, entry]) => entry.competitionId === competitionId)
+    .map(([key, entry]) => ({
+      candidate: { key, entry },
+      name: entry.teamName,
+    }));
+
+  const bestMatch = findBestTeamNameMatch(teamName, candidates);
+  return bestMatch?.candidate ?? null;
+}
+
+function extractTeamNamesFromStandings(snapshot: CompetitionStandingsSnapshot): string[] {
+  const teams = new Set<string>();
+
+  for (const table of snapshot.tables ?? []) {
+    for (const row of table.rows ?? []) {
+      const teamName = String(row.teamName ?? "").trim();
+      if (teamName) {
+        teams.add(teamName);
+      }
+    }
+  }
+
+  return Array.from(teams);
 }
 
 function compareRegistryEntries(left: TeamSourceRegistryEntry, right: TeamSourceRegistryEntry): number {
@@ -249,6 +423,32 @@ async function readJsonOptional<T>(filePath: string): Promise<T | null> {
   } catch {
     return null;
   }
+}
+
+async function readStandingsSnapshots(
+  standingsDir: string,
+): Promise<Map<string, CompetitionStandingsSnapshot>> {
+  const map = new Map<string, CompetitionStandingsSnapshot>();
+
+  try {
+    const files = await readdir(standingsDir);
+
+    for (const fileName of files) {
+      if (!fileName.endsWith(".json")) {
+        continue;
+      }
+
+      const filePath = path.join(standingsDir, fileName);
+      const snapshot = await readJsonOptional<CompetitionStandingsSnapshot>(filePath);
+      if (snapshot?.competitionId) {
+        map.set(snapshot.competitionId, snapshot);
+      }
+    }
+  } catch {
+    return map;
+  }
+
+  return map;
 }
 
 function toProjectRelativePath(repoRoot: string, filePath: string): string {

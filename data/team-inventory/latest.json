@@ -1,16 +1,16 @@
 {
   "source": "whitelist-plus-standings",
-  "generatedAtUtc": "2026-08-11T14:58:51.914Z",
+  "generatedAtUtc": "2026-08-11T15:28:16.846Z",
   "referenceDate": "2026-08-09",
   "registryPath": "data/team-source-registry.json",
   "standingsDir": "data/fixtures/standings",
   "summary": {
-    "competitions": 36,
-    "competitionsWithStandings": 12,
-    "competitionsWithoutStandings": 24,
-    "teams": 217,
-    "matchedRegistryTeams": 216,
-    "missingRegistryTeams": 1
+    "competitions": 42,
+    "competitionsWithStandings": 15,
+    "competitionsWithoutStandings": 27,
+    "teams": 277,
+    "matchedRegistryTeams": 277,
+    "missingRegistryTeams": 0
   },
   "competitions": [
     {
@@ -247,14 +247,14 @@
           "inventoryTeamName": "Estudiantes Río Cuarto",
           "source": "standings",
           "matchedRegistry": true,
-          "matchMethod": "normalized_name",
-          "sofascoreTeamId": "266694",
-          "registryTeamName": "Estudiantes Río Cuarto",
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "3206",
+          "registryTeamName": "Estudiantes",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10094",
+              "url": "https://www.fotmob.com/teams/10094/stats/estudiantes/teams"
             },
             "soccerRating": {
               "status": "pending",
@@ -408,8 +408,8 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": "3212",
-          "registryTeamName": "Newell's Old Boys",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Newell´s Old Boys",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -1044,8 +1044,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/247.json",
       "teamCount": 14,
-      "matchedRegistryTeams": 13,
-      "missingRegistryTeams": 1,
+      "matchedRegistryTeams": 14,
+      "missingRegistryTeams": 0,
       "teams": [
         {
           "inventoryTeamName": "Arda Kardzhali",
@@ -1124,6 +1124,26 @@
               "status": "mapped",
               "sourceTeamId": "644",
               "url": "https://www.soccer-rating.com/Cherno-More-Varna/644/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "CSKA 1948",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "252080",
+          "registryTeamName": "CSKA 1948 Sofia",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "13235",
+              "url": "https://www.soccer-rating.com/CSKA-1948-Sofia/13235/"
             }
           }
         },
@@ -1302,26 +1322,6 @@
             },
             "soccerRating": {
               "status": "pending",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "CSKA 1948",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
               "sourceTeamId": null,
               "url": null
             }
@@ -1531,6 +1531,790 @@
               "status": "mapped",
               "sourceTeamId": "1581",
               "url": "https://www.fotmob.com/teams/1581/stats/slaven/teams"
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "competitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "countryName": "Germany",
+      "hasStandingsSnapshot": true,
+      "standingsPath": "data/fixtures/standings/44.json",
+      "teamCount": 18,
+      "matchedRegistryTeams": 18,
+      "missingRegistryTeams": 0,
+      "teams": [
+        {
+          "inventoryTeamName": "1. FC Heidenheim 1846",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "1. FC Heidenheim 1846",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "1. FC Magdeburg",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "1. FC Magdeburg",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Arminia Bielefeld",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Arminia Bielefeld",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Darmstadt 98",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Darmstadt 98",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Dynamo Dresden",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Dynamo Dresden",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Eintracht Braunschweig",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Eintracht Braunschweig",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Energie Cottbus",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Energie Cottbus",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "FC Nürnberg",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "FC Nürnberg",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "FC St. Pauli",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "FC St. Pauli",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Hannover 96",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Hannover 96",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Hertha BSC",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Hertha BSC",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Holstein Kiel",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Holstein Kiel",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Kaiserslautern",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Kaiserslautern",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Karlsruher SC",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Karlsruher SC",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "SpVgg Greuther Fürth",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "SpVgg Greuther Fürth",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "VfL Bochum",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "VfL Bochum",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "VfL Osnabrück",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "VfL Osnabrück",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Wolfsburg",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Wolfsburg",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "competitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "countryName": "Netherlands",
+      "hasStandingsSnapshot": true,
+      "standingsPath": "data/fixtures/standings/131.json",
+      "teamCount": 20,
+      "matchedRegistryTeams": 20,
+      "missingRegistryTeams": 0,
+      "teams": [
+        {
+          "inventoryTeamName": "Ajax B",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Ajax B",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Almere City FC",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Almere City FC",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "AZ Alkmaar B",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "AZ Alkmaar B",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "De Graafschap",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "De Graafschap",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Den Bosch",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Den Bosch",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "FC Dordrecht",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "FC Dordrecht",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "FC Eindhoven",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "FC Eindhoven",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "FC Emmen",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "FC Emmen",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "FC Utrecht B",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "FC Utrecht B",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "FC Volendam",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "FC Volendam",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Helmond Sport",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Helmond Sport",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Heracles Almelo",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Heracles Almelo",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "MVV",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "MVV",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "NAC Breda",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "NAC Breda",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "PSV B",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "PSV B",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "RKC Waalwijk",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "RKC Waalwijk",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Roda",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Roda",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "TOP Oss",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "TOP Oss",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Vitesse",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Vitesse",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "VVV-Venlo",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "VVV-Venlo",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
             },
             "soccerRating": {
               "status": "pending",
@@ -2983,9 +3767,9 @@
           "inventoryTeamName": "Akron Togliatti",
           "source": "standings",
           "matchedRegistry": true,
-          "matchMethod": "normalized_name",
+          "matchMethod": "heuristic_name",
           "sofascoreTeamId": "285689",
-          "registryTeamName": "Akron Togliatti",
+          "registryTeamName": "Akron",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -3003,9 +3787,9 @@
           "inventoryTeamName": "Baltika Kaliningrad",
           "source": "standings",
           "matchedRegistry": true,
-          "matchMethod": "normalized_name",
+          "matchMethod": "heuristic_name",
           "sofascoreTeamId": "7517",
-          "registryTeamName": "Baltika Kaliningrad",
+          "registryTeamName": "Baltika",
           "sources": {
             "fotmob": {
               "status": "mapped",
@@ -3025,7 +3809,7 @@
           "matchedRegistry": true,
           "matchMethod": "heuristic_name",
           "sofascoreTeamId": "2325",
-          "registryTeamName": "CSKA Moscow",
+          "registryTeamName": "CSKA",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -3065,7 +3849,7 @@
           "matchedRegistry": true,
           "matchMethod": "heuristic_name",
           "sofascoreTeamId": "2315",
-          "registryTeamName": "Dynamo Moscow",
+          "registryTeamName": "Dynamo",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -3083,9 +3867,9 @@
           "inventoryTeamName": "Fakel Voronezh",
           "source": "standings",
           "matchedRegistry": true,
-          "matchMethod": "normalized_name",
+          "matchMethod": "heuristic_name",
           "sofascoreTeamId": "2317",
-          "registryTeamName": "Fakel Voronezh",
+          "registryTeamName": "Fakel",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -3223,9 +4007,9 @@
           "inventoryTeamName": "Rubin Kazan",
           "source": "standings",
           "matchedRegistry": true,
-          "matchMethod": "normalized_name",
+          "matchMethod": "heuristic_name",
           "sofascoreTeamId": "2333",
-          "registryTeamName": "Rubin Kazan",
+          "registryTeamName": "Rubin",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -3315,9 +4099,9 @@
           "inventoryTeamName": "Dukla",
           "source": "standings",
           "matchedRegistry": true,
-          "matchMethod": "heuristic_name",
-          "sofascoreTeamId": "4503",
-          "registryTeamName": "Dukla Banská Bystrica",
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Dukla",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -3325,9 +4109,9 @@
               "url": null
             },
             "soccerRating": {
-              "status": "mapped",
-              "sourceTeamId": "160",
-              "url": "https://www.soccer-rating.com/Dukla-Banska-Bystrica/160/"
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
             }
           }
         },
@@ -3475,9 +4259,9 @@
           "inventoryTeamName": "Slovan Bratislava",
           "source": "standings",
           "matchedRegistry": true,
-          "matchMethod": "normalized_name",
+          "matchMethod": "heuristic_name",
           "sofascoreTeamId": "2404",
-          "registryTeamName": "Slovan Bratislava",
+          "registryTeamName": "Slovan",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -3746,6 +4530,458 @@
       ]
     },
     {
+      "competitionId": "54",
+      "competitionName": "LaLiga 2",
+      "countryName": "Spain",
+      "hasStandingsSnapshot": true,
+      "standingsPath": "data/fixtures/standings/54.json",
+      "teamCount": 22,
+      "matchedRegistryTeams": 22,
+      "missingRegistryTeams": 0,
+      "teams": [
+        {
+          "inventoryTeamName": "AD Ceuta",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "AD Ceuta",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Albacete",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Albacete",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Almería",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Almería",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Burgos CF",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Burgos CF",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Cádiz",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Cádiz",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Castellón",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Castellón",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "CE Sabadell",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "CE Sabadell",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Celta de Vigo B",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Celta de Vigo B",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Córdoba",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Córdoba",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Eibar",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Eibar",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Eldense",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Eldense",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "FC Andorra",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "FC Andorra",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Girona",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Girona",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Granada",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Granada",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Las Palmas",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Las Palmas",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Leganés",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Leganés",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Mallorca",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Mallorca",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Real Oviedo",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Real Oviedo",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Real Sociedad B",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Real Sociedad B",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Sporting Gijón",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Sporting Gijón",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Tenerife",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Tenerife",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Valladolid",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Valladolid",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        }
+      ]
+    },
+    {
       "competitionId": "218",
       "competitionName": "Premier League",
       "countryName": "Ukraine",
@@ -3821,7 +5057,7 @@
           "matchedRegistry": true,
           "matchMethod": "heuristic_name",
           "sofascoreTeamId": "323552",
-          "registryTeamName": "Epicentr Dunaivtsi",
+          "registryTeamName": "Epicentr",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -3899,9 +5135,9 @@
           "inventoryTeamName": "Kolos Kovalivka",
           "source": "standings",
           "matchedRegistry": true,
-          "matchMethod": "normalized_name",
+          "matchMethod": "heuristic_name",
           "sofascoreTeamId": "200776",
-          "registryTeamName": "Kolos Kovalivka",
+          "registryTeamName": "Kolos",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -3981,7 +5217,7 @@
           "matchedRegistry": true,
           "matchMethod": "heuristic_name",
           "sofascoreTeamId": "266889",
-          "registryTeamName": "Metalist Kharkiv",
+          "registryTeamName": "FC Kharkiv",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -4061,7 +5297,7 @@
           "matchedRegistry": true,
           "matchMethod": "heuristic_name",
           "sofascoreTeamId": "312677",
-          "registryTeamName": "Zorya Lugansk",
+          "registryTeamName": "Zoria",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -4143,6 +5379,17 @@
       "teams": []
     },
     {
+      "competitionId": "18",
+      "competitionName": "Championship",
+      "countryName": "England",
+      "hasStandingsSnapshot": false,
+      "standingsPath": null,
+      "teamCount": 0,
+      "matchedRegistryTeams": 0,
+      "missingRegistryTeams": 0,
+      "teams": []
+    },
+    {
       "competitionId": "17",
       "competitionName": "Premier League",
       "countryName": "England",
@@ -4209,6 +5456,17 @@
       "teams": []
     },
     {
+      "competitionId": "182",
+      "competitionName": "Ligue 2",
+      "countryName": "France",
+      "hasStandingsSnapshot": false,
+      "standingsPath": null,
+      "teamCount": 0,
+      "matchedRegistryTeams": 0,
+      "missingRegistryTeams": 0,
+      "teams": []
+    },
+    {
       "competitionId": "35",
       "competitionName": "Bundesliga",
       "countryName": "Germany",
@@ -4231,7 +5489,7 @@
       "teams": []
     },
     {
-      "competitionId": "53",
+      "competitionId": "187",
       "competitionName": "NB I",
       "countryName": "Hungary",
       "hasStandingsSnapshot": false,
@@ -4255,6 +5513,17 @@
     {
       "competitionId": "23",
       "competitionName": "Serie A",
+      "countryName": "Italy",
+      "hasStandingsSnapshot": false,
+      "standingsPath": null,
+      "teamCount": 0,
+      "matchedRegistryTeams": 0,
+      "missingRegistryTeams": 0,
+      "teams": []
+    },
+    {
+      "competitionId": "53",
+      "competitionName": "Serie B",
       "countryName": "Italy",
       "hasStandingsSnapshot": false,
       "standingsPath": null,

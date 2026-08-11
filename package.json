@@ -20,6 +20,7 @@
     "parse:fotmob-team-stats": "node --import tsx src/manual/parse-fotmob-team-stats.ts",
     "parse:soccer-rating-team-context": "node --import tsx src/manual/parse-soccer-rating-team-context.ts",
     "publish:fixtures-data": "node scripts/publish-fixtures-data.mjs",
+    "refresh:competition-standings": "node --import tsx src/manual/refresh-competition-standings.ts",
     "refresh:fixtures-local": "node scripts/refresh-fixtures-local.mjs",
     "report:team-coverage": "node --import tsx src/manual/report-team-coverage.ts",
     "report:team-inventory": "node --import tsx src/manual/report-team-inventory.ts",

@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 
 import {
   findCompetitionStandingsSource,
+  listCompetitionStandingsSources,
 } from "../src/config/competition-standings-sources.js";
 
 test("findCompetitionStandingsSource matches qualification aliases for UEFA competitions", () => {
@@ -72,4 +73,15 @@ test("findCompetitionStandingsSource resolves Portugal lower divisions", () => {
   );
   assert.equal(leagueThreeSource?.zerozeroUrl, "https://www.zerozero.pt/competicao/liga-3");
   assert.ok(leagueThreeSource?.phaseRules?.some((rule) => rule.ruleProfileId === "group-stage"));
+});
+
+test("listCompetitionStandingsSources filters explicit competition ids for manual refresh", () => {
+  const sources = listCompetitionStandingsSources({
+    competitionIds: new Set(["18", "54", "53", "44", "182", "131"]),
+  });
+
+  assert.deepEqual(
+    sources.map((source) => source.competitionId),
+    ["131", "18", "182", "44", "53", "54"],
+  );
 });
