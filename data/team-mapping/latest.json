@@ -1,20 +1,20 @@
 {
   "source": "team-source-registry",
-  "generatedAtUtc": "2026-08-11T19:19:25.890Z",
+  "generatedAtUtc": "2026-08-11T19:33:46.398Z",
   "referenceDate": "2026-08-09",
   "registryPath": "data/team-source-registry.json",
   "summary": {
     "competitions": 43,
     "whitelistCompetitions": 42,
-    "competitionsWithRegistryEntries": 20,
-    "competitionsWithoutRegistryEntries": 23,
-    "teams": 320,
+    "competitionsWithRegistryEntries": 21,
+    "competitionsWithoutRegistryEntries": 22,
+    "teams": 338,
     "activeTeams": 178,
-    "complete": 320,
+    "complete": 338,
     "partial": 0,
     "missing": 0,
-    "fotmobMapped": 320,
-    "soccerRatingMapped": 320
+    "fotmobMapped": 338,
+    "soccerRatingMapped": 338
   },
   "competitions": [
     {
@@ -3378,6 +3378,492 @@
               "teamSlug": "vfl-wolfsburg",
               "url": "https://www.soccer-rating.com/VfL-Wolfsburg/157/",
               "notes": "Soccer-Rating usa VfL Wolfsburg."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        }
+      ]
+    },
+    {
+      "competitionId": "35",
+      "competitionName": "Bundesliga",
+      "countryName": "Germany",
+      "seededFromWhitelist": true,
+      "hasRegistryEntries": true,
+      "teamCount": 18,
+      "activeTeams": 0,
+      "coverage": {
+        "complete": 18,
+        "partial": 0,
+        "missing": 0,
+        "fotmobMapped": 18,
+        "soccerRatingMapped": 18
+      },
+      "teams": [
+        {
+          "sofascoreTeamId": "2600",
+          "teamName": "Augsburg",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8406",
+              "teamSlug": "augsburg",
+              "url": "https://www.fotmob.com/teams/8406/stats/augsburg/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "660",
+              "teamSlug": "fc-augsburg",
+              "url": "https://www.soccer-rating.com/FC-Augsburg/660/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2681",
+          "teamName": "Bayer Leverkusen",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8178",
+              "teamSlug": "bayer-leverkusen",
+              "url": "https://www.fotmob.com/teams/8178/stats/bayer-leverkusen/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "145",
+              "teamSlug": "bayer-leverkusen",
+              "url": "https://www.soccer-rating.com/Bayer-Leverkusen/145/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2672",
+          "teamName": "Bayern",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9823",
+              "teamSlug": "bayern-munchen",
+              "url": "https://www.fotmob.com/teams/9823/stats/bayern-munchen/teams",
+              "notes": "FotMob usa Bayern München."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "151",
+              "teamSlug": "fc-bayern-muenchen",
+              "url": "https://www.soccer-rating.com/FC-Bayern-Muenchen/151/",
+              "notes": "Soccer-Rating usa FC Bayern München."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2534",
+          "teamName": "Bremen",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8697",
+              "teamSlug": "werder-bremen",
+              "url": "https://www.fotmob.com/teams/8697/stats/werder-bremen/teams",
+              "notes": "FotMob usa Werder Bremen."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "156",
+              "teamSlug": "werder-bremen",
+              "url": "https://www.soccer-rating.com/Werder-Bremen/156/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2673",
+          "teamName": "Dortmund",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9789",
+              "teamSlug": "borussia-dortmund",
+              "url": "https://www.fotmob.com/teams/9789/stats/borussia-dortmund/teams",
+              "notes": "FotMob usa Borussia Dortmund."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "147",
+              "teamSlug": "borussia-dortmund",
+              "url": "https://www.soccer-rating.com/Borussia-Dortmund/147/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2598",
+          "teamName": "Elversberg",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8232",
+              "teamSlug": "elversberg",
+              "url": "https://www.fotmob.com/teams/8232/stats/elversberg/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "996",
+              "teamSlug": "sv-elversberg-07",
+              "url": "https://www.soccer-rating.com/SV-Elversberg-07/996/",
+              "notes": "Soccer-Rating usa SV Elversberg 07."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2674",
+          "teamName": "Frankfurt",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9810",
+              "teamSlug": "eintracht-frankfurt",
+              "url": "https://www.fotmob.com/teams/9810/stats/eintracht-frankfurt/teams",
+              "notes": "FotMob usa Eintracht Frankfurt."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "149",
+              "teamSlug": "eintracht-frankfurt",
+              "url": "https://www.soccer-rating.com/Eintracht-Frankfurt/149/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2538",
+          "teamName": "Freiburg",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8358",
+              "teamSlug": "freiburg",
+              "url": "https://www.fotmob.com/teams/8358/stats/freiburg/teams",
+              "notes": "FotMob usa Freiburg."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "669",
+              "teamSlug": "sc-freiburg",
+              "url": "https://www.soccer-rating.com/SC-Freiburg/669/",
+              "notes": "Soccer-Rating usa SC Freiburg."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2569",
+          "teamName": "Hoffenheim",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8226",
+              "teamSlug": "hoffenheim",
+              "url": "https://www.fotmob.com/teams/8226/stats/hoffenheim/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "654",
+              "teamSlug": "1899-hoffenheim",
+              "url": "https://www.soccer-rating.com/1899-Hoffenheim/654/",
+              "notes": "Soccer-Rating usa 1899 Hoffenheim."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2676",
+          "teamName": "HSV",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9790",
+              "teamSlug": "hamburger-sv",
+              "url": "https://www.fotmob.com/teams/9790/stats/hamburger-sv/teams",
+              "notes": "FotMob usa Hamburger SV."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "154",
+              "teamSlug": "hamburger-sv",
+              "url": "https://www.soccer-rating.com/Hamburger-SV/154/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2671",
+          "teamName": "Köln",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8722",
+              "teamSlug": "1-fc-koln",
+              "url": "https://www.fotmob.com/teams/8722/stats/1-fc-koln/teams",
+              "notes": "FotMob usa 1. FC Köln."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "663",
+              "teamSlug": "1-fc-koeln",
+              "url": "https://www.soccer-rating.com/1-FC-Koeln/663/",
+              "notes": "Soccer-Rating usa 1. FC Köln."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "36360",
+          "teamName": "Leipzig",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "178475",
+              "teamSlug": "rb-leipzig",
+              "url": "https://www.fotmob.com/teams/178475/stats/rb-leipzig/teams",
+              "notes": "FotMob usa RB Leipzig."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "2005",
+              "teamSlug": "rb-leipzig",
+              "url": "https://www.soccer-rating.com/RB-Leipzig/2005/",
+              "notes": "Soccer-Rating usa RB Leipzig."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2527",
+          "teamName": "M'gladbach",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9788",
+              "teamSlug": "borussia-monchengladbach",
+              "url": "https://www.fotmob.com/teams/9788/stats/borussia-monchengladbach/teams",
+              "notes": "FotMob usa Borussia Mönchengladbach."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "653",
+              "teamSlug": "moenchengladbach",
+              "url": "https://www.soccer-rating.com/Moenchengladbach/653/",
+              "notes": "Soccer-Rating usa Mönchengladbach."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2556",
+          "teamName": "Mainz 05",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9905",
+              "teamSlug": "mainz-05",
+              "url": "https://www.fotmob.com/teams/9905/stats/mainz-05/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "664",
+              "teamSlug": "fsv-mainz-05",
+              "url": "https://www.soccer-rating.com/FSV-Mainz-05/664/",
+              "notes": "Soccer-Rating usa FSV Mainz 05."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2561",
+          "teamName": "Paderborn",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8460",
+              "teamSlug": "paderborn",
+              "url": "https://www.fotmob.com/teams/8460/stats/paderborn/teams",
+              "notes": "FotMob usa Paderborn."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "666",
+              "teamSlug": "sc-paderborn-07",
+              "url": "https://www.soccer-rating.com/SC-Paderborn-07/666/",
+              "notes": "Soccer-Rating usa SC Paderborn 07."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2530",
+          "teamName": "Schalke",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10189",
+              "teamSlug": "schalke-04",
+              "url": "https://www.fotmob.com/teams/10189/stats/schalke-04/teams",
+              "notes": "FotMob usa Schalke 04."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "142",
+              "teamSlug": "fc-schalke-04",
+              "url": "https://www.soccer-rating.com/FC-Schalke-04/142/",
+              "notes": "Soccer-Rating usa FC Schalke 04."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2677",
+          "teamName": "Stuttgart",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10269",
+              "teamSlug": "vfb-stuttgart",
+              "url": "https://www.fotmob.com/teams/10269/stats/vfb-stuttgart/teams",
+              "notes": "FotMob usa VfB Stuttgart."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "141",
+              "teamSlug": "vfb-stuttgart",
+              "url": "https://www.soccer-rating.com/VfB-Stuttgart/141/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2547",
+          "teamName": "Union Berlin",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8149",
+              "teamSlug": "union-berlin",
+              "url": "https://www.fotmob.com/teams/8149/stats/union-berlin/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "772",
+              "teamSlug": "1-fc-union-berlin",
+              "url": "https://www.soccer-rating.com/1-FC-Union-Berlin/772/",
+              "notes": "Soccer-Rating usa 1. FC Union Berlin."
             }
           },
           "mappingState": "complete",
@@ -8837,23 +9323,6 @@
       "competitionId": "182",
       "competitionName": "Ligue 2",
       "countryName": "France",
-      "seededFromWhitelist": true,
-      "hasRegistryEntries": false,
-      "teamCount": 0,
-      "activeTeams": 0,
-      "coverage": {
-        "complete": 0,
-        "partial": 0,
-        "missing": 0,
-        "fotmobMapped": 0,
-        "soccerRatingMapped": 0
-      },
-      "teams": []
-    },
-    {
-      "competitionId": "35",
-      "competitionName": "Bundesliga",
-      "countryName": "Germany",
       "seededFromWhitelist": true,
       "hasRegistryEntries": false,
       "teamCount": 0,

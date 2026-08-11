@@ -1,6 +1,6 @@
 {
   "source": "whitelist-plus-standings",
-  "generatedAtUtc": "2026-08-11T19:19:16.846Z",
+  "generatedAtUtc": "2026-08-11T19:33:46.445Z",
   "referenceDate": "2026-08-09",
   "registryPath": "data/team-source-registry.json",
   "standingsDir": "data/fixtures/standings",
@@ -8,9 +8,9 @@
     "competitions": 42,
     "competitionsWithStandings": 15,
     "competitionsWithoutStandings": 27,
-    "teams": 307,
-    "matchedRegistryTeams": 306,
-    "missingRegistryTeams": 1
+    "teams": 325,
+    "matchedRegistryTeams": 325,
+    "missingRegistryTeams": 0
   },
   "competitions": [
     {
@@ -4072,8 +4072,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/211.json",
       "teamCount": 12,
-      "matchedRegistryTeams": 11,
-      "missingRegistryTeams": 1,
+      "matchedRegistryTeams": 12,
+      "missingRegistryTeams": 0,
       "teams": [
         {
           "inventoryTeamName": "AS Trencin",
@@ -4092,6 +4092,26 @@
               "status": "mapped",
               "sourceTeamId": "166",
               "url": "https://www.soccer-rating.com/AS-Trencin/166/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Dukla",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "4503",
+          "registryTeamName": "Banská Bystrica",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "2169",
+              "url": "https://www.fotmob.com/teams/2169/stats/dukla-banska-bystrica/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "160",
+              "url": "https://www.soccer-rating.com/Dukla-Banska-Bystrica/160/"
             }
           }
         },
@@ -4292,26 +4312,6 @@
               "status": "mapped",
               "sourceTeamId": "756",
               "url": "https://www.soccer-rating.com/MFK-Zemplin-Michalovce/756/"
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Dukla",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
             }
           }
         }
@@ -6074,10 +6074,371 @@
       "countryName": "Germany",
       "hasStandingsSnapshot": false,
       "standingsPath": null,
-      "teamCount": 0,
-      "matchedRegistryTeams": 0,
+      "teamCount": 18,
+      "matchedRegistryTeams": 18,
       "missingRegistryTeams": 0,
-      "teams": []
+      "teams": [
+        {
+          "inventoryTeamName": "Augsburg",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2600",
+          "registryTeamName": "Augsburg",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8406",
+              "url": "https://www.fotmob.com/teams/8406/stats/augsburg/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "660",
+              "url": "https://www.soccer-rating.com/FC-Augsburg/660/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Bayer Leverkusen",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2681",
+          "registryTeamName": "Bayer Leverkusen",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8178",
+              "url": "https://www.fotmob.com/teams/8178/stats/bayer-leverkusen/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "145",
+              "url": "https://www.soccer-rating.com/Bayer-Leverkusen/145/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Bayern",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2672",
+          "registryTeamName": "Bayern",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9823",
+              "url": "https://www.fotmob.com/teams/9823/stats/bayern-munchen/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "151",
+              "url": "https://www.soccer-rating.com/FC-Bayern-Muenchen/151/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Bremen",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2534",
+          "registryTeamName": "Bremen",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8697",
+              "url": "https://www.fotmob.com/teams/8697/stats/werder-bremen/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "156",
+              "url": "https://www.soccer-rating.com/Werder-Bremen/156/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Dortmund",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2673",
+          "registryTeamName": "Dortmund",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9789",
+              "url": "https://www.fotmob.com/teams/9789/stats/borussia-dortmund/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "147",
+              "url": "https://www.soccer-rating.com/Borussia-Dortmund/147/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Elversberg",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2598",
+          "registryTeamName": "Elversberg",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8232",
+              "url": "https://www.fotmob.com/teams/8232/stats/elversberg/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "996",
+              "url": "https://www.soccer-rating.com/SV-Elversberg-07/996/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Frankfurt",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2674",
+          "registryTeamName": "Frankfurt",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9810",
+              "url": "https://www.fotmob.com/teams/9810/stats/eintracht-frankfurt/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "149",
+              "url": "https://www.soccer-rating.com/Eintracht-Frankfurt/149/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Freiburg",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2538",
+          "registryTeamName": "Freiburg",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8358",
+              "url": "https://www.fotmob.com/teams/8358/stats/freiburg/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "669",
+              "url": "https://www.soccer-rating.com/SC-Freiburg/669/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Hoffenheim",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2569",
+          "registryTeamName": "Hoffenheim",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8226",
+              "url": "https://www.fotmob.com/teams/8226/stats/hoffenheim/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "654",
+              "url": "https://www.soccer-rating.com/1899-Hoffenheim/654/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "HSV",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2676",
+          "registryTeamName": "HSV",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9790",
+              "url": "https://www.fotmob.com/teams/9790/stats/hamburger-sv/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "154",
+              "url": "https://www.soccer-rating.com/Hamburger-SV/154/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Köln",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2671",
+          "registryTeamName": "Köln",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8722",
+              "url": "https://www.fotmob.com/teams/8722/stats/1-fc-koln/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "663",
+              "url": "https://www.soccer-rating.com/1-FC-Koeln/663/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Leipzig",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "36360",
+          "registryTeamName": "Leipzig",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "178475",
+              "url": "https://www.fotmob.com/teams/178475/stats/rb-leipzig/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "2005",
+              "url": "https://www.soccer-rating.com/RB-Leipzig/2005/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "M'gladbach",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2527",
+          "registryTeamName": "M'gladbach",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9788",
+              "url": "https://www.fotmob.com/teams/9788/stats/borussia-monchengladbach/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "653",
+              "url": "https://www.soccer-rating.com/Moenchengladbach/653/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Mainz 05",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2556",
+          "registryTeamName": "Mainz 05",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9905",
+              "url": "https://www.fotmob.com/teams/9905/stats/mainz-05/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "664",
+              "url": "https://www.soccer-rating.com/FSV-Mainz-05/664/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Paderborn",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2561",
+          "registryTeamName": "Paderborn",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8460",
+              "url": "https://www.fotmob.com/teams/8460/stats/paderborn/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "666",
+              "url": "https://www.soccer-rating.com/SC-Paderborn-07/666/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Schalke",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2530",
+          "registryTeamName": "Schalke",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10189",
+              "url": "https://www.fotmob.com/teams/10189/stats/schalke-04/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "142",
+              "url": "https://www.soccer-rating.com/FC-Schalke-04/142/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Stuttgart",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2677",
+          "registryTeamName": "Stuttgart",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10269",
+              "url": "https://www.fotmob.com/teams/10269/stats/vfb-stuttgart/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "141",
+              "url": "https://www.soccer-rating.com/VfB-Stuttgart/141/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Union Berlin",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2547",
+          "registryTeamName": "Union Berlin",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8149",
+              "url": "https://www.fotmob.com/teams/8149/stats/union-berlin/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "772",
+              "url": "https://www.soccer-rating.com/1-FC-Union-Berlin/772/"
+            }
+          }
+        }
+      ]
     },
     {
       "competitionId": "185",

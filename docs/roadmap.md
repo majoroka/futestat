@@ -145,6 +145,7 @@ Regra operacional:
 - `Croácia | HNL`
 - `Chéquia | Chance Liga`
 - `Áustria | Bundesliga`
+- `Alemanha | Bundesliga`
 - `Bélgica | Pro League`
 - `Alemanha | 2. Bundesliga`
 - `Noruega | Eliteserien`
@@ -163,7 +164,6 @@ Regra operacional:
 - `Ucrânia | Premier League`
 
 #### Em curso
-- `Alemanha | Bundesliga`
 - `Dinamarca | Superliga`
 
 #### Por semear ou mapear

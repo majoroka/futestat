@@ -17,6 +17,10 @@ import {
   type TeamNameMatchMethod,
 } from "../../lib/team-name-matcher.js";
 
+const INVENTORY_NAME_ALIASES_BY_COMPETITION = new Map<string, string[]>([
+  ["211:dukla", ["Banská Bystrica"]],
+]);
+
 export interface GenerateTeamInventoryReportOptions {
   registryPath?: string;
   standingsDir?: string;
@@ -180,6 +184,23 @@ function findRegistryEntry(
     return null;
   }
 
+  const aliasCandidates = INVENTORY_NAME_ALIASES_BY_COMPETITION.get(
+    `${competitionId}:${normalizeAliasKey(inventoryTeamName)}`,
+  );
+  if (aliasCandidates?.length) {
+    const aliasedEntry = registry.entries.find(
+      (entry) =>
+        entry.competitionId === competitionId && aliasCandidates.includes(entry.teamName),
+    );
+
+    if (aliasedEntry) {
+      return {
+        entry: aliasedEntry,
+        matchMethod: "heuristic_name",
+      };
+    }
+  }
+
   const bestMatch = findBestTeamNameMatch(
     inventoryTeamName,
     registry.entries
@@ -198,6 +219,16 @@ function findRegistryEntry(
   }
 
   return null;
+}
+
+function normalizeAliasKey(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9]+/g, " ")
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, " ");
 }
 
 function extractTeamNamesFromStandings(snapshot: CompetitionStandingsSnapshot): string[] {
