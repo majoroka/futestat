@@ -147,6 +147,7 @@ Regra operacional:
 - `Áustria | Bundesliga`
 - `Alemanha | Bundesliga`
 - `Bélgica | Pro League`
+- `Dinamarca | Superliga`
 - `Alemanha | 2. Bundesliga`
 - `Noruega | Eliteserien`
 - `Países Baixos | Eerste Divisie`
@@ -164,7 +165,6 @@ Regra operacional:
 - `Ucrânia | Premier League`
 
 #### Em curso
-- `Dinamarca | Superliga`
 
 #### Por semear ou mapear
 

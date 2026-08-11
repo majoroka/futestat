@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-08-11T19:33:40.368Z",
+  "generatedAtUtc": "2026-08-11T19:41:21.999Z",
   "referenceDate": "2026-08-09",
   "snapshotPath": "data/fixtures/latest.json",
   "entries": [
@@ -3180,6 +3180,366 @@
           "countrySlug": "czech-republic",
           "url": "https://www.soccer-rating.com/FK-Dukla-Praha/1366/",
           "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1291",
+      "teamName": "AGF",
+      "countryName": "Denmark",
+      "competitionId": "39",
+      "competitionName": "Superliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8071",
+          "teamSlug": "agf",
+          "competitionId": "46",
+          "competitionSlug": "superligaen",
+          "url": "https://www.fotmob.com/teams/8071/overview/agf",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "265",
+          "teamSlug": "aarhus-gf",
+          "countrySlug": "denmark",
+          "url": "https://www.soccer-rating.com/Aarhus-GF/265/",
+          "notes": "Soccer-Rating usa Aarhus GF."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1281",
+      "teamName": "Brøndby",
+      "countryName": "Denmark",
+      "competitionId": "39",
+      "competitionName": "Superliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8595",
+          "teamSlug": "broendby-if",
+          "competitionId": "46",
+          "competitionSlug": "superligaen",
+          "url": "https://www.fotmob.com/teams/8595/overview/broendby-if",
+          "notes": "FotMob usa Brøndby IF."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "268",
+          "teamSlug": "broendby-if",
+          "countrySlug": "denmark",
+          "url": "https://www.soccer-rating.com/Broendby-IF/268/",
+          "notes": "Soccer-Rating usa Bröndby IF."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1297",
+      "teamName": "Horsens",
+      "countryName": "Denmark",
+      "competitionId": "39",
+      "competitionName": "Superliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9814",
+          "teamSlug": "ac-horsens",
+          "competitionId": "46",
+          "competitionSlug": "superligaen",
+          "url": "https://www.fotmob.com/teams/9814/overview/ac-horsens",
+          "notes": "FotMob usa AC Horsens."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "266",
+          "teamSlug": "ac-horsens",
+          "countrySlug": "denmark",
+          "url": "https://www.soccer-rating.com/AC-Horsens/266/",
+          "notes": "Soccer-Rating usa AC Horsens."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1284",
+      "teamName": "København",
+      "countryName": "Denmark",
+      "competitionId": "39",
+      "competitionName": "Superliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8391",
+          "teamSlug": "fc-kobenhavn",
+          "competitionId": "46",
+          "competitionSlug": "superligaen",
+          "url": "https://www.fotmob.com/teams/8391/overview/fc-kobenhavn",
+          "notes": "FotMob usa FC København."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "270",
+          "teamSlug": "fc-copenhagen",
+          "countrySlug": "denmark",
+          "url": "https://www.soccer-rating.com/FC-Copenhagen/270/",
+          "notes": "Soccer-Rating usa FC Copenhagen."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1756",
+      "teamName": "Lyngby",
+      "countryName": "Denmark",
+      "competitionId": "39",
+      "competitionName": "Superliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9907",
+          "teamSlug": "lyngby-bk",
+          "competitionId": "46",
+          "competitionSlug": "superligaen",
+          "url": "https://www.fotmob.com/teams/9907/overview/lyngby-bk",
+          "notes": "FotMob usa Lyngby BK."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1162",
+          "teamSlug": "lyngby-bk",
+          "countrySlug": "denmark",
+          "url": "https://www.soccer-rating.com/Lyngby-BK/1162/",
+          "notes": "Soccer-Rating usa Lyngby BK."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1289",
+      "teamName": "Midtjylland",
+      "countryName": "Denmark",
+      "competitionId": "39",
+      "competitionName": "Superliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8113",
+          "teamSlug": "fc-midtjylland",
+          "competitionId": "46",
+          "competitionSlug": "superligaen",
+          "url": "https://www.fotmob.com/teams/8113/stats/overview/teams",
+          "notes": "FotMob usa FC Midtjylland."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "508",
+          "teamSlug": "fc-midtjylland",
+          "countrySlug": "denmark",
+          "url": "https://www.soccer-rating.com/FC-Midtjylland/508/",
+          "notes": "Soccer-Rating usa FC Midtjylland."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1292",
+      "teamName": "Nordsjælland",
+      "countryName": "Denmark",
+      "competitionId": "39",
+      "competitionName": "Superliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10202",
+          "teamSlug": "nordsjaelland",
+          "competitionId": "46",
+          "competitionSlug": "superligaen",
+          "url": "https://www.fotmob.com/teams/10202/overview/nordsjaelland",
+          "notes": "FotMob usa Nordsjælland."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "269",
+          "teamSlug": "fc-nordsjaelland",
+          "countrySlug": "denmark",
+          "url": "https://www.soccer-rating.com/FC-Nordsjaelland/269/",
+          "notes": "Soccer-Rating usa FC Nordsjälland."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1286",
+      "teamName": "OB",
+      "countryName": "Denmark",
+      "competitionId": "39",
+      "competitionName": "Superliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8414",
+          "teamSlug": "ob",
+          "competitionId": "46",
+          "competitionSlug": "superligaen",
+          "url": "https://www.fotmob.com/teams/8414/overview/ob",
+          "notes": "FotMob usa OB (Odense Boldklub)."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "499",
+          "teamSlug": "odense-bk",
+          "countrySlug": "denmark",
+          "url": "https://www.soccer-rating.com/Odense-BK/499/",
+          "notes": "Soccer-Rating usa Odense BK."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1301",
+      "teamName": "Randers",
+      "countryName": "Denmark",
+      "competitionId": "39",
+      "competitionName": "Superliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8410",
+          "teamSlug": "randers-fc",
+          "competitionId": "46",
+          "competitionSlug": "superligaen",
+          "url": "https://www.fotmob.com/teams/8410/overview/randers-fc",
+          "notes": "FotMob usa Randers FC."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "271",
+          "teamSlug": "randers-fc",
+          "countrySlug": "denmark",
+          "url": "https://www.soccer-rating.com/Randers-FC/271/",
+          "notes": "Soccer-Rating usa Randers FC."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1285",
+      "teamName": "Silkeborg",
+      "countryName": "Denmark",
+      "competitionId": "39",
+      "competitionName": "Superliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8415",
+          "teamSlug": "silkeborg-if",
+          "competitionId": "46",
+          "competitionSlug": "superligaen",
+          "url": "https://www.fotmob.com/teams/8415/overview/silkeborg-if",
+          "notes": "FotMob usa Silkeborg IF."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1734",
+          "teamSlug": "silkeborg-if",
+          "countrySlug": "denmark",
+          "url": "https://www.soccer-rating.com/Silkeborg-IF/1734/",
+          "notes": "Soccer-Rating usa Silkeborg IF."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1295",
+      "teamName": "Sønderjyske",
+      "countryName": "Denmark",
+      "competitionId": "39",
+      "competitionName": "Superliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8487",
+          "teamSlug": "sonderjyske",
+          "competitionId": "46",
+          "competitionSlug": "superligaen",
+          "url": "https://www.fotmob.com/teams/8487/overview/sonderjyske",
+          "notes": "FotMob usa Sønderjyske."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1733",
+          "teamSlug": "soenderjyske",
+          "countrySlug": "denmark",
+          "url": "https://www.soccer-rating.com/SoenderjyskE/1733/",
+          "notes": "Soccer-Rating usa SönderjyskE."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1288",
+      "teamName": "Viborg",
+      "countryName": "Denmark",
+      "competitionId": "39",
+      "competitionName": "Superliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-09",
+      "lastSeenReferenceDate": "2026-08-09",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9939",
+          "teamSlug": "viborg",
+          "competitionId": "46",
+          "competitionSlug": "superligaen",
+          "url": "https://www.fotmob.com/teams/9939/overview/viborg",
+          "notes": "FotMob usa Viborg."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "272",
+          "teamSlug": "viborg-ff",
+          "countrySlug": "denmark",
+          "url": "https://www.soccer-rating.com/Viborg-FF/272/",
+          "notes": "Soccer-Rating usa Viborg FF."
         }
       }
     },

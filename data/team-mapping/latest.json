@@ -1,20 +1,20 @@
 {
   "source": "team-source-registry",
-  "generatedAtUtc": "2026-08-11T19:33:46.398Z",
+  "generatedAtUtc": "2026-08-11T19:41:29.970Z",
   "referenceDate": "2026-08-09",
   "registryPath": "data/team-source-registry.json",
   "summary": {
     "competitions": 43,
     "whitelistCompetitions": 42,
-    "competitionsWithRegistryEntries": 21,
-    "competitionsWithoutRegistryEntries": 22,
-    "teams": 338,
+    "competitionsWithRegistryEntries": 22,
+    "competitionsWithoutRegistryEntries": 21,
+    "teams": 350,
     "activeTeams": 178,
-    "complete": 338,
+    "complete": 350,
     "partial": 0,
     "missing": 0,
-    "fotmobMapped": 338,
-    "soccerRatingMapped": 338
+    "fotmobMapped": 350,
+    "soccerRatingMapped": 350
   },
   "competitions": [
     {
@@ -2892,6 +2892,336 @@
               "teamSlug": "fk-dukla-praha",
               "url": "https://www.soccer-rating.com/FK-Dukla-Praha/1366/",
               "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        }
+      ]
+    },
+    {
+      "competitionId": "39",
+      "competitionName": "Superliga",
+      "countryName": "Denmark",
+      "seededFromWhitelist": true,
+      "hasRegistryEntries": true,
+      "teamCount": 12,
+      "activeTeams": 0,
+      "coverage": {
+        "complete": 12,
+        "partial": 0,
+        "missing": 0,
+        "fotmobMapped": 12,
+        "soccerRatingMapped": 12
+      },
+      "teams": [
+        {
+          "sofascoreTeamId": "1291",
+          "teamName": "AGF",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-09",
+          "lastSeenReferenceDate": "2026-08-09",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8071",
+              "teamSlug": "agf",
+              "url": "https://www.fotmob.com/teams/8071/overview/agf",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "265",
+              "teamSlug": "aarhus-gf",
+              "url": "https://www.soccer-rating.com/Aarhus-GF/265/",
+              "notes": "Soccer-Rating usa Aarhus GF."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "1281",
+          "teamName": "Brøndby",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-09",
+          "lastSeenReferenceDate": "2026-08-09",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8595",
+              "teamSlug": "broendby-if",
+              "url": "https://www.fotmob.com/teams/8595/overview/broendby-if",
+              "notes": "FotMob usa Brøndby IF."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "268",
+              "teamSlug": "broendby-if",
+              "url": "https://www.soccer-rating.com/Broendby-IF/268/",
+              "notes": "Soccer-Rating usa Bröndby IF."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "1297",
+          "teamName": "Horsens",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-09",
+          "lastSeenReferenceDate": "2026-08-09",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9814",
+              "teamSlug": "ac-horsens",
+              "url": "https://www.fotmob.com/teams/9814/overview/ac-horsens",
+              "notes": "FotMob usa AC Horsens."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "266",
+              "teamSlug": "ac-horsens",
+              "url": "https://www.soccer-rating.com/AC-Horsens/266/",
+              "notes": "Soccer-Rating usa AC Horsens."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "1284",
+          "teamName": "København",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-09",
+          "lastSeenReferenceDate": "2026-08-09",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8391",
+              "teamSlug": "fc-kobenhavn",
+              "url": "https://www.fotmob.com/teams/8391/overview/fc-kobenhavn",
+              "notes": "FotMob usa FC København."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "270",
+              "teamSlug": "fc-copenhagen",
+              "url": "https://www.soccer-rating.com/FC-Copenhagen/270/",
+              "notes": "Soccer-Rating usa FC Copenhagen."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "1756",
+          "teamName": "Lyngby",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-09",
+          "lastSeenReferenceDate": "2026-08-09",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9907",
+              "teamSlug": "lyngby-bk",
+              "url": "https://www.fotmob.com/teams/9907/overview/lyngby-bk",
+              "notes": "FotMob usa Lyngby BK."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1162",
+              "teamSlug": "lyngby-bk",
+              "url": "https://www.soccer-rating.com/Lyngby-BK/1162/",
+              "notes": "Soccer-Rating usa Lyngby BK."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "1289",
+          "teamName": "Midtjylland",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-09",
+          "lastSeenReferenceDate": "2026-08-09",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8113",
+              "teamSlug": "fc-midtjylland",
+              "url": "https://www.fotmob.com/teams/8113/stats/overview/teams",
+              "notes": "FotMob usa FC Midtjylland."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "508",
+              "teamSlug": "fc-midtjylland",
+              "url": "https://www.soccer-rating.com/FC-Midtjylland/508/",
+              "notes": "Soccer-Rating usa FC Midtjylland."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "1292",
+          "teamName": "Nordsjælland",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-09",
+          "lastSeenReferenceDate": "2026-08-09",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10202",
+              "teamSlug": "nordsjaelland",
+              "url": "https://www.fotmob.com/teams/10202/overview/nordsjaelland",
+              "notes": "FotMob usa Nordsjælland."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "269",
+              "teamSlug": "fc-nordsjaelland",
+              "url": "https://www.soccer-rating.com/FC-Nordsjaelland/269/",
+              "notes": "Soccer-Rating usa FC Nordsjälland."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "1286",
+          "teamName": "OB",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-09",
+          "lastSeenReferenceDate": "2026-08-09",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8414",
+              "teamSlug": "ob",
+              "url": "https://www.fotmob.com/teams/8414/overview/ob",
+              "notes": "FotMob usa OB (Odense Boldklub)."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "499",
+              "teamSlug": "odense-bk",
+              "url": "https://www.soccer-rating.com/Odense-BK/499/",
+              "notes": "Soccer-Rating usa Odense BK."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "1301",
+          "teamName": "Randers",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-09",
+          "lastSeenReferenceDate": "2026-08-09",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8410",
+              "teamSlug": "randers-fc",
+              "url": "https://www.fotmob.com/teams/8410/overview/randers-fc",
+              "notes": "FotMob usa Randers FC."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "271",
+              "teamSlug": "randers-fc",
+              "url": "https://www.soccer-rating.com/Randers-FC/271/",
+              "notes": "Soccer-Rating usa Randers FC."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "1285",
+          "teamName": "Silkeborg",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-09",
+          "lastSeenReferenceDate": "2026-08-09",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8415",
+              "teamSlug": "silkeborg-if",
+              "url": "https://www.fotmob.com/teams/8415/overview/silkeborg-if",
+              "notes": "FotMob usa Silkeborg IF."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1734",
+              "teamSlug": "silkeborg-if",
+              "url": "https://www.soccer-rating.com/Silkeborg-IF/1734/",
+              "notes": "Soccer-Rating usa Silkeborg IF."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "1295",
+          "teamName": "Sønderjyske",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-09",
+          "lastSeenReferenceDate": "2026-08-09",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8487",
+              "teamSlug": "sonderjyske",
+              "url": "https://www.fotmob.com/teams/8487/overview/sonderjyske",
+              "notes": "FotMob usa Sønderjyske."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1733",
+              "teamSlug": "soenderjyske",
+              "url": "https://www.soccer-rating.com/SoenderjyskE/1733/",
+              "notes": "Soccer-Rating usa SönderjyskE."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "1288",
+          "teamName": "Viborg",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-09",
+          "lastSeenReferenceDate": "2026-08-09",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9939",
+              "teamSlug": "viborg",
+              "url": "https://www.fotmob.com/teams/9939/overview/viborg",
+              "notes": "FotMob usa Viborg."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "272",
+              "teamSlug": "viborg-ff",
+              "url": "https://www.soccer-rating.com/Viborg-FF/272/",
+              "notes": "Soccer-Rating usa Viborg FF."
             }
           },
           "mappingState": "complete",
@@ -9182,23 +9512,6 @@
           "recommendedNextSteps": []
         }
       ]
-    },
-    {
-      "competitionId": "39",
-      "competitionName": "Superliga",
-      "countryName": "Denmark",
-      "seededFromWhitelist": true,
-      "hasRegistryEntries": false,
-      "teamCount": 0,
-      "activeTeams": 0,
-      "coverage": {
-        "complete": 0,
-        "partial": 0,
-        "missing": 0,
-        "fotmobMapped": 0,
-        "soccerRatingMapped": 0
-      },
-      "teams": []
     },
     {
       "competitionId": "18",

@@ -1,6 +1,6 @@
 {
   "source": "whitelist-plus-standings",
-  "generatedAtUtc": "2026-08-11T19:33:46.445Z",
+  "generatedAtUtc": "2026-08-11T19:41:29.985Z",
   "referenceDate": "2026-08-09",
   "registryPath": "data/team-source-registry.json",
   "standingsDir": "data/fixtures/standings",
@@ -8,8 +8,8 @@
     "competitions": 42,
     "competitionsWithStandings": 15,
     "competitionsWithoutStandings": 27,
-    "teams": 325,
-    "matchedRegistryTeams": 325,
+    "teams": 337,
+    "matchedRegistryTeams": 337,
     "missingRegistryTeams": 0
   },
   "competitions": [
@@ -5975,10 +5975,251 @@
       "countryName": "Denmark",
       "hasStandingsSnapshot": false,
       "standingsPath": null,
-      "teamCount": 0,
-      "matchedRegistryTeams": 0,
+      "teamCount": 12,
+      "matchedRegistryTeams": 12,
       "missingRegistryTeams": 0,
-      "teams": []
+      "teams": [
+        {
+          "inventoryTeamName": "AGF",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1291",
+          "registryTeamName": "AGF",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8071",
+              "url": "https://www.fotmob.com/teams/8071/overview/agf"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "265",
+              "url": "https://www.soccer-rating.com/Aarhus-GF/265/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Brøndby",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1281",
+          "registryTeamName": "Brøndby",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8595",
+              "url": "https://www.fotmob.com/teams/8595/overview/broendby-if"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "268",
+              "url": "https://www.soccer-rating.com/Broendby-IF/268/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Horsens",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1297",
+          "registryTeamName": "Horsens",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9814",
+              "url": "https://www.fotmob.com/teams/9814/overview/ac-horsens"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "266",
+              "url": "https://www.soccer-rating.com/AC-Horsens/266/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "København",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1284",
+          "registryTeamName": "København",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8391",
+              "url": "https://www.fotmob.com/teams/8391/overview/fc-kobenhavn"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "270",
+              "url": "https://www.soccer-rating.com/FC-Copenhagen/270/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Lyngby",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1756",
+          "registryTeamName": "Lyngby",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9907",
+              "url": "https://www.fotmob.com/teams/9907/overview/lyngby-bk"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1162",
+              "url": "https://www.soccer-rating.com/Lyngby-BK/1162/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Midtjylland",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1289",
+          "registryTeamName": "Midtjylland",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8113",
+              "url": "https://www.fotmob.com/teams/8113/stats/overview/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "508",
+              "url": "https://www.soccer-rating.com/FC-Midtjylland/508/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Nordsjælland",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1292",
+          "registryTeamName": "Nordsjælland",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10202",
+              "url": "https://www.fotmob.com/teams/10202/overview/nordsjaelland"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "269",
+              "url": "https://www.soccer-rating.com/FC-Nordsjaelland/269/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "OB",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1286",
+          "registryTeamName": "OB",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8414",
+              "url": "https://www.fotmob.com/teams/8414/overview/ob"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "499",
+              "url": "https://www.soccer-rating.com/Odense-BK/499/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Randers",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1301",
+          "registryTeamName": "Randers",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8410",
+              "url": "https://www.fotmob.com/teams/8410/overview/randers-fc"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "271",
+              "url": "https://www.soccer-rating.com/Randers-FC/271/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Silkeborg",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1285",
+          "registryTeamName": "Silkeborg",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8415",
+              "url": "https://www.fotmob.com/teams/8415/overview/silkeborg-if"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1734",
+              "url": "https://www.soccer-rating.com/Silkeborg-IF/1734/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Sønderjyske",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1295",
+          "registryTeamName": "Sønderjyske",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8487",
+              "url": "https://www.fotmob.com/teams/8487/overview/sonderjyske"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1733",
+              "url": "https://www.soccer-rating.com/SoenderjyskE/1733/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Viborg",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1288",
+          "registryTeamName": "Viborg",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9939",
+              "url": "https://www.fotmob.com/teams/9939/overview/viborg"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "272",
+              "url": "https://www.soccer-rating.com/Viborg-FF/272/"
+            }
+          }
+        }
+      ]
     },
     {
       "competitionId": "18",
