@@ -1084,6 +1084,546 @@
       }
     },
     {
+      "sofascoreTeamId": "4860",
+      "teamName": "USG",
+      "countryName": "Belgium",
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "7978",
+          "teamSlug": "union-stgilloise",
+          "competitionId": "38",
+          "competitionSlug": "pro-league",
+          "url": "https://www.fotmob.com/teams/7978/stats/union-stgilloise/teams",
+          "notes": "FotMob usa Union St.Gilloise; Soccer-Rating usa Union Saint-Gilloise."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1508",
+          "teamSlug": "union-saint-gilloise",
+          "countrySlug": "belgium",
+          "url": "https://www.soccer-rating.com/Union-Saint-Gilloise/1508/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2888",
+      "teamName": "Club Brugge",
+      "countryName": "Belgium",
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8342",
+          "teamSlug": "club-brugge",
+          "competitionId": "38",
+          "competitionSlug": "pro-league",
+          "url": "https://www.fotmob.com/teams/8342/stats/club-brugge/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "905",
+          "teamSlug": "fc-bruegge",
+          "countrySlug": "belgium",
+          "url": "https://www.soccer-rating.com/FC-Bruegge/905/",
+          "notes": "Soccer-Rating usa FC Brügge."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2898",
+      "teamName": "Charleroi",
+      "countryName": "Belgium",
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9986",
+          "teamSlug": "sporting-charleroi",
+          "competitionId": "38",
+          "competitionSlug": "pro-league",
+          "url": "https://www.fotmob.com/teams/9986/stats/sporting-charleroi/teams",
+          "notes": "FotMob usa Sporting Charleroi."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "917",
+          "teamSlug": "sc-charleroi",
+          "countrySlug": "belgium",
+          "url": "https://www.soccer-rating.com/SC-Charleroi/917/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2903",
+      "teamName": "Gent",
+      "countryName": "Belgium",
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9991",
+          "teamSlug": "gent",
+          "competitionId": "38",
+          "competitionSlug": "pro-league",
+          "url": "https://www.fotmob.com/teams/9991/stats/gent/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "641",
+          "teamSlug": "kaa-gent",
+          "countrySlug": "belgium",
+          "url": "https://www.soccer-rating.com/KAA-Gent/641/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2889",
+      "teamName": "Royal Antwerp",
+      "countryName": "Belgium",
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9988",
+          "teamSlug": "royal-antwerp",
+          "competitionId": "38",
+          "competitionSlug": "pro-league",
+          "url": "https://www.fotmob.com/teams/9988/stats/royal-antwerp/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1518",
+          "teamSlug": "royal-antwerp",
+          "countrySlug": "belgium",
+          "url": "https://www.soccer-rating.com/Royal-Antwerp/1518/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2900",
+      "teamName": "Anderlecht",
+      "countryName": "Belgium",
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8635",
+          "teamSlug": "anderlecht",
+          "competitionId": "38",
+          "competitionSlug": "pro-league",
+          "url": "https://www.fotmob.com/teams/8635/stats/anderlecht/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "914",
+          "teamSlug": "rsc-anderlecht",
+          "countrySlug": "belgium",
+          "url": "https://www.soccer-rating.com/RSC-Anderlecht/914/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2933",
+      "teamName": "Zulte Waregem",
+      "countryName": "Belgium",
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10000",
+          "teamSlug": "zulte-waregem",
+          "competitionId": "38",
+          "competitionSlug": "pro-league",
+          "url": "https://www.fotmob.com/teams/10000/stats/zulte-waregem/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "919",
+          "teamSlug": "sv-zulte-waregem",
+          "countrySlug": "belgium",
+          "url": "https://www.soccer-rating.com/SV-Zulte-Waregem/919/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2929",
+      "teamName": "Cercle Brugge",
+      "countryName": "Belgium",
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9984",
+          "teamSlug": "cercle-brugge",
+          "competitionId": "38",
+          "competitionSlug": "pro-league",
+          "url": "https://www.fotmob.com/teams/9984/stats/cercle-brugge/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "916",
+          "teamSlug": "cercle-bruegge",
+          "countrySlug": "belgium",
+          "url": "https://www.soccer-rating.com/Cercle-Bruegge/916/",
+          "notes": "Soccer-Rating usa Cercle Brügge."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2901",
+      "teamName": "Standard Liège",
+      "countryName": "Belgium",
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9985",
+          "teamSlug": "standard-liege",
+          "competitionId": "38",
+          "competitionSlug": "pro-league",
+          "url": "https://www.fotmob.com/teams/9985/stats/standard-liege/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "920",
+          "teamSlug": "standard-liege",
+          "countrySlug": "belgium",
+          "url": "https://www.soccer-rating.com/Standard-Liege/920/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "5046",
+      "teamName": "Lommel",
+      "countryName": "Belgium",
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "6702",
+          "teamSlug": "lommel",
+          "competitionId": "38",
+          "competitionSlug": "pro-league",
+          "url": "https://www.fotmob.com/teams/6702/stats/lommel/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1509",
+          "teamSlug": "lommel-sk",
+          "countrySlug": "belgium",
+          "url": "https://www.soccer-rating.com/Lommel-SK/1509/",
+          "notes": "Soccer-Rating usa Lommel SK."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2895",
+      "teamName": "St. Truidense",
+      "countryName": "Belgium",
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9997",
+          "teamSlug": "sttruiden",
+          "competitionId": "38",
+          "competitionSlug": "pro-league",
+          "url": "https://www.fotmob.com/teams/9997/stats/sttruiden/teams",
+          "notes": "FotMob usa St.Truiden."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "912",
+          "teamSlug": "vv-st-truiden",
+          "countrySlug": "belgium",
+          "url": "https://www.soccer-rating.com/VV-St-Truiden/912/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2890",
+      "teamName": "Genk",
+      "countryName": "Belgium",
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9987",
+          "teamSlug": "genk",
+          "competitionId": "38",
+          "competitionSlug": "pro-league",
+          "url": "https://www.fotmob.com/teams/9987/stats/genk/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "915",
+          "teamSlug": "krc-genk",
+          "countrySlug": "belgium",
+          "url": "https://www.soccer-rating.com/KRC-Genk/915/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "4859",
+      "teamName": "Beveren",
+      "countryName": "Belgium",
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8475",
+          "teamSlug": "sk-beveren",
+          "competitionId": "38",
+          "competitionSlug": "pro-league",
+          "url": "https://www.fotmob.com/teams/8475/stats/sk-beveren/teams",
+          "notes": "FotMob usa SK Beveren."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1519",
+          "teamSlug": "sk-beveren",
+          "countrySlug": "belgium",
+          "url": "https://www.soccer-rating.com/SK-Beveren/1519/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "368506",
+      "teamName": "La Louvière",
+      "countryName": "Belgium",
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "1218969",
+          "teamSlug": "raal-la-louviere",
+          "competitionId": "38",
+          "competitionSlug": "pro-league",
+          "url": "https://www.fotmob.com/teams/1218969/stats/raal-la-louviere/teams",
+          "notes": "FotMob usa RAAL La Louviere."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "16440",
+          "teamSlug": "raal-la-louviere",
+          "countrySlug": "belgium",
+          "url": "https://www.soccer-rating.com/Raal-La-Louviere/16440/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2918",
+      "teamName": "OH Leuven",
+      "countryName": "Belgium",
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "1773",
+          "teamSlug": "oh-leuven",
+          "competitionId": "38",
+          "competitionSlug": "pro-league",
+          "url": "https://www.fotmob.com/teams/1773/stats/oh-leuven/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1520",
+          "teamSlug": "oud-heverlee-leuven",
+          "countrySlug": "belgium",
+          "url": "https://www.soccer-rating.com/Oud-Heverlee-Leuven/1520/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "5044",
+      "teamName": "Mechelen",
+      "countryName": "Belgium",
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8203",
+          "teamSlug": "kv-mechelen",
+          "competitionId": "38",
+          "competitionSlug": "pro-league",
+          "url": "https://www.fotmob.com/teams/8203/stats/kv-mechelen/teams",
+          "notes": "FotMob usa KV Mechelen."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "913",
+          "teamSlug": "kv-mechelen",
+          "countrySlug": "belgium",
+          "url": "https://www.soccer-rating.com/KV-Mechelen/913/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "4858",
+      "teamName": "Kortrijk",
+      "countryName": "Belgium",
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8571",
+          "teamSlug": "kortrijk",
+          "competitionId": "38",
+          "competitionSlug": "pro-league",
+          "url": "https://www.fotmob.com/teams/8571/stats/kortrijk/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1507",
+          "teamSlug": "kv-kortrijk",
+          "countrySlug": "belgium",
+          "url": "https://www.soccer-rating.com/KV-Kortrijk/1507/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2893",
+      "teamName": "Westerlo",
+      "countryName": "Belgium",
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10001",
+          "teamSlug": "westerlo",
+          "competitionId": "38",
+          "competitionSlug": "pro-league",
+          "url": "https://www.fotmob.com/teams/10001/stats/westerlo/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "908",
+          "teamSlug": "kvc-westerlo",
+          "countrySlug": "belgium",
+          "url": "https://www.soccer-rating.com/KVC-Westerlo/908/",
+          "notes": null
+        }
+      }
+    },
+    {
       "sofascoreTeamId": "1967",
       "teamName": "Athletico",
       "countryName": "Brazil",

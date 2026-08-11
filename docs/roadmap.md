@@ -128,6 +128,7 @@ Pendências desta subfase:
 - garantir cobertura por competição para além da janela atual de fixtures
 - introduzir semeadura do inventário com classificações e páginas de competição
 - reduzir aliases ambíguos antes de ampliar capturas
+- depois de fechar toda a whitelist em `FotMob` e `Soccer-Rating`, avaliar uma camada explícita de mapeamento `Zerozero` por equipa, separada do mapeamento por competição já usado nas classificações
 
 ### Ligas alvo para fecho do mapeamento
 
@@ -144,6 +145,7 @@ Regra operacional:
 - `Croácia | HNL`
 - `Chéquia | Chance Liga`
 - `Áustria | Bundesliga`
+- `Bélgica | Pro League`
 - `Alemanha | 2. Bundesliga`
 - `Noruega | Eliteserien`
 - `Países Baixos | Eerste Divisie`
@@ -162,7 +164,6 @@ Regra operacional:
 
 #### Em curso
 - `Alemanha | Bundesliga`
-- `Bélgica | Pro League`
 - `Dinamarca | Superliga`
 
 #### Por semear ou mapear

@@ -1,20 +1,20 @@
 {
   "source": "team-source-registry",
-  "generatedAtUtc": "2026-08-11T19:06:52.866Z",
+  "generatedAtUtc": "2026-08-11T19:19:25.890Z",
   "referenceDate": "2026-08-09",
   "registryPath": "data/team-source-registry.json",
   "summary": {
     "competitions": 43,
     "whitelistCompetitions": 42,
-    "competitionsWithRegistryEntries": 19,
-    "competitionsWithoutRegistryEntries": 24,
-    "teams": 302,
+    "competitionsWithRegistryEntries": 20,
+    "competitionsWithoutRegistryEntries": 23,
+    "teams": 320,
     "activeTeams": 178,
-    "complete": 302,
+    "complete": 320,
     "partial": 0,
     "missing": 0,
-    "fotmobMapped": 302,
-    "soccerRatingMapped": 302
+    "fotmobMapped": 320,
+    "soccerRatingMapped": 320
   },
   "competitions": [
     {
@@ -1163,6 +1163,492 @@
               "sourceTeamId": "1340",
               "teamSlug": "wolfsberger-ac",
               "url": "https://www.soccer-rating.com/Wolfsberger-AC/1340/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        }
+      ]
+    },
+    {
+      "competitionId": "38",
+      "competitionName": "Pro League",
+      "countryName": "Belgium",
+      "seededFromWhitelist": true,
+      "hasRegistryEntries": true,
+      "teamCount": 18,
+      "activeTeams": 0,
+      "coverage": {
+        "complete": 18,
+        "partial": 0,
+        "missing": 0,
+        "fotmobMapped": 18,
+        "soccerRatingMapped": 18
+      },
+      "teams": [
+        {
+          "sofascoreTeamId": "2900",
+          "teamName": "Anderlecht",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8635",
+              "teamSlug": "anderlecht",
+              "url": "https://www.fotmob.com/teams/8635/stats/anderlecht/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "914",
+              "teamSlug": "rsc-anderlecht",
+              "url": "https://www.soccer-rating.com/RSC-Anderlecht/914/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "4859",
+          "teamName": "Beveren",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8475",
+              "teamSlug": "sk-beveren",
+              "url": "https://www.fotmob.com/teams/8475/stats/sk-beveren/teams",
+              "notes": "FotMob usa SK Beveren."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1519",
+              "teamSlug": "sk-beveren",
+              "url": "https://www.soccer-rating.com/SK-Beveren/1519/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2929",
+          "teamName": "Cercle Brugge",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9984",
+              "teamSlug": "cercle-brugge",
+              "url": "https://www.fotmob.com/teams/9984/stats/cercle-brugge/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "916",
+              "teamSlug": "cercle-bruegge",
+              "url": "https://www.soccer-rating.com/Cercle-Bruegge/916/",
+              "notes": "Soccer-Rating usa Cercle Brügge."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2898",
+          "teamName": "Charleroi",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9986",
+              "teamSlug": "sporting-charleroi",
+              "url": "https://www.fotmob.com/teams/9986/stats/sporting-charleroi/teams",
+              "notes": "FotMob usa Sporting Charleroi."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "917",
+              "teamSlug": "sc-charleroi",
+              "url": "https://www.soccer-rating.com/SC-Charleroi/917/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2888",
+          "teamName": "Club Brugge",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8342",
+              "teamSlug": "club-brugge",
+              "url": "https://www.fotmob.com/teams/8342/stats/club-brugge/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "905",
+              "teamSlug": "fc-bruegge",
+              "url": "https://www.soccer-rating.com/FC-Bruegge/905/",
+              "notes": "Soccer-Rating usa FC Brügge."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2890",
+          "teamName": "Genk",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9987",
+              "teamSlug": "genk",
+              "url": "https://www.fotmob.com/teams/9987/stats/genk/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "915",
+              "teamSlug": "krc-genk",
+              "url": "https://www.soccer-rating.com/KRC-Genk/915/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2903",
+          "teamName": "Gent",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9991",
+              "teamSlug": "gent",
+              "url": "https://www.fotmob.com/teams/9991/stats/gent/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "641",
+              "teamSlug": "kaa-gent",
+              "url": "https://www.soccer-rating.com/KAA-Gent/641/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "4858",
+          "teamName": "Kortrijk",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8571",
+              "teamSlug": "kortrijk",
+              "url": "https://www.fotmob.com/teams/8571/stats/kortrijk/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1507",
+              "teamSlug": "kv-kortrijk",
+              "url": "https://www.soccer-rating.com/KV-Kortrijk/1507/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "368506",
+          "teamName": "La Louvière",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1218969",
+              "teamSlug": "raal-la-louviere",
+              "url": "https://www.fotmob.com/teams/1218969/stats/raal-la-louviere/teams",
+              "notes": "FotMob usa RAAL La Louviere."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "16440",
+              "teamSlug": "raal-la-louviere",
+              "url": "https://www.soccer-rating.com/Raal-La-Louviere/16440/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "5046",
+          "teamName": "Lommel",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6702",
+              "teamSlug": "lommel",
+              "url": "https://www.fotmob.com/teams/6702/stats/lommel/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1509",
+              "teamSlug": "lommel-sk",
+              "url": "https://www.soccer-rating.com/Lommel-SK/1509/",
+              "notes": "Soccer-Rating usa Lommel SK."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "5044",
+          "teamName": "Mechelen",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8203",
+              "teamSlug": "kv-mechelen",
+              "url": "https://www.fotmob.com/teams/8203/stats/kv-mechelen/teams",
+              "notes": "FotMob usa KV Mechelen."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "913",
+              "teamSlug": "kv-mechelen",
+              "url": "https://www.soccer-rating.com/KV-Mechelen/913/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2918",
+          "teamName": "OH Leuven",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1773",
+              "teamSlug": "oh-leuven",
+              "url": "https://www.fotmob.com/teams/1773/stats/oh-leuven/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1520",
+              "teamSlug": "oud-heverlee-leuven",
+              "url": "https://www.soccer-rating.com/Oud-Heverlee-Leuven/1520/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2889",
+          "teamName": "Royal Antwerp",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9988",
+              "teamSlug": "royal-antwerp",
+              "url": "https://www.fotmob.com/teams/9988/stats/royal-antwerp/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1518",
+              "teamSlug": "royal-antwerp",
+              "url": "https://www.soccer-rating.com/Royal-Antwerp/1518/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2895",
+          "teamName": "St. Truidense",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9997",
+              "teamSlug": "sttruiden",
+              "url": "https://www.fotmob.com/teams/9997/stats/sttruiden/teams",
+              "notes": "FotMob usa St.Truiden."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "912",
+              "teamSlug": "vv-st-truiden",
+              "url": "https://www.soccer-rating.com/VV-St-Truiden/912/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2901",
+          "teamName": "Standard Liège",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9985",
+              "teamSlug": "standard-liege",
+              "url": "https://www.fotmob.com/teams/9985/stats/standard-liege/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "920",
+              "teamSlug": "standard-liege",
+              "url": "https://www.soccer-rating.com/Standard-Liege/920/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "4860",
+          "teamName": "USG",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "7978",
+              "teamSlug": "union-stgilloise",
+              "url": "https://www.fotmob.com/teams/7978/stats/union-stgilloise/teams",
+              "notes": "FotMob usa Union St.Gilloise; Soccer-Rating usa Union Saint-Gilloise."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1508",
+              "teamSlug": "union-saint-gilloise",
+              "url": "https://www.soccer-rating.com/Union-Saint-Gilloise/1508/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2893",
+          "teamName": "Westerlo",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10001",
+              "teamSlug": "westerlo",
+              "url": "https://www.fotmob.com/teams/10001/stats/westerlo/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "908",
+              "teamSlug": "kvc-westerlo",
+              "url": "https://www.soccer-rating.com/KVC-Westerlo/908/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2933",
+          "teamName": "Zulte Waregem",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10000",
+              "teamSlug": "zulte-waregem",
+              "url": "https://www.fotmob.com/teams/10000/stats/zulte-waregem/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "919",
+              "teamSlug": "sv-zulte-waregem",
+              "url": "https://www.soccer-rating.com/SV-Zulte-Waregem/919/",
               "notes": null
             }
           },
@@ -8210,23 +8696,6 @@
           "recommendedNextSteps": []
         }
       ]
-    },
-    {
-      "competitionId": "40",
-      "competitionName": "Pro League",
-      "countryName": "Belgium",
-      "seededFromWhitelist": true,
-      "hasRegistryEntries": false,
-      "teamCount": 0,
-      "activeTeams": 0,
-      "coverage": {
-        "complete": 0,
-        "partial": 0,
-        "missing": 0,
-        "fotmobMapped": 0,
-        "soccerRatingMapped": 0
-      },
-      "teams": []
     },
     {
       "competitionId": "39",

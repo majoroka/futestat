@@ -57,7 +57,7 @@ export const DEFAULT_ALLOWED_COMPETITIONS: AllowedCompetition[] = [
     competitionId: "131",
     competitionAliases: ["Keuken Kampioen Divisie"],
   },
-  { countryName: "Belgium", competitionName: "Pro League", competitionId: "40" },
+  { countryName: "Belgium", competitionName: "Pro League", competitionId: "38" },
   { countryName: "Scotland", competitionName: "Premiership", competitionId: "36" },
   { countryName: "Turkey", competitionName: "Super Lig", competitionId: "52" },
   { countryName: "Austria", competitionName: "Bundesliga", competitionId: "45" },

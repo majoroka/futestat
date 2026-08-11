@@ -1,6 +1,6 @@
 {
   "source": "whitelist-plus-standings",
-  "generatedAtUtc": "2026-08-11T15:28:16.846Z",
+  "generatedAtUtc": "2026-08-11T19:19:16.846Z",
   "referenceDate": "2026-08-09",
   "registryPath": "data/team-source-registry.json",
   "standingsDir": "data/fixtures/standings",
@@ -8,9 +8,9 @@
     "competitions": 42,
     "competitionsWithStandings": 15,
     "competitionsWithoutStandings": 27,
-    "teams": 277,
-    "matchedRegistryTeams": 277,
-    "missingRegistryTeams": 0
+    "teams": 307,
+    "matchedRegistryTeams": 306,
+    "missingRegistryTeams": 1
   },
   "competitions": [
     {
@@ -37,9 +37,9 @@
               "url": "https://www.fotmob.com/teams/161728/stats/aldosivi/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "44",
+              "url": "https://www.soccer-rating.com/CA-Aldosivi/44/"
             }
           }
         },
@@ -57,9 +57,9 @@
               "url": "https://www.fotmob.com/teams/10086/stats/argentinos-juniors/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "16",
+              "url": "https://www.soccer-rating.com/Argentinos-Juniors/16/"
             }
           }
         },
@@ -77,9 +77,9 @@
               "url": "https://www.fotmob.com/teams/161727/stats/atletico-tucuman/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "231",
+              "url": "https://www.soccer-rating.com/Atletico-Tucuman/231/"
             }
           }
         },
@@ -92,14 +92,14 @@
           "registryTeamName": "Banfield",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10087",
+              "url": "https://www.fotmob.com/teams/10087/stats/banfield/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9",
+              "url": "https://www.soccer-rating.com/CA-Banfield/9/"
             }
           }
         },
@@ -117,9 +117,9 @@
               "url": "https://www.fotmob.com/teams/213534/stats/barracas-central/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2614",
+              "url": "https://www.soccer-rating.com/Barracas-Central/2614/"
             }
           }
         },
@@ -132,14 +132,14 @@
           "registryTeamName": "Belgrano",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10092",
+              "url": "https://www.fotmob.com/teams/10092/stats/belgrano/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "49",
+              "url": "https://www.soccer-rating.com/CA-Belgrano/49/"
             }
           }
         },
@@ -157,9 +157,9 @@
               "url": "https://www.fotmob.com/teams/10077/stats/boca-juniors/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "6",
+              "url": "https://www.soccer-rating.com/Boca-Juniors/6/"
             }
           }
         },
@@ -172,14 +172,14 @@
           "registryTeamName": "Central Córdoba",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "213596",
+              "url": "https://www.fotmob.com/teams/213596/stats/central-cordoba-de-santiago/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2454",
+              "url": "https://www.soccer-rating.com/Central-Cordoba/2454/"
             }
           }
         },
@@ -197,9 +197,9 @@
               "url": "https://www.fotmob.com/teams/161730/stats/defensa-y-justicia/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "47",
+              "url": "https://www.soccer-rating.com/CSD-Defensa-y-Justicia/47/"
             }
           }
         },
@@ -217,9 +217,9 @@
               "url": "https://www.fotmob.com/teams/298629/stats/deportivo-riestra/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2458",
+              "url": "https://www.soccer-rating.com/Deportivo-Riestra/2458/"
             }
           }
         },
@@ -237,9 +237,9 @@
               "url": "https://www.fotmob.com/teams/10094/stats/estudiantes/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "4",
+              "url": "https://www.soccer-rating.com/Estudiantes-La-Plata/4/"
             }
           }
         },
@@ -257,9 +257,9 @@
               "url": "https://www.fotmob.com/teams/10094/stats/estudiantes/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "4",
+              "url": "https://www.soccer-rating.com/Estudiantes-La-Plata/4/"
             }
           }
         },
@@ -277,9 +277,9 @@
               "url": "https://www.fotmob.com/teams/10103/stats/gimnasia-lp/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "15",
+              "url": "https://www.soccer-rating.com/Gimnasia-La-Plata/15/"
             }
           }
         },
@@ -297,9 +297,9 @@
               "url": "https://www.fotmob.com/teams/568727/stats/gimnasia-mendoza/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "4386",
+              "url": "https://www.soccer-rating.com/Gimnasia-Mendoza/4386/"
             }
           }
         },
@@ -318,8 +318,8 @@
             },
             "soccerRating": {
               "status": "mapped",
-              "sourceTeamId": "7400",
-              "url": "https://www.soccer-rating.com/Huracan-Valencia/7400/"
+              "sourceTeamId": "230",
+              "url": "https://www.soccer-rating.com/CA-Huracan/230/"
             }
           }
         },
@@ -337,9 +337,9 @@
               "url": "https://www.fotmob.com/teams/10078/stats/independiente/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "232",
+              "url": "https://www.soccer-rating.com/CA-Independiente/232/"
             }
           }
         },
@@ -352,14 +352,14 @@
           "registryTeamName": "Ind. Rivadavia",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "161729",
+              "url": "https://www.fotmob.com/teams/161729/stats/independiente-rivadavia/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "125",
+              "url": "https://www.soccer-rating.com/Independiente-Rivadavia/125/"
             }
           }
         },
@@ -377,9 +377,9 @@
               "url": "https://www.fotmob.com/teams/10090/stats/instituto/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "48",
+              "url": "https://www.soccer-rating.com/Instituto-AC-Cordoba/48/"
             }
           }
         },
@@ -392,14 +392,14 @@
           "registryTeamName": "Lanús",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10082",
+              "url": "https://www.fotmob.com/teams/10082/stats/lanus/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "12",
+              "url": "https://www.soccer-rating.com/Atletico-Lanus/12/"
             }
           }
         },
@@ -412,14 +412,14 @@
           "registryTeamName": "Newell´s Old Boys",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10201",
+              "url": "https://www.fotmob.com/teams/10201/stats/newell-s-old-boys/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "14",
+              "url": "https://www.soccer-rating.com/Newell-s-Old-Boys/14/"
             }
           }
         },
@@ -437,9 +437,9 @@
               "url": "https://www.fotmob.com/teams/10089/stats/club-atletico-platense/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "43",
+              "url": "https://www.soccer-rating.com/CA-Platense/43/"
             }
           }
         },
@@ -458,8 +458,8 @@
             },
             "soccerRating": {
               "status": "mapped",
-              "sourceTeamId": "1438",
-              "url": "https://www.soccer-rating.com/Racing-92-FC/1438/"
+              "sourceTeamId": "10",
+              "url": "https://www.soccer-rating.com/Racing-Club/10/"
             }
           }
         },
@@ -477,9 +477,9 @@
               "url": "https://www.fotmob.com/teams/10076/stats/river-plate/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "3",
+              "url": "https://www.soccer-rating.com/River-Plate/3/"
             }
           }
         },
@@ -497,9 +497,9 @@
               "url": "https://www.fotmob.com/teams/10084/stats/rosario-central/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "229",
+              "url": "https://www.soccer-rating.com/Rosario-Central/229/"
             }
           }
         },
@@ -517,9 +517,9 @@
               "url": "https://www.fotmob.com/teams/10083/stats/san-lorenzo/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "5",
+              "url": "https://www.soccer-rating.com/San-Lorenzo/5/"
             }
           }
         },
@@ -537,9 +537,9 @@
               "url": "https://www.fotmob.com/teams/202757/stats/sarmiento/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2708",
+              "url": "https://www.soccer-rating.com/Club-Atletico-Sarmiento/2708/"
             }
           }
         },
@@ -552,14 +552,14 @@
           "registryTeamName": "Talleres",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10101",
+              "url": "https://www.fotmob.com/teams/10101/stats/talleres/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2432",
+              "url": "https://www.soccer-rating.com/Talleres-Cordoba/2432/"
             }
           }
         },
@@ -577,9 +577,9 @@
               "url": "https://www.fotmob.com/teams/89396/stats/tigre/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "7",
+              "url": "https://www.soccer-rating.com/CA-Tigre/7/"
             }
           }
         },
@@ -592,14 +592,14 @@
           "registryTeamName": "Unión de Santa Fe",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10096",
+              "url": "https://www.fotmob.com/teams/10096/stats/union/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "123",
+              "url": "https://www.soccer-rating.com/CA-Union-Santa-Fe/123/"
             }
           }
         },
@@ -617,9 +617,9 @@
               "url": "https://www.fotmob.com/teams/10079/stats/velez-sarsfield/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8",
+              "url": "https://www.soccer-rating.com/Velez-Sarsfield/8/"
             }
           }
         }
@@ -649,9 +649,9 @@
               "url": "https://www.fotmob.com/teams/10273/stats/athletico-paranaense/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "85",
+              "url": "https://www.soccer-rating.com/Athletico-PR/85/"
             }
           }
         },
@@ -669,9 +669,9 @@
               "url": "https://www.fotmob.com/teams/10272/stats/atletico-mg/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "100",
+              "url": "https://www.soccer-rating.com/Atletico-MG/100/"
             }
           }
         },
@@ -689,9 +689,9 @@
               "url": "https://www.fotmob.com/teams/7877/stats/bahia/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1151",
+              "url": "https://www.soccer-rating.com/EC-Bahia/1151/"
             }
           }
         },
@@ -704,14 +704,14 @@
           "registryTeamName": "Botafogo",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8517",
+              "url": "https://www.fotmob.com/teams/8517/stats/botafogo-rj/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "86",
+              "url": "https://www.soccer-rating.com/Botafogo-RJ/86/"
             }
           }
         },
@@ -729,9 +729,9 @@
               "url": "https://www.fotmob.com/teams/197693/stats/chapecoense-af/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1491",
+              "url": "https://www.soccer-rating.com/Chapecoense/1491/"
             }
           }
         },
@@ -750,8 +750,8 @@
             },
             "soccerRating": {
               "status": "mapped",
-              "sourceTeamId": "8624",
-              "url": "https://www.soccer-rating.com/College-Corinthians/8624/"
+              "sourceTeamId": "89",
+              "url": "https://www.soccer-rating.com/Corinthians/89/"
             }
           }
         },
@@ -769,9 +769,9 @@
               "url": "https://www.fotmob.com/teams/9767/stats/coritiba/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "92",
+              "url": "https://www.soccer-rating.com/Coritiba/92/"
             }
           }
         },
@@ -789,9 +789,9 @@
               "url": "https://www.fotmob.com/teams/9781/stats/cruzeiro/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "91",
+              "url": "https://www.soccer-rating.com/Cruzeiro/91/"
             }
           }
         },
@@ -809,9 +809,9 @@
               "url": "https://www.fotmob.com/teams/9770/stats/flamengo/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "90",
+              "url": "https://www.soccer-rating.com/Flamengo/90/"
             }
           }
         },
@@ -829,9 +829,9 @@
               "url": "https://www.fotmob.com/teams/9863/stats/fluminense/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "93",
+              "url": "https://www.soccer-rating.com/Fluminense/93/"
             }
           }
         },
@@ -849,9 +849,9 @@
               "url": "https://www.fotmob.com/teams/9769/stats/gremio/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "97",
+              "url": "https://www.soccer-rating.com/Gremio-Porto-Alegre/97/"
             }
           }
         },
@@ -870,8 +870,8 @@
             },
             "soccerRating": {
               "status": "mapped",
-              "sourceTeamId": "13490",
-              "url": "https://www.soccer-rating.com/CF-Internacional-de-Madrid/13490/"
+              "sourceTeamId": "104",
+              "url": "https://www.soccer-rating.com/Internacional/104/"
             }
           }
         },
@@ -889,9 +889,9 @@
               "url": "https://www.fotmob.com/teams/163782/stats/mirassol/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "649",
+              "url": "https://www.soccer-rating.com/Mirassol/649/"
             }
           }
         },
@@ -909,9 +909,9 @@
               "url": "https://www.fotmob.com/teams/10283/stats/palmeiras/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "99",
+              "url": "https://www.soccer-rating.com/Palmeiras/99/"
             }
           }
         },
@@ -924,14 +924,14 @@
           "registryTeamName": "RB Bragantino",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "109705",
+              "url": "https://www.fotmob.com/teams/109705/stats/red-bull-bragantino/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "646",
+              "url": "https://www.soccer-rating.com/CA-Bragantino/646/"
             }
           }
         },
@@ -949,9 +949,9 @@
               "url": "https://www.fotmob.com/teams/1626/stats/remo/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2645",
+              "url": "https://www.soccer-rating.com/Clube-Do-Remo/2645/"
             }
           }
         },
@@ -970,8 +970,8 @@
             },
             "soccerRating": {
               "status": "mapped",
-              "sourceTeamId": "9192",
-              "url": "https://www.soccer-rating.com/Tartu-FC-Santos/9192/"
+              "sourceTeamId": "88",
+              "url": "https://www.soccer-rating.com/Santos-FC/88/"
             }
           }
         },
@@ -989,9 +989,9 @@
               "url": "https://www.fotmob.com/teams/10277/stats/sao-paulo/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "96",
+              "url": "https://www.soccer-rating.com/Sao-Paulo/96/"
             }
           }
         },
@@ -1004,14 +1004,14 @@
           "registryTeamName": "Vasco",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10276",
+              "url": "https://www.fotmob.com/teams/10276/stats/vasco-da-gama/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "42",
+              "url": "https://www.soccer-rating.com/Vasco-da-Gama/42/"
             }
           }
         },
@@ -1030,8 +1030,8 @@
             },
             "soccerRating": {
               "status": "mapped",
-              "sourceTeamId": "1089",
-              "url": "https://www.soccer-rating.com/Vitoria-Guimaraes/1089/"
+              "sourceTeamId": "94",
+              "url": "https://www.soccer-rating.com/EC-Vitoria-Salvador/94/"
             }
           }
         }
@@ -1056,14 +1056,14 @@
           "registryTeamName": "Arda",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "944173",
+              "url": "https://www.fotmob.com/teams/944173/overview/arda-kardzhali/players"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "13239",
+              "url": "https://www.soccer-rating.com/FK-Arda-Kardzhali/13239/"
             }
           }
         },
@@ -1076,14 +1076,14 @@
           "registryTeamName": "Botev Plovdiv",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10131",
+              "url": "https://www.fotmob.com/teams/10131/overview/botev-plovdiv/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1466",
+              "url": "https://www.soccer-rating.com/Botev-Plovdiv/1466/"
             }
           }
         },
@@ -1096,14 +1096,14 @@
           "registryTeamName": "Botev Vratsa",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "187880",
+              "url": "https://www.fotmob.com/teams/187880/overview/botev-vratsa"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "6100",
+              "url": "https://www.soccer-rating.com/Botev-Vratsa/6100/"
             }
           }
         },
@@ -1116,9 +1116,9 @@
           "registryTeamName": "Cherno More",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10141",
+              "url": "https://www.fotmob.com/teams/10141/overview/cherno-more-varna"
             },
             "soccerRating": {
               "status": "mapped",
@@ -1136,9 +1136,9 @@
           "registryTeamName": "CSKA 1948 Sofia",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "944215",
+              "url": "https://www.fotmob.com/teams/944215/overview/cska-1948"
             },
             "soccerRating": {
               "status": "mapped",
@@ -1176,14 +1176,14 @@
           "registryTeamName": "Dunav",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "46474",
+              "url": "https://www.fotmob.com/teams/46474/overview/dunav-ruse/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9037",
+              "url": "https://www.soccer-rating.com/Dunav-Ruse/9037/"
             }
           }
         },
@@ -1236,9 +1236,9 @@
           "registryTeamName": "Lokomotiv Sofia",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10128",
+              "url": "https://www.fotmob.com/teams/10128/overview/pfc-lokomotiv-sofia-1929"
             },
             "soccerRating": {
               "status": "mapped",
@@ -1296,14 +1296,14 @@
           "registryTeamName": "Slavia",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10134",
+              "url": "https://www.fotmob.com/teams/10134/overview/slavia-sofia"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1463",
+              "url": "https://www.soccer-rating.com/Slavia-Sofia/1463/"
             }
           }
         },
@@ -1316,14 +1316,14 @@
           "registryTeamName": "Spartak Varna",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10145",
+              "url": "https://www.fotmob.com/teams/10145/overview/spartak-varna"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1465",
+              "url": "https://www.soccer-rating.com/Spartak-Varna/1465/"
             }
           }
         }
@@ -1374,8 +1374,8 @@
             },
             "soccerRating": {
               "status": "mapped",
-              "sourceTeamId": "645",
-              "url": "https://www.soccer-rating.com/FK-Hajduk-Kula/645/"
+              "sourceTeamId": "513",
+              "url": "https://www.soccer-rating.com/HNK-Hajduk-Split/513/"
             }
           }
         },
@@ -1394,8 +1394,8 @@
             },
             "soccerRating": {
               "status": "mapped",
-              "sourceTeamId": "520",
-              "url": "https://www.soccer-rating.com/ND-Gorica/520/"
+              "sourceTeamId": "6628",
+              "url": "https://www.soccer-rating.com/HNK-Velika-Gorica/6628/"
             }
           }
         },
@@ -1428,14 +1428,14 @@
           "registryTeamName": "Istra",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "6038",
+              "url": "https://www.fotmob.com/teams/6038/stats/nk-istra-1961/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2707",
+              "url": "https://www.soccer-rating.com/NK-Istra-1961-Pula/2707/"
             }
           }
         },
@@ -1513,9 +1513,9 @@
               "url": "https://www.fotmob.com/teams/10165/stats/nk-varazdin/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "634",
+              "url": "https://www.soccer-rating.com/NK-Varazdin/634/"
             }
           }
         },
@@ -1533,9 +1533,9 @@
               "url": "https://www.fotmob.com/teams/1581/stats/slaven/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "541",
+              "url": "https://www.soccer-rating.com/NK-Slaven-Koprivnica/541/"
             }
           }
         }
@@ -1560,14 +1560,14 @@
           "registryTeamName": "1. FC Heidenheim 1846",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "94937",
+              "url": "https://www.fotmob.com/teams/94937/stats/fc-heidenheim/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1989",
+              "url": "https://www.soccer-rating.com/1-FC-Heidenheim/1989/"
             }
           }
         },
@@ -1580,14 +1580,14 @@
           "registryTeamName": "1. FC Magdeburg",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8188",
+              "url": "https://www.fotmob.com/teams/8188/stats/magdeburg/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "734",
+              "url": "https://www.soccer-rating.com/1-FC-Magdeburg/734/"
             }
           }
         },
@@ -1600,14 +1600,14 @@
           "registryTeamName": "Arminia Bielefeld",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9912",
+              "url": "https://www.fotmob.com/teams/9912/stats/arminia-bielefeld/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "158",
+              "url": "https://www.soccer-rating.com/Arminia-Bielefeld/158/"
             }
           }
         },
@@ -1620,14 +1620,14 @@
           "registryTeamName": "Darmstadt 98",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8262",
+              "url": "https://www.fotmob.com/teams/8262/stats/darmstadt/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "776",
+              "url": "https://www.soccer-rating.com/SV-Darmstadt-98/776/"
             }
           }
         },
@@ -1640,14 +1640,14 @@
           "registryTeamName": "Dynamo Dresden",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8480",
+              "url": "https://www.fotmob.com/teams/8480/stats/dynamo-dresden/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "737",
+              "url": "https://www.soccer-rating.com/Dynamo-Dresden/737/"
             }
           }
         },
@@ -1660,14 +1660,14 @@
           "registryTeamName": "Eintracht Braunschweig",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9776",
+              "url": "https://www.fotmob.com/teams/9776/stats/eintracht-braunschweig/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "738",
+              "url": "https://www.soccer-rating.com/Eintracht-Braunschweig/738/"
             }
           }
         },
@@ -1680,14 +1680,14 @@
           "registryTeamName": "Energie Cottbus",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8398",
+              "url": "https://www.fotmob.com/teams/8398/stats/energie-cottbus/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "146",
+              "url": "https://www.soccer-rating.com/Energie-Cottbus/146/"
             }
           }
         },
@@ -1700,14 +1700,14 @@
           "registryTeamName": "FC Nürnberg",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8165",
+              "url": "https://www.fotmob.com/teams/8165/stats/1-fc-nurnberg/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "143",
+              "url": "https://www.soccer-rating.com/1-FC-Nuernberg/143/"
             }
           }
         },
@@ -1720,14 +1720,14 @@
           "registryTeamName": "FC St. Pauli",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8152",
+              "url": "https://www.fotmob.com/teams/8152/stats/st-pauli/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "662",
+              "url": "https://www.soccer-rating.com/FC-St-Pauli/662/"
             }
           }
         },
@@ -1740,14 +1740,14 @@
           "registryTeamName": "Hannover 96",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9904",
+              "url": "https://www.fotmob.com/teams/9904/stats/hannover-96/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "153",
+              "url": "https://www.soccer-rating.com/Hannover-96/153/"
             }
           }
         },
@@ -1760,14 +1760,14 @@
           "registryTeamName": "Hertha BSC",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8177",
+              "url": "https://www.fotmob.com/teams/8177/stats/hertha-bsc/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "150",
+              "url": "https://www.soccer-rating.com/Hertha-BSC-Berlin/150/"
             }
           }
         },
@@ -1780,14 +1780,14 @@
           "registryTeamName": "Holstein Kiel",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8150",
+              "url": "https://www.fotmob.com/teams/8150/stats/holstein-kiel/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "757",
+              "url": "https://www.soccer-rating.com/Holstein-Kiel/757/"
             }
           }
         },
@@ -1800,14 +1800,14 @@
           "registryTeamName": "Kaiserslautern",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8350",
+              "url": "https://www.fotmob.com/teams/8350/stats/kaiserslautern/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "652",
+              "url": "https://www.soccer-rating.com/1-FC-Kaiserslautern/652/"
             }
           }
         },
@@ -1820,14 +1820,14 @@
           "registryTeamName": "Karlsruher SC",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8295",
+              "url": "https://www.fotmob.com/teams/8295/stats/karlsruher-sc/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "144",
+              "url": "https://www.soccer-rating.com/Karlsruher-SC/144/"
             }
           }
         },
@@ -1840,14 +1840,14 @@
           "registryTeamName": "SpVgg Greuther Fürth",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8357",
+              "url": "https://www.fotmob.com/teams/8357/stats/greuther-furth/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "659",
+              "url": "https://www.soccer-rating.com/SpVgg-Greuther-Fuerth/659/"
             }
           }
         },
@@ -1860,14 +1860,14 @@
           "registryTeamName": "VfL Bochum",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9911",
+              "url": "https://www.fotmob.com/teams/9911/stats/bochum/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "155",
+              "url": "https://www.soccer-rating.com/VfL-Bochum/155/"
             }
           }
         },
@@ -1880,14 +1880,14 @@
           "registryTeamName": "VfL Osnabrück",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9775",
+              "url": "https://www.fotmob.com/teams/9775/stats/vfl-osnabruck/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "668",
+              "url": "https://www.soccer-rating.com/VfL-Osnabrueck/668/"
             }
           }
         },
@@ -1900,14 +1900,14 @@
           "registryTeamName": "Wolfsburg",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8721",
+              "url": "https://www.fotmob.com/teams/8721/stats/wolfsburg/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "157",
+              "url": "https://www.soccer-rating.com/VfL-Wolfsburg/157/"
             }
           }
         }
@@ -1932,14 +1932,14 @@
           "registryTeamName": "Ajax B",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "163363",
+              "url": "https://www.fotmob.com/teams/163363/stats/jong-ajax/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "4621",
+              "url": "https://www.soccer-rating.com/Ajax-Amsterdam-II/4621/"
             }
           }
         },
@@ -1952,14 +1952,14 @@
           "registryTeamName": "Almere City FC",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "4116",
+              "url": "https://www.fotmob.com/teams/4116/stats/almere-city-fc/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "932",
+              "url": "https://www.soccer-rating.com/Almere-City/932/"
             }
           }
         },
@@ -1972,14 +1972,14 @@
           "registryTeamName": "AZ Alkmaar B",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "681217",
+              "url": "https://www.fotmob.com/teams/681217/stats/jong-az-alkmaar/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "11692",
+              "url": "https://www.soccer-rating.com/AZ-Alkmaar-II/11692/"
             }
           }
         },
@@ -1992,14 +1992,14 @@
           "registryTeamName": "De Graafschap",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8526",
+              "url": "https://www.fotmob.com/teams/8526/stats/de-graafschap/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "813",
+              "url": "https://www.soccer-rating.com/De-Graafschap/813/"
             }
           }
         },
@@ -2012,14 +2012,14 @@
           "registryTeamName": "Den Bosch",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9835",
+              "url": "https://www.fotmob.com/teams/9835/stats/fc-den-bosch/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "927",
+              "url": "https://www.soccer-rating.com/FC-Den-Bosch/927/"
             }
           }
         },
@@ -2032,14 +2032,14 @@
           "registryTeamName": "FC Dordrecht",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "6631",
+              "url": "https://www.fotmob.com/teams/6631/stats/fc-dordrecht/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "929",
+              "url": "https://www.soccer-rating.com/FC-Dordrecht/929/"
             }
           }
         },
@@ -2052,14 +2052,14 @@
           "registryTeamName": "FC Eindhoven",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "6416",
+              "url": "https://www.fotmob.com/teams/6416/stats/fc-eindhoven/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "930",
+              "url": "https://www.soccer-rating.com/FC-Eindhoven/930/"
             }
           }
         },
@@ -2072,14 +2072,14 @@
           "registryTeamName": "FC Emmen",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "6660",
+              "url": "https://www.fotmob.com/teams/6660/stats/fc-emmen/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "935",
+              "url": "https://www.soccer-rating.com/FC-Emmen/935/"
             }
           }
         },
@@ -2092,14 +2092,14 @@
           "registryTeamName": "FC Utrecht B",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "278960",
+              "url": "https://www.fotmob.com/teams/278960/stats/jong-fc-utrecht/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "11185",
+              "url": "https://www.soccer-rating.com/FC-Utrecht-II/11185/"
             }
           }
         },
@@ -2112,14 +2112,14 @@
           "registryTeamName": "FC Volendam",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "6601",
+              "url": "https://www.fotmob.com/teams/6601/stats/fc-volendam/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "944",
+              "url": "https://www.soccer-rating.com/FC-Volendam/944/"
             }
           }
         },
@@ -2132,14 +2132,14 @@
           "registryTeamName": "Helmond Sport",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "6417",
+              "url": "https://www.fotmob.com/teams/6417/stats/helmond-sport/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "943",
+              "url": "https://www.soccer-rating.com/Helmond-Sport/943/"
             }
           }
         },
@@ -2152,14 +2152,14 @@
           "registryTeamName": "Heracles Almelo",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9791",
+              "url": "https://www.fotmob.com/teams/9791/stats/heracles/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "817",
+              "url": "https://www.soccer-rating.com/Heracles-Almelo/817/"
             }
           }
         },
@@ -2172,14 +2172,14 @@
           "registryTeamName": "MVV",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9838",
+              "url": "https://www.fotmob.com/teams/9838/stats/mvv-maastricht/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "938",
+              "url": "https://www.soccer-rating.com/MVV-Maastricht/938/"
             }
           }
         },
@@ -2192,14 +2192,14 @@
           "registryTeamName": "NAC Breda",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9761",
+              "url": "https://www.fotmob.com/teams/9761/stats/nac-breda/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "809",
+              "url": "https://www.soccer-rating.com/NAC-Breda/809/"
             }
           }
         },
@@ -2212,14 +2212,14 @@
           "registryTeamName": "PSV B",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "455494",
+              "url": "https://www.fotmob.com/teams/455494/stats/jong-psv/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "4605",
+              "url": "https://www.soccer-rating.com/PSV-Eindhoven-II/4605/"
             }
           }
         },
@@ -2232,14 +2232,14 @@
           "registryTeamName": "RKC Waalwijk",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10219",
+              "url": "https://www.fotmob.com/teams/10219/stats/rkc-waalwijk/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "933",
+              "url": "https://www.soccer-rating.com/RKC-Waalwijk/933/"
             }
           }
         },
@@ -2252,14 +2252,14 @@
           "registryTeamName": "Roda",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9803",
+              "url": "https://www.fotmob.com/teams/9803/stats/roda-jc-kerkrade/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "812",
+              "url": "https://www.soccer-rating.com/Roda-Kerkrade/812/"
             }
           }
         },
@@ -2272,14 +2272,14 @@
           "registryTeamName": "TOP Oss",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "7781",
+              "url": "https://www.fotmob.com/teams/7781/stats/top-oss/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "942",
+              "url": "https://www.soccer-rating.com/FC-Oss/942/"
             }
           }
         },
@@ -2292,14 +2292,14 @@
           "registryTeamName": "Vitesse",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8277",
+              "url": "https://www.fotmob.com/teams/8277/stats/vitesse/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "820",
+              "url": "https://www.soccer-rating.com/Vitesse-Arnheim/820/"
             }
           }
         },
@@ -2312,14 +2312,14 @@
           "registryTeamName": "VVV-Venlo",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9839",
+              "url": "https://www.fotmob.com/teams/9839/stats/vvv-venlo/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "806",
+              "url": "https://www.soccer-rating.com/VV-Venlo/806/"
             }
           }
         }
@@ -2349,9 +2349,9 @@
               "url": "https://www.fotmob.com/teams/8404/stats/aalesund/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "84",
+              "url": "https://www.soccer-rating.com/Aalesunds-FK/84/"
             }
           }
         },
@@ -2369,9 +2369,9 @@
               "url": "https://www.fotmob.com/teams/8402/stats/bod-glimt/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "114",
+              "url": "https://www.soccer-rating.com/FK-Bodo-Glimt/114/"
             }
           }
         },
@@ -2384,14 +2384,14 @@
           "registryTeamName": "Brann",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8468",
+              "url": "https://www.fotmob.com/teams/8468/stats/brann/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "81",
+              "url": "https://www.soccer-rating.com/SK-Brann-Bergen/81/"
             }
           }
         },
@@ -2425,8 +2425,8 @@
           "sources": {
             "fotmob": {
               "status": "mapped",
-              "sourceTeamId": "1439770",
-              "url": "https://www.fotmob.com/teams/1439770/stats/hamkam-w/teams"
+              "sourceTeamId": "8448",
+              "url": "https://www.fotmob.com/teams/8448/stats/hamarkameratene/teams"
             },
             "soccerRating": {
               "status": "mapped",
@@ -2444,9 +2444,9 @@
           "registryTeamName": "KFUM Oslo",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2305",
+              "url": "https://www.fotmob.com/teams/2305/stats/kfum/teams"
             },
             "soccerRating": {
               "status": "mapped",
@@ -2489,9 +2489,9 @@
               "url": "https://www.fotmob.com/teams/8476/stats/lillestr-m/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "76",
+              "url": "https://www.soccer-rating.com/Lillestrom-SK/76/"
             }
           }
         },
@@ -2530,8 +2530,8 @@
             },
             "soccerRating": {
               "status": "mapped",
-              "sourceTeamId": "422",
-              "url": "https://www.soccer-rating.com/Rosenborg-BK-II/422/"
+              "sourceTeamId": "83",
+              "url": "https://www.soccer-rating.com/Rosenborg-Trondheim/83/"
             }
           }
         },
@@ -2550,8 +2550,8 @@
             },
             "soccerRating": {
               "status": "mapped",
-              "sourceTeamId": "7755",
-              "url": "https://www.soccer-rating.com/Sandefjord-BK/7755/"
+              "sourceTeamId": "75",
+              "url": "https://www.soccer-rating.com/Sandefjord-Fotball/75/"
             }
           }
         },
@@ -2585,13 +2585,13 @@
           "sources": {
             "fotmob": {
               "status": "mapped",
-              "sourceTeamId": "1439771",
-              "url": "https://www.fotmob.com/teams/1439771/stats/ik-start-w/teams"
+              "sourceTeamId": "9919",
+              "url": "https://www.fotmob.com/teams/9919/stats/start/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "79",
+              "url": "https://www.soccer-rating.com/IK-Start-Kristiansand/79/"
             }
           }
         },
@@ -2604,14 +2604,14 @@
           "registryTeamName": "Tromsø",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8608",
+              "url": "https://www.fotmob.com/teams/8608/stats/tromso/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "82",
+              "url": "https://www.soccer-rating.com/Tromso-IL/82/"
             }
           }
         },
@@ -2821,9 +2821,9 @@
               "url": "https://www.fotmob.com/teams/1634/stats/famalicao/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "7558",
+              "url": "https://www.soccer-rating.com/FC-Famalicao/7558/"
             }
           }
         },
@@ -2916,14 +2916,14 @@
           "registryTeamName": "Nacional",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10214",
+              "url": "https://www.fotmob.com/teams/10214/stats/nacional/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1079",
+              "url": "https://www.soccer-rating.com/Nacional-Madeira/1079/"
             }
           }
         },
@@ -2956,14 +2956,14 @@
           "registryTeamName": "Santa Clara",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1567",
+              "url": "https://www.fotmob.com/teams/1567/stats/santa-clara/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1103",
+              "url": "https://www.soccer-rating.com/Santa-Clara/1103/"
             }
           }
         },
@@ -2981,9 +2981,9 @@
               "url": "https://www.fotmob.com/teams/10264/stats/braga/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1083",
+              "url": "https://www.soccer-rating.com/Sporting-Braga/1083/"
             }
           }
         },
@@ -3048,14 +3048,14 @@
           "registryTeamName": "Académica",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10215",
+              "url": "https://www.fotmob.com/teams/10215/stats/academica/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1086",
+              "url": "https://www.soccer-rating.com/Academica-Coimbra/1086/"
             }
           }
         },
@@ -3068,9 +3068,9 @@
           "registryTeamName": "AVS",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1889",
+              "url": "https://www.fotmob.com/teams/1889/stats/avs-futebol-sad/teams"
             },
             "soccerRating": {
               "status": "mapped",
@@ -3108,14 +3108,14 @@
           "registryTeamName": "Benfica B",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "338302",
+              "url": "https://www.fotmob.com/teams/338302/stats/benfica-b/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8038",
+              "url": "https://www.soccer-rating.com/Benfica-Lisboa-II/8038/"
             }
           }
         },
@@ -3208,14 +3208,14 @@
           "registryTeamName": "Porto B",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "338304",
+              "url": "https://www.fotmob.com/teams/338304/stats/fc-porto-b/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8041",
+              "url": "https://www.soccer-rating.com/FC-Porto-II/8041/"
             }
           }
         },
@@ -3268,14 +3268,14 @@
           "registryTeamName": "Chaves",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9774",
+              "url": "https://www.fotmob.com/teams/9774/stats/chaves/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2953",
+              "url": "https://www.soccer-rating.com/GD-Chaves/2953/"
             }
           }
         },
@@ -3288,14 +3288,14 @@
           "registryTeamName": "Leixões",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "6421",
+              "url": "https://www.fotmob.com/teams/6421/stats/leixoes/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1075",
+              "url": "https://www.soccer-rating.com/Leixoes-Matosinhos/1075/"
             }
           }
         },
@@ -3308,14 +3308,14 @@
           "registryTeamName": "Lusitânia",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "188154",
+              "url": "https://www.fotmob.com/teams/188154/stats/lusitania-lourosa/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2969",
+              "url": "https://www.soccer-rating.com/Lusitania-FC-Lourosa/2969/"
             }
           }
         },
@@ -3425,9 +3425,9 @@
               "url": "https://www.fotmob.com/teams/9732/stats/fc-arges-pitesti/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2816",
+              "url": "https://www.soccer-rating.com/FC-Arges-Pitesti/2816/"
             }
           }
         },
@@ -3440,14 +3440,14 @@
           "registryTeamName": "CFR Cluj",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9731",
+              "url": "https://www.fotmob.com/teams/9731/stats/cfr-cluj/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1010",
+              "url": "https://www.soccer-rating.com/CFR-Cluj/1010/"
             }
           }
         },
@@ -3460,14 +3460,14 @@
           "registryTeamName": "Corvinul",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1515102",
+              "url": "https://www.fotmob.com/teams/1515102/stats/corvinul-hunedoara/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2791",
+              "url": "https://www.soccer-rating.com/Corvinul-Hunedoara/2791/"
             }
           }
         },
@@ -3480,14 +3480,14 @@
           "registryTeamName": "Csíkszereda",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "583690",
+              "url": "https://www.fotmob.com/teams/583690/stats/csikszereda-miercurea-ciuc/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "11421",
+              "url": "https://www.soccer-rating.com/FK-Csikszereda-Miercurea-Ciuc/11421/"
             }
           }
         },
@@ -3505,9 +3505,9 @@
               "url": "https://www.fotmob.com/teams/10271/stats/dinamo-bucuresti/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1032",
+              "url": "https://www.soccer-rating.com/Dinamo-Bukarest/1032/"
             }
           }
         },
@@ -3520,9 +3520,9 @@
           "registryTeamName": "Farul Constanța",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "210132",
+              "url": "https://www.fotmob.com/teams/210132/stats/fcv-farul-constanta/teams"
             },
             "soccerRating": {
               "status": "mapped",
@@ -3540,14 +3540,14 @@
           "registryTeamName": "Botoșani",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "188191",
+              "url": "https://www.fotmob.com/teams/188191/stats/botosani/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2465",
+              "url": "https://www.soccer-rating.com/FC-Botosani/2465/"
             }
           }
         },
@@ -3565,9 +3565,9 @@
               "url": "https://www.fotmob.com/teams/9736/stats/otelul-galati/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "646",
+              "url": "https://www.soccer-rating.com/Otelul-Galati/646/"
             }
           }
         },
@@ -3600,14 +3600,14 @@
           "registryTeamName": "FCSB",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9723",
+              "url": "https://www.fotmob.com/teams/9723/stats/fcsb/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1013",
+              "url": "https://www.soccer-rating.com/Steaua-Bukarest/1013/"
             }
           }
         },
@@ -3640,14 +3640,14 @@
           "registryTeamName": "Sepsi OSK",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "583706",
+              "url": "https://www.fotmob.com/teams/583706/stats/sepsi-osk/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "11387",
+              "url": "https://www.soccer-rating.com/Sepsi-OSK-Sfantu-Gheorghe/11387/"
             }
           }
         },
@@ -3660,14 +3660,14 @@
           "registryTeamName": "U. Cluj",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "89022",
+              "url": "https://www.fotmob.com/teams/89022/stats/universitatea-cluj/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1015",
+              "url": "https://www.soccer-rating.com/Universitatea-Cluj/1015/"
             }
           }
         },
@@ -3680,14 +3680,14 @@
           "registryTeamName": "U. Craiova",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "480286",
+              "url": "https://www.fotmob.com/teams/480286/stats/universitatea-craiova/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8895",
+              "url": "https://www.soccer-rating.com/CS-Universitatea-Craiova/8895/"
             }
           }
         },
@@ -3700,14 +3700,14 @@
           "registryTeamName": "UTA",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "584663",
+              "url": "https://www.fotmob.com/teams/584663/stats/uta-arad/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1020",
+              "url": "https://www.soccer-rating.com/UTA-Batrana-Doamna/1020/"
             }
           }
         },
@@ -3725,9 +3725,9 @@
               "url": "https://www.fotmob.com/teams/405332/stats/fc-voluntari/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8790",
+              "url": "https://www.soccer-rating.com/CS-Voluntari/8790/"
             }
           }
         }
@@ -3752,14 +3752,14 @@
           "registryTeamName": "Akhmat",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8708",
+              "url": "https://www.fotmob.com/teams/8708/stats/fk-akhmat/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "340",
+              "url": "https://www.soccer-rating.com/Akhmat-Grozny/340/"
             }
           }
         },
@@ -3772,14 +3772,14 @@
           "registryTeamName": "Akron",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1068364",
+              "url": "https://www.fotmob.com/teams/1068364/stats/akron-togliatti/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "13988",
+              "url": "https://www.soccer-rating.com/Akron-Tolyatti/13988/"
             }
           }
         },
@@ -3812,14 +3812,14 @@
           "registryTeamName": "CSKA",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9760",
+              "url": "https://www.fotmob.com/teams/9760/stats/cska-moscow/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "133",
+              "url": "https://www.soccer-rating.com/CSKA-Moskva/133/"
             }
           }
         },
@@ -3832,9 +3832,9 @@
           "registryTeamName": "Dinamo Makhachkala",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1068353",
+              "url": "https://www.fotmob.com/teams/1068353/stats/dynamo-makhachkala/teams"
             },
             "soccerRating": {
               "status": "mapped",
@@ -3852,14 +3852,14 @@
           "registryTeamName": "Dynamo",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9763",
+              "url": "https://www.fotmob.com/teams/9763/stats/dinamo-moscow/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "138",
+              "url": "https://www.soccer-rating.com/Dinamo-Moskva/138/"
             }
           }
         },
@@ -3872,14 +3872,14 @@
           "registryTeamName": "Fakel",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1692",
+              "url": "https://www.fotmob.com/teams/1692/stats/fakel/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "5186",
+              "url": "https://www.soccer-rating.com/Fakel-Voronezh/5186/"
             }
           }
         },
@@ -3972,9 +3972,9 @@
           "registryTeamName": "Lokomotiv",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8710",
+              "url": "https://www.fotmob.com/teams/8710/stats/lokomotiv-moscow/teams"
             },
             "soccerRating": {
               "status": "mapped",
@@ -4012,14 +4012,14 @@
           "registryTeamName": "Rubin",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8683",
+              "url": "https://www.fotmob.com/teams/8683/stats/rubin-kazan/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "137",
+              "url": "https://www.soccer-rating.com/Rubin-Kazan/137/"
             }
           }
         },
@@ -4052,14 +4052,14 @@
           "registryTeamName": "Zenit",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8698",
+              "url": "https://www.fotmob.com/teams/8698/stats/zenit-st-petersburg/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "132",
+              "url": "https://www.soccer-rating.com/Zenit-St-Petersburg/132/"
             }
           }
         }
@@ -4067,13 +4067,13 @@
     },
     {
       "competitionId": "211",
-      "competitionName": "Nike Liga",
+      "competitionName": "Niké Liga",
       "countryName": "Slovakia",
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/211.json",
       "teamCount": 12,
-      "matchedRegistryTeams": 12,
-      "missingRegistryTeams": 0,
+      "matchedRegistryTeams": 11,
+      "missingRegistryTeams": 1,
       "teams": [
         {
           "inventoryTeamName": "AS Trencin",
@@ -4096,26 +4096,6 @@
           }
         },
         {
-          "inventoryTeamName": "Dukla",
-          "source": "standings",
-          "matchedRegistry": true,
-          "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
-          "registryTeamName": "Dukla",
-          "sources": {
-            "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
           "inventoryTeamName": "FC DAC 1904",
           "source": "standings",
           "matchedRegistry": true,
@@ -4124,14 +4104,14 @@
           "registryTeamName": "DAC 1904",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "103598",
+              "url": "https://www.fotmob.com/teams/103598/stats/dac-1904-dunajska-streda/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2772",
+              "url": "https://www.soccer-rating.com/DAC-Dunajska-Streda/2772/"
             }
           }
         },
@@ -4149,9 +4129,9 @@
               "url": "https://www.fotmob.com/teams/969268/stats/fc-kosice/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "161",
+              "url": "https://www.soccer-rating.com/FK-Kosice/161/"
             }
           }
         },
@@ -4169,9 +4149,9 @@
               "url": "https://www.fotmob.com/teams/611956/stats/komarno/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9994",
+              "url": "https://www.soccer-rating.com/KFC-Komarno/9994/"
             }
           }
         },
@@ -4229,9 +4209,9 @@
               "url": "https://www.fotmob.com/teams/2437/stats/zeleziarne-podbrezova/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "753",
+              "url": "https://www.soccer-rating.com/ZP-Sport-Podbrezova/753/"
             }
           }
         },
@@ -4264,14 +4244,14 @@
           "registryTeamName": "Slovan",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "6019",
+              "url": "https://www.fotmob.com/teams/6019/stats/slovan-bratislava/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "37",
+              "url": "https://www.soccer-rating.com/Slovan-Bratislava/37/"
             }
           }
         },
@@ -4309,7 +4289,27 @@
               "url": "https://www.fotmob.com/teams/9899/stats/zemplin-michalovce/teams"
             },
             "soccerRating": {
-              "status": "pending",
+              "status": "mapped",
+              "sourceTeamId": "756",
+              "url": "https://www.soccer-rating.com/MFK-Zemplin-Michalovce/756/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Dukla",
+          "source": "standings",
+          "matchedRegistry": false,
+          "matchMethod": null,
+          "sofascoreTeamId": null,
+          "registryTeamName": null,
+          "sources": {
+            "fotmob": {
+              "status": "unknown",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "unknown",
               "sourceTeamId": null,
               "url": null
             }
@@ -4396,14 +4396,14 @@
           "registryTeamName": "Nafta 1903",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2420",
+              "url": "https://www.fotmob.com/teams/2420/stats/nafta/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1114",
+              "url": "https://www.soccer-rating.com/NK-Nafta-Lendava/1114/"
             }
           }
         },
@@ -4436,9 +4436,9 @@
           "registryTeamName": "Bravo",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "856680",
+              "url": "https://www.fotmob.com/teams/856680/stats/nk-bravo/teams"
             },
             "soccerRating": {
               "status": "mapped",
@@ -4456,9 +4456,9 @@
           "registryTeamName": "Celje",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "4622",
+              "url": "https://www.fotmob.com/teams/4622/stats/nk-celje/teams"
             },
             "soccerRating": {
               "status": "mapped",
@@ -4476,14 +4476,14 @@
           "registryTeamName": "Kalcer Radomlje",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "272871",
+              "url": "https://www.fotmob.com/teams/272871/stats/radomlje/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9068",
+              "url": "https://www.soccer-rating.com/NK-Radomlje/9068/"
             }
           }
         },
@@ -4496,14 +4496,14 @@
           "registryTeamName": "Mura",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2172",
+              "url": "https://www.fotmob.com/teams/2172/stats/mura/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "4542",
+              "url": "https://www.soccer-rating.com/NS-Mura/4542/"
             }
           }
         },
@@ -4521,9 +4521,9 @@
               "url": "https://www.fotmob.com/teams/7872/stats/olimpija-ljubljana/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "4540",
+              "url": "https://www.soccer-rating.com/NK-Olimpija-Ljubljana/4540/"
             }
           }
         }
@@ -4548,14 +4548,14 @@
           "registryTeamName": "AD Ceuta",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "357259",
+              "url": "https://www.fotmob.com/teams/357259/stats/ad-ceuta-fc/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2354",
+              "url": "https://www.soccer-rating.com/AD-Ceuta/2354/"
             }
           }
         },
@@ -4568,14 +4568,14 @@
           "registryTeamName": "Albacete",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8393",
+              "url": "https://www.fotmob.com/teams/8393/stats/albacete/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1035",
+              "url": "https://www.soccer-rating.com/Albacete-Balompie/1035/"
             }
           }
         },
@@ -4588,14 +4588,14 @@
           "registryTeamName": "Almería",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9865",
+              "url": "https://www.fotmob.com/teams/9865/stats/almeria/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1058",
+              "url": "https://www.soccer-rating.com/UD-Almeria/1058/"
             }
           }
         },
@@ -4608,14 +4608,14 @@
           "registryTeamName": "Burgos CF",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "7876",
+              "url": "https://www.fotmob.com/teams/7876/stats/burgos-cf/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2318",
+              "url": "https://www.soccer-rating.com/Burgos-CF/2318/"
             }
           }
         },
@@ -4628,14 +4628,14 @@
           "registryTeamName": "Cádiz",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8385",
+              "url": "https://www.fotmob.com/teams/8385/stats/cadiz/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1037",
+              "url": "https://www.soccer-rating.com/Cadiz-CF/1037/"
             }
           }
         },
@@ -4648,14 +4648,14 @@
           "registryTeamName": "Castellón",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10279",
+              "url": "https://www.fotmob.com/teams/10279/stats/castellon/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1050",
+              "url": "https://www.soccer-rating.com/CD-Castellon/1050/"
             }
           }
         },
@@ -4668,14 +4668,14 @@
           "registryTeamName": "CE Sabadell",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "4033",
+              "url": "https://www.fotmob.com/teams/4033/stats/sabadell/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2332",
+              "url": "https://www.soccer-rating.com/CE-Sabadell/2332/"
             }
           }
         },
@@ -4688,14 +4688,14 @@
           "registryTeamName": "Celta de Vigo B",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "161743",
+              "url": "https://www.fotmob.com/teams/161743/stats/celta-fortuna/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2302",
+              "url": "https://www.soccer-rating.com/Celta-de-Vigo-II/2302/"
             }
           }
         },
@@ -4708,14 +4708,14 @@
           "registryTeamName": "Córdoba",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "7869",
+              "url": "https://www.fotmob.com/teams/7869/stats/cordoba/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1040",
+              "url": "https://www.soccer-rating.com/Cordoba-CF/1040/"
             }
           }
         },
@@ -4728,14 +4728,14 @@
           "registryTeamName": "Eibar",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8372",
+              "url": "https://www.fotmob.com/teams/8372/stats/eibar/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1048",
+              "url": "https://www.soccer-rating.com/SD-Eibar/1048/"
             }
           }
         },
@@ -4748,14 +4748,14 @@
           "registryTeamName": "Eldense",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8288",
+              "url": "https://www.fotmob.com/teams/8288/stats/eldense/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9365",
+              "url": "https://www.soccer-rating.com/CD-Eldense/9365/"
             }
           }
         },
@@ -4768,14 +4768,14 @@
           "registryTeamName": "FC Andorra",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "494050",
+              "url": "https://www.fotmob.com/teams/494050/stats/fc-andorra/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "7406",
+              "url": "https://www.soccer-rating.com/Andorra-CF/7406/"
             }
           }
         },
@@ -4788,14 +4788,14 @@
           "registryTeamName": "Girona",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "7732",
+              "url": "https://www.fotmob.com/teams/7732/stats/girona/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2337",
+              "url": "https://www.soccer-rating.com/Girona-FC/2337/"
             }
           }
         },
@@ -4808,14 +4808,14 @@
           "registryTeamName": "Granada",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "7878",
+              "url": "https://www.fotmob.com/teams/7878/stats/granada/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2350",
+              "url": "https://www.soccer-rating.com/Granada-CF/2350/"
             }
           }
         },
@@ -4828,14 +4828,14 @@
           "registryTeamName": "Las Palmas",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8306",
+              "url": "https://www.fotmob.com/teams/8306/stats/las-palmas/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1046",
+              "url": "https://www.soccer-rating.com/UD-Las-Palmas/1046/"
             }
           }
         },
@@ -4848,14 +4848,14 @@
           "registryTeamName": "Leganés",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "7854",
+              "url": "https://www.fotmob.com/teams/7854/stats/leganes/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2298",
+              "url": "https://www.soccer-rating.com/CD-Leganes/2298/"
             }
           }
         },
@@ -4868,14 +4868,14 @@
           "registryTeamName": "Mallorca",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8661",
+              "url": "https://www.fotmob.com/teams/8661/stats/mallorca/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1065",
+              "url": "https://www.soccer-rating.com/RCD-Mallorca/1065/"
             }
           }
         },
@@ -4888,14 +4888,14 @@
           "registryTeamName": "Real Oviedo",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8670",
+              "url": "https://www.fotmob.com/teams/8670/stats/real-oviedo/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "4237",
+              "url": "https://www.soccer-rating.com/Real-Oviedo/4237/"
             }
           }
         },
@@ -4908,14 +4908,14 @@
           "registryTeamName": "Real Sociedad B",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "161744",
+              "url": "https://www.fotmob.com/teams/161744/stats/real-sociedad-b/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2312",
+              "url": "https://www.soccer-rating.com/Real-Sociedad-II/2312/"
             }
           }
         },
@@ -4928,14 +4928,14 @@
           "registryTeamName": "Sporting Gijón",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9869",
+              "url": "https://www.fotmob.com/teams/9869/stats/sporting-gijon/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1053",
+              "url": "https://www.soccer-rating.com/Sporting-Gijon/1053/"
             }
           }
         },
@@ -4948,14 +4948,14 @@
           "registryTeamName": "Tenerife",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "9867",
+              "url": "https://www.fotmob.com/teams/9867/stats/tenerife/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1052",
+              "url": "https://www.soccer-rating.com/CD-Tenerife/1052/"
             }
           }
         },
@@ -4968,14 +4968,14 @@
           "registryTeamName": "Valladolid",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10281",
+              "url": "https://www.fotmob.com/teams/10281/stats/real-valladolid/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1060",
+              "url": "https://www.soccer-rating.com/Real-Valladolid/1060/"
             }
           }
         }
@@ -5005,9 +5005,9 @@
               "url": "https://www.fotmob.com/teams/205684/stats/bukovyna-chernivtsi/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1203",
+              "url": "https://www.soccer-rating.com/Bukovina-Chernovtsy/1203/"
             }
           }
         },
@@ -5025,9 +5025,9 @@
               "url": "https://www.fotmob.com/teams/8666/stats/chornomorets-odesa/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "291",
+              "url": "https://www.soccer-rating.com/Chernomorets-Odessa/291/"
             }
           }
         },
@@ -5045,9 +5045,9 @@
               "url": "https://www.fotmob.com/teams/8688/stats/dynamo-kyiv/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "300",
+              "url": "https://www.soccer-rating.com/Dinamo-Kiev/300/"
             }
           }
         },
@@ -5060,14 +5060,14 @@
           "registryTeamName": "Epicentr",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1395678",
+              "url": "https://www.fotmob.com/teams/1395678/stats/epitsentr-kamianets-podilskyi/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "14761",
+              "url": "https://www.soccer-rating.com/Epicenter-Dunaivtsi/14761/"
             }
           }
         },
@@ -5120,14 +5120,14 @@
           "registryTeamName": "Karpaty",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "8691",
+              "url": "https://www.fotmob.com/teams/8691/stats/karpaty/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "298",
+              "url": "https://www.soccer-rating.com/Karpaty-Lviv/298/"
             }
           }
         },
@@ -5140,14 +5140,14 @@
           "registryTeamName": "Kolos",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "599924",
+              "url": "https://www.fotmob.com/teams/599924/stats/fc-kolos-kovalivka/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "11080",
+              "url": "https://www.soccer-rating.com/Kolos-Kovalivka/11080/"
             }
           }
         },
@@ -5165,9 +5165,9 @@
               "url": "https://www.fotmob.com/teams/558259/stats/kryvbas/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "294",
+              "url": "https://www.soccer-rating.com/Kryvbas-Krivoj-Rog/294/"
             }
           }
         },
@@ -5180,14 +5180,14 @@
           "registryTeamName": "FC Livyi Bereh",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1507991",
+              "url": "https://www.fotmob.com/teams/1507991/stats/liviy-bereh/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "17892",
+              "url": "https://www.soccer-rating.com/FK-Livyi-Bereg-Kiev/17892/"
             }
           }
         },
@@ -5200,14 +5200,14 @@
           "registryTeamName": "LNZ Cherkasy",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2143",
+              "url": "https://www.fotmob.com/teams/2143/stats/lnz-cherkasy/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "16158",
+              "url": "https://www.soccer-rating.com/LNZ-Cherkasy/16158/"
             }
           }
         },
@@ -5220,14 +5220,14 @@
           "registryTeamName": "FC Kharkiv",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "949030",
+              "url": "https://www.fotmob.com/teams/949030/stats/fc-kharkiv/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "292",
+              "url": "https://www.soccer-rating.com/FC-Kharkiv/292/"
             }
           }
         },
@@ -5260,14 +5260,14 @@
           "registryTeamName": "Polissya",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1181312",
+              "url": "https://www.fotmob.com/teams/1181312/stats/polissya-zhytomyr/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "12354",
+              "url": "https://www.soccer-rating.com/Polissya-Zhitomir/12354/"
             }
           }
         },
@@ -5300,14 +5300,14 @@
           "registryTeamName": "Zoria",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "7770",
+              "url": "https://www.fotmob.com/teams/7770/stats/zorya/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "302",
+              "url": "https://www.soccer-rating.com/Zorya-Lugansk/302/"
             }
           }
         }
@@ -5319,21 +5319,623 @@
       "countryName": "Austria",
       "hasStandingsSnapshot": false,
       "standingsPath": null,
-      "teamCount": 0,
-      "matchedRegistryTeams": 0,
+      "teamCount": 12,
+      "matchedRegistryTeams": 12,
       "missingRegistryTeams": 0,
-      "teams": []
+      "teams": [
+        {
+          "inventoryTeamName": "A. Lustenau",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2062",
+          "registryTeamName": "A. Lustenau",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9982",
+              "url": "https://www.fotmob.com/teams/9982/stats/austria-lustenau/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1377",
+              "url": "https://www.soccer-rating.com/SC-Austria-Lustenau/1377/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Altach",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "4856",
+          "registryTeamName": "Altach",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10008",
+              "url": "https://www.fotmob.com/teams/10008/stats/altach/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "186",
+              "url": "https://www.soccer-rating.com/SCR-Altach/186/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Austria Wien",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2203",
+          "registryTeamName": "Austria Wien",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10011",
+              "url": "https://www.fotmob.com/teams/10011/stats/austria-wien/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "188",
+              "url": "https://www.soccer-rating.com/Austria-Wien/188/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "GAK",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2052",
+          "registryTeamName": "GAK",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10012",
+              "url": "https://www.fotmob.com/teams/10012/stats/grazer-ak/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1767",
+              "url": "https://www.soccer-rating.com/Grazer-AK/1767/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Hartberg",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2075",
+          "registryTeamName": "Hartberg",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10056",
+              "url": "https://www.fotmob.com/teams/10056/stats/hartberg/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1770",
+              "url": "https://www.soccer-rating.com/TSV-Hartberg/1770/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "LASK",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2058",
+          "registryTeamName": "LASK",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9977",
+              "url": "https://www.fotmob.com/teams/9977/stats/lask/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "181",
+              "url": "https://www.soccer-rating.com/LASK-Linz/181/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Rapid",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2055",
+          "registryTeamName": "Rapid",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10015",
+              "url": "https://www.fotmob.com/teams/10015/stats/rapid-wien/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "183",
+              "url": "https://www.soccer-rating.com/Rapid-Wien/183/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "RB Salzburg",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2046",
+          "registryTeamName": "RB Salzburg",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10013",
+              "url": "https://www.fotmob.com/teams/10013/stats/fc-red-bull-salzburg/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "185",
+              "url": "https://www.soccer-rating.com/Red-Bull-Salzburg/185/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Ried",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2049",
+          "registryTeamName": "Ried",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10017",
+              "url": "https://www.fotmob.com/teams/10017/stats/ried/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "189",
+              "url": "https://www.soccer-rating.com/SV-Ried/189/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Sturm",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2051",
+          "registryTeamName": "Sturm",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10014",
+              "url": "https://www.fotmob.com/teams/10014/stats/sturm-graz/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "187",
+              "url": "https://www.soccer-rating.com/Sturm-Graz/187/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Tirol",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "5405",
+          "registryTeamName": "Tirol",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1583",
+              "url": "https://www.fotmob.com/teams/1583/stats/wsg-tirol/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1308",
+              "url": "https://www.soccer-rating.com/WSG-Tirol/1308/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "WAC",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2076",
+          "registryTeamName": "WAC",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1954",
+              "url": "https://www.fotmob.com/teams/1954/stats/wolfsberger-ac/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1340",
+              "url": "https://www.soccer-rating.com/Wolfsberger-AC/1340/"
+            }
+          }
+        }
+      ]
     },
     {
-      "competitionId": "40",
+      "competitionId": "38",
       "competitionName": "Pro League",
       "countryName": "Belgium",
       "hasStandingsSnapshot": false,
       "standingsPath": null,
-      "teamCount": 0,
-      "matchedRegistryTeams": 0,
+      "teamCount": 18,
+      "matchedRegistryTeams": 18,
       "missingRegistryTeams": 0,
-      "teams": []
+      "teams": [
+        {
+          "inventoryTeamName": "Anderlecht",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2900",
+          "registryTeamName": "Anderlecht",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8635",
+              "url": "https://www.fotmob.com/teams/8635/stats/anderlecht/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "914",
+              "url": "https://www.soccer-rating.com/RSC-Anderlecht/914/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Beveren",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "4859",
+          "registryTeamName": "Beveren",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8475",
+              "url": "https://www.fotmob.com/teams/8475/stats/sk-beveren/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1519",
+              "url": "https://www.soccer-rating.com/SK-Beveren/1519/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Cercle Brugge",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2929",
+          "registryTeamName": "Cercle Brugge",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9984",
+              "url": "https://www.fotmob.com/teams/9984/stats/cercle-brugge/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "916",
+              "url": "https://www.soccer-rating.com/Cercle-Bruegge/916/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Charleroi",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2898",
+          "registryTeamName": "Charleroi",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9986",
+              "url": "https://www.fotmob.com/teams/9986/stats/sporting-charleroi/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "917",
+              "url": "https://www.soccer-rating.com/SC-Charleroi/917/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Club Brugge",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2888",
+          "registryTeamName": "Club Brugge",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8342",
+              "url": "https://www.fotmob.com/teams/8342/stats/club-brugge/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "905",
+              "url": "https://www.soccer-rating.com/FC-Bruegge/905/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Genk",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2890",
+          "registryTeamName": "Genk",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9987",
+              "url": "https://www.fotmob.com/teams/9987/stats/genk/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "915",
+              "url": "https://www.soccer-rating.com/KRC-Genk/915/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Gent",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2903",
+          "registryTeamName": "Gent",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9991",
+              "url": "https://www.fotmob.com/teams/9991/stats/gent/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "641",
+              "url": "https://www.soccer-rating.com/KAA-Gent/641/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Kortrijk",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "4858",
+          "registryTeamName": "Kortrijk",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8571",
+              "url": "https://www.fotmob.com/teams/8571/stats/kortrijk/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1507",
+              "url": "https://www.soccer-rating.com/KV-Kortrijk/1507/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "La Louvière",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "368506",
+          "registryTeamName": "La Louvière",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1218969",
+              "url": "https://www.fotmob.com/teams/1218969/stats/raal-la-louviere/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "16440",
+              "url": "https://www.soccer-rating.com/Raal-La-Louviere/16440/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Lommel",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "5046",
+          "registryTeamName": "Lommel",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6702",
+              "url": "https://www.fotmob.com/teams/6702/stats/lommel/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1509",
+              "url": "https://www.soccer-rating.com/Lommel-SK/1509/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Mechelen",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "5044",
+          "registryTeamName": "Mechelen",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8203",
+              "url": "https://www.fotmob.com/teams/8203/stats/kv-mechelen/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "913",
+              "url": "https://www.soccer-rating.com/KV-Mechelen/913/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "OH Leuven",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2918",
+          "registryTeamName": "OH Leuven",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1773",
+              "url": "https://www.fotmob.com/teams/1773/stats/oh-leuven/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1520",
+              "url": "https://www.soccer-rating.com/Oud-Heverlee-Leuven/1520/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Royal Antwerp",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2889",
+          "registryTeamName": "Royal Antwerp",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9988",
+              "url": "https://www.fotmob.com/teams/9988/stats/royal-antwerp/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1518",
+              "url": "https://www.soccer-rating.com/Royal-Antwerp/1518/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "St. Truidense",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2895",
+          "registryTeamName": "St. Truidense",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9997",
+              "url": "https://www.fotmob.com/teams/9997/stats/sttruiden/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "912",
+              "url": "https://www.soccer-rating.com/VV-St-Truiden/912/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Standard Liège",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2901",
+          "registryTeamName": "Standard Liège",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9985",
+              "url": "https://www.fotmob.com/teams/9985/stats/standard-liege/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "920",
+              "url": "https://www.soccer-rating.com/Standard-Liege/920/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "USG",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "4860",
+          "registryTeamName": "USG",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "7978",
+              "url": "https://www.fotmob.com/teams/7978/stats/union-stgilloise/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1508",
+              "url": "https://www.soccer-rating.com/Union-Saint-Gilloise/1508/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Westerlo",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2893",
+          "registryTeamName": "Westerlo",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10001",
+              "url": "https://www.fotmob.com/teams/10001/stats/westerlo/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "908",
+              "url": "https://www.soccer-rating.com/KVC-Westerlo/908/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Zulte Waregem",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2933",
+          "registryTeamName": "Zulte Waregem",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10000",
+              "url": "https://www.fotmob.com/teams/10000/stats/zulte-waregem/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "919",
+              "url": "https://www.soccer-rating.com/SV-Zulte-Waregem/919/"
+            }
+          }
+        }
+      ]
     },
     {
       "competitionId": "49",
@@ -5354,14 +5956,14 @@
           "registryTeamName": "Dukla Praha",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "88657",
+              "url": "https://www.fotmob.com/teams/88657/stats/dukla-praha/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1366",
+              "url": "https://www.soccer-rating.com/FK-Dukla-Praha/1366/"
             }
           }
         }
@@ -5593,14 +6195,14 @@
           "registryTeamName": "Atletico",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "4665",
+              "url": "https://www.fotmob.com/teams/4665/stats/atletico/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2991",
+              "url": "https://www.soccer-rating.com/Atletico-Clube-de-Portugal/2991/"
             }
           }
         },
@@ -5618,9 +6220,9 @@
               "url": "https://www.fotmob.com/teams/1296841/stats/cf-os-belenenses/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "16204",
+              "url": "https://www.soccer-rating.com/CF-Os-Belenenses/16204/"
             }
           }
         },
@@ -5678,9 +6280,9 @@
               "url": "https://www.fotmob.com/teams/6008/stats/leca/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2967",
+              "url": "https://www.soccer-rating.com/Leca-FC/2967/"
             }
           }
         },
@@ -5693,14 +6295,14 @@
           "registryTeamName": "Louletano",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1939",
+              "url": "https://www.fotmob.com/teams/1939/stats/louletano/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2992",
+              "url": "https://www.soccer-rating.com/Louletano-DC/2992/"
             }
           }
         },
@@ -5718,9 +6320,9 @@
               "url": "https://www.fotmob.com/teams/888452/stats/lusitano-de-evora/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "14304",
+              "url": "https://www.soccer-rating.com/Lusitano-Ginasio-Clube/14304/"
             }
           }
         },
@@ -5773,14 +6375,14 @@
           "registryTeamName": "Oliveirense",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1785",
+              "url": "https://www.fotmob.com/teams/1785/stats/oliveirense/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2971",
+              "url": "https://www.soccer-rating.com/UD-Oliveirense/2971/"
             }
           }
         },
@@ -5833,14 +6435,14 @@
           "registryTeamName": "São João Ver",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "238631",
+              "url": "https://www.fotmob.com/teams/238631/stats/sc-joao-ver/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "6897",
+              "url": "https://www.soccer-rating.com/SC-Sao-Jao-Ver/6897/"
             }
           }
         },
@@ -5873,14 +6475,14 @@
           "registryTeamName": "União Santarém",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1074312",
+              "url": "https://www.fotmob.com/teams/1074312/stats/santarem/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "14826",
+              "url": "https://www.soccer-rating.com/UD-Santarem/14826/"
             }
           }
         },
@@ -5958,9 +6560,9 @@
               "url": "https://www.fotmob.com/teams/560912/stats/vitoria-de-sernache/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "16234",
+              "url": "https://www.soccer-rating.com/GD-Vitoria-Sernache/16234/"
             }
           }
         }
