@@ -4944,12 +4944,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "bukovyna",
+          "status": "mapped",
+          "sourceTeamId": "1203",
+          "teamSlug": "bukovina-chernovtsy",
           "countrySlug": "ukraine",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Bukovina-Chernovtsy/1203/",
+          "notes": null
         }
       }
     },
@@ -4974,12 +4974,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "chornomorets",
+          "status": "mapped",
+          "sourceTeamId": "291",
+          "teamSlug": "chernomorets-odessa",
           "countrySlug": "ukraine",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Chernomorets-Odessa/291/",
+          "notes": null
         }
       }
     },
@@ -4995,21 +4995,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1395678",
           "teamSlug": "epitsentr-kamianets-podilskyi",
           "competitionId": "218",
           "competitionSlug": "premier-league",
-          "url": null,
-          "notes": "manual match name: FotMob = Epitsentr Kamianets-Podilskyi"
+          "url": "https://www.fotmob.com/teams/1395678/stats/epitsentr-kamianets-podilskyi/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "14761",
           "teamSlug": "epicenter-dunaivtsi",
           "countrySlug": "ukraine",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Epicenter Dunaivtsi"
+          "url": "https://www.soccer-rating.com/Epicenter-Dunaivtsi/14761/",
+          "notes": null
         }
       }
     },
@@ -5025,21 +5025,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "metalist-kharkiv",
+          "status": "mapped",
+          "sourceTeamId": "949030",
+          "teamSlug": "fc-kharkiv",
           "competitionId": "218",
           "competitionSlug": "premier-league",
-          "url": null,
-          "notes": "manual match name: FotMob = Metalist Kharkiv"
+          "url": "https://www.fotmob.com/teams/949030/stats/fc-kharkiv/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "292",
           "teamSlug": "fc-kharkiv",
           "countrySlug": "ukraine",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = FC Kharkiv"
+          "url": "https://www.soccer-rating.com/FC-Kharkiv/292/",
+          "notes": null
         }
       }
     },
@@ -5055,21 +5055,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "fc-livyi-bereh",
+          "status": "mapped",
+          "sourceTeamId": "1507991",
+          "teamSlug": "liviy-bereh",
           "competitionId": "218",
           "competitionSlug": "premier-league",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/1507991/stats/liviy-bereh/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "fc-livyi-bereh",
+          "status": "mapped",
+          "sourceTeamId": "17892",
+          "teamSlug": "fk-livyi-bereg-kiev",
           "countrySlug": "ukraine",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/FK-Livyi-Bereg-Kiev/17892/",
+          "notes": null
         }
       }
     },
@@ -5085,20 +5085,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8691",
           "teamSlug": "karpaty",
           "competitionId": "218",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8691/stats/karpaty/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "karpaty",
+          "status": "mapped",
+          "sourceTeamId": "298",
+          "teamSlug": "karpaty-lviv",
           "countrySlug": "ukraine",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Karpaty-Lviv/298/",
           "notes": null
         }
       }
@@ -5115,21 +5115,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "599924",
           "teamSlug": "fc-kolos-kovalivka",
           "competitionId": "218",
           "competitionSlug": "premier-league",
-          "url": null,
-          "notes": "manual match name: FotMob = FC Kolos Kovalivka"
+          "url": "https://www.fotmob.com/teams/599924/stats/fc-kolos-kovalivka/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "11080",
           "teamSlug": "kolos-kovalivka",
           "countrySlug": "ukraine",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Kolos Kovalivka"
+          "url": "https://www.soccer-rating.com/Kolos-Kovalivka/11080/",
+          "notes": null
         }
       }
     },
@@ -5154,12 +5154,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "kryvbas",
+          "status": "mapped",
+          "sourceTeamId": "294",
+          "teamSlug": "kryvbas-krivoj-rog",
           "countrySlug": "ukraine",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Kryvbas-Krivoj-Rog/294/",
+          "notes": null
         }
       }
     },
@@ -5205,20 +5205,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "2143",
           "teamSlug": "lnz-cherkasy",
           "competitionId": "218",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/2143/stats/lnz-cherkasy/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "16158",
           "teamSlug": "lnz-cherkasy",
           "countrySlug": "ukraine",
-          "url": null,
+          "url": "https://www.soccer-rating.com/LNZ-Cherkasy/16158/",
           "notes": null
         }
       }
@@ -5265,20 +5265,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "polissya",
+          "status": "mapped",
+          "sourceTeamId": "1181312",
+          "teamSlug": "polissya-zhytomyr",
           "competitionId": "218",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1181312/stats/polissya-zhytomyr/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "polissya",
+          "status": "mapped",
+          "sourceTeamId": "12354",
+          "teamSlug": "polissya-zhitomir",
           "countrySlug": "ukraine",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Polissya-Zhitomir/12354/",
           "notes": null
         }
       }
@@ -5325,21 +5325,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "7770",
           "teamSlug": "zorya",
           "competitionId": "218",
           "competitionSlug": "premier-league",
-          "url": null,
-          "notes": "manual match name: FotMob = Zorya"
+          "url": "https://www.fotmob.com/teams/7770/stats/zorya/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "302",
           "teamSlug": "zorya-lugansk",
           "countrySlug": "ukraine",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Zorya Lugansk"
+          "url": "https://www.soccer-rating.com/Zorya-Lugansk/302/",
+          "notes": null
         }
       }
     },
@@ -8694,12 +8694,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dynamo-kyiv",
+          "status": "mapped",
+          "sourceTeamId": "300",
+          "teamSlug": "dinamo-kiev",
           "countrySlug": "ukraine",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Dinamo-Kiev/300/",
+          "notes": null
         }
       }
     },
