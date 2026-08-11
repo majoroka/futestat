@@ -1944,12 +1944,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "114",
           "teamSlug": "fk-bodo-glimt",
           "countrySlug": "norway",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = FK Bodö/Glimt"
+          "url": "https://www.soccer-rating.com/FK-Bodo-Glimt/114/",
+          "notes": null
         }
       }
     },
@@ -1996,20 +1996,20 @@
       "sources": {
         "fotmob": {
           "status": "mapped",
-          "sourceTeamId": "1439771",
-          "teamSlug": "ik-start-w",
+          "sourceTeamId": "9919",
+          "teamSlug": "start",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": "https://www.fotmob.com/teams/1439771/stats/ik-start-w/teams",
+          "url": "https://www.fotmob.com/teams/9919/stats/start/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "ik-start",
+          "status": "mapped",
+          "sourceTeamId": "79",
+          "teamSlug": "ik-start-kristiansand",
           "countrySlug": "norway",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/IK-Start-Kristiansand/79/",
+          "notes": null
         }
       }
     },
@@ -2064,12 +2064,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "76",
           "teamSlug": "lillestrom-sk",
           "countrySlug": "norway",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Lilleström SK"
+          "url": "https://www.soccer-rating.com/Lillestrom-SK/76/",
+          "notes": null
         }
       }
     },
@@ -2125,10 +2125,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "422",
-          "teamSlug": "rosenborg-bk-ii",
+          "sourceTeamId": "83",
+          "teamSlug": "rosenborg-trondheim",
           "countrySlug": "norway",
-          "url": "https://www.soccer-rating.com/Rosenborg-BK-II/422/",
+          "url": "https://www.soccer-rating.com/Rosenborg-Trondheim/83/",
           "notes": null
         }
       }
@@ -6864,12 +6864,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "aalesund",
+          "status": "mapped",
+          "sourceTeamId": "84",
+          "teamSlug": "aalesunds-fk",
           "countrySlug": "norway",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Aalesunds-FK/84/",
+          "notes": null
         }
       }
     },
@@ -6885,21 +6885,21 @@
       "lastSeenReferenceDate": "2026-08-02",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8468",
           "teamSlug": "brann",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
-          "notes": "manual match name: FotMob = Brann"
+          "url": "https://www.fotmob.com/teams/8468/stats/brann/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "81",
           "teamSlug": "sk-brann-bergen",
           "countrySlug": "norway",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = SK Brann Bergen"
+          "url": "https://www.soccer-rating.com/SK-Brann-Bergen/81/",
+          "notes": null
         }
       }
     },
@@ -6916,11 +6916,11 @@
       "sources": {
         "fotmob": {
           "status": "mapped",
-          "sourceTeamId": "1439770",
-          "teamSlug": "hamkam-w",
+          "sourceTeamId": "8448",
+          "teamSlug": "hamarkameratene",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": "https://www.fotmob.com/teams/1439770/stats/hamkam-w/teams",
+          "url": "https://www.fotmob.com/teams/8448/stats/hamarkameratene/teams",
           "notes": null
         },
         "soccerRating": {
@@ -6945,13 +6945,13 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "2305",
           "teamSlug": "kfum",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
-          "notes": "manual match name: FotMob = KFUM"
+          "url": "https://www.fotmob.com/teams/2305/stats/kfum/teams",
+          "notes": null
         },
         "soccerRating": {
           "status": "mapped",
@@ -6985,10 +6985,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "7755",
-          "teamSlug": "sandefjord-bk",
+          "sourceTeamId": "75",
+          "teamSlug": "sandefjord-fotball",
           "countrySlug": "norway",
-          "url": "https://www.soccer-rating.com/Sandefjord-BK/7755/",
+          "url": "https://www.soccer-rating.com/Sandefjord-Fotball/75/",
           "notes": null
         }
       }
@@ -7005,21 +7005,21 @@
       "lastSeenReferenceDate": "2026-08-06",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8608",
           "teamSlug": "tromso",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
-          "notes": "manual match name: FotMob = Tromsø"
+          "url": "https://www.fotmob.com/teams/8608/stats/tromso/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "82",
           "teamSlug": "tromso-il",
           "countrySlug": "norway",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Tromsö IL"
+          "url": "https://www.soccer-rating.com/Tromso-IL/82/",
+          "notes": null
         }
       }
     },
