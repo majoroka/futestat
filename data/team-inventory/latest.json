@@ -1,6 +1,6 @@
 {
   "source": "whitelist-plus-standings",
-  "generatedAtUtc": "2026-08-11T13:59:44.837Z",
+  "generatedAtUtc": "2026-08-11T14:58:51.914Z",
   "referenceDate": "2026-08-09",
   "registryPath": "data/team-source-registry.json",
   "standingsDir": "data/fixtures/standings",
@@ -8,9 +8,9 @@
     "competitions": 36,
     "competitionsWithStandings": 12,
     "competitionsWithoutStandings": 24,
-    "teams": 216,
-    "matchedRegistryTeams": 207,
-    "missingRegistryTeams": 9
+    "teams": 217,
+    "matchedRegistryTeams": 216,
+    "missingRegistryTeams": 1
   },
   "competitions": [
     {
@@ -1044,8 +1044,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/247.json",
       "teamCount": 14,
-      "matchedRegistryTeams": 14,
-      "missingRegistryTeams": 0,
+      "matchedRegistryTeams": 13,
+      "missingRegistryTeams": 1,
       "teams": [
         {
           "inventoryTeamName": "Arda Kardzhali",
@@ -1124,26 +1124,6 @@
               "status": "mapped",
               "sourceTeamId": "644",
               "url": "https://www.soccer-rating.com/Cherno-More-Varna/644/"
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "CSKA 1948",
-          "source": "standings",
-          "matchedRegistry": true,
-          "matchMethod": "heuristic_name",
-          "sofascoreTeamId": "252080",
-          "registryTeamName": "CSKA 1948 Sofia",
-          "sources": {
-            "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "mapped",
-              "sourceTeamId": "13235",
-              "url": "https://www.soccer-rating.com/CSKA-1948-Sofia/13235/"
             }
           }
         },
@@ -1322,6 +1302,26 @@
             },
             "soccerRating": {
               "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "CSKA 1948",
+          "source": "standings",
+          "matchedRegistry": false,
+          "matchMethod": null,
+          "sofascoreTeamId": null,
+          "registryTeamName": null,
+          "sources": {
+            "fotmob": {
+              "status": "unknown",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "unknown",
               "sourceTeamId": null,
               "url": null
             }
@@ -1880,8 +1880,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/238.json",
       "teamCount": 18,
-      "matchedRegistryTeams": 17,
-      "missingRegistryTeams": 1,
+      "matchedRegistryTeams": 18,
+      "missingRegistryTeams": 0,
       "teams": [
         {
           "inventoryTeamName": "Académico",
@@ -1940,6 +1940,26 @@
               "status": "mapped",
               "sourceTeamId": "6011",
               "url": "https://www.soccer-rating.com/Casa-Pia-AC/6011/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Est. Amadora",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "3035",
+          "registryTeamName": "Estrela Amadora",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1074320",
+              "url": "https://www.fotmob.com/teams/1074320/stats/estrela-da-amadora/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1080",
+              "url": "https://www.soccer-rating.com/CF-Estrela/1080/"
             }
           }
         },
@@ -2222,26 +2242,6 @@
               "url": "https://www.soccer-rating.com/Vitoria-Guimaraes/1089/"
             }
           }
-        },
-        {
-          "inventoryTeamName": "Est. Amadora",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
         }
       ]
     },
@@ -2252,8 +2252,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/239.json",
       "teamCount": 18,
-      "matchedRegistryTeams": 17,
-      "missingRegistryTeams": 1,
+      "matchedRegistryTeams": 18,
+      "missingRegistryTeams": 0,
       "teams": [
         {
           "inventoryTeamName": "Académica OAF",
@@ -2272,6 +2272,26 @@
               "status": "pending",
               "sourceTeamId": null,
               "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "AFS",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "483088",
+          "registryTeamName": "AVS",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1091",
+              "url": "https://www.soccer-rating.com/AVS-Futebol/1091/"
             }
           }
         },
@@ -2594,26 +2614,6 @@
               "url": "https://www.soccer-rating.com/Uniao-Leiria/1087/"
             }
           }
-        },
-        {
-          "inventoryTeamName": "AFS",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
         }
       ]
     },
@@ -2624,8 +2624,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/152.json",
       "teamCount": 16,
-      "matchedRegistryTeams": 13,
-      "missingRegistryTeams": 3,
+      "matchedRegistryTeams": 16,
+      "missingRegistryTeams": 0,
       "teams": [
         {
           "inventoryTeamName": "Arges Pitesti",
@@ -2736,9 +2736,9 @@
           "registryTeamName": "Farul Constanța",
           "sources": {
             "fotmob": {
-              "status": "mapped",
-              "sourceTeamId": "1658600",
-              "url": "https://www.fotmob.com/teams/1658600/stats/farul-constanta-w/teams"
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
             },
             "soccerRating": {
               "status": "mapped",
@@ -2868,6 +2868,66 @@
           }
         },
         {
+          "inventoryTeamName": "Universitatea Cluj",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "7734",
+          "registryTeamName": "U. Cluj",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Universitatea Craiova",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "116223",
+          "registryTeamName": "U. Craiova",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "UTA Arad",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "204657",
+          "registryTeamName": "UTA",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
           "inventoryTeamName": "Voluntari",
           "source": "standings",
           "matchedRegistry": true,
@@ -2882,66 +2942,6 @@
             },
             "soccerRating": {
               "status": "pending",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Universitatea Cluj",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Universitatea Craiova",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "UTA Arad",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
               "sourceTeamId": null,
               "url": null
             }
@@ -2983,9 +2983,9 @@
           "inventoryTeamName": "Akron Togliatti",
           "source": "standings",
           "matchedRegistry": true,
-          "matchMethod": "heuristic_name",
+          "matchMethod": "normalized_name",
           "sofascoreTeamId": "285689",
-          "registryTeamName": "Akron",
+          "registryTeamName": "Akron Togliatti",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -3003,9 +3003,9 @@
           "inventoryTeamName": "Baltika Kaliningrad",
           "source": "standings",
           "matchedRegistry": true,
-          "matchMethod": "heuristic_name",
+          "matchMethod": "normalized_name",
           "sofascoreTeamId": "7517",
-          "registryTeamName": "Baltika",
+          "registryTeamName": "Baltika Kaliningrad",
           "sources": {
             "fotmob": {
               "status": "mapped",
@@ -3025,7 +3025,7 @@
           "matchedRegistry": true,
           "matchMethod": "heuristic_name",
           "sofascoreTeamId": "2325",
-          "registryTeamName": "CSKA",
+          "registryTeamName": "CSKA Moscow",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -3044,18 +3044,18 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "heuristic_name",
-          "sofascoreTeamId": "2315",
-          "registryTeamName": "Dynamo",
+          "sofascoreTeamId": "362016",
+          "registryTeamName": "Dinamo Makhachkala",
           "sources": {
             "fotmob": {
-              "status": "mapped",
-              "sourceTeamId": "8688",
-              "url": "https://www.fotmob.com/teams/8688/stats/dynamo-kyiv/teams"
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
             },
             "soccerRating": {
               "status": "mapped",
-              "sourceTeamId": "11075",
-              "url": "https://www.soccer-rating.com/FK-Legion-Dynamo/11075/"
+              "sourceTeamId": "13992",
+              "url": "https://www.soccer-rating.com/Dinamo-Makhachkala/13992/"
             }
           }
         },
@@ -3065,17 +3065,17 @@
           "matchedRegistry": true,
           "matchMethod": "heuristic_name",
           "sofascoreTeamId": "2315",
-          "registryTeamName": "Dynamo",
+          "registryTeamName": "Dynamo Moscow",
           "sources": {
             "fotmob": {
-              "status": "mapped",
-              "sourceTeamId": "8688",
-              "url": "https://www.fotmob.com/teams/8688/stats/dynamo-kyiv/teams"
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
             },
             "soccerRating": {
-              "status": "mapped",
-              "sourceTeamId": "11075",
-              "url": "https://www.soccer-rating.com/FK-Legion-Dynamo/11075/"
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
             }
           }
         },
@@ -3083,9 +3083,9 @@
           "inventoryTeamName": "Fakel Voronezh",
           "source": "standings",
           "matchedRegistry": true,
-          "matchMethod": "heuristic_name",
+          "matchMethod": "normalized_name",
           "sofascoreTeamId": "2317",
-          "registryTeamName": "Fakel",
+          "registryTeamName": "Fakel Voronezh",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -3223,9 +3223,9 @@
           "inventoryTeamName": "Rubin Kazan",
           "source": "standings",
           "matchedRegistry": true,
-          "matchMethod": "heuristic_name",
+          "matchMethod": "normalized_name",
           "sofascoreTeamId": "2333",
-          "registryTeamName": "Rubin",
+          "registryTeamName": "Rubin Kazan",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -3288,8 +3288,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/211.json",
       "teamCount": 12,
-      "matchedRegistryTeams": 11,
-      "missingRegistryTeams": 1,
+      "matchedRegistryTeams": 12,
+      "missingRegistryTeams": 0,
       "teams": [
         {
           "inventoryTeamName": "AS Trencin",
@@ -3308,6 +3308,26 @@
               "status": "mapped",
               "sourceTeamId": "166",
               "url": "https://www.soccer-rating.com/AS-Trencin/166/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Dukla",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "4503",
+          "registryTeamName": "Dukla Banská Bystrica",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "160",
+              "url": "https://www.soccer-rating.com/Dukla-Banska-Bystrica/160/"
             }
           }
         },
@@ -3455,9 +3475,9 @@
           "inventoryTeamName": "Slovan Bratislava",
           "source": "standings",
           "matchedRegistry": true,
-          "matchMethod": "heuristic_name",
+          "matchMethod": "normalized_name",
           "sofascoreTeamId": "2404",
-          "registryTeamName": "Slovan",
+          "registryTeamName": "Slovan Bratislava",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -3506,26 +3526,6 @@
             },
             "soccerRating": {
               "status": "pending",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Dukla",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
               "sourceTeamId": null,
               "url": null
             }
@@ -3752,8 +3752,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/218.json",
       "teamCount": 16,
-      "matchedRegistryTeams": 13,
-      "missingRegistryTeams": 3,
+      "matchedRegistryTeams": 16,
+      "missingRegistryTeams": 0,
       "teams": [
         {
           "inventoryTeamName": "Bukovyna",
@@ -3807,6 +3807,26 @@
               "status": "mapped",
               "sourceTeamId": "8688",
               "url": "https://www.fotmob.com/teams/8688/stats/dynamo-kyiv/teams"
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Epitsentr Dunaivtsi",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "323552",
+          "registryTeamName": "Epicentr Dunaivtsi",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
             },
             "soccerRating": {
               "status": "pending",
@@ -3879,9 +3899,9 @@
           "inventoryTeamName": "Kolos Kovalivka",
           "source": "standings",
           "matchedRegistry": true,
-          "matchMethod": "heuristic_name",
+          "matchMethod": "normalized_name",
           "sofascoreTeamId": "200776",
-          "registryTeamName": "Kolos",
+          "registryTeamName": "Kolos Kovalivka",
           "sources": {
             "fotmob": {
               "status": "pending",
@@ -3956,6 +3976,26 @@
           }
         },
         {
+          "inventoryTeamName": "Metalist 1925 Kharkov",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "266889",
+          "registryTeamName": "Metalist Kharkiv",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
           "inventoryTeamName": "Obolon-Brovar",
           "source": "standings",
           "matchedRegistry": true,
@@ -4016,60 +4056,20 @@
           }
         },
         {
-          "inventoryTeamName": "Epitsentr Dunaivtsi",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Metalist 1925 Kharkov",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
           "inventoryTeamName": "Zorya",
           "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
+          "matchedRegistry": true,
+          "matchMethod": "heuristic_name",
+          "sofascoreTeamId": "312677",
+          "registryTeamName": "Zorya Lugansk",
           "sources": {
             "fotmob": {
-              "status": "unknown",
+              "status": "pending",
               "sourceTeamId": null,
               "url": null
             },
             "soccerRating": {
-              "status": "unknown",
+              "status": "pending",
               "sourceTeamId": null,
               "url": null
             }
@@ -4105,10 +4105,31 @@
       "countryName": "Czech Republic",
       "hasStandingsSnapshot": false,
       "standingsPath": null,
-      "teamCount": 0,
-      "matchedRegistryTeams": 0,
+      "teamCount": 1,
+      "matchedRegistryTeams": 1,
       "missingRegistryTeams": 0,
-      "teams": []
+      "teams": [
+        {
+          "inventoryTeamName": "Dukla Praha",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "7739",
+          "registryTeamName": "Dukla Praha",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        }
+      ]
     },
     {
       "competitionId": "39",

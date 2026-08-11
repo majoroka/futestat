@@ -608,6 +608,223 @@ test("generateTeamInventoryReport matches naming variants from Portugal and Roma
   assertTeamMatch(romania.teams, "UTA Arad", "UTA", "heuristic_name");
 });
 
+test("generateTeamInventoryReport matches transliterated variants from Russia, Slovakia, Slovenia and Ukraine", async () => {
+  const repoRoot = await mkdtemp(path.join(os.tmpdir(), "futestat-team-inventory-east-"));
+  await mkdir(path.join(repoRoot, "data", "fixtures", "standings"), { recursive: true });
+  await mkdir(path.join(repoRoot, "data"), { recursive: true });
+
+  await writeFile(
+    path.join(repoRoot, "data", "team-source-registry.json"),
+    JSON.stringify(
+      {
+        generatedAtUtc: "2026-08-11T12:00:00Z",
+        referenceDate: "2026-08-11",
+        snapshotPath: "data/fixtures/latest.json",
+        entries: [
+          createEuropeanRegistryEntry("285689", "Akron Togliatti", "203", "Premier League", "Russia"),
+          createEuropeanRegistryEntry("2325", "CSKA Moscow", "203", "Premier League", "Russia"),
+          createEuropeanRegistryEntry("362016", "Dinamo Makhachkala", "203", "Premier League", "Russia"),
+          createEuropeanRegistryEntry("2315", "Dynamo Moscow", "203", "Premier League", "Russia"),
+          createEuropeanRegistryEntry("2317", "Fakel Voronezh", "203", "Premier League", "Russia"),
+          createEuropeanRegistryEntry("2333", "Rubin Kazan", "203", "Premier League", "Russia"),
+          createEuropeanRegistryEntry("4503", "Dukla Banská Bystrica", "211", "Niké Liga", "Slovakia"),
+          createEuropeanRegistryEntry("2404", "Slovan Bratislava", "211", "Niké Liga", "Slovakia"),
+          createEuropeanRegistryEntry("37737", "Kalcer Radomlje", "212", "PrvaLiga", "Slovenia"),
+          createEuropeanRegistryEntry("213357", "Mura", "212", "PrvaLiga", "Slovenia"),
+          createEuropeanRegistryEntry("2416", "Olimpija", "212", "PrvaLiga", "Slovenia"),
+          createEuropeanRegistryEntry("323552", "Epicentr Dunaivtsi", "218", "Premier League", "Ukraine"),
+          createEuropeanRegistryEntry("200773", "Veres Rivne", "218", "Premier League", "Ukraine"),
+          createEuropeanRegistryEntry("266889", "Metalist Kharkiv", "218", "Premier League", "Ukraine"),
+          createEuropeanRegistryEntry("200776", "Kolos Kovalivka", "218", "Premier League", "Ukraine"),
+          createEuropeanRegistryEntry("312677", "Zorya Lugansk", "218", "Premier League", "Ukraine"),
+        ],
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  await writeFile(
+    path.join(repoRoot, "data", "fixtures", "standings", "203.json"),
+    JSON.stringify(
+      {
+        source: "zerozero",
+        competitionId: "203",
+        competitionName: "Premier League",
+        countryName: "Russia",
+        zerozeroUrl: "https://example.com/203",
+        mode: "single_table",
+        status: "ready",
+        scrapedAtUtc: "2026-08-11T11:00:00Z",
+        editionId: "1",
+        phaseId: "2",
+        phaseName: "Premier League",
+        phaseNotes: [],
+        ruleProfileId: null,
+        tables: [
+          {
+            name: "Premier League",
+            type: "single_table",
+            rows: [
+              createStandingRow(1, "Akron Togliatti"),
+              createStandingRow(2, "CSKA Moskva"),
+              createStandingRow(3, "Dynamo Makhachkala"),
+              createStandingRow(4, "Dynamo Moskva"),
+              createStandingRow(5, "Fakel Voronezh"),
+              createStandingRow(6, "Rubin Kazan"),
+            ],
+          },
+        ],
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  await writeFile(
+    path.join(repoRoot, "data", "fixtures", "standings", "211.json"),
+    JSON.stringify(
+      {
+        source: "zerozero",
+        competitionId: "211",
+        competitionName: "Niké Liga",
+        countryName: "Slovakia",
+        zerozeroUrl: "https://example.com/211",
+        mode: "single_table",
+        status: "ready",
+        scrapedAtUtc: "2026-08-11T11:00:00Z",
+        editionId: "1",
+        phaseId: "2",
+        phaseName: "Niké Liga",
+        phaseNotes: [],
+        ruleProfileId: null,
+        tables: [
+          {
+            name: "Niké Liga",
+            type: "single_table",
+            rows: [
+              createStandingRow(1, "Dukla"),
+              createStandingRow(2, "Slovan Bratislava"),
+            ],
+          },
+        ],
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  await writeFile(
+    path.join(repoRoot, "data", "fixtures", "standings", "212.json"),
+    JSON.stringify(
+      {
+        source: "zerozero",
+        competitionId: "212",
+        competitionName: "PrvaLiga",
+        countryName: "Slovenia",
+        zerozeroUrl: "https://example.com/212",
+        mode: "single_table",
+        status: "ready",
+        scrapedAtUtc: "2026-08-11T11:00:00Z",
+        editionId: "1",
+        phaseId: "2",
+        phaseName: "PrvaLiga",
+        phaseNotes: [],
+        ruleProfileId: null,
+        tables: [
+          {
+            name: "PrvaLiga",
+            type: "single_table",
+            rows: [
+              createStandingRow(1, "NK Radomlje"),
+              createStandingRow(2, "NS Mura"),
+              createStandingRow(3, "Olimpija Ljubljana"),
+            ],
+          },
+        ],
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  await writeFile(
+    path.join(repoRoot, "data", "fixtures", "standings", "218.json"),
+    JSON.stringify(
+      {
+        source: "zerozero",
+        competitionId: "218",
+        competitionName: "Premier League",
+        countryName: "Ukraine",
+        zerozeroUrl: "https://example.com/218",
+        mode: "single_table",
+        status: "ready",
+        scrapedAtUtc: "2026-08-11T11:00:00Z",
+        editionId: "1",
+        phaseId: "2",
+        phaseName: "Premier League",
+        phaseNotes: [],
+        ruleProfileId: null,
+        tables: [
+          {
+            name: "Premier League",
+            type: "single_table",
+            rows: [
+              createStandingRow(1, "Epitsentr Dunaivtsi"),
+              createStandingRow(2, "FC Veres"),
+              createStandingRow(3, "Metalist 1925 Kharkov"),
+              createStandingRow(4, "Kolos Kovalivka"),
+              createStandingRow(5, "Zorya"),
+            ],
+          },
+        ],
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  const result = await generateTeamInventoryReport(repoRoot, { write: false });
+  const russia = result.report.competitions.find((competition) => competition.competitionId === "203");
+  const slovakia = result.report.competitions.find((competition) => competition.competitionId === "211");
+  const slovenia = result.report.competitions.find((competition) => competition.competitionId === "212");
+  const ukraine = result.report.competitions.find((competition) => competition.competitionId === "218");
+
+  assert.ok(russia);
+  assert.ok(slovakia);
+  assert.ok(slovenia);
+  assert.ok(ukraine);
+  assert.equal(russia.matchedRegistryTeams, 6);
+  assert.equal(slovakia.matchedRegistryTeams, 2);
+  assert.equal(slovenia.matchedRegistryTeams, 3);
+  assert.equal(ukraine.matchedRegistryTeams, 5);
+
+  assertTeamMatch(russia.teams, "Akron Togliatti", "Akron Togliatti", "normalized_name");
+  assertTeamMatch(russia.teams, "CSKA Moskva", "CSKA Moscow", "heuristic_name");
+  assertTeamMatch(russia.teams, "Dynamo Makhachkala", "Dinamo Makhachkala", "heuristic_name");
+  assertTeamMatch(russia.teams, "Dynamo Moskva", "Dynamo Moscow", "heuristic_name");
+  assertTeamMatch(russia.teams, "Fakel Voronezh", "Fakel Voronezh", "normalized_name");
+  assertTeamMatch(russia.teams, "Rubin Kazan", "Rubin Kazan", "normalized_name");
+
+  assertTeamMatch(slovakia.teams, "Dukla", "Dukla Banská Bystrica", "heuristic_name");
+  assertTeamMatch(slovakia.teams, "Slovan Bratislava", "Slovan Bratislava", "normalized_name");
+
+  assertTeamMatch(slovenia.teams, "NK Radomlje", "Kalcer Radomlje", "heuristic_name");
+  assertTeamMatch(slovenia.teams, "NS Mura", "Mura", "heuristic_name");
+  assertTeamMatch(slovenia.teams, "Olimpija Ljubljana", "Olimpija", "heuristic_name");
+
+  assertTeamMatch(ukraine.teams, "Epitsentr Dunaivtsi", "Epicentr Dunaivtsi", "heuristic_name");
+  assertTeamMatch(ukraine.teams, "FC Veres", "Veres Rivne", "heuristic_name");
+  assertTeamMatch(ukraine.teams, "Metalist 1925 Kharkov", "Metalist Kharkiv", "heuristic_name");
+  assertTeamMatch(ukraine.teams, "Kolos Kovalivka", "Kolos Kovalivka", "normalized_name");
+  assertTeamMatch(ukraine.teams, "Zorya", "Zorya Lugansk", "heuristic_name");
+});
+
 function createRegistryEntry(sofascoreTeamId: string, teamName: string) {
   return {
     sofascoreTeamId,

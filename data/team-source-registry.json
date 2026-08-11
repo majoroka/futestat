@@ -4085,7 +4085,7 @@
     },
     {
       "sofascoreTeamId": "285689",
-      "teamName": "Akron",
+      "teamName": "Akron Togliatti",
       "countryName": "Russia",
       "competitionId": "203",
       "competitionName": "Premier League",
@@ -4097,25 +4097,25 @@
         "fotmob": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "akron",
+          "teamSlug": "akron-togliatti",
           "competitionId": "203",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "notes": "manual match name: FotMob = Akron Togliatti"
         },
         "soccerRating": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "akron",
+          "teamSlug": "akron-tolyatti",
           "countrySlug": "russia",
           "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "notes": "manual match name: Soccer-Rating = Akron Tolyatti"
         }
       }
     },
     {
       "sofascoreTeamId": "7517",
-      "teamName": "Baltika",
+      "teamName": "Baltika Kaliningrad",
       "countryName": "Russia",
       "competitionId": "203",
       "competitionName": "Premier League",
@@ -4145,7 +4145,7 @@
     },
     {
       "sofascoreTeamId": "2325",
-      "teamName": "CSKA",
+      "teamName": "CSKA Moscow",
       "countryName": "Russia",
       "competitionId": "203",
       "competitionName": "Premier League",
@@ -4157,19 +4157,19 @@
         "fotmob": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "cska",
+          "teamSlug": "cska-moscow",
           "competitionId": "203",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "notes": "manual match name: FotMob = CSKA Moscow"
         },
         "soccerRating": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "cska",
+          "teamSlug": "cska-moskva",
           "countrySlug": "russia",
           "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "notes": "manual match name: Soccer-Rating = CSKA Moskva"
         }
       }
     },
@@ -4187,11 +4187,11 @@
         "fotmob": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "dinamo-makhachkala",
+          "teamSlug": "dynamo-makhachkala",
           "competitionId": "203",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "notes": "manual match name: FotMob = Dynamo Makhachkala"
         },
         "soccerRating": {
           "status": "mapped",
@@ -4205,7 +4205,7 @@
     },
     {
       "sofascoreTeamId": "2315",
-      "teamName": "Dynamo",
+      "teamName": "Dynamo Moscow",
       "countryName": "Russia",
       "competitionId": "203",
       "competitionName": "Premier League",
@@ -4215,27 +4215,27 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "mapped",
-          "sourceTeamId": "8688",
-          "teamSlug": "dynamo-kyiv",
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "dynamo-moscow",
           "competitionId": "203",
           "competitionSlug": "premier-league",
-          "url": "https://www.fotmob.com/teams/8688/stats/dynamo-kyiv/teams",
-          "notes": null
+          "url": null,
+          "notes": "manual review: current Sofascore snapshot = Dynamo Moskva (separate from Dinamo Makhachkala)"
         },
         "soccerRating": {
-          "status": "mapped",
-          "sourceTeamId": "11075",
-          "teamSlug": "fk-legion-dynamo",
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "dynamo-moskva",
           "countrySlug": "russia",
-          "url": "https://www.soccer-rating.com/FK-Legion-Dynamo/11075/",
-          "notes": null
+          "url": null,
+          "notes": "manual review: current Sofascore snapshot = Dynamo Moskva (not Makhachkala)"
         }
       }
     },
     {
       "sofascoreTeamId": "2317",
-      "teamName": "Fakel",
+      "teamName": "Fakel Voronezh",
       "countryName": "Russia",
       "competitionId": "203",
       "competitionName": "Premier League",
@@ -4251,15 +4251,15 @@
           "competitionId": "203",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": null
+          "notes": "manual match name: FotMob = Fakel"
         },
         "soccerRating": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "fakel",
+          "teamSlug": "fakel-voronezh",
           "countrySlug": "russia",
           "url": null,
-          "notes": null
+          "notes": "manual match name: Soccer-Rating = Fakel Voronezh"
         }
       }
     },
@@ -4445,7 +4445,7 @@
     },
     {
       "sofascoreTeamId": "2333",
-      "teamName": "Rubin",
+      "teamName": "Rubin Kazan",
       "countryName": "Russia",
       "competitionId": "203",
       "competitionName": "Premier League",
@@ -4457,19 +4457,19 @@
         "fotmob": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "rubin",
+          "teamSlug": "rubin-kazan",
           "competitionId": "203",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "notes": "manual match name: FotMob = Rubin Kazan"
         },
         "soccerRating": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "rubin",
+          "teamSlug": "rubin-kazan",
           "countrySlug": "russia",
           "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "notes": "manual match name: Soccer-Rating = Rubin Kazan"
         }
       }
     },
@@ -4534,8 +4534,38 @@
       }
     },
     {
+      "sofascoreTeamId": "7739",
+      "teamName": "Dukla Praha",
+      "countryName": "Czech Republic",
+      "competitionId": "49",
+      "competitionName": "Chance Liga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "dukla-praha",
+          "competitionId": "49",
+          "competitionSlug": "chance-liga",
+          "url": null,
+          "notes": "manual match name: FotMob = Dukla Praha"
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "fk-dukla-praha",
+          "countrySlug": "czech-republic",
+          "url": null,
+          "notes": "manual match name: Soccer-Rating = FK Dukla Praha"
+        }
+      }
+    },
+    {
       "sofascoreTeamId": "4503",
-      "teamName": "Banská Bystrica",
+      "teamName": "Dukla Banská Bystrica",
       "countryName": "Slovakia",
       "competitionId": "211",
       "competitionName": "Niké Liga",
@@ -4547,11 +4577,11 @@
         "fotmob": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "banska-bystrica",
+          "teamSlug": "dukla-banska-bystrica",
           "competitionId": "211",
           "competitionSlug": "nike-liga",
           "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "notes": "manual review: fixtures = Banská Bystrica, standings = Dukla"
         },
         "soccerRating": {
           "status": "mapped",
@@ -4775,7 +4805,7 @@
     },
     {
       "sofascoreTeamId": "2404",
-      "teamName": "Slovan",
+      "teamName": "Slovan Bratislava",
       "countryName": "Slovakia",
       "competitionId": "211",
       "competitionName": "Niké Liga",
@@ -4787,19 +4817,19 @@
         "fotmob": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "slovan",
+          "teamSlug": "slovan-bratislava",
           "competitionId": "211",
           "competitionSlug": "nike-liga",
           "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "notes": "manual match name: FotMob = Slovan Bratislava"
         },
         "soccerRating": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "slovan",
+          "teamSlug": "slovan-bratislava",
           "countrySlug": "slovakia",
           "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "notes": "manual match name: Soccer-Rating = Slovan Bratislava"
         }
       }
     },
@@ -4847,11 +4877,11 @@
         "fotmob": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "bravo",
+          "teamSlug": "nk-bravo",
           "competitionId": "212",
           "competitionSlug": "prvaliga",
           "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "notes": "manual match name: FotMob = NK Bravo"
         },
         "soccerRating": {
           "status": "mapped",
@@ -4907,11 +4937,11 @@
         "fotmob": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "celje",
+          "teamSlug": "nk-celje",
           "competitionId": "212",
           "competitionSlug": "prvaliga",
           "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "notes": "manual match name: FotMob = NK Celje"
         },
         "soccerRating": {
           "status": "mapped",
@@ -4937,19 +4967,19 @@
         "fotmob": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "kalcer-radomlje",
+          "teamSlug": "radomlje",
           "competitionId": "212",
           "competitionSlug": "prvaliga",
           "url": null,
-          "notes": null
+          "notes": "manual match name: FotMob = Radomlje"
         },
         "soccerRating": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "kalcer-radomlje",
+          "teamSlug": "nk-radomlje",
           "countrySlug": "slovenia",
           "url": null,
-          "notes": null
+          "notes": "manual match name: Soccer-Rating = NK Radomlje"
         }
       }
     },
@@ -5036,10 +5066,10 @@
         "soccerRating": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "mura",
+          "teamSlug": "ns-mura",
           "countrySlug": "slovenia",
           "url": null,
-          "notes": null
+          "notes": "manual match name: Soccer-Rating = NS Mura"
         }
       }
     },
@@ -5061,15 +5091,15 @@
           "competitionId": "212",
           "competitionSlug": "prvaliga",
           "url": "https://www.fotmob.com/teams/7872/stats/olimpija-ljubljana/teams",
-          "notes": null
+          "notes": "manual match name: FotMob = Olimpija Ljubljana"
         },
         "soccerRating": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "olimpija",
+          "teamSlug": "nk-olimpija-ljubljana",
           "countrySlug": "slovenia",
           "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "notes": "manual match name: Soccer-Rating = NK Olimpija Ljubljana"
         }
       }
     },
@@ -5135,7 +5165,7 @@
     },
     {
       "sofascoreTeamId": "323552",
-      "teamName": "Epicentr",
+      "teamName": "Epicentr Dunaivtsi",
       "countryName": "Ukraine",
       "competitionId": "218",
       "competitionName": "Premier League",
@@ -5147,25 +5177,25 @@
         "fotmob": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "epicentr",
+          "teamSlug": "epitsentr-kamianets-podilskyi",
           "competitionId": "218",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": "autofill: sem candidatos FotMob"
+          "notes": "manual match name: FotMob = Epitsentr Kamianets-Podilskyi"
         },
         "soccerRating": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "epicentr",
+          "teamSlug": "epicenter-dunaivtsi",
           "countrySlug": "ukraine",
           "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "notes": "manual match name: Soccer-Rating = Epicenter Dunaivtsi"
         }
       }
     },
     {
       "sofascoreTeamId": "266889",
-      "teamName": "FC Kharkiv",
+      "teamName": "Metalist Kharkiv",
       "countryName": "Ukraine",
       "competitionId": "218",
       "competitionName": "Premier League",
@@ -5177,11 +5207,11 @@
         "fotmob": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "fc-kharkiv",
+          "teamSlug": "metalist-kharkiv",
           "competitionId": "218",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": null
+          "notes": "manual match name: FotMob = Metalist Kharkiv"
         },
         "soccerRating": {
           "status": "pending",
@@ -5189,7 +5219,7 @@
           "teamSlug": "fc-kharkiv",
           "countrySlug": "ukraine",
           "url": null,
-          "notes": null
+          "notes": "manual match name: Soccer-Rating = FC Kharkiv"
         }
       }
     },
@@ -5255,7 +5285,7 @@
     },
     {
       "sofascoreTeamId": "200776",
-      "teamName": "Kolos",
+      "teamName": "Kolos Kovalivka",
       "countryName": "Ukraine",
       "competitionId": "218",
       "competitionName": "Premier League",
@@ -5267,19 +5297,19 @@
         "fotmob": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "kolos",
+          "teamSlug": "fc-kolos-kovalivka",
           "competitionId": "218",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "notes": "manual match name: FotMob = FC Kolos Kovalivka"
         },
         "soccerRating": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "kolos",
+          "teamSlug": "kolos-kovalivka",
           "countrySlug": "ukraine",
           "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "notes": "manual match name: Soccer-Rating = Kolos Kovalivka"
         }
       }
     },
@@ -5465,7 +5495,7 @@
     },
     {
       "sofascoreTeamId": "312677",
-      "teamName": "Zoria",
+      "teamName": "Zorya Lugansk",
       "countryName": "Ukraine",
       "competitionId": "218",
       "competitionName": "Premier League",
@@ -5477,19 +5507,19 @@
         "fotmob": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "zoria",
+          "teamSlug": "zorya",
           "competitionId": "218",
           "competitionSlug": "premier-league",
           "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "notes": "manual match name: FotMob = Zorya"
         },
         "soccerRating": {
           "status": "pending",
           "sourceTeamId": null,
-          "teamSlug": "zoria",
+          "teamSlug": "zorya-lugansk",
           "countrySlug": "ukraine",
           "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "notes": "manual match name: Soccer-Rating = Zorya Lugansk"
         }
       }
     },

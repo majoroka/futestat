@@ -64,16 +64,23 @@ const TOKEN_ALIASES = new Map<string, string>([
   ["afs", "avs"],
   ["def", "defensa"],
   ["dep", "deportivo"],
+  ["dinamo", "dynamo"],
+  ["epicenter", "epicentr"],
+  ["epitsentr", "epicentr"],
   ["est", "estrela"],
   ["ind", "independiente"],
   ["int", "internacional"],
   ["jr", "juniors"],
   ["jrs", "juniors"],
+  ["kharkov", "kharkiv"],
   ["mg", "mineiro"],
+  ["moskva", "moscow"],
   ["rb", "redbull"],
   ["st", "saint"],
+  ["tolyatti", "togliatti"],
   ["u", "universitatea"],
   ["utd", "united"],
+  ["zorya", "zoria"],
 ]);
 
 export type TeamNameMatchMethod = "normalized_name" | "heuristic_name";
@@ -129,9 +136,9 @@ export function buildTeamNameProfile(value: string): TeamNameProfile {
     .filter(Boolean)
     .map((token) => TOKEN_ALIASES.get(token) ?? token),
   );
-  const structuralTokens = canonicalTokens.filter((token) => STRUCTURAL_TOKENS.has(token));
+  const structuralTokens = canonicalTokens.filter((token) => isStructuralToken(token));
   const distinctiveTokens = canonicalTokens.filter(
-    (token) => !NON_DISTINCTIVE_TOKENS.has(token) && !STRUCTURAL_TOKENS.has(token),
+    (token) => !NON_DISTINCTIVE_TOKENS.has(token) && !isStructuralToken(token),
   );
 
   return {
@@ -141,6 +148,10 @@ export function buildTeamNameProfile(value: string): TeamNameProfile {
     distinctiveTokens,
     structuralTokens,
   };
+}
+
+function isStructuralToken(token: string): boolean {
+  return STRUCTURAL_TOKENS.has(token) || /^\d{2,4}$/.test(token);
 }
 
 export function findBestTeamNameMatch<TCandidate>(
