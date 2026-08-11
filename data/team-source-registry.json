@@ -3915,20 +3915,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "akhmat",
+          "status": "mapped",
+          "sourceTeamId": "8708",
+          "teamSlug": "fk-akhmat",
           "competitionId": "203",
           "competitionSlug": "premier-league",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8708/stats/fk-akhmat/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "akhmat",
+          "status": "mapped",
+          "sourceTeamId": "340",
+          "teamSlug": "akhmat-grozny",
           "countrySlug": "russia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Akhmat-Grozny/340/",
           "notes": null
         }
       }
@@ -3945,21 +3945,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1068364",
           "teamSlug": "akron-togliatti",
           "competitionId": "203",
           "competitionSlug": "premier-league",
-          "url": null,
-          "notes": "manual match name: FotMob = Akron Togliatti"
+          "url": "https://www.fotmob.com/teams/1068364/stats/akron-togliatti/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "13988",
           "teamSlug": "akron-tolyatti",
           "countrySlug": "russia",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Akron Tolyatti"
+          "url": "https://www.soccer-rating.com/Akron-Tolyatti/13988/",
+          "notes": null
         }
       }
     },
@@ -4005,21 +4005,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9760",
           "teamSlug": "cska-moscow",
           "competitionId": "203",
           "competitionSlug": "premier-league",
-          "url": null,
-          "notes": "manual match name: FotMob = CSKA Moscow"
+          "url": "https://www.fotmob.com/teams/9760/stats/cska-moscow/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "133",
           "teamSlug": "cska-moskva",
           "countrySlug": "russia",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = CSKA Moskva"
+          "url": "https://www.soccer-rating.com/CSKA-Moskva/133/",
+          "notes": null
         }
       }
     },
@@ -4035,13 +4035,13 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1068353",
           "teamSlug": "dynamo-makhachkala",
           "competitionId": "203",
           "competitionSlug": "premier-league",
-          "url": null,
-          "notes": "manual match name: FotMob = Dynamo Makhachkala"
+          "url": "https://www.fotmob.com/teams/1068353/stats/dynamo-makhachkala/teams",
+          "notes": null
         },
         "soccerRating": {
           "status": "mapped",
@@ -4065,21 +4065,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dynamo-moscow",
+          "status": "mapped",
+          "sourceTeamId": "9763",
+          "teamSlug": "dinamo-moscow",
           "competitionId": "203",
           "competitionSlug": "premier-league",
-          "url": null,
-          "notes": "manual review: current Sofascore snapshot = Dynamo Moskva (separate from Dinamo Makhachkala)"
+          "url": "https://www.fotmob.com/teams/9763/stats/dinamo-moscow/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dynamo-moskva",
+          "status": "mapped",
+          "sourceTeamId": "138",
+          "teamSlug": "dinamo-moskva",
           "countrySlug": "russia",
-          "url": null,
-          "notes": "manual review: current Sofascore snapshot = Dynamo Moskva (not Makhachkala)"
+          "url": "https://www.soccer-rating.com/Dinamo-Moskva/138/",
+          "notes": null
         }
       }
     },
@@ -4095,21 +4095,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1692",
           "teamSlug": "fakel",
           "competitionId": "203",
           "competitionSlug": "premier-league",
-          "url": null,
-          "notes": "manual match name: FotMob = Fakel"
+          "url": "https://www.fotmob.com/teams/1692/stats/fakel/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "5186",
           "teamSlug": "fakel-voronezh",
           "countrySlug": "russia",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Fakel Voronezh"
+          "url": "https://www.soccer-rating.com/Fakel-Voronezh/5186/",
+          "notes": null
         }
       }
     },
@@ -4185,13 +4185,13 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "lokomotiv",
+          "status": "mapped",
+          "sourceTeamId": "8710",
+          "teamSlug": "lokomotiv-moscow",
           "competitionId": "203",
           "competitionSlug": "premier-league",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/8710/stats/lokomotiv-moscow/teams",
+          "notes": null
         },
         "soccerRating": {
           "status": "mapped",
@@ -4305,21 +4305,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8683",
           "teamSlug": "rubin-kazan",
           "competitionId": "203",
           "competitionSlug": "premier-league",
-          "url": null,
-          "notes": "manual match name: FotMob = Rubin Kazan"
+          "url": "https://www.fotmob.com/teams/8683/stats/rubin-kazan/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "137",
           "teamSlug": "rubin-kazan",
           "countrySlug": "russia",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Rubin Kazan"
+          "url": "https://www.soccer-rating.com/Rubin-Kazan/137/",
+          "notes": null
         }
       }
     },
@@ -4365,21 +4365,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "zenit",
+          "status": "mapped",
+          "sourceTeamId": "8698",
+          "teamSlug": "zenit-st-petersburg",
           "competitionId": "203",
           "competitionSlug": "premier-league",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/8698/stats/zenit-st-petersburg/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "zenit",
+          "status": "mapped",
+          "sourceTeamId": "132",
+          "teamSlug": "zenit-st-petersburg",
           "countrySlug": "russia",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Zenit-St-Petersburg/132/",
+          "notes": null
         }
       }
     },
