@@ -1675,10 +1675,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "520",
-          "teamSlug": "nd-gorica",
+          "sourceTeamId": "6628",
+          "teamSlug": "hnk-velika-gorica",
           "countrySlug": "croatia",
-          "url": "https://www.soccer-rating.com/ND-Gorica/520/",
+          "url": "https://www.soccer-rating.com/HNK-Velika-Gorica/6628/",
           "notes": null
         }
       }
@@ -1705,10 +1705,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "645",
-          "teamSlug": "fk-hajduk-kula",
+          "sourceTeamId": "513",
+          "teamSlug": "hnk-hajduk-split",
           "countrySlug": "croatia",
-          "url": "https://www.soccer-rating.com/FK-Hajduk-Kula/645/",
+          "url": "https://www.soccer-rating.com/HNK-Hajduk-Split/513/",
           "notes": null
         }
       }
@@ -1725,21 +1725,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "6038",
           "teamSlug": "nk-istra-1961",
           "competitionId": "170",
           "competitionSlug": "hnl",
-          "url": null,
-          "notes": "manual match name: FotMob = NK Istra 1961"
+          "url": "https://www.fotmob.com/teams/6038/stats/nk-istra-1961/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "2707",
           "teamSlug": "nk-istra-1961-pula",
           "countrySlug": "croatia",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = NK Istra 1961 Pula"
+          "url": "https://www.soccer-rating.com/NK-Istra-1961-Pula/2707/",
+          "notes": null
         }
       }
     },
@@ -1884,12 +1884,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "slaven",
+          "status": "mapped",
+          "sourceTeamId": "541",
+          "teamSlug": "nk-slaven-koprivnica",
           "countrySlug": "croatia",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/NK-Slaven-Koprivnica/541/",
+          "notes": null
         }
       }
     },
@@ -1914,12 +1914,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "varazdin",
+          "status": "mapped",
+          "sourceTeamId": "634",
+          "teamSlug": "nk-varazdin",
           "countrySlug": "croatia",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/NK-Varazdin/634/",
+          "notes": null
         }
       }
     },
@@ -5685,21 +5685,21 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "88657",
           "teamSlug": "dukla-praha",
           "competitionId": "49",
           "competitionSlug": "chance-liga",
-          "url": null,
-          "notes": "manual match name: FotMob = Dukla Praha"
+          "url": "https://www.fotmob.com/teams/88657/stats/dukla-praha/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1366",
           "teamSlug": "fk-dukla-praha",
           "countrySlug": "czech-republic",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = FK Dukla Praha"
+          "url": "https://www.soccer-rating.com/FK-Dukla-Praha/1366/",
+          "notes": null
         }
       }
     },
