@@ -3564,12 +3564,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "arges-pitesti",
+          "status": "mapped",
+          "sourceTeamId": "2816",
+          "teamSlug": "fc-arges-pitesti",
           "countrySlug": "romania",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/FC-Arges-Pitesti/2816/",
+          "notes": null
         }
       }
     },
@@ -3585,20 +3585,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "188191",
           "teamSlug": "botosani",
           "competitionId": "152",
           "competitionSlug": "superliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/188191/stats/botosani/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "botosani",
+          "status": "mapped",
+          "sourceTeamId": "2465",
+          "teamSlug": "fc-botosani",
           "countrySlug": "romania",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Botosani/2465/",
           "notes": null
         }
       }
@@ -3615,20 +3615,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9731",
           "teamSlug": "cfr-cluj",
           "competitionId": "152",
           "competitionSlug": "superliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9731/stats/cfr-cluj/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1010",
           "teamSlug": "cfr-cluj",
           "countrySlug": "romania",
-          "url": null,
+          "url": "https://www.soccer-rating.com/CFR-Cluj/1010/",
           "notes": null
         }
       }
@@ -3645,21 +3645,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1515102",
           "teamSlug": "corvinul-hunedoara",
           "competitionId": "152",
           "competitionSlug": "superliga",
-          "url": null,
-          "notes": "manual match name: FotMob = Corvinul Hunedoara"
+          "url": "https://www.fotmob.com/teams/1515102/stats/corvinul-hunedoara/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "2791",
           "teamSlug": "corvinul-hunedoara",
           "countrySlug": "romania",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Corvinul Hunedoara"
+          "url": "https://www.soccer-rating.com/Corvinul-Hunedoara/2791/",
+          "notes": null
         }
       }
     },
@@ -3675,21 +3675,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "583690",
           "teamSlug": "csikszereda-miercurea-ciuc",
           "competitionId": "152",
           "competitionSlug": "superliga",
-          "url": null,
-          "notes": "manual match name: FotMob = Csikszereda Miercurea Ciuc"
+          "url": "https://www.fotmob.com/teams/583690/stats/csikszereda-miercurea-ciuc/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "11421",
           "teamSlug": "fk-csikszereda-miercurea-ciuc",
           "countrySlug": "romania",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = FK Csikszereda Miercurea Ciuc"
+          "url": "https://www.soccer-rating.com/FK-Csikszereda-Miercurea-Ciuc/11421/",
+          "notes": null
         }
       }
     },
@@ -3714,12 +3714,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dinamo-bucuresti",
+          "status": "mapped",
+          "sourceTeamId": "1032",
+          "teamSlug": "dinamo-bukarest",
           "countrySlug": "romania",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Dinamo-Bukarest/1032/",
+          "notes": null
         }
       }
     },
@@ -3735,13 +3735,13 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "210132",
           "teamSlug": "fcv-farul-constanta",
           "competitionId": "152",
           "competitionSlug": "superliga",
-          "url": null,
-          "notes": "manual match name: FotMob = FCV Farul Constanta"
+          "url": "https://www.fotmob.com/teams/210132/stats/fcv-farul-constanta/teams",
+          "notes": null
         },
         "soccerRating": {
           "status": "mapped",
@@ -3765,20 +3765,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9723",
           "teamSlug": "fcsb",
           "competitionId": "152",
           "competitionSlug": "superliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9723/stats/fcsb/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "fcsb",
+          "status": "mapped",
+          "sourceTeamId": "1013",
+          "teamSlug": "steaua-bukarest",
           "countrySlug": "romania",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Steaua-Bukarest/1013/",
           "notes": null
         }
       }
@@ -3795,20 +3795,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "583706",
           "teamSlug": "sepsi-osk",
           "competitionId": "152",
           "competitionSlug": "superliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/583706/stats/sepsi-osk/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "sepsi-osk",
+          "status": "mapped",
+          "sourceTeamId": "11387",
+          "teamSlug": "sepsi-osk-sfantu-gheorghe",
           "countrySlug": "romania",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Sepsi-OSK-Sfantu-Gheorghe/11387/",
           "notes": null
         }
       }
@@ -3825,21 +3825,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "89022",
           "teamSlug": "universitatea-cluj",
           "competitionId": "152",
           "competitionSlug": "superliga",
-          "url": null,
-          "notes": "manual match name: FotMob = Universitatea Cluj"
+          "url": "https://www.fotmob.com/teams/89022/stats/universitatea-cluj/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1015",
           "teamSlug": "universitatea-cluj",
           "countrySlug": "romania",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = Universitatea Cluj"
+          "url": "https://www.soccer-rating.com/Universitatea-Cluj/1015/",
+          "notes": null
         }
       }
     },
@@ -3855,21 +3855,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "480286",
           "teamSlug": "universitatea-craiova",
           "competitionId": "152",
           "competitionSlug": "superliga",
-          "url": null,
-          "notes": "manual match name: FotMob = Universitatea Craiova"
+          "url": "https://www.fotmob.com/teams/480286/stats/universitatea-craiova/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8895",
           "teamSlug": "cs-universitatea-craiova",
           "countrySlug": "romania",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = CS Universitatea Craiova"
+          "url": "https://www.soccer-rating.com/CS-Universitatea-Craiova/8895/",
+          "notes": null
         }
       }
     },
@@ -3894,12 +3894,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "voluntari",
+          "status": "mapped",
+          "sourceTeamId": "8790",
+          "teamSlug": "cs-voluntari",
           "countrySlug": "romania",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/CS-Voluntari/8790/",
+          "notes": null
         }
       }
     },
@@ -7404,12 +7404,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "646",
           "teamSlug": "otelul-galati",
           "countrySlug": "romania",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Otelul-Galati/646/",
+          "notes": null
         }
       }
     },
@@ -7485,21 +7485,21 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "584663",
           "teamSlug": "uta-arad",
           "competitionId": "152",
           "competitionSlug": "superliga",
-          "url": null,
-          "notes": "manual match name: FotMob = UTA Arad"
+          "url": "https://www.fotmob.com/teams/584663/stats/uta-arad/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1020",
           "teamSlug": "uta-batrana-doamna",
           "countrySlug": "romania",
-          "url": null,
-          "notes": "manual match name: Soccer-Rating = UTA Batrana Doamna"
+          "url": "https://www.soccer-rating.com/UTA-Batrana-Doamna/1020/",
+          "notes": null
         }
       }
     },
