@@ -72,7 +72,12 @@ export const DEFAULT_ALLOWED_COMPETITIONS: AllowedCompetition[] = [
   { countryName: "Hungary", competitionName: "NB I", competitionId: "187" },
   { countryName: "Croatia", competitionName: "HNL", competitionId: "170" },
   { countryName: "Serbia", competitionName: "SuperLiga", competitionId: "210" },
-  { countryName: "Slovakia", competitionName: "Nike Liga", competitionId: "211" },
+  {
+    countryName: "Slovakia",
+    competitionName: "Niké Liga",
+    competitionId: "211",
+    competitionAliases: ["Nike Liga"],
+  },
   { countryName: "Slovenia", competitionName: "PrvaLiga", competitionId: "212" },
   { countryName: "Bulgaria", competitionName: "Parva Liga", competitionId: "247" },
   { countryName: "Greece", competitionName: "Super League", competitionId: "185" },
@@ -112,6 +117,14 @@ export function buildAllowedCompetitionIdSet(rawValue?: string): Set<string> {
   }
 
   return new Set(ids);
+}
+
+export function getCanonicalCompetitionNameById(competitionId: string | null): string | null {
+  if (!competitionId) {
+    return null;
+  }
+
+  return DEFAULT_ALLOWED_COMPETITIONS_BY_ID.get(competitionId)?.competitionName ?? null;
 }
 
 export function isAllowedCompetitionId(

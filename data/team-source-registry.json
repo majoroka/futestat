@@ -724,6 +724,366 @@
       }
     },
     {
+      "sofascoreTeamId": "2062",
+      "teamName": "A. Lustenau",
+      "countryName": "Austria",
+      "competitionId": "45",
+      "competitionName": "Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9982",
+          "teamSlug": "austria-lustenau",
+          "competitionId": "45",
+          "competitionSlug": "bundesliga",
+          "url": "https://www.fotmob.com/teams/9982/stats/austria-lustenau/teams",
+          "notes": "FotMob usa Austria Lustenau; Soccer-Rating usa SC Austria Lustenau."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1377",
+          "teamSlug": "sc-austria-lustenau",
+          "countrySlug": "austria",
+          "url": "https://www.soccer-rating.com/SC-Austria-Lustenau/1377/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "4856",
+      "teamName": "Altach",
+      "countryName": "Austria",
+      "competitionId": "45",
+      "competitionName": "Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10008",
+          "teamSlug": "altach",
+          "competitionId": "45",
+          "competitionSlug": "bundesliga",
+          "url": "https://www.fotmob.com/teams/10008/stats/altach/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "186",
+          "teamSlug": "scr-altach",
+          "countrySlug": "austria",
+          "url": "https://www.soccer-rating.com/SCR-Altach/186/",
+          "notes": "Soccer-Rating usa SCR Altach."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2203",
+      "teamName": "Austria Wien",
+      "countryName": "Austria",
+      "competitionId": "45",
+      "competitionName": "Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10011",
+          "teamSlug": "austria-wien",
+          "competitionId": "45",
+          "competitionSlug": "bundesliga",
+          "url": "https://www.fotmob.com/teams/10011/stats/austria-wien/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "188",
+          "teamSlug": "austria-wien",
+          "countrySlug": "austria",
+          "url": "https://www.soccer-rating.com/Austria-Wien/188/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2052",
+      "teamName": "GAK",
+      "countryName": "Austria",
+      "competitionId": "45",
+      "competitionName": "Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10012",
+          "teamSlug": "grazer-ak",
+          "competitionId": "45",
+          "competitionSlug": "bundesliga",
+          "url": "https://www.fotmob.com/teams/10012/stats/grazer-ak/teams",
+          "notes": "FotMob usa Grazer AK."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1767",
+          "teamSlug": "grazer-ak",
+          "countrySlug": "austria",
+          "url": "https://www.soccer-rating.com/Grazer-AK/1767/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2075",
+      "teamName": "Hartberg",
+      "countryName": "Austria",
+      "competitionId": "45",
+      "competitionName": "Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10056",
+          "teamSlug": "hartberg",
+          "competitionId": "45",
+          "competitionSlug": "bundesliga",
+          "url": "https://www.fotmob.com/teams/10056/stats/hartberg/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1770",
+          "teamSlug": "tsv-hartberg",
+          "countrySlug": "austria",
+          "url": "https://www.soccer-rating.com/TSV-Hartberg/1770/",
+          "notes": "Soccer-Rating usa TSV Hartberg."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2058",
+      "teamName": "LASK",
+      "countryName": "Austria",
+      "competitionId": "45",
+      "competitionName": "Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9977",
+          "teamSlug": "lask",
+          "competitionId": "45",
+          "competitionSlug": "bundesliga",
+          "url": "https://www.fotmob.com/teams/9977/stats/lask/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "181",
+          "teamSlug": "lask-linz",
+          "countrySlug": "austria",
+          "url": "https://www.soccer-rating.com/LASK-Linz/181/",
+          "notes": "Soccer-Rating usa LASK Linz."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2046",
+      "teamName": "RB Salzburg",
+      "countryName": "Austria",
+      "competitionId": "45",
+      "competitionName": "Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10013",
+          "teamSlug": "fc-red-bull-salzburg",
+          "competitionId": "45",
+          "competitionSlug": "bundesliga",
+          "url": "https://www.fotmob.com/teams/10013/stats/fc-red-bull-salzburg/teams",
+          "notes": "FotMob usa FC Red Bull Salzburg."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "185",
+          "teamSlug": "red-bull-salzburg",
+          "countrySlug": "austria",
+          "url": "https://www.soccer-rating.com/Red-Bull-Salzburg/185/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2055",
+      "teamName": "Rapid",
+      "countryName": "Austria",
+      "competitionId": "45",
+      "competitionName": "Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10015",
+          "teamSlug": "rapid-wien",
+          "competitionId": "45",
+          "competitionSlug": "bundesliga",
+          "url": "https://www.fotmob.com/teams/10015/stats/rapid-wien/teams",
+          "notes": "FotMob usa Rapid Wien."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "183",
+          "teamSlug": "rapid-wien",
+          "countrySlug": "austria",
+          "url": "https://www.soccer-rating.com/Rapid-Wien/183/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2049",
+      "teamName": "Ried",
+      "countryName": "Austria",
+      "competitionId": "45",
+      "competitionName": "Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10017",
+          "teamSlug": "ried",
+          "competitionId": "45",
+          "competitionSlug": "bundesliga",
+          "url": "https://www.fotmob.com/teams/10017/stats/ried/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "189",
+          "teamSlug": "sv-ried",
+          "countrySlug": "austria",
+          "url": "https://www.soccer-rating.com/SV-Ried/189/",
+          "notes": "Soccer-Rating usa SV Ried."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2051",
+      "teamName": "Sturm",
+      "countryName": "Austria",
+      "competitionId": "45",
+      "competitionName": "Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10014",
+          "teamSlug": "sturm-graz",
+          "competitionId": "45",
+          "competitionSlug": "bundesliga",
+          "url": "https://www.fotmob.com/teams/10014/stats/sturm-graz/teams",
+          "notes": "FotMob usa Sturm Graz."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "187",
+          "teamSlug": "sturm-graz",
+          "countrySlug": "austria",
+          "url": "https://www.soccer-rating.com/Sturm-Graz/187/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "5405",
+      "teamName": "Tirol",
+      "countryName": "Austria",
+      "competitionId": "45",
+      "competitionName": "Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "1583",
+          "teamSlug": "wsg-tirol",
+          "competitionId": "45",
+          "competitionSlug": "bundesliga",
+          "url": "https://www.fotmob.com/teams/1583/stats/wsg-tirol/teams",
+          "notes": "FotMob usa WSG Tirol."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1308",
+          "teamSlug": "wsg-tirol",
+          "countrySlug": "austria",
+          "url": "https://www.soccer-rating.com/WSG-Tirol/1308/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2076",
+      "teamName": "WAC",
+      "countryName": "Austria",
+      "competitionId": "45",
+      "competitionName": "Bundesliga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "1954",
+          "teamSlug": "wolfsberger-ac",
+          "competitionId": "45",
+          "competitionSlug": "bundesliga",
+          "url": "https://www.fotmob.com/teams/1954/stats/wolfsberger-ac/teams",
+          "notes": "FotMob usa Wolfsberger AC."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1340",
+          "teamSlug": "wolfsberger-ac",
+          "countrySlug": "austria",
+          "url": "https://www.soccer-rating.com/Wolfsberger-AC/1340/",
+          "notes": null
+        }
+      }
+    },
+    {
       "sofascoreTeamId": "1967",
       "teamName": "Athletico",
       "countryName": "Brazil",
@@ -2244,12 +2604,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "leca",
+          "status": "mapped",
+          "sourceTeamId": "2967",
+          "teamSlug": "leca-fc",
           "countrySlug": "portugal",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/Leca-FC/2967/",
+          "notes": null
         }
       }
     },
@@ -2325,21 +2685,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "sao-joao-ver",
+          "status": "mapped",
+          "sourceTeamId": "238631",
+          "teamSlug": "sc-joao-ver",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-a",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/238631/stats/sc-joao-ver/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "sao-joao-ver",
+          "status": "mapped",
+          "sourceTeamId": "6897",
+          "teamSlug": "sc-sao-jao-ver",
           "countrySlug": "portugal",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/SC-Sao-Jao-Ver/6897/",
+          "notes": null
         }
       }
     },
@@ -2355,21 +2715,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "4665",
           "teamSlug": "atletico",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-b",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/4665/stats/atletico/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "atletico",
+          "status": "mapped",
+          "sourceTeamId": "2991",
+          "teamSlug": "atletico-clube-de-portugal",
           "countrySlug": "portugal",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Atletico-Clube-de-Portugal/2991/",
+          "notes": null
         }
       }
     },
@@ -2394,12 +2754,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "belenenses",
+          "status": "mapped",
+          "sourceTeamId": "16204",
+          "teamSlug": "cf-os-belenenses",
           "countrySlug": "portugal",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/CF-Os-Belenenses/16204/",
+          "notes": null
         }
       }
     },
@@ -2475,20 +2835,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1939",
           "teamSlug": "louletano",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-b",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1939/stats/louletano/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "louletano",
+          "status": "mapped",
+          "sourceTeamId": "2992",
+          "teamSlug": "louletano-dc",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Louletano-DC/2992/",
           "notes": null
         }
       }
@@ -2514,12 +2874,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "lusitano",
+          "status": "mapped",
+          "sourceTeamId": "14304",
+          "teamSlug": "lusitano-ginasio-clube",
           "countrySlug": "portugal",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Lusitano-Ginasio-Clube/14304/",
+          "notes": null
         }
       }
     },
@@ -2565,20 +2925,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1785",
           "teamSlug": "oliveirense",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-b",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1785/stats/oliveirense/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "oliveirense",
+          "status": "mapped",
+          "sourceTeamId": "2971",
+          "teamSlug": "ud-oliveirense",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/UD-Oliveirense/2971/",
           "notes": null
         }
       }
@@ -2595,21 +2955,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "uniao-santarem",
+          "status": "mapped",
+          "sourceTeamId": "1074312",
+          "teamSlug": "santarem",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-b",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/1074312/stats/santarem/teams",
+          "notes": "FotMob usa Santarem."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "uniao-santarem",
+          "status": "mapped",
+          "sourceTeamId": "14826",
+          "teamSlug": "ud-santarem",
           "countrySlug": "portugal",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/UD-Santarem/14826/",
+          "notes": null
         }
       }
     },
@@ -2634,12 +2994,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "vitoria-sernache",
+          "status": "mapped",
+          "sourceTeamId": "16234",
+          "teamSlug": "gd-vitoria-sernache",
           "countrySlug": "portugal",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/GD-Vitoria-Sernache/16234/",
+          "notes": null
         }
       }
     },
@@ -2655,20 +3015,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10215",
           "teamSlug": "academica",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10215/stats/academica/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "academica",
+          "status": "mapped",
+          "sourceTeamId": "1086",
+          "teamSlug": "academica-coimbra",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Academica-Coimbra/1086/",
           "notes": null
         }
       }
@@ -2715,20 +3075,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "338302",
           "teamSlug": "benfica-b",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/338302/stats/benfica-b/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "benfica-b",
+          "status": "mapped",
+          "sourceTeamId": "8038",
+          "teamSlug": "benfica-lisboa-ii",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Benfica-Lisboa-II/8038/",
           "notes": null
         }
       }
@@ -2745,20 +3105,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9774",
           "teamSlug": "chaves",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9774/stats/chaves/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "chaves",
+          "status": "mapped",
+          "sourceTeamId": "2953",
+          "teamSlug": "gd-chaves",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/GD-Chaves/2953/",
           "notes": null
         }
       }
@@ -2835,20 +3195,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "6421",
           "teamSlug": "leixoes",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/6421/stats/leixoes/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "leixoes",
+          "status": "mapped",
+          "sourceTeamId": "1075",
+          "teamSlug": "leixoes-matosinhos",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Leixoes-Matosinhos/1075/",
           "notes": null
         }
       }
@@ -2865,20 +3225,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "lusitania",
+          "status": "mapped",
+          "sourceTeamId": "188154",
+          "teamSlug": "lusitania-lourosa",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/188154/stats/lusitania-lourosa/teams",
+          "notes": "FotMob usa Lusitania Lourosa."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "lusitania",
+          "status": "mapped",
+          "sourceTeamId": "2969",
+          "teamSlug": "lusitania-fc-lourosa",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Lusitania-FC-Lourosa/2969/",
           "notes": null
         }
       }
@@ -2955,20 +3315,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "porto-b",
+          "status": "mapped",
+          "sourceTeamId": "338304",
+          "teamSlug": "fc-porto-b",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/338304/stats/fc-porto-b/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "porto-b",
+          "status": "mapped",
+          "sourceTeamId": "8041",
+          "teamSlug": "fc-porto-ii",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Porto-II/8041/",
           "notes": null
         }
       }
@@ -3204,12 +3564,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "braga",
+          "status": "mapped",
+          "sourceTeamId": "1083",
+          "teamSlug": "sporting-braga",
           "countrySlug": "portugal",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Sporting-Braga/1083/",
+          "notes": null
         }
       }
     },
@@ -3375,20 +3735,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10214",
           "teamSlug": "nacional",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10214/stats/nacional/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "nacional",
+          "status": "mapped",
+          "sourceTeamId": "1079",
+          "teamSlug": "nacional-madeira",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Nacional-Madeira/1079/",
           "notes": null
         }
       }
@@ -3465,20 +3825,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1567",
           "teamSlug": "santa-clara",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/1567/stats/santa-clara/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1103",
           "teamSlug": "santa-clara",
           "countrySlug": "portugal",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Santa-Clara/1103/",
           "notes": null
         }
       }
@@ -3548,7 +3908,7 @@
       "teamName": "Argeș Pitești",
       "countryName": "Romania",
       "competitionId": "152",
-      "competitionName": "Superliga",
+      "competitionName": "SuperLiga",
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-08",
@@ -3578,7 +3938,7 @@
       "teamName": "Botoșani",
       "countryName": "Romania",
       "competitionId": "152",
-      "competitionName": "Superliga",
+      "competitionName": "SuperLiga",
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-09",
@@ -3608,7 +3968,7 @@
       "teamName": "CFR Cluj",
       "countryName": "Romania",
       "competitionId": "152",
-      "competitionName": "Superliga",
+      "competitionName": "SuperLiga",
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-09",
@@ -3638,7 +3998,7 @@
       "teamName": "Corvinul",
       "countryName": "Romania",
       "competitionId": "152",
-      "competitionName": "Superliga",
+      "competitionName": "SuperLiga",
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-09",
@@ -3668,7 +4028,7 @@
       "teamName": "Csíkszereda",
       "countryName": "Romania",
       "competitionId": "152",
-      "competitionName": "Superliga",
+      "competitionName": "SuperLiga",
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-08",
@@ -3698,7 +4058,7 @@
       "teamName": "Dinamo București",
       "countryName": "Romania",
       "competitionId": "152",
-      "competitionName": "Superliga",
+      "competitionName": "SuperLiga",
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-08",
@@ -3728,7 +4088,7 @@
       "teamName": "Farul Constanța",
       "countryName": "Romania",
       "competitionId": "152",
-      "competitionName": "Superliga",
+      "competitionName": "SuperLiga",
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-08",
@@ -3758,7 +4118,7 @@
       "teamName": "FCSB",
       "countryName": "Romania",
       "competitionId": "152",
-      "competitionName": "Superliga",
+      "competitionName": "SuperLiga",
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-09",
@@ -3788,7 +4148,7 @@
       "teamName": "Sepsi OSK",
       "countryName": "Romania",
       "competitionId": "152",
-      "competitionName": "Superliga",
+      "competitionName": "SuperLiga",
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-09",
@@ -3818,7 +4178,7 @@
       "teamName": "U. Cluj",
       "countryName": "Romania",
       "competitionId": "152",
-      "competitionName": "Superliga",
+      "competitionName": "SuperLiga",
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-09",
@@ -3848,7 +4208,7 @@
       "teamName": "U. Craiova",
       "countryName": "Romania",
       "competitionId": "152",
-      "competitionName": "Superliga",
+      "competitionName": "SuperLiga",
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-08",
@@ -3878,7 +4238,7 @@
       "teamName": "Voluntari",
       "countryName": "Romania",
       "competitionId": "152",
-      "competitionName": "Superliga",
+      "competitionName": "SuperLiga",
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-08",
@@ -5715,20 +6075,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "1-fc-heidenheim-1846",
+          "status": "mapped",
+          "sourceTeamId": "94937",
+          "teamSlug": "fc-heidenheim",
           "competitionId": "44",
           "competitionSlug": "2-bundesliga",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/94937/stats/fc-heidenheim/teams",
+          "notes": "FotMob usa FC Heidenheim."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "1-fc-heidenheim-1846",
+          "status": "mapped",
+          "sourceTeamId": "1989",
+          "teamSlug": "1-fc-heidenheim",
           "countrySlug": "germany",
-          "url": null,
+          "url": "https://www.soccer-rating.com/1-FC-Heidenheim/1989/",
           "notes": null
         }
       }
@@ -5745,20 +6105,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "1-fc-magdeburg",
+          "status": "mapped",
+          "sourceTeamId": "8188",
+          "teamSlug": "magdeburg",
           "competitionId": "44",
           "competitionSlug": "2-bundesliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8188/stats/magdeburg/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "734",
           "teamSlug": "1-fc-magdeburg",
           "countrySlug": "germany",
-          "url": null,
+          "url": "https://www.soccer-rating.com/1-FC-Magdeburg/734/",
           "notes": null
         }
       }
@@ -5775,20 +6135,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9912",
           "teamSlug": "arminia-bielefeld",
           "competitionId": "44",
           "competitionSlug": "2-bundesliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9912/stats/arminia-bielefeld/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "158",
           "teamSlug": "arminia-bielefeld",
           "countrySlug": "germany",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Arminia-Bielefeld/158/",
           "notes": null
         }
       }
@@ -5805,20 +6165,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "darmstadt-98",
+          "status": "mapped",
+          "sourceTeamId": "8262",
+          "teamSlug": "darmstadt",
           "competitionId": "44",
           "competitionSlug": "2-bundesliga",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/8262/stats/darmstadt/teams",
+          "notes": "FotMob usa Darmstadt."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "darmstadt-98",
+          "status": "mapped",
+          "sourceTeamId": "776",
+          "teamSlug": "sv-darmstadt-98",
           "countrySlug": "germany",
-          "url": null,
+          "url": "https://www.soccer-rating.com/SV-Darmstadt-98/776/",
           "notes": null
         }
       }
@@ -5835,20 +6195,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8480",
           "teamSlug": "dynamo-dresden",
           "competitionId": "44",
           "competitionSlug": "2-bundesliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8480/stats/dynamo-dresden/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "737",
           "teamSlug": "dynamo-dresden",
           "countrySlug": "germany",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Dynamo-Dresden/737/",
           "notes": null
         }
       }
@@ -5865,20 +6225,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9776",
           "teamSlug": "eintracht-braunschweig",
           "competitionId": "44",
           "competitionSlug": "2-bundesliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9776/stats/eintracht-braunschweig/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "738",
           "teamSlug": "eintracht-braunschweig",
           "countrySlug": "germany",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Eintracht-Braunschweig/738/",
           "notes": null
         }
       }
@@ -5895,20 +6255,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8398",
           "teamSlug": "energie-cottbus",
           "competitionId": "44",
           "competitionSlug": "2-bundesliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8398/stats/energie-cottbus/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "146",
           "teamSlug": "energie-cottbus",
           "countrySlug": "germany",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Energie-Cottbus/146/",
           "notes": null
         }
       }
@@ -5925,20 +6285,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "fc-nurnberg",
+          "status": "mapped",
+          "sourceTeamId": "8165",
+          "teamSlug": "1-fc-nurnberg",
           "competitionId": "44",
           "competitionSlug": "2-bundesliga",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/8165/stats/1-fc-nurnberg/teams",
+          "notes": "FotMob usa 1. FC Nürnberg."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "fc-nurnberg",
+          "status": "mapped",
+          "sourceTeamId": "143",
+          "teamSlug": "1-fc-nuernberg",
           "countrySlug": "germany",
-          "url": null,
+          "url": "https://www.soccer-rating.com/1-FC-Nuernberg/143/",
           "notes": null
         }
       }
@@ -5955,20 +6315,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "fc-st-pauli",
+          "status": "mapped",
+          "sourceTeamId": "8152",
+          "teamSlug": "st-pauli",
           "competitionId": "44",
           "competitionSlug": "2-bundesliga",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/8152/stats/st-pauli/teams",
+          "notes": "FotMob usa St. Pauli."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "662",
           "teamSlug": "fc-st-pauli",
           "countrySlug": "germany",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-St-Pauli/662/",
           "notes": null
         }
       }
@@ -5985,20 +6345,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9904",
           "teamSlug": "hannover-96",
           "competitionId": "44",
           "competitionSlug": "2-bundesliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9904/stats/hannover-96/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "153",
           "teamSlug": "hannover-96",
           "countrySlug": "germany",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Hannover-96/153/",
           "notes": null
         }
       }
@@ -6015,20 +6375,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8177",
           "teamSlug": "hertha-bsc",
           "competitionId": "44",
           "competitionSlug": "2-bundesliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8177/stats/hertha-bsc/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "hertha-bsc",
+          "status": "mapped",
+          "sourceTeamId": "150",
+          "teamSlug": "hertha-bsc-berlin",
           "countrySlug": "germany",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Hertha-BSC-Berlin/150/",
           "notes": null
         }
       }
@@ -6045,20 +6405,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8150",
           "teamSlug": "holstein-kiel",
           "competitionId": "44",
           "competitionSlug": "2-bundesliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8150/stats/holstein-kiel/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "757",
           "teamSlug": "holstein-kiel",
           "countrySlug": "germany",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Holstein-Kiel/757/",
           "notes": null
         }
       }
@@ -6075,20 +6435,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8350",
           "teamSlug": "kaiserslautern",
           "competitionId": "44",
           "competitionSlug": "2-bundesliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8350/stats/kaiserslautern/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "kaiserslautern",
+          "status": "mapped",
+          "sourceTeamId": "652",
+          "teamSlug": "1-fc-kaiserslautern",
           "countrySlug": "germany",
-          "url": null,
+          "url": "https://www.soccer-rating.com/1-FC-Kaiserslautern/652/",
           "notes": null
         }
       }
@@ -6105,20 +6465,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8295",
           "teamSlug": "karlsruher-sc",
           "competitionId": "44",
           "competitionSlug": "2-bundesliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8295/stats/karlsruher-sc/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "144",
           "teamSlug": "karlsruher-sc",
           "countrySlug": "germany",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Karlsruher-SC/144/",
           "notes": null
         }
       }
@@ -6135,20 +6495,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "spvgg-greuther-furth",
+          "status": "mapped",
+          "sourceTeamId": "8357",
+          "teamSlug": "greuther-furth",
           "competitionId": "44",
           "competitionSlug": "2-bundesliga",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/8357/stats/greuther-furth/teams",
+          "notes": "FotMob usa Greuther Fürth."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "spvgg-greuther-furth",
+          "status": "mapped",
+          "sourceTeamId": "659",
+          "teamSlug": "spvgg-greuther-fuerth",
           "countrySlug": "germany",
-          "url": null,
+          "url": "https://www.soccer-rating.com/SpVgg-Greuther-Fuerth/659/",
           "notes": null
         }
       }
@@ -6165,20 +6525,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "vfl-bochum",
+          "status": "mapped",
+          "sourceTeamId": "9911",
+          "teamSlug": "bochum",
           "competitionId": "44",
           "competitionSlug": "2-bundesliga",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/9911/stats/bochum/teams",
+          "notes": "FotMob usa Bochum."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "155",
           "teamSlug": "vfl-bochum",
           "countrySlug": "germany",
-          "url": null,
+          "url": "https://www.soccer-rating.com/VfL-Bochum/155/",
           "notes": null
         }
       }
@@ -6195,20 +6555,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9775",
           "teamSlug": "vfl-osnabruck",
           "competitionId": "44",
           "competitionSlug": "2-bundesliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9775/stats/vfl-osnabruck/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "vfl-osnabruck",
+          "status": "mapped",
+          "sourceTeamId": "668",
+          "teamSlug": "vfl-osnabrueck",
           "countrySlug": "germany",
-          "url": null,
+          "url": "https://www.soccer-rating.com/VfL-Osnabrueck/668/",
           "notes": null
         }
       }
@@ -6225,21 +6585,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8721",
           "teamSlug": "wolfsburg",
           "competitionId": "44",
           "competitionSlug": "2-bundesliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8721/stats/wolfsburg/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "wolfsburg",
+          "status": "mapped",
+          "sourceTeamId": "157",
+          "teamSlug": "vfl-wolfsburg",
           "countrySlug": "germany",
-          "url": null,
-          "notes": null
+          "url": "https://www.soccer-rating.com/VfL-Wolfsburg/157/",
+          "notes": "Soccer-Rating usa VfL Wolfsburg."
         }
       }
     },
@@ -6255,20 +6615,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "ajax-b",
+          "status": "mapped",
+          "sourceTeamId": "163363",
+          "teamSlug": "jong-ajax",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/163363/stats/jong-ajax/teams",
+          "notes": "FotMob usa Jong Ajax."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "ajax-b",
+          "status": "mapped",
+          "sourceTeamId": "4621",
+          "teamSlug": "ajax-amsterdam-ii",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Ajax-Amsterdam-II/4621/",
           "notes": null
         }
       }
@@ -6285,20 +6645,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "4116",
           "teamSlug": "almere-city-fc",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/4116/stats/almere-city-fc/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "almere-city-fc",
+          "status": "mapped",
+          "sourceTeamId": "932",
+          "teamSlug": "almere-city",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Almere-City/932/",
           "notes": null
         }
       }
@@ -6315,20 +6675,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "az-alkmaar-b",
+          "status": "mapped",
+          "sourceTeamId": "681217",
+          "teamSlug": "jong-az-alkmaar",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/681217/stats/jong-az-alkmaar/teams",
+          "notes": "FotMob usa Jong AZ Alkmaar."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "az-alkmaar-b",
+          "status": "mapped",
+          "sourceTeamId": "11692",
+          "teamSlug": "az-alkmaar-ii",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/AZ-Alkmaar-II/11692/",
           "notes": null
         }
       }
@@ -6345,20 +6705,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8526",
           "teamSlug": "de-graafschap",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8526/stats/de-graafschap/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "813",
           "teamSlug": "de-graafschap",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/De-Graafschap/813/",
           "notes": null
         }
       }
@@ -6375,20 +6735,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "den-bosch",
+          "status": "mapped",
+          "sourceTeamId": "9835",
+          "teamSlug": "fc-den-bosch",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/9835/stats/fc-den-bosch/teams",
+          "notes": "FotMob usa FC Den Bosch."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "den-bosch",
+          "status": "mapped",
+          "sourceTeamId": "927",
+          "teamSlug": "fc-den-bosch",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Den-Bosch/927/",
           "notes": null
         }
       }
@@ -6405,20 +6765,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "6631",
           "teamSlug": "fc-dordrecht",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/6631/stats/fc-dordrecht/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "929",
           "teamSlug": "fc-dordrecht",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Dordrecht/929/",
           "notes": null
         }
       }
@@ -6435,20 +6795,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "6416",
           "teamSlug": "fc-eindhoven",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/6416/stats/fc-eindhoven/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "930",
           "teamSlug": "fc-eindhoven",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Eindhoven/930/",
           "notes": null
         }
       }
@@ -6465,20 +6825,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "6660",
           "teamSlug": "fc-emmen",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/6660/stats/fc-emmen/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "935",
           "teamSlug": "fc-emmen",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Emmen/935/",
           "notes": null
         }
       }
@@ -6495,20 +6855,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "fc-utrecht-b",
+          "status": "mapped",
+          "sourceTeamId": "278960",
+          "teamSlug": "jong-fc-utrecht",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/278960/stats/jong-fc-utrecht/teams",
+          "notes": "FotMob usa Jong FC Utrecht."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "fc-utrecht-b",
+          "status": "mapped",
+          "sourceTeamId": "11185",
+          "teamSlug": "fc-utrecht-ii",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Utrecht-II/11185/",
           "notes": null
         }
       }
@@ -6525,20 +6885,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "6601",
           "teamSlug": "fc-volendam",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/6601/stats/fc-volendam/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "944",
           "teamSlug": "fc-volendam",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FC-Volendam/944/",
           "notes": null
         }
       }
@@ -6555,20 +6915,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "6417",
           "teamSlug": "helmond-sport",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/6417/stats/helmond-sport/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "943",
           "teamSlug": "helmond-sport",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Helmond-Sport/943/",
           "notes": null
         }
       }
@@ -6585,20 +6945,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "heracles-almelo",
+          "status": "mapped",
+          "sourceTeamId": "9791",
+          "teamSlug": "heracles",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/9791/stats/heracles/teams",
+          "notes": "FotMob usa Heracles."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "817",
           "teamSlug": "heracles-almelo",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Heracles-Almelo/817/",
           "notes": null
         }
       }
@@ -6615,20 +6975,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "mvv",
+          "status": "mapped",
+          "sourceTeamId": "9838",
+          "teamSlug": "mvv-maastricht",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9838/stats/mvv-maastricht/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "mvv",
+          "status": "mapped",
+          "sourceTeamId": "938",
+          "teamSlug": "mvv-maastricht",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/MVV-Maastricht/938/",
           "notes": null
         }
       }
@@ -6645,20 +7005,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9761",
           "teamSlug": "nac-breda",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9761/stats/nac-breda/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "809",
           "teamSlug": "nac-breda",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/NAC-Breda/809/",
           "notes": null
         }
       }
@@ -6675,20 +7035,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "psv-b",
+          "status": "mapped",
+          "sourceTeamId": "455494",
+          "teamSlug": "jong-psv",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/455494/stats/jong-psv/teams",
+          "notes": "FotMob usa Jong PSV."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "psv-b",
+          "status": "mapped",
+          "sourceTeamId": "4605",
+          "teamSlug": "psv-eindhoven-ii",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/PSV-Eindhoven-II/4605/",
           "notes": null
         }
       }
@@ -6705,20 +7065,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10219",
           "teamSlug": "rkc-waalwijk",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10219/stats/rkc-waalwijk/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "933",
           "teamSlug": "rkc-waalwijk",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/RKC-Waalwijk/933/",
           "notes": null
         }
       }
@@ -6735,20 +7095,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "roda",
+          "status": "mapped",
+          "sourceTeamId": "9803",
+          "teamSlug": "roda-jc-kerkrade",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/9803/stats/roda-jc-kerkrade/teams",
+          "notes": "FotMob usa Roda JC Kerkrade."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "roda",
+          "status": "mapped",
+          "sourceTeamId": "812",
+          "teamSlug": "roda-kerkrade",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Roda-Kerkrade/812/",
           "notes": null
         }
       }
@@ -6765,21 +7125,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "7781",
           "teamSlug": "top-oss",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/7781/stats/top-oss/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "top-oss",
+          "status": "mapped",
+          "sourceTeamId": "942",
+          "teamSlug": "fc-oss",
           "countrySlug": "netherlands",
-          "url": null,
-          "notes": null
+          "url": "https://www.soccer-rating.com/FC-Oss/942/",
+          "notes": "Soccer-Rating usa FC Oss."
         }
       }
     },
@@ -6795,20 +7155,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8277",
           "teamSlug": "vitesse",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8277/stats/vitesse/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "vitesse",
+          "status": "mapped",
+          "sourceTeamId": "820",
+          "teamSlug": "vitesse-arnheim",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Vitesse-Arnheim/820/",
           "notes": null
         }
       }
@@ -6825,20 +7185,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9839",
           "teamSlug": "vvv-venlo",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9839/stats/vvv-venlo/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "vvv-venlo",
+          "status": "mapped",
+          "sourceTeamId": "806",
+          "teamSlug": "vv-venlo",
           "countrySlug": "netherlands",
-          "url": null,
+          "url": "https://www.soccer-rating.com/VV-Venlo/806/",
           "notes": null
         }
       }
@@ -7254,12 +7614,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "famalicao",
+          "status": "mapped",
+          "sourceTeamId": "7558",
+          "teamSlug": "fc-famalicao",
           "countrySlug": "portugal",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/FC-Famalicao/7558/",
+          "notes": null
         }
       }
     },
@@ -7275,13 +7635,13 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1889",
           "teamSlug": "avs-futebol-sad",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": null,
-          "notes": "manual match name: FotMob = AVS Futebol SAD"
+          "url": "https://www.fotmob.com/teams/1889/stats/avs-futebol-sad/teams",
+          "notes": "FotMob usa AVS Futebol SAD."
         },
         "soccerRating": {
           "status": "mapped",
@@ -7504,41 +7864,11 @@
       }
     },
     {
-      "sofascoreTeamId": "4503",
-      "teamName": "Dukla",
-      "countryName": "Slovakia",
-      "competitionId": "211",
-      "competitionName": "Nike Liga",
-      "activeInCurrentWindow": false,
-      "fixtureAppearancesInCurrentWindow": 0,
-      "firstSeenReferenceDate": "2026-08-09",
-      "lastSeenReferenceDate": "2026-08-09",
-      "sources": {
-        "fotmob": {
-          "status": "mapped",
-          "sourceTeamId": "2169",
-          "teamSlug": "dukla-banska-bystrica",
-          "competitionId": "211",
-          "competitionSlug": "nike-liga",
-          "url": "https://www.fotmob.com/teams/2169/stats/dukla-banska-bystrica/teams",
-          "notes": "alias: mesma entidade que Banská Bystrica / Dukla Banska Bystrica"
-        },
-        "soccerRating": {
-          "status": "mapped",
-          "sourceTeamId": "160",
-          "teamSlug": "dukla-banska-bystrica",
-          "countrySlug": "slovakia",
-          "url": "https://www.soccer-rating.com/Dukla-Banska-Bystrica/160/",
-          "notes": "alias: mesma entidade que Banská Bystrica / Dukla Banska Bystrica"
-        }
-      }
-    },
-    {
       "sofascoreTeamId": "111061",
       "teamName": "Skalica",
       "countryName": "Slovakia",
       "competitionId": "211",
-      "competitionName": "Nike Liga",
+      "competitionName": "Niké Liga",
       "activeInCurrentWindow": false,
       "fixtureAppearancesInCurrentWindow": 0,
       "firstSeenReferenceDate": "2026-08-08",
@@ -7568,7 +7898,7 @@
       "teamName": "Žilina",
       "countryName": "Slovakia",
       "competitionId": "211",
-      "competitionName": "Nike Liga",
+      "competitionName": "Niké Liga",
       "activeInCurrentWindow": false,
       "fixtureAppearancesInCurrentWindow": 0,
       "firstSeenReferenceDate": "2026-08-08",
@@ -7665,20 +7995,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "ad-ceuta",
+          "status": "mapped",
+          "sourceTeamId": "357259",
+          "teamSlug": "ad-ceuta-fc",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/357259/stats/ad-ceuta-fc/teams",
+          "notes": "FotMob usa AD Ceuta FC."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "2354",
           "teamSlug": "ad-ceuta",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/AD-Ceuta/2354/",
           "notes": null
         }
       }
@@ -7695,20 +8025,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8393",
           "teamSlug": "albacete",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8393/stats/albacete/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "albacete",
+          "status": "mapped",
+          "sourceTeamId": "1035",
+          "teamSlug": "albacete-balompie",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Albacete-Balompie/1035/",
           "notes": null
         }
       }
@@ -7725,20 +8055,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9865",
           "teamSlug": "almeria",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9865/stats/almeria/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "almeria",
+          "status": "mapped",
+          "sourceTeamId": "1058",
+          "teamSlug": "ud-almeria",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/UD-Almeria/1058/",
           "notes": null
         }
       }
@@ -7755,20 +8085,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "7876",
           "teamSlug": "burgos-cf",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/7876/stats/burgos-cf/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "2318",
           "teamSlug": "burgos-cf",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Burgos-CF/2318/",
           "notes": null
         }
       }
@@ -7785,20 +8115,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8385",
           "teamSlug": "cadiz",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8385/stats/cadiz/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "cadiz",
+          "status": "mapped",
+          "sourceTeamId": "1037",
+          "teamSlug": "cadiz-cf",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Cadiz-CF/1037/",
           "notes": null
         }
       }
@@ -7815,20 +8145,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10279",
           "teamSlug": "castellon",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10279/stats/castellon/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "castellon",
+          "status": "mapped",
+          "sourceTeamId": "1050",
+          "teamSlug": "cd-castellon",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/CD-Castellon/1050/",
           "notes": null
         }
       }
@@ -7845,20 +8175,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "ce-sabadell",
+          "status": "mapped",
+          "sourceTeamId": "4033",
+          "teamSlug": "sabadell",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/4033/stats/sabadell/teams",
+          "notes": "FotMob usa Sabadell."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "2332",
           "teamSlug": "ce-sabadell",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/CE-Sabadell/2332/",
           "notes": null
         }
       }
@@ -7875,20 +8205,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "celta-de-vigo-b",
+          "status": "mapped",
+          "sourceTeamId": "161743",
+          "teamSlug": "celta-fortuna",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/161743/stats/celta-fortuna/teams",
+          "notes": "FotMob usa Celta Fortuna."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "celta-de-vigo-b",
+          "status": "mapped",
+          "sourceTeamId": "2302",
+          "teamSlug": "celta-de-vigo-ii",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Celta-de-Vigo-II/2302/",
           "notes": null
         }
       }
@@ -7905,20 +8235,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "7869",
           "teamSlug": "cordoba",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/7869/stats/cordoba/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "cordoba",
+          "status": "mapped",
+          "sourceTeamId": "1040",
+          "teamSlug": "cordoba-cf",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Cordoba-CF/1040/",
           "notes": null
         }
       }
@@ -7935,20 +8265,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8372",
           "teamSlug": "eibar",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8372/stats/eibar/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "eibar",
+          "status": "mapped",
+          "sourceTeamId": "1048",
+          "teamSlug": "sd-eibar",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/SD-Eibar/1048/",
           "notes": null
         }
       }
@@ -7965,21 +8295,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8288",
           "teamSlug": "eldense",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8288/stats/eldense/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "eldense",
+          "status": "mapped",
+          "sourceTeamId": "9365",
+          "teamSlug": "cd-eldense",
           "countrySlug": "spain",
-          "url": null,
-          "notes": null
+          "url": "https://www.soccer-rating.com/CD-Eldense/9365/",
+          "notes": "Soccer-Rating coloca a equipa em Segunda B 2."
         }
       }
     },
@@ -7995,20 +8325,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "494050",
           "teamSlug": "fc-andorra",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/494050/stats/fc-andorra/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "fc-andorra",
+          "status": "mapped",
+          "sourceTeamId": "7406",
+          "teamSlug": "andorra-cf",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Andorra-CF/7406/",
           "notes": null
         }
       }
@@ -8025,20 +8355,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "7732",
           "teamSlug": "girona",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/7732/stats/girona/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "girona",
+          "status": "mapped",
+          "sourceTeamId": "2337",
+          "teamSlug": "girona-fc",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Girona-FC/2337/",
           "notes": null
         }
       }
@@ -8055,20 +8385,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "7878",
           "teamSlug": "granada",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/7878/stats/granada/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "granada",
+          "status": "mapped",
+          "sourceTeamId": "2350",
+          "teamSlug": "granada-cf",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Granada-CF/2350/",
           "notes": null
         }
       }
@@ -8085,20 +8415,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8306",
           "teamSlug": "las-palmas",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8306/stats/las-palmas/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "las-palmas",
+          "status": "mapped",
+          "sourceTeamId": "1046",
+          "teamSlug": "ud-las-palmas",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/UD-Las-Palmas/1046/",
           "notes": null
         }
       }
@@ -8115,20 +8445,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "7854",
           "teamSlug": "leganes",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/7854/stats/leganes/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "leganes",
+          "status": "mapped",
+          "sourceTeamId": "2298",
+          "teamSlug": "cd-leganes",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/CD-Leganes/2298/",
           "notes": null
         }
       }
@@ -8145,20 +8475,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8661",
           "teamSlug": "mallorca",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8661/stats/mallorca/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "mallorca",
+          "status": "mapped",
+          "sourceTeamId": "1065",
+          "teamSlug": "rcd-mallorca",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/RCD-Mallorca/1065/",
           "notes": null
         }
       }
@@ -8175,20 +8505,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8670",
           "teamSlug": "real-oviedo",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8670/stats/real-oviedo/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "4237",
           "teamSlug": "real-oviedo",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Real-Oviedo/4237/",
           "notes": null
         }
       }
@@ -8205,20 +8535,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "161744",
           "teamSlug": "real-sociedad-b",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/161744/stats/real-sociedad-b/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "real-sociedad-b",
+          "status": "mapped",
+          "sourceTeamId": "2312",
+          "teamSlug": "real-sociedad-ii",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Real-Sociedad-II/2312/",
           "notes": null
         }
       }
@@ -8235,20 +8565,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9869",
           "teamSlug": "sporting-gijon",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9869/stats/sporting-gijon/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1053",
           "teamSlug": "sporting-gijon",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Sporting-Gijon/1053/",
           "notes": null
         }
       }
@@ -8265,20 +8595,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9867",
           "teamSlug": "tenerife",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/9867/stats/tenerife/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "tenerife",
+          "status": "mapped",
+          "sourceTeamId": "1052",
+          "teamSlug": "cd-tenerife",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/CD-Tenerife/1052/",
           "notes": null
         }
       }
@@ -8295,20 +8625,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "valladolid",
+          "status": "mapped",
+          "sourceTeamId": "10281",
+          "teamSlug": "real-valladolid",
           "competitionId": "54",
           "competitionSlug": "laliga-2",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/10281/stats/real-valladolid/teams",
+          "notes": "FotMob usa Real Valladolid."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "valladolid",
+          "status": "mapped",
+          "sourceTeamId": "1060",
+          "teamSlug": "real-valladolid",
           "countrySlug": "spain",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Real-Valladolid/1060/",
           "notes": null
         }
       }

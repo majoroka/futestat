@@ -129,6 +129,69 @@ Pendências desta subfase:
 - introduzir semeadura do inventário com classificações e páginas de competição
 - reduzir aliases ambíguos antes de ampliar capturas
 
+### Ligas alvo para fecho do mapeamento
+
+Regra operacional:
+- tratar uma competição de cada vez até ficar `completa`
+- só depois avançar para a seguinte
+- sempre que houver variantes de nome no registo, normalizar depois da competição ficar fechada
+
+#### Fechadas
+
+- `Argentina | Liga Profesional`
+- `Brasil | Brasileirão Betano`
+- `Bulgária | Parva Liga`
+- `Croácia | HNL`
+- `Chéquia | Chance Liga`
+- `Áustria | Bundesliga`
+- `Alemanha | 2. Bundesliga`
+- `Noruega | Eliteserien`
+- `Países Baixos | Eerste Divisie`
+- `Portugal | Liga Portugal`
+- `Portugal | Liga Portugal 2`
+- `Portugal | Liga Portugal Betclic`
+- `Portugal | Liga 3, Group A`
+- `Portugal | Liga 3, Group B`
+- `Roménia | SuperLiga`
+- `Rússia | Premier League`
+- `Eslováquia | Niké Liga`
+- `Eslovénia | PrvaLiga`
+- `Espanha | LaLiga 2`
+- `Suíça | Super League`
+- `Ucrânia | Premier League`
+
+#### Em curso
+- `Alemanha | Bundesliga`
+- `Bélgica | Pro League`
+- `Dinamarca | Superliga`
+
+#### Por semear ou mapear
+
+- `Inglaterra | Premier League`
+- `Inglaterra | Championship`
+- `Europa | UEFA Champions League`
+- `Europa | UEFA Europa League`
+- `Europa | UEFA Conference League`
+- `Finlândia | Veikkausliiga`
+- `França | Ligue 1`
+- `França | Ligue 2`
+- `Grécia | Super League`
+- `Hungria | NB I`
+- `Israel | Premier League`
+- `Itália | Serie A`
+- `Itália | Serie B`
+- `Países Baixos | Eredivisie`
+- `Polónia | Ekstraklasa`
+- `Escócia | Premiership`
+- `Sérvia | SuperLiga`
+- `Espanha | LaLiga`
+- `Suécia | Allsvenskan`
+- `Turquia | Super Lig`
+
+#### Notas de limpeza futura
+
+- consolidar `Liga Profesional` e fases sazonais/segmentos (`Apertura`, `Clausura`) sem perder contexto competitivo
+
 ### Fase 5B
 
 Objetivo:

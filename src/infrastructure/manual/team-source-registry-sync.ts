@@ -1,6 +1,7 @@
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
+import { getCanonicalCompetitionNameById } from "../../config/competition-whitelist.js";
 import type { CompetitionStandingsSnapshot } from "../../domain/competition-standings.js";
 import type { MatchFixture, PublicFixtureSnapshot } from "../../domain/fixture.js";
 import type {
@@ -93,7 +94,7 @@ export async function syncTeamSourceRegistry(
       teamId: entry.sofascoreTeamId,
       teamName: entry.teamName,
       competitionId: entry.competitionId,
-      competitionName: entry.competitionName,
+      competitionName: normalizeCompetitionName(entry.competitionId, entry.competitionName),
       countryName: entry.countryName,
       activeInCurrentWindow: entry.activeInCurrentWindow,
       fixtureAppearancesInCurrentWindow: entry.fixtureAppearancesInCurrentWindow,
@@ -171,7 +172,7 @@ function upsertFixtureTeam(
     teamId,
     teamName,
     competitionId: fixture.competitionId,
-    competitionName: fixture.competitionName,
+    competitionName: normalizeCompetitionName(fixture.competitionId, fixture.competitionName),
     countryName: fixture.countryName,
     activeInCurrentWindow: true,
     fixtureAppearancesInCurrentWindow: 1,
@@ -193,7 +194,7 @@ function hydrateFixtureEntry(
   entry.teamName = teamName;
   entry.countryName = fixture.countryName;
   entry.competitionId = fixture.competitionId;
-  entry.competitionName = fixture.competitionName;
+  entry.competitionName = normalizeCompetitionName(fixture.competitionId, fixture.competitionName);
   seedDefaultSourceHints(entry, fixture);
 }
 
@@ -213,7 +214,10 @@ function seedTeamsFromStandings(
     if (existing) {
       existing.entry.countryName = standings.countryName;
       existing.entry.competitionId = standings.competitionId;
-      existing.entry.competitionName = standings.competitionName;
+      existing.entry.competitionName = normalizeCompetitionName(
+        standings.competitionId,
+        standings.competitionName,
+      );
       seedDefaultSourceHintsFromStandings(existing.entry, standings);
       continue;
     }
@@ -223,7 +227,10 @@ function seedTeamsFromStandings(
       teamId: null,
       teamName,
       competitionId: standings.competitionId,
-      competitionName: standings.competitionName,
+      competitionName: normalizeCompetitionName(
+        standings.competitionId,
+        standings.competitionName,
+      ),
       countryName: standings.countryName,
       activeInCurrentWindow: false,
       fixtureAppearancesInCurrentWindow: 0,
@@ -280,6 +287,13 @@ function createRegistryEntry(params: {
       },
     },
   };
+}
+
+function normalizeCompetitionName(
+  competitionId: string | null,
+  competitionName: string | null,
+): string | null {
+  return getCanonicalCompetitionNameById(competitionId) ?? competitionName;
 }
 
 function seedDefaultSourceHints(entry: TeamSourceRegistryEntry, fixture: MatchFixture): void {
