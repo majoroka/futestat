@@ -1,0 +1,158 @@
+{
+  "builtAtUtc": "2026-08-11T15:33:57.199Z",
+  "match": {
+    "id": "16578167",
+    "date": "2026-08-11",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/sabah-fk-agf/QAsDghc#id:16578167",
+    "kickoffAtUtc": "2026-08-11T16:00:00.000Z",
+    "competition": {
+      "id": "7",
+      "name": "UEFA Champions League, Qualification",
+      "country": "Europe",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "267828",
+      "name": "Sabah",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/267828/image/small",
+      "sourceIds": {
+        "sofascore": "267828",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "1291",
+      "name": "AGF",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/1291/image/small",
+      "sourceIds": {
+        "sofascore": "1291",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": false,
+    "competitionId": "7",
+    "sourceStatus": "missing",
+    "phaseName": null,
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": null,
+    "tableType": null,
+    "rows": []
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-11.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

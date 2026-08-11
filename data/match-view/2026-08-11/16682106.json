@@ -1,0 +1,591 @@
+{
+  "builtAtUtc": "2026-08-11T15:33:57.204Z",
+  "match": {
+    "id": "16682106",
+    "date": "2026-08-11",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/fc-cska-1948-sofia-panathinaikos-fc/YobsFQac#id:16682106",
+    "kickoffAtUtc": "2026-08-11T17:30:00.000Z",
+    "competition": {
+      "id": "17015",
+      "name": "UEFA Conference League, Qualification",
+      "country": "Europe",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "252080",
+      "name": "CSKA 1948 Sofia",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/252080/image/small",
+      "sourceIds": {
+        "sofascore": "252080",
+        "fotmob": null,
+        "soccerRating": "13235"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1887.11,
+      "nationalRank": 5,
+      "europeRank": 429,
+      "formLast3": [
+        "W",
+        "D",
+        "W"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": {
+        "tip": "home_or_draw",
+        "tipLabel": "Bet on (1X) CSKA 1948 Sofia (Stake 3/10)",
+        "confidencePct": 30,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [
+          {
+            "player": "Kostadin Iliev",
+            "status": "injury_or_suspension",
+            "description": null
+          },
+          {
+            "player": "Lasha Dvali",
+            "status": "injury_or_suspension",
+            "description": null
+          },
+          {
+            "player": "Diego Medina",
+            "status": "injury_or_suspension",
+            "description": null
+          },
+          {
+            "player": "Héctor Cuellar",
+            "status": "injury_or_suspension",
+            "description": null
+          },
+          {
+            "player": "Brian Sobrero",
+            "status": "injury_or_suspension",
+            "description": null
+          }
+        ],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 4,
+        "players": [
+          {
+            "name": "Aleks Bozhev",
+            "position": "GK",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 3.2
+          },
+          {
+            "name": "Egor Parkhomenko",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.2
+          },
+          {
+            "name": "Fourat Soltani",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.5
+          },
+          {
+            "name": "Dragan Grivic",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.4
+          },
+          {
+            "name": "Benaissa Benamar",
+            "position": "DF",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 3.2
+          },
+          {
+            "name": "Petar Vitanov",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.3
+          },
+          {
+            "name": "Florian Krebs",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 1,
+            "rating": 3.7
+          },
+          {
+            "name": "Borislav Tsonev",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 6
+          },
+          {
+            "name": "Mamadou Diallo",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 3,
+            "rating": 6
+          },
+          {
+            "name": "Jose Martinez",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Elias Franco",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.2
+          },
+          {
+            "name": "Dimitar Sheytanov",
+            "position": "GK",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Ognjen Gasevic",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4.3
+          },
+          {
+            "name": "Jules Meyer",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3
+          },
+          {
+            "name": "Georgi Rusev",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 5.4
+          },
+          {
+            "name": "Frédéric Maciel",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 1,
+            "rating": 5.4
+          },
+          {
+            "name": "Boris Dimitrov",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4.2
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 4.33,
+          "draw": 3.6,
+          "away": 1.72
+        },
+        "fair1X2": {
+          "home": 3.81,
+          "draw": 4.12,
+          "away": 2.02
+        },
+        "movementSummary": "home_odds_flat_away_odds_flat"
+      }
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [
+      {
+        "name": "Petar Marinov",
+        "position": null,
+        "age": 26,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Aleks Bozhev",
+        "position": "GK",
+        "age": 20,
+        "apps": 0,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Dimitar Sheytanov",
+        "position": "GK",
+        "age": 27,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Andre Hoffmann",
+        "position": null,
+        "age": 33,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Egor Parkhomenko",
+        "position": "DF",
+        "age": 23,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Fourat Soltani",
+        "position": "DF",
+        "age": 26,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Dragan Grivic",
+        "position": "DF",
+        "age": 30,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Benaissa Benamar",
+        "position": "DF",
+        "age": 28,
+        "apps": 0,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Ognjen Gasevic",
+        "position": "DF",
+        "age": 24,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Kostadin Iliev",
+        "position": null,
+        "age": 24,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Lasha Dvali",
+        "position": null,
+        "age": 31,
+        "apps": 1,
+        "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Diego Medina",
+        "position": null,
+        "age": 24,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Kaloyan Strinski",
+        "position": null,
+        "age": 20,
+        "apps": 0,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Moataz Zemzemi",
+        "position": null,
+        "age": 27,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.1
+      },
+      {
+        "name": "Marto Boychev",
+        "position": null,
+        "age": 18,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Petar Vitanov",
+        "position": "MF",
+        "age": 31,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Florian Krebs",
+        "position": "MF",
+        "age": 27,
+        "apps": 3,
+        "goals": 1,
+        "rating": 3.7
+      },
+      {
+        "name": "Borislav Tsonev",
+        "position": "MF",
+        "age": 31,
+        "apps": 3,
+        "goals": 0,
+        "rating": 6
+      },
+      {
+        "name": "Jules Meyer",
+        "position": "MF",
+        "age": 25,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Héctor Cuellar",
+        "position": null,
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Brian Sobrero",
+        "position": null,
+        "age": 27,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Danylo Tarasenko",
+        "position": null,
+        "age": 18,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Jose Martinez",
+        "position": "ST",
+        "age": 23,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Elias Franco",
+        "position": "ST",
+        "age": 30,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Georgi Rusev",
+        "position": "ST",
+        "age": 28,
+        "apps": 2,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Frédéric Maciel",
+        "position": "ST",
+        "age": 32,
+        "apps": 3,
+        "goals": 1,
+        "rating": 5.4
+      },
+      {
+        "name": "Atanas Iliev",
+        "position": null,
+        "age": 31,
+        "apps": 2,
+        "goals": 1,
+        "rating": 3.3
+      },
+      {
+        "name": "Mamadou Diallo",
+        "position": "ST",
+        "age": 29,
+        "apps": 2,
+        "goals": 3,
+        "rating": 6
+      },
+      {
+        "name": "Boris Dimitrov",
+        "position": "ST",
+        "age": 22,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.2
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "Borac Banja Luka",
+        "rating": 1907.83
+      },
+      {
+        "name": "FK Haugesund",
+        "rating": 1902.31
+      }
+    ]
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "3248",
+      "name": "Panathinaikos",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3248/image/small",
+      "sourceIds": {
+        "sofascore": "3248",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": false,
+    "competitionId": "17015",
+    "sourceStatus": "missing",
+    "phaseName": null,
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": null,
+    "tableType": null,
+    "rows": []
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-11.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/bulgaria/13235-cska-1948-sofia.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

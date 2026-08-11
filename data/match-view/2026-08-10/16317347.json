@@ -1,19 +1,19 @@
 {
-  "builtAtUtc": "2026-08-11T15:33:57.192Z",
+  "builtAtUtc": "2026-08-11T15:33:57.194Z",
   "match": {
-    "id": "16450741",
+    "id": "16317347",
     "date": "2026-08-10",
     "status": "finished",
     "resultLabel": "FT",
-    "homeScore": 2,
-    "awayScore": 2,
-    "matchUrl": "https://www.sofascore.com/football/match/cd-nacional-santa-clara/lkbsnkb#id:16450741",
-    "kickoffAtUtc": "2026-08-10T19:15:00.000Z",
+    "homeScore": 0,
+    "awayScore": 1,
+    "matchUrl": "https://www.sofascore.com/football/match/jong-az-alkmaar-fc-eindhoven/Ujbslyt#id:16317347",
+    "kickoffAtUtc": null,
     "competition": {
-      "id": "238",
-      "name": "Liga Portugal Betclic",
-      "country": "Portugal",
-      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/238/image"
+      "id": "131",
+      "name": "Eerste Divisie",
+      "country": "Netherlands",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/131/image"
     },
     "season": {
       "id": "2026/2027",
@@ -35,11 +35,11 @@
   },
   "homeTeam": {
     "identity": {
-      "id": "3011",
-      "name": "Santa Clara",
-      "logoUrl": "https://img.sofascore.com/api/v1/team/3011/image/small",
+      "id": "46161",
+      "name": "Jong AZ",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/46161/image/small",
       "sourceIds": {
-        "sofascore": "3011",
+        "sofascore": "46161",
         "fotmob": null,
         "soccerRating": null
       }
@@ -72,19 +72,19 @@
   },
   "awayTeam": {
     "identity": {
-      "id": "3013",
-      "name": "Nacional",
-      "logoUrl": "https://img.sofascore.com/api/v1/team/3013/image/small",
+      "id": "2994",
+      "name": "Eindhoven",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2994/image/small",
       "sourceIds": {
-        "sofascore": "3013",
+        "sofascore": "2994",
         "fotmob": null,
-        "soccerRating": "13490"
+        "soccerRating": null
       }
     },
     "headerStats": {
-      "overallRating": 1682.07,
-      "nationalRank": 82,
-      "europeRank": 1221,
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
       "formLast3": [],
       "xgFor": null,
       "xgAgainst": null,
@@ -92,26 +92,10 @@
       "cleanSheets": null
     },
     "overview": {
-      "prediction": {
-        "tip": null,
-        "tipLabel": null,
-        "confidencePct": null,
-        "strengthComparison": null
-      },
-      "squadHealth": {
-        "injuries": [],
-        "suspensions": []
-      },
-      "expectedLineup": {
-        "formation": null,
-        "averageRating": null,
-        "players": []
-      },
-      "oddsMarket": {
-        "opening1X2": null,
-        "fair1X2": null,
-        "movementSummary": null
-      }
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
     },
     "statistics": {
       "overview": null,
@@ -121,20 +105,11 @@
     },
     "squad": [],
     "history": [],
-    "similarTeams": [
-      {
-        "name": "Strommen IF",
-        "rating": 1690.41
-      },
-      {
-        "name": "FK Volgograd",
-        "rating": 1681.92
-      }
-    ]
+    "similarTeams": []
   },
   "standings": {
     "available": true,
-    "competitionId": "238",
+    "competitionId": "131",
     "sourceStatus": "ready",
     "phaseName": "Campeonato",
     "phaseNotes": [],
@@ -144,50 +119,50 @@
     "rows": [
       {
         "position": 1,
-        "teamName": "FC Porto",
-        "teamUrl": "https://www.zerozero.pt/equipa/fc-porto?epoca_id=156",
+        "teamName": "FC Dordrecht",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-dordrecht/7430?epoca_id=156",
         "points": 3,
         "matches": 1,
         "wins": 1,
         "draws": 0,
         "losses": 0,
         "goalsFor": 2,
-        "goalsAgainst": 0,
-        "goalDifference": "+2",
+        "goalsAgainst": 1,
+        "goalDifference": "+1",
         "highlight": null
       },
       {
         "position": 2,
-        "teamName": "Gil Vicente",
-        "teamUrl": "https://www.zerozero.pt/equipa/gil-vicente?epoca_id=156",
+        "teamName": "NAC Breda",
+        "teamUrl": "https://www.zerozero.pt/equipa/nac-breda/1104?epoca_id=156",
         "points": 3,
         "matches": 1,
         "wins": 1,
         "draws": 0,
         "losses": 0,
-        "goalsFor": 1,
-        "goalsAgainst": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
         "goalDifference": "+1",
         "highlight": null
       },
       {
         "position": 3,
-        "teamName": "FC Arouca",
-        "teamUrl": "https://www.zerozero.pt/equipa/fc-arouca/3555?epoca_id=156",
+        "teamName": "Heracles Almelo",
+        "teamUrl": "https://www.zerozero.pt/equipa/heracles-almelo/5948?epoca_id=156",
         "points": 3,
         "matches": 1,
         "wins": 1,
         "draws": 0,
         "losses": 0,
-        "goalsFor": 1,
-        "goalsAgainst": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 3,
         "goalDifference": "+1",
         "highlight": null
       },
       {
         "position": 4,
-        "teamName": "Marítimo",
-        "teamUrl": "https://www.zerozero.pt/equipa/maritimo?epoca_id=156",
+        "teamName": "FC Emmen",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-emmen/8910?epoca_id=156",
         "points": 3,
         "matches": 1,
         "wins": 1,
@@ -200,120 +175,120 @@
       },
       {
         "position": 5,
-        "teamName": "Benfica",
-        "teamUrl": "https://www.zerozero.pt/equipa/benfica?epoca_id=156",
-        "points": 1,
+        "teamName": "MVV",
+        "teamUrl": "https://www.zerozero.pt/equipa/mvv/7429?epoca_id=156",
+        "points": 3,
         "matches": 1,
-        "wins": 0,
-        "draws": 1,
+        "wins": 1,
+        "draws": 0,
         "losses": 0,
         "goalsFor": 2,
-        "goalsAgainst": 2,
-        "goalDifference": "0",
+        "goalsAgainst": 1,
+        "goalDifference": "+1",
         "highlight": null
       },
       {
         "position": 6,
-        "teamName": "Sporting",
-        "teamUrl": "https://www.zerozero.pt/equipa/sporting?epoca_id=156",
-        "points": 1,
+        "teamName": "PSV B",
+        "teamUrl": "https://www.zerozero.pt/equipa/psv/41299?epoca_id=156",
+        "points": 3,
         "matches": 1,
-        "wins": 0,
-        "draws": 1,
+        "wins": 1,
+        "draws": 0,
         "losses": 0,
-        "goalsFor": 2,
+        "goalsFor": 3,
         "goalsAgainst": 2,
-        "goalDifference": "0",
+        "goalDifference": "+1",
         "highlight": null
       },
       {
         "position": 7,
-        "teamName": "SC Braga",
-        "teamUrl": "https://www.zerozero.pt/equipa/sc-braga?epoca_id=156",
-        "points": 1,
+        "teamName": "FC Eindhoven",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-eindhoven/7801?epoca_id=156",
+        "points": 3,
         "matches": 1,
-        "wins": 0,
-        "draws": 1,
+        "wins": 1,
+        "draws": 0,
         "losses": 0,
-        "goalsFor": 2,
-        "goalsAgainst": 2,
-        "goalDifference": "0",
-        "highlight": null
+        "goalsFor": 1,
+        "goalsAgainst": 0,
+        "goalDifference": "+1",
+        "highlight": "away"
       },
       {
         "position": 8,
-        "teamName": "Moreirense",
-        "teamUrl": "https://www.zerozero.pt/equipa/moreirense/6?epoca_id=156",
+        "teamName": "Vitesse",
+        "teamUrl": "https://www.zerozero.pt/equipa/vitesse?epoca_id=156",
         "points": 1,
         "matches": 1,
         "wins": 0,
         "draws": 1,
         "losses": 0,
-        "goalsFor": 2,
-        "goalsAgainst": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
         "goalDifference": "0",
         "highlight": null
       },
       {
         "position": 9,
-        "teamName": "Santa Clara",
-        "teamUrl": "https://www.zerozero.pt/equipa/santa-clara/32?epoca_id=156",
+        "teamName": "RKC Waalwijk",
+        "teamUrl": "https://www.zerozero.pt/equipa/rkc-waalwijk/1934?epoca_id=156",
         "points": 1,
         "matches": 1,
         "wins": 0,
         "draws": 1,
         "losses": 0,
-        "goalsFor": 2,
-        "goalsAgainst": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
         "goalDifference": "0",
-        "highlight": "home"
+        "highlight": null
       },
       {
         "position": 10,
-        "teamName": "Nacional",
-        "teamUrl": "https://www.zerozero.pt/equipa/nacional/27?epoca_id=156",
+        "teamName": "Helmond Sport",
+        "teamUrl": "https://www.zerozero.pt/equipa/helmond-sport/8667?epoca_id=156",
         "points": 1,
         "matches": 1,
         "wins": 0,
         "draws": 1,
         "losses": 0,
-        "goalsFor": 2,
-        "goalsAgainst": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
         "goalDifference": "0",
-        "highlight": "away"
+        "highlight": null
       },
       {
         "position": 11,
-        "teamName": "Est. Amadora",
-        "teamUrl": "https://www.zerozero.pt/equipa/est-amadora/253884?epoca_id=156",
+        "teamName": "De Graafschap",
+        "teamUrl": "https://www.zerozero.pt/equipa/de-graafschap/4186?epoca_id=156",
         "points": 1,
         "matches": 1,
         "wins": 0,
         "draws": 1,
         "losses": 0,
-        "goalsFor": 2,
-        "goalsAgainst": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
         "goalDifference": "0",
         "highlight": null
       },
       {
         "position": 12,
-        "teamName": "Académico",
-        "teamUrl": "https://www.zerozero.pt/equipa/academico/2181?epoca_id=156",
+        "teamName": "Den Bosch",
+        "teamUrl": "https://www.zerozero.pt/equipa/den-bosch/4184?epoca_id=156",
         "points": 1,
         "matches": 1,
         "wins": 0,
         "draws": 1,
         "losses": 0,
-        "goalsFor": 2,
-        "goalsAgainst": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
         "goalDifference": "0",
         "highlight": null
       },
       {
         "position": 13,
-        "teamName": "FC Famalicão",
-        "teamUrl": "https://www.zerozero.pt/equipa/fc-famalicao/2175?epoca_id=156",
+        "teamName": "Almere City FC",
+        "teamUrl": "https://www.zerozero.pt/equipa/almere-city-fc/8972?epoca_id=156",
         "points": 1,
         "matches": 1,
         "wins": 0,
@@ -326,50 +301,50 @@
       },
       {
         "position": 14,
-        "teamName": "Estoril Praia",
-        "teamUrl": "https://www.zerozero.pt/equipa/estoril-praia/1734?epoca_id=156",
-        "points": 1,
-        "matches": 1,
-        "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "goalsFor": 1,
-        "goalsAgainst": 1,
-        "goalDifference": "0",
-        "highlight": null
-      },
-      {
-        "position": 15,
-        "teamName": "Vitória SC",
-        "teamUrl": "https://www.zerozero.pt/equipa/vitoria-sc?epoca_id=156",
+        "teamName": "Ajax B",
+        "teamUrl": "https://www.zerozero.pt/equipa/ajax/27091?epoca_id=156",
         "points": 0,
         "matches": 1,
         "wins": 0,
         "draws": 0,
         "losses": 1,
-        "goalsFor": 0,
-        "goalsAgainst": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "TOP Oss",
+        "teamUrl": "https://www.zerozero.pt/equipa/top-oss/5357?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
         "goalDifference": "-1",
         "highlight": null
       },
       {
         "position": 16,
-        "teamName": "Rio Ave",
-        "teamUrl": "https://www.zerozero.pt/equipa/rio-ave/31?epoca_id=156",
+        "teamName": "VVV-Venlo",
+        "teamUrl": "https://www.zerozero.pt/equipa/vvv-venlo/5008?epoca_id=156",
         "points": 0,
         "matches": 1,
         "wins": 0,
         "draws": 0,
         "losses": 1,
-        "goalsFor": 0,
-        "goalsAgainst": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 4,
         "goalDifference": "-1",
         "highlight": null
       },
       {
         "position": 17,
-        "teamName": "Casa Pia AC",
-        "teamUrl": "https://www.zerozero.pt/equipa/casa-pia-ac/2412?epoca_id=156",
+        "teamName": "Roda",
+        "teamUrl": "https://www.zerozero.pt/equipa/roda/1931?epoca_id=156",
         "points": 0,
         "matches": 1,
         "wins": 0,
@@ -382,16 +357,44 @@
       },
       {
         "position": 18,
-        "teamName": "FC Alverca",
-        "teamUrl": "https://www.zerozero.pt/equipa/fc-alverca/1?epoca_id=156",
+        "teamName": "FC Utrecht B",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-utrecht/38346?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 19,
+        "teamName": "FC Volendam",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-volendam/1935?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 20,
+        "teamName": "AZ Alkmaar B",
+        "teamUrl": "https://www.zerozero.pt/equipa/az-alkmaar/29983?epoca_id=156",
         "points": 0,
         "matches": 1,
         "wins": 0,
         "draws": 0,
         "losses": 1,
         "goalsFor": 0,
-        "goalsAgainst": 2,
-        "goalDifference": "-2",
+        "goalsAgainst": 1,
+        "goalDifference": "-1",
         "highlight": null
       }
     ]
@@ -409,7 +412,7 @@
     },
     "competitionStandings": {
       "available": true,
-      "path": "data/fixtures/standings/238.json",
+      "path": "data/fixtures/standings/131.json",
       "matchedBy": "competitionId"
     },
     "homeTeamStats": {
@@ -428,9 +431,9 @@
       "matchedBy": null
     },
     "awayTeamContext": {
-      "available": true,
-      "path": "data/team-context/soccer-rating/2026-2027/brazil/13490-cf-internacional-de-madrid.json",
-      "matchedBy": "teamSlug"
+      "available": false,
+      "path": null,
+      "matchedBy": null
     }
   }
 }

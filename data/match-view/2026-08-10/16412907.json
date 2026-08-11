@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-09T16:20:24.808Z",
+  "builtAtUtc": "2026-08-11T15:33:57.183Z",
   "match": {
     "id": "16412907",
     "date": "2026-08-10",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 3,
+    "awayScore": 0,
     "matchUrl": "https://www.sofascore.com/football/match/lnz-cherkasy-karpaty-lviv/qqbsCNnc#id:16412907",
     "kickoffAtUtc": "2026-08-10T15:00:00.000Z",
     "competition": {
@@ -119,6 +119,34 @@
     "rows": [
       {
         "position": 1,
+        "teamName": "Karpaty",
+        "teamUrl": "https://www.zerozero.pt/equipa/karpaty/2161?epoca_id=156",
+        "points": 6,
+        "matches": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 1,
+        "goalDifference": "+6",
+        "highlight": "home"
+      },
+      {
+        "position": 2,
+        "teamName": "Polissya",
+        "teamUrl": "https://www.zerozero.pt/equipa/polissya/38513?epoca_id=156",
+        "points": 6,
+        "matches": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 2,
+        "goalDifference": "+3",
+        "highlight": null
+      },
+      {
+        "position": 3,
         "teamName": "Shakhtar Donetsk",
         "teamUrl": "https://www.zerozero.pt/equipa/shakhtar-donetsk?epoca_id=156",
         "points": 6,
@@ -132,21 +160,7 @@
         "highlight": null
       },
       {
-        "position": 2,
-        "teamName": "Karpaty",
-        "teamUrl": "https://www.zerozero.pt/equipa/karpaty/2161?epoca_id=156",
-        "points": 3,
-        "matches": 1,
-        "wins": 1,
-        "draws": 0,
-        "losses": 0,
-        "goalsFor": 4,
-        "goalsAgainst": 1,
-        "goalDifference": "+3",
-        "highlight": "home"
-      },
-      {
-        "position": 3,
+        "position": 4,
         "teamName": "Kryvbas",
         "teamUrl": "https://www.zerozero.pt/equipa/kryvbas/85604?epoca_id=156",
         "points": 3,
@@ -160,21 +174,21 @@
         "highlight": null
       },
       {
-        "position": 4,
+        "position": 5,
         "teamName": "Metalist 1925 Kharkov",
         "teamUrl": "https://www.zerozero.pt/equipa/metalist-1925-kharkov/213307?epoca_id=156",
         "points": 3,
-        "matches": 1,
+        "matches": 2,
         "wins": 1,
         "draws": 0,
-        "losses": 0,
-        "goalsFor": 1,
-        "goalsAgainst": 0,
-        "goalDifference": "+1",
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
+        "goalDifference": "-1",
         "highlight": null
       },
       {
-        "position": 5,
+        "position": 6,
         "teamName": "Epitsentr Dunaivtsi",
         "teamUrl": "https://www.zerozero.pt/equipa/epitsentr-dunaivtsi/263553?epoca_id=156",
         "points": 3,
@@ -188,9 +202,9 @@
         "highlight": null
       },
       {
-        "position": 6,
-        "teamName": "Polissya",
-        "teamUrl": "https://www.zerozero.pt/equipa/polissya/38513?epoca_id=156",
+        "position": 7,
+        "teamName": "Dynamo Kyiv",
+        "teamUrl": "https://www.zerozero.pt/equipa/dynamo-kyiv/141?epoca_id=156",
         "points": 3,
         "matches": 1,
         "wins": 1,
@@ -202,7 +216,7 @@
         "highlight": null
       },
       {
-        "position": 7,
+        "position": 8,
         "teamName": "Zorya",
         "teamUrl": "https://www.zerozero.pt/equipa/zorya/7872?epoca_id=156",
         "points": 3,
@@ -216,7 +230,7 @@
         "highlight": null
       },
       {
-        "position": 8,
+        "position": 9,
         "teamName": "Bukovyna",
         "teamUrl": "https://www.zerozero.pt/equipa/bukovyna/41976?epoca_id=156",
         "points": 2,
@@ -230,7 +244,7 @@
         "highlight": null
       },
       {
-        "position": 9,
+        "position": 10,
         "teamName": "Livyi Bereh",
         "teamUrl": "https://www.zerozero.pt/equipa/livyi-bereh/262925?epoca_id=156",
         "points": 1,
@@ -244,7 +258,7 @@
         "highlight": null
       },
       {
-        "position": 10,
+        "position": 11,
         "teamName": "FK Kudrivka",
         "teamUrl": "https://www.zerozero.pt/equipa/fk-kudrivka/263502?epoca_id=156",
         "points": 1,
@@ -258,21 +272,21 @@
         "highlight": null
       },
       {
-        "position": 11,
+        "position": 12,
         "teamName": "LNZ Cherkasy",
         "teamUrl": "https://www.zerozero.pt/equipa/lnz-cherkasy/262926?epoca_id=156",
         "points": 1,
-        "matches": 1,
+        "matches": 2,
         "wins": 0,
         "draws": 1,
-        "losses": 0,
+        "losses": 1,
         "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": "0",
+        "goalsAgainst": 3,
+        "goalDifference": "-3",
         "highlight": "away"
       },
       {
-        "position": 12,
+        "position": 13,
         "teamName": "Obolon-Brovar",
         "teamUrl": "https://www.zerozero.pt/equipa/obolon-brovar/84680?epoca_id=156",
         "points": 1,
@@ -286,31 +300,17 @@
         "highlight": null
       },
       {
-        "position": 13,
+        "position": 14,
         "teamName": "FC Veres",
         "teamUrl": "https://www.zerozero.pt/equipa/fc-veres/41915?epoca_id=156",
         "points": 0,
-        "matches": 1,
+        "matches": 2,
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "goalsFor": 0,
-        "goalsAgainst": 1,
-        "goalDifference": "-1",
-        "highlight": null
-      },
-      {
-        "position": 14,
-        "teamName": "Dynamo Kyiv",
-        "teamUrl": "https://www.zerozero.pt/equipa/dynamo-kyiv/141?epoca_id=156",
-        "points": 0,
-        "matches": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": "0",
+        "losses": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 3,
+        "goalDifference": "-2",
         "highlight": null
       },
       {

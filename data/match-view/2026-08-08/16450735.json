@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-09T16:20:24.753Z",
+  "builtAtUtc": "2026-08-09T16:53:17.906Z",
   "match": {
     "id": "16450735",
     "date": "2026-08-08",
@@ -41,90 +41,21 @@
       "sourceIds": {
         "sofascore": "3035",
         "fotmob": "1074320",
-        "soccerRating": null
+        "soccerRating": "1080"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
-      "formLast3": [],
-      "xgFor": 1.6548000574111938,
-      "xgAgainst": 0.44589999318122864,
-      "averagePossessionPct": null,
-      "cleanSheets": null
-    },
-    "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
-    },
-    "statistics": {
-      "overview": {
-        "goalsPerMatch": null,
-        "goalsConcededPerMatch": null,
-        "averagePossessionPct": null,
-        "attendanceAverage": null
-      },
-      "attack": {
-        "xg": 1.6548000574111938,
-        "xgDiff": -1.6548000574111938,
-        "shotsOnTargetPerMatch": null,
-        "bigChances": null,
-        "bigChancesMissed": null,
-        "accuratePassesPerMatch": null,
-        "accurateLongBallsPerMatch": null,
-        "accurateCrossesPerMatch": null,
-        "penaltiesAwarded": null,
-        "touchesInOppBoxPerMatch": null,
-        "cornersPerMatch": null,
-        "setPieceGoals": null
-      },
-      "defense": {
-        "xgConceded": 0.44589999318122864,
-        "interceptionsPerMatch": null,
-        "tacklesPerMatch": null,
-        "clearancesPerMatch": null,
-        "finalThirdRecoveriesPerMatch": null,
-        "setPieceGoalsConceded": null,
-        "penaltiesConceded": null,
-        "savesPerMatch": null
-      },
-      "discipline": {
-        "foulsPerMatch": null,
-        "yellowCardsPerMatch": null,
-        "redCardsPerMatch": null,
-        "penaltiesConceded": null
-      }
-    },
-    "squad": [],
-    "history": [],
-    "similarTeams": []
-  },
-  "awayTeam": {
-    "identity": {
-      "id": "3001",
-      "name": "Sporting",
-      "logoUrl": "https://img.sofascore.com/api/v1/team/3001/image/small",
-      "sourceIds": {
-        "sofascore": "3001",
-        "fotmob": "9768",
-        "soccerRating": "1085"
-      }
-    },
-    "headerStats": {
-      "overallRating": 2320.25,
-      "nationalRank": 2,
-      "europeRank": 24,
+      "overallRating": 1947.51,
+      "nationalRank": 11,
+      "europeRank": 338,
       "formLast3": [
         "D",
         "D",
         "L"
       ],
-      "xgFor": 1.6548000574111938,
-      "xgAgainst": 0.44589999318122864,
-      "averagePossessionPct": null,
+      "xgFor": 1,
+      "xgAgainst": 2.6,
+      "averagePossessionPct": 43.9,
       "cleanSheets": null
     },
     "overview": {
@@ -132,7 +63,7 @@
         "tip": "home_or_draw",
         "tipLabel": "Bet on (1X) CF Estrela (Stake 2/10)",
         "confidencePct": 20,
-        "strengthComparison": "favorite"
+        "strengthComparison": "underdog"
       },
       "squadHealth": {
         "injuries": [],
@@ -140,16 +71,8 @@
       },
       "expectedLineup": {
         "formation": null,
-        "averageRating": 5.8,
+        "averageRating": 4.3,
         "players": [
-          {
-            "name": "Renan Ribeiro",
-            "position": "GK",
-            "age": null,
-            "apps": 33,
-            "goals": 0,
-            "rating": 5.6
-          },
           {
             "name": "Luan Patrick",
             "position": "DF",
@@ -157,22 +80,6 @@
             "apps": 31,
             "goals": 0,
             "rating": 6.6
-          },
-          {
-            "name": "Stefan Lekovic",
-            "position": "DF",
-            "age": null,
-            "apps": 9,
-            "goals": 2,
-            "rating": 5.6
-          },
-          {
-            "name": "Otavio",
-            "position": "DF",
-            "age": null,
-            "apps": 22,
-            "goals": 0,
-            "rating": 5.8
           },
           {
             "name": "Bernardo Schappo",
@@ -183,20 +90,44 @@
             "rating": 5.5
           },
           {
-            "name": "Robinho",
-            "position": "MF",
+            "name": "Max Scholze",
+            "position": "DF",
             "age": null,
-            "apps": 23,
+            "apps": 11,
             "goals": 0,
-            "rating": 4.7
+            "rating": 3.7
           },
           {
-            "name": "Paulo Moreira",
+            "name": "Jefferson Encada",
+            "position": "DF",
+            "age": null,
+            "apps": 26,
+            "goals": 0,
+            "rating": 4.5
+          },
+          {
+            "name": "Santiago Serra",
             "position": "MF",
             "age": null,
-            "apps": 29,
-            "goals": 3,
-            "rating": 6.4
+            "apps": 0,
+            "goals": 0,
+            "rating": 2.4
+          },
+          {
+            "name": "Gueladan Doue",
+            "position": "MF",
+            "age": null,
+            "apps": 14,
+            "goals": 1,
+            "rating": 3.4
+          },
+          {
+            "name": "Lovro Zvonarek",
+            "position": "MF",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 5.5
           },
           {
             "name": "Ianis Stoica",
@@ -215,20 +146,12 @@
             "rating": 6.2
           },
           {
-            "name": "Rodrigo Pinho",
+            "name": "Leandro Antonetti",
             "position": "ST",
             "age": null,
-            "apps": 29,
-            "goals": 4,
-            "rating": 5.4
-          },
-          {
-            "name": "Jorge Meireles",
-            "position": "ST",
-            "age": null,
-            "apps": 22,
+            "apps": 12,
             "goals": 0,
-            "rating": 4.9
+            "rating": 2.7
           },
           {
             "name": "David Grilo",
@@ -239,44 +162,44 @@
             "rating": 1.8
           },
           {
-            "name": "Jefferson Encada",
+            "name": "Otavio",
             "position": "DF",
             "age": null,
-            "apps": 26,
+            "apps": 22,
             "goals": 0,
-            "rating": 4.5
+            "rating": 5.8
           },
           {
-            "name": "Alex Sola",
+            "name": "Robinho",
             "position": "MF",
             "age": null,
-            "apps": 16,
+            "apps": 23,
             "goals": 0,
-            "rating": 3.5
+            "rating": 4.7
           },
           {
-            "name": "S. van Hooijdonk",
-            "position": "ST",
-            "age": null,
-            "apps": 10,
-            "goals": 1,
-            "rating": 5.3
-          },
-          {
-            "name": "Bruno Langa",
-            "position": "DF",
-            "age": null,
-            "apps": 11,
-            "goals": 0,
-            "rating": 4.9
-          },
-          {
-            "name": "Billal Brahimi",
+            "name": "Alisson Souza",
             "position": "ST",
             "age": null,
             "apps": 5,
             "goals": 0,
-            "rating": 5.2
+            "rating": 1.6
+          },
+          {
+            "name": "Tom Moustier",
+            "position": "MF",
+            "age": null,
+            "apps": 9,
+            "goals": 0,
+            "rating": 3.5
+          },
+          {
+            "name": "Diogo Pinto",
+            "position": "GK",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 2.8
           }
         ]
       },
@@ -287,47 +210,47 @@
           "away": 1.26
         },
         "fair1X2": {
-          "home": 7.05,
-          "draw": 6.42,
-          "away": 1.42
+          "home": 7.25,
+          "draw": 5.6,
+          "away": 1.46
         },
         "movementSummary": "home_odds_down_away_odds_up"
       }
     },
     "statistics": {
       "overview": {
-        "goalsPerMatch": null,
-        "goalsConcededPerMatch": null,
-        "averagePossessionPct": null,
+        "goalsPerMatch": 2,
+        "goalsConcededPerMatch": 2,
+        "averagePossessionPct": 43.9,
         "attendanceAverage": null
       },
       "attack": {
-        "xg": 1.6548000574111938,
-        "xgDiff": -1.6548000574111938,
-        "shotsOnTargetPerMatch": null,
-        "bigChances": null,
-        "bigChancesMissed": null,
-        "accuratePassesPerMatch": null,
-        "accurateLongBallsPerMatch": null,
-        "accurateCrossesPerMatch": null,
+        "xg": 1,
+        "xgDiff": -1.6,
+        "shotsOnTargetPerMatch": 4,
+        "bigChances": 1,
+        "bigChancesMissed": 1,
+        "accuratePassesPerMatch": 278,
+        "accurateLongBallsPerMatch": 27,
+        "accurateCrossesPerMatch": 2,
         "penaltiesAwarded": null,
-        "touchesInOppBoxPerMatch": null,
-        "cornersPerMatch": null,
+        "touchesInOppBoxPerMatch": 9,
+        "cornersPerMatch": 5,
         "setPieceGoals": null
       },
       "defense": {
-        "xgConceded": 0.44589999318122864,
-        "interceptionsPerMatch": null,
-        "tacklesPerMatch": null,
-        "clearancesPerMatch": null,
-        "finalThirdRecoveriesPerMatch": null,
+        "xgConceded": 2.6,
+        "interceptionsPerMatch": 6,
+        "tacklesPerMatch": 19,
+        "clearancesPerMatch": 18,
+        "finalThirdRecoveriesPerMatch": 2,
         "setPieceGoalsConceded": null,
         "penaltiesConceded": null,
-        "savesPerMatch": null
+        "savesPerMatch": 6
       },
       "discipline": {
-        "foulsPerMatch": null,
-        "yellowCardsPerMatch": null,
+        "foulsPerMatch": 13,
+        "yellowCardsPerMatch": 2,
         "redCardsPerMatch": null,
         "penaltiesConceded": null
       }
@@ -343,19 +266,35 @@
       },
       {
         "name": "Renan Ribeiro",
-        "position": "GK",
+        "position": null,
         "age": 36,
         "apps": 33,
         "goals": 0,
         "rating": 5.6
       },
       {
-        "name": "Max Scholze",
-        "position": null,
+        "name": "Diogo Pinto",
+        "position": "GK",
         "age": 21,
+        "apps": 0,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Bruno Langa",
+        "position": null,
+        "age": 28,
         "apps": 11,
         "goals": 0,
-        "rating": 3.7
+        "rating": 4.9
+      },
+      {
+        "name": "Stefan Lekovic",
+        "position": null,
+        "age": 22,
+        "apps": 9,
+        "goals": 2,
+        "rating": 5.6
       },
       {
         "name": "Yahya Kalley",
@@ -374,22 +313,6 @@
         "rating": 6.6
       },
       {
-        "name": "Stefan Lekovic",
-        "position": "DF",
-        "age": 22,
-        "apps": 9,
-        "goals": 2,
-        "rating": 5.6
-      },
-      {
-        "name": "Otavio",
-        "position": "DF",
-        "age": 20,
-        "apps": 22,
-        "goals": 0,
-        "rating": 5.8
-      },
-      {
         "name": "Bernardo Schappo",
         "position": "DF",
         "age": 27,
@@ -398,12 +321,12 @@
         "rating": 5.5
       },
       {
-        "name": "Bruno Langa",
+        "name": "Max Scholze",
         "position": "DF",
-        "age": 28,
+        "age": 21,
         "apps": 11,
         "goals": 0,
-        "rating": 4.9
+        "rating": 3.7
       },
       {
         "name": "Jefferson Encada",
@@ -414,6 +337,22 @@
         "rating": 4.5
       },
       {
+        "name": "Otavio",
+        "position": "DF",
+        "age": 20,
+        "apps": 22,
+        "goals": 0,
+        "rating": 5.8
+      },
+      {
+        "name": "Paulo Moreira",
+        "position": null,
+        "age": 26,
+        "apps": 29,
+        "goals": 3,
+        "rating": 6.4
+      },
+      {
         "name": "K. H. Jansson",
         "position": null,
         "age": 25,
@@ -422,20 +361,44 @@
         "rating": 3.7
       },
       {
-        "name": "Paulo Moreira",
+        "name": "Santiago Serra",
         "position": "MF",
-        "age": 26,
-        "apps": 29,
-        "goals": 3,
-        "rating": 6.4
+        "age": 18,
+        "apps": 0,
+        "goals": 0,
+        "rating": 2.4
       },
       {
-        "name": "Tom Moustier",
+        "name": "Gueladan Doue",
+        "position": "MF",
+        "age": 20,
+        "apps": 14,
+        "goals": 1,
+        "rating": 3.4
+      },
+      {
+        "name": "Alex Sola",
         "position": null,
-        "age": 24,
-        "apps": 9,
+        "age": 22,
+        "apps": 16,
         "goals": 0,
         "rating": 3.5
+      },
+      {
+        "name": "Beni Souza",
+        "position": null,
+        "age": 22,
+        "apps": 0,
+        "goals": 0,
+        "rating": 1.7
+      },
+      {
+        "name": "Lovro Zvonarek",
+        "position": "MF",
+        "age": 21,
+        "apps": 0,
+        "goals": 0,
+        "rating": 5.5
       },
       {
         "name": "Robinho",
@@ -446,28 +409,28 @@
         "rating": 4.7
       },
       {
-        "name": "Alex Sola",
+        "name": "Tom Moustier",
         "position": "MF",
-        "age": 22,
-        "apps": 16,
+        "age": 24,
+        "apps": 9,
         "goals": 0,
         "rating": 3.5
       },
       {
-        "name": "Gueladan Doue",
-        "position": null,
-        "age": 20,
-        "apps": 14,
-        "goals": 1,
-        "rating": 3.4
-      },
-      {
         "name": "Alisson Souza",
-        "position": null,
+        "position": "ST",
         "age": 21,
         "apps": 5,
         "goals": 0,
         "rating": 1.6
+      },
+      {
+        "name": "Jorge Meireles",
+        "position": null,
+        "age": 22,
+        "apps": 22,
+        "goals": 0,
+        "rating": 4.9
       },
       {
         "name": "Ianis Stoica",
@@ -486,24 +449,8 @@
         "rating": 6.2
       },
       {
-        "name": "Jorge Meireles",
-        "position": "ST",
-        "age": 22,
-        "apps": 22,
-        "goals": 0,
-        "rating": 4.9
-      },
-      {
-        "name": "Leandro Antonetti",
-        "position": null,
-        "age": 23,
-        "apps": 12,
-        "goals": 0,
-        "rating": 2.7
-      },
-      {
         "name": "Rodrigo Pinho",
-        "position": "ST",
+        "position": null,
         "age": 34,
         "apps": 29,
         "goals": 4,
@@ -511,7 +458,7 @@
       },
       {
         "name": "S. van Hooijdonk",
-        "position": "ST",
+        "position": null,
         "age": 26,
         "apps": 10,
         "goals": 1,
@@ -519,22 +466,490 @@
       },
       {
         "name": "Billal Brahimi",
-        "position": "ST",
+        "position": null,
         "age": 26,
         "apps": 5,
         "goals": 0,
         "rating": 5.2
+      },
+      {
+        "name": "Leandro Antonetti",
+        "position": "ST",
+        "age": 23,
+        "apps": 12,
+        "goals": 0,
+        "rating": 2.7
       }
     ],
     "history": [],
     "similarTeams": [
       {
-        "name": "SSC Napoli",
-        "rating": 2330.28
+        "name": "SV Meppen",
+        "rating": 1948.22
       },
       {
-        "name": "1899 Hoffenheim",
-        "rating": 2323.05
+        "name": "Wisla Krakow",
+        "rating": 1946.77
+      }
+    ]
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "3001",
+      "name": "Sporting",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3001/image/small",
+      "sourceIds": {
+        "sofascore": "3001",
+        "fotmob": "9768",
+        "soccerRating": "1085"
+      }
+    },
+    "headerStats": {
+      "overallRating": 2302.56,
+      "nationalRank": 2,
+      "europeRank": 27,
+      "formLast3": [
+        "D",
+        "D",
+        "W"
+      ],
+      "xgFor": 2.6,
+      "xgAgainst": 1,
+      "averagePossessionPct": 56.1,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": {
+        "tip": "home_win",
+        "tipLabel": "Bet on (1) Sporting Lisboa (Stake 3/10)",
+        "confidencePct": 30,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 7.2,
+        "players": [
+          {
+            "name": "Rui Silva",
+            "position": "GK",
+            "age": null,
+            "apps": 32,
+            "goals": 0,
+            "rating": 7.7
+          },
+          {
+            "name": "Gonçalo Inacio",
+            "position": "DF",
+            "age": null,
+            "apps": 29,
+            "goals": 2,
+            "rating": 8
+          },
+          {
+            "name": "G. Vagiannidis",
+            "position": "DF",
+            "age": null,
+            "apps": 22,
+            "goals": 0,
+            "rating": 7.2
+          },
+          {
+            "name": "Eduardo Quaresma",
+            "position": "DF",
+            "age": null,
+            "apps": 16,
+            "goals": 2,
+            "rating": 6.8
+          },
+          {
+            "name": "Ousmane Diomande",
+            "position": "DF",
+            "age": null,
+            "apps": 17,
+            "goals": 0,
+            "rating": 7.2
+          },
+          {
+            "name": "Silas Andersen",
+            "position": "MF",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 5.1
+          },
+          {
+            "name": "Rodrigo Zalazar",
+            "position": "MF",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 7
+          },
+          {
+            "name": "Geny Catamo",
+            "position": "ST",
+            "age": null,
+            "apps": 29,
+            "goals": 6,
+            "rating": 7.5
+          },
+          {
+            "name": "Fotis Ioannidis",
+            "position": "ST",
+            "age": null,
+            "apps": 13,
+            "goals": 3,
+            "rating": 7
+          },
+          {
+            "name": "Luis Suarez",
+            "position": "ST",
+            "age": null,
+            "apps": 32,
+            "goals": 28,
+            "rating": 9.5
+          },
+          {
+            "name": "Luis Guilherme",
+            "position": "ST",
+            "age": null,
+            "apps": 13,
+            "goals": 1,
+            "rating": 6.7
+          },
+          {
+            "name": "Joao Virginia",
+            "position": "GK",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 4.4
+          },
+          {
+            "name": "Ivan Fresneda",
+            "position": "DF",
+            "age": null,
+            "apps": 23,
+            "goals": 1,
+            "rating": 7.4
+          },
+          {
+            "name": "Morten Hjulmand",
+            "position": "MF",
+            "age": null,
+            "apps": 27,
+            "goals": 3,
+            "rating": 8
+          },
+          {
+            "name": "Rafael Nel",
+            "position": "ST",
+            "age": null,
+            "apps": 7,
+            "goals": 2,
+            "rating": 5.9
+          },
+          {
+            "name": "Francisco Trincao",
+            "position": "MF",
+            "age": null,
+            "apps": 34,
+            "goals": 7,
+            "rating": 8.5
+          },
+          {
+            "name": "Pedro Gonçalves",
+            "position": "ST",
+            "age": null,
+            "apps": 27,
+            "goals": 13,
+            "rating": 8.4
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.2,
+          "draw": 7,
+          "away": 12
+        },
+        "fair1X2": {
+          "home": 1.25,
+          "draw": 7.79,
+          "away": 14.46
+        },
+        "movementSummary": "home_odds_flat_away_odds_flat"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 2,
+        "goalsConcededPerMatch": 2,
+        "averagePossessionPct": 56.1,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 2.6,
+        "xgDiff": 1.6,
+        "shotsOnTargetPerMatch": 8,
+        "bigChances": 5,
+        "bigChancesMissed": 4,
+        "accuratePassesPerMatch": 392,
+        "accurateLongBallsPerMatch": 21,
+        "accurateCrossesPerMatch": 6,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": 30,
+        "cornersPerMatch": 4,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 1,
+        "interceptionsPerMatch": 9,
+        "tacklesPerMatch": 21,
+        "clearancesPerMatch": 19,
+        "finalThirdRecoveriesPerMatch": 4,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": 2
+      },
+      "discipline": {
+        "foulsPerMatch": 14,
+        "yellowCardsPerMatch": 2,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [
+      {
+        "name": "Rui Silva",
+        "position": "GK",
+        "age": 32,
+        "apps": 32,
+        "goals": 0,
+        "rating": 7.7
+      },
+      {
+        "name": "Joao Virginia",
+        "position": "GK",
+        "age": 26,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Nuno Santos",
+        "position": null,
+        "age": 31,
+        "apps": 4,
+        "goals": 0,
+        "rating": 5.7
+      },
+      {
+        "name": "Maxi Araujo",
+        "position": null,
+        "age": 26,
+        "apps": 29,
+        "goals": 5,
+        "rating": 7.5
+      },
+      {
+        "name": "Zeno Debast",
+        "position": null,
+        "age": 22,
+        "apps": 17,
+        "goals": 0,
+        "rating": 7.2
+      },
+      {
+        "name": "Ricardo Mangas",
+        "position": null,
+        "age": 28,
+        "apps": 15,
+        "goals": 2,
+        "rating": 6
+      },
+      {
+        "name": "Gonçalo Inacio",
+        "position": "DF",
+        "age": 24,
+        "apps": 29,
+        "goals": 2,
+        "rating": 8
+      },
+      {
+        "name": "G. Vagiannidis",
+        "position": "DF",
+        "age": 24,
+        "apps": 22,
+        "goals": 0,
+        "rating": 7.2
+      },
+      {
+        "name": "Eduardo Quaresma",
+        "position": "DF",
+        "age": 24,
+        "apps": 16,
+        "goals": 2,
+        "rating": 6.8
+      },
+      {
+        "name": "Ousmane Diomande",
+        "position": "DF",
+        "age": 22,
+        "apps": 17,
+        "goals": 0,
+        "rating": 7.2
+      },
+      {
+        "name": "Ivan Fresneda",
+        "position": "DF",
+        "age": 21,
+        "apps": 23,
+        "goals": 1,
+        "rating": 7.4
+      },
+      {
+        "name": "Hidemasa Morita",
+        "position": null,
+        "age": 31,
+        "apps": 31,
+        "goals": 1,
+        "rating": 7.9
+      },
+      {
+        "name": "G. Kochorashvili",
+        "position": null,
+        "age": 26,
+        "apps": 18,
+        "goals": 0,
+        "rating": 6.3
+      },
+      {
+        "name": "Daniel Bragança",
+        "position": null,
+        "age": 26,
+        "apps": 14,
+        "goals": 6,
+        "rating": 7.2
+      },
+      {
+        "name": "Silas Andersen",
+        "position": "MF",
+        "age": 21,
+        "apps": 0,
+        "goals": 0,
+        "rating": 5.1
+      },
+      {
+        "name": "Morten Hjulmand",
+        "position": "MF",
+        "age": 26,
+        "apps": 27,
+        "goals": 3,
+        "rating": 8
+      },
+      {
+        "name": "Joao Simões",
+        "position": null,
+        "age": 19,
+        "apps": 18,
+        "goals": 0,
+        "rating": 7.1
+      },
+      {
+        "name": "Rodrigo Zalazar",
+        "position": "MF",
+        "age": 26,
+        "apps": 0,
+        "goals": 0,
+        "rating": 7
+      },
+      {
+        "name": "Francisco Trincao",
+        "position": "MF",
+        "age": 26,
+        "apps": 34,
+        "goals": 7,
+        "rating": 8.5
+      },
+      {
+        "name": "Geny Catamo",
+        "position": "ST",
+        "age": 25,
+        "apps": 29,
+        "goals": 6,
+        "rating": 7.5
+      },
+      {
+        "name": "Geovany Quenda",
+        "position": null,
+        "age": 19,
+        "apps": 20,
+        "goals": 2,
+        "rating": 7.5
+      },
+      {
+        "name": "Souleymane Faye",
+        "position": null,
+        "age": 23,
+        "apps": 5,
+        "goals": 0,
+        "rating": 5.5
+      },
+      {
+        "name": "Luis Suarez",
+        "position": "ST",
+        "age": 28,
+        "apps": 32,
+        "goals": 28,
+        "rating": 9.5
+      },
+      {
+        "name": "Luis Guilherme",
+        "position": "ST",
+        "age": 20,
+        "apps": 13,
+        "goals": 1,
+        "rating": 6.7
+      },
+      {
+        "name": "Pedro Gonçalves",
+        "position": "ST",
+        "age": 27,
+        "apps": 27,
+        "goals": 13,
+        "rating": 8.4
+      },
+      {
+        "name": "Fotis Ioannidis",
+        "position": "ST",
+        "age": 26,
+        "apps": 13,
+        "goals": 3,
+        "rating": 7
+      },
+      {
+        "name": "Rafael Nel",
+        "position": "ST",
+        "age": 21,
+        "apps": 7,
+        "goals": 2,
+        "rating": 5.9
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "Newcastle United",
+        "rating": 2313.86
+      },
+      {
+        "name": "VfB Stuttgart",
+        "rating": 2316.47
       }
     ]
   },
@@ -829,9 +1244,9 @@
       "matchedBy": "sofascoreTeamId"
     },
     "homeTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/1080-cf-estrela.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamContext": {
       "available": true,
