@@ -1335,20 +1335,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "944173",
           "teamSlug": "arda-kardzhali",
           "competitionId": "247",
           "competitionSlug": "parva-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/944173/overview/arda-kardzhali/players",
           "notes": "manual match name: FotMob = Arda Kardzhali"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "13239",
           "teamSlug": "fk-arda-kardzhali",
           "countrySlug": "bulgaria",
-          "url": null,
+          "url": "https://www.soccer-rating.com/FK-Arda-Kardzhali/13239/",
           "notes": "manual match name: Soccer-Rating = FK Arda Kardzhali"
         }
       }
@@ -1365,20 +1365,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10131",
           "teamSlug": "botev-plovdiv",
           "competitionId": "247",
           "competitionSlug": "parva-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10131/overview/botev-plovdiv/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1466",
           "teamSlug": "botev-plovdiv",
           "countrySlug": "bulgaria",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Botev-Plovdiv/1466/",
           "notes": null
         }
       }
@@ -1395,20 +1395,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "187880",
           "teamSlug": "botev-vratsa",
           "competitionId": "247",
           "competitionSlug": "parva-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/187880/overview/botev-vratsa",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "6100",
           "teamSlug": "botev-vratsa",
           "countrySlug": "bulgaria",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Botev-Vratsa/6100/",
           "notes": null
         }
       }
@@ -1425,13 +1425,13 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "944215",
           "teamSlug": "cska-1948-sofia",
           "competitionId": "247",
           "competitionSlug": "parva-liga",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/944215/overview/cska-1948",
+          "notes": null
         },
         "soccerRating": {
           "status": "mapped",
@@ -1485,21 +1485,21 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dunav",
+          "status": "mapped",
+          "sourceTeamId": "46474",
+          "teamSlug": "dunav-ruse",
           "competitionId": "247",
           "competitionSlug": "parva-liga",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/46474/overview/dunav-ruse/teams",
+          "notes": "FotMob usa Dunav Ruse."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dunav",
+          "status": "mapped",
+          "sourceTeamId": "9037",
+          "teamSlug": "dunav-ruse",
           "countrySlug": "bulgaria",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Dunav-Ruse/9037/",
+          "notes": "Soccer-Rating usa Dunav Ruse."
         }
       }
     },
@@ -1515,13 +1515,13 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "lokomotiv-sofia",
+          "status": "mapped",
+          "sourceTeamId": "10128",
+          "teamSlug": "pfc-lokomotiv-sofia-1929",
           "competitionId": "247",
           "competitionSlug": "parva-liga",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/10128/overview/pfc-lokomotiv-sofia-1929",
+          "notes": "FotMob usa PFC Lokomotiv Sofia 1929."
         },
         "soccerRating": {
           "status": "mapped",
@@ -1575,20 +1575,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "slavia",
+          "status": "mapped",
+          "sourceTeamId": "10134",
+          "teamSlug": "slavia-sofia",
           "competitionId": "247",
           "competitionSlug": "parva-liga",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/10134/overview/slavia-sofia",
+          "notes": "FotMob usa Slavia Sofia."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "slavia",
+          "status": "mapped",
+          "sourceTeamId": "1463",
+          "teamSlug": "slavia-sofia",
           "countrySlug": "bulgaria",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Slavia-Sofia/1463/",
           "notes": null
         }
       }
@@ -1605,20 +1605,20 @@
       "lastSeenReferenceDate": "2026-08-09",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10145",
           "teamSlug": "spartak-varna",
           "competitionId": "247",
           "competitionSlug": "parva-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10145/overview/spartak-varna",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1465",
           "teamSlug": "spartak-varna",
           "countrySlug": "bulgaria",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Spartak-Varna/1465/",
           "notes": null
         }
       }
@@ -5565,13 +5565,13 @@
       "lastSeenReferenceDate": "2026-08-08",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "cherno-more",
+          "status": "mapped",
+          "sourceTeamId": "10141",
+          "teamSlug": "cherno-more-varna",
           "competitionId": "247",
           "competitionSlug": "parva-liga",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/10141/overview/cherno-more-varna",
+          "notes": "FotMob usa Cherno More Varna."
         },
         "soccerRating": {
           "status": "mapped",
