@@ -14884,6 +14884,546 @@
       }
     },
     {
+      "sofascoreTeamId": "2966",
+      "teamName": "ADO Den Haag",
+      "countryName": "Netherlands",
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10217",
+          "teamSlug": "ado-den-haag",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/10217/overview/ado-den-haag",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "939",
+          "teamSlug": "ado-den-haag",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/ADO-Den-Haag/939/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2953",
+      "teamName": "AFC Ajax",
+      "countryName": "Netherlands",
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8593",
+          "teamSlug": "ajax",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/8593/overview/ajax",
+          "notes": "FotMob usa Ajax."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "814",
+          "teamSlug": "ajax-amsterdam",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/Ajax-Amsterdam/814/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2950",
+      "teamName": "AZ Alkmaar",
+      "countryName": "Netherlands",
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10229",
+          "teamSlug": "az-alkmaar",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/10229/overview/az-alkmaar",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "805",
+          "teamSlug": "az-alkmaar",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/AZ-Alkmaar/805/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2970",
+      "teamName": "SC Cambuur",
+      "countryName": "Netherlands",
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "7788",
+          "teamSlug": "cambuur",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/7788/overview/cambuur",
+          "notes": "FotMob usa Cambuur."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "928",
+          "teamSlug": "leeuwarden-cambuur",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/Leeuwarden-Cambuur/928/",
+          "notes": "Soccer-Rating usa Leeuwarden Cambuur."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2967",
+      "teamName": "Excelsior",
+      "countryName": "Netherlands",
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10218",
+          "teamSlug": "excelsior",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/10218/overview/excelsior",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "807",
+          "teamSlug": "excelsior-rotterdam",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/Excelsior-Rotterdam/807/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2959",
+      "teamName": "Feyenoord",
+      "countryName": "Netherlands",
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10235",
+          "teamSlug": "feyenoord",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/10235/overview/feyenoord",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "816",
+          "teamSlug": "feyenoord-rotterdam",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/Feyenoord-Rotterdam/816/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2957",
+      "teamName": "Fortuna Sittard",
+      "countryName": "Netherlands",
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "6422",
+          "teamSlug": "fortuna-sittard",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/6422/overview/fortuna-sittard",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "941",
+          "teamSlug": "fortuna-sittard",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/Fortuna-Sittard/941/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2951",
+      "teamName": "FC Groningen",
+      "countryName": "Netherlands",
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8674",
+          "teamSlug": "fc-groningen",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/8674/overview/fc-groningen",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "810",
+          "teamSlug": "fc-groningen",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/FC-Groningen/810/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2979",
+      "teamName": "Go Ahead Eagles",
+      "countryName": "Netherlands",
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "6433",
+          "teamSlug": "go-ahead-eagles",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/6433/overview/go-ahead-eagles",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "934",
+          "teamSlug": "go-ahead-eagles",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/Go-Ahead-Eagles/934/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2964",
+      "teamName": "SC Heerenveen",
+      "countryName": "Netherlands",
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10228",
+          "teamSlug": "sc-heerenveen",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/10228/overview/sc-heerenveen",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "803",
+          "teamSlug": "sc-heerenveen",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/SC-Heerenveen/803/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2962",
+      "teamName": "NEC Nijmegen",
+      "countryName": "Netherlands",
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8464",
+          "teamSlug": "nec-nijmegen",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/8464/overview/nec-nijmegen",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "811",
+          "teamSlug": "nec-nijmegen",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/NEC-Nijmegen/811/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2971",
+      "teamName": "PEC Zwolle",
+      "countryName": "Netherlands",
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "6413",
+          "teamSlug": "pec-zwolle",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/6413/overview/pec-zwolle",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "937",
+          "teamSlug": "fc-zwolle",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/FC-Zwolle/937/",
+          "notes": "Soccer-Rating usa FC Zwolle."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2952",
+      "teamName": "PSV Eindhoven",
+      "countryName": "Netherlands",
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8640",
+          "teamSlug": "psv-eindhoven",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/8640/overview/psv-eindhoven",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "818",
+          "teamSlug": "psv-eindhoven",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/PSV-Eindhoven/818/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2960",
+      "teamName": "Sparta Rotterdam",
+      "countryName": "Netherlands",
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8614",
+          "teamSlug": "sparta-rotterdam",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/8614/overview/sparta-rotterdam",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "819",
+          "teamSlug": "sparta-rotterdam",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/Sparta-Rotterdam/819/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2972",
+      "teamName": "SC Telstar",
+      "countryName": "Netherlands",
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "6414",
+          "teamSlug": "telstar",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/6414/overview/telstar",
+          "notes": "FotMob usa Telstar."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "931",
+          "teamSlug": "stormvogels-telstar",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/Stormvogels-Telstar/931/",
+          "notes": "Soccer-Rating usa Stormvogels/Telstar."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2955",
+      "teamName": "FC Twente",
+      "countryName": "Netherlands",
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8611",
+          "teamSlug": "fc-twente",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/8611/overview/fc-twente",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "808",
+          "teamSlug": "fc-twente-enschede",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/FC-Twente-Enschede/808/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2948",
+      "teamName": "FC Utrecht",
+      "countryName": "Netherlands",
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9908",
+          "teamSlug": "fc-utrecht",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/9908/overview/fc-utrecht",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "815",
+          "teamSlug": "fc-utrecht",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/FC-Utrecht/815/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2961",
+      "teamName": "Willem II Tilburg",
+      "countryName": "Netherlands",
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8525",
+          "teamSlug": "willem-ii",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/8525/overview/willem-ii",
+          "notes": "FotMob usa Willem II."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "804",
+          "teamSlug": "willem-ii-tilburg",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/Willem-II-Tilburg/804/",
+          "notes": null
+        }
+      }
+    },
+    {
       "sofascoreTeamId": "43336",
       "teamName": "Bukovyna",
       "countryName": "Ukraine",

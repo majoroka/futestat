@@ -1,20 +1,20 @@
 {
   "source": "team-source-registry",
-  "generatedAtUtc": "2026-08-12T15:19:30.814Z",
+  "generatedAtUtc": "2026-08-12T15:23:59.338Z",
   "referenceDate": "2026-08-11",
   "registryPath": "data/team-source-registry.json",
   "summary": {
     "competitions": 42,
     "whitelistCompetitions": 42,
-    "competitionsWithRegistryEntries": 35,
-    "competitionsWithoutRegistryEntries": 7,
-    "teams": 546,
+    "competitionsWithRegistryEntries": 36,
+    "competitionsWithoutRegistryEntries": 6,
+    "teams": 564,
     "activeTeams": 62,
-    "complete": 523,
+    "complete": 541,
     "partial": 0,
     "missing": 23,
-    "fotmobMapped": 523,
-    "soccerRatingMapped": 523
+    "fotmobMapped": 541,
+    "soccerRatingMapped": 541
   },
   "competitions": [
     {
@@ -10130,6 +10130,492 @@
       ]
     },
     {
+      "competitionId": "37",
+      "competitionName": "Eredivisie",
+      "countryName": "Netherlands",
+      "seededFromWhitelist": true,
+      "hasRegistryEntries": true,
+      "teamCount": 18,
+      "activeTeams": 0,
+      "coverage": {
+        "complete": 18,
+        "partial": 0,
+        "missing": 0,
+        "fotmobMapped": 18,
+        "soccerRatingMapped": 18
+      },
+      "teams": [
+        {
+          "sofascoreTeamId": "2966",
+          "teamName": "ADO Den Haag",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10217",
+              "teamSlug": "ado-den-haag",
+              "url": "https://www.fotmob.com/teams/10217/overview/ado-den-haag",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "939",
+              "teamSlug": "ado-den-haag",
+              "url": "https://www.soccer-rating.com/ADO-Den-Haag/939/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2953",
+          "teamName": "AFC Ajax",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8593",
+              "teamSlug": "ajax",
+              "url": "https://www.fotmob.com/teams/8593/overview/ajax",
+              "notes": "FotMob usa Ajax."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "814",
+              "teamSlug": "ajax-amsterdam",
+              "url": "https://www.soccer-rating.com/Ajax-Amsterdam/814/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2950",
+          "teamName": "AZ Alkmaar",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10229",
+              "teamSlug": "az-alkmaar",
+              "url": "https://www.fotmob.com/teams/10229/overview/az-alkmaar",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "805",
+              "teamSlug": "az-alkmaar",
+              "url": "https://www.soccer-rating.com/AZ-Alkmaar/805/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2967",
+          "teamName": "Excelsior",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10218",
+              "teamSlug": "excelsior",
+              "url": "https://www.fotmob.com/teams/10218/overview/excelsior",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "807",
+              "teamSlug": "excelsior-rotterdam",
+              "url": "https://www.soccer-rating.com/Excelsior-Rotterdam/807/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2951",
+          "teamName": "FC Groningen",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8674",
+              "teamSlug": "fc-groningen",
+              "url": "https://www.fotmob.com/teams/8674/overview/fc-groningen",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "810",
+              "teamSlug": "fc-groningen",
+              "url": "https://www.soccer-rating.com/FC-Groningen/810/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2955",
+          "teamName": "FC Twente",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8611",
+              "teamSlug": "fc-twente",
+              "url": "https://www.fotmob.com/teams/8611/overview/fc-twente",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "808",
+              "teamSlug": "fc-twente-enschede",
+              "url": "https://www.soccer-rating.com/FC-Twente-Enschede/808/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2948",
+          "teamName": "FC Utrecht",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9908",
+              "teamSlug": "fc-utrecht",
+              "url": "https://www.fotmob.com/teams/9908/overview/fc-utrecht",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "815",
+              "teamSlug": "fc-utrecht",
+              "url": "https://www.soccer-rating.com/FC-Utrecht/815/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2959",
+          "teamName": "Feyenoord",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10235",
+              "teamSlug": "feyenoord",
+              "url": "https://www.fotmob.com/teams/10235/overview/feyenoord",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "816",
+              "teamSlug": "feyenoord-rotterdam",
+              "url": "https://www.soccer-rating.com/Feyenoord-Rotterdam/816/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2957",
+          "teamName": "Fortuna Sittard",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6422",
+              "teamSlug": "fortuna-sittard",
+              "url": "https://www.fotmob.com/teams/6422/overview/fortuna-sittard",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "941",
+              "teamSlug": "fortuna-sittard",
+              "url": "https://www.soccer-rating.com/Fortuna-Sittard/941/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2979",
+          "teamName": "Go Ahead Eagles",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6433",
+              "teamSlug": "go-ahead-eagles",
+              "url": "https://www.fotmob.com/teams/6433/overview/go-ahead-eagles",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "934",
+              "teamSlug": "go-ahead-eagles",
+              "url": "https://www.soccer-rating.com/Go-Ahead-Eagles/934/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2962",
+          "teamName": "NEC Nijmegen",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8464",
+              "teamSlug": "nec-nijmegen",
+              "url": "https://www.fotmob.com/teams/8464/overview/nec-nijmegen",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "811",
+              "teamSlug": "nec-nijmegen",
+              "url": "https://www.soccer-rating.com/NEC-Nijmegen/811/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2971",
+          "teamName": "PEC Zwolle",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6413",
+              "teamSlug": "pec-zwolle",
+              "url": "https://www.fotmob.com/teams/6413/overview/pec-zwolle",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "937",
+              "teamSlug": "fc-zwolle",
+              "url": "https://www.soccer-rating.com/FC-Zwolle/937/",
+              "notes": "Soccer-Rating usa FC Zwolle."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2952",
+          "teamName": "PSV Eindhoven",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8640",
+              "teamSlug": "psv-eindhoven",
+              "url": "https://www.fotmob.com/teams/8640/overview/psv-eindhoven",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "818",
+              "teamSlug": "psv-eindhoven",
+              "url": "https://www.soccer-rating.com/PSV-Eindhoven/818/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2970",
+          "teamName": "SC Cambuur",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "7788",
+              "teamSlug": "cambuur",
+              "url": "https://www.fotmob.com/teams/7788/overview/cambuur",
+              "notes": "FotMob usa Cambuur."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "928",
+              "teamSlug": "leeuwarden-cambuur",
+              "url": "https://www.soccer-rating.com/Leeuwarden-Cambuur/928/",
+              "notes": "Soccer-Rating usa Leeuwarden Cambuur."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2964",
+          "teamName": "SC Heerenveen",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10228",
+              "teamSlug": "sc-heerenveen",
+              "url": "https://www.fotmob.com/teams/10228/overview/sc-heerenveen",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "803",
+              "teamSlug": "sc-heerenveen",
+              "url": "https://www.soccer-rating.com/SC-Heerenveen/803/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2972",
+          "teamName": "SC Telstar",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6414",
+              "teamSlug": "telstar",
+              "url": "https://www.fotmob.com/teams/6414/overview/telstar",
+              "notes": "FotMob usa Telstar."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "931",
+              "teamSlug": "stormvogels-telstar",
+              "url": "https://www.soccer-rating.com/Stormvogels-Telstar/931/",
+              "notes": "Soccer-Rating usa Stormvogels/Telstar."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2960",
+          "teamName": "Sparta Rotterdam",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8614",
+              "teamSlug": "sparta-rotterdam",
+              "url": "https://www.fotmob.com/teams/8614/overview/sparta-rotterdam",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "819",
+              "teamSlug": "sparta-rotterdam",
+              "url": "https://www.soccer-rating.com/Sparta-Rotterdam/819/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2961",
+          "teamName": "Willem II Tilburg",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8525",
+              "teamSlug": "willem-ii",
+              "url": "https://www.fotmob.com/teams/8525/overview/willem-ii",
+              "notes": "FotMob usa Willem II."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "804",
+              "teamSlug": "willem-ii-tilburg",
+              "url": "https://www.soccer-rating.com/Willem-II-Tilburg/804/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        }
+      ]
+    },
+    {
       "competitionId": "20",
       "competitionName": "Eliteserien",
       "countryName": "Norway",
@@ -14911,23 +15397,6 @@
           "recommendedNextSteps": []
         }
       ]
-    },
-    {
-      "competitionId": "37",
-      "competitionName": "Eredivisie",
-      "countryName": "Netherlands",
-      "seededFromWhitelist": true,
-      "hasRegistryEntries": false,
-      "teamCount": 0,
-      "activeTeams": 0,
-      "coverage": {
-        "complete": 0,
-        "partial": 0,
-        "missing": 0,
-        "fotmobMapped": 0,
-        "soccerRatingMapped": 0
-      },
-      "teams": []
     },
     {
       "competitionId": "47",
