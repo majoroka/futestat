@@ -1,6 +1,6 @@
 {
   "source": "whitelist-plus-standings",
-  "generatedAtUtc": "2026-08-12T14:21:01.091Z",
+  "generatedAtUtc": "2026-08-12T14:38:39.695Z",
   "referenceDate": "2026-08-11",
   "registryPath": "data/team-source-registry.json",
   "standingsDir": "data/fixtures/standings",
@@ -8,8 +8,8 @@
     "competitions": 42,
     "competitionsWithStandings": 18,
     "competitionsWithoutStandings": 24,
-    "teams": 418,
-    "matchedRegistryTeams": 418,
+    "teams": 430,
+    "matchedRegistryTeams": 430,
     "missingRegistryTeams": 0
   },
   "competitions": [
@@ -7914,15 +7914,256 @@
       ]
     },
     {
-      "competitionId": "67",
+      "competitionId": "41",
       "competitionName": "Veikkausliiga",
       "countryName": "Finland",
       "hasStandingsSnapshot": false,
       "standingsPath": null,
-      "teamCount": 0,
-      "matchedRegistryTeams": 0,
+      "teamCount": 12,
+      "matchedRegistryTeams": 12,
       "missingRegistryTeams": 0,
-      "teams": []
+      "teams": [
+        {
+          "inventoryTeamName": "AC Oulu",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "AC Oulu",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "4449",
+              "url": "https://www.fotmob.com/teams/4449/stats/ac-oulu/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "832",
+              "url": "https://www.soccer-rating.com/AC-Oulu/832/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "FC Lahti",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "FC Lahti",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8424",
+              "url": "https://www.fotmob.com/teams/8424/stats/fc-lahti/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1",
+              "url": "https://www.soccer-rating.com/FC-Lahti/1/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "FF Jaro",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "FF Jaro",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8473",
+              "url": "https://www.fotmob.com/teams/8473/stats/ff-jaro/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "19147",
+              "url": "https://www.soccer-rating.com/FF-Jaro-II/19147/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "HJK",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "HJK",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9861",
+              "url": "https://www.fotmob.com/teams/9861/stats/hjk/teams"
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "IF Gnistan",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "IF Gnistan",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "2361",
+              "url": "https://www.fotmob.com/teams/2361/stats/if-gnistan/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "827",
+              "url": "https://www.soccer-rating.com/IF-Gnistan-Helsinki/827/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "IFK Mariehamn",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "IFK Mariehamn",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6634",
+              "url": "https://www.fotmob.com/teams/6634/stats/ifk-mariehamn/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "19",
+              "url": "https://www.soccer-rating.com/IFK-Mariehamn/19/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Ilves Tampere",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Ilves Tampere",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "3504",
+              "url": "https://www.soccer-rating.com/Ilves-Tampere/3504/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Inter Turku",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Inter Turku",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6550",
+              "url": "https://www.fotmob.com/teams/6550/stats/fc-inter-turku/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "13",
+              "url": "https://www.soccer-rating.com/Inter-Turku/13/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "KuPS",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "KuPS",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1693",
+              "url": "https://www.fotmob.com/teams/1693/stats/kups/teams"
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "SJK",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "SJK",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "162162",
+              "url": "https://www.fotmob.com/teams/162162/stats/sjk/teams"
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "TPS Turku",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "TPS Turku",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "3",
+              "url": "https://www.soccer-rating.com/TPS-Turku/3/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "VPS",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "VPS",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6597",
+              "url": "https://www.fotmob.com/teams/6597/stats/vps/teams"
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        }
+      ]
     },
     {
       "competitionId": "34",

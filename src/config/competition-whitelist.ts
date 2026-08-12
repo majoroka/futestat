@@ -65,7 +65,7 @@ export const DEFAULT_ALLOWED_COMPETITIONS: AllowedCompetition[] = [
   { countryName: "Denmark", competitionName: "Superliga", competitionId: "39" },
   { countryName: "Norway", competitionName: "Eliteserien", competitionId: "20" },
   { countryName: "Sweden", competitionName: "Allsvenskan", competitionId: "43" },
-  { countryName: "Finland", competitionName: "Veikkausliiga", competitionId: "67" },
+  { countryName: "Finland", competitionName: "Veikkausliiga", competitionId: "41" },
   { countryName: "Poland", competitionName: "Ekstraklasa", competitionId: "47" },
   { countryName: "Czech Republic", competitionName: "Chance Liga", competitionId: "49" },
   { countryName: "Romania", competitionName: "SuperLiga", competitionId: "152" },

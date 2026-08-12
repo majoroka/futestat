@@ -1,20 +1,20 @@
 {
   "source": "team-source-registry",
-  "generatedAtUtc": "2026-08-12T14:26:26.195Z",
+  "generatedAtUtc": "2026-08-12T14:38:39.751Z",
   "referenceDate": "2026-08-11",
   "registryPath": "data/team-source-registry.json",
   "summary": {
     "competitions": 42,
     "whitelistCompetitions": 42,
-    "competitionsWithRegistryEntries": 27,
-    "competitionsWithoutRegistryEntries": 15,
-    "teams": 418,
+    "competitionsWithRegistryEntries": 28,
+    "competitionsWithoutRegistryEntries": 14,
+    "teams": 430,
     "activeTeams": 62,
-    "complete": 395,
-    "partial": 0,
+    "complete": 401,
+    "partial": 6,
     "missing": 23,
-    "fotmobMapped": 395,
-    "soccerRatingMapped": 395
+    "fotmobMapped": 405,
+    "soccerRatingMapped": 403
   },
   "competitions": [
     {
@@ -5144,6 +5144,348 @@
             "map_fotmob",
             "map_soccer_rating"
           ]
+        }
+      ]
+    },
+    {
+      "competitionId": "41",
+      "competitionName": "Veikkausliiga",
+      "countryName": "Finland",
+      "seededFromWhitelist": true,
+      "hasRegistryEntries": true,
+      "teamCount": 12,
+      "activeTeams": 0,
+      "coverage": {
+        "complete": 6,
+        "partial": 6,
+        "missing": 0,
+        "fotmobMapped": 10,
+        "soccerRatingMapped": 8
+      },
+      "teams": [
+        {
+          "sofascoreTeamId": "",
+          "teamName": "HJK",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9861",
+              "teamSlug": "hjk",
+              "url": "https://www.fotmob.com/teams/9861/stats/hjk/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "teamSlug": null,
+              "url": null,
+              "notes": "autofill: match Soccer-Rating inconclusivo"
+            }
+          },
+          "mappingState": "partial",
+          "recommendedNextSteps": [
+            "map_soccer_rating"
+          ]
+        },
+        {
+          "sofascoreTeamId": "",
+          "teamName": "Ilves Tampere",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "teamSlug": null,
+              "url": null,
+              "notes": "autofill: match FotMob inconclusivo"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "3504",
+              "teamSlug": "ilves-tampere",
+              "url": "https://www.soccer-rating.com/Ilves-Tampere/3504/",
+              "notes": null
+            }
+          },
+          "mappingState": "partial",
+          "recommendedNextSteps": [
+            "map_fotmob"
+          ]
+        },
+        {
+          "sofascoreTeamId": "",
+          "teamName": "KuPS",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1693",
+              "teamSlug": "kups",
+              "url": "https://www.fotmob.com/teams/1693/stats/kups/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "teamSlug": null,
+              "url": null,
+              "notes": "autofill: match Soccer-Rating inconclusivo"
+            }
+          },
+          "mappingState": "partial",
+          "recommendedNextSteps": [
+            "map_soccer_rating"
+          ]
+        },
+        {
+          "sofascoreTeamId": "",
+          "teamName": "SJK",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "162162",
+              "teamSlug": "sjk",
+              "url": "https://www.fotmob.com/teams/162162/stats/sjk/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "teamSlug": null,
+              "url": null,
+              "notes": "autofill: match Soccer-Rating inconclusivo"
+            }
+          },
+          "mappingState": "partial",
+          "recommendedNextSteps": [
+            "map_soccer_rating"
+          ]
+        },
+        {
+          "sofascoreTeamId": "",
+          "teamName": "TPS Turku",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "teamSlug": null,
+              "url": null,
+              "notes": "autofill: match FotMob inconclusivo"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "3",
+              "teamSlug": "tps-turku",
+              "url": "https://www.soccer-rating.com/TPS-Turku/3/",
+              "notes": null
+            }
+          },
+          "mappingState": "partial",
+          "recommendedNextSteps": [
+            "map_fotmob"
+          ]
+        },
+        {
+          "sofascoreTeamId": "",
+          "teamName": "VPS",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6597",
+              "teamSlug": "vps",
+              "url": "https://www.fotmob.com/teams/6597/stats/vps/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "teamSlug": null,
+              "url": null,
+              "notes": "autofill: match Soccer-Rating inconclusivo"
+            }
+          },
+          "mappingState": "partial",
+          "recommendedNextSteps": [
+            "map_soccer_rating"
+          ]
+        },
+        {
+          "sofascoreTeamId": "",
+          "teamName": "AC Oulu",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "4449",
+              "teamSlug": "ac-oulu",
+              "url": "https://www.fotmob.com/teams/4449/stats/ac-oulu/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "832",
+              "teamSlug": "ac-oulu",
+              "url": "https://www.soccer-rating.com/AC-Oulu/832/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "",
+          "teamName": "FC Lahti",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8424",
+              "teamSlug": "fc-lahti",
+              "url": "https://www.fotmob.com/teams/8424/stats/fc-lahti/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1",
+              "teamSlug": "fc-lahti",
+              "url": "https://www.soccer-rating.com/FC-Lahti/1/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "",
+          "teamName": "FF Jaro",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8473",
+              "teamSlug": "ff-jaro",
+              "url": "https://www.fotmob.com/teams/8473/stats/ff-jaro/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "19147",
+              "teamSlug": "ff-jaro-ii",
+              "url": "https://www.soccer-rating.com/FF-Jaro-II/19147/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "",
+          "teamName": "IF Gnistan",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "2361",
+              "teamSlug": "if-gnistan",
+              "url": "https://www.fotmob.com/teams/2361/stats/if-gnistan/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "827",
+              "teamSlug": "if-gnistan-helsinki",
+              "url": "https://www.soccer-rating.com/IF-Gnistan-Helsinki/827/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "",
+          "teamName": "IFK Mariehamn",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6634",
+              "teamSlug": "ifk-mariehamn",
+              "url": "https://www.fotmob.com/teams/6634/stats/ifk-mariehamn/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "19",
+              "teamSlug": "ifk-mariehamn",
+              "url": "https://www.soccer-rating.com/IFK-Mariehamn/19/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "",
+          "teamName": "Inter Turku",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6550",
+              "teamSlug": "fc-inter-turku",
+              "url": "https://www.fotmob.com/teams/6550/stats/fc-inter-turku/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "13",
+              "teamSlug": "inter-turku",
+              "url": "https://www.soccer-rating.com/Inter-Turku/13/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
         }
       ]
     },
@@ -11439,23 +11781,6 @@
           "recommendedNextSteps": []
         }
       ]
-    },
-    {
-      "competitionId": "67",
-      "competitionName": "Veikkausliiga",
-      "countryName": "Finland",
-      "seededFromWhitelist": true,
-      "hasRegistryEntries": false,
-      "teamCount": 0,
-      "activeTeams": 0,
-      "coverage": {
-        "complete": 0,
-        "partial": 0,
-        "missing": 0,
-        "fotmobMapped": 0,
-        "soccerRatingMapped": 0
-      },
-      "teams": []
     },
     {
       "competitionId": "34",
