@@ -1,0 +1,91 @@
+import { buildCompetitionSourceRegistry } from "../infrastructure/manual/competition-source-registry-builder.js";
+
+interface CliOptions {
+  inputPath?: string;
+  outputPath?: string;
+  write: boolean;
+}
+
+async function main(): Promise<void> {
+  const options = parseCliOptions(process.argv.slice(2));
+  const result = await buildCompetitionSourceRegistry(process.cwd(), options);
+
+  console.log(
+    JSON.stringify(
+      {
+        inputPath: result.inputPath,
+        outputPath: result.outputPath,
+        ...result.summary,
+      },
+      null,
+      2,
+    ),
+  );
+}
+
+function parseCliOptions(argv: string[]): CliOptions {
+  const options: CliOptions = {
+    write: true,
+  };
+
+  for (const arg of argv) {
+    const [flag, rawValue] = arg.split("=", 2);
+
+    switch (flag) {
+      case "--input":
+        options.inputPath = requireValue(rawValue, flag);
+        break;
+      case "--output":
+        options.outputPath = requireValue(rawValue, flag);
+        break;
+      case "--write":
+        options.write = parseBoolean(rawValue, flag);
+        break;
+      case "--help":
+        printHelp();
+        process.exit(0);
+      default:
+        throw new Error(`Unknown argument: ${flag}`);
+    }
+  }
+
+  return options;
+}
+
+function requireValue(value: string | undefined, flag: string): string {
+  if (!value) {
+    throw new Error(`Missing value for ${flag}.`);
+  }
+  return value;
+}
+
+function parseBoolean(value: string | undefined, flag: string): boolean {
+  if (!value) {
+    throw new Error(`Missing value for ${flag}. Expected true or false.`);
+  }
+  if (value === "true") {
+    return true;
+  }
+  if (value === "false") {
+    return false;
+  }
+  throw new Error(`Invalid boolean for ${flag}: "${value}". Expected true or false.`);
+}
+
+function printHelp(): void {
+  console.log(`
+Usage:
+  npm run build:competition-source-registry
+
+Options:
+  --input=<path-txt>
+  --output=<path-json>
+  --write=true|false
+`);
+}
+
+main().catch((error: unknown) => {
+  const message = error instanceof Error ? error.stack ?? error.message : String(error);
+  console.error(message);
+  process.exitCode = 1;
+});

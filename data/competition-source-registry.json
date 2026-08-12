@@ -1,0 +1,1816 @@
+{
+  "generatedAtUtc": "2026-08-12T19:54:16.840Z",
+  "sourcePath": "/Users/mariocabano/Documents/GitHub/futestat/data/competition-source-registry.source.txt",
+  "entryCount": 42,
+  "entries": [
+    {
+      "sofascoreCompetitionId": "7",
+      "competitionName": "UEFA Champions League",
+      "countryName": "Europe",
+      "competitionAliases": [
+        "UEFA Champions League, Qualification",
+        "UEFA Champions League"
+      ],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "league_phase",
+        "status": "needs_phase_rules",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-dos-campeoes",
+        "variantZerozeroUrls": [
+          "https://www.zerozero.pt/competicao/liga-dos-campeoes-qualificacao-"
+        ]
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "27",
+          "competitionName": "UEFA Champions League",
+          "countryName": "Europe",
+          "url": "https://www.zerozero.pt/competicao/liga-dos-campeoes",
+          "notes": null,
+          "variantUrls": [
+            "https://www.zerozero.pt/competicao/liga-dos-campeoes-qualificacao-"
+          ],
+          "variantCompetitionNames": [
+            "UEFA Champions League, Qualification"
+          ]
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "42",
+          "competitionName": "UEFA Champions League",
+          "countryName": "Europe",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "CLCUP",
+          "competitionName": "UEFA Champions League",
+          "countryName": "Europe",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "679",
+      "competitionName": "UEFA Europa League",
+      "countryName": "Europe",
+      "competitionAliases": [
+        "UEFA Europa League, Qualification",
+        "UEFA Europa League"
+      ],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "league_phase",
+        "status": "needs_phase_rules",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-europa",
+        "variantZerozeroUrls": [
+          "https://www.zerozero.pt/competicao/europa-league-qualificacao-/3276"
+        ]
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "28",
+          "competitionName": "UEFA Europa League",
+          "countryName": "Europe",
+          "url": "https://www.zerozero.pt/competicao/liga-europa",
+          "notes": null,
+          "variantUrls": [
+            "https://www.zerozero.pt/competicao/europa-league-qualificacao-/3276"
+          ],
+          "variantCompetitionNames": [
+            "UEFA Europa League, Qualification"
+          ]
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "73",
+          "competitionName": "UEFA Europa League",
+          "countryName": "Europe",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "ELCUP",
+          "competitionName": "UEFA Europa League",
+          "countryName": "Europe",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "17015",
+      "competitionName": "UEFA Conference League",
+      "countryName": "Europe",
+      "competitionAliases": [
+        "UEFA Conference League, Qualification",
+        "UEFA Conference League"
+      ],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "league_phase",
+        "status": "needs_phase_rules",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-conferencia",
+        "variantZerozeroUrls": [
+          "https://www.zerozero.pt/competicao/liga-conferencia-qualificacao-"
+        ]
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "5932",
+          "competitionName": "UEFA Conference League",
+          "countryName": "Europe",
+          "url": "https://www.zerozero.pt/competicao/liga-conferencia",
+          "notes": null,
+          "variantUrls": [
+            "https://www.zerozero.pt/competicao/liga-conferencia-qualificacao-"
+          ],
+          "variantCompetitionNames": [
+            "UEFA Conference League, Qualification"
+          ]
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "10216",
+          "competitionName": "UEFA Conference League",
+          "countryName": "Europe",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "ECLCUP",
+          "competitionName": "UEFA Conference League",
+          "countryName": "Europe",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "17",
+      "competitionName": "Premier League",
+      "countryName": "England",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-inglesa",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "4",
+          "competitionName": "Premier League",
+          "countryName": "England",
+          "url": "https://www.zerozero.pt/competicao/liga-inglesa",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "47",
+          "competitionName": "Premier League",
+          "countryName": "England",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "UK1",
+          "competitionName": "Premier League",
+          "countryName": "England",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "18",
+      "competitionName": "Championship",
+      "countryName": "England",
+      "competitionAliases": [
+        "EFL Championship"
+      ],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/ii-liga-inglesa",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "114",
+          "competitionName": "Championship",
+          "countryName": "England",
+          "url": "https://www.zerozero.pt/competicao/ii-liga-inglesa",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "48",
+          "competitionName": "Championship",
+          "countryName": "England",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "UK2",
+          "competitionName": "Championship",
+          "countryName": "England",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "8",
+      "competitionName": "LaLiga",
+      "countryName": "Spain",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-espanhola",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "5",
+          "competitionName": "LaLiga",
+          "countryName": "Spain",
+          "url": "https://www.zerozero.pt/competicao/liga-espanhola",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "87",
+          "competitionName": "LaLiga",
+          "countryName": "Spain",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "ES1",
+          "competitionName": "LaLiga",
+          "countryName": "Spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "54",
+      "competitionName": "LaLiga 2",
+      "countryName": "Spain",
+      "competitionAliases": [
+        "Segunda Division",
+        "Segunda División",
+        "LaLiga Hypermotion"
+      ],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/segunda-liga-espanhola",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "113",
+          "competitionName": "LaLiga 2",
+          "countryName": "Spain",
+          "url": "https://www.zerozero.pt/competicao/segunda-liga-espanhola",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "140",
+          "competitionName": "LaLiga 2",
+          "countryName": "Spain",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "ES2",
+          "competitionName": "LaLiga 2",
+          "countryName": "Spain",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "23",
+      "competitionName": "Serie A",
+      "countryName": "Italy",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-italiana",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "10",
+          "competitionName": "Serie A",
+          "countryName": "Italy",
+          "url": "https://www.zerozero.pt/competicao/liga-italiana",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "55",
+          "competitionName": "Serie A",
+          "countryName": "Italy",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "IT1",
+          "competitionName": "Serie A",
+          "countryName": "Italy",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "53",
+      "competitionName": "Serie B",
+      "countryName": "Italy",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/serie-b-italiana",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "95",
+          "competitionName": "Serie B",
+          "countryName": "Italy",
+          "url": "https://www.zerozero.pt/competicao/serie-b-italiana",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "86",
+          "competitionName": "Serie B",
+          "countryName": "Italy",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "IT2",
+          "competitionName": "Serie B",
+          "countryName": "Italy",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "35",
+      "competitionName": "Bundesliga",
+      "countryName": "Germany",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-alema",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "11",
+          "competitionName": "Bundesliga",
+          "countryName": "Germany",
+          "url": "https://www.zerozero.pt/competicao/liga-alema",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "54",
+          "competitionName": "Bundesliga",
+          "countryName": "Germany",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "DE1",
+          "competitionName": "Bundesliga",
+          "countryName": "Germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "44",
+      "competitionName": "2. Bundesliga",
+      "countryName": "Germany",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/2-bundesliga",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "211",
+          "competitionName": "2. Bundesliga",
+          "countryName": "Germany",
+          "url": "https://www.zerozero.pt/competicao/2-bundesliga",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "146",
+          "competitionName": "2. Bundesliga",
+          "countryName": "Germany",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "DE2",
+          "competitionName": "2. Bundesliga",
+          "countryName": "Germany",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "34",
+      "competitionName": "Ligue 1",
+      "countryName": "France",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-francesa",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "13",
+          "competitionName": "Ligue 1",
+          "countryName": "France",
+          "url": "https://www.zerozero.pt/competicao/liga-francesa",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "53",
+          "competitionName": "Ligue 1",
+          "countryName": "France",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "FR1",
+          "competitionName": "Ligue 1",
+          "countryName": "France",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "182",
+      "competitionName": "Ligue 2",
+      "countryName": "France",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/2-liga-francesa",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "155",
+          "competitionName": "Ligue 2",
+          "countryName": "France",
+          "url": "https://www.zerozero.pt/competicao/2-liga-francesa",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "110",
+          "competitionName": "Ligue 2",
+          "countryName": "France",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "FR2",
+          "competitionName": "Ligue 2",
+          "countryName": "France",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "238",
+      "competitionName": "Liga Portugal",
+      "countryName": "Portugal",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-portuguesa",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "3",
+          "competitionName": "Liga Portugal",
+          "countryName": "Portugal",
+          "url": "https://www.zerozero.pt/competicao/liga-portuguesa",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "61",
+          "competitionName": "Liga Portugal",
+          "countryName": "Portugal",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "PT1",
+          "competitionName": "Liga Portugal",
+          "countryName": "Portugal",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "239",
+      "competitionName": "Liga Portugal 2",
+      "countryName": "Portugal",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/segunda-liga-portuguesa",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "42",
+          "competitionName": "Liga Portugal 2",
+          "countryName": "Portugal",
+          "url": "https://www.zerozero.pt/competicao/segunda-liga-portuguesa",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "185",
+          "competitionName": "Liga Portugal 2",
+          "countryName": "Portugal",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "PT2",
+          "competitionName": "Liga Portugal 2",
+          "countryName": "Portugal",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "17101",
+      "competitionName": "Liga 3",
+      "countryName": "Portugal",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "regular_plus_playoffs",
+        "status": "needs_phase_rules",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-3",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "5683",
+          "competitionName": "Liga 3",
+          "countryName": "Portugal",
+          "url": "https://www.zerozero.pt/competicao/liga-3",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "9112",
+          "competitionName": "Liga 3",
+          "countryName": "Portugal",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "PT3",
+          "competitionName": "Liga 3",
+          "countryName": "Portugal",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "37",
+      "competitionName": "Eredivisie",
+      "countryName": "Netherlands",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-neerlandesa",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "12",
+          "competitionName": "Eredivisie",
+          "countryName": "Netherlands",
+          "url": "https://www.zerozero.pt/competicao/liga-neerlandesa",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "57",
+          "competitionName": "Eredivisie",
+          "countryName": "Netherlands",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "NL1",
+          "competitionName": "Eredivisie",
+          "countryName": "Netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "131",
+      "competitionName": "Eerste Divisie",
+      "countryName": "Netherlands",
+      "competitionAliases": [
+        "Keuken Kampioen Divisie"
+      ],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/2-liga-neerlandesa",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "215",
+          "competitionName": "Eerste Divisie",
+          "countryName": "Netherlands",
+          "url": "https://www.zerozero.pt/competicao/2-liga-neerlandesa",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "111",
+          "competitionName": "Eerste Divisie",
+          "countryName": "Netherlands",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "NL2",
+          "competitionName": "Eerste Divisie",
+          "countryName": "Netherlands",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "38",
+      "competitionName": "Pro League",
+      "countryName": "Belgium",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "regular_plus_playoffs",
+        "status": "needs_phase_rules",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-belga",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "15",
+          "competitionName": "Pro League",
+          "countryName": "Belgium",
+          "url": "https://www.zerozero.pt/competicao/liga-belga",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "40",
+          "competitionName": "Pro League",
+          "countryName": "Belgium",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "BE1",
+          "competitionName": "Pro League",
+          "countryName": "Belgium",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "36",
+      "competitionName": "Premiership",
+      "countryName": "Scotland",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "regular_plus_playoffs",
+        "status": "needs_phase_rules",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-escocesa",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "18",
+          "competitionName": "Premiership",
+          "countryName": "Scotland",
+          "url": "https://www.zerozero.pt/competicao/liga-escocesa",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "64",
+          "competitionName": "Premiership",
+          "countryName": "Scotland",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "SC1",
+          "competitionName": "Premiership",
+          "countryName": "Scotland",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "52",
+      "competitionName": "Super Lig",
+      "countryName": "Turkey",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-turca",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "24",
+          "competitionName": "Super Lig",
+          "countryName": "Turkey",
+          "url": "https://www.zerozero.pt/competicao/liga-turca",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "71",
+          "competitionName": "Super Lig",
+          "countryName": "Turkey",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "TU1",
+          "competitionName": "Super Lig",
+          "countryName": "Turkey",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "45",
+      "competitionName": "Bundesliga",
+      "countryName": "Austria",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "regular_plus_playoffs",
+        "status": "needs_phase_rules",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-austriaca",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "14",
+          "competitionName": "Bundesliga",
+          "countryName": "Austria",
+          "url": "https://www.zerozero.pt/competicao/liga-austriaca",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "38",
+          "competitionName": "Bundesliga",
+          "countryName": "Austria",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "AT1",
+          "competitionName": "Bundesliga",
+          "countryName": "Austria",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "46",
+      "competitionName": "Super League",
+      "countryName": "Switzerland",
+      "competitionAliases": [
+        "Swiss Super League"
+      ],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "regular_plus_playoffs",
+        "status": "needs_phase_rules",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-suica",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "19",
+          "competitionName": "Super League",
+          "countryName": "Switzerland",
+          "url": "https://www.zerozero.pt/competicao/liga-suica",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "69",
+          "competitionName": "Super League",
+          "countryName": "Switzerland",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "CH1",
+          "competitionName": "Super League",
+          "countryName": "Switzerland",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "39",
+      "competitionName": "Superliga",
+      "countryName": "Denmark",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "regular_plus_playoffs",
+        "status": "needs_phase_rules",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-dinamarquesa",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "16",
+          "competitionName": "Superliga",
+          "countryName": "Denmark",
+          "url": "https://www.zerozero.pt/competicao/liga-dinamarquesa",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "46",
+          "competitionName": "Superliga",
+          "countryName": "Denmark",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "DK1",
+          "competitionName": "Superliga",
+          "countryName": "Denmark",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "20",
+      "competitionName": "Eliteserien",
+      "countryName": "Norway",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-norueguesa",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "21",
+          "competitionName": "Eliteserien",
+          "countryName": "Norway",
+          "url": "https://www.zerozero.pt/competicao/liga-norueguesa",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "59",
+          "competitionName": "Eliteserien",
+          "countryName": "Norway",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "NO1",
+          "competitionName": "Eliteserien",
+          "countryName": "Norway",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "43",
+      "competitionName": "Allsvenskan",
+      "countryName": "Sweden",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-sueca",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "20",
+          "competitionName": "Allsvenskan",
+          "countryName": "Sweden",
+          "url": "https://www.zerozero.pt/competicao/liga-sueca",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "67",
+          "competitionName": "Allsvenskan",
+          "countryName": "Sweden",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "SW1",
+          "competitionName": "Allsvenskan",
+          "countryName": "Sweden",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "41",
+      "competitionName": "Veikkausliiga",
+      "countryName": "Finland",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "regular_plus_playoffs",
+        "status": "needs_phase_rules",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-finlandesa",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "17",
+          "competitionName": "Veikkausliiga",
+          "countryName": "Finland",
+          "url": "https://www.zerozero.pt/competicao/liga-finlandesa",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "51",
+          "competitionName": "Veikkausliiga",
+          "countryName": "Finland",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "FI1",
+          "competitionName": "Veikkausliiga",
+          "countryName": "Finland",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "47",
+      "competitionName": "Ekstraklasa",
+      "countryName": "Poland",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-polaca",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "80",
+          "competitionName": "Ekstraklasa",
+          "countryName": "Poland",
+          "url": "https://www.zerozero.pt/competicao/liga-polaca",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "196",
+          "competitionName": "Ekstraklasa",
+          "countryName": "Poland",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "PL1",
+          "competitionName": "Ekstraklasa",
+          "countryName": "Poland",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "49",
+      "competitionName": "Chance Liga",
+      "countryName": "Czech Republic",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "regular_plus_playoffs",
+        "status": "needs_phase_rules",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-checa",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "22",
+          "competitionName": "Chance Liga",
+          "countryName": "Czech Republic",
+          "url": "https://www.zerozero.pt/competicao/liga-checa",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "122",
+          "competitionName": "Chance Liga",
+          "countryName": "Czech Republic",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "CZ1",
+          "competitionName": "Chance Liga",
+          "countryName": "Czech Republic",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "152",
+      "competitionName": "SuperLiga",
+      "countryName": "Romania",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "regular_plus_playoffs",
+        "status": "needs_phase_rules",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-romena",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "81",
+          "competitionName": "SuperLiga",
+          "countryName": "Romania",
+          "url": "https://www.zerozero.pt/competicao/liga-romena",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "189",
+          "competitionName": "SuperLiga",
+          "countryName": "Romania",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "RO1",
+          "competitionName": "SuperLiga",
+          "countryName": "Romania",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "187",
+      "competitionName": "NB I",
+      "countryName": "Hungary",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-hungara",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "79",
+          "competitionName": "NB I",
+          "countryName": "Hungary",
+          "url": "https://www.zerozero.pt/competicao/liga-hungara",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "212",
+          "competitionName": "NB I",
+          "countryName": "Hungary",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "HU1",
+          "competitionName": "NB I",
+          "countryName": "Hungary",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "170",
+      "competitionName": "HNL",
+      "countryName": "Croatia",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-croata",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "78",
+          "competitionName": "HNL",
+          "countryName": "Croatia",
+          "url": "https://www.zerozero.pt/competicao/liga-croata",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "252",
+          "competitionName": "HNL",
+          "countryName": "Croatia",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "HR1",
+          "competitionName": "HNL",
+          "countryName": "Croatia",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "210",
+      "competitionName": "SuperLiga",
+      "countryName": "Serbia",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "regular_plus_playoffs",
+        "status": "needs_phase_rules",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-servia",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "90",
+          "competitionName": "SuperLiga",
+          "countryName": "Serbia",
+          "url": "https://www.zerozero.pt/competicao/liga-servia",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "182",
+          "competitionName": "SuperLiga",
+          "countryName": "Serbia",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "CS1",
+          "competitionName": "SuperLiga",
+          "countryName": "Serbia",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "211",
+      "competitionName": "Niké Liga",
+      "countryName": "Slovakia",
+      "competitionAliases": [
+        "Nike Liga"
+      ],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "regular_plus_playoffs",
+        "status": "needs_phase_rules",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-eslovaca",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "88",
+          "competitionName": "Niké Liga",
+          "countryName": "Slovakia",
+          "url": "https://www.zerozero.pt/competicao/liga-eslovaca",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "176",
+          "competitionName": "Niké Liga",
+          "countryName": "Slovakia",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "SK1",
+          "competitionName": "Niké Liga",
+          "countryName": "Slovakia",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "212",
+      "competitionName": "PrvaLiga",
+      "countryName": "Slovenia",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-eslovena",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "89",
+          "competitionName": "PrvaLiga",
+          "countryName": "Slovenia",
+          "url": "https://www.zerozero.pt/competicao/liga-eslovena",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "173",
+          "competitionName": "PrvaLiga",
+          "countryName": "Slovenia",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "SI1",
+          "competitionName": "PrvaLiga",
+          "countryName": "Slovenia",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "247",
+      "competitionName": "Parva Liga",
+      "countryName": "Bulgaria",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "regular_plus_playoffs",
+        "status": "needs_phase_rules",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-bulgara",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "77",
+          "competitionName": "Parva Liga",
+          "countryName": "Bulgaria",
+          "url": "https://www.zerozero.pt/competicao/liga-bulgara",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "270",
+          "competitionName": "Parva Liga",
+          "countryName": "Bulgaria",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "BG1",
+          "competitionName": "Parva Liga",
+          "countryName": "Bulgaria",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "185",
+      "competitionName": "Super League",
+      "countryName": "Greece",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "regular_plus_playoffs",
+        "status": "needs_phase_rules",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-grega",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "63",
+          "competitionName": "Super League",
+          "countryName": "Greece",
+          "url": "https://www.zerozero.pt/competicao/liga-grega",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "135",
+          "competitionName": "Super League",
+          "countryName": "Greece",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "GR1",
+          "competitionName": "Super League",
+          "countryName": "Greece",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "218",
+      "competitionName": "Premier League",
+      "countryName": "Ukraine",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-ucraniana",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "68",
+          "competitionName": "Premier League",
+          "countryName": "Ukraine",
+          "url": "https://www.zerozero.pt/competicao/liga-ucraniana",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "441",
+          "competitionName": "Premier League",
+          "countryName": "Ukraine",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "UA1",
+          "competitionName": "Premier League",
+          "countryName": "Ukraine",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "203",
+      "competitionName": "Premier League",
+      "countryName": "Russia",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-russa",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "67",
+          "competitionName": "Premier League",
+          "countryName": "Russia",
+          "url": "https://www.zerozero.pt/competicao/liga-russa",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "63",
+          "competitionName": "Premier League",
+          "countryName": "Russia",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "RU1",
+          "competitionName": "Premier League",
+          "countryName": "Russia",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "59",
+      "competitionName": "Premier League",
+      "countryName": "Israel",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "regular_plus_playoffs",
+        "status": "needs_phase_rules",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/liga-israelita",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "118",
+          "competitionName": "Premier League",
+          "countryName": "Israel",
+          "url": "https://www.zerozero.pt/competicao/liga-israelita",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "127",
+          "competitionName": "Premier League",
+          "countryName": "Israel",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "IL1",
+          "competitionName": "Premier League",
+          "countryName": "Israel",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "325",
+      "competitionName": "Brasileirao Serie A",
+      "countryName": "Brazil",
+      "competitionAliases": [
+        "Brasileirao Betano",
+        "Brasileirão Betano"
+      ],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "single_table",
+        "status": "ready",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/brasileirao-serie-a",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "51",
+          "competitionName": "Brasileirao Serie A",
+          "countryName": "Brazil",
+          "url": "https://www.zerozero.pt/competicao/brasileirao-serie-a",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "268",
+          "competitionName": "Brasileirao Serie A",
+          "countryName": "Brazil",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "BR1",
+          "competitionName": "Brasileirao Serie A",
+          "countryName": "Brazil",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreCompetitionId": "155",
+      "competitionName": "Liga Profesional",
+      "countryName": "Argentina",
+      "competitionAliases": [
+        "Liga Profesional, Clausura",
+        "Liga Profesional, Apertura"
+      ],
+      "countryAliases": [],
+      "standings": {
+        "enabled": true,
+        "mode": "regular_plus_playoffs",
+        "status": "needs_validation",
+        "primaryZerozeroUrl": "https://www.zerozero.pt/competicao/i-divisao-argentina",
+        "variantZerozeroUrls": []
+      },
+      "sources": {
+        "zerozero": {
+          "status": "mapped",
+          "sourceCompetitionId": "70",
+          "competitionName": "Liga Profesional",
+          "countryName": "Argentina",
+          "url": "https://www.zerozero.pt/competicao/i-divisao-argentina",
+          "notes": null,
+          "variantUrls": [],
+          "variantCompetitionNames": []
+        },
+        "fotmob": {
+          "status": "mapped",
+          "sourceCompetitionId": "112",
+          "competitionName": "Liga Profesional",
+          "countryName": "Argentina",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceCompetitionId": "AR1",
+          "competitionName": "Liga Profesional",
+          "countryName": "Argentina",
+          "url": null,
+          "notes": null
+        }
+      }
+    }
+  ]
+}

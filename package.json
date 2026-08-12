@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "build:competition-source-registry": "node --import tsx src/manual/build-competition-source-registry.ts",
     "build:match-view": "node --import tsx src/manual/build-match-view.ts",
     "build:match-views-window": "node --import tsx src/manual/build-match-views-window.ts",
     "build:site": "node scripts/build-site.mjs",

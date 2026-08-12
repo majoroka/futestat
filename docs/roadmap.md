@@ -118,6 +118,7 @@ Objetivo:
 - mapeamento estável entre `Sofascore`, `FotMob` e `Soccer-Rating`
 
 Entregáveis desta subfase:
+- `competition-source-registry.json` como registo mestre das competições e IDs cruzados entre plataformas
 - `team-source-registry.json` como registo mestre
 - relatório `team-inventory` por competição a partir da whitelist e das standings locais
 - relatório `team-mapping` por competição

@@ -2,12 +2,13 @@
 
 ## Visão geral
 
-O projeto está dividido em quatro fluxos independentes:
+O projeto está dividido em cinco fluxos independentes:
 
 1. `fixtures`
 2. `classificações`
-3. `mapeamento de equipas`
-4. `dados manuais de equipa`
+3. `mapeamento de competições`
+4. `mapeamento de equipas`
+5. `dados manuais de equipa`
 
 O objetivo desta separação é simples:
 - manter o scraping crítico dos fixtures leve e previsível
@@ -43,7 +44,22 @@ Responsabilidade:
 Output principal:
 - `data/fixtures/standings/<competitionId>.json`
 
-### 3. Mapeamento de equipas
+### 3. Mapeamento de competições
+
+Fontes lógicas:
+- `Sofascore` como origem canónica das competições no projeto
+- `Zerozero` como fonte de classificação e URL operacional
+- `FotMob` e `Soccer-Rating` como registo de IDs por competição
+
+Responsabilidade:
+- manter o inventário canónico de ligas e competições suportadas
+- ligar cada `sofascoreCompetitionId` aos IDs corretos nas fontes secundárias
+- consolidar aliases e variantes por fase sem misturar IDs entre plataformas
+
+Output principal:
+- `data/competition-source-registry.json`
+
+### 4. Mapeamento de equipas
 
 Fontes lógicas:
 - `Sofascore` como origem canónica da equipa no projeto
@@ -59,7 +75,7 @@ Output principal:
 - `data/team-source-registry.json`
 - `data/team-mapping/latest.json`
 
-### 4. Dados manuais de equipa
+### 5. Dados manuais de equipa
 
 Fontes:
 - `FotMob`
@@ -103,6 +119,9 @@ A whitelist curada em código continua a definir:
 - que ligas entram nos fixtures
 - que ligas justificam cobertura de classificação
 - que universo de equipas interessa mapear
+
+O registo mestre complementar é:
+- `data/competition-source-registry.json`
 
 ## Limitações atuais
 
