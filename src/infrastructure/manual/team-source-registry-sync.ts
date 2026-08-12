@@ -1,6 +1,7 @@
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
+import { getCompetitionTeamSeeds } from "../../config/competition-team-seeds.js";
 import { getCanonicalCompetitionNameById } from "../../config/competition-whitelist.js";
 import type { CompetitionStandingsSnapshot } from "../../domain/competition-standings.js";
 import type { MatchFixture, PublicFixtureSnapshot } from "../../domain/fixture.js";
@@ -33,6 +34,7 @@ export interface SyncTeamSourceRegistryResult {
   activeEntries: number;
   addedEntries: number;
   retainedEntries: number;
+  manualSeededEntries: number;
   standingsSeededEntries: number;
   fixtureLinkedSeedEntries: number;
 }
@@ -71,8 +73,18 @@ export async function syncTeamSourceRegistry(
   }
 
   let addedEntries = 0;
+  let manualSeededEntries = 0;
   let standingsSeededEntries = 0;
   let fixtureLinkedSeedEntries = 0;
+
+  for (const competitionId of ["49"]) {
+    pruneManualSeedCompetitionEntries(existingMap, competitionId);
+    manualSeededEntries += seedTeamsFromManualSeeds(
+      existingMap,
+      snapshot.referenceDate,
+      competitionId,
+    );
+  }
 
   if (options.seedFromStandings !== false) {
     const standingsSnapshots = await readStandingsSnapshots(standingsDir);
@@ -138,6 +150,7 @@ export async function syncTeamSourceRegistry(
     activeEntries: entries.filter((entry) => entry.activeInCurrentWindow).length,
     addedEntries,
     retainedEntries: entries.length - addedEntries,
+    manualSeededEntries,
     standingsSeededEntries,
     fixtureLinkedSeedEntries,
   };
@@ -187,6 +200,7 @@ function upsertFixtureTeam(
     activeInCurrentWindow: true,
     fixtureAppearancesInCurrentWindow: 1,
   });
+  inheritMappedSourcesFromExistingTeam(entryMap, created);
   seedDefaultSourceHints(created, fixture);
   entryMap.set(key, created);
   return false;
@@ -251,6 +265,77 @@ function seedTeamsFromStandings(
   }
 
   return addedEntries;
+}
+
+function seedTeamsFromManualSeeds(
+  entryMap: Map<string, TeamSourceRegistryEntry>,
+  referenceDate: string,
+  competitionId: string,
+): number {
+  let addedEntries = 0;
+
+  for (const seed of getCompetitionTeamSeeds(competitionId)) {
+    const existing = findEntryByCompetitionAndName(entryMap, competitionId, seed.teamName);
+    if (existing) {
+      if (!existing.entry.sofascoreTeamId && seed.sofascoreTeamId) {
+        entryMap.delete(existing.key);
+        existing.entry.sofascoreTeamId = seed.sofascoreTeamId;
+        entryMap.set(
+          buildTeamKey(seed.sofascoreTeamId, existing.entry.teamName, competitionId),
+          existing.entry,
+        );
+      }
+      existing.entry.countryName = seed.countryName;
+      existing.entry.competitionId = competitionId;
+      existing.entry.competitionName = normalizeCompetitionName(competitionId, existing.entry.competitionName);
+      seedDefaultSourceHintsFromManualSeed(existing.entry, seed.teamName, seed.countryName);
+      continue;
+    }
+
+    const created = createRegistryEntry({
+      referenceDate,
+      teamId: seed.sofascoreTeamId,
+      teamName: seed.teamName,
+      competitionId,
+      competitionName: normalizeCompetitionName(competitionId, null),
+      countryName: seed.countryName,
+      activeInCurrentWindow: false,
+      fixtureAppearancesInCurrentWindow: 0,
+    });
+    inheritMappedSourcesFromExistingTeam(entryMap, created);
+    seedDefaultSourceHintsFromManualSeed(created, seed.teamName, seed.countryName);
+    entryMap.set(buildTeamKey(seed.sofascoreTeamId, seed.teamName, competitionId), created);
+    addedEntries += 1;
+  }
+
+  return addedEntries;
+}
+
+function pruneManualSeedCompetitionEntries(
+  entryMap: Map<string, TeamSourceRegistryEntry>,
+  competitionId: string,
+): void {
+  const seeds = getCompetitionTeamSeeds(competitionId);
+  if (seeds.length === 0) {
+    return;
+  }
+
+  const allowedIds = new Set(seeds.map((seed) => seed.sofascoreTeamId).filter(Boolean));
+  const allowedNames = new Set(seeds.map((seed) => normalizeToken(seed.teamName)));
+
+  for (const [key, entry] of entryMap.entries()) {
+    if (entry.competitionId !== competitionId) {
+      continue;
+    }
+
+    const hasAllowedId = entry.sofascoreTeamId && allowedIds.has(entry.sofascoreTeamId);
+    const hasAllowedName = allowedNames.has(normalizeToken(entry.teamName));
+    if (hasAllowedId || hasAllowedName) {
+      continue;
+    }
+
+    entryMap.delete(key);
+  }
 }
 
 function createRegistryEntry(params: {
@@ -345,16 +430,67 @@ function seedDefaultSourceHintsFromStandings(
   }
 }
 
+function seedDefaultSourceHintsFromManualSeed(
+  entry: TeamSourceRegistryEntry,
+  teamName: string,
+  countryName: string,
+): void {
+  if (!entry.sources.fotmob.teamSlug) {
+    entry.sources.fotmob.teamSlug = slugify(teamName) || null;
+  }
+  if (!entry.sources.soccerRating.teamSlug) {
+    entry.sources.soccerRating.teamSlug = slugify(teamName) || null;
+  }
+  if (!entry.sources.soccerRating.countrySlug) {
+    entry.sources.soccerRating.countrySlug = slugify(countryName) || null;
+  }
+}
+
 function buildTeamKey(
   teamId: string | null,
   teamName: string,
   competitionId: string | null,
 ): string {
   if (teamId) {
-    return `id:${teamId}`;
+    return `id:${competitionId ?? ""}:${teamId}`;
   }
 
   return `name:${competitionId ?? ""}:${normalizeToken(teamName)}`;
+}
+
+function inheritMappedSourcesFromExistingTeam(
+  entryMap: Map<string, TeamSourceRegistryEntry>,
+  targetEntry: TeamSourceRegistryEntry,
+): void {
+  if (!targetEntry.sofascoreTeamId) {
+    return;
+  }
+
+  const existing = Array.from(entryMap.values()).find(
+    (entry) =>
+      entry !== targetEntry &&
+      entry.sofascoreTeamId === targetEntry.sofascoreTeamId &&
+      entry.competitionId !== targetEntry.competitionId,
+  );
+
+  if (!existing) {
+    return;
+  }
+
+  if (targetEntry.sources.fotmob.status !== "mapped" && existing.sources.fotmob.status === "mapped") {
+    targetEntry.sources.fotmob = {
+      ...existing.sources.fotmob,
+    };
+  }
+
+  if (
+    targetEntry.sources.soccerRating.status !== "mapped" &&
+    existing.sources.soccerRating.status === "mapped"
+  ) {
+    targetEntry.sources.soccerRating = {
+      ...existing.sources.soccerRating,
+    };
+  }
 }
 
 function findSeededEntryWithoutTeamId(

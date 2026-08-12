@@ -1,6 +1,7 @@
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
+import { getCompetitionTeamSeeds } from "../../config/competition-team-seeds.js";
 import { DEFAULT_ALLOWED_COMPETITIONS } from "../../config/competition-whitelist.js";
 import type { CompetitionStandingsSnapshot } from "../../domain/competition-standings.js";
 import type {
@@ -22,6 +23,17 @@ const INVENTORY_NAME_ALIASES_BY_COMPETITION = new Map<string, string[]>([
 ]);
 
 const STANDINGS_TEAM_NAME_CANONICAL_BY_COMPETITION = new Map<string, Map<string, string>>([
+  [
+    "49",
+    new Map([
+      ["banik", "Baník Ostrava"],
+      ["artis", "SK Artis Brno"],
+      ["slovacko", "1. FC Slovácko"],
+      ["pardubice", "FK Pardubice"],
+      ["zlin", "FC Zlín"],
+      ["sigma olomouc", "SK Sigma Olomouc"],
+    ]),
+  ],
   [
     "211",
     new Map([
@@ -114,7 +126,7 @@ function buildCompetitionReport(
   const standings = standingsMap.get(competition.competitionId) ?? null;
   const inventoryTeams = standings
     ? extractTeamNamesFromStandings(standings)
-    : extractTeamsFromRegistry(registry, competition.competitionId);
+    : extractTeamsFromSeedsOrRegistry(registry, competition.competitionId);
 
   const teams = inventoryTeams
     .map((teamName) => buildTeamReport(teamName, registry, competition.competitionId))
@@ -275,10 +287,15 @@ function canonicalizeStandingsTeamName(
   return competitionAliases.get(normalizeAliasKey(teamName)) ?? teamName;
 }
 
-function extractTeamsFromRegistry(
+function extractTeamsFromSeedsOrRegistry(
   registry: TeamSourceRegistry | null,
   competitionId: string,
 ): string[] {
+  const seededTeams = getCompetitionTeamSeeds(competitionId).map((entry) => entry.teamName);
+  if (seededTeams.length > 0) {
+    return seededTeams;
+  }
+
   if (!registry) {
     return [];
   }

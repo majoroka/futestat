@@ -1,6 +1,7 @@
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
+import { getCompetitionTeamSeeds } from "../../config/competition-team-seeds.js";
 import { DEFAULT_ALLOWED_COMPETITIONS } from "../../config/competition-whitelist.js";
 import type { CompetitionStandingsSnapshot } from "../../domain/competition-standings.js";
 import type {
@@ -18,6 +19,17 @@ import {
 } from "../../lib/team-name-matcher.js";
 
 const STANDINGS_TEAM_NAME_CANONICAL_BY_COMPETITION = new Map<string, Map<string, string>>([
+  [
+    "49",
+    new Map([
+      ["banik", "Baník Ostrava"],
+      ["artis", "SK Artis Brno"],
+      ["slovacko", "1. FC Slovácko"],
+      ["pardubice", "FK Pardubice"],
+      ["zlin", "FC Zlín"],
+      ["sigma olomouc", "SK Sigma Olomouc"],
+    ]),
+  ],
   [
     "211",
     new Map([
@@ -123,6 +135,7 @@ function buildCompetitionReport(
   const directRegistryEntries = registry.entries.filter(
     (entry) => entry.competitionId === competition.competitionId,
   );
+  const seededTeamNames = getCompetitionTeamSeeds(competition.competitionId).map((entry) => entry.teamName);
 
   const teams = standings
     ? extractTeamNamesFromStandings(standings).map((teamName) => {
@@ -139,7 +152,22 @@ function buildCompetitionReport(
 
       return entryToTeamReport(matched.entry, teamName);
     })
-    : directRegistryEntries.map((entry) => entryToTeamReport(entry));
+    : seededTeamNames.length > 0
+      ? seededTeamNames.map((teamName) => {
+        const matched = findRegistryEntry(
+          registry,
+          competition.competitionId,
+          competition.countryName,
+          teamName,
+        );
+
+        if (!matched) {
+          return createMissingTeamReport(teamName);
+        }
+
+        return entryToTeamReport(matched.entry, teamName);
+      })
+      : directRegistryEntries.map((entry) => entryToTeamReport(entry));
 
   const hasRegistryEntries =
     directRegistryEntries.length > 0 ||
