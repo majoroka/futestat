@@ -3,7 +3,7 @@
   "date": "2026-08-12",
   "collectionState": "open",
   "firstScrapedAtUtc": "2026-08-11T15:33:36.041Z",
-  "lastScrapedAtUtc": "2026-08-11T15:33:36.041Z",
+  "lastScrapedAtUtc": "2026-08-12T20:12:35.263Z",
   "frozenAtUtc": null,
   "fixtureCount": 4,
   "fixtures": [
@@ -22,14 +22,14 @@
       "awayTeamId": "3218",
       "awayTeamName": "Lanús",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/3218/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 0,
+      "awayScore": 3,
       "matchUrl": "https://www.sofascore.com/football/match/ca-lanus-ca-talleres/kobstob#id:16667376",
       "firstSeenAtUtc": "2026-08-11T15:33:36.041Z",
-      "lastSeenAtUtc": "2026-08-11T15:33:36.041Z",
-      "lastChangedAtUtc": "2026-08-11T15:33:36.041Z"
+      "lastSeenAtUtc": "2026-08-12T20:12:35.263Z",
+      "lastChangedAtUtc": "2026-08-12T20:12:35.263Z"
     },
     {
       "source": "sofascore",
@@ -46,14 +46,14 @@
       "awayTeamId": "5396",
       "awayTeamName": "H. Tel Aviv",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/5396/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 2,
+      "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/hapoel-tel-aviv-gks-katowice/mmbsWhc#id:16585844",
       "firstSeenAtUtc": "2026-08-11T15:32:21.222Z",
-      "lastSeenAtUtc": "2026-08-11T15:32:21.222Z",
-      "lastChangedAtUtc": "2026-08-11T15:32:21.222Z"
+      "lastSeenAtUtc": "2026-08-12T20:11:20.485Z",
+      "lastChangedAtUtc": "2026-08-12T20:11:20.485Z"
     },
     {
       "source": "sofascore",
@@ -70,14 +70,14 @@
       "awayTeamId": "1921",
       "awayTeamName": "DVSC",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/1921/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 5,
+      "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/debreceni-vsc-fc-kobenhavn/JAswN#id:16585849",
       "firstSeenAtUtc": "2026-08-11T15:32:21.222Z",
-      "lastSeenAtUtc": "2026-08-11T15:32:21.222Z",
-      "lastChangedAtUtc": "2026-08-11T15:32:21.222Z"
+      "lastSeenAtUtc": "2026-08-12T20:11:20.485Z",
+      "lastChangedAtUtc": "2026-08-12T20:11:20.485Z"
     },
     {
       "source": "sofascore",
@@ -94,14 +94,14 @@
       "awayTeamId": "32476",
       "awayTeamName": "Paide",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/32476/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 2,
+      "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/paide-linnameeskond-sk-rapid-wien/fQsBZm#id:16585850",
       "firstSeenAtUtc": "2026-08-11T15:32:21.222Z",
-      "lastSeenAtUtc": "2026-08-11T15:32:21.222Z",
-      "lastChangedAtUtc": "2026-08-11T15:32:21.222Z"
+      "lastSeenAtUtc": "2026-08-12T20:11:20.485Z",
+      "lastChangedAtUtc": "2026-08-12T20:11:20.485Z"
     }
   ],
   "metadata": {

@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-11T15:33:57.209Z",
+  "builtAtUtc": "2026-08-12T20:12:36.851Z",
   "match": {
     "id": "16667376",
     "date": "2026-08-12",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 0,
+    "awayScore": 3,
     "matchUrl": "https://www.sofascore.com/football/match/ca-lanus-ca-talleres/kobstob#id:16667376",
     "kickoffAtUtc": "2026-08-12T00:00:00.000Z",
     "competition": {

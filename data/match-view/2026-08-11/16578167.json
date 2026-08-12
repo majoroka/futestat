@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-11T15:33:57.199Z",
+  "builtAtUtc": "2026-08-12T20:12:36.840Z",
   "match": {
     "id": "16578167",
     "date": "2026-08-11",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 4,
+    "awayScore": 0,
     "matchUrl": "https://www.sofascore.com/football/match/sabah-fk-agf/QAsDghc#id:16578167",
     "kickoffAtUtc": "2026-08-11T16:00:00.000Z",
     "competition": {

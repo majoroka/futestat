@@ -1,19 +1,19 @@
 {
-  "builtAtUtc": "2026-08-12T20:12:36.850Z",
+  "builtAtUtc": "2026-08-12T20:12:36.887Z",
   "match": {
-    "id": "16613793",
-    "date": "2026-08-11",
-    "status": "finished",
-    "resultLabel": "FT",
-    "homeScore": 0,
-    "awayScore": 1,
-    "matchUrl": "https://www.sofascore.com/football/match/fenerbahce-sk-sturm-graz/bQsclb#id:16613793",
-    "kickoffAtUtc": "2026-08-11T18:30:00.000Z",
+    "id": "16585866",
+    "date": "2026-08-13",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/fk-zalgiris-hnk-hajduk-split/LPsVgc#id:16585866",
+    "kickoffAtUtc": "2026-08-13T19:00:00.000Z",
     "competition": {
-      "id": "7",
-      "name": "UEFA Champions League, Qualification",
+      "id": "17015",
+      "name": "UEFA Conference League, Qualification",
       "country": "Europe",
-      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image"
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image"
     },
     "season": {
       "id": "2026/2027",
@@ -35,19 +35,19 @@
   },
   "homeTeam": {
     "identity": {
-      "id": "2051",
-      "name": "Sturm",
-      "logoUrl": "https://img.sofascore.com/api/v1/team/2051/image/small",
+      "id": "2036",
+      "name": "Hajduk",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2036/image/small",
       "sourceIds": {
-        "sofascore": "2051",
+        "sofascore": "2036",
         "fotmob": null,
-        "soccerRating": null
+        "soccerRating": "645"
       }
     },
     "headerStats": {
-      "overallRating": null,
-      "nationalRank": null,
-      "europeRank": null,
+      "overallRating": 1519.66,
+      "nationalRank": 24,
+      "europeRank": 3336,
       "formLast3": [],
       "xgFor": null,
       "xgAgainst": null,
@@ -55,10 +55,26 @@
       "cleanSheets": null
     },
     "overview": {
-      "prediction": null,
-      "squadHealth": null,
-      "expectedLineup": null,
-      "oddsMarket": null
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": null
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": null,
+        "fair1X2": null,
+        "movementSummary": null
+      }
     },
     "statistics": {
       "overview": null,
@@ -68,15 +84,24 @@
     },
     "squad": [],
     "history": [],
-    "similarTeams": []
+    "similarTeams": [
+      {
+        "name": "Arsenal Kharkiv",
+        "rating": 1519.76
+      },
+      {
+        "name": "Parla",
+        "rating": 1519.66
+      }
+    ]
   },
   "awayTeam": {
     "identity": {
-      "id": "3052",
-      "name": "Fenerbahçe",
-      "logoUrl": "https://img.sofascore.com/api/v1/team/3052/image/small",
+      "id": "5345",
+      "name": "Žalgiris",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/5345/image/small",
       "sourceIds": {
-        "sofascore": "3052",
+        "sofascore": "5345",
         "fotmob": null,
         "soccerRating": null
       }
@@ -109,7 +134,7 @@
   },
   "standings": {
     "available": false,
-    "competitionId": "7",
+    "competitionId": "17015",
     "sourceStatus": "missing",
     "phaseName": null,
     "phaseNotes": [],
@@ -121,7 +146,7 @@
   "sources": {
     "fixture": {
       "available": true,
-      "path": "data/fixtures/days/2026-08-11.json",
+      "path": "data/fixtures/days/2026-08-13.json",
       "matchedBy": "sourceEventId"
     },
     "matchDetail": {
@@ -145,9 +170,9 @@
       "matchedBy": null
     },
     "homeTeamContext": {
-      "available": false,
-      "path": null,
-      "matchedBy": null
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/croatia/645-fk-hajduk-kula.json",
+      "matchedBy": "sofascoreTeamId"
     },
     "awayTeamContext": {
       "available": false,

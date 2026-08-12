@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-08-11T15:33:57.211Z",
+  "generatedAtUtc": "2026-08-12T20:12:36.888Z",
   "entries": [
     {
       "fixtureId": "15260863",
@@ -1163,103 +1163,331 @@
       "fixtureId": "16578110",
       "matchDate": "2026-08-11",
       "jsonPath": "data/match-view/2026-08-11/16578110.json",
-      "builtAtUtc": "2026-08-11T15:33:57.203Z"
+      "builtAtUtc": "2026-08-12T20:12:36.845Z"
     },
     {
       "fixtureId": "16578111",
       "matchDate": "2026-08-11",
       "jsonPath": "data/match-view/2026-08-11/16578111.json",
-      "builtAtUtc": "2026-08-11T15:33:57.208Z"
+      "builtAtUtc": "2026-08-12T20:12:36.851Z"
     },
     {
       "fixtureId": "16578112",
       "matchDate": "2026-08-11",
       "jsonPath": "data/match-view/2026-08-11/16578112.json",
-      "builtAtUtc": "2026-08-11T15:33:57.198Z"
+      "builtAtUtc": "2026-08-12T20:12:36.839Z"
     },
     {
       "fixtureId": "16578160",
       "matchDate": "2026-08-11",
       "jsonPath": "data/match-view/2026-08-11/16578160.json",
-      "builtAtUtc": "2026-08-11T15:33:57.206Z"
+      "builtAtUtc": "2026-08-12T20:12:36.848Z"
     },
     {
       "fixtureId": "16578167",
       "matchDate": "2026-08-11",
       "jsonPath": "data/match-view/2026-08-11/16578167.json",
-      "builtAtUtc": "2026-08-11T15:33:57.199Z"
+      "builtAtUtc": "2026-08-12T20:12:36.840Z"
     },
     {
       "fixtureId": "16578184",
       "matchDate": "2026-08-11",
       "jsonPath": "data/match-view/2026-08-11/16578184.json",
-      "builtAtUtc": "2026-08-11T15:33:57.207Z"
+      "builtAtUtc": "2026-08-12T20:12:36.849Z"
     },
     {
       "fixtureId": "16578185",
       "matchDate": "2026-08-11",
       "jsonPath": "data/match-view/2026-08-11/16578185.json",
-      "builtAtUtc": "2026-08-11T15:33:57.201Z"
+      "builtAtUtc": "2026-08-12T20:12:36.843Z"
+    },
+    {
+      "fixtureId": "16578186",
+      "matchDate": "2026-08-11",
+      "jsonPath": "data/match-view/2026-08-11/16578186.json",
+      "builtAtUtc": "2026-08-12T20:12:36.838Z"
     },
     {
       "fixtureId": "16578187",
       "matchDate": "2026-08-11",
       "jsonPath": "data/match-view/2026-08-11/16578187.json",
-      "builtAtUtc": "2026-08-11T15:33:57.205Z"
+      "builtAtUtc": "2026-08-12T20:12:36.847Z"
     },
     {
       "fixtureId": "16578788",
       "matchDate": "2026-08-11",
       "jsonPath": "data/match-view/2026-08-11/16578788.json",
-      "builtAtUtc": "2026-08-11T15:33:57.200Z"
+      "builtAtUtc": "2026-08-12T20:12:36.841Z"
     },
     {
       "fixtureId": "16585842",
       "matchDate": "2026-08-11",
       "jsonPath": "data/match-view/2026-08-11/16585842.json",
-      "builtAtUtc": "2026-08-11T15:33:57.202Z"
+      "builtAtUtc": "2026-08-12T20:12:36.844Z"
     },
     {
       "fixtureId": "16613793",
       "matchDate": "2026-08-11",
       "jsonPath": "data/match-view/2026-08-11/16613793.json",
-      "builtAtUtc": "2026-08-11T15:33:57.207Z"
+      "builtAtUtc": "2026-08-12T20:12:36.850Z"
     },
     {
       "fixtureId": "16667375",
       "matchDate": "2026-08-11",
       "jsonPath": "data/match-view/2026-08-11/16667375.json",
-      "builtAtUtc": "2026-08-11T15:33:57.197Z"
+      "builtAtUtc": "2026-08-12T20:12:36.830Z"
     },
     {
       "fixtureId": "16682106",
       "matchDate": "2026-08-11",
       "jsonPath": "data/match-view/2026-08-11/16682106.json",
-      "builtAtUtc": "2026-08-11T15:33:57.204Z"
+      "builtAtUtc": "2026-08-12T20:12:36.846Z"
     },
     {
       "fixtureId": "16585844",
       "matchDate": "2026-08-12",
       "jsonPath": "data/match-view/2026-08-12/16585844.json",
-      "builtAtUtc": "2026-08-11T15:33:57.210Z"
+      "builtAtUtc": "2026-08-12T20:12:36.853Z"
     },
     {
       "fixtureId": "16585849",
       "matchDate": "2026-08-12",
       "jsonPath": "data/match-view/2026-08-12/16585849.json",
-      "builtAtUtc": "2026-08-11T15:33:57.210Z"
+      "builtAtUtc": "2026-08-12T20:12:36.853Z"
     },
     {
       "fixtureId": "16585850",
       "matchDate": "2026-08-12",
       "jsonPath": "data/match-view/2026-08-12/16585850.json",
-      "builtAtUtc": "2026-08-11T15:33:57.211Z"
+      "builtAtUtc": "2026-08-12T20:12:36.854Z"
     },
     {
       "fixtureId": "16667376",
       "matchDate": "2026-08-12",
       "jsonPath": "data/match-view/2026-08-12/16667376.json",
-      "builtAtUtc": "2026-08-11T15:33:57.209Z"
+      "builtAtUtc": "2026-08-12T20:12:36.851Z"
+    },
+    {
+      "fixtureId": "16578367",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16578367.json",
+      "builtAtUtc": "2026-08-12T20:12:36.884Z"
+    },
+    {
+      "fixtureId": "16578787",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16578787.json",
+      "builtAtUtc": "2026-08-12T20:12:36.870Z"
+    },
+    {
+      "fixtureId": "16578792",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16578792.json",
+      "builtAtUtc": "2026-08-12T20:12:36.868Z"
+    },
+    {
+      "fixtureId": "16578793",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16578793.json",
+      "builtAtUtc": "2026-08-12T20:12:36.873Z"
+    },
+    {
+      "fixtureId": "16578794",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16578794.json",
+      "builtAtUtc": "2026-08-12T20:12:36.888Z"
+    },
+    {
+      "fixtureId": "16578795",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16578795.json",
+      "builtAtUtc": "2026-08-12T20:12:36.883Z"
+    },
+    {
+      "fixtureId": "16578796",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16578796.json",
+      "builtAtUtc": "2026-08-12T20:12:36.869Z"
+    },
+    {
+      "fixtureId": "16578798",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16578798.json",
+      "builtAtUtc": "2026-08-12T20:12:36.872Z"
+    },
+    {
+      "fixtureId": "16581512",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16581512.json",
+      "builtAtUtc": "2026-08-12T20:12:36.866Z"
+    },
+    {
+      "fixtureId": "16581587",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16581587.json",
+      "builtAtUtc": "2026-08-12T20:12:36.867Z"
+    },
+    {
+      "fixtureId": "16581589",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16581589.json",
+      "builtAtUtc": "2026-08-12T20:12:36.885Z"
+    },
+    {
+      "fixtureId": "16581590",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16581590.json",
+      "builtAtUtc": "2026-08-12T20:12:36.877Z"
+    },
+    {
+      "fixtureId": "16585811",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585811.json",
+      "builtAtUtc": "2026-08-12T20:12:36.874Z"
+    },
+    {
+      "fixtureId": "16585822",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585822.json",
+      "builtAtUtc": "2026-08-12T20:12:36.881Z"
+    },
+    {
+      "fixtureId": "16585841",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585841.json",
+      "builtAtUtc": "2026-08-12T20:12:36.858Z"
+    },
+    {
+      "fixtureId": "16585843",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585843.json",
+      "builtAtUtc": "2026-08-12T20:12:36.871Z"
+    },
+    {
+      "fixtureId": "16585845",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585845.json",
+      "builtAtUtc": "2026-08-12T20:12:36.882Z"
+    },
+    {
+      "fixtureId": "16585846",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585846.json",
+      "builtAtUtc": "2026-08-12T20:12:36.875Z"
+    },
+    {
+      "fixtureId": "16585847",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585847.json",
+      "builtAtUtc": "2026-08-12T20:12:36.880Z"
+    },
+    {
+      "fixtureId": "16585848",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585848.json",
+      "builtAtUtc": "2026-08-12T20:12:36.863Z"
+    },
+    {
+      "fixtureId": "16585851",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585851.json",
+      "builtAtUtc": "2026-08-12T20:12:36.859Z"
+    },
+    {
+      "fixtureId": "16585852",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585852.json",
+      "builtAtUtc": "2026-08-12T20:12:36.857Z"
+    },
+    {
+      "fixtureId": "16585853",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585853.json",
+      "builtAtUtc": "2026-08-12T20:12:36.865Z"
+    },
+    {
+      "fixtureId": "16585854",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585854.json",
+      "builtAtUtc": "2026-08-12T20:12:36.860Z"
+    },
+    {
+      "fixtureId": "16585855",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585855.json",
+      "builtAtUtc": "2026-08-12T20:12:36.861Z"
+    },
+    {
+      "fixtureId": "16585856",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585856.json",
+      "builtAtUtc": "2026-08-12T20:12:36.879Z"
+    },
+    {
+      "fixtureId": "16585858",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585858.json",
+      "builtAtUtc": "2026-08-12T20:12:36.865Z"
+    },
+    {
+      "fixtureId": "16585859",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585859.json",
+      "builtAtUtc": "2026-08-12T20:12:36.876Z"
+    },
+    {
+      "fixtureId": "16585861",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585861.json",
+      "builtAtUtc": "2026-08-12T20:12:36.871Z"
+    },
+    {
+      "fixtureId": "16585862",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585862.json",
+      "builtAtUtc": "2026-08-12T20:12:36.886Z"
+    },
+    {
+      "fixtureId": "16585863",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585863.json",
+      "builtAtUtc": "2026-08-12T20:12:36.885Z"
+    },
+    {
+      "fixtureId": "16585864",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585864.json",
+      "builtAtUtc": "2026-08-12T20:12:36.855Z"
+    },
+    {
+      "fixtureId": "16585865",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585865.json",
+      "builtAtUtc": "2026-08-12T20:12:36.862Z"
+    },
+    {
+      "fixtureId": "16585866",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585866.json",
+      "builtAtUtc": "2026-08-12T20:12:36.887Z"
+    },
+    {
+      "fixtureId": "16585867",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16585867.json",
+      "builtAtUtc": "2026-08-12T20:12:36.878Z"
+    },
+    {
+      "fixtureId": "16589109",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16589109.json",
+      "builtAtUtc": "2026-08-12T20:12:36.864Z"
+    },
+    {
+      "fixtureId": "16682374",
+      "matchDate": "2026-08-13",
+      "jsonPath": "data/match-view/2026-08-13/16682374.json",
+      "builtAtUtc": "2026-08-12T20:12:36.856Z"
     }
   ]
 }

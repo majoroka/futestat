@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-11T15:33:57.198Z",
+  "builtAtUtc": "2026-08-12T20:12:36.839Z",
   "match": {
     "id": "16578112",
     "date": "2026-08-11",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "AET",
+    "homeScore": 3,
+    "awayScore": 2,
     "matchUrl": "https://www.sofascore.com/football/match/royale-union-saint-gilloise-bodoglimt/gnskXb#id:16578112",
     "kickoffAtUtc": "2026-08-11T16:00:00.000Z",
     "competition": {
@@ -73,7 +73,7 @@
   "awayTeam": {
     "identity": {
       "id": "4860",
-      "name": "USG",
+      "name": "USGx2",
       "logoUrl": "https://img.sofascore.com/api/v1/team/4860/image/small",
       "sourceIds": {
         "sofascore": "4860",

@@ -1,19 +1,19 @@
 {
-  "builtAtUtc": "2026-08-12T20:12:36.850Z",
+  "builtAtUtc": "2026-08-12T20:12:36.860Z",
   "match": {
-    "id": "16613793",
-    "date": "2026-08-11",
-    "status": "finished",
-    "resultLabel": "FT",
-    "homeScore": 0,
-    "awayScore": 1,
-    "matchUrl": "https://www.sofascore.com/football/match/fenerbahce-sk-sturm-graz/bQsclb#id:16613793",
-    "kickoffAtUtc": "2026-08-11T18:30:00.000Z",
+    "id": "16585854",
+    "date": "2026-08-13",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/dac-1904-fc-twente/fjbsIBj#id:16585854",
+    "kickoffAtUtc": "2026-08-13T17:00:00.000Z",
     "competition": {
-      "id": "7",
-      "name": "UEFA Champions League, Qualification",
+      "id": "17015",
+      "name": "UEFA Conference League, Qualification",
       "country": "Europe",
-      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image"
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image"
     },
     "season": {
       "id": "2026/2027",
@@ -35,11 +35,11 @@
   },
   "homeTeam": {
     "identity": {
-      "id": "2051",
-      "name": "Sturm",
-      "logoUrl": "https://img.sofascore.com/api/v1/team/2051/image/small",
+      "id": "23833",
+      "name": "DAC 1904",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/23833/image/small",
       "sourceIds": {
-        "sofascore": "2051",
+        "sofascore": "23833",
         "fotmob": null,
         "soccerRating": null
       }
@@ -72,11 +72,11 @@
   },
   "awayTeam": {
     "identity": {
-      "id": "3052",
-      "name": "Fenerbahçe",
-      "logoUrl": "https://img.sofascore.com/api/v1/team/3052/image/small",
+      "id": "2955",
+      "name": "Twente",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2955/image/small",
       "sourceIds": {
-        "sofascore": "3052",
+        "sofascore": "2955",
         "fotmob": null,
         "soccerRating": null
       }
@@ -109,7 +109,7 @@
   },
   "standings": {
     "available": false,
-    "competitionId": "7",
+    "competitionId": "17015",
     "sourceStatus": "missing",
     "phaseName": null,
     "phaseNotes": [],
@@ -121,7 +121,7 @@
   "sources": {
     "fixture": {
       "available": true,
-      "path": "data/fixtures/days/2026-08-11.json",
+      "path": "data/fixtures/days/2026-08-13.json",
       "matchedBy": "sourceEventId"
     },
     "matchDetail": {

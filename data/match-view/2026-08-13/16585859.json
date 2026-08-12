@@ -1,19 +1,19 @@
 {
-  "builtAtUtc": "2026-08-12T20:12:36.850Z",
+  "builtAtUtc": "2026-08-12T20:12:36.876Z",
   "match": {
-    "id": "16613793",
-    "date": "2026-08-11",
-    "status": "finished",
-    "resultLabel": "FT",
-    "homeScore": 0,
-    "awayScore": 1,
-    "matchUrl": "https://www.sofascore.com/football/match/fenerbahce-sk-sturm-graz/bQsclb#id:16613793",
-    "kickoffAtUtc": "2026-08-11T18:30:00.000Z",
+    "id": "16585859",
+    "date": "2026-08-13",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/sheriff-tiraspol-fc-st-gallen-1879/RYsydc#id:16585859",
+    "kickoffAtUtc": "2026-08-13T18:00:00.000Z",
     "competition": {
-      "id": "7",
-      "name": "UEFA Champions League, Qualification",
+      "id": "17015",
+      "name": "UEFA Conference League, Qualification",
       "country": "Europe",
-      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/7/image"
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17015/image"
     },
     "season": {
       "id": "2026/2027",
@@ -35,11 +35,11 @@
   },
   "homeTeam": {
     "identity": {
-      "id": "2051",
-      "name": "Sturm",
-      "logoUrl": "https://img.sofascore.com/api/v1/team/2051/image/small",
+      "id": "2442",
+      "name": "St. Gallen",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2442/image/small",
       "sourceIds": {
-        "sofascore": "2051",
+        "sofascore": "2442",
         "fotmob": null,
         "soccerRating": null
       }
@@ -72,11 +72,11 @@
   },
   "awayTeam": {
     "identity": {
-      "id": "3052",
-      "name": "Fenerbahçe",
-      "logoUrl": "https://img.sofascore.com/api/v1/team/3052/image/small",
+      "id": "5173",
+      "name": "Sheriff",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/5173/image/small",
       "sourceIds": {
-        "sofascore": "3052",
+        "sofascore": "5173",
         "fotmob": null,
         "soccerRating": null
       }
@@ -109,7 +109,7 @@
   },
   "standings": {
     "available": false,
-    "competitionId": "7",
+    "competitionId": "17015",
     "sourceStatus": "missing",
     "phaseName": null,
     "phaseNotes": [],
@@ -121,7 +121,7 @@
   "sources": {
     "fixture": {
       "available": true,
-      "path": "data/fixtures/days/2026-08-11.json",
+      "path": "data/fixtures/days/2026-08-13.json",
       "matchedBy": "sourceEventId"
     },
     "matchDetail": {

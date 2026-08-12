@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-11T15:33:57.204Z",
+  "builtAtUtc": "2026-08-12T20:12:36.846Z",
   "match": {
     "id": "16682106",
     "date": "2026-08-11",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "AET",
+    "homeScore": 1,
+    "awayScore": 2,
     "matchUrl": "https://www.sofascore.com/football/match/fc-cska-1948-sofia-panathinaikos-fc/YobsFQac#id:16682106",
     "kickoffAtUtc": "2026-08-11T17:30:00.000Z",
     "competition": {
