@@ -1,6 +1,6 @@
 import { loadAppConfig } from "../config/app-config.js";
-import { listCompetitionStandingsSources } from "../config/competition-standings-sources.js";
 import type { CompetitionStandingsSource } from "../config/competition-standings-sources.js";
+import { listPrimaryCompetitionStandingsSources } from "../application/competition-standings-source-resolver.js";
 import { JsonCompetitionStandingsStore } from "../infrastructure/storage/json-competition-standings-store.js";
 import { ZerozeroStandingsScraper } from "../infrastructure/zerozero/zerozero-standings-scraper.js";
 
@@ -13,7 +13,7 @@ async function main(): Promise<void> {
   const options = parseCliOptions(process.argv.slice(2));
   const config = loadAppConfig([]);
   const store = new JsonCompetitionStandingsStore(config.competitionStandingsOutputDir);
-  const allSources = listCompetitionStandingsSources({
+  const allSources = listPrimaryCompetitionStandingsSources({
     competitionIds: options.competitionIds,
   });
 

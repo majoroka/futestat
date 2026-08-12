@@ -1038,7 +1038,9 @@ function renderFixtureHistoryTab(fixture, matchViewState) {
 }
 
 function renderCompetitionStandingsSnapshot(snapshot, fixture) {
-  const layout = buildStandingsTableLayout(snapshot.tables, fixture);
+  const layout = buildStandingsTableLayout(snapshot.tables, fixture, {
+    ruleProfileId: snapshot.ruleProfileId,
+  });
   const metaItems = [
     snapshot.phaseName ? `Fase: ${snapshot.phaseName}` : null,
     snapshot.mode !== "single_table" ? formatStandingsMode(snapshot.mode) : null,

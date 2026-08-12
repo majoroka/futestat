@@ -62,7 +62,7 @@ export const STANDINGS_ZONE_PRESETS = {
       { from: 7, to: 12, tone: "relegation", label: "Zona de manutenção" },
     ],
   }),
-  "40": preset([
+  "38": preset([
     { from: 1, to: 6, tone: "championship", label: "Play-off Campeão" },
     { from: 7, to: 12, tone: "uel", label: "Play-off Europeu" },
     { from: 13, to: 16, tone: "relegation", label: "Play-off Despromoção" },
@@ -123,7 +123,7 @@ export const STANDINGS_ZONE_PRESETS = {
       { from: 7, to: 14, tone: "relegation", label: "Zona de manutenção" },
     ],
   }),
-  "67": preset([
+  "41": preset([
     { from: 1, to: 6, tone: "championship", label: "Grupo do campeão" },
     { from: 7, to: 12, tone: "relegation", label: "Grupo de manutenção" },
   ], {
@@ -221,15 +221,6 @@ export const STANDINGS_ZONE_PRESETS = {
     "regular-season-before-split": [
       { from: 1, to: 8, tone: "playoff", label: "Zona de apuramento para o grupo do campeão" },
       { from: 9, to: 16, tone: "relegation", label: "Zona de manutenção" },
-    ],
-  }),
-  "215": preset([
-    { from: 1, to: 6, tone: "championship", label: "Grupo do campeão" },
-    { from: 7, to: 12, tone: "relegation", label: "Grupo de manutenção" },
-  ], {
-    "regular-season-before-split": [
-      { from: 1, to: 6, tone: "playoff", label: "Zona de apuramento para o grupo do campeão" },
-      { from: 7, to: 12, tone: "relegation", label: "Zona de manutenção" },
     ],
   }),
   "325": preset([

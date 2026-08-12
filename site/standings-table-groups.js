@@ -1,6 +1,7 @@
-export function buildStandingsTableLayout(tables, fixture) {
+export function buildStandingsTableLayout(tables, fixture, context = {}) {
   const candidates = Array.isArray(tables)
-    ? tables.map((table, index) => analyzeStandingsTable(table, fixture, index))
+    ? tables.map((table, index) => analyzeStandingsTable(table, fixture, index, context))
+        .sort(compareStandingsTableCandidates)
     : [];
 
   if (candidates.length <= 1) {
@@ -60,10 +61,11 @@ export function buildStandingsTableLayout(tables, fixture) {
   };
 }
 
-function analyzeStandingsTable(table, fixture, index) {
+function analyzeStandingsTable(table, fixture, index, context) {
   const rows = Array.isArray(table?.rows) ? table.rows : [];
   const homeToken = normalizeTeamName(fixture?.homeTeamName);
   const awayToken = normalizeTeamName(fixture?.awayTeamName);
+  const tableName = normalizeTeamName(table?.name);
 
   let hasHome = false;
   let hasAway = false;
@@ -87,7 +89,58 @@ function analyzeStandingsTable(table, fixture, index) {
     table,
     index,
     coverage: hasHome && hasAway ? "both" : hasHome ? "home" : hasAway ? "away" : "none",
+    relevance: scoreTableRelevance(tableName, context?.ruleProfileId),
   };
+}
+
+function scoreTableRelevance(tableName, ruleProfileId) {
+  if (!tableName || !ruleProfileId) {
+    return 0;
+  }
+
+  const profiles = {
+    "regular-season-before-split": ["campeonato", "classificacao", "fase regular", "regular"],
+    "league-phase": ["league", "liga", "classificacao", "campeonato"],
+    "group-stage": ["grupo", "serie", "série"],
+    "arg-group-stage": ["grupo", "zona"],
+    "championship-round": ["championship", "campeao", "campeão", "titulo", "title"],
+    "title-round": ["title", "titulo", "campeao", "campeão"],
+    "qualification-round": ["qualification", "qualificacao", "qualificação", "europe", "europ"],
+    "europe-round": ["europe", "europ"],
+    "relegation-round": ["relegation", "despromoc", "manutenc", "playout", "play out"],
+  };
+
+  const candidates = profiles[ruleProfileId] ?? [];
+  return candidates.reduce((best, candidate) => {
+    const normalizedCandidate = normalizeTeamName(candidate);
+    if (!normalizedCandidate) {
+      return best;
+    }
+    if (tableName.includes(normalizedCandidate)) {
+      return Math.max(best, normalizedCandidate.length);
+    }
+    return best;
+  }, 0);
+}
+
+function compareStandingsTableCandidates(left, right) {
+  return (
+    coveragePriority(right.coverage) - coveragePriority(left.coverage) ||
+    right.relevance - left.relevance ||
+    left.index - right.index
+  );
+}
+
+function coveragePriority(coverage) {
+  switch (coverage) {
+    case "both":
+      return 3;
+    case "home":
+    case "away":
+      return 2;
+    default:
+      return 1;
+  }
 }
 
 function toPresentationTable(candidate, badge = null, role = null) {

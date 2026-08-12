@@ -35,7 +35,7 @@ test("findCompetitionStandingsSource matches sponsored and seasonal aliases", ()
 
 test("findCompetitionStandingsSource exposes competition-specific phase rule profiles", () => {
   const belgiumSource = findCompetitionStandingsSource({
-    competitionId: "40",
+    competitionId: "38",
     competitionName: "Pro League",
     countryName: "Belgium",
   });

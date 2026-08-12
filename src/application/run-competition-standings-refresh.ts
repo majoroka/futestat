@@ -1,6 +1,6 @@
 import type { AppConfig } from "../config/app-config.js";
-import { findCompetitionStandingsSource } from "../config/competition-standings-sources.js";
 import type { CompetitionStandingsSource } from "../config/competition-standings-sources.js";
+import { resolveCompetitionStandingsSourceForFixture } from "./competition-standings-source-resolver.js";
 import type { PublicFixtureSnapshot } from "../domain/fixture.js";
 import type { CompetitionStandingsRefreshResult } from "../domain/competition-standings.js";
 import { ZerozeroStandingsScraper } from "../infrastructure/zerozero/zerozero-standings-scraper.js";
@@ -58,7 +58,7 @@ function uniqueCompetitionSources(snapshot: PublicFixtureSnapshot) {
       continue;
     }
 
-    const source = findCompetitionStandingsSource({
+    const source = resolveCompetitionStandingsSourceForFixture({
       competitionId: fixture.competitionId,
       competitionName: fixture.competitionName,
       countryName: fixture.countryName,
