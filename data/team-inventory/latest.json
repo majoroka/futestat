@@ -1,6 +1,6 @@
 {
   "source": "whitelist-plus-standings",
-  "generatedAtUtc": "2026-08-12T17:07:06.665Z",
+  "generatedAtUtc": "2026-08-12T17:16:55.444Z",
   "referenceDate": "2026-08-11",
   "registryPath": "data/team-source-registry.json",
   "standingsDir": "data/fixtures/standings",
@@ -1556,7 +1556,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "9",
           "registryTeamName": "Birmingham City",
           "sources": {
             "fotmob": {
@@ -1576,7 +1576,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "46",
           "registryTeamName": "Blackburn Rovers",
           "sources": {
             "fotmob": {
@@ -1596,7 +1596,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "5",
           "registryTeamName": "Bolton Wanderers",
           "sources": {
             "fotmob": {
@@ -1616,7 +1616,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "58",
           "registryTeamName": "Bristol City",
           "sources": {
             "fotmob": {
@@ -1636,7 +1636,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "6",
           "registryTeamName": "Burnley",
           "sources": {
             "fotmob": {
@@ -1656,7 +1656,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "61",
           "registryTeamName": "Cardiff City",
           "sources": {
             "fotmob": {
@@ -1676,7 +1676,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "47",
           "registryTeamName": "Charlton Athletic",
           "sources": {
             "fotmob": {
@@ -1696,7 +1696,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "27",
           "registryTeamName": "Derby County",
           "sources": {
             "fotmob": {
@@ -1716,7 +1716,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "92",
           "registryTeamName": "Lincoln City",
           "sources": {
             "fotmob": {
@@ -1736,7 +1736,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "36",
           "registryTeamName": "Middlesbrough",
           "sources": {
             "fotmob": {
@@ -1756,7 +1756,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "25",
           "registryTeamName": "Millwall",
           "sources": {
             "fotmob": {
@@ -1776,7 +1776,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "263",
           "registryTeamName": "Norwich City",
           "sources": {
             "fotmob": {
@@ -1796,7 +1796,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2",
           "registryTeamName": "Portsmouth",
           "sources": {
             "fotmob": {
@@ -1816,7 +1816,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "21",
           "registryTeamName": "Preston North End",
           "sources": {
             "fotmob": {
@@ -1836,7 +1836,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "1",
           "registryTeamName": "QPR",
           "sources": {
             "fotmob": {
@@ -1856,7 +1856,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "15",
           "registryTeamName": "Sheffield United",
           "sources": {
             "fotmob": {
@@ -1876,7 +1876,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "45",
           "registryTeamName": "Southampton",
           "sources": {
             "fotmob": {
@@ -1896,7 +1896,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "29",
           "registryTeamName": "Stoke City",
           "sources": {
             "fotmob": {
@@ -1916,7 +1916,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "74",
           "registryTeamName": "Swansea City",
           "sources": {
             "fotmob": {
@@ -1936,7 +1936,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "24",
           "registryTeamName": "Watford",
           "sources": {
             "fotmob": {
@@ -1956,7 +1956,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "8",
           "registryTeamName": "West Bromwich",
           "sources": {
             "fotmob": {
@@ -1976,7 +1976,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "37",
           "registryTeamName": "West Ham",
           "sources": {
             "fotmob": {
@@ -1996,7 +1996,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "3",
           "registryTeamName": "Wolverhampton",
           "sources": {
             "fotmob": {
@@ -2016,7 +2016,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "64",
           "registryTeamName": "Wrexham",
           "sources": {
             "fotmob": {
@@ -2048,7 +2048,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "42",
           "registryTeamName": "Arsenal",
           "sources": {
             "fotmob": {
@@ -2068,7 +2068,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "40",
           "registryTeamName": "Aston Villa",
           "sources": {
             "fotmob": {
@@ -2088,7 +2088,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "60",
           "registryTeamName": "Bournemouth",
           "sources": {
             "fotmob": {
@@ -2108,7 +2108,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "50",
           "registryTeamName": "Brentford",
           "sources": {
             "fotmob": {
@@ -2128,7 +2128,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "30",
           "registryTeamName": "Brighton & Hove Albion",
           "sources": {
             "fotmob": {
@@ -2148,7 +2148,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "38",
           "registryTeamName": "Chelsea",
           "sources": {
             "fotmob": {
@@ -2168,7 +2168,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "11",
           "registryTeamName": "Coventry City",
           "sources": {
             "fotmob": {
@@ -2188,7 +2188,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "7",
           "registryTeamName": "Crystal Palace",
           "sources": {
             "fotmob": {
@@ -2208,7 +2208,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "48",
           "registryTeamName": "Everton",
           "sources": {
             "fotmob": {
@@ -2228,7 +2228,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "43",
           "registryTeamName": "Fulham",
           "sources": {
             "fotmob": {
@@ -2248,7 +2248,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "96",
           "registryTeamName": "Hull City",
           "sources": {
             "fotmob": {
@@ -2268,7 +2268,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "32",
           "registryTeamName": "Ipswich Town",
           "sources": {
             "fotmob": {
@@ -2288,7 +2288,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "34",
           "registryTeamName": "Leeds United",
           "sources": {
             "fotmob": {
@@ -2308,7 +2308,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "44",
           "registryTeamName": "Liverpool",
           "sources": {
             "fotmob": {
@@ -2328,7 +2328,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "17",
           "registryTeamName": "Manchester City",
           "sources": {
             "fotmob": {
@@ -2348,7 +2348,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "35",
           "registryTeamName": "Manchester United",
           "sources": {
             "fotmob": {
@@ -2368,7 +2368,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "39",
           "registryTeamName": "Newcastle",
           "sources": {
             "fotmob": {
@@ -2388,7 +2388,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "14",
           "registryTeamName": "Nottingham Forest",
           "sources": {
             "fotmob": {
@@ -2408,7 +2408,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "41",
           "registryTeamName": "Sunderland",
           "sources": {
             "fotmob": {
@@ -2428,7 +2428,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "33",
           "registryTeamName": "Tottenham",
           "sources": {
             "fotmob": {
@@ -2460,7 +2460,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "5885",
           "registryTeamName": "1. FC Heidenheim 1846",
           "sources": {
             "fotmob": {
@@ -2480,7 +2480,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2591",
           "registryTeamName": "1. FC Magdeburg",
           "sources": {
             "fotmob": {
@@ -2500,7 +2500,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2540",
           "registryTeamName": "Arminia Bielefeld",
           "sources": {
             "fotmob": {
@@ -2520,7 +2520,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2576",
           "registryTeamName": "Darmstadt 98",
           "sources": {
             "fotmob": {
@@ -2540,7 +2540,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2595",
           "registryTeamName": "Dynamo Dresden",
           "sources": {
             "fotmob": {
@@ -2560,7 +2560,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2557",
           "registryTeamName": "Eintracht Braunschweig",
           "sources": {
             "fotmob": {
@@ -2580,7 +2580,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2532",
           "registryTeamName": "Energie Cottbus",
           "sources": {
             "fotmob": {
@@ -2600,7 +2600,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2523",
           "registryTeamName": "FC Nürnberg",
           "sources": {
             "fotmob": {
@@ -2620,7 +2620,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2526",
           "registryTeamName": "FC St. Pauli",
           "sources": {
             "fotmob": {
@@ -2640,7 +2640,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2541",
           "registryTeamName": "Hannover 96",
           "sources": {
             "fotmob": {
@@ -2660,7 +2660,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2528",
           "registryTeamName": "Hertha BSC",
           "sources": {
             "fotmob": {
@@ -2680,7 +2680,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2573",
           "registryTeamName": "Holstein Kiel",
           "sources": {
             "fotmob": {
@@ -2700,7 +2700,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2675",
           "registryTeamName": "Kaiserslautern",
           "sources": {
             "fotmob": {
@@ -2720,7 +2720,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2553",
           "registryTeamName": "Karlsruher SC",
           "sources": {
             "fotmob": {
@@ -2740,7 +2740,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2551",
           "registryTeamName": "SpVgg Greuther Fürth",
           "sources": {
             "fotmob": {
@@ -2760,7 +2760,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2542",
           "registryTeamName": "VfL Bochum",
           "sources": {
             "fotmob": {
@@ -2780,7 +2780,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2581",
           "registryTeamName": "VfL Osnabrück",
           "sources": {
             "fotmob": {
@@ -2800,7 +2800,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2524",
           "registryTeamName": "Wolfsburg",
           "sources": {
             "fotmob": {
@@ -2832,7 +2832,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "46160",
           "registryTeamName": "Ajax B",
           "sources": {
             "fotmob": {
@@ -2852,7 +2852,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2990",
           "registryTeamName": "Almere City FC",
           "sources": {
             "fotmob": {
@@ -2892,7 +2892,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2949",
           "registryTeamName": "De Graafschap",
           "sources": {
             "fotmob": {
@@ -2912,7 +2912,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2963",
           "registryTeamName": "Den Bosch",
           "sources": {
             "fotmob": {
@@ -2932,7 +2932,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2973",
           "registryTeamName": "FC Dordrecht",
           "sources": {
             "fotmob": {
@@ -2972,7 +2972,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2965",
           "registryTeamName": "FC Emmen",
           "sources": {
             "fotmob": {
@@ -2992,7 +2992,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "53067",
           "registryTeamName": "FC Utrecht B",
           "sources": {
             "fotmob": {
@@ -3032,7 +3032,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2974",
           "registryTeamName": "Helmond Sport",
           "sources": {
             "fotmob": {
@@ -3052,7 +3052,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2977",
           "registryTeamName": "Heracles Almelo",
           "sources": {
             "fotmob": {
@@ -3072,7 +3072,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2976",
           "registryTeamName": "MVV",
           "sources": {
             "fotmob": {
@@ -3092,7 +3092,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2947",
           "registryTeamName": "NAC Breda",
           "sources": {
             "fotmob": {
@@ -3132,7 +3132,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2956",
           "registryTeamName": "RKC Waalwijk",
           "sources": {
             "fotmob": {
@@ -3152,7 +3152,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2954",
           "registryTeamName": "Roda",
           "sources": {
             "fotmob": {
@@ -3172,7 +3172,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2978",
           "registryTeamName": "TOP Oss",
           "sources": {
             "fotmob": {
@@ -3192,7 +3192,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2958",
           "registryTeamName": "Vitesse",
           "sources": {
             "fotmob": {
@@ -3212,7 +3212,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2980",
           "registryTeamName": "VVV-Venlo",
           "sources": {
             "fotmob": {
@@ -5448,7 +5448,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2869",
           "registryTeamName": "AD Ceuta",
           "sources": {
             "fotmob": {
@@ -5468,7 +5468,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2848",
           "registryTeamName": "Albacete",
           "sources": {
             "fotmob": {
@@ -5488,7 +5488,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2858",
           "registryTeamName": "Almería",
           "sources": {
             "fotmob": {
@@ -5508,7 +5508,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2854",
           "registryTeamName": "Burgos CF",
           "sources": {
             "fotmob": {
@@ -5528,7 +5528,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "4488",
           "registryTeamName": "Cádiz",
           "sources": {
             "fotmob": {
@@ -5548,7 +5548,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "5067",
           "registryTeamName": "Castellón",
           "sources": {
             "fotmob": {
@@ -5568,7 +5568,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "24335",
           "registryTeamName": "CE Sabadell",
           "sources": {
             "fotmob": {
@@ -5588,7 +5588,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "24336",
           "registryTeamName": "Celta de Vigo B",
           "sources": {
             "fotmob": {
@@ -5608,7 +5608,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2850",
           "registryTeamName": "Córdoba",
           "sources": {
             "fotmob": {
@@ -5628,7 +5628,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2839",
           "registryTeamName": "Eibar",
           "sources": {
             "fotmob": {
@@ -5648,7 +5648,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "47321",
           "registryTeamName": "Eldense",
           "sources": {
             "fotmob": {
@@ -5668,7 +5668,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "324871",
           "registryTeamName": "FC Andorra",
           "sources": {
             "fotmob": {
@@ -5688,7 +5688,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "24264",
           "registryTeamName": "Girona",
           "sources": {
             "fotmob": {
@@ -5708,7 +5708,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "33779",
           "registryTeamName": "Granada",
           "sources": {
             "fotmob": {
@@ -5728,7 +5728,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "6577",
           "registryTeamName": "Las Palmas",
           "sources": {
             "fotmob": {
@@ -5748,7 +5748,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2845",
           "registryTeamName": "Leganés",
           "sources": {
             "fotmob": {
@@ -5768,7 +5768,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2826",
           "registryTeamName": "Mallorca",
           "sources": {
             "fotmob": {
@@ -5788,7 +5788,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2851",
           "registryTeamName": "Real Oviedo",
           "sources": {
             "fotmob": {
@@ -5808,7 +5808,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "24360",
           "registryTeamName": "Real Sociedad B",
           "sources": {
             "fotmob": {
@@ -5828,7 +5828,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2852",
           "registryTeamName": "Sporting Gijón",
           "sources": {
             "fotmob": {
@@ -5848,7 +5848,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2822",
           "registryTeamName": "Tenerife",
           "sources": {
             "fotmob": {
@@ -5868,7 +5868,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2831",
           "registryTeamName": "Valladolid",
           "sources": {
             "fotmob": {
@@ -5900,7 +5900,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2501",
           "registryTeamName": "FC Basel",
           "sources": {
             "fotmob": {
@@ -5920,7 +5920,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2443",
           "registryTeamName": "FC Lugano",
           "sources": {
             "fotmob": {
@@ -5940,7 +5940,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2452",
           "registryTeamName": "FC Sion",
           "sources": {
             "fotmob": {
@@ -5960,7 +5960,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2442",
           "registryTeamName": "FC St. Gallen",
           "sources": {
             "fotmob": {
@@ -5980,7 +5980,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2454",
           "registryTeamName": "FC Thun",
           "sources": {
             "fotmob": {
@@ -6000,7 +6000,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2463",
           "registryTeamName": "FC Vaduz",
           "sources": {
             "fotmob": {
@@ -6020,7 +6020,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2450",
           "registryTeamName": "FC Zurich",
           "sources": {
             "fotmob": {
@@ -6040,7 +6040,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2449",
           "registryTeamName": "Grasshoppers",
           "sources": {
             "fotmob": {
@@ -6060,7 +6060,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2446",
           "registryTeamName": "Lausanne-Sport",
           "sources": {
             "fotmob": {
@@ -6080,7 +6080,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2453",
           "registryTeamName": "Luzern",
           "sources": {
             "fotmob": {
@@ -6100,7 +6100,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2448",
           "registryTeamName": "Servette",
           "sources": {
             "fotmob": {
@@ -6120,7 +6120,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2445",
           "registryTeamName": "Young Boys",
           "sources": {
             "fotmob": {

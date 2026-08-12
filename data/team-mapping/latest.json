@@ -1,6 +1,6 @@
 {
   "source": "team-source-registry",
-  "generatedAtUtc": "2026-08-12T17:07:06.936Z",
+  "generatedAtUtc": "2026-08-12T17:16:55.440Z",
   "referenceDate": "2026-08-11",
   "registryPath": "data/team-source-registry.json",
   "summary": {
@@ -3480,7 +3480,7 @@
       },
       "teams": [
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "9",
           "teamName": "Birmingham City",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3506,7 +3506,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "46",
           "teamName": "Blackburn Rovers",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3532,7 +3532,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "5",
           "teamName": "Bolton Wanderers",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3558,7 +3558,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "58",
           "teamName": "Bristol City",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3584,7 +3584,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "6",
           "teamName": "Burnley",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3610,7 +3610,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "61",
           "teamName": "Cardiff City",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3636,7 +3636,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "47",
           "teamName": "Charlton Athletic",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3662,7 +3662,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "27",
           "teamName": "Derby County",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3688,7 +3688,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "92",
           "teamName": "Lincoln City",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3714,7 +3714,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "36",
           "teamName": "Middlesbrough",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3740,7 +3740,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "25",
           "teamName": "Millwall",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3766,7 +3766,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "263",
           "teamName": "Norwich City",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3792,7 +3792,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2",
           "teamName": "Portsmouth",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3818,7 +3818,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "21",
           "teamName": "Preston North End",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3844,7 +3844,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "1",
           "teamName": "QPR",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3870,7 +3870,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "15",
           "teamName": "Sheffield United",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3896,7 +3896,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "45",
           "teamName": "Southampton",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3922,7 +3922,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "29",
           "teamName": "Stoke City",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3948,7 +3948,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "74",
           "teamName": "Swansea City",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -3974,7 +3974,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "24",
           "teamName": "Watford",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4000,7 +4000,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "8",
           "teamName": "West Bromwich",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4026,7 +4026,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "37",
           "teamName": "West Ham",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4052,7 +4052,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "3",
           "teamName": "Wolverhampton",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4078,7 +4078,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "64",
           "teamName": "Wrexham",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4122,7 +4122,7 @@
       },
       "teams": [
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "42",
           "teamName": "Arsenal",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4148,7 +4148,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "40",
           "teamName": "Aston Villa",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4174,7 +4174,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "60",
           "teamName": "Bournemouth",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4200,7 +4200,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "50",
           "teamName": "Brentford",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4226,7 +4226,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "30",
           "teamName": "Brighton & Hove Albion",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4252,7 +4252,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "38",
           "teamName": "Chelsea",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4278,7 +4278,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "11",
           "teamName": "Coventry City",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4304,7 +4304,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "7",
           "teamName": "Crystal Palace",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4330,7 +4330,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "48",
           "teamName": "Everton",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4356,7 +4356,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "43",
           "teamName": "Fulham",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4382,7 +4382,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "96",
           "teamName": "Hull City",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4408,7 +4408,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "32",
           "teamName": "Ipswich Town",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4434,7 +4434,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "34",
           "teamName": "Leeds United",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4460,7 +4460,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "44",
           "teamName": "Liverpool",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4486,7 +4486,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "17",
           "teamName": "Manchester City",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4512,7 +4512,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "35",
           "teamName": "Manchester United",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4538,7 +4538,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "39",
           "teamName": "Newcastle",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4564,7 +4564,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "14",
           "teamName": "Nottingham Forest",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4590,7 +4590,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "41",
           "teamName": "Sunderland",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -4616,7 +4616,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "33",
           "teamName": "Tottenham",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -6770,7 +6770,7 @@
       },
       "teams": [
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "5885",
           "teamName": "1. FC Heidenheim 1846",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -6796,7 +6796,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2591",
           "teamName": "1. FC Magdeburg",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -6822,7 +6822,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2540",
           "teamName": "Arminia Bielefeld",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -6848,7 +6848,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2576",
           "teamName": "Darmstadt 98",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -6874,7 +6874,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2595",
           "teamName": "Dynamo Dresden",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -6900,7 +6900,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2557",
           "teamName": "Eintracht Braunschweig",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -6926,7 +6926,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2532",
           "teamName": "Energie Cottbus",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -6952,7 +6952,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2523",
           "teamName": "FC Nürnberg",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -6978,7 +6978,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2526",
           "teamName": "FC St. Pauli",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -7004,7 +7004,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2541",
           "teamName": "Hannover 96",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -7030,7 +7030,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2528",
           "teamName": "Hertha BSC",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -7056,7 +7056,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2573",
           "teamName": "Holstein Kiel",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -7082,7 +7082,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2675",
           "teamName": "Kaiserslautern",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -7108,7 +7108,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2553",
           "teamName": "Karlsruher SC",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -7134,7 +7134,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2551",
           "teamName": "SpVgg Greuther Fürth",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -7160,7 +7160,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2542",
           "teamName": "VfL Bochum",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -7186,7 +7186,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2581",
           "teamName": "VfL Osnabrück",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -7212,7 +7212,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2524",
           "teamName": "Wolfsburg",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -9834,7 +9834,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "46160",
           "teamName": "Ajax B",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -9860,7 +9860,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2990",
           "teamName": "Almere City FC",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -9912,7 +9912,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2949",
           "teamName": "De Graafschap",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -9938,7 +9938,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2963",
           "teamName": "Den Bosch",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -9964,7 +9964,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2973",
           "teamName": "FC Dordrecht",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -9990,7 +9990,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2965",
           "teamName": "FC Emmen",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -10016,7 +10016,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "53067",
           "teamName": "FC Utrecht B",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -10042,7 +10042,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2974",
           "teamName": "Helmond Sport",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -10068,7 +10068,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2977",
           "teamName": "Heracles Almelo",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -10094,7 +10094,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2976",
           "teamName": "MVV",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -10120,7 +10120,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2947",
           "teamName": "NAC Breda",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -10172,7 +10172,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2956",
           "teamName": "RKC Waalwijk",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -10198,7 +10198,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2954",
           "teamName": "Roda",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -10224,7 +10224,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2978",
           "teamName": "TOP Oss",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -10250,7 +10250,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2958",
           "teamName": "Vitesse",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -10276,7 +10276,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2980",
           "teamName": "VVV-Venlo",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -15884,7 +15884,7 @@
       },
       "teams": [
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2869",
           "teamName": "AD Ceuta",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -15910,7 +15910,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2848",
           "teamName": "Albacete",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -15936,7 +15936,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2858",
           "teamName": "Almería",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -15962,7 +15962,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2854",
           "teamName": "Burgos CF",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -15988,7 +15988,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "4488",
           "teamName": "Cádiz",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16014,7 +16014,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "5067",
           "teamName": "Castellón",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16040,7 +16040,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "24335",
           "teamName": "CE Sabadell",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16066,7 +16066,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "24336",
           "teamName": "Celta de Vigo B",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16092,7 +16092,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2850",
           "teamName": "Córdoba",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16118,7 +16118,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2839",
           "teamName": "Eibar",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16144,7 +16144,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "47321",
           "teamName": "Eldense",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16170,7 +16170,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "324871",
           "teamName": "FC Andorra",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16196,7 +16196,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "24264",
           "teamName": "Girona",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16222,7 +16222,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "33779",
           "teamName": "Granada",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16248,7 +16248,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "6577",
           "teamName": "Las Palmas",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16274,7 +16274,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2845",
           "teamName": "Leganés",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16300,7 +16300,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2826",
           "teamName": "Mallorca",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16326,7 +16326,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2851",
           "teamName": "Real Oviedo",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16352,7 +16352,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "24360",
           "teamName": "Real Sociedad B",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16378,7 +16378,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2852",
           "teamName": "Sporting Gijón",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16404,7 +16404,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2822",
           "teamName": "Tenerife",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16430,7 +16430,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2831",
           "teamName": "Valladolid",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16882,7 +16882,7 @@
       },
       "teams": [
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2501",
           "teamName": "FC Basel",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16908,7 +16908,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2443",
           "teamName": "FC Lugano",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16934,7 +16934,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2452",
           "teamName": "FC Sion",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16960,7 +16960,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2442",
           "teamName": "FC St. Gallen",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -16986,7 +16986,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2454",
           "teamName": "FC Thun",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -17012,7 +17012,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2463",
           "teamName": "FC Vaduz",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -17038,7 +17038,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2450",
           "teamName": "FC Zurich",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -17064,7 +17064,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2449",
           "teamName": "Grasshoppers",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -17090,7 +17090,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2446",
           "teamName": "Lausanne-Sport",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -17116,7 +17116,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2453",
           "teamName": "Luzern",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -17142,7 +17142,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2448",
           "teamName": "Servette",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
@@ -17168,7 +17168,7 @@
           "recommendedNextSteps": []
         },
         {
-          "sofascoreTeamId": "",
+          "sofascoreTeamId": "2445",
           "teamName": "Young Boys",
           "activeInCurrentWindow": false,
           "fixtureAppearancesInCurrentWindow": 0,
