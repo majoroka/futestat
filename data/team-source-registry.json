@@ -19382,6 +19382,546 @@
           "notes": null
         }
       }
+    },
+    {
+      "sofascoreTeamId": "3061",
+      "teamName": "Galatasaray",
+      "countryName": "Turkey",
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8637",
+          "teamSlug": "galatasaray",
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/8637/stats/galatasaray/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1269",
+          "teamSlug": "galatasaray",
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Galatasaray/1269/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "3052",
+      "teamName": "Fenerbahçe",
+      "countryName": "Turkey",
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8695",
+          "teamSlug": "fenerbahce",
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/8695/stats/fenerbahce/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1276",
+          "teamSlug": "fenerbahce",
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Fenerbahce/1276/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "3050",
+      "teamName": "Beşiktaş JK",
+      "countryName": "Turkey",
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10188",
+          "teamSlug": "besiktas",
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/10188/stats/besiktas/teams",
+          "notes": "alias FotMob: Beşiktaş"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1265",
+          "teamSlug": "besiktas",
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Besiktas/1265/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "3086",
+      "teamName": "Başakşehir FK",
+      "countryName": "Turkey",
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "1933",
+          "teamSlug": "basaksehir",
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/1933/stats/basaksehir/teams",
+          "notes": "alias FotMob: Başakşehir"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1275",
+          "teamSlug": "istanbul-basaksehir-fk",
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Istanbul-Basaksehir-FK/1275/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "3051",
+      "teamName": "Trabzonspor",
+      "countryName": "Turkey",
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9752",
+          "teamSlug": "trabzonspor",
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/9752/stats/trabzonspor/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "648",
+          "teamSlug": "trabzonspor",
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Trabzonspor/648/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "3054",
+      "teamName": "Göztepe",
+      "countryName": "Turkey",
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "1925",
+          "teamSlug": "goztepe",
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/1925/stats/goztepe/teams",
+          "notes": "alias FotMob: Göztepe"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "5795",
+          "teamSlug": "goztepe-izmir",
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Goztepe-Izmir/5795/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "3053",
+      "teamName": "Samsunspor",
+      "countryName": "Turkey",
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9750",
+          "teamSlug": "samsunspor",
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/9750/stats/samsunspor/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "2181",
+          "teamSlug": "samsunspor",
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Samsunspor/2181/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "3064",
+      "teamName": "Çaykur Rizespor",
+      "countryName": "Turkey",
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "2166",
+          "teamSlug": "rizespor",
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/2166/stats/rizespor/teams",
+          "notes": "alias FotMob: Rizespor"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1270",
+          "teamSlug": "caykur-rizespor",
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Caykur-Rizespor/1270/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "7802",
+      "teamName": "Gençlerbirliği",
+      "countryName": "Turkey",
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "7800",
+          "teamSlug": "genclerbirligi",
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/7800/stats/genclerbirligi/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1273",
+          "teamSlug": "genclerbirligi",
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Genclerbirligi/1273/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "207011",
+      "teamName": "Amed Sportif Faaliyetler",
+      "countryName": "Turkey",
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "96498",
+          "teamSlug": "amed-sportif",
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/96498/stats/amed-sportif/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "963",
+          "teamSlug": "amedspor",
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Amedspor/963/",
+          "notes": "alias Soccer-Rating: Amedspor"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "6362",
+      "teamName": "Alanyaspor",
+      "countryName": "Turkey",
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "4678",
+          "teamSlug": "alanyaspor",
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/4678/stats/alanyaspor/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "2528",
+          "teamSlug": "alanyaspor",
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Alanyaspor/2528/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "3085",
+      "teamName": "Konyaspor",
+      "countryName": "Turkey",
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8622",
+          "teamSlug": "konyaspor",
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/8622/stats/konyaspor/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1266",
+          "teamSlug": "konyaspor",
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Konyaspor/1266/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "6063",
+      "teamName": "Kasımpaşa",
+      "countryName": "Turkey",
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "4685",
+          "teamSlug": "kasimpasa",
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/4685/stats/kasimpasa/teams",
+          "notes": "alias FotMob: Kasımpaşa"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1272",
+          "teamSlug": "kasimpasa-istanbul",
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Kasimpasa-Istanbul/1272/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "77629",
+      "teamName": "Çorum FK",
+      "countryName": "Turkey",
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "357274",
+          "teamSlug": "corum-fk",
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/357274/stats/corum-fk/teams",
+          "notes": "alias FotMob: Çorum FK"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "4437",
+          "teamSlug": "corum-fk",
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Corum-FK/4437/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "3065",
+      "teamName": "Kocaelispor",
+      "countryName": "Turkey",
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "1569",
+          "teamSlug": "kocaelispor",
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/1569/stats/kocaelispor/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "2180",
+          "teamSlug": "kocaelispor",
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Kocaelispor/2180/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "55603",
+      "teamName": "Erzurumspor FK",
+      "countryName": "Turkey",
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "281467",
+          "teamSlug": "erzurumspor-fk",
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/281467/stats/erzurumspor-fk/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "8964",
+          "teamSlug": "erzurum-bb-spor",
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Erzurum-BB-Spor/8964/",
+          "notes": "Soccer-Rating usa o nome histórico Erzurum BB Spor."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "5138",
+      "teamName": "Gaziantep FK",
+      "countryName": "Turkey",
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "4081",
+          "teamSlug": "gaziantep-fk",
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/4081/stats/gaziantep-fk/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "2184",
+          "teamSlug": "gazisehir-gaziantep-fk",
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Gazisehir-Gaziantep-FK/2184/",
+          "notes": "Soccer-Rating usa o nome histórico Gazisehir Gaziantep FK."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "7040",
+      "teamName": "Eyüpspor",
+      "countryName": "Turkey",
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "4681",
+          "teamSlug": "eyupspor",
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/4681/stats/eyupspor/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "960",
+          "teamSlug": "eyupspor",
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Eyupspor/960/",
+          "notes": null
+        }
+      }
     }
   ]
 }

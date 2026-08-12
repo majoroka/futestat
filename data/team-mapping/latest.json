@@ -1,20 +1,20 @@
 {
   "source": "team-source-registry",
-  "generatedAtUtc": "2026-08-12T15:41:56.539Z",
+  "generatedAtUtc": "2026-08-12T15:45:21.231Z",
   "referenceDate": "2026-08-11",
   "registryPath": "data/team-source-registry.json",
   "summary": {
     "competitions": 42,
     "whitelistCompetitions": 42,
-    "competitionsWithRegistryEntries": 41,
-    "competitionsWithoutRegistryEntries": 1,
-    "teams": 644,
+    "competitionsWithRegistryEntries": 42,
+    "competitionsWithoutRegistryEntries": 0,
+    "teams": 662,
     "activeTeams": 62,
-    "complete": 621,
+    "complete": 639,
     "partial": 0,
     "missing": 23,
-    "fotmobMapped": 621,
-    "soccerRatingMapped": 621
+    "fotmobMapped": 639,
+    "soccerRatingMapped": 639
   },
   "competitions": [
     {
@@ -17135,6 +17135,492 @@
       ]
     },
     {
+      "competitionId": "52",
+      "competitionName": "Super Lig",
+      "countryName": "Turkey",
+      "seededFromWhitelist": true,
+      "hasRegistryEntries": true,
+      "teamCount": 18,
+      "activeTeams": 0,
+      "coverage": {
+        "complete": 18,
+        "partial": 0,
+        "missing": 0,
+        "fotmobMapped": 18,
+        "soccerRatingMapped": 18
+      },
+      "teams": [
+        {
+          "sofascoreTeamId": "6362",
+          "teamName": "Alanyaspor",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "4678",
+              "teamSlug": "alanyaspor",
+              "url": "https://www.fotmob.com/teams/4678/stats/alanyaspor/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "2528",
+              "teamSlug": "alanyaspor",
+              "url": "https://www.soccer-rating.com/Alanyaspor/2528/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "207011",
+          "teamName": "Amed Sportif Faaliyetler",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "96498",
+              "teamSlug": "amed-sportif",
+              "url": "https://www.fotmob.com/teams/96498/stats/amed-sportif/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "963",
+              "teamSlug": "amedspor",
+              "url": "https://www.soccer-rating.com/Amedspor/963/",
+              "notes": "alias Soccer-Rating: Amedspor"
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3086",
+          "teamName": "Başakşehir FK",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1933",
+              "teamSlug": "basaksehir",
+              "url": "https://www.fotmob.com/teams/1933/stats/basaksehir/teams",
+              "notes": "alias FotMob: Başakşehir"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1275",
+              "teamSlug": "istanbul-basaksehir-fk",
+              "url": "https://www.soccer-rating.com/Istanbul-Basaksehir-FK/1275/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3050",
+          "teamName": "Beşiktaş JK",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10188",
+              "teamSlug": "besiktas",
+              "url": "https://www.fotmob.com/teams/10188/stats/besiktas/teams",
+              "notes": "alias FotMob: Beşiktaş"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1265",
+              "teamSlug": "besiktas",
+              "url": "https://www.soccer-rating.com/Besiktas/1265/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3064",
+          "teamName": "Çaykur Rizespor",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "2166",
+              "teamSlug": "rizespor",
+              "url": "https://www.fotmob.com/teams/2166/stats/rizespor/teams",
+              "notes": "alias FotMob: Rizespor"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1270",
+              "teamSlug": "caykur-rizespor",
+              "url": "https://www.soccer-rating.com/Caykur-Rizespor/1270/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "77629",
+          "teamName": "Çorum FK",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "357274",
+              "teamSlug": "corum-fk",
+              "url": "https://www.fotmob.com/teams/357274/stats/corum-fk/teams",
+              "notes": "alias FotMob: Çorum FK"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "4437",
+              "teamSlug": "corum-fk",
+              "url": "https://www.soccer-rating.com/Corum-FK/4437/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "55603",
+          "teamName": "Erzurumspor FK",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "281467",
+              "teamSlug": "erzurumspor-fk",
+              "url": "https://www.fotmob.com/teams/281467/stats/erzurumspor-fk/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "8964",
+              "teamSlug": "erzurum-bb-spor",
+              "url": "https://www.soccer-rating.com/Erzurum-BB-Spor/8964/",
+              "notes": "Soccer-Rating usa o nome histórico Erzurum BB Spor."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "7040",
+          "teamName": "Eyüpspor",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "4681",
+              "teamSlug": "eyupspor",
+              "url": "https://www.fotmob.com/teams/4681/stats/eyupspor/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "960",
+              "teamSlug": "eyupspor",
+              "url": "https://www.soccer-rating.com/Eyupspor/960/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3052",
+          "teamName": "Fenerbahçe",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8695",
+              "teamSlug": "fenerbahce",
+              "url": "https://www.fotmob.com/teams/8695/stats/fenerbahce/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1276",
+              "teamSlug": "fenerbahce",
+              "url": "https://www.soccer-rating.com/Fenerbahce/1276/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3061",
+          "teamName": "Galatasaray",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8637",
+              "teamSlug": "galatasaray",
+              "url": "https://www.fotmob.com/teams/8637/stats/galatasaray/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1269",
+              "teamSlug": "galatasaray",
+              "url": "https://www.soccer-rating.com/Galatasaray/1269/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "5138",
+          "teamName": "Gaziantep FK",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "4081",
+              "teamSlug": "gaziantep-fk",
+              "url": "https://www.fotmob.com/teams/4081/stats/gaziantep-fk/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "2184",
+              "teamSlug": "gazisehir-gaziantep-fk",
+              "url": "https://www.soccer-rating.com/Gazisehir-Gaziantep-FK/2184/",
+              "notes": "Soccer-Rating usa o nome histórico Gazisehir Gaziantep FK."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "7802",
+          "teamName": "Gençlerbirliği",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "7800",
+              "teamSlug": "genclerbirligi",
+              "url": "https://www.fotmob.com/teams/7800/stats/genclerbirligi/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1273",
+              "teamSlug": "genclerbirligi",
+              "url": "https://www.soccer-rating.com/Genclerbirligi/1273/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3054",
+          "teamName": "Göztepe",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1925",
+              "teamSlug": "goztepe",
+              "url": "https://www.fotmob.com/teams/1925/stats/goztepe/teams",
+              "notes": "alias FotMob: Göztepe"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "5795",
+              "teamSlug": "goztepe-izmir",
+              "url": "https://www.soccer-rating.com/Goztepe-Izmir/5795/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "6063",
+          "teamName": "Kasımpaşa",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "4685",
+              "teamSlug": "kasimpasa",
+              "url": "https://www.fotmob.com/teams/4685/stats/kasimpasa/teams",
+              "notes": "alias FotMob: Kasımpaşa"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1272",
+              "teamSlug": "kasimpasa-istanbul",
+              "url": "https://www.soccer-rating.com/Kasimpasa-Istanbul/1272/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3065",
+          "teamName": "Kocaelispor",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1569",
+              "teamSlug": "kocaelispor",
+              "url": "https://www.fotmob.com/teams/1569/stats/kocaelispor/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "2180",
+              "teamSlug": "kocaelispor",
+              "url": "https://www.soccer-rating.com/Kocaelispor/2180/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3085",
+          "teamName": "Konyaspor",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8622",
+              "teamSlug": "konyaspor",
+              "url": "https://www.fotmob.com/teams/8622/stats/konyaspor/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1266",
+              "teamSlug": "konyaspor",
+              "url": "https://www.soccer-rating.com/Konyaspor/1266/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3053",
+          "teamName": "Samsunspor",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9750",
+              "teamSlug": "samsunspor",
+              "url": "https://www.fotmob.com/teams/9750/stats/samsunspor/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "2181",
+              "teamSlug": "samsunspor",
+              "url": "https://www.soccer-rating.com/Samsunspor/2181/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3051",
+          "teamName": "Trabzonspor",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9752",
+              "teamSlug": "trabzonspor",
+              "url": "https://www.fotmob.com/teams/9752/stats/trabzonspor/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "648",
+              "teamSlug": "trabzonspor",
+              "url": "https://www.soccer-rating.com/Trabzonspor/648/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        }
+      ]
+    },
+    {
       "competitionId": "218",
       "competitionName": "Premier League",
       "countryName": "Ukraine",
@@ -17567,23 +18053,6 @@
           "recommendedNextSteps": []
         }
       ]
-    },
-    {
-      "competitionId": "52",
-      "competitionName": "Super Lig",
-      "countryName": "Turkey",
-      "seededFromWhitelist": true,
-      "hasRegistryEntries": false,
-      "teamCount": 0,
-      "activeTeams": 0,
-      "coverage": {
-        "complete": 0,
-        "partial": 0,
-        "missing": 0,
-        "fotmobMapped": 0,
-        "soccerRatingMapped": 0
-      },
-      "teams": []
     }
   ]
 }
