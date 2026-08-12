@@ -1,6 +1,6 @@
 {
   "source": "team-source-registry",
-  "generatedAtUtc": "2026-08-12T16:12:23.517Z",
+  "generatedAtUtc": "2026-08-12T16:15:15.074Z",
   "referenceDate": "2026-08-11",
   "registryPath": "data/team-source-registry.json",
   "summary": {
@@ -10,11 +10,11 @@
     "competitionsWithoutRegistryEntries": 0,
     "teams": 666,
     "activeTeams": 62,
-    "complete": 654,
-    "partial": 4,
-    "missing": 8,
-    "fotmobMapped": 656,
-    "soccerRatingMapped": 656
+    "complete": 660,
+    "partial": 0,
+    "missing": 6,
+    "fotmobMapped": 660,
+    "soccerRatingMapped": 660
   },
   "competitions": [
     {
@@ -2763,71 +2763,13 @@
       "teamCount": 16,
       "activeTeams": 0,
       "coverage": {
-        "complete": 10,
-        "partial": 4,
-        "missing": 2,
-        "fotmobMapped": 12,
-        "soccerRatingMapped": 12
+        "complete": 16,
+        "partial": 0,
+        "missing": 0,
+        "fotmobMapped": 16,
+        "soccerRatingMapped": 16
       },
       "teams": [
-        {
-          "sofascoreTeamId": "6064",
-          "teamName": "Bohemians Praha 1905",
-          "activeInCurrentWindow": false,
-          "fixtureAppearancesInCurrentWindow": 0,
-          "firstSeenReferenceDate": "2026-08-11",
-          "lastSeenReferenceDate": "2026-08-11",
-          "sources": {
-            "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "bohemians-praha-1905",
-              "url": null,
-              "notes": "autofill: match FotMob inconclusivo"
-            },
-            "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "bohemians-praha-1905",
-              "url": null,
-              "notes": "autofill: match Soccer-Rating inconclusivo"
-            }
-          },
-          "mappingState": "missing",
-          "recommendedNextSteps": [
-            "map_fotmob",
-            "map_soccer_rating"
-          ]
-        },
-        {
-          "sofascoreTeamId": "2218",
-          "teamName": "Sparta Praha",
-          "activeInCurrentWindow": false,
-          "fixtureAppearancesInCurrentWindow": 0,
-          "firstSeenReferenceDate": "2026-08-11",
-          "lastSeenReferenceDate": "2026-08-11",
-          "sources": {
-            "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "sparta-praha",
-              "url": null,
-              "notes": null
-            },
-            "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "sparta-praha",
-              "url": null,
-              "notes": null
-            }
-          },
-          "mappingState": "missing",
-          "recommendedNextSteps": [
-            "map_fotmob",
-            "map_soccer_rating"
-          ]
-        },
         {
           "sofascoreTeamId": "4871",
           "teamName": "1. FC Slovácko",
@@ -2837,11 +2779,11 @@
           "lastSeenReferenceDate": "2026-08-11",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
+              "status": "mapped",
+              "sourceTeamId": "2021",
               "teamSlug": "1-fc-slovacko",
-              "url": null,
-              "notes": "autofill: match FotMob inconclusivo"
+              "url": "https://www.fotmob.com/teams/2021/stats/slovacko/teams",
+              "notes": null
             },
             "soccerRating": {
               "status": "mapped",
@@ -2851,94 +2793,8 @@
               "notes": null
             }
           },
-          "mappingState": "partial",
-          "recommendedNextSteps": [
-            "map_fotmob"
-          ]
-        },
-        {
-          "sofascoreTeamId": "2220",
-          "teamName": "FC Zlín",
-          "activeInCurrentWindow": false,
-          "fixtureAppearancesInCurrentWindow": 0,
-          "firstSeenReferenceDate": "2026-08-11",
-          "lastSeenReferenceDate": "2026-08-11",
-          "sources": {
-            "fotmob": {
-              "status": "mapped",
-              "sourceTeamId": "1860",
-              "teamSlug": "fc-zlin",
-              "url": "https://www.fotmob.com/teams/1860/stats/fc-zlin/teams",
-              "notes": null
-            },
-            "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "fc-zlin",
-              "url": null,
-              "notes": "autofill: sem candidatos Soccer-Rating"
-            }
-          },
-          "mappingState": "partial",
-          "recommendedNextSteps": [
-            "map_soccer_rating"
-          ]
-        },
-        {
-          "sofascoreTeamId": "2216",
-          "teamName": "Slavia Praha",
-          "activeInCurrentWindow": false,
-          "fixtureAppearancesInCurrentWindow": 0,
-          "firstSeenReferenceDate": "2026-08-11",
-          "lastSeenReferenceDate": "2026-08-11",
-          "sources": {
-            "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "slavia-praha",
-              "url": null,
-              "notes": "autofill: match FotMob inconclusivo"
-            },
-            "soccerRating": {
-              "status": "mapped",
-              "sourceTeamId": "619",
-              "teamSlug": "slavia-praha",
-              "url": "https://www.soccer-rating.com/Slavia-Praha/619/",
-              "notes": null
-            }
-          },
-          "mappingState": "partial",
-          "recommendedNextSteps": [
-            "map_fotmob"
-          ]
-        },
-        {
-          "sofascoreTeamId": "2210",
-          "teamName": "Zbrojovka Brno",
-          "activeInCurrentWindow": false,
-          "fixtureAppearancesInCurrentWindow": 0,
-          "firstSeenReferenceDate": "2026-08-11",
-          "lastSeenReferenceDate": "2026-08-11",
-          "sources": {
-            "fotmob": {
-              "status": "mapped",
-              "sourceTeamId": "1673",
-              "teamSlug": "fc-zbrojovka-brno",
-              "url": "https://www.fotmob.com/teams/1673/stats/fc-zbrojovka-brno/teams",
-              "notes": null
-            },
-            "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "zbrojovka-brno",
-              "url": null,
-              "notes": "autofill: match Soccer-Rating inconclusivo"
-            }
-          },
-          "mappingState": "partial",
-          "recommendedNextSteps": [
-            "map_soccer_rating"
-          ]
+          "mappingState": "complete",
+          "recommendedNextSteps": []
         },
         {
           "sofascoreTeamId": "2204",
@@ -2960,6 +2816,58 @@
               "sourceTeamId": "615",
               "teamSlug": "banik-ostrava",
               "url": "https://www.soccer-rating.com/Banik-Ostrava/615/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "6064",
+          "teamName": "Bohemians Praha 1905",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1670",
+              "teamSlug": "bohemians-praha-1905",
+              "url": "https://www.fotmob.com/teams/1670/stats/bohemians-1905/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "614",
+              "teamSlug": "bohemians-praha-1905",
+              "url": "https://www.soccer-rating.com/Bohemians-1905/614/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2220",
+          "teamName": "FC Zlín",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1860",
+              "teamSlug": "fc-zlin",
+              "url": "https://www.fotmob.com/teams/1860/stats/fc-zlin/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "613",
+              "teamSlug": "fc-zlin",
+              "url": "https://www.soccer-rating.com/FC-Zlin/613/",
               "notes": null
             }
           },
@@ -3123,6 +3031,32 @@
           "recommendedNextSteps": []
         },
         {
+          "sofascoreTeamId": "2216",
+          "teamName": "Slavia Praha",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "7787",
+              "teamSlug": "slavia-praha",
+              "url": "https://www.fotmob.com/teams/7787/stats/slavia-prague/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "619",
+              "teamSlug": "slavia-praha",
+              "url": "https://www.soccer-rating.com/Slavia-Praha/619/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
           "sofascoreTeamId": "2219",
           "teamName": "Slovan Liberec",
           "activeInCurrentWindow": false,
@@ -3142,6 +3076,32 @@
               "sourceTeamId": "627",
               "teamSlug": "fk-slovan-liberec",
               "url": "https://www.soccer-rating.com/FK-Slovan-Liberec/627/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2218",
+          "teamName": "Sparta Praha",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10247",
+              "teamSlug": "sparta-praha",
+              "url": "https://www.fotmob.com/teams/10247/stats/sparta-prague/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "626",
+              "teamSlug": "sparta-praha",
+              "url": "https://www.soccer-rating.com/Sparta-Praha/626/",
               "notes": null
             }
           },
@@ -3194,6 +3154,32 @@
               "sourceTeamId": "623",
               "teamSlug": "fk-viktoria-plzen",
               "url": "https://www.soccer-rating.com/FK-Viktoria-Plzen/623/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2210",
+          "teamName": "Zbrojovka Brno",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1673",
+              "teamSlug": "fc-zbrojovka-brno",
+              "url": "https://www.fotmob.com/teams/1673/stats/fc-zbrojovka-brno/teams",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "612",
+              "teamSlug": "zbrojovka-brno",
+              "url": "https://www.soccer-rating.com/1-FC-Brno/612/",
               "notes": null
             }
           },

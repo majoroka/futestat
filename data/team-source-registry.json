@@ -4665,13 +4665,13 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "2021",
           "teamSlug": "1-fc-slovacko",
           "competitionId": "49",
           "competitionSlug": "chance-liga",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/2021/stats/slovacko/teams",
+          "notes": null
         },
         "soccerRating": {
           "status": "mapped",
@@ -4725,21 +4725,21 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1670",
           "teamSlug": "bohemians-praha-1905",
           "competitionId": "49",
           "competitionSlug": "chance-liga",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/1670/stats/bohemians-1905/teams",
+          "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "614",
           "teamSlug": "bohemians-praha-1905",
           "countrySlug": "czech-republic",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Bohemians-1905/614/",
+          "notes": null
         }
       }
     },
@@ -4764,12 +4764,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "613",
           "teamSlug": "fc-zlin",
           "countrySlug": "czech-republic",
-          "url": null,
-          "notes": "autofill: sem candidatos Soccer-Rating"
+          "url": "https://www.soccer-rating.com/FC-Zlin/613/",
+          "notes": null
         }
       }
     },
@@ -4965,13 +4965,13 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "7787",
           "teamSlug": "slavia-praha",
           "competitionId": "49",
           "competitionSlug": "chance-liga",
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/7787/stats/slavia-prague/teams",
+          "notes": null
         },
         "soccerRating": {
           "status": "mapped",
@@ -5025,20 +5025,20 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10247",
           "teamSlug": "sparta-praha",
           "competitionId": "49",
           "competitionSlug": "chance-liga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10247/stats/sparta-prague/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "626",
           "teamSlug": "sparta-praha",
           "countrySlug": "czech-republic",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Sparta-Praha/626/",
           "notes": null
         }
       }
@@ -5124,12 +5124,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "612",
           "teamSlug": "zbrojovka-brno",
           "countrySlug": "czech-republic",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/1-FC-Brno/612/",
+          "notes": null
         }
       }
     },

@@ -1,6 +1,6 @@
 {
   "source": "whitelist-plus-standings",
-  "generatedAtUtc": "2026-08-12T16:12:23.241Z",
+  "generatedAtUtc": "2026-08-12T16:15:14.802Z",
   "referenceDate": "2026-08-11",
   "registryPath": "data/team-source-registry.json",
   "standingsDir": "data/fixtures/standings",
@@ -7052,9 +7052,9 @@
           "registryTeamName": "1. FC Slovácko",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "2021",
+              "url": "https://www.fotmob.com/teams/2021/stats/slovacko/teams"
             },
             "soccerRating": {
               "status": "mapped",
@@ -7092,14 +7092,14 @@
           "registryTeamName": "Bohemians Praha 1905",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "1670",
+              "url": "https://www.fotmob.com/teams/1670/stats/bohemians-1905/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "614",
+              "url": "https://www.soccer-rating.com/Bohemians-1905/614/"
             }
           }
         },
@@ -7117,9 +7117,9 @@
               "url": "https://www.fotmob.com/teams/1860/stats/fc-zlin/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "613",
+              "url": "https://www.soccer-rating.com/FC-Zlin/613/"
             }
           }
         },
@@ -7252,9 +7252,9 @@
           "registryTeamName": "Slavia Praha",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "7787",
+              "url": "https://www.fotmob.com/teams/7787/stats/slavia-prague/teams"
             },
             "soccerRating": {
               "status": "mapped",
@@ -7292,14 +7292,14 @@
           "registryTeamName": "Sparta Praha",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "10247",
+              "url": "https://www.fotmob.com/teams/10247/stats/sparta-prague/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "626",
+              "url": "https://www.soccer-rating.com/Sparta-Praha/626/"
             }
           }
         },
@@ -7357,9 +7357,9 @@
               "url": "https://www.fotmob.com/teams/1673/stats/fc-zbrojovka-brno/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "612",
+              "url": "https://www.soccer-rating.com/1-FC-Brno/612/"
             }
           }
         }
