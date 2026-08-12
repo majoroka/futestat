@@ -11464,6 +11464,606 @@
       }
     },
     {
+      "sofascoreTeamId": "2825",
+      "teamName": "Athletic Club",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8315",
+          "teamSlug": "athletic-club",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/8315/stats/athletic-club/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1055",
+          "teamSlug": "athletic-bilbao",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/Athletic-Bilbao/1055/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2836",
+      "teamName": "Atlético Madrid",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9906",
+          "teamSlug": "atletico-madrid",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/9906/stats/atletico-madrid/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1068",
+          "teamSlug": "atletico-madrid",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/Atletico-Madrid/1068/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2820",
+      "teamName": "Osasuna",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8371",
+          "teamSlug": "osasuna",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/8371/stats/osasuna/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1056",
+          "teamSlug": "ca-osasuna",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/CA-Osasuna/1056/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2821",
+      "teamName": "Celta Vigo",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9910",
+          "teamSlug": "celta-vigo",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/9910/stats/celta-vigo/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1039",
+          "teamSlug": "celta-de-vigo",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/Celta-de-Vigo/1039/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2885",
+      "teamName": "Deportivo Alavés",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9866",
+          "teamSlug": "deportivo-alaves",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/9866/stats/deportivo-alaves/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "2111",
+          "teamSlug": "cd-alaves",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/CD-Alaves/2111/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2846",
+      "teamName": "Elche",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10268",
+          "teamSlug": "elche",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/10268/stats/elche/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1036",
+          "teamSlug": "elche-cf",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/Elche-CF/1036/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2817",
+      "teamName": "FC Barcelona",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8634",
+          "teamSlug": "barcelona",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/8634/stats/barcelona/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1064",
+          "teamSlug": "fc-barcelona",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/FC-Barcelona/1064/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2859",
+      "teamName": "Getafe",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8305",
+          "teamSlug": "getafe",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/8305/stats/getafe/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1062",
+          "teamSlug": "getafe-cf",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/Getafe-CF/1062/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2849",
+      "teamName": "Levante UD",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8581",
+          "teamSlug": "levante",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/8581/stats/levante/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1066",
+          "teamSlug": "ud-levante-valencia",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/UD-Levante-Valencia/1066/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2830",
+      "teamName": "Málaga CF",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9864",
+          "teamSlug": "malaga",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/9864/stats/malaga/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1043",
+          "teamSlug": "malaga-cf",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/Malaga-CF/1043/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2835",
+      "teamName": "Real Racing Club",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8696",
+          "teamSlug": "racing-santander",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/8696/stats/racing-santander/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1063",
+          "teamSlug": "racing-santander",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/Racing-Santander/1063/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2818",
+      "teamName": "Rayo Vallecano",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8370",
+          "teamSlug": "rayo-vallecano",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/8370/stats/rayo-vallecano/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "2303",
+          "teamSlug": "rayo-vallecano",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/Rayo-Vallecano/2303/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2832",
+      "teamName": "Deportivo de A Coruña",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9783",
+          "teamSlug": "deportivo-a-coruna",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/9783/stats/deportivo-a-coruna/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1057",
+          "teamSlug": "deportivo-la-coruna",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/Deportivo-La-Coruna/1057/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2814",
+      "teamName": "Espanyol",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8558",
+          "teamSlug": "espanyol",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/8558/stats/espanyol/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1059",
+          "teamSlug": "espanyol-barcelona",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/Espanyol-Barcelona/1059/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2816",
+      "teamName": "Real Betis",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8603",
+          "teamSlug": "real-betis",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/8603/stats/real-betis/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1072",
+          "teamSlug": "betis-sevilla",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/Betis-Sevilla/1072/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2829",
+      "teamName": "Real Madrid",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8633",
+          "teamSlug": "real-madrid",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/8633/stats/real-madrid/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1067",
+          "teamSlug": "real-madrid",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/Real-Madrid/1067/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2824",
+      "teamName": "Real Sociedad",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8560",
+          "teamSlug": "real-sociedad",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/8560/stats/real-sociedad/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1049",
+          "teamSlug": "real-sociedad",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/Real-Sociedad/1049/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2833",
+      "teamName": "Sevilla",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8302",
+          "teamSlug": "sevilla",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/8302/stats/sevilla/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1061",
+          "teamSlug": "sevilla-fc",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/Sevilla-FC/1061/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2828",
+      "teamName": "Valencia",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10267",
+          "teamSlug": "valencia",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/10267/stats/valencia/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1073",
+          "teamSlug": "fc-valencia",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/FC-Valencia/1073/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2819",
+      "teamName": "Villarreal",
+      "countryName": "Spain",
+      "competitionId": "8",
+      "competitionName": "LaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10205",
+          "teamSlug": "villarreal",
+          "competitionId": "8",
+          "competitionSlug": "laliga",
+          "url": "https://www.fotmob.com/teams/10205/stats/villarreal/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1074",
+          "teamSlug": "villarreal-cf",
+          "countrySlug": "spain",
+          "url": "https://www.soccer-rating.com/Villarreal-CF/1074/",
+          "notes": null
+        }
+      }
+    },
+    {
       "sofascoreTeamId": "",
       "teamName": "AD Ceuta",
       "countryName": "Spain",
@@ -18300,6 +18900,486 @@
           "countrySlug": "france",
           "url": "https://www.soccer-rating.com/US-Boulogne/887/",
           "notes": "alias Soccer-Rating: US Boulogne"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1793",
+      "teamName": "IK Sirius",
+      "countryName": "Sweden",
+      "competitionId": "43",
+      "competitionName": "Allsvenskan",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "6694",
+          "teamSlug": "sirius",
+          "competitionId": "43",
+          "competitionSlug": "allsvenskan",
+          "url": "https://www.fotmob.com/teams/6694/stats/sirius/teams",
+          "notes": "alias FotMob: Sirius"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "424",
+          "teamSlug": "ik-sirius-fk",
+          "countrySlug": "sweden",
+          "url": "https://www.soccer-rating.com/IK-Sirius-FK/424/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1758",
+      "teamName": "Hammarby IF",
+      "countryName": "Sweden",
+      "competitionId": "43",
+      "competitionName": "Allsvenskan",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8248",
+          "teamSlug": "hammarby",
+          "competitionId": "43",
+          "competitionSlug": "allsvenskan",
+          "url": "https://www.fotmob.com/teams/8248/stats/hammarby/teams",
+          "notes": "alias FotMob: Hammarby"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "22",
+          "teamSlug": "hammarby-if",
+          "countrySlug": "sweden",
+          "url": "https://www.soccer-rating.com/Hammarby-IF/22/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1759",
+      "teamName": "Djurgårdens IF",
+      "countryName": "Sweden",
+      "competitionId": "43",
+      "competitionName": "Allsvenskan",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9802",
+          "teamSlug": "djurgarden",
+          "competitionId": "43",
+          "competitionSlug": "allsvenskan",
+          "url": "https://www.fotmob.com/teams/9802/stats/djurgarden/teams",
+          "notes": "alias FotMob: Djurgården"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "59",
+          "teamSlug": "djurgardens-if",
+          "countrySlug": "sweden",
+          "url": "https://www.soccer-rating.com/Djurgardens-IF/59/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1760",
+      "teamName": "BK Häcken",
+      "countryName": "Sweden",
+      "competitionId": "43",
+      "competitionName": "Allsvenskan",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8428",
+          "teamSlug": "hacken",
+          "competitionId": "43",
+          "competitionSlug": "allsvenskan",
+          "url": "https://www.fotmob.com/teams/8428/stats/hacken/teams",
+          "notes": "alias FotMob: Häcken"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "102",
+          "teamSlug": "bk-hacken",
+          "countrySlug": "sweden",
+          "url": "https://www.soccer-rating.com/BK-Hacken/102/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1764",
+      "teamName": "AIK",
+      "countryName": "Sweden",
+      "competitionId": "43",
+      "competitionName": "Allsvenskan",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8349",
+          "teamSlug": "aik",
+          "competitionId": "43",
+          "competitionSlug": "allsvenskan",
+          "url": "https://www.fotmob.com/teams/8349/stats/aik/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "65",
+          "teamSlug": "aik-solna",
+          "countrySlug": "sweden",
+          "url": "https://www.soccer-rating.com/AIK-Solna/65/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1775",
+      "teamName": "Västerås SK",
+      "countryName": "Sweden",
+      "competitionId": "43",
+      "competitionName": "Allsvenskan",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "6194",
+          "teamSlug": "vasteras-sk",
+          "competitionId": "43",
+          "competitionSlug": "allsvenskan",
+          "url": "https://www.fotmob.com/teams/6194/stats/vasteras-sk/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1298",
+          "teamSlug": "vasteras-sk-fk",
+          "countrySlug": "sweden",
+          "url": "https://www.soccer-rating.com/Vasteras-SK-FK/1298/",
+          "notes": "Usado ID 1298; Soccer-Rating também expõe duplicado 19197."
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1762",
+      "teamName": "IF Elfsborg",
+      "countryName": "Sweden",
+      "competitionId": "43",
+      "competitionName": "Allsvenskan",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8014",
+          "teamSlug": "elfsborg",
+          "competitionId": "43",
+          "competitionSlug": "allsvenskan",
+          "url": "https://www.fotmob.com/teams/8014/stats/elfsborg/teams",
+          "notes": "alias FotMob: Elfsborg"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "68",
+          "teamSlug": "if-elfsborg",
+          "countrySlug": "sweden",
+          "url": "https://www.soccer-rating.com/IF-Elfsborg/68/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1786",
+      "teamName": "GAIS",
+      "countryName": "Sweden",
+      "competitionId": "43",
+      "competitionName": "Allsvenskan",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8297",
+          "teamSlug": "gais",
+          "competitionId": "43",
+          "competitionSlug": "allsvenskan",
+          "url": "https://www.fotmob.com/teams/8297/stats/gais/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "58",
+          "teamSlug": "gais-goteborg",
+          "countrySlug": "sweden",
+          "url": "https://www.soccer-rating.com/Gais-Goteborg/58/",
+          "notes": "alias Soccer-Rating: Gais Göteborg"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1892",
+      "teamName": "Malmö FF",
+      "countryName": "Sweden",
+      "competitionId": "43",
+      "competitionName": "Allsvenskan",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10237",
+          "teamSlug": "malmo-ff",
+          "competitionId": "43",
+          "competitionSlug": "allsvenskan",
+          "url": "https://www.fotmob.com/teams/10237/stats/malmo-ff/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "62",
+          "teamSlug": "malmo-ff",
+          "countrySlug": "sweden",
+          "url": "https://www.soccer-rating.com/Malmo-FF/62/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1761",
+      "teamName": "IFK Göteborg",
+      "countryName": "Sweden",
+      "competitionId": "43",
+      "competitionName": "Allsvenskan",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9893",
+          "teamSlug": "ifk-goteborg",
+          "competitionId": "43",
+          "competitionSlug": "allsvenskan",
+          "url": "https://www.fotmob.com/teams/9893/stats/ifk-goteborg/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "61",
+          "teamSlug": "ifk-goteborg",
+          "countrySlug": "sweden",
+          "url": "https://www.soccer-rating.com/IFK-Goteborg/61/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1891",
+      "teamName": "Kalmar FF",
+      "countryName": "Sweden",
+      "competitionId": "43",
+      "competitionName": "Allsvenskan",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9892",
+          "teamSlug": "kalmar-ff",
+          "competitionId": "43",
+          "competitionSlug": "allsvenskan",
+          "url": "https://www.fotmob.com/teams/9892/stats/kalmar-ff/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "63",
+          "teamSlug": "kalmar-ff",
+          "countrySlug": "sweden",
+          "url": "https://www.soccer-rating.com/Kalmar-FF/63/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1787",
+      "teamName": "IF Brommapojkarna",
+      "countryName": "Sweden",
+      "competitionId": "43",
+      "competitionName": "Allsvenskan",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8501",
+          "teamSlug": "brommapojkarna",
+          "competitionId": "43",
+          "competitionSlug": "allsvenskan",
+          "url": "https://www.fotmob.com/teams/8501/stats/brommapojkarna/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "57",
+          "teamSlug": "if-brommapojkarna",
+          "countrySlug": "sweden",
+          "url": "https://www.soccer-rating.com/IF-Brommapojkarna/57/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1783",
+      "teamName": "Mjällby AIF",
+      "countryName": "Sweden",
+      "competitionId": "43",
+      "competitionName": "Allsvenskan",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8127",
+          "teamSlug": "mjallby",
+          "competitionId": "43",
+          "competitionSlug": "allsvenskan",
+          "url": "https://www.fotmob.com/teams/8127/stats/mjallby/teams",
+          "notes": "alias FotMob: Mjällby"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "105",
+          "teamSlug": "mjallby-aif",
+          "countrySlug": "sweden",
+          "url": "https://www.soccer-rating.com/Mjallby-AIF/105/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1807",
+      "teamName": "Degerfors IF",
+      "countryName": "Sweden",
+      "competitionId": "43",
+      "competitionName": "Allsvenskan",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "6544",
+          "teamSlug": "degerfors",
+          "competitionId": "43",
+          "competitionSlug": "allsvenskan",
+          "url": "https://www.fotmob.com/teams/6544/stats/degerfors/teams",
+          "notes": "alias FotMob: Degerfors"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "99",
+          "teamSlug": "degerfors-if",
+          "countrySlug": "sweden",
+          "url": "https://www.soccer-rating.com/Degerfors-IF/99/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1766",
+      "teamName": "Örgryte IS",
+      "countryName": "Sweden",
+      "competitionId": "43",
+      "competitionName": "Allsvenskan",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10002",
+          "teamSlug": "orgryte",
+          "competitionId": "43",
+          "competitionSlug": "allsvenskan",
+          "url": "https://www.fotmob.com/teams/10002/stats/orgryte/teams",
+          "notes": "alias FotMob: Örgryte"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "423",
+          "teamSlug": "orgryte-is",
+          "countrySlug": "sweden",
+          "url": "https://www.soccer-rating.com/Orgryte-IS/423/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1767",
+      "teamName": "Halmstads BK",
+      "countryName": "Sweden",
+      "competitionId": "43",
+      "competitionName": "Allsvenskan",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8310",
+          "teamSlug": "halmstads-bk",
+          "competitionId": "43",
+          "competitionSlug": "allsvenskan",
+          "url": "https://www.fotmob.com/teams/8310/stats/halmstads-bk/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "67",
+          "teamSlug": "halmstads-bk",
+          "countrySlug": "sweden",
+          "url": "https://www.soccer-rating.com/Halmstads-BK/67/",
+          "notes": null
         }
       }
     }
