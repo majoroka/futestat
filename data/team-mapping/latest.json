@@ -1,20 +1,20 @@
 {
   "source": "team-source-registry",
-  "generatedAtUtc": "2026-08-12T15:12:06.379Z",
+  "generatedAtUtc": "2026-08-12T15:19:30.814Z",
   "referenceDate": "2026-08-11",
   "registryPath": "data/team-source-registry.json",
   "summary": {
     "competitions": 42,
     "whitelistCompetitions": 42,
-    "competitionsWithRegistryEntries": 34,
-    "competitionsWithoutRegistryEntries": 8,
-    "teams": 526,
+    "competitionsWithRegistryEntries": 35,
+    "competitionsWithoutRegistryEntries": 7,
+    "teams": 546,
     "activeTeams": 62,
-    "complete": 503,
+    "complete": 523,
     "partial": 0,
     "missing": 23,
-    "fotmobMapped": 503,
-    "soccerRatingMapped": 503
+    "fotmobMapped": 523,
+    "soccerRatingMapped": 523
   },
   "competitions": [
     {
@@ -9054,6 +9054,544 @@
       ]
     },
     {
+      "competitionId": "53",
+      "competitionName": "Serie B",
+      "countryName": "Italy",
+      "seededFromWhitelist": true,
+      "hasRegistryEntries": true,
+      "teamCount": 20,
+      "activeTeams": 0,
+      "coverage": {
+        "complete": 20,
+        "partial": 0,
+        "missing": 0,
+        "fotmobMapped": 20,
+        "soccerRatingMapped": 20
+      },
+      "teams": [
+        {
+          "sofascoreTeamId": "2731",
+          "teamName": "Arezzo",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9849",
+              "teamSlug": "arezzo",
+              "url": "https://www.fotmob.com/teams/9849/overview/arezzo",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "2751",
+              "teamSlug": "ac-arezzo",
+              "url": "https://www.soccer-rating.com/AC-Arezzo/2751/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2707",
+          "teamName": "Ascoli",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8522",
+              "teamSlug": "ascoli",
+              "url": "https://www.fotmob.com/teams/8522/overview/ascoli",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1522",
+              "teamSlug": "ascoli-picchio",
+              "url": "https://www.soccer-rating.com/Ascoli-Picchio/1522/",
+              "notes": "Soccer-Rating usa Ascoli Picchio."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2759",
+          "teamName": "Benevento",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6266",
+              "teamSlug": "benevento",
+              "url": "https://www.fotmob.com/teams/6266/overview/benevento",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "2925",
+              "teamSlug": "benevento-calcio",
+              "url": "https://www.soccer-rating.com/Benevento-Calcio/2925/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2745",
+          "teamName": "Carrarese",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6488",
+              "teamSlug": "carrarese",
+              "url": "https://www.fotmob.com/teams/6488/overview/carrarese",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "2909",
+              "teamSlug": "carrarese-calcio",
+              "url": "https://www.soccer-rating.com/Carrarese-Calcio/2909/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2796",
+          "teamName": "Catanzaro",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10168",
+              "teamSlug": "catanzaro",
+              "url": "https://www.fotmob.com/teams/10168/overview/catanzaro",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "2929",
+              "teamSlug": "fc-catanzaro",
+              "url": "https://www.soccer-rating.com/FC-Catanzaro/2929/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2742",
+          "teamName": "Cesena",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "584022",
+              "teamSlug": "cesena",
+              "url": "https://www.fotmob.com/teams/584022/overview/cesena",
+              "notes": "Usa a entidade atual do Cesena."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1532",
+              "teamSlug": "cesena-fc",
+              "url": "https://www.soccer-rating.com/Cesena-FC/1532/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2761",
+          "teamName": "Cremonese",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "7801",
+              "teamSlug": "cremonese",
+              "url": "https://www.fotmob.com/teams/7801/overview/cremonese",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "2460",
+              "teamSlug": "us-cremonese",
+              "url": "https://www.soccer-rating.com/US-Cremonese/2460/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2705",
+          "teamName": "Empoli",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8534",
+              "teamSlug": "empoli",
+              "url": "https://www.fotmob.com/teams/8534/overview/empoli",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1589",
+              "teamSlug": "empoli-fc",
+              "url": "https://www.soccer-rating.com/Empoli-FC/1589/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2701",
+          "teamName": "Hellas Verona",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9876",
+              "teamSlug": "hellas-verona",
+              "url": "https://www.fotmob.com/teams/9876/overview/hellas-verona",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "2448",
+              "teamSlug": "hellas-verona",
+              "url": "https://www.soccer-rating.com/Hellas-Verona/2448/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "5324",
+          "teamName": "Juve Stabia",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6106",
+              "teamSlug": "juve-stabia",
+              "url": "https://www.fotmob.com/teams/6106/overview/juve-stabia",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "2762",
+              "teamSlug": "juve-stabia",
+              "url": "https://www.soccer-rating.com/Juve-Stabia/2762/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2722",
+          "teamName": "L.R. Vicenza",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "145007",
+              "teamSlug": "lr-vicenza",
+              "url": "https://www.fotmob.com/teams/145007/overview/lr-vicenza",
+              "notes": "Usa a entidade atual LR Vicenza."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1530",
+              "teamSlug": "vicenza-virtus",
+              "url": "https://www.soccer-rating.com/Vicenza-Virtus/1530/",
+              "notes": "Soccer-Rating usa Vicenza Virtus."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2770",
+          "teamName": "Mantova",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9889",
+              "teamSlug": "mantova",
+              "url": "https://www.fotmob.com/teams/9889/overview/mantova",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1544",
+              "teamSlug": "ac-mantova",
+              "url": "https://www.soccer-rating.com/AC-Mantova/1544/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2706",
+          "teamName": "Modena",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9887",
+              "teamSlug": "modena",
+              "url": "https://www.fotmob.com/teams/9887/overview/modena",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1526",
+              "teamSlug": "modena-fc",
+              "url": "https://www.soccer-rating.com/Modena-FC/1526/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2741",
+          "teamName": "Padova",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "583944",
+              "teamSlug": "padova",
+              "url": "https://www.fotmob.com/teams/583944/overview/padova",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "2211",
+              "teamSlug": "calcio-padova",
+              "url": "https://www.soccer-rating.com/Calcio-Padova/2211/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2715",
+          "teamName": "Palermo",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8540",
+              "teamSlug": "palermo",
+              "url": "https://www.fotmob.com/teams/8540/overview/palermo",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1596",
+              "teamSlug": "us-palermo",
+              "url": "https://www.soccer-rating.com/US-Palermo/1596/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2737",
+          "teamName": "Pisa",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6479",
+              "teamSlug": "pisa",
+              "url": "https://www.fotmob.com/teams/6479/overview/pisa",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1535",
+              "teamSlug": "pisa-calcio",
+              "url": "https://www.soccer-rating.com/Pisa-Calcio/1535/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2711",
+          "teamName": "Sampdoria",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9882",
+              "teamSlug": "sampdoria",
+              "url": "https://www.fotmob.com/teams/9882/overview/sampdoria",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1110",
+              "teamSlug": "sampdoria-genoa",
+              "url": "https://www.soccer-rating.com/Sampdoria-Genoa/1110/",
+              "notes": "Soccer-Rating usa Sampdoria Genoa."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2760",
+          "teamName": "Südtirol",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "189475",
+              "teamSlug": "sudtirol",
+              "url": "https://www.fotmob.com/teams/189475/overview/sudtirol",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "2892",
+              "teamSlug": "fc-sudtirol-bolzano",
+              "url": "https://www.soccer-rating.com/FC-Sudtirol-Bolzano/2892/",
+              "notes": "Soccer-Rating usa FC Sudtirol Bolzano."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2730",
+          "teamName": "US Avellino 1912",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6722",
+              "teamSlug": "avellino",
+              "url": "https://www.fotmob.com/teams/6722/overview/avellino",
+              "notes": "FotMob usa Avellino."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1521",
+              "teamSlug": "us-avellino",
+              "url": "https://www.soccer-rating.com/US-Avellino/1521/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "43680",
+          "teamName": "Virtus Entella",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "208932",
+              "teamSlug": "virtus-entella",
+              "url": "https://www.fotmob.com/teams/208932/overview/virtus-entella",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "6718",
+              "teamSlug": "virtus-entella",
+              "url": "https://www.soccer-rating.com/Virtus-Entella/6718/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        }
+      ]
+    },
+    {
       "competitionId": "131",
       "competitionName": "Eerste Divisie",
       "countryName": "Netherlands",
@@ -14373,23 +14911,6 @@
           "recommendedNextSteps": []
         }
       ]
-    },
-    {
-      "competitionId": "53",
-      "competitionName": "Serie B",
-      "countryName": "Italy",
-      "seededFromWhitelist": true,
-      "hasRegistryEntries": false,
-      "teamCount": 0,
-      "activeTeams": 0,
-      "coverage": {
-        "complete": 0,
-        "partial": 0,
-        "missing": 0,
-        "fotmobMapped": 0,
-        "soccerRatingMapped": 0
-      },
-      "teams": []
     },
     {
       "competitionId": "37",
