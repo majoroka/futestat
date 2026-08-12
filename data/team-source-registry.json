@@ -5584,7 +5584,7 @@
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "5114",
       "teamName": "AC Oulu",
       "countryName": "Finland",
       "competitionId": "41",
@@ -5608,13 +5608,13 @@
           "sourceTeamId": "832",
           "teamSlug": "ac-oulu",
           "countrySlug": "finland",
-          "url": "https://www.soccer-rating.com/AC-Oulu/832/",
+          "url": "https://www.soccer-rating.com/Ac-Oulu/832/",
           "notes": null
         }
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "2249",
       "teamName": "FC Lahti",
       "countryName": "Finland",
       "competitionId": "41",
@@ -5638,13 +5638,13 @@
           "sourceTeamId": "1",
           "teamSlug": "fc-lahti",
           "countrySlug": "finland",
-          "url": "https://www.soccer-rating.com/FC-Lahti/1/",
+          "url": "https://www.soccer-rating.com/Fc-Lahti/1/",
           "notes": null
         }
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "2252",
       "teamName": "FF Jaro",
       "countryName": "Finland",
       "competitionId": "41",
@@ -5665,16 +5665,16 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "19147",
-          "teamSlug": "ff-jaro-ii",
+          "sourceTeamId": "17",
+          "teamSlug": "ff-jaro-jakobstad",
           "countrySlug": "finland",
-          "url": "https://www.soccer-rating.com/FF-Jaro-II/19147/",
-          "notes": null
+          "url": "https://www.soccer-rating.com/Ff-Jaro-Jakobstad/17/",
+          "notes": "alias Soccer-Rating: FF Jaro Jakobstad"
         }
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "2242",
       "teamName": "HJK",
       "countryName": "Finland",
       "competitionId": "41",
@@ -5694,17 +5694,17 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": null,
+          "status": "mapped",
+          "sourceTeamId": "15",
+          "teamSlug": "hjk-helsinki",
           "countrySlug": "finland",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Hjk-Helsinki/15/",
+          "notes": "alias Soccer-Rating: HJK Helsinki"
         }
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "2271",
       "teamName": "IF Gnistan",
       "countryName": "Finland",
       "competitionId": "41",
@@ -5728,13 +5728,13 @@
           "sourceTeamId": "827",
           "teamSlug": "if-gnistan-helsinki",
           "countrySlug": "finland",
-          "url": "https://www.soccer-rating.com/IF-Gnistan-Helsinki/827/",
-          "notes": null
+          "url": "https://www.soccer-rating.com/If-Gnistan-Helsinki/827/",
+          "notes": "alias Soccer-Rating: IF Gnistan Helsinki"
         }
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "5058",
       "teamName": "IFK Mariehamn",
       "countryName": "Finland",
       "competitionId": "41",
@@ -5758,14 +5758,14 @@
           "sourceTeamId": "19",
           "teamSlug": "ifk-mariehamn",
           "countrySlug": "finland",
-          "url": "https://www.soccer-rating.com/IFK-Mariehamn/19/",
+          "url": "https://www.soccer-rating.com/Ifk-Mariehamn/19/",
           "notes": null
         }
       }
     },
     {
-      "sofascoreTeamId": "",
-      "teamName": "Ilves Tampere",
+      "sofascoreTeamId": "22386",
+      "teamName": "Ilves",
       "countryName": "Finland",
       "competitionId": "41",
       "competitionName": "Veikkausliiga",
@@ -5775,13 +5775,13 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": null,
+          "status": "mapped",
+          "sourceTeamId": "162146",
+          "teamSlug": "ilves",
           "competitionId": "41",
           "competitionSlug": null,
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/162146/stats/ilves/teams",
+          "notes": null
         },
         "soccerRating": {
           "status": "mapped",
@@ -5789,12 +5789,12 @@
           "teamSlug": "ilves-tampere",
           "countrySlug": "finland",
           "url": "https://www.soccer-rating.com/Ilves-Tampere/3504/",
-          "notes": null
+          "notes": "alias Soccer-Rating: Ilves Tampere"
         }
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "2247",
       "teamName": "Inter Turku",
       "countryName": "Finland",
       "competitionId": "41",
@@ -5811,7 +5811,7 @@
           "competitionId": "41",
           "competitionSlug": null,
           "url": "https://www.fotmob.com/teams/6550/stats/fc-inter-turku/teams",
-          "notes": null
+          "notes": "alias FotMob: FC Inter Turku"
         },
         "soccerRating": {
           "status": "mapped",
@@ -5824,8 +5824,8 @@
       }
     },
     {
-      "sofascoreTeamId": "",
-      "teamName": "KuPS",
+      "sofascoreTeamId": "2244",
+      "teamName": "Kuopion Palloseura",
       "countryName": "Finland",
       "competitionId": "41",
       "competitionName": "Veikkausliiga",
@@ -5841,20 +5841,20 @@
           "competitionId": "41",
           "competitionSlug": null,
           "url": "https://www.fotmob.com/teams/1693/stats/kups/teams",
-          "notes": null
+          "notes": "alias FotMob: KuPS"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": null,
+          "status": "mapped",
+          "sourceTeamId": "605",
+          "teamSlug": "kups-kuopio",
           "countrySlug": "finland",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Kups-Kuopio/605/",
+          "notes": "alias Soccer-Rating: KuPS Kuopio"
         }
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "22395",
       "teamName": "SJK",
       "countryName": "Finland",
       "competitionId": "41",
@@ -5874,18 +5874,18 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": null,
+          "status": "mapped",
+          "sourceTeamId": "3506",
+          "teamSlug": "sjk-seinajoki",
           "countrySlug": "finland",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Sjk-Seinajoki/3506/",
+          "notes": "alias Soccer-Rating: SJK Seinäjoki"
         }
       }
     },
     {
-      "sofascoreTeamId": "",
-      "teamName": "TPS Turku",
+      "sofascoreTeamId": "2254",
+      "teamName": "Turun Palloseura",
       "countryName": "Finland",
       "competitionId": "41",
       "competitionName": "Veikkausliiga",
@@ -5895,26 +5895,26 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": null,
+          "status": "mapped",
+          "sourceTeamId": "6633",
+          "teamSlug": "tps",
           "competitionId": "41",
           "competitionSlug": null,
-          "url": null,
-          "notes": "autofill: match FotMob inconclusivo"
+          "url": "https://www.fotmob.com/teams/6633/stats/tps/teams",
+          "notes": "alias FotMob: TPS"
         },
         "soccerRating": {
           "status": "mapped",
           "sourceTeamId": "3",
           "teamSlug": "tps-turku",
           "countrySlug": "finland",
-          "url": "https://www.soccer-rating.com/TPS-Turku/3/",
-          "notes": null
+          "url": "https://www.soccer-rating.com/Tps-Turku/3/",
+          "notes": "alias Soccer-Rating: TPS Turku"
         }
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "2246",
       "teamName": "VPS",
       "countryName": "Finland",
       "competitionId": "41",
@@ -5934,12 +5934,12 @@
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": null,
+          "status": "mapped",
+          "sourceTeamId": "16",
+          "teamSlug": "vps-vaasa",
           "countrySlug": "finland",
-          "url": null,
-          "notes": "autofill: match Soccer-Rating inconclusivo"
+          "url": "https://www.soccer-rating.com/Vps-Vaasa/16/",
+          "notes": "alias Soccer-Rating: VPS Vaasa"
         }
       }
     },
