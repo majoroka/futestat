@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-08-12T16:12:12.874Z",
+  "generatedAtUtc": "2026-08-12T16:42:24.270Z",
   "referenceDate": "2026-08-11",
   "snapshotPath": "data/fixtures/latest.json",
   "entries": [
@@ -25,10 +25,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "9",
+          "sourceTeamId": "w9",
           "teamSlug": "ca-banfield",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/CA-Banfield/9/",
+          "url": "https://www.soccer-rating.com/CA-Banfield/w9/",
           "notes": null
         }
       }
@@ -55,10 +55,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "49",
+          "sourceTeamId": "w49",
           "teamSlug": "ca-belgrano",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/CA-Belgrano/49/",
+          "url": "https://www.soccer-rating.com/CA-Belgrano/w49/",
           "notes": null
         }
       }
@@ -85,10 +85,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "2454",
+          "sourceTeamId": "w2454",
           "teamSlug": "central-cordoba",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Central-Cordoba/2454/",
+          "url": "https://www.soccer-rating.com/Central-Cordoba/w2454/",
           "notes": null
         }
       }
@@ -115,10 +115,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "12",
+          "sourceTeamId": "w12",
           "teamSlug": "atletico-lanus",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Atletico-Lanus/12/",
+          "url": "https://www.soccer-rating.com/Atletico-Lanus/w12/",
           "notes": null
         }
       }
@@ -145,10 +145,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "2432",
+          "sourceTeamId": "w2432",
           "teamSlug": "talleres-cordoba",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Talleres-Cordoba/2432/",
+          "url": "https://www.soccer-rating.com/Talleres-Cordoba/w2432/",
           "notes": null
         }
       }
@@ -175,10 +175,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "123",
+          "sourceTeamId": "w123",
           "teamSlug": "ca-union-santa-fe",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/CA-Union-Santa-Fe/123/",
+          "url": "https://www.soccer-rating.com/CA-Union-Santa-Fe/w123/",
           "notes": null
         }
       }
@@ -432,7 +432,7 @@
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-12",
-      "lastSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-12",
       "sources": {
         "fotmob": {
           "status": "mapped",
@@ -492,7 +492,7 @@
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-12",
-      "lastSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-12",
       "sources": {
         "fotmob": {
           "status": "mapped",
@@ -522,7 +522,7 @@
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-12",
-      "lastSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-12",
       "sources": {
         "fotmob": {
           "status": "mapped",
@@ -612,7 +612,7 @@
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-12",
-      "lastSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-12",
       "sources": {
         "fotmob": {
           "status": "mapped",
@@ -642,7 +642,7 @@
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-12",
-      "lastSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-12",
       "sources": {
         "fotmob": {
           "status": "mapped",
@@ -672,7 +672,7 @@
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-12",
-      "lastSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-12",
       "sources": {
         "fotmob": {
           "status": "mapped",
@@ -765,21 +765,21 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "sparta-praha",
+          "status": "mapped",
+          "sourceTeamId": "10247",
+          "teamSlug": "sparta-prague",
           "competitionId": "49",
           "competitionSlug": "chance-liga",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/10247/overview/sparta-prague",
+          "notes": "Reconciled from existing verified mapping for the same club elsewhere in this registry."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "626",
           "teamSlug": "sparta-praha",
           "countrySlug": "czech-republic",
-          "url": null,
-          "notes": null
+          "url": "https://www.soccer-rating.com/Sparta-Praha/626/",
+          "notes": "Reconciled from existing verified mapping for the same club elsewhere in this registry."
         }
       }
     },
@@ -942,7 +942,7 @@
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-12",
-      "lastSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-12",
       "sources": {
         "fotmob": {
           "status": "mapped",
@@ -972,7 +972,7 @@
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-12",
-      "lastSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-12",
       "sources": {
         "fotmob": {
           "status": "mapped",
@@ -1002,7 +1002,7 @@
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-12",
-      "lastSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-12",
       "sources": {
         "fotmob": {
           "status": "mapped",
@@ -1092,7 +1092,7 @@
       "activeInCurrentWindow": true,
       "fixtureAppearancesInCurrentWindow": 1,
       "firstSeenReferenceDate": "2026-08-12",
-      "lastSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-12",
       "sources": {
         "fotmob": {
           "status": "mapped",
@@ -1245,21 +1245,21 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "jong-az",
+          "status": "mapped",
+          "sourceTeamId": "681217",
+          "teamSlug": "jong-az-alkmaar",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/681217/stats/jong-az-alkmaar/teams",
+          "notes": "Reconciled from existing verified mapping for the same club elsewhere in this registry."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "jong-az",
+          "status": "mapped",
+          "sourceTeamId": "11692",
+          "teamSlug": "az-alkmaar-ii",
           "countrySlug": "netherlands",
-          "url": null,
-          "notes": null
+          "url": "https://www.soccer-rating.com/AZ-Alkmaar-II/11692/",
+          "notes": "Reconciled from existing verified mapping for the same club elsewhere in this registry."
         }
       }
     },
@@ -1275,21 +1275,21 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "455494",
           "teamSlug": "jong-psv",
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/455494/stats/jong-psv/teams",
+          "notes": "Reconciled from existing verified mapping for the same club elsewhere in this registry."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "jong-psv",
+          "status": "mapped",
+          "sourceTeamId": "4605",
+          "teamSlug": "psv-eindhoven-ii",
           "countrySlug": "netherlands",
-          "url": null,
-          "notes": null
+          "url": "https://www.soccer-rating.com/PSV-Eindhoven-II/4605/",
+          "notes": "Reconciled from existing verified mapping for the same club elsewhere in this registry."
         }
       }
     },
@@ -1945,10 +1945,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "44",
+          "sourceTeamId": "w44",
           "teamSlug": "ca-aldosivi",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/CA-Aldosivi/44/",
+          "url": "https://www.soccer-rating.com/CA-Aldosivi/w44/",
           "notes": null
         }
       }
@@ -1975,10 +1975,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "16",
+          "sourceTeamId": "w16",
           "teamSlug": "argentinos-juniors",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Argentinos-Juniors/16/",
+          "url": "https://www.soccer-rating.com/Argentinos-Juniors/w16/",
           "notes": null
         }
       }
@@ -2005,10 +2005,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "231",
+          "sourceTeamId": "w231",
           "teamSlug": "atletico-tucuman",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Atletico-Tucuman/231/",
+          "url": "https://www.soccer-rating.com/Atletico-Tucuman/w231/",
           "notes": null
         }
       }
@@ -2035,10 +2035,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "2614",
+          "sourceTeamId": "w2614",
           "teamSlug": "barracas-central",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Barracas-Central/2614/",
+          "url": "https://www.soccer-rating.com/Barracas-Central/w2614/",
           "notes": null
         }
       }
@@ -2065,10 +2065,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "6",
+          "sourceTeamId": "w6",
           "teamSlug": "boca-juniors",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Boca-Juniors/6/",
+          "url": "https://www.soccer-rating.com/Boca-Juniors/w6/",
           "notes": null
         }
       }
@@ -2095,10 +2095,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "47",
+          "sourceTeamId": "w47",
           "teamSlug": "csd-defensa-y-justicia",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/CSD-Defensa-y-Justicia/47/",
+          "url": "https://www.soccer-rating.com/CSD-Defensa-y-Justicia/w47/",
           "notes": null
         }
       }
@@ -2125,10 +2125,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "2458",
+          "sourceTeamId": "w2458",
           "teamSlug": "deportivo-riestra",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Deportivo-Riestra/2458/",
+          "url": "https://www.soccer-rating.com/Deportivo-Riestra/w2458/",
           "notes": null
         }
       }
@@ -2155,10 +2155,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "4",
+          "sourceTeamId": "w4",
           "teamSlug": "estudiantes-la-plata",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Estudiantes-La-Plata/4/",
+          "url": "https://www.soccer-rating.com/Estudiantes-La-Plata/w4/",
           "notes": null
         }
       }
@@ -2185,10 +2185,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "15",
+          "sourceTeamId": "w15",
           "teamSlug": "gimnasia-la-plata",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Gimnasia-La-Plata/15/",
+          "url": "https://www.soccer-rating.com/Gimnasia-La-Plata/w15/",
           "notes": null
         }
       }
@@ -2215,10 +2215,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "4386",
+          "sourceTeamId": "w4386",
           "teamSlug": "gimnasia-mendoza",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Gimnasia-Mendoza/4386/",
+          "url": "https://www.soccer-rating.com/Gimnasia-Mendoza/w4386/",
           "notes": null
         }
       }
@@ -2245,10 +2245,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "230",
+          "sourceTeamId": "w230",
           "teamSlug": "ca-huracan",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/CA-Huracan/230/",
+          "url": "https://www.soccer-rating.com/CA-Huracan/w230/",
           "notes": null
         }
       }
@@ -2275,10 +2275,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "125",
+          "sourceTeamId": "w125",
           "teamSlug": "independiente-rivadavia",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Independiente-Rivadavia/125/",
+          "url": "https://www.soccer-rating.com/Independiente-Rivadavia/w125/",
           "notes": null
         }
       }
@@ -2305,10 +2305,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "232",
+          "sourceTeamId": "w232",
           "teamSlug": "ca-independiente",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/CA-Independiente/232/",
+          "url": "https://www.soccer-rating.com/CA-Independiente/w232/",
           "notes": null
         }
       }
@@ -2335,16 +2335,16 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "48",
+          "sourceTeamId": "w48",
           "teamSlug": "instituto-ac-cordoba",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Instituto-AC-Cordoba/48/",
+          "url": "https://www.soccer-rating.com/Instituto-AC-Cordoba/w48/",
           "notes": null
         }
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "3212",
       "teamName": "Newell´s Old Boys",
       "countryName": "Argentina",
       "competitionId": "155",
@@ -2365,10 +2365,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "14",
-          "teamSlug": "newell-s-old-boys",
+          "sourceTeamId": "w14",
+          "teamSlug": "newells-old-boys",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Newell-s-Old-Boys/14/",
+          "url": "https://www.soccer-rating.com/Newells-Old-Boys/w14/",
           "notes": "alias: mesma entidade que Newell's / Newell`s Old Boys"
         }
       }
@@ -2395,10 +2395,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "43",
+          "sourceTeamId": "w43",
           "teamSlug": "ca-platense",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/CA-Platense/43/",
+          "url": "https://www.soccer-rating.com/CA-Platense/w43/",
           "notes": null
         }
       }
@@ -2425,10 +2425,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "10",
+          "sourceTeamId": "w10",
           "teamSlug": "racing-club",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Racing-Club/10/",
+          "url": "https://www.soccer-rating.com/Racing-Club/w10/",
           "notes": null
         }
       }
@@ -2455,10 +2455,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "3",
+          "sourceTeamId": "w3",
           "teamSlug": "river-plate",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/River-Plate/3/",
+          "url": "https://www.soccer-rating.com/River-Plate/w3/",
           "notes": null
         }
       }
@@ -2485,10 +2485,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "229",
+          "sourceTeamId": "w229",
           "teamSlug": "rosario-central",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Rosario-Central/229/",
+          "url": "https://www.soccer-rating.com/Rosario-Central/w229/",
           "notes": null
         }
       }
@@ -2515,10 +2515,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "5",
+          "sourceTeamId": "w5",
           "teamSlug": "san-lorenzo",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/San-Lorenzo/5/",
+          "url": "https://www.soccer-rating.com/San-Lorenzo/w5/",
           "notes": null
         }
       }
@@ -2545,10 +2545,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "2708",
+          "sourceTeamId": "w2708",
           "teamSlug": "club-atletico-sarmiento",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Club-Atletico-Sarmiento/2708/",
+          "url": "https://www.soccer-rating.com/Club-Atletico-Sarmiento/w2708/",
           "notes": null
         }
       }
@@ -2575,10 +2575,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "7",
+          "sourceTeamId": "w7",
           "teamSlug": "ca-tigre",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/CA-Tigre/7/",
+          "url": "https://www.soccer-rating.com/CA-Tigre/w7/",
           "notes": null
         }
       }
@@ -2605,10 +2605,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "8",
+          "sourceTeamId": "w8",
           "teamSlug": "velez-sarsfield",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Velez-Sarsfield/8/",
+          "url": "https://www.soccer-rating.com/Velez-Sarsfield/w8/",
           "notes": null
         }
       }
@@ -2635,10 +2635,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "6169",
+          "sourceTeamId": "w6169",
           "teamSlug": "estudiantes-rio-cuarto",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Estudiantes-Rio-Cuarto/6169/",
+          "url": "https://www.soccer-rating.com/Estudiantes-Rio-Cuarto/w6169/",
           "notes": null
         }
       }
@@ -2665,10 +2665,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "14",
-          "teamSlug": "newell-s-old-boys",
+          "sourceTeamId": "w14",
+          "teamSlug": "newells-old-boys",
           "countrySlug": "argentina",
-          "url": "https://www.soccer-rating.com/Newell-s-Old-Boys/14/",
+          "url": "https://www.soccer-rating.com/Newells-Old-Boys/w14/",
           "notes": null
         }
       }
@@ -3505,10 +3505,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "85",
+          "sourceTeamId": "w85",
           "teamSlug": "athletico-pr",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Athletico-PR/85/",
+          "url": "https://www.soccer-rating.com/Athletico-PR/w85/",
           "notes": null
         }
       }
@@ -3535,10 +3535,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "100",
+          "sourceTeamId": "w100",
           "teamSlug": "atletico-mg",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Atletico-MG/100/",
+          "url": "https://www.soccer-rating.com/Atletico-MG/w100/",
           "notes": null
         }
       }
@@ -3565,10 +3565,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "1151",
+          "sourceTeamId": "w1151",
           "teamSlug": "ec-bahia",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/EC-Bahia/1151/",
+          "url": "https://www.soccer-rating.com/EC-Bahia/w1151/",
           "notes": null
         }
       }
@@ -3595,10 +3595,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "86",
+          "sourceTeamId": "w86",
           "teamSlug": "botafogo-rj",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Botafogo-RJ/86/",
+          "url": "https://www.soccer-rating.com/Botafogo-RJ/w86/",
           "notes": null
         }
       }
@@ -3625,10 +3625,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "1491",
+          "sourceTeamId": "w1491",
           "teamSlug": "chapecoense",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Chapecoense/1491/",
+          "url": "https://www.soccer-rating.com/Chapecoense/w1491/",
           "notes": null
         }
       }
@@ -3655,10 +3655,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "89",
+          "sourceTeamId": "w89",
           "teamSlug": "corinthians",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Corinthians/89/",
+          "url": "https://www.soccer-rating.com/Corinthians/w89/",
           "notes": null
         }
       }
@@ -3685,10 +3685,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "92",
+          "sourceTeamId": "w92",
           "teamSlug": "coritiba",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Coritiba/92/",
+          "url": "https://www.soccer-rating.com/Coritiba/w92/",
           "notes": null
         }
       }
@@ -3715,10 +3715,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "91",
+          "sourceTeamId": "w91",
           "teamSlug": "cruzeiro",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Cruzeiro/91/",
+          "url": "https://www.soccer-rating.com/Cruzeiro/w91/",
           "notes": null
         }
       }
@@ -3745,10 +3745,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "90",
+          "sourceTeamId": "w90",
           "teamSlug": "flamengo",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Flamengo/90/",
+          "url": "https://www.soccer-rating.com/Flamengo/w90/",
           "notes": null
         }
       }
@@ -3775,10 +3775,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "93",
+          "sourceTeamId": "w93",
           "teamSlug": "fluminense",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Fluminense/93/",
+          "url": "https://www.soccer-rating.com/Fluminense/w93/",
           "notes": null
         }
       }
@@ -3805,10 +3805,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "97",
+          "sourceTeamId": "w97",
           "teamSlug": "gremio-porto-alegre",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Gremio-Porto-Alegre/97/",
+          "url": "https://www.soccer-rating.com/Gremio-Porto-Alegre/w97/",
           "notes": null
         }
       }
@@ -3835,10 +3835,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "104",
+          "sourceTeamId": "w104",
           "teamSlug": "internacional",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Internacional/104/",
+          "url": "https://www.soccer-rating.com/Internacional/w104/",
           "notes": null
         }
       }
@@ -3865,10 +3865,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "649",
+          "sourceTeamId": "w649",
           "teamSlug": "mirassol",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Mirassol/649/",
+          "url": "https://www.soccer-rating.com/Mirassol/w649/",
           "notes": null
         }
       }
@@ -3895,10 +3895,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "99",
+          "sourceTeamId": "w99",
           "teamSlug": "palmeiras",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Palmeiras/99/",
+          "url": "https://www.soccer-rating.com/Palmeiras/w99/",
           "notes": null
         }
       }
@@ -3925,10 +3925,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "646",
+          "sourceTeamId": "w646",
           "teamSlug": "ca-bragantino",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/CA-Bragantino/646/",
+          "url": "https://www.soccer-rating.com/CA-Bragantino/w646/",
           "notes": null
         }
       }
@@ -3955,10 +3955,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "2645",
+          "sourceTeamId": "w2645",
           "teamSlug": "clube-do-remo",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Clube-Do-Remo/2645/",
+          "url": "https://www.soccer-rating.com/Clube-Do-Remo/w2645/",
           "notes": null
         }
       }
@@ -3985,10 +3985,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "88",
+          "sourceTeamId": "w88",
           "teamSlug": "santos-fc",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Santos-FC/88/",
+          "url": "https://www.soccer-rating.com/Santos-FC/w88/",
           "notes": null
         }
       }
@@ -4015,10 +4015,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "96",
+          "sourceTeamId": "w96",
           "teamSlug": "sao-paulo",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Sao-Paulo/96/",
+          "url": "https://www.soccer-rating.com/Sao-Paulo/w96/",
           "notes": null
         }
       }
@@ -4045,10 +4045,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "42",
+          "sourceTeamId": "w42",
           "teamSlug": "vasco-da-gama",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/Vasco-da-Gama/42/",
+          "url": "https://www.soccer-rating.com/Vasco-da-Gama/w42/",
           "notes": null
         }
       }
@@ -4075,10 +4075,10 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "94",
+          "sourceTeamId": "w94",
           "teamSlug": "ec-vitoria-salvador",
           "countrySlug": "brazil",
-          "url": "https://www.soccer-rating.com/EC-Vitoria-Salvador/94/",
+          "url": "https://www.soccer-rating.com/EC-Vitoria-Salvador/w94/",
           "notes": null
         }
       }
@@ -4354,7 +4354,7 @@
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "2032",
       "teamName": "Dinamo Zagreb",
       "countryName": "Croatia",
       "competitionId": "170",
@@ -4365,21 +4365,21 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10156",
           "teamSlug": "dinamo-zagreb",
           "competitionId": "170",
           "competitionSlug": "hnl",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/10156/stats/dinamo-zagreb/teams",
+          "notes": "Reconciled from existing verified mapping for the same club elsewhere in this registry."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "484",
           "teamSlug": "dinamo-zagreb",
           "countrySlug": "croatia",
-          "url": null,
-          "notes": null
+          "url": "https://www.soccer-rating.com/Dinamo-Zagreb/484/",
+          "notes": "Reconciled from existing verified mapping for the same club elsewhere in this registry."
         }
       }
     },
@@ -5027,10 +5027,10 @@
         "fotmob": {
           "status": "mapped",
           "sourceTeamId": "10247",
-          "teamSlug": "sparta-praha",
+          "teamSlug": "sparta-prague",
           "competitionId": "49",
           "competitionSlug": "chance-liga",
-          "url": "https://www.fotmob.com/teams/10247/stats/sparta-prague/teams",
+          "url": "https://www.fotmob.com/teams/10247/overview/sparta-prague",
           "notes": null
         },
         "soccerRating": {
@@ -11554,7 +11554,7 @@
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "46161",
       "teamName": "AZ Alkmaar B",
       "countryName": "Netherlands",
       "competitionId": "131",
@@ -11571,7 +11571,7 @@
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
           "url": "https://www.fotmob.com/teams/681217/stats/jong-az-alkmaar/teams",
-          "notes": "FotMob usa Jong AZ Alkmaar."
+          "notes": "FotMob usa Jong AZ Alkmaar. | Alias reconciled to Sofascore Jong AZ ID 46161."
         },
         "soccerRating": {
           "status": "mapped",
@@ -11579,7 +11579,7 @@
           "teamSlug": "az-alkmaar-ii",
           "countrySlug": "netherlands",
           "url": "https://www.soccer-rating.com/AZ-Alkmaar-II/11692/",
-          "notes": null
+          "notes": "Alias reconciled to Sofascore Jong AZ ID 46161."
         }
       }
     },
@@ -11854,7 +11854,7 @@
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "46168",
       "teamName": "PSV B",
       "countryName": "Netherlands",
       "competitionId": "131",
@@ -11871,7 +11871,7 @@
           "competitionId": "131",
           "competitionSlug": "eerste-divisie",
           "url": "https://www.fotmob.com/teams/455494/stats/jong-psv/teams",
-          "notes": "FotMob usa Jong PSV."
+          "notes": "FotMob usa Jong PSV. | Alias reconciled to Sofascore Jong PSV ID 46168."
         },
         "soccerRating": {
           "status": "mapped",
@@ -11879,7 +11879,7 @@
           "teamSlug": "psv-eindhoven-ii",
           "countrySlug": "netherlands",
           "url": "https://www.soccer-rating.com/PSV-Eindhoven-II/4605/",
-          "notes": null
+          "notes": "Alias reconciled to Sofascore Jong PSV ID 46168."
         }
       }
     },
@@ -12574,7 +12574,7 @@
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "656",
       "teamName": "Bodo/Glimt",
       "countryName": "Norway",
       "competitionId": "20",
@@ -12585,26 +12585,26 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8402",
           "teamSlug": "bodo-glimt",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/8402/stats/bodo-glimt/teams",
+          "notes": "Reconciled from existing verified mapping for the same club elsewhere in this registry."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "114",
           "teamSlug": "bodo-glimt",
           "countrySlug": "norway",
-          "url": null,
-          "notes": null
+          "url": "https://www.soccer-rating.com/FK-Bodo-Glimt/114/",
+          "notes": "Reconciled from existing verified mapping for the same club elsewhere in this registry."
         }
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "1159",
       "teamName": "Brann",
       "countryName": "Norway",
       "competitionId": "20",
@@ -12615,21 +12615,21 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8468",
           "teamSlug": "brann",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/8468/stats/brann/teams",
+          "notes": "Reconciled from existing verified mapping for the same club elsewhere in this registry."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "brann",
+          "status": "mapped",
+          "sourceTeamId": "81",
+          "teamSlug": "sk-brann-bergen",
           "countrySlug": "norway",
-          "url": null,
-          "notes": null
+          "url": "https://www.soccer-rating.com/SK-Brann-Bergen/81/",
+          "notes": "Reconciled from existing verified mapping for the same club elsewhere in this registry."
         }
       }
     },
@@ -13816,20 +13816,20 @@
       "sources": {
         "fotmob": {
           "status": "mapped",
-          "sourceTeamId": "7733",
-          "teamSlug": "vitoria",
+          "sourceTeamId": "338305",
+          "teamSlug": "vitoria-de-guimaraes-b",
           "competitionId": "17101",
           "competitionSlug": "liga-3-group-a",
-          "url": "https://www.fotmob.com/teams/7733/stats/vitoria/teams",
-          "notes": null
+          "url": "https://www.fotmob.com/teams/338305/overview/vitoria-de-guimaraes-b",
+          "notes": "Corrected from senior/Brazilian Vitoria mapping to Vitoria de Guimaraes B."
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "1089",
-          "teamSlug": "vitoria-guimaraes",
+          "sourceTeamId": "19119",
+          "teamSlug": "vitoria-guimaraes-sc-b",
           "countrySlug": "portugal",
-          "url": "https://www.soccer-rating.com/Vitoria-Guimaraes/1089/",
-          "notes": null
+          "url": "https://www.soccer-rating.com/Vitoria-Guimaraes-SC-B/19119/",
+          "notes": "Corrected from senior Vitoria Guimaraes ID 1089 to B-team ID 19119."
         }
       }
     },
@@ -14596,12 +14596,12 @@
       "sources": {
         "fotmob": {
           "status": "mapped",
-          "sourceTeamId": "7733",
-          "teamSlug": "vitoria",
+          "sourceTeamId": "7844",
+          "teamSlug": "vitoria-de-guimaraes",
           "competitionId": "238",
           "competitionSlug": "liga-portugal-betclic",
-          "url": "https://www.fotmob.com/teams/7733/stats/vitoria/teams",
-          "notes": null
+          "url": "https://www.fotmob.com/teams/7844/overview/vitoria-de-guimaraes",
+          "notes": "Corrected from Brazilian Vitoria ID 7733 to Vitoria de Guimaraes ID 7844."
         },
         "soccerRating": {
           "status": "mapped",
@@ -14926,20 +14926,20 @@
       "sources": {
         "fotmob": {
           "status": "mapped",
-          "sourceTeamId": "9768",
-          "teamSlug": "sporting-cp",
+          "sourceTeamId": "338301",
+          "teamSlug": "sporting-cp-b",
           "competitionId": "239",
           "competitionSlug": "liga-portugal-2",
-          "url": "https://www.fotmob.com/teams/9768/stats/sporting-cp/teams",
-          "notes": null
+          "url": "https://www.fotmob.com/teams/338301/overview/sporting-cp-b",
+          "notes": "Corrected from Sporting CP senior ID 9768 to Sporting CP B ID 338301."
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": "1083",
-          "teamSlug": "sporting-braga",
+          "sourceTeamId": "8037",
+          "teamSlug": "sporting-lisboa-ii",
           "countrySlug": "portugal",
-          "url": "https://www.soccer-rating.com/Sporting-Braga/1083/",
-          "notes": null
+          "url": "https://www.soccer-rating.com/Sporting-Lisboa-II/8037/",
+          "notes": "Corrected from Sporting Braga ID 1083 to Sporting Lisboa II ID 8037."
         }
       }
     },
@@ -16774,7 +16774,7 @@
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "2404",
       "teamName": "Slovan Bratislava",
       "countryName": "Slovakia",
       "competitionId": "211",
@@ -16785,21 +16785,21 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "6019",
           "teamSlug": "slovan-bratislava",
           "competitionId": "211",
           "competitionSlug": "nike-liga",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/6019/stats/slovan-bratislava/teams",
+          "notes": "Reconciled from existing verified mapping for the same club elsewhere in this registry."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "37",
           "teamSlug": "slovan-bratislava",
           "countrySlug": "slovakia",
-          "url": null,
-          "notes": null
+          "url": "https://www.soccer-rating.com/Slovan-Bratislava/37/",
+          "notes": "Reconciled from existing verified mapping for the same club elsewhere in this registry."
         }
       }
     },
@@ -17044,7 +17044,7 @@
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "2413",
       "teamName": "NK Celje",
       "countryName": "Slovenia",
       "competitionId": "212",
@@ -17055,21 +17055,21 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "4622",
           "teamSlug": "nk-celje",
           "competitionId": "212",
           "competitionSlug": "prvaliga",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/4622/stats/nk-celje/teams",
+          "notes": "Reconciled from existing verified mapping for the same club elsewhere in this registry."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1131",
           "teamSlug": "nk-celje",
           "countrySlug": "slovenia",
-          "url": null,
-          "notes": null
+          "url": "https://www.soccer-rating.com/NK-Celje/1131/",
+          "notes": "Reconciled from existing verified mapping for the same club elsewhere in this registry."
         }
       }
     },
@@ -18826,7 +18826,7 @@
       "sources": {
         "fotmob": {
           "status": "mapped",
-          "sourceTeamId": 9931,
+          "sourceTeamId": "9931",
           "teamSlug": "fc-basel-1893",
           "competitionId": "46",
           "competitionSlug": "super-league",
@@ -18835,7 +18835,7 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": 199,
+          "sourceTeamId": "199",
           "teamSlug": "fc-basel",
           "countrySlug": "switzerland",
           "url": "https://www.soccer-rating.com/FC-Basel/199/",
@@ -18856,7 +18856,7 @@
       "sources": {
         "fotmob": {
           "status": "mapped",
-          "sourceTeamId": 7896,
+          "sourceTeamId": "7896",
           "teamSlug": "lugano",
           "competitionId": "46",
           "competitionSlug": "super-league",
@@ -18865,7 +18865,7 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": 1125,
+          "sourceTeamId": "1125",
           "teamSlug": "ac-lugano",
           "countrySlug": "switzerland",
           "url": "https://www.soccer-rating.com/AC-Lugano/1125/",
@@ -18886,7 +18886,7 @@
       "sources": {
         "fotmob": {
           "status": "mapped",
-          "sourceTeamId": 10179,
+          "sourceTeamId": "10179",
           "teamSlug": "sion",
           "competitionId": "46",
           "competitionSlug": "super-league",
@@ -18895,7 +18895,7 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": 196,
+          "sourceTeamId": "196",
           "teamSlug": "fc-sion",
           "countrySlug": "switzerland",
           "url": "https://www.soccer-rating.com/FC-Sion/196/",
@@ -18916,7 +18916,7 @@
       "sources": {
         "fotmob": {
           "status": "mapped",
-          "sourceTeamId": 10190,
+          "sourceTeamId": "10190",
           "teamSlug": "st-gallen",
           "competitionId": "46",
           "competitionSlug": "super-league",
@@ -18925,7 +18925,7 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": 192,
+          "sourceTeamId": "192",
           "teamSlug": "fc-st-gallen",
           "countrySlug": "switzerland",
           "url": "https://www.soccer-rating.com/FC-St-Gallen/192/",
@@ -18946,7 +18946,7 @@
       "sources": {
         "fotmob": {
           "status": "mapped",
-          "sourceTeamId": 10191,
+          "sourceTeamId": "10191",
           "teamSlug": "thun",
           "competitionId": "46",
           "competitionSlug": "super-league",
@@ -18955,7 +18955,7 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": 195,
+          "sourceTeamId": "195",
           "teamSlug": "fc-thun",
           "countrySlug": "switzerland",
           "url": "https://www.soccer-rating.com/FC-Thun/195/",
@@ -18976,7 +18976,7 @@
       "sources": {
         "fotmob": {
           "status": "mapped",
-          "sourceTeamId": 9824,
+          "sourceTeamId": "9824",
           "teamSlug": "fc-vaduz",
           "competitionId": "46",
           "competitionSlug": "super-league",
@@ -18985,7 +18985,7 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": 505,
+          "sourceTeamId": "505",
           "teamSlug": "fc-vaduz",
           "countrySlug": "switzerland",
           "url": "https://www.soccer-rating.com/FC-Vaduz/505/",
@@ -19006,7 +19006,7 @@
       "sources": {
         "fotmob": {
           "status": "mapped",
-          "sourceTeamId": 10243,
+          "sourceTeamId": "10243",
           "teamSlug": "fc-zurich",
           "competitionId": "46",
           "competitionSlug": "super-league",
@@ -19015,7 +19015,7 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": 200,
+          "sourceTeamId": "200",
           "teamSlug": "fc-zurich",
           "countrySlug": "switzerland",
           "url": "https://www.soccer-rating.com/FC-Zuerich/200/",
@@ -19036,7 +19036,7 @@
       "sources": {
         "fotmob": {
           "status": "mapped",
-          "sourceTeamId": 9956,
+          "sourceTeamId": "9956",
           "teamSlug": "grasshopper",
           "competitionId": "46",
           "competitionSlug": "super-league",
@@ -19045,7 +19045,7 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": 191,
+          "sourceTeamId": "191",
           "teamSlug": "grasshoppers-zuerich",
           "countrySlug": "switzerland",
           "url": "https://www.soccer-rating.com/Grasshoppers-Zuerich/191/",
@@ -19066,7 +19066,7 @@
       "sources": {
         "fotmob": {
           "status": "mapped",
-          "sourceTeamId": 7730,
+          "sourceTeamId": "7730",
           "teamSlug": "fc-lausanne-sport",
           "competitionId": "46",
           "competitionSlug": "super-league",
@@ -19075,7 +19075,7 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": 1124,
+          "sourceTeamId": "1124",
           "teamSlug": "fc-lausanne-sport",
           "countrySlug": "switzerland",
           "url": "https://www.soccer-rating.com/FC-Lausanne-Sport/1124/",
@@ -19096,7 +19096,7 @@
       "sources": {
         "fotmob": {
           "status": "mapped",
-          "sourceTeamId": 10199,
+          "sourceTeamId": "10199",
           "teamSlug": "luzern",
           "competitionId": "46",
           "competitionSlug": "super-league",
@@ -19105,7 +19105,7 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": 193,
+          "sourceTeamId": "193",
           "teamSlug": "fc-luzern",
           "countrySlug": "switzerland",
           "url": "https://www.soccer-rating.com/FC-Luzern/193/",
@@ -19126,7 +19126,7 @@
       "sources": {
         "fotmob": {
           "status": "mapped",
-          "sourceTeamId": 9777,
+          "sourceTeamId": "9777",
           "teamSlug": "servette",
           "competitionId": "46",
           "competitionSlug": "super-league",
@@ -19135,7 +19135,7 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": 1127,
+          "sourceTeamId": "1127",
           "teamSlug": "servette-fc",
           "countrySlug": "switzerland",
           "url": "https://www.soccer-rating.com/Servette-FC/1127/",
@@ -19156,7 +19156,7 @@
       "sources": {
         "fotmob": {
           "status": "mapped",
-          "sourceTeamId": 10192,
+          "sourceTeamId": "10192",
           "teamSlug": "young-boys",
           "competitionId": "46",
           "competitionSlug": "super-league",
@@ -19165,7 +19165,7 @@
         },
         "soccerRating": {
           "status": "mapped",
-          "sourceTeamId": 198,
+          "sourceTeamId": "198",
           "teamSlug": "young-boys-bern",
           "countrySlug": "switzerland",
           "url": "https://www.soccer-rating.com/Young-Boys-Bern/198/",

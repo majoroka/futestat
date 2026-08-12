@@ -1,0 +1,118 @@
+team-source-registry.corrected.json — correction report
+Corrected generatedAtUtc: 2026-08-12T16:42:24.270Z
+Original referenceDate preserved: 2026-08-11
+Entries preserved: 668
+
+VALIDATION SUMMARY
+- entries: 668 -> 668
+- empty_sofascore: 120 -> 112
+- pending_fotmob: 8 -> 0
+- pending_soccerRating: 8 -> 0
+- bad_dates: 10 -> 0
+- fotmob_integer_sourceTeamId: 12 -> 0
+- soccerRating_integer_sourceTeamId: 12 -> 0
+- FotMob distinct ID collisions after correction: 0
+- Soccer-Rating distinct ID collisions after correction: 0
+- JSON field/value differences from original (including notes/timestamp): 242
+
+CORRECTIONS APPLIED
+- Preserved Soccer-Rating w namespace for every Argentina and Brazil registry entry and aligned those URLs.
+- Corrected Portugal mappings: Vitoria de Guimaraes senior, Vitoria de Guimaraes B, Sporting CP B.
+- Resolved all eight pending records by reconciling verified aliases/mappings already present in the registry.
+- Reconciled Sofascore IDs for Newell´s Old Boys, Dinamo Zagreb, Bodo/Glimt, Brann, Slovan Bratislava, NK Celje, AZ Alkmaar B and PSV B where identity was safely established.
+- Corrected ten impossible firstSeen/lastSeen intervals.
+- Normalized integer sourceTeamId values to strings.
+- Aligned the Sparta Prague FotMob slug/URL.
+
+INTENTIONALLY NOT CHANGED
+- 112 sofascoreTeamId fields remain empty because they could not be safely inferred from the original registry without broader external verification.
+- sources.fotmob.competitionId was not globally rewritten. The original field appears to mix/copy canonical competition IDs, but its intended schema semantics are not explicit; changing hundreds of values without a dedicated FotMob league-ID registry would be unsafe.
+- No entries were deleted or reordered, and no new schema fields were added.
+
+KEY IDENTITY CHANGES
+- [0] Argentina | Liga Profesional | Banfield: soccerRating ID '9'->'w9'
+- [1] Argentina | Liga Profesional | Belgrano: soccerRating ID '49'->'w49'
+- [2] Argentina | Liga Profesional | Central Córdoba: soccerRating ID '2454'->'w2454'
+- [3] Argentina | Liga Profesional | Lanús: soccerRating ID '12'->'w12'
+- [4] Argentina | Liga Profesional | Talleres: soccerRating ID '2432'->'w2432'
+- [5] Argentina | Liga Profesional | Unión de Santa Fe: soccerRating ID '123'->'w123'
+- [14] Europe | UEFA Champions League | Crvena zvezda: lastSeen 2026-08-11->2026-08-12
+- [16] Europe | UEFA Champions League | Fenerbahçe: lastSeen 2026-08-11->2026-08-12
+- [17] Europe | UEFA Champions League | H. Be'er Sheva: lastSeen 2026-08-11->2026-08-12
+- [20] Europe | UEFA Champions League | Mjällby: lastSeen 2026-08-11->2026-08-12
+- [21] Europe | UEFA Champions League | NEC: lastSeen 2026-08-11->2026-08-12
+- [22] Europe | UEFA Champions League | Olympiacos: lastSeen 2026-08-11->2026-08-12
+- [25] Europe | UEFA Champions League | Sparta Praha: fotmob ID None->'10247'; fotmob status pending->mapped; soccerRating ID None->'626'; soccerRating status pending->mapped
+- [31] Europe | UEFA Conference League | DVSC: lastSeen 2026-08-11->2026-08-12
+- [32] Europe | UEFA Conference League | GKS Katowice: lastSeen 2026-08-11->2026-08-12
+- [33] Europe | UEFA Conference League | H. Tel Aviv: lastSeen 2026-08-11->2026-08-12
+- [36] Europe | UEFA Conference League | Panathinaikos: lastSeen 2026-08-11->2026-08-12
+- [41] Netherlands | Eerste Divisie | Jong AZ: fotmob ID None->'681217'; fotmob status pending->mapped; soccerRating ID None->'11692'; soccerRating status pending->mapped
+- [42] Netherlands | Eerste Divisie | Jong PSV: fotmob ID None->'455494'; fotmob status pending->mapped; soccerRating ID None->'4605'; soccerRating status pending->mapped
+- [64] Argentina | Liga Profesional | Aldosivi: soccerRating ID '44'->'w44'
+- [65] Argentina | Liga Profesional | Argentinos Jrs.: soccerRating ID '16'->'w16'
+- [66] Argentina | Liga Profesional | Atlético Tucumán: soccerRating ID '231'->'w231'
+- [67] Argentina | Liga Profesional | Barracas: soccerRating ID '2614'->'w2614'
+- [68] Argentina | Liga Profesional | Boca Juniors: soccerRating ID '6'->'w6'
+- [69] Argentina | Liga Profesional | Def y Justicia: soccerRating ID '47'->'w47'
+- [70] Argentina | Liga Profesional | Dep. Riestra: soccerRating ID '2458'->'w2458'
+- [71] Argentina | Liga Profesional | Estudiantes: soccerRating ID '4'->'w4'
+- [72] Argentina | Liga Profesional | Gimnasia: soccerRating ID '15'->'w15'
+- [73] Argentina | Liga Profesional | Gimnasia Mendoza: soccerRating ID '4386'->'w4386'
+- [74] Argentina | Liga Profesional | Huracán: soccerRating ID '230'->'w230'
+- [75] Argentina | Liga Profesional | Ind. Rivadavia: soccerRating ID '125'->'w125'
+- [76] Argentina | Liga Profesional | Independiente: soccerRating ID '232'->'w232'
+- [77] Argentina | Liga Profesional | Instituto: soccerRating ID '48'->'w48'
+- [78] Argentina | Liga Profesional | Newell´s Old Boys: Sofascore ''->'3212'; soccerRating ID '14'->'w14'
+- [79] Argentina | Liga Profesional | Platense: soccerRating ID '43'->'w43'
+- [80] Argentina | Liga Profesional | Racing: soccerRating ID '10'->'w10'
+- [81] Argentina | Liga Profesional | River Plate: soccerRating ID '3'->'w3'
+- [82] Argentina | Liga Profesional | Rosario Central: soccerRating ID '229'->'w229'
+- [83] Argentina | Liga Profesional | San Lorenzo: soccerRating ID '5'->'w5'
+- [84] Argentina | Liga Profesional | Sarmiento: soccerRating ID '2708'->'w2708'
+- [85] Argentina | Liga Profesional | Tigre: soccerRating ID '7'->'w7'
+- [86] Argentina | Liga Profesional | Vélez Sarsfield: soccerRating ID '8'->'w8'
+- [87] Argentina | Liga Profesional, Clausura | Estudiantes R.C.: soccerRating ID '6169'->'w6169'
+- [88] Argentina | Liga Profesional, Clausura | Newell's: soccerRating ID '14'->'w14'
+- [116] Brazil | Brasileirao Serie A | Athletico: soccerRating ID '85'->'w85'
+- [117] Brazil | Brasileirao Serie A | Atlético-MG: soccerRating ID '100'->'w100'
+- [118] Brazil | Brasileirao Serie A | Bahia: soccerRating ID '1151'->'w1151'
+- [119] Brazil | Brasileirao Serie A | Botafogo: soccerRating ID '86'->'w86'
+- [120] Brazil | Brasileirao Serie A | Chapecoense: soccerRating ID '1491'->'w1491'
+- [121] Brazil | Brasileirao Serie A | Corinthians: soccerRating ID '89'->'w89'
+- [122] Brazil | Brasileirao Serie A | Coritiba: soccerRating ID '92'->'w92'
+- [123] Brazil | Brasileirao Serie A | Cruzeiro: soccerRating ID '91'->'w91'
+- [124] Brazil | Brasileirao Serie A | Flamengo: soccerRating ID '90'->'w90'
+- [125] Brazil | Brasileirao Serie A | Fluminense: soccerRating ID '93'->'w93'
+- [126] Brazil | Brasileirao Serie A | Grêmio: soccerRating ID '97'->'w97'
+- [127] Brazil | Brasileirao Serie A | Internacional: soccerRating ID '104'->'w104'
+- [128] Brazil | Brasileirao Serie A | Mirassol: soccerRating ID '649'->'w649'
+- [129] Brazil | Brasileirao Serie A | Palmeiras: soccerRating ID '99'->'w99'
+- [130] Brazil | Brasileirao Serie A | RB Bragantino: soccerRating ID '646'->'w646'
+- [131] Brazil | Brasileirao Serie A | Remo: soccerRating ID '2645'->'w2645'
+- [132] Brazil | Brasileirao Serie A | Santos: soccerRating ID '88'->'w88'
+- [133] Brazil | Brasileirao Serie A | São Paulo: soccerRating ID '96'->'w96'
+- [134] Brazil | Brasileirao Serie A | Vasco: soccerRating ID '42'->'w42'
+- [135] Brazil | Brasileirao Serie A | Vitória: soccerRating ID '94'->'w94'
+- [145] Croatia | HNL | Dinamo Zagreb: Sofascore ''->'2032'; fotmob ID None->'10156'; fotmob status pending->mapped; soccerRating ID None->'484'; soccerRating status pending->mapped
+- [385] Netherlands | Eerste Divisie | AZ Alkmaar B: Sofascore ''->'46161'
+- [395] Netherlands | Eerste Divisie | PSV B: Sofascore ''->'46168'
+- [419] Norway | Eliteserien | Bodo/Glimt: Sofascore ''->'656'; fotmob ID None->'8402'; fotmob status pending->mapped; soccerRating ID None->'114'; soccerRating status pending->mapped
+- [420] Norway | Eliteserien | Brann: Sofascore ''->'1159'; fotmob ID None->'8468'; fotmob status pending->mapped; soccerRating ID None->'81'; soccerRating status pending->mapped
+- [460] Portugal | Liga 3, Group A | Vitória B: fotmob ID '7733'->'338305'; soccerRating ID '1089'->'19119'
+- [486] Portugal | Liga Portugal | Vitória: fotmob ID '7733'->'7844'
+- [497] Portugal | Liga Portugal 2 | Sporting B U21: fotmob ID '9768'->'338301'; soccerRating ID '1083'->'8037'
+- [559] Slovakia | Niké Liga | Slovan Bratislava: Sofascore ''->'2404'; fotmob ID None->'6019'; fotmob status pending->mapped; soccerRating ID None->'37'; soccerRating status pending->mapped
+- [568] Slovenia | PrvaLiga | NK Celje: Sofascore ''->'2413'; fotmob ID None->'4622'; fotmob status pending->mapped; soccerRating ID None->'1131'; soccerRating status pending->mapped
+- [627] Switzerland | Super League | FC Basel: fotmob ID 9931->'9931'; soccerRating ID 199->'199'
+- [628] Switzerland | Super League | FC Lugano: fotmob ID 7896->'7896'; soccerRating ID 1125->'1125'
+- [629] Switzerland | Super League | FC Sion: fotmob ID 10179->'10179'; soccerRating ID 196->'196'
+- [630] Switzerland | Super League | FC St. Gallen: fotmob ID 10190->'10190'; soccerRating ID 192->'192'
+- [631] Switzerland | Super League | FC Thun: fotmob ID 10191->'10191'; soccerRating ID 195->'195'
+- [632] Switzerland | Super League | FC Vaduz: fotmob ID 9824->'9824'; soccerRating ID 505->'505'
+- [633] Switzerland | Super League | FC Zurich: fotmob ID 10243->'10243'; soccerRating ID 200->'200'
+- [634] Switzerland | Super League | Grasshoppers: fotmob ID 9956->'9956'; soccerRating ID 191->'191'
+- [635] Switzerland | Super League | Lausanne-Sport: fotmob ID 7730->'7730'; soccerRating ID 1124->'1124'
+- [636] Switzerland | Super League | Luzern: fotmob ID 10199->'10199'; soccerRating ID 193->'193'
+- [637] Switzerland | Super League | Servette: fotmob ID 9777->'9777'; soccerRating ID 1127->'1127'
+- [638] Switzerland | Super League | Young Boys: fotmob ID 10192->'10192'; soccerRating ID 198->'198'
