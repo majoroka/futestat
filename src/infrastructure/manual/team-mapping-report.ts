@@ -1,17 +1,36 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 import { DEFAULT_ALLOWED_COMPETITIONS } from "../../config/competition-whitelist.js";
+import type { CompetitionStandingsSnapshot } from "../../domain/competition-standings.js";
 import type {
   TeamMappingCompetitionReport,
   TeamMappingReport,
   TeamMappingTeamReport,
 } from "../../domain/team-mapping-report.js";
-import type { TeamSourceRegistry } from "../../domain/team-source-registry.js";
+import type {
+  TeamSourceRegistry,
+  TeamSourceRegistryEntry,
+} from "../../domain/team-source-registry.js";
+import {
+  findBestTeamNameMatch,
+  type TeamNameMatchMethod,
+} from "../../lib/team-name-matcher.js";
+
+const STANDINGS_TEAM_NAME_CANONICAL_BY_COMPETITION = new Map<string, Map<string, string>>([
+  [
+    "211",
+    new Map([
+      ["dukla", "Banská Bystrica"],
+      ["slovan bratislava", "Slovan"],
+    ]),
+  ],
+]);
 
 export interface GenerateTeamMappingReportOptions {
   registryPath?: string;
   outputPath?: string;
+  standingsDir?: string;
   write: boolean;
 }
 
@@ -28,55 +47,25 @@ export async function generateTeamMappingReport(
     repoRoot,
     options.registryPath ?? path.join("data", "team-source-registry.json"),
   );
+  const standingsDir = path.resolve(
+    repoRoot,
+    options.standingsDir ?? path.join("data", "fixtures", "standings"),
+  );
+
   const registry = await readJsonRequired<TeamSourceRegistry>(
     registryPath,
     `Team source registry not found at ${registryPath}.`,
   );
+  const standingsMap = await readStandingsSnapshots(standingsDir);
 
-  const competitionMap = new Map<string, TeamMappingCompetitionReport>();
-  seedWhitelistCompetitions(competitionMap);
-
-  for (const entry of registry.entries) {
-    const competitionKey = buildCompetitionKey(
-      entry.competitionId,
-      entry.competitionName,
-      entry.countryName,
-    );
-    let competition = competitionMap.get(competitionKey);
-
-    if (!competition) {
-      competition = {
-        competitionId: entry.competitionId,
-        competitionName: entry.competitionName,
-        countryName: entry.countryName,
-        seededFromWhitelist: false,
-        hasRegistryEntries: false,
-        teamCount: 0,
-        activeTeams: 0,
-        coverage: {
-          complete: 0,
-          partial: 0,
-          missing: 0,
-          fotmobMapped: 0,
-          soccerRatingMapped: 0,
-        },
-        teams: [],
-      };
-      competitionMap.set(competitionKey, competition);
-    }
-
-    competition.hasRegistryEntries = true;
-    if (!competition.competitionName && entry.competitionName) {
-      competition.competitionName = entry.competitionName;
-    }
-    if (!competition.countryName && entry.countryName) {
-      competition.countryName = entry.countryName;
-    }
-    competition.teams.push(entryToTeamReport(entry));
-  }
-
-  const competitions = Array.from(competitionMap.values())
-    .map(finalizeCompetition)
+  const competitions = DEFAULT_ALLOWED_COMPETITIONS
+    .map((competition) =>
+      buildCompetitionReport(
+        competition,
+        standingsMap.get(competition.competitionId) ?? null,
+        registry,
+      ),
+    )
     .sort(compareCompetitions);
 
   const report: TeamMappingReport = {
@@ -86,7 +75,7 @@ export async function generateTeamMappingReport(
     registryPath: toProjectRelativePath(repoRoot, registryPath),
     summary: {
       competitions: competitions.length,
-      whitelistCompetitions: competitions.filter((competition) => competition.seededFromWhitelist).length,
+      whitelistCompetitions: competitions.length,
       competitionsWithRegistryEntries: competitions.filter((competition) => competition.hasRegistryEntries).length,
       competitionsWithoutRegistryEntries: competitions.filter((competition) => !competition.hasRegistryEntries).length,
       teams: competitions.reduce((total, competition) => total + competition.teamCount, 0),
@@ -126,7 +115,59 @@ export async function generateTeamMappingReport(
   };
 }
 
-function entryToTeamReport(entry: TeamSourceRegistry["entries"][number]): TeamMappingTeamReport {
+function buildCompetitionReport(
+  competition: (typeof DEFAULT_ALLOWED_COMPETITIONS)[number],
+  standings: CompetitionStandingsSnapshot | null,
+  registry: TeamSourceRegistry,
+): TeamMappingCompetitionReport {
+  const directRegistryEntries = registry.entries.filter(
+    (entry) => entry.competitionId === competition.competitionId,
+  );
+
+  const teams = standings
+    ? extractTeamNamesFromStandings(standings).map((teamName) => {
+      const matched = findRegistryEntry(
+        registry,
+        competition.competitionId,
+        competition.countryName,
+        teamName,
+      );
+
+      if (!matched) {
+        return createMissingTeamReport(teamName);
+      }
+
+      return entryToTeamReport(matched.entry, teamName);
+    })
+    : directRegistryEntries.map((entry) => entryToTeamReport(entry));
+
+  const hasRegistryEntries =
+    directRegistryEntries.length > 0 ||
+    teams.some((team) => team.mappingState !== "missing");
+
+  return finalizeCompetition({
+    competitionId: competition.competitionId,
+    competitionName: competition.competitionName,
+    countryName: competition.countryName,
+    seededFromWhitelist: true,
+    hasRegistryEntries,
+    teamCount: 0,
+    activeTeams: 0,
+    coverage: {
+      complete: 0,
+      partial: 0,
+      missing: 0,
+      fotmobMapped: 0,
+      soccerRatingMapped: 0,
+    },
+    teams,
+  });
+}
+
+function entryToTeamReport(
+  entry: TeamSourceRegistryEntry,
+  displayTeamName = entry.teamName,
+): TeamMappingTeamReport {
   const fotmobMapped = entry.sources.fotmob.status === "mapped";
   const soccerRatingMapped = entry.sources.soccerRating.status === "mapped";
   const mappingState = fotmobMapped && soccerRatingMapped
@@ -145,7 +186,7 @@ function entryToTeamReport(entry: TeamSourceRegistry["entries"][number]): TeamMa
 
   return {
     sofascoreTeamId: entry.sofascoreTeamId,
-    teamName: entry.teamName,
+    teamName: displayTeamName,
     activeInCurrentWindow: entry.activeInCurrentWindow,
     fixtureAppearancesInCurrentWindow: entry.fixtureAppearancesInCurrentWindow,
     firstSeenReferenceDate: entry.firstSeenReferenceDate,
@@ -168,6 +209,82 @@ function entryToTeamReport(entry: TeamSourceRegistry["entries"][number]): TeamMa
     },
     mappingState,
     recommendedNextSteps,
+  };
+}
+
+function createMissingTeamReport(teamName: string): TeamMappingTeamReport {
+  return {
+    sofascoreTeamId: "",
+    teamName,
+    activeInCurrentWindow: false,
+    fixtureAppearancesInCurrentWindow: 0,
+    firstSeenReferenceDate: "",
+    lastSeenReferenceDate: "",
+    sources: {
+      fotmob: {
+        status: "pending",
+        sourceTeamId: null,
+        teamSlug: null,
+        url: null,
+        notes: null,
+      },
+      soccerRating: {
+        status: "pending",
+        sourceTeamId: null,
+        teamSlug: null,
+        url: null,
+        notes: null,
+      },
+    },
+    mappingState: "missing",
+    recommendedNextSteps: ["map_fotmob", "map_soccer_rating"],
+  };
+}
+
+function findRegistryEntry(
+  registry: TeamSourceRegistry,
+  competitionId: string,
+  countryName: string,
+  teamName: string,
+): { entry: TeamSourceRegistryEntry; matchMethod: TeamNameMatchMethod } | null {
+  const sameCompetition = matchRegistryEntries(
+    registry.entries.filter((entry) => entry.competitionId === competitionId),
+    teamName,
+  );
+  if (sameCompetition) {
+    return sameCompetition;
+  }
+
+  const sameCountry = matchRegistryEntries(
+    registry.entries.filter((entry) => entry.countryName === countryName),
+    teamName,
+  );
+  if (sameCountry) {
+    return sameCountry;
+  }
+
+  return matchRegistryEntries(registry.entries, teamName);
+}
+
+function matchRegistryEntries(
+  entries: TeamSourceRegistryEntry[],
+  teamName: string,
+): { entry: TeamSourceRegistryEntry; matchMethod: TeamNameMatchMethod } | null {
+  const bestMatch = findBestTeamNameMatch(
+    teamName,
+    entries.map((entry) => ({
+      candidate: entry,
+      name: entry.teamName,
+    })),
+  );
+
+  if (!bestMatch) {
+    return null;
+  }
+
+  return {
+    entry: bestMatch.candidate,
+    matchMethod: bestMatch.matchMethod,
   };
 }
 
@@ -205,38 +322,74 @@ function finalizeCompetition(competition: TeamMappingCompetitionReport): TeamMap
   return competition;
 }
 
-function seedWhitelistCompetitions(
-  competitionMap: Map<string, TeamMappingCompetitionReport>,
-): void {
-  for (const competition of DEFAULT_ALLOWED_COMPETITIONS) {
-    const key = buildCompetitionKey(
-      competition.competitionId,
-      competition.competitionName,
-      competition.countryName,
-    );
+function extractTeamNamesFromStandings(snapshot: CompetitionStandingsSnapshot): string[] {
+  const teams = new Set<string>();
 
-    if (competitionMap.has(key)) {
-      continue;
+  for (const table of snapshot.tables ?? []) {
+    for (const row of table.rows ?? []) {
+      const teamName = canonicalizeStandingsTeamName(
+        snapshot.competitionId,
+        String(row.teamName ?? "").trim(),
+      );
+      if (teamName) {
+        teams.add(teamName);
+      }
     }
-
-    competitionMap.set(key, {
-      competitionId: competition.competitionId,
-      competitionName: competition.competitionName,
-      countryName: competition.countryName,
-      seededFromWhitelist: true,
-      hasRegistryEntries: false,
-      teamCount: 0,
-      activeTeams: 0,
-      coverage: {
-        complete: 0,
-        partial: 0,
-        missing: 0,
-        fotmobMapped: 0,
-        soccerRatingMapped: 0,
-      },
-      teams: [],
-    });
   }
+
+  return Array.from(teams);
+}
+
+function canonicalizeStandingsTeamName(
+  competitionId: string | null,
+  teamName: string,
+): string {
+  if (!competitionId || !teamName) {
+    return teamName;
+  }
+
+  const competitionAliases = STANDINGS_TEAM_NAME_CANONICAL_BY_COMPETITION.get(competitionId);
+  if (!competitionAliases) {
+    return teamName;
+  }
+
+  return competitionAliases.get(normalizeAliasKey(teamName)) ?? teamName;
+}
+
+function normalizeAliasKey(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9]+/g, " ")
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, " ");
+}
+
+async function readStandingsSnapshots(
+  standingsDir: string,
+): Promise<Map<string, CompetitionStandingsSnapshot>> {
+  const map = new Map<string, CompetitionStandingsSnapshot>();
+
+  try {
+    const files = await readdir(standingsDir);
+
+    for (const fileName of files) {
+      if (!fileName.endsWith(".json")) {
+        continue;
+      }
+
+      const filePath = path.join(standingsDir, fileName);
+      const snapshot = await readJsonOptional<CompetitionStandingsSnapshot>(filePath);
+      if (snapshot?.competitionId) {
+        map.set(snapshot.competitionId, snapshot);
+      }
+    }
+  } catch {
+    return map;
+  }
+
+  return map;
 }
 
 function compareCompetitions(
@@ -277,24 +430,21 @@ function mappingPriority(value: TeamMappingTeamReport["mappingState"]): number {
   }
 }
 
-function buildCompetitionKey(
-  competitionId: string | null,
-  competitionName: string | null,
-  countryName: string | null,
-): string {
-  if (competitionId) {
-    return `id::${competitionId}`;
-  }
-
-  return [competitionId ?? "", competitionName ?? "", countryName ?? ""].join("::");
-}
-
 async function readJsonRequired<T>(filePath: string, missingMessage: string): Promise<T> {
   try {
     const raw = await readFile(filePath, "utf8");
     return JSON.parse(raw) as T;
   } catch {
     throw new Error(missingMessage);
+  }
+}
+
+async function readJsonOptional<T>(filePath: string): Promise<T | null> {
+  try {
+    const raw = await readFile(filePath, "utf8");
+    return JSON.parse(raw) as T;
+  } catch {
+    return null;
   }
 }
 

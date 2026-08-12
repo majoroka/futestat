@@ -21,6 +21,16 @@ const INVENTORY_NAME_ALIASES_BY_COMPETITION = new Map<string, string[]>([
   ["211:dukla", ["Banská Bystrica"]],
 ]);
 
+const STANDINGS_TEAM_NAME_CANONICAL_BY_COMPETITION = new Map<string, Map<string, string>>([
+  [
+    "211",
+    new Map([
+      ["dukla", "Banská Bystrica"],
+      ["slovan bratislava", "Slovan"],
+    ]),
+  ],
+]);
+
 export interface GenerateTeamInventoryReportOptions {
   registryPath?: string;
   standingsDir?: string;
@@ -236,7 +246,10 @@ function extractTeamNamesFromStandings(snapshot: CompetitionStandingsSnapshot): 
 
   for (const table of snapshot.tables ?? []) {
     for (const row of table.rows ?? []) {
-      const teamName = String(row.teamName ?? "").trim();
+      const teamName = canonicalizeStandingsTeamName(
+        snapshot.competitionId,
+        String(row.teamName ?? "").trim(),
+      );
       if (teamName) {
         teams.add(teamName);
       }
@@ -244,6 +257,22 @@ function extractTeamNamesFromStandings(snapshot: CompetitionStandingsSnapshot): 
   }
 
   return Array.from(teams);
+}
+
+function canonicalizeStandingsTeamName(
+  competitionId: string | null,
+  teamName: string,
+): string {
+  if (!competitionId || !teamName) {
+    return teamName;
+  }
+
+  const competitionAliases = STANDINGS_TEAM_NAME_CANONICAL_BY_COMPETITION.get(competitionId);
+  if (!competitionAliases) {
+    return teamName;
+  }
+
+  return competitionAliases.get(normalizeAliasKey(teamName)) ?? teamName;
 }
 
 function extractTeamsFromRegistry(

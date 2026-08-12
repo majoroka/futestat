@@ -1,16 +1,16 @@
 {
   "source": "whitelist-plus-standings",
-  "generatedAtUtc": "2026-08-11T20:06:03.321Z",
+  "generatedAtUtc": "2026-08-12T14:21:01.091Z",
   "referenceDate": "2026-08-11",
   "registryPath": "data/team-source-registry.json",
   "standingsDir": "data/fixtures/standings",
   "summary": {
     "competitions": 42,
-    "competitionsWithStandings": 17,
-    "competitionsWithoutStandings": 25,
-    "teams": 406,
-    "matchedRegistryTeams": 401,
-    "missingRegistryTeams": 5
+    "competitionsWithStandings": 18,
+    "competitionsWithoutStandings": 24,
+    "teams": 418,
+    "matchedRegistryTeams": 418,
+    "missingRegistryTeams": 0
   },
   "competitions": [
     {
@@ -1336,9 +1336,29 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/170.json",
       "teamCount": 10,
-      "matchedRegistryTeams": 9,
-      "missingRegistryTeams": 1,
+      "matchedRegistryTeams": 10,
+      "missingRegistryTeams": 0,
       "teams": [
+        {
+          "inventoryTeamName": "Dinamo Zagreb",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Dinamo Zagreb",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
         {
           "inventoryTeamName": "Hajduk Split",
           "source": "standings",
@@ -1516,26 +1536,6 @@
               "status": "mapped",
               "sourceTeamId": "541",
               "url": "https://www.soccer-rating.com/NK-Slaven-Koprivnica/541/"
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Dinamo Zagreb",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
             }
           }
         }
@@ -3236,8 +3236,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/20.json",
       "teamCount": 16,
-      "matchedRegistryTeams": 14,
-      "missingRegistryTeams": 2,
+      "matchedRegistryTeams": 16,
+      "missingRegistryTeams": 0,
       "teams": [
         {
           "inventoryTeamName": "Aalesund",
@@ -3256,6 +3256,46 @@
               "status": "mapped",
               "sourceTeamId": "84",
               "url": "https://www.soccer-rating.com/Aalesunds-FK/84/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Bodo/Glimt",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Bodo/Glimt",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Brann",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Brann",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
             }
           }
         },
@@ -3516,46 +3556,6 @@
               "status": "mapped",
               "sourceTeamId": "72",
               "url": "https://www.soccer-rating.com/Viking-Stavanger/72/"
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Bodo/Glimt",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "Brann",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
             }
           }
         }
@@ -4976,8 +4976,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/211.json",
       "teamCount": 12,
-      "matchedRegistryTeams": 11,
-      "missingRegistryTeams": 1,
+      "matchedRegistryTeams": 12,
+      "missingRegistryTeams": 0,
       "teams": [
         {
           "inventoryTeamName": "AS Trencin",
@@ -5000,10 +5000,10 @@
           }
         },
         {
-          "inventoryTeamName": "Dukla",
+          "inventoryTeamName": "Banská Bystrica",
           "source": "standings",
           "matchedRegistry": true,
-          "matchMethod": "heuristic_name",
+          "matchMethod": "normalized_name",
           "sofascoreTeamId": "4503",
           "registryTeamName": "Banská Bystrica",
           "sources": {
@@ -5160,6 +5160,26 @@
           }
         },
         {
+          "inventoryTeamName": "Slovan",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "2404",
+          "registryTeamName": "Slovan",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6019",
+              "url": "https://www.fotmob.com/teams/6019/stats/slovan-bratislava/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "37",
+              "url": "https://www.soccer-rating.com/Slovan-Bratislava/37/"
+            }
+          }
+        },
+        {
           "inventoryTeamName": "Spartak Trnava",
           "source": "standings",
           "matchedRegistry": true,
@@ -5198,26 +5218,6 @@
               "url": "https://www.soccer-rating.com/MFK-Zemplin-Michalovce/756/"
             }
           }
-        },
-        {
-          "inventoryTeamName": "Slovan Bratislava",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            }
-          }
         }
       ]
     },
@@ -5228,8 +5228,8 @@
       "hasStandingsSnapshot": true,
       "standingsPath": "data/fixtures/standings/212.json",
       "teamCount": 10,
-      "matchedRegistryTeams": 9,
-      "missingRegistryTeams": 1,
+      "matchedRegistryTeams": 10,
+      "missingRegistryTeams": 0,
       "teams": [
         {
           "inventoryTeamName": "Brinje Grosuplje",
@@ -5352,6 +5352,26 @@
           }
         },
         {
+          "inventoryTeamName": "NK Celje",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "NK Celje",
+          "sources": {
+            "fotmob": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            },
+            "soccerRating": {
+              "status": "pending",
+              "sourceTeamId": null,
+              "url": null
+            }
+          }
+        },
+        {
           "inventoryTeamName": "NK Radomlje",
           "source": "standings",
           "matchedRegistry": true,
@@ -5408,26 +5428,6 @@
               "status": "mapped",
               "sourceTeamId": "4540",
               "url": "https://www.soccer-rating.com/NK-Olimpija-Ljubljana/4540/"
-            }
-          }
-        },
-        {
-          "inventoryTeamName": "NK Celje",
-          "source": "standings",
-          "matchedRegistry": false,
-          "matchMethod": null,
-          "sofascoreTeamId": null,
-          "registryTeamName": null,
-          "sources": {
-            "fotmob": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
-            },
-            "soccerRating": {
-              "status": "unknown",
-              "sourceTeamId": null,
-              "url": null
             }
           }
         }
@@ -5880,6 +5880,258 @@
               "status": "mapped",
               "sourceTeamId": "1060",
               "url": "https://www.soccer-rating.com/Real-Valladolid/1060/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "competitionId": "46",
+      "competitionName": "Super League",
+      "countryName": "Switzerland",
+      "hasStandingsSnapshot": true,
+      "standingsPath": "data/fixtures/standings/46.json",
+      "teamCount": 12,
+      "matchedRegistryTeams": 12,
+      "missingRegistryTeams": 0,
+      "teams": [
+        {
+          "inventoryTeamName": "FC Basel",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "FC Basel",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": 9931,
+              "url": "https://www.fotmob.com/teams/9931/overview/fc-basel-1893"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": 199,
+              "url": "https://www.soccer-rating.com/FC-Basel/199/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "FC Lugano",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "FC Lugano",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": 7896,
+              "url": "https://www.fotmob.com/teams/7896/overview/lugano"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": 1125,
+              "url": "https://www.soccer-rating.com/AC-Lugano/1125/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "FC Sion",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "FC Sion",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": 10179,
+              "url": "https://www.fotmob.com/teams/10179/overview/sion"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": 196,
+              "url": "https://www.soccer-rating.com/FC-Sion/196/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "FC St. Gallen",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "FC St. Gallen",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": 10190,
+              "url": "https://www.fotmob.com/teams/10190/overview/st-gallen"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": 192,
+              "url": "https://www.soccer-rating.com/FC-St-Gallen/192/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "FC Thun",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "FC Thun",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": 10191,
+              "url": "https://www.fotmob.com/teams/10191/stats/thun"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": 195,
+              "url": "https://www.soccer-rating.com/FC-Thun/195/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "FC Vaduz",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "FC Vaduz",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": 9824,
+              "url": "https://www.fotmob.com/teams/9824/squad/fc-vaduz/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": 505,
+              "url": "https://www.soccer-rating.com/FC-Vaduz/505/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "FC Zurich",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "FC Zurich",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": 10243,
+              "url": "https://www.fotmob.com/teams/10243/overview/fc-zurich/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": 200,
+              "url": "https://www.soccer-rating.com/FC-Zuerich/200/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Grasshoppers",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Grasshoppers",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": 9956,
+              "url": "https://www.fotmob.com/teams/9956/squad/grasshopper"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": 191,
+              "url": "https://www.soccer-rating.com/Grasshoppers-Zuerich/191/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Lausanne-Sport",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Lausanne-Sport",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": 7730,
+              "url": "https://www.fotmob.com/teams/7730/overview/fc-lausanne-sport"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": 1124,
+              "url": "https://www.soccer-rating.com/FC-Lausanne-Sport/1124/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Luzern",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Luzern",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": 10199,
+              "url": "https://www.fotmob.com/teams/10199/overview/fc-luzern"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": 193,
+              "url": "https://www.soccer-rating.com/FC-Luzern/193/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Servette",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Servette",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": 9777,
+              "url": "https://www.fotmob.com/teams/9777/overview/servette"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": 1127,
+              "url": "https://www.soccer-rating.com/Servette-FC/1127/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Young Boys",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": null,
+          "registryTeamName": "Young Boys",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": 10192,
+              "url": "https://www.fotmob.com/teams/10192/overview/young-boys/players"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": 198,
+              "url": "https://www.soccer-rating.com/Young-Boys-Bern/198/"
             }
           }
         }
@@ -8592,17 +8844,6 @@
       "competitionId": "43",
       "competitionName": "Allsvenskan",
       "countryName": "Sweden",
-      "hasStandingsSnapshot": false,
-      "standingsPath": null,
-      "teamCount": 0,
-      "matchedRegistryTeams": 0,
-      "missingRegistryTeams": 0,
-      "teams": []
-    },
-    {
-      "competitionId": "215",
-      "competitionName": "Super League",
-      "countryName": "Switzerland",
       "hasStandingsSnapshot": false,
       "standingsPath": null,
       "teamCount": 0,

@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-08-11T20:05:15.393Z",
+  "generatedAtUtc": "2026-08-12T14:18:54.833Z",
   "referenceDate": "2026-08-11",
   "snapshotPath": "data/fixtures/latest.json",
   "entries": [
@@ -4354,6 +4354,36 @@
       }
     },
     {
+      "sofascoreTeamId": "",
+      "teamName": "Dinamo Zagreb",
+      "countryName": "Croatia",
+      "competitionId": "170",
+      "competitionName": "HNL",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "dinamo-zagreb",
+          "competitionId": "170",
+          "competitionSlug": "hnl",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "dinamo-zagreb",
+          "countrySlug": "croatia",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
       "sofascoreTeamId": "43917",
       "teamName": "Gorica",
       "countryName": "Croatia",
@@ -7924,6 +7954,66 @@
       }
     },
     {
+      "sofascoreTeamId": "",
+      "teamName": "Bodo/Glimt",
+      "countryName": "Norway",
+      "competitionId": "20",
+      "competitionName": "Eliteserien",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "bodo-glimt",
+          "competitionId": "20",
+          "competitionSlug": "eliteserien",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "bodo-glimt",
+          "countrySlug": "norway",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "Brann",
+      "countryName": "Norway",
+      "competitionId": "20",
+      "competitionName": "Eliteserien",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "brann",
+          "competitionId": "20",
+          "competitionSlug": "eliteserien",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "brann",
+          "countrySlug": "norway",
+          "url": null,
+          "notes": null
+        }
+      }
+    },
+    {
       "sofascoreTeamId": "687",
       "teamName": "Fredrikstad",
       "countryName": "Norway",
@@ -10594,36 +10684,6 @@
       }
     },
     {
-      "sofascoreTeamId": "",
-      "teamName": "Dukla",
-      "countryName": "Slovakia",
-      "competitionId": "211",
-      "competitionName": "Niké Liga",
-      "activeInCurrentWindow": false,
-      "fixtureAppearancesInCurrentWindow": 0,
-      "firstSeenReferenceDate": "2026-08-11",
-      "lastSeenReferenceDate": "2026-08-11",
-      "sources": {
-        "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dukla",
-          "competitionId": "211",
-          "competitionSlug": "nike-liga",
-          "url": null,
-          "notes": null
-        },
-        "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dukla",
-          "countrySlug": "slovakia",
-          "url": null,
-          "notes": null
-        }
-      }
-    },
-    {
       "sofascoreTeamId": "2406",
       "teamName": "FC Spartak Trnava",
       "countryName": "Slovakia",
@@ -10829,6 +10889,36 @@
           "teamSlug": "mfk-skalica",
           "countrySlug": "slovakia",
           "url": "https://www.soccer-rating.com/MFK-Skalica/8750/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2404",
+      "teamName": "Slovan",
+      "countryName": "Slovakia",
+      "competitionId": "211",
+      "competitionName": "Niké Liga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "6019",
+          "teamSlug": "slovan-bratislava",
+          "competitionId": "211",
+          "competitionSlug": "nike-liga",
+          "url": "https://www.fotmob.com/teams/6019/stats/slovan-bratislava/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "37",
+          "teamSlug": "slovan-bratislava",
+          "countrySlug": "slovakia",
+          "url": "https://www.soccer-rating.com/Slovan-Bratislava/37/",
           "notes": null
         }
       }
@@ -11069,6 +11159,36 @@
           "teamSlug": "nk-nafta-lendava",
           "countrySlug": "slovenia",
           "url": "https://www.soccer-rating.com/NK-Nafta-Lendava/1114/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "",
+      "teamName": "NK Celje",
+      "countryName": "Slovenia",
+      "competitionId": "212",
+      "competitionName": "PrvaLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "nk-celje",
+          "competitionId": "212",
+          "competitionSlug": "prvaliga",
+          "url": null,
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "pending",
+          "sourceTeamId": null,
+          "teamSlug": "nk-celje",
+          "countrySlug": "slovenia",
+          "url": null,
           "notes": null
         }
       }

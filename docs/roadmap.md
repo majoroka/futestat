@@ -143,7 +143,6 @@ Regra operacional:
 - `Brasil | Brasileirão Betano`
 - `Bulgária | Parva Liga`
 - `Croácia | HNL`
-- `Chéquia | Chance Liga`
 - `Áustria | Bundesliga`
 - `Alemanha | Bundesliga`
 - `Bélgica | Pro League`
@@ -167,6 +166,8 @@ Regra operacional:
 - `Ucrânia | Premier League`
 
 #### Em curso
+
+- `Chéquia | Chance Liga`
 
 #### Por semear ou mapear
 

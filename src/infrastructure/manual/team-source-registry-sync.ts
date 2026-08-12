@@ -10,6 +10,16 @@ import type {
 } from "../../domain/team-source-registry.js";
 import { findBestTeamNameMatch } from "../../lib/team-name-matcher.js";
 
+const STANDINGS_TEAM_NAME_CANONICAL_BY_COMPETITION = new Map<string, Map<string, string>>([
+  [
+    "211",
+    new Map([
+      ["dukla", "Banská Bystrica"],
+      ["slovan bratislava", "Slovan"],
+    ]),
+  ],
+]);
+
 export interface SyncTeamSourceRegistryOptions {
   snapshotPath?: string;
   registryPath?: string;
@@ -384,7 +394,10 @@ function extractTeamNamesFromStandings(snapshot: CompetitionStandingsSnapshot): 
 
   for (const table of snapshot.tables ?? []) {
     for (const row of table.rows ?? []) {
-      const teamName = String(row.teamName ?? "").trim();
+      const teamName = canonicalizeStandingsTeamName(
+        snapshot.competitionId,
+        String(row.teamName ?? "").trim(),
+      );
       if (teamName) {
         teams.add(teamName);
       }
@@ -392,6 +405,22 @@ function extractTeamNamesFromStandings(snapshot: CompetitionStandingsSnapshot): 
   }
 
   return Array.from(teams);
+}
+
+function canonicalizeStandingsTeamName(
+  competitionId: string | null,
+  teamName: string,
+): string {
+  if (!competitionId || !teamName) {
+    return teamName;
+  }
+
+  const competitionAliases = STANDINGS_TEAM_NAME_CANONICAL_BY_COMPETITION.get(competitionId);
+  if (!competitionAliases) {
+    return teamName;
+  }
+
+  return competitionAliases.get(normalizeToken(teamName)) ?? teamName;
 }
 
 function compareRegistryEntries(left: TeamSourceRegistryEntry, right: TeamSourceRegistryEntry): number {
