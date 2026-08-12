@@ -1,20 +1,20 @@
 {
   "source": "team-source-registry",
-  "generatedAtUtc": "2026-08-12T15:23:59.338Z",
+  "generatedAtUtc": "2026-08-12T15:27:49.187Z",
   "referenceDate": "2026-08-11",
   "registryPath": "data/team-source-registry.json",
   "summary": {
     "competitions": 42,
     "whitelistCompetitions": 42,
-    "competitionsWithRegistryEntries": 36,
-    "competitionsWithoutRegistryEntries": 6,
-    "teams": 564,
+    "competitionsWithRegistryEntries": 37,
+    "competitionsWithoutRegistryEntries": 5,
+    "teams": 582,
     "activeTeams": 62,
-    "complete": 541,
+    "complete": 559,
     "partial": 0,
     "missing": 23,
-    "fotmobMapped": 541,
-    "soccerRatingMapped": 541
+    "fotmobMapped": 559,
+    "soccerRatingMapped": 559
   },
   "competitions": [
     {
@@ -11056,6 +11056,492 @@
       ]
     },
     {
+      "competitionId": "47",
+      "competitionName": "Ekstraklasa",
+      "countryName": "Poland",
+      "seededFromWhitelist": true,
+      "hasRegistryEntries": true,
+      "teamCount": 18,
+      "activeTeams": 0,
+      "coverage": {
+        "complete": 18,
+        "partial": 0,
+        "missing": 0,
+        "fotmobMapped": 18,
+        "soccerRatingMapped": 18
+      },
+      "teams": [
+        {
+          "sofascoreTeamId": "3112",
+          "teamName": "GKS Katowice",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "4023",
+              "teamSlug": "gks-katowice",
+              "url": "https://www.fotmob.com/teams/4023/overview/gks-katowice",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1556",
+              "teamSlug": "gks-katowice",
+              "url": "https://www.soccer-rating.com/GKS-Katowice/1556/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3110",
+          "teamName": "Górnik Zabrze",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8020",
+              "teamSlug": "gornik-zabrze",
+              "url": "https://www.fotmob.com/teams/8020/overview/gornik-zabrze",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1453",
+              "teamSlug": "gornik-zabrze",
+              "url": "https://www.soccer-rating.com/Gornik-Zabrze/1453/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "7691",
+          "teamName": "Jagiellonia Białystok",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1957",
+              "teamSlug": "jagiellonia-bialystok",
+              "url": "https://www.fotmob.com/teams/1957/overview/jagiellonia-bialystok",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1255",
+              "teamSlug": "jagiellonia-bialystok",
+              "url": "https://www.soccer-rating.com/Jagiellonia-Bialystok/1255/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "4901",
+          "teamName": "KS Cracovia",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "2186",
+              "teamSlug": "cracovia",
+              "url": "https://www.fotmob.com/teams/2186/overview/cracovia",
+              "notes": "FotMob usa Cracovia."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1262",
+              "teamSlug": "cracovia-krakow",
+              "url": "https://www.soccer-rating.com/Cracovia-Krakow/1262/",
+              "notes": "Soccer-Rating usa Cracovia Krakow."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3121",
+          "teamName": "Lech Poznań",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "2182",
+              "teamSlug": "lech-poznan",
+              "url": "https://www.fotmob.com/teams/2182/overview/lech-poznan",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1257",
+              "teamSlug": "lech-poznan",
+              "url": "https://www.soccer-rating.com/Lech-Poznan/1257/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3106",
+          "teamName": "Legia Warszawa",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8673",
+              "teamSlug": "legia-warszawa",
+              "url": "https://www.fotmob.com/teams/8673/overview/legia-warszawa",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "650",
+              "teamSlug": "legia-warszawa",
+              "url": "https://www.soccer-rating.com/Legia-Warszawa/650/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "5065",
+          "teamName": "MKS Korona Kielce",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8245",
+              "teamSlug": "korona-kielce",
+              "url": "https://www.fotmob.com/teams/8245/overview/korona-kielce",
+              "notes": "FotMob usa Korona Kielce."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1261",
+              "teamSlug": "korona-kielce",
+              "url": "https://www.soccer-rating.com/Korona-Kielce/1261/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "7915",
+          "teamName": "Motor Lublin",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "89466",
+              "teamSlug": "motor-lublin",
+              "url": "https://www.fotmob.com/teams/89466/overview/motor-lublin",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1284",
+              "teamSlug": "motor-lublin",
+              "url": "https://www.soccer-rating.com/Motor-Lublin/1284/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "7918",
+          "teamName": "Piast Gliwice",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8028",
+              "teamSlug": "piast-gliwice",
+              "url": "https://www.fotmob.com/teams/8028/overview/piast-gliwice",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1281",
+              "teamSlug": "piast-gliwice",
+              "url": "https://www.soccer-rating.com/Piast-Gliwice/1281/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3117",
+          "teamName": "Pogoń Szczecin",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8023",
+              "teamSlug": "pogon-szczecin",
+              "url": "https://www.fotmob.com/teams/8023/overview/pogon-szczecin",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "3863",
+              "teamSlug": "pogon-szczecin",
+              "url": "https://www.soccer-rating.com/Pogon-Szczecin/3863/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "7295",
+          "teamName": "Radomiak Radom",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "5769",
+              "teamSlug": "radomiak-radom",
+              "url": "https://www.fotmob.com/teams/5769/overview/radomiak-radom",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1901",
+              "teamSlug": "radomiak-radom",
+              "url": "https://www.soccer-rating.com/Radomiak-Radom/1901/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "35268",
+          "teamName": "Raków Częstochowa",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "4024",
+              "teamSlug": "rakow-czestochowa",
+              "url": "https://www.fotmob.com/teams/4024/overview/rakow-czestochowa",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1912",
+              "teamSlug": "rakow-czestochowa",
+              "url": "https://www.soccer-rating.com/Rakow-Czestochowa/1912/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3108",
+          "teamName": "Śląsk Wrocław",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8025",
+              "teamSlug": "slask-wroclaw",
+              "url": "https://www.fotmob.com/teams/8025/overview/slask-wroclaw",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1283",
+              "teamSlug": "slask-wroclaw",
+              "url": "https://www.soccer-rating.com/Slask-Wroclaw/1283/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3115",
+          "teamName": "Widzew Łódź",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8024",
+              "teamSlug": "widzew-lodz",
+              "url": "https://www.fotmob.com/teams/8024/overview/widzew-lodz",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1254",
+              "teamSlug": "widzew-lodz",
+              "url": "https://www.soccer-rating.com/Widzew-Lodz/1254/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "334956",
+          "teamName": "Wieczysta Kraków",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "1286895",
+              "teamSlug": "wieczysta-krakow",
+              "url": "https://www.fotmob.com/teams/1286895/overview/wieczysta-krakow",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "16273",
+              "teamSlug": "wieczysta-krakow",
+              "url": "https://www.soccer-rating.com/Wieczysta-Krakow/16273/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3111",
+          "teamName": "Wisła Kraków",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10265",
+              "teamSlug": "wisla-krakow",
+              "url": "https://www.fotmob.com/teams/10265/overview/wisla-krakow",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1452",
+              "teamSlug": "wisla-krakow",
+              "url": "https://www.soccer-rating.com/Wisla-Krakow/1452/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3122",
+          "teamName": "Wisła Płock",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8243",
+              "teamSlug": "wisla-plock",
+              "url": "https://www.fotmob.com/teams/8243/overview/wisla-plock",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1287",
+              "teamSlug": "wisla-plock",
+              "url": "https://www.soccer-rating.com/Wisla-Plock/1287/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "3113",
+          "teamName": "Zagłębie Lubin",
+          "activeInCurrentWindow": false,
+          "fixtureAppearancesInCurrentWindow": 0,
+          "firstSeenReferenceDate": "2026-08-12",
+          "lastSeenReferenceDate": "2026-08-12",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8021",
+              "teamSlug": "zaglebie-lubin",
+              "url": "https://www.fotmob.com/teams/8021/overview/zaglebie-lubin",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1253",
+              "teamSlug": "zaglebie-lubin",
+              "url": "https://www.soccer-rating.com/Zaglebie-Lubin/1253/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        }
+      ]
+    },
+    {
       "competitionId": "17101",
       "competitionName": "Liga 3",
       "countryName": "Portugal",
@@ -15397,23 +15883,6 @@
           "recommendedNextSteps": []
         }
       ]
-    },
-    {
-      "competitionId": "47",
-      "competitionName": "Ekstraklasa",
-      "countryName": "Poland",
-      "seededFromWhitelist": true,
-      "hasRegistryEntries": false,
-      "teamCount": 0,
-      "activeTeams": 0,
-      "coverage": {
-        "complete": 0,
-        "partial": 0,
-        "missing": 0,
-        "fotmobMapped": 0,
-        "soccerRatingMapped": 0
-      },
-      "teams": []
     },
     {
       "competitionId": "36",
