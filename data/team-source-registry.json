@@ -12962,6 +12962,546 @@
           "notes": null
         }
       }
+    },
+    {
+      "sofascoreTeamId": "1684",
+      "teamName": "Angers",
+      "countryName": "France",
+      "competitionId": "34",
+      "competitionName": "Ligue 1",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8121",
+          "teamSlug": "angers",
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/8121/stats/angers/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "903",
+          "teamSlug": "sco-angers",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/SCO-Angers/903/",
+          "notes": "alias Soccer-Rating: SCO Angers"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1653",
+      "teamName": "AS Monaco",
+      "countryName": "France",
+      "competitionId": "34",
+      "competitionName": "Ligue 1",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9829",
+          "teamSlug": "monaco",
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/9829/stats/monaco/teams",
+          "notes": "alias FotMob: Monaco"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "245",
+          "teamSlug": "as-monaco",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/AS-Monaco/245/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1646",
+      "teamName": "Auxerre",
+      "countryName": "France",
+      "competitionId": "34",
+      "competitionName": "Ligue 1",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8583",
+          "teamSlug": "auxerre",
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/8583/stats/auxerre/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "254",
+          "teamSlug": "aj-auxerre",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/AJ-Auxerre/254/",
+          "notes": "alias Soccer-Rating: AJ Auxerre"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1662",
+      "teamName": "Le Havre",
+      "countryName": "France",
+      "competitionId": "34",
+      "competitionName": "Ligue 1",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9746",
+          "teamSlug": "le-havre",
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/9746/stats/le-havre/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "901",
+          "teamSlug": "le-havre-ac",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/Le-Havre-AC/901/",
+          "notes": "alias Soccer-Rating: Le Havre AC"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1672",
+      "teamName": "Le Mans",
+      "countryName": "France",
+      "competitionId": "34",
+      "competitionName": "Ligue 1",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8682",
+          "teamSlug": "le-mans",
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/8682/stats/le-mans/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "249",
+          "teamSlug": "le-mans-uc-72",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/Le-Mans-UC-72/249/",
+          "notes": "alias Soccer-Rating: Le Mans UC 72"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1643",
+      "teamName": "Lille",
+      "countryName": "France",
+      "competitionId": "34",
+      "competitionName": "Ligue 1",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8639",
+          "teamSlug": "lille",
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/8639/stats/lille/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "251",
+          "teamSlug": "osc-lille",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/OSC-Lille/251/",
+          "notes": "alias Soccer-Rating: OSC Lille"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1648",
+      "teamName": "RC Lens",
+      "countryName": "France",
+      "competitionId": "34",
+      "competitionName": "Ligue 1",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8588",
+          "teamSlug": "lens",
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/8588/stats/lens/teams",
+          "notes": "alias FotMob: Lens"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "248",
+          "teamSlug": "rc-lens",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/RC-Lens/248/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1656",
+      "teamName": "Lorient",
+      "countryName": "France",
+      "competitionId": "34",
+      "competitionName": "Ligue 1",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8689",
+          "teamSlug": "lorient",
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/8689/stats/lorient/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "252",
+          "teamSlug": "fc-lorient",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/FC-Lorient/252/",
+          "notes": "alias Soccer-Rating: FC Lorient"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1661",
+      "teamName": "Nice",
+      "countryName": "France",
+      "competitionId": "34",
+      "competitionName": "Ligue 1",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9831",
+          "teamSlug": "nice",
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/9831/stats/nice/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "260",
+          "teamSlug": "ogc-nice",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/OGC-Nice/260/",
+          "notes": "alias Soccer-Rating: OGC Nice"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1649",
+      "teamName": "Olympique Lyonnais",
+      "countryName": "France",
+      "competitionId": "34",
+      "competitionName": "Ligue 1",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9748",
+          "teamSlug": "lyon",
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/9748/stats/lyon/teams",
+          "notes": "alias FotMob: Lyon"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "253",
+          "teamSlug": "olympique-lyon",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/Olympique-Lyon/253/",
+          "notes": "alias Soccer-Rating: Olympique Lyon"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1641",
+      "teamName": "Olympique de Marseille",
+      "countryName": "France",
+      "competitionId": "34",
+      "competitionName": "Ligue 1",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8592",
+          "teamSlug": "marseille",
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/8592/stats/marseille/teams",
+          "notes": "alias FotMob: Marseille"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "258",
+          "teamSlug": "olympique-marseille",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/Olympique-Marseille/258/",
+          "notes": "alias Soccer-Rating: Olympique Marseille"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "6070",
+      "teamName": "Paris FC",
+      "countryName": "France",
+      "competitionId": "34",
+      "competitionName": "Ligue 1",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "6379",
+          "teamSlug": "paris-fc",
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/6379/stats/paris-fc/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1396",
+          "teamSlug": "paris-fc",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/Paris-FC/1396/",
+          "notes": "equipa masculina"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1644",
+      "teamName": "Paris Saint-Germain",
+      "countryName": "France",
+      "competitionId": "34",
+      "competitionName": "Ligue 1",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9847",
+          "teamSlug": "paris-saint-germain",
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/9847/stats/paris-saint-germain/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "255",
+          "teamSlug": "paris-saint-germain",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/Paris-Saint-Germain/255/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1659",
+      "teamName": "RC Strasbourg",
+      "countryName": "France",
+      "competitionId": "34",
+      "competitionName": "Ligue 1",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9848",
+          "teamSlug": "strasbourg",
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/9848/stats/strasbourg/teams",
+          "notes": "alias FotMob: Strasbourg"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "257",
+          "teamSlug": "racing-strasbourg",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/Racing-Strasbourg/257/",
+          "notes": "alias Soccer-Rating: Racing Strasbourg"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1658",
+      "teamName": "Stade Rennais",
+      "countryName": "France",
+      "competitionId": "34",
+      "competitionName": "Ligue 1",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9851",
+          "teamSlug": "rennes",
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/9851/stats/rennes/teams",
+          "notes": "alias FotMob: Rennes"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "261",
+          "teamSlug": "stade-rennes",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/Stade-Rennes/261/",
+          "notes": "alias Soccer-Rating: Stade Rennes"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1715",
+      "teamName": "Stade Brestois",
+      "countryName": "France",
+      "competitionId": "34",
+      "competitionName": "Ligue 1",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8521",
+          "teamSlug": "brest",
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/8521/stats/brest/teams",
+          "notes": "alias FotMob: Brest"
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "902",
+          "teamSlug": "stade-brest",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/Stade-Brest/902/",
+          "notes": "alias Soccer-Rating: Stade Brest"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1681",
+      "teamName": "Toulouse",
+      "countryName": "France",
+      "competitionId": "34",
+      "competitionName": "Ligue 1",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9941",
+          "teamSlug": "toulouse",
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/9941/stats/toulouse/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "264",
+          "teamSlug": "toulouse-fc",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/Toulouse-FC/264/",
+          "notes": "alias Soccer-Rating: Toulouse FC"
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "1652",
+      "teamName": "Troyes",
+      "countryName": "France",
+      "competitionId": "34",
+      "competitionName": "Ligue 1",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-11",
+      "lastSeenReferenceDate": "2026-08-11",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10242",
+          "teamSlug": "troyes",
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/10242/stats/troyes/teams",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "884",
+          "teamSlug": "ac-troyes",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/AC-Troyes/884/",
+          "notes": "alias Soccer-Rating: AC Troyes"
+        }
+      }
     }
   ]
 }

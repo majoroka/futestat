@@ -1,6 +1,6 @@
 {
   "source": "whitelist-plus-standings",
-  "generatedAtUtc": "2026-08-12T14:38:39.695Z",
+  "generatedAtUtc": "2026-08-12T14:54:31.903Z",
   "referenceDate": "2026-08-11",
   "registryPath": "data/team-source-registry.json",
   "standingsDir": "data/fixtures/standings",
@@ -8,8 +8,8 @@
     "competitions": 42,
     "competitionsWithStandings": 18,
     "competitionsWithoutStandings": 24,
-    "teams": 430,
-    "matchedRegistryTeams": 430,
+    "teams": 448,
+    "matchedRegistryTeams": 448,
     "missingRegistryTeams": 0
   },
   "competitions": [
@@ -7928,7 +7928,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "5114",
           "registryTeamName": "AC Oulu",
           "sources": {
             "fotmob": {
@@ -7939,7 +7939,7 @@
             "soccerRating": {
               "status": "mapped",
               "sourceTeamId": "832",
-              "url": "https://www.soccer-rating.com/AC-Oulu/832/"
+              "url": "https://www.soccer-rating.com/Ac-Oulu/832/"
             }
           }
         },
@@ -7948,7 +7948,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2249",
           "registryTeamName": "FC Lahti",
           "sources": {
             "fotmob": {
@@ -7959,7 +7959,7 @@
             "soccerRating": {
               "status": "mapped",
               "sourceTeamId": "1",
-              "url": "https://www.soccer-rating.com/FC-Lahti/1/"
+              "url": "https://www.soccer-rating.com/Fc-Lahti/1/"
             }
           }
         },
@@ -7968,7 +7968,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2252",
           "registryTeamName": "FF Jaro",
           "sources": {
             "fotmob": {
@@ -7978,8 +7978,8 @@
             },
             "soccerRating": {
               "status": "mapped",
-              "sourceTeamId": "19147",
-              "url": "https://www.soccer-rating.com/FF-Jaro-II/19147/"
+              "sourceTeamId": "17",
+              "url": "https://www.soccer-rating.com/Ff-Jaro-Jakobstad/17/"
             }
           }
         },
@@ -7988,7 +7988,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2242",
           "registryTeamName": "HJK",
           "sources": {
             "fotmob": {
@@ -7997,9 +7997,9 @@
               "url": "https://www.fotmob.com/teams/9861/stats/hjk/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "15",
+              "url": "https://www.soccer-rating.com/Hjk-Helsinki/15/"
             }
           }
         },
@@ -8008,7 +8008,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2271",
           "registryTeamName": "IF Gnistan",
           "sources": {
             "fotmob": {
@@ -8019,7 +8019,7 @@
             "soccerRating": {
               "status": "mapped",
               "sourceTeamId": "827",
-              "url": "https://www.soccer-rating.com/IF-Gnistan-Helsinki/827/"
+              "url": "https://www.soccer-rating.com/If-Gnistan-Helsinki/827/"
             }
           }
         },
@@ -8028,7 +8028,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "5058",
           "registryTeamName": "IFK Mariehamn",
           "sources": {
             "fotmob": {
@@ -8039,22 +8039,22 @@
             "soccerRating": {
               "status": "mapped",
               "sourceTeamId": "19",
-              "url": "https://www.soccer-rating.com/IFK-Mariehamn/19/"
+              "url": "https://www.soccer-rating.com/Ifk-Mariehamn/19/"
             }
           }
         },
         {
-          "inventoryTeamName": "Ilves Tampere",
+          "inventoryTeamName": "Ilves",
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
-          "registryTeamName": "Ilves Tampere",
+          "sofascoreTeamId": "22386",
+          "registryTeamName": "Ilves",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "162146",
+              "url": "https://www.fotmob.com/teams/162146/stats/ilves/teams"
             },
             "soccerRating": {
               "status": "mapped",
@@ -8068,7 +8068,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2247",
           "registryTeamName": "Inter Turku",
           "sources": {
             "fotmob": {
@@ -8084,12 +8084,12 @@
           }
         },
         {
-          "inventoryTeamName": "KuPS",
+          "inventoryTeamName": "Kuopion Palloseura",
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
-          "registryTeamName": "KuPS",
+          "sofascoreTeamId": "2244",
+          "registryTeamName": "Kuopion Palloseura",
           "sources": {
             "fotmob": {
               "status": "mapped",
@@ -8097,9 +8097,9 @@
               "url": "https://www.fotmob.com/teams/1693/stats/kups/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "605",
+              "url": "https://www.soccer-rating.com/Kups-Kuopio/605/"
             }
           }
         },
@@ -8108,7 +8108,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "22395",
           "registryTeamName": "SJK",
           "sources": {
             "fotmob": {
@@ -8117,29 +8117,29 @@
               "url": "https://www.fotmob.com/teams/162162/stats/sjk/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "3506",
+              "url": "https://www.soccer-rating.com/Sjk-Seinajoki/3506/"
             }
           }
         },
         {
-          "inventoryTeamName": "TPS Turku",
+          "inventoryTeamName": "Turun Palloseura",
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
-          "registryTeamName": "TPS Turku",
+          "sofascoreTeamId": "2254",
+          "registryTeamName": "Turun Palloseura",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "6633",
+              "url": "https://www.fotmob.com/teams/6633/stats/tps/teams"
             },
             "soccerRating": {
               "status": "mapped",
               "sourceTeamId": "3",
-              "url": "https://www.soccer-rating.com/TPS-Turku/3/"
+              "url": "https://www.soccer-rating.com/Tps-Turku/3/"
             }
           }
         },
@@ -8148,7 +8148,7 @@
           "source": "standings",
           "matchedRegistry": true,
           "matchMethod": "normalized_name",
-          "sofascoreTeamId": null,
+          "sofascoreTeamId": "2246",
           "registryTeamName": "VPS",
           "sources": {
             "fotmob": {
@@ -8157,9 +8157,9 @@
               "url": "https://www.fotmob.com/teams/6597/stats/vps/teams"
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "url": null
+              "status": "mapped",
+              "sourceTeamId": "16",
+              "url": "https://www.soccer-rating.com/Vps-Vaasa/16/"
             }
           }
         }
@@ -8171,10 +8171,371 @@
       "countryName": "France",
       "hasStandingsSnapshot": false,
       "standingsPath": null,
-      "teamCount": 0,
-      "matchedRegistryTeams": 0,
+      "teamCount": 18,
+      "matchedRegistryTeams": 18,
       "missingRegistryTeams": 0,
-      "teams": []
+      "teams": [
+        {
+          "inventoryTeamName": "Angers",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1684",
+          "registryTeamName": "Angers",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8121",
+              "url": "https://www.fotmob.com/teams/8121/stats/angers/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "903",
+              "url": "https://www.soccer-rating.com/SCO-Angers/903/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "AS Monaco",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1653",
+          "registryTeamName": "AS Monaco",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9829",
+              "url": "https://www.fotmob.com/teams/9829/stats/monaco/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "245",
+              "url": "https://www.soccer-rating.com/AS-Monaco/245/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Auxerre",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1646",
+          "registryTeamName": "Auxerre",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8583",
+              "url": "https://www.fotmob.com/teams/8583/stats/auxerre/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "254",
+              "url": "https://www.soccer-rating.com/AJ-Auxerre/254/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Le Havre",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1662",
+          "registryTeamName": "Le Havre",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9746",
+              "url": "https://www.fotmob.com/teams/9746/stats/le-havre/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "901",
+              "url": "https://www.soccer-rating.com/Le-Havre-AC/901/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Le Mans",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1672",
+          "registryTeamName": "Le Mans",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8682",
+              "url": "https://www.fotmob.com/teams/8682/stats/le-mans/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "249",
+              "url": "https://www.soccer-rating.com/Le-Mans-UC-72/249/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Lille",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1643",
+          "registryTeamName": "Lille",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8639",
+              "url": "https://www.fotmob.com/teams/8639/stats/lille/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "251",
+              "url": "https://www.soccer-rating.com/OSC-Lille/251/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Lorient",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1656",
+          "registryTeamName": "Lorient",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8689",
+              "url": "https://www.fotmob.com/teams/8689/stats/lorient/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "252",
+              "url": "https://www.soccer-rating.com/FC-Lorient/252/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Nice",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1661",
+          "registryTeamName": "Nice",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9831",
+              "url": "https://www.fotmob.com/teams/9831/stats/nice/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "260",
+              "url": "https://www.soccer-rating.com/OGC-Nice/260/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Olympique de Marseille",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1641",
+          "registryTeamName": "Olympique de Marseille",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8592",
+              "url": "https://www.fotmob.com/teams/8592/stats/marseille/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "258",
+              "url": "https://www.soccer-rating.com/Olympique-Marseille/258/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Olympique Lyonnais",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1649",
+          "registryTeamName": "Olympique Lyonnais",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9748",
+              "url": "https://www.fotmob.com/teams/9748/stats/lyon/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "253",
+              "url": "https://www.soccer-rating.com/Olympique-Lyon/253/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Paris FC",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "6070",
+          "registryTeamName": "Paris FC",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "6379",
+              "url": "https://www.fotmob.com/teams/6379/stats/paris-fc/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "1396",
+              "url": "https://www.soccer-rating.com/Paris-FC/1396/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Paris Saint-Germain",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1644",
+          "registryTeamName": "Paris Saint-Germain",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9847",
+              "url": "https://www.fotmob.com/teams/9847/stats/paris-saint-germain/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "255",
+              "url": "https://www.soccer-rating.com/Paris-Saint-Germain/255/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "RC Lens",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1648",
+          "registryTeamName": "RC Lens",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8588",
+              "url": "https://www.fotmob.com/teams/8588/stats/lens/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "248",
+              "url": "https://www.soccer-rating.com/RC-Lens/248/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "RC Strasbourg",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1659",
+          "registryTeamName": "RC Strasbourg",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9848",
+              "url": "https://www.fotmob.com/teams/9848/stats/strasbourg/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "257",
+              "url": "https://www.soccer-rating.com/Racing-Strasbourg/257/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Stade Brestois",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1715",
+          "registryTeamName": "Stade Brestois",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "8521",
+              "url": "https://www.fotmob.com/teams/8521/stats/brest/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "902",
+              "url": "https://www.soccer-rating.com/Stade-Brest/902/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Stade Rennais",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1658",
+          "registryTeamName": "Stade Rennais",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9851",
+              "url": "https://www.fotmob.com/teams/9851/stats/rennes/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "261",
+              "url": "https://www.soccer-rating.com/Stade-Rennes/261/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Toulouse",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1681",
+          "registryTeamName": "Toulouse",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "9941",
+              "url": "https://www.fotmob.com/teams/9941/stats/toulouse/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "264",
+              "url": "https://www.soccer-rating.com/Toulouse-FC/264/"
+            }
+          }
+        },
+        {
+          "inventoryTeamName": "Troyes",
+          "source": "standings",
+          "matchedRegistry": true,
+          "matchMethod": "normalized_name",
+          "sofascoreTeamId": "1652",
+          "registryTeamName": "Troyes",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10242",
+              "url": "https://www.fotmob.com/teams/10242/stats/troyes/teams"
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "884",
+              "url": "https://www.soccer-rating.com/AC-Troyes/884/"
+            }
+          }
+        }
+      ]
     },
     {
       "competitionId": "182",
