@@ -2734,7 +2734,7 @@
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "2032",
       "teamName": "Dinamo Zagreb",
       "countryName": "Croatia",
       "competitionId": "170",
@@ -2745,20 +2745,20 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10156",
           "teamSlug": "dinamo-zagreb",
           "competitionId": "170",
           "competitionSlug": "hnl",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/10156/stats/dinamo-zagreb/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "484",
           "teamSlug": "dinamo-zagreb",
           "countrySlug": "croatia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/Dinamo-Zagreb/484/",
           "notes": null
         }
       }
@@ -4815,20 +4815,20 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "crvena-zvezda",
-          "competitionId": "7",
-          "competitionSlug": "uefa-champions-league",
-          "url": null,
+          "status": "mapped",
+          "sourceTeamId": "8687",
+          "teamSlug": "fk-crvena-zvezda",
+          "competitionId": "210",
+          "competitionSlug": "superliga",
+          "url": "https://www.fotmob.com/teams/8687/overview/fk-crvena-zvezda",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "crvena-zvezda",
-          "countrySlug": "europe",
-          "url": null,
+          "status": "mapped",
+          "sourceTeamId": "1294",
+          "teamSlug": "crvena-zvezda-belgrade",
+          "countrySlug": "serbia",
+          "url": "https://www.soccer-rating.com/Crvena-Zvezda-Belgrade/1294/",
           "notes": null
         }
       }
@@ -4875,20 +4875,20 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8695",
           "teamSlug": "fenerbahce",
-          "competitionId": "7",
-          "competitionSlug": "uefa-champions-league",
-          "url": null,
+          "competitionId": "52",
+          "competitionSlug": "super-lig",
+          "url": "https://www.fotmob.com/teams/8695/stats/fenerbahce/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1276",
           "teamSlug": "fenerbahce",
-          "countrySlug": "europe",
-          "url": null,
+          "countrySlug": "turkey",
+          "url": "https://www.soccer-rating.com/Fenerbahce/1276/",
           "notes": null
         }
       }
@@ -4905,21 +4905,21 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "h-be-er-sheva",
-          "competitionId": "7",
-          "competitionSlug": "uefa-champions-league",
-          "url": null,
-          "notes": null
+          "status": "mapped",
+          "sourceTeamId": "9754",
+          "teamSlug": "hapoel-beer-sheva",
+          "competitionId": "59",
+          "competitionSlug": "premier-league",
+          "url": "https://www.fotmob.com/teams/9754/overview/hapoel-beer-sheva",
+          "notes": "FotMob usa Beer Sheva."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "h-be-er-sheva",
-          "countrySlug": "europe",
-          "url": null,
-          "notes": null
+          "status": "mapped",
+          "sourceTeamId": "2882",
+          "teamSlug": "hapoel-beer-sheva",
+          "countrySlug": "israel",
+          "url": "https://www.soccer-rating.com/Hapoel-Beer-Sheva/2882/",
+          "notes": "Soccer-Rating usa Beer Sheva."
         }
       }
     },
@@ -4965,21 +4965,21 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "9748",
           "teamSlug": "lyon",
-          "competitionId": "7",
-          "competitionSlug": "uefa-champions-league",
-          "url": null,
-          "notes": null
+          "competitionId": "34",
+          "competitionSlug": "ligue-1",
+          "url": "https://www.fotmob.com/teams/9748/stats/lyon/teams",
+          "notes": "alias FotMob: Lyon"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "lyon",
-          "countrySlug": "europe",
-          "url": null,
-          "notes": null
+          "status": "mapped",
+          "sourceTeamId": "253",
+          "teamSlug": "olympique-lyon",
+          "countrySlug": "france",
+          "url": "https://www.soccer-rating.com/Olympique-Lyon/253/",
+          "notes": "alias Soccer-Rating: Olympique Lyon"
         }
       }
     },
@@ -4995,20 +4995,20 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8127",
           "teamSlug": "mjallby",
-          "competitionId": "7",
-          "competitionSlug": "uefa-champions-league",
-          "url": null,
-          "notes": null
+          "competitionId": "43",
+          "competitionSlug": "allsvenskan",
+          "url": "https://www.fotmob.com/teams/8127/stats/mjallby/teams",
+          "notes": "alias FotMob: Mjällby"
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "mjallby",
-          "countrySlug": "europe",
-          "url": null,
+          "status": "mapped",
+          "sourceTeamId": "105",
+          "teamSlug": "mjallby-aif",
+          "countrySlug": "sweden",
+          "url": "https://www.soccer-rating.com/Mjallby-AIF/105/",
           "notes": null
         }
       }
@@ -5025,20 +5025,20 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "nec",
-          "competitionId": "7",
-          "competitionSlug": "uefa-champions-league",
-          "url": null,
+          "status": "mapped",
+          "sourceTeamId": "8464",
+          "teamSlug": "nec-nijmegen",
+          "competitionId": "37",
+          "competitionSlug": "eredivisie",
+          "url": "https://www.fotmob.com/teams/8464/overview/nec-nijmegen",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "nec",
-          "countrySlug": "europe",
-          "url": null,
+          "status": "mapped",
+          "sourceTeamId": "811",
+          "teamSlug": "nec-nijmegen",
+          "countrySlug": "netherlands",
+          "url": "https://www.soccer-rating.com/NEC-Nijmegen/811/",
           "notes": null
         }
       }
@@ -5055,21 +5055,21 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8638",
           "teamSlug": "olympiacos",
-          "competitionId": "7",
-          "competitionSlug": "uefa-champions-league",
-          "url": null,
+          "competitionId": "185",
+          "competitionSlug": "super-league",
+          "url": "https://www.fotmob.com/teams/8638/overview/olympiacos",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "olympiacos",
-          "countrySlug": "europe",
-          "url": null,
-          "notes": null
+          "status": "mapped",
+          "sourceTeamId": "284",
+          "teamSlug": "olympiakos-piraeus",
+          "countrySlug": "greece",
+          "url": "https://www.soccer-rating.com/Olympiakos-Piraeus/284/",
+          "notes": "Soccer-Rating usa Olympiakos Piraeus."
         }
       }
     },
@@ -5325,20 +5325,20 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dvsc",
-          "competitionId": "17015",
-          "competitionSlug": "uefa-conference-league",
-          "url": null,
-          "notes": null
+          "status": "mapped",
+          "sourceTeamId": "8369",
+          "teamSlug": "debrecen",
+          "competitionId": "187",
+          "competitionSlug": "nb-i",
+          "url": "https://www.fotmob.com/teams/8369/overview/debrecen",
+          "notes": "FotMob usa Debrecen."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "dvsc",
-          "countrySlug": "europe",
-          "url": null,
+          "status": "mapped",
+          "sourceTeamId": "723",
+          "teamSlug": "debrecen-vsc",
+          "countrySlug": "hungary",
+          "url": "https://www.soccer-rating.com/Debrecen-VSC/723/",
           "notes": null
         }
       }
@@ -5355,20 +5355,20 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "4023",
           "teamSlug": "gks-katowice",
-          "competitionId": "17015",
-          "competitionSlug": "uefa-conference-league",
-          "url": null,
+          "competitionId": "47",
+          "competitionSlug": "ekstraklasa",
+          "url": "https://www.fotmob.com/teams/4023/overview/gks-katowice",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1556",
           "teamSlug": "gks-katowice",
-          "countrySlug": "europe",
-          "url": null,
+          "countrySlug": "poland",
+          "url": "https://www.soccer-rating.com/GKS-Katowice/1556/",
           "notes": null
         }
       }
@@ -5385,20 +5385,20 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "h-tel-aviv",
-          "competitionId": "17015",
-          "competitionSlug": "uefa-conference-league",
-          "url": null,
+          "status": "mapped",
+          "sourceTeamId": "10181",
+          "teamSlug": "hapoel-tel-aviv",
+          "competitionId": "59",
+          "competitionSlug": "premier-league",
+          "url": "https://www.fotmob.com/teams/10181/overview/hapoel-tel-aviv",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "h-tel-aviv",
-          "countrySlug": "europe",
-          "url": null,
+          "status": "mapped",
+          "sourceTeamId": "1763",
+          "teamSlug": "hapoel-tel-aviv",
+          "countrySlug": "israel",
+          "url": "https://www.soccer-rating.com/Hapoel-Tel-Aviv/1763/",
           "notes": null
         }
       }
@@ -5475,20 +5475,20 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "10200",
           "teamSlug": "panathinaikos",
-          "competitionId": "17015",
-          "competitionSlug": "uefa-conference-league",
-          "url": null,
+          "competitionId": "185",
+          "competitionSlug": "super-league",
+          "url": "https://www.fotmob.com/teams/10200/overview/panathinaikos",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "283",
           "teamSlug": "panathinaikos",
-          "countrySlug": "europe",
-          "url": null,
+          "countrySlug": "greece",
+          "url": "https://www.soccer-rating.com/Panathinaikos/283/",
           "notes": null
         }
       }
@@ -7714,7 +7714,7 @@
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "656",
       "teamName": "Bodo/Glimt",
       "countryName": "Norway",
       "competitionId": "20",
@@ -7725,26 +7725,26 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8402",
           "teamSlug": "bodo-glimt",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
-          "notes": null
+          "url": "https://www.fotmob.com/teams/8402/stats/bodo-glimt/teams",
+          "notes": "FotMob usa Bodo/Glimt; Sofascore pode surgir como Bodø/Glimt."
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "114",
           "teamSlug": "bodo-glimt",
           "countrySlug": "norway",
-          "url": null,
-          "notes": null
+          "url": "https://www.soccer-rating.com/FK-Bodo-Glimt/114/",
+          "notes": "Soccer-Rating usa FK Bodö/Glimt."
         }
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "1159",
       "teamName": "Brann",
       "countryName": "Norway",
       "competitionId": "20",
@@ -7755,20 +7755,20 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "8468",
           "teamSlug": "brann",
           "competitionId": "20",
           "competitionSlug": "eliteserien",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/8468/stats/brann/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
-          "teamSlug": "brann",
+          "status": "mapped",
+          "sourceTeamId": "81",
+          "teamSlug": "sk-brann-bergen",
           "countrySlug": "norway",
-          "url": null,
+          "url": "https://www.soccer-rating.com/SK-Brann-Bergen/81/",
           "notes": null
         }
       }
@@ -11404,7 +11404,7 @@
       }
     },
     {
-      "sofascoreTeamId": "",
+      "sofascoreTeamId": "2413",
       "teamName": "NK Celje",
       "countryName": "Slovenia",
       "competitionId": "212",
@@ -11415,20 +11415,20 @@
       "lastSeenReferenceDate": "2026-08-11",
       "sources": {
         "fotmob": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "4622",
           "teamSlug": "nk-celje",
           "competitionId": "212",
           "competitionSlug": "prvaliga",
-          "url": null,
+          "url": "https://www.fotmob.com/teams/4622/stats/nk-celje/teams",
           "notes": null
         },
         "soccerRating": {
-          "status": "pending",
-          "sourceTeamId": null,
+          "status": "mapped",
+          "sourceTeamId": "1131",
           "teamSlug": "nk-celje",
           "countrySlug": "slovenia",
-          "url": null,
+          "url": "https://www.soccer-rating.com/NK-Celje/1131/",
           "notes": null
         }
       }
