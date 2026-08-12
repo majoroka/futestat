@@ -16324,6 +16324,426 @@
       }
     },
     {
+      "sofascoreTeamId": "5148",
+      "teamName": "FK Čukarički",
+      "countryName": "Serbia",
+      "competitionId": "210",
+      "competitionName": "SuperLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "6374",
+          "teamSlug": "cukaricki",
+          "competitionId": "210",
+          "competitionSlug": "superliga",
+          "url": "https://www.fotmob.com/teams/6374/overview/cukaricki",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1956",
+          "teamSlug": "cukaricki-belgrade",
+          "countrySlug": "serbia",
+          "url": "https://www.soccer-rating.com/Cukaricki-Belgrade/1956/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "5149",
+      "teamName": "FK Crvena Zvezda",
+      "countryName": "Serbia",
+      "competitionId": "210",
+      "competitionName": "SuperLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8687",
+          "teamSlug": "fk-crvena-zvezda",
+          "competitionId": "210",
+          "competitionSlug": "superliga",
+          "url": "https://www.fotmob.com/teams/8687/overview/fk-crvena-zvezda",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1294",
+          "teamSlug": "crvena-zvezda-belgrade",
+          "countrySlug": "serbia",
+          "url": "https://www.soccer-rating.com/Crvena-Zvezda-Belgrade/1294/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "308176",
+      "teamName": "FK IMT Beograd",
+      "countryName": "Serbia",
+      "competitionId": "210",
+      "competitionName": "SuperLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "568569",
+          "teamSlug": "fk-imt-beograd",
+          "competitionId": "210",
+          "competitionSlug": "superliga",
+          "url": "https://www.fotmob.com/teams/568569/overview/fk-imt-beograd",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "14595",
+          "teamSlug": "imt-novi-beograd",
+          "countrySlug": "serbia",
+          "url": "https://www.soccer-rating.com/IMT-Novi-Beograd/14595/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "56019",
+      "teamName": "FK Mačva Šabac",
+      "countryName": "Serbia",
+      "competitionId": "210",
+      "competitionName": "SuperLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "563180",
+          "teamSlug": "macva-sabac",
+          "competitionId": "210",
+          "competitionSlug": "superliga",
+          "url": "https://www.fotmob.com/teams/563180/overview/macva-sabac",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "10099",
+          "teamSlug": "fk-macva-sabac",
+          "countrySlug": "serbia",
+          "url": "https://www.soccer-rating.com/FK-Macva-Sabac/10099/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "7771",
+      "teamName": "FK Mladost Lučani",
+      "countryName": "Serbia",
+      "competitionId": "210",
+      "competitionName": "SuperLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "1739",
+          "teamSlug": "mladost-lucani",
+          "competitionId": "210",
+          "competitionSlug": "superliga",
+          "url": "https://www.fotmob.com/teams/1739/overview/mladost-lucani",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1928",
+          "teamSlug": "mladost-lucani",
+          "countrySlug": "serbia",
+          "url": "https://www.soccer-rating.com/Mladost-Lucani/1928/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "25736",
+      "teamName": "FK Novi Pazar",
+      "countryName": "Serbia",
+      "competitionId": "210",
+      "competitionName": "SuperLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "187854",
+          "teamSlug": "novi-pazar",
+          "competitionId": "210",
+          "competitionSlug": "superliga",
+          "url": "https://www.fotmob.com/teams/187854/overview/novi-pazar",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "4639",
+          "teamSlug": "fk-novi-pazar",
+          "countrySlug": "serbia",
+          "url": "https://www.soccer-rating.com/FK-Novi-Pazar/4639/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "5152",
+      "teamName": "FK Partizan",
+      "countryName": "Serbia",
+      "competitionId": "210",
+      "competitionName": "SuperLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "7998",
+          "teamSlug": "partizan-beograd",
+          "competitionId": "210",
+          "competitionSlug": "superliga",
+          "url": "https://www.fotmob.com/teams/7998/overview/partizan-beograd",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "535",
+          "teamSlug": "partizan-belgrade",
+          "countrySlug": "serbia",
+          "url": "https://www.soccer-rating.com/Partizan-Belgrade/535/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "43981",
+      "teamName": "FK Radnički 1923",
+      "countryName": "Serbia",
+      "competitionId": "210",
+      "competitionName": "SuperLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "1675",
+          "teamSlug": "fk-radnicki-1923",
+          "competitionId": "210",
+          "competitionSlug": "superliga",
+          "url": "https://www.fotmob.com/teams/1675/overview/fk-radnicki-1923",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "7241",
+          "teamSlug": "radnicki-1923-kragujevac",
+          "countrySlug": "serbia",
+          "url": "https://www.soccer-rating.com/Radnicki-1923-Kragujevac/7241/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "25737",
+      "teamName": "FK Radnički Niš",
+      "countryName": "Serbia",
+      "competitionId": "210",
+      "competitionName": "SuperLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "6410",
+          "teamSlug": "radnicki-nis",
+          "competitionId": "210",
+          "competitionSlug": "superliga",
+          "url": "https://www.fotmob.com/teams/6410/overview/radnicki-nis",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "4640",
+          "teamSlug": "radnicki-nis",
+          "countrySlug": "serbia",
+          "url": "https://www.soccer-rating.com/Radnicki-Nis/4640/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "111127",
+      "teamName": "FK Radnik Surdulica",
+      "countryName": "Serbia",
+      "competitionId": "210",
+      "competitionName": "SuperLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "463461",
+          "teamSlug": "fk-radnik-surdulica",
+          "competitionId": "210",
+          "competitionSlug": "superliga",
+          "url": "https://www.fotmob.com/teams/463461/overview/fk-radnik-surdulica",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "9538",
+          "teamSlug": "radnik-surdulica",
+          "countrySlug": "serbia",
+          "url": "https://www.soccer-rating.com/Radnik-Surdulica/9538/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "5150",
+      "teamName": "FK Vojvodina",
+      "countryName": "Serbia",
+      "competitionId": "210",
+      "competitionName": "SuperLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "6406",
+          "teamSlug": "vojvodina",
+          "competitionId": "210",
+          "competitionSlug": "superliga",
+          "url": "https://www.fotmob.com/teams/6406/overview/vojvodina",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "550",
+          "teamSlug": "vojvodina-novi-sad",
+          "countrySlug": "serbia",
+          "url": "https://www.soccer-rating.com/Vojvodina-Novi-Sad/550/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "5157",
+      "teamName": "FK Zemun",
+      "countryName": "Serbia",
+      "competitionId": "210",
+      "competitionName": "SuperLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "6231",
+          "teamSlug": "fk-zemun",
+          "competitionId": "210",
+          "competitionSlug": "superliga",
+          "url": "https://www.fotmob.com/teams/6231/overview/fk-zemun",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "3197",
+          "teamSlug": "fk-zemun",
+          "countrySlug": "serbia",
+          "url": "https://www.soccer-rating.com/FK-Zemun/3197/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "282203",
+      "teamName": "FK Železničar Pančevo",
+      "countryName": "Serbia",
+      "competitionId": "210",
+      "competitionName": "SuperLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "676141",
+          "teamSlug": "zeleznicar-pancevo",
+          "competitionId": "210",
+          "competitionSlug": "superliga",
+          "url": "https://www.fotmob.com/teams/676141/overview/zeleznicar-pancevo",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "14583",
+          "teamSlug": "fk-zeleznicar-pancevo",
+          "countrySlug": "serbia",
+          "url": "https://www.soccer-rating.com/FK-Zeleznicar-Pancevo/14583/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "5153",
+      "teamName": "OFK Beograd Mozzart Bet",
+      "countryName": "Serbia",
+      "competitionId": "210",
+      "competitionName": "SuperLiga",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8692",
+          "teamSlug": "ofk-beograd",
+          "competitionId": "210",
+          "competitionSlug": "superliga",
+          "url": "https://www.fotmob.com/teams/8692/overview/ofk-beograd",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1925",
+          "teamSlug": "ofk-belgrade",
+          "countrySlug": "serbia",
+          "url": "https://www.soccer-rating.com/OFK-Belgrade/1925/",
+          "notes": null
+        }
+      }
+    },
+    {
       "sofascoreTeamId": "43336",
       "teamName": "Bukovyna",
       "countryName": "Ukraine",
