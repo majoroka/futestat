@@ -1,6 +1,6 @@
 {
   "source": "team-source-registry",
-  "generatedAtUtc": "2026-08-12T15:51:19.450Z",
+  "generatedAtUtc": "2026-08-12T15:56:59.699Z",
   "referenceDate": "2026-08-11",
   "registryPath": "data/team-source-registry.json",
   "summary": {
@@ -10,11 +10,11 @@
     "competitionsWithoutRegistryEntries": 0,
     "teams": 662,
     "activeTeams": 62,
-    "complete": 654,
+    "complete": 662,
     "partial": 0,
-    "missing": 8,
-    "fotmobMapped": 654,
-    "soccerRatingMapped": 654
+    "missing": 0,
+    "fotmobMapped": 662,
+    "soccerRatingMapped": 662
   },
   "competitions": [
     {
@@ -4262,129 +4262,13 @@
       "teamCount": 18,
       "activeTeams": 18,
       "coverage": {
-        "complete": 14,
+        "complete": 18,
         "partial": 0,
-        "missing": 4,
-        "fotmobMapped": 14,
-        "soccerRatingMapped": 14
+        "missing": 0,
+        "fotmobMapped": 18,
+        "soccerRatingMapped": 18
       },
       "teams": [
-        {
-          "sofascoreTeamId": "262229",
-          "teamName": "Ararat-Armenia",
-          "activeInCurrentWindow": true,
-          "fixtureAppearancesInCurrentWindow": 1,
-          "firstSeenReferenceDate": "2026-08-11",
-          "lastSeenReferenceDate": "2026-08-11",
-          "sources": {
-            "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "ararat-armenia",
-              "url": null,
-              "notes": null
-            },
-            "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "ararat-armenia",
-              "url": null,
-              "notes": null
-            }
-          },
-          "mappingState": "missing",
-          "recommendedNextSteps": [
-            "map_fotmob",
-            "map_soccer_rating"
-          ]
-        },
-        {
-          "sofascoreTeamId": "80741",
-          "teamName": "Kauno Žalgiris",
-          "activeInCurrentWindow": true,
-          "fixtureAppearancesInCurrentWindow": 1,
-          "firstSeenReferenceDate": "2026-08-11",
-          "lastSeenReferenceDate": "2026-08-11",
-          "sources": {
-            "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "kauno-zalgiris",
-              "url": null,
-              "notes": null
-            },
-            "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "kauno-zalgiris",
-              "url": null,
-              "notes": null
-            }
-          },
-          "mappingState": "missing",
-          "recommendedNextSteps": [
-            "map_fotmob",
-            "map_soccer_rating"
-          ]
-        },
-        {
-          "sofascoreTeamId": "267828",
-          "teamName": "Sabah",
-          "activeInCurrentWindow": true,
-          "fixtureAppearancesInCurrentWindow": 1,
-          "firstSeenReferenceDate": "2026-08-11",
-          "lastSeenReferenceDate": "2026-08-11",
-          "sources": {
-            "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "sabah",
-              "url": null,
-              "notes": null
-            },
-            "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "sabah",
-              "url": null,
-              "notes": null
-            }
-          },
-          "mappingState": "missing",
-          "recommendedNextSteps": [
-            "map_fotmob",
-            "map_soccer_rating"
-          ]
-        },
-        {
-          "sofascoreTeamId": "2218",
-          "teamName": "Sparta Praha",
-          "activeInCurrentWindow": true,
-          "fixtureAppearancesInCurrentWindow": 1,
-          "firstSeenReferenceDate": "2026-08-11",
-          "lastSeenReferenceDate": "2026-08-11",
-          "sources": {
-            "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "sparta-praha",
-              "url": null,
-              "notes": null
-            },
-            "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "sparta-praha",
-              "url": null,
-              "notes": null
-            }
-          },
-          "mappingState": "missing",
-          "recommendedNextSteps": [
-            "map_fotmob",
-            "map_soccer_rating"
-          ]
-        },
         {
           "sofascoreTeamId": "1291",
           "teamName": "AGF",
@@ -4406,6 +4290,32 @@
               "teamSlug": "aarhus-gf",
               "url": "https://www.soccer-rating.com/Aarhus-GF/265/",
               "notes": "Soccer-Rating usa Aarhus GF."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "262229",
+          "teamName": "Ararat-Armenia",
+          "activeInCurrentWindow": true,
+          "fixtureAppearancesInCurrentWindow": 1,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "866109",
+              "teamSlug": "ararat-armenia",
+              "url": "https://www.fotmob.com/teams/866109/overview/ararat-armenia",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "12814",
+              "teamSlug": "ararat-armenia",
+              "url": "https://www.soccer-rating.com/Ararat-Armenia/12814/",
+              "notes": null
             }
           },
           "mappingState": "complete",
@@ -4568,6 +4478,32 @@
           "recommendedNextSteps": []
         },
         {
+          "sofascoreTeamId": "80741",
+          "teamName": "Kauno Žalgiris",
+          "activeInCurrentWindow": true,
+          "fixtureAppearancesInCurrentWindow": 1,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "439132",
+              "teamSlug": "fk-kauno-zalgiris",
+              "url": "https://www.fotmob.com/teams/439132/overview/fk-kauno-zalgiris",
+              "notes": "FotMob usa FK Kauno Zalgiris."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "8376",
+              "teamSlug": "kauno-zalgiris",
+              "url": "https://www.soccer-rating.com/Kauno-Zalgiris/8376/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
           "sofascoreTeamId": "1649",
           "teamName": "Lyon",
           "activeInCurrentWindow": true,
@@ -4672,6 +4608,32 @@
           "recommendedNextSteps": []
         },
         {
+          "sofascoreTeamId": "267828",
+          "teamName": "Sabah",
+          "activeInCurrentWindow": true,
+          "fixtureAppearancesInCurrentWindow": 1,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "951893",
+              "teamSlug": "sabah-fk",
+              "url": "https://www.fotmob.com/en-GB/teams/951893/overview/sabah-fk/teams",
+              "notes": "FotMob usa Sabah FK."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "12931",
+              "teamSlug": "sabah-fk",
+              "url": "https://www.soccer-rating.com/Sabah-FK/12931/",
+              "notes": "Soccer-Rating usa Sabah FK."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
           "sofascoreTeamId": "2404",
           "teamName": "Slovan",
           "activeInCurrentWindow": true,
@@ -4691,6 +4653,32 @@
               "sourceTeamId": "37",
               "teamSlug": "slovan-bratislava",
               "url": "https://www.soccer-rating.com/Slovan-Bratislava/37/",
+              "notes": null
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
+          "sofascoreTeamId": "2218",
+          "teamName": "Sparta Praha",
+          "activeInCurrentWindow": true,
+          "fixtureAppearancesInCurrentWindow": 1,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "10247",
+              "teamSlug": "sparta-praha",
+              "url": "https://www.fotmob.com/teams/10247/overview/sparta-praha",
+              "notes": null
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "626",
+              "teamSlug": "sparta-praha",
+              "url": "https://www.soccer-rating.com/Sparta-Praha/626/",
               "notes": null
             }
           },
@@ -4760,11 +4748,11 @@
       "teamCount": 10,
       "activeTeams": 10,
       "coverage": {
-        "complete": 8,
+        "complete": 10,
         "partial": 0,
-        "missing": 2,
-        "fotmobMapped": 8,
-        "soccerRatingMapped": 8
+        "missing": 0,
+        "fotmobMapped": 10,
+        "soccerRatingMapped": 10
       },
       "teams": [
         {
@@ -4776,54 +4764,22 @@
           "lastSeenReferenceDate": "2026-08-11",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "apollon",
-              "url": null,
-              "notes": null
+              "status": "mapped",
+              "sourceTeamId": "8003",
+              "teamSlug": "apollon-limassol",
+              "url": "https://www.fotmob.com/teams/8003/overview/apollon-limassol",
+              "notes": "FotMob usa Apollon Limassol."
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "apollon",
-              "url": null,
-              "notes": null
+              "status": "mapped",
+              "sourceTeamId": "2173",
+              "teamSlug": "apollon-limassol",
+              "url": "https://www.soccer-rating.com/Apollon-Limassol/2173/",
+              "notes": "Soccer-Rating usa Apollon Limassol."
             }
           },
-          "mappingState": "missing",
-          "recommendedNextSteps": [
-            "map_fotmob",
-            "map_soccer_rating"
-          ]
-        },
-        {
-          "sofascoreTeamId": "32476",
-          "teamName": "Paide",
-          "activeInCurrentWindow": true,
-          "fixtureAppearancesInCurrentWindow": 1,
-          "firstSeenReferenceDate": "2026-08-11",
-          "lastSeenReferenceDate": "2026-08-11",
-          "sources": {
-            "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "paide",
-              "url": null,
-              "notes": null
-            },
-            "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "paide",
-              "url": null,
-              "notes": null
-            }
-          },
-          "mappingState": "missing",
-          "recommendedNextSteps": [
-            "map_fotmob",
-            "map_soccer_rating"
-          ]
+          "mappingState": "complete",
+          "recommendedNextSteps": []
         },
         {
           "sofascoreTeamId": "1159",
@@ -4982,6 +4938,32 @@
           "recommendedNextSteps": []
         },
         {
+          "sofascoreTeamId": "32476",
+          "teamName": "Paide",
+          "activeInCurrentWindow": true,
+          "fixtureAppearancesInCurrentWindow": 1,
+          "firstSeenReferenceDate": "2026-08-11",
+          "lastSeenReferenceDate": "2026-08-11",
+          "sources": {
+            "fotmob": {
+              "status": "mapped",
+              "sourceTeamId": "163540",
+              "teamSlug": "paide",
+              "url": "https://www.fotmob.com/teams/163540/overview/paide",
+              "notes": "FotMob usa Paide Linnameeskond."
+            },
+            "soccerRating": {
+              "status": "mapped",
+              "sourceTeamId": "4001",
+              "teamSlug": "fc-flora-paide",
+              "url": "https://www.soccer-rating.com/FC-Flora-Paide/4001/",
+              "notes": "Soccer-Rating usa FC Flora Paide, mas a pagina corresponde ao Paide Linnameeskond atual."
+            }
+          },
+          "mappingState": "complete",
+          "recommendedNextSteps": []
+        },
+        {
           "sofascoreTeamId": "3248",
           "teamName": "Panathinaikos",
           "activeInCurrentWindow": true,
@@ -5044,11 +5026,11 @@
       "teamCount": 2,
       "activeTeams": 2,
       "coverage": {
-        "complete": 0,
+        "complete": 2,
         "partial": 0,
-        "missing": 2,
-        "fotmobMapped": 0,
-        "soccerRatingMapped": 0
+        "missing": 0,
+        "fotmobMapped": 2,
+        "soccerRatingMapped": 2
       },
       "teams": [
         {
@@ -5060,25 +5042,22 @@
           "lastSeenReferenceDate": "2026-08-11",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "iberia",
-              "url": null,
-              "notes": null
+              "status": "mapped",
+              "sourceTeamId": "480291",
+              "teamSlug": "iberia-1999",
+              "url": "https://www.fotmob.com/teams/480291/overview/iberia-1999/teams",
+              "notes": "FotMob usa Iberia 1999."
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "iberia",
-              "url": null,
-              "notes": null
+              "status": "mapped",
+              "sourceTeamId": "12013",
+              "teamSlug": "fc-iberia-1999",
+              "url": "https://www.soccer-rating.com/FC-Iberia-1999/12013/",
+              "notes": "Soccer-Rating usa FC Iberia 1999."
             }
           },
-          "mappingState": "missing",
-          "recommendedNextSteps": [
-            "map_fotmob",
-            "map_soccer_rating"
-          ]
+          "mappingState": "complete",
+          "recommendedNextSteps": []
         },
         {
           "sofascoreTeamId": "5184",
@@ -5089,25 +5068,22 @@
           "lastSeenReferenceDate": "2026-08-11",
           "sources": {
             "fotmob": {
-              "status": "pending",
-              "sourceTeamId": null,
-              "teamSlug": "larne-fc",
-              "url": null,
-              "notes": null
+              "status": "mapped",
+              "sourceTeamId": "2206",
+              "teamSlug": "larne",
+              "url": "https://www.fotmob.com/en-GB/teams/2206/overview/larne",
+              "notes": "FotMob usa Larne."
             },
             "soccerRating": {
-              "status": "pending",
-              "sourceTeamId": null,
+              "status": "mapped",
+              "sourceTeamId": "1875",
               "teamSlug": "larne-fc",
-              "url": null,
+              "url": "https://www.soccer-rating.com/Larne-FC/1875/",
               "notes": null
             }
           },
-          "mappingState": "missing",
-          "recommendedNextSteps": [
-            "map_fotmob",
-            "map_soccer_rating"
-          ]
+          "mappingState": "complete",
+          "recommendedNextSteps": []
         }
       ]
     },
