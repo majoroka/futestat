@@ -15964,6 +15964,366 @@
       }
     },
     {
+      "sofascoreTeamId": "2355",
+      "teamName": "Aberdeen",
+      "countryName": "Scotland",
+      "competitionId": "36",
+      "competitionName": "Premiership",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8485",
+          "teamSlug": "aberdeen",
+          "competitionId": "36",
+          "competitionSlug": "premiership",
+          "url": "https://www.fotmob.com/teams/8485/overview/aberdeen",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "949",
+          "teamSlug": "fc-aberdeen",
+          "countrySlug": "scotland",
+          "url": "https://www.soccer-rating.com/FC-Aberdeen/949/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2352",
+      "teamName": "Celtic",
+      "countryName": "Scotland",
+      "competitionId": "36",
+      "competitionName": "Premiership",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9925",
+          "teamSlug": "celtic",
+          "competitionId": "36",
+          "competitionSlug": "premiership",
+          "url": "https://www.fotmob.com/teams/9925/overview/celtic",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "946",
+          "teamSlug": "celtic-glasgow",
+          "countrySlug": "scotland",
+          "url": "https://www.soccer-rating.com/Celtic-Glasgow/946/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2357",
+      "teamName": "Dundee FC",
+      "countryName": "Scotland",
+      "competitionId": "36",
+      "competitionName": "Premiership",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8284",
+          "teamSlug": "dundee-fc",
+          "competitionId": "36",
+          "competitionSlug": "premiership",
+          "url": "https://www.fotmob.com/teams/8284/overview/dundee-fc",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1705",
+          "teamSlug": "fc-dundee",
+          "countrySlug": "scotland",
+          "url": "https://www.soccer-rating.com/FC-Dundee/1705/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2349",
+      "teamName": "Dundee United",
+      "countryName": "Scotland",
+      "competitionId": "36",
+      "competitionName": "Premiership",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9938",
+          "teamSlug": "dundee-united",
+          "competitionId": "36",
+          "competitionSlug": "premiership",
+          "url": "https://www.fotmob.com/teams/9938/overview/dundee-united",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "948",
+          "teamSlug": "dundee-united",
+          "countrySlug": "scotland",
+          "url": "https://www.soccer-rating.com/Dundee-United/948/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2363",
+      "teamName": "Falkirk FC",
+      "countryName": "Scotland",
+      "competitionId": "36",
+      "competitionName": "Premiership",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8596",
+          "teamSlug": "falkirk",
+          "competitionId": "36",
+          "competitionSlug": "premiership",
+          "url": "https://www.fotmob.com/teams/8596/overview/falkirk",
+          "notes": "FotMob usa Falkirk."
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "951",
+          "teamSlug": "falkirk-fc",
+          "countrySlug": "scotland",
+          "url": "https://www.soccer-rating.com/Falkirk-FC/951/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2353",
+      "teamName": "Heart of Midlothian",
+      "countryName": "Scotland",
+      "competitionId": "36",
+      "competitionName": "Premiership",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9860",
+          "teamSlug": "heart-of-midlothian",
+          "competitionId": "36",
+          "competitionSlug": "premiership",
+          "url": "https://www.fotmob.com/teams/9860/overview/heart-of-midlothian",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "952",
+          "teamSlug": "heart-of-midlothian",
+          "countrySlug": "scotland",
+          "url": "https://www.soccer-rating.com/Heart-of-Midlothian/952/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2354",
+      "teamName": "Hibernian",
+      "countryName": "Scotland",
+      "competitionId": "36",
+      "competitionName": "Premiership",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "10251",
+          "teamSlug": "hibernian",
+          "competitionId": "36",
+          "competitionSlug": "premiership",
+          "url": "https://www.fotmob.com/teams/10251/overview/hibernian",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "953",
+          "teamSlug": "hibernian-edinburgh",
+          "countrySlug": "scotland",
+          "url": "https://www.soccer-rating.com/Hibernian-Edinburgh/953/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2347",
+      "teamName": "Kilmarnock",
+      "countryName": "Scotland",
+      "competitionId": "36",
+      "competitionName": "Premiership",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8597",
+          "teamSlug": "kilmarnock",
+          "competitionId": "36",
+          "competitionSlug": "premiership",
+          "url": "https://www.fotmob.com/teams/8597/overview/kilmarnock",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "947",
+          "teamSlug": "fc-kilmarnock",
+          "countrySlug": "scotland",
+          "url": "https://www.soccer-rating.com/FC-Kilmarnock/947/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2346",
+      "teamName": "Motherwell",
+      "countryName": "Scotland",
+      "competitionId": "36",
+      "competitionName": "Premiership",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9927",
+          "teamSlug": "motherwell",
+          "competitionId": "36",
+          "competitionSlug": "premiership",
+          "url": "https://www.fotmob.com/teams/9927/overview/motherwell",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "957",
+          "teamSlug": "fc-motherwell",
+          "countrySlug": "scotland",
+          "url": "https://www.soccer-rating.com/FC-Motherwell/957/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2351",
+      "teamName": "Rangers",
+      "countryName": "Scotland",
+      "competitionId": "36",
+      "competitionName": "Premiership",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8548",
+          "teamSlug": "rangers",
+          "competitionId": "36",
+          "competitionSlug": "premiership",
+          "url": "https://www.fotmob.com/teams/8548/overview/rangers",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "955",
+          "teamSlug": "glasgow-rangers",
+          "countrySlug": "scotland",
+          "url": "https://www.soccer-rating.com/Glasgow-Rangers/955/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2348",
+      "teamName": "St. Johnstone",
+      "countryName": "Scotland",
+      "competitionId": "36",
+      "competitionName": "Premiership",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "8467",
+          "teamSlug": "st-johnstone",
+          "competitionId": "36",
+          "competitionSlug": "premiership",
+          "url": "https://www.fotmob.com/teams/8467/overview/st-johnstone",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "1707",
+          "teamSlug": "saint-johnstone-fc",
+          "countrySlug": "scotland",
+          "url": "https://www.soccer-rating.com/Saint-Johnstone-FC/1707/",
+          "notes": null
+        }
+      }
+    },
+    {
+      "sofascoreTeamId": "2359",
+      "teamName": "St. Mirren",
+      "countryName": "Scotland",
+      "competitionId": "36",
+      "competitionName": "Premiership",
+      "activeInCurrentWindow": false,
+      "fixtureAppearancesInCurrentWindow": 0,
+      "firstSeenReferenceDate": "2026-08-12",
+      "lastSeenReferenceDate": "2026-08-12",
+      "sources": {
+        "fotmob": {
+          "status": "mapped",
+          "sourceTeamId": "9800",
+          "teamSlug": "st-mirren",
+          "competitionId": "36",
+          "competitionSlug": "premiership",
+          "url": "https://www.fotmob.com/teams/9800/overview/st-mirren",
+          "notes": null
+        },
+        "soccerRating": {
+          "status": "mapped",
+          "sourceTeamId": "956",
+          "teamSlug": "st-mirren",
+          "countrySlug": "scotland",
+          "url": "https://www.soccer-rating.com/St-Mirren/956/",
+          "notes": null
+        }
+      }
+    },
+    {
       "sofascoreTeamId": "43336",
       "teamName": "Bukovyna",
       "countryName": "Ukraine",
