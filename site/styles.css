@@ -1068,6 +1068,23 @@ a {
   align-items: flex-start;
 }
 
+.fixture-detail__lineup-card-system {
+  display: grid;
+  gap: 4px;
+}
+
+.fixture-detail__lineup-card-system-label {
+  color: var(--muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.fixture-detail__lineup-card-system-value {
+  font-size: 0.92rem;
+  line-height: 1.2;
+}
+
 .fixture-detail__lineup-card-badges {
   display: inline-flex;
   flex-wrap: wrap;
@@ -1107,9 +1124,8 @@ a {
 }
 
 .fixture-detail__lineup-player {
-  display: flex;
+  display: grid;
   align-items: baseline;
-  gap: 10px;
   min-width: 0;
   padding: 0;
   border: 0;
@@ -1117,8 +1133,14 @@ a {
   text-align: left;
 }
 
+.fixture-detail__lineup-player--left {
+  grid-template-columns: minmax(0, 1fr) 3.2ch;
+  gap: 10px;
+}
+
 .fixture-detail__lineup-player--right {
-  justify-content: flex-end;
+  grid-template-columns: 3.2ch minmax(0, 1fr);
+  gap: 10px;
   text-align: right;
 }
 
@@ -1128,11 +1150,27 @@ a {
   font-weight: 600;
 }
 
+.fixture-detail__lineup-player--left strong {
+  text-align: left;
+}
+
+.fixture-detail__lineup-player--right strong {
+  text-align: right;
+}
+
 .fixture-detail__lineup-player-rating {
   color: var(--muted);
   font-size: 0.76rem;
   line-height: 1.3;
   min-width: 2.8ch;
+}
+
+.fixture-detail__lineup-player--left .fixture-detail__lineup-player-rating {
+  text-align: right;
+}
+
+.fixture-detail__lineup-player--right .fixture-detail__lineup-player-rating {
+  text-align: left;
 }
 
 .fixture-detail__lineup-empty {
@@ -1143,6 +1181,30 @@ a {
   color: var(--muted);
   font-size: 0.96rem;
   font-weight: 600;
+}
+
+.fixture-detail__lineup-total {
+  display: flex;
+  gap: 10px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(23, 32, 51, 0.08);
+  font-size: 0.86rem;
+}
+
+.fixture-detail__lineup-total--left {
+  justify-content: flex-end;
+}
+
+.fixture-detail__lineup-total--right {
+  justify-content: flex-start;
+}
+
+.fixture-detail__lineup-total span {
+  color: var(--muted);
+}
+
+.fixture-detail__lineup-total strong {
+  font-weight: 700;
 }
 
 .fixture-detail__availability-columns {

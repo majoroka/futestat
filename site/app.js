@@ -1550,14 +1550,16 @@ function renderExpectedLineupCard(team, side, align = "left") {
   }
 
   const groups = groupExpectedLineupPlayers(players);
+  const totalXiRating = formatLineupTotalRating(players);
   return `
     <article class="fixture-detail__lineup-card fixture-detail__lineup-card--${escapeAttribute(side)}">
       ${
         lineup.formation
           ? `
             <div class="fixture-detail__lineup-card-head">
-              <div class="fixture-detail__lineup-card-badges">
-                <span class="fixture-detail__badge">${escapeHtml(lineup.formation)}</span>
+              <div class="fixture-detail__lineup-card-system">
+                <span class="fixture-detail__lineup-card-system-label">Sistema</span>
+                <strong class="fixture-detail__lineup-card-system-value">${escapeHtml(lineup.formation)}</strong>
               </div>
             </div>
           `
@@ -1565,6 +1567,16 @@ function renderExpectedLineupCard(team, side, align = "left") {
       }
       <div class="fixture-detail__lineup-field">
         ${groups.map((group) => renderExpectedLineupBand(group.label, group.players, align)).join("")}
+        ${
+          totalXiRating
+            ? `
+              <div class="fixture-detail__lineup-total fixture-detail__lineup-total--${escapeAttribute(align)}">
+                <span>Total XI</span>
+                <strong>${escapeHtml(totalXiRating)}</strong>
+              </div>
+            `
+            : ""
+        }
       </div>
     </article>
   `;
@@ -1672,6 +1684,23 @@ function renderExpectedLineupPlayer(player, align = "left") {
       }
     </article>
   `;
+}
+
+function formatLineupTotalRating(players) {
+  if (!Array.isArray(players) || players.length === 0) {
+    return null;
+  }
+
+  const ratings = players
+    .map((player) => player?.rating)
+    .filter((rating) => typeof rating === "number" && Number.isFinite(rating));
+
+  if (ratings.length === 0) {
+    return null;
+  }
+
+  const total = ratings.reduce((sum, rating) => sum + rating, 0);
+  return total.toFixed(1);
 }
 
 function renderFixtureDetailAvailabilitySection(view) {
