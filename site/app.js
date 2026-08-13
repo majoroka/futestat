@@ -1612,7 +1612,7 @@ function renderInlineTeamLogo(existingUrl, teamId, teamName) {
 }
 
 function groupExpectedLineupPlayers(players) {
-  const order = ["FWD", "MID", "DEF", "GK", "OTHER"];
+  const order = ["GK", "DEF", "MID", "FWD", "OTHER"];
   const buckets = new Map(order.map((key) => [key, []]));
 
   for (const player of players) {
@@ -1624,10 +1624,10 @@ function groupExpectedLineupPlayers(players) {
     .map((key) => ({
       key,
       label:
-        key === "FWD" ? "Ataque" :
-        key === "MID" ? "Meio-campo" :
+        key === "GK" ? "Guarda-redes" :
         key === "DEF" ? "Defesa" :
-        key === "GK" ? "Guarda-redes" : "Outros",
+        key === "MID" ? "Meio-campo" :
+        key === "FWD" ? "Ataque" : "Outros",
       players: buckets.get(key) ?? [],
     }))
     .filter((group) => group.players.length > 0);
@@ -1672,8 +1672,8 @@ function renderExpectedLineupBand(label, players) {
 function renderExpectedLineupPlayer(player) {
   return `
     <article class="fixture-detail__lineup-player" title="${escapeAttribute(player.position ?? "n/d")}">
+      <span class="fixture-detail__lineup-player-rating">${escapeHtml(formatOptionalDecimal(player.rating))}</span>
       <strong>${escapeHtml(player.name)}</strong>
-      <span>${escapeHtml(formatOptionalDecimal(player.rating))}</span>
     </article>
   `;
 }
