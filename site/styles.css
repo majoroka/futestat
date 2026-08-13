@@ -490,6 +490,13 @@ a {
   gap: 12px;
 }
 
+.fixture-detail__lineup-grid,
+.fixture-detail__availability-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
 .fixture-detail__summary-card {
   display: grid;
   gap: 10px;
@@ -520,6 +527,28 @@ a {
 
 .fixture-detail__summary-hint {
   margin-top: 10px;
+}
+
+.fixture-detail__form-team {
+  display: grid;
+  gap: 10px;
+}
+
+.fixture-detail__form-team-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fixture-detail__form-team-head strong {
+  font-size: 0.96rem;
+}
+
+.fixture-detail__form-team-head span {
+  color: var(--muted);
+  font-size: 0.78rem;
 }
 
 .fixture-detail__empty-state {
@@ -1009,6 +1038,155 @@ a {
 .fixture-detail__form-pill--empty {
   background: rgba(83, 96, 122, 0.1);
   color: var(--muted);
+}
+
+.fixture-detail__lineup-card,
+.fixture-detail__availability-card {
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid rgba(23, 32, 51, 0.08);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 14px 30px rgba(17, 34, 84, 0.04);
+}
+
+.fixture-detail__lineup-card--home,
+.fixture-detail__availability-card--home {
+  background: linear-gradient(180deg, rgba(244, 248, 255, 0.96), rgba(255, 255, 255, 0.88));
+}
+
+.fixture-detail__lineup-card--away,
+.fixture-detail__availability-card--away {
+  background: linear-gradient(180deg, rgba(248, 250, 255, 0.96), rgba(255, 255, 255, 0.88));
+}
+
+.fixture-detail__lineup-card-head,
+.fixture-detail__availability-card-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.fixture-detail__lineup-card-title {
+  display: grid;
+  gap: 6px;
+}
+
+.fixture-detail__lineup-card-badges {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.fixture-detail__lineup-field {
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(23, 32, 51, 0.06);
+  background:
+    radial-gradient(circle at center, rgba(31, 94, 255, 0.04), transparent 62%),
+    linear-gradient(180deg, rgba(238, 245, 255, 0.9), rgba(255, 255, 255, 0.96));
+}
+
+.fixture-detail__lineup-band {
+  display: grid;
+  gap: 8px;
+}
+
+.fixture-detail__lineup-band-label {
+  color: var(--muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.fixture-detail__lineup-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.fixture-detail__lineup-player {
+  display: grid;
+  gap: 4px;
+  min-width: 120px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(23, 32, 51, 0.06);
+  background: rgba(255, 255, 255, 0.92);
+  text-align: center;
+}
+
+.fixture-detail__lineup-player strong {
+  font-size: 0.82rem;
+  line-height: 1.25;
+}
+
+.fixture-detail__lineup-player span {
+  color: var(--muted);
+  font-size: 0.74rem;
+}
+
+.fixture-detail__lineup-empty {
+  display: grid;
+  place-items: center;
+  min-height: 180px;
+  border-radius: 18px;
+  border: 1px dashed rgba(23, 32, 51, 0.14);
+  background: rgba(255, 255, 255, 0.74);
+  color: var(--muted);
+  font-size: 0.96rem;
+  font-weight: 600;
+}
+
+.fixture-detail__availability-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.fixture-detail__availability-section {
+  display: grid;
+  gap: 10px;
+}
+
+.fixture-detail__availability-section h5 {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.fixture-detail__availability-list {
+  display: grid;
+  gap: 10px;
+}
+
+.fixture-detail__availability-item {
+  display: grid;
+  gap: 4px;
+  padding: 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(23, 32, 51, 0.06);
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.fixture-detail__availability-item strong {
+  font-size: 0.84rem;
+  line-height: 1.25;
+}
+
+.fixture-detail__availability-item span,
+.fixture-detail__availability-empty {
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.5;
 }
 
 .fixture-detail__standings {
@@ -1958,7 +2136,10 @@ a {
   .fixture-detail__history-panels,
   .fixture-detail__squad-panels,
   .fixture-detail__team-panels,
-  .fixture-detail__team-panel-grid {
+  .fixture-detail__team-panel-grid,
+  .fixture-detail__lineup-grid,
+  .fixture-detail__availability-grid,
+  .fixture-detail__availability-columns {
     grid-template-columns: 1fr;
   }
 
@@ -1989,6 +2170,15 @@ a {
   }
 
   .fixture-detail__squad-panel-badges {
+    justify-content: flex-start;
+  }
+
+  .fixture-detail__lineup-card-head,
+  .fixture-detail__availability-card-head {
+    flex-direction: column;
+  }
+
+  .fixture-detail__lineup-card-badges {
     justify-content: flex-start;
   }
 
@@ -2117,5 +2307,18 @@ a {
     min-height: 32px;
     padding-inline: 11px;
     font-size: 0.78rem;
+  }
+
+  .fixture-detail__lineup-card,
+  .fixture-detail__availability-card {
+    padding: 14px;
+  }
+
+  .fixture-detail__lineup-field {
+    padding: 12px;
+  }
+
+  .fixture-detail__lineup-player {
+    min-width: 100%;
   }
 }

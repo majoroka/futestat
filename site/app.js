@@ -491,98 +491,23 @@ function bindFixtureDetailTabs() {
 function renderFixtureDetailsTab(fixture, matchViewState) {
   if (matchViewState?.status === "loaded" && matchViewState.data) {
     const view = matchViewState.data;
-    const contextRows = [
-      detailInfoRow("Competição", formatMatchViewCompetitionName(view)),
-      detailInfoRowIf("Fase", view.match.details.competitionStage),
-      detailInfoRowIf("País", view.match.competition.country),
-      detailInfoRowIf("Formato", formatMatchViewTieFormat(view.match.details.tieContext)),
-    ].join("");
-    const venueRows = [
-      detailInfoRowIf("Estádio", view.match.details.venueName),
-      detailInfoRowIf("Cidade", formatMatchViewVenueCity(view)),
-      detailInfoRowIf("Capacidade", formatMatchViewVenueCapacity(view.match.details.venueCapacity)),
-    ].join("");
-    const coverageRows = [
-      detailInfoRowIf("Árbitro", formatMatchViewReferee(view)),
-      detailInfoRow("TV em Portugal", formatMatchViewWatch(view.match.details.watch)),
-    ].join("");
 
     return `
       <div class="fixture-detail__tab-panel fixture-detail__stack">
         ${renderFixtureTabIntro({
           eyebrow: "Detalhes",
           title: "Contexto operacional do jogo",
-          copy: "Separador preparado para consolidar recinto, arbitragem, TV e enquadramento competitivo sem misturar com classificação ou estatísticas.",
+          copy: "Separador focado no enquadramento competitivo, dados do jogo, forma recente, equipa provável e indisponíveis.",
           badges: [
             view.match.details.competitionStage ?? null,
             formatStatusLabel(fixture),
-            "Match view",
+            formatMatchViewTieFormat(view.match.details.tieContext),
           ],
         })}
-        <section class="fixture-detail__subsection">
-          <h4>Leitura rápida</h4>
-          ${renderDetailHighlights([
-            {
-              label: "Data e hora",
-              value: formatMatchViewDateTime(view),
-              tone: "accent",
-            },
-            {
-              label: "Competição",
-              value: view.match.competition.name ?? "Sem competição publicada",
-            },
-            {
-              label: "Fase",
-              value: view.match.details.competitionStage ?? "Sem fase publicada",
-            },
-            {
-              label: "Recinto",
-              value: view.match.details.venueName ?? "Sem recinto publicado",
-            },
-            {
-              label: "TV PT",
-              value: formatMatchViewWatchCompact(view.match.details.watch),
-            },
-          ])}
-        </section>
-        <section class="fixture-detail__subsection">
-          <h4>Contexto e cobertura</h4>
-          <div class="fixture-detail__summary-grid">
-            ${renderDetailSummaryCard(
-              "Contexto competitivo",
-              contextRows || renderSummaryEmpty("Ainda não existe enquadramento competitivo publicado para este jogo."),
-            )}
-            ${renderDetailSummaryCard(
-              "Estado operacional",
-              [
-                detailInfoRow("Estado", formatStatusLabel(fixture)),
-                detailInfoRow("Resultado", formatScoreline(fixture)),
-                detailInfoRow("Atualização", formatTimestamp(view.builtAtUtc)),
-                renderSummaryHint(
-                  `<a class="fixture-detail__inline-link" href="${escapeAttribute(fixture.matchUrl)}" target="_blank" rel="noreferrer">Abrir no Sofascore</a>`,
-                ),
-              ].join(""),
-            )}
-            ${renderDetailSummaryCard(
-              "Recinto",
-              venueRows || renderSummaryEmpty("Sofascore ainda não expôs estádio, cidade ou capacidade para este jogo."),
-            )}
-            ${renderDetailSummaryCard(
-              "Cobertura",
-              coverageRows || renderSummaryEmpty("Ainda não existe arbitragem ou agenda de TV confirmada para este jogo."),
-            )}
-          </div>
-          ${renderDetailsCoverageHint(view)}
-        </section>
-        <section class="fixture-detail__subsection">
-          <h4>Raio-X das equipas</h4>
-          <div class="fixture-detail__team-panels">
-            ${renderTeamSnapshotPanel("Casa", view.homeTeam, "home")}
-            ${renderTeamSnapshotPanel("Fora", view.awayTeam, "away")}
-          </div>
-        </section>
-        ${renderTieContextSection(view)}
-        ${renderRecentContextSection(view)}
+        ${renderFixtureDetailContextSection(fixture, view)}
+        ${renderFixtureDetailFormSection(view)}
+        ${renderFixtureDetailLineupSection(view)}
+        ${renderFixtureDetailAvailabilitySection(view)}
       </div>
     `;
   }
@@ -610,53 +535,65 @@ function renderBasicFixtureDetails(fixture, note = null) {
       ${renderFixtureTabIntro({
         eyebrow: "Detalhes",
         title: "Contexto base do jogo",
-        copy: "Enquanto a match view não existe, este separador mostra apenas a informação estrutural já disponível no snapshot público.",
+        copy: "Enquanto a match view não existe, este separador mostra a estrutura final e assinala como n/d os blocos ainda não publicados.",
         badges: [formatStatusLabel(fixture), fixture.competitionName ?? null],
       })}
       <section class="fixture-detail__subsection">
-        <h4>Leitura rápida</h4>
-        ${renderDetailHighlights([
-          {
-            label: "Data e hora",
-            value: `${formatFixtureDetailDate(fixture)} · ${formatFixtureDetailTime(fixture)}`,
-            tone: "accent",
-          },
-          {
-            label: "Competição",
-            value: fixture.competitionName ?? "Indisponível",
-          },
-          {
-            label: "Estado",
-            value: formatStatusLabel(fixture),
-          },
-          {
-            label: "Resultado",
-            value: formatScoreline(fixture),
-          },
-        ])}
-      </section>
-      <section class="fixture-detail__subsection">
-        <h4>Contexto disponível</h4>
+        <h4>Contexto competitivo</h4>
         <div class="fixture-detail__summary-grid">
+          ${renderDetailSummaryCard(
+            "Competição",
+            [
+              detailInfoRow("Data e hora", `${formatFixtureDetailDate(fixture)} · ${formatFixtureDetailTime(fixture)}`),
+              detailInfoRow("Competição", [fixture.competitionName, fixture.countryName].filter(Boolean).join(" · ") || "n/d"),
+              detailInfoRow("Fase", "n/d"),
+              detailInfoRow("Contexto", "n/d"),
+            ].join(""),
+          )}
           ${renderDetailSummaryCard(
             "Jogo",
             [
-              detailInfoRow("Data e hora", `${formatFixtureDetailDate(fixture)} · ${formatFixtureDetailTime(fixture)}`),
-              detailInfoRow("Competição", [fixture.competitionName, fixture.countryName].filter(Boolean).join(" · ") || "Indisponível"),
-              detailInfoRow("Estado", formatStatusLabel(fixture)),
-              detailInfoRow("Resultado", formatScoreline(fixture)),
-            ].join(""),
-          )}
-          ${renderDetailSummaryCard(
-            "Estado da vista",
-            [
-              note ? renderSummaryEmpty(note) : renderSummaryEmpty("A vista detalhada deste jogo ainda não foi publicada."),
-              renderSummaryHint(
-                `<a class="fixture-detail__inline-link" href="${escapeAttribute(fixture.matchUrl)}" target="_blank" rel="noreferrer">Abrir no Sofascore</a>`,
-              ),
+              detailInfoRow("Estádio", "n/d"),
+              detailInfoRow("Capacidade", "n/d"),
+              detailInfoRow("Cidade", "n/d"),
+              detailInfoRow("Árbitro", "n/d"),
+              detailInfoRow("TV em Portugal", "n/d"),
             ].join(""),
           )}
         </div>
+      </section>
+      <section class="fixture-detail__subsection">
+        <h4>Forma recente</h4>
+        <div class="fixture-detail__summary-grid">
+          ${renderDetailSummaryCard(`Casa · ${fixture.homeTeamName}`, renderUnavailableFormRow("n/d"))}
+          ${renderDetailSummaryCard(`Fora · ${fixture.awayTeamName}`, renderUnavailableFormRow("n/d"))}
+        </div>
+      </section>
+      <section class="fixture-detail__subsection">
+        <h4>Equipa provável</h4>
+        <div class="fixture-detail__lineup-grid">
+          ${renderUnavailableLineupCard("Casa", fixture.homeTeamName, "home")}
+          ${renderUnavailableLineupCard("Fora", fixture.awayTeamName, "away")}
+        </div>
+      </section>
+      <section class="fixture-detail__subsection">
+        <h4>Lesionados e suspensos</h4>
+        <div class="fixture-detail__availability-grid">
+          ${renderUnavailableAvailabilityCard("Casa", fixture.homeTeamName, "home")}
+          ${renderUnavailableAvailabilityCard("Fora", fixture.awayTeamName, "away")}
+        </div>
+      </section>
+      <section class="fixture-detail__subsection">
+        <h4>Estado da vista</h4>
+        ${renderFixtureTabEmptyState(
+          "Match view ainda não publicada",
+          note ?? "Alguns blocos continuam em n/d até existir uma match view publicada para este jogo.",
+          null,
+          {
+            statusLabel: "Snapshot público",
+            links: [createFixtureExternalLink(fixture.matchUrl, "Abrir no Sofascore")],
+          },
+        )}
       </section>
     </div>
   `;
@@ -1420,6 +1357,419 @@ function renderFixtureActionLinks(links) {
         .join("")}
     </div>
   `;
+}
+
+function renderFixtureDetailContextSection(fixture, view) {
+  const contextRows = [
+    detailInfoRow("Data e hora", formatMatchViewDateTime(view)),
+    detailInfoRow("Competição", formatMatchViewCompetitionName(view)),
+    detailInfoRow("Fase", stringValue(view.match.details.competitionStage, "n/d")),
+    detailInfoRow("Formato", stringValue(formatMatchViewTieFormat(view.match.details.tieContext), "n/d")),
+    renderPrimaryMatchContextRow(view),
+  ]
+    .filter(Boolean)
+    .join("");
+  const matchRows = [
+    detailInfoRow("Estádio", stringValue(view.match.details.venueName, "n/d")),
+    detailInfoRow("Capacidade", stringValue(formatMatchViewVenueCapacity(view.match.details.venueCapacity), "n/d")),
+    detailInfoRow("Cidade", stringValue(formatMatchViewVenueCity(view), "n/d")),
+    detailInfoRow("Árbitro", stringValue(formatMatchViewReferee(view), "n/d")),
+    detailInfoRow("TV em Portugal", formatMatchViewWatch(view.match.details.watch)),
+  ].join("");
+
+  return `
+    <section class="fixture-detail__subsection">
+      <h4>Contexto competitivo</h4>
+      <div class="fixture-detail__summary-grid">
+        ${renderDetailSummaryCard("Competição", contextRows)}
+        ${renderDetailSummaryCard("Jogo", matchRows)}
+      </div>
+      <p class="fixture-detail__note">Atualização local da match view: ${escapeHtml(formatTimestamp(view.builtAtUtc))}.</p>
+      ${renderFixtureActionLinks([createFixtureExternalLink(fixture.matchUrl, "Abrir no Sofascore")])}
+    </section>
+  `;
+}
+
+function renderPrimaryMatchContextRow(view) {
+  const tieContext = view.match.details.tieContext ?? null;
+  if (tieContext?.previousLeg) {
+    return detailInfoRow("1.ª mão", formatRelatedMatchOutcome(tieContext.previousLeg) ?? "n/d");
+  }
+
+  const previousMeeting = resolvePreviousMeetingFromHistory(view);
+  if (previousMeeting) {
+    return detailInfoRow("Confronto anterior", previousMeeting);
+  }
+
+  return "";
+}
+
+function resolvePreviousMeetingFromHistory(view) {
+  const entries = Array.isArray(view.match.details.tieContext?.h2h) ? view.match.details.tieContext.h2h : [];
+  if (entries.length === 0) {
+    return null;
+  }
+
+  return formatRelatedMatchOutcome(entries[0]);
+}
+
+function renderFixtureDetailFormSection(view) {
+  return `
+    <section class="fixture-detail__subsection">
+      <h4>Forma recente</h4>
+      <div class="fixture-detail__summary-grid">
+        ${renderDetailSummaryCard(`Casa · ${view.homeTeam.identity.name}`, renderTeamRecentFormRow(view.homeTeam))}
+        ${renderDetailSummaryCard(`Fora · ${view.awayTeam.identity.name}`, renderTeamRecentFormRow(view.awayTeam))}
+      </div>
+    </section>
+  `;
+}
+
+function renderTeamRecentFormRow(team) {
+  const entries = buildTeamRecentFormEntries(team).slice(0, 5);
+  if (entries.length === 0) {
+    return renderUnavailableFormRow("n/d");
+  }
+
+  const paddedEntries = [...entries];
+  while (paddedEntries.length < 5) {
+    paddedEntries.push({
+      result: "empty",
+      title: "n/d",
+    });
+  }
+
+  return `
+    <div class="fixture-detail__form-team">
+      <div class="fixture-detail__form-team-head">
+        <strong>${escapeHtml(team.identity.name)}</strong>
+        <span>${escapeHtml(entries.length === 5 ? "Últimos 5 jogos" : `${entries.length} jogos disponíveis`)}</span>
+      </div>
+      <div class="fixture-detail__form-strip">
+        ${paddedEntries
+          .map(
+            (entry) => `
+              <span
+                class="fixture-detail__form-pill fixture-detail__form-pill--${escapeAttribute(entry.result)}"
+                title="${escapeAttribute(entry.title)}"
+              >
+                ${escapeHtml(formatFormBadgeLabel(entry.result))}
+              </span>
+            `,
+          )
+          .join("")}
+      </div>
+    </div>
+  `;
+}
+
+function renderUnavailableFormRow(label) {
+  return `
+    <div class="fixture-detail__form-team">
+      <div class="fixture-detail__form-team-head">
+        <strong>${escapeHtml(label)}</strong>
+      </div>
+      <div class="fixture-detail__form-strip">
+        ${Array.from({ length: 5 })
+          .map(() => `<span class="fixture-detail__form-pill fixture-detail__form-pill--empty" title="${escapeAttribute(label)}">—</span>`)
+          .join("")}
+      </div>
+    </div>
+  `;
+}
+
+function buildTeamRecentFormEntries(team) {
+  if (!Array.isArray(team.history) || team.history.length === 0) {
+    return [];
+  }
+
+  return team.history
+    .map((match) => {
+      const perspective = resolveHistoryPerspective(match, team.identity.name);
+      if (!perspective) {
+        return null;
+      }
+
+      const result = resolveHistoryResultCode(match, perspective);
+      const opponentName = perspective === "home" ? match.awayTeam : match.homeTeam;
+      const scoreLabel = match.result ?? "n/d";
+      const dateLabel = formatHistoryMatchDate(match.date) ?? "Data n/d";
+      return {
+        result,
+        title: `${dateLabel} · ${team.identity.name} ${scoreLabel} ${opponentName}`,
+      };
+    })
+    .filter(Boolean);
+}
+
+function resolveHistoryPerspective(match, teamName) {
+  if (matchesTeamReference(normalizeTeamName(match.homeTeam), normalizeTeamName(teamName))) {
+    return "home";
+  }
+
+  if (matchesTeamReference(normalizeTeamName(match.awayTeam), normalizeTeamName(teamName))) {
+    return "away";
+  }
+
+  return null;
+}
+
+function resolveHistoryResultCode(match, perspective) {
+  const scores = String(match.result ?? "")
+    .split("-")
+    .map((value) => Number.parseInt(value.trim(), 10));
+
+  if (scores.length !== 2 || scores.some((value) => !Number.isInteger(value))) {
+    return "neutral";
+  }
+
+  const [homeScore, awayScore] = scores;
+  if (homeScore === awayScore) {
+    return "draw";
+  }
+
+  const homeWon = homeScore > awayScore;
+  return perspective === "home"
+    ? homeWon ? "win" : "loss"
+    : homeWon ? "loss" : "win";
+}
+
+function formatFormBadgeLabel(value) {
+  switch (value) {
+    case "win":
+      return "V";
+    case "draw":
+      return "E";
+    case "loss":
+      return "D";
+    default:
+      return "—";
+  }
+}
+
+function renderFixtureDetailLineupSection(view) {
+  return `
+    <section class="fixture-detail__subsection">
+      <h4>Equipa provável</h4>
+      <div class="fixture-detail__lineup-grid">
+        ${renderExpectedLineupCard("Casa", view.homeTeam, "home")}
+        ${renderExpectedLineupCard("Fora", view.awayTeam, "away")}
+      </div>
+    </section>
+  `;
+}
+
+function renderExpectedLineupCard(sideLabel, team, side) {
+  const lineup = team.overview.expectedLineup ?? null;
+  const players = Array.isArray(lineup?.players) ? lineup.players : [];
+
+  if (!lineup || players.length === 0) {
+    return renderUnavailableLineupCard(sideLabel, team.identity.name, side);
+  }
+
+  const groups = groupExpectedLineupPlayers(players);
+  return `
+    <article class="fixture-detail__lineup-card fixture-detail__lineup-card--${escapeAttribute(side)}">
+      <div class="fixture-detail__lineup-card-head">
+        <div class="fixture-detail__lineup-card-title">
+          <span class="fixture-detail__team-panel-side">${escapeHtml(sideLabel)}</span>
+          <strong class="fixture-detail__team-panel-name">${escapeHtml(team.identity.name)}</strong>
+        </div>
+        <div class="fixture-detail__lineup-card-badges">
+          <span class="fixture-detail__badge">${escapeHtml(lineup.formation ?? "n/d")}</span>
+        </div>
+      </div>
+      <div class="fixture-detail__lineup-field">
+        ${groups.map((group) => renderExpectedLineupBand(group.label, group.players)).join("")}
+      </div>
+    </article>
+  `;
+}
+
+function renderUnavailableLineupCard(sideLabel, teamName, side) {
+  return `
+    <article class="fixture-detail__lineup-card fixture-detail__lineup-card--${escapeAttribute(side)}">
+      <div class="fixture-detail__lineup-card-head">
+        <div class="fixture-detail__lineup-card-title">
+          <span class="fixture-detail__team-panel-side">${escapeHtml(sideLabel)}</span>
+          <strong class="fixture-detail__team-panel-name">${escapeHtml(teamName)}</strong>
+        </div>
+      </div>
+      <div class="fixture-detail__lineup-empty">n/d</div>
+    </article>
+  `;
+}
+
+function groupExpectedLineupPlayers(players) {
+  const order = ["FWD", "MID", "DEF", "GK", "OTHER"];
+  const buckets = new Map(order.map((key) => [key, []]));
+
+  for (const player of players) {
+    const bucket = normalizeLineupPositionBucket(player.position);
+    buckets.get(bucket)?.push(player);
+  }
+
+  return order
+    .map((key) => ({
+      key,
+      label:
+        key === "FWD" ? "Ataque" :
+        key === "MID" ? "Meio-campo" :
+        key === "DEF" ? "Defesa" :
+        key === "GK" ? "Guarda-redes" : "Outros",
+      players: buckets.get(key) ?? [],
+    }))
+    .filter((group) => group.players.length > 0);
+}
+
+function normalizeLineupPositionBucket(position) {
+  const token = String(position ?? "").trim().toUpperCase();
+  if (!token) {
+    return "OTHER";
+  }
+
+  if (["GK", "G"].includes(token)) {
+    return "GK";
+  }
+
+  if (["DEF", "DF", "CB", "LB", "RB", "LWB", "RWB", "WB", "SW"].includes(token)) {
+    return "DEF";
+  }
+
+  if (["MID", "MF", "CM", "DM", "AM", "LM", "RM", "LDM", "RDM", "CAM", "CDM"].includes(token)) {
+    return "MID";
+  }
+
+  if (["FWD", "FW", "ST", "CF", "SS", "LW", "RW", "ATT"].includes(token)) {
+    return "FWD";
+  }
+
+  return "OTHER";
+}
+
+function renderExpectedLineupBand(label, players) {
+  return `
+    <div class="fixture-detail__lineup-band">
+      <span class="fixture-detail__lineup-band-label">${escapeHtml(label)}</span>
+      <div class="fixture-detail__lineup-row">
+        ${players.map((player) => renderExpectedLineupPlayer(player)).join("")}
+      </div>
+    </div>
+  `;
+}
+
+function renderExpectedLineupPlayer(player) {
+  return `
+    <article class="fixture-detail__lineup-player" title="${escapeAttribute(player.position ?? "n/d")}">
+      <strong>${escapeHtml(player.name)}</strong>
+      <span>${escapeHtml(formatOptionalDecimal(player.rating))}</span>
+    </article>
+  `;
+}
+
+function renderFixtureDetailAvailabilitySection(view) {
+  return `
+    <section class="fixture-detail__subsection">
+      <h4>Lesionados e suspensos</h4>
+      <div class="fixture-detail__availability-grid">
+        ${renderAvailabilityCard("Casa", view.homeTeam, "home")}
+        ${renderAvailabilityCard("Fora", view.awayTeam, "away")}
+      </div>
+    </section>
+  `;
+}
+
+function renderAvailabilityCard(sideLabel, team, side) {
+  const squadHealth = team.overview.squadHealth ?? null;
+  if (!squadHealth) {
+    return renderUnavailableAvailabilityCard(sideLabel, team.identity.name, side);
+  }
+
+  return `
+    <article class="fixture-detail__availability-card fixture-detail__availability-card--${escapeAttribute(side)}">
+      <div class="fixture-detail__availability-card-head">
+        <span class="fixture-detail__team-panel-side">${escapeHtml(sideLabel)}</span>
+        <strong class="fixture-detail__team-panel-name">${escapeHtml(team.identity.name)}</strong>
+      </div>
+      <div class="fixture-detail__availability-columns">
+        ${renderAvailabilityList("Lesionados", squadHealth.injuries, "Sem lesionados")}
+        ${renderAvailabilityList("Suspensos", squadHealth.suspensions, "Sem suspensos")}
+      </div>
+    </article>
+  `;
+}
+
+function renderUnavailableAvailabilityCard(sideLabel, teamName, side) {
+  return `
+    <article class="fixture-detail__availability-card fixture-detail__availability-card--${escapeAttribute(side)}">
+      <div class="fixture-detail__availability-card-head">
+        <span class="fixture-detail__team-panel-side">${escapeHtml(sideLabel)}</span>
+        <strong class="fixture-detail__team-panel-name">${escapeHtml(teamName)}</strong>
+      </div>
+      <div class="fixture-detail__availability-columns">
+        ${renderUnavailableAvailabilityList("Lesionados")}
+        ${renderUnavailableAvailabilityList("Suspensos")}
+      </div>
+    </article>
+  `;
+}
+
+function renderAvailabilityList(title, entries, emptyLabel) {
+  if (!Array.isArray(entries) || entries.length === 0) {
+    return `
+      <div class="fixture-detail__availability-section">
+        <h5>${escapeHtml(title)}</h5>
+        <p class="fixture-detail__availability-empty">${escapeHtml(emptyLabel)}</p>
+      </div>
+    `;
+  }
+
+  return `
+    <div class="fixture-detail__availability-section">
+      <h5>${escapeHtml(title)}</h5>
+      <div class="fixture-detail__availability-list">
+        ${entries.map((entry) => renderAvailabilityEntry(entry)).join("")}
+      </div>
+    </div>
+  `;
+}
+
+function renderUnavailableAvailabilityList(title) {
+  return `
+    <div class="fixture-detail__availability-section">
+      <h5>${escapeHtml(title)}</h5>
+      <p class="fixture-detail__availability-empty">n/d</p>
+    </div>
+  `;
+}
+
+function renderAvailabilityEntry(entry) {
+  return `
+    <article class="fixture-detail__availability-item">
+      <strong>${escapeHtml(entry.player)}</strong>
+      <span>${escapeHtml(formatHealthEntryReason(entry))}</span>
+    </article>
+  `;
+}
+
+function formatHealthEntryReason(entry) {
+  const description = String(entry?.description ?? "").trim();
+  if (!description) {
+    return "n/d";
+  }
+
+  switch (description.toLowerCase()) {
+    case "accumulated_cards":
+      return "Acumulação de amarelos";
+    case "red_card":
+      return "Cartão vermelho";
+    case "injury":
+      return "Lesão";
+    case "suspension":
+      return "Suspensão";
+    default:
+      return description.replace(/_/g, " ");
+  }
 }
 
 function renderTieContextSection(view) {
