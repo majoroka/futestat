@@ -1547,7 +1547,7 @@ function getExpectedLineupData(team) {
   return {
     lineup,
     players,
-    groups: groupExpectedLineupPlayers(players),
+    groups: groupExpectedLineupPlayers(players, lineup?.formation ?? null),
     totalXiRating: formatLineupTotalRating(players),
   };
 }
@@ -1570,7 +1570,12 @@ function renderInlineTeamLogo(existingUrl, teamId, teamName) {
   return `<span class="fixture-detail__form-team-logo fixture-detail__form-team-logo--fallback" aria-hidden="true">${escapeHtml(buildTeamInitials(teamName, teamId))}</span>`;
 }
 
-function groupExpectedLineupPlayers(players) {
+function groupExpectedLineupPlayers(players, formation = null, forcedShape = null) {
+  const resolvedShape = forcedShape ?? parseExpectedLineupShape(formation) ?? inferExpectedLineupShape(players);
+  if (resolvedShape) {
+    return buildExpectedLineupGroupsFromShape(players, resolvedShape);
+  }
+
   const order = ["GK", "DEF", "MID", "FWD", "OTHER"];
   const buckets = new Map(order.map((key) => [key, []]));
 
@@ -1590,6 +1595,126 @@ function groupExpectedLineupPlayers(players) {
       players: buckets.get(key) ?? [],
     }))
     .filter((group) => group.players.length > 0);
+}
+
+function parseExpectedLineupShape(formation) {
+  const tokens = String(formation ?? "")
+    .split(/[^0-9]+/)
+    .map((token) => Number.parseInt(token, 10))
+    .filter((token) => Number.isFinite(token) && token > 0);
+
+  if (tokens.length < 2) {
+    return null;
+  }
+
+  const defense = tokens[0];
+  const attack = tokens[tokens.length - 1];
+  const midfield = tokens.slice(1, -1).reduce((sum, token) => sum + token, 0);
+  if (defense + midfield + attack !== 10) {
+    return null;
+  }
+
+  return {
+    key: tokens.join("-"),
+    defense,
+    midfield,
+    attack,
+    priority: -1,
+  };
+}
+
+function inferExpectedLineupShape(players) {
+  const candidates = [
+    { key: "4-3-3", defense: 4, midfield: 3, attack: 3, priority: 0 },
+    { key: "4-4-2", defense: 4, midfield: 4, attack: 2, priority: 1 },
+    { key: "4-2-3-1", defense: 4, midfield: 5, attack: 1, priority: 2 },
+    { key: "3-4-3", defense: 3, midfield: 4, attack: 3, priority: 3 },
+    { key: "3-5-2", defense: 3, midfield: 5, attack: 2, priority: 4 },
+    { key: "5-3-2", defense: 5, midfield: 3, attack: 2, priority: 5 },
+    { key: "5-4-1", defense: 5, midfield: 4, attack: 1, priority: 6 },
+  ];
+
+  let bestCandidate = null;
+  let bestScore = Number.POSITIVE_INFINITY;
+  for (const candidate of candidates) {
+    const score = estimateExpectedLineupShapeScore(players, candidate) + candidate.priority * 0.35;
+    if (score < bestScore) {
+      bestScore = score;
+      bestCandidate = candidate;
+    }
+  }
+
+  return Number.isFinite(bestScore) ? bestCandidate : null;
+}
+
+function estimateExpectedLineupShapeScore(players, shape) {
+  const { goalkeeper, outfield } = splitExpectedLineupGoalkeeper(players);
+  if (!goalkeeper || outfield.length !== 10) {
+    return Number.POSITIVE_INFINITY;
+  }
+
+  const defensePlayers = outfield.slice(0, shape.defense);
+  const midfieldPlayers = outfield.slice(shape.defense, shape.defense + shape.midfield);
+  const attackPlayers = outfield.slice(shape.defense + shape.midfield, shape.defense + shape.midfield + shape.attack);
+
+  return (
+    defensePlayers.reduce((sum, player) => sum + scoreExpectedLineupBucketFit(player.position, "DEF"), 0) +
+    midfieldPlayers.reduce((sum, player) => sum + scoreExpectedLineupBucketFit(player.position, "MID"), 0) +
+    attackPlayers.reduce((sum, player) => sum + scoreExpectedLineupBucketFit(player.position, "FWD"), 0)
+  );
+}
+
+function scoreExpectedLineupBucketFit(position, expectedBucket) {
+  const actualBucket = normalizeLineupPositionBucket(position);
+  if (actualBucket === expectedBucket) {
+    return 0;
+  }
+
+  if (actualBucket === "OTHER") {
+    return 0.75;
+  }
+
+  if (
+    (actualBucket === "DEF" && expectedBucket === "MID") ||
+    (actualBucket === "MID" && expectedBucket === "DEF") ||
+    (actualBucket === "MID" && expectedBucket === "FWD") ||
+    (actualBucket === "FWD" && expectedBucket === "MID")
+  ) {
+    return 1;
+  }
+
+  return 2;
+}
+
+function buildExpectedLineupGroupsFromShape(players, shape) {
+  const { goalkeeper, outfield } = splitExpectedLineupGoalkeeper(players);
+  if (!goalkeeper) {
+    return [];
+  }
+
+  const defensePlayers = outfield.slice(0, shape.defense);
+  const midfieldPlayers = outfield.slice(shape.defense, shape.defense + shape.midfield);
+  const attackPlayers = outfield.slice(shape.defense + shape.midfield, shape.defense + shape.midfield + shape.attack);
+
+  return [
+    { key: "GK", label: "Guarda-redes", players: [goalkeeper] },
+    { key: "DEF", label: "Defesa", players: defensePlayers },
+    { key: "MID", label: "Meio-campo", players: midfieldPlayers },
+    { key: "FWD", label: "Ataque", players: attackPlayers },
+  ].filter((group) => group.players.length > 0);
+}
+
+function splitExpectedLineupGoalkeeper(players) {
+  if (!Array.isArray(players) || players.length === 0) {
+    return { goalkeeper: null, outfield: [] };
+  }
+
+  const goalkeeperIndex = players.findIndex((player) => normalizeLineupPositionBucket(player.position) === "GK");
+  const safeGoalkeeperIndex = goalkeeperIndex >= 0 ? goalkeeperIndex : 0;
+  return {
+    goalkeeper: players[safeGoalkeeperIndex] ?? null,
+    outfield: players.filter((_, index) => index !== safeGoalkeeperIndex).slice(0, 10),
+  };
 }
 
 function normalizeLineupPositionBucket(position) {
@@ -1618,7 +1743,8 @@ function normalizeLineupPositionBucket(position) {
 }
 
 function renderExpectedLineupComparison(homeLineup, awayLineup) {
-  const comparisonGroups = buildExpectedLineupComparisonGroups(homeLineup.groups, awayLineup.groups);
+  const { homeGroups, awayGroups } = resolveComparisonLineupGroups(homeLineup, awayLineup);
+  const comparisonGroups = buildExpectedLineupComparisonGroups(homeGroups, awayGroups);
   const hasContent =
     comparisonGroups.length > 0 ||
     homeLineup.lineup?.formation ||
@@ -1639,6 +1765,31 @@ function renderExpectedLineupComparison(homeLineup, awayLineup) {
       ${renderExpectedLineupSummary(homeLineup.totalXiRating, awayLineup.totalXiRating)}
     </div>
   `;
+}
+
+function resolveComparisonLineupGroups(homeLineup, awayLineup) {
+  const homeExplicitShape = parseExpectedLineupShape(homeLineup.lineup?.formation ?? null);
+  const awayExplicitShape = parseExpectedLineupShape(awayLineup.lineup?.formation ?? null);
+  let homeShape = homeExplicitShape ?? inferExpectedLineupShape(homeLineup.players);
+  let awayShape = awayExplicitShape ?? inferExpectedLineupShape(awayLineup.players);
+
+  if (!homeExplicitShape && !awayExplicitShape && homeShape && awayShape && homeShape.key !== awayShape.key) {
+    const awayScoreWithHomeShape = estimateExpectedLineupShapeScore(awayLineup.players, homeShape);
+    const awayOwnScore = estimateExpectedLineupShapeScore(awayLineup.players, awayShape);
+    const homeScoreWithAwayShape = estimateExpectedLineupShapeScore(homeLineup.players, awayShape);
+    const homeOwnScore = estimateExpectedLineupShapeScore(homeLineup.players, homeShape);
+
+    if (homeShape.priority <= awayShape.priority && awayScoreWithHomeShape - awayOwnScore <= 1) {
+      awayShape = homeShape;
+    } else if (awayShape.priority < homeShape.priority && homeScoreWithAwayShape - homeOwnScore <= 1) {
+      homeShape = awayShape;
+    }
+  }
+
+  return {
+    homeGroups: groupExpectedLineupPlayers(homeLineup.players, homeLineup.lineup?.formation ?? null, homeShape),
+    awayGroups: groupExpectedLineupPlayers(awayLineup.players, awayLineup.lineup?.formation ?? null, awayShape),
+  };
 }
 
 function buildExpectedLineupComparisonGroups(homeGroups, awayGroups) {
