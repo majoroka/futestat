@@ -1529,28 +1529,40 @@ function formatFormBadgeLabel(value) {
 }
 
 function renderFixtureDetailLineupSection(view) {
+  const homeLineup = getExpectedLineupData(view.homeTeam);
+  const awayLineup = getExpectedLineupData(view.awayTeam);
+
   return `
     <section class="fixture-detail__subsection">
       <h4>Equipa provável</h4>
       ${renderFixtureTeamsHeader(view.homeTeam.identity, view.awayTeam.identity)}
       <div class="fixture-detail__lineup-grid">
-        ${renderExpectedLineupCard(view.homeTeam, "home", "left")}
-        ${renderExpectedLineupCard(view.awayTeam, "away", "right")}
+        ${renderExpectedLineupCard(homeLineup, "home", "left")}
+        ${renderExpectedLineupCard(awayLineup, "away", "right")}
       </div>
+      ${renderExpectedLineupSummary(homeLineup.totalXiRating, awayLineup.totalXiRating)}
     </section>
   `;
 }
 
-function renderExpectedLineupCard(team, side, align = "left") {
-  const lineup = team.overview.expectedLineup ?? null;
+function getExpectedLineupData(team) {
+  const lineup = team?.overview?.expectedLineup ?? null;
   const players = Array.isArray(lineup?.players) ? lineup.players.slice(0, 11) : [];
+  return {
+    lineup,
+    players,
+    groups: groupExpectedLineupPlayers(players),
+    totalXiRating: formatLineupTotalRating(players),
+  };
+}
+
+function renderExpectedLineupCard(lineupData, side, align = "left") {
+  const { lineup, players, groups } = lineupData;
 
   if (!lineup || players.length === 0) {
     return renderUnavailableLineupCard(side, align);
   }
 
-  const groups = groupExpectedLineupPlayers(players);
-  const totalXiRating = formatLineupTotalRating(players);
   return `
     <article class="fixture-detail__lineup-card fixture-detail__lineup-card--${escapeAttribute(side)}">
       ${
@@ -1567,16 +1579,6 @@ function renderExpectedLineupCard(team, side, align = "left") {
       }
       <div class="fixture-detail__lineup-field">
         ${groups.map((group) => renderExpectedLineupBand(group.label, group.players, align)).join("")}
-        ${
-          totalXiRating
-            ? `
-              <div class="fixture-detail__lineup-total fixture-detail__lineup-total--${escapeAttribute(align)}">
-                <span>Total XI</span>
-                <strong>${escapeHtml(totalXiRating)}</strong>
-              </div>
-            `
-            : ""
-        }
       </div>
     </article>
   `;
@@ -1683,6 +1685,24 @@ function renderExpectedLineupPlayer(player, align = "left") {
           `
       }
     </article>
+  `;
+}
+
+function renderExpectedLineupSummary(homeTotalXiRating, awayTotalXiRating) {
+  if (!homeTotalXiRating && !awayTotalXiRating) {
+    return "";
+  }
+
+  return `
+    <div class="fixture-detail__lineup-summary">
+      <strong class="fixture-detail__lineup-summary-value fixture-detail__lineup-summary-value--left">${escapeHtml(
+        homeTotalXiRating ?? "n/d",
+      )}</strong>
+      <span class="fixture-detail__lineup-summary-label">Rating da Equipa</span>
+      <strong class="fixture-detail__lineup-summary-value fixture-detail__lineup-summary-value--right">${escapeHtml(
+        awayTotalXiRating ?? "n/d",
+      )}</strong>
+    </div>
   `;
 }
 
