@@ -1718,13 +1718,15 @@ function renderExpectedLineupMetaRow(homeValue, label, awayValue) {
 function renderExpectedLineupSummary(homeTotalXiRating, awayTotalXiRating) {
   return `
     <div class="fixture-detail__lineup-compare-row fixture-detail__lineup-compare-row--summary">
-      <div class="fixture-detail__lineup-side fixture-detail__lineup-side--left fixture-detail__lineup-side--summary">
-        <strong class="fixture-detail__lineup-summary-value">${escapeHtml(homeTotalXiRating ?? "n/d")}</strong>
-      </div>
+      <span class="fixture-detail__lineup-summary-spacer" aria-hidden="true"></span>
+      <strong class="fixture-detail__lineup-summary-value fixture-detail__lineup-summary-value--left">${escapeHtml(
+        homeTotalXiRating ?? "n/d",
+      )}</strong>
       <span class="fixture-detail__lineup-compare-label fixture-detail__lineup-compare-label--summary">Rating da Equipa</span>
-      <div class="fixture-detail__lineup-side fixture-detail__lineup-side--right fixture-detail__lineup-side--summary">
-        <strong class="fixture-detail__lineup-summary-value">${escapeHtml(awayTotalXiRating ?? "n/d")}</strong>
-      </div>
+      <strong class="fixture-detail__lineup-summary-value fixture-detail__lineup-summary-value--right">${escapeHtml(
+        awayTotalXiRating ?? "n/d",
+      )}</strong>
+      <span class="fixture-detail__lineup-summary-spacer" aria-hidden="true"></span>
     </div>
   `;
 }
