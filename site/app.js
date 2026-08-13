@@ -494,20 +494,11 @@ function renderFixtureDetailsTab(fixture, matchViewState) {
 
     return `
       <div class="fixture-detail__tab-panel fixture-detail__stack">
-        ${renderFixtureTabIntro({
-          eyebrow: "Detalhes",
-          title: "Contexto operacional do jogo",
-          copy: "Separador focado no enquadramento competitivo, dados do jogo, forma recente, equipa provável e indisponíveis.",
-          badges: [
-            view.match.details.competitionStage ?? null,
-            formatStatusLabel(fixture),
-            formatMatchViewTieFormat(view.match.details.tieContext),
-          ],
-        })}
         ${renderFixtureDetailContextSection(fixture, view)}
         ${renderFixtureDetailFormSection(view)}
         ${renderFixtureDetailLineupSection(view)}
         ${renderFixtureDetailAvailabilitySection(view)}
+        ${renderFixtureDetailFooter(fixture, view)}
       </div>
     `;
   }
@@ -532,16 +523,10 @@ function renderFixtureDetailsTab(fixture, matchViewState) {
 function renderBasicFixtureDetails(fixture, note = null) {
   return `
     <div class="fixture-detail__tab-panel fixture-detail__stack">
-      ${renderFixtureTabIntro({
-        eyebrow: "Detalhes",
-        title: "Contexto base do jogo",
-        copy: "Enquanto a match view não existe, este separador mostra a estrutura final e assinala como n/d os blocos ainda não publicados.",
-        badges: [formatStatusLabel(fixture), fixture.competitionName ?? null],
-      })}
       <section class="fixture-detail__subsection">
         <h4>Contexto competitivo</h4>
         <div class="fixture-detail__summary-grid">
-          ${renderDetailSummaryCard(
+          ${renderDetailPlainBlock(
             "Competição",
             [
               detailInfoRow("Data e hora", `${formatFixtureDetailDate(fixture)} · ${formatFixtureDetailTime(fixture)}`),
@@ -550,7 +535,7 @@ function renderBasicFixtureDetails(fixture, note = null) {
               detailInfoRow("Contexto", "n/d"),
             ].join(""),
           )}
-          ${renderDetailSummaryCard(
+          ${renderDetailPlainBlock(
             "Jogo",
             [
               detailInfoRow("Estádio", "n/d"),
@@ -565,8 +550,8 @@ function renderBasicFixtureDetails(fixture, note = null) {
       <section class="fixture-detail__subsection">
         <h4>Forma recente</h4>
         <div class="fixture-detail__summary-grid">
-          ${renderDetailSummaryCard(`Casa · ${fixture.homeTeamName}`, renderUnavailableFormRow("n/d"))}
-          ${renderDetailSummaryCard(`Fora · ${fixture.awayTeamName}`, renderUnavailableFormRow("n/d"))}
+          ${renderDetailPlainBlock(`Casa · ${fixture.homeTeamName}`, renderUnavailableFormRow("n/d", fixture.homeTeamLogoUrl, fixture.homeTeamId))}
+          ${renderDetailPlainBlock(`Fora · ${fixture.awayTeamName}`, renderUnavailableFormRow("n/d", fixture.awayTeamLogoUrl, fixture.awayTeamId))}
         </div>
       </section>
       <section class="fixture-detail__subsection">
@@ -585,15 +570,8 @@ function renderBasicFixtureDetails(fixture, note = null) {
       </section>
       <section class="fixture-detail__subsection">
         <h4>Estado da vista</h4>
-        ${renderFixtureTabEmptyState(
-          "Match view ainda não publicada",
-          note ?? "Alguns blocos continuam em n/d até existir uma match view publicada para este jogo.",
-          null,
-          {
-            statusLabel: "Snapshot público",
-            links: [createFixtureExternalLink(fixture.matchUrl, "Abrir no Sofascore")],
-          },
-        )}
+        <p class="fixture-detail__note">${escapeHtml(note ?? "Alguns blocos continuam em n/d até existir uma match view publicada para este jogo.")}</p>
+        ${renderFixtureDetailFooter(fixture, null)}
       </section>
     </div>
   `;
@@ -1274,6 +1252,17 @@ function renderDetailSummaryCard(title, content) {
   `;
 }
 
+function renderDetailPlainBlock(title, content) {
+  return `
+    <article class="fixture-detail__plain-block">
+      <h3 class="fixture-detail__plain-block-title">${escapeHtml(title)}</h3>
+      <div class="fixture-detail__info-list">
+        ${content}
+      </div>
+    </article>
+  `;
+}
+
 function renderSummaryEmpty(message) {
   return `<p class="fixture-detail__summary-empty">${escapeHtml(message)}</p>`;
 }
@@ -1381,11 +1370,9 @@ function renderFixtureDetailContextSection(fixture, view) {
     <section class="fixture-detail__subsection">
       <h4>Contexto competitivo</h4>
       <div class="fixture-detail__summary-grid">
-        ${renderDetailSummaryCard("Competição", contextRows)}
-        ${renderDetailSummaryCard("Jogo", matchRows)}
+        ${renderDetailPlainBlock("Competição", contextRows)}
+        ${renderDetailPlainBlock("Jogo", matchRows)}
       </div>
-      <p class="fixture-detail__note">Atualização local da match view: ${escapeHtml(formatTimestamp(view.builtAtUtc))}.</p>
-      ${renderFixtureActionLinks([createFixtureExternalLink(fixture.matchUrl, "Abrir no Sofascore")])}
     </section>
   `;
 }
@@ -1418,8 +1405,8 @@ function renderFixtureDetailFormSection(view) {
     <section class="fixture-detail__subsection">
       <h4>Forma recente</h4>
       <div class="fixture-detail__summary-grid">
-        ${renderDetailSummaryCard(`Casa · ${view.homeTeam.identity.name}`, renderTeamRecentFormRow(view.homeTeam))}
-        ${renderDetailSummaryCard(`Fora · ${view.awayTeam.identity.name}`, renderTeamRecentFormRow(view.awayTeam))}
+        ${renderDetailPlainBlock(`Casa · ${view.homeTeam.identity.name}`, renderTeamRecentFormRow(view.homeTeam))}
+        ${renderDetailPlainBlock(`Fora · ${view.awayTeam.identity.name}`, renderTeamRecentFormRow(view.awayTeam))}
       </div>
     </section>
   `;
@@ -1428,7 +1415,7 @@ function renderFixtureDetailFormSection(view) {
 function renderTeamRecentFormRow(team) {
   const entries = buildTeamRecentFormEntries(team).slice(0, 5);
   if (entries.length === 0) {
-    return renderUnavailableFormRow("n/d");
+    return renderUnavailableFormRow("n/d", team.identity.logoUrl, team.identity.id);
   }
 
   const paddedEntries = [...entries];
@@ -1442,7 +1429,10 @@ function renderTeamRecentFormRow(team) {
   return `
     <div class="fixture-detail__form-team">
       <div class="fixture-detail__form-team-head">
-        <strong>${escapeHtml(team.identity.name)}</strong>
+        <span class="fixture-detail__form-team-identity">
+          ${renderInlineTeamLogo(team.identity.logoUrl, team.identity.id, team.identity.name)}
+          <strong>${escapeHtml(team.identity.name)}</strong>
+        </span>
         <span>${escapeHtml(entries.length === 5 ? "Últimos 5 jogos" : `${entries.length} jogos disponíveis`)}</span>
       </div>
       <div class="fixture-detail__form-strip">
@@ -1463,11 +1453,14 @@ function renderTeamRecentFormRow(team) {
   `;
 }
 
-function renderUnavailableFormRow(label) {
+function renderUnavailableFormRow(label, logoUrl, teamId) {
   return `
     <div class="fixture-detail__form-team">
       <div class="fixture-detail__form-team-head">
-        <strong>${escapeHtml(label)}</strong>
+        <span class="fixture-detail__form-team-identity">
+          ${renderInlineTeamLogo(logoUrl, teamId, label)}
+          <strong>${escapeHtml(label)}</strong>
+        </span>
       </div>
       <div class="fixture-detail__form-strip">
         ${Array.from({ length: 5 })
@@ -1561,7 +1554,7 @@ function renderFixtureDetailLineupSection(view) {
 
 function renderExpectedLineupCard(sideLabel, team, side) {
   const lineup = team.overview.expectedLineup ?? null;
-  const players = Array.isArray(lineup?.players) ? lineup.players : [];
+  const players = Array.isArray(lineup?.players) ? lineup.players.slice(0, 11) : [];
 
   if (!lineup || players.length === 0) {
     return renderUnavailableLineupCard(sideLabel, team.identity.name, side);
@@ -1598,6 +1591,24 @@ function renderUnavailableLineupCard(sideLabel, teamName, side) {
       <div class="fixture-detail__lineup-empty">n/d</div>
     </article>
   `;
+}
+
+function renderFixtureDetailFooter(fixture, view) {
+  return `
+    <footer class="fixture-detail__detail-footer">
+      <span>${escapeHtml(`Atualização local da match view: ${view ? formatTimestamp(view.builtAtUtc) : "n/d"}`)}</span>
+      <a class="fixture-detail__inline-link" href="${escapeAttribute(fixture.matchUrl)}" target="_blank" rel="noreferrer">Abrir no Sofascore</a>
+    </footer>
+  `;
+}
+
+function renderInlineTeamLogo(existingUrl, teamId, teamName) {
+  const logoUrl = buildTeamDisplayLogoUrl(existingUrl, teamId);
+  if (logoUrl) {
+    return `<img class="fixture-detail__form-team-logo" src="${escapeAttribute(logoUrl)}" alt="${escapeAttribute(teamName)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`;
+  }
+
+  return `<span class="fixture-detail__form-team-logo fixture-detail__form-team-logo--fallback" aria-hidden="true">${escapeHtml(buildTeamInitials(teamName, teamId))}</span>`;
 }
 
 function groupExpectedLineupPlayers(players) {

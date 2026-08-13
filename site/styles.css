@@ -490,6 +490,22 @@ a {
   gap: 12px;
 }
 
+.fixture-detail__plain-block {
+  display: grid;
+  gap: 10px;
+  padding: 0;
+  background: transparent;
+}
+
+.fixture-detail__plain-block-title {
+  margin: 0;
+  color: #22314d;
+  font-size: 0.76rem;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .fixture-detail__lineup-grid,
 .fixture-detail__availability-grid {
   display: grid;
@@ -540,6 +556,29 @@ a {
   gap: 12px;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.fixture-detail__form-team-identity {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fixture-detail__form-team-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex: 0 0 24px;
+}
+
+.fixture-detail__form-team-logo--fallback {
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(31, 94, 255, 0.12);
+  color: var(--accent-alt);
+  font-size: 0.68rem;
+  font-weight: 700;
 }
 
 .fixture-detail__form-team-head strong {
@@ -1044,21 +1083,10 @@ a {
 .fixture-detail__availability-card {
   display: grid;
   gap: 14px;
-  padding: 18px;
-  border-radius: 18px;
-  border: 1px solid rgba(23, 32, 51, 0.08);
-  background: rgba(255, 255, 255, 0.82);
-  box-shadow: 0 14px 30px rgba(17, 34, 84, 0.04);
-}
-
-.fixture-detail__lineup-card--home,
-.fixture-detail__availability-card--home {
-  background: linear-gradient(180deg, rgba(244, 248, 255, 0.96), rgba(255, 255, 255, 0.88));
-}
-
-.fixture-detail__lineup-card--away,
-.fixture-detail__availability-card--away {
-  background: linear-gradient(180deg, rgba(248, 250, 255, 0.96), rgba(255, 255, 255, 0.88));
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 .fixture-detail__lineup-card-head,
@@ -1084,12 +1112,7 @@ a {
 .fixture-detail__lineup-field {
   display: grid;
   gap: 12px;
-  padding: 16px;
-  border-radius: 18px;
-  border: 1px solid rgba(23, 32, 51, 0.06);
-  background:
-    radial-gradient(circle at center, rgba(31, 94, 255, 0.04), transparent 62%),
-    linear-gradient(180deg, rgba(238, 245, 255, 0.9), rgba(255, 255, 255, 0.96));
+  padding: 12px 0 0;
 }
 
 .fixture-detail__lineup-band {
@@ -1116,9 +1139,9 @@ a {
   gap: 4px;
   min-width: 120px;
   padding: 10px 12px;
-  border-radius: 14px;
-  border: 1px solid rgba(23, 32, 51, 0.06);
-  background: rgba(255, 255, 255, 0.92);
+  border-radius: 10px;
+  border: 1px solid rgba(23, 32, 51, 0.05);
+  background: rgba(248, 250, 255, 0.9);
   text-align: center;
 }
 
@@ -1135,10 +1158,8 @@ a {
 .fixture-detail__lineup-empty {
   display: grid;
   place-items: center;
-  min-height: 180px;
-  border-radius: 18px;
-  border: 1px dashed rgba(23, 32, 51, 0.14);
-  background: rgba(255, 255, 255, 0.74);
+  min-height: 60px;
+  border-top: 1px dashed rgba(23, 32, 51, 0.14);
   color: var(--muted);
   font-size: 0.96rem;
   font-weight: 600;
@@ -1148,6 +1169,7 @@ a {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
+  padding-top: 8px;
 }
 
 .fixture-detail__availability-section {
@@ -1171,10 +1193,8 @@ a {
 .fixture-detail__availability-item {
   display: grid;
   gap: 4px;
-  padding: 12px;
-  border-radius: 14px;
-  border: 1px solid rgba(23, 32, 51, 0.06);
-  background: rgba(255, 255, 255, 0.92);
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(23, 32, 51, 0.08);
 }
 
 .fixture-detail__availability-item strong {
@@ -1187,6 +1207,17 @@ a {
   color: var(--muted);
   font-size: 0.78rem;
   line-height: 1.5;
+}
+
+.fixture-detail__detail-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: center;
+  padding-top: 8px;
+  border-top: 1px solid rgba(23, 32, 51, 0.08);
+  color: var(--muted);
+  font-size: 0.82rem;
 }
 
 .fixture-detail__standings {
