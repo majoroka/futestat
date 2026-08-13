@@ -1536,11 +1536,7 @@ function renderFixtureDetailLineupSection(view) {
     <section class="fixture-detail__subsection">
       <h4>Equipa provável</h4>
       ${renderFixtureTeamsHeader(view.homeTeam.identity, view.awayTeam.identity)}
-      <div class="fixture-detail__lineup-grid">
-        ${renderExpectedLineupCard(homeLineup, "home", "left")}
-        ${renderExpectedLineupCard(awayLineup, "away", "right")}
-      </div>
-      ${renderExpectedLineupSummary(homeLineup.totalXiRating, awayLineup.totalXiRating)}
+      ${renderExpectedLineupComparison(homeLineup, awayLineup)}
     </section>
   `;
 }
@@ -1554,44 +1550,6 @@ function getExpectedLineupData(team) {
     groups: groupExpectedLineupPlayers(players),
     totalXiRating: formatLineupTotalRating(players),
   };
-}
-
-function renderExpectedLineupCard(lineupData, side, align = "left") {
-  const { lineup, players, groups } = lineupData;
-
-  if (!lineup || players.length === 0) {
-    return renderUnavailableLineupCard(side, align);
-  }
-
-  return `
-    <article class="fixture-detail__lineup-card fixture-detail__lineup-card--${escapeAttribute(side)}">
-      ${
-        lineup.formation
-          ? `
-            <div class="fixture-detail__lineup-card-head">
-              <div class="fixture-detail__lineup-card-system">
-                <span class="fixture-detail__lineup-card-system-label">Sistema</span>
-                <strong class="fixture-detail__lineup-card-system-value">${escapeHtml(lineup.formation)}</strong>
-              </div>
-            </div>
-          `
-          : ""
-      }
-      <div class="fixture-detail__lineup-field">
-        ${groups.map((group) => renderExpectedLineupBand(group.label, group.players, align)).join("")}
-      </div>
-    </article>
-  `;
-}
-
-function renderUnavailableLineupCard(side, align = "left") {
-  return `
-    <article class="fixture-detail__lineup-card fixture-detail__lineup-card--${escapeAttribute(side)}">
-      <div class="fixture-detail__lineup-field fixture-detail__lineup-field--${escapeAttribute(align)}">
-        <div class="fixture-detail__lineup-empty">n/d</div>
-      </div>
-    </article>
-  `;
 }
 
 function renderFixtureDetailFooter(fixture, view) {
@@ -1659,49 +1617,114 @@ function normalizeLineupPositionBucket(position) {
   return "OTHER";
 }
 
-function renderExpectedLineupBand(label, players, align = "left") {
+function renderExpectedLineupComparison(homeLineup, awayLineup) {
+  const comparisonGroups = buildExpectedLineupComparisonGroups(homeLineup.groups, awayLineup.groups);
+  const hasContent =
+    comparisonGroups.length > 0 ||
+    homeLineup.lineup?.formation ||
+    awayLineup.lineup?.formation ||
+    homeLineup.totalXiRating ||
+    awayLineup.totalXiRating;
+
+  if (!hasContent) {
+    return `<div class="fixture-detail__lineup-empty fixture-detail__lineup-empty--full">n/d</div>`;
+  }
+
   return `
-    <div class="fixture-detail__lineup-band">
-      <span class="fixture-detail__lineup-band-label">${escapeHtml(label)}</span>
-      <div class="fixture-detail__lineup-row fixture-detail__lineup-row--${escapeAttribute(align)}">
-        ${players.map((player) => renderExpectedLineupPlayer(player, align)).join("")}
-      </div>
+    <div class="fixture-detail__lineup-compare">
+      ${renderExpectedLineupMetaRow(homeLineup.lineup?.formation ?? "n/d", "Sistema", awayLineup.lineup?.formation ?? "n/d")}
+      ${comparisonGroups.map((group) => renderExpectedLineupComparisonGroup(group)).join("")}
+      ${renderExpectedLineupSummary(homeLineup.totalXiRating, awayLineup.totalXiRating)}
     </div>
   `;
 }
 
-function renderExpectedLineupPlayer(player, align = "left") {
+function buildExpectedLineupComparisonGroups(homeGroups, awayGroups) {
+  const order = ["GK", "DEF", "MID", "FWD", "OTHER"];
+  const homeMap = new Map((homeGroups ?? []).map((group) => [group.key, group]));
+  const awayMap = new Map((awayGroups ?? []).map((group) => [group.key, group]));
+
+  return order
+    .map((key) => ({
+      key,
+      label: homeMap.get(key)?.label ?? awayMap.get(key)?.label ?? "Outros",
+      homePlayers: homeMap.get(key)?.players ?? [],
+      awayPlayers: awayMap.get(key)?.players ?? [],
+    }))
+    .filter((group) => group.homePlayers.length > 0 || group.awayPlayers.length > 0);
+}
+
+function renderExpectedLineupComparisonGroup(group) {
+  const rowCount = Math.max(group.homePlayers.length, group.awayPlayers.length, 1);
+  const rows = [];
+
+  for (let index = 0; index < rowCount; index += 1) {
+    rows.push(`
+      <div class="fixture-detail__lineup-compare-row">
+        ${renderExpectedLineupSideCell(group.homePlayers[index] ?? null, "left", group.homePlayers.length === 0 && index === 0)}
+        <span class="fixture-detail__lineup-compare-label">${index === 0 ? escapeHtml(group.label) : ""}</span>
+        ${renderExpectedLineupSideCell(group.awayPlayers[index] ?? null, "right", group.awayPlayers.length === 0 && index === 0)}
+      </div>
+    `);
+  }
+
+  return rows.join("");
+}
+
+function renderExpectedLineupSideCell(player, align = "left", unavailable = false) {
+  if (!player) {
+    return `
+      <div class="fixture-detail__lineup-side fixture-detail__lineup-side--${escapeAttribute(align)}">
+        <span class="fixture-detail__lineup-side-empty">${unavailable ? "n/d" : ""}</span>
+      </div>
+    `;
+  }
+
+  const name = escapeHtml(player.name);
+  const rating = escapeHtml(formatOptionalDecimal(player.rating));
+  const title = escapeAttribute(player.position ?? "n/d");
+
   return `
-    <article class="fixture-detail__lineup-player fixture-detail__lineup-player--${escapeAttribute(align)}" title="${escapeAttribute(player.position ?? "n/d")}">
+    <article class="fixture-detail__lineup-side fixture-detail__lineup-side--${escapeAttribute(align)}" title="${title}">
       ${
         align === "right"
           ? `
-            <span class="fixture-detail__lineup-player-rating">${escapeHtml(formatOptionalDecimal(player.rating))}</span>
-            <strong>${escapeHtml(player.name)}</strong>
+            <span class="fixture-detail__lineup-side-rating">${rating}</span>
+            <strong>${name}</strong>
           `
           : `
-            <strong>${escapeHtml(player.name)}</strong>
-            <span class="fixture-detail__lineup-player-rating">${escapeHtml(formatOptionalDecimal(player.rating))}</span>
+            <strong>${name}</strong>
+            <span class="fixture-detail__lineup-side-rating">${rating}</span>
           `
       }
     </article>
   `;
 }
 
-function renderExpectedLineupSummary(homeTotalXiRating, awayTotalXiRating) {
-  if (!homeTotalXiRating && !awayTotalXiRating) {
-    return "";
-  }
-
+function renderExpectedLineupMetaRow(homeValue, label, awayValue) {
   return `
-    <div class="fixture-detail__lineup-summary">
-      <strong class="fixture-detail__lineup-summary-value fixture-detail__lineup-summary-value--left">${escapeHtml(
-        homeTotalXiRating ?? "n/d",
-      )}</strong>
-      <span class="fixture-detail__lineup-summary-label">Rating da Equipa</span>
-      <strong class="fixture-detail__lineup-summary-value fixture-detail__lineup-summary-value--right">${escapeHtml(
-        awayTotalXiRating ?? "n/d",
-      )}</strong>
+    <div class="fixture-detail__lineup-compare-row fixture-detail__lineup-compare-row--meta">
+      <div class="fixture-detail__lineup-side fixture-detail__lineup-side--left fixture-detail__lineup-side--meta">
+        <span class="fixture-detail__lineup-side-meta">${escapeHtml(homeValue)}</span>
+      </div>
+      <span class="fixture-detail__lineup-compare-label fixture-detail__lineup-compare-label--meta">${escapeHtml(label)}</span>
+      <div class="fixture-detail__lineup-side fixture-detail__lineup-side--right fixture-detail__lineup-side--meta">
+        <span class="fixture-detail__lineup-side-meta">${escapeHtml(awayValue)}</span>
+      </div>
+    </div>
+  `;
+}
+
+function renderExpectedLineupSummary(homeTotalXiRating, awayTotalXiRating) {
+  return `
+    <div class="fixture-detail__lineup-compare-row fixture-detail__lineup-compare-row--summary">
+      <div class="fixture-detail__lineup-side fixture-detail__lineup-side--left fixture-detail__lineup-side--summary">
+        <strong class="fixture-detail__lineup-summary-value">${escapeHtml(homeTotalXiRating ?? "n/d")}</strong>
+      </div>
+      <span class="fixture-detail__lineup-compare-label fixture-detail__lineup-compare-label--summary">Rating da Equipa</span>
+      <div class="fixture-detail__lineup-side fixture-detail__lineup-side--right fixture-detail__lineup-side--summary">
+        <strong class="fixture-detail__lineup-summary-value">${escapeHtml(awayTotalXiRating ?? "n/d")}</strong>
+      </div>
     </div>
   `;
 }
