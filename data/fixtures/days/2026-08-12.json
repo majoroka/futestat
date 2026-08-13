@@ -1,9 +1,9 @@
 {
   "source": "sofascore",
   "date": "2026-08-12",
-  "collectionState": "open",
+  "collectionState": "settling",
   "firstScrapedAtUtc": "2026-08-11T15:33:36.041Z",
-  "lastScrapedAtUtc": "2026-08-12T20:12:35.263Z",
+  "lastScrapedAtUtc": "2026-08-13T14:56:04.864Z",
   "frozenAtUtc": null,
   "fixtureCount": 4,
   "fixtures": [
@@ -28,7 +28,7 @@
       "awayScore": 3,
       "matchUrl": "https://www.sofascore.com/football/match/ca-lanus-ca-talleres/kobstob#id:16667376",
       "firstSeenAtUtc": "2026-08-11T15:33:36.041Z",
-      "lastSeenAtUtc": "2026-08-12T20:12:35.263Z",
+      "lastSeenAtUtc": "2026-08-13T14:54:42.119Z",
       "lastChangedAtUtc": "2026-08-12T20:12:35.263Z"
     },
     {
@@ -52,7 +52,7 @@
       "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/hapoel-tel-aviv-gks-katowice/mmbsWhc#id:16585844",
       "firstSeenAtUtc": "2026-08-11T15:32:21.222Z",
-      "lastSeenAtUtc": "2026-08-12T20:11:20.485Z",
+      "lastSeenAtUtc": "2026-08-13T14:54:56.275Z",
       "lastChangedAtUtc": "2026-08-12T20:11:20.485Z"
     },
     {
@@ -76,7 +76,7 @@
       "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/debreceni-vsc-fc-kobenhavn/JAswN#id:16585849",
       "firstSeenAtUtc": "2026-08-11T15:32:21.222Z",
-      "lastSeenAtUtc": "2026-08-12T20:11:20.485Z",
+      "lastSeenAtUtc": "2026-08-13T14:54:56.275Z",
       "lastChangedAtUtc": "2026-08-12T20:11:20.485Z"
     },
     {
@@ -100,7 +100,7 @@
       "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/paide-linnameeskond-sk-rapid-wien/fQsBZm#id:16585850",
       "firstSeenAtUtc": "2026-08-11T15:32:21.222Z",
-      "lastSeenAtUtc": "2026-08-12T20:11:20.485Z",
+      "lastSeenAtUtc": "2026-08-13T14:54:56.276Z",
       "lastChangedAtUtc": "2026-08-12T20:11:20.485Z"
     }
   ],

@@ -1,0 +1,815 @@
+{
+  "builtAtUtc": "2026-08-13T14:56:21.453Z",
+  "match": {
+    "id": "16436383",
+    "date": "2026-08-14",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/feirense-academica-coimbra/pkbsbPb#id:16436383",
+    "kickoffAtUtc": "2026-08-14T17:00:00.000Z",
+    "competition": {
+      "id": "239",
+      "name": "Liga Portugal 2",
+      "country": "Portugal",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/239/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "3015",
+      "name": "Académica",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3015/image/small",
+      "sourceIds": {
+        "sofascore": "3015",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "4501",
+      "name": "Feirense",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/4501/image/small",
+      "sourceIds": {
+        "sofascore": "4501",
+        "fotmob": "4064",
+        "soccerRating": "1104"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1737.89,
+      "nationalRank": 36,
+      "europeRank": 948,
+      "formLast3": [
+        "D",
+        "L",
+        "W"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": 11
+    },
+    "overview": {
+      "prediction": {
+        "tip": "away_win",
+        "tipLabel": "Bet on (2) FC Felgueiras (Stake 9/10)",
+        "confidencePct": 90,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [
+          {
+            "player": "Emanuel Fernandes",
+            "status": "injury_or_suspension",
+            "description": null
+          },
+          {
+            "player": "Tiago Ribeiro",
+            "status": "injury_or_suspension",
+            "description": null
+          }
+        ],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 3.8,
+        "players": [
+          {
+            "name": "Francisco Meixedo",
+            "position": "GK",
+            "age": null,
+            "apps": 19,
+            "goals": 0,
+            "rating": 4.4
+          },
+          {
+            "name": "Antonio Leal",
+            "position": "DF",
+            "age": null,
+            "apps": 32,
+            "goals": 1,
+            "rating": 5
+          },
+          {
+            "name": "Luiz Gustavo",
+            "position": "DF",
+            "age": null,
+            "apps": 29,
+            "goals": 0,
+            "rating": 4.5
+          },
+          {
+            "name": "Ricardo Ze",
+            "position": "DF",
+            "age": null,
+            "apps": 27,
+            "goals": 1,
+            "rating": 4.3
+          },
+          {
+            "name": "Lima Joao",
+            "position": "DF",
+            "age": null,
+            "apps": 10,
+            "goals": 1,
+            "rating": 3.6
+          },
+          {
+            "name": "Samad Popoola",
+            "position": "MF",
+            "age": null,
+            "apps": 20,
+            "goals": 0,
+            "rating": 2.8
+          },
+          {
+            "name": "Gui Meira",
+            "position": "MF",
+            "age": null,
+            "apps": 31,
+            "goals": 4,
+            "rating": 3.2
+          },
+          {
+            "name": "Jojo",
+            "position": "ST",
+            "age": null,
+            "apps": 26,
+            "goals": 1,
+            "rating": 3.7
+          },
+          {
+            "name": "Miguel",
+            "position": "ST",
+            "age": null,
+            "apps": 20,
+            "goals": 1,
+            "rating": 3.9
+          },
+          {
+            "name": "Pedrinho",
+            "position": "ST",
+            "age": null,
+            "apps": 25,
+            "goals": 2,
+            "rating": 2.9
+          },
+          {
+            "name": "Desmond Nketia",
+            "position": "ST",
+            "age": null,
+            "apps": 29,
+            "goals": 3,
+            "rating": 3.4
+          },
+          {
+            "name": "Diego Altube",
+            "position": "GK",
+            "age": null,
+            "apps": 15,
+            "goals": 0,
+            "rating": 3.2
+          },
+          {
+            "name": "Pedro Mendes",
+            "position": "DF",
+            "age": null,
+            "apps": 5,
+            "goals": 0,
+            "rating": 5.7
+          },
+          {
+            "name": "André Lopes",
+            "position": "MF",
+            "age": null,
+            "apps": 16,
+            "goals": 0,
+            "rating": 2.5
+          },
+          {
+            "name": "Luis Airton",
+            "position": "ST",
+            "age": null,
+            "apps": 18,
+            "goals": 2,
+            "rating": 3.2
+          },
+          {
+            "name": "Kirill Klimov",
+            "position": "ST",
+            "age": null,
+            "apps": 21,
+            "goals": 0,
+            "rating": 3.7
+          },
+          {
+            "name": "Jonny Arriba",
+            "position": "ST",
+            "age": null,
+            "apps": 13,
+            "goals": 1,
+            "rating": 3.4
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 2.35,
+          "draw": 2.85,
+          "away": 2.87
+        },
+        "fair1X2": {
+          "home": 2.98,
+          "draw": 3.42,
+          "away": 2.69
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 1.1,
+        "goalsConcededPerMatch": 1.2,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": 125,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [
+      {
+        "name": "Francisco Meixedo",
+        "position": "GK",
+        "age": 25,
+        "apps": 19,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Diego Altube",
+        "position": "GK",
+        "age": 26,
+        "apps": 15,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Robinho",
+        "position": null,
+        "age": 22,
+        "apps": 6,
+        "goals": 0,
+        "rating": 1.6
+      },
+      {
+        "name": "Bruno Silva",
+        "position": null,
+        "age": 33,
+        "apps": 14,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "Edgar Ié",
+        "position": null,
+        "age": 32,
+        "apps": 3,
+        "goals": 1,
+        "rating": 4.8
+      },
+      {
+        "name": "Antonio Leal",
+        "position": "DF",
+        "age": 27,
+        "apps": 32,
+        "goals": 1,
+        "rating": 5
+      },
+      {
+        "name": "Luiz Gustavo",
+        "position": "DF",
+        "age": 26,
+        "apps": 29,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Ricardo Ze",
+        "position": "DF",
+        "age": 27,
+        "apps": 27,
+        "goals": 1,
+        "rating": 4.3
+      },
+      {
+        "name": "Lima Joao",
+        "position": "DF",
+        "age": 26,
+        "apps": 10,
+        "goals": 1,
+        "rating": 3.6
+      },
+      {
+        "name": "Pedro Mendes",
+        "position": "DF",
+        "age": 35,
+        "apps": 5,
+        "goals": 0,
+        "rating": 5.7
+      },
+      {
+        "name": "Emanuel Fernandes",
+        "position": null,
+        "age": 23,
+        "apps": 31,
+        "goals": 3,
+        "rating": 5.5
+      },
+      {
+        "name": "Samad Popoola",
+        "position": "MF",
+        "age": 20,
+        "apps": 20,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Gui Meira",
+        "position": "MF",
+        "age": 21,
+        "apps": 31,
+        "goals": 4,
+        "rating": 3.2
+      },
+      {
+        "name": "André Lopes",
+        "position": "MF",
+        "age": 24,
+        "apps": 16,
+        "goals": 0,
+        "rating": 2.5
+      },
+      {
+        "name": "Tiago Ribeiro",
+        "position": null,
+        "age": 24,
+        "apps": 31,
+        "goals": 2,
+        "rating": 4.5
+      },
+      {
+        "name": "Luis Airton",
+        "position": "ST",
+        "age": 26,
+        "apps": 18,
+        "goals": 2,
+        "rating": 3.2
+      },
+      {
+        "name": "Miguel",
+        "position": "ST",
+        "age": 21,
+        "apps": 20,
+        "goals": 1,
+        "rating": 3.9
+      },
+      {
+        "name": "Gaston Novero",
+        "position": null,
+        "age": 27,
+        "apps": 10,
+        "goals": 0,
+        "rating": 1.8
+      },
+      {
+        "name": "Pedrinho",
+        "position": "ST",
+        "age": 22,
+        "apps": 25,
+        "goals": 2,
+        "rating": 2.9
+      },
+      {
+        "name": "Desmond Nketia",
+        "position": "ST",
+        "age": 24,
+        "apps": 29,
+        "goals": 3,
+        "rating": 3.4
+      },
+      {
+        "name": "Jonny Arriba",
+        "position": "ST",
+        "age": 24,
+        "apps": 13,
+        "goals": 1,
+        "rating": 3.4
+      },
+      {
+        "name": "Jojo",
+        "position": "ST",
+        "age": 27,
+        "apps": 26,
+        "goals": 1,
+        "rating": 3.7
+      },
+      {
+        "name": "Kirill Klimov",
+        "position": "ST",
+        "age": 25,
+        "apps": 21,
+        "goals": 0,
+        "rating": 3.7
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "Hamburger SV II",
+        "rating": 1737.92
+      },
+      {
+        "name": "SV Lichtenberg 47",
+        "rating": 1737.5
+      }
+    ]
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "239",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [
+      "Tabela corrida da II Liga portuguesa."
+    ],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Académica OAF",
+        "teamUrl": "https://www.zerozero.pt/equipa/academica-oaf/19?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 1,
+        "goalDifference": "+3",
+        "highlight": "home"
+      },
+      {
+        "position": 2,
+        "teamName": "Lusitânia de Lourosa",
+        "teamUrl": "https://www.zerozero.pt/equipa/lusitania-de-lourosa/3599?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 0,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Benfica B",
+        "teamUrl": "https://www.zerozero.pt/equipa/benfica/3563?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 0,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "Portimonense",
+        "teamUrl": "https://www.zerozero.pt/equipa/portimonense/33?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 0,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Sporting B",
+        "teamUrl": "https://www.zerozero.pt/equipa/sporting/3660?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 0,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "FC Vizela",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-vizela/2197?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 0,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "CD Tondela",
+        "teamUrl": "https://www.zerozero.pt/equipa/cd-tondela/4336?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "Farense",
+        "teamUrl": "https://www.zerozero.pt/equipa/farense/10?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Feirense",
+        "teamUrl": "https://www.zerozero.pt/equipa/feirense/1728?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": "away"
+      },
+      {
+        "position": 10,
+        "teamName": "FC Felgueiras",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-felgueiras/11129?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Leixões",
+        "teamUrl": "https://www.zerozero.pt/equipa/leixoes/1727?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 1,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "AFS",
+        "teamUrl": "https://www.zerozero.pt/equipa/afs/296012?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 1,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 13,
+        "teamName": "FC Penafiel",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-penafiel/30?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 1,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 14,
+        "teamName": "UD Leiria",
+        "teamUrl": "https://www.zerozero.pt/equipa/ud-leiria/17?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 1,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "Amarante FC",
+        "teamUrl": "https://www.zerozero.pt/equipa/amarante-fc/4330?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 16,
+        "teamName": "Torreense",
+        "teamUrl": "https://www.zerozero.pt/equipa/torreense/2178?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 17,
+        "teamName": "FC Porto B",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-porto/3584?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 2,
+        "goalDifference": "-2",
+        "highlight": null
+      },
+      {
+        "position": 18,
+        "teamName": "GD Chaves",
+        "teamUrl": "https://www.zerozero.pt/equipa/gd-chaves/20?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 4,
+        "goalDifference": "-3",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-14.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/239.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/239-liga-portugal-2/4064-feirense.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/1104-cd-feirense.json",
+      "matchedBy": "sofascoreTeamId"
+    }
+  }
+}

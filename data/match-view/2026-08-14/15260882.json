@@ -1,0 +1,837 @@
+{
+  "builtAtUtc": "2026-08-13T14:56:21.452Z",
+  "match": {
+    "id": "15260882",
+    "date": "2026-08-14",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/viking-fk-rosenborg-bk/lysoy#id:15260882",
+    "kickoffAtUtc": "2026-08-14T17:00:00.000Z",
+    "competition": {
+      "id": "20",
+      "name": "Eliteserien",
+      "country": "Norway",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/20/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "1161",
+      "name": "Rosenborg",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/1161/image/small",
+      "sourceIds": {
+        "sofascore": "1161",
+        "fotmob": "8422",
+        "soccerRating": "422"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1202.86,
+      "nationalRank": 387,
+      "europeRank": 9650,
+      "formLast3": [],
+      "xgFor": 27.1,
+      "xgAgainst": 25.3,
+      "averagePossessionPct": 51.7,
+      "cleanSheets": 6
+    },
+    "overview": {
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": null
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": null,
+        "fair1X2": null,
+        "movementSummary": null
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 1.4,
+        "goalsConcededPerMatch": 1.3,
+        "averagePossessionPct": 51.7,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 27.1,
+        "xgDiff": 1.8,
+        "shotsOnTargetPerMatch": 4.6,
+        "bigChances": 34,
+        "bigChancesMissed": 19,
+        "accuratePassesPerMatch": 371.4,
+        "accurateLongBallsPerMatch": 21.6,
+        "accurateCrossesPerMatch": 4.2,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": 444,
+        "cornersPerMatch": 101,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 25.3,
+        "interceptionsPerMatch": 9.5,
+        "tacklesPerMatch": 16.6,
+        "clearancesPerMatch": 23.6,
+        "finalThirdRecoveriesPerMatch": 4.6,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": 3.3
+      },
+      "discipline": {
+        "foulsPerMatch": 12.1,
+        "yellowCardsPerMatch": 34,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "Orgenergostroy",
+        "rating": 1202.93
+      },
+      {
+        "name": "NTNUI Trondheim",
+        "rating": 1202.67
+      }
+    ]
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "1164",
+      "name": "Viking",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/1164/image/small",
+      "sourceIds": {
+        "sofascore": "1164",
+        "fotmob": "8478",
+        "soccerRating": "72"
+      }
+    },
+    "headerStats": {
+      "overallRating": 2147.08,
+      "nationalRank": 2,
+      "europeRank": 103,
+      "formLast3": [
+        "W",
+        "D",
+        "W"
+      ],
+      "xgFor": 35.4,
+      "xgAgainst": 20.2,
+      "averagePossessionPct": 51.4,
+      "cleanSheets": 5
+    },
+    "overview": {
+      "prediction": {
+        "tip": "home_win",
+        "tipLabel": "Bet on (1) Viking Stavanger (Stake 2/10)",
+        "confidencePct": 20,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [
+          {
+            "player": "Henrik Falchener",
+            "status": "injury_or_suspension",
+            "description": null
+          }
+        ],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 5.9,
+        "players": [
+          {
+            "name": "Arild Ostbo",
+            "position": "GK",
+            "age": null,
+            "apps": 5,
+            "goals": 0,
+            "rating": 3.1
+          },
+          {
+            "name": "Henrik Heggheim",
+            "position": "DF",
+            "age": null,
+            "apps": 14,
+            "goals": 3,
+            "rating": 6.9
+          },
+          {
+            "name": "Gianni Stensness",
+            "position": "DF",
+            "age": null,
+            "apps": 13,
+            "goals": 3,
+            "rating": 5.2
+          },
+          {
+            "name": "Sondre Bjorshol",
+            "position": "DF",
+            "age": null,
+            "apps": 10,
+            "goals": 1,
+            "rating": 4.3
+          },
+          {
+            "name": "Vetle Auklend",
+            "position": "DF",
+            "age": null,
+            "apps": 10,
+            "goals": 0,
+            "rating": 3.3
+          },
+          {
+            "name": "Ruben Alte",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 4.8
+          },
+          {
+            "name": "K. Askildsen",
+            "position": "MF",
+            "age": null,
+            "apps": 14,
+            "goals": 5,
+            "rating": 7.2
+          },
+          {
+            "name": "Simen Kvia-Egeskog",
+            "position": "MF",
+            "age": null,
+            "apps": 15,
+            "goals": 5,
+            "rating": 7.3
+          },
+          {
+            "name": "Edvin Austbø",
+            "position": "ST",
+            "age": null,
+            "apps": 9,
+            "goals": 2,
+            "rating": 7.6
+          },
+          {
+            "name": "Peter Christiansen",
+            "position": "ST",
+            "age": null,
+            "apps": 14,
+            "goals": 8,
+            "rating": 8.1
+          },
+          {
+            "name": "Lubomir Belko",
+            "position": "GK",
+            "age": null,
+            "apps": 10,
+            "goals": 0,
+            "rating": 6.2
+          },
+          {
+            "name": "Johan Haugen Herman",
+            "position": "DF",
+            "age": null,
+            "apps": 12,
+            "goals": 0,
+            "rating": 4.8
+          },
+          {
+            "name": "Ola Visted",
+            "position": "MF",
+            "age": null,
+            "apps": 11,
+            "goals": 0,
+            "rating": 5.1
+          },
+          {
+            "name": "Romano Postema",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 5.8
+          },
+          {
+            "name": "Jakob Hansen",
+            "position": "MF",
+            "age": null,
+            "apps": 7,
+            "goals": 0,
+            "rating": 6.2
+          },
+          {
+            "name": "Niklas Fuglestad",
+            "position": "ST",
+            "age": null,
+            "apps": 13,
+            "goals": 2,
+            "rating": 5.2
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.37,
+          "draw": 5.25,
+          "away": 6.5
+        },
+        "fair1X2": {
+          "home": 1.44,
+          "draw": 5.62,
+          "away": 7.8
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 2.4,
+        "goalsConcededPerMatch": 0.9,
+        "averagePossessionPct": 51.4,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 35.4,
+        "xgDiff": 15.2,
+        "shotsOnTargetPerMatch": 5.9,
+        "bigChances": 62,
+        "bigChancesMissed": 33,
+        "accuratePassesPerMatch": 364.3,
+        "accurateLongBallsPerMatch": 25.6,
+        "accurateCrossesPerMatch": 7.4,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": 552,
+        "cornersPerMatch": 108,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 20.2,
+        "interceptionsPerMatch": 7.9,
+        "tacklesPerMatch": 16.1,
+        "clearancesPerMatch": 27.1,
+        "finalThirdRecoveriesPerMatch": 4.8,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": 2.5
+      },
+      "discipline": {
+        "foulsPerMatch": 12.6,
+        "yellowCardsPerMatch": 40,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [
+      {
+        "name": "Arild Ostbo",
+        "position": "GK",
+        "age": 35,
+        "apps": 5,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Lubomir Belko",
+        "position": "GK",
+        "age": 24,
+        "apps": 10,
+        "goals": 0,
+        "rating": 6.2
+      },
+      {
+        "name": "Kristoffer Haugen",
+        "position": null,
+        "age": 32,
+        "apps": 14,
+        "goals": 1,
+        "rating": 6
+      },
+      {
+        "name": "Anders Baertelsen",
+        "position": null,
+        "age": 26,
+        "apps": 11,
+        "goals": 0,
+        "rating": 5.3
+      },
+      {
+        "name": "Viljar Vevatne",
+        "position": null,
+        "age": 31,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Henrik Heggheim",
+        "position": "DF",
+        "age": 25,
+        "apps": 14,
+        "goals": 3,
+        "rating": 6.9
+      },
+      {
+        "name": "Gianni Stensness",
+        "position": "DF",
+        "age": 27,
+        "apps": 13,
+        "goals": 3,
+        "rating": 5.2
+      },
+      {
+        "name": "Sondre Bjorshol",
+        "position": "DF",
+        "age": 32,
+        "apps": 10,
+        "goals": 1,
+        "rating": 4.3
+      },
+      {
+        "name": "Vetle Auklend",
+        "position": "DF",
+        "age": 21,
+        "apps": 10,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Johan Haugen Herman",
+        "position": "DF",
+        "age": 26,
+        "apps": 12,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Henrik Falchener",
+        "position": null,
+        "age": 23,
+        "apps": 11,
+        "goals": 2,
+        "rating": 7.4
+      },
+      {
+        "name": "Jakob Hansen",
+        "position": "MF",
+        "age": 21,
+        "apps": 7,
+        "goals": 0,
+        "rating": 6.2
+      },
+      {
+        "name": "Joe Bell",
+        "position": null,
+        "age": 27,
+        "apps": 10,
+        "goals": 0,
+        "rating": 6.9
+      },
+      {
+        "name": "Tobias Moi",
+        "position": null,
+        "age": 20,
+        "apps": 9,
+        "goals": 0,
+        "rating": 2
+      },
+      {
+        "name": "Ruben Alte",
+        "position": "MF",
+        "age": 26,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "K. Askildsen",
+        "position": "MF",
+        "age": 25,
+        "apps": 14,
+        "goals": 5,
+        "rating": 7.2
+      },
+      {
+        "name": "Simen Kvia-Egeskog",
+        "position": "MF",
+        "age": 23,
+        "apps": 15,
+        "goals": 5,
+        "rating": 7.3
+      },
+      {
+        "name": "Ola Visted",
+        "position": "MF",
+        "age": 21,
+        "apps": 11,
+        "goals": 0,
+        "rating": 5.1
+      },
+      {
+        "name": "Veton Berisha",
+        "position": null,
+        "age": 32,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Amin Cosic",
+        "position": null,
+        "age": 20,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.5
+      },
+      {
+        "name": "Edvin Austbø",
+        "position": "ST",
+        "age": 21,
+        "apps": 9,
+        "goals": 2,
+        "rating": 7.6
+      },
+      {
+        "name": "Romano Postema",
+        "position": "ST",
+        "age": 24,
+        "apps": 1,
+        "goals": 0,
+        "rating": 5.8
+      },
+      {
+        "name": "Niklas Fuglestad",
+        "position": "ST",
+        "age": 20,
+        "apps": 13,
+        "goals": 2,
+        "rating": 5.2
+      },
+      {
+        "name": "Peter Christiansen",
+        "position": "ST",
+        "age": 26,
+        "apps": 14,
+        "goals": 8,
+        "rating": 8.1
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "Real Sociedad",
+        "rating": 2146.66
+      },
+      {
+        "name": "Sporting Braga",
+        "rating": 2165.57
+      }
+    ]
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "20",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Bodo/Glimt",
+        "teamUrl": "https://www.zerozero.pt/equipa/bodo-glimt?epoca_id=155",
+        "points": 41,
+        "matches": 17,
+        "wins": 13,
+        "draws": 2,
+        "losses": 2,
+        "goalsFor": 43,
+        "goalsAgainst": 12,
+        "goalDifference": "+31",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Viking",
+        "teamUrl": "https://www.zerozero.pt/equipa/viking/2027?epoca_id=155",
+        "points": 40,
+        "matches": 16,
+        "wins": 13,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 39,
+        "goalsAgainst": 15,
+        "goalDifference": "+24",
+        "highlight": "away"
+      },
+      {
+        "position": 3,
+        "teamName": "Tromso",
+        "teamUrl": "https://www.zerozero.pt/equipa/tromso/2031?epoca_id=155",
+        "points": 34,
+        "matches": 16,
+        "wins": 10,
+        "draws": 4,
+        "losses": 2,
+        "goalsFor": 32,
+        "goalsAgainst": 17,
+        "goalDifference": "+15",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "Lillestrom",
+        "teamUrl": "https://www.zerozero.pt/equipa/lillestrom/2029?epoca_id=155",
+        "points": 25,
+        "matches": 16,
+        "wins": 8,
+        "draws": 1,
+        "losses": 7,
+        "goalsFor": 22,
+        "goalsAgainst": 20,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Molde",
+        "teamUrl": "https://www.zerozero.pt/equipa/molde?epoca_id=155",
+        "points": 24,
+        "matches": 16,
+        "wins": 7,
+        "draws": 3,
+        "losses": 6,
+        "goalsFor": 29,
+        "goalsAgainst": 24,
+        "goalDifference": "+5",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Sarpsborg 08",
+        "teamUrl": "https://www.zerozero.pt/equipa/sarpsborg-08/25919?epoca_id=155",
+        "points": 22,
+        "matches": 16,
+        "wins": 6,
+        "draws": 4,
+        "losses": 6,
+        "goalsFor": 19,
+        "goalsAgainst": 21,
+        "goalDifference": "-2",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "Brann",
+        "teamUrl": "https://www.zerozero.pt/equipa/brann/2028?epoca_id=155",
+        "points": 22,
+        "matches": 16,
+        "wins": 7,
+        "draws": 1,
+        "losses": 8,
+        "goalsFor": 33,
+        "goalsAgainst": 27,
+        "goalDifference": "+6",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "HamKam",
+        "teamUrl": "https://www.zerozero.pt/equipa/hamkam/4305?epoca_id=155",
+        "points": 22,
+        "matches": 16,
+        "wins": 6,
+        "draws": 4,
+        "losses": 6,
+        "goalsFor": 24,
+        "goalsAgainst": 27,
+        "goalDifference": "-3",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Rosenborg",
+        "teamUrl": "https://www.zerozero.pt/equipa/rosenborg/155?epoca_id=155",
+        "points": 21,
+        "matches": 16,
+        "wins": 6,
+        "draws": 3,
+        "losses": 7,
+        "goalsFor": 23,
+        "goalsAgainst": 21,
+        "goalDifference": "+2",
+        "highlight": "home"
+      },
+      {
+        "position": 10,
+        "teamName": "Valerenga",
+        "teamUrl": "https://www.zerozero.pt/equipa/valerenga/1110?epoca_id=155",
+        "points": 20,
+        "matches": 16,
+        "wins": 6,
+        "draws": 2,
+        "losses": 8,
+        "goalsFor": 23,
+        "goalsAgainst": 29,
+        "goalDifference": "-6",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Fredrikstad",
+        "teamUrl": "https://www.zerozero.pt/equipa/fredrikstad/4304?epoca_id=155",
+        "points": 20,
+        "matches": 16,
+        "wins": 6,
+        "draws": 2,
+        "losses": 8,
+        "goalsFor": 17,
+        "goalsAgainst": 27,
+        "goalDifference": "-10",
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "KFUM Fotball",
+        "teamUrl": "https://www.zerozero.pt/equipa/kfum-fotball/56803?epoca_id=155",
+        "points": 18,
+        "matches": 16,
+        "wins": 5,
+        "draws": 3,
+        "losses": 8,
+        "goalsFor": 18,
+        "goalsAgainst": 26,
+        "goalDifference": "-8",
+        "highlight": null
+      },
+      {
+        "position": 13,
+        "teamName": "Sandefjord",
+        "teamUrl": "https://www.zerozero.pt/equipa/sandefjord/7317?epoca_id=155",
+        "points": 15,
+        "matches": 16,
+        "wins": 4,
+        "draws": 3,
+        "losses": 9,
+        "goalsFor": 13,
+        "goalsAgainst": 22,
+        "goalDifference": "-9",
+        "highlight": null
+      },
+      {
+        "position": 14,
+        "teamName": "Kristiansund BK",
+        "teamUrl": "https://www.zerozero.pt/equipa/kristiansund-bk/29819?epoca_id=155",
+        "points": 15,
+        "matches": 16,
+        "wins": 4,
+        "draws": 3,
+        "losses": 9,
+        "goalsFor": 15,
+        "goalsAgainst": 26,
+        "goalDifference": "-11",
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "Aalesund",
+        "teamUrl": "https://www.zerozero.pt/equipa/aalesund/2032?epoca_id=155",
+        "points": 14,
+        "matches": 16,
+        "wins": 2,
+        "draws": 8,
+        "losses": 6,
+        "goalsFor": 22,
+        "goalsAgainst": 36,
+        "goalDifference": "-14",
+        "highlight": null
+      },
+      {
+        "position": 16,
+        "teamName": "Start",
+        "teamUrl": "https://www.zerozero.pt/equipa/start/4014?epoca_id=155",
+        "points": 10,
+        "matches": 17,
+        "wins": 2,
+        "draws": 4,
+        "losses": 11,
+        "goalsFor": 16,
+        "goalsAgainst": 38,
+        "goalDifference": "-22",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-14.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/20.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/20-eliteserien/8422-rosenborg.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/20-eliteserien/8478-viking.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "homeTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/norway/422-rosenborg-bk-ii.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/norway/72-viking-stavanger.json",
+      "matchedBy": "sofascoreTeamId"
+    }
+  }
+}

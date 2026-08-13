@@ -1,0 +1,429 @@
+{
+  "builtAtUtc": "2026-08-13T14:56:21.481Z",
+  "match": {
+    "id": "16667393",
+    "date": "2026-08-14",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/banfield-racing-club/pobsuob#id:16667393",
+    "kickoffAtUtc": "2026-08-14T23:30:00.000Z",
+    "competition": {
+      "id": "155",
+      "name": "Liga Profesional, Clausura",
+      "country": "Argentina",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/155/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "3215",
+      "name": "Racing",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3215/image/small",
+      "sourceIds": {
+        "sofascore": "3215",
+        "fotmob": "10080",
+        "soccerRating": "1438"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1486.45,
+      "nationalRank": 263,
+      "europeRank": 4223,
+      "formLast3": [],
+      "xgFor": 23.7,
+      "xgAgainst": 22.8,
+      "averagePossessionPct": 55.7,
+      "cleanSheets": 8
+    },
+    "overview": {
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": null
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": null,
+        "fair1X2": null,
+        "movementSummary": null
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 1,
+        "goalsConcededPerMatch": 1,
+        "averagePossessionPct": 55.7,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 23.7,
+        "xgDiff": 0.9,
+        "shotsOnTargetPerMatch": 3.4,
+        "bigChances": 39,
+        "bigChancesMissed": 25,
+        "accuratePassesPerMatch": 311.7,
+        "accurateLongBallsPerMatch": 30,
+        "accurateCrossesPerMatch": 4.1,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": 396,
+        "cornersPerMatch": 88,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 22.8,
+        "interceptionsPerMatch": 11.4,
+        "tacklesPerMatch": 16.9,
+        "clearancesPerMatch": 26.6,
+        "finalThirdRecoveriesPerMatch": 2.3,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": 2.8
+      },
+      "discipline": {
+        "foulsPerMatch": 14.8,
+        "yellowCardsPerMatch": 66,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "NK Sredisce",
+        "rating": 1486.51
+      },
+      {
+        "name": "Coggeshall Town",
+        "rating": 1486.4
+      }
+    ]
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "3219",
+      "name": "Banfield",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3219/image/small",
+      "sourceIds": {
+        "sofascore": "3219",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "155",
+    "sourceStatus": "ready",
+    "phaseName": "1ª Fase",
+    "phaseNotes": [
+      "Competição com grupos e fases internas; validar sempre a fase apresentada.",
+      "Tabela da fase inicial por grupos."
+    ],
+    "ruleProfileId": "arg-group-stage",
+    "tableName": "1ª Fase",
+    "tableType": "regular_plus_playoffs",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Argentinos Juniors",
+        "teamUrl": "https://www.zerozero.pt/equipa/argentinos-juniors?epoca_id=155",
+        "points": 12,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 9,
+        "goalsAgainst": 3,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Gimnasia",
+        "teamUrl": "https://www.zerozero.pt/equipa/gimnasia?epoca_id=155",
+        "points": 9,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 6,
+        "goalsAgainst": 3,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Barracas Central",
+        "teamUrl": "https://www.zerozero.pt/equipa/barracas-central/36413?epoca_id=155",
+        "points": 9,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "Belgrano",
+        "teamUrl": "https://www.zerozero.pt/equipa/belgrano?epoca_id=155",
+        "points": 7,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 4,
+        "goalsAgainst": 2,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Independiente Rivadavia",
+        "teamUrl": "https://www.zerozero.pt/equipa/independiente-rivadavia/9201?epoca_id=155",
+        "points": 7,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 5,
+        "goalsAgainst": 4,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Tigre",
+        "teamUrl": "https://www.zerozero.pt/equipa/tigre?epoca_id=155",
+        "points": 7,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 4,
+        "goalsAgainst": 2,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "Huracán",
+        "teamUrl": "https://www.zerozero.pt/equipa/huracan?epoca_id=155",
+        "points": 7,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 4,
+        "goalsAgainst": 2,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "Rosario Central",
+        "teamUrl": "https://www.zerozero.pt/equipa/rosario-central?epoca_id=155",
+        "points": 7,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 4,
+        "goalsAgainst": 3,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Sarmiento de Junín",
+        "teamUrl": "https://www.zerozero.pt/equipa/sarmiento-de-junin/9065?epoca_id=155",
+        "points": 6,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 8,
+        "goalsAgainst": 8,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Atlético Tucumán",
+        "teamUrl": "https://www.zerozero.pt/equipa/atletico-tucuman?epoca_id=155",
+        "points": 5,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Banfield",
+        "teamUrl": "https://www.zerozero.pt/equipa/banfield?epoca_id=155",
+        "points": 4,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 3,
+        "goalsAgainst": 5,
+        "goalDifference": null,
+        "highlight": "away"
+      },
+      {
+        "position": 12,
+        "teamName": "Estudiantes Río Cuarto",
+        "teamUrl": "https://www.zerozero.pt/equipa/estudiantes-rio-cuarto/55044?epoca_id=155",
+        "points": 4,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 2,
+        "goalsAgainst": 5,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 13,
+        "teamName": "Racing Club",
+        "teamUrl": "https://www.zerozero.pt/equipa/racing-club?epoca_id=155",
+        "points": 4,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 4,
+        "goalsAgainst": 6,
+        "goalDifference": null,
+        "highlight": "home"
+      },
+      {
+        "position": 14,
+        "teamName": "Aldosivi",
+        "teamUrl": "https://www.zerozero.pt/equipa/aldosivi?epoca_id=155",
+        "points": 1,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 3,
+        "goalsAgainst": 6,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "River Plate",
+        "teamUrl": "https://www.zerozero.pt/equipa/river-plate?epoca_id=155",
+        "points": 0,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 0,
+        "goalsAgainst": 4,
+        "goalDifference": null,
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-14.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/155.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/10080-racing-club.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/argentina/1438-racing-92-fc.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

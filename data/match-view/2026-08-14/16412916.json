@@ -1,0 +1,452 @@
+{
+  "builtAtUtc": "2026-08-13T14:56:21.445Z",
+  "match": {
+    "id": "16412916",
+    "date": "2026-08-14",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/fc-epicentr-dunaivtsi-nk-veres-rivne/ypFbscwEc#id:16412916",
+    "kickoffAtUtc": "2026-08-14T15:00:00.000Z",
+    "competition": {
+      "id": "218",
+      "name": "Premier League",
+      "country": "Ukraine",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/218/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "323552",
+      "name": "Epicentr",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/323552/image/small",
+      "sourceIds": {
+        "sofascore": "323552",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "200773",
+      "name": "Veres Rivne",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/200773/image/small",
+      "sourceIds": {
+        "sofascore": "200773",
+        "fotmob": "1175395",
+        "soccerRating": "1214"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1552.55,
+      "nationalRank": 40,
+      "europeRank": 2602,
+      "formLast3": [
+        "L",
+        "L",
+        "L"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": {
+        "tip": "away_win",
+        "tipLabel": "Bet on (2) Veres Rivne (Stake 3/10)",
+        "confidencePct": 30,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.53,
+          "draw": 3.9,
+          "away": 6
+        },
+        "fair1X2": {
+          "home": 7.18,
+          "draw": 4.5,
+          "away": 1.57
+        },
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 0,
+        "goalsConcededPerMatch": 1,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": 3,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "Meshakhte Tkibuli",
+        "rating": 1552.61
+      },
+      {
+        "name": "KFC Oosterzonen",
+        "rating": 1552.51
+      }
+    ]
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "218",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Karpaty",
+        "teamUrl": "https://www.zerozero.pt/equipa/karpaty/2161?epoca_id=156",
+        "points": 6,
+        "matches": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 1,
+        "goalDifference": "+6",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Polissya",
+        "teamUrl": "https://www.zerozero.pt/equipa/polissya/38513?epoca_id=156",
+        "points": 6,
+        "matches": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 2,
+        "goalDifference": "+3",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Shakhtar Donetsk",
+        "teamUrl": "https://www.zerozero.pt/equipa/shakhtar-donetsk?epoca_id=156",
+        "points": 6,
+        "matches": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 1,
+        "goalDifference": "+6",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "Kryvbas",
+        "teamUrl": "https://www.zerozero.pt/equipa/kryvbas/85604?epoca_id=156",
+        "points": 3,
+        "matches": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 5,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Metalist 1925 Kharkov",
+        "teamUrl": "https://www.zerozero.pt/equipa/metalist-1925-kharkov/213307?epoca_id=156",
+        "points": 3,
+        "matches": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Epitsentr Dunaivtsi",
+        "teamUrl": "https://www.zerozero.pt/equipa/epitsentr-dunaivtsi/263553?epoca_id=156",
+        "points": 3,
+        "matches": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "Dynamo Kyiv",
+        "teamUrl": "https://www.zerozero.pt/equipa/dynamo-kyiv/141?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "Zorya",
+        "teamUrl": "https://www.zerozero.pt/equipa/zorya/7872?epoca_id=156",
+        "points": 3,
+        "matches": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 3,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Bukovyna",
+        "teamUrl": "https://www.zerozero.pt/equipa/bukovyna/41976?epoca_id=156",
+        "points": 2,
+        "matches": 2,
+        "wins": 0,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Livyi Bereh",
+        "teamUrl": "https://www.zerozero.pt/equipa/livyi-bereh/262925?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "FK Kudrivka",
+        "teamUrl": "https://www.zerozero.pt/equipa/fk-kudrivka/263502?epoca_id=156",
+        "points": 1,
+        "matches": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 5,
+        "goalDifference": "-4",
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "LNZ Cherkasy",
+        "teamUrl": "https://www.zerozero.pt/equipa/lnz-cherkasy/262926?epoca_id=156",
+        "points": 1,
+        "matches": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 3,
+        "goalDifference": "-3",
+        "highlight": null
+      },
+      {
+        "position": 13,
+        "teamName": "Obolon-Brovar",
+        "teamUrl": "https://www.zerozero.pt/equipa/obolon-brovar/84680?epoca_id=156",
+        "points": 1,
+        "matches": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 3,
+        "goalDifference": "-3",
+        "highlight": null
+      },
+      {
+        "position": 14,
+        "teamName": "FC Veres",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-veres/41915?epoca_id=156",
+        "points": 0,
+        "matches": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 3,
+        "goalDifference": "-2",
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "Kolos Kovalivka",
+        "teamUrl": "https://www.zerozero.pt/equipa/kolos-kovalivka/101825?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 2,
+        "goalDifference": "-2",
+        "highlight": null
+      },
+      {
+        "position": 16,
+        "teamName": "Chornomorets",
+        "teamUrl": "https://www.zerozero.pt/equipa/chornomorets/2157?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "goalDifference": "-1",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-14.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/218.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/218-premier-league/1175395-veres-rivne.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/ukraine/1214-veres-rivne.json",
+      "matchedBy": "sofascoreTeamId"
+    }
+  }
+}

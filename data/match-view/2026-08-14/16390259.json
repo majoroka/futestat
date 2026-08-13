@@ -1,0 +1,1141 @@
+{
+  "builtAtUtc": "2026-08-13T14:56:21.444Z",
+  "match": {
+    "id": "16390259",
+    "date": "2026-08-14",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/orenburg-lokomotiv-moscow/vWstHj#id:16390259",
+    "kickoffAtUtc": "2026-08-14T14:00:00.000Z",
+    "competition": {
+      "id": "203",
+      "name": "Premier League",
+      "country": "Russia",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/203/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "24118",
+      "name": "Orenburg",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/24118/image/small",
+      "sourceIds": {
+        "sofascore": "24118",
+        "fotmob": "132286",
+        "soccerRating": "582"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1884.22,
+      "nationalRank": 13,
+      "europeRank": 471,
+      "formLast3": [
+        "W",
+        "L",
+        "L"
+      ],
+      "xgFor": 1.4,
+      "xgAgainst": 1.9,
+      "averagePossessionPct": 36.1,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": {
+        "tip": "home_win",
+        "tipLabel": "Bet on (1) Akhmat Grozny (Stake 6/10)",
+        "confidencePct": 60,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 4.9,
+        "players": [
+          {
+            "name": "Bogdan Ovsyannikov",
+            "position": "GK",
+            "age": null,
+            "apps": 16,
+            "goals": 0,
+            "rating": 4.7
+          },
+          {
+            "name": "Fahd Moufi",
+            "position": "DF",
+            "age": null,
+            "apps": 11,
+            "goals": 0,
+            "rating": 5.8
+          },
+          {
+            "name": "Danila Khotulev",
+            "position": "DF",
+            "age": null,
+            "apps": 13,
+            "goals": 0,
+            "rating": 4.5
+          },
+          {
+            "name": "Danila Vedernikov",
+            "position": "DF",
+            "age": null,
+            "apps": 11,
+            "goals": 1,
+            "rating": 4
+          },
+          {
+            "name": "Yevgeniy Bolotov",
+            "position": "MF",
+            "age": null,
+            "apps": 13,
+            "goals": 1,
+            "rating": 4.7
+          },
+          {
+            "name": "Irakliy Kvekveskiri",
+            "position": "MF",
+            "age": null,
+            "apps": 15,
+            "goals": 0,
+            "rating": 4.7
+          },
+          {
+            "name": "Dmitriy Rybchinskiy",
+            "position": "MF",
+            "age": null,
+            "apps": 13,
+            "goals": 0,
+            "rating": 5.4
+          },
+          {
+            "name": "Gedeon Guzina",
+            "position": "ST",
+            "age": null,
+            "apps": 14,
+            "goals": 1,
+            "rating": 4.8
+          },
+          {
+            "name": "Emircan Gürlük",
+            "position": "ST",
+            "age": null,
+            "apps": 12,
+            "goals": 3,
+            "rating": 5.2
+          },
+          {
+            "name": "Jordhy Thompson",
+            "position": "ST",
+            "age": null,
+            "apps": 14,
+            "goals": 5,
+            "rating": 4.7
+          },
+          {
+            "name": "Ivan Ignatyev",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 5.8
+          },
+          {
+            "name": "Andrey Khodanovich",
+            "position": "GK",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 1.3
+          },
+          {
+            "name": "Artem Kasimov",
+            "position": "DF",
+            "age": null,
+            "apps": 12,
+            "goals": 0,
+            "rating": 4.8
+          },
+          {
+            "name": "Pavel Gorelov",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 4.5
+          },
+          {
+            "name": "Maksim Saveljev",
+            "position": "ST",
+            "age": null,
+            "apps": 13,
+            "goals": 2,
+            "rating": 4.5
+          },
+          {
+            "name": "Stepan Oganesyan",
+            "position": "ST",
+            "age": null,
+            "apps": 12,
+            "goals": 0,
+            "rating": 4.3
+          },
+          {
+            "name": "Du Queiroz",
+            "position": "MF",
+            "age": null,
+            "apps": 10,
+            "goals": 0,
+            "rating": 6
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.8,
+          "draw": 3.8,
+          "away": 4.1
+        },
+        "fair1X2": {
+          "home": 1.86,
+          "draw": 4.01,
+          "away": 4.68
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 1,
+        "goalsConcededPerMatch": 2,
+        "averagePossessionPct": 36.1,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 1.4,
+        "xgDiff": -0.4,
+        "shotsOnTargetPerMatch": 2.5,
+        "bigChances": 4,
+        "bigChancesMissed": 3,
+        "accuratePassesPerMatch": 185.5,
+        "accurateLongBallsPerMatch": 17.5,
+        "accurateCrossesPerMatch": 4.5,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": 31,
+        "cornersPerMatch": 8,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 1.9,
+        "interceptionsPerMatch": 5.5,
+        "tacklesPerMatch": 15,
+        "clearancesPerMatch": 31.5,
+        "finalThirdRecoveriesPerMatch": 5,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": 3
+      },
+      "discipline": {
+        "foulsPerMatch": 16,
+        "yellowCardsPerMatch": 4,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [
+      {
+        "name": "Bogdan Ovsyannikov",
+        "position": "GK",
+        "age": 26,
+        "apps": 16,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Andrey Khodanovich",
+        "position": "GK",
+        "age": 21,
+        "apps": 0,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Aleksey Tataev",
+        "position": null,
+        "age": 27,
+        "apps": 7,
+        "goals": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Georgiy Zotov",
+        "position": null,
+        "age": 35,
+        "apps": 6,
+        "goals": 0,
+        "rating": 2.5
+      },
+      {
+        "name": "Stanislav Poroykov",
+        "position": null,
+        "age": 21,
+        "apps": 4,
+        "goals": 0,
+        "rating": 2.3
+      },
+      {
+        "name": "Emil Tsenov",
+        "position": null,
+        "age": 23,
+        "apps": 2,
+        "goals": 1,
+        "rating": 5
+      },
+      {
+        "name": "Nikolay Koserik",
+        "position": null,
+        "age": 18,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Fahd Moufi",
+        "position": "DF",
+        "age": 29,
+        "apps": 11,
+        "goals": 0,
+        "rating": 5.8
+      },
+      {
+        "name": "Danila Khotulev",
+        "position": "DF",
+        "age": 23,
+        "apps": 13,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Danila Vedernikov",
+        "position": "DF",
+        "age": 24,
+        "apps": 11,
+        "goals": 1,
+        "rating": 4
+      },
+      {
+        "name": "Artem Kasimov",
+        "position": "DF",
+        "age": 22,
+        "apps": 12,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Yevgeniy Bolotov",
+        "position": "MF",
+        "age": 24,
+        "apps": 13,
+        "goals": 1,
+        "rating": 4.7
+      },
+      {
+        "name": "Dmitriy Rybchinskiy",
+        "position": "MF",
+        "age": 27,
+        "apps": 13,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Pavel Gorelov",
+        "position": "MF",
+        "age": 22,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Vladislav Kamilov",
+        "position": null,
+        "age": 30,
+        "apps": 14,
+        "goals": 1,
+        "rating": 5.4
+      },
+      {
+        "name": "Irakliy Kvekveskiri",
+        "position": "MF",
+        "age": 35,
+        "apps": 15,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Du Queiroz",
+        "position": "MF",
+        "age": 24,
+        "apps": 10,
+        "goals": 0,
+        "rating": 6
+      },
+      {
+        "name": "Emircan Gürlük",
+        "position": "ST",
+        "age": 22,
+        "apps": 12,
+        "goals": 3,
+        "rating": 5.2
+      },
+      {
+        "name": "Alexandre Jesus",
+        "position": null,
+        "age": 22,
+        "apps": 5,
+        "goals": 0,
+        "rating": 6
+      },
+      {
+        "name": "Jordhy Thompson",
+        "position": "ST",
+        "age": 21,
+        "apps": 14,
+        "goals": 5,
+        "rating": 4.7
+      },
+      {
+        "name": "Ivan Ignatyev",
+        "position": "ST",
+        "age": 26,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5.8
+      },
+      {
+        "name": "Stepan Oganesyan",
+        "position": "ST",
+        "age": 24,
+        "apps": 12,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Gedeon Guzina",
+        "position": "ST",
+        "age": 31,
+        "apps": 14,
+        "goals": 1,
+        "rating": 4.8
+      },
+      {
+        "name": "Maksim Saveljev",
+        "position": "ST",
+        "age": 23,
+        "apps": 13,
+        "goals": 2,
+        "rating": 4.5
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "1. FC Lokomotive Leipzig",
+        "rating": 1884.49
+      },
+      {
+        "name": "Notts County",
+        "rating": 1884.12
+      }
+    ]
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "2320",
+      "name": "Lokomotiv",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2320/image/small",
+      "sourceIds": {
+        "sofascore": "2320",
+        "fotmob": null,
+        "soccerRating": "127"
+      }
+    },
+    "headerStats": {
+      "overallRating": 2047.53,
+      "nationalRank": 6,
+      "europeRank": 189,
+      "formLast3": [
+        "D",
+        "L",
+        "L"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": {
+        "tip": "away_win",
+        "tipLabel": "Bet on (2) Lokomotiv Moskva (Stake 2/10)",
+        "confidencePct": 20,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 6.6,
+        "players": [
+          {
+            "name": "Anton Mitryushkin",
+            "position": "GK",
+            "age": null,
+            "apps": 14,
+            "goals": 0,
+            "rating": 6
+          },
+          {
+            "name": "Aleksandr Silyanov",
+            "position": "DF",
+            "age": null,
+            "apps": 15,
+            "goals": 1,
+            "rating": 6.8
+          },
+          {
+            "name": "César Montes",
+            "position": "DF",
+            "age": null,
+            "apps": 14,
+            "goals": 1,
+            "rating": 6.7
+          },
+          {
+            "name": "Lucas Fasson",
+            "position": "DF",
+            "age": null,
+            "apps": 11,
+            "goals": 0,
+            "rating": 6.2
+          },
+          {
+            "name": "Gerzino Nyamsi",
+            "position": "DF",
+            "age": null,
+            "apps": 5,
+            "goals": 0,
+            "rating": 5.6
+          },
+          {
+            "name": "Danil Prutsev",
+            "position": "MF",
+            "age": null,
+            "apps": 9,
+            "goals": 1,
+            "rating": 6.3
+          },
+          {
+            "name": "Artem Karpukas",
+            "position": "MF",
+            "age": null,
+            "apps": 13,
+            "goals": 0,
+            "rating": 6.6
+          },
+          {
+            "name": "Dmitriy Barinov",
+            "position": "MF",
+            "age": null,
+            "apps": 15,
+            "goals": 2,
+            "rating": 7.3
+          },
+          {
+            "name": "Aleksey Batrakov",
+            "position": "MF",
+            "age": null,
+            "apps": 14,
+            "goals": 10,
+            "rating": 7.3
+          },
+          {
+            "name": "Aleksandr Rudenko",
+            "position": "ST",
+            "age": null,
+            "apps": 15,
+            "goals": 2,
+            "rating": 7.3
+          },
+          {
+            "name": "Nikolay Komlichenko",
+            "position": "ST",
+            "age": null,
+            "apps": 14,
+            "goals": 4,
+            "rating": 6.7
+          },
+          {
+            "name": "Ilya Lantratov",
+            "position": "GK",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 5.7
+          },
+          {
+            "name": "Maksim Nenakhov",
+            "position": "DF",
+            "age": null,
+            "apps": 13,
+            "goals": 0,
+            "rating": 6.3
+          },
+          {
+            "name": "Artem Timofeev",
+            "position": "MF",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 5
+          },
+          {
+            "name": "Sergey Pinyaev",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 1,
+            "rating": 6.7
+          },
+          {
+            "name": "Nikita Saltykov",
+            "position": "ST",
+            "age": null,
+            "apps": 4,
+            "goals": 0,
+            "rating": 5.8
+          },
+          {
+            "name": "Cristian Ramirez",
+            "position": "DF",
+            "age": null,
+            "apps": 7,
+            "goals": 0,
+            "rating": 6.1
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 4.4,
+          "draw": 3.7,
+          "away": 1.8
+        },
+        "fair1X2": {
+          "home": 5.07,
+          "draw": 4.44,
+          "away": 1.73
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [
+      {
+        "name": "Anton Mitryushkin",
+        "position": "GK",
+        "age": 29,
+        "apps": 14,
+        "goals": 0,
+        "rating": 6
+      },
+      {
+        "name": "Ilya Lantratov",
+        "position": "GK",
+        "age": 30,
+        "apps": 1,
+        "goals": 0,
+        "rating": 5.7
+      },
+      {
+        "name": "Yevgeniy Morozov",
+        "position": null,
+        "age": 24,
+        "apps": 7,
+        "goals": 0,
+        "rating": 6.1
+      },
+      {
+        "name": "Egor Pogostnov",
+        "position": null,
+        "age": 21,
+        "apps": 4,
+        "goals": 0,
+        "rating": 5.3
+      },
+      {
+        "name": "Aleksandr Silyanov",
+        "position": "DF",
+        "age": 24,
+        "apps": 15,
+        "goals": 1,
+        "rating": 6.8
+      },
+      {
+        "name": "César Montes",
+        "position": "DF",
+        "age": 28,
+        "apps": 14,
+        "goals": 1,
+        "rating": 6.7
+      },
+      {
+        "name": "Lucas Fasson",
+        "position": "DF",
+        "age": 24,
+        "apps": 11,
+        "goals": 0,
+        "rating": 6.2
+      },
+      {
+        "name": "Gerzino Nyamsi",
+        "position": "DF",
+        "age": 28,
+        "apps": 5,
+        "goals": 0,
+        "rating": 5.6
+      },
+      {
+        "name": "Maksim Nenakhov",
+        "position": "DF",
+        "age": 26,
+        "apps": 13,
+        "goals": 0,
+        "rating": 6.3
+      },
+      {
+        "name": "Cristian Ramirez",
+        "position": "DF",
+        "age": 31,
+        "apps": 7,
+        "goals": 0,
+        "rating": 6.1
+      },
+      {
+        "name": "Danila Godyaev",
+        "position": null,
+        "age": 21,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Dmitriy Barinov",
+        "position": "MF",
+        "age": 29,
+        "apps": 15,
+        "goals": 2,
+        "rating": 7.3
+      },
+      {
+        "name": "Danil Prutsev",
+        "position": "MF",
+        "age": 25,
+        "apps": 9,
+        "goals": 1,
+        "rating": 6.3
+      },
+      {
+        "name": "Artem Karpukas",
+        "position": "MF",
+        "age": 23,
+        "apps": 13,
+        "goals": 0,
+        "rating": 6.6
+      },
+      {
+        "name": "Artem Timofeev",
+        "position": "MF",
+        "age": 31,
+        "apps": 0,
+        "goals": 0,
+        "rating": 5
+      },
+      {
+        "name": "Aleksey Batrakov",
+        "position": "MF",
+        "age": 20,
+        "apps": 14,
+        "goals": 10,
+        "rating": 7.3
+      },
+      {
+        "name": "Zelimkhan Bakaev",
+        "position": null,
+        "age": 29,
+        "apps": 12,
+        "goals": 2,
+        "rating": 5.8
+      },
+      {
+        "name": "Vladislav Sarveli",
+        "position": null,
+        "age": 28,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Sergey Pinyaev",
+        "position": "ST",
+        "age": 21,
+        "apps": 3,
+        "goals": 1,
+        "rating": 6.7
+      },
+      {
+        "name": "Nikita Saltykov",
+        "position": "ST",
+        "age": 21,
+        "apps": 4,
+        "goals": 0,
+        "rating": 5.8
+      },
+      {
+        "name": "Dmitriy Vorobyov",
+        "position": null,
+        "age": 27,
+        "apps": 12,
+        "goals": 7,
+        "rating": 6.8
+      },
+      {
+        "name": "Aleksandr Rudenko",
+        "position": "ST",
+        "age": 26,
+        "apps": 15,
+        "goals": 2,
+        "rating": 7.3
+      },
+      {
+        "name": "Nikolay Komlichenko",
+        "position": "ST",
+        "age": 30,
+        "apps": 14,
+        "goals": 4,
+        "rating": 6.7
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "FC Liverpool II",
+        "rating": 2048.08
+      },
+      {
+        "name": "Parma Calcio",
+        "rating": 2047.51
+      }
+    ]
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "203",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "FK Krasnodar",
+        "teamUrl": "https://www.zerozero.pt/equipa/fk-krasnodar/25480?epoca_id=156",
+        "points": 9,
+        "matches": 3,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 8,
+        "goalsAgainst": 4,
+        "goalDifference": "+4",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "CSKA Moskva",
+        "teamUrl": "https://www.zerozero.pt/equipa/cska-moskva?epoca_id=156",
+        "points": 6,
+        "matches": 4,
+        "wins": 1,
+        "draws": 3,
+        "losses": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Dynamo Makhachkala",
+        "teamUrl": "https://www.zerozero.pt/equipa/dynamo-makhachkala/13671?epoca_id=156",
+        "points": 6,
+        "matches": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 5,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "Spartak Moskva",
+        "teamUrl": "https://www.zerozero.pt/equipa/spartak-moskva?epoca_id=156",
+        "points": 6,
+        "matches": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 6,
+        "goalsAgainst": 3,
+        "goalDifference": "+3",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Zenit",
+        "teamUrl": "https://www.zerozero.pt/equipa/zenit?epoca_id=156",
+        "points": 6,
+        "matches": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 9,
+        "goalsAgainst": 2,
+        "goalDifference": "+7",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Baltika Kaliningrad",
+        "teamUrl": "https://www.zerozero.pt/equipa/baltika-kaliningrad/11441?epoca_id=156",
+        "points": 6,
+        "matches": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 3,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "FK Rostov",
+        "teamUrl": "https://www.zerozero.pt/equipa/fk-rostov/2096?epoca_id=156",
+        "points": 5,
+        "matches": 4,
+        "wins": 1,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 4,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "FK Orenburg",
+        "teamUrl": "https://www.zerozero.pt/equipa/fk-orenburg/31959?epoca_id=156",
+        "points": 4,
+        "matches": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 5,
+        "goalDifference": "-2",
+        "highlight": "home"
+      },
+      {
+        "position": 9,
+        "teamName": "Rubin Kazan",
+        "teamUrl": "https://www.zerozero.pt/equipa/rubin-kazan/2091?epoca_id=156",
+        "points": 4,
+        "matches": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 5,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Dynamo Moskva",
+        "teamUrl": "https://www.zerozero.pt/equipa/dynamo-moskva?epoca_id=156",
+        "points": 4,
+        "matches": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 3,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Rodina Moskva",
+        "teamUrl": "https://www.zerozero.pt/equipa/rodina-moskva/242704?epoca_id=156",
+        "points": 3,
+        "matches": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 4,
+        "goalsAgainst": 8,
+        "goalDifference": "-4",
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "Lokomotiv",
+        "teamUrl": "https://www.zerozero.pt/equipa/lokomotiv/142?epoca_id=156",
+        "points": 2,
+        "matches": 3,
+        "wins": 0,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
+        "goalDifference": "-1",
+        "highlight": "away"
+      },
+      {
+        "position": 13,
+        "teamName": "Akhmat Grozny",
+        "teamUrl": "https://www.zerozero.pt/equipa/akhmat-grozny/4253?epoca_id=156",
+        "points": 2,
+        "matches": 3,
+        "wins": 0,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 14,
+        "teamName": "Krylya Sovetov",
+        "teamUrl": "https://www.zerozero.pt/equipa/krylya-sovetov/2095?epoca_id=156",
+        "points": 2,
+        "matches": 3,
+        "wins": 0,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 3,
+        "goalDifference": "-2",
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "Fakel Voronezh",
+        "teamUrl": "https://www.zerozero.pt/equipa/fakel-voronezh/8597?epoca_id=156",
+        "points": 1,
+        "matches": 3,
+        "wins": 0,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 3,
+        "goalsAgainst": 5,
+        "goalDifference": "-2",
+        "highlight": null
+      },
+      {
+        "position": 16,
+        "teamName": "Akron Togliatti",
+        "teamUrl": "https://www.zerozero.pt/equipa/akron-togliatti/242343?epoca_id=156",
+        "points": 1,
+        "matches": 3,
+        "wins": 0,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 7,
+        "goalDifference": "-6",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-14.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/203.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/203-premier-league/132286-fc-orenburg.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/russia/582-fk-orenburg.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/russia/127-lokomotiv-moskva.json",
+      "matchedBy": "sofascoreTeamId"
+    }
+  }
+}

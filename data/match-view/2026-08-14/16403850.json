@@ -1,0 +1,776 @@
+{
+  "builtAtUtc": "2026-08-13T14:56:21.448Z",
+  "match": {
+    "id": "16403850",
+    "date": "2026-08-14",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/fc-voluntari-fc-petrolul-ploiesti/grksfKr#id:16403850",
+    "kickoffAtUtc": "2026-08-14T15:30:00.000Z",
+    "competition": {
+      "id": "152",
+      "name": "Superliga",
+      "country": "Romania",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/152/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "44255",
+      "name": "Voluntari",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/44255/image/small",
+      "sourceIds": {
+        "sofascore": "44255",
+        "fotmob": "405332",
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": 39,
+      "cleanSheets": 1
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 0.8,
+        "goalsConcededPerMatch": 2.8,
+        "averagePossessionPct": 39,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": 3,
+        "bigChances": 7,
+        "bigChancesMissed": 6,
+        "accuratePassesPerMatch": 252.3,
+        "accurateLongBallsPerMatch": 23.3,
+        "accurateCrossesPerMatch": 1.8,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": 67,
+        "cornersPerMatch": 10,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": 9.5,
+        "tacklesPerMatch": 14.3,
+        "clearancesPerMatch": 22.5,
+        "finalThirdRecoveriesPerMatch": 3.3,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": 1.8
+      },
+      "discipline": {
+        "foulsPerMatch": 8,
+        "yellowCardsPerMatch": 4,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "25856",
+      "name": "Petrolul Ploiești",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/25856/image/small",
+      "sourceIds": {
+        "sofascore": "25856",
+        "fotmob": "188187",
+        "soccerRating": "2475"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1788.13,
+      "nationalRank": 16,
+      "europeRank": 754,
+      "formLast3": [
+        "L",
+        "L",
+        "L"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": 44.4,
+      "cleanSheets": 1
+    },
+    "overview": {
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [
+          {
+            "player": "Calal Hüseynov",
+            "status": "injury_or_suspension",
+            "description": null
+          }
+        ],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 4.3,
+        "players": [
+          {
+            "name": "Lukas Zima",
+            "position": "GK",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.5
+          },
+          {
+            "name": "Tiberiu Capusa",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 5.4
+          },
+          {
+            "name": "Paul Papp",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.6
+          },
+          {
+            "name": "Breston Malula",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4
+          },
+          {
+            "name": "Mario Ionita",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 2.5
+          },
+          {
+            "name": "Sergiu Hanca",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.8
+          },
+          {
+            "name": "Alejandro Bran",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 4.8
+          },
+          {
+            "name": "Léo",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 5
+          },
+          {
+            "name": "Dan N'Lundulu",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.2
+          },
+          {
+            "name": "Robert Jerdea",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 3.1
+          },
+          {
+            "name": "Andres Dumitrescu",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 3.8
+          },
+          {
+            "name": "Dele Israel",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.7
+          },
+          {
+            "name": "Rodrigo Martins",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 1,
+            "rating": 2.6
+          },
+          {
+            "name": "Adam Zaian",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 2.6
+          },
+          {
+            "name": "Ioan Tolea",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.9
+          },
+          {
+            "name": "Kilian Ludewig",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.2
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 2.6,
+          "draw": 3,
+          "away": 2.6
+        },
+        "fair1X2": {
+          "home": 1.95,
+          "draw": 3.56,
+          "away": 4.83
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 0.3,
+        "goalsConcededPerMatch": 1.7,
+        "averagePossessionPct": 44.4,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": 2.7,
+        "bigChances": 3,
+        "bigChancesMissed": 2,
+        "accuratePassesPerMatch": 280.7,
+        "accurateLongBallsPerMatch": 19,
+        "accurateCrossesPerMatch": 4.3,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": 43,
+        "cornersPerMatch": 11,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": 8.7,
+        "tacklesPerMatch": 11.3,
+        "clearancesPerMatch": 34,
+        "finalThirdRecoveriesPerMatch": 1.7,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": 4.3
+      },
+      "discipline": {
+        "foulsPerMatch": 11.3,
+        "yellowCardsPerMatch": 12,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [
+      {
+        "name": "Lukas Zima",
+        "position": "GK",
+        "age": 32,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Calal Hüseynov",
+        "position": null,
+        "age": 23,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "Tiberiu Capusa",
+        "position": "DF",
+        "age": 28,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Paul Papp",
+        "position": "DF",
+        "age": 36,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.6
+      },
+      {
+        "name": "Breston Malula",
+        "position": "DF",
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Andres Dumitrescu",
+        "position": "DF",
+        "age": 25,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Adam Zaian",
+        "position": "DF",
+        "age": 22,
+        "apps": 3,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Kilian Ludewig",
+        "position": "DF",
+        "age": 26,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Dele Israel",
+        "position": "MF",
+        "age": 24,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "Liviu Argesanu",
+        "position": null,
+        "age": 16,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "David Paraschiv",
+        "position": null,
+        "age": 19,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Mario Ionita",
+        "position": "MF",
+        "age": 19,
+        "apps": 3,
+        "goals": 0,
+        "rating": 2.5
+      },
+      {
+        "name": "Sergiu Hanca",
+        "position": "MF",
+        "age": 34,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Alejandro Bran",
+        "position": "MF",
+        "age": 25,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Léo",
+        "position": "ST",
+        "age": 27,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5
+      },
+      {
+        "name": "Dan N'Lundulu",
+        "position": "ST",
+        "age": 27,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Rodrigo Martins",
+        "position": "ST",
+        "age": 27,
+        "apps": 3,
+        "goals": 1,
+        "rating": 2.6
+      },
+      {
+        "name": "Ioan Tolea",
+        "position": "ST",
+        "age": 23,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Robert Jerdea",
+        "position": "ST",
+        "age": 22,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.1
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "Hapoel Petah Tikva",
+        "rating": 1794.72
+      },
+      {
+        "name": "FK Sochi",
+        "rating": 1787.59
+      }
+    ]
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "152",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [
+      "Competição com fase regular seguida de playoff campeão e manutenção.",
+      "Tabela da fase regular.",
+      "Quando a competição dividir em grupos ou playoffs, as zonas finais podem mudar."
+    ],
+    "ruleProfileId": "regular-season-before-split",
+    "tableName": "Campeonato",
+    "tableType": "regular_plus_playoffs",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Arges Pitesti",
+        "teamUrl": "https://www.zerozero.pt/equipa/arges-pitesti/2086?epoca_id=156",
+        "points": 9,
+        "matches": 4,
+        "wins": 3,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "FCSB",
+        "teamUrl": "https://www.zerozero.pt/equipa/steaua-bucareste-?epoca_id=156",
+        "points": 8,
+        "matches": 4,
+        "wins": 2,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 2,
+        "goalDifference": "+4",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Rapid Bucuresti",
+        "teamUrl": "https://www.zerozero.pt/equipa/rapid-bucuresti?epoca_id=156",
+        "points": 8,
+        "matches": 4,
+        "wins": 2,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 2,
+        "goalDifference": "+3",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "Dinamo Bucuresti",
+        "teamUrl": "https://www.zerozero.pt/equipa/dinamo-bucuresti/1093?epoca_id=156",
+        "points": 7,
+        "matches": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 10,
+        "goalsAgainst": 3,
+        "goalDifference": "+7",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Farul",
+        "teamUrl": "https://www.zerozero.pt/equipa/farul/2082?epoca_id=156",
+        "points": 7,
+        "matches": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 8,
+        "goalsAgainst": 6,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Universitatea Craiova",
+        "teamUrl": "https://www.zerozero.pt/equipa/universitatea-craiova/85585?epoca_id=156",
+        "points": 6,
+        "matches": 4,
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 9,
+        "goalsAgainst": 6,
+        "goalDifference": "+3",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "Universitatea Cluj",
+        "teamUrl": "https://www.zerozero.pt/equipa/universitatea-cluj/9592?epoca_id=156",
+        "points": 6,
+        "matches": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 3,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "FC Petrolul Ploiesti",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-petrolul-ploiesti/2089?epoca_id=156",
+        "points": 6,
+        "matches": 4,
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 5,
+        "goalDifference": "-3",
+        "highlight": "away"
+      },
+      {
+        "position": 9,
+        "teamName": "Corvinul Hunedoara",
+        "teamUrl": "https://www.zerozero.pt/equipa/corvinul-hunedoara/9767?epoca_id=156",
+        "points": 5,
+        "matches": 4,
+        "wins": 1,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 3,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Sepsi OSK",
+        "teamUrl": "https://www.zerozero.pt/equipa/sepsi-osk?epoca_id=156",
+        "points": 5,
+        "matches": 4,
+        "wins": 1,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "FC Otelul",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-otelul/2079?epoca_id=156",
+        "points": 5,
+        "matches": 4,
+        "wins": 1,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 5,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "Voluntari",
+        "teamUrl": "https://www.zerozero.pt/equipa/voluntari?epoca_id=156",
+        "points": 4,
+        "matches": 4,
+        "wins": 1,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 3,
+        "goalsAgainst": 11,
+        "goalDifference": "-8",
+        "highlight": "home"
+      },
+      {
+        "position": 13,
+        "teamName": "CFR Cluj",
+        "teamUrl": "https://www.zerozero.pt/equipa/cfr-cluj?epoca_id=156",
+        "points": 3,
+        "matches": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 7,
+        "goalsAgainst": 5,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 14,
+        "teamName": "FC Botosani",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-botosani?epoca_id=156",
+        "points": 3,
+        "matches": 4,
+        "wins": 0,
+        "draws": 3,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 5,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "UTA Arad",
+        "teamUrl": "https://www.zerozero.pt/equipa/uta-arad/7883?epoca_id=156",
+        "points": 2,
+        "matches": 4,
+        "wins": 0,
+        "draws": 2,
+        "losses": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 7,
+        "goalDifference": "-5",
+        "highlight": null
+      },
+      {
+        "position": 16,
+        "teamName": "Csikszereda M. Ciuc",
+        "teamUrl": "https://www.zerozero.pt/equipa/csikszereda-m-ciuc/105571?epoca_id=156",
+        "points": 0,
+        "matches": 4,
+        "wins": 0,
+        "draws": 0,
+        "losses": 4,
+        "goalsFor": 2,
+        "goalsAgainst": 9,
+        "goalDifference": "-7",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-14.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/152.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/152-superliga/405332-fc-voluntari.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/152-superliga/188187-petrolul-ploiesti.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/romania/2475-petrolul-ploiesti.json",
+      "matchedBy": "sofascoreTeamId"
+    }
+  }
+}

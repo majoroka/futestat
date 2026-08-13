@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-12T20:12:36.851Z",
+  "builtAtUtc": "2026-08-13T14:56:21.394Z",
   "match": {
     "id": "16667376",
     "date": "2026-08-12",
@@ -192,6 +192,20 @@
       },
       {
         "position": 6,
+        "teamName": "Lanús",
+        "teamUrl": "https://www.zerozero.pt/equipa/lanus?epoca_id=155",
+        "points": 6,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 5,
+        "goalsAgainst": 3,
+        "goalDifference": null,
+        "highlight": "away"
+      },
+      {
+        "position": 7,
         "teamName": "Deportivo Riestra",
         "teamUrl": "https://www.zerozero.pt/equipa/deportivo-riestra/45604?epoca_id=155",
         "points": 6,
@@ -205,7 +219,7 @@
         "highlight": null
       },
       {
-        "position": 7,
+        "position": 8,
         "teamName": "Central Córdoba S.Estero",
         "teamUrl": "https://www.zerozero.pt/equipa/central-cordoba-s-estero/55853?epoca_id=155",
         "points": 6,
@@ -219,7 +233,7 @@
         "highlight": null
       },
       {
-        "position": 8,
+        "position": 9,
         "teamName": "Boca Juniors",
         "teamUrl": "https://www.zerozero.pt/equipa/boca-juniors?epoca_id=155",
         "points": 5,
@@ -233,7 +247,7 @@
         "highlight": null
       },
       {
-        "position": 9,
+        "position": 10,
         "teamName": "Unión",
         "teamUrl": "https://www.zerozero.pt/equipa/union?epoca_id=155",
         "points": 4,
@@ -247,7 +261,7 @@
         "highlight": null
       },
       {
-        "position": 10,
+        "position": 11,
         "teamName": "Platense",
         "teamUrl": "https://www.zerozero.pt/equipa/platense/6658?epoca_id=155",
         "points": 4,
@@ -261,7 +275,7 @@
         "highlight": null
       },
       {
-        "position": 11,
+        "position": 12,
         "teamName": "Newell´s Old Boys",
         "teamUrl": "https://www.zerozero.pt/equipa/newell-s-old-boys?epoca_id=155",
         "points": 4,
@@ -273,20 +287,6 @@
         "goalsAgainst": 5,
         "goalDifference": null,
         "highlight": null
-      },
-      {
-        "position": 12,
-        "teamName": "Lanús",
-        "teamUrl": "https://www.zerozero.pt/equipa/lanus?epoca_id=155",
-        "points": 3,
-        "matches": 3,
-        "wins": null,
-        "draws": null,
-        "losses": null,
-        "goalsFor": 2,
-        "goalsAgainst": 3,
-        "goalDifference": null,
-        "highlight": "away"
       },
       {
         "position": 13,
@@ -304,20 +304,6 @@
       },
       {
         "position": 14,
-        "teamName": "Talleres",
-        "teamUrl": "https://www.zerozero.pt/equipa/talleres?epoca_id=155",
-        "points": 3,
-        "matches": 3,
-        "wins": null,
-        "draws": null,
-        "losses": null,
-        "goalsFor": 5,
-        "goalsAgainst": 4,
-        "goalDifference": null,
-        "highlight": "home"
-      },
-      {
-        "position": 15,
         "teamName": "San Lorenzo",
         "teamUrl": "https://www.zerozero.pt/equipa/san-lorenzo?epoca_id=155",
         "points": 3,
@@ -329,6 +315,20 @@
         "goalsAgainst": 4,
         "goalDifference": null,
         "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "Talleres",
+        "teamUrl": "https://www.zerozero.pt/equipa/talleres?epoca_id=155",
+        "points": 3,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 5,
+        "goalsAgainst": 7,
+        "goalDifference": null,
+        "highlight": "home"
       }
     ]
   },
