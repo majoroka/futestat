@@ -1632,9 +1632,9 @@ function renderExpectedLineupComparison(homeLineup, awayLineup) {
 
   return `
     <div class="fixture-detail__lineup-compare">
-      ${renderExpectedLineupMetaRow(homeLineup.lineup?.formation ?? "n/d", "Sistema", awayLineup.lineup?.formation ?? "n/d")}
-      ${comparisonGroups.map((group) => renderExpectedLineupComparisonGroup(group)).join("")}
-      ${renderExpectedLineupSummary(homeLineup.totalXiRating, awayLineup.totalXiRating)}
+      ${renderExpectedLineupColumn(homeLineup, "left")}
+      ${renderExpectedLineupCenterColumn(comparisonGroups)}
+      ${renderExpectedLineupColumn(awayLineup, "right")}
     </div>
   `;
 }
@@ -1654,21 +1654,38 @@ function buildExpectedLineupComparisonGroups(homeGroups, awayGroups) {
     .filter((group) => group.homePlayers.length > 0 || group.awayPlayers.length > 0);
 }
 
-function renderExpectedLineupComparisonGroup(group) {
-  const rowCount = Math.max(group.homePlayers.length, group.awayPlayers.length, 1);
-  const rows = [];
+function renderExpectedLineupColumn(lineupData, align = "left") {
+  const groups = lineupData.groups ?? [];
 
-  for (let index = 0; index < rowCount; index += 1) {
-    rows.push(`
-      <div class="fixture-detail__lineup-compare-row">
-        ${renderExpectedLineupSideCell(group.homePlayers[index] ?? null, "left", group.homePlayers.length === 0 && index === 0)}
-        <span class="fixture-detail__lineup-compare-label">${index === 0 ? escapeHtml(group.label) : ""}</span>
-        ${renderExpectedLineupSideCell(group.awayPlayers[index] ?? null, "right", group.awayPlayers.length === 0 && index === 0)}
+  return `
+    <div class="fixture-detail__lineup-column fixture-detail__lineup-column--${escapeAttribute(align)}">
+      <div class="fixture-detail__lineup-column-meta">${escapeHtml(lineupData.lineup?.formation ?? "n/d")}</div>
+      ${
+        groups.length > 0
+          ? groups
+              .map(
+                (group) => `
+                  <div class="fixture-detail__lineup-column-group">
+                    ${group.players.map((player) => renderExpectedLineupSideCell(player, align)).join("")}
+                  </div>
+                `,
+              )
+              .join("")
+          : `<div class="fixture-detail__lineup-column-empty">n/d</div>`
+      }
+      <div class="fixture-detail__lineup-column-total fixture-detail__lineup-column-total--${escapeAttribute(align)}">
+        ${
+          align === "left"
+            ? `<span aria-hidden="true"></span><strong class="fixture-detail__lineup-summary-value">${escapeHtml(
+                lineupData.totalXiRating ?? "n/d",
+              )}</strong>`
+            : `<strong class="fixture-detail__lineup-summary-value">${escapeHtml(
+                lineupData.totalXiRating ?? "n/d",
+              )}</strong><span aria-hidden="true"></span>`
+        }
       </div>
-    `);
-  }
-
-  return rows.join("");
+    </div>
+  `;
 }
 
 function renderExpectedLineupSideCell(player, align = "left", unavailable = false) {
@@ -1701,32 +1718,22 @@ function renderExpectedLineupSideCell(player, align = "left", unavailable = fals
   `;
 }
 
-function renderExpectedLineupMetaRow(homeValue, label, awayValue) {
+function renderExpectedLineupCenterColumn(comparisonGroups) {
   return `
-    <div class="fixture-detail__lineup-compare-row fixture-detail__lineup-compare-row--meta">
-      <div class="fixture-detail__lineup-side fixture-detail__lineup-side--left fixture-detail__lineup-side--meta">
-        <span class="fixture-detail__lineup-side-meta">${escapeHtml(homeValue)}</span>
+    <div class="fixture-detail__lineup-center">
+      <span class="fixture-detail__lineup-center-label fixture-detail__lineup-center-label--meta">Sistema</span>
+      ${comparisonGroups
+        .map(
+          (group) => `
+            <div class="fixture-detail__lineup-center-group">
+              <span class="fixture-detail__lineup-center-label">${escapeHtml(group.label)}</span>
+            </div>
+          `,
+        )
+        .join("")}
+      <div class="fixture-detail__lineup-center-total">
+        <span class="fixture-detail__lineup-center-label fixture-detail__lineup-center-label--summary">Rating da Equipa</span>
       </div>
-      <span class="fixture-detail__lineup-compare-label fixture-detail__lineup-compare-label--meta">${escapeHtml(label)}</span>
-      <div class="fixture-detail__lineup-side fixture-detail__lineup-side--right fixture-detail__lineup-side--meta">
-        <span class="fixture-detail__lineup-side-meta">${escapeHtml(awayValue)}</span>
-      </div>
-    </div>
-  `;
-}
-
-function renderExpectedLineupSummary(homeTotalXiRating, awayTotalXiRating) {
-  return `
-    <div class="fixture-detail__lineup-compare-row fixture-detail__lineup-compare-row--summary">
-      <span class="fixture-detail__lineup-summary-spacer" aria-hidden="true"></span>
-      <strong class="fixture-detail__lineup-summary-value fixture-detail__lineup-summary-value--left">${escapeHtml(
-        homeTotalXiRating ?? "n/d",
-      )}</strong>
-      <span class="fixture-detail__lineup-compare-label fixture-detail__lineup-compare-label--summary">Rating da Equipa</span>
-      <strong class="fixture-detail__lineup-summary-value fixture-detail__lineup-summary-value--right">${escapeHtml(
-        awayTotalXiRating ?? "n/d",
-      )}</strong>
-      <span class="fixture-detail__lineup-summary-spacer" aria-hidden="true"></span>
     </div>
   `;
 }
