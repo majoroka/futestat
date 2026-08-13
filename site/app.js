@@ -1404,9 +1404,10 @@ function renderFixtureDetailFormSection(view) {
   return `
     <section class="fixture-detail__subsection">
       <h4>Forma recente</h4>
-      <div class="fixture-detail__summary-grid">
-        ${renderDetailPlainBlock(`Casa · ${view.homeTeam.identity.name}`, renderTeamRecentFormRow(view.homeTeam))}
-        ${renderDetailPlainBlock(`Fora · ${view.awayTeam.identity.name}`, renderTeamRecentFormRow(view.awayTeam))}
+      ${renderFixtureTeamsHeader(view.homeTeam.identity, view.awayTeam.identity)}
+      <div class="fixture-detail__comparison-grid">
+        ${renderTeamRecentFormRow(view.homeTeam)}
+        ${renderTeamRecentFormRow(view.awayTeam)}
       </div>
     </section>
   `;
@@ -1415,7 +1416,7 @@ function renderFixtureDetailFormSection(view) {
 function renderTeamRecentFormRow(team) {
   const entries = buildTeamRecentFormEntries(team).slice(0, 5);
   if (entries.length === 0) {
-    return renderUnavailableFormRow("n/d", team.identity.logoUrl, team.identity.id);
+    return renderUnavailableFormRow();
   }
 
   const paddedEntries = [...entries];
@@ -1428,13 +1429,6 @@ function renderTeamRecentFormRow(team) {
 
   return `
     <div class="fixture-detail__form-team">
-      <div class="fixture-detail__form-team-head">
-        <span class="fixture-detail__form-team-identity">
-          ${renderInlineTeamLogo(team.identity.logoUrl, team.identity.id, team.identity.name)}
-          <strong>${escapeHtml(team.identity.name)}</strong>
-        </span>
-        <span>${escapeHtml(entries.length === 5 ? "Últimos 5 jogos" : `${entries.length} jogos disponíveis`)}</span>
-      </div>
       <div class="fixture-detail__form-strip">
         ${paddedEntries
           .map(
@@ -1453,18 +1447,12 @@ function renderTeamRecentFormRow(team) {
   `;
 }
 
-function renderUnavailableFormRow(label, logoUrl, teamId) {
+function renderUnavailableFormRow() {
   return `
     <div class="fixture-detail__form-team">
-      <div class="fixture-detail__form-team-head">
-        <span class="fixture-detail__form-team-identity">
-          ${renderInlineTeamLogo(logoUrl, teamId, label)}
-          <strong>${escapeHtml(label)}</strong>
-        </span>
-      </div>
       <div class="fixture-detail__form-strip">
         ${Array.from({ length: 5 })
-          .map(() => `<span class="fixture-detail__form-pill fixture-detail__form-pill--empty" title="${escapeAttribute(label)}">—</span>`)
+          .map(() => `<span class="fixture-detail__form-pill fixture-detail__form-pill--empty" title="n/d">—</span>`)
           .join("")}
       </div>
     </div>
@@ -1544,51 +1532,50 @@ function renderFixtureDetailLineupSection(view) {
   return `
     <section class="fixture-detail__subsection">
       <h4>Equipa provável</h4>
+      ${renderFixtureTeamsHeader(view.homeTeam.identity, view.awayTeam.identity)}
       <div class="fixture-detail__lineup-grid">
-        ${renderExpectedLineupCard("Casa", view.homeTeam, "home")}
-        ${renderExpectedLineupCard("Fora", view.awayTeam, "away")}
+        ${renderExpectedLineupCard(view.homeTeam, "home", "left")}
+        ${renderExpectedLineupCard(view.awayTeam, "away", "right")}
       </div>
     </section>
   `;
 }
 
-function renderExpectedLineupCard(sideLabel, team, side) {
+function renderExpectedLineupCard(team, side, align = "left") {
   const lineup = team.overview.expectedLineup ?? null;
   const players = Array.isArray(lineup?.players) ? lineup.players.slice(0, 11) : [];
 
   if (!lineup || players.length === 0) {
-    return renderUnavailableLineupCard(sideLabel, team.identity.name, side);
+    return renderUnavailableLineupCard(side, align);
   }
 
   const groups = groupExpectedLineupPlayers(players);
   return `
     <article class="fixture-detail__lineup-card fixture-detail__lineup-card--${escapeAttribute(side)}">
-      <div class="fixture-detail__lineup-card-head">
-        <div class="fixture-detail__lineup-card-title">
-          <span class="fixture-detail__team-panel-side">${escapeHtml(sideLabel)}</span>
-          <strong class="fixture-detail__team-panel-name">${escapeHtml(team.identity.name)}</strong>
-        </div>
-        <div class="fixture-detail__lineup-card-badges">
-          <span class="fixture-detail__badge">${escapeHtml(lineup.formation ?? "n/d")}</span>
-        </div>
-      </div>
+      ${
+        lineup.formation
+          ? `
+            <div class="fixture-detail__lineup-card-head">
+              <div class="fixture-detail__lineup-card-badges">
+                <span class="fixture-detail__badge">${escapeHtml(lineup.formation)}</span>
+              </div>
+            </div>
+          `
+          : ""
+      }
       <div class="fixture-detail__lineup-field">
-        ${groups.map((group) => renderExpectedLineupBand(group.label, group.players)).join("")}
+        ${groups.map((group) => renderExpectedLineupBand(group.label, group.players, align)).join("")}
       </div>
     </article>
   `;
 }
 
-function renderUnavailableLineupCard(sideLabel, teamName, side) {
+function renderUnavailableLineupCard(side, align = "left") {
   return `
     <article class="fixture-detail__lineup-card fixture-detail__lineup-card--${escapeAttribute(side)}">
-      <div class="fixture-detail__lineup-card-head">
-        <div class="fixture-detail__lineup-card-title">
-          <span class="fixture-detail__team-panel-side">${escapeHtml(sideLabel)}</span>
-          <strong class="fixture-detail__team-panel-name">${escapeHtml(teamName)}</strong>
-        </div>
+      <div class="fixture-detail__lineup-field fixture-detail__lineup-field--${escapeAttribute(align)}">
+        <div class="fixture-detail__lineup-empty">n/d</div>
       </div>
-      <div class="fixture-detail__lineup-empty">n/d</div>
     </article>
   `;
 }
@@ -1658,22 +1645,31 @@ function normalizeLineupPositionBucket(position) {
   return "OTHER";
 }
 
-function renderExpectedLineupBand(label, players) {
+function renderExpectedLineupBand(label, players, align = "left") {
   return `
     <div class="fixture-detail__lineup-band">
       <span class="fixture-detail__lineup-band-label">${escapeHtml(label)}</span>
-      <div class="fixture-detail__lineup-row">
-        ${players.map((player) => renderExpectedLineupPlayer(player)).join("")}
+      <div class="fixture-detail__lineup-row fixture-detail__lineup-row--${escapeAttribute(align)}">
+        ${players.map((player) => renderExpectedLineupPlayer(player, align)).join("")}
       </div>
     </div>
   `;
 }
 
-function renderExpectedLineupPlayer(player) {
+function renderExpectedLineupPlayer(player, align = "left") {
   return `
-    <article class="fixture-detail__lineup-player" title="${escapeAttribute(player.position ?? "n/d")}">
-      <span class="fixture-detail__lineup-player-rating">${escapeHtml(formatOptionalDecimal(player.rating))}</span>
-      <strong>${escapeHtml(player.name)}</strong>
+    <article class="fixture-detail__lineup-player fixture-detail__lineup-player--${escapeAttribute(align)}" title="${escapeAttribute(player.position ?? "n/d")}">
+      ${
+        align === "right"
+          ? `
+            <span class="fixture-detail__lineup-player-rating">${escapeHtml(formatOptionalDecimal(player.rating))}</span>
+            <strong>${escapeHtml(player.name)}</strong>
+          `
+          : `
+            <strong>${escapeHtml(player.name)}</strong>
+            <span class="fixture-detail__lineup-player-rating">${escapeHtml(formatOptionalDecimal(player.rating))}</span>
+          `
+      }
     </article>
   `;
 }
@@ -1682,26 +1678,23 @@ function renderFixtureDetailAvailabilitySection(view) {
   return `
     <section class="fixture-detail__subsection">
       <h4>Lesionados e suspensos</h4>
+      ${renderFixtureTeamsHeader(view.homeTeam.identity, view.awayTeam.identity)}
       <div class="fixture-detail__availability-grid">
-        ${renderAvailabilityCard("Casa", view.homeTeam, "home")}
-        ${renderAvailabilityCard("Fora", view.awayTeam, "away")}
+        ${renderAvailabilityCard(view.homeTeam, "home")}
+        ${renderAvailabilityCard(view.awayTeam, "away")}
       </div>
     </section>
   `;
 }
 
-function renderAvailabilityCard(sideLabel, team, side) {
+function renderAvailabilityCard(team, side) {
   const squadHealth = team.overview.squadHealth ?? null;
   if (!squadHealth) {
-    return renderUnavailableAvailabilityCard(sideLabel, team.identity.name, side);
+    return renderUnavailableAvailabilityCard(side);
   }
 
   return `
     <article class="fixture-detail__availability-card fixture-detail__availability-card--${escapeAttribute(side)}">
-      <div class="fixture-detail__availability-card-head">
-        <span class="fixture-detail__team-panel-side">${escapeHtml(sideLabel)}</span>
-        <strong class="fixture-detail__team-panel-name">${escapeHtml(team.identity.name)}</strong>
-      </div>
       <div class="fixture-detail__availability-columns">
         ${renderAvailabilityList("Lesionados", squadHealth.injuries, "Sem lesionados")}
         ${renderAvailabilityList("Suspensos", squadHealth.suspensions, "Sem suspensos")}
@@ -1710,18 +1703,30 @@ function renderAvailabilityCard(sideLabel, team, side) {
   `;
 }
 
-function renderUnavailableAvailabilityCard(sideLabel, teamName, side) {
+function renderUnavailableAvailabilityCard(side) {
   return `
     <article class="fixture-detail__availability-card fixture-detail__availability-card--${escapeAttribute(side)}">
-      <div class="fixture-detail__availability-card-head">
-        <span class="fixture-detail__team-panel-side">${escapeHtml(sideLabel)}</span>
-        <strong class="fixture-detail__team-panel-name">${escapeHtml(teamName)}</strong>
-      </div>
       <div class="fixture-detail__availability-columns">
         ${renderUnavailableAvailabilityList("Lesionados")}
         ${renderUnavailableAvailabilityList("Suspensos")}
       </div>
     </article>
+  `;
+}
+
+function renderFixtureTeamsHeader(homeIdentity, awayIdentity) {
+  return `
+    <div class="fixture-detail__teams-header">
+      <div class="fixture-detail__teams-header-side fixture-detail__teams-header-side--left">
+        <strong>${escapeHtml(homeIdentity.name)}</strong>
+        ${renderInlineTeamLogo(homeIdentity.logoUrl, homeIdentity.id, homeIdentity.name)}
+      </div>
+      <span class="fixture-detail__teams-header-separator" aria-hidden="true">-</span>
+      <div class="fixture-detail__teams-header-side fixture-detail__teams-header-side--right">
+        ${renderInlineTeamLogo(awayIdentity.logoUrl, awayIdentity.id, awayIdentity.name)}
+        <strong>${escapeHtml(awayIdentity.name)}</strong>
+      </div>
+    </div>
   `;
 }
 
