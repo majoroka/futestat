@@ -1,3 +1,6 @@
+import { mkdir, writeFile } from "node:fs/promises";
+import path from "node:path";
+
 import { chromium, type Browser, type BrowserContext, type Page } from "playwright";
 
 import type { AppConfig } from "../../config/app-config.js";
@@ -22,6 +25,8 @@ export class ZerozeroStandingsScraper {
     let refreshed = 0;
     let failed = 0;
     let preferBrowserTransport = false;
+    const runStartedAtUtc = new Date().toISOString();
+    const runToken = runStartedAtUtc.replaceAll(":", "").replaceAll(".", "");
     const refreshedCompetitionIds: string[] = [];
     const browserRef: { current: Browser | null } = { current: null };
     const contextRef: { current: BrowserContext | null } = { current: null };
@@ -53,6 +58,7 @@ export class ZerozeroStandingsScraper {
             source,
             ensurePage,
             preferBrowserTransport,
+            runToken,
           );
 
           if (result.transport === "browser") {
@@ -95,6 +101,7 @@ export class ZerozeroStandingsScraper {
     source: CompetitionStandingsSource,
     ensurePage: () => Promise<Page>,
     preferBrowserTransport: boolean,
+    runToken: string,
   ): Promise<{ snapshot: CompetitionStandingsSnapshot; transport: "fetch" | "browser" }> {
     if (!preferBrowserTransport) {
       try {
@@ -121,7 +128,7 @@ export class ZerozeroStandingsScraper {
       }
     }
 
-    const html = await this.fetchCompetitionHtmlWithBrowser(await ensurePage(), source);
+    const html = await this.fetchCompetitionHtmlWithBrowser(await ensurePage(), source, runToken);
     return {
       snapshot: this.buildSnapshot(source, html),
       transport: "browser",
@@ -153,6 +160,7 @@ export class ZerozeroStandingsScraper {
   private async fetchCompetitionHtmlWithBrowser(
     page: Page,
     source: CompetitionStandingsSource,
+    runToken: string,
   ): Promise<string> {
     const response = await page.goto(source.zerozeroUrl, {
       waitUntil: "domcontentloaded",
@@ -170,12 +178,18 @@ export class ZerozeroStandingsScraper {
     await page.waitForTimeout(600);
 
     if (response && !response.ok()) {
-      throw new Error(`Zerozero standings page unavailable (${response.status()})`);
+      const artifacts = await this.captureFailureArtifacts(page, source, runToken);
+      throw new Error(
+        `Zerozero standings page unavailable (${response.status()}) html=${artifacts.htmlPath ?? "n/a"} screenshot=${artifacts.screenshotPath ?? "n/a"} meta=${artifacts.metaPath ?? "n/a"}`,
+      );
     }
 
     const html = await page.content();
     if (isBlockedHtml(html)) {
-      throw new Error("Zerozero standings page unavailable (blocked_browser)");
+      const artifacts = await this.captureFailureArtifacts(page, source, runToken);
+      throw new Error(
+        `Zerozero standings page unavailable (blocked_browser) html=${artifacts.htmlPath ?? "n/a"} screenshot=${artifacts.screenshotPath ?? "n/a"} meta=${artifacts.metaPath ?? "n/a"}`,
+      );
     }
 
     return html;
@@ -221,6 +235,55 @@ export class ZerozeroStandingsScraper {
       return;
     }
   }
+
+  private async captureFailureArtifacts(
+    page: Page,
+    source: CompetitionStandingsSource,
+    runToken: string,
+  ): Promise<{ screenshotPath: string | null; htmlPath: string | null; metaPath: string | null }> {
+    if (!this.config.captureFailureArtifacts) {
+      return { screenshotPath: null, htmlPath: null, metaPath: null };
+    }
+
+    const dir = path.join(
+      this.config.diagnosticsDir,
+      "zerozero-standings",
+      runToken,
+      sanitizePathSegment(source.competitionId),
+    );
+    const screenshotPath = path.join(dir, "page.png");
+    const htmlPath = path.join(dir, "page.html");
+    const metaPath = path.join(dir, "meta.json");
+
+    await mkdir(dir, { recursive: true });
+    await page.screenshot({ path: screenshotPath, fullPage: true }).catch(() => undefined);
+    await writeFile(htmlPath, await page.content(), "utf8").catch(() => undefined);
+    await writeFile(
+      metaPath,
+      JSON.stringify(
+        {
+          competitionId: source.competitionId,
+          competitionName: source.competitionName,
+          zerozeroUrl: source.zerozeroUrl,
+          finalUrl: page.url(),
+          title: await page.title().catch(() => null),
+          capturedAtUtc: new Date().toISOString(),
+        },
+        null,
+        2,
+      ),
+      "utf8",
+    ).catch(() => undefined);
+
+    logStructuredEvent(this.config.structuredLogs, "info", "competition_standings_failure_artifacts_captured", {
+      competitionId: source.competitionId,
+      htmlPath,
+      screenshotPath,
+      metaPath,
+    });
+
+    return { screenshotPath, htmlPath, metaPath };
+  }
 }
 
 function shouldFallbackToBrowser(error: unknown): boolean {
@@ -237,4 +300,8 @@ function isBlockedHtml(html: string): boolean {
     normalized.includes("access denied") ||
     normalized.includes("temporarily unavailable")
   );
+}
+
+function sanitizePathSegment(value: string): string {
+  return value.replace(/[^a-zA-Z0-9._-]+/g, "-");
 }
