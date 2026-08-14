@@ -1,0 +1,778 @@
+{
+  "builtAtUtc": "2026-08-14T12:55:01.136Z",
+  "match": {
+    "id": "16403852",
+    "date": "2026-08-15",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/fc-rapid-bucuresti-fc-dinamo-bucuresti/Rpbsditc#id:16403852",
+    "kickoffAtUtc": "2026-08-15T18:30:00.000Z",
+    "competition": {
+      "id": "152",
+      "name": "Superliga",
+      "country": "Romania",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/152/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "295403",
+      "name": "Rapid București",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/295403/image/small",
+      "sourceIds": {
+        "sofascore": "295403",
+        "fotmob": "9738",
+        "soccerRating": "1008"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1940.06,
+      "nationalRank": 5,
+      "europeRank": 355,
+      "formLast3": [
+        "L",
+        "D",
+        "L"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": 53.2,
+      "cleanSheets": 2
+    },
+    "overview": {
+      "prediction": {
+        "tip": "away_win",
+        "tipLabel": "Bet on (2) Rapid Bucuresti (Stake 8/10)",
+        "confidencePct": 80,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 5.4,
+        "players": [
+          {
+            "name": "Marian Aioani",
+            "position": "GK",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 6.1
+          },
+          {
+            "name": "Lars Kramer",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 6.1
+          },
+          {
+            "name": "Alexandru Pascanu",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 1,
+            "rating": 6
+          },
+          {
+            "name": "Denis Ciobotariu",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 5.4
+          },
+          {
+            "name": "Robert Salceanu",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3
+          },
+          {
+            "name": "Vladan Bubanja",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 5
+          },
+          {
+            "name": "Catalin Vulturar",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 5
+          },
+          {
+            "name": "Constantin Grameni",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 6.1
+          },
+          {
+            "name": "Alexandru Dobre",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 2,
+            "rating": 7.5
+          },
+          {
+            "name": "Olimpiu Morutan",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 1,
+            "rating": 6
+          },
+          {
+            "name": "Jason Kodor",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.4
+          },
+          {
+            "name": "Razvan Onea",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 5
+          },
+          {
+            "name": "Claudiu Petrila",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 1,
+            "rating": 6.7
+          },
+          {
+            "name": "Omar El Sawy",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.6
+          },
+          {
+            "name": "Rares Pop",
+            "position": "ST",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 4.2
+          },
+          {
+            "name": "Timotej Jambor",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 3.8
+          },
+          {
+            "name": "Mohammed Kamara",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 4.6
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 2.4,
+          "draw": 3.1,
+          "away": 2.8
+        },
+        "fair1X2": {
+          "home": 3.8,
+          "draw": 3.58,
+          "away": 2.19
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 1.3,
+        "goalsConcededPerMatch": 0.5,
+        "averagePossessionPct": 53.2,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": 5.8,
+        "bigChances": 7,
+        "bigChancesMissed": 5,
+        "accuratePassesPerMatch": 380.8,
+        "accurateLongBallsPerMatch": 25.5,
+        "accurateCrossesPerMatch": 5.5,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": 109,
+        "cornersPerMatch": 32,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": 8.8,
+        "tacklesPerMatch": 15.3,
+        "clearancesPerMatch": 27.5,
+        "finalThirdRecoveriesPerMatch": 5.8,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": 2.8
+      },
+      "discipline": {
+        "foulsPerMatch": 14,
+        "yellowCardsPerMatch": 13,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [
+      {
+        "name": "Marian Aioani",
+        "position": "GK",
+        "age": 26,
+        "apps": 3,
+        "goals": 0,
+        "rating": 6.1
+      },
+      {
+        "name": "Daniel Graovac",
+        "position": null,
+        "age": 32,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Lars Kramer",
+        "position": "DF",
+        "age": 27,
+        "apps": 3,
+        "goals": 0,
+        "rating": 6.1
+      },
+      {
+        "name": "Alexandru Pascanu",
+        "position": "DF",
+        "age": 27,
+        "apps": 2,
+        "goals": 1,
+        "rating": 6
+      },
+      {
+        "name": "Denis Ciobotariu",
+        "position": "DF",
+        "age": 28,
+        "apps": 2,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Robert Salceanu",
+        "position": "DF",
+        "age": 22,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Razvan Onea",
+        "position": "DF",
+        "age": 28,
+        "apps": 2,
+        "goals": 0,
+        "rating": 5
+      },
+      {
+        "name": "Vladan Bubanja",
+        "position": "MF",
+        "age": 27,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5
+      },
+      {
+        "name": "Catalin Vulturar",
+        "position": "MF",
+        "age": 22,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5
+      },
+      {
+        "name": "Constantin Grameni",
+        "position": "MF",
+        "age": 23,
+        "apps": 3,
+        "goals": 0,
+        "rating": 6.1
+      },
+      {
+        "name": "Claudiu Petrila",
+        "position": "ST",
+        "age": 25,
+        "apps": 2,
+        "goals": 1,
+        "rating": 6.7
+      },
+      {
+        "name": "Alexandru Dobre",
+        "position": "ST",
+        "age": 27,
+        "apps": 3,
+        "goals": 2,
+        "rating": 7.5
+      },
+      {
+        "name": "Jason Kodor",
+        "position": "ST",
+        "age": 20,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Omar El Sawy",
+        "position": "ST",
+        "age": 22,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.6
+      },
+      {
+        "name": "Rares Pop",
+        "position": "ST",
+        "age": 20,
+        "apps": 0,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Mohammed Kamara",
+        "position": "ST",
+        "age": 28,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.6
+      },
+      {
+        "name": "Borisav Burmaz",
+        "position": null,
+        "age": 25,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Olimpiu Morutan",
+        "position": "ST",
+        "age": 27,
+        "apps": 3,
+        "goals": 1,
+        "rating": 6
+      },
+      {
+        "name": "Timotej Jambor",
+        "position": "ST",
+        "age": 23,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.8
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "IF Brommapojkarna",
+        "rating": 1941.12
+      },
+      {
+        "name": "Metalist 1925 Kharkiv",
+        "rating": 1939.53
+      }
+    ]
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "3292",
+      "name": "Dinamo București",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3292/image/small",
+      "sourceIds": {
+        "sofascore": "3292",
+        "fotmob": "10271",
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": 56.8,
+      "cleanSheets": 1
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 2.5,
+        "goalsConcededPerMatch": 0.8,
+        "averagePossessionPct": 56.8,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": 5.3,
+        "bigChances": 15,
+        "bigChancesMissed": 6,
+        "accuratePassesPerMatch": 403.8,
+        "accurateLongBallsPerMatch": 28.5,
+        "accurateCrossesPerMatch": 4.3,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": 115,
+        "cornersPerMatch": 21,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": 5.3,
+        "tacklesPerMatch": 12.3,
+        "clearancesPerMatch": 20,
+        "finalThirdRecoveriesPerMatch": 5.3,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": 2.5
+      },
+      "discipline": {
+        "foulsPerMatch": 12.3,
+        "yellowCardsPerMatch": 9,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "152",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [
+      "Competição com fase regular seguida de playoff campeão e manutenção.",
+      "Tabela da fase regular.",
+      "Quando a competição dividir em grupos ou playoffs, as zonas finais podem mudar."
+    ],
+    "ruleProfileId": "regular-season-before-split",
+    "tableName": "Campeonato",
+    "tableType": "regular_plus_playoffs",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Arges Pitesti",
+        "teamUrl": "https://www.zerozero.pt/equipa/arges-pitesti/2086?epoca_id=156",
+        "points": 9,
+        "matches": 4,
+        "wins": 3,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "FCSB",
+        "teamUrl": "https://www.zerozero.pt/equipa/steaua-bucareste-?epoca_id=156",
+        "points": 8,
+        "matches": 4,
+        "wins": 2,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 2,
+        "goalDifference": "+4",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Rapid Bucuresti",
+        "teamUrl": "https://www.zerozero.pt/equipa/rapid-bucuresti?epoca_id=156",
+        "points": 8,
+        "matches": 4,
+        "wins": 2,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 2,
+        "goalDifference": "+3",
+        "highlight": "home"
+      },
+      {
+        "position": 4,
+        "teamName": "Dinamo Bucuresti",
+        "teamUrl": "https://www.zerozero.pt/equipa/dinamo-bucuresti/1093?epoca_id=156",
+        "points": 7,
+        "matches": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 10,
+        "goalsAgainst": 3,
+        "goalDifference": "+7",
+        "highlight": "away"
+      },
+      {
+        "position": 5,
+        "teamName": "Farul",
+        "teamUrl": "https://www.zerozero.pt/equipa/farul/2082?epoca_id=156",
+        "points": 7,
+        "matches": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 8,
+        "goalsAgainst": 6,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Universitatea Craiova",
+        "teamUrl": "https://www.zerozero.pt/equipa/universitatea-craiova/85585?epoca_id=156",
+        "points": 6,
+        "matches": 4,
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 9,
+        "goalsAgainst": 6,
+        "goalDifference": "+3",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "Universitatea Cluj",
+        "teamUrl": "https://www.zerozero.pt/equipa/universitatea-cluj/9592?epoca_id=156",
+        "points": 6,
+        "matches": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 3,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "FC Petrolul Ploiesti",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-petrolul-ploiesti/2089?epoca_id=156",
+        "points": 6,
+        "matches": 4,
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 5,
+        "goalDifference": "-3",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Corvinul Hunedoara",
+        "teamUrl": "https://www.zerozero.pt/equipa/corvinul-hunedoara/9767?epoca_id=156",
+        "points": 5,
+        "matches": 4,
+        "wins": 1,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 3,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Sepsi OSK",
+        "teamUrl": "https://www.zerozero.pt/equipa/sepsi-osk?epoca_id=156",
+        "points": 5,
+        "matches": 4,
+        "wins": 1,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "FC Otelul",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-otelul/2079?epoca_id=156",
+        "points": 5,
+        "matches": 4,
+        "wins": 1,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 5,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "Voluntari",
+        "teamUrl": "https://www.zerozero.pt/equipa/voluntari?epoca_id=156",
+        "points": 4,
+        "matches": 4,
+        "wins": 1,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 3,
+        "goalsAgainst": 11,
+        "goalDifference": "-8",
+        "highlight": null
+      },
+      {
+        "position": 13,
+        "teamName": "CFR Cluj",
+        "teamUrl": "https://www.zerozero.pt/equipa/cfr-cluj?epoca_id=156",
+        "points": 3,
+        "matches": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 7,
+        "goalsAgainst": 5,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 14,
+        "teamName": "FC Botosani",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-botosani?epoca_id=156",
+        "points": 3,
+        "matches": 4,
+        "wins": 0,
+        "draws": 3,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 5,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "UTA Arad",
+        "teamUrl": "https://www.zerozero.pt/equipa/uta-arad/7883?epoca_id=156",
+        "points": 2,
+        "matches": 4,
+        "wins": 0,
+        "draws": 2,
+        "losses": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 7,
+        "goalDifference": "-5",
+        "highlight": null
+      },
+      {
+        "position": 16,
+        "teamName": "Csikszereda M. Ciuc",
+        "teamUrl": "https://www.zerozero.pt/equipa/csikszereda-m-ciuc/105571?epoca_id=156",
+        "points": 0,
+        "matches": 4,
+        "wins": 0,
+        "draws": 0,
+        "losses": 4,
+        "goalsFor": 2,
+        "goalsAgainst": 9,
+        "goalDifference": "-7",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/152.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/152-superliga/9738-rapid-bucuresti.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/152-superliga/10271-dinamo-bucuresti.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "homeTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/romania/1008-rapid-bucuresti.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

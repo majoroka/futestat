@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-13T14:56:21.431Z",
+  "builtAtUtc": "2026-08-14T12:55:01.009Z",
   "match": {
     "id": "16585867",
     "date": "2026-08-13",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 2,
+    "awayScore": 1,
     "matchUrl": "https://www.sofascore.com/football/match/fc-noah-fc-sion/cZsDUec#id:16585867",
     "kickoffAtUtc": "2026-08-13T18:15:00.000Z",
     "competition": {

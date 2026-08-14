@@ -1,0 +1,467 @@
+{
+  "builtAtUtc": "2026-08-14T12:55:01.147Z",
+  "match": {
+    "id": "16418271",
+    "date": "2026-08-15",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/real-valladolid-mallorca/BgbsGgb#id:16418271",
+    "kickoffAtUtc": "2026-08-15T19:30:00.000Z",
+    "competition": {
+      "id": "54",
+      "name": "LaLiga 2",
+      "country": "Spain",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/54/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "2826",
+      "name": "Mallorca",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2826/image/small",
+      "sourceIds": {
+        "sofascore": "2826",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "2831",
+      "name": "Real Valladolid",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2831/image/small",
+      "sourceIds": {
+        "sofascore": "2831",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "54",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 0,
+        "teamName": "AD Ceuta",
+        "teamUrl": "https://www.zerozero.pt/equipa/ad-ceuta/5272?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Albacete",
+        "teamUrl": "https://www.zerozero.pt/equipa/albacete/1132?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Almería",
+        "teamUrl": "https://www.zerozero.pt/equipa/almeria/2569?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Burgos CF",
+        "teamUrl": "https://www.zerozero.pt/equipa/burgos-cf/2557?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Cádiz",
+        "teamUrl": "https://www.zerozero.pt/equipa/cadiz/2554?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Castellón",
+        "teamUrl": "https://www.zerozero.pt/equipa/castellon/2556?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "CE Sabadell",
+        "teamUrl": "https://www.zerozero.pt/equipa/ce-sabadell/2553?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Celta de Vigo B",
+        "teamUrl": "https://www.zerozero.pt/equipa/celta-de-vigo/8458?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Córdoba",
+        "teamUrl": "https://www.zerozero.pt/equipa/cordoba/2558?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Eibar",
+        "teamUrl": "https://www.zerozero.pt/equipa/eibar/5775?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Eldense",
+        "teamUrl": "https://www.zerozero.pt/equipa/eldense/26401?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "FC Andorra",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-andorra/13249?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Girona",
+        "teamUrl": "https://www.zerozero.pt/equipa/girona/5121?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Granada",
+        "teamUrl": "https://www.zerozero.pt/equipa/granada/2551?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Las Palmas",
+        "teamUrl": "https://www.zerozero.pt/equipa/las-palmas/2547?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Leganés",
+        "teamUrl": "https://www.zerozero.pt/equipa/leganes/3915?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Mallorca",
+        "teamUrl": "https://www.zerozero.pt/equipa/mallorca/44?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": "home"
+      },
+      {
+        "position": 0,
+        "teamName": "Real Oviedo",
+        "teamUrl": "https://www.zerozero.pt/equipa/real-oviedo/2545?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Real Sociedad B",
+        "teamUrl": "https://www.zerozero.pt/equipa/real-sociedad/8447?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Sporting Gijón",
+        "teamUrl": "https://www.zerozero.pt/equipa/sporting-gijon/2546?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Tenerife",
+        "teamUrl": "https://www.zerozero.pt/equipa/tenerife/2550?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Valladolid",
+        "teamUrl": "https://www.zerozero.pt/equipa/valladolid/55?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": "away"
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/54.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

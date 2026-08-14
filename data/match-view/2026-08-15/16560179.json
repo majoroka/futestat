@@ -1,0 +1,223 @@
+{
+  "builtAtUtc": "2026-08-14T12:55:01.069Z",
+  "match": {
+    "id": "16560179",
+    "date": "2026-08-15",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/cd-mafra-atletico-cp/CdosUzp#id:16560179",
+    "kickoffAtUtc": "2026-08-15T10:00:00.000Z",
+    "competition": {
+      "id": "17101",
+      "name": "Liga 3, Group B",
+      "country": "Portugal",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17101/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "35177",
+      "name": "Atletico",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/35177/image/small",
+      "sourceIds": {
+        "sofascore": "35177",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "38744",
+      "name": "Mafra",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/38744/image/small",
+      "sourceIds": {
+        "sofascore": "38744",
+        "fotmob": "47535",
+        "soccerRating": "2988"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1645.26,
+      "nationalRank": 49,
+      "europeRank": 1461,
+      "formLast3": [
+        "L",
+        "D",
+        "W"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": 1
+    },
+    "overview": {
+      "prediction": {
+        "tip": "home_win",
+        "tipLabel": "Bet on (1) CD Mafra (Stake 5/10)",
+        "confidencePct": 50,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.7,
+          "draw": 3.5,
+          "away": 4.1
+        },
+        "fair1X2": null,
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 5,
+        "goalsConcededPerMatch": 0,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": 2,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "FC Vilnius",
+        "rating": 1645.37
+      },
+      {
+        "name": "SC Espinho",
+        "rating": 1645.16
+      }
+    ]
+  },
+  "standings": {
+    "available": false,
+    "competitionId": "17101",
+    "sourceStatus": "missing",
+    "phaseName": null,
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": null,
+    "tableType": null,
+    "rows": []
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-b/47535-mafra.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/2988-cd-mafra.json",
+      "matchedBy": "sofascoreTeamId"
+    }
+  }
+}

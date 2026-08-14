@@ -1,0 +1,296 @@
+{
+  "builtAtUtc": "2026-08-14T12:55:01.120Z",
+  "match": {
+    "id": "16560090",
+    "date": "2026-08-15",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/sc-vianense-cd-trofense/eycsMRHb#id:16560090",
+    "kickoffAtUtc": "2026-08-15T16:30:00.000Z",
+    "competition": {
+      "id": "17101",
+      "name": "Liga 3, Group A",
+      "country": "Portugal",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17101/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "207137",
+      "name": "Vianense",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/207137/image/small",
+      "sourceIds": {
+        "sofascore": "207137",
+        "fotmob": "2278",
+        "soccerRating": "4196"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1526.4,
+      "nationalRank": 118,
+      "europeRank": 3193,
+      "formLast3": [
+        "D",
+        "L",
+        "L"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": {
+        "tip": "home_win",
+        "tipLabel": "Bet on (1) UF Comercio e Industria Setubal (Stake 3/10)",
+        "confidencePct": 30,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 2.35,
+          "draw": 3.1,
+          "away": 2.75
+        },
+        "fair1X2": {
+          "home": 2.3,
+          "draw": 3.61,
+          "away": 3.46
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "Cornard United",
+        "rating": 1526.44
+      },
+      {
+        "name": "Victoria Sulejowek",
+        "rating": 1526.36
+      }
+    ]
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "6154",
+      "name": "Trofense",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/6154/image/small",
+      "sourceIds": {
+        "sofascore": "6154",
+        "fotmob": "7992",
+        "soccerRating": "1094"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1583,
+      "nationalRank": 72,
+      "europeRank": 2060,
+      "formLast3": [
+        "D",
+        "W",
+        "D"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.4,
+          "draw": 4.1,
+          "away": 6.5
+        },
+        "fair1X2": {
+          "home": 1.72,
+          "draw": 4.24,
+          "away": 5.49
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "Mus Spor FC",
+        "rating": 1583.02
+      },
+      {
+        "name": "SK Austria Klagenfurt",
+        "rating": 1582.95
+      }
+    ]
+  },
+  "standings": {
+    "available": false,
+    "competitionId": "17101",
+    "sourceStatus": "missing",
+    "phaseName": null,
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": null,
+    "tableType": null,
+    "rows": []
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-a/2278-vianense.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-a/7992-trofense.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "homeTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/4196-sc-vianense.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/1094-cd-trofense.json",
+      "matchedBy": "sofascoreTeamId"
+    }
+  }
+}

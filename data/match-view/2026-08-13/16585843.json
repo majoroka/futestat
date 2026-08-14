@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-13T14:56:21.423Z",
+  "builtAtUtc": "2026-08-14T12:55:01.000Z",
   "match": {
     "id": "16585843",
     "date": "2026-08-13",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 2,
+    "awayScore": 2,
     "matchUrl": "https://www.sofascore.com/football/match/nsi-runavik-fc-lugano/TYsOdc#id:16585843",
     "kickoffAtUtc": "2026-08-13T17:30:00.000Z",
     "competition": {

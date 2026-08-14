@@ -1,0 +1,1056 @@
+{
+  "builtAtUtc": "2026-08-14T12:55:01.079Z",
+  "match": {
+    "id": "16412915",
+    "date": "2026-08-15",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/kudrivka-obolon-kyiv/owfbsfwBc#id:16412915",
+    "kickoffAtUtc": "2026-08-15T12:30:00.000Z",
+    "competition": {
+      "id": "218",
+      "name": "Premier League",
+      "country": "Ukraine",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/218/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "316055",
+      "name": "Kudrivka",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/316055/image/small",
+      "sourceIds": {
+        "sofascore": "316055",
+        "fotmob": "1763072",
+        "soccerRating": "17770"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1666.87,
+      "nationalRank": 25,
+      "europeRank": 1312,
+      "formLast3": [
+        "W",
+        "D",
+        "W"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": 1
+    },
+    "overview": {
+      "prediction": {
+        "tip": "home_win",
+        "tipLabel": "Bet on (1) FK Livyi Bereg Kiev (Stake 3/10)",
+        "confidencePct": 30,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 3,
+        "players": [
+          {
+            "name": "Anton Yashkov",
+            "position": "GK",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.3
+          },
+          {
+            "name": "Dmytro Semenov",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4
+          },
+          {
+            "name": "Yevgeniy Pasich",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.6
+          },
+          {
+            "name": "Bogdan Veklyak",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.6
+          },
+          {
+            "name": "Myroslav Serdyuk",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.7
+          },
+          {
+            "name": "Yevgeniy Smyrnyi",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.9
+          },
+          {
+            "name": "Oleksandr Belyaev",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.2
+          },
+          {
+            "name": "Artur Dumanyuk",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 1,
+            "rating": 3.6
+          },
+          {
+            "name": "Raymond Owusu",
+            "position": "ST",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 2.8
+          },
+          {
+            "name": "Denys Svityukha",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.5
+          },
+          {
+            "name": "Ivan Petryak",
+            "position": "ST",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 2.9
+          },
+          {
+            "name": "Maksym Melnychuk",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.6
+          },
+          {
+            "name": "Kaya Makosso",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.4
+          },
+          {
+            "name": "Kostyantyn Bychek",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.1
+          },
+          {
+            "name": "Sergiy Sten",
+            "position": "ST",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 2.2
+          },
+          {
+            "name": "Reynaldiño Verley",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.3
+          },
+          {
+            "name": "Yurii Potimkov",
+            "position": "DF",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 1.9
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.98,
+          "draw": 3.5,
+          "away": 3.6
+        },
+        "fair1X2": {
+          "home": 1.9,
+          "draw": 4.42,
+          "away": 4.06
+        },
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 0.5,
+        "goalsConcededPerMatch": 2.5,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": 6,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [
+      {
+        "name": "Anton Yashkov",
+        "position": "GK",
+        "age": 34,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.3
+      },
+      {
+        "name": "Dmytro Semenov",
+        "position": "DF",
+        "age": 26,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Yevgeniy Pasich",
+        "position": "DF",
+        "age": 33,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Bogdan Veklyak",
+        "position": "DF",
+        "age": 26,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Myroslav Serdyuk",
+        "position": "DF",
+        "age": 27,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.7
+      },
+      {
+        "name": "Maksym Melnychuk",
+        "position": "DF",
+        "age": 26,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Yurii Potimkov",
+        "position": "DF",
+        "age": 23,
+        "apps": 0,
+        "goals": 0,
+        "rating": 1.9
+      },
+      {
+        "name": "Victor Adeoye",
+        "position": null,
+        "age": 20,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Artur Dumanyuk",
+        "position": "MF",
+        "age": 29,
+        "apps": 1,
+        "goals": 1,
+        "rating": 3.6
+      },
+      {
+        "name": "Kaya Makosso",
+        "position": "MF",
+        "age": 27,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.4
+      },
+      {
+        "name": "Yevgeniy Smyrnyi",
+        "position": "MF",
+        "age": 27,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Oleksandr Belyaev",
+        "position": "MF",
+        "age": 26,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Denys Svityukha",
+        "position": "ST",
+        "age": 24,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.5
+      },
+      {
+        "name": "Ivan Petryak",
+        "position": "ST",
+        "age": 31,
+        "apps": 0,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Kostyantyn Bychek",
+        "position": "ST",
+        "age": 26,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Raymond Owusu",
+        "position": "ST",
+        "age": 24,
+        "apps": 0,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Sergiy Sten",
+        "position": "ST",
+        "age": 24,
+        "apps": 0,
+        "goals": 0,
+        "rating": 2.2
+      },
+      {
+        "name": "Reynaldiño Verley",
+        "position": "ST",
+        "age": 23,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.3
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "Karlbergs BK",
+        "rating": 1666.88
+      },
+      {
+        "name": "Truro City FC",
+        "rating": 1666.7
+      }
+    ]
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "138564",
+      "name": "Obolon",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/138564/image/small",
+      "sourceIds": {
+        "sofascore": "138564",
+        "fotmob": "583129",
+        "soccerRating": "1192"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1714.33,
+      "nationalRank": 19,
+      "europeRank": 1056,
+      "formLast3": [
+        "D",
+        "W",
+        "W"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": 1
+    },
+    "overview": {
+      "prediction": {
+        "tip": "home_win",
+        "tipLabel": "Bet on (1) Bukovina Chernovtsy (Stake 3/10)",
+        "confidencePct": 30,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [
+          {
+            "player": "Yevgeniy Shevchenko",
+            "status": "injury_or_suspension",
+            "description": null
+          },
+          {
+            "player": "Denys Ustymenko",
+            "status": "injury_or_suspension",
+            "description": null
+          }
+        ],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 3.2,
+        "players": [
+          {
+            "name": "Nazariy Fedorivskyi",
+            "position": "GK",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.3
+          },
+          {
+            "name": "Vitaliy Yermakov",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.9
+          },
+          {
+            "name": "Yevgeniy Morozko",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.6
+          },
+          {
+            "name": "Dmytro Kapinus",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.9
+          },
+          {
+            "name": "Taras Lyakh",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.8
+          },
+          {
+            "name": "Artem Kulakovskyi",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.9
+          },
+          {
+            "name": "Roman Volokhatyi",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.3
+          },
+          {
+            "name": "Dmytro Myshnyov",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4
+          },
+          {
+            "name": "Maksym Chekh",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Sergiy Sukhanov",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Denys Teslyuk",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.7
+          },
+          {
+            "name": "Paul Polehenko",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 1.7
+          },
+          {
+            "name": "Taras Moroz",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.8
+          },
+          {
+            "name": "Kyrylo Prokopchuk",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 1.3
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 2.05,
+          "draw": 3.3,
+          "away": 3.5
+        },
+        "fair1X2": {
+          "home": 2.13,
+          "draw": 3.82,
+          "away": 3.71
+        },
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 0,
+        "goalsConcededPerMatch": 1.5,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": 3,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [
+      {
+        "name": "Nazariy Fedorivskyi",
+        "position": "GK",
+        "age": 30,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Vitaliy Yermakov",
+        "position": "DF",
+        "age": 34,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Yevgeniy Morozko",
+        "position": "DF",
+        "age": 33,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Dmytro Kapinus",
+        "position": "DF",
+        "age": 23,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Paul Polehenko",
+        "position": "DF",
+        "age": 31,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.7
+      },
+      {
+        "name": "Kyrylo Prokopchuk",
+        "position": "DF",
+        "age": 28,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Yevgeniy Shevchenko",
+        "position": null,
+        "age": 30,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Taras Lyakh",
+        "position": "MF",
+        "age": 21,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Maksym Chekh",
+        "position": "MF",
+        "age": 27,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Taras Moroz",
+        "position": "MF",
+        "age": 30,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Roman Volokhatyi",
+        "position": "MF",
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.3
+      },
+      {
+        "name": "Dmytro Myshnyov",
+        "position": "MF",
+        "age": 32,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Artem Kulakovskyi",
+        "position": "MF",
+        "age": 24,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Sergiy Sukhanov",
+        "position": "ST",
+        "age": 31,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Denys Teslyuk",
+        "position": "ST",
+        "age": 23,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "Denys Ustymenko",
+        "position": null,
+        "age": 27,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "CS Petrocub",
+        "rating": 1714.39
+      },
+      {
+        "name": "FC Minsk",
+        "rating": 1726.8
+      }
+    ]
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "218",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Karpaty",
+        "teamUrl": "https://www.zerozero.pt/equipa/karpaty/2161?epoca_id=156",
+        "points": 6,
+        "matches": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 1,
+        "goalDifference": "+6",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Polissya",
+        "teamUrl": "https://www.zerozero.pt/equipa/polissya/38513?epoca_id=156",
+        "points": 6,
+        "matches": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 2,
+        "goalDifference": "+3",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Shakhtar Donetsk",
+        "teamUrl": "https://www.zerozero.pt/equipa/shakhtar-donetsk?epoca_id=156",
+        "points": 6,
+        "matches": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 1,
+        "goalDifference": "+6",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "Kryvbas",
+        "teamUrl": "https://www.zerozero.pt/equipa/kryvbas/85604?epoca_id=156",
+        "points": 3,
+        "matches": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 5,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Metalist 1925 Kharkov",
+        "teamUrl": "https://www.zerozero.pt/equipa/metalist-1925-kharkov/213307?epoca_id=156",
+        "points": 3,
+        "matches": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Epitsentr Dunaivtsi",
+        "teamUrl": "https://www.zerozero.pt/equipa/epitsentr-dunaivtsi/263553?epoca_id=156",
+        "points": 3,
+        "matches": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "Dynamo Kyiv",
+        "teamUrl": "https://www.zerozero.pt/equipa/dynamo-kyiv/141?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "Zorya",
+        "teamUrl": "https://www.zerozero.pt/equipa/zorya/7872?epoca_id=156",
+        "points": 3,
+        "matches": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 3,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Bukovyna",
+        "teamUrl": "https://www.zerozero.pt/equipa/bukovyna/41976?epoca_id=156",
+        "points": 2,
+        "matches": 2,
+        "wins": 0,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Livyi Bereh",
+        "teamUrl": "https://www.zerozero.pt/equipa/livyi-bereh/262925?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "FK Kudrivka",
+        "teamUrl": "https://www.zerozero.pt/equipa/fk-kudrivka/263502?epoca_id=156",
+        "points": 1,
+        "matches": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 5,
+        "goalDifference": "-4",
+        "highlight": "home"
+      },
+      {
+        "position": 12,
+        "teamName": "LNZ Cherkasy",
+        "teamUrl": "https://www.zerozero.pt/equipa/lnz-cherkasy/262926?epoca_id=156",
+        "points": 1,
+        "matches": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 3,
+        "goalDifference": "-3",
+        "highlight": null
+      },
+      {
+        "position": 13,
+        "teamName": "Obolon-Brovar",
+        "teamUrl": "https://www.zerozero.pt/equipa/obolon-brovar/84680?epoca_id=156",
+        "points": 1,
+        "matches": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 3,
+        "goalDifference": "-3",
+        "highlight": "away"
+      },
+      {
+        "position": 14,
+        "teamName": "FC Veres",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-veres/41915?epoca_id=156",
+        "points": 0,
+        "matches": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 3,
+        "goalDifference": "-2",
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "Kolos Kovalivka",
+        "teamUrl": "https://www.zerozero.pt/equipa/kolos-kovalivka/101825?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 2,
+        "goalDifference": "-2",
+        "highlight": null
+      },
+      {
+        "position": 16,
+        "teamName": "Chornomorets",
+        "teamUrl": "https://www.zerozero.pt/equipa/chornomorets/2157?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "goalDifference": "-1",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/218.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/218-premier-league/1763072-kudrivka.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/218-premier-league/583129-obolon-kyiv.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "homeTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/ukraine/17770-fk-kudrivka.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/ukraine/1192-obolon-kiev.json",
+      "matchedBy": "sofascoreTeamId"
+    }
+  }
+}

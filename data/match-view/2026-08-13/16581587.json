@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-13T14:56:21.420Z",
+  "builtAtUtc": "2026-08-14T12:55:00.996Z",
   "match": {
     "id": "16581587",
     "date": "2026-08-13",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 1,
+    "awayScore": 1,
     "matchUrl": "https://www.sofascore.com/football/match/gornik-zabrze-ferencvaros-tc/ANskmb#id:16581587",
     "kickoffAtUtc": "2026-08-13T17:00:00.000Z",
     "competition": {

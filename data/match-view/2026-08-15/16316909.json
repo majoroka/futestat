@@ -1,0 +1,1020 @@
+{
+  "builtAtUtc": "2026-08-14T12:55:01.108Z",
+  "match": {
+    "id": "16316909",
+    "date": "2026-08-15",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/dukla-banska-bystrica-msk-zilina/cYsdPb#id:16316909",
+    "kickoffAtUtc": "2026-08-15T16:00:00.000Z",
+    "competition": {
+      "id": "211",
+      "name": "Niké Liga",
+      "country": "Slovakia",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/211/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "4503",
+      "name": "Banská Bystrica",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/4503/image/small",
+      "sourceIds": {
+        "sofascore": "4503",
+        "fotmob": null,
+        "soccerRating": "160"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1709.8,
+      "nationalRank": 12,
+      "europeRank": 1078,
+      "formLast3": [
+        "W",
+        "D",
+        "D"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 2.6,
+        "players": [
+          {
+            "name": "Jakub Trefil",
+            "position": "GK",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 1.9
+          },
+          {
+            "name": "Nicolas Sikula",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3
+          },
+          {
+            "name": "Lubomir Willweber",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.7
+          },
+          {
+            "name": "Alabi Adewale",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.3
+          },
+          {
+            "name": "Viktor Toth",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 1.6
+          },
+          {
+            "name": "Mikulas Bakala",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.3
+          },
+          {
+            "name": "Jakub Povazanec",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.2
+          },
+          {
+            "name": "Adam Hanes",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.5
+          },
+          {
+            "name": "Robert Polievka",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Rego Szantho",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.7
+          },
+          {
+            "name": "Enzo Arevalo",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.4
+          },
+          {
+            "name": "Lukas Hrosso",
+            "position": "GK",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 1.3
+          },
+          {
+            "name": "Adam Balaz",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 1.3
+          },
+          {
+            "name": "Tibor Slebodnik",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.9
+          },
+          {
+            "name": "Dominik Veselovsky",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.1
+          },
+          {
+            "name": "David Richtarech",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.8
+          },
+          {
+            "name": "Adrian Sivicek",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 1.6
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.37,
+          "draw": 4.33,
+          "away": 7.75
+        },
+        "fair1X2": {
+          "home": 1.44,
+          "draw": 5.7,
+          "away": 7.73
+        },
+        "movementSummary": "home_odds_down_away_odds_flat"
+      }
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [
+      {
+        "name": "Jakub Trefil",
+        "position": "GK",
+        "age": 25,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.9
+      },
+      {
+        "name": "Lukas Hrosso",
+        "position": "GK",
+        "age": 38,
+        "apps": 0,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Adam Balaz",
+        "position": "DF",
+        "age": 20,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Kazeem Bolaji",
+        "position": null,
+        "age": 23,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2
+      },
+      {
+        "name": "Nicolas Sikula",
+        "position": "DF",
+        "age": 23,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Lubomir Willweber",
+        "position": "DF",
+        "age": 33,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "Alabi Adewale",
+        "position": "DF",
+        "age": 25,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.3
+      },
+      {
+        "name": "Viktor Toth",
+        "position": "MF",
+        "age": 28,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.6
+      },
+      {
+        "name": "Adrian Sivicek",
+        "position": "MF",
+        "age": 19,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.6
+      },
+      {
+        "name": "Branislav Luptak",
+        "position": null,
+        "age": 33,
+        "apps": 21,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Mikulas Bakala",
+        "position": "MF",
+        "age": 25,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.3
+      },
+      {
+        "name": "David Richtarech",
+        "position": "MF",
+        "age": 30,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Jakub Povazanec",
+        "position": "MF",
+        "age": 35,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Adam Hanes",
+        "position": "MF",
+        "age": 24,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.5
+      },
+      {
+        "name": "Tibor Slebodnik",
+        "position": "MF",
+        "age": 25,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Dominik Veselovsky",
+        "position": "MF",
+        "age": 24,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Michal Duris",
+        "position": null,
+        "age": 38,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Rego Szantho",
+        "position": "ST",
+        "age": 25,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "Enzo Arevalo",
+        "position": "ST",
+        "age": 29,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.4
+      },
+      {
+        "name": "Robert Polievka",
+        "position": "ST",
+        "age": 30,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.9
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "FK Tyumen",
+        "rating": 1709.84
+      },
+      {
+        "name": "FC Dordrecht",
+        "rating": 1709.36
+      }
+    ]
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "2402",
+      "name": "Žilina",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2402/image/small",
+      "sourceIds": {
+        "sofascore": "2402",
+        "fotmob": "6022",
+        "soccerRating": "165"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1887.8,
+      "nationalRank": 3,
+      "europeRank": 463,
+      "formLast3": [
+        "W",
+        "L",
+        "D"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": 53.3,
+      "cleanSheets": 1
+    },
+    "overview": {
+      "prediction": {
+        "tip": "away_or_draw",
+        "tipLabel": "Bet on (X2) MFK Skalica (Stake 2/10)",
+        "confidencePct": 20,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [
+          {
+            "player": "Filip Kasa",
+            "status": "injury_or_suspension",
+            "description": null
+          },
+          {
+            "player": "Daniel Homet Ruiz",
+            "status": "injury_or_suspension",
+            "description": null
+          }
+        ],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 3.2,
+        "players": [
+          {
+            "name": "David Sipos",
+            "position": "GK",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.3
+          },
+          {
+            "name": "Tobias Paliscak",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 4.7
+          },
+          {
+            "name": "Timotej Hranica",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 1,
+            "rating": 3.1
+          },
+          {
+            "name": "Kristian Bari",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.2
+          },
+          {
+            "name": "A. Narimanidze",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Samuel Datko",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.9
+          },
+          {
+            "name": "Michal Fasko",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.1
+          },
+          {
+            "name": "Andrei Florea",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 1,
+            "rating": 1.8
+          },
+          {
+            "name": "Xavier Adang",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.4
+          },
+          {
+            "name": "Fabian Bzdyl",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 1,
+            "rating": 3.6
+          },
+          {
+            "name": "Marko Roginic",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.8
+          },
+          {
+            "name": "Marek Okal",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.1
+          },
+          {
+            "name": "Frantisek Kosa",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.2
+          },
+          {
+            "name": "Ján Minarik",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.7
+          },
+          {
+            "name": "Patrik Baleja",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 1.3
+          },
+          {
+            "name": "Patrik Ilko",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.7
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.68,
+          "draw": 3.7,
+          "away": 4.4
+        },
+        "fair1X2": {
+          "home": 2.2,
+          "draw": 4.34,
+          "away": 3.18
+        },
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 2.5,
+        "goalsConcededPerMatch": 2,
+        "averagePossessionPct": 53.3,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": 6.5,
+        "bigChances": 5,
+        "bigChancesMissed": 2,
+        "accuratePassesPerMatch": 335,
+        "accurateLongBallsPerMatch": 18.5,
+        "accurateCrossesPerMatch": 2.5,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": 32,
+        "cornersPerMatch": 13,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": 13,
+        "tacklesPerMatch": 16,
+        "clearancesPerMatch": 26.5,
+        "finalThirdRecoveriesPerMatch": 1.5,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": 4.5
+      },
+      "discipline": {
+        "foulsPerMatch": 9,
+        "yellowCardsPerMatch": 2,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [
+      {
+        "name": "David Sipos",
+        "position": "GK",
+        "age": 27,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.3
+      },
+      {
+        "name": "Tobias Paliscak",
+        "position": "DF",
+        "age": 18,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Timotej Hranica",
+        "position": "DF",
+        "age": 21,
+        "apps": 2,
+        "goals": 1,
+        "rating": 3.1
+      },
+      {
+        "name": "Kristian Bari",
+        "position": "DF",
+        "age": 25,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "A. Narimanidze",
+        "position": "DF",
+        "age": 21,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Marek Okal",
+        "position": "DF",
+        "age": 17,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Ján Minarik",
+        "position": "DF",
+        "age": 29,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "Filip Kasa",
+        "position": null,
+        "age": 32,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.1
+      },
+      {
+        "name": "Samuel Datko",
+        "position": "MF",
+        "age": 25,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Michal Fasko",
+        "position": "MF",
+        "age": 31,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Fabian Bzdyl",
+        "position": "MF",
+        "age": 18,
+        "apps": 2,
+        "goals": 1,
+        "rating": 3.6
+      },
+      {
+        "name": "Andrei Florea",
+        "position": "MF",
+        "age": 21,
+        "apps": 2,
+        "goals": 1,
+        "rating": 1.8
+      },
+      {
+        "name": "Xavier Adang",
+        "position": "MF",
+        "age": 22,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Frantisek Kosa",
+        "position": "ST",
+        "age": 20,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.2
+      },
+      {
+        "name": "Patrik Ilko",
+        "position": "ST",
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.7
+      },
+      {
+        "name": "Marko Roginic",
+        "position": "ST",
+        "age": 30,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Patrik Baleja",
+        "position": "ST",
+        "age": 19,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Daniel Homet Ruiz",
+        "position": null,
+        "age": 27,
+        "apps": 1,
+        "goals": 2,
+        "rating": 1.4
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "1. FC Slovacko",
+        "rating": 1886.18
+      },
+      {
+        "name": "Östersunds FK",
+        "rating": 1885.83
+      }
+    ]
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "211",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [
+      "Competição com fase regular e grupos finais.",
+      "Tabela da fase regular.",
+      "Quando a competição dividir em grupos ou playoffs, as zonas finais podem mudar."
+    ],
+    "ruleProfileId": "regular-season-before-split",
+    "tableName": "Campeonato",
+    "tableType": "regular_plus_playoffs",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Spartak Trnava",
+        "teamUrl": "https://www.zerozero.pt/equipa/spartak-trnava?epoca_id=156",
+        "points": 7,
+        "matches": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 2,
+        "goalDifference": "+4",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Slovan Bratislava",
+        "teamUrl": "https://www.zerozero.pt/equipa/slovan-bratislava?epoca_id=156",
+        "points": 6,
+        "matches": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 0,
+        "goalDifference": "+7",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Podbrezová",
+        "teamUrl": "https://www.zerozero.pt/equipa/podbrezova/21053?epoca_id=156",
+        "points": 6,
+        "matches": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 6,
+        "goalsAgainst": 4,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "FC DAC 1904",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-dac-1904/10803?epoca_id=156",
+        "points": 4,
+        "matches": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 1,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "MSK Zilina",
+        "teamUrl": "https://www.zerozero.pt/equipa/msk-zilina/153?epoca_id=156",
+        "points": 4,
+        "matches": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 4,
+        "goalDifference": "+1",
+        "highlight": "away"
+      },
+      {
+        "position": 6,
+        "teamName": "MFK Skalica",
+        "teamUrl": "https://www.zerozero.pt/equipa/mfk-skalica/89806?epoca_id=156",
+        "points": 4,
+        "matches": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "AS Trencin",
+        "teamUrl": "https://www.zerozero.pt/equipa/as-trencin/1879?epoca_id=156",
+        "points": 2,
+        "matches": 2,
+        "wins": 0,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 4,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "FK Kosice",
+        "teamUrl": "https://www.zerozero.pt/equipa/fk-kosice/230267?epoca_id=156",
+        "points": 2,
+        "matches": 2,
+        "wins": 0,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 7,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "KFC Komarno",
+        "teamUrl": "https://www.zerozero.pt/equipa/kfc-komarno/77361?epoca_id=156",
+        "points": 2,
+        "matches": 3,
+        "wins": 0,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 4,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Zemplín Michalovce",
+        "teamUrl": "https://www.zerozero.pt/equipa/zemplin-michalovce/39625?epoca_id=156",
+        "points": 1,
+        "matches": 3,
+        "wins": 0,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 4,
+        "goalDifference": "-3",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Ruzomberok",
+        "teamUrl": "https://www.zerozero.pt/equipa/ruzomberok/1877?epoca_id=156",
+        "points": 1,
+        "matches": 3,
+        "wins": 0,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 3,
+        "goalsAgainst": 7,
+        "goalDifference": "-4",
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "Dukla",
+        "teamUrl": "https://www.zerozero.pt/equipa/dukla/1876?epoca_id=156",
+        "points": 0,
+        "matches": 3,
+        "wins": 0,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 0,
+        "goalsAgainst": 9,
+        "goalDifference": "-9",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/211.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/211-nike-liga/6022-zilina.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "homeTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/slovakia/160-dukla-banska-bystrica.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/slovakia/165-msk-zilina.json",
+      "matchedBy": "sofascoreTeamId"
+    }
+  }
+}

@@ -1,0 +1,701 @@
+{
+  "builtAtUtc": "2026-08-14T12:55:01.137Z",
+  "match": {
+    "id": "16316912",
+    "date": "2026-08-15",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/fk-zeleziarne-podbrezova-as-trencin/YXsMhd#id:16316912",
+    "kickoffAtUtc": "2026-08-15T18:30:00.000Z",
+    "competition": {
+      "id": "211",
+      "name": "Niké Liga",
+      "country": "Slovakia",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/211/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "7887",
+      "name": "Podbrezová",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/7887/image/small",
+      "sourceIds": {
+        "sofascore": "7887",
+        "fotmob": "2437",
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": 48.8,
+      "cleanSheets": 1
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 2,
+        "goalsConcededPerMatch": 1.3,
+        "averagePossessionPct": 48.8,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": 6,
+        "bigChances": 6,
+        "bigChancesMissed": 2,
+        "accuratePassesPerMatch": 310,
+        "accurateLongBallsPerMatch": 19,
+        "accurateCrossesPerMatch": 7.3,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": 82,
+        "cornersPerMatch": 20,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": 10.3,
+        "tacklesPerMatch": 16,
+        "clearancesPerMatch": 22.7,
+        "finalThirdRecoveriesPerMatch": 4,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": 1.7
+      },
+      "discipline": {
+        "foulsPerMatch": 11.3,
+        "yellowCardsPerMatch": 5,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "2398",
+      "name": "Trenčín",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2398/image/small",
+      "sourceIds": {
+        "sofascore": "2398",
+        "fotmob": "6496",
+        "soccerRating": "166"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1722.32,
+      "nationalRank": 11,
+      "europeRank": 1016,
+      "formLast3": [
+        "D",
+        "L",
+        "W"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": 44.5,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": {
+        "tip": "home_win",
+        "tipLabel": "Bet on (1) FK Kosice (Stake 6/10)",
+        "confidencePct": 60,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [
+          {
+            "player": "Andrija Katic",
+            "status": "injury_or_suspension",
+            "description": null
+          },
+          {
+            "player": "Dimitri Jepihhin",
+            "status": "injury_or_suspension",
+            "description": null
+          }
+        ],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 3.1,
+        "players": [
+          {
+            "name": "Matus Slavicek",
+            "position": "GK",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.2
+          },
+          {
+            "name": "Hugo Pavek",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 4.2
+          },
+          {
+            "name": "Richard Krizan",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.9
+          },
+          {
+            "name": "Lukas Skovajsa",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.5
+          },
+          {
+            "name": "Pape Diouf",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 1.7
+          },
+          {
+            "name": "Markus Poom",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 1,
+            "rating": 3.3
+          },
+          {
+            "name": "Pablo Gonzalez",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.1
+          },
+          {
+            "name": "Tadeas Hajovsky",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 4.7
+          },
+          {
+            "name": "Eynel Soares",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 1,
+            "rating": 3.8
+          },
+          {
+            "name": "Jakub Paur",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 1,
+            "rating": 2.7
+          },
+          {
+            "name": "Dylann Kam",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 2.6
+          },
+          {
+            "name": "Nikola Jovanovic",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 1.3
+          },
+          {
+            "name": "Denis Adamkovic",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 1.9
+          },
+          {
+            "name": "Lukas Mikulaj",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 1,
+            "rating": 2.8
+          },
+          {
+            "name": "Mikkel Boye",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 1.5
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.68,
+          "draw": 4,
+          "away": 4
+        },
+        "fair1X2": {
+          "home": 1.7,
+          "draw": 4.63,
+          "away": 5.15
+        },
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 2,
+        "goalsConcededPerMatch": 2,
+        "averagePossessionPct": 44.5,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": 3,
+        "bigChances": 3,
+        "bigChancesMissed": 1,
+        "accuratePassesPerMatch": 304.5,
+        "accurateLongBallsPerMatch": 23.5,
+        "accurateCrossesPerMatch": 2.5,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": 26,
+        "cornersPerMatch": 7,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": 9.5,
+        "tacklesPerMatch": 18.5,
+        "clearancesPerMatch": 27,
+        "finalThirdRecoveriesPerMatch": 2.5,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": 4
+      },
+      "discipline": {
+        "foulsPerMatch": 10,
+        "yellowCardsPerMatch": 2,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [
+      {
+        "name": "Matus Slavicek",
+        "position": "GK",
+        "age": 23,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.2
+      },
+      {
+        "name": "Andrija Katic",
+        "position": null,
+        "age": 24,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Hugo Pavek",
+        "position": "DF",
+        "age": 21,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Richard Krizan",
+        "position": "DF",
+        "age": 28,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Lukas Skovajsa",
+        "position": "DF",
+        "age": 32,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.5
+      },
+      {
+        "name": "Pape Diouf",
+        "position": "DF",
+        "age": 20,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.7
+      },
+      {
+        "name": "Nikola Jovanovic",
+        "position": "DF",
+        "age": 23,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Markus Poom",
+        "position": "MF",
+        "age": 27,
+        "apps": 2,
+        "goals": 1,
+        "rating": 3.3
+      },
+      {
+        "name": "Tadeas Hajovsky",
+        "position": "MF",
+        "age": 20,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Pablo Gonzalez",
+        "position": "MF",
+        "age": 33,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.1
+      },
+      {
+        "name": "Denis Adamkovic",
+        "position": "MF",
+        "age": 19,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.9
+      },
+      {
+        "name": "Mikkel Boye",
+        "position": "ST",
+        "age": 20,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.5
+      },
+      {
+        "name": "Eynel Soares",
+        "position": "ST",
+        "age": 27,
+        "apps": 2,
+        "goals": 1,
+        "rating": 3.8
+      },
+      {
+        "name": "Dylann Kam",
+        "position": "ST",
+        "age": 21,
+        "apps": 2,
+        "goals": 0,
+        "rating": 2.6
+      },
+      {
+        "name": "Jakub Paur",
+        "position": "ST",
+        "age": 34,
+        "apps": 2,
+        "goals": 1,
+        "rating": 2.7
+      },
+      {
+        "name": "Lukas Mikulaj",
+        "position": "ST",
+        "age": 21,
+        "apps": 2,
+        "goals": 1,
+        "rating": 2.8
+      },
+      {
+        "name": "Dimitri Jepihhin",
+        "position": null,
+        "age": 20,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.9
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "FC Martigues",
+        "rating": 1722.35
+      },
+      {
+        "name": "Accrington Stanley",
+        "rating": 1721.78
+      }
+    ]
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "211",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [
+      "Competição com fase regular e grupos finais.",
+      "Tabela da fase regular.",
+      "Quando a competição dividir em grupos ou playoffs, as zonas finais podem mudar."
+    ],
+    "ruleProfileId": "regular-season-before-split",
+    "tableName": "Campeonato",
+    "tableType": "regular_plus_playoffs",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Spartak Trnava",
+        "teamUrl": "https://www.zerozero.pt/equipa/spartak-trnava?epoca_id=156",
+        "points": 7,
+        "matches": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 2,
+        "goalDifference": "+4",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Slovan Bratislava",
+        "teamUrl": "https://www.zerozero.pt/equipa/slovan-bratislava?epoca_id=156",
+        "points": 6,
+        "matches": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 0,
+        "goalDifference": "+7",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Podbrezová",
+        "teamUrl": "https://www.zerozero.pt/equipa/podbrezova/21053?epoca_id=156",
+        "points": 6,
+        "matches": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 6,
+        "goalsAgainst": 4,
+        "goalDifference": "+2",
+        "highlight": "home"
+      },
+      {
+        "position": 4,
+        "teamName": "FC DAC 1904",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-dac-1904/10803?epoca_id=156",
+        "points": 4,
+        "matches": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 1,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "MSK Zilina",
+        "teamUrl": "https://www.zerozero.pt/equipa/msk-zilina/153?epoca_id=156",
+        "points": 4,
+        "matches": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 4,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "MFK Skalica",
+        "teamUrl": "https://www.zerozero.pt/equipa/mfk-skalica/89806?epoca_id=156",
+        "points": 4,
+        "matches": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "AS Trencin",
+        "teamUrl": "https://www.zerozero.pt/equipa/as-trencin/1879?epoca_id=156",
+        "points": 2,
+        "matches": 2,
+        "wins": 0,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 4,
+        "goalDifference": "0",
+        "highlight": "away"
+      },
+      {
+        "position": 8,
+        "teamName": "FK Kosice",
+        "teamUrl": "https://www.zerozero.pt/equipa/fk-kosice/230267?epoca_id=156",
+        "points": 2,
+        "matches": 2,
+        "wins": 0,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 7,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "KFC Komarno",
+        "teamUrl": "https://www.zerozero.pt/equipa/kfc-komarno/77361?epoca_id=156",
+        "points": 2,
+        "matches": 3,
+        "wins": 0,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 4,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Zemplín Michalovce",
+        "teamUrl": "https://www.zerozero.pt/equipa/zemplin-michalovce/39625?epoca_id=156",
+        "points": 1,
+        "matches": 3,
+        "wins": 0,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 4,
+        "goalDifference": "-3",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Ruzomberok",
+        "teamUrl": "https://www.zerozero.pt/equipa/ruzomberok/1877?epoca_id=156",
+        "points": 1,
+        "matches": 3,
+        "wins": 0,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 3,
+        "goalsAgainst": 7,
+        "goalDifference": "-4",
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "Dukla",
+        "teamUrl": "https://www.zerozero.pt/equipa/dukla/1876?epoca_id=156",
+        "points": 0,
+        "matches": 3,
+        "wins": 0,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 0,
+        "goalsAgainst": 9,
+        "goalDifference": "-9",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/211.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/211-nike-liga/2437-zeleziarne-podbrezova.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/211-nike-liga/6496-trencin.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/slovakia/166-as-trencin.json",
+      "matchedBy": "sofascoreTeamId"
+    }
+  }
+}

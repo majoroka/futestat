@@ -1,0 +1,543 @@
+{
+  "builtAtUtc": "2026-08-14T12:55:01.132Z",
+  "match": {
+    "id": "16378715",
+    "date": "2026-08-15",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/nk-maribor-nk-olimpija-ljubljana/qYsvY#id:16378715",
+    "kickoffAtUtc": "2026-08-15T18:15:00.000Z",
+    "competition": {
+      "id": "212",
+      "name": "PrvaLiga",
+      "country": "Slovenia",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/212/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "2416",
+      "name": "Olimpija",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2416/image/small",
+      "sourceIds": {
+        "sofascore": "2416",
+        "fotmob": "7872",
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": 1
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 0.3,
+        "goalsConcededPerMatch": 1,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "2420",
+      "name": "Maribor",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2420/image/small",
+      "sourceIds": {
+        "sofascore": "2420",
+        "fotmob": "8340",
+        "soccerRating": "25"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1944.03,
+      "nationalRank": 2,
+      "europeRank": 360,
+      "formLast3": [
+        "D",
+        "W",
+        "L"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": 2
+    },
+    "overview": {
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [
+          {
+            "player": "Azbe Jug",
+            "status": "injury_or_suspension",
+            "description": null
+          }
+        ],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 3.8,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.95,
+          "draw": 3.5,
+          "away": 3.4
+        },
+        "fair1X2": {
+          "home": 2.73,
+          "draw": 4.03,
+          "away": 2.59
+        },
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 1.3,
+        "goalsConcededPerMatch": 0.3,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [
+      {
+        "name": "Azbe Jug",
+        "position": null,
+        "age": 34,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Niko Osterc",
+        "position": null,
+        "age": 19,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Bradley M'Bondo",
+        "position": null,
+        "age": 24,
+        "apps": 3,
+        "goals": 1,
+        "rating": 4.7
+      },
+      {
+        "name": "Cedomir Bumbic",
+        "position": null,
+        "age": 26,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Timon Kikec",
+        "position": null,
+        "age": 17,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Zan Karnicnik",
+        "position": null,
+        "age": 31,
+        "apps": 1,
+        "goals": 0,
+        "rating": 5
+      },
+      {
+        "name": "Mark Spanring",
+        "position": null,
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Jevsenak",
+        "position": null,
+        "age": 23,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Claude Gonçalves",
+        "position": null,
+        "age": 32,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Nejc Viher",
+        "position": null,
+        "age": 18,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Ziga Repas",
+        "position": null,
+        "age": 25,
+        "apps": 3,
+        "goals": 1,
+        "rating": 4.4
+      },
+      {
+        "name": "Tio Cipot",
+        "position": null,
+        "age": 23,
+        "apps": 3,
+        "goals": 1,
+        "rating": 4.7
+      },
+      {
+        "name": "Dario Vizinger",
+        "position": null,
+        "age": 28,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4
+      },
+      {
+        "name": "Behar Feta",
+        "position": null,
+        "age": 23,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Isaac Tshipamba",
+        "position": null,
+        "age": 25,
+        "apps": 3,
+        "goals": 1,
+        "rating": 4
+      },
+      {
+        "name": "Jan Mlakar",
+        "position": null,
+        "age": 27,
+        "apps": 2,
+        "goals": 0,
+        "rating": 5.1
+      },
+      {
+        "name": "Luka Zahovic",
+        "position": null,
+        "age": 30,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.7
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "CD Tondela",
+        "rating": 1937.47
+      },
+      {
+        "name": "Zira IK",
+        "rating": 1936.94
+      }
+    ]
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "212",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Maribor",
+        "teamUrl": "https://www.zerozero.pt/equipa/maribor/170?epoca_id=156",
+        "points": 8,
+        "matches": 4,
+        "wins": 2,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 1,
+        "goalDifference": "+5",
+        "highlight": "away"
+      },
+      {
+        "position": 2,
+        "teamName": "Nafta 1903",
+        "teamUrl": "https://www.zerozero.pt/equipa/nafta-1903/228769?epoca_id=156",
+        "points": 7,
+        "matches": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 9,
+        "goalsAgainst": 5,
+        "goalDifference": "+4",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "NK Bravo",
+        "teamUrl": "https://www.zerozero.pt/equipa/nk-bravo/71667?epoca_id=156",
+        "points": 7,
+        "matches": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 5,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "FC Koper",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-koper/1884?epoca_id=156",
+        "points": 5,
+        "matches": 4,
+        "wins": 1,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 5,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Brinje Grosuplje",
+        "teamUrl": "https://www.zerozero.pt/equipa/brinje-grosuplje/111981?epoca_id=156",
+        "points": 5,
+        "matches": 4,
+        "wins": 1,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 5,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "NK Celje",
+        "teamUrl": "https://www.zerozero.pt/equipa/nk-celje/1055?epoca_id=156",
+        "points": 5,
+        "matches": 3,
+        "wins": 1,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 3,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "NK Radomlje",
+        "teamUrl": "https://www.zerozero.pt/equipa/nk-radomlje/61597?epoca_id=156",
+        "points": 4,
+        "matches": 4,
+        "wins": 1,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 6,
+        "goalsAgainst": 7,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "NS Mura",
+        "teamUrl": "https://www.zerozero.pt/equipa/ns-mura?epoca_id=156",
+        "points": 4,
+        "matches": 4,
+        "wins": 1,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 6,
+        "goalsAgainst": 10,
+        "goalDifference": "-4",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Olimpija Ljubljana",
+        "teamUrl": "https://www.zerozero.pt/equipa/olimpija-ljubljana/1890?epoca_id=156",
+        "points": 3,
+        "matches": 4,
+        "wins": 1,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 1,
+        "goalsAgainst": 4,
+        "goalDifference": "-3",
+        "highlight": "home"
+      },
+      {
+        "position": 10,
+        "teamName": "NK Aluminij",
+        "teamUrl": "https://www.zerozero.pt/equipa/nk-aluminij/30705?epoca_id=156",
+        "points": 2,
+        "matches": 3,
+        "wins": 0,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "goalDifference": "-1",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/212.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/212-prvaliga/7872-olimpija-ljubljana.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/212-prvaliga/8340-maribor.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/slovenia/25-nk-maribor.json",
+      "matchedBy": "sofascoreTeamId"
+    }
+  }
+}

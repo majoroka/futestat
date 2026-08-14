@@ -1,0 +1,327 @@
+{
+  "builtAtUtc": "2026-08-14T12:55:01.101Z",
+  "match": {
+    "id": "16384252",
+    "date": "2026-08-15",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/kisvarda-fc-nyiregyhaza-spartacus/zccsXhk#id:16384252",
+    "kickoffAtUtc": "2026-08-15T15:30:00.000Z",
+    "competition": {
+      "id": "187",
+      "name": "NB I",
+      "country": "Hungary",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/187/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "5124",
+      "name": "Nyíregyháza",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/5124/image/small",
+      "sourceIds": {
+        "sofascore": "5124",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "25397",
+      "name": "Kisvárda",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/25397/image/small",
+      "sourceIds": {
+        "sofascore": "25397",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "187",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Puskás Akadémia FC",
+        "teamUrl": "https://www.zerozero.pt/equipa/puskas-akademia-fc/73655?epoca_id=156",
+        "points": 6,
+        "matches": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 4,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Újpest FC",
+        "teamUrl": "https://www.zerozero.pt/equipa/ujpest-fc/1943?epoca_id=156",
+        "points": 6,
+        "matches": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 9,
+        "goalsAgainst": 6,
+        "goalDifference": "+3",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Vasas SC",
+        "teamUrl": "https://www.zerozero.pt/equipa/vasas-sc/4276?epoca_id=156",
+        "points": 5,
+        "matches": 3,
+        "wins": 1,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 2,
+        "goalDifference": "+5",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "MTK",
+        "teamUrl": "https://www.zerozero.pt/equipa/mtk/157?epoca_id=156",
+        "points": 4,
+        "matches": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 8,
+        "goalsAgainst": 6,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Gyori ETO",
+        "teamUrl": "https://www.zerozero.pt/equipa/gyori-eto/1944?epoca_id=156",
+        "points": 4,
+        "matches": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 2,
+        "goalDifference": "+4",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Kisvárda",
+        "teamUrl": "https://www.zerozero.pt/equipa/kisvarda/112438?epoca_id=156",
+        "points": 4,
+        "matches": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 5,
+        "goalDifference": "0",
+        "highlight": "away"
+      },
+      {
+        "position": 7,
+        "teamName": "Paksi",
+        "teamUrl": "https://www.zerozero.pt/equipa/paksi/7867?epoca_id=156",
+        "points": 4,
+        "matches": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 8,
+        "goalsAgainst": 9,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "Debreceni",
+        "teamUrl": "https://www.zerozero.pt/equipa/debreceni/1064?epoca_id=156",
+        "points": 3,
+        "matches": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 3,
+        "goalsAgainst": 6,
+        "goalDifference": "-3",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Zalaegerszeg",
+        "teamUrl": "https://www.zerozero.pt/equipa/zalaegerszeg/7868?epoca_id=156",
+        "points": 3,
+        "matches": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 5,
+        "goalsAgainst": 10,
+        "goalDifference": "-5",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Budapest Honvéd",
+        "teamUrl": "https://www.zerozero.pt/equipa/budapest-honved/4107?epoca_id=156",
+        "points": 3,
+        "matches": 3,
+        "wins": 0,
+        "draws": 3,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 6,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Nyíregyháza Spartacus",
+        "teamUrl": "https://www.zerozero.pt/equipa/nyiregyhaza-spartacus/4280?epoca_id=156",
+        "points": 3,
+        "matches": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 6,
+        "goalDifference": "-4",
+        "highlight": "home"
+      },
+      {
+        "position": 12,
+        "teamName": "Ferencváros",
+        "teamUrl": "https://www.zerozero.pt/equipa/ferencvaros?epoca_id=156",
+        "points": 1,
+        "matches": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 4,
+        "goalDifference": "-2",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/187.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

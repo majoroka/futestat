@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-13T14:56:21.439Z",
+  "builtAtUtc": "2026-08-14T12:55:01.017Z",
   "match": {
     "id": "16585863",
     "date": "2026-08-13",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 2,
+    "awayScore": 2,
     "matchUrl": "https://www.sofascore.com/football/match/shelbourne-afc-ajax/djbsznb#id:16585863",
     "kickoffAtUtc": "2026-08-13T18:45:00.000Z",
     "competition": {

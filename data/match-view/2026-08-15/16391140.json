@@ -1,0 +1,495 @@
+{
+  "builtAtUtc": "2026-08-14T12:55:01.089Z",
+  "match": {
+    "id": "16391140",
+    "date": "2026-08-15",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/portsmouth-queens-park-rangers/bsc#id:16391140",
+    "kickoffAtUtc": "2026-08-15T14:00:00.000Z",
+    "competition": {
+      "id": "18",
+      "name": "Championship",
+      "country": "England",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/18/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "2",
+      "name": "Portsmouth",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2/image/small",
+      "sourceIds": {
+        "sofascore": "2",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "1",
+      "name": "QPR",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/1/image/small",
+      "sourceIds": {
+        "sofascore": "1",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "18",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 0,
+        "teamName": "Birmingham City",
+        "teamUrl": "https://www.zerozero.pt/equipa/birmingham-city/77?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Blackburn Rovers",
+        "teamUrl": "https://www.zerozero.pt/equipa/blackburn-rovers/78?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Bolton Wanderers",
+        "teamUrl": "https://www.zerozero.pt/equipa/bolton-wanderers/79?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Bristol City",
+        "teamUrl": "https://www.zerozero.pt/equipa/bristol-city/2598?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Burnley",
+        "teamUrl": "https://www.zerozero.pt/equipa/burnley/2580?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Cardiff City",
+        "teamUrl": "https://www.zerozero.pt/equipa/cardiff-city/2591?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Charlton Athletic",
+        "teamUrl": "https://www.zerozero.pt/equipa/charlton-athletic/80?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Derby County",
+        "teamUrl": "https://www.zerozero.pt/equipa/derby-county/2577?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Lincoln City",
+        "teamUrl": "https://www.zerozero.pt/equipa/lincoln-city/5488?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Middlesbrough",
+        "teamUrl": "https://www.zerozero.pt/equipa/middlesbrough/88?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Millwall",
+        "teamUrl": "https://www.zerozero.pt/equipa/millwall/2606?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Norwich City",
+        "teamUrl": "https://www.zerozero.pt/equipa/norwich-city/2589?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Portsmouth",
+        "teamUrl": "https://www.zerozero.pt/equipa/portsmouth/1137?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": "home"
+      },
+      {
+        "position": 0,
+        "teamName": "Preston North End",
+        "teamUrl": "https://www.zerozero.pt/equipa/preston-north-end/2582?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "QPR",
+        "teamUrl": "https://www.zerozero.pt/equipa/qpr/2588?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": "away"
+      },
+      {
+        "position": 0,
+        "teamName": "Sheffield United",
+        "teamUrl": "https://www.zerozero.pt/equipa/sheffield-united/2578?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Southampton",
+        "teamUrl": "https://www.zerozero.pt/equipa/southampton?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Stoke City",
+        "teamUrl": "https://www.zerozero.pt/equipa/stoke-city/2581?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Swansea City",
+        "teamUrl": "https://www.zerozero.pt/equipa/swansea-city/2605?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Watford",
+        "teamUrl": "https://www.zerozero.pt/equipa/watford/2599?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "West Bromwich",
+        "teamUrl": "https://www.zerozero.pt/equipa/west-bromwich/93?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "West Ham",
+        "teamUrl": "https://www.zerozero.pt/equipa/west-ham?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Wolverhampton",
+        "teamUrl": "https://www.zerozero.pt/equipa/wolverhampton?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 0,
+        "teamName": "Wrexham",
+        "teamUrl": "https://www.zerozero.pt/equipa/wrexham/5364?epoca_id=156",
+        "points": 0,
+        "matches": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/18.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

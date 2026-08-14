@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-13T14:56:21.428Z",
+  "builtAtUtc": "2026-08-14T12:55:01.005Z",
   "match": {
     "id": "16585846",
     "date": "2026-08-13",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 0,
+    "awayScore": 0,
     "matchUrl": "https://www.sofascore.com/football/match/kf-shkendija-hibernian/eXsnic#id:16585846",
     "kickoffAtUtc": "2026-08-13T18:00:00.000Z",
     "competition": {

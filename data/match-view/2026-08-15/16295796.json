@@ -1,0 +1,761 @@
+{
+  "builtAtUtc": "2026-08-14T12:55:01.150Z",
+  "match": {
+    "id": "16295796",
+    "date": "2026-08-15",
+    "status": "postponed",
+    "resultLabel": "Postponed",
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/slavia-sofia-levski-sofia/ypbszpb#id:16295796",
+    "kickoffAtUtc": null,
+    "competition": {
+      "id": "247",
+      "name": "Parva Liga",
+      "country": "Bulgaria",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/247/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "3274",
+      "name": "Slavia",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3274/image/small",
+      "sourceIds": {
+        "sofascore": "3274",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "3273",
+      "name": "Levski Sofia",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3273/image/small",
+      "sourceIds": {
+        "sofascore": "3273",
+        "fotmob": "8632",
+        "soccerRating": "1295"
+      }
+    },
+    "headerStats": {
+      "overallRating": 2041.09,
+      "nationalRank": 2,
+      "europeRank": 194,
+      "formLast3": [
+        "W",
+        "W",
+        "L"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": 2
+    },
+    "overview": {
+      "prediction": {
+        "tip": "home_win",
+        "tipLabel": "Bet on (1) FC Kairat Almaty (Stake 5/10)",
+        "confidencePct": 50,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [
+          {
+            "player": "Christian Makoun",
+            "status": "injury_or_suspension",
+            "description": null
+          },
+          {
+            "player": "Akram Bouras",
+            "status": "injury_or_suspension",
+            "description": null
+          }
+        ],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 4.6,
+        "players": [
+          {
+            "name": "Svetoslav Vutsov",
+            "position": "GK",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 5.2
+          },
+          {
+            "name": "Maicon",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 5.3
+          },
+          {
+            "name": "Hevertton",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4.8
+          },
+          {
+            "name": "Kristian Dimitrov",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 1,
+            "rating": 5.2
+          },
+          {
+            "name": "David Kusso",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 3.6
+          },
+          {
+            "name": "Asen Mitkov",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4.3
+          },
+          {
+            "name": "Mehdi Moubarik",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 4.4
+          },
+          {
+            "name": "Mazire Soula",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 5
+          },
+          {
+            "name": "Armstrong Oko-Flex",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 1,
+            "rating": 4.2
+          },
+          {
+            "name": "Juan Perea",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.8
+          },
+          {
+            "name": "Everton Bala",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 5.2
+          },
+          {
+            "name": "Ognyan Vladimirov",
+            "position": "GK",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 1.3
+          },
+          {
+            "name": "Aldair",
+            "position": "DF",
+            "age": null,
+            "apps": 3,
+            "goals": 0,
+            "rating": 4.9
+          },
+          {
+            "name": "Serginho",
+            "position": "MF",
+            "age": null,
+            "apps": 3,
+            "goals": 2,
+            "rating": 5
+          },
+          {
+            "name": "Reinaldo",
+            "position": "ST",
+            "age": null,
+            "apps": 3,
+            "goals": 1,
+            "rating": 4.1
+          },
+          {
+            "name": "Gasper Trdin",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 4.4
+          },
+          {
+            "name": "Nikola Serafimov",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 4.2
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 2.55,
+          "draw": 3.3,
+          "away": 2.75
+        },
+        "fair1X2": {
+          "home": 2.32,
+          "draw": 3.65,
+          "away": 3.38
+        },
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 2.3,
+        "goalsConcededPerMatch": 0.5,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": 4,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [
+      {
+        "name": "Martin Lukov",
+        "position": null,
+        "age": 32,
+        "apps": 0,
+        "goals": 0,
+        "rating": 2
+      },
+      {
+        "name": "Svetoslav Vutsov",
+        "position": "GK",
+        "age": 24,
+        "apps": 2,
+        "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Ognyan Vladimirov",
+        "position": "GK",
+        "age": 18,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Alex Centelles",
+        "position": null,
+        "age": 26,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.6
+      },
+      {
+        "name": "Maicon",
+        "position": "DF",
+        "age": 26,
+        "apps": 2,
+        "goals": 0,
+        "rating": 5.3
+      },
+      {
+        "name": "Hevertton",
+        "position": "DF",
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Kristian Dimitrov",
+        "position": "DF",
+        "age": 29,
+        "apps": 1,
+        "goals": 1,
+        "rating": 5.2
+      },
+      {
+        "name": "David Kusso",
+        "position": "DF",
+        "age": 22,
+        "apps": 3,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Aldair",
+        "position": "DF",
+        "age": 26,
+        "apps": 3,
+        "goals": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Nikola Serafimov",
+        "position": "DF",
+        "age": 26,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.2
+      },
+      {
+        "name": "Christian Makoun",
+        "position": null,
+        "age": 26,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5.3
+      },
+      {
+        "name": "Asen Mitkov",
+        "position": "MF",
+        "age": 21,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Mehdi Moubarik",
+        "position": "MF",
+        "age": 25,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Serginho",
+        "position": "MF",
+        "age": 26,
+        "apps": 3,
+        "goals": 2,
+        "rating": 5
+      },
+      {
+        "name": "Gasper Trdin",
+        "position": "MF",
+        "age": 28,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Mazire Soula",
+        "position": "MF",
+        "age": 28,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5
+      },
+      {
+        "name": "Akram Bouras",
+        "position": null,
+        "age": 24,
+        "apps": 3,
+        "goals": 2,
+        "rating": 4.8
+      },
+      {
+        "name": "Armstrong Oko-Flex",
+        "position": "ST",
+        "age": 24,
+        "apps": 3,
+        "goals": 1,
+        "rating": 4.2
+      },
+      {
+        "name": "Everton Bala",
+        "position": "ST",
+        "age": 27,
+        "apps": 3,
+        "goals": 0,
+        "rating": 5.2
+      },
+      {
+        "name": "Reinaldo",
+        "position": "ST",
+        "age": 25,
+        "apps": 3,
+        "goals": 1,
+        "rating": 4.1
+      },
+      {
+        "name": "Steven Stoyanchov",
+        "position": null,
+        "age": 18,
+        "apps": 2,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Mustapha Sangaré",
+        "position": null,
+        "age": 27,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Juan Perea",
+        "position": "ST",
+        "age": 26,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.8
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "Polissya Zhitomir",
+        "rating": 1917.21
+      },
+      {
+        "name": "UD Almeria",
+        "rating": 2041.32
+      }
+    ]
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "247",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [
+      "Competição com fase regular e três grupos finais distintos.",
+      "Tabela da fase regular.",
+      "Quando a competição dividir em grupos ou playoffs, as zonas finais podem mudar."
+    ],
+    "ruleProfileId": "regular-season-before-split",
+    "tableName": "Campeonato",
+    "tableType": "regular_plus_playoffs",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Levski Sofia",
+        "teamUrl": "https://www.zerozero.pt/equipa/levski-sofia/1040?epoca_id=156",
+        "points": 12,
+        "matches": 4,
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 9,
+        "goalsAgainst": 2,
+        "goalDifference": "+7",
+        "highlight": "away"
+      },
+      {
+        "position": 2,
+        "teamName": "Ludogorets Razgrad",
+        "teamUrl": "https://www.zerozero.pt/equipa/ludogorets-razgrad?epoca_id=156",
+        "points": 12,
+        "matches": 4,
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 8,
+        "goalsAgainst": 3,
+        "goalDifference": "+5",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "CSKA Sofia",
+        "teamUrl": "https://www.zerozero.pt/equipa/cska-sofia?epoca_id=156",
+        "points": 10,
+        "matches": 4,
+        "wins": 3,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 8,
+        "goalsAgainst": 3,
+        "goalDifference": "+5",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "CSKA 1948",
+        "teamUrl": "https://www.zerozero.pt/equipa/cska-1948/216100?epoca_id=156",
+        "points": 10,
+        "matches": 4,
+        "wins": 3,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 9,
+        "goalsAgainst": 5,
+        "goalDifference": "+4",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Botev Plovdiv",
+        "teamUrl": "https://www.zerozero.pt/equipa/botev-plovdiv/1827?epoca_id=156",
+        "points": 7,
+        "matches": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 7,
+        "goalsAgainst": 6,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Spartak Varna",
+        "teamUrl": "https://www.zerozero.pt/equipa/spartak-varna/1821?epoca_id=156",
+        "points": 7,
+        "matches": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 8,
+        "goalsAgainst": 5,
+        "goalDifference": "+3",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "Arda Kardzhali",
+        "teamUrl": "https://www.zerozero.pt/equipa/arda-kardzhali/209666?epoca_id=156",
+        "points": 7,
+        "matches": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 3,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "Slavia",
+        "teamUrl": "https://www.zerozero.pt/equipa/slavia/1816?epoca_id=156",
+        "points": 5,
+        "matches": 4,
+        "wins": 1,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 2,
+        "goalDifference": "+2",
+        "highlight": "home"
+      },
+      {
+        "position": 9,
+        "teamName": "Lokomotiv Plovdiv",
+        "teamUrl": "https://www.zerozero.pt/equipa/lokomotiv-plovdiv/1815?epoca_id=156",
+        "points": 3,
+        "matches": 4,
+        "wins": 1,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 2,
+        "goalsAgainst": 5,
+        "goalDifference": "-3",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Lokomotiv Sofia",
+        "teamUrl": "https://www.zerozero.pt/equipa/lokomotiv-sofia/1818?epoca_id=156",
+        "points": 2,
+        "matches": 4,
+        "wins": 0,
+        "draws": 2,
+        "losses": 2,
+        "goalsFor": 4,
+        "goalsAgainst": 7,
+        "goalDifference": "-3",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Botev Vratsa",
+        "teamUrl": "https://www.zerozero.pt/equipa/botev-vratsa/10830?epoca_id=156",
+        "points": 1,
+        "matches": 4,
+        "wins": 0,
+        "draws": 1,
+        "losses": 3,
+        "goalsFor": 3,
+        "goalsAgainst": 8,
+        "goalDifference": "-5",
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "Cherno More",
+        "teamUrl": "https://www.zerozero.pt/equipa/cherno-more/1824?epoca_id=156",
+        "points": 1,
+        "matches": 4,
+        "wins": 0,
+        "draws": 1,
+        "losses": 3,
+        "goalsFor": 3,
+        "goalsAgainst": 8,
+        "goalDifference": "-5",
+        "highlight": null
+      },
+      {
+        "position": 13,
+        "teamName": "Septemvri Sofia",
+        "teamUrl": "https://www.zerozero.pt/equipa/septemvri-sofia/109166?epoca_id=156",
+        "points": 1,
+        "matches": 4,
+        "wins": 0,
+        "draws": 1,
+        "losses": 3,
+        "goalsFor": 2,
+        "goalsAgainst": 9,
+        "goalDifference": "-7",
+        "highlight": null
+      },
+      {
+        "position": 14,
+        "teamName": "FC Dunav",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-dunav/10828?epoca_id=156",
+        "points": 0,
+        "matches": 4,
+        "wins": 0,
+        "draws": 0,
+        "losses": 4,
+        "goalsFor": 2,
+        "goalsAgainst": 8,
+        "goalDifference": "-6",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/247.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/247-parva-liga/8632-levski-sofia.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/bulgaria/1295-levski-sofia.json",
+      "matchedBy": "sofascoreTeamId"
+    }
+  }
+}

@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-13T14:56:21.422Z",
+  "builtAtUtc": "2026-08-14T12:55:00.998Z",
   "match": {
     "id": "16578796",
     "date": "2026-08-13",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 3,
+    "awayScore": 3,
     "matchUrl": "https://www.sofascore.com/football/match/pafos-fc-red-bull-salzburg/WPsBHtb#id:16578796",
     "kickoffAtUtc": "2026-08-13T17:00:00.000Z",
     "competition": {

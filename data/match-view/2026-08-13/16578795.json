@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-13T14:56:21.436Z",
+  "builtAtUtc": "2026-08-14T12:55:01.015Z",
   "match": {
     "id": "16578795",
     "date": "2026-08-13",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 3,
+    "awayScore": 2,
     "matchUrl": "https://www.sofascore.com/football/match/paok-rsc-anderlecht/aibsbpb#id:16578795",
     "kickoffAtUtc": "2026-08-13T18:30:00.000Z",
     "competition": {
@@ -73,7 +73,7 @@
   "awayTeam": {
     "identity": {
       "id": "3251",
-      "name": "PAOK",
+      "name": "PAOKx2",
       "logoUrl": "https://img.sofascore.com/api/v1/team/3251/image/small",
       "sourceIds": {
         "sofascore": "3251",

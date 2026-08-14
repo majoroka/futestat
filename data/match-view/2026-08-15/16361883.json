@@ -1,0 +1,414 @@
+{
+  "builtAtUtc": "2026-08-14T12:55:01.138Z",
+  "match": {
+    "id": "16361883",
+    "date": "2026-08-15",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/kvc-westerlo-krc-genk/PhbsThb#id:16361883",
+    "kickoffAtUtc": "2026-08-15T18:45:00.000Z",
+    "competition": {
+      "id": "38",
+      "name": "Pro League",
+      "country": "Belgium",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/38/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "2890",
+      "name": "Genk",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2890/image/small",
+      "sourceIds": {
+        "sofascore": "2890",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "2893",
+      "name": "Westerlo",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2893/image/small",
+      "sourceIds": {
+        "sofascore": "2893",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "38",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [
+      "Competição com fase regular e múltiplos playoffs finais.",
+      "Tabela da fase regular antes dos playoffs finais."
+    ],
+    "ruleProfileId": "regular-season-before-split",
+    "tableName": "Campeonato",
+    "tableType": "regular_plus_playoffs",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Union St. Gilloise",
+        "teamUrl": "https://www.zerozero.pt/equipa/union-st-gilloise?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 1,
+        "goalDifference": "+4",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Club Brugge",
+        "teamUrl": "https://www.zerozero.pt/equipa/club-brugge?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 0,
+        "goalDifference": "+3",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Charleroi",
+        "teamUrl": "https://www.zerozero.pt/equipa/charleroi/1788?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 1,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "Gent",
+        "teamUrl": "https://www.zerozero.pt/equipa/gent?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 0,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Anderlecht",
+        "teamUrl": "https://www.zerozero.pt/equipa/anderlecht?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Royal Antwerp",
+        "teamUrl": "https://www.zerozero.pt/equipa/royal-antwerp?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "Zulte Waregem",
+        "teamUrl": "https://www.zerozero.pt/equipa/zulte-waregem/5870?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "Cercle Brugge",
+        "teamUrl": "https://www.zerozero.pt/equipa/cercle-brugge/1784?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Standard Liège",
+        "teamUrl": "https://www.zerozero.pt/equipa/standard-liege/1775?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Lommel SK",
+        "teamUrl": "https://www.zerozero.pt/equipa/lommel-sk/13732?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Sint-Truiden",
+        "teamUrl": "https://www.zerozero.pt/equipa/sint-truiden/1778?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "Sportkring Beveren",
+        "teamUrl": "https://www.zerozero.pt/equipa/sportkring-beveren/8930?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 13,
+        "teamName": "Genk",
+        "teamUrl": "https://www.zerozero.pt/equipa/genk?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "goalDifference": "-1",
+        "highlight": "home"
+      },
+      {
+        "position": 14,
+        "teamName": "La Louvière",
+        "teamUrl": "https://www.zerozero.pt/equipa/la-louviere/1118?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "OH Leuven",
+        "teamUrl": "https://www.zerozero.pt/equipa/oh-leuven/8929?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 3,
+        "goalDifference": "-2",
+        "highlight": null
+      },
+      {
+        "position": 16,
+        "teamName": "KV Mechelen",
+        "teamUrl": "https://www.zerozero.pt/equipa/kv-mechelen/5083?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 2,
+        "goalDifference": "-2",
+        "highlight": null
+      },
+      {
+        "position": 17,
+        "teamName": "Kortrijk",
+        "teamUrl": "https://www.zerozero.pt/equipa/kortrijk/7809?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 3,
+        "goalDifference": "-3",
+        "highlight": null
+      },
+      {
+        "position": 18,
+        "teamName": "Westerlo",
+        "teamUrl": "https://www.zerozero.pt/equipa/westerlo/1780?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 5,
+        "goalDifference": "-4",
+        "highlight": "away"
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/38.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

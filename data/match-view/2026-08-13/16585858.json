@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-13T14:56:21.417Z",
+  "builtAtUtc": "2026-08-14T12:55:00.992Z",
   "match": {
     "id": "16585858",
     "date": "2026-08-13",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 5,
+    "awayScore": 0,
     "matchUrl": "https://www.sofascore.com/football/match/valur-reykjavik-fc-nordsjaelland/RAsZM#id:16585858",
     "kickoffAtUtc": "2026-08-13T17:00:00.000Z",
     "competition": {

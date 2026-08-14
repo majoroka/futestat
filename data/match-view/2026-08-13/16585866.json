@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-13T14:56:21.442Z",
+  "builtAtUtc": "2026-08-14T12:55:01.021Z",
   "match": {
     "id": "16585866",
     "date": "2026-08-13",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 4,
+    "awayScore": 0,
     "matchUrl": "https://www.sofascore.com/football/match/fk-zalgiris-hnk-hajduk-split/LPsVgc#id:16585866",
     "kickoffAtUtc": "2026-08-13T19:00:00.000Z",
     "competition": {

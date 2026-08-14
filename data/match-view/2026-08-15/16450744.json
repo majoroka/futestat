@@ -1,0 +1,821 @@
+{
+  "builtAtUtc": "2026-08-14T12:55:01.124Z",
+  "match": {
+    "id": "16450744",
+    "date": "2026-08-15",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/academico-viseu-fc-santa-clara/lkbsxkb#id:16450744",
+    "kickoffAtUtc": "2026-08-15T17:00:00.000Z",
+    "competition": {
+      "id": "238",
+      "name": "Liga Portugal Betclic",
+      "country": "Portugal",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/238/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "3022",
+      "name": "Académico Viseu",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3022/image/small",
+      "sourceIds": {
+        "sofascore": "3022",
+        "fotmob": "1786",
+        "soccerRating": "6047"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1900.38,
+      "nationalRank": 15,
+      "europeRank": 436,
+      "formLast3": [
+        "W",
+        "W",
+        "L"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [
+          {
+            "player": "Robinho",
+            "status": "injury_or_suspension",
+            "description": null
+          },
+          {
+            "player": "Nikolaos Michelis",
+            "status": "injury_or_suspension",
+            "description": null
+          }
+        ],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 5.1,
+        "players": [
+          {
+            "name": "Bruno Brigido",
+            "position": "GK",
+            "age": null,
+            "apps": 9,
+            "goals": 0,
+            "rating": 2.8
+          },
+          {
+            "name": "Anthony Correia",
+            "position": "DF",
+            "age": null,
+            "apps": 32,
+            "goals": 3,
+            "rating": 6.3
+          },
+          {
+            "name": "Gu Costa",
+            "position": "DF",
+            "age": null,
+            "apps": 29,
+            "goals": 1,
+            "rating": 4.6
+          },
+          {
+            "name": "Ruben Pereira",
+            "position": "DF",
+            "age": null,
+            "apps": 14,
+            "goals": 1,
+            "rating": 4.1
+          },
+          {
+            "name": "Luis Silva",
+            "position": "MF",
+            "age": null,
+            "apps": 29,
+            "goals": 1,
+            "rating": 3.5
+          },
+          {
+            "name": "Cihan Kahraman",
+            "position": "MF",
+            "age": null,
+            "apps": 29,
+            "goals": 6,
+            "rating": 4.8
+          },
+          {
+            "name": "Soufiane Messeguem",
+            "position": "MF",
+            "age": null,
+            "apps": 33,
+            "goals": 1,
+            "rating": 6
+          },
+          {
+            "name": "André Clovis",
+            "position": "ST",
+            "age": null,
+            "apps": 34,
+            "goals": 23,
+            "rating": 8
+          },
+          {
+            "name": "Alvaro Zamora",
+            "position": "ST",
+            "age": null,
+            "apps": 30,
+            "goals": 8,
+            "rating": 6.7
+          },
+          {
+            "name": "Joao Guilherme",
+            "position": "ST",
+            "age": null,
+            "apps": 30,
+            "goals": 5,
+            "rating": 4.8
+          },
+          {
+            "name": "Lorougnon Gohi",
+            "position": "ST",
+            "age": null,
+            "apps": 25,
+            "goals": 4,
+            "rating": 4
+          },
+          {
+            "name": "Pedro Barcelos",
+            "position": "DF",
+            "age": null,
+            "apps": 26,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "André Ceitil",
+            "position": "MF",
+            "age": null,
+            "apps": 13,
+            "goals": 0,
+            "rating": 3.8
+          },
+          {
+            "name": "Simao Silva",
+            "position": "ST",
+            "age": null,
+            "apps": 26,
+            "goals": 0,
+            "rating": 4.3
+          },
+          {
+            "name": "Nils Mortimer",
+            "position": "ST",
+            "age": null,
+            "apps": 20,
+            "goals": 2,
+            "rating": 3.7
+          },
+          {
+            "name": "Dominik Steczyk",
+            "position": "ST",
+            "age": null,
+            "apps": 11,
+            "goals": 0,
+            "rating": 3.6
+          },
+          {
+            "name": "Igor Milioransa",
+            "position": "DF",
+            "age": null,
+            "apps": 10,
+            "goals": 0,
+            "rating": 3.6
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.09,
+          "draw": 10.5,
+          "away": 26
+        },
+        "fair1X2": {
+          "home": 1.17,
+          "draw": 9.96,
+          "away": 23.96
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [
+      {
+        "name": "Bruno Brigido",
+        "position": "GK",
+        "age": 35,
+        "apps": 9,
+        "goals": 0,
+        "rating": 2.8
+      },
+      {
+        "name": "Tomas Domingos",
+        "position": null,
+        "age": 27,
+        "apps": 13,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Kaua Vinicius",
+        "position": null,
+        "age": 22,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Anthony Correia",
+        "position": "DF",
+        "age": 26,
+        "apps": 32,
+        "goals": 3,
+        "rating": 6.3
+      },
+      {
+        "name": "Gu Costa",
+        "position": "DF",
+        "age": 20,
+        "apps": 29,
+        "goals": 1,
+        "rating": 4.6
+      },
+      {
+        "name": "Ruben Pereira",
+        "position": "DF",
+        "age": 28,
+        "apps": 14,
+        "goals": 1,
+        "rating": 4.1
+      },
+      {
+        "name": "Pedro Barcelos",
+        "position": "DF",
+        "age": 30,
+        "apps": 26,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Igor Milioransa",
+        "position": "DF",
+        "age": 29,
+        "apps": 10,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Nikolaos Michelis",
+        "position": null,
+        "age": 25,
+        "apps": 24,
+        "goals": 1,
+        "rating": 5.7
+      },
+      {
+        "name": "Tomas Silva",
+        "position": null,
+        "age": 22,
+        "apps": 9,
+        "goals": 0,
+        "rating": 2
+      },
+      {
+        "name": "Rodrigo Guedes",
+        "position": null,
+        "age": 25,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Luis Silva",
+        "position": "MF",
+        "age": 33,
+        "apps": 29,
+        "goals": 1,
+        "rating": 3.5
+      },
+      {
+        "name": "Cihan Kahraman",
+        "position": "MF",
+        "age": 27,
+        "apps": 29,
+        "goals": 6,
+        "rating": 4.8
+      },
+      {
+        "name": "André Ceitil",
+        "position": "MF",
+        "age": 31,
+        "apps": 13,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Soufiane Messeguem",
+        "position": "MF",
+        "age": 25,
+        "apps": 33,
+        "goals": 1,
+        "rating": 6
+      },
+      {
+        "name": "Gabriel Lucas",
+        "position": null,
+        "age": 24,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Simao Silva",
+        "position": "ST",
+        "age": 20,
+        "apps": 26,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Alvaro Zamora",
+        "position": "ST",
+        "age": 24,
+        "apps": 30,
+        "goals": 8,
+        "rating": 6.7
+      },
+      {
+        "name": "Joao Guilherme",
+        "position": "ST",
+        "age": 25,
+        "apps": 30,
+        "goals": 5,
+        "rating": 4.8
+      },
+      {
+        "name": "Lorougnon Gohi",
+        "position": "ST",
+        "age": 21,
+        "apps": 25,
+        "goals": 4,
+        "rating": 4
+      },
+      {
+        "name": "Nils Mortimer",
+        "position": "ST",
+        "age": 24,
+        "apps": 20,
+        "goals": 2,
+        "rating": 3.7
+      },
+      {
+        "name": "Dominik Steczyk",
+        "position": "ST",
+        "age": 27,
+        "apps": 11,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "André Clovis",
+        "position": "ST",
+        "age": 28,
+        "apps": 34,
+        "goals": 23,
+        "rating": 8
+      },
+      {
+        "name": "Robinho",
+        "position": null,
+        "age": 28,
+        "apps": 32,
+        "goals": 0,
+        "rating": 5.1
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "Bury FC",
+        "rating": 1898.38
+      },
+      {
+        "name": "FK Sarajevo",
+        "rating": 1898.23
+      }
+    ]
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "3011",
+      "name": "Santa Clara",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3011/image/small",
+      "sourceIds": {
+        "sofascore": "3011",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "238",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "FC Porto",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-porto?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 0,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Gil Vicente",
+        "teamUrl": "https://www.zerozero.pt/equipa/gil-vicente?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 0,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "FC Arouca",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-arouca/3555?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 0,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "Marítimo",
+        "teamUrl": "https://www.zerozero.pt/equipa/maritimo?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 0,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Benfica",
+        "teamUrl": "https://www.zerozero.pt/equipa/benfica?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Sporting",
+        "teamUrl": "https://www.zerozero.pt/equipa/sporting?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "SC Braga",
+        "teamUrl": "https://www.zerozero.pt/equipa/sc-braga?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "Moreirense",
+        "teamUrl": "https://www.zerozero.pt/equipa/moreirense/6?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Santa Clara",
+        "teamUrl": "https://www.zerozero.pt/equipa/santa-clara/32?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": "0",
+        "highlight": "away"
+      },
+      {
+        "position": 10,
+        "teamName": "Nacional",
+        "teamUrl": "https://www.zerozero.pt/equipa/nacional/27?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Est. Amadora",
+        "teamUrl": "https://www.zerozero.pt/equipa/est-amadora/253884?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "Académico",
+        "teamUrl": "https://www.zerozero.pt/equipa/academico/2181?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": "0",
+        "highlight": "home"
+      },
+      {
+        "position": 13,
+        "teamName": "FC Famalicão",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-famalicao/2175?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 14,
+        "teamName": "Estoril Praia",
+        "teamUrl": "https://www.zerozero.pt/equipa/estoril-praia/1734?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "Vitória SC",
+        "teamUrl": "https://www.zerozero.pt/equipa/vitoria-sc?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 1,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 16,
+        "teamName": "Rio Ave",
+        "teamUrl": "https://www.zerozero.pt/equipa/rio-ave/31?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 1,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 17,
+        "teamName": "Casa Pia AC",
+        "teamUrl": "https://www.zerozero.pt/equipa/casa-pia-ac/2412?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 1,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 18,
+        "teamName": "FC Alverca",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-alverca/1?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 2,
+        "goalDifference": "-2",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/238.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/238-liga-portugal-betclic/1786-academico-viseu.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/6047-academico-viseu.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

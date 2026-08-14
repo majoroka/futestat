@@ -1,0 +1,723 @@
+{
+  "builtAtUtc": "2026-08-14T12:55:01.141Z",
+  "match": {
+    "id": "16275184",
+    "date": "2026-08-15",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/nk-lokomotiva-zagreb-nk-osijek/PPsWzo#id:16275184",
+    "kickoffAtUtc": "2026-08-15T19:00:00.000Z",
+    "competition": {
+      "id": "170",
+      "name": "HNL",
+      "country": "Croatia",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/170/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "2040",
+      "name": "Osijek",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2040/image/small",
+      "sourceIds": {
+        "sofascore": "2040",
+        "fotmob": "10157",
+        "soccerRating": "638"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1845.67,
+      "nationalRank": 9,
+      "europeRank": 580,
+      "formLast3": [
+        "L",
+        "W",
+        "W"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": 52.9,
+      "cleanSheets": 1
+    },
+    "overview": {
+      "prediction": {
+        "tip": "away_win",
+        "tipLabel": "Bet on (2) NK Osijek (Stake 2/10)",
+        "confidencePct": 20,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 4.2,
+        "players": [
+          {
+            "name": "Marko Malenica",
+            "position": "GK",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4.3
+          },
+          {
+            "name": "Luka Jelenic",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 5.4
+          },
+          {
+            "name": "Roko Jurisic",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 5.1
+          },
+          {
+            "name": "Ivano Kolarik",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 1.8
+          },
+          {
+            "name": "Senad Mustafic",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2.5
+          },
+          {
+            "name": "Luka Vrbancic",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 5
+          },
+          {
+            "name": "Nail Omerovic",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 1,
+            "rating": 6.7
+          },
+          {
+            "name": "Domagoj Bukvic",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 5.3
+          },
+          {
+            "name": "Armando Leon",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.6
+          },
+          {
+            "name": "Ivan Dolcek",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 1,
+            "rating": 4.4
+          },
+          {
+            "name": "Nikola Curcija",
+            "position": "GK",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 1.4
+          },
+          {
+            "name": "Emin Hasic",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.5
+          },
+          {
+            "name": "Simun Mikolcic",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.8
+          },
+          {
+            "name": "Arnel Jakupovic",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 5.8
+          },
+          {
+            "name": "Admir Ljatifi",
+            "position": "ST",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 2
+          },
+          {
+            "name": "Jon Mersinaj",
+            "position": "DF",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 3.2
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 3.75,
+          "draw": 3.5,
+          "away": 1.93
+        },
+        "fair1X2": {
+          "home": 4.65,
+          "draw": 4.05,
+          "away": 1.86
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 4,
+        "goalsConcededPerMatch": 0.5,
+        "averagePossessionPct": 52.9,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": 9,
+        "bigChances": 10,
+        "bigChancesMissed": 5,
+        "accuratePassesPerMatch": 341,
+        "accurateLongBallsPerMatch": 22,
+        "accurateCrossesPerMatch": 7.5,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": 69,
+        "cornersPerMatch": 12,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": 8.5,
+        "tacklesPerMatch": 15,
+        "clearancesPerMatch": 23,
+        "finalThirdRecoveriesPerMatch": 3,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": 2.5
+      },
+      "discipline": {
+        "foulsPerMatch": 15.5,
+        "yellowCardsPerMatch": 4,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [
+      {
+        "name": "Marko Malenica",
+        "position": "GK",
+        "age": 32,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Nikola Curcija",
+        "position": "GK",
+        "age": 25,
+        "apps": 0,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Marcel Heister",
+        "position": null,
+        "age": 33,
+        "apps": 0,
+        "goals": 0,
+        "rating": 2.2
+      },
+      {
+        "name": "Luka Jelenic",
+        "position": "DF",
+        "age": 26,
+        "apps": 1,
+        "goals": 0,
+        "rating": 5.4
+      },
+      {
+        "name": "Roko Jurisic",
+        "position": "DF",
+        "age": 24,
+        "apps": 1,
+        "goals": 0,
+        "rating": 5.1
+      },
+      {
+        "name": "Ivano Kolarik",
+        "position": "DF",
+        "age": 19,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.8
+      },
+      {
+        "name": "Senad Mustafic",
+        "position": "DF",
+        "age": 20,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.5
+      },
+      {
+        "name": "Emin Hasic",
+        "position": "DF",
+        "age": 23,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.5
+      },
+      {
+        "name": "Jon Mersinaj",
+        "position": "DF",
+        "age": 27,
+        "apps": 0,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Niko Farkas",
+        "position": null,
+        "age": 19,
+        "apps": 0,
+        "goals": 0,
+        "rating": 1.2
+      },
+      {
+        "name": "Luka Vrbancic",
+        "position": "MF",
+        "age": 21,
+        "apps": 1,
+        "goals": 0,
+        "rating": 5
+      },
+      {
+        "name": "Balazs Bakti",
+        "position": null,
+        "age": 21,
+        "apps": 0,
+        "goals": 0,
+        "rating": 2.2
+      },
+      {
+        "name": "Simun Mikolcic",
+        "position": "MF",
+        "age": 22,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Admir Ljatifi",
+        "position": "ST",
+        "age": 19,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2
+      },
+      {
+        "name": "Balelo",
+        "position": null,
+        "age": 24,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Armando Leon",
+        "position": "ST",
+        "age": 26,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Milos Jovicic",
+        "position": null,
+        "age": 20,
+        "apps": 0,
+        "goals": 0,
+        "rating": 1.4
+      },
+      {
+        "name": "Nail Omerovic",
+        "position": "ST",
+        "age": 23,
+        "apps": 1,
+        "goals": 1,
+        "rating": 6.7
+      },
+      {
+        "name": "Domagoj Bukvic",
+        "position": "ST",
+        "age": 22,
+        "apps": 1,
+        "goals": 0,
+        "rating": 5.3
+      },
+      {
+        "name": "Arnel Jakupovic",
+        "position": "ST",
+        "age": 28,
+        "apps": 1,
+        "goals": 0,
+        "rating": 5.8
+      },
+      {
+        "name": "Ivan Dolcek",
+        "position": "ST",
+        "age": 26,
+        "apps": 1,
+        "goals": 1,
+        "rating": 4.4
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "Landskrona BoIS",
+        "rating": 1845.85
+      },
+      {
+        "name": "Albacete Balompie",
+        "rating": 1845.07
+      }
+    ]
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "36246",
+      "name": "Lokomotiva",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/36246/image/small",
+      "sourceIds": {
+        "sofascore": "36246",
+        "fotmob": "175388",
+        "soccerRating": "8329"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1362.22,
+      "nationalRank": 39,
+      "europeRank": 7597,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": 45.5,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": null
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": null,
+        "fair1X2": null,
+        "movementSummary": null
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 3,
+        "goalsConcededPerMatch": 1.5,
+        "averagePossessionPct": 45.5,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": 4,
+        "bigChances": 5,
+        "bigChancesMissed": 4,
+        "accuratePassesPerMatch": 292.5,
+        "accurateLongBallsPerMatch": 21.5,
+        "accurateCrossesPerMatch": 5,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": 30,
+        "cornersPerMatch": 13,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": 10,
+        "tacklesPerMatch": 11,
+        "clearancesPerMatch": 28.5,
+        "finalThirdRecoveriesPerMatch": 2,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": 4.5
+      },
+      "discipline": {
+        "foulsPerMatch": 11.5,
+        "yellowCardsPerMatch": 9,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "SanGiovanniValdarno",
+        "rating": 1362.28
+      },
+      {
+        "name": "Racing Club Genève",
+        "rating": 1362.2
+      }
+    ]
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "170",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "NK Osijek",
+        "teamUrl": "https://www.zerozero.pt/equipa/nk-osijek?epoca_id=156",
+        "points": 6,
+        "matches": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 8,
+        "goalsAgainst": 1,
+        "goalDifference": "+7",
+        "highlight": "home"
+      },
+      {
+        "position": 2,
+        "teamName": "NK Varazdin",
+        "teamUrl": "https://www.zerozero.pt/equipa/nk-varazdin/1045?epoca_id=156",
+        "points": 6,
+        "matches": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 2,
+        "goalDifference": "+4",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "NK Lokomotiva",
+        "teamUrl": "https://www.zerozero.pt/equipa/nk-lokomotiva/25230?epoca_id=156",
+        "points": 6,
+        "matches": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 3,
+        "goalDifference": "+3",
+        "highlight": "away"
+      },
+      {
+        "position": 4,
+        "teamName": "Dinamo Zagreb",
+        "teamUrl": "https://www.zerozero.pt/equipa/dinamo-zagreb?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 0,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "HNK Rijeka",
+        "teamUrl": "https://www.zerozero.pt/equipa/hnk-rijeka?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "NK Istra 1961",
+        "teamUrl": "https://www.zerozero.pt/equipa/nk-istra-1961/4266?epoca_id=156",
+        "points": 1,
+        "matches": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 5,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "Hajduk Split",
+        "teamUrl": "https://www.zerozero.pt/equipa/hajduk-split?epoca_id=156",
+        "points": 1,
+        "matches": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 4,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "HNK Gorica",
+        "teamUrl": "https://www.zerozero.pt/equipa/hnk-gorica/39885?epoca_id=156",
+        "points": 0,
+        "matches": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 5,
+        "goalDifference": "-4",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Slaven",
+        "teamUrl": "https://www.zerozero.pt/equipa/slaven/1857?epoca_id=156",
+        "points": 0,
+        "matches": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 6,
+        "goalDifference": "-5",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "NK Rudes",
+        "teamUrl": "https://www.zerozero.pt/equipa/nk-rudes/28896?epoca_id=156",
+        "points": 0,
+        "matches": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 8,
+        "goalDifference": "-6",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/170.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/170-hnl/10157-osijek.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/170-hnl/175388-nk-lokomotiva.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "homeTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/croatia/638-nk-osijek.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/croatia/8329-nk-lokomotiva.json",
+      "matchedBy": "sofascoreTeamId"
+    }
+  }
+}

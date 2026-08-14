@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-13T14:56:21.418Z",
+  "builtAtUtc": "2026-08-14T12:55:00.993Z",
   "match": {
     "id": "16585853",
     "date": "2026-08-13",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 2,
+    "awayScore": 1,
     "matchUrl": "https://www.sofascore.com/football/match/cfr-1907-cluj-tromso-il/knsMfc#id:16585853",
     "kickoffAtUtc": "2026-08-13T17:00:00.000Z",
     "competition": {

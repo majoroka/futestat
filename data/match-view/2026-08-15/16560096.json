@@ -1,0 +1,296 @@
+{
+  "builtAtUtc": "2026-08-14T12:55:01.118Z",
+  "match": {
+    "id": "16560096",
+    "date": "2026-08-15",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/usc-paredes-pacos-de-ferreira/dkbsQGRb#id:16560096",
+    "kickoffAtUtc": "2026-08-15T16:30:00.000Z",
+    "competition": {
+      "id": "17101",
+      "name": "Liga 3, Group A",
+      "country": "Portugal",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/17101/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "3003",
+      "name": "Paços de Ferreira",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3003/image/small",
+      "sourceIds": {
+        "sofascore": "3003",
+        "fotmob": "6403",
+        "soccerRating": "1078"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1754.42,
+      "nationalRank": 31,
+      "europeRank": 864,
+      "formLast3": [
+        "D",
+        "W",
+        "W"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": {
+        "tip": "home_or_draw",
+        "tipLabel": "Bet on (1X) AD Marco 09 (Stake 2/10)",
+        "confidencePct": 20,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 2.95,
+          "draw": 3.1,
+          "away": 2.1
+        },
+        "fair1X2": {
+          "home": 3.26,
+          "draw": 3.65,
+          "away": 2.39
+        },
+        "movementSummary": "home_odds_down_away_odds_up"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 1,
+        "goalsConcededPerMatch": 2,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": 2,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "Hapoel Ironi Kiryat Shmona",
+        "rating": 1761.74
+      },
+      {
+        "name": "CD San Fernando",
+        "rating": 1760.99
+      }
+    ]
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "231591",
+      "name": "Paredes",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/231591/image/small",
+      "sourceIds": {
+        "sofascore": "231591",
+        "fotmob": "2503",
+        "soccerRating": "5839"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1689.77,
+      "nationalRank": 41,
+      "europeRank": 1177,
+      "formLast3": [
+        "D",
+        "L",
+        "D"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": null,
+        "players": []
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.77,
+          "draw": 3.25,
+          "away": 4
+        },
+        "fair1X2": {
+          "home": 2.41,
+          "draw": 3.83,
+          "away": 3.08
+        },
+        "movementSummary": "home_odds_flat_away_odds_flat"
+      }
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": null,
+        "goalsConcededPerMatch": null,
+        "averagePossessionPct": null,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": null,
+        "xgDiff": null,
+        "shotsOnTargetPerMatch": null,
+        "bigChances": null,
+        "bigChancesMissed": null,
+        "accuratePassesPerMatch": null,
+        "accurateLongBallsPerMatch": null,
+        "accurateCrossesPerMatch": null,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": null,
+        "cornersPerMatch": null,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": null,
+        "interceptionsPerMatch": null,
+        "tacklesPerMatch": null,
+        "clearancesPerMatch": null,
+        "finalThirdRecoveriesPerMatch": null,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": null
+      },
+      "discipline": {
+        "foulsPerMatch": null,
+        "yellowCardsPerMatch": null,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "KF Drenica Skenderaj",
+        "rating": 1689.85
+      },
+      {
+        "name": "Leca FC",
+        "rating": 1689.64
+      }
+    ]
+  },
+  "standings": {
+    "available": false,
+    "competitionId": "17101",
+    "sourceStatus": "missing",
+    "phaseName": null,
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": null,
+    "tableType": null,
+    "rows": []
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-a/6403-pacos-de-ferreira.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/17101-liga-3-group-a/2503-paredes.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "homeTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/1078-pacos-ferreira.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/portugal/5839-usc-paredes.json",
+      "matchedBy": "sofascoreTeamId"
+    }
+  }
+}

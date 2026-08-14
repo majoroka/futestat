@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-13T14:56:21.435Z",
+  "builtAtUtc": "2026-08-14T12:55:01.013Z",
   "match": {
     "id": "16585822",
     "date": "2026-08-13",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 1,
+    "awayScore": 1,
     "matchUrl": "https://www.sofascore.com/football/match/riga-fc-eto-fc-gyor/yNstXob#id:16585822",
     "kickoffAtUtc": "2026-08-13T18:30:00.000Z",
     "competition": {

@@ -1,0 +1,758 @@
+{
+  "builtAtUtc": "2026-08-14T12:55:01.091Z",
+  "match": {
+    "id": "15260879",
+    "date": "2026-08-15",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/kfum-oslo-lillestrom-sk/onsLp#id:15260879",
+    "kickoffAtUtc": "2026-08-15T14:00:00.000Z",
+    "competition": {
+      "id": "20",
+      "name": "Eliteserien",
+      "country": "Norway",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/20/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "786",
+      "name": "KFUM Oslo",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/786/image/small",
+      "sourceIds": {
+        "sofascore": "786",
+        "fotmob": null,
+        "soccerRating": "3243"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1932.03,
+      "nationalRank": 10,
+      "europeRank": 373,
+      "formLast3": [
+        "L",
+        "L",
+        "L"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": {
+        "tip": null,
+        "tipLabel": null,
+        "confidencePct": null,
+        "strengthComparison": "underdog"
+      },
+      "squadHealth": {
+        "injuries": [],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 4.6,
+        "players": [
+          {
+            "name": "Håvar Jenssen",
+            "position": "GK",
+            "age": null,
+            "apps": 5,
+            "goals": 0,
+            "rating": 2.9
+          },
+          {
+            "name": "Fredrik Berglie",
+            "position": "DF",
+            "age": null,
+            "apps": 11,
+            "goals": 0,
+            "rating": 4.7
+          },
+          {
+            "name": "Daniel Schneider",
+            "position": "DF",
+            "age": null,
+            "apps": 15,
+            "goals": 1,
+            "rating": 4.6
+          },
+          {
+            "name": "Jonas Lange Hjorth",
+            "position": "DF",
+            "age": null,
+            "apps": 10,
+            "goals": 0,
+            "rating": 4.6
+          },
+          {
+            "name": "Brage Skaret",
+            "position": "DF",
+            "age": null,
+            "apps": 7,
+            "goals": 0,
+            "rating": 4.3
+          },
+          {
+            "name": "Tore André Sørås",
+            "position": "MF",
+            "age": null,
+            "apps": 8,
+            "goals": 0,
+            "rating": 4.4
+          },
+          {
+            "name": "Robin Rasch",
+            "position": "MF",
+            "age": null,
+            "apps": 15,
+            "goals": 0,
+            "rating": 4.7
+          },
+          {
+            "name": "H. H. Hoseth",
+            "position": "MF",
+            "age": null,
+            "apps": 13,
+            "goals": 1,
+            "rating": 4.7
+          },
+          {
+            "name": "Rasmus Eggen Vinge",
+            "position": "ST",
+            "age": null,
+            "apps": 13,
+            "goals": 3,
+            "rating": 5.8
+          },
+          {
+            "name": "Magnus Wolff Eikrem",
+            "position": "ST",
+            "age": null,
+            "apps": 11,
+            "goals": 2,
+            "rating": 5.6
+          },
+          {
+            "name": "Bilal Njie",
+            "position": "ST",
+            "age": null,
+            "apps": 10,
+            "goals": 3,
+            "rating": 4.2
+          },
+          {
+            "name": "Eirik Saunes",
+            "position": "DF",
+            "age": null,
+            "apps": 14,
+            "goals": 0,
+            "rating": 5
+          },
+          {
+            "name": "Sander Sjøkvist",
+            "position": "MF",
+            "age": null,
+            "apps": 14,
+            "goals": 0,
+            "rating": 4.5
+          },
+          {
+            "name": "Martin Vinjor",
+            "position": "ST",
+            "age": null,
+            "apps": 14,
+            "goals": 0,
+            "rating": 4.9
+          },
+          {
+            "name": "Bjorn Kristensen",
+            "position": "ST",
+            "age": null,
+            "apps": 15,
+            "goals": 0,
+            "rating": 4.8
+          },
+          {
+            "name": "David Hickson",
+            "position": "ST",
+            "age": null,
+            "apps": 8,
+            "goals": 0,
+            "rating": 4.5
+          },
+          {
+            "name": "Momodou Lion Njie",
+            "position": "DF",
+            "age": null,
+            "apps": 4,
+            "goals": 0,
+            "rating": 4.3
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 2.1,
+          "draw": 3.6,
+          "away": 3.2
+        },
+        "fair1X2": {
+          "home": 2.35,
+          "draw": 3.85,
+          "away": 3.18
+        },
+        "movementSummary": "home_odds_up_away_odds_down"
+      }
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [
+      {
+        "name": "Emil Ødegaard",
+        "position": null,
+        "age": 27,
+        "apps": 8,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Håvar Jenssen",
+        "position": "GK",
+        "age": 30,
+        "apps": 5,
+        "goals": 0,
+        "rating": 2.9
+      },
+      {
+        "name": "Amin Nouri",
+        "position": null,
+        "age": 36,
+        "apps": 6,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Fredrik Berglie",
+        "position": "DF",
+        "age": 29,
+        "apps": 11,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Daniel Schneider",
+        "position": "DF",
+        "age": 24,
+        "apps": 15,
+        "goals": 1,
+        "rating": 4.6
+      },
+      {
+        "name": "Jonas Lange Hjorth",
+        "position": "DF",
+        "age": 25,
+        "apps": 10,
+        "goals": 0,
+        "rating": 4.6
+      },
+      {
+        "name": "Brage Skaret",
+        "position": "DF",
+        "age": 24,
+        "apps": 7,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Eirik Saunes",
+        "position": "DF",
+        "age": 27,
+        "apps": 14,
+        "goals": 0,
+        "rating": 5
+      },
+      {
+        "name": "Momodou Lion Njie",
+        "position": "DF",
+        "age": 24,
+        "apps": 4,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Mostafa Najafzadeh",
+        "position": null,
+        "age": 18,
+        "apps": 1,
+        "goals": 0,
+        "rating": 1.3
+      },
+      {
+        "name": "Robin Rasch",
+        "position": "MF",
+        "age": 32,
+        "apps": 15,
+        "goals": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Sander Sjøkvist",
+        "position": "MF",
+        "age": 27,
+        "apps": 14,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Tore André Sørås",
+        "position": "MF",
+        "age": 28,
+        "apps": 8,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "H. H. Hoseth",
+        "position": "MF",
+        "age": 27,
+        "apps": 13,
+        "goals": 1,
+        "rating": 4.7
+      },
+      {
+        "name": "David Hickson",
+        "position": "ST",
+        "age": 29,
+        "apps": 8,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Rasmus Eggen Vinge",
+        "position": "ST",
+        "age": 25,
+        "apps": 13,
+        "goals": 3,
+        "rating": 5.8
+      },
+      {
+        "name": "Bilal Njie",
+        "position": "ST",
+        "age": 28,
+        "apps": 10,
+        "goals": 3,
+        "rating": 4.2
+      },
+      {
+        "name": "Bjorn Kristensen",
+        "position": "ST",
+        "age": 24,
+        "apps": 15,
+        "goals": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "R. Grødem Magnus",
+        "position": null,
+        "age": 27,
+        "apps": 13,
+        "goals": 2,
+        "rating": 4.1
+      },
+      {
+        "name": "Magnus Wolff Eikrem",
+        "position": "ST",
+        "age": 35,
+        "apps": 11,
+        "goals": 2,
+        "rating": 5.6
+      },
+      {
+        "name": "Martin Vinjor",
+        "position": "ST",
+        "age": 26,
+        "apps": 14,
+        "goals": 0,
+        "rating": 4.9
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "CF Estrela",
+        "rating": 1936.27
+      },
+      {
+        "name": "FC Alverca",
+        "rating": 1932.01
+      }
+    ]
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "664",
+      "name": "Lillestrøm",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/664/image/small",
+      "sourceIds": {
+        "sofascore": "664",
+        "fotmob": "8476",
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": 26.2,
+      "xgAgainst": 23.3,
+      "averagePossessionPct": 51.8,
+      "cleanSheets": 5
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 1.4,
+        "goalsConcededPerMatch": 1.3,
+        "averagePossessionPct": 51.8,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 26.2,
+        "xgDiff": 2.9,
+        "shotsOnTargetPerMatch": 4.1,
+        "bigChances": 39,
+        "bigChancesMissed": 23,
+        "accuratePassesPerMatch": 404.7,
+        "accurateLongBallsPerMatch": 22.3,
+        "accurateCrossesPerMatch": 2.7,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": 473,
+        "cornersPerMatch": 81,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 23.3,
+        "interceptionsPerMatch": 8.1,
+        "tacklesPerMatch": 16.9,
+        "clearancesPerMatch": 28.9,
+        "finalThirdRecoveriesPerMatch": 4.1,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": 3.8
+      },
+      "discipline": {
+        "foulsPerMatch": 11.3,
+        "yellowCardsPerMatch": 24,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "20",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Bodo/Glimt",
+        "teamUrl": "https://www.zerozero.pt/equipa/bodo-glimt?epoca_id=155",
+        "points": 41,
+        "matches": 17,
+        "wins": 13,
+        "draws": 2,
+        "losses": 2,
+        "goalsFor": 43,
+        "goalsAgainst": 12,
+        "goalDifference": "+31",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Viking",
+        "teamUrl": "https://www.zerozero.pt/equipa/viking/2027?epoca_id=155",
+        "points": 40,
+        "matches": 16,
+        "wins": 13,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 39,
+        "goalsAgainst": 15,
+        "goalDifference": "+24",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Tromso",
+        "teamUrl": "https://www.zerozero.pt/equipa/tromso/2031?epoca_id=155",
+        "points": 34,
+        "matches": 16,
+        "wins": 10,
+        "draws": 4,
+        "losses": 2,
+        "goalsFor": 32,
+        "goalsAgainst": 17,
+        "goalDifference": "+15",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "Lillestrom",
+        "teamUrl": "https://www.zerozero.pt/equipa/lillestrom/2029?epoca_id=155",
+        "points": 25,
+        "matches": 16,
+        "wins": 8,
+        "draws": 1,
+        "losses": 7,
+        "goalsFor": 22,
+        "goalsAgainst": 20,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Molde",
+        "teamUrl": "https://www.zerozero.pt/equipa/molde?epoca_id=155",
+        "points": 24,
+        "matches": 16,
+        "wins": 7,
+        "draws": 3,
+        "losses": 6,
+        "goalsFor": 29,
+        "goalsAgainst": 24,
+        "goalDifference": "+5",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Sarpsborg 08",
+        "teamUrl": "https://www.zerozero.pt/equipa/sarpsborg-08/25919?epoca_id=155",
+        "points": 22,
+        "matches": 16,
+        "wins": 6,
+        "draws": 4,
+        "losses": 6,
+        "goalsFor": 19,
+        "goalsAgainst": 21,
+        "goalDifference": "-2",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "Brann",
+        "teamUrl": "https://www.zerozero.pt/equipa/brann/2028?epoca_id=155",
+        "points": 22,
+        "matches": 16,
+        "wins": 7,
+        "draws": 1,
+        "losses": 8,
+        "goalsFor": 33,
+        "goalsAgainst": 27,
+        "goalDifference": "+6",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "HamKam",
+        "teamUrl": "https://www.zerozero.pt/equipa/hamkam/4305?epoca_id=155",
+        "points": 22,
+        "matches": 16,
+        "wins": 6,
+        "draws": 4,
+        "losses": 6,
+        "goalsFor": 24,
+        "goalsAgainst": 27,
+        "goalDifference": "-3",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Rosenborg",
+        "teamUrl": "https://www.zerozero.pt/equipa/rosenborg/155?epoca_id=155",
+        "points": 21,
+        "matches": 16,
+        "wins": 6,
+        "draws": 3,
+        "losses": 7,
+        "goalsFor": 23,
+        "goalsAgainst": 21,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Valerenga",
+        "teamUrl": "https://www.zerozero.pt/equipa/valerenga/1110?epoca_id=155",
+        "points": 20,
+        "matches": 16,
+        "wins": 6,
+        "draws": 2,
+        "losses": 8,
+        "goalsFor": 23,
+        "goalsAgainst": 29,
+        "goalDifference": "-6",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Fredrikstad",
+        "teamUrl": "https://www.zerozero.pt/equipa/fredrikstad/4304?epoca_id=155",
+        "points": 20,
+        "matches": 16,
+        "wins": 6,
+        "draws": 2,
+        "losses": 8,
+        "goalsFor": 17,
+        "goalsAgainst": 27,
+        "goalDifference": "-10",
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "KFUM Fotball",
+        "teamUrl": "https://www.zerozero.pt/equipa/kfum-fotball/56803?epoca_id=155",
+        "points": 18,
+        "matches": 16,
+        "wins": 5,
+        "draws": 3,
+        "losses": 8,
+        "goalsFor": 18,
+        "goalsAgainst": 26,
+        "goalDifference": "-8",
+        "highlight": null
+      },
+      {
+        "position": 13,
+        "teamName": "Sandefjord",
+        "teamUrl": "https://www.zerozero.pt/equipa/sandefjord/7317?epoca_id=155",
+        "points": 15,
+        "matches": 16,
+        "wins": 4,
+        "draws": 3,
+        "losses": 9,
+        "goalsFor": 13,
+        "goalsAgainst": 22,
+        "goalDifference": "-9",
+        "highlight": null
+      },
+      {
+        "position": 14,
+        "teamName": "Kristiansund BK",
+        "teamUrl": "https://www.zerozero.pt/equipa/kristiansund-bk/29819?epoca_id=155",
+        "points": 15,
+        "matches": 16,
+        "wins": 4,
+        "draws": 3,
+        "losses": 9,
+        "goalsFor": 15,
+        "goalsAgainst": 26,
+        "goalDifference": "-11",
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "Aalesund",
+        "teamUrl": "https://www.zerozero.pt/equipa/aalesund/2032?epoca_id=155",
+        "points": 14,
+        "matches": 16,
+        "wins": 2,
+        "draws": 8,
+        "losses": 6,
+        "goalsFor": 22,
+        "goalsAgainst": 36,
+        "goalDifference": "-14",
+        "highlight": null
+      },
+      {
+        "position": 16,
+        "teamName": "Start",
+        "teamUrl": "https://www.zerozero.pt/equipa/start/4014?epoca_id=155",
+        "points": 10,
+        "matches": 17,
+        "wins": 2,
+        "draws": 4,
+        "losses": 11,
+        "goalsFor": 16,
+        "goalsAgainst": 38,
+        "goalDifference": "-22",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/20.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/20-eliteserien/8476-lillestr-m.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "homeTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/norway/3243-kfum-kam-oslo.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

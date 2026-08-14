@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-13T14:56:21.419Z",
+  "builtAtUtc": "2026-08-14T12:55:00.994Z",
   "match": {
     "id": "16581512",
     "date": "2026-08-13",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 1,
+    "awayScore": 0,
     "matchUrl": "https://www.sofascore.com/football/match/besiktas-jk-fc-hradec-kralove/rUsalb#id:16581512",
     "kickoffAtUtc": "2026-08-13T17:00:00.000Z",
     "competition": {

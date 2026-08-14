@@ -1,0 +1,411 @@
+{
+  "builtAtUtc": "2026-08-14T12:55:01.134Z",
+  "match": {
+    "id": "16434328",
+    "date": "2026-08-15",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/1-fc-kaiserslautern-karlsruher-sc/dbbsAdb#id:16434328",
+    "kickoffAtUtc": "2026-08-15T18:30:00.000Z",
+    "competition": {
+      "id": "44",
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/44/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "2675",
+      "name": "Kaiserslautern",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2675/image/small",
+      "sourceIds": {
+        "sofascore": "2675",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "2553",
+      "name": "Karlsruhe",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2553/image/small",
+      "sourceIds": {
+        "sofascore": "2553",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "44",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Eintracht Braunschweig",
+        "teamUrl": "https://www.zerozero.pt/equipa/eintracht-braunschweig/4859?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 1,
+        "goalDifference": "+5",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "FC Nürnberg",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-nurnberg/112?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 0,
+        "goalDifference": "+3",
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Energie Cottbus",
+        "teamUrl": "https://www.zerozero.pt/equipa/energie-cottbus/106?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 1,
+        "goalDifference": "+2",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "1. FC Heidenheim 1846",
+        "teamUrl": "https://www.zerozero.pt/equipa/1-fc-heidenheim-1846/13705?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 3,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Karlsruher SC",
+        "teamUrl": "https://www.zerozero.pt/equipa/karlsruher-sc/4222?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": "+1",
+        "highlight": "away"
+      },
+      {
+        "position": 6,
+        "teamName": "Hertha BSC",
+        "teamUrl": "https://www.zerozero.pt/equipa/hertha-bsc/101?epoca_id=156",
+        "points": 3,
+        "matches": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 0,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "Darmstadt 98",
+        "teamUrl": "https://www.zerozero.pt/equipa/darmstadt-98/5118?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "Holstein Kiel",
+        "teamUrl": "https://www.zerozero.pt/equipa/holstein-kiel/4855?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "FC St. Pauli",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-st-pauli/5038?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "SpVgg Greuther Fürth",
+        "teamUrl": "https://www.zerozero.pt/equipa/spvgg-greuther-furth/4856?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Kaiserslautern",
+        "teamUrl": "https://www.zerozero.pt/equipa/kaiserslautern/100?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": "home"
+      },
+      {
+        "position": 12,
+        "teamName": "Wolfsburg",
+        "teamUrl": "https://www.zerozero.pt/equipa/wolfsburg?epoca_id=156",
+        "points": 1,
+        "matches": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 13,
+        "teamName": "VfL Osnabrück",
+        "teamUrl": "https://www.zerozero.pt/equipa/vfl-osnabruck/8242?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 4,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 14,
+        "teamName": "Arminia Bielefeld",
+        "teamUrl": "https://www.zerozero.pt/equipa/arminia-bielefeld/111?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "VfL Bochum",
+        "teamUrl": "https://www.zerozero.pt/equipa/vfl-bochum/96?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 1,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 16,
+        "teamName": "Hannover 96",
+        "teamUrl": "https://www.zerozero.pt/equipa/hannover-96/103?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 3,
+        "goalDifference": "-2",
+        "highlight": null
+      },
+      {
+        "position": 17,
+        "teamName": "Dynamo Dresden",
+        "teamUrl": "https://www.zerozero.pt/equipa/dynamo-dresden/5036?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 3,
+        "goalDifference": "-3",
+        "highlight": null
+      },
+      {
+        "position": 18,
+        "teamName": "1. FC Magdeburg",
+        "teamUrl": "https://www.zerozero.pt/equipa/1-fc-magdeburg/7819?epoca_id=156",
+        "points": 0,
+        "matches": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 6,
+        "goalDifference": "-5",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/44.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}

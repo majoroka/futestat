@@ -1,0 +1,656 @@
+{
+  "builtAtUtc": "2026-08-14T12:55:01.112Z",
+  "match": {
+    "id": "16378710",
+    "date": "2026-08-15",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/nk-nafta-lendava-1903-nk-celje/nYsFY#id:16378710",
+    "kickoffAtUtc": "2026-08-15T16:00:00.000Z",
+    "competition": {
+      "id": "212",
+      "name": "PrvaLiga",
+      "country": "Slovenia",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/212/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "2430",
+      "name": "Nafta 1903",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2430/image/small",
+      "sourceIds": {
+        "sofascore": "2430",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "2413",
+      "name": "Celje",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/2413/image/small",
+      "sourceIds": {
+        "sofascore": "2413",
+        "fotmob": null,
+        "soccerRating": "1131"
+      }
+    },
+    "headerStats": {
+      "overallRating": 1956.13,
+      "nationalRank": 1,
+      "europeRank": 318,
+      "formLast3": [
+        "W",
+        "D",
+        "D"
+      ],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": {
+        "tip": "away_or_draw",
+        "tipLabel": "Bet on (X2) Ararat-Armenia (Stake 4/10)",
+        "confidencePct": 40,
+        "strengthComparison": "favorite"
+      },
+      "squadHealth": {
+        "injuries": [
+          {
+            "player": "A. Tutyskinas",
+            "status": "injury_or_suspension",
+            "description": null
+          }
+        ],
+        "suspensions": []
+      },
+      "expectedLineup": {
+        "formation": null,
+        "averageRating": 3.8,
+        "players": [
+          {
+            "name": "Zan-Luk Leban",
+            "position": "GK",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 4.5
+          },
+          {
+            "name": "Leonardo Koutris",
+            "position": "DF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 5.5
+          },
+          {
+            "name": "Alpha Diounkou",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4.5
+          },
+          {
+            "name": "Damjan Vuklisevic",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3.4
+          },
+          {
+            "name": "Tilen Letonja",
+            "position": "MF",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 3
+          },
+          {
+            "name": "Darko Hrka",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 1,
+            "rating": 3
+          },
+          {
+            "name": "Ivan Calusic",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3
+          },
+          {
+            "name": "Papa Daniel",
+            "position": "MF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 3
+          },
+          {
+            "name": "Andrej Kotnik",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Matic Ivansek",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.8
+          },
+          {
+            "name": "Yaya Dukuly",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 4.2
+          },
+          {
+            "name": "Ziga Frelih",
+            "position": "GK",
+            "age": null,
+            "apps": 0,
+            "goals": 0,
+            "rating": 3.2
+          },
+          {
+            "name": "Pijus Sirvys",
+            "position": "DF",
+            "age": null,
+            "apps": 1,
+            "goals": 0,
+            "rating": 4.1
+          },
+          {
+            "name": "Svit Seslar",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 2,
+            "rating": 5.8
+          },
+          {
+            "name": "Milot Avdyli",
+            "position": "ST",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.9
+          },
+          {
+            "name": "Mario Kvesic",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 3.6
+          },
+          {
+            "name": "Rudi Pozeg Vancas",
+            "position": "MF",
+            "age": null,
+            "apps": 2,
+            "goals": 0,
+            "rating": 4.3
+          }
+        ]
+      },
+      "oddsMarket": {
+        "opening1X2": {
+          "home": 1.44,
+          "draw": 4.6,
+          "away": 7
+        },
+        "fair1X2": {
+          "home": 1.75,
+          "draw": 5.12,
+          "away": 4.27
+        },
+        "movementSummary": "home_odds_flat_away_odds_down"
+      }
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [
+      {
+        "name": "Zan-Luk Leban",
+        "position": "GK",
+        "age": 23,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Ziga Frelih",
+        "position": "GK",
+        "age": 28,
+        "apps": 0,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Leonardo Koutris",
+        "position": "DF",
+        "age": 31,
+        "apps": 2,
+        "goals": 0,
+        "rating": 5.5
+      },
+      {
+        "name": "Alpha Diounkou",
+        "position": "DF",
+        "age": 24,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "Damjan Vuklisevic",
+        "position": "DF",
+        "age": 31,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3.4
+      },
+      {
+        "name": "Pijus Sirvys",
+        "position": "DF",
+        "age": 28,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.1
+      },
+      {
+        "name": "A. Tutyskinas",
+        "position": null,
+        "age": 23,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.1
+      },
+      {
+        "name": "Mark Zabukovnik",
+        "position": null,
+        "age": 25,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.7
+      },
+      {
+        "name": "Tilen Letonja",
+        "position": "MF",
+        "age": 18,
+        "apps": 0,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Ivan Calusic",
+        "position": "MF",
+        "age": 26,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Rudi Pozeg Vancas",
+        "position": "MF",
+        "age": 32,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Darko Hrka",
+        "position": "MF",
+        "age": 26,
+        "apps": 1,
+        "goals": 1,
+        "rating": 3
+      },
+      {
+        "name": "Papa Daniel",
+        "position": "MF",
+        "age": 24,
+        "apps": 1,
+        "goals": 0,
+        "rating": 3
+      },
+      {
+        "name": "Andrej Kotnik",
+        "position": "MF",
+        "age": 31,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Svit Seslar",
+        "position": "MF",
+        "age": 24,
+        "apps": 2,
+        "goals": 2,
+        "rating": 5.8
+      },
+      {
+        "name": "Mario Kvesic",
+        "position": "MF",
+        "age": 34,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.6
+      },
+      {
+        "name": "Veton Tusha",
+        "position": null,
+        "age": 23,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.2
+      },
+      {
+        "name": "Milot Avdyli",
+        "position": "ST",
+        "age": 24,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.9
+      },
+      {
+        "name": "Armandas Kucys",
+        "position": null,
+        "age": 23,
+        "apps": 1,
+        "goals": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Matej Poplatnik",
+        "position": null,
+        "age": 34,
+        "apps": 1,
+        "goals": 0,
+        "rating": 2.1
+      },
+      {
+        "name": "Matic Ivansek",
+        "position": "ST",
+        "age": 22,
+        "apps": 2,
+        "goals": 0,
+        "rating": 3.8
+      },
+      {
+        "name": "Yaya Dukuly",
+        "position": "ST",
+        "age": 23,
+        "apps": 2,
+        "goals": 0,
+        "rating": 4.2
+      }
+    ],
+    "history": [],
+    "similarTeams": [
+      {
+        "name": "KVC Westerlo",
+        "rating": 1964.94
+      },
+      {
+        "name": "KV Mechelen",
+        "rating": 1949.05
+      }
+    ]
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "212",
+    "sourceStatus": "ready",
+    "phaseName": "Campeonato",
+    "phaseNotes": [],
+    "ruleProfileId": null,
+    "tableName": "Campeonato",
+    "tableType": "single_table",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Maribor",
+        "teamUrl": "https://www.zerozero.pt/equipa/maribor/170?epoca_id=156",
+        "points": 8,
+        "matches": 4,
+        "wins": 2,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 1,
+        "goalDifference": "+5",
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Nafta 1903",
+        "teamUrl": "https://www.zerozero.pt/equipa/nafta-1903/228769?epoca_id=156",
+        "points": 7,
+        "matches": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 9,
+        "goalsAgainst": 5,
+        "goalDifference": "+4",
+        "highlight": "home"
+      },
+      {
+        "position": 3,
+        "teamName": "NK Bravo",
+        "teamUrl": "https://www.zerozero.pt/equipa/nk-bravo/71667?epoca_id=156",
+        "points": 7,
+        "matches": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 5,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "FC Koper",
+        "teamUrl": "https://www.zerozero.pt/equipa/fc-koper/1884?epoca_id=156",
+        "points": 5,
+        "matches": 4,
+        "wins": 1,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 5,
+        "goalDifference": "0",
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Brinje Grosuplje",
+        "teamUrl": "https://www.zerozero.pt/equipa/brinje-grosuplje/111981?epoca_id=156",
+        "points": 5,
+        "matches": 4,
+        "wins": 1,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 5,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "NK Celje",
+        "teamUrl": "https://www.zerozero.pt/equipa/nk-celje/1055?epoca_id=156",
+        "points": 5,
+        "matches": 3,
+        "wins": 1,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 3,
+        "goalDifference": "+1",
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "NK Radomlje",
+        "teamUrl": "https://www.zerozero.pt/equipa/nk-radomlje/61597?epoca_id=156",
+        "points": 4,
+        "matches": 4,
+        "wins": 1,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 6,
+        "goalsAgainst": 7,
+        "goalDifference": "-1",
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "NS Mura",
+        "teamUrl": "https://www.zerozero.pt/equipa/ns-mura?epoca_id=156",
+        "points": 4,
+        "matches": 4,
+        "wins": 1,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 6,
+        "goalsAgainst": 10,
+        "goalDifference": "-4",
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Olimpija Ljubljana",
+        "teamUrl": "https://www.zerozero.pt/equipa/olimpija-ljubljana/1890?epoca_id=156",
+        "points": 3,
+        "matches": 4,
+        "wins": 1,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 1,
+        "goalsAgainst": 4,
+        "goalDifference": "-3",
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "NK Aluminij",
+        "teamUrl": "https://www.zerozero.pt/equipa/nk-aluminij/30705?epoca_id=156",
+        "points": 2,
+        "matches": 3,
+        "wins": 0,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "goalDifference": "-1",
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/212.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": true,
+      "path": "data/team-context/soccer-rating/2026-2027/slovenia/1131-nk-celje.json",
+      "matchedBy": "sofascoreTeamId"
+    }
+  }
+}

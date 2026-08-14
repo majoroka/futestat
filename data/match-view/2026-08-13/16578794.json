@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-13T14:56:21.442Z",
+  "builtAtUtc": "2026-08-14T12:55:01.022Z",
   "match": {
     "id": "16578794",
     "date": "2026-08-13",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 5,
+    "awayScore": 1,
     "matchUrl": "https://www.sofascore.com/football/match/kf-egnatia-shamrock-rovers/CnbsuRfc#id:16578794",
     "kickoffAtUtc": "2026-08-13T19:00:00.000Z",
     "competition": {
