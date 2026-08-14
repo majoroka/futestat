@@ -1,5 +1,5 @@
 {
-  "builtAtUtc": "2026-08-14T12:55:01.110Z",
+  "builtAtUtc": "2026-08-14T16:06:09.603Z",
   "match": {
     "id": "16316911",
     "date": "2026-08-15",
@@ -520,6 +520,20 @@
       },
       {
         "position": 2,
+        "teamName": "MFK Skalica",
+        "teamUrl": "https://www.zerozero.pt/equipa/mfk-skalica/89806?epoca_id=156",
+        "points": 7,
+        "matches": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 3,
+        "goalDifference": "+3",
+        "highlight": "home"
+      },
+      {
+        "position": 3,
         "teamName": "Slovan Bratislava",
         "teamUrl": "https://www.zerozero.pt/equipa/slovan-bratislava?epoca_id=156",
         "points": 6,
@@ -533,7 +547,7 @@
         "highlight": null
       },
       {
-        "position": 3,
+        "position": 4,
         "teamName": "Podbrezová",
         "teamUrl": "https://www.zerozero.pt/equipa/podbrezova/21053?epoca_id=156",
         "points": 6,
@@ -547,7 +561,7 @@
         "highlight": null
       },
       {
-        "position": 4,
+        "position": 5,
         "teamName": "FC DAC 1904",
         "teamUrl": "https://www.zerozero.pt/equipa/fc-dac-1904/10803?epoca_id=156",
         "points": 4,
@@ -561,32 +575,18 @@
         "highlight": null
       },
       {
-        "position": 5,
+        "position": 6,
         "teamName": "MSK Zilina",
         "teamUrl": "https://www.zerozero.pt/equipa/msk-zilina/153?epoca_id=156",
         "points": 4,
-        "matches": 2,
+        "matches": 3,
         "wins": 1,
         "draws": 1,
-        "losses": 0,
-        "goalsFor": 5,
-        "goalsAgainst": 4,
-        "goalDifference": "+1",
+        "losses": 1,
+        "goalsFor": 6,
+        "goalsAgainst": 7,
+        "goalDifference": "-1",
         "highlight": null
-      },
-      {
-        "position": 6,
-        "teamName": "MFK Skalica",
-        "teamUrl": "https://www.zerozero.pt/equipa/mfk-skalica/89806?epoca_id=156",
-        "points": 4,
-        "matches": 2,
-        "wins": 1,
-        "draws": 1,
-        "losses": 0,
-        "goalsFor": 3,
-        "goalsAgainst": 2,
-        "goalDifference": "+1",
-        "highlight": "home"
       },
       {
         "position": 7,

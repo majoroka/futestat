@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-14T12:55:01.025Z",
+  "builtAtUtc": "2026-08-14T16:06:09.520Z",
   "match": {
     "id": "16390259",
     "date": "2026-08-14",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 1,
+    "awayScore": 1,
     "matchUrl": "https://www.sofascore.com/football/match/orenburg-lokomotiv-moscow/vWstHj#id:16390259",
     "kickoffAtUtc": "2026-08-14T14:00:00.000Z",
     "competition": {

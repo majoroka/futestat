@@ -1,0 +1,404 @@
+{
+  "builtAtUtc": "2026-08-14T16:06:09.648Z",
+  "match": {
+    "id": "16671565",
+    "date": "2026-08-15",
+    "status": "upcoming",
+    "resultLabel": null,
+    "homeScore": null,
+    "awayScore": null,
+    "matchUrl": "https://www.sofascore.com/football/match/deportivo-riestra-newells-old-boys/mobsyUAb#id:16671565",
+    "kickoffAtUtc": "2026-08-15T22:00:00.000Z",
+    "competition": {
+      "id": "155",
+      "name": "Liga Profesional, Clausura",
+      "country": "Argentina",
+      "logoUrl": "https://img.sofascore.com/api/v1/unique-tournament/155/image"
+    },
+    "season": {
+      "id": "2026/2027",
+      "label": "2026/2027"
+    },
+    "details": {
+      "competitionStage": null,
+      "venueName": null,
+      "venueCity": null,
+      "venueCountry": null,
+      "venueCapacity": null,
+      "refereeName": null,
+      "refereeCountry": null,
+      "odds": null,
+      "watch": null,
+      "tieContext": null,
+      "recent": null
+    }
+  },
+  "homeTeam": {
+    "identity": {
+      "id": "3212",
+      "name": "Newell's",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/3212/image/small",
+      "sourceIds": {
+        "sofascore": "3212",
+        "fotmob": null,
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": null,
+      "xgAgainst": null,
+      "averagePossessionPct": null,
+      "cleanSheets": null
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": null,
+      "attack": null,
+      "defense": null,
+      "discipline": null
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "awayTeam": {
+    "identity": {
+      "id": "189723",
+      "name": "Dep. Riestra",
+      "logoUrl": "https://img.sofascore.com/api/v1/team/189723/image/small",
+      "sourceIds": {
+        "sofascore": "189723",
+        "fotmob": "298629",
+        "soccerRating": null
+      }
+    },
+    "headerStats": {
+      "overallRating": null,
+      "nationalRank": null,
+      "europeRank": null,
+      "formLast3": [],
+      "xgFor": 18.7,
+      "xgAgainst": 18.2,
+      "averagePossessionPct": 37.1,
+      "cleanSheets": 8
+    },
+    "overview": {
+      "prediction": null,
+      "squadHealth": null,
+      "expectedLineup": null,
+      "oddsMarket": null
+    },
+    "statistics": {
+      "overview": {
+        "goalsPerMatch": 0.6,
+        "goalsConcededPerMatch": 0.8,
+        "averagePossessionPct": 37.1,
+        "attendanceAverage": null
+      },
+      "attack": {
+        "xg": 18.7,
+        "xgDiff": 0.6,
+        "shotsOnTargetPerMatch": 3.5,
+        "bigChances": 33,
+        "bigChancesMissed": 23,
+        "accuratePassesPerMatch": 142.6,
+        "accurateLongBallsPerMatch": 26.5,
+        "accurateCrossesPerMatch": 3.7,
+        "penaltiesAwarded": null,
+        "touchesInOppBoxPerMatch": 363,
+        "cornersPerMatch": 81,
+        "setPieceGoals": null
+      },
+      "defense": {
+        "xgConceded": 18.2,
+        "interceptionsPerMatch": 10.5,
+        "tacklesPerMatch": 17.7,
+        "clearancesPerMatch": 29.4,
+        "finalThirdRecoveriesPerMatch": 2.8,
+        "setPieceGoalsConceded": null,
+        "penaltiesConceded": null,
+        "savesPerMatch": 3.3
+      },
+      "discipline": {
+        "foulsPerMatch": 16.9,
+        "yellowCardsPerMatch": 69,
+        "redCardsPerMatch": null,
+        "penaltiesConceded": null
+      }
+    },
+    "squad": [],
+    "history": [],
+    "similarTeams": []
+  },
+  "standings": {
+    "available": true,
+    "competitionId": "155",
+    "sourceStatus": "ready",
+    "phaseName": "1ª Fase",
+    "phaseNotes": [
+      "Competição com grupos e fases internas; validar sempre a fase apresentada.",
+      "Tabela da fase inicial por grupos."
+    ],
+    "ruleProfileId": "arg-group-stage",
+    "tableName": "1ª Fase",
+    "tableType": "regular_plus_playoffs",
+    "rows": [
+      {
+        "position": 1,
+        "teamName": "Vélez Sarsfield",
+        "teamUrl": "https://www.zerozero.pt/equipa/velez-sarsfield?epoca_id=155",
+        "points": 10,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 6,
+        "goalsAgainst": 2,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 2,
+        "teamName": "Instituto",
+        "teamUrl": "https://www.zerozero.pt/equipa/instituto/4331?epoca_id=155",
+        "points": 9,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 4,
+        "goalsAgainst": 2,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 3,
+        "teamName": "Defensa y Justicia",
+        "teamUrl": "https://www.zerozero.pt/equipa/defensa-y-justicia?epoca_id=155",
+        "points": 7,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 5,
+        "goalsAgainst": 6,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 4,
+        "teamName": "Gimnasia Mendoza",
+        "teamUrl": "https://www.zerozero.pt/equipa/gimnasia-mendoza/30538?epoca_id=155",
+        "points": 6,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 5,
+        "teamName": "Independiente",
+        "teamUrl": "https://www.zerozero.pt/equipa/independiente?epoca_id=155",
+        "points": 6,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 6,
+        "teamName": "Lanús",
+        "teamUrl": "https://www.zerozero.pt/equipa/lanus?epoca_id=155",
+        "points": 6,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 5,
+        "goalsAgainst": 3,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 7,
+        "teamName": "Deportivo Riestra",
+        "teamUrl": "https://www.zerozero.pt/equipa/deportivo-riestra/45604?epoca_id=155",
+        "points": 6,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 6,
+        "goalsAgainst": 3,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 8,
+        "teamName": "Central Córdoba S.Estero",
+        "teamUrl": "https://www.zerozero.pt/equipa/central-cordoba-s-estero/55853?epoca_id=155",
+        "points": 6,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 3,
+        "goalsAgainst": 4,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 9,
+        "teamName": "Boca Juniors",
+        "teamUrl": "https://www.zerozero.pt/equipa/boca-juniors?epoca_id=155",
+        "points": 5,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 4,
+        "goalsAgainst": 6,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 10,
+        "teamName": "Unión",
+        "teamUrl": "https://www.zerozero.pt/equipa/union?epoca_id=155",
+        "points": 4,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 5,
+        "goalsAgainst": 7,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 11,
+        "teamName": "Platense",
+        "teamUrl": "https://www.zerozero.pt/equipa/platense/6658?epoca_id=155",
+        "points": 4,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 4,
+        "goalsAgainst": 8,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 12,
+        "teamName": "Newell´s Old Boys",
+        "teamUrl": "https://www.zerozero.pt/equipa/newell-s-old-boys?epoca_id=155",
+        "points": 4,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 4,
+        "goalsAgainst": 5,
+        "goalDifference": null,
+        "highlight": "home"
+      },
+      {
+        "position": 13,
+        "teamName": "Estudiantes",
+        "teamUrl": "https://www.zerozero.pt/equipa/estudiantes?epoca_id=155",
+        "points": 3,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 3,
+        "goalsAgainst": 5,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 14,
+        "teamName": "San Lorenzo",
+        "teamUrl": "https://www.zerozero.pt/equipa/san-lorenzo?epoca_id=155",
+        "points": 3,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 1,
+        "goalsAgainst": 4,
+        "goalDifference": null,
+        "highlight": null
+      },
+      {
+        "position": 15,
+        "teamName": "Talleres",
+        "teamUrl": "https://www.zerozero.pt/equipa/talleres?epoca_id=155",
+        "points": 3,
+        "matches": 4,
+        "wins": null,
+        "draws": null,
+        "losses": null,
+        "goalsFor": 5,
+        "goalsAgainst": 7,
+        "goalDifference": null,
+        "highlight": null
+      }
+    ]
+  },
+  "sources": {
+    "fixture": {
+      "available": true,
+      "path": "data/fixtures/days/2026-08-15.json",
+      "matchedBy": "sourceEventId"
+    },
+    "matchDetail": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "competitionStandings": {
+      "available": true,
+      "path": "data/fixtures/standings/155.json",
+      "matchedBy": "competitionId"
+    },
+    "homeTeamStats": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamStats": {
+      "available": true,
+      "path": "data/team-stats/fotmob/2026-2027/155-liga-profesional-clausura/298629-deportivo-riestra.json",
+      "matchedBy": "sofascoreTeamId"
+    },
+    "homeTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    },
+    "awayTeamContext": {
+      "available": false,
+      "path": null,
+      "matchedBy": null
+    }
+  }
+}
