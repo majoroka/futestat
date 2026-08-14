@@ -107,7 +107,7 @@ export class ZerozeroStandingsScraper {
       try {
         const html = await this.fetchCompetitionHtml(source);
         return {
-          snapshot: this.buildSnapshot(source, html),
+          snapshot: this.buildSnapshot(source, html, "fetch"),
           transport: "fetch",
         };
       } catch (error: unknown) {
@@ -130,7 +130,7 @@ export class ZerozeroStandingsScraper {
 
     const html = await this.fetchCompetitionHtmlWithBrowser(await ensurePage(), source, runToken);
     return {
-      snapshot: this.buildSnapshot(source, html),
+      snapshot: this.buildSnapshot(source, html, "browser"),
       transport: "browser",
     };
   }
@@ -195,20 +195,33 @@ export class ZerozeroStandingsScraper {
     return html;
   }
 
-  private buildSnapshot(source: CompetitionStandingsSource, html: string): CompetitionStandingsSnapshot {
-    return extractCompetitionStandingsFromHtml({
-      html,
-      competitionId: source.competitionId,
-      competitionName: source.competitionName,
-      countryName: source.countryName,
-      zerozeroUrl: source.zerozeroUrl,
-      mode: source.mode,
-      status: source.status,
-      scrapedAtUtc: new Date().toISOString(),
-      defaultPhaseNotes: source.defaultPhaseNotes,
-      defaultRuleProfileId: source.defaultRuleProfileId,
-      phaseRules: source.phaseRules,
-    });
+  private buildSnapshot(
+    source: CompetitionStandingsSource,
+    html: string,
+    transport: "fetch" | "browser",
+  ): CompetitionStandingsSnapshot {
+    try {
+      return extractCompetitionStandingsFromHtml({
+        html,
+        competitionId: source.competitionId,
+        competitionName: source.competitionName,
+        countryName: source.countryName,
+        zerozeroUrl: source.zerozeroUrl,
+        mode: source.mode,
+        status: source.status,
+        scrapedAtUtc: new Date().toISOString(),
+        defaultPhaseNotes: source.defaultPhaseNotes,
+        defaultRuleProfileId: source.defaultRuleProfileId,
+        phaseRules: source.phaseRules,
+      });
+    } catch (error: unknown) {
+      const message = error instanceof Error ? error.message : String(error);
+      if (message.includes("No classification tables found") && isBlockedHtml(html)) {
+        throw new Error(`Zerozero standings page unavailable (blocked_${transport}_parser)`);
+      }
+
+      throw error;
+    }
   }
 
   private async acceptConsentIfPresent(page: Page): Promise<void> {
@@ -298,7 +311,14 @@ function isBlockedHtml(html: string): boolean {
     normalized.includes("403 forbidden") ||
     normalized.includes('"code": 403') ||
     normalized.includes("access denied") ||
-    normalized.includes("temporarily unavailable")
+    normalized.includes("temporarily unavailable") ||
+    normalized.includes("attention required!") ||
+    normalized.includes("sorry, you have been blocked") ||
+    normalized.includes("you are unable to access zerozero.pt") ||
+    normalized.includes("this website is using a security service") ||
+    normalized.includes("confirme que é humano") ||
+    normalized.includes("checking your browser before accessing") ||
+    normalized.includes("cloudflare")
   );
 }
 
