@@ -3,7 +3,7 @@
   "date": "2026-08-15",
   "collectionState": "open",
   "firstScrapedAtUtc": "2026-08-14T12:54:54.723Z",
-  "lastScrapedAtUtc": "2026-08-14T16:05:22.943Z",
+  "lastScrapedAtUtc": "2026-08-15T15:11:21.848Z",
   "frozenAtUtc": null,
   "fixtureCount": 63,
   "fixtures": [
@@ -22,14 +22,14 @@
       "awayTeamId": "38744",
       "awayTeamName": "Mafra",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/38744/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 1,
+      "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/cd-mafra-atletico-cp/CdosUzp#id:16560179",
       "firstSeenAtUtc": "2026-08-14T12:54:09.755Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:37.152Z",
-      "lastChangedAtUtc": "2026-08-14T12:54:09.755Z"
+      "lastSeenAtUtc": "2026-08-15T15:10:38.163Z",
+      "lastChangedAtUtc": "2026-08-15T15:10:38.163Z"
     },
     {
       "source": "sofascore",
@@ -46,14 +46,14 @@
       "awayTeamId": "388209",
       "awayTeamName": "FC Livyi Bereh",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/388209/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 1,
+      "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/fc-livyi-bereh-kyiv-fc-kryvbas-kryvyi-rih/YFrcsjofd#id:16412917",
       "firstSeenAtUtc": "2026-08-14T12:54:49.748Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:14.850Z",
-      "lastChangedAtUtc": "2026-08-14T12:54:49.748Z"
+      "lastSeenAtUtc": "2026-08-15T15:11:14.915Z",
+      "lastChangedAtUtc": "2026-08-15T15:11:14.915Z"
     },
     {
       "source": "sofascore",
@@ -70,14 +70,14 @@
       "awayTeamId": "2523",
       "awayTeamName": "Nürnberg",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/2523/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 2,
+      "awayScore": 4,
       "matchUrl": "https://www.sofascore.com/football/match/spvgg-greuther-furth-1-fc-nurnberg/yabsbbb#id:16434341",
       "firstSeenAtUtc": "2026-08-14T12:54:00.384Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:28.733Z",
-      "lastChangedAtUtc": "2026-08-14T12:54:00.384Z"
+      "lastSeenAtUtc": "2026-08-15T15:10:29.825Z",
+      "lastChangedAtUtc": "2026-08-15T15:10:29.825Z"
     },
     {
       "source": "sofascore",
@@ -94,14 +94,14 @@
       "awayTeamId": "5885",
       "awayTeamName": "Heidenheim",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/5885/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 4,
+      "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/1-fc-heidenheim-hertha-bsc/DabsKrc#id:16434333",
       "firstSeenAtUtc": "2026-08-14T12:54:00.384Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:28.733Z",
-      "lastChangedAtUtc": "2026-08-14T12:54:00.384Z"
+      "lastSeenAtUtc": "2026-08-15T15:10:29.825Z",
+      "lastChangedAtUtc": "2026-08-15T15:10:29.825Z"
     },
     {
       "source": "sofascore",
@@ -118,14 +118,14 @@
       "awayTeamId": "2591",
       "awayTeamName": "Magdeburg",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/2591/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 0,
+      "awayScore": 3,
       "matchUrl": "https://www.sofascore.com/football/match/1-fc-magdeburg-vfl-osnabruck/GbbsQbb#id:16434340",
       "firstSeenAtUtc": "2026-08-14T12:54:00.384Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:28.733Z",
-      "lastChangedAtUtc": "2026-08-14T12:54:00.384Z"
+      "lastSeenAtUtc": "2026-08-15T15:10:29.825Z",
+      "lastChangedAtUtc": "2026-08-15T15:10:29.825Z"
     },
     {
       "source": "sofascore",
@@ -142,14 +142,14 @@
       "awayTeamId": "285689",
       "awayTeamName": "Akron",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/285689/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 3,
+      "awayScore": 3,
       "matchUrl": "https://www.sofascore.com/football/match/rodina-moscow-akron-togliatti/OnocsZdEc#id:16390265",
       "firstSeenAtUtc": "2026-08-14T12:54:51.540Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:16.627Z",
-      "lastChangedAtUtc": "2026-08-14T12:54:51.540Z"
+      "lastSeenAtUtc": "2026-08-15T15:11:16.659Z",
+      "lastChangedAtUtc": "2026-08-15T15:11:16.659Z"
     },
     {
       "source": "sofascore",
@@ -166,14 +166,14 @@
       "awayTeamId": "21",
       "awayTeamName": "Preston",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/21/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 2,
+      "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/preston-north-end-bolton-wanderers/fsw#id:16391135",
       "firstSeenAtUtc": "2026-08-14T12:53:49.508Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:18.404Z",
-      "lastChangedAtUtc": "2026-08-14T12:53:49.508Z"
+      "lastSeenAtUtc": "2026-08-15T15:10:17.091Z",
+      "lastChangedAtUtc": "2026-08-15T15:10:17.091Z"
     },
     {
       "source": "sofascore",
@@ -190,14 +190,14 @@
       "awayTeamId": "138564",
       "awayTeamName": "Obolon",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/138564/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 0,
+      "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/kudrivka-obolon-kyiv/owfbsfwBc#id:16412915",
       "firstSeenAtUtc": "2026-08-14T12:54:49.748Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:14.850Z",
-      "lastChangedAtUtc": "2026-08-14T12:54:49.748Z"
+      "lastSeenAtUtc": "2026-08-15T15:11:14.915Z",
+      "lastChangedAtUtc": "2026-08-15T15:11:14.915Z"
     },
     {
       "source": "sofascore",
@@ -214,14 +214,14 @@
       "awayTeamId": "74465",
       "awayTeamName": "Benfica B",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/74465/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 1,
+      "awayScore": 2,
       "matchUrl": "https://www.sofascore.com/football/match/sl-benficau21-uniao-de-leiria/akbspOE#id:16436386",
       "firstSeenAtUtc": "2026-08-14T12:54:07.784Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:35.499Z",
-      "lastChangedAtUtc": "2026-08-14T12:54:07.784Z"
+      "lastSeenAtUtc": "2026-08-15T15:10:36.448Z",
+      "lastChangedAtUtc": "2026-08-15T15:10:36.448Z"
     },
     {
       "source": "sofascore",
@@ -238,14 +238,14 @@
       "awayTeamId": "2317",
       "awayTeamName": "Fakel",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/2317/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "resultLabel": "FT",
+      "homeScore": 1,
+      "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/cska-moscow-fakel-voronezh/rWsAW#id:16390262",
       "firstSeenAtUtc": "2026-08-14T12:54:51.540Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:16.627Z",
-      "lastChangedAtUtc": "2026-08-14T12:54:51.540Z"
+      "lastSeenAtUtc": "2026-08-15T15:11:16.659Z",
+      "lastChangedAtUtc": "2026-08-15T15:11:16.659Z"
     },
     {
       "source": "sofascore",
@@ -262,14 +262,14 @@
       "awayTeamId": "2933",
       "awayTeamName": "Zulte Waregem",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/2933/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "live",
+      "resultLabel": "50'",
+      "homeScore": 0,
+      "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/royale-union-saint-gilloise-sv-zulte-waregem/IibskXb#id:16361880",
       "firstSeenAtUtc": "2026-08-14T12:54:15.617Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:42.251Z",
-      "lastChangedAtUtc": "2026-08-14T12:54:15.617Z"
+      "lastSeenAtUtc": "2026-08-15T15:10:43.158Z",
+      "lastChangedAtUtc": "2026-08-15T15:10:43.158Z"
     },
     {
       "source": "sofascore",
@@ -286,14 +286,14 @@
       "awayTeamId": "25",
       "awayTeamName": "Millwall",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/25/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "live",
+      "resultLabel": "52'",
+      "homeScore": 0,
+      "awayScore": 2,
       "matchUrl": "https://www.sofascore.com/football/match/bristol-city-millwall/Asib#id:16391136",
       "firstSeenAtUtc": "2026-08-14T12:53:49.508Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:18.404Z",
-      "lastChangedAtUtc": "2026-08-14T12:53:49.508Z"
+      "lastSeenAtUtc": "2026-08-15T15:10:17.091Z",
+      "lastChangedAtUtc": "2026-08-15T15:10:17.091Z"
     },
     {
       "source": "sofascore",
@@ -310,14 +310,14 @@
       "awayTeamId": "27",
       "awayTeamName": "Derby",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/27/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "live",
+      "resultLabel": "50'",
+      "homeScore": 0,
+      "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/charlton-athletic-derby-county/CsX#id:16391137",
       "firstSeenAtUtc": "2026-08-14T12:53:49.508Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:18.404Z",
-      "lastChangedAtUtc": "2026-08-14T12:53:49.508Z"
+      "lastSeenAtUtc": "2026-08-15T15:10:17.091Z",
+      "lastChangedAtUtc": "2026-08-15T15:10:17.091Z"
     },
     {
       "source": "sofascore",
@@ -334,14 +334,14 @@
       "awayTeamId": "92",
       "awayTeamName": "Lincoln",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/92/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "live",
+      "resultLabel": "51'",
+      "homeScore": 0,
+      "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/lincoln-city-middlesbrough/LsRb#id:16391138",
       "firstSeenAtUtc": "2026-08-14T12:53:49.508Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:18.404Z",
-      "lastChangedAtUtc": "2026-08-14T12:53:49.508Z"
+      "lastSeenAtUtc": "2026-08-15T15:10:17.091Z",
+      "lastChangedAtUtc": "2026-08-15T15:10:17.091Z"
     },
     {
       "source": "sofascore",
@@ -358,14 +358,14 @@
       "awayTeamId": "8",
       "awayTeamName": "West Brom",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/8/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "live",
+      "resultLabel": "53'",
+      "homeScore": 0,
+      "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/norwich-city-west-bromwich-albion/inf#id:16391139",
       "firstSeenAtUtc": "2026-08-14T12:53:49.508Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:18.404Z",
-      "lastChangedAtUtc": "2026-08-14T12:53:49.508Z"
+      "lastSeenAtUtc": "2026-08-15T15:10:17.091Z",
+      "lastChangedAtUtc": "2026-08-15T15:10:17.091Z"
     },
     {
       "source": "sofascore",
@@ -382,14 +382,14 @@
       "awayTeamId": "1",
       "awayTeamName": "QPR",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/1/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "live",
+      "resultLabel": "HT",
+      "homeScore": 1,
+      "awayScore": 3,
       "matchUrl": "https://www.sofascore.com/football/match/portsmouth-queens-park-rangers/bsc#id:16391140",
       "firstSeenAtUtc": "2026-08-14T12:53:49.508Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:18.404Z",
-      "lastChangedAtUtc": "2026-08-14T12:53:49.508Z"
+      "lastSeenAtUtc": "2026-08-15T15:10:17.091Z",
+      "lastChangedAtUtc": "2026-08-15T15:10:17.091Z"
     },
     {
       "source": "sofascore",
@@ -406,14 +406,14 @@
       "awayTeamId": "74",
       "awayTeamName": "Swansea",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/74/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "live",
+      "resultLabel": "49'",
+      "homeScore": 1,
+      "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/swansea-city-stoke-city/Ezb#id:16391141",
       "firstSeenAtUtc": "2026-08-14T12:53:49.508Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:18.404Z",
-      "lastChangedAtUtc": "2026-08-14T12:53:49.508Z"
+      "lastSeenAtUtc": "2026-08-15T15:10:17.091Z",
+      "lastChangedAtUtc": "2026-08-15T15:10:17.091Z"
     },
     {
       "source": "sofascore",
@@ -430,14 +430,14 @@
       "awayTeamId": "664",
       "awayTeamName": "Lillestrøm",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/664/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "live",
+      "resultLabel": "53'",
+      "homeScore": 0,
+      "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/kfum-oslo-lillestrom-sk/onsLp#id:15260879",
       "firstSeenAtUtc": "2026-08-14T12:54:26.308Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:52.443Z",
-      "lastChangedAtUtc": "2026-08-14T12:54:26.308Z"
+      "lastSeenAtUtc": "2026-08-15T15:10:53.264Z",
+      "lastChangedAtUtc": "2026-08-15T15:10:53.264Z"
     },
     {
       "source": "sofascore",
@@ -454,14 +454,14 @@
       "awayTeamId": "1915",
       "awayTeamName": "MTK",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/1915/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "live",
+      "resultLabel": "40'",
+      "homeScore": 1,
+      "awayScore": 1,
       "matchUrl": "https://www.sofascore.com/football/match/ujpest-mtk-budapest/pNszN#id:16384256",
       "firstSeenAtUtc": "2026-08-14T12:54:37.275Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:02.758Z",
-      "lastChangedAtUtc": "2026-08-14T12:54:37.275Z"
+      "lastSeenAtUtc": "2026-08-15T15:11:03.280Z",
+      "lastChangedAtUtc": "2026-08-15T15:11:03.280Z"
     },
     {
       "source": "sofascore",
@@ -478,14 +478,14 @@
       "awayTeamId": "2978",
       "awayTeamName": "TOP Oss",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/2978/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "live",
+      "resultLabel": "39'",
+      "homeScore": 1,
+      "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/top-oss-fc-volendam/tjbsDjb#id:16317365",
       "firstSeenAtUtc": "2026-08-14T12:54:13.529Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:40.573Z",
-      "lastChangedAtUtc": "2026-08-14T12:54:13.529Z"
+      "lastSeenAtUtc": "2026-08-15T15:10:41.566Z",
+      "lastChangedAtUtc": "2026-08-15T15:10:41.566Z"
     },
     {
       "source": "sofascore",
@@ -497,19 +497,19 @@
       "competitionLogoUrl": "https://img.sofascore.com/api/v1/unique-tournament/239/image",
       "countryName": "Portugal",
       "homeTeamId": "74467",
-      "homeTeamName": "Sporting B",
+      "homeTeamName": "Sporting B U21",
       "homeTeamLogoUrl": "https://img.sofascore.com/api/v1/team/74467/image/small",
       "awayTeamId": "3025",
       "awayTeamName": "Chaves",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/3025/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "live",
+      "resultLabel": "41'",
+      "homeScore": 0,
+      "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/sporting-cpu21-chaves/AkbsrOE#id:16436390",
       "firstSeenAtUtc": "2026-08-14T12:54:07.784Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:35.499Z",
-      "lastChangedAtUtc": "2026-08-14T12:54:07.784Z"
+      "lastSeenAtUtc": "2026-08-15T15:10:36.448Z",
+      "lastChangedAtUtc": "2026-08-15T15:10:36.448Z"
     },
     {
       "source": "sofascore",
@@ -526,14 +526,14 @@
       "awayTeamId": "3035",
       "awayTeamName": "Estrela Amadora",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/3035/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "live",
+      "resultLabel": "39'",
+      "homeScore": 0,
+      "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/fc-alverca-cf-estrela-amadora/KkbsDgBb#id:16450745",
       "firstSeenAtUtc": "2026-08-14T12:54:06.023Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:33.821Z",
-      "lastChangedAtUtc": "2026-08-14T12:54:06.023Z"
+      "lastSeenAtUtc": "2026-08-15T15:10:34.776Z",
+      "lastChangedAtUtc": "2026-08-15T15:10:34.776Z"
     },
     {
       "source": "sofascore",
@@ -550,14 +550,14 @@
       "awayTeamId": "2869",
       "awayTeamName": "Ceuta",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/2869/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "live",
+      "resultLabel": "10'",
+      "homeScore": 0,
+      "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/fc-andorra-ad-ceuta/uhbswXEc#id:16418265",
       "firstSeenAtUtc": "2026-08-14T12:53:52.974Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:21.945Z",
-      "lastChangedAtUtc": "2026-08-14T12:53:52.974Z"
+      "lastSeenAtUtc": "2026-08-15T15:10:23.249Z",
+      "lastChangedAtUtc": "2026-08-15T15:10:23.249Z"
     },
     {
       "source": "sofascore",
@@ -574,14 +574,14 @@
       "awayTeamId": "43336",
       "awayTeamName": "Bukovyna",
       "awayTeamLogoUrl": "https://img.sofascore.com/api/v1/team/43336/image/small",
-      "status": "upcoming",
-      "resultLabel": null,
-      "homeScore": null,
-      "awayScore": null,
+      "status": "live",
+      "resultLabel": "10'",
+      "homeScore": 2,
+      "awayScore": 0,
       "matchUrl": "https://www.sofascore.com/football/match/bukovyna-chernivtsi-karpaty-lviv/qqbsLqr#id:16412913",
       "firstSeenAtUtc": "2026-08-14T12:54:49.748Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:14.850Z",
-      "lastChangedAtUtc": "2026-08-14T12:54:49.748Z"
+      "lastSeenAtUtc": "2026-08-15T15:11:14.915Z",
+      "lastChangedAtUtc": "2026-08-15T15:11:14.915Z"
     },
     {
       "source": "sofascore",
@@ -604,7 +604,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/kisvarda-fc-nyiregyhaza-spartacus/zccsXhk#id:16384252",
       "firstSeenAtUtc": "2026-08-14T12:54:37.275Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:02.758Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:03.280Z",
       "lastChangedAtUtc": "2026-08-14T12:54:37.275Z"
     },
     {
@@ -628,7 +628,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fk-csikszereda-miercurea-ciuc-sepsi-osk/OVAbsxEnc#id:16403856",
       "firstSeenAtUtc": "2026-08-14T12:54:35.384Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:01.023Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:01.589Z",
       "lastChangedAtUtc": "2026-08-14T12:54:35.384Z"
     },
     {
@@ -652,7 +652,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/rubin-kazan-fc-rostov/BWsIW#id:16390303",
       "firstSeenAtUtc": "2026-08-14T12:54:51.540Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:16.627Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:16.659Z",
       "lastChangedAtUtc": "2026-08-14T12:54:51.540Z"
     },
     {
@@ -676,7 +676,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/vitoria-sc-leca-fc/zkbsAOE#id:16560092",
       "firstSeenAtUtc": "2026-08-14T12:54:09.755Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:37.152Z",
+      "lastSeenAtUtc": "2026-08-15T15:10:38.163Z",
       "lastChangedAtUtc": "2026-08-14T12:54:09.755Z"
     },
     {
@@ -700,7 +700,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/cf-os-belenenses-louletano-dc/AdosWiYc#id:16560189",
       "firstSeenAtUtc": "2026-08-14T12:54:09.755Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:37.152Z",
+      "lastSeenAtUtc": "2026-08-15T15:10:38.163Z",
       "lastChangedAtUtc": "2026-08-14T12:54:09.755Z"
     },
     {
@@ -724,7 +724,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/dukla-banska-bystrica-msk-zilina/cYsdPb#id:16316909",
       "firstSeenAtUtc": "2026-08-14T12:54:42.661Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:08.038Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:08.248Z",
       "lastChangedAtUtc": "2026-08-14T12:54:42.661Z"
     },
     {
@@ -748,7 +748,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fc-kosice-mfk-skalica/lwUsBurb#id:16316911",
       "firstSeenAtUtc": "2026-08-14T12:54:42.661Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:08.038Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:08.248Z",
       "lastChangedAtUtc": "2026-08-14T12:54:42.661Z"
     },
     {
@@ -772,7 +772,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/sk-slovan-bratislava-mfk-ruzomberok/XXseY#id:16316910",
       "firstSeenAtUtc": "2026-08-14T12:54:42.661Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:08.038Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:08.248Z",
       "lastChangedAtUtc": "2026-08-14T12:54:42.661Z"
     },
     {
@@ -796,7 +796,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/nk-nafta-lendava-1903-nk-celje/nYsFY#id:16378710",
       "firstSeenAtUtc": "2026-08-14T12:54:44.488Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:09.694Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:09.926Z",
       "lastChangedAtUtc": "2026-08-14T12:54:44.488Z"
     },
     {
@@ -820,7 +820,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/kv-kortrijk-royal-antwerp-fc/OhbsiXb#id:16361881",
       "firstSeenAtUtc": "2026-08-14T12:54:15.617Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:42.251Z",
+      "lastSeenAtUtc": "2026-08-15T15:10:43.158Z",
       "lastChangedAtUtc": "2026-08-14T12:54:15.617Z"
     },
     {
@@ -844,7 +844,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/nk-istra-1961-nk-slaven-belupo/RPsEkk#id:16275182",
       "firstSeenAtUtc": "2026-08-14T12:54:38.984Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:04.521Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:04.901Z",
       "lastChangedAtUtc": "2026-08-14T12:54:38.984Z"
     },
     {
@@ -868,7 +868,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/sheffield-united-birmingham-city/jsp#id:16391142",
       "firstSeenAtUtc": "2026-08-14T12:53:49.508Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:18.405Z",
+      "lastSeenAtUtc": "2026-08-15T15:10:17.091Z",
       "lastChangedAtUtc": "2026-08-14T12:53:49.508Z"
     },
     {
@@ -892,7 +892,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/usc-paredes-pacos-de-ferreira/dkbsQGRb#id:16560096",
       "firstSeenAtUtc": "2026-08-14T12:54:09.755Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:37.152Z",
+      "lastSeenAtUtc": "2026-08-15T15:10:38.163Z",
       "lastChangedAtUtc": "2026-08-14T12:54:09.755Z"
     },
     {
@@ -916,7 +916,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/sc-vianense-cd-trofense/eycsMRHb#id:16560090",
       "firstSeenAtUtc": "2026-08-14T12:54:09.755Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:37.152Z",
+      "lastSeenAtUtc": "2026-08-15T15:10:38.163Z",
       "lastChangedAtUtc": "2026-08-14T12:54:09.755Z"
     },
     {
@@ -940,7 +940,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/torreense-penafiel/rkbsMpk#id:16436391",
       "firstSeenAtUtc": "2026-08-14T12:54:07.784Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:35.499Z",
+      "lastSeenAtUtc": "2026-08-15T15:10:36.448Z",
       "lastChangedAtUtc": "2026-08-14T12:54:07.784Z"
     },
     {
@@ -964,7 +964,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/academico-viseu-fc-santa-clara/lkbsxkb#id:16450744",
       "firstSeenAtUtc": "2026-08-14T12:54:06.023Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:33.821Z",
+      "lastSeenAtUtc": "2026-08-15T15:10:34.776Z",
       "lastChangedAtUtc": "2026-08-14T12:54:06.023Z"
     },
     {
@@ -988,7 +988,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/celta-fortuna-cadiz/NObsLLj#id:16418269",
       "firstSeenAtUtc": "2026-08-14T12:53:52.974Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:21.945Z",
+      "lastSeenAtUtc": "2026-08-15T15:10:23.249Z",
       "lastChangedAtUtc": "2026-08-14T12:53:52.974Z"
     },
     {
@@ -1012,7 +1012,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/granada-real-oviedo/bhbsEAn#id:16418273",
       "firstSeenAtUtc": "2026-08-14T12:53:52.974Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:21.945Z",
+      "lastSeenAtUtc": "2026-08-15T15:10:23.249Z",
       "lastChangedAtUtc": "2026-08-14T12:53:52.974Z"
     },
     {
@@ -1036,7 +1036,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/aldosivi-tigre/DcdsLLo#id:16667389",
       "firstSeenAtUtc": "2026-08-14T16:05:22.943Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:22.943Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:21.848Z",
       "lastChangedAtUtc": "2026-08-14T16:05:22.943Z"
     },
     {
@@ -1060,7 +1060,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/club-atletico-union-de-santa-fe-san-lorenzo/bobseob#id:16671562",
       "firstSeenAtUtc": "2026-08-14T16:05:22.943Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:22.943Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:21.848Z",
       "lastChangedAtUtc": "2026-08-14T16:05:22.943Z"
     },
     {
@@ -1084,7 +1084,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/deportivo-alaves-getafe/jhbsKhb#id:16421047",
       "firstSeenAtUtc": "2026-08-14T12:53:51.277Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:20.194Z",
+      "lastSeenAtUtc": "2026-08-15T15:10:21.392Z",
       "lastChangedAtUtc": "2026-08-14T12:53:51.277Z"
     },
     {
@@ -1108,7 +1108,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fc-krasnodar-akhmat-grozny/GccsANn#id:16390273",
       "firstSeenAtUtc": "2026-08-14T12:54:51.540Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:16.627Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:16.659Z",
       "lastChangedAtUtc": "2026-08-14T12:54:51.540Z"
     },
     {
@@ -1132,7 +1132,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/ludogorets-botev-plovdiv/QecsPBr#id:16295805",
       "firstSeenAtUtc": "2026-08-14T12:54:46.226Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:11.434Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:11.587Z",
       "lastChangedAtUtc": "2026-08-14T12:54:46.226Z"
     },
     {
@@ -1156,7 +1156,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/nk-maribor-nk-olimpija-ljubljana/qYsvY#id:16378715",
       "firstSeenAtUtc": "2026-08-14T12:54:44.488Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:09.694Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:09.926Z",
       "lastChangedAtUtc": "2026-08-14T12:54:44.488Z"
     },
     {
@@ -1180,7 +1180,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/1-fc-kaiserslautern-karlsruher-sc/dbbsAdb#id:16434328",
       "firstSeenAtUtc": "2026-08-14T12:54:00.384Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:28.733Z",
+      "lastSeenAtUtc": "2026-08-15T15:10:29.825Z",
       "lastChangedAtUtc": "2026-08-14T12:54:00.384Z"
     },
     {
@@ -1204,7 +1204,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fc-rapid-bucuresti-fc-dinamo-bucuresti/Rpbsditc#id:16403852",
       "firstSeenAtUtc": "2026-08-14T12:54:35.384Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:01.023Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:01.589Z",
       "lastChangedAtUtc": "2026-08-14T12:54:35.384Z"
     },
     {
@@ -1228,7 +1228,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/fk-zeleziarne-podbrezova-as-trencin/YXsMhd#id:16316912",
       "firstSeenAtUtc": "2026-08-14T12:54:42.661Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:08.038Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:08.248Z",
       "lastChangedAtUtc": "2026-08-14T12:54:42.661Z"
     },
     {
@@ -1252,7 +1252,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/kvc-westerlo-krc-genk/PhbsThb#id:16361883",
       "firstSeenAtUtc": "2026-08-14T12:54:15.617Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:42.251Z",
+      "lastSeenAtUtc": "2026-08-15T15:10:43.158Z",
       "lastChangedAtUtc": "2026-08-14T12:54:15.617Z"
     },
     {
@@ -1276,7 +1276,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/oud-heverlee-leuven-club-brugge-kv/Nhbstib#id:16361882",
       "firstSeenAtUtc": "2026-08-14T12:54:15.617Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:42.251Z",
+      "lastSeenAtUtc": "2026-08-15T15:10:43.158Z",
       "lastChangedAtUtc": "2026-08-14T12:54:15.617Z"
     },
     {
@@ -1300,7 +1300,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/nk-lokomotiva-zagreb-nk-osijek/PPsWzo#id:16275184",
       "firstSeenAtUtc": "2026-08-14T12:54:38.984Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:04.521Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:04.901Z",
       "lastChangedAtUtc": "2026-08-14T12:54:38.984Z"
     },
     {
@@ -1324,7 +1324,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/palmeiras-fluminense/lOsnO#id:15235422",
       "firstSeenAtUtc": "2026-08-14T12:53:36.167Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:21.149Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:20.210Z",
       "lastChangedAtUtc": "2026-08-14T12:53:36.167Z"
     },
     {
@@ -1348,7 +1348,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/rio-ave-fc-porto/ckbsLkb#id:16450753",
       "firstSeenAtUtc": "2026-08-14T12:54:06.023Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:33.821Z",
+      "lastSeenAtUtc": "2026-08-15T15:10:34.776Z",
       "lastChangedAtUtc": "2026-08-14T12:54:06.023Z"
     },
     {
@@ -1372,7 +1372,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/sevilla-rayo-vallecano/tgbsIgb#id:16421052",
       "firstSeenAtUtc": "2026-08-14T12:53:51.277Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:20.194Z",
+      "lastSeenAtUtc": "2026-08-15T15:10:21.392Z",
       "lastChangedAtUtc": "2026-08-14T12:53:51.277Z"
     },
     {
@@ -1396,7 +1396,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/real-valladolid-mallorca/BgbsGgb#id:16418271",
       "firstSeenAtUtc": "2026-08-14T12:53:52.974Z",
-      "lastSeenAtUtc": "2026-08-14T16:04:21.945Z",
+      "lastSeenAtUtc": "2026-08-15T15:10:23.249Z",
       "lastChangedAtUtc": "2026-08-14T12:53:52.974Z"
     },
     {
@@ -1420,7 +1420,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/estudiantes-de-la-plata-gimnasia-y-esgrima/fobsgob#id:16671559",
       "firstSeenAtUtc": "2026-08-14T16:05:22.943Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:22.943Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:21.848Z",
       "lastChangedAtUtc": "2026-08-14T16:05:22.943Z"
     },
     {
@@ -1444,7 +1444,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/red-bull-bragantino-athletico/rOsZO#id:15235428",
       "firstSeenAtUtc": "2026-08-14T12:53:36.167Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:21.149Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:20.210Z",
       "lastChangedAtUtc": "2026-08-14T12:53:36.167Z"
     },
     {
@@ -1468,7 +1468,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/independiente-rivadavia-club-atletico-belgrano/dobsRLo#id:16667396",
       "firstSeenAtUtc": "2026-08-14T16:05:22.943Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:22.943Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:21.848Z",
       "lastChangedAtUtc": "2026-08-14T16:05:22.943Z"
     },
     {
@@ -1492,7 +1492,7 @@
       "awayScore": null,
       "matchUrl": "https://www.sofascore.com/football/match/deportivo-riestra-newells-old-boys/mobsyUAb#id:16671565",
       "firstSeenAtUtc": "2026-08-14T16:05:22.943Z",
-      "lastSeenAtUtc": "2026-08-14T16:05:22.943Z",
+      "lastSeenAtUtc": "2026-08-15T15:11:21.848Z",
       "lastChangedAtUtc": "2026-08-14T16:05:22.943Z"
     },
     {

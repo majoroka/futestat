@@ -1,0 +1,43 @@
+{
+  "source": "sofascore",
+  "referenceDate": "2026-08-15",
+  "startedAtUtc": "2026-08-15T15:10:04.128Z",
+  "completedAtUtc": "2026-08-15T15:11:21.848Z",
+  "durationMs": 77720,
+  "totalDates": 1,
+  "maxAttemptsPerDate": 3,
+  "retryDelayMs": 1500,
+  "successfulDates": 1,
+  "emptyDates": 0,
+  "failedDates": 0,
+  "totalFixtures": 83,
+  "days": [
+    {
+      "date": "2026-08-15",
+      "status": "succeeded",
+      "startedAtUtc": "2026-08-15T15:10:04.371Z",
+      "completedAtUtc": "2026-08-15T15:10:08.550Z",
+      "durationMs": 4179,
+      "fixtureCount": 83,
+      "attemptCount": 1,
+      "lastErrorMessage": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "startedAtUtc": "2026-08-15T15:10:04.371Z",
+          "completedAtUtc": "2026-08-15T15:10:08.550Z",
+          "durationMs": 4179,
+          "outcome": "success",
+          "fixtureCount": 13,
+          "errorMessage": null,
+          "diagnosticTitle": null,
+          "diagnosticBodyPreview": null,
+          "artifacts": {
+            "screenshotPath": null,
+            "htmlPath": null
+          }
+        }
+      ]
+    }
+  ]
+}
