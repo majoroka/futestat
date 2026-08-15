@@ -81,6 +81,11 @@ function renderDateFilters() {
   }
 
   const dates = state.snapshot.datesIncluded;
+  if (dates.length <= 1) {
+    datesEl.innerHTML = "";
+    return;
+  }
+
   const selectedIndex = Math.max(dates.indexOf(state.selectedDate), 0);
   const previousDisabled = selectedIndex <= 0;
   const nextDisabled = selectedIndex >= dates.length - 1;
