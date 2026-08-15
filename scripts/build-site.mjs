@@ -131,8 +131,8 @@ async function loadFixtureSnapshot() {
       metadata: {
         browserTimezone: "UTC",
         scraperVersion: 2,
-        pastDays: 1,
-        futureDays: 1,
+        pastDays: 0,
+        futureDays: 0,
         excludedStatuses: ["live"],
       },
     };

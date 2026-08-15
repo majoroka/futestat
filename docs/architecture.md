@@ -23,7 +23,7 @@ Fonte:
 - `Sofascore`
 
 Responsabilidade:
-- janela pública `D-1 ... D+1`
+- janela pública `D`
 - jogos `upcoming`
 - resultados `finished`
 - metadados base do jogo

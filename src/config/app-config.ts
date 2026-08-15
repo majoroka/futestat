@@ -45,14 +45,14 @@ export function loadAppConfig(argv = process.argv.slice(2)): AppConfig {
   const pastDays = readInteger(
     cli.pastDays,
     process.env.FUTESTAT_PAST_DAYS,
-    1,
+    0,
     "pastDays",
   );
 
   const futureDays = readInteger(
     cli.futureDays,
     process.env.FUTESTAT_FUTURE_DAYS ?? process.env.FUTESTAT_DAYS_AHEAD,
-    1,
+    0,
     "futureDays",
   );
 

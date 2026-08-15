@@ -1,13 +1,11 @@
 # Futestat
 
-Pipeline local híbrida para `fixtures` de futebol no Sofascore e classificações no Zerozero, com janela deslizante `D-1 ... D+1`, store canónica por dia e snapshot público para o site estático.
+Pipeline local híbrida para `fixtures` de futebol no Sofascore e classificações no Zerozero, com janela operacional `D`, store canónica por dia e snapshot público para o site estático.
 
 ## Objetivo desta fase
 
 Esta iteração faz:
-- jogos passados de ontem
 - jogos de hoje
-- jogos futuros de amanhã
 - filtro por whitelist de ligas suportadas
 - resultados finais para jogos terminados
 - exclusão de `live` do snapshot público
@@ -83,7 +81,7 @@ npm run scrape:fixtures
 Com argumentos:
 
 ```bash
-npm run scrape:fixtures -- --reference-date=2026-07-24 --past-days=1 --future-days=1
+npm run scrape:fixtures -- --reference-date=2026-07-24 --past-days=0 --future-days=0
 ```
 
 ## Variáveis de ambiente

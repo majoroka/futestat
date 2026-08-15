@@ -3,7 +3,7 @@
 ## Fase 1
 
 Objetivo:
-- janela deslizante `D-1 ... D+1`
+- janela operacional `D`
 - store canónica por dia
 - filtro por ligas suportadas
 - snapshot público sem `live`
