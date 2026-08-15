@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-14T16:06:09.568Z",
+  "builtAtUtc": "2026-08-15T15:51:25.605Z",
   "match": {
     "id": "16390265",
     "date": "2026-08-15",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 3,
+    "awayScore": 3,
     "matchUrl": "https://www.sofascore.com/football/match/rodina-moscow-akron-togliatti/OnocsZdEc#id:16390265",
     "kickoffAtUtc": "2026-08-15T11:00:00.000Z",
     "competition": {

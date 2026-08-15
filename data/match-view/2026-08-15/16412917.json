@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-14T16:06:09.563Z",
+  "builtAtUtc": "2026-08-15T15:51:25.597Z",
   "match": {
     "id": "16412917",
     "date": "2026-08-15",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 1,
+    "awayScore": 1,
     "matchUrl": "https://www.sofascore.com/football/match/fc-livyi-bereh-kyiv-fc-kryvbas-kryvyi-rih/YFrcsjofd#id:16412917",
     "kickoffAtUtc": "2026-08-15T10:00:00.000Z",
     "competition": {

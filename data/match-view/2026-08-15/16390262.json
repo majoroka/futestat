@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-14T16:06:09.575Z",
+  "builtAtUtc": "2026-08-15T15:51:25.614Z",
   "match": {
     "id": "16390262",
     "date": "2026-08-15",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 1,
+    "awayScore": 0,
     "matchUrl": "https://www.sofascore.com/football/match/cska-moscow-fakel-voronezh/rWsAW#id:16390262",
     "kickoffAtUtc": "2026-08-15T13:15:00.000Z",
     "competition": {

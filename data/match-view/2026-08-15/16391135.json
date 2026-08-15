@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-14T16:06:09.569Z",
+  "builtAtUtc": "2026-08-15T15:51:25.607Z",
   "match": {
     "id": "16391135",
     "date": "2026-08-15",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 2,
+    "awayScore": 1,
     "matchUrl": "https://www.sofascore.com/football/match/preston-north-end-bolton-wanderers/fsw#id:16391135",
     "kickoffAtUtc": "2026-08-15T11:30:00.000Z",
     "competition": {

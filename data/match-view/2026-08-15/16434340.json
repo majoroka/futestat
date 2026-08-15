@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-14T16:06:09.566Z",
+  "builtAtUtc": "2026-08-15T15:51:25.603Z",
   "match": {
     "id": "16434340",
     "date": "2026-08-15",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 0,
+    "awayScore": 3,
     "matchUrl": "https://www.sofascore.com/football/match/1-fc-magdeburg-vfl-osnabruck/GbbsQbb#id:16434340",
     "kickoffAtUtc": "2026-08-15T11:00:00.000Z",
     "competition": {

@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-14T16:06:09.561Z",
+  "builtAtUtc": "2026-08-15T15:51:25.587Z",
   "match": {
     "id": "16560179",
     "date": "2026-08-15",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 1,
+    "awayScore": 1,
     "matchUrl": "https://www.sofascore.com/football/match/cd-mafra-atletico-cp/CdosUzp#id:16560179",
     "kickoffAtUtc": "2026-08-15T10:00:00.000Z",
     "competition": {

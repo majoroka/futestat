@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-14T16:06:09.564Z",
+  "builtAtUtc": "2026-08-15T15:51:25.599Z",
   "match": {
     "id": "16434341",
     "date": "2026-08-15",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 2,
+    "awayScore": 4,
     "matchUrl": "https://www.sofascore.com/football/match/spvgg-greuther-furth-1-fc-nurnberg/yabsbbb#id:16434341",
     "kickoffAtUtc": "2026-08-15T11:00:00.000Z",
     "competition": {

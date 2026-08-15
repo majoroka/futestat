@@ -1,12 +1,12 @@
 {
-  "builtAtUtc": "2026-08-14T16:06:09.571Z",
+  "builtAtUtc": "2026-08-15T15:51:25.610Z",
   "match": {
     "id": "16412915",
     "date": "2026-08-15",
-    "status": "upcoming",
-    "resultLabel": null,
-    "homeScore": null,
-    "awayScore": null,
+    "status": "finished",
+    "resultLabel": "FT",
+    "homeScore": 0,
+    "awayScore": 0,
     "matchUrl": "https://www.sofascore.com/football/match/kudrivka-obolon-kyiv/owfbsfwBc#id:16412915",
     "kickoffAtUtc": "2026-08-15T12:30:00.000Z",
     "competition": {
