@@ -10,12 +10,12 @@ export async function runMatchDetailsRefresh(
   snapshot: PublicFixtureSnapshot,
 ): Promise<MatchDetailRefreshResult> {
   const store = new JsonMatchDetailStore(config.matchDetailsOutputDir);
-  const allUpcoming = snapshot.fixtures
-    .filter((fixture) => fixture.status === "upcoming")
+  const eligibleFixtures = snapshot.fixtures
+    .filter((fixture) => isEligibleForMatchDetails(snapshot.referenceDate, fixture))
     .sort((left, right) => compareUpcomingFixtures(left, right, snapshot.referenceDate));
   const candidates: MatchFixture[] = [];
 
-  for (const fixture of allUpcoming) {
+  for (const fixture of eligibleFixtures) {
     if (candidates.length >= config.matchDetailsMaxFixtures) {
       break;
     }
@@ -36,15 +36,15 @@ export async function runMatchDetailsRefresh(
   }
 
   logStructuredEvent(config.structuredLogs, "info", "match_details_refresh_started", {
-    upcomingCount: allUpcoming.length,
+    eligibleCount: eligibleFixtures.length,
     candidateCount: candidates.length,
     maxFixturesPerRun: config.matchDetailsMaxFixtures,
     maxAgeHours: config.matchDetailsMaxAgeHours,
   });
 
   const scraper = new SofascoreMatchDetailsScraper(config);
-  const result = await scraper.refreshUpcomingMatchDetails(
-    allUpcoming,
+  const result = await scraper.refreshMatchDetails(
+    eligibleFixtures,
     candidates.map((fixture) => ({ fixture })),
     async (detail) => {
       await store.write(detail);
@@ -101,3 +101,15 @@ function compareKickoff(left: string | null, right: string | null): number {
 
   return left.localeCompare(right);
 }
+
+function isEligibleForMatchDetails(referenceDate: string, fixture: MatchFixture): boolean {
+  if (fixture.status === "upcoming") {
+    return true;
+  }
+
+  return fixture.status === "finished" && fixture.matchDate === referenceDate;
+}
+
+export const __testables = {
+  isEligibleForMatchDetails,
+};

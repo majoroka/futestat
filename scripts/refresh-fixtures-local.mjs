@@ -1,6 +1,12 @@
 import { spawnSync } from "node:child_process";
 
-run(["npm", "run", "scrape:fixtures"]);
+run([
+  "npm",
+  "run",
+  "scrape:fixtures",
+  "--",
+  "--match-details-enabled=true",
+]);
 run(["npm", "run", "build:match-views-window"]);
 run(["npm", "run", "publish:fixtures-data"]);
 

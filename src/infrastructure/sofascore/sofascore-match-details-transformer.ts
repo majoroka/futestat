@@ -36,7 +36,7 @@ export function buildMatchDetailSnapshot(params: {
     source: "sofascore",
     sourceEventId: fixture.sourceEventId,
     matchUrl: fixture.matchUrl,
-    status: "upcoming",
+    status: fixture.status === "finished" ? "finished" : "upcoming",
     scrapedAtUtc,
     fixtureLastSeenAtUtc: fixture.lastSeenAtUtc,
     fixtureLastChangedAtUtc: fixture.lastChangedAtUtc,

@@ -13,7 +13,7 @@ interface MatchDetailCandidate {
 export class SofascoreMatchDetailsScraper {
   constructor(private readonly config: AppConfig) {}
 
-  async refreshUpcomingMatchDetails(
+  async refreshMatchDetails(
     fixtures: MatchFixture[],
     candidates: MatchDetailCandidate[],
     onDetail: (detail: MatchDetailSnapshot) => Promise<void>,
@@ -22,7 +22,7 @@ export class SofascoreMatchDetailsScraper {
       return {
         attempted: 0,
         refreshed: 0,
-        skipped: fixtures.filter((fixture) => fixture.status === "upcoming").length,
+        skipped: fixtures.length,
         failed: 0,
         refreshedEventIds: [],
         outputDir: this.config.matchDetailsOutputDir,
@@ -69,8 +69,7 @@ export class SofascoreMatchDetailsScraper {
       return {
         attempted: candidates.length,
         refreshed,
-        skipped:
-          fixtures.filter((fixture) => fixture.status === "upcoming").length - candidates.length,
+        skipped: fixtures.length - candidates.length,
         failed,
         refreshedEventIds,
         outputDir: this.config.matchDetailsOutputDir,

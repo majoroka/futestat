@@ -87,7 +87,7 @@ export interface MatchDetailSnapshot {
   source: "sofascore";
   sourceEventId: string;
   matchUrl: string;
-  status: "upcoming";
+  status: "upcoming" | "finished";
   scrapedAtUtc: string;
   fixtureLastSeenAtUtc: string;
   fixtureLastChangedAtUtc: string;
