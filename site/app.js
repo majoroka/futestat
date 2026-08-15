@@ -526,6 +526,23 @@ function renderFixtureDetailsTab(fixture, matchViewState) {
 }
 
 function renderBasicFixtureDetails(fixture, note = null) {
+  const homeIdentity = {
+    id: fixture.homeTeamId,
+    name: fixture.homeTeamName,
+    logoUrl: fixture.homeTeamLogoUrl,
+  };
+  const awayIdentity = {
+    id: fixture.awayTeamId,
+    name: fixture.awayTeamName,
+    logoUrl: fixture.awayTeamLogoUrl,
+  };
+  const emptyLineup = {
+    lineup: null,
+    players: [],
+    groups: [],
+    totalXiRating: null,
+  };
+
   return `
     <div class="fixture-detail__tab-panel fixture-detail__stack">
       <section class="fixture-detail__subsection">
@@ -554,23 +571,23 @@ function renderBasicFixtureDetails(fixture, note = null) {
       </section>
       <section class="fixture-detail__subsection">
         <h4>Forma recente</h4>
-        <div class="fixture-detail__summary-grid">
-          ${renderDetailPlainBlock(`Casa · ${fixture.homeTeamName}`, renderUnavailableFormRow("n/d", fixture.homeTeamLogoUrl, fixture.homeTeamId))}
-          ${renderDetailPlainBlock(`Fora · ${fixture.awayTeamName}`, renderUnavailableFormRow("n/d", fixture.awayTeamLogoUrl, fixture.awayTeamId))}
+        ${renderFixtureTeamsHeader(homeIdentity, awayIdentity)}
+        <div class="fixture-detail__comparison-grid">
+          ${renderUnavailableFormRow()}
+          ${renderUnavailableFormRow()}
         </div>
       </section>
       <section class="fixture-detail__subsection">
         <h4>Equipa provável</h4>
-        <div class="fixture-detail__lineup-grid">
-          ${renderUnavailableLineupCard("Casa", fixture.homeTeamName, "home")}
-          ${renderUnavailableLineupCard("Fora", fixture.awayTeamName, "away")}
-        </div>
+        ${renderFixtureTeamsHeader(homeIdentity, awayIdentity)}
+        ${renderExpectedLineupComparison(emptyLineup, emptyLineup)}
       </section>
       <section class="fixture-detail__subsection">
         <h4>Lesionados e suspensos</h4>
+        ${renderFixtureTeamsHeader(homeIdentity, awayIdentity)}
         <div class="fixture-detail__availability-grid">
-          ${renderUnavailableAvailabilityCard("Casa", fixture.homeTeamName, "home")}
-          ${renderUnavailableAvailabilityCard("Fora", fixture.awayTeamName, "away")}
+          ${renderUnavailableAvailabilityCard("home")}
+          ${renderUnavailableAvailabilityCard("away")}
         </div>
       </section>
       <section class="fixture-detail__subsection">
