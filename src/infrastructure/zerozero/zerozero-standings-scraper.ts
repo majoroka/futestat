@@ -21,9 +21,18 @@ export class ZerozeroStandingsScraper {
   async refreshCompetitionStandings(
     sources: CompetitionStandingsSource[],
     onSnapshot: (snapshot: CompetitionStandingsSnapshot) => Promise<void>,
+    options?: {
+      delayMs?: number;
+      maxConsecutiveBlockedFailures?: number | null;
+    },
   ): Promise<CompetitionStandingsRefreshResult> {
+    const delayMs = Math.max(0, options?.delayMs ?? 0);
+    const maxConsecutiveBlockedFailures = options?.maxConsecutiveBlockedFailures ?? null;
     let refreshed = 0;
     let failed = 0;
+    let skipped = 0;
+    let attempted = 0;
+    let consecutiveBlockedFailures = 0;
     let preferBrowserTransport = false;
     const runStartedAtUtc = new Date().toISOString();
     const runToken = runStartedAtUtc.replaceAll(":", "").replaceAll(".", "");
@@ -53,6 +62,8 @@ export class ZerozeroStandingsScraper {
 
     try {
       for (const source of sources) {
+        attempted += 1;
+
         try {
           const result = await this.scrapeCompetition(
             source,
@@ -68,13 +79,47 @@ export class ZerozeroStandingsScraper {
           await onSnapshot(result.snapshot);
           refreshed += 1;
           refreshedCompetitionIds.push(source.competitionId);
+          consecutiveBlockedFailures = 0;
         } catch (error: unknown) {
           failed += 1;
+          const errorMessage = error instanceof Error ? error.message : String(error);
+          if (isBlockedErrorMessage(errorMessage)) {
+            consecutiveBlockedFailures += 1;
+          } else {
+            consecutiveBlockedFailures = 0;
+          }
+
           logStructuredEvent(this.config.structuredLogs, "warn", "competition_standings_refresh_failed", {
             competitionId: source.competitionId,
             zerozeroUrl: source.zerozeroUrl,
-            errorMessage: error instanceof Error ? error.message : String(error),
+            errorMessage,
           });
+
+          if (
+            maxConsecutiveBlockedFailures !== null &&
+            consecutiveBlockedFailures >= maxConsecutiveBlockedFailures
+          ) {
+            skipped = sources.length - attempted;
+            logStructuredEvent(
+              this.config.structuredLogs,
+              "warn",
+              "competition_standings_refresh_aborted_after_blocked_failures",
+              {
+                attempted,
+                failed,
+                refreshed,
+                skipped,
+                consecutiveBlockedFailures,
+                maxConsecutiveBlockedFailures,
+                lastCompetitionId: source.competitionId,
+              },
+            );
+            break;
+          }
+        }
+
+        if (delayMs > 0 && attempted < sources.length) {
+          await wait(delayMs);
         }
       }
     } finally {
@@ -88,9 +133,9 @@ export class ZerozeroStandingsScraper {
     }
 
     return {
-      attempted: sources.length,
+      attempted,
       refreshed,
-      skipped: 0,
+      skipped,
       failed,
       refreshedCompetitionIds,
       outputDir: this.config.competitionStandingsOutputDir,
@@ -304,6 +349,10 @@ function shouldFallbackToBrowser(error: unknown): boolean {
   return /Zerozero standings page unavailable \((403|429|503)\)/.test(message) || message.includes("blocked_");
 }
 
+function isBlockedErrorMessage(message: string): boolean {
+  return message.includes("blocked_") || /Zerozero standings page unavailable \((403|429|503)\)/.test(message);
+}
+
 function isBlockedHtml(html: string): boolean {
   const normalized = html.toLowerCase();
 
@@ -324,4 +373,10 @@ function isBlockedHtml(html: string): boolean {
 
 function sanitizePathSegment(value: string): string {
   return value.replace(/[^a-zA-Z0-9._-]+/g, "-");
+}
+
+function wait(delayMs: number): Promise<void> {
+  return new Promise((resolve) => {
+    setTimeout(resolve, delayMs);
+  });
 }

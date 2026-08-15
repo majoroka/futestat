@@ -12,6 +12,8 @@ export async function runCompetitionStandingsRefresh(
   snapshot: PublicFixtureSnapshot,
   options?: {
     force?: boolean;
+    delayMs?: number;
+    maxConsecutiveBlockedFailures?: number | null;
   },
 ): Promise<CompetitionStandingsRefreshResult> {
   const store = new JsonCompetitionStandingsStore(config.competitionStandingsOutputDir);
@@ -44,6 +46,9 @@ export async function runCompetitionStandingsRefresh(
   const scraper = new ZerozeroStandingsScraper(config);
   const result = await scraper.refreshCompetitionStandings(sources, async (snapshotItem) => {
     await store.write(snapshotItem);
+  }, {
+    delayMs: options?.delayMs,
+    maxConsecutiveBlockedFailures: options?.maxConsecutiveBlockedFailures,
   });
 
   logStructuredEvent(config.structuredLogs, "info", "competition_standings_refresh_completed", {
