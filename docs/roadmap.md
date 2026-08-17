@@ -90,7 +90,7 @@ Pendências desta fase:
 - ordenação e filtros de estado
 - afinação visual dos novos blocos do painel
 - consolidar o conteúdo final do separador `Detalhes` após a fase atual
-- planear a migração da camada de classificações de `Zerozero` para `API-FOOTBALL`, preservando o output JSON atual para a UI
+- planear a migração da camada de classificações de `Zerozero` para `worldfootball.net`, preservando o output JSON atual para a UI
 
 ## Fase 4
 
@@ -107,39 +107,38 @@ Itens:
 ## Fase 4A
 
 Objetivo:
-- reorientar as classificações para `API-FOOTBALL` na época `2026/2027`
+- reorientar as classificações para `worldfootball.net` na época `2026/2027`
 
 Princípios:
-- usar `API-FOOTBALL` apenas para classificações
+- usar `worldfootball.net` como fonte principal das classificações
 - manter `Sofascore` como chave canónica de competição via `sofascoreCompetitionId`
-- consumir apenas a época `2026`
+- consumir apenas a época `2026/2027`
 - guardar snapshots locais por competição e servir sempre a UI a partir de JSON local
 - evitar chamadas diretas da app/browser a serviços externos
 
 Entregáveis previstos:
-- `competition-api-football-registry.json` como registo dedicado da camada de classificações por API
-- mapeamento `sofascoreCompetitionId -> apiFootballLeagueId`
-- validação explícita de `coverage.standings` por competição
-- refresh manual de classificações via `API-FOOTBALL`
+- `competition-worldfootball-registry.json` como registo dedicado da camada de classificações
+- mapeamento `sofascoreCompetitionId -> worldfootball slug`
+- classificação por estado `direct`, `multi_phase` e `delicate`
+- refresh manual de classificações via `worldfootball.net`
 - persistência em `data/fixtures/standings/<competitionId>.json`
-- adaptação do pipeline de standings para aceitar `provider=api-football`
+- adaptação do pipeline de standings para aceitar `provider=worldfootball`
 - política de estados `mapped`, `pending`, `unsupported`, `conditional`
-- política de estados finais `ready`, `needs_phase_rules`, `coverage_off`, `not_started`, `unresolved`
+- política de estados finais `ready`, `needs_phase_rules`, `not_started`, `unresolved`
 
 Checklist operacional:
-- bootstrap inicial com `GET /leagues?season=2026`
-- resolver as 42 competições da whitelist para `apiFootballLeagueId`
-- confirmar `countryName`, `competitionName`, `type` e `season`
-- validar `coverage.standings` antes de chamar `/standings`
-- chamar `GET /standings?league=<id>&season=2026` apenas para competições aptas
+- resolver as 42 competições da whitelist para `slug`
+- classificar cada competição em `direct`, `multi_phase` ou `delicate`
+- construir URLs base de `table`, `archive` ou fase auxiliar por competição
+- fazer fetch do HTML relevante da época `2026/2027`
+- extrair a tabela principal ou as subfases necessárias
 - normalizar a resposta para o formato interno já usado pela UI
 - preservar `groups[]` quando houver múltiplas tabelas
-- marcar competições sem tabela útil como `coverage_off` ou `conditional`
 - guardar logs de refresh por competição, sem bloquear o resto da run
 - manter o renderer da UI desacoplado da fonte externa
 
 Prioridade 1:
-- fechar primeiro todas as competições com `single_table`
+- fechar primeiro todas as competições com `single_table` e comportamento `direct`
 - objetivo: `mapped + ready`
 - competições alvo:
 - `England | Premier League`
@@ -168,7 +167,7 @@ Prioridade 1:
 - `Brazil | Brasileirao Serie A`
 
 Prioridade 2:
-- tratar competições com `regular_plus_playoffs`
+- tratar competições com `regular_plus_playoffs` e comportamento `multi_phase`
 - objetivo: `mapped + needs_phase_rules`
 - competições alvo:
 - `Portugal | Liga 3`
@@ -196,16 +195,16 @@ Prioridade 3:
 - `Europe | UEFA Conference League`
 
 Riscos conhecidos:
-- `coverage.standings` pode estar desligado antes do arranque real da competição
+- algumas ligas expõem subfases em URLs ou blocos separados
 - algumas provas podem devolver grupos/fases sem equivalência direta com a UI atual
-- a API pode suportar a competição mas não a tabela final que queremos expor
-- competições europeias de qualificação podem exigir regra própria ou ficar fora da primeira iteração
+- ligas europeias e qualificações podem exigir parser específico por fase
+- o HTML pode mudar e exigir ajustes localizados de parser
 
 Critério de fecho desta subfase:
 - todas as 42 competições com estado explícito no registry
-- todas as `single_table` consumidas pela API-FOOTBALL
-- UI a ler o mesmo JSON final sem saber se a origem foi `Zerozero` ou `API-FOOTBALL`
-- `Zerozero` mantido apenas como fallback temporário onde a API não entregar a classificação necessária
+- todas as competições `direct` consumidas por `worldfootball.net`
+- UI a ler o mesmo JSON final sem saber se a origem foi `Zerozero` ou `worldfootball.net`
+- `Zerozero` mantido apenas como fallback temporário onde `worldfootball.net` não entregar a classificação necessária
 
 ## Fase 5
 

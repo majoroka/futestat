@@ -38,7 +38,7 @@ Fonte atual:
 - `Zerozero`
 
 Fonte alvo desta subcamada:
-- `API-FOOTBALL` para classificações da época `2026/2027`
+- `worldfootball.net` para classificações da época `2026/2027`
 
 Responsabilidade:
 - classificação por competição
@@ -50,7 +50,7 @@ Output principal:
 
 Registos complementares:
 - `data/competition-source-registry.json`
-- `data/competition-api-football-registry.json` (planeado)
+- `data/competition-worldfootball-registry.json` (planeado)
 
 ### 3. Mapeamento de competições
 

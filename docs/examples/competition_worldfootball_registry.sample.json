@@ -1,0 +1,81 @@
+{
+  "generatedAtUtc": "2026-08-17T12:00:00Z",
+  "seasonLabel": "2026/2027",
+  "entryCount": 3,
+  "entries": [
+    {
+      "sofascoreCompetitionId": "238",
+      "competitionName": "Liga Portugal",
+      "countryName": "Portugal",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "worldfootball": {
+        "status": "mapped",
+        "slug": "por-primeira-liga",
+        "competitionName": "Primeira Liga",
+        "countryName": "Portugal",
+        "pathMode": "direct",
+        "seasonLabel": "2026/2027",
+        "tableUrl": "https://www.worldfootball.net/competition/por-primeira-liga/table/",
+        "archiveUrl": "https://www.worldfootball.net/history/por-primeira-liga/",
+        "notes": null
+      },
+      "standings": {
+        "enabled": true,
+        "provider": "worldfootball",
+        "mode": "single_table",
+        "status": "ready"
+      }
+    },
+    {
+      "sofascoreCompetitionId": "38",
+      "competitionName": "Pro League",
+      "countryName": "Belgium",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "worldfootball": {
+        "status": "mapped",
+        "slug": "bel-eerste-klasse-a",
+        "competitionName": "Pro League",
+        "countryName": "Belgium",
+        "pathMode": "multi_phase",
+        "seasonLabel": "2026/2027",
+        "tableUrl": "https://www.worldfootball.net/competition/bel-eerste-klasse-a/table/",
+        "archiveUrl": "https://www.worldfootball.net/history/bel-pro-league/",
+        "notes": "Championship, Europe, ECL Playoff e Relegation exigem leitura por fase."
+      },
+      "standings": {
+        "enabled": true,
+        "provider": "worldfootball",
+        "mode": "regular_plus_playoffs",
+        "status": "needs_phase_rules"
+      }
+    },
+    {
+      "sofascoreCompetitionId": "7",
+      "competitionName": "UEFA Champions League",
+      "countryName": "Europe",
+      "competitionAliases": [
+        "UEFA Champions League, Qualification"
+      ],
+      "countryAliases": [],
+      "worldfootball": {
+        "status": "conditional",
+        "slug": "champions-league",
+        "competitionName": "Champions League",
+        "countryName": "Europe",
+        "pathMode": "delicate",
+        "seasonLabel": "2026/2027",
+        "tableUrl": "https://www.worldfootball.net/competition/champions-league/table/",
+        "archiveUrl": "https://www.worldfootball.net/history/champions-league/",
+        "notes": "League phase, qualificação e knockout exigem parser específico por fase."
+      },
+      "standings": {
+        "enabled": true,
+        "provider": "worldfootball",
+        "mode": "league_phase",
+        "status": "needs_phase_rules"
+      }
+    }
+  ]
+}

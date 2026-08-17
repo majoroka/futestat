@@ -1,5 +1,10 @@
 # API-FOOTBALL Standings Registry
 
+Estado:
+- exploratório
+- não ativo na arquitetura atual
+- descartado para a época `2026/2027` no plano gratuito, porque a própria API limita o acesso a épocas anteriores
+
 ## Objetivo
 
 Definir a camada lógica que liga cada `sofascoreCompetitionId` da whitelist a uma competição da `API-FOOTBALL`, apenas para classificações da época `2026/2027`.
