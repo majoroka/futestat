@@ -90,6 +90,7 @@ Pendências desta fase:
 - ordenação e filtros de estado
 - afinação visual dos novos blocos do painel
 - consolidar o conteúdo final do separador `Detalhes` após a fase atual
+- planear a migração da camada de classificações de `Zerozero` para `API-FOOTBALL`, preservando o output JSON atual para a UI
 
 ## Fase 4
 
@@ -102,6 +103,109 @@ Itens:
 - capacidade do estádio e TV em Portugal com nomes de canais quando disponíveis
 - odds `1/X/2` no layout principal
 - H2H e contexto recente das equipas
+
+## Fase 4A
+
+Objetivo:
+- reorientar as classificações para `API-FOOTBALL` na época `2026/2027`
+
+Princípios:
+- usar `API-FOOTBALL` apenas para classificações
+- manter `Sofascore` como chave canónica de competição via `sofascoreCompetitionId`
+- consumir apenas a época `2026`
+- guardar snapshots locais por competição e servir sempre a UI a partir de JSON local
+- evitar chamadas diretas da app/browser a serviços externos
+
+Entregáveis previstos:
+- `competition-api-football-registry.json` como registo dedicado da camada de classificações por API
+- mapeamento `sofascoreCompetitionId -> apiFootballLeagueId`
+- validação explícita de `coverage.standings` por competição
+- refresh manual de classificações via `API-FOOTBALL`
+- persistência em `data/fixtures/standings/<competitionId>.json`
+- adaptação do pipeline de standings para aceitar `provider=api-football`
+- política de estados `mapped`, `pending`, `unsupported`, `conditional`
+- política de estados finais `ready`, `needs_phase_rules`, `coverage_off`, `not_started`, `unresolved`
+
+Checklist operacional:
+- bootstrap inicial com `GET /leagues?season=2026`
+- resolver as 42 competições da whitelist para `apiFootballLeagueId`
+- confirmar `countryName`, `competitionName`, `type` e `season`
+- validar `coverage.standings` antes de chamar `/standings`
+- chamar `GET /standings?league=<id>&season=2026` apenas para competições aptas
+- normalizar a resposta para o formato interno já usado pela UI
+- preservar `groups[]` quando houver múltiplas tabelas
+- marcar competições sem tabela útil como `coverage_off` ou `conditional`
+- guardar logs de refresh por competição, sem bloquear o resto da run
+- manter o renderer da UI desacoplado da fonte externa
+
+Prioridade 1:
+- fechar primeiro todas as competições com `single_table`
+- objetivo: `mapped + ready`
+- competições alvo:
+- `England | Premier League`
+- `England | Championship`
+- `Spain | LaLiga`
+- `Spain | LaLiga 2`
+- `Italy | Serie A`
+- `Italy | Serie B`
+- `Germany | Bundesliga`
+- `Germany | 2. Bundesliga`
+- `France | Ligue 1`
+- `France | Ligue 2`
+- `Portugal | Liga Portugal`
+- `Portugal | Liga Portugal 2`
+- `Netherlands | Eredivisie`
+- `Netherlands | Eerste Divisie`
+- `Turkey | Super Lig`
+- `Norway | Eliteserien`
+- `Sweden | Allsvenskan`
+- `Poland | Ekstraklasa`
+- `Hungary | NB I`
+- `Croatia | HNL`
+- `Slovenia | PrvaLiga`
+- `Ukraine | Premier League`
+- `Russia | Premier League`
+- `Brazil | Brasileirao Serie A`
+
+Prioridade 2:
+- tratar competições com `regular_plus_playoffs`
+- objetivo: `mapped + needs_phase_rules`
+- competições alvo:
+- `Portugal | Liga 3`
+- `Belgium | Pro League`
+- `Scotland | Premiership`
+- `Austria | Bundesliga`
+- `Switzerland | Super League`
+- `Denmark | Superliga`
+- `Finland | Veikkausliiga`
+- `Czech Republic | Chance Liga`
+- `Romania | SuperLiga`
+- `Serbia | SuperLiga`
+- `Slovakia | Niké Liga`
+- `Bulgaria | Parva Liga`
+- `Greece | Super League`
+- `Israel | Premier League`
+- `Argentina | Liga Profesional`
+
+Prioridade 3:
+- avaliar e integrar competições europeias
+- objetivo: `mapped + needs_phase_rules`
+- competições alvo:
+- `Europe | UEFA Champions League`
+- `Europe | UEFA Europa League`
+- `Europe | UEFA Conference League`
+
+Riscos conhecidos:
+- `coverage.standings` pode estar desligado antes do arranque real da competição
+- algumas provas podem devolver grupos/fases sem equivalência direta com a UI atual
+- a API pode suportar a competição mas não a tabela final que queremos expor
+- competições europeias de qualificação podem exigir regra própria ou ficar fora da primeira iteração
+
+Critério de fecho desta subfase:
+- todas as 42 competições com estado explícito no registry
+- todas as `single_table` consumidas pela API-FOOTBALL
+- UI a ler o mesmo JSON final sem saber se a origem foi `Zerozero` ou `API-FOOTBALL`
+- `Zerozero` mantido apenas como fallback temporário onde a API não entregar a classificação necessária
 
 ## Fase 5
 
