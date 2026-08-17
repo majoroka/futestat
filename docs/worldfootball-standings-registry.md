@@ -345,6 +345,173 @@ Para cada linha:
 - `goalsAgainst`
 - `goalDifference`
 
+## Output final proposto
+
+Princípio:
+- o output final em `data/fixtures/standings/<competitionId>.json` deve continuar o mais próximo possível do contrato atual
+- a UI não deve precisar de distinguir `Zerozero` de `worldfootball.net`
+- a principal diferença será apenas `source.provider`
+
+Campos de topo esperados:
+- `source`
+- `competitionId`
+- `competitionName`
+- `countryName`
+- `worldfootballUrl`
+- `mode`
+- `status`
+- `scrapedAtUtc`
+- `editionId`
+- `phaseId`
+- `phaseName`
+- `phaseNotes`
+- `ruleProfileId`
+- `tables`
+
+Nota:
+- quando a origem for `worldfootball.net`, `editionId` e `phaseId` podem ser `null`
+- estes campos só devem ser preenchidos se o parser conseguir inferi-los com segurança
+
+### Caso 1: `single_table`
+
+Uso típico:
+- ligas do grupo `direct`
+
+```json
+{
+  "source": "worldfootball",
+  "competitionId": "238",
+  "competitionName": "Liga Portugal",
+  "countryName": "Portugal",
+  "worldfootballUrl": "https://www.worldfootball.net/competition/por-primeira-liga/table/",
+  "mode": "single_table",
+  "status": "ready",
+  "scrapedAtUtc": "2026-08-17T12:00:00Z",
+  "editionId": null,
+  "phaseId": null,
+  "phaseName": null,
+  "phaseNotes": [],
+  "ruleProfileId": "single-table-default",
+  "tables": [
+    {
+      "name": "Table",
+      "type": "total",
+      "rows": [
+        {
+          "position": 1,
+          "teamName": "Sporting CP",
+          "teamUrl": null,
+          "points": 6,
+          "matches": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 1,
+          "goalDifference": "+4"
+        }
+      ]
+    }
+  ]
+}
+```
+
+### Caso 2: `regular_plus_playoffs`
+
+Uso típico:
+- ligas do grupo `multi_phase`
+
+```json
+{
+  "source": "worldfootball",
+  "competitionId": "38",
+  "competitionName": "Pro League",
+  "countryName": "Belgium",
+  "worldfootballUrl": "https://www.worldfootball.net/history/bel-pro-league/",
+  "mode": "regular_plus_playoffs",
+  "status": "needs_phase_rules",
+  "scrapedAtUtc": "2026-08-17T12:00:00Z",
+  "editionId": null,
+  "phaseId": null,
+  "phaseName": "Championship",
+  "phaseNotes": [
+    "Arquivo da competição contém fase regular e subfases em páginas separadas."
+  ],
+  "ruleProfileId": "belgium-pro-league-playoffs",
+  "tables": [
+    {
+      "name": "Regular Season",
+      "type": "regular",
+      "rows": []
+    },
+    {
+      "name": "Championship",
+      "type": "championship",
+      "rows": []
+    },
+    {
+      "name": "Relegation",
+      "type": "relegation",
+      "rows": []
+    }
+  ]
+}
+```
+
+Regra:
+- `tables[0]` não precisa de ser sempre a tabela mostrada por defeito na UI
+- a escolha da tabela principal pode continuar a depender da fase do jogo e das `phase rules`
+
+### Caso 3: `league_phase`
+
+Uso típico:
+- competições europeias do grupo `delicate`
+
+```json
+{
+  "source": "worldfootball",
+  "competitionId": "7",
+  "competitionName": "UEFA Champions League",
+  "countryName": "Europe",
+  "worldfootballUrl": "https://www.worldfootball.net/history/champions-league/",
+  "mode": "league_phase",
+  "status": "needs_phase_rules",
+  "scrapedAtUtc": "2026-08-17T12:00:00Z",
+  "editionId": null,
+  "phaseId": null,
+  "phaseName": "League Phase",
+  "phaseNotes": [
+    "Qualification e knockout não devem ser tratados como tabela clássica."
+  ],
+  "ruleProfileId": "uefa-league-phase",
+  "tables": [
+    {
+      "name": "League Phase",
+      "type": "league_phase",
+      "rows": []
+    }
+  ]
+}
+```
+
+Regra:
+- se a competição estiver apenas em `qualification` ou `knockout`, o parser pode optar por:
+  - não gerar tabela
+  - ou gerar snapshot com `status = needs_phase_rules` e `tables = []`
+
+## Compatibilidade com o contrato atual
+
+Compatibilidade desejada:
+- manter `tables[]` e `rows[]` exatamente com a mesma semântica
+- manter `mode`, `status`, `phaseName`, `phaseNotes` e `ruleProfileId`
+- mudar apenas o provider e a URL de origem
+
+Ponto técnico a rever quando houver código:
+- o tipo atual em `src/domain/competition-standings.ts` fixa `source: "zerozero"`
+- na implementação, isso deve passar a aceitar pelo menos:
+  - `zerozero`
+  - `worldfootball`
+
 ## Critério de fecho
 
 - as 42 competições com estado explícito no registry

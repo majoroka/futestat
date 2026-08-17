@@ -1,0 +1,96 @@
+{
+  "singleTable": {
+    "source": "worldfootball",
+    "competitionId": "238",
+    "competitionName": "Liga Portugal",
+    "countryName": "Portugal",
+    "worldfootballUrl": "https://www.worldfootball.net/competition/por-primeira-liga/table/",
+    "mode": "single_table",
+    "status": "ready",
+    "scrapedAtUtc": "2026-08-17T12:00:00Z",
+    "editionId": null,
+    "phaseId": null,
+    "phaseName": null,
+    "phaseNotes": [],
+    "ruleProfileId": "single-table-default",
+    "tables": [
+      {
+        "name": "Table",
+        "type": "total",
+        "rows": [
+          {
+            "position": 1,
+            "teamName": "Sporting CP",
+            "teamUrl": null,
+            "points": 6,
+            "matches": 2,
+            "wins": 2,
+            "draws": 0,
+            "losses": 0,
+            "goalsFor": 5,
+            "goalsAgainst": 1,
+            "goalDifference": "+4"
+          }
+        ]
+      }
+    ]
+  },
+  "regularPlusPlayoffs": {
+    "source": "worldfootball",
+    "competitionId": "38",
+    "competitionName": "Pro League",
+    "countryName": "Belgium",
+    "worldfootballUrl": "https://www.worldfootball.net/history/bel-pro-league/",
+    "mode": "regular_plus_playoffs",
+    "status": "needs_phase_rules",
+    "scrapedAtUtc": "2026-08-17T12:00:00Z",
+    "editionId": null,
+    "phaseId": null,
+    "phaseName": "Championship",
+    "phaseNotes": [
+      "Arquivo da competição contém fase regular e subfases em páginas separadas."
+    ],
+    "ruleProfileId": "belgium-pro-league-playoffs",
+    "tables": [
+      {
+        "name": "Regular Season",
+        "type": "regular",
+        "rows": []
+      },
+      {
+        "name": "Championship",
+        "type": "championship",
+        "rows": []
+      },
+      {
+        "name": "Relegation",
+        "type": "relegation",
+        "rows": []
+      }
+    ]
+  },
+  "leaguePhase": {
+    "source": "worldfootball",
+    "competitionId": "7",
+    "competitionName": "UEFA Champions League",
+    "countryName": "Europe",
+    "worldfootballUrl": "https://www.worldfootball.net/history/champions-league/",
+    "mode": "league_phase",
+    "status": "needs_phase_rules",
+    "scrapedAtUtc": "2026-08-17T12:00:00Z",
+    "editionId": null,
+    "phaseId": null,
+    "phaseName": "League Phase",
+    "phaseNotes": [
+      "Qualification e knockout não devem ser tratados como tabela clássica."
+    ],
+    "ruleProfileId": "uefa-league-phase",
+    "tables": [
+      {
+        "name": "League Phase",
+        "type": "league_phase",
+        "rows": []
+      }
+    ]
+  }
+}
