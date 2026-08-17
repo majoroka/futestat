@@ -34,15 +34,23 @@ Output principal:
 
 ### 2. Classificações
 
-Fonte:
+Fonte atual:
 - `Zerozero`
+
+Fonte alvo desta subcamada:
+- `API-FOOTBALL` para classificações da época `2026/2027`
 
 Responsabilidade:
 - classificação por competição
 - fases, grupos, splits e legendas
+- desacoplamento entre provider externo e JSON consumido pela UI
 
 Output principal:
 - `data/fixtures/standings/<competitionId>.json`
+
+Registos complementares:
+- `data/competition-source-registry.json`
+- `data/competition-api-football-registry.json` (planeado)
 
 ### 3. Mapeamento de competições
 

@@ -1,0 +1,90 @@
+{
+  "generatedAtUtc": "2026-08-17T12:00:00Z",
+  "season": 2026,
+  "entryCount": 3,
+  "entries": [
+    {
+      "sofascoreCompetitionId": "238",
+      "competitionName": "Liga Portugal",
+      "countryName": "Portugal",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "apiFootball": {
+        "status": "mapped",
+        "sourceCompetitionId": "API_FOOTBALL_LEAGUE_ID_PLACEHOLDER",
+        "competitionName": "Primeira Liga",
+        "countryName": "Portugal",
+        "type": "League",
+        "season": 2026,
+        "current": true,
+        "coverage": {
+          "standings": true
+        },
+        "url": null,
+        "notes": null
+      },
+      "standings": {
+        "enabled": true,
+        "provider": "api-football",
+        "mode": "single_table",
+        "status": "ready"
+      }
+    },
+    {
+      "sofascoreCompetitionId": "38",
+      "competitionName": "Pro League",
+      "countryName": "Belgium",
+      "competitionAliases": [],
+      "countryAliases": [],
+      "apiFootball": {
+        "status": "mapped",
+        "sourceCompetitionId": "API_FOOTBALL_LEAGUE_ID_PLACEHOLDER",
+        "competitionName": "Jupiler Pro League",
+        "countryName": "Belgium",
+        "type": "League",
+        "season": 2026,
+        "current": true,
+        "coverage": {
+          "standings": true
+        },
+        "url": null,
+        "notes": "Estrutura com playoffs e tabelas por fase; exigir regras locais."
+      },
+      "standings": {
+        "enabled": true,
+        "provider": "api-football",
+        "mode": "regular_plus_playoffs",
+        "status": "needs_phase_rules"
+      }
+    },
+    {
+      "sofascoreCompetitionId": "7",
+      "competitionName": "UEFA Champions League",
+      "countryName": "Europe",
+      "competitionAliases": [
+        "UEFA Champions League, Qualification"
+      ],
+      "countryAliases": [],
+      "apiFootball": {
+        "status": "conditional",
+        "sourceCompetitionId": "API_FOOTBALL_LEAGUE_ID_PLACEHOLDER",
+        "competitionName": "UEFA Champions League",
+        "countryName": "World",
+        "type": "Cup",
+        "season": 2026,
+        "current": true,
+        "coverage": {
+          "standings": true
+        },
+        "url": null,
+        "notes": "League phase e qualificações exigem leitura por fase e eventual fallback."
+      },
+      "standings": {
+        "enabled": true,
+        "provider": "api-football",
+        "mode": "league_phase",
+        "status": "needs_phase_rules"
+      }
+    }
+  ]
+}
